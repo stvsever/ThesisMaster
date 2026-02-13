@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "predominant_pain_symptom"
+    },
+    {
+      "criterium": "disproportionate_thoughts_about_pain_seriousness"
+    },
+    {
+      "criterium": "high_health_anxiety_related_to_pain"
+    },
+    {
+      "criterium": "excessive_time_and_energy_devoted_to_pain_or_health_concerns"
+    },
+    {
+      "criterium": "pain_related_distress_impairing_social_and_work_functioning"
+    },
+    {
+      "criterium": "multiple_pain_locations_reported"
+    },
+    {
+      "criterium": "avoidance_or_restriction_of_activities_due_to_pain"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

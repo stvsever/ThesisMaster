@@ -1,0 +1,33 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "anterior_cingulate_cortex_activation_magnitude",
+      "anterior_cingulate_cortex_activation_latency_ms",
+      "medial_prefrontal_cortex_activation_magnitude",
+      "pre_supplementary_motor_area_activation_magnitude",
+      "frontal_error_monitoring_network_connectivity_strength",
+      "frontal_theta_band_power_frontocentral"
+    ],
+    "physiology": [
+      "ern_amplitude_microvolts",
+      "ern_latency_ms",
+      "eeg_sampling_rate_hz",
+      "eeg_data_quality_score"
+    ],
+    "behavior": [
+      "flanker_task_error_rate",
+      "go_nogo_task_error_rate",
+      "post_error_slowing_ms",
+      "reaction_time_mean_after_error_ms"
+    ],
+    "self_report": [
+      "error_awareness_scale_score",
+      "conflict_monitoring_scale_score",
+      "post_error_adjustment_self_report_score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.2
+}

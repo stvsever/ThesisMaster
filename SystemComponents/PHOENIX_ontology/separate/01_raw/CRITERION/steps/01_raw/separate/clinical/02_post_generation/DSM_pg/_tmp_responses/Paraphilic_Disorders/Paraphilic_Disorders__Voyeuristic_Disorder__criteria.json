@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "arousal_from_observing_naked_or_disrobed_individuals"
+    },
+    {
+      "criterium": "arousal_from_observing_individuals_engaged_in_sexual_activity"
+    },
+    {
+      "criterium": "recurrent_peeping_or_hidden_observation_of_unaware_targets"
+    },
+    {
+      "criterium": "intrusive_urge_to_observe_others_undressing"
+    },
+    {
+      "criterium": "inability_to_resist_observational_urges"
+    },
+    {
+      "criterium": "acts_on_urges_by_peeping_or_viewing_unaware_targets"
+    },
+    {
+      "criterium": "distress_or_impairment_related_to_voyeuristic_urges_or_behaviors"
+    },
+    {
+      "criterium": "observation_behaviors_across_multiple_settings"
+    },
+    {
+      "criterium": "secretive_observational_behaviors_in_private_or_semi_private_settings"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

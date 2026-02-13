@@ -1,0 +1,53 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_gene_expression",
+      "NR3C1_gene_expression",
+      "FKBP5_gene_expression",
+      "SLC6A4_gene_expression",
+      "CRHR1_gene_expression"
+    ],
+    "molecules": [
+      "cortisol_concentration",
+      "dopamine_concentration",
+      "serotonin_concentration",
+      "BDNF_protein_level",
+      "IL6_concentration",
+      "CRH_concentration"
+    ],
+    "cells": [
+      "microglia_activation_marker_expression",
+      "hippocampal_pyramidal_neuron_spine_density",
+      "prefrontal_cortex_dendritic_spine_density",
+      "nucleus_accumbens_dopaminergic_neuron_firing_rate",
+      "vmPFC_pyramidal_neuron_firing_rate",
+      "amygdala_pyramidal_neuron_firing_rate"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_connectivity_strength",
+      "mesolimbic_reward_circuit_reactivity",
+      "hippocampus_amygdala_connectivity_strength",
+      "prefrontal_basal_ganglia_top_down_control_efficiency"
+    ],
+    "physiology": [
+      "heart_rate_variability",
+      "skin_electrodermal_response",
+      "pupillary_dilation_response",
+      "respiratory_rate",
+      "baseline_blood_pressure"
+    ],
+    "behavior": [
+      "reward_seeking_behavior_score",
+      "social_withdrawal_duration_minutes_per_day",
+      "physical_activity_minutes_per_day",
+      "anhedonia_behavioral_index"
+    ],
+    "self_report": [
+      "anhedonia_severity_score",
+      "withdrawal_symptom_scale_score",
+      "social_withdrawal_scale_score",
+      "reward_responsivity_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 7.4
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tonic_clonic_seizure_during_withdrawal"
+    },
+    {
+      "criterium": "delirium_presence_during_withdrawal"
+    },
+    {
+      "criterium": "visual_hallucinations_during_withdrawal"
+    },
+    {
+      "criterium": "auditory_hallucinations_during_withdrawal"
+    },
+    {
+      "criterium": "tremor_presence_during_withdrawal"
+    },
+    {
+      "criterium": "psychomotor_agitation_during_withdrawal"
+    },
+    {
+      "criterium": "orientation_disorder_during_withdrawal"
+    },
+    {
+      "criterium": "autonomic_hyperactivity_during_withdrawal"
+    },
+    {
+      "criterium": "sleep_disturbance_during_withdrawal"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

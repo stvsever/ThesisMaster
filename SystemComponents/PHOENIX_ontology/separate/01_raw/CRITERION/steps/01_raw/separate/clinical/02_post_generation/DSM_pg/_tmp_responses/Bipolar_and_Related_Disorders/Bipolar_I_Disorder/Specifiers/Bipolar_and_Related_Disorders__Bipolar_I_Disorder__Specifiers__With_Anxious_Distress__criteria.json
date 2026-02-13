@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "feeling_keyed_up_or_tense"
+    },
+    {
+      "criterium": "unusually_restless"
+    },
+    {
+      "criterium": "difficulty_concentrating_due_to_worry"
+    },
+    {
+      "criterium": "fear_that_something_awful_may_happen"
+    },
+    {
+      "criterium": "fear_of_losing_control"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_anxiety"
+    },
+    {
+      "criterium": "tachycardia_or_palpitations"
+    },
+    {
+      "criterium": "headache_or_muscle_tension_due_to_anxiety"
+    },
+    {
+      "criterium": "gastrointestinal_distress_related_to_anxiety"
+    },
+    {
+      "criterium": "hypervigilance_or_exaggerated_startle_reaction"
+    },
+    {
+      "criterium": "excessive_worry_interfering_with_functioning"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

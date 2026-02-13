@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "masseter_rigidity"
+    },
+    {
+      "criterium": "generalized_skeletal_muscle_rigidity"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "tachypnea"
+    },
+    {
+      "criterium": "end_tidal_co2_increase"
+    },
+    {
+      "criterium": "hyperthermia"
+    },
+    {
+      "criterium": "metabolic_acidosis"
+    },
+    {
+      "criterium": "elevated_lactate"
+    },
+    {
+      "criterium": "hyperkalemia"
+    },
+    {
+      "criterium": "ck_elevation"
+    },
+    {
+      "criterium": "myoglobinuria"
+    },
+    {
+      "criterium": "hypoxemia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.03
+}

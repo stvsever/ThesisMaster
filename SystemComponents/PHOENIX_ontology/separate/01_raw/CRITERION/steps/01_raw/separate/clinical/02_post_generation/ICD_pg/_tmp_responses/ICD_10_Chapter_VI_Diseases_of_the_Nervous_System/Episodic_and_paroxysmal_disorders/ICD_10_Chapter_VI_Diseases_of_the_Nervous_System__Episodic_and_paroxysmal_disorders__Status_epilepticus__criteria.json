@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_generalized_convulsive_seizure_activity"
+    },
+    {
+      "criterium": "persistent_focal_motor_seizure_activity"
+    },
+    {
+      "criterium": "unresponsiveness_to_external_stimuli"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "hypoxemia"
+    },
+    {
+      "criterium": "hypoventilation_or_apnea"
+    },
+    {
+      "criterium": "pupillary_dilation"
+    },
+    {
+      "criterium": "urinary_incontinence"
+    },
+    {
+      "criterium": "fecal_incontinence"
+    },
+    {
+      "criterium": "postictal_confusion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

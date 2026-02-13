@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_facial_muscle_paralysis"
+    },
+    {
+      "criterium": "inability_to_close_eye_on_affected_side"
+    },
+    {
+      "criterium": "smile_asymmetry_on_affected_side"
+    },
+    {
+      "criterium": "forehead_wrinkling_reduction_on_affected_side"
+    },
+    {
+      "criterium": "nasolabial_fold_flattening_on_affected_side"
+    },
+    {
+      "criterium": "hyperacusis_in_affected_ear"
+    },
+    {
+      "criterium": "loss_of_taste_in_anterior_two_thirds_of_tongue"
+    },
+    {
+      "criterium": "reduced_lacrimation_on_affected_side"
+    },
+    {
+      "criterium": "decreased_salivation_on_affected_side"
+    }
+  ],
+  "estimated_prevalence_percent": 0.12
+}

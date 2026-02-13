@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delirium_presence"
+    },
+    {
+      "criterium": "altered_attention"
+    },
+    {
+      "criterium": "short_term_memory_deficit"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "language_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "delusional_thought_content"
+    },
+    {
+      "criterium": "mood_disturbance"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "psychomotor_changes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

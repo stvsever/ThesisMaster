@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "limb_weakness"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "involuntary_dystonic_posturing"
+    },
+    {
+      "criterium": "involuntary_tremor"
+    },
+    {
+      "criterium": "non_epileptic_seizure_like_events"
+    },
+    {
+      "criterium": "sensory_loss_non_dermatomal_distribution"
+    },
+    {
+      "criterium": "paresthesias_without_dermatomal_pattern"
+    },
+    {
+      "criterium": "functional_visual_loss"
+    },
+    {
+      "criterium": "functional_aphonia_or_dysphonia"
+    },
+    {
+      "criterium": "swallowing_difficulty_without_oropharyngeal_pathology"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

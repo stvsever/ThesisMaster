@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "self_induced_vomiting_post_meals"
+    },
+    {
+      "criterium": "laxative_abuse_post_meals"
+    },
+    {
+      "criterium": "diuretic_abuse_post_meals"
+    },
+    {
+      "criterium": "other_purging_methods_used"
+    },
+    {
+      "criterium": "absence_of_objective_binge_eating_episodes"
+    },
+    {
+      "criterium": "normal_or_overweight_bmi"
+    },
+    {
+      "criterium": "body_shape_concern_present"
+    },
+    {
+      "criterium": "parotid_gland_enlargement_present"
+    },
+    {
+      "criterium": "dental_enamel_wear_present_from_vomiting"
+    },
+    {
+      "criterium": "knuckle_calluses_from_vomiting_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

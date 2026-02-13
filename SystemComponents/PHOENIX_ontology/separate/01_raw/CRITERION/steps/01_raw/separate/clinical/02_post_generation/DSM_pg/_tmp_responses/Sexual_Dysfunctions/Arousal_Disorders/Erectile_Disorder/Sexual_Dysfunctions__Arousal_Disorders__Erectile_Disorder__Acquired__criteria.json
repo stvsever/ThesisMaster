@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inability_to_obtain_sufficient_erection_for_intercourse"
+    },
+    {
+      "criterium": "inability_to_maintain_erection_through_intercourse"
+    },
+    {
+      "criterium": "reduced_erectile_rigidity_at_peak_stimulation"
+    },
+    {
+      "criterium": "delayed_erection_onset_in_response_to_sexual_stimulation"
+    },
+    {
+      "criterium": "shortened_erection_duration_during_stimulation"
+    },
+    {
+      "criterium": "absent_or_significantly_reduced_nocturnal_penile_tumescence"
+    },
+    {
+      "criterium": "absence_of_morning_erections"
+    },
+    {
+      "criterium": "decreased_response_to_sexual_stimulation"
+    },
+    {
+      "criterium": "increased_erection_failure_rate_to_sexual_stimulation"
+    }
+  ],
+  "estimated_prevalence_percent": 8.0
+}

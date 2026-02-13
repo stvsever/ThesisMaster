@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "MOOD_REACTIVITY_BRIGHTENING_TO_POSITIVE_EVENTS"
+    },
+    {
+      "criterium": "WEIGHT_GAIN_OR_INCREASED_APPETITE"
+    },
+    {
+      "criterium": "HYPERSOMNIA"
+    },
+    {
+      "criterium": "LEADEN_PARALYSIS"
+    },
+    {
+      "criterium": "INTERPERSONAL_REJECTION_SENSITIVITY"
+    },
+    {
+      "criterium": "CARBOHYDRATE_CRAVINGS"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

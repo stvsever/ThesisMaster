@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "multidomain_fabrications"
+    },
+    {
+      "criterium": "detailed_false_narratives"
+    },
+    {
+      "criterium": "unprompted_false_claims"
+    },
+    {
+      "criterium": "fabrications_across_multiple_relationships"
+    },
+    {
+      "criterium": "fabrications_with_emotional_sensational_content"
+    },
+    {
+      "criterium": "fabrications_resistant_to_correction"
+    },
+    {
+      "criterium": "fabricated_events_or_experiences"
+    },
+    {
+      "criterium": "inconsistent_details_across_recounts"
+    },
+    {
+      "criterium": "fabrications_in_personal_history"
+    },
+    {
+      "criterium": "presentation_of_fabrications_as_personal_histories"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

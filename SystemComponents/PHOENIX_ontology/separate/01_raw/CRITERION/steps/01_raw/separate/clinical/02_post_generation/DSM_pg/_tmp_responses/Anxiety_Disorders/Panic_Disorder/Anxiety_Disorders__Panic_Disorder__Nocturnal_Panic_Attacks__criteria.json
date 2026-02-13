@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_panic_attack_episode"
+    },
+    {
+      "criterium": "abrupt_fear_onset_sleep"
+    },
+    {
+      "criterium": "palpitations_sleep"
+    },
+    {
+      "criterium": "diaphoresis_sleep"
+    },
+    {
+      "criterium": "tremor_sleep"
+    },
+    {
+      "criterium": "dyspnea_sleep"
+    },
+    {
+      "criterium": "chest_pain_sleep"
+    },
+    {
+      "criterium": "dizziness_sleep"
+    },
+    {
+      "criterium": "fear_loss_of_control_sleep"
+    },
+    {
+      "criterium": "fear_of_dying_sleep"
+    },
+    {
+      "criterium": "nocturnal_awakening_screaming"
+    },
+    {
+      "criterium": "amnesia_nocturnal_attack"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

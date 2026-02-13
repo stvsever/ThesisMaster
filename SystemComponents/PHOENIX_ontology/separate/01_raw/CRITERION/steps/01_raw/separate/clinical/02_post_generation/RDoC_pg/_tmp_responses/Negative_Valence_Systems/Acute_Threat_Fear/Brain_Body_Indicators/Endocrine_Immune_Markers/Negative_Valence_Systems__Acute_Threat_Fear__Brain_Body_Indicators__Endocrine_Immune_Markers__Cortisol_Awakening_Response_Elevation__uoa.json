@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "CRH",
+      "CRHR1",
+      "NR3C1",
+      "FKBP5",
+      "AVP"
+    ],
+    "molecules": [
+      "cortisol",
+      "ACTH",
+      "CRH",
+      "DHEA_S",
+      "CBG"
+    ],
+    "cells": [
+      "adrenal_cortical_cells",
+      "hypothalamic_PVN_neurons",
+      "corticotroph_cells",
+      "amygdala_neurons",
+      "hippocampal_pyramidal_cells"
+    ],
+    "circuits": [
+      "PVN_pituitary_pathway_strength",
+      "amygdala_PVN_functional_connectivity",
+      "PFC_HPA_regulation_signals",
+      "hippocampus_PVN_functional_connectivity",
+      "BNST_HPA_coordination"
+    ],
+    "physiology": [
+      "cortisol_awakening_immediate_level",
+      "cortisol_awakening_30min_level",
+      "CAR_amplitude",
+      "CAR_area_under_curve_0_30min",
+      "diurnal_cortisol_rhythm_index"
+    ],
+    "behavior": [
+      "startle_response_amplitude",
+      "fear_conditioning_freezing_duration",
+      "threat_attention_bias",
+      "stress_reactivity_behavior_score",
+      "avoidance_behavior_frequency"
+    ],
+    "self_report": [
+      "state_anxiety_score",
+      "trait_anxiety_score",
+      "perceived_stress_score",
+      "sleep_quality_score",
+      "morning_stress_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 7.4
+}

@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pain_intensity_elevated"
+    },
+    {
+      "criterium": "fatigue_present"
+    },
+    {
+      "criterium": "anxiety_present"
+    },
+    {
+      "criterium": "depression_present"
+    },
+    {
+      "criterium": "sleep_disturbance_present"
+    },
+    {
+      "criterium": "catastrophizing_pain_thoughts_present"
+    },
+    {
+      "criterium": "kinesiophobia_present"
+    },
+    {
+      "criterium": "pain_hypervigilance_present"
+    },
+    {
+      "criterium": "reduced_spinal_mobility_on_exam"
+    },
+    {
+      "criterium": "functional_impairment_due_to_pain_present"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_pain_present"
+    },
+    {
+      "criterium": "central_sensitization_signs_present"
+    },
+    {
+      "criterium": "allodynia_or_hyperalgesia_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_bruxism_events"
+    },
+    {
+      "criterium": "audible_sleep_bruxism_sounds"
+    },
+    {
+      "criterium": "masseter_hypertrophy_presence"
+    },
+    {
+      "criterium": "tooth_wear_facets_present"
+    },
+    {
+      "criterium": "tooth_damage_fractures_present"
+    },
+    {
+      "criterium": "morning_masticatory_pain"
+    },
+    {
+      "criterium": "morning_masseter_fatigue"
+    },
+    {
+      "criterium": "temporomandibular_joint_pain_morning"
+    },
+    {
+      "criterium": "sleep_arousals_coincident_with_bruxism"
+    },
+    {
+      "criterium": "jaw_muscle_tenderness_on_palpation_morning"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

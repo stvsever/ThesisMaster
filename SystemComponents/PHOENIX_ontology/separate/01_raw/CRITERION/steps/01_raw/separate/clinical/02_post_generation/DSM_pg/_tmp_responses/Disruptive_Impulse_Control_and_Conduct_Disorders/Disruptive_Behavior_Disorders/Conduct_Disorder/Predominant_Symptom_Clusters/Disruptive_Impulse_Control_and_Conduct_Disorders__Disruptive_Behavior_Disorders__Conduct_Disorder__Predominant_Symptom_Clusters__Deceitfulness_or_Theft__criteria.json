@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "LiesToObtainGoodsOrFavors"
+    },
+    {
+      "criterium": "TheftOfItemsOfNontrivialValue"
+    },
+    {
+      "criterium": "TheftInPresenceOfVictim"
+    },
+    {
+      "criterium": "LiesToAvoidObligationsOrPunishment"
+    },
+    {
+      "criterium": "DeceptiveManipulationOfOthersForPersonalGain"
+    },
+    {
+      "criterium": "LackOfGuiltRemorseAfterTheft"
+    },
+    {
+      "criterium": "FailureToRestoreStolenItemsOrProvideRestitution"
+    },
+    {
+      "criterium": "TheftWithConcealmentOrAvoidanceOfDetection"
+    },
+    {
+      "criterium": "RecurrentLyingInInterpersonalRelationships"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

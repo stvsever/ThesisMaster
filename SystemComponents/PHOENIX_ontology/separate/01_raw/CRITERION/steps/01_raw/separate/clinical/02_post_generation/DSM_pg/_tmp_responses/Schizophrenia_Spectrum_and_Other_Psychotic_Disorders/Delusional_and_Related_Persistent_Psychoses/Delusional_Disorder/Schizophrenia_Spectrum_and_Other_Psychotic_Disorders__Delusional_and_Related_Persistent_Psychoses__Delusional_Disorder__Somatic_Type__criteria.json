@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fixed_somatic_belief"
+    },
+    {
+      "criterium": "parasitosis_delusion"
+    },
+    {
+      "criterium": "poisoning_delusion"
+    },
+    {
+      "criterium": "contamination_delusion"
+    },
+    {
+      "criterium": "organ_dysfunction_belief"
+    },
+    {
+      "criterium": "bodily_mutilation_delusion"
+    },
+    {
+      "criterium": "body_transformation_delusion"
+    },
+    {
+      "criterium": "foul_odor_delusion"
+    },
+    {
+      "criterium": "tactile_sensation_of_parasites_delusion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

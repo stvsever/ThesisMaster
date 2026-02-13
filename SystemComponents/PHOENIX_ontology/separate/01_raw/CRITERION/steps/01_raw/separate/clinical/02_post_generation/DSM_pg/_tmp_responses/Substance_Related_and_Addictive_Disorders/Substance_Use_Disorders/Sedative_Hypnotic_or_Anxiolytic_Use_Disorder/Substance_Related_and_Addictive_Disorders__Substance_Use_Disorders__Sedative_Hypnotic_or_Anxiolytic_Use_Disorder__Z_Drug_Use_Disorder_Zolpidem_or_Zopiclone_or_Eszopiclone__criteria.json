@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "dose_escalation_of_zdrug_use"
+    },
+    {
+      "criterium": "craving_for_zdrug"
+    },
+    {
+      "criterium": "loss_of_control_over_zdrug_use"
+    },
+    {
+      "criterium": "continued_zdrug_use_despite_adverse_events"
+    },
+    {
+      "criterium": "repeated_failed_attempts_to_reduce_or_stop_zdrug"
+    },
+    {
+      "criterium": "increased_time_spent_obtaining_and_using_zdrug"
+    },
+    {
+      "criterium": "co_ingestion_with_alcohol_or_other_cns_depressants"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_zdrug_cessation"
+    },
+    {
+      "criterium": "functional_impairment_in_social_occupational_domains_due_to_zdrug_use"
+    },
+    {
+      "criterium": "zdrug_use_without_prescription_or_outside_indication"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

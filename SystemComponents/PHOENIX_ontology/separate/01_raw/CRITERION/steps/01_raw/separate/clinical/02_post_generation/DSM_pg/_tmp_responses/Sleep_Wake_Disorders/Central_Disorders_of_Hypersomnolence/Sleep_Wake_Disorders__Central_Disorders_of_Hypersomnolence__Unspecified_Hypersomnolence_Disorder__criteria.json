@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Excessive_Daytime_Somnolence"
+    },
+    {
+      "criterium": "Recurrent_Unintentional_Naps_During_Wakefulness"
+    },
+    {
+      "criterium": "Automatic_Behavior_During_Mundane_Tasks"
+    },
+    {
+      "criterium": "Nonrestorative_Nocturnal_Sleep"
+    },
+    {
+      "criterium": "Sleep_Inertia_On_Awakening"
+    },
+    {
+      "criterium": "Microsleeps_During_Vigilance"
+    },
+    {
+      "criterium": "Impaired_Cognitive_Functioning_During_Wakefulness"
+    },
+    {
+      "criterium": "Mood_Lability_Related_To_Somnolence"
+    },
+    {
+      "criterium": "Occupational_Social_Functioning_Impairment_Due_To_Somnolence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

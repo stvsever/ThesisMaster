@@ -1,0 +1,57 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M_genotype",
+      "COMT_V158M_genotype",
+      "DRD2_Taq1A_genotype",
+      "CACNA1A_variant",
+      "GRIN2A_variant",
+      "SNCA_variant"
+    ],
+    "molecules": [
+      "BDNF_protein_level",
+      "Dopamine_concentration",
+      "GABA_concentration",
+      "NMDA_NR2A_expression",
+      "AMPA_GluA2_expression",
+      "Acetylcholine_level",
+      "BDNF_mRNA_level"
+    ],
+    "cells": [
+      "Purkinje_cell_firing_rate",
+      "Purkinje_cell_spiking_rate",
+      "M1_pyramidal_neuron_firing_rate",
+      "Interneuron_GABAergic_activity_level",
+      "Cerebellar_purkinje_cell_population_activity"
+    ],
+    "circuits": [
+      "Cerebellar_thalamocortical_loop_connectivity",
+      "M1_SMA_connectivity_strength",
+      "Visuomotor_network_synchrony",
+      "Cerebellar_pontine_projection_connectivity",
+      "Basal_ganglia_motor_loop_connectivity"
+    ],
+    "physiology": [
+      "Online_adaptation_rate",
+      "Offline_retention_rate",
+      "Error_sensitivity_index",
+      "Movement_variability_during_adaptation",
+      "Reaction_time_variability"
+    ],
+    "behavior": [
+      "Visuomotor_adaptation_rate",
+      "Aftereffect_magnitude",
+      "Movement_trajectory_smoothness",
+      "Tracking_accuracy_during_adaptation",
+      "Angular_error_reduction_per_trial",
+      " Prism_adaptation_effect_size"
+    ],
+    "self_report": [
+      "Adaptation_deficit_self_report_score",
+      "Self_report_adaptation_effort",
+      "Self_report_motor_control_confidence",
+      "Self_report_change_sensitivity"
+    ]
+  },
+  "estimated_prevalence_percent": 2.0
+}

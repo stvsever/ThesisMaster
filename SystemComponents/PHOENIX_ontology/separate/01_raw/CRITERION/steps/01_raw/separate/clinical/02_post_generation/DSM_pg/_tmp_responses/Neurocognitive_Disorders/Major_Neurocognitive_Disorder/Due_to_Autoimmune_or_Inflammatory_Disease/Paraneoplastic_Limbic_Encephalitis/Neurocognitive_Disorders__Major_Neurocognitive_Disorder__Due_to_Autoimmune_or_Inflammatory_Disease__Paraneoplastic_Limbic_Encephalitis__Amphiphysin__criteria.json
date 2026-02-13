@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_amnesia"
+    },
+    {
+      "criterium": "retrograde_amnesia"
+    },
+    {
+      "criterium": "temporal_lobe_seizures"
+    },
+    {
+      "criterium": "behavioral_change"
+    },
+    {
+      "criterium": "mood_disorder"
+    },
+    {
+      "criterium": "psychosis"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "confusion"
+    },
+    {
+      "criterium": "speech_dysfunction"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "mri_medial_temporal_hyperintensity"
+    },
+    {
+      "criterium": "csf_pleocytosis"
+    },
+    {
+      "criterium": "hyponatremia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0001
+}

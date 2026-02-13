@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acute_onset_disturbance_in_attention"
+    },
+    {
+      "criterium": "disorientation_to_time_and_place"
+    },
+    {
+      "criterium": "disorganized_thought_process"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "pupillary_dilation"
+    },
+    {
+      "criterium": "tremor"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "frequent_nocturnal_arousals"
+    },
+    {
+      "criterium": "inability_to_retain_sleep"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "sleep_fragmentation"
+    },
+    {
+      "criterium": "increased_wake_time_after_sleep_onset"
+    },
+    {
+      "criterium": "reduced_sleep_continuity"
+    },
+    {
+      "criterium": "nonrestorative_sleep_experience"
+    },
+    {
+      "criterium": "recurrent_intermittent_awakenings"
+    },
+    {
+      "criterium": "nocturnal_cognitive_arousal"
+    }
+  ],
+  "estimated_prevalence_percent": 7.0
+}

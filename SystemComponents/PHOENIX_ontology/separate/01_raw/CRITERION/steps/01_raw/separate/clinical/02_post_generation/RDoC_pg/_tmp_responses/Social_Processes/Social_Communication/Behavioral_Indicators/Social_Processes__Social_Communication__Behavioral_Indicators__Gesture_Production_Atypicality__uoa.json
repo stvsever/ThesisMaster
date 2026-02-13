@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "FOXP2",
+      "CNTNAP2",
+      "SHANK3",
+      "ROBO1",
+      "DYRK1A",
+      "MET"
+    ],
+    "molecules": [
+      "BDNF_level",
+      "OXTR_level",
+      "DRD2_level",
+      "GABA_A_receptor_density",
+      "GLUTAMATE_receptor_density"
+    ],
+    "cells": [
+      "MOTOR_CORTEX_pyramidal_neuron_density",
+      "CEREBELLAR_PURKINJE_cell_density",
+      "BROCA_area_pyramidal_neuron_density",
+      "SUPPLEMENTARY_MOTOR_AREA_pyramidal_neuron_density"
+    ],
+    "circuits": [
+      "MOTOR_NETWORK_connectivity_strength",
+      "PREMOTOR_SMA_connectivity_strength",
+      "BROCA_INFERIOR_PARIETAL_connectivity_strength",
+      "CEREBELLAR_MOTOR_LOOP_connectivity_strength",
+      "MIRROR_NEURON_SYSTEM_connectivity_strength"
+    ],
+    "physiology": [
+      "EMG_hand_activity_microvolts",
+      "hand_gesture_onset_latency_ms",
+      "kinematic_path_deviation_mm",
+      "pupil_dilation_mm",
+      "heart_rate_variability_ms"
+    ],
+    "behavior": [
+      "gesture_production_latency_ms",
+      "gesture_production_accuracy_percent",
+      "spontaneous_gesture_frequency_per_min",
+      "gesture_sequence_error_rate_per_min",
+      "gesture_type_diversity_index",
+      "hand_gesture_rate_per_min"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 2.5
+}

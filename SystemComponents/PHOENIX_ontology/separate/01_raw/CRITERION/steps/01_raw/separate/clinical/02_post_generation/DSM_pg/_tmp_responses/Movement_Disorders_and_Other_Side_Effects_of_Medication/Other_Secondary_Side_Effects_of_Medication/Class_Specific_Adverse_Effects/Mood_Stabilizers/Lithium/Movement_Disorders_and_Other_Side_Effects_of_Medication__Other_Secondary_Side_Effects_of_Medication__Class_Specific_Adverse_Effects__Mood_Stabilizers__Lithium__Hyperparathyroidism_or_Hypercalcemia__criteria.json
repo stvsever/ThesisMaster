@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_serum_calcium"
+    },
+    {
+      "criterium": "increased_serum_PTH"
+    },
+    {
+      "criterium": "hypophosphatemia"
+    },
+    {
+      "criterium": "polyuria"
+    },
+    {
+      "criterium": "polydipsia"
+    },
+    {
+      "criterium": "constipation"
+    },
+    {
+      "criterium": "nausea_vomiting"
+    },
+    {
+      "criterium": "bone_pain"
+    },
+    {
+      "criterium": "reduced_bone_mineral_density"
+    },
+    {
+      "criterium": "nephrolithiasis_history"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "sleep_attack_incidence"
+    },
+    {
+      "criterium": "daytime_nap_frequency"
+    },
+    {
+      "criterium": "daytime_nap_duration_minutes"
+    },
+    {
+      "criterium": "nocturnal_sleep_latency_minutes"
+    },
+    {
+      "criterium": "nocturnal_sleep_efficiency_percent"
+    },
+    {
+      "criterium": "sleep_inertia_duration_minutes"
+    },
+    {
+      "criterium": "slowed_reaction_time_during_wakefulness"
+    },
+    {
+      "criterium": "executive_function_impairment_due_to_sleepiness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

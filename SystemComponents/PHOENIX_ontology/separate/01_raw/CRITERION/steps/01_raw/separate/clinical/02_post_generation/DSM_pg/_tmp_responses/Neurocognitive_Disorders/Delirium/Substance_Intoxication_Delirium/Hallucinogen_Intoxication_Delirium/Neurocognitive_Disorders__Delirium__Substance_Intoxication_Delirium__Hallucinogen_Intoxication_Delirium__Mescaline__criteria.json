@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "clouding_of_consciousness"
+    },
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "disorientation_time"
+    },
+    {
+      "criterium": "disorientation_place"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_distortions"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "tremor"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

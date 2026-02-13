@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "geometric_visual_hallucinations"
+    },
+    {
+      "criterium": "palinopsia"
+    },
+    {
+      "criterium": "color_intensification"
+    },
+    {
+      "criterium": "visual_halos_around_objects"
+    },
+    {
+      "criterium": "visual_trails_or_smearing"
+    },
+    {
+      "criterium": "afterimage_persistence"
+    },
+    {
+      "criterium": "macropsia"
+    },
+    {
+      "criterium": "micropsia"
+    },
+    {
+      "criterium": "illusory_motion_perception"
+    },
+    {
+      "criterium": "perceived_flicker"
+    },
+    {
+      "criterium": "chromatic_distortion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

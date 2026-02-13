@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "miosis"
+    },
+    {
+      "criterium": "sialorrhea"
+    },
+    {
+      "criterium": "lacrimation"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "bronchorrhea"
+    },
+    {
+      "criterium": "bronchospasm"
+    },
+    {
+      "criterium": "fasciculations"
+    },
+    {
+      "criterium": "muscle_weakness"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "seizures"
+    },
+    {
+      "criterium": "bradycardia"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "altered_level_of_consciousness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

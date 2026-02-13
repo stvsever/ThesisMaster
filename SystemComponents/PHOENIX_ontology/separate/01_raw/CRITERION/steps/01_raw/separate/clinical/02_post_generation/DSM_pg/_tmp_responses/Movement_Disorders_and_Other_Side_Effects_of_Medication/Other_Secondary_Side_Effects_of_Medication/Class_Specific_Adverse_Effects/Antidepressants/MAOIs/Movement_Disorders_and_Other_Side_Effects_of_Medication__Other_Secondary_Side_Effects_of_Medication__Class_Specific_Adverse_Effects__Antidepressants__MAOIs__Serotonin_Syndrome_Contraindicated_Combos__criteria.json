@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hyperthermia"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "hyperreflexia"
+    },
+    {
+      "criterium": "inducible_clonus"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "delirium"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "diarrhea"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

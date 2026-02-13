@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "olfactory_hallucinations"
+    },
+    {
+      "criterium": "delusions_persecution"
+    },
+    {
+      "criterium": "delusions_grandiose"
+    },
+    {
+      "criterium": "delusions_reference"
+    },
+    {
+      "criterium": "delusions_control"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "catatonia_features"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0003
+}

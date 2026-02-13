@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sbp_ge_180_mmHg"
+    },
+    {
+      "criterium": "dbp_ge_120_mmHg"
+    },
+    {
+      "criterium": "severe_headache_present"
+    },
+    {
+      "criterium": "tachycardia_gt_100_bpm"
+    },
+    {
+      "criterium": "diaphoresis_present"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "vomiting_present"
+    },
+    {
+      "criterium": "blurred_vision_present"
+    },
+    {
+      "criterium": "altered_mental_status_present"
+    },
+    {
+      "criterium": "chest_pain_present"
+    },
+    {
+      "criterium": "epistaxis_present"
+    },
+    {
+      "criterium": "papilledema_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

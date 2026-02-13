@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_VAL158MET",
+      "BDNF_VAL66MET",
+      "DRD2_rs1800497"
+    ],
+    "molecules": [
+      "DOPAMINE",
+      "GLUTAMATE",
+      "GABA",
+      "CREB_PHOSPHORYLATION",
+      "DOPAMINE_D1_RECEPTOR_BINDING"
+    ],
+    "cells": [
+      "PYRAMIDAL_NEURONS_LAYER_III",
+      "PV_INTERNEURONS",
+      "SOM_INTERNEURONS",
+      "DENDRITIC_SPINE_DENSITY"
+    ],
+    "circuits": [
+      "DLPFC_WORKING_MEMORY_CIRCUIT",
+      "FRONTOPARIETAL_NETWORK",
+      "DLPFC_BA46_SUBREGION",
+      "PARIETAL_ACTIVATION_PATHWAY"
+    ],
+    "physiology": [
+      "BOLD_DLPFC_LOAD",
+      "EEG_GAMMA_POWER_DLPFC",
+      "EEG_THETA_POWER_DLPFC",
+      "PUPILLARY_DILATION_DURING_LOAD",
+      "HEART_RATE_CHANGE_DURING_LOAD"
+    ],
+    "behavior": [
+      "NBACK_ACCURACY",
+      "NBACK_REACTION_TIME",
+      "WORKING_MEMORY_SPAN_SCORE",
+      "OPSPAN_SCORE"
+    ],
+    "self_report": [
+      "NASA_TLX",
+      "PERCEIVED_EFFORT",
+      "COGNITIVE_CONTROL_SATISFACTION"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

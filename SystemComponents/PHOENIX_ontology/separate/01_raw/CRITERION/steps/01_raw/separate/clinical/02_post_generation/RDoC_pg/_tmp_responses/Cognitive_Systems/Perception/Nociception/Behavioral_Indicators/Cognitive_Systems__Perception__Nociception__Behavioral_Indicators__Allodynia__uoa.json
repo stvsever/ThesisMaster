@@ -1,0 +1,61 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "SCN9A_pain_sensitivity_variant",
+      "BDNF_V66M_variant",
+      "COMT_V158M_variant",
+      "OPRM1_A118G_variant",
+      "TRPV1_variant_pain_threshold",
+      "KCNS2_variant_pain_excitability"
+    ],
+    "molecules": [
+      "glutamate_spinal_dorsal_horn_concentration",
+      "substance_P_spinal_dorsal_horn_concentration",
+      "CGRP_spinal_dorsal_horn_concentration",
+      "TNF_alpha_spinal_dorsal_horn_concentration",
+      "BDNF_spinal_dorsal_horn_concentration",
+      "NGF_spinal_dorsal_horn_concentration"
+    ],
+    "cells": [
+      "Iba1_expression_in_spinal_dorsal_horn",
+      "GFAP_expression_in_spinal_dorsal_horn",
+      "P2X4_receptor_expression_spinal_dorsal_horn",
+      "Nav1_7_positive_nociceptors_density",
+      "TRPV1_positive_nociceptors_density",
+      "Lamina_I_neuron_excitability_spinal_dorsal_horn"
+    ],
+    "circuits": [
+      "s1_pain_network_activation_to_light_touch",
+      "insula_pain_network_activation_to_light_touch",
+      "thalamocortical_pain_signal_synchrony_to_light_touch",
+      "acc_pain_related_activation_to_light_touch",
+      "PAG_pain_modulation_effector_to_spinal_nociception",
+      "descending_pain_control_activity_to_spinal_cord"
+    ],
+    "physiology": [
+      "mechanical_allodynia_threshold",
+      "light_touch_pain_threshold",
+      "withdrawal_latency_to_light_touch",
+      "skin_blood_flow_change_to_light_touch",
+      "skin_temperature_change_to_light_touch",
+      "heart_rate_change_to_light_touch"
+    ],
+    "behavior": [
+      "withdrawal_response_to_light_touch",
+      "guarding_behavior_to_light_touch",
+      "rubbing_behavior_after_touch",
+      "avoidance_of_light_touch_task",
+      "touch_avoidance_behavior_score",
+      "facial_pacial_pain_response_to_light_touch"
+    ],
+    "self_report": [
+      "allodynia_severity_on_scale",
+      "light_touch_pain_intensity_nrs",
+      "touch_induced_pain_frequency_per_day",
+      "allodynia_impact_on_quality_of_life_score",
+      "touch_aversion_scale",
+      "discomfort_from_light_touch_questionnaire_score"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

@@ -1,0 +1,35 @@
+{
+  "domain_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neuroprotection_Inflammation_and_Oxidative_Stress",
+  "domain_root_path": [
+    "BIO",
+    "Cognitive_Capacity_and_Brain_Health",
+    "Neuroprotection_Inflammation_and_Oxidative_Stress"
+  ],
+  "leaf_count": 30,
+  "total_edges_in_subtree": 33,
+  "evaluated_pairs": 33,
+  "violations_count": 2,
+  "violation_rate": 0.06060606060606061,
+  "llm_calls": 1,
+  "violations": [
+    "Glutathione_and_Redox_Support > Glycine",
+    "Polyphenols_and_Antioxidant_Bioactives > Sulforaphane_Precursor"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Glutathione_and_Redox_Support > Glycine",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neuroprotection_Inflammation_and_Oxidative_Stress / Glutathione_and_Redox_Support",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neuroprotection_Inflammation_and_Oxidative_Stress / Glutathione_and_Redox_Support / Glycine"
+    },
+    {
+      "pair": "Polyphenols_and_Antioxidant_Bioactives > Sulforaphane_Precursor",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neuroprotection_Inflammation_and_Oxidative_Stress / Polyphenols_and_Antioxidant_Bioactives",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neuroprotection_Inflammation_and_Oxidative_Stress / Polyphenols_and_Antioxidant_Bioactives / Sulforaphane_Precursor"
+    }
+  ],
+  "cache_key": "c4c2745dce1e687286ae634d18303d564c6ddb47",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 44.797
+}

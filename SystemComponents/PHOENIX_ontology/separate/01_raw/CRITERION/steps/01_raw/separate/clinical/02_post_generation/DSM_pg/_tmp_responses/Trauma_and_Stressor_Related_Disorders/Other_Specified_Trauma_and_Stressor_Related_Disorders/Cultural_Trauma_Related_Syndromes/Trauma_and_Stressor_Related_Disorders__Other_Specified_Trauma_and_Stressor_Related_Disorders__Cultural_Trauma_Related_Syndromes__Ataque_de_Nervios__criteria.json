@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "screaming_shouting"
+    },
+    {
+      "criterium": "excessive_crying"
+    },
+    {
+      "criterium": "body_tremors"
+    },
+    {
+      "criterium": "palpitations_chest_pain"
+    },
+    {
+      "criterium": "dizziness_or_faintness"
+    },
+    {
+      "criterium": "nausea_gastrointestinal_distress"
+    },
+    {
+      "criterium": "dissociative_trance_or_loss_of_consciousness"
+    },
+    {
+      "criterium": "hot_flashes_heat_sensation"
+    },
+    {
+      "criterium": "verbal_aggression"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "DEXA_T_SCORE_LESS_THAN_MINUS_2_5"
+    },
+    {
+      "criterium": "HISTORY_OF_PRIOR_FRAGILITY_FRACTURE"
+    },
+    {
+      "criterium": "VERTEBRAL_COMPRESSION_FRACTURE_DETECTED"
+    },
+    {
+      "criterium": "HIP_BMD_DECREASED"
+    },
+    {
+      "criterium": "LUMBAR_SPINE_BMD_DECREASED"
+    },
+    {
+      "criterium": "CTX_ELEVATED_BONE_RESORPTION_MARKER"
+    },
+    {
+      "criterium": "P1NP_ELEVATED_BONE_TURNOVER_MARKER"
+    },
+    {
+      "criterium": "VITAMIN_D_DEFICIENT"
+    },
+    {
+      "criterium": "HEIGHT_REDUCTION_DUE_TO_VERTEBRAL_FRAC"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

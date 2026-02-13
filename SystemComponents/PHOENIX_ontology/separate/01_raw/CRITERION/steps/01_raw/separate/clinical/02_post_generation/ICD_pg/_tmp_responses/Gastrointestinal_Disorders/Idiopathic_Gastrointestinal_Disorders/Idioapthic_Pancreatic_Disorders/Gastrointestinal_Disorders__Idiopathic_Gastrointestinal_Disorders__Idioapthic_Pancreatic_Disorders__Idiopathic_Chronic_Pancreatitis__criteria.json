@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "epigastric_pain"
+    },
+    {
+      "criterium": "pain_radiation_to_back"
+    },
+    {
+      "criterium": "postprandial_epigastric_pain"
+    },
+    {
+      "criterium": "steatorrhea"
+    },
+    {
+      "criterium": "unintentional_weight_loss"
+    },
+    {
+      "criterium": "fecal_fat_excretion_increased"
+    },
+    {
+      "criterium": "abdominal_tenderness_on_examination"
+    },
+    {
+      "criterium": "pancreatic_calcifications_on_imaging"
+    },
+    {
+      "criterium": "pancreatic_ductal_dilatation_on_imaging"
+    },
+    {
+      "criterium": "pancreatogenic_diabetes_mellitus"
+    }
+  ],
+  "estimated_prevalence_percent": 0.04
+}

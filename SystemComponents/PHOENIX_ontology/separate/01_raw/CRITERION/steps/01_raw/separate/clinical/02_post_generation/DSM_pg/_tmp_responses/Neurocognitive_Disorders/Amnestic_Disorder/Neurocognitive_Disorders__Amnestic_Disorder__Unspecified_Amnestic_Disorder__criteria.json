@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Anterograde_memory_impairment"
+    },
+    {
+      "criterium": "Impaired_learning_of_new_information"
+    },
+    {
+      "criterium": "Rapid_decay_of_new_memories"
+    },
+    {
+      "criterium": "Deficient_free_recall_of_recent_memories"
+    },
+    {
+      "criterium": "Deficient_cued_recall_of_recent_memories"
+    },
+    {
+      "criterium": "Remote_memory_preservation"
+    },
+    {
+      "criterium": "External_memory_aid_dependence"
+    },
+    {
+      "criterium": "Repetitive_questioning_due_to_memory_deficits"
+    },
+    {
+      "criterium": "Language_fluency_preservation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

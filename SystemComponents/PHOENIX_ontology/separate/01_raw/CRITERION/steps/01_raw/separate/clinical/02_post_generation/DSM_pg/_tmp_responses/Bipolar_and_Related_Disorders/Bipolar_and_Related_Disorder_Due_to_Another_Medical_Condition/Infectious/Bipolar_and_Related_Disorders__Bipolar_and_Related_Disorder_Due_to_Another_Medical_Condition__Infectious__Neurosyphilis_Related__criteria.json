@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "manic_symptomatology_present"
+    },
+    {
+      "criterium": "pressured_speech_present"
+    },
+    {
+      "criterium": "flight_of_ideas_present"
+    },
+    {
+      "criterium": "decreased_sleep_need_present"
+    },
+    {
+      "criterium": "delusions_present"
+    },
+    {
+      "criterium": "auditory_hallucinations_present"
+    },
+    {
+      "criterium": "memory_impairment_present"
+    },
+    {
+      "criterium": "executive_dysfunction_present"
+    },
+    {
+      "criterium": "disorientation_present"
+    },
+    {
+      "criterium": "argyll_robertson_pupil_present"
+    },
+    {
+      "criterium": "gait_ataxia_present"
+    },
+    {
+      "criterium": "cognitive_fluctuation_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

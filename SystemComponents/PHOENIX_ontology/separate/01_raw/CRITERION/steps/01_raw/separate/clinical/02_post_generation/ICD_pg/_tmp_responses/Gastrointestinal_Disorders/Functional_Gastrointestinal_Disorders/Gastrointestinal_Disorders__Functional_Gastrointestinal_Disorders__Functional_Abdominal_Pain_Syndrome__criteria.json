@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_abdominal_pain"
+    },
+    {
+      "criterium": "pain_not_relieved_by_defecation"
+    },
+    {
+      "criterium": "pain_interferes_with_daily_activities"
+    },
+    {
+      "criterium": "pain_related_psychological_distress"
+    },
+    {
+      "criterium": "pain_related_sleep_disturbance"
+    },
+    {
+      "criterium": "fatigue_related_to_pain"
+    },
+    {
+      "criterium": "headache_present"
+    },
+    {
+      "criterium": "dizziness_present"
+    },
+    {
+      "criterium": "musculoskeletal_pain_present"
+    },
+    {
+      "criterium": "pain_exacerbated_by_stress"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

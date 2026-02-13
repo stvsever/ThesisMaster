@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "outburst_frequency_per_month"
+    },
+    {
+      "criterium": "disproportionate_reactivity_to_provocation"
+    },
+    {
+      "criterium": "unpremeditated_outbursts"
+    },
+    {
+      "criterium": "verbal_aggression_outbursts"
+    },
+    {
+      "criterium": "physical_aggression_outbursts"
+    },
+    {
+      "criterium": "outbursts_across_multiple_settings"
+    },
+    {
+      "criterium": "irritability_between_outbursts"
+    },
+    {
+      "criterium": "impairment_in_social_functioning_due_to_outbursts"
+    },
+    {
+      "criterium": "remorse_or_guilt_after_outbursts"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

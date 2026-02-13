@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "vestibular_pain_on_contact"
+    },
+    {
+      "criterium": "spontaneous_vulvar_pain"
+    },
+    {
+      "criterium": "pain_with_penetrative_intercourse"
+    },
+    {
+      "criterium": "allodynia_to_light_touch_in_vulvar_region"
+    },
+    {
+      "criterium": "hyperalgesia_to_pressure_in_vulvar_region"
+    },
+    {
+      "criterium": "pain_on_cotton_swab_testing"
+    },
+    {
+      "criterium": "pain_worsened_by_sitting"
+    },
+    {
+      "criterium": "burning_pain_in_vulvar_region"
+    },
+    {
+      "criterium": "pain_on_manual_palpation_of_vulvar_labia_or_vestibule"
+    },
+    {
+      "criterium": "vulvar_pain_without_visible_inflammation"
+    }
+  ],
+  "estimated_prevalence_percent": 6.5
+}

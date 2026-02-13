@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "weight_change"
+    },
+    {
+      "criterium": "appetite_change"
+    },
+    {
+      "criterium": "fatigue_lack_of_energy"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "guilt_worthlessness"
+    },
+    {
+      "criterium": "psychomotor_changes"
+    },
+    {
+      "criterium": "suicidal_ideation"
+    }
+  ],
+  "estimated_prevalence_percent": 12.0
+}

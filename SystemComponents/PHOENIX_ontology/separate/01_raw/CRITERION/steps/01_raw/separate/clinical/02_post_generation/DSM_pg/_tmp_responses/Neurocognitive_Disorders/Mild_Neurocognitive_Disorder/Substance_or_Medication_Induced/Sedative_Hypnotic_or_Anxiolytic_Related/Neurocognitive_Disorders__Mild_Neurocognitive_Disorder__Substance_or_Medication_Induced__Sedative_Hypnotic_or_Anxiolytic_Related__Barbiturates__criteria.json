@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "barbiturate_induced_attention_deficit"
+    },
+    {
+      "criterium": "barbiturate_induced_short_term_memory_impairment"
+    },
+    {
+      "criterium": "barbiturate_induced_working_memory_dysfunction"
+    },
+    {
+      "criterium": "barbiturate_induced_delayed_recall_deficit"
+    },
+    {
+      "criterium": "barbiturate_induced_processing_speed_slowing"
+    },
+    {
+      "criterium": "barbiturate_induced_executive_function_impairment"
+    },
+    {
+      "criterium": "barbiturate_induced_verbal_fluency_impairment"
+    },
+    {
+      "criterium": "barbiturate_induced_visuospatial_ability_impairment"
+    },
+    {
+      "criterium": "barbiturate_induced_motor_coordination_impairment"
+    },
+    {
+      "criterium": "barbiturate_induced_disorientation"
+    },
+    {
+      "criterium": "barbiturate_induced_daytime_somnolence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

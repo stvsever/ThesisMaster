@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delirium_present"
+    },
+    {
+      "criterium": "orientation_impaired"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "hallucinations"
+    },
+    {
+      "criterium": "severe_headache"
+    },
+    {
+      "criterium": "fever_pyrexia"
+    },
+    {
+      "criterium": "nuchal_rigidity"
+    },
+    {
+      "criterium": "photophobia"
+    },
+    {
+      "criterium": "positive_kernig_sign"
+    },
+    {
+      "criterium": "positive_brudzinski_sign"
+    },
+    {
+      "criterium": "seizure_occurrence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.003
+}

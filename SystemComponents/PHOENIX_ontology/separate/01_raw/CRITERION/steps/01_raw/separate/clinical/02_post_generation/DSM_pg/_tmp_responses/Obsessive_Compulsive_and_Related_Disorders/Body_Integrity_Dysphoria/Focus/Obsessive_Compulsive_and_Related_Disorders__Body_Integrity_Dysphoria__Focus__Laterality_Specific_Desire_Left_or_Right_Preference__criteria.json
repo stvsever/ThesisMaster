@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "left_limb_amputation_desire_intensity"
+    },
+    {
+      "criterium": "right_limb_amputation_desire_intensity"
+    },
+    {
+      "criterium": "left_limb_body_identity_discrepancy_presence"
+    },
+    {
+      "criterium": "right_limb_body_identity_discrepancy_presence"
+    },
+    {
+      "criterium": "intent_to_seek_surgical_amputation_left"
+    },
+    {
+      "criterium": "intent_to_seek_surgical_amputation_right"
+    },
+    {
+      "criterium": "medical_consultation_for_left_limb_modification"
+    },
+    {
+      "criterium": "medical_consultation_for_right_limb_modification"
+    },
+    {
+      "criterium": "distress_related_to_left_limb_presence"
+    },
+    {
+      "criterium": "distress_related_to_right_limb_presence"
+    },
+    {
+      "criterium": "left_limb_exclusion_behavior"
+    },
+    {
+      "criterium": "right_limb_exclusion_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

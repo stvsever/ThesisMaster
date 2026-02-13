@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "task_procrastination"
+    },
+    {
+      "criterium": "deliberate_task_inefficiency"
+    },
+    {
+      "criterium": "indirect_expression_of_anger"
+    },
+    {
+      "criterium": "sarcasm_expression"
+    },
+    {
+      "criterium": "backhanded_compliments"
+    },
+    {
+      "criterium": "passive_resistance_to_direct_instructions"
+    },
+    {
+      "criterium": "blame_shifting_to_others"
+    },
+    {
+      "criterium": "missed_deadlines_due_to_procrastination"
+    },
+    {
+      "criterium": "feigned_incapacity_or_illness_to_avoid_tasks"
+    },
+    {
+      "criterium": "covert_hostility_toward_colleagues_or_superiors"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

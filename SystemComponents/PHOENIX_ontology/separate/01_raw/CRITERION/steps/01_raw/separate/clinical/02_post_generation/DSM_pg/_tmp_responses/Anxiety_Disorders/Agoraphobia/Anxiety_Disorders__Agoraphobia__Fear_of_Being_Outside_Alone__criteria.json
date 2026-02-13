@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "avoidance_outdoors_when_alone"
+    },
+    {
+      "criterium": "requires_companion_to_leave_home"
+    },
+    {
+      "criterium": "intense_anxiety_in_outdoor_settings_alone"
+    },
+    {
+      "criterium": "panic_like_attacks_in_outdoor_settings_alone"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_outdoor_exposure_alone"
+    },
+    {
+      "criterium": "distress_in_outdoor_settings_when_alone"
+    },
+    {
+      "criterium": "avoidance_of_open_spaces_when_alone"
+    },
+    {
+      "criterium": "safety_seeking_behaviors_before_outdoor_exposure_alone"
+    },
+    {
+      "criterium": "avoidance_of_public_transport_outdoors_without_company"
+    },
+    {
+      "criterium": "reduced_outdoor_activity_due_to_fear_of_being_outside_alone"
+    }
+  ],
+  "estimated_prevalence_percent": 1.6
+}

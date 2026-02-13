@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Psychomotor_Slowing"
+    },
+    {
+      "criterium": "Working_Memory_Impairment"
+    },
+    {
+      "criterium": "Learning_Impairment"
+    },
+    {
+      "criterium": "Delayed_Retrieval_Impairment"
+    },
+    {
+      "criterium": "Executive_Function_Deficit"
+    },
+    {
+      "criterium": "Verbal_Fluency_Impairment"
+    },
+    {
+      "criterium": "Sustained_Attention_Deficit"
+    },
+    {
+      "criterium": "Visuospatial_Construction_Impairment"
+    },
+    {
+      "criterium": "Motivation_Apathy"
+    },
+    {
+      "criterium": "Gait_Abnormality"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

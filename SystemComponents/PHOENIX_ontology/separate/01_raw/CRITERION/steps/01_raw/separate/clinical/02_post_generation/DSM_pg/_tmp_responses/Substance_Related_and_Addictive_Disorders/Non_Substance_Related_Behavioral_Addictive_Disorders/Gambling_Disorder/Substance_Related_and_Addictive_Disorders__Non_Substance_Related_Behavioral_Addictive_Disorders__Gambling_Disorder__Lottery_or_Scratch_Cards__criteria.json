@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "compulsive_lottery_ticket_purchase"
+    },
+    {
+      "criterium": "preoccupation_with_lottery"
+    },
+    {
+      "criterium": "loss_of_control_over_lottery_spending"
+    },
+    {
+      "criterium": "chasing_losing_lottery_purchases"
+    },
+    {
+      "criterium": "tolerance_in_lottery_spending_increasing"
+    },
+    {
+      "criterium": "work_impairment_due_to_lottery"
+    },
+    {
+      "criterium": "social_activity_impairment_due_to_lottery"
+    },
+    {
+      "criterium": "lie_to_others_about_lottery_habits"
+    },
+    {
+      "criterium": "unsuccessful_attempts_to_cut_back_or_stop_lottery"
+    },
+    {
+      "criterium": "withdrawal_or_anxiety_when_lottery_funding_restricted"
+    },
+    {
+      "criterium": "financial_difficulties_from_lottery_spending"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

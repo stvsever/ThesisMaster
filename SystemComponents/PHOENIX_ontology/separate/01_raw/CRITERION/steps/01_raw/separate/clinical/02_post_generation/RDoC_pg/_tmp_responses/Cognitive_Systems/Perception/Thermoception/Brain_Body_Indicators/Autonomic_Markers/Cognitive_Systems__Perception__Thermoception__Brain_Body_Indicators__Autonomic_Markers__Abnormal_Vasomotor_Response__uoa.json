@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "ADRA1A",
+      "ADRA1B",
+      "ADRA2A",
+      "ADRA2B",
+      "ADRA2C",
+      "NOS3"
+    ],
+    "molecules": [
+      "nitric_oxide",
+      "endothelin_1",
+      "norepinephrine",
+      "epinephrine",
+      "vasopressin",
+      "prostacyclin"
+    ],
+    "cells": [
+      "endothelial_cells",
+      "vascular_smooth_muscle_cells",
+      "pericytes",
+      "sympathetic_postganglionic_neurons",
+      "sensory_neurons"
+    ],
+    "circuits": [
+      "central_autonomic_network",
+      "baroreflex_arc",
+      "sympathetic_outflow_to_vasculature",
+      "hypothalamic_brainstem_autonomic_pathways",
+      "spinal_symmetric_outflow_to_blood_vessels"
+    ],
+    "physiology": [
+      "cutaneous_blood_flow",
+      "skin_temperature",
+      "vasomotor_tone",
+      "arteriolar_resistance",
+      "skin_conductance",
+      "peripheral_blood_flow"
+    ],
+    "behavior": [
+      "facial_pallor_observed",
+      "cold_extremities_observed",
+      "excessive_sweating_observed",
+      "piloerection_observed"
+    ],
+    "self_report": [
+      "subjective_cold_sensation",
+      "perceived_skin_temperature_change",
+      "perceived_sweating_level",
+      "dizziness_on_temperature_change"
+    ]
+  },
+  "estimated_prevalence_percent": 3.0
+}

@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "radicular_pain"
+    },
+    {
+      "criterium": "dermatomal_sensory_deficit"
+    },
+    {
+      "criterium": "paresthesias_radicular"
+    },
+    {
+      "criterium": "myotomal_weakness"
+    },
+    {
+      "criterium": "muscle_wasting_in_innervation_region"
+    },
+    {
+      "criterium": "hyporeflexia_in_affected_segment"
+    },
+    {
+      "criterium": "gait_disturbance_from_paresis"
+    },
+    {
+      "criterium": "positive_SLR_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

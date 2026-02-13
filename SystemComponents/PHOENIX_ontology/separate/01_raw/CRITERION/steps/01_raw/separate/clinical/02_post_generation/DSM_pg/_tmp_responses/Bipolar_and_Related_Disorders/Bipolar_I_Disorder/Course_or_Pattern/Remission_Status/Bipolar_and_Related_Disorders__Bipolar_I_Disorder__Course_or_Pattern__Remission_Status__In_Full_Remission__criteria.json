@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "euthymic_mood"
+    },
+    {
+      "criterium": "absence_of_manic_symptoms"
+    },
+    {
+      "criterium": "absence_of_depressive_symptoms"
+    },
+    {
+      "criterium": "normal_sleep_pattern"
+    },
+    {
+      "criterium": "stable_energy_level"
+    },
+    {
+      "criterium": "intact_memory_function"
+    },
+    {
+      "criterium": "normal_attention_capacity"
+    },
+    {
+      "criterium": "absence_of_psychotic_symptoms"
+    },
+    {
+      "criterium": "stable_thought_content"
+    },
+    {
+      "criterium": "normal_appetite"
+    },
+    {
+      "criterium": "stable_weight"
+    },
+    {
+      "criterium": "stable_social_interaction_level"
+    },
+    {
+      "criterium": "stable_work_or_academic_performance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

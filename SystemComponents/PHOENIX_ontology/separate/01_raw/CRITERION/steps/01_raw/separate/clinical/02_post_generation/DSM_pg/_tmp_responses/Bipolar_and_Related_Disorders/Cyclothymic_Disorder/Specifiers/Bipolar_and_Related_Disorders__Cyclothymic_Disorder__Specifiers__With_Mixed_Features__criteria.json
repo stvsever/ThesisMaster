@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_mood_present"
+    },
+    {
+      "criterium": "grandiosity_present"
+    },
+    {
+      "criterium": "decreased_need_for_sleep_present"
+    },
+    {
+      "criterium": "pressured_speech_present"
+    },
+    {
+      "criterium": "flight_of_ideas_present"
+    },
+    {
+      "criterium": "increased_goal_directed_activity_present"
+    },
+    {
+      "criterium": "distractibility_present"
+    },
+    {
+      "criterium": "risky_behavior_present"
+    },
+    {
+      "criterium": "impulsive_behavior_present"
+    },
+    {
+      "criterium": "depressed_mood_present"
+    },
+    {
+      "criterium": "anhedonia_present"
+    },
+    {
+      "criterium": "suicidal_ideation_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

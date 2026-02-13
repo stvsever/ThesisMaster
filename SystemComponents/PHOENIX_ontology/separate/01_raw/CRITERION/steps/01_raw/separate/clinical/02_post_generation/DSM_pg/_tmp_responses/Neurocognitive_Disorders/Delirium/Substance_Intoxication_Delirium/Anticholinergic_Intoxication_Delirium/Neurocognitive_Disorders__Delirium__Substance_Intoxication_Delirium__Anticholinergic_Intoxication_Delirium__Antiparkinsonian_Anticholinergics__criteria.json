@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delirious_agitation"
+    },
+    {
+      "criterium": "disorientation_time"
+    },
+    {
+      "criterium": "disorientation_place"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "blurred_vision"
+    },
+    {
+      "criterium": "dry_mucous_membranes"
+    },
+    {
+      "criterium": "decreased_sweating"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "urinary_retention"
+    },
+    {
+      "criterium": "decreased_bowel_peristalsis"
+    },
+    {
+      "criterium": "hyperthermia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

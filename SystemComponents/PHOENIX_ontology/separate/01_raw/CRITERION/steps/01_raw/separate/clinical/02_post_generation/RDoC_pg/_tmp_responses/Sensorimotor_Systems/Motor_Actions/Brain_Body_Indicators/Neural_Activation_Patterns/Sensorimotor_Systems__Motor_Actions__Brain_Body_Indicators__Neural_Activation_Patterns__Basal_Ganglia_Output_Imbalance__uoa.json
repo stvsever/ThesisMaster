@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD1",
+      "DRD2",
+      "SNCA",
+      "LRRK2",
+      "PRKN",
+      "GBA"
+    ],
+    "molecules": [
+      "dopamine",
+      "GABA",
+      "glutamate",
+      "acetylcholine",
+      "adenosine_A2A_receptor",
+      "DARPP32"
+    ],
+    "cells": [
+      "medium_spiny_neuron_D1",
+      "medium_spiny_neuron_D2",
+      "GABAergic_interneuron",
+      "cholinergic_interneuron"
+    ],
+    "circuits": [
+      "direct_pathway_activation",
+      "indirect_pathway_activation",
+      "GPi_to_thalamus_inhibition",
+      "SNr_to_thalamus_inhibition",
+      "STN_activity",
+      "basal_ganglia_thalamo_cortical_loop"
+    ],
+    "physiology": [
+      "basal_ganglia_beta_power",
+      "beta_band_synchrony_GPi_cortex",
+      "striatal_DA_release_rate"
+    ],
+    "behavior": [
+      "bradykinesia_index",
+      "tremor_frequency",
+      "tremor_amplitude",
+      "finger_tapping_rate",
+      "gait_speed",
+      "reaction_time_simple"
+    ],
+    "self_report": [
+      "patient_report_bradykinesia_severity",
+      "patient_report_tremor_severity",
+      "patient_report_rigidity_severity",
+      "patient_report_fine_motor_control_difficulty",
+      "patient_report_postural_instability_severity"
+    ]
+  },
+  "estimated_prevalence_percent": 0.4
+}

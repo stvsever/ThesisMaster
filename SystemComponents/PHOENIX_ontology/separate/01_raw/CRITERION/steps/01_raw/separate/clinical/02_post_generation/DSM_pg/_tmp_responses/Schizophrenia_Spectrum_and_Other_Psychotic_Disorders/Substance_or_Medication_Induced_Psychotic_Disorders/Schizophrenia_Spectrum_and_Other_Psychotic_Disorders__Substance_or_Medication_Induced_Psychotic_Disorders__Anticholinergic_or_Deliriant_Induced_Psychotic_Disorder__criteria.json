@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "paranoid_delusions"
+    },
+    {
+      "criterium": "delusional_thought_content"
+    },
+    {
+      "criterium": "disorientation_time"
+    },
+    {
+      "criterium": "disorientation_place"
+    },
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "fluctuating_consciousness"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "memory_impairment_short_term"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "urinary_retention"
+    },
+    {
+      "criterium": "dry_mucous_membranes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.07
+}

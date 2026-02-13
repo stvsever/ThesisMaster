@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_sustained_attention"
+    },
+    {
+      "criterium": "disorientation_time"
+    },
+    {
+      "criterium": "disorientation_place"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "derealization"
+    },
+    {
+      "criterium": "depersonalization"
+    },
+    {
+      "criterium": "speech_disorganization"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "mydriasis"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

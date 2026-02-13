@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "labile_affect"
+    },
+    {
+      "criterium": "elevated_mood"
+    },
+    {
+      "criterium": "grandiose_ideation"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "increased_goal_directed_activity"
+    },
+    {
+      "criterium": "decreased_sleep_need"
+    },
+    {
+      "criterium": "irritable_mood"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "risk_taking_behavior"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "cognitive_fluctuations"
+    },
+    {
+      "criterium": "mood_episode_psychotic_features"
+    }
+  ],
+  "estimated_prevalence_percent": 0.04
+}

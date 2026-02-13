@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "primary_delusion_present"
+    },
+    {
+      "criterium": "secondary_subjects_exhibit_identical_delusional_content"
+    },
+    {
+      "criterium": "secondary_subjects_accept_delusion_as_real"
+    },
+    {
+      "criterium": "two_or_more_subjects_in_close_relationship"
+    },
+    {
+      "criterium": "delusional_content_propagation_from_primary_to_secondary"
+    },
+    {
+      "criterium": "secondary_subjects_behaviors_congruent_with_shared_delusion"
+    },
+    {
+      "criterium": "absence_of_other_major_psychotic_symptoms_in_secondary_subjects"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

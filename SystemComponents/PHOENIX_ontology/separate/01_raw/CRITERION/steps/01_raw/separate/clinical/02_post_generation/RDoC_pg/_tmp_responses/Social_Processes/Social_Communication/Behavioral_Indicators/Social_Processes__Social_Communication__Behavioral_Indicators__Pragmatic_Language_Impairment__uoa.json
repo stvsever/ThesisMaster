@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "FOXP2_mutation_status",
+      "CNTNAP2_rs7794745_genotype",
+      "KIAA0319_expression_level",
+      "DYX1C1_copy_number_variation",
+      "SRPX2_expression_level"
+    ],
+    "molecules": [
+      "BDNF_level",
+      "oxytocin_level",
+      "dopamine_level",
+      "GABA_concentration",
+      "glutamate_concentration"
+    ],
+    "cells": [
+      "PV_interneuron_density_left_IFG",
+      "pyramidal_neuron_density_left_IFG",
+      "cortical_synapse_density_language_network",
+      "oligodendrocyte_density_left_language_areas",
+      "astrocyte_density_left_language_areas"
+    ],
+    "circuits": [
+      "arcuate_fasciculus_FA",
+      "left_language_network_connectivity",
+      "IFG_STG_connectivity_strength",
+      "IFG_to_STG_synchrony",
+      "Broca_Wernicke_network_coherence",
+      "language_network_resting_state_coherence"
+    ],
+    "physiology": [
+      "HRV_during_pragmatic_dialogue",
+      "pupillary_response_pragmatic_incongruity",
+      "ERP_N400_latency_ms",
+      "ERP_N400_amplitude_microvolts",
+      "ERP_P600_latency_ms"
+    ],
+    "behavior": [
+      "topic_maintenance_duration_seconds",
+      "turn_taking_accuracy",
+      "clarification_request_frequency",
+      "repair_strategy_frequency",
+      "deictic_term_usage_rate",
+      "conversational_coherence_rating"
+    ],
+    "self_report": [
+      "self_report_pragmatic_communication_difficulty",
+      "self_report_conversation_coherence_difficulty",
+      "self_report_topic_maintenance_difficulty",
+      "self_report_request_for_clarification_difficulty",
+      "self_report_nonverbal_communication_difficulty"
+    ]
+  },
+  "estimated_prevalence_percent": 3.0
+}

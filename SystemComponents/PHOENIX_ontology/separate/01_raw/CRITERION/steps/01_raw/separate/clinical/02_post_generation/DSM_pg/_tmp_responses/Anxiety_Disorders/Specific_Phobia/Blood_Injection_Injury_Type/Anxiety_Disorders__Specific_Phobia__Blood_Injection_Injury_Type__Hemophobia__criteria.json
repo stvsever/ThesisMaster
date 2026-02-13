@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acute_fear_on_blood_exposure"
+    },
+    {
+      "criterium": "tachycardia_on_blood_exposure"
+    },
+    {
+      "criterium": "sweating_on_blood_exposure"
+    },
+    {
+      "criterium": "trembling_on_blood_exposure"
+    },
+    {
+      "criterium": "nausea_on_blood_exposure"
+    },
+    {
+      "criterium": "dizziness_on_blood_exposure"
+    },
+    {
+      "criterium": "syncope_on_blood_exposure"
+    },
+    {
+      "criterium": "presyncope_on_blood_exposure"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_blood_exposure"
+    },
+    {
+      "criterium": "avoidance_of_blood_draws"
+    },
+    {
+      "criterium": "avoidance_of_injections"
+    },
+    {
+      "criterium": "avoidance_of_blood_related_medical_procedures"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

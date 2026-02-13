@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_anorgasmia"
+    },
+    {
+      "criterium": "marked_delay_orgasm_onset"
+    },
+    {
+      "criterium": "reduced_orgasmic_intensity"
+    },
+    {
+      "criterium": "low_orgasm_frequency_across_encounters"
+    },
+    {
+      "criterium": "increased_stimulation_threshold_to_orgasm"
+    },
+    {
+      "criterium": "orgasm_absence_during_vaginal_intercourse"
+    },
+    {
+      "criterium": "orgasm_absence_during_clitoral_stimulation"
+    },
+    {
+      "criterium": "orgasmic_difficulty_across_partners"
+    },
+    {
+      "criterium": "subjective_distress_related_to_orgasmic_difficulty"
+    },
+    {
+      "criterium": "reduced_sexual_satisfaction_related_to_orgasmic_difficulty"
+    },
+    {
+      "criterium": "negative_impairment_in_relationships_due_to_orgasmic_difficulty"
+    },
+    {
+      "criterium": "inconsistent_orgasmic_response_to_stimulation"
+    }
+  ],
+  "estimated_prevalence_percent": 7.5
+}

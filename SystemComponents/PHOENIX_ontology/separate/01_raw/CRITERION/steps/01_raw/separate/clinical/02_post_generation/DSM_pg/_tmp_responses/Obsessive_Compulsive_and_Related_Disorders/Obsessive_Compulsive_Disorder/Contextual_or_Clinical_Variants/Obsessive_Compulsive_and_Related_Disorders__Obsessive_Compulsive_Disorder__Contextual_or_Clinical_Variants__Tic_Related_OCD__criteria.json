@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "motor_tics_present"
+    },
+    {
+      "criterium": "vocal_tics_present"
+    },
+    {
+      "criterium": "premonitory_urge_present"
+    },
+    {
+      "criterium": "obsessions_about_tics_present"
+    },
+    {
+      "criterium": "compulsions_targeting_tic_relief_present"
+    },
+    {
+      "criterium": "compulsions_to_prevent_tic_occurrence_present"
+    },
+    {
+      "criterium": "tics_exacerbated_by_stress_present"
+    },
+    {
+      "criterium": "tics_suppressible_with_short_term_control_present"
+    },
+    {
+      "criterium": "impairment_due_to_tic_related_ocd_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

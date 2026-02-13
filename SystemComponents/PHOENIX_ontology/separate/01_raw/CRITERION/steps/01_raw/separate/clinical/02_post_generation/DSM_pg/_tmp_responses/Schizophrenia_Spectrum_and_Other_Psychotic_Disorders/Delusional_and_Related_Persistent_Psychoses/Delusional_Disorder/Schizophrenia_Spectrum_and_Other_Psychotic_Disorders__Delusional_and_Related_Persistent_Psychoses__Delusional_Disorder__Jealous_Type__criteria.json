@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fixed_infidelity_delusion"
+    },
+    {
+      "criterium": "unfounded_infidelity_accusations_to_others"
+    },
+    {
+      "criterium": "repeated_questioning_about_infidelity"
+    },
+    {
+      "criterium": "partner_location_tracking"
+    },
+    {
+      "criterium": "partner_communications_monitoring"
+    },
+    {
+      "criterium": "partner_social_media_monitoring"
+    },
+    {
+      "criterium": "use_of_private_investigator_or_spy_tools"
+    },
+    {
+      "criterium": "jealousy_driven_confrontations_or_outbursts"
+    },
+    {
+      "criterium": "poor_insight_into_belief_nature"
+    },
+    {
+      "criterium": "persistent_infidelity_belief_despite_disconfirming_evidence"
+    },
+    {
+      "criterium": "requests_for_proofs_of_fidelity"
+    },
+    {
+      "criterium": "partner_social_isolation_due_to_jealousy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

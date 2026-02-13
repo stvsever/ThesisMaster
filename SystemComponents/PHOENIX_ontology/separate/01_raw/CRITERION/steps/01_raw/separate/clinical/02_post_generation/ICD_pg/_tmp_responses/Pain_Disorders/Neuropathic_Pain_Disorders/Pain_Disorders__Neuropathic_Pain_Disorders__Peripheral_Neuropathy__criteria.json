@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "allodynia"
+    },
+    {
+      "criterium": "hyperalgesia"
+    },
+    {
+      "criterium": "paresthesias"
+    },
+    {
+      "criterium": "dysesthesias"
+    },
+    {
+      "criterium": "distal_hypoesthesia"
+    },
+    {
+      "criterium": "loss_of_vibration_sense"
+    },
+    {
+      "criterium": "decreased_pinprick_sensation"
+    },
+    {
+      "criterium": "absent_ankle_reflex"
+    },
+    {
+      "criterium": "distal_muscle_wasting"
+    },
+    {
+      "criterium": "distal_weakness"
+    },
+    {
+      "criterium": "sensory_gait_ataxia"
+    },
+    {
+      "criterium": "orthostatic_hypotension"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

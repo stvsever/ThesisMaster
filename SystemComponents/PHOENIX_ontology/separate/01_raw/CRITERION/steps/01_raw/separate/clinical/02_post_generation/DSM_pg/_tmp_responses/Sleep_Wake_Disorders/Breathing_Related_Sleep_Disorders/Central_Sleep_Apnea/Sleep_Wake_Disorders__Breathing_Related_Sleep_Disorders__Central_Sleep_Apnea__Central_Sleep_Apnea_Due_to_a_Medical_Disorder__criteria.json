@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "central_apnea_index"
+    },
+    {
+      "criterium": "respiratory_effort_absent_during_central_apneas"
+    },
+    {
+      "criterium": "cheyne_stokes_respirations_present"
+    },
+    {
+      "criterium": "oxygen_desaturation_events_during_sleep"
+    },
+    {
+      "criterium": "spO2_nadir_lt_90_percent_during_sleep"
+    },
+    {
+      "criterium": "nocturnal_hypercapnia_present"
+    },
+    {
+      "criterium": "arousal_index_associated_with_central_apneas"
+    },
+    {
+      "criterium": "sleep_fragmentation_due_to_central_apneas"
+    },
+    {
+      "criterium": "central_apnea_events_dominant_over_hypopneas"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

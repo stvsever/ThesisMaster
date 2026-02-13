@@ -1,0 +1,57 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "CNTNAP2",
+      "OXTR",
+      "SHANK3",
+      "NLGN3",
+      "NLGN4X",
+      "NRXN1",
+      "DISC1"
+    ],
+    "molecules": [
+      "oxytocin",
+      "dopamine",
+      "glutamate",
+      "gaba",
+      "bdnf",
+      "nmda_receptor_subunits"
+    ],
+    "cells": [
+      "pyramidal_cells_TPJ",
+      "gaba_interneurons_TPJ",
+      "astrocytes_TPJ",
+      "oligodendrocyte_precursors_TPJ"
+    ],
+    "circuits": [
+      "tpj_mentalizing_network_activation",
+      "tpj_angular_gyrus_integration",
+      "tpj_pfc_connectivity",
+      "tpj_sts_connectivity",
+      "tpj_default_mode_network_coherence",
+      "tpj_temporoparietal_network_synchrony"
+    ],
+    "physiology": [
+      "tpj_bold_amplitude",
+      "tpj_bold_time_series",
+      "tpj_theta_power",
+      "tpj_gamma_power",
+      "pupil_dilation_during_agency_tasks",
+      "heart_rate_variability_during_social_tasks"
+    ],
+    "behavior": [
+      "agency_attribution_accuracy",
+      "agency_attribution_reaction_time",
+      "agency_mapping_error_rate",
+      "self_other_discrimination_accuracy",
+      "perspective_taking_task_accuracy"
+    ],
+    "self_report": [
+      "sense_of_agency_scale_score",
+      "agency_disruption_self_report",
+      "illusory_agency_experience_score",
+      "agency_confidence_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 2.4
+}

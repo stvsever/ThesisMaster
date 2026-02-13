@@ -1,0 +1,38 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "NR3C1",
+      "CRHR1",
+      "CRH",
+      "FKBP5",
+      "AVP"
+    ],
+    "molecules": [
+      "cortisol",
+      "ACTH",
+      "CRH",
+      "DHEA"
+    ],
+    "cells": [
+      "adrenal_fasciculata_cells",
+      "pituitary_corticotroph_cells",
+      "hypothalamic_PVN_neurons"
+    ],
+    "circuits": [
+      "hypothalamic_pituitary_adrenal_axis"
+    ],
+    "physiology": [
+      "cortisol_diurnal_slope",
+      "cortisol_awakening_response",
+      "cortisol_area_under_curve",
+      "cortisol_nadir_time",
+      "cortisol_mean_level_day"
+    ],
+    "behavior": null,
+    "self_report": [
+      "perceived_stress_scale",
+      "state_anxiety_inventory"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

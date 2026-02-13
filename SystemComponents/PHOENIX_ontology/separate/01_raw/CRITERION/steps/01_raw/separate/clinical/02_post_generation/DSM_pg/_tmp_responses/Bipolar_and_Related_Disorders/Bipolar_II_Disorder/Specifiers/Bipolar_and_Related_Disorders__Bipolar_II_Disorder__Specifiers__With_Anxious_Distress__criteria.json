@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "keyed_up_or_tense"
+    },
+    {
+      "criterium": "unusually_restless"
+    },
+    {
+      "criterium": "difficult_concentrating_due_to_worry"
+    },
+    {
+      "criterium": "fear_that_something_awful_may_happen"
+    },
+    {
+      "criterium": "fear_of_losing_control"
+    },
+    {
+      "criterium": "mind_racing"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "muscle_tension"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "trembling"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

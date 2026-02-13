@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "episodic_memory_encoding_deficit"
+    },
+    {
+      "criterium": "verbal_fluency_decline"
+    },
+    {
+      "criterium": "sustained_attention_impairment"
+    },
+    {
+      "criterium": "headache_frequency_increase"
+    },
+    {
+      "criterium": "dizziness_on_exertion"
+    },
+    {
+      "criterium": "balance_impairment"
+    },
+    {
+      "criterium": "fatigue_exacerbation"
+    },
+    {
+      "criterium": "sleep_disturbance_insomnia"
+    },
+    {
+      "criterium": "irritability_increase"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "gait_instability"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

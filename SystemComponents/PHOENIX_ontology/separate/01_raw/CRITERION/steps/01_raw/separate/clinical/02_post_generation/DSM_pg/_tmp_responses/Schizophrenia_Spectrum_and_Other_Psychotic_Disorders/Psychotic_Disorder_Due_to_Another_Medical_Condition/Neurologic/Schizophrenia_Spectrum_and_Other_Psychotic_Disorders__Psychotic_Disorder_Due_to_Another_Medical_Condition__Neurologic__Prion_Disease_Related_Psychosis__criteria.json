@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "olfactory_hallucinations"
+    },
+    {
+      "criterium": "tactile_hallucinations"
+    },
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "delusions_of_reference"
+    },
+    {
+      "criterium": "disorganized_thought"
+    },
+    {
+      "criterium": "loosening_of_associations"
+    },
+    {
+      "criterium": "tangential_thinking"
+    },
+    {
+      "criterium": "disinhibited_behavior"
+    },
+    {
+      "criterium": "affective_flattening"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "ataxia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0001
+}

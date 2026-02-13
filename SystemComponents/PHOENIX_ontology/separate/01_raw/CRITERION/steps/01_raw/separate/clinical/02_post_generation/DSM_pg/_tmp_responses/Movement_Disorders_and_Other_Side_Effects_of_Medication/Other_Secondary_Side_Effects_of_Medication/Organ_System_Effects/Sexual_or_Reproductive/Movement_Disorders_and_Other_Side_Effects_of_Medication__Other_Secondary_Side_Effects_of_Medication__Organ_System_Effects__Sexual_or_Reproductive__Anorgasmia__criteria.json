@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inability_to_orgasm_despite_adequate_stimulation"
+    },
+    {
+      "criterium": "inability_to_orgasm_during_intercourse"
+    },
+    {
+      "criterium": "inability_to_orgasm_during_masturbation"
+    },
+    {
+      "criterium": "absence_of_orgasmic_sensation_at_climax_attempts"
+    },
+    {
+      "criterium": "reduced_subjective_orgasmic_intensity"
+    },
+    {
+      "criterium": "delayed_orgasmic_latency"
+    },
+    {
+      "criterium": "ejaculatory_release_without_orgasm"
+    },
+    {
+      "criterium": "absence_of_pelvic_muscle_contractions_at_climax"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

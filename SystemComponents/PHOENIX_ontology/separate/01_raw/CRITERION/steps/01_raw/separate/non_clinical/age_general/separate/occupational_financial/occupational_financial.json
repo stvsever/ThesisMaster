@@ -1,0 +1,440 @@
+{
+  "FINANCIAL": {
+    "JobSatisfaction": {
+      "MeaningfulWork": {
+        "AlignmentWithValues": {
+          "PersonalEthics": {},
+          "OrganizationalEthics": {},
+          "ValueConsistency": {},
+          "ValueSupport": {}
+        },
+        "SenseOfPurpose": {
+          "MissionClarity": {},
+          "GoalAlignment": {},
+          "ImpactAwareness": {},
+          "PurposeFulfillment": {}
+        },
+        "PersonalFulfillment": {
+          "SelfGrowth": {},
+          "SkillUtilization": {},
+          "Achievement": {},
+          "Recognition": {}
+        },
+        "ContributionToSociety": {
+          "SocialImpact": {},
+          "CommunityInvolvement": {},
+          "Sustainability": {},
+          "CorporateResponsibility": {}
+        }
+      },
+      "CareerAdvancement": {
+        "ProfessionalDevelopment": {
+          "TrainingPrograms": {},
+          "EducationalOpportunities": {},
+          "CertificationSupport": {},
+          "Workshops": {}
+        },
+        "SkillEnhancement": {
+          "TechnicalSkills": {},
+          "SoftSkills": {},
+          "LeadershipSkills": {},
+          "SpecializedTraining": {}
+        },
+        "PromotionOpportunities": {
+          "ClearPathways": {},
+          "MeritBasedAdvancement": {},
+          "TransparentCriteria": {},
+          "SuccessionPlanning": {}
+        },
+        "GoalAchievement": {
+          "ObjectiveSetting": {},
+          "PerformanceTracking": {},
+          "AchievementRecognition": {},
+          "SupportiveManagement": {}
+        },
+        "JobSecurity": {
+          "StableEmployment": {},
+          "RiskOfReplacementByAI": {},
+          "LowTurnoverRates": {},
+          "ProtectionAgainstLayoffs": {}
+        }
+      },
+      "WorkEngagement": {
+        "Motivation": {
+          "IntrinsicMotivation": {},
+          "ExtrinsicMotivation": {},
+          "IncentivePrograms": {},
+          "GoalAlignment": {}
+        },
+        "Commitment": {
+          "OrganizationalLoyalty": {},
+          "EmotionalInvestment": {},
+          "LongTermCommitment": {},
+          "EmployeeRetention": {}
+        },
+        "InterestInWork": {
+          "TaskEngagement": {},
+          "ProjectInvolvement": {},
+          "InnovationEncouragement": {},
+          "CreativeOpportunities": {}
+        },
+        "Productivity": {
+          "Efficiency": {},
+          "OutputQuality": {},
+          "TimeManagement": {},
+          "PerformanceOptimization": {}
+        }
+      },
+      "WorkEnvironment": {
+        "PositiveWorkplaceCulture": {
+          "Inclusivity": {},
+          "RespectfulInteractions": {},
+          "CollaborativeSpirit": {},
+          "DiversityPromotion": {}
+        },
+        "SupportiveColleagues": {
+          "TeamSupport": {},
+          "PeerAssistance": {},
+          "CollaborativeProjects": {},
+          "MentorshipPrograms": {}
+        },
+        "RelationshipWithSuperiors": {
+          "TransparentCommunication": {},
+          "InspirationalLeadership": {},
+          "DecisionMakingClarity": {},
+          "SupportiveManagement": {}
+        },
+        "WorkplaceWellBeingPrograms": {
+          "HealthPrograms": {},
+          "StressReductionInitiatives": {},
+          "WellnessResources": {},
+          "EmployeeSupportServices": {}
+        },
+        "WorkLifeBalance": {
+          "FlexibleWorking": {},
+          "TimeForPersonalLife": {},
+          "StressManagementAtWork": {},
+          "SupportiveEnvironment": {}
+        }
+      }
+    },
+    "WorkLifeBalance": {
+      "FlexibleWorking": {
+        "RemoteWorkOptions": {
+          "Telecommuting": {},
+          "HybridWorkModels": {},
+          "HomeOfficeSupport": {},
+          "VirtualCollaborationTools": {}
+        },
+        "FlexibleHours": {
+          "AdjustableSchedules": {},
+          "CompressedWorkweeks": {},
+          "FlexibleShiftPatterns": {},
+          "PartTimeOptions": {}
+        },
+        "JobSharing": {
+          "SharedResponsibilities": {},
+          "Coordinated Schedules": {},
+          "Collaborative Roles": {},
+          "Equitable WorkloadDistribution": {}
+        },
+        "Autonomy": {
+          "DecisionMakingPower": {},
+          "IndependentWork": {},
+          "MinimalMicromanagement": {},
+          "TrustInEmployees": {}
+        }
+      },
+      "TimeForPersonalLife": {
+        "LeisureTime": {
+          "VacationPolicies": {},
+          "PersonalDays": {},
+          "BreakTimeEncouragement": {},
+          "RecreationalActivitiesSupport": {}
+        },
+        "FamilyTime": {
+          "ParentalLeave": {},
+          "FamilyCareSupport": {},
+          "Flexible Parental Policies": {},
+          "Childcare Assistance": {}
+        },
+        "PursuingHobbies": {
+          "HobbySupportPrograms": {},
+          "Flexible Scheduling": {},
+          "Creative Time Allocation": {},
+          "Interest-Based Groups": {}
+        },
+        "RestAndRelaxation": {
+          "RegularBreaks": {},
+          "Relaxation Spaces": {},
+          "Mindfulness Sessions": {},
+          "Stress Relief Activities": {}
+        }
+      },
+      "StressManagementAtWork": {
+        "WorkloadManagement": {
+          "TaskPrioritization": {},
+          "ResourceAllocation": {},
+          "RealisticDeadlines": {},
+          "WorkloadMonitoring": {}
+        },
+        "Delegation": {
+          "EffectiveTaskAssignment": {},
+          "TrustInTeam": {},
+          "Skill-Based Delegation": {},
+          "BalancedWorkDistribution": {}
+        },
+        "SettingBoundaries": {
+          "AfterHoursPolicies": {},
+          "ClearWorkHours": {},
+          "EncouragementToDisconnect": {},
+          "BoundaryTraining": {}
+        },
+        "MindfulnessAtWork": {
+          "MindfulnessTraining": {},
+          "MeditationSessions": {},
+          "Stress AwarenessPrograms": {},
+          "MentalHealth Days": {}
+        }
+      },
+      "SupportiveEnvironment": {
+        "EmployeeAssistancePrograms": {
+          "CounselingServices": {},
+          "FinancialAdvice": {},
+          "LegalSupport": {},
+          "PersonalSupportResources": {}
+        },
+        "OpenCommunication": {
+          "TransparentPolicies": {},
+          "RegularFeedback": {},
+          "OpenDoorPolicies": {},
+          "EffectiveCommunicationChannels": {}
+        },
+        "ConflictResolution": {
+          "MediationServices": {},
+          "ConflictTraining": {},
+          "Clear Resolution Processes": {},
+          "Fair Dispute Handling": {}
+        },
+        "FeedbackMechanisms": {
+          "RegularPerformanceReviews": {},
+          "AnonymousFeedback Channels": {},
+          "Suggestion Boxes": {},
+          "Continuous Improvement Feedback": {}
+        }
+      }
+    },
+    "FinancialSecurity": {
+      "FinancialStability": {
+        "RegularIncome": {
+          "ConsistentPaychecks": {},
+          "Reliable Revenue Streams": {},
+          "Stable Employment Contracts": {},
+          "Predictable Bonuses": {}
+        },
+        "JobSecurity": {
+          "LongTermContracts": {},
+          "LowTurnoverRates": {},
+          "SecureWorkplace Practices": {},
+          "Protection Against Layoffs": {}
+        },
+        "EconomicResilience": {
+          "Emergency FundsSupport": {},
+          "CrisisManagementPlans": {},
+          "Economic Diversification": {},
+          "SustainableBusinessPractices": {}
+        },
+        "FinancialPlanning": {
+          "FinancialAdvisoryServices": {},
+          "RetirementPlanningSupport": {},
+          "Investment Guidance": {},
+          "Budgeting Assistance": {}
+        }
+      },
+      "AdequateIncome": {
+        "LivingWage": {
+          "CompetitiveSalaries": {},
+          "CostOfLiving Adjustments": {},
+          "Regular Wage Reviews": {},
+          "Minimum Wage Compliance": {}
+        },
+        "FairCompensation": {
+          "EquitablePay Structures": {},
+          "Performance-Based Pay": {},
+          "Transparent Compensation Policies": {},
+          "Compensation Equity Audits": {}
+        },
+        "IncomeGrowth": {
+          "Salary Increases": {},
+          "Bonus Opportunities": {},
+          "Commission Structures": {},
+          "ProfitSharing Plans": {}
+        },
+        "BenefitsAndPerks": {
+          "HealthInsurance": {},
+          "RetirementPlans": {},
+          "PaidTimeOff": {},
+          "EmployeeDiscounts": {}
+        }
+      },
+      "FinancialPlanning": {
+        "Budgeting": {
+          "PersonalBudgeting Tools": {},
+          "Financial Workshops": {},
+          "Budgeting Assistance Programs": {},
+          "Expense Tracking Support": {}
+        },
+        "Savings": {
+          "Savings Plans": {},
+          "Employer-Sponsored Savings Accounts": {},
+          "Automatic Savings Programs": {},
+          "Incentives for Saving": {}
+        },
+        "Investments": {
+          "Investment Opportunities": {},
+          "Stock Options": {},
+          "Retirement Investments": {},
+          "Diversified Investment Plans": {}
+        },
+        "RetirementPlanning": {
+          "401(k) Plans": {},
+          "Pension Plans": {},
+          "Retirement Counseling": {},
+          "Long-Term Financial Planning": {}
+        }
+      },
+      "FreedomFromDebt": {
+        "DebtManagement": {
+          "Debt Counseling": {},
+          "Debt Repayment Programs": {},
+          "Consolidation Options": {},
+          "Interest Rate Assistance": {}
+        },
+        "CreditHealth": {
+          "Credit Score Monitoring": {},
+          "Credit Repair Services": {},
+          "Credit Education": {},
+          "Access to Credit Counseling": {}
+        },
+        "FinancialLiteracy": {
+          "Financial Education Programs": {},
+          "Workshops on Credit Management": {},
+          "Seminars on Debt Reduction": {},
+          "Resources for Financial Knowledge": {}
+        },
+        "ResponsibleSpending": {
+          "Spending Guidelines": {},
+          "Financial Behavior Training": {},
+          "Budgeting Tools": {},
+          "Spending Monitoring Programs": {}
+        }
+      }
+    },
+    "FinancialWellBeing": {
+      "FinancialLiteracy": {
+        "UnderstandingFinances": {
+          "Basic Financial Concepts": {},
+          "Advanced Financial Principles": {},
+          "Financial Terminology Education": {},
+          "Financial Awareness Programs": {}
+        },
+        "MoneyManagementSkills": {
+          "Budgeting Techniques": {},
+          "Saving Strategies": {},
+          "Expense Tracking Methods": {},
+          "Financial Goal Setting": {}
+        },
+        "KnowledgeOfFinancialProducts": {
+          "Banking Products": {},
+          "Investment Vehicles": {},
+          "Insurance Options": {},
+          "Retirement Accounts": {}
+        },
+        "InformedDecisionMaking": {
+          "Financial Decision Frameworks": {},
+          "Risk Assessment Tools": {},
+          "Investment Decision Support": {},
+          "Spending Decision Guides": {}
+        }
+      },
+      "SavingsAndInvestments": {
+        "EmergencyFunds": {
+          "Savings Accounts": {},
+          "Emergency Fund Goals": {},
+          "Automatic Savings Plans": {},
+          "Access to Emergency Funds": {}
+        },
+        "InvestmentPortfolio": {
+          "Diversified Investments": {},
+          "Portfolio Management": {},
+          "Risk Diversification": {},
+          "Investment Monitoring": {}
+        },
+        "AssetGrowth": {
+          "Appreciating Assets": {},
+          "Investment Growth Strategies": {},
+          "RealEstate Investments": {},
+          "Stock Market Investments": {}
+        },
+        "Diversification": {
+          "Asset Allocation": {},
+          "Investment Variety": {},
+          "Risk Management through Diversification": {},
+          "Multiple Income Streams": {}
+        }
+      },
+      "AbilityToMeetNeeds": {
+        "AffordingNecessities": {
+          "Basic Living Expenses": {},
+          "Housing Affordability": {},
+          "Healthcare Access": {},
+          "Food Security": {}
+        },
+        "AccessToResources": {
+          "Financial Resources": {},
+          "Educational Resources": {},
+          "Support Services": {},
+          "Community Resources": {}
+        },
+        "FinancialIndependence": {
+          "Self-Sufficiency Programs": {},
+          "Income Stability": {},
+          "Asset Ownership": {},
+          "Economic Autonomy": {}
+        },
+        "EconomicMobility": {
+          "Career Advancement Opportunities": {},
+          "Education and Training Access": {},
+          "Entrepreneurial Support": {},
+          "Social Mobility Programs": {}
+        }
+      },
+      "EconomicIndependence": {
+        "SelfSufficiency": {
+          "Independent Income Streams": {},
+          "Financial Self-Reliance": {},
+          "Asset Management": {},
+          "Personal Financial Planning": {}
+        },
+        "Entrepreneurship": {
+          "Business Start-Up Support": {},
+          "Entrepreneurial Training": {},
+          "Access to Capital": {},
+          "Mentorship for Entrepreneurs": {}
+        },
+        "PassiveIncome": {
+          "Investment Income": {},
+          "Rental Income": {},
+          "Royalties": {},
+          "Dividend Income": {}
+        },
+        "FinancialEmpowerment": {
+          "Empowerment Programs": {},
+          "Financial Confidence Building": {},
+          "Access to Financial Tools": {},
+          "Supportive Financial Policies": {}
+        }
+      }
+    }
+  }
+}

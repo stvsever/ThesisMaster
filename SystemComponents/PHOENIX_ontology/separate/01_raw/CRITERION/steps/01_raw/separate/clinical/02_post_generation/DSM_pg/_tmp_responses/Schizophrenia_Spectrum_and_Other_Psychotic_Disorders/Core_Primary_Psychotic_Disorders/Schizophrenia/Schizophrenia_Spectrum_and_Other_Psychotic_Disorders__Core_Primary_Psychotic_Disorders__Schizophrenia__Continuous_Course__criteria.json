@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_auditory_hallucinations"
+    },
+    {
+      "criterium": "persistent_delusions"
+    },
+    {
+      "criterium": "disorganized_thought_form"
+    },
+    {
+      "criterium": "disorganized_behavior"
+    },
+    {
+      "criterium": "flat_affect"
+    },
+    {
+      "criterium": "avolition"
+    },
+    {
+      "criterium": "alogia"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "social_withdrawal"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

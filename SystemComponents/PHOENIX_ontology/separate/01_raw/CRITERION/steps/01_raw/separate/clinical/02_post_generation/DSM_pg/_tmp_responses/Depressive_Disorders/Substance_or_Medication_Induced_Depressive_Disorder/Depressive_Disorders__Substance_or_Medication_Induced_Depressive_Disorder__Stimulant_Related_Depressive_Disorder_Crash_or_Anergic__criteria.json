@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood_crash"
+    },
+    {
+      "criterium": "anhedonia_crash"
+    },
+    {
+      "criterium": "fatigue_crash"
+    },
+    {
+      "criterium": "psychomotor_retardation_crash"
+    },
+    {
+      "criterium": "psychomotor_agitation_crash"
+    },
+    {
+      "criterium": "insomnia_crash"
+    },
+    {
+      "criterium": "hypersomnia_crash"
+    },
+    {
+      "criterium": "appetite_decline_crash"
+    },
+    {
+      "criterium": "concentration_impairment_crash"
+    },
+    {
+      "criterium": "irritability_crash"
+    },
+    {
+      "criterium": "worthlessness_crash"
+    },
+    {
+      "criterium": "suicidal_ideation_crash"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

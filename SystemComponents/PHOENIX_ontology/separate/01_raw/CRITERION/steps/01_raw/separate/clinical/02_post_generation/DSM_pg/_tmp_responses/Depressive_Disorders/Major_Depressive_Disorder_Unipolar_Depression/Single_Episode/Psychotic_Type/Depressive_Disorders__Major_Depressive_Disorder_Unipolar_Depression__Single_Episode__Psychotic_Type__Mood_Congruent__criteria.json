@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusions_of_guilt_and_punishment"
+    },
+    {
+      "criterium": "delusions_of_self_devaluation"
+    },
+    {
+      "criterium": "delusions_of_deserved_punishment"
+    },
+    {
+      "criterium": "delusions_of_ruin"
+    },
+    {
+      "criterium": "delusions_of_nihilism_or_nonexistence"
+    },
+    {
+      "criterium": "delusions_of_death_or_imminent_dying"
+    },
+    {
+      "criterium": "auditory_hallucinations_critical_condemning_voices"
+    },
+    {
+      "criterium": "auditory_hallucinations_commanding_harm_or_punishment"
+    },
+    {
+      "criterium": "visual_hallucinations_depicted_depressive_scenes"
+    },
+    {
+      "criterium": "olfactory_hallucinations_decay_or_foul_smell"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

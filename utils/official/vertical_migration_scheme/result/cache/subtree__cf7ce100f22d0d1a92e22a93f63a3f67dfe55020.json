@@ -1,0 +1,21 @@
+{
+  "domain_path": "PSYCHO / Cognitive_Behavioral_Therapies / Cognitive_Restructuring",
+  "domain_root_path": [
+    "PSYCHO",
+    "Cognitive_Behavioral_Therapies",
+    "Cognitive_Restructuring"
+  ],
+  "leaf_count": 89,
+  "total_edges_in_subtree": 110,
+  "evaluated_pairs": 110,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 2,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "cf7ce100f22d0d1a92e22a93f63a3f67dfe55020",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 76.649
+}

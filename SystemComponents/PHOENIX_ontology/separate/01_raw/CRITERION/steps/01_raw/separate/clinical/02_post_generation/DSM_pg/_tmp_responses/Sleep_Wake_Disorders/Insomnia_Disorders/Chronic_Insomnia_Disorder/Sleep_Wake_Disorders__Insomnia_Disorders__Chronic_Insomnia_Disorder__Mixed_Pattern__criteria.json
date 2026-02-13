@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SLEEP_ONSET_LATENCY_EXTENDED"
+    },
+    {
+      "criterium": "WAKE_AFTER_SLEEP_ONSET"
+    },
+    {
+      "criterium": "EARLY_MORNING_AWAKENING"
+    },
+    {
+      "criterium": "NON_RESTORATIVE_SLEEP"
+    },
+    {
+      "criterium": "SLEEP_EFFICIENCY_REDUCTION"
+    },
+    {
+      "criterium": "DAYTIME_FATIGUE"
+    },
+    {
+      "criterium": "DAYTIME_COGNITIVE_IMPAIRMENT"
+    },
+    {
+      "criterium": "DAYTIME_MOOD_DISTURBANCE"
+    },
+    {
+      "criterium": "CAFFEINE_USE_INCREASED"
+    }
+  ],
+  "estimated_prevalence_percent": 9.5
+}

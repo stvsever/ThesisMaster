@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypnotic_tolerance"
+    },
+    {
+      "criterium": "dose_escalation"
+    },
+    {
+      "criterium": "craving_for_zdrug"
+    },
+    {
+      "criterium": "drug_seeking_behavior"
+    },
+    {
+      "criterium": "withdrawal_insomnia"
+    },
+    {
+      "criterium": "withdrawal_anxiety"
+    },
+    {
+      "criterium": "withdrawal_tremor"
+    },
+    {
+      "criterium": "withdrawal_sweating"
+    },
+    {
+      "criterium": "withdrawal_nausea"
+    },
+    {
+      "criterium": "rebound_insomnia"
+    },
+    {
+      "criterium": "rebound_anxiety"
+    },
+    {
+      "criterium": "preoccupation_with_zdrug"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

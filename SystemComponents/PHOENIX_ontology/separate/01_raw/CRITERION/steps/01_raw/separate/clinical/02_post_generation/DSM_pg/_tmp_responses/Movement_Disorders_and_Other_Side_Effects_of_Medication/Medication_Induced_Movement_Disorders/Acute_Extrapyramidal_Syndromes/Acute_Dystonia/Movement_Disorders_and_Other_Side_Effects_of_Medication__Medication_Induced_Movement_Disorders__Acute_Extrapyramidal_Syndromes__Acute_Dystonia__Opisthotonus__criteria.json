@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "opisthotonus_back_arching"
+    },
+    {
+      "criterium": "oculogyric_crisis"
+    },
+    {
+      "criterium": "torticollis"
+    },
+    {
+      "criterium": "trismus"
+    },
+    {
+      "criterium": "blepharospasm"
+    },
+    {
+      "criterium": "facial_dystonia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "sialorrhea"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

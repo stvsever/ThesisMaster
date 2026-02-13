@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "styloid_process_length_mm_gt_30"
+    },
+    {
+      "criterium": "pain_reproduced_by_tonsillar_fossa_palpation"
+    },
+    {
+      "criterium": "otalgia_without_otitis_media"
+    },
+    {
+      "criterium": "dysphagia_present"
+    },
+    {
+      "criterium": "foreign_body_sensation_in_throat_present"
+    },
+    {
+      "criterium": "pain_radiating_to_ear_present"
+    },
+    {
+      "criterium": "tinnitus_present"
+    },
+    {
+      "criterium": "neck_pain_exacerbated_by_head_movement_present"
+    },
+    {
+      "criterium": "palpation_of_styloid_region_reproduces_pain_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.16
+}

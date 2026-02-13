@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "xerostomia"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "blurred_vision"
+    },
+    {
+      "criterium": "urinary_retention"
+    },
+    {
+      "criterium": "constipation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "anhidrosis"
+    },
+    {
+      "criterium": "hyperthermia"
+    },
+    {
+      "criterium": "delirium"
+    },
+    {
+      "criterium": "memory_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_Val66Met_genotype",
+      "SLC6A4_promoter_LPR_allele",
+      "HTR2A_rs6313_allele",
+      "OXTR_rs53576_genotype",
+      "NR3C1_rs41423248_genotype",
+      "CACNA1C_rs1006737_genotype"
+    ],
+    "molecules": [
+      "dopamine_availability_prefrontal_cortex",
+      "serotonin_synaptic_release_amygdala",
+      "norepinephrine_levels_locus_coeruleus",
+      "cortisol_plasma_concentration",
+      "IL6_plasma_concentration",
+      "glutamate_concentration_anterior_cingulate"
+    ],
+    "cells": [
+      "amygdala_GABAergic_neuron_activity",
+      "prefrontal_pyramidal_neuron_firing_rate",
+      "dorsolateral_PFC_GABA_interneuron_activity",
+      "hippocampal_neuron_excitation_ratio"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_functional_connectivity",
+      "vmPFC_amygdala_top_down_inhibition_strength",
+      "insula_anterior_cingulate_network_connectivity",
+      "frontostriatal_reward_loss_connectivity"
+    ],
+    "physiology": [
+      "heart_rate_mean",
+      "heart_rate_variability_sdnn",
+      "skin_conductance_response_amplitude",
+      "pupil_dilation_peak_during_frustration",
+      "respiratory_rate"
+    ],
+    "behavior": [
+      "aggressive_outbursts_per_month",
+      "verbal_aggression_events_per_frustration_episode",
+      "impulsive_responses_to_frustration_count_per_week",
+      "frustration_reactivity_score",
+      "anger_expression_intensity_peak_during_frustration",
+      "hostile_behavior_frequency_social_conflicts_per_week"
+    ],
+    "self_report": [
+      "irritability_subscale_score",
+      "anger_outbursts_frequency_self_report",
+      "frustration_susceptibility_index",
+      "temper_tantrum_severity_self_report",
+      "reactivity_to_frustration_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 3.8
+}

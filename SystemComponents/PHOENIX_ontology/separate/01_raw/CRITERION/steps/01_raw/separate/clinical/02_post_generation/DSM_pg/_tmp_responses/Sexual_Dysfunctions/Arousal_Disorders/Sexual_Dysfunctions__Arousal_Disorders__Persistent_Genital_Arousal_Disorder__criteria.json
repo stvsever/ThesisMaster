@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "genital_engorgement"
+    },
+    {
+      "criterium": "arousal_without_sexual_desire"
+    },
+    {
+      "criterium": "spontaneous_genital_arousal"
+    },
+    {
+      "criterium": "arousal_unrelieved_by_orgasm"
+    },
+    {
+      "criterium": "genital_tingling_sensation"
+    },
+    {
+      "criterium": "genital_throbbing_sensation"
+    },
+    {
+      "criterium": "pelvic_perineal_discomfort_associated_with_arousal"
+    },
+    {
+      "criterium": "urinary_urgency_frequency_associated_with_arousal"
+    },
+    {
+      "criterium": "arousal_triggered_by_nonsexual_stimuli"
+    },
+    {
+      "criterium": "autonomic_activation_during_arousal"
+    },
+    {
+      "criterium": "psychological_distress_related_to_arousal"
+    },
+    {
+      "criterium": "functional_impairment_due_to_arousal"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

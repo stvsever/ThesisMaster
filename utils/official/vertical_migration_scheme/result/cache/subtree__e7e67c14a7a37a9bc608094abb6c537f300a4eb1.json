@@ -1,0 +1,88 @@
+{
+  "domain_path": "BIO / Somatic_and_Interventional_Care_Pathways",
+  "domain_root_path": [
+    "BIO",
+    "Somatic_and_Interventional_Care_Pathways"
+  ],
+  "leaf_count": 105,
+  "total_edges_in_subtree": 128,
+  "evaluated_pairs": 128,
+  "violations_count": 11,
+  "violation_rate": 0.0859375,
+  "llm_calls": 2,
+  "violations": [
+    "ImmunoHematologic_Interventional_Evaluations > Therapeutic_Apheresis",
+    "Medical_Specialty_Linkage > Cardiopulmonary_and_Autonomic",
+    "Medical_Specialty_Linkage > Infectious_And_Inflammatory",
+    "Medical_Specialty_Linkage > Metabolic_Endocrine_and_Nutrition",
+    "RapidActing_Interventional_Psychopharmacology > Clinical_Operations_and_Care_Integration",
+    "Rehabilitation_and_Functional_Restoration > Somatic_Symptom_and_Stress_Physiology_Interfaces",
+    "Somatic_and_Interventional_Therapies > ImmunoHematologic_Interventional_Evaluations",
+    "Somatic_and_Interventional_Therapies > Medical_Specialty_Linkage",
+    "Somatic_and_Interventional_Therapies > Physiologic_Environmental_Medicine",
+    "Somatic_and_Interventional_Therapies > Safety_Monitoring_and_Escalation",
+    "Somatic_and_Interventional_Therapies > Sleep_Medicine_and_Circadian_Care"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Somatic_and_Interventional_Therapies > ImmunoHematologic_Interventional_Evaluations",
+      "parent_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies",
+      "child_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / ImmunoHematologic_Interventional_Evaluations"
+    },
+    {
+      "pair": "Somatic_and_Interventional_Therapies > Medical_Specialty_Linkage",
+      "parent_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies",
+      "child_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage"
+    },
+    {
+      "pair": "Somatic_and_Interventional_Therapies > Physiologic_Environmental_Medicine",
+      "parent_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies",
+      "child_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Physiologic_Environmental_Medicine"
+    },
+    {
+      "pair": "Somatic_and_Interventional_Therapies > Safety_Monitoring_and_Escalation",
+      "parent_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies",
+      "child_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Safety_Monitoring_and_Escalation"
+    },
+    {
+      "pair": "Somatic_and_Interventional_Therapies > Sleep_Medicine_and_Circadian_Care",
+      "parent_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies",
+      "child_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Sleep_Medicine_and_Circadian_Care"
+    },
+    {
+      "pair": "ImmunoHematologic_Interventional_Evaluations > Therapeutic_Apheresis",
+      "parent_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / ImmunoHematologic_Interventional_Evaluations",
+      "child_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / ImmunoHematologic_Interventional_Evaluations / Therapeutic_Apheresis"
+    },
+    {
+      "pair": "Medical_Specialty_Linkage > Cardiopulmonary_and_Autonomic",
+      "parent_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage",
+      "child_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage / Cardiopulmonary_and_Autonomic"
+    },
+    {
+      "pair": "Medical_Specialty_Linkage > Infectious_And_Inflammatory",
+      "parent_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage",
+      "child_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage / Infectious_And_Inflammatory"
+    },
+    {
+      "pair": "Medical_Specialty_Linkage > Metabolic_Endocrine_and_Nutrition",
+      "parent_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage",
+      "child_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage / Metabolic_Endocrine_and_Nutrition"
+    },
+    {
+      "pair": "RapidActing_Interventional_Psychopharmacology > Clinical_Operations_and_Care_Integration",
+      "parent_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / RapidActing_Interventional_Psychopharmacology",
+      "child_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / RapidActing_Interventional_Psychopharmacology / Clinical_Operations_and_Care_Integration"
+    },
+    {
+      "pair": "Rehabilitation_and_Functional_Restoration > Somatic_Symptom_and_Stress_Physiology_Interfaces",
+      "parent_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Rehabilitation_and_Functional_Restoration",
+      "child_path": "BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Rehabilitation_and_Functional_Restoration / Somatic_Symptom_and_Stress_Physiology_Interfaces"
+    }
+  ],
+  "cache_key": "e7e67c14a7a37a9bc608094abb6c537f300a4eb1",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 83.829
+}

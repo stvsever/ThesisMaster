@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "delusions_persecutory"
+    },
+    {
+      "criterium": "delusions_reference"
+    },
+    {
+      "criterium": "delusions_grandiose"
+    },
+    {
+      "criterium": "delusions_of_control"
+    },
+    {
+      "criterium": "delusions_of_thought_insertion"
+    },
+    {
+      "criterium": "delusions_of_thought_broadcasting"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "disorganized_thought_content"
+    },
+    {
+      "criterium": "grossly_disorganized_behavior"
+    },
+    {
+      "criterium": "catatonic_behavior"
+    },
+    {
+      "criterium": "affect_flat_inappropriate_affect"
+    },
+    {
+      "criterium": "bizarre_thought_content"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

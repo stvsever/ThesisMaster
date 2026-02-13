@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_postvoid_residual_volume_ml"
+    },
+    {
+      "criterium": "bladder_distension_on_examination"
+    },
+    {
+      "criterium": "weak_urinary_stream"
+    },
+    {
+      "criterium": "urinary_hesitancy"
+    },
+    {
+      "criterium": "straining_to_void"
+    },
+    {
+      "criterium": "urinary_dribbling_post_void"
+    },
+    {
+      "criterium": "perceived_incomplete_emptying"
+    },
+    {
+      "criterium": "suprapubic_pain_or_discomfort"
+    },
+    {
+      "criterium": "manual_bladder_expression_required"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "marked_distress_over_binge_eating"
+    },
+    {
+      "criterium": "recurrent_binge_eating_episodes"
+    },
+    {
+      "criterium": "loss_of_control_during_binge_eating"
+    },
+    {
+      "criterium": "rapid_eating_during_binge_eating"
+    },
+    {
+      "criterium": "large_quantity_of_food_consumed_during_binge"
+    },
+    {
+      "criterium": "preoccupation_with_binge_eating_between_episodes"
+    },
+    {
+      "criterium": "guilt_or_disgust_after_binge_eating"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_binge_eating_concerns"
+    },
+    {
+      "criterium": "embarrassment_or_shame_about_binge_eating"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

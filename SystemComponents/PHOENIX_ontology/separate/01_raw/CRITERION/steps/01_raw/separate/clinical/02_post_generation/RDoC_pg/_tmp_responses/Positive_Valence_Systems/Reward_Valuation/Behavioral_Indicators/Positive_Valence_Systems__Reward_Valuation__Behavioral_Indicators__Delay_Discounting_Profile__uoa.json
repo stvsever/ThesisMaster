@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_V158M",
+      "DRD2_TaqIA_A1_allele",
+      "SLC6A3_DAT1_9R_VNTR",
+      "BDNF_rs6265_V66M",
+      "MAOA_uVNTR_high_activity"
+    ],
+    "molecules": [
+      "dopamine_concentration_striatum",
+      "D2_receptor_density_nucleus_accumbens",
+      "D1_receptor_density_prefrontal_cortex",
+      "BDNF_level_brain",
+      "serotonin_transport_availability_prefrontal_cortex"
+    ],
+    "cells": [
+      "dopaminergic_neurons_VTA",
+      "medium_spiny_neurons_D1_striatum",
+      "medium_spiny_neurons_D2_striatum",
+      "pyramidal_neurons_prefrontal_cortex",
+      "gabaergic_interneurons_prefrontal_cortex"
+    ],
+    "circuits": [
+      "ventral_striatum_reward_circuit",
+      "orbitofrontal_cortex_reward_valuation_circuit",
+      "dorsolateral_prefrontal_cortex_executive_control",
+      "prefrontal_amygdala_connectivity",
+      "prefrontal_striatal_connectivity",
+      "mesolimbic_reward_pathway"
+    ],
+    "physiology": [
+      "fMRI_BOLD_vmPFC_delay_discounting",
+      "fMRI_BOLD_nucleus_accumbens_delay_discounting",
+      "HRV_LF_HF_ratio",
+      "pupil_dilation_during_discounting_choice",
+      "skin_conductance_response_during_discounting"
+    ],
+    "behavior": [
+      "discount_rate_k",
+      "AUC_delay_discounting",
+      "SS_choice_proportion",
+      "LL_choice_proportion",
+      "mean_reaction_time_discount_choices",
+      "trial_to_trial_choice_stability"
+    ],
+    "self_report": [
+      "Kirby_DDQ_total_score",
+      "MCQ_total_score",
+      "BIS11_total_score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "coprophilic_arousal_to_fecal_stimuli"
+    },
+    {
+      "criterium": "fecal_matter_fantasy_recurrence"
+    },
+    {
+      "criterium": "fecal_material_involved_sexual_activity_engagement"
+    },
+    {
+      "criterium": "masturbation_with_fecal_material"
+    },
+    {
+      "criterium": "use_of_fecal_materials_for_erotic_stimulation"
+    },
+    {
+      "criterium": "inability_to_resist_coprophilic_urges"
+    },
+    {
+      "criterium": "distress_or_impairment_due_to_coprophilia"
+    },
+    {
+      "criterium": "escalation_in_frequency_of_fecophilic_behaviors"
+    },
+    {
+      "criterium": "interpersonal_conflict_due_to_coprophilia"
+    },
+    {
+      "criterium": "cognitive_preoccupation_with_fecal_stimuli"
+    }
+  ],
+  "estimated_prevalence_percent": 0.03
+}

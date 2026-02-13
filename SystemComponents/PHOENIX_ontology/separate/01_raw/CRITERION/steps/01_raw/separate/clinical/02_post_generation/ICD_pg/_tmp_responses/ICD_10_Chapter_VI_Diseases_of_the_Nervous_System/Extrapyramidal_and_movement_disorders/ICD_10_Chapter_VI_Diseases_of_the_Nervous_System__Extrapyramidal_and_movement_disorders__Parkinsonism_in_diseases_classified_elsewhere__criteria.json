@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bradykinesia"
+    },
+    {
+      "criterium": "resting_tremor"
+    },
+    {
+      "criterium": "rigidity"
+    },
+    {
+      "criterium": "akinesia"
+    },
+    {
+      "criterium": "festination_gait"
+    },
+    {
+      "criterium": "freezing_of_gait"
+    },
+    {
+      "criterium": "postural_instability"
+    },
+    {
+      "criterium": "micrographia"
+    },
+    {
+      "criterium": "hypomimia"
+    },
+    {
+      "criterium": "hypokinetic_dysarthria"
+    },
+    {
+      "criterium": "reduced_blink_rate"
+    }
+  ],
+  "estimated_prevalence_percent": 0.08
+}

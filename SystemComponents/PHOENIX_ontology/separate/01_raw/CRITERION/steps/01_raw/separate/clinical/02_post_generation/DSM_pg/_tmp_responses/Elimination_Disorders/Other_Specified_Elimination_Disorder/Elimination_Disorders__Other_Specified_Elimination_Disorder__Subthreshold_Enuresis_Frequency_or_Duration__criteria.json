@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_enuresis_episode_present"
+    },
+    {
+      "criterium": "diurnal_enuresis_episode_present"
+    },
+    {
+      "criterium": "caregiver_report_bedwetting_events"
+    },
+    {
+      "criterium": "self_report_involuntary_urinary_incontinence"
+    },
+    {
+      "criterium": "sleep_disturbance_from_enuresis"
+    },
+    {
+      "criterium": "distress_or_embarrassment_related_to_enuresis"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_enuresis"
+    },
+    {
+      "criterium": "family_history_of_enuresis_present"
+    }
+  ],
+  "estimated_prevalence_percent": 5.3
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hyperkinetic_restlessness"
+    },
+    {
+      "criterium": "pacing"
+    },
+    {
+      "criterium": "aggression_impulsivity"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "disinhibited_social_behavior"
+    },
+    {
+      "criterium": "impulsive_risk_taking"
+    },
+    {
+      "criterium": "inappropriate_sexual_behavior"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "behavioral_outbursts"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

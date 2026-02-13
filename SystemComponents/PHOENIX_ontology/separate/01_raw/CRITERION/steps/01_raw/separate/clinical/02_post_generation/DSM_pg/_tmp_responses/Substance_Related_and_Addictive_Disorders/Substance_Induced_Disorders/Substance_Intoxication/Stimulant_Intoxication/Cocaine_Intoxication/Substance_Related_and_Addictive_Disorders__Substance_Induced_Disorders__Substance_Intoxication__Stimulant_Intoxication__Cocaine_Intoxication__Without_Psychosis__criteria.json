@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "euphoria"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "bruxism"
+    },
+    {
+      "criterium": "decreased_appetite"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "anxiety_irritability"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

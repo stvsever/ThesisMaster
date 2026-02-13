@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "fluctuating_arousal"
+    },
+    {
+      "criterium": "disorientation_time"
+    },
+    {
+      "criterium": "disorientation_place"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "language_disturbance"
+    },
+    {
+      "criterium": "disorganized_thought"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "perceptual_distortions"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

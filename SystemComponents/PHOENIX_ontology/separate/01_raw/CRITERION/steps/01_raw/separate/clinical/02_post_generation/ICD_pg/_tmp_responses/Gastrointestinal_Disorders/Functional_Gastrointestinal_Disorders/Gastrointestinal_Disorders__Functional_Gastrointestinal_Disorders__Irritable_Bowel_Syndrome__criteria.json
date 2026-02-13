@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_abdominal_pain"
+    },
+    {
+      "criterium": "pain_relieved_by_defecation"
+    },
+    {
+      "criterium": "altered_stool_frequency"
+    },
+    {
+      "criterium": "altered_stool_form"
+    },
+    {
+      "criterium": "mucus_in_stool"
+    },
+    {
+      "criterium": "abdominal_bloating"
+    },
+    {
+      "criterium": "fecal_urgency"
+    },
+    {
+      "criterium": "incomplete_evacuative_sensation"
+    },
+    {
+      "criterium": "abdominal_distension"
+    }
+  ],
+  "estimated_prevalence_percent": 11.0
+}

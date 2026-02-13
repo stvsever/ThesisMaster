@@ -1,0 +1,60 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD1",
+      "DRD2",
+      "SLC6A3",
+      "TH",
+      "COMT",
+      "MAOA",
+      "MAOB",
+      "SNAP25"
+    ],
+    "molecules": [
+      "dopamine",
+      "norepinephrine",
+      "serotonin",
+      "acetylcholine",
+      "BDNF",
+      "glutamate",
+      "GABA"
+    ],
+    "cells": [
+      "dopaminergic_neurons_snpc",
+      "medium_spiny_neurons_d1",
+      "medium_spiny_neurons_d2",
+      "cortical_pyramidal_neurons",
+      "parvalbumin_positive_interneurons",
+      "cerebellar_purkinje_cells"
+    ],
+    "circuits": [
+      "corticostriatal_loop",
+      "preSMA_motor_initiation_pathway",
+      "primary_motor_cortex",
+      "supplementary_motor_area",
+      "basal_ganglia_circuit",
+      "cerebellar_thalamo_cortical_loop"
+    ],
+    "physiology": [
+      "reaction_time_ms",
+      "initiation_latency_ms",
+      "emg_onset_latency_ms",
+      "movement_onset_time_ms",
+      "pupil_dilation_during_initiation",
+      "heart_rate_change_bpm"
+    ],
+    "behavior": [
+      "latency_to_first_movement_ms",
+      "go_signal_response_latency_ms",
+      "initiation_success_rate_per_session",
+      "premature_initiation_events_per_trial"
+    ],
+    "self_report": [
+      "self_reported_psychomotor_slowness",
+      "self_reported_reaction_time_slowing",
+      "self_reported_movement_initiation_difficulty",
+      "self_reported_motor_slowing_severity"
+    ]
+  },
+  "estimated_prevalence_percent": 4.3
+}

@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "IL6_gene_expression",
+      "TNFA_gene_expression",
+      "IL1B_gene_expression"
+    ],
+    "molecules": [
+      "IL6_plasma_concentration",
+      "TNF_alpha_plasma_concentration",
+      "IL1B_plasma_concentration",
+      "IFNG_plasma_concentration"
+    ],
+    "cells": [
+      "monocyte_count",
+      "neutrophil_count",
+      "lymphocyte_count",
+      "activated_T_cell_fraction"
+    ],
+    "circuits": [
+      "amygdala_fear_reactivity_BOLD",
+      "PFC_emotion_regulation_BOLD",
+      "insula_fear_processing_BOLD",
+      "anterior_cingulate_cortex_activity_BOLD"
+    ],
+    "physiology": [
+      "core_body_temperature",
+      "resting_heart_rate",
+      "systolic_blood_pressure",
+      "heart_rate_variability",
+      "cortisol_serum_level"
+    ],
+    "behavior": [
+      "reduced_physical_activity",
+      "psychomotor_slowing_behavior",
+      "sleep_disturbance_behavior",
+      "social_withdrawal_behavior",
+      "decreased_exercise_engagement"
+    ],
+    "self_report": [
+      "fatigue_score",
+      "somatic_symptom_score",
+      "sleep_disturbance_score",
+      "anxiety_score",
+      "depressive_symptom_score"
+    ]
+  },
+  "estimated_prevalence_percent": 15.0
+}

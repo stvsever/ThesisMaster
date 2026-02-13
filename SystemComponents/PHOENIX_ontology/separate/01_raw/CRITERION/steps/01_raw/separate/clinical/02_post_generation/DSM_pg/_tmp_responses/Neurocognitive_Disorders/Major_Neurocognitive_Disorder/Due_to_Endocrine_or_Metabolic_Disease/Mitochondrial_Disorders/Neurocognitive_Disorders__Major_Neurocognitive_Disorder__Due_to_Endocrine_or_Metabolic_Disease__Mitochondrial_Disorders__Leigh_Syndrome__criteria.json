@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypotonia"
+    },
+    {
+      "criterium": "developmental_delay"
+    },
+    {
+      "criterium": "seizures"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "spasticity"
+    },
+    {
+      "criterium": "optic_atrophy"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "cardiomyopathy"
+    },
+    {
+      "criterium": "lactate_elevation_blood_or_csf"
+    },
+    {
+      "criterium": "basal_ganglia_brainstem_MRI_lesions"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0025
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nonnutritive_substance_ingestion_recurrence"
+    },
+    {
+      "criterium": "pagophagia_present"
+    },
+    {
+      "criterium": "geophagia_present"
+    },
+    {
+      "criterium": "trichophagia_present"
+    },
+    {
+      "criterium": "iron_deficiency_anemia_present"
+    },
+    {
+      "criterium": "low_serum_ferritin_level"
+    },
+    {
+      "criterium": "weight_loss_present"
+    },
+    {
+      "criterium": "malnutrition_present"
+    },
+    {
+      "criterium": "functional_impairment_in_daily_living_due_to_pica"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

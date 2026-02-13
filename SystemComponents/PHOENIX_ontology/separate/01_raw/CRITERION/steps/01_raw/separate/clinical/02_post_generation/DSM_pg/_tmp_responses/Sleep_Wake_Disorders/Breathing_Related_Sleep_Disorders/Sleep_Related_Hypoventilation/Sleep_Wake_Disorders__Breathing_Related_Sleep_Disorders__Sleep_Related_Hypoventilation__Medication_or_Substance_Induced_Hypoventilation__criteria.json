@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_hypercapnia"
+    },
+    {
+      "criterium": "nocturnal_hypoxemia"
+    },
+    {
+      "criterium": "reduced_sleep_tidal_volume"
+    },
+    {
+      "criterium": "reduced_sleep_minute_ventilation"
+    },
+    {
+      "criterium": "decreased_sleep_respiratory_rate"
+    },
+    {
+      "criterium": "central_hypoventilation_pattern"
+    },
+    {
+      "criterium": "arterial_pH_decreased_during_sleep"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

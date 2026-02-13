@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acute_onset_delirium"
+    },
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "disorientation_to_time_place_or_person"
+    },
+    {
+      "criterium": "disorganized_thought_process"
+    },
+    {
+      "criterium": "visual_hallucination"
+    },
+    {
+      "criterium": "delusional_thought_content"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "altered_level_of_consciousness"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "dry_skin_mucosa"
+    },
+    {
+      "criterium": "urinary_retention"
+    },
+    {
+      "criterium": "constipation"
+    },
+    {
+      "criterium": "hyperthermia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.03
+}

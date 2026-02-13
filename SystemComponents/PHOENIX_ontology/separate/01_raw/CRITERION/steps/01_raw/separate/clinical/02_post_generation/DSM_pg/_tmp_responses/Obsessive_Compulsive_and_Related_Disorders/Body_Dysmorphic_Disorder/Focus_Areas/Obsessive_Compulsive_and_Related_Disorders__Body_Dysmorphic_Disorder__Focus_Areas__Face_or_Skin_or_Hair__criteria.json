@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_perceived_facial_defect"
+    },
+    {
+      "criterium": "repetitive_mirror_checking_of_face"
+    },
+    {
+      "criterium": "camouflaging_face_with_makeup"
+    },
+    {
+      "criterium": "camouflaging_face_with_clothing"
+    },
+    {
+      "criterium": "excessive_makeup_application_or_removal_on_face"
+    },
+    {
+      "criterium": "facial_skin_inspection_repeatedly"
+    },
+    {
+      "criterium": "facial_hair_grooming_or_removal_compulsions"
+    },
+    {
+      "criterium": "facial_skin_picking_or_excoriation"
+    },
+    {
+      "criterium": "avoidance_of_social_interaction_due_to_face_appearance"
+    },
+    {
+      "criterium": "reassurance_seeking_about_face_appearance"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

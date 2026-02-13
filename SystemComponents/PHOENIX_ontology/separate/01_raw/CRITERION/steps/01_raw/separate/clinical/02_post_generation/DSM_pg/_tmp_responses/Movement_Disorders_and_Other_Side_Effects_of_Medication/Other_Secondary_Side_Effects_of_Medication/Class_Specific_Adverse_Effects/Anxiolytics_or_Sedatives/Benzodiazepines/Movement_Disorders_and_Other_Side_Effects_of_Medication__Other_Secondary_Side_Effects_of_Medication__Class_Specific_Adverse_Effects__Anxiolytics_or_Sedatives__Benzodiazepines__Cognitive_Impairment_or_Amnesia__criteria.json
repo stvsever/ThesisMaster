@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_amnesia"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "semantic_memory_impairment"
+    },
+    {
+      "criterium": "short_term_memory_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "delayed_recall_deficit"
+    },
+    {
+      "criterium": "retrograde_memory_deficit"
+    },
+    {
+      "criterium": "prospective_memory_impairment"
+    },
+    {
+      "criterium": "encoding_deficit_for_new_information"
+    },
+    {
+      "criterium": "explicit_memory_deficit"
+    },
+    {
+      "criterium": "recognition_memory_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

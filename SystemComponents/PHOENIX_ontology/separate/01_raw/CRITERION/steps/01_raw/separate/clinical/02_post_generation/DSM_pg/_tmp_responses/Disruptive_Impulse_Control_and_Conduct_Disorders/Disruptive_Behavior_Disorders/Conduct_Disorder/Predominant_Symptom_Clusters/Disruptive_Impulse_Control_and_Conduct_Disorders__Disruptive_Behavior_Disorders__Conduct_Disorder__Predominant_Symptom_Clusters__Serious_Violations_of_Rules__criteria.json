@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_truancy"
+    },
+    {
+      "criterium": "overnight_runaway_from_home"
+    },
+    {
+      "criterium": "frequent_curfew_violations"
+    },
+    {
+      "criterium": "persistent_disobedience_to_parents_or_authorities"
+    },
+    {
+      "criterium": "deliberate_theft_of_money_or_possessions"
+    },
+    {
+      "criterium": "deliberate_damage_of_property"
+    },
+    {
+      "criterium": "lying_to_guardians_or_authorities_to_evade_rules"
+    },
+    {
+      "criterium": "noncompliance_with_school_rules"
+    },
+    {
+      "criterium": "association_with_delinquent_peer_group"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

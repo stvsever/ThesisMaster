@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ictal_hypermotor_activity"
+    },
+    {
+      "criterium": "orofacial_automatisms"
+    },
+    {
+      "criterium": "vocalizations_during_ictus"
+    },
+    {
+      "criterium": "dystonic_neck_posturing"
+    },
+    {
+      "criterium": "unilateral_tonic_posturing_upper_limb"
+    },
+    {
+      "criterium": "bicycling_movements_during_ictus"
+    },
+    {
+      "criterium": "pelvic_thrashing_or_hip_rotation_movements"
+    },
+    {
+      "criterium": "ictal_aggression_or_fear_response"
+    },
+    {
+      "criterium": "ictal_laughter_or_crying"
+    },
+    {
+      "criterium": "nocturnal_onset_episodes"
+    },
+    {
+      "criterium": "ictal_autonomic_changes"
+    },
+    {
+      "criterium": "preserved_consciousness_during_ictus"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

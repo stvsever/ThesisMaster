@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "PERSISTENT_GENDER_IDENTITY_DISCREPANCY"
+    },
+    {
+      "criterium": "PERSISTENT_DESIRE_FOR_SOCIAL_GENDER_TRANSITION"
+    },
+    {
+      "criterium": "PERSISTENT_CROSS_GENDER_EXPRESSION_PRESENT"
+    },
+    {
+      "criterium": "PERSISTENT_DISCOMFORT_WITH_PRIMARY_SEX_CHARACTERISTICS"
+    },
+    {
+      "criterium": "PERSISTENT_DISTRESS_DUE_TO_GENDER_DYSPHORIA"
+    },
+    {
+      "criterium": "PERSISTENT_AVERSION_TO_SECONDARY_SEX_CHARACTERISTICS"
+    },
+    {
+      "criterium": "PERSISTENT_PRONOUN_PREFERENCE_CHANGE"
+    },
+    {
+      "criterium": "PERSISTENT_NAME_USE_CHANGE"
+    },
+    {
+      "criterium": "PERSISTENT_INTRUSIVE_GENDER_DYSPHORIA_THOUGHTS"
+    },
+    {
+      "criterium": "PERSISTENT_PREOCCUPATION_WITH_GENDER_DYSPHORIA_THOUGHTS"
+    },
+    {
+      "criterium": "PERSISTENT_SOCIAL_WITHDRAWAL_DUE_TO_GENDER_DYSPHORIA"
+    },
+    {
+      "criterium": "PERSISTENT_IMPAIRMENT_IN_SOCIAL_OR_OCCUPATIONAL_FUNCTIONING_DUE_TO_GENDER_DYSPHORIA"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

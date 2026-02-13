@@ -1,0 +1,51 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_rs1800497",
+      "DRD4_VNTR_7R",
+      "BDNF_rs6265",
+      "OXTR_rs53576",
+      "COMT_rs4680"
+    ],
+    "molecules": [
+      "DRD1_protein",
+      "DRD2_protein",
+      "DAT_SLC6A3",
+      "OXT_peptide",
+      "BDNF_protein",
+      "beta_endorphin"
+    ],
+    "cells": [
+      "D1_MSNs",
+      "D2_MSNs",
+      "Striatal_GABAergic_interneurons"
+    ],
+    "circuits": [
+      "NAcc_reward_circuit",
+      "Ventral_striatum_network",
+      "Mesolimbic_reward_pathway",
+      "Striatal_social_reward_pathway"
+    ],
+    "physiology": [
+      "HR_increase_to_social_reward",
+      "SCR_to_social_reward",
+      "Pupil_dilation_to_social_reward",
+      "Respiratory_rate_change_to_social_reward",
+      "Cortisol_change_to_social_stimulus"
+    ],
+    "behavior": [
+      "approach_latency_to_social_reward_task",
+      "time_spent_in_social_interaction",
+      "social_reward_choice_rate",
+      "gaze_fixation_duration_on_social_stimuli",
+      "pro_social_initiation_rate"
+    ],
+    "self_report": [
+      "Social_reward_sensitivity_questionnaire_score",
+      "Social_anhedonia_scale_score",
+      "Empathy_quality_questionnaire_score",
+      "Trust_in_others_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

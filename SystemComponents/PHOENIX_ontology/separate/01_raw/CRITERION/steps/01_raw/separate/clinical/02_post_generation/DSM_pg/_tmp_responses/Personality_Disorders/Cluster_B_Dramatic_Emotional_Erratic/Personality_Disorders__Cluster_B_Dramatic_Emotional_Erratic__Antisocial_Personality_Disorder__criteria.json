@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_illicit_acts"
+    },
+    {
+      "criterium": "deceitfulness"
+    },
+    {
+      "criterium": "impulsivity"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "aggressiveness"
+    },
+    {
+      "criterium": "reckless_disregard_for_safety"
+    },
+    {
+      "criterium": "consistent_irresponsibility"
+    },
+    {
+      "criterium": "lack_of_remorse"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

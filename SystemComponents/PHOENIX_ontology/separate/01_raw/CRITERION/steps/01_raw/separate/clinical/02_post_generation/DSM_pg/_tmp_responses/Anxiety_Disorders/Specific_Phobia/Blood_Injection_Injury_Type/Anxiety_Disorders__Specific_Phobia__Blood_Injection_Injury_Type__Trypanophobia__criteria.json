@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intense_fear_at_needle_stimulus"
+    },
+    {
+      "criterium": "panic_attack_during_needle_related_procedure"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_injections_or_blood_draws"
+    },
+    {
+      "criterium": "avoidance_of_injections_or_blood_draws"
+    },
+    {
+      "criterium": "fainting_or_near_fainting_in_needle_context"
+    },
+    {
+      "criterium": "tachycardia_on_needle_exposure"
+    },
+    {
+      "criterium": "diaphoresis_on_needle_exposure"
+    },
+    {
+      "criterium": "tremor_on_needle_exposure"
+    },
+    {
+      "criterium": "escape_or_flee_response_when_needles_are_present"
+    },
+    {
+      "criterium": "catastrophic_thoughts_about_needles"
+    },
+    {
+      "criterium": "distress_in_medical_settings_due_to_needles"
+    },
+    {
+      "criterium": "avoidance_of_medical_procedures_involving_needles"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

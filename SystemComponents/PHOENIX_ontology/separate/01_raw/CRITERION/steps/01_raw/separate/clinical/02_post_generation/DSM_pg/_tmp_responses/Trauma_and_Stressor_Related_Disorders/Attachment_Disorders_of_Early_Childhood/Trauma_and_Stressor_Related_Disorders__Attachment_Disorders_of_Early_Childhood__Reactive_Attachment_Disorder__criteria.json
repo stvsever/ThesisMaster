@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rarely_seeks_comfort_when_distressed"
+    },
+    {
+      "criterium": "rarely_responds_to_comfort_when_distressed"
+    },
+    {
+      "criterium": "minimal_social_emotional_responsiveness_to_adults"
+    },
+    {
+      "criterium": "reduced_positive_affect_in_interactions"
+    },
+    {
+      "criterium": "persistent_neglect_of_basic_emotional_needs_by_caregivers"
+    },
+    {
+      "criterium": "frequent_changes_of_primary_caregivers"
+    },
+    {
+      "criterium": "rearing_in_settings_limiting_attachment_opportunities"
+    },
+    {
+      "criterium": "onset_before_age_five"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

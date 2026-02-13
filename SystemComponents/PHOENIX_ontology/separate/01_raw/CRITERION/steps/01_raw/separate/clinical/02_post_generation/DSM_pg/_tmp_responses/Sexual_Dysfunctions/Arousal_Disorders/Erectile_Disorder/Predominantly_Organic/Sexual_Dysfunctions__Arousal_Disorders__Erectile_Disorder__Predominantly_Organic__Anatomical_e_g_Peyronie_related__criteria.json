@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "palpable_tunica_albuginea_plaque"
+    },
+    {
+      "criterium": "penile_curvature_during_erection"
+    },
+    {
+      "criterium": "curvature_angle_degrees"
+    },
+    {
+      "criterium": "hourglass_deformity_present"
+    },
+    {
+      "criterium": "penile_pain_during_erection"
+    },
+    {
+      "criterium": "plaque_calcification_on_ultrasound"
+    },
+    {
+      "criterium": "plaque_location_dorsal_or_ventral"
+    },
+    {
+      "criterium": "penile_shortening_present"
+    },
+    {
+      "criterium": "tunica_albuginea_fibrosis_on_imaging"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

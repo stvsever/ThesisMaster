@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "colicky_epigastric_pain_descriptor"
+    },
+    {
+      "criterium": "postprandial_pain_exacerbation"
+    },
+    {
+      "criterium": "pain_radiation_to_back_or_right_epigastric_area"
+    },
+    {
+      "criterium": "tachycardia_during_pain_episode"
+    },
+    {
+      "criterium": "pain_hypervigilance_present"
+    },
+    {
+      "criterium": "pain_catastrophizing_score_high"
+    },
+    {
+      "criterium": "somatic_symptom_burden_high"
+    },
+    {
+      "criterium": "state_anxiety_elevated_during_pain_episode"
+    },
+    {
+      "criterium": "depressive_symptoms_present"
+    },
+    {
+      "criterium": "functional_impairment_due_to_pain_in_daily_activities"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0015
+}

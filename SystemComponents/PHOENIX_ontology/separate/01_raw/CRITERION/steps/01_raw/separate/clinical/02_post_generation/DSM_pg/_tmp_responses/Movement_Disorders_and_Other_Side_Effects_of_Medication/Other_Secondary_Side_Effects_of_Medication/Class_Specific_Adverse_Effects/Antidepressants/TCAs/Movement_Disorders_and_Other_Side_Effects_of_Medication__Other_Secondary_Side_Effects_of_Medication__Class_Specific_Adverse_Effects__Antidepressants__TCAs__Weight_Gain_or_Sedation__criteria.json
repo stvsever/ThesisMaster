@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "weight_gain_observed"
+    },
+    {
+      "criterium": "bmi_increase_observed"
+    },
+    {
+      "criterium": "increased_food_intake_observed"
+    },
+    {
+      "criterium": "hyperphagia_observed"
+    },
+    {
+      "criterium": "daytime_somnolence_observed"
+    },
+    {
+      "criterium": "sedation_level_increased_observed"
+    },
+    {
+      "criterium": "fatigue_observed"
+    },
+    {
+      "criterium": "lethargy_observed"
+    },
+    {
+      "criterium": "psychomotor_retardation_observed"
+    },
+    {
+      "criterium": "decreased_alertness_observed"
+    },
+    {
+      "criterium": "sleepiness_impairment_observed"
+    }
+  ],
+  "estimated_prevalence_percent": 1.8
+}

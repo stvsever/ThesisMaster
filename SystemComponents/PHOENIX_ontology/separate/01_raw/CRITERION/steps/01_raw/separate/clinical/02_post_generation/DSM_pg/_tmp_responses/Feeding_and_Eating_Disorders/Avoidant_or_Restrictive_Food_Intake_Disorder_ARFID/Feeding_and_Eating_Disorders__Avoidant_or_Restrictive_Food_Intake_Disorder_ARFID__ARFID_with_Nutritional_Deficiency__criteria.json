@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "extreme_food_repertoire_restriction"
+    },
+    {
+      "criterium": "sensory_texture_avoidance"
+    },
+    {
+      "criterium": "avoidance_of_entire_food_categories"
+    },
+    {
+      "criterium": "inadequate_energy_intake"
+    },
+    {
+      "criterium": "unintentional_weight_loss"
+    },
+    {
+      "criterium": "low_bmi_percentile_for_age"
+    },
+    {
+      "criterium": "iron_deficiency_signs_present"
+    },
+    {
+      "criterium": "vitamin_deficiency_signs_present"
+    },
+    {
+      "criterium": "supplement_dependence_for_nutrition"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

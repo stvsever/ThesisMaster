@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_frequency_to_sugar_stimuli"
+    },
+    {
+      "criterium": "loss_of_control_over_sugar_intake"
+    },
+    {
+      "criterium": "tolerance_to_sugar_effect_development"
+    },
+    {
+      "criterium": "purchasing_or_stockpiling_sugar_products"
+    },
+    {
+      "criterium": "preoccupation_with_sugar_eating"
+    },
+    {
+      "criterium": "sugar_withdrawal_symptoms"
+    },
+    {
+      "criterium": "continued_sugar_use_despite_adverse_consequences"
+    },
+    {
+      "criterium": "mood_regulation_by_sugar_consumption"
+    },
+    {
+      "criterium": "time_spent_seeking_or_consuming_sugar"
+    },
+    {
+      "criterium": "functional_impairment_due_to_sugar_consumption"
+    }
+  ],
+  "estimated_prevalence_percent": 7.4
+}

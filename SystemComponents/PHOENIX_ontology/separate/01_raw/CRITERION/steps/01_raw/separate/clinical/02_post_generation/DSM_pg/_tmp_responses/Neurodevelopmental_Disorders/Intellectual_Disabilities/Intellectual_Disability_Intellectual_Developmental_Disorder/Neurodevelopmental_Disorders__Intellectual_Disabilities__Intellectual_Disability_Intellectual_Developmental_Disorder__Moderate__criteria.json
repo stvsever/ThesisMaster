@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delayed_speech_and_language_development"
+    },
+    {
+      "criterium": "limited_expressive_language_abilities"
+    },
+    {
+      "criterium": "limited_receptive_language_abilities"
+    },
+    {
+      "criterium": "impaired_social_interaction"
+    },
+    {
+      "criterium": "deficits_in_adaptive_daily_living_skills"
+    },
+    {
+      "criterium": "requires_support_for_personal_care"
+    },
+    {
+      "criterium": "impaired_gross_motor_coordination"
+    },
+    {
+      "criterium": "impaired_fine_motor_coordination"
+    },
+    {
+      "criterium": "impaired_sustained_attention"
+    },
+    {
+      "criterium": "slowed_cognitive_processing_speed"
+    },
+    {
+      "criterium": "concrete_thinking_difficulty"
+    },
+    {
+      "criterium": "short_term_memory_deficits"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

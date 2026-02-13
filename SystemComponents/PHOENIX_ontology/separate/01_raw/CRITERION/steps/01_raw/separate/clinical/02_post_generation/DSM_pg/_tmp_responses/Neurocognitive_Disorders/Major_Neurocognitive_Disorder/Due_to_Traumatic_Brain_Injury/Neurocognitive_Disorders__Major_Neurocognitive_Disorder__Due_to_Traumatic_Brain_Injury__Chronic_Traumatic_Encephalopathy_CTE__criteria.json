@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "language_finding_difficulties"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "irritability_or_aggression"
+    },
+    {
+      "criterium": "impulsivity"
+    },
+    {
+      "criterium": "suicidality"
+    },
+    {
+      "criterium": "bradykinesia_or_rigidity"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "dysarthria_or_speech_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

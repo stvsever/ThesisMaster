@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_V158M_genotype",
+      "BDNF_Val66Met_genotype",
+      "DRD2_rs1800497_genotype",
+      "CACNA1C_genotype",
+      "KIBRA_rs17070145_genotype"
+    ],
+    "molecules": [
+      "DOPAMINE_concentration",
+      "NOREPINEPHRINE_concentration",
+      "GLUTAMATE_concentration",
+      "BDNF_protein_level",
+      "GABA_concentration"
+    ],
+    "cells": [
+      "PFC_excitatory_neuron_density",
+      "PFC_PV_interneuron_density",
+      "DLPFC_glutamatergic_synapse_density"
+    ],
+    "circuits": [
+      "DLPFC_PPC_functional_connectivity",
+      "DLPFC_ACC_functional_connectivity",
+      "Frontoparietal_network_efficiency",
+      "Frontostriatal_pathway_connectivity"
+    ],
+    "physiology": [
+      "Pupil_dilation_to_update_stimuli",
+      "Heart_rate_variability_during_updating",
+      "EEG_theta_power_DLPFC_update",
+      "EEG_gamma_power_DLPFC_update"
+    ],
+    "behavior": [
+      "NBACK_accuracy",
+      "NBACK_reaction_time_mean",
+      "Updating_task_switch_cost_ms",
+      "Updating_error_rate"
+    ],
+    "self_report": [
+      "Self_report_working_memory_capacity_scale_score",
+      "Self_report_updating_deficit_scale_score",
+      "Self_report_daily_functioning_related_to_working_memory_score"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

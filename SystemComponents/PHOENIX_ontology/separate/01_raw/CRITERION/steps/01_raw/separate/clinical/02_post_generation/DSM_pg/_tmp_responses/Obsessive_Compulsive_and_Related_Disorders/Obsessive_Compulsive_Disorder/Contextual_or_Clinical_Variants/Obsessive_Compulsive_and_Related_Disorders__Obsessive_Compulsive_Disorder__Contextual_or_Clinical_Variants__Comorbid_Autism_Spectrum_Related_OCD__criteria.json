@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Stereotyped_behaviors_repetition"
+    },
+    {
+      "criterium": "Rigidity_to_changes_in_routines"
+    },
+    {
+      "criterium": "Compulsive_ordering"
+    },
+    {
+      "criterium": "Intrusive_sameness_obsessions"
+    },
+    {
+      "criterium": "Symmetry_focus_in_compulsions"
+    },
+    {
+      "criterium": "Sensory_triggered_compulsions"
+    },
+    {
+      "criterium": "Verbal_script_rehearsal"
+    },
+    {
+      "criterium": "Resistance_to_environment_changes"
+    },
+    {
+      "criterium": "Perseverative_focus_on_special_interests"
+    },
+    {
+      "criterium": "Checking_compulsions"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

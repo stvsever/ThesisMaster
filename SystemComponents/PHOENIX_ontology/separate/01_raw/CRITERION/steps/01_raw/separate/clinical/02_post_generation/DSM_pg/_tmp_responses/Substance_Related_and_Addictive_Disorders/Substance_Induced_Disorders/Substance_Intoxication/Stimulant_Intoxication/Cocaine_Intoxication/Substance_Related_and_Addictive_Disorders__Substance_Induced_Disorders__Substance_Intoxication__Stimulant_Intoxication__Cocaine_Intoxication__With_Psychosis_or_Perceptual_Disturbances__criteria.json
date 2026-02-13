@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "tactile_hallucinations"
+    },
+    {
+      "criterium": "formication_sensation"
+    },
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "delusions_of_reference"
+    },
+    {
+      "criterium": "grandiose_delusions"
+    },
+    {
+      "criterium": "disorganized_thought_process"
+    },
+    {
+      "criterium": "disorganized_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

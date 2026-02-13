@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "property_damage_during_anger_outburst"
+    },
+    {
+      "criterium": "verbal_aggression_during_outburst"
+    },
+    {
+      "criterium": "impulsive_initiation_of_anger_outburst"
+    },
+    {
+      "criterium": "disproportionate_reaction_to_stressor"
+    },
+    {
+      "criterium": "heightened_autonomic_arousal_during_outburst"
+    },
+    {
+      "criterium": "outburst_occurs_in_multiple_settings"
+    },
+    {
+      "criterium": "post_outburst_emotional_distress_or_guilt"
+    },
+    {
+      "criterium": "recurrent_outbursts_without_premeditation"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

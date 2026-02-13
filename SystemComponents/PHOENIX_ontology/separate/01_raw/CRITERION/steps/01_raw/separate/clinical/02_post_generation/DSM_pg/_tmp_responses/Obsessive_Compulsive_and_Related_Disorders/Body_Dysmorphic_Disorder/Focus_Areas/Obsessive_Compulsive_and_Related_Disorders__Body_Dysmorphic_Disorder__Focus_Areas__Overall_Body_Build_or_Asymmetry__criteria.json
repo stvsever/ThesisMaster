@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_overall_body_build_or_asymmetry"
+    },
+    {
+      "criterium": "mirror_checking_of_body_build"
+    },
+    {
+      "criterium": "camouflaging_behaviors_to_hide_body_build_flaws"
+    },
+    {
+      "criterium": "reassurance_seeking_about_body_build_from_others"
+    },
+    {
+      "criterium": "time_spent_ruminating_on_body_build_flaws"
+    },
+    {
+      "criterium": "pursuit_of_cosmetic_procedures_to_modify_body_build"
+    },
+    {
+      "criterium": "excessive_exercise_to_change_body_build"
+    },
+    {
+      "criterium": "avoidance_of_photos_or_public_exposure_due_to_body_build_concerns"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_body_build_concerns"
+    },
+    {
+      "criterium": "clothing_selection_to_mask_body_build_flaws"
+    },
+    {
+      "criterium": "ritualistic_inspection_or_adjustment_of_body_build_features"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

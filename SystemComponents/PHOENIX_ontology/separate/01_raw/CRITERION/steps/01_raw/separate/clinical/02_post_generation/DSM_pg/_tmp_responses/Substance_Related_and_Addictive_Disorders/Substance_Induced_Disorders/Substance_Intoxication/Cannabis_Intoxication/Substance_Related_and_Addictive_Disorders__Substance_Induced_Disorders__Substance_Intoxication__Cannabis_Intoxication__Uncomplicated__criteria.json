@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "CONJUNCTIVAL_INJECTION"
+    },
+    {
+      "criterium": "TACHYCARDIA"
+    },
+    {
+      "criterium": "EUPHORIA"
+    },
+    {
+      "criterium": "IMPAIRED_MOTOR_COORDINATION"
+    },
+    {
+      "criterium": "IMPAIRED_JUDGMENT"
+    },
+    {
+      "criterium": "IMPAIRED_ATTENTION"
+    },
+    {
+      "criterium": "DRY_MOUTH"
+    },
+    {
+      "criterium": "INCREASED_APPETITE"
+    },
+    {
+      "criterium": "ANXIETY"
+    },
+    {
+      "criterium": "PARANOIA"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

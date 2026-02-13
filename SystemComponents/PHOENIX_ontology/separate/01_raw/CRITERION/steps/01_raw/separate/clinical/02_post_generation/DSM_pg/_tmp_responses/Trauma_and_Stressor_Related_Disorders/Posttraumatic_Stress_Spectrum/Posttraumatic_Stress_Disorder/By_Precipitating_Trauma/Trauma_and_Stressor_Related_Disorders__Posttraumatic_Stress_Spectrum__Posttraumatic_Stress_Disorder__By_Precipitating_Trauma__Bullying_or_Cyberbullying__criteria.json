@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_reexperiencing_bullying"
+    },
+    {
+      "criterium": "nightmares_bullying"
+    },
+    {
+      "criterium": "dissociative_reactions_to_bullying_cues"
+    },
+    {
+      "criterium": "avoidance_thoughts_feelings_bullying"
+    },
+    {
+      "criterium": "social_withdrawal_bullying_reminders"
+    },
+    {
+      "criterium": "persistent_negative_mood_bullying"
+    },
+    {
+      "criterium": "anhedonia_bullying"
+    },
+    {
+      "criterium": "emotional_numbing_bullying"
+    },
+    {
+      "criterium": "hypervigilance_bullying_reminders"
+    },
+    {
+      "criterium": "exaggerated_startle_bullying_reminders"
+    },
+    {
+      "criterium": "irritable_outbursts_bullying_reminders"
+    },
+    {
+      "criterium": "sleep_disturbance_bullying"
+    },
+    {
+      "criterium": "concentration_difficulties_bullying"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

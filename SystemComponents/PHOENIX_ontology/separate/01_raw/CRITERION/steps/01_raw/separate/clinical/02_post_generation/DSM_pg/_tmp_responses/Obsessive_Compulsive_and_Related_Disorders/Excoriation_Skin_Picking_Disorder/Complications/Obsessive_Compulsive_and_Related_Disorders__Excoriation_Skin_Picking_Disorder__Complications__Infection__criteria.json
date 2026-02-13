@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "local_erythema_at_excoriation_site"
+    },
+    {
+      "criterium": "local_edema_at_excoriation_site"
+    },
+    {
+      "criterium": "local_warmth_at_excoriation_site"
+    },
+    {
+      "criterium": "local_tenderness_at_excoriation_site"
+    },
+    {
+      "criterium": "purulent_exudate_at_excoriation_site"
+    },
+    {
+      "criterium": "crusting_at_excoriation_site"
+    },
+    {
+      "criterium": "cellulitis_at_excoriation_site"
+    },
+    {
+      "criterium": "regional_lymphadenopathy"
+    },
+    {
+      "criterium": "lymphangitis_present"
+    },
+    {
+      "criterium": "fever_present"
+    },
+    {
+      "criterium": "elevated_wbc_count"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

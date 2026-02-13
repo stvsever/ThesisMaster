@@ -1,0 +1,27 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "FFA_face_activation",
+      "OFA_face_activation",
+      "STS_face_activation",
+      "Face_processing_network_synchrony"
+    ],
+    "physiology": [
+      "N170_amplitude_microvolts",
+      "N170_latency_ms",
+      "N170_snr",
+      "N170_amplitude_left_hemisphere"
+    ],
+    "behavior": [
+      "face_perception_accuracy",
+      "face_discrimination_reaction_time",
+      "face_emotion_recognition_accuracy",
+      "face_identity_recognition_accuracy"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 2.5
+}

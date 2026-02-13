@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "mirror_checking_frequency"
+    },
+    {
+      "criterium": "mirror_checking_duration"
+    },
+    {
+      "criterium": "mirror_avoidance_behavior"
+    },
+    {
+      "criterium": "repetitive_cosmetic_adjustments_in_mirror"
+    },
+    {
+      "criterium": "appearance_related_intrusive_thoughts"
+    },
+    {
+      "criterium": "distress_on_mirror_exposure"
+    },
+    {
+      "criterium": "reassurance_seeking_about_appearance"
+    },
+    {
+      "criterium": "preoccupation_with_perceived_defect_in_mirror_view"
+    },
+    {
+      "criterium": "mirror_rumination"
+    },
+    {
+      "criterium": "facial_feature_examination_patterns_in_mirror"
+    },
+    {
+      "criterium": "self_image_distortion_perception_in_mirror"
+    },
+    {
+      "criterium": "avoidance_of_photographs_or_selfies_due_to_defect"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

@@ -1,0 +1,58 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF",
+      "SLC6A4",
+      "NR3C1",
+      "CRH",
+      "FKBP5",
+      "CAMK2A"
+    ],
+    "molecules": [
+      "Glutamate",
+      "GABA",
+      "Norepinephrine",
+      "Cortisol",
+      "CRH",
+      "BDNF",
+      "Dopamine"
+    ],
+    "cells": [
+      "basolateral_amygdala_pyramidal_cells",
+      "intercalated_amygdala_neurons",
+      "central_amygdala_neurons",
+      "parvalbumin_positive_interneurons_amygdala",
+      "amygdala_glutamatergic_neurons"
+    ],
+    "circuits": [
+      "amygdala_to_prefrontal_cortex_pathway_strength",
+      "prefrontal_to_amygdala_projection_strength",
+      "amygdala_hippocampus_connectivity_strength",
+      "central_amygdala_to_brainstem_output",
+      "amygdala_to_insula_connectivity"
+    ],
+    "physiology": [
+      "heart_rate_increase",
+      "skin_conductance_amplitude",
+      "pupil_dilation",
+      "respiratory_rate_increase",
+      "blood_pressure_increase",
+      "salivary_cortisol_change"
+    ],
+    "behavior": [
+      "startle_response_amplitude",
+      "freezing_duration_seconds",
+      "avoidance_choice_frequency",
+      "flight_latency_seconds",
+      "threat_engagement_index"
+    ],
+    "self_report": [
+      "state_anxiety_score",
+      "fear_experience_rating",
+      "perceived_threat_level",
+      "amygdala_sensitivity_index",
+      "panic_sensitivity_score"
+    ]
+  },
+  "estimated_prevalence_percent": 8.0
+}

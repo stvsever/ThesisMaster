@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusions_paranoid_content"
+    },
+    {
+      "criterium": "delusions_bizarre_content"
+    },
+    {
+      "criterium": "auditory_hallucinations_present"
+    },
+    {
+      "criterium": "visual_hallucinations_present"
+    },
+    {
+      "criterium": "disorganized_thought_process"
+    },
+    {
+      "criterium": "disorganized_speech_patterns"
+    },
+    {
+      "criterium": "catatonic_features_present"
+    },
+    {
+      "criterium": "grossly_disorganized_behavior"
+    },
+    {
+      "criterium": "blunted_or_inappropriate_affect"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

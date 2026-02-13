@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "perineal_pelvic_pain_present"
+    },
+    {
+      "criterium": "testicular_epididymal_pain_present"
+    },
+    {
+      "criterium": "penile_pain_or_discomfort_present"
+    },
+    {
+      "criterium": "ejaculatory_pain_present"
+    },
+    {
+      "criterium": "pain_when_sitting_present"
+    },
+    {
+      "criterium": "pain_with_urination_present"
+    },
+    {
+      "criterium": "urinary_frequency_present"
+    },
+    {
+      "criterium": "urinary_urgency_present"
+    },
+    {
+      "criterium": "nocturnal_pelvic_pain_present"
+    },
+    {
+      "criterium": "prostate_tenderness_on_dre_present"
+    },
+    {
+      "criterium": "pelvic_floor_muscle_tenderness_present"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

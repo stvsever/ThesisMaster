@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_hypercapnia_capnography"
+    },
+    {
+      "criterium": "nocturnal_hypoxemia_spO2_desaturation"
+    },
+    {
+      "criterium": "reduced_minute_ventilation_sleep"
+    },
+    {
+      "criterium": "reduced_respiratory_rate_sleep"
+    },
+    {
+      "criterium": "reduced_tidal_volume_sleep"
+    },
+    {
+      "criterium": "polysomnography_central_hypoventilation_pattern"
+    },
+    {
+      "criterium": "polysomnography_no_significant_obstructive_events"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_harm_obsessions_toward_infant"
+    },
+    {
+      "criterium": "repetitive_infant_safety_checking_behaviors"
+    },
+    {
+      "criterium": "infant_related_contamination_obsessions"
+    },
+    {
+      "criterium": "excessive_washing_cleaning_of_baby_items"
+    },
+    {
+      "criterium": "compulsive_reassurance_seeking_about_baby_health_or_safety"
+    },
+    {
+      "criterium": "ritualized_infant_care_routines_that_are_time_consuming_and_repetitive"
+    },
+    {
+      "criterium": "mental_compulsions_involving_neutralization_thoughts_about_baby_risk"
+    },
+    {
+      "criterium": "hypervigilance_to_infant_signs_of_distress_or_illness"
+    },
+    {
+      "criterium": "avoidance_of_infant_interactions_or_outings_due_to_anxiety"
+    },
+    {
+      "criterium": "intolerance_of_uncertainty_regarding_baby_safety_or_needs"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

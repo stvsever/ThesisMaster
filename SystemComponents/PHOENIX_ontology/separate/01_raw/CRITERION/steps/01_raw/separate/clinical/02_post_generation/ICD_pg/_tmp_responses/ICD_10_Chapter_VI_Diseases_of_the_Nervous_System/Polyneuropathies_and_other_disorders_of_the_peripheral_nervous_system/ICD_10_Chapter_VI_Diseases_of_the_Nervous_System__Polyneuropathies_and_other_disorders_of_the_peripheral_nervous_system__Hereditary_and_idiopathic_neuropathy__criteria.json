@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "distal_lower_limb_motor_weakness"
+    },
+    {
+      "criterium": "distal_lower_limb_muscle_atrophy"
+    },
+    {
+      "criterium": "absent_deep_tendon_reflexes"
+    },
+    {
+      "criterium": "pes_cavus_foot_deformity"
+    },
+    {
+      "criterium": "hammer_toe_deformity"
+    },
+    {
+      "criterium": "intrinsic_hand_muscle_wasting"
+    },
+    {
+      "criterium": "length_dependent_sensory_loss"
+    },
+    {
+      "criterium": "proprioceptive_loss_distal"
+    },
+    {
+      "criterium": "vibration_sense_loss_distal"
+    },
+    {
+      "criterium": "neuropathic_pain_distal_limbs"
+    }
+  ],
+  "estimated_prevalence_percent": 0.04
+}

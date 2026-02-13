@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "criterium": "DELUSIONAL_SYMPTOMS"
+    },
+    {
+      "criterium": "DELUSIONAL_CONTENT_PARANOID"
+    },
+    {
+      "criterium": "DELUSIONAL_CONTENT_BIZARRE"
+    },
+    {
+      "criterium": "DISORGANIZED_THOUGHT_PROCESS"
+    },
+    {
+      "criterium": "DISORGANIZED_SPEECH"
+    },
+    {
+      "criterium": "GROSS_DISORGANIZED_BEHAVIOR"
+    },
+    {
+      "criterium": "CATATONIC_BEHAVIOR"
+    },
+    {
+      "criterium": "FLAT_AFFECT"
+    },
+    {
+      "criterium": "AVOLITION"
+    },
+    {
+      "criterium": "IMPAIRED_INSIGHT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

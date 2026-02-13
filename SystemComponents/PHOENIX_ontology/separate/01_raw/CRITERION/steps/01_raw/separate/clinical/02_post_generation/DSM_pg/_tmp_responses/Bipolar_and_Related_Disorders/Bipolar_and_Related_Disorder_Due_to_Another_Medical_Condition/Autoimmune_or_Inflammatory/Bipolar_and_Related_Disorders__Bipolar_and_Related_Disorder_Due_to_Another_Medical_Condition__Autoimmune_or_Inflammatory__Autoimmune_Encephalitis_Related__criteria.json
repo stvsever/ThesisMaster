@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acute_psychosis"
+    },
+    {
+      "criterium": "manic_like_symptoms"
+    },
+    {
+      "criterium": "new_onset_seizures"
+    },
+    {
+      "criterium": "orofacial_dyskinesia"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "choreoathetosis"
+    },
+    {
+      "criterium": "autonomic_lability"
+    },
+    {
+      "criterium": "expressive_aphasia"
+    },
+    {
+      "criterium": "receptive_aphasia"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0015
+}

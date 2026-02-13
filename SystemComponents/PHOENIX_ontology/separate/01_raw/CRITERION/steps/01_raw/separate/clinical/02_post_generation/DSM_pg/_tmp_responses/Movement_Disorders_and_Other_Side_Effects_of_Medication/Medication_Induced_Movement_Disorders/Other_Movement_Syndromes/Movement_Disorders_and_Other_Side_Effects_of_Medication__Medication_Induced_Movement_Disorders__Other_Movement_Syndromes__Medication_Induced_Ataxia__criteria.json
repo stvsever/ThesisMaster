@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "limb_dysmetria"
+    },
+    {
+      "criterium": "dysdiadochokinesia"
+    },
+    {
+      "criterium": "intention_tremor"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "postural_instability"
+    },
+    {
+      "criterium": "truncal_ataxia"
+    },
+    {
+      "criterium": "hypotonia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

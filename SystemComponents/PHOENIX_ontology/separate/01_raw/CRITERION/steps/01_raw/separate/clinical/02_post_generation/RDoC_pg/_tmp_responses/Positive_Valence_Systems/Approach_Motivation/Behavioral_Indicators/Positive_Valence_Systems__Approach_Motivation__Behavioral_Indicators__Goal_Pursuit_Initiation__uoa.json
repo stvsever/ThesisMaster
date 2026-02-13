@@ -1,0 +1,52 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M_genotype",
+      "DRD2_TaqIA_allele_status",
+      "DRD4_VNTR_7R_allele_status",
+      "SLC6A3_DAT1_40bp_VNTR_allele",
+      "COMT_VAL158MET_genotype",
+      "OPRM1_A118G_genotype"
+    ],
+    "molecules": [
+      "dopamine_release_rate_striatum",
+      "dopamine_D2_receptor_density",
+      "norepinephrine_level_prefrontal_cortex",
+      "glutamate_synaptic_activity_mPFC",
+      "BDNF_concentration_reward_circuit"
+    ],
+    "cells": [
+      "VTA_dopaminergic_neuron_density",
+      "NAc_medium_spiny_neuron_count",
+      "pyramidal_neuron_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "VTA_to_NAcc_pathway_strength",
+      "NAcc_reward_circuit_reactivity",
+      "PFC_NAcc_connectivity_strength",
+      "amygdala_PFC_synchrony",
+      "frontostriatal_synchrony_initiation_task"
+    ],
+    "physiology": [
+      "heart_rate_increase_during_initiation",
+      "skin_conductance_response_during_initiation",
+      "pupil_dilation_initiation_phase",
+      "cortisol_level_during_goal_initiation"
+    ],
+    "behavior": [
+      "initiation_latency_ms",
+      "first_action_latency_ms",
+      "initiation_attempts_per_session",
+      "initiation_success_rate",
+      "initiation_abandonment_rate"
+    ],
+    "self_report": [
+      "BAS_Drive_score",
+      "BAS_FunSeeking_score",
+      "BAS_Total_score",
+      "Goal_Initiation_Efficacy_scale_score",
+      "Goal_Pursuit_Propensity_score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.2
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "t_score_spine_<=-2_5"
+    },
+    {
+      "criterium": "t_score_hip_<=-2_5"
+    },
+    {
+      "criterium": "fragility_fracture_vertebral_present"
+    },
+    {
+      "criterium": "fragility_fracture_nonvertebral_present"
+    },
+    {
+      "criterium": "height_loss_over_time"
+    },
+    {
+      "criterium": "kyphosis_present"
+    },
+    {
+      "criterium": "reduced_bmd_spine"
+    },
+    {
+      "criterium": "reduced_bmd_femoral_neck"
+    },
+    {
+      "criterium": "elevated_bone_resorption_marker_CTX"
+    },
+    {
+      "criterium": "decreased_bone_formation_marker_P1NP"
+    },
+    {
+      "criterium": "elevated_bone_formation_marker_ALP"
+    },
+    {
+      "criterium": "radiographic_findings_of_osteoporosis"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

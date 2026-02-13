@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rem_sleep_behavior_enactment_present"
+    },
+    {
+      "criterium": "rem_sleep_vocalization_during_enactment"
+    },
+    {
+      "criterium": "rem_sleep_complex_motor_movements_present"
+    },
+    {
+      "criterium": "rem_sleep_without_atonia_on_polysomnography"
+    },
+    {
+      "criterium": "bed_partner_report_of_episodes"
+    },
+    {
+      "criterium": "self_injury_during_rem_episodes"
+    },
+    {
+      "criterium": "injury_to_bed_furniture_due_to_rem_episodes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

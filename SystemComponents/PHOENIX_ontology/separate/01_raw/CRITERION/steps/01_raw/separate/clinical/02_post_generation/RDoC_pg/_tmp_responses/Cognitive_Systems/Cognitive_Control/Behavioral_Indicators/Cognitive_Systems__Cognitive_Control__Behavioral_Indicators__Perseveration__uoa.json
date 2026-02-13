@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_val158met_genotype",
+      "DRD2_Taq1A_genotype",
+      "BDNF_rs6265_Val66Met_genotype",
+      "SLC6A4_5HTTLPR_genotype"
+    ],
+    "molecules": [
+      "dopamine_concentration_prefrontal_cortex",
+      "serotonin_metabolite_5HIAA_plasma_concentration",
+      "glutamate_concentration_prefrontal_cortex",
+      "GABA_concentration_prefrontal_cortex",
+      "BDNF_protein_level_in_prefrontal_cortex"
+    ],
+    "cells": [
+      "parvalbumin_interneuron_density_dlPFC",
+      "pyramidal_neuron_density_dlPFC",
+      "GABAergic_interneuron_density_prefrontal_cortex",
+      "glutamatergic_pyramidal_neuron_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "dlPFC_activation_peak_during_response_inhibition_task",
+      "ACC_theta_power_during_error_monitoring",
+      "vmPFC_connectivity_with_dorsal_striatum_during_reward_processing",
+      "dlPFC_connectivity_with_parietal_network_resting_state"
+    ],
+    "physiology": [
+      "reaction_time_slope_in_inhibition_tasks",
+      "pupil_dilation_index_during_inhibition_task",
+      "heart_rate_variability_during_cognitive_control_task",
+      "skin_conductance_response_amplitude_during_executive_task"
+    ],
+    "behavior": [
+      "perseverative_errors_WCST",
+      "response_repetition_rate_stroop_task",
+      "failure_to_shift_after_reward_punishment_reversal_learning",
+      "habitual_response_persistence_in_task_switching"
+    ],
+    "self_report": [
+      "self_report_perseveration_scale_score",
+      "self_report_rigidity_scale_score",
+      "self_report_cognitive_control_failure_score",
+      "self_report_habit_strength_score"
+    ]
+  },
+  "estimated_prevalence_percent": 2.4
+}

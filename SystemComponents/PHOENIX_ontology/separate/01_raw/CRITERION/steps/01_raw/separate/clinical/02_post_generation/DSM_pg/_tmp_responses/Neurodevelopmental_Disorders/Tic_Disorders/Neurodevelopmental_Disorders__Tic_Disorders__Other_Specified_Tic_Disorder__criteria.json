@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "motor_tics_present"
+    },
+    {
+      "criterium": "vocal_tics_present"
+    },
+    {
+      "criterium": "complex_motor_tics_present"
+    },
+    {
+      "criterium": "coprolalia_present"
+    },
+    {
+      "criterium": "palilalia_present"
+    },
+    {
+      "criterium": "echolalia_present"
+    },
+    {
+      "criterium": "premonitory_urge_present"
+    },
+    {
+      "criterium": "tic_suppressibility_present"
+    },
+    {
+      "criterium": "tics_exacerbated_by_stress_present"
+    },
+    {
+      "criterium": "facial_tics_present"
+    },
+    {
+      "criterium": "neck_tics_present"
+    },
+    {
+      "criterium": "throat_clearance_tics_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

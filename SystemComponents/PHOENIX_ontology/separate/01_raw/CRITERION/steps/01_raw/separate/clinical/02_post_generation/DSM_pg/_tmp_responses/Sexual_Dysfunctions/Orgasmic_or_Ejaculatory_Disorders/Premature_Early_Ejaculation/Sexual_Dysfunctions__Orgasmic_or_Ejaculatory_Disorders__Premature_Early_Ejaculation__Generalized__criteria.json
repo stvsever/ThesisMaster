@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rapid_ejaculation_in_response_to_sexual_stimulation"
+    },
+    {
+      "criterium": "ejaculation_with_minimal_or_no_stimulation"
+    },
+    {
+      "criterium": "inability_to_delay_ejaculation_reliably"
+    },
+    {
+      "criterium": "pervasive_presentation_across_sexual_contexts_and_partners"
+    },
+    {
+      "criterium": "significant_distress_about_ejaculation_speed"
+    },
+    {
+      "criterium": "partner_reported_satisfaction_decline_due_to_premature_ejaculation"
+    },
+    {
+      "criterium": "reduced_sexual_activity_caused_by_ejaculatory_concerns"
+    },
+    {
+      "criterium": "avoidance_of_sexual_intercourse_due_to_premature_ejaculation"
+    },
+    {
+      "criterium": "negative_impact_on_self_esteem_related_to_ejaculatory_control"
+    },
+    {
+      "criterium": "preoccupation_with_ejaculation_timing_during_sexual_activity"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

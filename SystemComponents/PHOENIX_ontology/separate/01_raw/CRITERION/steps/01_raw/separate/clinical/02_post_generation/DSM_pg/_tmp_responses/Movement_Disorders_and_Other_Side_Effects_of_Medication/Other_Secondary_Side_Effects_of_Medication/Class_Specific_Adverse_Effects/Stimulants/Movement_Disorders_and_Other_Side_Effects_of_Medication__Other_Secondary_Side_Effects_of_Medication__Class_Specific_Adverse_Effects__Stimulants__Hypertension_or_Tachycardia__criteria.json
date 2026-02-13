@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SBP_gt_140_mmHg"
+    },
+    {
+      "criterium": "DBP_gt_90_mmHg"
+    },
+    {
+      "criterium": "HR_gt_100_bpm"
+    },
+    {
+      "criterium": "Palpitations_reported"
+    },
+    {
+      "criterium": "Headache_reported"
+    },
+    {
+      "criterium": "Dizziness_reported"
+    },
+    {
+      "criterium": "Shortness_of_breath_reported"
+    },
+    {
+      "criterium": "Chest_discomfort_reported"
+    },
+    {
+      "criterium": "Excessive_sweating_reported"
+    }
+  ],
+  "estimated_prevalence_percent": 32.0
+}

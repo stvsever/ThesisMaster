@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "PAIN_SYMPTOMS_MULTISITE"
+    },
+    {
+      "criterium": "GI_SYMPTOMS_MULTIPLE_TYPES"
+    },
+    {
+      "criterium": "SEXUAL_SYMPTOMS_PRESENT"
+    },
+    {
+      "criterium": "PSEUDONEUROLOGICAL_SYMPTOMS_PRESENT"
+    },
+    {
+      "criterium": "MULTISYSTEM_SOMATIC_COMPLAINTS"
+    },
+    {
+      "criterium": "REPEATED_HEALTHCARE_VISITS_FOR_SOMATIC_COMPLAINTS"
+    },
+    {
+      "criterium": "EXCESSIVE_THOUGHTS_ABOUT_SOMATIC_SYMPTOMS"
+    },
+    {
+      "criterium": "PREOCCUPATION_WITH_SICKNESS"
+    },
+    {
+      "criterium": "IMPAIRMENT_SOCIAL_OR_OCCUPATIONAL_FROM_SOMATIC_SYMPTOMS"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

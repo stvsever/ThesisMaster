@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "decreased_appetite"
+    },
+    {
+      "criterium": "unintentional_weight_loss"
+    },
+    {
+      "criterium": "reduced_daily_food_intake"
+    },
+    {
+      "criterium": "caloric_intake_below_estimated_needs"
+    },
+    {
+      "criterium": "bmi_decline"
+    },
+    {
+      "criterium": "emaciated_appearance"
+    },
+    {
+      "criterium": "decreased_meal_frequency"
+    },
+    {
+      "criterium": "avoidance_of_high_calorie_foods"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,33 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "functional_connectivity_FFA_amygdala",
+      "functional_connectivity_FFA_OFA",
+      "functional_connectivity_FFA_pSTS",
+      "task_evoked_activation_contrast_faces_vs_objects_in_FFA",
+      "FFA_hyporesponsivity_index_in_face_tasks"
+    ],
+    "physiology": [
+      "pupil_dilation_to_face_stimuli",
+      "skin_conductance_response_to_face_stimuli",
+      "heart_rate_variability_during_face_task",
+      "salivary_cortisol_response_to_face_stimuli",
+      "respiratory_rate_change_to_faces"
+    ],
+    "behavior": [
+      "face_identity_recognition_accuracy",
+      "face_discrimination_reaction_time",
+      "face_memory_task_accuracy",
+      "face_vs_object_discrimination_accuracy"
+    ],
+    "self_report": [
+      "prosopagnosia_self_report_score",
+      "face_processing_anxiety_self_report_score",
+      "face_recognition_confidence_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 2.0
+}

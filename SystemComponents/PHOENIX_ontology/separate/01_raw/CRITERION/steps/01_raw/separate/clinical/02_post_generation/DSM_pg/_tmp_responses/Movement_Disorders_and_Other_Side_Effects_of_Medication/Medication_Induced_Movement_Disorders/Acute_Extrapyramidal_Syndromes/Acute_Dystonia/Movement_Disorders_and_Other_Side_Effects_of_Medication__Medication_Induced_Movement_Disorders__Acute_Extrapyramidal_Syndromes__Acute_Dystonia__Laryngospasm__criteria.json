@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "vocal_cord_adduction_dystonia"
+    },
+    {
+      "criterium": "inspiratory_stridor"
+    },
+    {
+      "criterium": "aphonia"
+    },
+    {
+      "criterium": "throat_tightness"
+    },
+    {
+      "criterium": "inspiratory_airflow_obstruction"
+    },
+    {
+      "criterium": "suprasternal_retractions"
+    },
+    {
+      "criterium": "cyanosis"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "laryngeal_muscle_rigidity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

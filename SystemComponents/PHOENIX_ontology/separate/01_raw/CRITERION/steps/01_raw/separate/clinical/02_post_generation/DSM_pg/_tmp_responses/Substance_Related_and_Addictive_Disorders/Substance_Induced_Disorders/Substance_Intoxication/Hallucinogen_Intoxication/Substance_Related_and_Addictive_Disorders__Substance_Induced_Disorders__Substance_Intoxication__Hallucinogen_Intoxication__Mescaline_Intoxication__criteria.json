@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "geometric_visual_hallucinations"
+    },
+    {
+      "criterium": "time_distortion"
+    },
+    {
+      "criterium": "synesthesia"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "emesis"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "derealization"
+    },
+    {
+      "criterium": "paresthesias"
+    },
+    {
+      "criterium": "dry_mouth"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

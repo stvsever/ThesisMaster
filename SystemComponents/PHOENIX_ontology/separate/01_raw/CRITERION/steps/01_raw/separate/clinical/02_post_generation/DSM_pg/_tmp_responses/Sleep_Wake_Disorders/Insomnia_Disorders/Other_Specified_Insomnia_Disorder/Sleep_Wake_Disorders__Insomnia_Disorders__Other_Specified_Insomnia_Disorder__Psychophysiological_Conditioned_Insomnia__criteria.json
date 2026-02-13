@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "prolonged_sleep_latency"
+    },
+    {
+      "criterium": "increased_wake_after_sleep_onset"
+    },
+    {
+      "criterium": "reduced_sleep_efficiency"
+    },
+    {
+      "criterium": "recurrent_nighttime_awakenings"
+    },
+    {
+      "criterium": "nonrestorative_sleep_quality"
+    },
+    {
+      "criterium": "bedtime_cognitive_arousal"
+    },
+    {
+      "criterium": "conditioned_arousal_to_bedroom_sleep_cues"
+    },
+    {
+      "criterium": "pre_sleep_somatic_arousal"
+    },
+    {
+      "criterium": "daytime_fatigue_due_to_sleep_disturbance"
+    },
+    {
+      "criterium": "pre_sleep_anxiety_and_rumination"
+    },
+    {
+      "criterium": "heightened_bedroom_sensory_alertness_at_night"
+    },
+    {
+      "criterium": "perceived_sleep_latency_exaggeration"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

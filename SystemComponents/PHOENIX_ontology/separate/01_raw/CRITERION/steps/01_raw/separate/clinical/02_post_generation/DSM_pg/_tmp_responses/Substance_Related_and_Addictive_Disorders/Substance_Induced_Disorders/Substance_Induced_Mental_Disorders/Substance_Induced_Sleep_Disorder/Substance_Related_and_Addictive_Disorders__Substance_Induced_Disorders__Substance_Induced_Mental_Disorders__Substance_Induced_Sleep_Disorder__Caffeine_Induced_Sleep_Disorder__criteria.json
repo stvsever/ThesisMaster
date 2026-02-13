@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "difficulty_initiating_sleep"
+    },
+    {
+      "criterium": "difficulty_maintaining_sleep"
+    },
+    {
+      "criterium": "nocturnal_awakening"
+    },
+    {
+      "criterium": "nonrestorative_sleep"
+    },
+    {
+      "criterium": "daytime_sleepiness"
+    },
+    {
+      "criterium": "autonomic_arousal_during_sleep_attempts"
+    },
+    {
+      "criterium": "restless_sleep_movements"
+    },
+    {
+      "criterium": "caffeine_related_sleep_disturbance"
+    },
+    {
+      "criterium": "temporal_association_with_caffeine_consumption"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

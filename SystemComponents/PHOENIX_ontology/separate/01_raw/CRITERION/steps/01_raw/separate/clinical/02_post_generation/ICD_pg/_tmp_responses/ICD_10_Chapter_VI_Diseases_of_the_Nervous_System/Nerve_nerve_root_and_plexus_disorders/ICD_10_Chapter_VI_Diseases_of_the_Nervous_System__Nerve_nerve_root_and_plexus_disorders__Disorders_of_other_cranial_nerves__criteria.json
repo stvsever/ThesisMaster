@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "facial_nerve_palsy_sign"
+    },
+    {
+      "criterium": "dysphagia_present"
+    },
+    {
+      "criterium": "dysarthria_present"
+    },
+    {
+      "criterium": "hoarseness_present"
+    },
+    {
+      "criterium": "gag_reflex_loss"
+    },
+    {
+      "criterium": "uvula_deviation"
+    },
+    {
+      "criterium": "tongue_deviation_on_protrusion"
+    },
+    {
+      "criterium": "ptosis_present"
+    },
+    {
+      "criterium": "diplopia_present"
+    },
+    {
+      "criterium": "hyperacusis_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

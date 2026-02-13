@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_online_gambling"
+    },
+    {
+      "criterium": "increased_time_spent_on_online_gambling"
+    },
+    {
+      "criterium": "loss_chasing_online_gambling"
+    },
+    {
+      "criterium": "tolerance_to_online_gambling_stakes"
+    },
+    {
+      "criterium": "inability_to_cut_down_online_gambling"
+    },
+    {
+      "criterium": "withdrawal_symptoms_when_online_gambling_is_blocked"
+    },
+    {
+      "criterium": "lying_about_online_gambling_to_others"
+    },
+    {
+      "criterium": "neglect_of_work_or_education_due_to_online_gambling"
+    },
+    {
+      "criterium": "financial_loss_due_to_online_gambling"
+    },
+    {
+      "criterium": "continued_online_gambling_in_spite_of_negative_consequences"
+    },
+    {
+      "criterium": "mood_disturbance_related_to_online_gambling"
+    },
+    {
+      "criterium": "sleep_disturbance_associated_with_online_gambling"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

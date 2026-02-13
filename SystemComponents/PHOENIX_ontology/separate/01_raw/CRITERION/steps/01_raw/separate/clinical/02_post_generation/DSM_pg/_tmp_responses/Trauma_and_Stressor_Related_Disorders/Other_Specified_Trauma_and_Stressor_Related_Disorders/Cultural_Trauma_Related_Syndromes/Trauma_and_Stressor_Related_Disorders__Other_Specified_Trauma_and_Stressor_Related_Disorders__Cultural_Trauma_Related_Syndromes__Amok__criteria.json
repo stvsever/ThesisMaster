@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sudden_onset_extreme_violent_aggression"
+    },
+    {
+      "criterium": "unprovoked_interpersonal_physical_violence"
+    },
+    {
+      "criterium": "destruction_of_property_or_materials_during_episode"
+    },
+    {
+      "criterium": "excessive_verbal_agitation_with_shouting_or_ranting"
+    },
+    {
+      "criterium": "marked_hyperarousal_symptoms_including_tachycardia_sweating"
+    },
+    {
+      "criterium": "dissociative_amnesia_for_actions_or_events_during_episode"
+    },
+    {
+      "criterium": "acute_disorientation_or_confusion_during_episode"
+    },
+    {
+      "criterium": "impulsivity_and_loss_of_inhibition_during_episode"
+    },
+    {
+      "criterium": "rapid_post_episode_fatigue_exhaustion"
+    },
+    {
+      "criterium": "social_withdrawal_or_social_detachment_after_episode"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

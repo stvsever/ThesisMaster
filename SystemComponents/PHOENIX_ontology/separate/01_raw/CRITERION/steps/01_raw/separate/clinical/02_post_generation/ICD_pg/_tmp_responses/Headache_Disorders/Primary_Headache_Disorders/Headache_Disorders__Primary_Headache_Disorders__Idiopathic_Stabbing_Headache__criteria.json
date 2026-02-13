@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "scalp_jab_pain"
+    },
+    {
+      "criterium": "pain_quality_lancinating"
+    },
+    {
+      "criterium": "unilateral_scalp_pain"
+    },
+    {
+      "criterium": "bilateral_scalp_pain"
+    },
+    {
+      "criterium": "frontal_scalp_region_jab"
+    },
+    {
+      "criterium": "parietal_scalp_region_jab"
+    },
+    {
+      "criterium": "temporal_scalp_region_jab"
+    },
+    {
+      "criterium": "occipital_scalp_region_jab"
+    },
+    {
+      "criterium": "spontaneous_occurrence_of_pain"
+    },
+    {
+      "criterium": "no_focal_neurological_deficits_on_exam"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

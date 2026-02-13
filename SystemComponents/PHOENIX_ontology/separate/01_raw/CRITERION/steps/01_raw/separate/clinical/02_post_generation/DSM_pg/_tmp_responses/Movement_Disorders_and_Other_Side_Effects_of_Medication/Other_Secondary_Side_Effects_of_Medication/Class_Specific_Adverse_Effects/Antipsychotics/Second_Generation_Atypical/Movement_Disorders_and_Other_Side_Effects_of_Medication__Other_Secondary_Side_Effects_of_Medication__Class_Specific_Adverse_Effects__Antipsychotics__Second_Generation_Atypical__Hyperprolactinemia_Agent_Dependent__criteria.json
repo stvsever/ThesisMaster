@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "serum_prolactin_elevation"
+    },
+    {
+      "criterium": "galactorrhea"
+    },
+    {
+      "criterium": "amenorrhea"
+    },
+    {
+      "criterium": "oligomenorrhea"
+    },
+    {
+      "criterium": "gynecomastia"
+    },
+    {
+      "criterium": "breast_pain"
+    },
+    {
+      "criterium": "decreased_libido"
+    },
+    {
+      "criterium": "erectile_dysfunction"
+    },
+    {
+      "criterium": "infertility"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

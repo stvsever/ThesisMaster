@@ -1,0 +1,61 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_rs53576_genotype",
+      "BDNF_mRNA_level",
+      "COMT_V158M_genotype",
+      "SLC6A4_5HTTLPR_genotype",
+      "CACNA1C_mRNA_level",
+      "NR3C1_mRNA_level"
+    ],
+    "molecules": [
+      "cortisol_concentration",
+      "norepinephrine_concentration",
+      "epinephrine_concentration",
+      "oxytocin_concentration",
+      "anandamide_concentration",
+      "IL6_concentration"
+    ],
+    "cells": [
+      "insula_pyramidal_neuron_density",
+      "amygdala_pyramidal_neuron_density",
+      "dlPFC_pyramidal_neuron_density",
+      "gaba_interneuron_density_in_insula",
+      "oligodendrocyte_density_in_prefrontal_cortex"
+    ],
+    "circuits": [
+      "insula_activation_magnitude",
+      "ACC_activation_magnitude",
+      "amygdala_activation_magnitude",
+      "dlPFC_activation_magnitude",
+      "insula_dlPFC_connectivity_strength",
+      "amygdala_insula_connectivity_strength"
+    ],
+    "physiology": [
+      "heart_rate",
+      "HRV_SDNN",
+      "skin_conductance_level",
+      "respiratory_rate",
+      "pupil_dilation_metric",
+      "core_body_temperature"
+    ],
+    "behavior": [
+      "avoidance_episodes_per_week",
+      "emotional_dysregulation_outbursts_per_week",
+      "urge_enactment_events_per_week",
+      "compulsive_behavior_events_per_month",
+      "self_injury_episodes_per_month",
+      "substance_use_incidents_per_month",
+      "gambling_or_excessive_behaviour_events_per_month"
+    ],
+    "self_report": [
+      "Interoceptive_awareness_score",
+      "Regulatory_difficulty_scale_score",
+      "Arousal_dysregulation_score",
+      "Urge_intensity_rating",
+      "Impulse_control_difficulty_score",
+      "Emotion_dysregulation_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 9.8
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_irritable_or_angry_mood"
+    },
+    {
+      "criterium": "verbal_aggression_outbursts"
+    },
+    {
+      "criterium": "physical_aggression_outbursts"
+    },
+    {
+      "criterium": "destruction_of_property_outbursts"
+    },
+    {
+      "criterium": "harm_to_people_outbursts"
+    },
+    {
+      "criterium": "disproportionate_reactivity_to_stimulus"
+    },
+    {
+      "criterium": "impairment_across_multiple_functioning_domains"
+    },
+    {
+      "criterium": "interpersonal_relationship_impairment"
+    },
+    {
+      "criterium": "academic_or_occupational_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

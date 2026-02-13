@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "loss_of_reactivity_to_pleasure"
+    },
+    {
+      "criterium": "distinct_mood_quality_melancholic"
+    },
+    {
+      "criterium": "mood_worse_in_morning"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "weight_loss"
+    },
+    {
+      "criterium": "loss_of_appetite"
+    },
+    {
+      "criterium": "excessive_inappropriate_guilt"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

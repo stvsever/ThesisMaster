@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ahi_post_alcohol_increase"
+    },
+    {
+      "criterium": "odi_post_alcohol_increase"
+    },
+    {
+      "criterium": "spo2_nadir_post_alcohol_decrease"
+    },
+    {
+      "criterium": "arousal_index_post_alcohol_increase"
+    },
+    {
+      "criterium": "sleep_efficiency_post_alcohol_decline"
+    },
+    {
+      "criterium": "total_sleep_time_post_alcohol_decrease"
+    },
+    {
+      "criterium": "snoring_intensity_post_alcohol_increase"
+    },
+    {
+      "criterium": "nocturnal_hypoxemia_duration_post_alcohol_increase"
+    },
+    {
+      "criterium": "heart_rate_during_sleep_post_alcohol_increase"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

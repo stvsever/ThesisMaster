@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "throat_clearance_tic"
+    },
+    {
+      "criterium": "grunting_tic"
+    },
+    {
+      "criterium": "cough_tic"
+    },
+    {
+      "criterium": "sniffing_tic"
+    },
+    {
+      "criterium": "vocal_squeak_tic"
+    },
+    {
+      "criterium": "repetitive_word_or_phrase_tic"
+    },
+    {
+      "criterium": "palilalia_tic"
+    },
+    {
+      "criterium": "echolalia_tic"
+    },
+    {
+      "criterium": "coprolalia_tic"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

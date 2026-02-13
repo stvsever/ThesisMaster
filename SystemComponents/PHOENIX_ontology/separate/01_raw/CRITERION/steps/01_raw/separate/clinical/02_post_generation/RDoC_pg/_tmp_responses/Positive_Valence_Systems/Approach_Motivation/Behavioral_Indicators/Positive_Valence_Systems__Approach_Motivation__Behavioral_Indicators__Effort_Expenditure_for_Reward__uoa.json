@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_expression_VTA",
+      "BDNF_V66M_genotype",
+      "COMT_V158M_genotype",
+      "SLC6A3_VNTR_allele"
+    ],
+    "molecules": [
+      "dopamine_plasma_concentration",
+      "DOPAMINE_metabolite_HVA_plasma",
+      "norepinephrine_plasma_concentration",
+      "BDNF_plasma_level"
+    ],
+    "cells": [
+      "TH_positive_neuron_density_VTA",
+      "TH_positive_neuron_density_SN",
+      "DAT_positive_terminal_density_striatum",
+      "striatal_MSN_neuron_density"
+    ],
+    "circuits": [
+      "VTA_NAcc_activation",
+      "PFC_Ventral_Striatum_connectivity_strength",
+      "NAcc_reward_coding_activity",
+      "VTA_to_PFC_dopaminergic_signaling_strength"
+    ],
+    "physiology": [
+      "heart_rate_response_during_effort_task_bpm",
+      "pupil_dilation_peak_during_reward_expenditure",
+      "galvanic_skin_response_peak_high_effort",
+      "respiratory_rate_change_during_reward_task"
+    ],
+    "behavior": [
+      "high_effort_choice_count",
+      "peak_grip_force_newtons",
+      "latency_to_reward_decision_ms",
+      "total_rewards_earned"
+    ],
+    "self_report": [
+      "BAS_total_score",
+      "AES_total_score",
+      "MAP_SR_total_score",
+      "IMI_intrinsic_motivation_score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

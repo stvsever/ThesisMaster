@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "endogenous_circadian_period_gt_24h"
+    },
+    {
+      "criterium": "lack_of_entrainment_to_24h_cycle"
+    },
+    {
+      "criterium": "gradual_delayed_sleep_onset_across_days"
+    },
+    {
+      "criterium": "sleep_wake_time_variability_across_days"
+    },
+    {
+      "criterium": "prolonged_sleep_onset_latency"
+    },
+    {
+      "criterium": "nighttime_wake_events_frequency_increased"
+    },
+    {
+      "criterium": "daytime_sleepiness_clinically_significant"
+    },
+    {
+      "criterium": "increased_daytime_napping_frequency"
+    },
+    {
+      "criterium": "social_schedule_misalignment_due_to_circadian_drift"
+    },
+    {
+      "criterium": "variable_sleep_duration_across_nights"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

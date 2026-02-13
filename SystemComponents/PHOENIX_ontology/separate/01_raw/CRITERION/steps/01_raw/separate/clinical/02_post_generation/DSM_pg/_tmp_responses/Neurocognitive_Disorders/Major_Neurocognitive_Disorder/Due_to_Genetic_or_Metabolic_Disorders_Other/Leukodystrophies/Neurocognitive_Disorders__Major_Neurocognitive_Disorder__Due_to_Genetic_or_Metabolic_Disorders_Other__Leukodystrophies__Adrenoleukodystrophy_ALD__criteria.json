@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "wm_demyelination_mri"
+    },
+    {
+      "criterium": "contrast_enhancing_lesions_mri"
+    },
+    {
+      "criterium": "spastic_paraparesis"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "behavioral_dysregulation"
+    },
+    {
+      "criterium": "ataxia_gait_disturbance"
+    },
+    {
+      "criterium": "optic_neuropathy_visual_impairment"
+    },
+    {
+      "criterium": "adrenal_insufficiency"
+    }
+  ],
+  "estimated_prevalence_percent": 0.005
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "phoneme_to_grapheme_conversion_deficit"
+    },
+    {
+      "criterium": "morphological_affix_spelling_deficit"
+    },
+    {
+      "criterium": "irregular_word_spelling_inaccuracy"
+    },
+    {
+      "criterium": "phoneme_substitution_errors_in_spelling"
+    },
+    {
+      "criterium": "phoneme_omission_errors_in_spelling"
+    },
+    {
+      "criterium": "letter_transposition_errors_in_spelling"
+    },
+    {
+      "criterium": "letter_doubling_errors_in_spelling"
+    },
+    {
+      "criterium": "silent_letter_omission_errors_in_spelling"
+    },
+    {
+      "criterium": "orthographic_rule_application_inaccuracy"
+    },
+    {
+      "criterium": "long_word_spelling_error_rate_increase"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

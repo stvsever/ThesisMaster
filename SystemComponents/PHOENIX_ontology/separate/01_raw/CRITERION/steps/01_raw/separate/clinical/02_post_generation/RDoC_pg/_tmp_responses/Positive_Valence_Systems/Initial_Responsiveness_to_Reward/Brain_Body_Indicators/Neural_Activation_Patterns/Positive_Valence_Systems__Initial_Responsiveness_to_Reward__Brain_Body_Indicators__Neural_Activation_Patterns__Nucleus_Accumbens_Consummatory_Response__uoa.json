@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD1_NAcc_expression",
+      "DRD2_NAcc_expression",
+      "OPRM1_NAcc_expression",
+      "SLC6A3_DAT_NAcc_expression",
+      "BDNF_NAcc_gene_expression",
+      "CREB1_NAcc_gene_expression",
+      "COMT_NAcc_gene_expression"
+    ],
+    "molecules": [
+      "DOPAMINE_LEVEL_NAcc",
+      "DOPAMINE_TURNOVER_NAcc",
+      "GLUTAMATE_LEVEL_NAcc",
+      "GABA_LEVEL_NAcc",
+      "BETA_ENDORPHIN_LEVEL_NAcc",
+      "OPIOID_RECEPTOR_BINDING_NAcc",
+      "DAT_PROTEIN_LEVEL_NAcc"
+    ],
+    "cells": [
+      "D1_MSN_density_NAcc",
+      "D2_MSN_density_NAcc",
+      "PV_INTERNEURON_DENSITY_NAcc",
+      "D1_MSN_TONIC_ACTIVITY_NAcc",
+      "D2_MSN_TONIC_ACTIVITY_NAcc"
+    ],
+    "circuits": [
+      "NAcc_VTA_projection_firing_rate",
+      "NAcc_PFC_connectivity_strength",
+      "NAcc_BLA_connectivity_strength",
+      "NAcc_Hippocampus_connectivity_strength"
+    ],
+    "physiology": [
+      "HEART_RATE_CHANGE_NAcc_CONSUMPTION",
+      "SKIN_GSR_CHANGE_NAcc_TASK",
+      "PUPILLARY_DILATION_NAcc_TASK",
+      "CORTISOL_LEVEL_NAcc_TASK"
+    ],
+    "behavior": [
+      "LICK_RATE_DURING_CONSUMPTION",
+      "LICK_BOUT_COUNT_DURING_CONSUMPTION",
+      "CONSUMPTION_TOTAL_VOLUME",
+      "RESPONSE_LATENCY_TO_CONSUMPTION"
+    ],
+    "self_report": [
+      "PLEASURE_RATING_NAcc_CONSUMPTION",
+      "WANTING_RATING_NAcc_CONSUMPTION",
+      "REWARD_EXPECTANCY_RATING_NAcc",
+      "URGE_INTENSITY_RATING_NAcc"
+    ]
+  },
+  "estimated_prevalence_percent": 3.2
+}

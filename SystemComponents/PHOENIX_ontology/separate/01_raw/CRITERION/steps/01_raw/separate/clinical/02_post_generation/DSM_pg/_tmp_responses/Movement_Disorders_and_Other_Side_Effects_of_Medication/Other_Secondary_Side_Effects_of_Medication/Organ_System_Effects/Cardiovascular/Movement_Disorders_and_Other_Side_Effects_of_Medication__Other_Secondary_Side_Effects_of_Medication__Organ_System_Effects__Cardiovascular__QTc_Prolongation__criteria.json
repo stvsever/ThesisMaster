@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "QTc_gt_450ms_male"
+    },
+    {
+      "criterium": "QTc_gt_470ms_female"
+    },
+    {
+      "criterium": "QTc_ge_500ms_any"
+    },
+    {
+      "criterium": "QTc_increase_from_baseline_gt_60ms"
+    },
+    {
+      "criterium": "torsades_de_pointes_occurrence"
+    },
+    {
+      "criterium": "syncope_event_observed_in_context_of_qtc_prolongation"
+    },
+    {
+      "criterium": "palpitations_reported_in_context_of_qtc_prolongation"
+    },
+    {
+      "criterium": "u_wave_presence_associated_with_qtc_prolongation"
+    },
+    {
+      "criterium": "ecg_qtc_prolongation_confirmed_on_resting_12lead"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

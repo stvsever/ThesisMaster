@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_serum_prolactin"
+    },
+    {
+      "criterium": "galactorrhea"
+    },
+    {
+      "criterium": "amenorrhea"
+    },
+    {
+      "criterium": "oligomenorrhea"
+    },
+    {
+      "criterium": "erectile_dysfunction"
+    },
+    {
+      "criterium": "decreased_libido"
+    },
+    {
+      "criterium": "low_serum_testosterone"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "visual_field_defect"
+    },
+    {
+      "criterium": "gynecomastia"
+    },
+    {
+      "criterium": "osteopenia"
+    },
+    {
+      "criterium": "infertility"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

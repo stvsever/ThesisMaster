@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "somnolence"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "slurred_speech"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "anterograde_amnesia"
+    },
+    {
+      "criterium": "confusion_disorientation"
+    },
+    {
+      "criterium": "hypotonia"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "respiratory_depression"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

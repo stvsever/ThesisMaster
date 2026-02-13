@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ha_pain_intensity_0_10"
+    },
+    {
+      "criterium": "ha_pain_quality_pressing_tight"
+    },
+    {
+      "criterium": "ha_pain_location_bilateral_diffuse"
+    },
+    {
+      "criterium": "ha_associated_nausea_present"
+    },
+    {
+      "criterium": "ha_photophobia_present"
+    },
+    {
+      "criterium": "ha_pain_worsened_by_anxiety"
+    },
+    {
+      "criterium": "ha_pain_worsened_by_depressive_symptoms"
+    },
+    {
+      "criterium": "ha_headache_cooccurs_with_anxiety_episode"
+    },
+    {
+      "criterium": "ha_headache_cooccurs_with_depressive_episode"
+    },
+    {
+      "criterium": "ha_headache_cooccurs_with_somatization_features"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

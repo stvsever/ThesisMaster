@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Falsification_or_induction_of_symptoms_by_caregiver"
+    },
+    {
+      "criterium": "Symptoms_present_only_in_presence_of_caregiver"
+    },
+    {
+      "criterium": "Discrepancies_between_caregiver_report_and_objective_findings"
+    },
+    {
+      "criterium": "Caregiver_initiates_or_facilitates_unnecessary_invasive_procedures"
+    },
+    {
+      "criterium": "Caregiver_fabricates_or_alters_medical_history_of_victim"
+    },
+    {
+      "criterium": "Caregiver_submits_or_influences_lab_samples_or_results"
+    },
+    {
+      "criterium": "Symptoms_improve_on_separation_from_caregiver"
+    },
+    {
+      "criterium": "Prolonged_medical_care_without_conclusive_etiology"
+    },
+    {
+      "criterium": "Frequent_switch_between_healthcare_providers"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

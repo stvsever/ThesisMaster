@@ -1,0 +1,59 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "TRPM8_gene_expression_level",
+      "TRPV1_gene_expression_level",
+      "TRPA1_gene_expression_level",
+      "TRPV3_gene_expression_level",
+      "SCN9A_gene_expression_level",
+      "SCN10A_gene_expression_level"
+    ],
+    "molecules": [
+      "TRPM8_protein",
+      "TRPV1_protein",
+      "CGRP",
+      "Substance_P",
+      "PGE2",
+      "NGF"
+    ],
+    "cells": [
+      "cold_sensing_DRG_neurons",
+      "warm_sensing_DRG_neurons",
+      "TRPV1_positive_nociceptors",
+      "TRPM8_positive_neurons",
+      "A_delta_thermoreceptor_neurons",
+      "C_fiber_nociceptors"
+    ],
+    "circuits": [
+      "spinothalamic_pathway_temperature",
+      "thalamic_VPL_response_temperature",
+      "S1_temperature_processing_network",
+      "insula_temperature_network",
+      "parietal_temperature_processing_area",
+      "somatosensory_temperature_map"
+    ],
+    "physiology": [
+      "cold_detection_threshold_degC",
+      "hot_detection_threshold_degC",
+      "temperature_change_reaction_time_ms",
+      "skin_blood_flow_change_cold",
+      "skin_blood_flow_change_hot",
+      "core_temperature_challenge_response"
+    ],
+    "behavior": [
+      "temperature_detection_accuracy_percent",
+      "temperature_discrimination_accuracy_percent",
+      "temperature_detection_reaction_time_ms",
+      "cold_detection_latency_ms",
+      "hot_detection_latency_ms",
+      "thermoception_stimulus_localization_accuracy_percent"
+    ],
+    "self_report": [
+      "subjective_temperature_sensitivity_rating",
+      "thermal_discrimination_difficulty_rating",
+      "thermal_discomfort_scale_score",
+      "thermal_detection_problem_report_frequency"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

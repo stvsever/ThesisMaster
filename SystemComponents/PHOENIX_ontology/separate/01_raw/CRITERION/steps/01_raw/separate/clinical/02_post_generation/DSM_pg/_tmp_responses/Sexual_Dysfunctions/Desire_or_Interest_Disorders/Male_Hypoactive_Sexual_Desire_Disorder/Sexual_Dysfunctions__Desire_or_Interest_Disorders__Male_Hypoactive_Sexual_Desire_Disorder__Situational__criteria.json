@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "desire_deficit_partner_specific"
+    },
+    {
+      "criterium": "desire_preserved_other_contexts"
+    },
+    {
+      "criterium": "initiation_deficit_partner_specific"
+    },
+    {
+      "criterium": "fantasy_thought_deficit_specific_settings"
+    },
+    {
+      "criterium": "fantasy_thought_preserved_other_settings"
+    },
+    {
+      "criterium": "spontaneous_desire_absent_specific_situations"
+    },
+    {
+      "criterium": "spontaneous_desire_present_other_situations"
+    },
+    {
+      "criterium": "reactive_desire_reduction_specific_contexts"
+    },
+    {
+      "criterium": "arousal_normal_in_preserved_contexts"
+    },
+    {
+      "criterium": "emotional_bond_intact_despite_desire_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

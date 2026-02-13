@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusional_belief_content_present"
+    },
+    {
+      "criterium": "delusional_belief_conviction_high"
+    },
+    {
+      "criterium": "absent_insight"
+    },
+    {
+      "criterium": "counterevidence_disregard"
+    },
+    {
+      "criterium": "preoccupation_with_delusional_content"
+    },
+    {
+      "criterium": "reaffirmation_of_delusional_belief"
+    },
+    {
+      "criterium": "compulsive_behaviors_guided_by_belief"
+    },
+    {
+      "criterium": "external_validation_seeking"
+    },
+    {
+      "criterium": "rigid_thinking_about_belief"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

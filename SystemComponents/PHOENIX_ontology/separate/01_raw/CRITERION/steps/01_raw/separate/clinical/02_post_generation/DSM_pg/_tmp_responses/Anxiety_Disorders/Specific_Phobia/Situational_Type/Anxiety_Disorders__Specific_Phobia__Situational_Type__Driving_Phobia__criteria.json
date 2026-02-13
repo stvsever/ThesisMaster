@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anticipatory_anxiety_before_driving"
+    },
+    {
+      "criterium": "panic_attack_in_driving_context"
+    },
+    {
+      "criterium": "tachycardia_in_driving_context"
+    },
+    {
+      "criterium": "sweating_in_driving_context"
+    },
+    {
+      "criterium": "tremor_in_driving_context"
+    },
+    {
+      "criterium": "shortness_of_breath_in_driving_context"
+    },
+    {
+      "criterium": "dizziness_in_driving_context"
+    },
+    {
+      "criterium": "nausea_in_driving_context"
+    },
+    {
+      "criterium": "catastrophic_thoughts_about_crash_in_driving_context"
+    },
+    {
+      "criterium": "driving_avoidance_behavior"
+    },
+    {
+      "criterium": "urge_to_escape_in_driving_context"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

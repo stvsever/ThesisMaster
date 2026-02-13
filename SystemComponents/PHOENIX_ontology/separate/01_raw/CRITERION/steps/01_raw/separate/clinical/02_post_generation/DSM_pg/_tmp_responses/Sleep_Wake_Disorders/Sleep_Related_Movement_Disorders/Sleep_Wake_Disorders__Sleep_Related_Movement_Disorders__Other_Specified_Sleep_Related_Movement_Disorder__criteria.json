@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "periodic_limb_movements_sleep"
+    },
+    {
+      "criterium": "myoclonic_leg_jerks_sleep"
+    },
+    {
+      "criterium": "dystonic_movements_sleep"
+    },
+    {
+      "criterium": "bruxism_jaw_clenching_sleep"
+    },
+    {
+      "criterium": "nocturnal_trunk_posturing"
+    },
+    {
+      "criterium": "nocturnal_arm_movements"
+    },
+    {
+      "criterium": "rhythmic_motor_stereotypies_sleep"
+    },
+    {
+      "criterium": "complex_sleep_movement_sequences"
+    },
+    {
+      "criterium": "sleep_related_gait_like_movements"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

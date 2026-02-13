@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "physical_aggression_toward_others"
+    },
+    {
+      "criterium": "destruction_of_property"
+    },
+    {
+      "criterium": "theft_or_deceit_of_others"
+    },
+    {
+      "criterium": "noncompliance_with_authority_figures"
+    },
+    {
+      "criterium": "violations_of_school_or_work_rules"
+    },
+    {
+      "criterium": "truancy_or_unexcused_absences"
+    },
+    {
+      "criterium": "verbal_hostility_or_bullying_of_peers"
+    },
+    {
+      "criterium": "impulsive_or_risk_prone_behavior"
+    },
+    {
+      "criterium": "reckless_endangerment_of_self_or_others"
+    },
+    {
+      "criterium": "lack_of_remorse_or_guilt_after_actions"
+    },
+    {
+      "criterium": "callous_or_lack_of_empathy_in_interactions"
+    },
+    {
+      "criterium": "antisocial_behavior_pattern_observable_across_settings"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

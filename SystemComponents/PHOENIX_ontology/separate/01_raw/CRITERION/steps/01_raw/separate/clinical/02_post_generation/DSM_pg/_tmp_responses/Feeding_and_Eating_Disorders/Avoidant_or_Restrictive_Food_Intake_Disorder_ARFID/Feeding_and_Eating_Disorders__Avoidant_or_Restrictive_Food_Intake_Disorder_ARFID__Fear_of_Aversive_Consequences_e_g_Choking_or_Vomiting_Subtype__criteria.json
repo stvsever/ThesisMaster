@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "refusal_of_foods_due_to_choking_vomiting_fear"
+    },
+    {
+      "criterium": "texture_based_food_restriction_due_to_aversive_consequences"
+    },
+    {
+      "criterium": "anticipatory_mealtime_anxiety"
+    },
+    {
+      "criterium": "pre_meal_tachycardia"
+    },
+    {
+      "criterium": "pre_meal_sweating"
+    },
+    {
+      "criterium": "pre_swallowing_safety_behaviors"
+    },
+    {
+      "criterium": "nutritional_substitution_with_supplements_or_shakes"
+    },
+    {
+      "criterium": "social_mealtime_withdrawal_due_to_feeding_anxiety"
+    },
+    {
+      "criterium": "restricted_food_variety_due_to_aversive_consequences"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

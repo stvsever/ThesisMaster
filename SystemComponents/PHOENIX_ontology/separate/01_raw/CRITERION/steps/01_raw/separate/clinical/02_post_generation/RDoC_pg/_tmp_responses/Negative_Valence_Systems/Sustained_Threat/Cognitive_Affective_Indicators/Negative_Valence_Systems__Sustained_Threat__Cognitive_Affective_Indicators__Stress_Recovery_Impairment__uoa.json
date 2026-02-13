@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "FKBP5_mRNA_expression",
+      "NR3C1_promoter_methylation",
+      "CRHR1_mRNA_expression",
+      "BDNF_mRNA_expression",
+      "SLC6A4_promoter_methylation"
+    ],
+    "molecules": [
+      "cortisol_plasma",
+      "ACTH_plasma",
+      "CRH_serum",
+      "BDNF_protein",
+      "IL6_plasma",
+      "TNF_alpha_plasma"
+    ],
+    "cells": [
+      "amygdala_neuron_firing_rate",
+      "prefrontal_cortex_neuron_firing_rate",
+      "hippocampus_neuron_firing_rate",
+      "microglia_CD68_expression",
+      "astrocyte_GFAP_expression"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_connectivity",
+      "hippocampus_prefrontal_connectivity",
+      "default_mode_network_connectivity",
+      "stress_response_network_activity"
+    ],
+    "physiology": [
+      "heart_rate_recovery_curve",
+      "skin_conductance_recovery_rate",
+      "cortisol_recovery_time_post_stressor",
+      "blood_pressure_recovery",
+      "respiratory_rate_recovery",
+      "pupil_reactivity_recovery"
+    ],
+    "behavior": [
+      "prolonged_stress_response_duration",
+      "delayed_post_stressor_task_recovery_performance",
+      "increased_post_stressor_avoidance",
+      "sustained_vigilance_post_stressor",
+      "impaired_post_stressor_task_switching"
+    ],
+    "self_report": [
+      "stress_recovery_difficulty_scale",
+      "post_stressor_rumination_score",
+      "perceived_stress_recovery_time",
+      "recovery_quality_rating",
+      "sleep_disturbance_due_to_stress"
+    ]
+  },
+  "estimated_prevalence_percent": 8.7
+}

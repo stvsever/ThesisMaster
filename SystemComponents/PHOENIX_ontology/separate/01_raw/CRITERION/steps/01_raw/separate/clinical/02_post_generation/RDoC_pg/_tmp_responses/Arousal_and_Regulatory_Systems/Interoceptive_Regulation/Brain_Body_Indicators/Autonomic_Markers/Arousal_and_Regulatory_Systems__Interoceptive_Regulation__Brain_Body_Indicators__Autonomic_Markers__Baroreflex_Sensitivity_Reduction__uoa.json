@@ -1,0 +1,61 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "ADRA1A",
+      "ADRA2A",
+      "ADRB1",
+      "CHRM2",
+      "ACE",
+      "NOS3"
+    ],
+    "molecules": [
+      "norepinephrine",
+      "acetylcholine",
+      "nitric_oxide",
+      "angiotensin_II",
+      "vasopressin",
+      "endothelin_1"
+    ],
+    "cells": [
+      "baroreceptor_afferent_neurons",
+      "nTS_neurons",
+      "RVLM_neurons",
+      "RVLM_presympathetic_neurons",
+      "vagal_motoneurons",
+      "baroreceptor_endings"
+    ],
+    "circuits": [
+      "baroreceptor_afferent_to_nTS_pathway",
+      "nTS_to_RVLM_pathway",
+      "RVLM_to_SA_node_pathway",
+      "nTS_to_Vagus_pathway",
+      "central_autonomic_network_loop",
+      "vagus_nerve_to_heart_circuit"
+    ],
+    "physiology": [
+      "baroreflex_gain",
+      "baroreflex_latency",
+      "heart_rate_response_to_BP_increase",
+      "heart_rate_variability_LF",
+      "heart_rate_variability_HF",
+      "systolic_blood_pressure_variability",
+      "mean_RR_interval",
+      "pulse_pressure_variability"
+    ],
+    "behavior": [
+      "tilt_table_test_duration",
+      "tilt_table_BP_response_rate",
+      "orthostatic_tolerance",
+      "standing_time_to_symptom_onset",
+      "syncope_occurrence_during_tilt"
+    ],
+    "self_report": [
+      "orthostatic_dizziness_scale",
+      "palpitations_frequency",
+      "syncope_history",
+      "autonomic_symptom_inventory_score",
+      "fatigue_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 8.4
+}

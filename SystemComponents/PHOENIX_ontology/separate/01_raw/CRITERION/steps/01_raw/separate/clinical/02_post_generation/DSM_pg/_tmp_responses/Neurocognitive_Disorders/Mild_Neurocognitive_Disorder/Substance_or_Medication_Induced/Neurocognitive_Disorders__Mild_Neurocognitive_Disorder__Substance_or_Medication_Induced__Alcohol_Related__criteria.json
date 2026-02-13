@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_acquisition_of_new_information"
+    },
+    {
+      "criterium": "impaired_free_recall_of_recent_memories"
+    },
+    {
+      "criterium": "retrograde_memory_deficit"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "sustained_attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_decline"
+    },
+    {
+      "criterium": "visuospatial_constructional_deficit"
+    },
+    {
+      "criterium": "language_naming_difficulty"
+    },
+    {
+      "criterium": "prospective_memory_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

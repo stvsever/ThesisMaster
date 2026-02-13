@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "polyuria"
+    },
+    {
+      "criterium": "polydipsia"
+    },
+    {
+      "criterium": "nocturia"
+    },
+    {
+      "criterium": "hyposthenuria"
+    },
+    {
+      "criterium": "urine_osmolality_low"
+    },
+    {
+      "criterium": "urine_specific_gravity_low"
+    },
+    {
+      "criterium": "serum_osmolality_elevated"
+    },
+    {
+      "criterium": "hypernatremia"
+    },
+    {
+      "criterium": "desmopressin_nonresponse"
+    },
+    {
+      "criterium": "urine_volume_gt_3L_per_day"
+    }
+  ],
+  "estimated_prevalence_percent": 0.003
+}

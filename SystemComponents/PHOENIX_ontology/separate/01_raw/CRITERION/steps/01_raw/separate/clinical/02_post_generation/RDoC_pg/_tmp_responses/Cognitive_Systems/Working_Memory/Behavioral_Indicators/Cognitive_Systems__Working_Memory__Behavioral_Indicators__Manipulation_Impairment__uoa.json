@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_V158M_genotype",
+      "BDNF_V66M_genotype",
+      "DRD2_TaqA1_allele",
+      "APOE_e4_carrier_status"
+    ],
+    "molecules": [
+      "dopamine_D1_receptor_availability",
+      "NMDA_NR2B_subunit_expression",
+      "GABA_A_receptor_alpha1_subunit_expression",
+      "muscarinic_M1_receptor_density",
+      "glutamate_transporters_GluT1_level"
+    ],
+    "cells": [
+      "dlPFC_pyramidal_neurons_density",
+      "pv_interneurons_density_dlPFC",
+      "somatostatin_interneurons_density_dlPFC"
+    ],
+    "circuits": [
+      "frontoparietal_network_activation_peak_during_manipulation_task",
+      "dlPFC_parietal_coupling_strength",
+      "frontostriatal_pathway_efficiency_during_working_memory_manipulation",
+      "thalamocortical_gate_strength_during_manipulation_task"
+    ],
+    "physiology": [
+      "pupil_dilation_during_manipulation_task",
+      "prefrontal_oxyhemoglobin_change_during_manipulation_task",
+      "heart_rate_variability_during_manipulation_task",
+      "skin_conductance_during_manipulation_task"
+    ],
+    "behavior": [
+      "manipulation_span_score",
+      "operation_span_score",
+      "sequence_reordering_accuracy",
+      "updating_accuracy_in_working_memory_task",
+      "delayed_recall_after_manipulation_accuracy"
+    ],
+    "self_report": [
+      "working_memory_impairment_questionnaire_score",
+      "manipulation_ability_self_assessment_score",
+      "everyday_working_memory_difficulties_scale_score",
+      "cognitive_control_difficulty_self_report",
+      "perceived_working_memory_capacity_score"
+    ]
+  },
+  "estimated_prevalence_percent": 2.4
+}

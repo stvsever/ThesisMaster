@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anc_lt_500_per_uL"
+    },
+    {
+      "criterium": "wbc_lt_3000_per_uL"
+    },
+    {
+      "criterium": "fever_ge_38C"
+    },
+    {
+      "criterium": "oral_mucosal_ulcerations_present"
+    },
+    {
+      "criterium": "oropharyngeal_infection_present"
+    },
+    {
+      "criterium": "oropharyngeal_candidiasis_present"
+    },
+    {
+      "criterium": "skin_and_soft_tissue_infection_present"
+    },
+    {
+      "criterium": "febrile_neutropenia_present"
+    },
+    {
+      "criterium": "gingival_bleeding_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

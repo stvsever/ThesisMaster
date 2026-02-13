@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "MULTIPLE_IDENTITY_STATES_PRESENT"
+    },
+    {
+      "criterium": "AMNESIA_AUTOBIOGRAPHICAL_MEMORY"
+    },
+    {
+      "criterium": "GAPS_IN_MEMORY_DAILY_EVENTS"
+    },
+    {
+      "criterium": "ALTERS_HAVE_DISTINCT_NAMES"
+    },
+    {
+      "criterium": "ALTERS_HAVE_DISTINCT_AGES_OR_GENDERS"
+    },
+    {
+      "criterium": "DISTINCT_HANDWRITING_STYLES_OBSERVED"
+    },
+    {
+      "criterium": "INTERNAL_VOICES_HEARD"
+    },
+    {
+      "criterium": "TRANSITIONS_BETWEEN_IDENTITY_STATES_OBSERVED"
+    },
+    {
+      "criterium": "AFFECT_TEMPERAMENT_VARIABILITY_ACROSS_ALTERS"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

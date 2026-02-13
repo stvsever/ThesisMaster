@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "visuospatial_processing_deficit"
+    },
+    {
+      "criterium": "ataxia_gait_instability"
+    },
+    {
+      "criterium": "sensory_paresthesias"
+    },
+    {
+      "criterium": "somnolence"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "depressed_mood"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

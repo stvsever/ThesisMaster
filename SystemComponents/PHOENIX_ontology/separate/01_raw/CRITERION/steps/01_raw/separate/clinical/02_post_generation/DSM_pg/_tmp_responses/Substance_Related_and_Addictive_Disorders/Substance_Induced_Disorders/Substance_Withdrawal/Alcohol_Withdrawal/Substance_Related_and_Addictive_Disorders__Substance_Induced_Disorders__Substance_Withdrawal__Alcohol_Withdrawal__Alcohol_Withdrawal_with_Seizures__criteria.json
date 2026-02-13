@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "generalized_tonic_clonic_seizure_during_alcohol_withdrawal"
+    },
+    {
+      "criterium": "postictal_confusion_after_seizure"
+    },
+    {
+      "criterium": "tongue_biting_during_seizure"
+    },
+    {
+      "criterium": "urinary_incontinence_during_seizure"
+    },
+    {
+      "criterium": "hand_tremor_during_withdrawal"
+    },
+    {
+      "criterium": "tachycardia_during_withdrawal"
+    },
+    {
+      "criterium": "diaphoresis_during_withdrawal"
+    },
+    {
+      "criterium": "visual_hallucinations_during_withdrawal"
+    },
+    {
+      "criterium": "auditory_hallucinations_during_withdrawal"
+    },
+    {
+      "criterium": "anxiety_or_agitation_during_withdrawal"
+    },
+    {
+      "criterium": "insomnia_during_withdrawal"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

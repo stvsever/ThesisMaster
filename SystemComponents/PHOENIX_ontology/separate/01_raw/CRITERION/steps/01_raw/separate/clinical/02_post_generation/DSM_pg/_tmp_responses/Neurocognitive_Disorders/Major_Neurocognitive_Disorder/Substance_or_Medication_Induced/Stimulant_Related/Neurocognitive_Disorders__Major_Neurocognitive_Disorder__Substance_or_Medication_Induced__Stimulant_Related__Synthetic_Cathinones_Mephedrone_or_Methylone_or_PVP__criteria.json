@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "euphoria"
+    },
+    {
+      "criterium": "paranoid_delusions"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "delusions_of_persecution"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "bruxism"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "diaphoresis"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

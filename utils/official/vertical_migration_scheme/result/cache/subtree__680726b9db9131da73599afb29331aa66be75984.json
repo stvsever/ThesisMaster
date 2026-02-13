@@ -1,0 +1,20 @@
+{
+  "domain_path": "PSYCHO / Humanistic_and_Experiential_Therapies",
+  "domain_root_path": [
+    "PSYCHO",
+    "Humanistic_and_Experiential_Therapies"
+  ],
+  "leaf_count": 46,
+  "total_edges_in_subtree": 50,
+  "evaluated_pairs": 50,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "680726b9db9131da73599afb29331aa66be75984",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 23.737
+}

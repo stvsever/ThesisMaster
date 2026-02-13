@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_methamphetamine_intensity"
+    },
+    {
+      "criterium": "time_spent_using_methamphetamine_daily"
+    },
+    {
+      "criterium": "loss_of_control_over_methamphetamine_use"
+    },
+    {
+      "criterium": "tolerance_development_to_methamphetamine_effects"
+    },
+    {
+      "criterium": "withdrawal_symptoms_present_on_methamphetamine_cessation"
+    },
+    {
+      "criterium": "recurrent_compulsive_methamphetamine_use_bouts"
+    },
+    {
+      "criterium": "methamphetamine_induced_psychotic_symptoms_present"
+    },
+    {
+      "criterium": "sleep_disturbance_associated_with_methamphetamine_use"
+    },
+    {
+      "criterium": "interpersonal_social_function_impairment_due_to_meth_use"
+    },
+    {
+      "criterium": "occupational_or_academic_impairment_due_to_meth_use"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

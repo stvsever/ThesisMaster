@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fever"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "nuchal_rigidity"
+    },
+    {
+      "criterium": "photophobia"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "altered_mental_status"
+    },
+    {
+      "criterium": "confusion"
+    },
+    {
+      "criterium": "delirium"
+    },
+    {
+      "criterium": "seizure"
+    },
+    {
+      "criterium": "hemiparesis"
+    },
+    {
+      "criterium": "cranial_nerve_palsy"
+    },
+    {
+      "criterium": "papilledema"
+    },
+    {
+      "criterium": "gait_ataxia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

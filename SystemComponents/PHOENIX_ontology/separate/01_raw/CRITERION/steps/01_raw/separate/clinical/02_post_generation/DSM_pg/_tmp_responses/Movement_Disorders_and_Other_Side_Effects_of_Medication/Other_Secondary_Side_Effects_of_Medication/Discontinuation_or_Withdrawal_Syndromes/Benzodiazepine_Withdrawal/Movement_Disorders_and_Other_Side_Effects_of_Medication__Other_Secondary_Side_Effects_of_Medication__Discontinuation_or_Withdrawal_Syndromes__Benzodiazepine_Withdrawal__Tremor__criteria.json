@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "postural_tremor_upper_limbs_present"
+    },
+    {
+      "criterium": "kinetic_tremor_upper_limbs_present"
+    },
+    {
+      "criterium": "task_specific_tremor_present"
+    },
+    {
+      "criterium": "vocal_tremor_present"
+    },
+    {
+      "criterium": "head_tremor_present"
+    },
+    {
+      "criterium": "trunk_tremor_present"
+    },
+    {
+      "criterium": "tremor_worsened_by_anxiety_present"
+    },
+    {
+      "criterium": "tremor_reduced_by_relaxation_present"
+    },
+    {
+      "criterium": "coarse_tremor_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

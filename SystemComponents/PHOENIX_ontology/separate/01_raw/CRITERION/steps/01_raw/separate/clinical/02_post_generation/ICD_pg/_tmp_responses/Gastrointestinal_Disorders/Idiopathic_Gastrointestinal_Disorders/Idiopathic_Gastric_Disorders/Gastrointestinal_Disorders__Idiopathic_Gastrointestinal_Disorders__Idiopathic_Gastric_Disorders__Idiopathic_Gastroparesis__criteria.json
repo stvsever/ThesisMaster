@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "vomiting_present"
+    },
+    {
+      "criterium": "early_satiety_present"
+    },
+    {
+      "criterium": "postprandial_fullness_present"
+    },
+    {
+      "criterium": "bloating_present"
+    },
+    {
+      "criterium": "abdominal_pain_present"
+    },
+    {
+      "criterium": "weight_loss_present"
+    },
+    {
+      "criterium": "dehydration_sign_present"
+    },
+    {
+      "criterium": "malnutrition_sign_present"
+    },
+    {
+      "criterium": "regurgitation_present"
+    },
+    {
+      "criterium": "delayed_gastric_emptying_confirmed"
+    },
+    {
+      "criterium": "gastric_retention_evidence_on_scintigraphy_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

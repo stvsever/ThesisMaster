@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "grandiose_self_importance"
+    },
+    {
+      "criterium": "fantasizes_about_infinite_power"
+    },
+    {
+      "criterium": "requires_excessive_admiration"
+    },
+    {
+      "criterium": "sense_of_entitlement"
+    },
+    {
+      "criterium": "interpersonal_exploitation"
+    },
+    {
+      "criterium": "lack_of_empathy"
+    },
+    {
+      "criterium": "envy_of_others"
+    },
+    {
+      "criterium": "arrogant_or_haughty_attitude"
+    },
+    {
+      "criterium": "shallow_interpersonal_relationships"
+    },
+    {
+      "criterium": "hypersensitivity_to_criticism"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

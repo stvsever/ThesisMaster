@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "PRESERVED_PREMORBID_FUNCTIONING_PRESENT"
+    },
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS_PRESENT"
+    },
+    {
+      "criterium": "DELUSIONS_PRESENT"
+    },
+    {
+      "criterium": "DISORGANIZED_SPEECH_PRESENT"
+    },
+    {
+      "criterium": "DISORGANIZED_BEHAVIOR_PRESENT"
+    },
+    {
+      "criterium": "FLAT_AFFECT_PRESENT"
+    },
+    {
+      "criterium": "ANHEDONIA_PRESENT"
+    },
+    {
+      "criterium": "SOCIAL_WITHDRAWAL_PRESENT"
+    },
+    {
+      "criterium": "POOR_INSIGHT_PRESENT"
+    },
+    {
+      "criterium": "IMPAIRED_ATTENTION_PRESENT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.12
+}

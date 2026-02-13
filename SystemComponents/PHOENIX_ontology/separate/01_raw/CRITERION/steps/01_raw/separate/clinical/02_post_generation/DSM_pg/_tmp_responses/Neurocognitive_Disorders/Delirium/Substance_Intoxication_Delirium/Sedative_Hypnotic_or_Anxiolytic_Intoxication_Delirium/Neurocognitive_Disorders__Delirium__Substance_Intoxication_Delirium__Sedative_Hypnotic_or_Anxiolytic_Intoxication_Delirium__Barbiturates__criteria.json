@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "altered_consciousness"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "disorganized_thought_content"
+    },
+    {
+      "criterium": "perceptual_disturbances"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "slowed_speech"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

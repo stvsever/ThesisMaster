@@ -1,0 +1,284 @@
+{
+  "VERY_OLD": {
+    "social_development": {
+      "intergenerational_legacy": {
+        "family_storytelling": {
+          "oral_history_transmission": {},
+          "generational_pattern_analysis": {},
+          "family_lore_curation": {}
+        },
+        "wisdom_exchange": {
+          "grandparent_grandchild_rituals": {},
+          "life_lesson_podcasting": {},
+          "community_elder_counsel": {}
+        },
+        "symbolic_gifting": {
+          "heirloom_activation": {},
+          "keepsake_meaning_encoding": {},
+          "ethical_will_creation": {}
+        }
+      },
+      "community_anchoring": {
+        "senior_leadership": {
+          "retirement_community_mentorship": {},
+          "historical_preservation_advocacy": {},
+          "cultural_tradition_stewardship": {}
+        },
+        "digital_engagement": {
+          "virtual_grandparenting": {},
+          "online_memory_sharing": {},
+          "social_media_legacy_curation": {}
+        },
+        "ritual_participation": {
+          "holiday_tradition_upholding": {},
+          "life_celebration_ceremonies": {},
+          "intergenerational_event_coordination": {}
+        }
+      },
+      "role_redefinition": {
+        "dependency_navigation": {
+          "care_receiver_etiquette": {},
+          "autonomy_advocacy": {},
+          "assistance_acceptance_rituals": {}
+        },
+        "post_retirement_identity": {
+          "emeritus_status_embracement": {},
+          "volunteer_role_crafting": {},
+          "leisure_as_legacy": {}
+        },
+        "spiritual_mentorship": {
+          "faith_elder_counsel": {},
+          "end_of_life_ritual_guidance": {},
+          "transcendence_discussion_facilitation": {}
+        }
+      },
+      "social_legacy": {
+        "memoir_culture": {
+          "life_story_archiving": {},
+          "photo_album_annotation": {},
+          "autobiographical_podcasting": {}
+        },
+        "age_activism": {
+          "ageism_counter_narratives": {},
+          "longevity_celebration_rituals": {},
+          "senior_policy_advocacy": {}
+        },
+        "digital_afterlife": {
+          "social_media_memorialization": {},
+          "online_identity_curation": {},
+          "virtual_legacy_planning": {}
+        }
+      }
+    },
+    "physical_development": {
+      "mobility_adaptation": {
+        "fall_prevention": {
+          "home_environment_optimization": {},
+          "assistive_device_aesthetics": {},
+          "balance_training_rituals": {}
+        },
+        "pain_management": {
+          "non_pharmacological_interventions": {},
+          "movement_ritual_development": {},
+          "weather_sensitivity_adaptation": {}
+        },
+        "adaptive_exercise": {
+          "chair_based_fitness": {},
+          "aquatic_therapy_routines": {},
+          "breath_work_integration": {}
+        }
+      },
+      "sensory_optimization": {
+        "low_vision_compensation": {
+          "high_contrast_living_spaces": {},
+          "tactile_navigation_skills": {},
+          "audiobook_dependency": {}
+        },
+        "hearing_loss_innovation": {
+          "lip_reading_enhancement": {},
+          "vibration_awareness_training": {},
+          "assistive_tech_stigma_navigation": {}
+        },
+        "taste_sensory_enhancement": {
+          "flavor_intensity_optimization": {},
+          "texture_based_meal_planning": {},
+          "olfactory_memory_activation": {}
+        }
+      },
+      "longevity_practices": {
+        "cellular_aging_mitigation": {
+          "caloric_restriction_adaptation": {},
+          "sleep_cycle_optimization": {},
+          "stress_resilience_rituals": {}
+        },
+        "organ_health_prioritization": {
+          "kidney_function_preservation": {},
+          "cognitive_vascular_care": {},
+          "digestive_efficiency_management": {}
+        },
+        "appearance_reconciliation": {
+          "age_spot_acceptance": {},
+          "posture_embracement": {},
+          "wrinkle_as_identity_marker": {}
+        }
+      },
+      "end_of_life_autonomy": {
+        "advance_directive_management": {
+          "medical_proxy_education": {},
+          "hospice_preference_articulation": {},
+          "digital_asset_bequests": {}
+        },
+        "dignity_preservation": {
+          "continence_strategies": {},
+          "feeding_assistance_etiquette": {},
+          "privacy_maintenance_rituals": {}
+        },
+        "terminal_adaptation": {
+          "pain_meaning_reframing": {},
+          "legacy_completion_rituals": {},
+          "farewell_tour_planning": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "life_review_integration": {
+        "autobiographical_synthesis": {
+          "memory_fragment_reconciliation": {},
+          "narrative_coherence_creation": {},
+          "generational_pattern_analysis": {}
+        },
+        "regret_alchemy": {
+          "unfulfilled_dream_reframing": {},
+          "parenting_reappraisal": {},
+          "forgiveness_completion": {}
+        },
+        "achievement_recontextualization": {
+          "success_hierarchy_reordering": {},
+          "fame_versus_impact_assessment": {},
+          "material_legacy_detachment": {}
+        }
+      },
+      "mortality_communion": {
+        "death_preparation_rituals": {
+          "funeral_self_planning": {},
+          "digital_afterlife_preparation": {},
+          "spiritual_transition_rehearsal": {}
+        },
+        "bereavement_adaptation": {
+          "peer_loss_normalization": {},
+          "grief_technology_interface": {},
+          "memorialization_innovation": {}
+        },
+        "existential_solace": {
+          "cosmic_perspective_adoption": {},
+          "ancestral_reconnection_imagery": {},
+          "impermanence_embracement": {}
+        }
+      },
+      "emotional_legacy_crafting": {
+        "relational_closure": {
+          "estranged_relationship_peacemaking": {},
+          "final_acknowledgment_letters": {},
+          "symbolic_debt_repayment": {}
+        },
+        "gratitude_cultivation": {
+          "daily_wonder_rituals": {},
+          "benefactor_acknowledgment": {},
+          "intergenerational_thankfulness": {}
+        },
+        "identity_distillation": {
+          "essential_self_extraction": {},
+          "role_shedding_ceremonies": {},
+          "wisdom_essence_articulation": {}
+        }
+      },
+      "transcendence_orientation": {
+        "spiritual_synthesis": {
+          "multi_faith_exploration": {},
+          "mystical_experience_integration": {},
+          "ancestral_wisdom_reconnection": {}
+        },
+        "cosmic_identification": {
+          "ecosystem_interconnectedness": {},
+          "universal_cycle_awareness": {},
+          "astrological_meaning_projection": {}
+        },
+        "artistic_legacy": {
+          "final_creative_expression": {},
+          "aesthetic_philosophy_transmission": {},
+          "memorial_art_commissioning": {}
+        }
+      }
+    },
+    "cognitive_development": {
+      "wisdom_application": {
+        "crisis_interpretation": {
+          "historical_pattern_recognition": {},
+          "intergenerational_trauma_analysis": {},
+          "long_view_perspective_taking": {}
+        },
+        "ethical_arbitration": {
+          "family_conflict_mediation": {},
+          "community_dispute_resolution": {},
+          "moral_dilemma_consultation": {}
+        },
+        "intuitive_synthesis": {
+          "pattern_recognition_mastery": {},
+          "holistic_decision_making": {},
+          "subconscious_knowledge_mining": {}
+        }
+      },
+      "memory_curation": {
+        "reminiscence_engineering": {
+          "sensory_trigger_design": {},
+          "nostalgia_dosage_management": {},
+          "autobiographical_editing": {}
+        },
+        "prospective_adaptation": {
+          "appointment_ritualization": {},
+          "medication_management_systems": {},
+          "future_self_continuity": {}
+        },
+        "mnemonic_legacy": {
+          "family_story_preservation": {},
+          "recipe_oral_transmission": {},
+          "life_advice_encapsulation": {}
+        }
+      },
+      "cognitive_preservation": {
+        "neuroplasticity_stimulation": {
+          "novelty_seeking_routines": {},
+          "intergenerational_learning": {},
+          "puzzle_ritual_maintenance": {}
+        },
+        "attention_economy_resistance": {
+          "information_filtering_strategies": {},
+          "deep_focus_rituals": {},
+          "digital_distraction_mitigation": {}
+        },
+        "age_related_compensation": {
+          "external_memory_systems": {},
+          "habit_stack_optimization": {},
+          "cognitive_load_management": {}
+        }
+      },
+      "existential_cognition": {
+        "time_perception_alteration": {
+          "life_compression_reflection": {},
+          "generational_cycle_awareness": {},
+          "present_moment_expansion": {}
+        },
+        "cosmic_sense-making": {
+          "anthropocene_contextualization": {},
+          "civilizational_arc_analysis": {},
+          "personal_legacy_projection": {}
+        },
+        "transcendent_learning": {
+          "near_death_experience_integration": {},
+          "ancestral_communication_rituals": {},
+          "postmaterial_philosophy_study": {}
+        }
+      }
+    }
+  }
+}

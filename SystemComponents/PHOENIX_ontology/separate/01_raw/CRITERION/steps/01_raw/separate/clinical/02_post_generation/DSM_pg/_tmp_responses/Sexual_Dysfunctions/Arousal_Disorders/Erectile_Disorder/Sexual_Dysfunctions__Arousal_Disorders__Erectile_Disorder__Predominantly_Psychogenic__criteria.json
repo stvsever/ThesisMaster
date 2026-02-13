@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_penile_tumescence_preserved"
+    },
+    {
+      "criterium": "morning_erections_present"
+    },
+    {
+      "criterium": "erectile_dysfunction_in_partnered_context_predominant"
+    },
+    {
+      "criterium": "erectile_response_with_solo_stimulation_present"
+    },
+    {
+      "criterium": "performance_anxiety_in_sexual_context_present"
+    },
+    {
+      "criterium": "intrusive_performance_thoughts_reported"
+    },
+    {
+      "criterium": "inconsistent_erectile_function_across_sexual_contexts"
+    },
+    {
+      "criterium": "arousal_discrepancy_between_subjective_and_physiological_measures"
+    },
+    {
+      "criterium": "emotional_distress_related_to_sexual_performance"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

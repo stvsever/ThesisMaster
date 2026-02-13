@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "fatigue_low_energy"
+    },
+    {
+      "criterium": "sleep_disturbance_insomnia"
+    },
+    {
+      "criterium": "sleep_disturbance_hypersomnia"
+    },
+    {
+      "criterium": "weight_loss"
+    },
+    {
+      "criterium": "weight_gain"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "guilt_worthlessness"
+    },
+    {
+      "criterium": "indecisiveness"
+    },
+    {
+      "criterium": "diabetes_selfcare_impairment"
+    },
+    {
+      "criterium": "social_withdrawal"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

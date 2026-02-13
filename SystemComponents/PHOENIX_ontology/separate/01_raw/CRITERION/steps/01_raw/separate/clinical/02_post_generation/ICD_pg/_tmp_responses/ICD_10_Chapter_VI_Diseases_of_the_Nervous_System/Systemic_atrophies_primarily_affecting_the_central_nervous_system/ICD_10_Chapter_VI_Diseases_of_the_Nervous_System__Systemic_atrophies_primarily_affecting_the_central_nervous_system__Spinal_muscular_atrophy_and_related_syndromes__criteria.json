@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "proximal_limb_weakness"
+    },
+    {
+      "criterium": "muscle_atrophy"
+    },
+    {
+      "criterium": "fasciculations"
+    },
+    {
+      "criterium": "hyporeflexia"
+    },
+    {
+      "criterium": "hypotonia"
+    },
+    {
+      "criterium": "bulbar_weakness"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "dysphagia"
+    },
+    {
+      "criterium": "gowers_sign"
+    },
+    {
+      "criterium": "scoliosis"
+    },
+    {
+      "criterium": "respiratory_muscle_weakness"
+    },
+    {
+      "criterium": "nocturnal_hypoventilation"
+    },
+    {
+      "criterium": "recurrent_respiratory_infections"
+    },
+    {
+      "criterium": "pes_cavus_foot_deformity"
+    },
+    {
+      "criterium": "joint_contractures"
+    }
+  ],
+  "estimated_prevalence_percent": 0.002
+}

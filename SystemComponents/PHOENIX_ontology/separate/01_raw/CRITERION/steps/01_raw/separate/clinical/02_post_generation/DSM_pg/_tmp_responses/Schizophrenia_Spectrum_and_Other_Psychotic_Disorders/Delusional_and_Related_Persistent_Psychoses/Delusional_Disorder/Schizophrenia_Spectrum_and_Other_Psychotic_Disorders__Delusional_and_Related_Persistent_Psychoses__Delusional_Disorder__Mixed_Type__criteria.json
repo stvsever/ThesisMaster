@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusion_firm_conviction"
+    },
+    {
+      "criterium": "delusion_thematic_multiplicity"
+    },
+    {
+      "criterium": "delusion_systematization_present"
+    },
+    {
+      "criterium": "delusion_content_non_bizarre"
+    },
+    {
+      "criterium": "belief_resistance_to_counterevidence_high"
+    },
+    {
+      "criterium": "hallucinations_absent_or_minimal"
+    },
+    {
+      "criterium": "thought_disorganization_absent"
+    },
+    {
+      "criterium": "disorganized_behavior_absent"
+    },
+    {
+      "criterium": "affect_congruence_with_delusions_present"
+    },
+    {
+      "criterium": "preserved_general_cognition"
+    },
+    {
+      "criterium": "insight_limited_or_absent"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

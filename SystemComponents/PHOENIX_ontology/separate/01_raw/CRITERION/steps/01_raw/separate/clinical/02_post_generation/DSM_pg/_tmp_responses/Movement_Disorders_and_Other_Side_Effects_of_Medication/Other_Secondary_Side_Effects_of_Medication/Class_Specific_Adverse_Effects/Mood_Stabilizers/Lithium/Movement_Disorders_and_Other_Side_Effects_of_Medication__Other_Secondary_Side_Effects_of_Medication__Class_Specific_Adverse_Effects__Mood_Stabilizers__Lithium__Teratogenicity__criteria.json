@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ebstein_anomaly_present"
+    },
+    {
+      "criterium": "atrialized_right_ventricle_present"
+    },
+    {
+      "criterium": "tricuspid_valve_displacement_present"
+    },
+    {
+      "criterium": "congenital_heart_defect_present"
+    },
+    {
+      "criterium": "neural_tube_defect_present"
+    },
+    {
+      "criterium": "craniofacial_anomaly_present"
+    },
+    {
+      "criterium": "limb_malformation_present"
+    },
+    {
+      "criterium": "renal_anomaly_present"
+    },
+    {
+      "criterium": "intrauterine_growth_restriction_present"
+    },
+    {
+      "criterium": "neonatal_hypotonia_present"
+    },
+    {
+      "criterium": "neonatal_respiratory_distress_present"
+    },
+    {
+      "criterium": "cardiac_conduction_abnormality_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

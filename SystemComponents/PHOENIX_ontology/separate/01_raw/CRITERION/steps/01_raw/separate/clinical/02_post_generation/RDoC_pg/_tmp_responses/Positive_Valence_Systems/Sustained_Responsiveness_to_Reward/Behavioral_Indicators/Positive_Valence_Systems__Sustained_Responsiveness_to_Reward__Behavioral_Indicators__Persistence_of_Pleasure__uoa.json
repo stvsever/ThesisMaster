@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2",
+      "DRD1",
+      "SLC6A3",
+      "BDNF",
+      "COMT"
+    ],
+    "molecules": [
+      "DOPAMINE",
+      "DOPAMINE_TRANSPORTER",
+      "OPRM1",
+      "ENDORPHIN",
+      "GLUTAMATE",
+      "GABA",
+      "BDNF_PROTEIN"
+    ],
+    "cells": [
+      "DOPAMINERGIC_NEURON_VTA",
+      "MEDIUM_SPINY_NEURON_NAc",
+      "GABAergic_INTERNEURON_NAc",
+      "GLUTAMATERGIC_NEURON_PFC"
+    ],
+    "circuits": [
+      "VTA_NAc_reward_circuit",
+      "PFC_reward_control_network",
+      "OFC_reward_evaluation_network",
+      "NAc_ACC_reward_integration_network",
+      "VTA_PFC_bidirectional_connectivity"
+    ],
+    "physiology": [
+      "HEART_RATE_RESP_TO_REWARD_CUE",
+      "SKIN_CONDUCTANCE_TO_REWARD_CUE",
+      "PUPILLARY_DILATION_TO_REWARD_CUE",
+      "BLOOD_PRESSURE_CHANGE_TO_REWARD",
+      "RESPIRATORY_RATE_TO_REWARD"
+    ],
+    "behavior": [
+      "REWARD_SEEKING_VIGOR",
+      "PERSISTENCE_TO_REWARD_TASK",
+      "TRIALS_TO_CONTINUE_BEFORE_SATIATION",
+      "TASK_ENGAGEMENT_DURATION",
+      "REWARD_RESPONSE_TIMING_ACCURACY"
+    ],
+    "self_report": [
+      "PLEASURE_PERSISTENCE_SELF_RATING",
+      "REWARD_SENSITIVITY_SELF_RATING",
+      "ENGAGEMENT_PERSISTENCE_SELF_REPORT",
+      "SATIATION_RESISTANCE_SELF_REPORT",
+      "MOTIVATIONAL_PERSISTENCE_SELF_REPORT"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

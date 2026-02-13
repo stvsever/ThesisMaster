@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "eyelid_myoclonia_events"
+    },
+    {
+      "criterium": "absence_attacks"
+    },
+    {
+      "criterium": "photic_stimulation_triggered_events"
+    },
+    {
+      "criterium": "eye_opening_closing_triggered_events"
+    },
+    {
+      "criterium": "generalized_tonic_clonic_seizures_presence"
+    },
+    {
+      "criterium": "eeg_spike_and_wave_3hz_presence"
+    },
+    {
+      "criterium": "photoparoxysmal_eeg_response_presence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

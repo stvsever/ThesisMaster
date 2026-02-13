@@ -1,0 +1,52 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "ADRB1",
+      "SLC6A2",
+      "ACE",
+      "NOS3",
+      "GRK5",
+      "PHOX2B"
+    ],
+    "molecules": [
+      "norepinephrine",
+      "epinephrine",
+      "acetylcholine",
+      "nitric_oxide",
+      "angiotensin_II",
+      "vasopressin"
+    ],
+    "cells": [
+      "baroreceptor_afferent_neurons",
+      "NTS_neurons",
+      "RVLM_neurons",
+      "DMVagus_neurons"
+    ],
+    "circuits": [
+      "carotid_sinus_afferent_pathway",
+      "NTS_to_RVLM_projection",
+      "RVLM_to_SNS_outflow_projection",
+      "NTS_to_DMVagus_projection",
+      "DMVagus_to_heart_projection"
+    ],
+    "physiology": [
+      "baroreflex_sensitivity_gain",
+      "BRS_seq_slope",
+      "BRS_alpha_index",
+      "BRS_transfer_function_gain",
+      "HR_response_per_mmHg"
+    ],
+    "behavior": [
+      "tilt_test_heart_rate_increase_bpm",
+      "tilt_test_mean_arterial_pressure_change_mmHg",
+      "standing_time_minutes",
+      "syncope_during_tilt"
+    ],
+    "self_report": [
+      "orthostatic_symptom_severity_scale",
+      "dizziness_on_standing_score",
+      "syncope_history_report"
+    ]
+  },
+  "estimated_prevalence_percent": 9.5
+}

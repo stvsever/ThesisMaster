@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sudden_fear_panic"
+    },
+    {
+      "criterium": "loss_of_consciousness"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "shortness_of_breath"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "numbness_tingling"
+    },
+    {
+      "criterium": "amnesia_during_episode"
+    },
+    {
+      "criterium": "transient_disorientation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "reduced_plasma_concentration_of_coadministered_substrate_drug"
+    },
+    {
+      "criterium": "decreased_auc_of_coadministered_substrate_drug"
+    },
+    {
+      "criterium": "shortened_elimination_half_life_of_coadministered_substrate_drug"
+    },
+    {
+      "criterium": "increased_clearance_of_coadministered_substrate_drug"
+    },
+    {
+      "criterium": "increased_required_dose_of_coadministered_substrate_drug"
+    },
+    {
+      "criterium": "reduced_therapeutic_effect_of_coadministered_substrate_drug"
+    },
+    {
+      "criterium": "dose_adjustment_of_coadministered_substrate_required_due_to_induction"
+    },
+    {
+      "criterium": "emergence_of_drug_interaction_signs_with_concomitant_medications"
+    },
+    {
+      "criterium": "pharmacokinetic_profile_change_of_substrate_drug_due_to_induction"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

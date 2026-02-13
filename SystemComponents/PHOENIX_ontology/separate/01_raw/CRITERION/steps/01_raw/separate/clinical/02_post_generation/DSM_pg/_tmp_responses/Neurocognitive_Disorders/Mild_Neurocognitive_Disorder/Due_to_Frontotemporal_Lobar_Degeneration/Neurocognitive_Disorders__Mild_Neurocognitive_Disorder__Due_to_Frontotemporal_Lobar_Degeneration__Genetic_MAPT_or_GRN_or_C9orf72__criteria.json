@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "behavioral_disinhibition"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "loss_of_empathy"
+    },
+    {
+      "criterium": "perseverative_behaviors"
+    },
+    {
+      "criterium": "hyperorality"
+    },
+    {
+      "criterium": "dietary_change"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "nonfluent_speech"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "agrammatic_speech"
+    },
+    {
+      "criterium": "fasciculations"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

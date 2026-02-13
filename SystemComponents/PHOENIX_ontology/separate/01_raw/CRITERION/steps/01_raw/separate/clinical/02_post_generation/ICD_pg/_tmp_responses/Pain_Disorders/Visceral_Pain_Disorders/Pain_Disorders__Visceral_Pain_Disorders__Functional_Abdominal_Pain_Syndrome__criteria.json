@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_chronic_abdominal_pain"
+    },
+    {
+      "criterium": "pain_not_explained_by_organic_pathology"
+    },
+    {
+      "criterium": "pain_not_relieved_by_defecation"
+    },
+    {
+      "criterium": "pain_not_meal_related"
+    },
+    {
+      "criterium": "pain_exacerbated_by_psychological_stress"
+    },
+    {
+      "criterium": "pain_disproportionate_to_objective_findings"
+    },
+    {
+      "criterium": "pain_impairs_social_and_family_functioning"
+    },
+    {
+      "criterium": "pain_impairs_work_or_school_performance"
+    },
+    {
+      "criterium": "elevated_pain_score_without_structural_pathology"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

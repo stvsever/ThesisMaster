@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypohydration_headache"
+    },
+    {
+      "criterium": "hypoglycemia_headache"
+    },
+    {
+      "criterium": "sleep_deprivation_headache"
+    },
+    {
+      "criterium": "circadian_rhythm_disturbance_headache"
+    },
+    {
+      "criterium": "orthostatic_hypotension_headache"
+    },
+    {
+      "criterium": "electrolyte_disorder_headache"
+    },
+    {
+      "criterium": "autonomic_dysregulation_headache"
+    },
+    {
+      "criterium": "diurnal_intensity_variation_headache"
+    },
+    {
+      "criterium": "thermoregulation_disruption_headache"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

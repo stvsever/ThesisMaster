@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "OCULOGYRIC_GAZE_UPWARD_SUSTAINED"
+    },
+    {
+      "criterium": "BLEPHAROSPASM"
+    },
+    {
+      "criterium": "JAW_TRISMUS"
+    },
+    {
+      "criterium": "TONGUE_PROTRUSION"
+    },
+    {
+      "criterium": "ORAL_FACIAL_GRIMING"
+    },
+    {
+      "criterium": "CERVICAL_DYSTONIA_TORTICOLLIS"
+    },
+    {
+      "criterium": "FACIAL_DYSTONIA"
+    },
+    {
+      "criterium": "OROMANDIBULAR_DYSTONIA"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_Val66Met",
+      "SLC6A4_rs25531",
+      "COMT_rs4680_Val158Met"
+    ],
+    "molecules": [
+      "dopamine",
+      "norepinephrine",
+      "cortisol",
+      "acetylcholine",
+      "BDNF_protein"
+    ],
+    "cells": [
+      "retinal_ganglion_cells",
+      "superior_colliculus_neurons",
+      "frontal_eye_field_neurons",
+      "amygdala_neurons",
+      "lateral_intraparietal_area_neurons"
+    ],
+    "circuits": [
+      "amygdala_frontal_eye_field_circuit",
+      "frontal_eye_field_superior_colliculus_pathway",
+      "pulvinar_amygdala_pathway",
+      "parietal_eye_field_network"
+    ],
+    "physiology": [
+      "pupil_dilation_magnitude",
+      "saccade_latency_to_threat",
+      "first_fixation_duration_threat",
+      "threat_gaze_time_percent",
+      "micro_saccade_rate"
+    ],
+    "behavior": [
+      "threat_gaze_bias_score",
+      "threat_fixation_count",
+      "threat_saccade_count",
+      "average_fixation_duration_threat",
+      "threat_saccade_amplitude"
+    ],
+    "self_report": [
+      "STAI_state_score",
+      "STAI_trait_score",
+      "BIS_score",
+      "ATQ_total_score"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

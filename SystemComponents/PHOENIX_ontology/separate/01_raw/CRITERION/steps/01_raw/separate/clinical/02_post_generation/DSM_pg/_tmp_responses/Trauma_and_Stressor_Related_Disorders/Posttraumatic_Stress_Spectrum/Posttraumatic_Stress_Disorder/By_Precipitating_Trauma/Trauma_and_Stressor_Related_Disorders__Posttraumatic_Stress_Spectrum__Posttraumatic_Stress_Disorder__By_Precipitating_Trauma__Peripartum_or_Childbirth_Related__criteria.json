@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_reexperiencing_birth_trauma"
+    },
+    {
+      "criterium": "distressing_birth_related_nightmares"
+    },
+    {
+      "criterium": "dissociative_reactions_to_birth_cues"
+    },
+    {
+      "criterium": "avoidance_of_birth_related_thoughts_or_situations"
+    },
+    {
+      "criterium": "birth_amnesia_for_event_details"
+    },
+    {
+      "criterium": "persistent_negative_cognitions_about_birth_safety_or_self_efficacy"
+    },
+    {
+      "criterium": "emotional_numbing_or_detachment_related_to_birth"
+    },
+    {
+      "criterium": "hyperarousal_to_birth_cues"
+    },
+    {
+      "criterium": "exaggerated_startle_response_to_birth_sounds"
+    },
+    {
+      "criterium": "sleep_disturbance_postpartum_related_to_intrusions_or_hyperarousal"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

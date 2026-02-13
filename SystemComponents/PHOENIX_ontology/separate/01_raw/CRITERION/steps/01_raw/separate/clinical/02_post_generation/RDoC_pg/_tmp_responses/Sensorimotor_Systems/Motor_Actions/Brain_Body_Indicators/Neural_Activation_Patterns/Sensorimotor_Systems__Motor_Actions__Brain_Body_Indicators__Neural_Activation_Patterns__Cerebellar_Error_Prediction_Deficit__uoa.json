@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "CACNA1A",
+      "GRID2",
+      "GRM1",
+      "ATXN1",
+      "ZIC1"
+    ],
+    "molecules": [
+      "glutamate",
+      "GABA",
+      "GRM1",
+      "GRIN2A",
+      "GABRA1",
+      "VGLUT1"
+    ],
+    "cells": [
+      "Purkinje_Cells",
+      "Granule_Cells",
+      "Basket_Cells",
+      "Golgi_Cells",
+      "Stellate_Cells"
+    ],
+    "circuits": [
+      "Mossy_fiber_to_granule_circuit",
+      "Granule_to_purkinje_parallel_fiber_pathway",
+      "Climbing_fiber_to_purkinje_cell_pathway",
+      "Purkinje_to_dentate_nucleus_to_thalamus_pathway",
+      "Cerebellar_thalamo_cortical_loop"
+    ],
+    "physiology": [
+      "cerebellar_BOLD_error_signal_amplitude",
+      "Purkinje_cell_firing_rate",
+      "Purkinje_cell_spike_timing_precision",
+      "Mossy_fiber_input_rate",
+      "Climbing_fiber_input_rate",
+      "Purkinje_inhibitory_synaptic_strength"
+    ],
+    "behavior": [
+      "motor_error_detection_latency",
+      "error_correction_rate",
+      "saccade_adaptation_rate",
+      "timing_precision_of_reaching",
+      "timing_accuracy_of_eye_movements"
+    ],
+    "self_report": [
+      "self_report_coordination_difficulty",
+      "self_report_hand_eye_coordination_difficulty",
+      "self_report_intention_tremor_severity",
+      "self_report_motor_prediction_difficulty",
+      "self_report_frequency_of_misses_or_falls"
+    ]
+  },
+  "estimated_prevalence_percent": 0.8
+}

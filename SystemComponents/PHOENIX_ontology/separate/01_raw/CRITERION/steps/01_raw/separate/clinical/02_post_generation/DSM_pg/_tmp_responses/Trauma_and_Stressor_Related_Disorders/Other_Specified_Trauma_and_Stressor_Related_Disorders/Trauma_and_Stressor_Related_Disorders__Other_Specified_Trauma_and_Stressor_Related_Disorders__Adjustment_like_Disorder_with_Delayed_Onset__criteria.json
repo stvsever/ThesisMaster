@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "tearfulness"
+    },
+    {
+      "criterium": "social_withdrawal"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "fatigue_low_energy"
+    },
+    {
+      "criterium": "anhedonia_loss_of_interest"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "appetite_change"
+    },
+    {
+      "criterium": "weight_change"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "impaired_work_or_school_functioning"
+    },
+    {
+      "criterium": "suicidal_ideation"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

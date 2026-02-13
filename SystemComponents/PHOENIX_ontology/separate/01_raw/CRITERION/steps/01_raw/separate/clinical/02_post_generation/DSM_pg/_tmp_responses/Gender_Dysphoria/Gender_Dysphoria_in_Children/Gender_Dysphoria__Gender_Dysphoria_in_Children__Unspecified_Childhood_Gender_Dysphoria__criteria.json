@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preferred_name_use_consistent_with_chosen_identity"
+    },
+    {
+      "criterium": "pronoun_pref_consistent_with_chosen_identity"
+    },
+    {
+      "criterium": "cross_gender_play_preference"
+    },
+    {
+      "criterium": "cross_gender_dress_style_preference"
+    },
+    {
+      "criterium": "self_identified_gender_label_usage_in_conversation"
+    },
+    {
+      "criterium": "desire_for_social_transition"
+    },
+    {
+      "criterium": "request_for_chosen_gender_pronouns_in_school"
+    },
+    {
+      "criterium": "distress_related_to_gender_presentation"
+    },
+    {
+      "criterium": "peer_reaction_to_gender_expression"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

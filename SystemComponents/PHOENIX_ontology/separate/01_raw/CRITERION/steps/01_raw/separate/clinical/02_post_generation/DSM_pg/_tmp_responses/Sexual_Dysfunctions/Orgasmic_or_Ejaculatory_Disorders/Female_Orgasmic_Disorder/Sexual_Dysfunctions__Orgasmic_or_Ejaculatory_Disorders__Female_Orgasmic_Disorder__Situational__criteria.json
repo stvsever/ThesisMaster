@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "situational_anorgasmia"
+    },
+    {
+      "criterium": "prolonged_orgasm_latency_in_specific_contexts"
+    },
+    {
+      "criterium": "reduced_orgasmic_intensity_in_specific_contexts"
+    },
+    {
+      "criterium": "orgasm_absence_despite_adequate_arousal_in_specific_contexts"
+    },
+    {
+      "criterium": "normal_genital_arousal_with_no_orgasm_in_specific_contexts"
+    },
+    {
+      "criterium": "partner_specific_variability_of_orgasmic_response"
+    },
+    {
+      "criterium": "inconsistent_orgasmic_response_across_stimulation_types"
+    },
+    {
+      "criterium": "stimulus_specific_orgasmic_difficulty"
+    },
+    {
+      "criterium": "arousal_elicit_without_orgasm_in_specific_contexts"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

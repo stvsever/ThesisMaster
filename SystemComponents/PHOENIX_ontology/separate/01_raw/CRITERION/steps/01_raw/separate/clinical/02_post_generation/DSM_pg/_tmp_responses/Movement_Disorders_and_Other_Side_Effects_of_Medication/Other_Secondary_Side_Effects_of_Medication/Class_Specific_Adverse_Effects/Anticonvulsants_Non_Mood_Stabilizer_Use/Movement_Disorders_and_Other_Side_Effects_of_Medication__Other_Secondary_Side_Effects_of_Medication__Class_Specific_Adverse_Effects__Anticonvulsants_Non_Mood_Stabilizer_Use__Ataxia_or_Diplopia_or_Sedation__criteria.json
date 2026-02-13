@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "limb_ataxia"
+    },
+    {
+      "criterium": "truncal_ataxia"
+    },
+    {
+      "criterium": "dysmetria_finger_nose"
+    },
+    {
+      "criterium": "dysdiadochokinesia"
+    },
+    {
+      "criterium": "horizontal_diplopia"
+    },
+    {
+      "criterium": "vertical_diplopia"
+    },
+    {
+      "criterium": "binocular_diplopia"
+    },
+    {
+      "criterium": "somnolence"
+    },
+    {
+      "criterium": "decreased_alertness"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "impaired_attention"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

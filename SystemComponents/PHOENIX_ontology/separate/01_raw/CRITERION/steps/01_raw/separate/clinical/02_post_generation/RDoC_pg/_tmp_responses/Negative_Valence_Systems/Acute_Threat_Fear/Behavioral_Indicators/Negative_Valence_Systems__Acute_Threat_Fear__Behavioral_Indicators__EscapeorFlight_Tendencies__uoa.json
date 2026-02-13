@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_expression_level",
+      "GR_expression_level",
+      "CRHR1_expression_level",
+      "FKBP5_expression_level",
+      "SLC6A4_expression_level"
+    ],
+    "molecules": [
+      "cortisol_plasma",
+      "epinephrine_plasma",
+      "norepinephrine_plasma",
+      "CRH_plasma",
+      "glutamate_plasma_concentration"
+    ],
+    "cells": [
+      "amygdala_pyramidal_neuron_spiking_rate",
+      "vmPFC_pyramidal_neuron_spiking_rate",
+      "locus_coeruleus_neuron_firing_rate",
+      "hippocampal_pyramidal_neuron_spiking_rate"
+    ],
+    "circuits": [
+      "amygdala_vmPFC_functional_connectivity_strength",
+      "PAG_threat_activation_level",
+      "amygdala_vmPFC_network_synchronization",
+      "LC_amygdala_phase_locking_strength"
+    ],
+    "physiology": [
+      "heart_rate_peak_during_threat",
+      "skin_conductance_response_amplitude",
+      "respiratory_rate_increase",
+      "pupil_dilation_peak_latency",
+      "salivary_alpha_amylase_level"
+    ],
+    "behavior": [
+      "latency_to_escape_response",
+      "escape_attempts_per_minute",
+      "flight_behavior_duration_per_session",
+      "avoidance_behavior_frequency_in_threat_tasks",
+      "startle_response_frequency_to_threat"
+    ],
+    "self_report": [
+      "escape_flight_tendency_self_report_score",
+      "startle_sensitivity_self_report_score",
+      "avoidance_anxiety_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

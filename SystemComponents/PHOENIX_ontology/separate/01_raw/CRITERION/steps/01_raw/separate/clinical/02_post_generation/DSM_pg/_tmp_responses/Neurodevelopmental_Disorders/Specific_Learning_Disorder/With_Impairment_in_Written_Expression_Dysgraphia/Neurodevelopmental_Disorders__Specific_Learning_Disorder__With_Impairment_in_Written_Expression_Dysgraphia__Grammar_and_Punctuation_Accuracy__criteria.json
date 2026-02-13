@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "subject_verb_agreement_errors"
+    },
+    {
+      "criterium": "verb_tense_agreement_errors"
+    },
+    {
+      "criterium": "punctuation_misplacement_errors"
+    },
+    {
+      "criterium": "punctuation_omission_errors"
+    },
+    {
+      "criterium": "capitalization_errors"
+    },
+    {
+      "criterium": "sentence_boundary_errors"
+    },
+    {
+      "criterium": "conjunction_usage_errors"
+    },
+    {
+      "criterium": "determiner_noun_agreement_errors"
+    },
+    {
+      "criterium": "pronoun_case_errors_in_written_text"
+    },
+    {
+      "criterium": "complex_sentence_structuring_errors"
+    }
+  ],
+  "estimated_prevalence_percent": 6.5
+}

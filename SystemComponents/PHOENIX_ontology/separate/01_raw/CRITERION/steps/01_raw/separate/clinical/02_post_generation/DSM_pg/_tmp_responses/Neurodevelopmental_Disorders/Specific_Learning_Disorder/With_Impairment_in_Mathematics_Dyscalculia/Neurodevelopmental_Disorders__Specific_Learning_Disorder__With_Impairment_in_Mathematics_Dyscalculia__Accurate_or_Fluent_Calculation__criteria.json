@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fact_retrieval_deficit"
+    },
+    {
+      "criterium": "calculation_accuracy_deficit"
+    },
+    {
+      "criterium": "calculation_speed_deficit"
+    },
+    {
+      "criterium": "multi_step_calculation_error_rate"
+    },
+    {
+      "criterium": "place_value_processing_deficit"
+    },
+    {
+      "criterium": "number_sense_deficit"
+    },
+    {
+      "criterium": "reliance_on_counting_strategies"
+    },
+    {
+      "criterium": "digit_manipulation_difficulty"
+    },
+    {
+      "criterium": "working_memory_load_susceptibility"
+    },
+    {
+      "criterium": "columnar_arithmetic_error_rate"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

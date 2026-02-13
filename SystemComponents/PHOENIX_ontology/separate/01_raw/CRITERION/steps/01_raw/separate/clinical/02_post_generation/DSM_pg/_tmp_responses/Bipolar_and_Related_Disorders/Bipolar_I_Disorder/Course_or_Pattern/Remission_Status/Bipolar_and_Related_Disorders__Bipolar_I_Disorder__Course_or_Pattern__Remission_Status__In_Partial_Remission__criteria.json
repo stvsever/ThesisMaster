@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Depressed_Mood_Present"
+    },
+    {
+      "criterium": "Anhedonia_Present"
+    },
+    {
+      "criterium": "Sleep_Disturbance_Mild"
+    },
+    {
+      "criterium": "Appetite_Change_Present"
+    },
+    {
+      "criterium": "Psychomotor_Slowing_Present"
+    },
+    {
+      "criterium": "Fatigue_Present"
+    },
+    {
+      "criterium": "Concentration_Difficulty_Present"
+    },
+    {
+      "criterium": "Elevated_Energy_Present"
+    },
+    {
+      "criterium": "Pressured_Speech_Present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

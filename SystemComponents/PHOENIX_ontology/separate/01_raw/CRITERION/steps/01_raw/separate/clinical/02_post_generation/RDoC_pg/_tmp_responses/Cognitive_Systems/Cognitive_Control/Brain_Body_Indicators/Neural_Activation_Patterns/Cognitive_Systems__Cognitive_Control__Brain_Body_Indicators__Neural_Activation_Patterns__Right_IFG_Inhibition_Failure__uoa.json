@@ -1,0 +1,51 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_val158met_rs4680",
+      "BDNF_val66met_rs6265",
+      "DRD2_taq1a_rs1800497",
+      "MAOA_uVNTR"
+    ],
+    "molecules": [
+      "GABA_concentration_RightIFG",
+      "Glutamate_concentration_RightIFG",
+      "Dopamine_release_rate_RightIFG",
+      "Serotonin_concentration_RightIFG",
+      "BDNF_protein_level_RightIFG"
+    ],
+    "cells": [
+      "Pyramidal_neuron_density_RightIFG",
+      "GABAergic_interneuron_density_RightIFG",
+      "Astrocyte_density_RightIFG",
+      "NMDA_receptor_NR2B_expression_RightIFG"
+    ],
+    "circuits": [
+      "RightIFG_PreSMA_connectivity",
+      "RightIFG_DLPFC_connectivity",
+      "RightIFG_SMA_connectivity",
+      "RightIFG_VAN_connectivity",
+      "RightIFG_STN_connectivity"
+    ],
+    "physiology": [
+      "BOLD_amplitude_RightIFG_stop_signal",
+      "BOLD_latency_RightIFG_stop_signal",
+      "CBF_RightIFG_inhibition_task",
+      "HeartRate_response_RightIFG_inhibition"
+    ],
+    "behavior": [
+      "Stop_Signal_Reaction_Time",
+      "Stop_Signal_Error_Rate",
+      "Inhibition_Task_Accuracy",
+      "GoTrial_Reaction_Time",
+      "Commission_Error_Rate_Stop_Signal_Task",
+      "Response_Inhibition_Latency_StopTask"
+    ],
+    "self_report": [
+      "BIS11_Total_Score",
+      "BIS11_Motor_Impulsivity",
+      "UPPS_P_Positive_Urgency_Score",
+      "UPPS_P_Negative_Urgency_Score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

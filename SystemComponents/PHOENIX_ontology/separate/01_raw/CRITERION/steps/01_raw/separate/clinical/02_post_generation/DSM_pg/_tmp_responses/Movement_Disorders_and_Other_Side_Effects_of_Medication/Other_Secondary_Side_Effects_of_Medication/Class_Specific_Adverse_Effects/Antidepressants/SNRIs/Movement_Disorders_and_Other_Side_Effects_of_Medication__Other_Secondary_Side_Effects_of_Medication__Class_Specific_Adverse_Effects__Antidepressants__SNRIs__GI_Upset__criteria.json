@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "diarrhea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "abdominal_pain"
+    },
+    {
+      "criterium": "dyspepsia"
+    },
+    {
+      "criterium": "bloating"
+    },
+    {
+      "criterium": "flatulence"
+    },
+    {
+      "criterium": "early_satiation"
+    },
+    {
+      "criterium": "loss_of_appetite"
+    },
+    {
+      "criterium": "heartburn"
+    },
+    {
+      "criterium": "belching"
+    },
+    {
+      "criterium": "constipation"
+    }
+  ],
+  "estimated_prevalence_percent": 15.0
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "myoclonus_present"
+    },
+    {
+      "criterium": "generalized_seizures_present"
+    },
+    {
+      "criterium": "childhood_onset_epilepsy"
+    },
+    {
+      "criterium": "progressive_cognitive_decline"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "psychiatric_symptoms"
+    },
+    {
+      "criterium": "spastic_gait"
+    },
+    {
+      "criterium": "EEG_epileptiform_abnormalities"
+    },
+    {
+      "criterium": "MRI_brain_atrophy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0001
+}

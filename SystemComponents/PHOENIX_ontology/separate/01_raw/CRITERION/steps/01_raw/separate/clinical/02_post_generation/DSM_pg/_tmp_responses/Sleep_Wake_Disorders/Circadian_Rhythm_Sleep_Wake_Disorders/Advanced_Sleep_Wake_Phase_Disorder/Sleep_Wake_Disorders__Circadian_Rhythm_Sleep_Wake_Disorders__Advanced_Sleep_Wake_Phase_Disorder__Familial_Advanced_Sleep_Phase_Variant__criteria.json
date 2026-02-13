@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bedtime_advanced"
+    },
+    {
+      "criterium": "sleep_onset_early"
+    },
+    {
+      "criterium": "wake_time_early"
+    },
+    {
+      "criterium": "circadian_phase_advance"
+    },
+    {
+      "criterium": "actigraphy_confirmed_advanced_sleep_phase"
+    },
+    {
+      "criterium": "melatonin_onset_earlier"
+    },
+    {
+      "criterium": "family_history_positive"
+    },
+    {
+      "criterium": "genetic_predisposition_present"
+    },
+    {
+      "criterium": "chronotype_extremely_early"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

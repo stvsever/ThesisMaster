@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "abrupt_onset_headache_at_single_timepoint"
+    },
+    {
+      "criterium": "daily_headache_present_from_onset"
+    },
+    {
+      "criterium": "headache_location_bilateral_frontal_temporal_distribution"
+    },
+    {
+      "criterium": "headache_pain_quality_throbbing"
+    },
+    {
+      "criterium": "headache_pain_quality_pressure_like"
+    },
+    {
+      "criterium": "headache_pain_intensity_moderate_to_severe"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "phonophobia_present"
+    },
+    {
+      "criterium": "nausea_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

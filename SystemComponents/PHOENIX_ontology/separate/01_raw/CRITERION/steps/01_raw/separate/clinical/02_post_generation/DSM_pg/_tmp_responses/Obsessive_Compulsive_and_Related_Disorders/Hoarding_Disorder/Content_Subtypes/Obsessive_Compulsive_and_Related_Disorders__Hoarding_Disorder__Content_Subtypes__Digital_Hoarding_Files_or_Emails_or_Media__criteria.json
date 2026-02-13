@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_digital_item_accretion"
+    },
+    {
+      "criterium": "inability_to_discard_digital_items"
+    },
+    {
+      "criterium": "repetitive_backup_of_digital_items"
+    },
+    {
+      "criterium": "proliferation_of_duplicate_digital_items"
+    },
+    {
+      "criterium": "cluttered_digital_archives_across_devices"
+    },
+    {
+      "criterium": "inadequate_digital_item_categorization"
+    },
+    {
+      "criterium": "frequent_capture_of_nonessential_digital_items"
+    },
+    {
+      "criterium": "excessive_time_spent_managing_digital_collections"
+    },
+    {
+      "criterium": "emotional_distress_on_attempted_deletion_of_digital_items"
+    },
+    {
+      "criterium": "retention_of_nonfunctional_or_obsolete_digital_items"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

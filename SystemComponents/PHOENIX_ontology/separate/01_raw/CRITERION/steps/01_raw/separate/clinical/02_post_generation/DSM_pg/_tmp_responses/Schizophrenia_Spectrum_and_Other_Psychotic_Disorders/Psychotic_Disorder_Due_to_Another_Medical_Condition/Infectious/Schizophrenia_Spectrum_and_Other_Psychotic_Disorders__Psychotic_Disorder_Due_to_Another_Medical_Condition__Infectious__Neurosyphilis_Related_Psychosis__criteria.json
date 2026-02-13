@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "paranoid_delusions"
+    },
+    {
+      "criterium": "grandiose_delusions"
+    },
+    {
+      "criterium": "reference_delusions"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "tactile_hallucinations_formication"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "catatonic_features"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "confabulation"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "blunted_affect"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "disorientation_time_place"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

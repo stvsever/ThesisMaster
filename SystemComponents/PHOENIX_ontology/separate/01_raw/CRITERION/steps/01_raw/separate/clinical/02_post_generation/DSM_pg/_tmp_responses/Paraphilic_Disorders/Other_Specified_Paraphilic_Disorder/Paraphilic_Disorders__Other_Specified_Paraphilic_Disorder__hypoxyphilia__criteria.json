@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "arousal_to_asphyxiation_stimuli"
+    },
+    {
+      "criterium": "hypoxyphilia_fantasy_presence"
+    },
+    {
+      "criterium": "frequency_of_asphyxiation_related_sexual_activity"
+    },
+    {
+      "criterium": "breath_restriction_device_usage_during_sex"
+    },
+    {
+      "criterium": "physiological_arousal_response_to_asphyxiation_stimuli"
+    },
+    {
+      "criterium": "compulsivity_of_hypoxyphilia_practice"
+    },
+    {
+      "criterium": "history_of_near_miss_or_complication_related_to_asphyxiation"
+    },
+    {
+      "criterium": "safety_measures_adherence_in_hypoxyphilic_context"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

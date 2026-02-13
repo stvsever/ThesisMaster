@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "absent_sexual_thoughts_or_fantasies"
+    },
+    {
+      "criterium": "decreased_initiation_of_sexual_activity"
+    },
+    {
+      "criterium": "decreased_responsiveness_to_partner_sexual_initiation"
+    },
+    {
+      "criterium": "decreased_subjective_arousal_to_sexual_stimulation"
+    },
+    {
+      "criterium": "reduced_bodily_genital_sensations_during_sexual_activity"
+    },
+    {
+      "criterium": "reduced_vaginal_lubrication_in_response_to_arousal"
+    },
+    {
+      "criterium": "decreased_excitement_or_arousal_to_sexual_cues"
+    },
+    {
+      "criterium": "reduced_experience_of_pleasure_during_sexual_activity"
+    },
+    {
+      "criterium": "increased_aversion_or_withdrawal_from_sexual_activity"
+    },
+    {
+      "criterium": "decreased_frequency_of_sexual_thoughts"
+    }
+  ],
+  "estimated_prevalence_percent": 5.2
+}

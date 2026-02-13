@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recognizes_obsessions_are_unrealistic"
+    },
+    {
+      "criterium": "recognizes_compulsions_are_time_consuming"
+    },
+    {
+      "criterium": "recognizes_compulsions_are_unnecessary"
+    },
+    {
+      "criterium": "considers_alternative_explanations_for_obsessions"
+    },
+    {
+      "criterium": "resists_obsessive_behaviors_when_possible"
+    },
+    {
+      "criterium": "obsessions_intrusive_thoughts_not_perceived_as_real"
+    },
+    {
+      "criterium": "doubt_about_obsessional_beliefs"
+    },
+    {
+      "criterium": "seeks_external_validation_of_symptoms"
+    },
+    {
+      "criterium": "accepts_evidence_contradicting_beliefs"
+    },
+    {
+      "criterium": "articulates_alternative_explanations_to_others"
+    },
+    {
+      "criterium": "willingness_to_delay_or_skip_compulsions_due_to_insight"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pronoun_use_chosen_pronouns"
+    },
+    {
+      "criterium": "name_use_chosen_name_across_settings"
+    },
+    {
+      "criterium": "attire_gender_congruent_to_identity"
+    },
+    {
+      "criterium": "hairstyle_gender_congruent_to_identity"
+    },
+    {
+      "criterium": "facility_use_gender_congruent_to_identity"
+    },
+    {
+      "criterium": "social_engagement_in_gender_congruent_peer_groups"
+    },
+    {
+      "criterium": "self_report_identity_affirmation"
+    },
+    {
+      "criterium": "expressed_confidence_in_identity"
+    },
+    {
+      "criterium": "family_school_support_for_identity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

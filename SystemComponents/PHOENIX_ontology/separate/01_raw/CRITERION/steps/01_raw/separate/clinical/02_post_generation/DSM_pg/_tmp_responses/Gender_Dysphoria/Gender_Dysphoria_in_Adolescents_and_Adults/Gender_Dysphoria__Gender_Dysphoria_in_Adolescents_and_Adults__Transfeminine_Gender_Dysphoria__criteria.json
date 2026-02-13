@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gender_identity_feminine_alignment"
+    },
+    {
+      "criterium": "desire_to_live_as_feminine"
+    },
+    {
+      "criterium": "distress_due_to_assigned_sex_body_features"
+    },
+    {
+      "criterium": "preoccupation_with_feminine_body_attributes_to_modify"
+    },
+    {
+      "criterium": "feminine_presentation_preference_in_clothing_grooming"
+    },
+    {
+      "criterium": "preferred_pronouns_and_feminine_name_in_social_contexts"
+    },
+    {
+      "criterium": "impairment_in_social_professional_functioning_due_to_gender_dysphoria"
+    },
+    {
+      "criterium": "avoidance_of_social_situations_due_to_gender_dysphoria"
+    },
+    {
+      "criterium": "interest_in_medical_surgical_body_modification_to_align_with_feminine_identity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

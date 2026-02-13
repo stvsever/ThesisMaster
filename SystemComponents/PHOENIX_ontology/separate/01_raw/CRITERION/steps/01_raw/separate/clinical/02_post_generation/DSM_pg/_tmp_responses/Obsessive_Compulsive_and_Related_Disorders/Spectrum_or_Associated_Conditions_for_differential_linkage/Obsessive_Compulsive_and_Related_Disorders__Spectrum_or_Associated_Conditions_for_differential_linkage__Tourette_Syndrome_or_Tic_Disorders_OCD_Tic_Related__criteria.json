@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "facial_grimacing_tic"
+    },
+    {
+      "criterium": "eye_blinking_tic"
+    },
+    {
+      "criterium": "head_jerk_tic"
+    },
+    {
+      "criterium": "shoulder_shrug_tic"
+    },
+    {
+      "criterium": "lip_smacking_tic"
+    },
+    {
+      "criterium": "tongue_protrusion_tic"
+    },
+    {
+      "criterium": "neck_twitch_tic"
+    },
+    {
+      "criterium": "throat_clearance_tic"
+    },
+    {
+      "criterium": "grunting_vocal_tic"
+    },
+    {
+      "criterium": "sniffing_tic"
+    },
+    {
+      "criterium": "coughing_tic"
+    },
+    {
+      "criterium": "vocal_squeak_tic"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

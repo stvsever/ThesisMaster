@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "conjunctival_suffusion"
+    },
+    {
+      "criterium": "nystagmus_present"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "slurred_speech"
+    },
+    {
+      "criterium": "diplopia"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "tremor_present"
+    },
+    {
+      "criterium": "euphoria"
+    },
+    {
+      "criterium": "agitation_present"
+    },
+    {
+      "criterium": "tachycardia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

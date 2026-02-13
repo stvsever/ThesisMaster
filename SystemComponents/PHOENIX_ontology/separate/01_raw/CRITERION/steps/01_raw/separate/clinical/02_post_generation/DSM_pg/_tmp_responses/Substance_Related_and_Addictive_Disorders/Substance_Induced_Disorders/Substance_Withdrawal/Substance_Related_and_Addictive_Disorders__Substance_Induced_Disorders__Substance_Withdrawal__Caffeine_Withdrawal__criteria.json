@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cephalalgia"
+    },
+    {
+      "criterium": "asthenia"
+    },
+    {
+      "criterium": "dysphoria"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "impaired_concentration"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "myalgia"
+    },
+    {
+      "criterium": "arthralgia"
+    },
+    {
+      "criterium": "craving_caffeine"
+    },
+    {
+      "criterium": "insomnia"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

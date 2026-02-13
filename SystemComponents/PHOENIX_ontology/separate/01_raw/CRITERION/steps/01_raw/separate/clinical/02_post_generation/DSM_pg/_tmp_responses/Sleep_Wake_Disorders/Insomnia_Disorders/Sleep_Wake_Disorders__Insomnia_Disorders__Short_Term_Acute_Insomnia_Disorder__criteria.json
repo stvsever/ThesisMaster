@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_onset_latency_minutes"
+    },
+    {
+      "criterium": "sleep_maintenance_breaks_per_night"
+    },
+    {
+      "criterium": "nocturnal_awakenings_per_night"
+    },
+    {
+      "criterium": "early_morning_awakening_frequency"
+    },
+    {
+      "criterium": "total_sleep_time_hours"
+    },
+    {
+      "criterium": "sleep_efficiency_percent"
+    },
+    {
+      "criterium": "sleep_fragmentation_index"
+    },
+    {
+      "criterium": "subjective_sleep_quality_poor"
+    },
+    {
+      "criterium": "daytime_fatigue"
+    },
+    {
+      "criterium": "daytime_sleepiness"
+    },
+    {
+      "criterium": "daytime_inattention"
+    },
+    {
+      "criterium": "daytime_memory_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 9.0
+}

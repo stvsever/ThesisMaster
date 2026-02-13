@@ -1,0 +1,58 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "CACNA1C",
+      "CACNA1G",
+      "GABRA1",
+      "GABRB3",
+      "GRIN2A",
+      "GRIN2B",
+      "BDNF"
+    ],
+    "molecules": [
+      "GABA",
+      "Glutamate",
+      "GABA_A_receptor",
+      "NMDA_receptor",
+      "AMPA_receptor",
+      "BDNF",
+      "CaMKII"
+    ],
+    "cells": [
+      "Pyramidal_neurons",
+      "PV_interneurons",
+      "SST_interneurons",
+      "Vip_interneurons",
+      "Oligodendrocytes",
+      "Astrocytes"
+    ],
+    "circuits": [
+      "prefrontal_thalamocortical_loop",
+      "basal_ganglia_cortical_loop",
+      "cerebellar_timing_network",
+      "hippocampo_cortical_network",
+      "parietal_temporal_network",
+      "sensory_input_timing_circuit"
+    ],
+    "physiology": [
+      "beta_power",
+      "gamma_power",
+      "beta_phase_locking_index",
+      "gamma_phase_locking_index",
+      "beta_timing_precision",
+      "gamma_timing_precision"
+    ],
+    "behavior": [
+      "temporal_order_judgment_accuracy",
+      "duration_estimation_error",
+      "temporal_bisection_accuracy",
+      "temporal_reproduction_accuracy"
+    ],
+    "self_report": [
+      "timing_sensitivity_self_report",
+      "temporal_perception_discrepancy",
+      "perceived_timing_variability"
+    ]
+  },
+  "estimated_prevalence_percent": 0.8
+}

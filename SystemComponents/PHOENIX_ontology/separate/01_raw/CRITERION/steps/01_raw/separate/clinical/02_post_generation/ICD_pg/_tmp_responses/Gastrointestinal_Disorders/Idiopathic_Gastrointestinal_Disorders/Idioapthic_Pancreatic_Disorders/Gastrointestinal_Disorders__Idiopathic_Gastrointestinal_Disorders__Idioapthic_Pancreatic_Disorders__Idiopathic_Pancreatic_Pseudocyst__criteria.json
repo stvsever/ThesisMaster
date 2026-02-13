@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cognitive_decline"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "language_fluency_decline"
+    },
+    {
+      "criterium": "depressive_symptomatology"
+    },
+    {
+      "criterium": "anxiety_symptomatology"
+    },
+    {
+      "criterium": "sleep_disturbance_insomnia"
+    },
+    {
+      "criterium": "irritability_agitation"
+    },
+    {
+      "criterium": "functional_impairment_in_work_social"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

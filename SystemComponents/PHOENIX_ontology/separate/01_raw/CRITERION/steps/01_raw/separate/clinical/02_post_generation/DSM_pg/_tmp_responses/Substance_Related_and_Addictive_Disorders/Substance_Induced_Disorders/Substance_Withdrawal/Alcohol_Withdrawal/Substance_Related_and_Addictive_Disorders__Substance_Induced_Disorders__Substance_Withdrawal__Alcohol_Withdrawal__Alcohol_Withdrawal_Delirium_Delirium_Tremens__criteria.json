@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "fever_hyperthermia"
+    },
+    {
+      "criterium": "agitation_psychomotor"
+    },
+    {
+      "criterium": "clouding_of_consciousness"
+    },
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "tactile_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

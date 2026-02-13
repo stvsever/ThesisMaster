@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "confrontation_naming_deficit"
+    },
+    {
+      "criterium": "semantic_paraphasias"
+    },
+    {
+      "criterium": "impaired_single_word_comprehension"
+    },
+    {
+      "criterium": "semantic_memory_loss_across_categories"
+    },
+    {
+      "criterium": "surface_dyslexia"
+    },
+    {
+      "criterium": "surface_dysgraphia"
+    },
+    {
+      "criterium": "fluency_with_semantic_empty_content"
+    },
+    {
+      "criterium": "living_things_semantic_deficit"
+    },
+    {
+      "criterium": "preserved_syntactic_complexity_in_spontaneous_speech"
+    }
+  ],
+  "estimated_prevalence_percent": 0.002
+}

@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "fatigue_low_energy"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "unintended_weight_change"
+    },
+    {
+      "criterium": "excessive_guilt_or_worthlessness"
+    },
+    {
+      "criterium": "concentration_impairment"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "suicidal_ideation_or_harm"
+    },
+    {
+      "criterium": "functional_impairment_in_daily_activities"
+    },
+    {
+      "criterium": "tearfulness_or_emotional_lability"
+    },
+    {
+      "criterium": "irritability_or_mood_swings"
+    }
+  ],
+  "estimated_prevalence_percent": 12.0
+}

@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SLEEP_ONSET_LATENCY_INCREASE"
+    },
+    {
+      "criterium": "SLEEP_EFFICIENCY_DECREASE"
+    },
+    {
+      "criterium": "TOTAL_SLEEP_TIME_DECREASE"
+    },
+    {
+      "criterium": "NIGHTTIME_AWAKINGS_INCREASE"
+    },
+    {
+      "criterium": "DAYTIME_SLEEPINESS_INCREASE"
+    },
+    {
+      "criterium": "DAYTIME_ALERTNESS_DECREASE"
+    },
+    {
+      "criterium": "COGNITIVE_PERFORMANCE_DECREASE"
+    },
+    {
+      "criterium": "MOTOR_COORDINATION_IMPAIRMENT"
+    },
+    {
+      "criterium": "IRRITABILITY_INCREASE"
+    },
+    {
+      "criterium": "MOOD_LABILITY_INCREASE"
+    },
+    {
+      "criterium": "HEADACHE_FREQUENCY_INCREASE"
+    },
+    {
+      "criterium": "GI_DISTURBANCE_INCREASE"
+    },
+    {
+      "criterium": "EARLIER_WAKE_TIME_VIOLATION"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

@@ -1,0 +1,63 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "SCN9A",
+      "OPRM1",
+      "COMT",
+      "TRPV1",
+      "SCN10A",
+      "BDNF",
+      "PTGS2",
+      "HTR2A"
+    ],
+    "molecules": [
+      "Glutamate",
+      "CGRP",
+      "Substance_P",
+      "Bradykinin",
+      "NGF",
+      "BDNF",
+      "Prostaglandin_E2",
+      "Nitric_Oxide"
+    ],
+    "cells": [
+      "TRPV1_nociceptors",
+      "Peripheral_nociceptors",
+      "Dorsal_horn_lamina_I_neurons",
+      "Spinal_microglia",
+      "Astrocytes"
+    ],
+    "circuits": [
+      "Spinothalamic_Tract",
+      "PAG_thalamic_descending_pathway",
+      "Thalamocortical_projections",
+      "S1_network",
+      "ACC_insula_network"
+    ],
+    "physiology": [
+      "Decreased_thermal_pain_threshold",
+      "Decreased_mechanical_pain_threshold",
+      "Windup_Index",
+      "Skin_Conductance_Response",
+      "Heart_Rate_Change_to_pain",
+      "Pupillary_Dilation_to_pain",
+      "Cortisol_Response_to_pain"
+    ],
+    "behavior": [
+      "Withdrawal_reaction_latency",
+      "Facial_grimacing_intensity",
+      "Vocalization_intensity_during_nociceptive_stimulus",
+      "Avoidance_of_pain_stimulus",
+      "Protective_motor_behavior"
+    ],
+    "self_report": [
+      "NRS_pain_intensity",
+      "VAS_pain_intensity",
+      "MPQ_Sensory_Descriptors",
+      "MPQ_Affective_Descriptors",
+      "PRI_Score",
+      "BPI_Pain_Severity"
+    ]
+  },
+  "estimated_prevalence_percent": 6.0
+}

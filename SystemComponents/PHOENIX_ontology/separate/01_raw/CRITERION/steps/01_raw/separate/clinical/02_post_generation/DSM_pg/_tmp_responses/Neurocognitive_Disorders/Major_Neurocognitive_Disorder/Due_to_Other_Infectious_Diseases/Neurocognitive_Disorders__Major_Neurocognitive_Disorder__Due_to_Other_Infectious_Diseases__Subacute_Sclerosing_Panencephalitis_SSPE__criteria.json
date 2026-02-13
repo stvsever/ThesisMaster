@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cognitive_decline"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "seizures"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "behavioral_change"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "visual_disturbance"
+    },
+    {
+      "criterium": "pyramidal_signs"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0001
+}

@@ -1,0 +1,8 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+SOCIAL / community_participation_and_social_prescribing / social_prescribing_and_community_linkage / assessment_and_plan / stepwise_engagement_plan,SOCIAL,4,0.8,140.75,13.699909,0.20073709,0.002206326
+SOCIAL / community_participation_and_social_prescribing / social_prescribing_and_community_linkage / assessment_and_plan / barriers_to_engagement_assessment,SOCIAL,3,0.6,78.666664,31.372314,0.20820415,0.004680212
+SOCIAL / romantic_intimacy_and_relationships / romantic_relationship_skills_and_support / relationship_maintenance_and_enrichment / emotional_intimacy_and_vulnerability / self_soothing_and_couple_soothing_balancing_plan,SOCIAL,3,0.6,142.33333,38.508297,0.19826193,0.0041479734
+SOCIAL / community_participation_and_social_prescribing / social_prescribing_and_community_linkage / link_worker_and_followthrough_support / motivation_and_confidence_support_for_engagement,SOCIAL,1,0.2,125.0,0.0,0.2039982,0.0
+SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / loneliness_reduction_planning / meaningful_activity_with_others_planning,SOCIAL,1,0.2,127.0,0.0,0.20114303,0.0
+SOCIAL / romantic_intimacy_and_relationships / relational_therapeutic_services / separation_and_coparenting_support / emotional_recovery_and_adjustment / no_contact_or_low_contact_boundary_planning,SOCIAL,1,0.2,170.0,0.0,0.1999004,0.0
+SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / loneliness_reduction_planning / reengagement_after_isolation_plan,SOCIAL,1,0.2,196.0,0.0,0.18652798,0.0

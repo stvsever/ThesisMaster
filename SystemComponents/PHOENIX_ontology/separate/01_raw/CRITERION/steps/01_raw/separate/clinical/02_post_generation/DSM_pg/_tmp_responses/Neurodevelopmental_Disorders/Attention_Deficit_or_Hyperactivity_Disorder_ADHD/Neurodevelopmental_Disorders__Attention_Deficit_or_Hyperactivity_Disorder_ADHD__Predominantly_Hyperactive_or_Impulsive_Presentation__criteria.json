@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fidgeting_in_seat"
+    },
+    {
+      "criterium": "leaves_seat_in_classroom"
+    },
+    {
+      "criterium": "runs_or_climbs_in_inappropriate_settings"
+    },
+    {
+      "criterium": "unable_to_play_quietly"
+    },
+    {
+      "criterium": "on_the_go_motor_activity"
+    },
+    {
+      "criterium": "talks_excessively"
+    },
+    {
+      "criterium": "blurts_out_answers"
+    },
+    {
+      "criterium": "difficulty_waiting_turn"
+    },
+    {
+      "criterium": "interrupts_or_intrudes_on_others"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

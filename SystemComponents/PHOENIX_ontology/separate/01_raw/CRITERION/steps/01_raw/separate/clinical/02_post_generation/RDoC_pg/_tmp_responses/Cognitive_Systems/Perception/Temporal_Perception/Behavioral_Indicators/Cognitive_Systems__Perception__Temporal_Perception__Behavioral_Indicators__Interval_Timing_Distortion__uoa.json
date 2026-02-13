@@ -1,0 +1,57 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_rs1800497",
+      "COMT_val158met",
+      "SLC6A3_VNTR_3R_10R",
+      "DRD4_VNTR_7R",
+      "CLOCK_rs1801260",
+      "BDNF_rs6265"
+    ],
+    "molecules": [
+      "Dopamine",
+      "Dopamine_D2_Receptor",
+      "Dopamine_Transporter",
+      "BDNF",
+      "Glutamate",
+      "GABA",
+      "Acetylcholine"
+    ],
+    "cells": [
+      "Striatal_Medium_Spiny_Neuron_D1",
+      "Striatal_Medium_Spiny_Neuron_D2",
+      "Prefrontal_Cortex_Pyramidal_Neuron",
+      "Parvalbumin_Positive_Interneuron",
+      "Somatostatin_Positive_Interneuron",
+      "Substantia_Nigra_Dopaminergic_Neuron"
+    ],
+    "circuits": [
+      "Frontal_Striatal_Circuit",
+      "Dorsolateral_Prefrontal_Cortex_Basal_Ganglia_Loop",
+      "Cerebellar_Timing_Circuit",
+      "Frontoparietal_Timing_Network",
+      "Basal_Ganglia_Timing_Pathway"
+    ],
+    "physiology": [
+      "EEG_Theta_Power",
+      "EEG_Beta_Band_Power",
+      "Pupil_Dilation_Index",
+      "Heart_Rate",
+      "Heart_Rate_Variability",
+      "Skin_Conductance_Level"
+    ],
+    "behavior": [
+      "Time_Estimation_Error",
+      "Time_Reproduction_Error",
+      "Temporal_Discrimination_Threshold",
+      "Temporal_Bisection_Accuracy",
+      "Timing_Task_Response_Latency"
+    ],
+    "self_report": [
+      "Subjective_Timing_Distortion_Score",
+      "Perceived_Temporal_Illusion_Intensity",
+      "Temporal_Sense_Accuracy_Rating"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

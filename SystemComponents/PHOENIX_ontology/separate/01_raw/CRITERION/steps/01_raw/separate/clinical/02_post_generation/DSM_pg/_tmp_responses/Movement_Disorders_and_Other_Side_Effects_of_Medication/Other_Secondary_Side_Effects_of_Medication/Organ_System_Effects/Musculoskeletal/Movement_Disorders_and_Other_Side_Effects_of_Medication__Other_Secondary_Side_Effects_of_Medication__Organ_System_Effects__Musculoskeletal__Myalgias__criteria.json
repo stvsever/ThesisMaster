@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "diffuse_muscle_pain"
+    },
+    {
+      "criterium": "proximal_muscle_pain"
+    },
+    {
+      "criterium": "focal_muscle_pain"
+    },
+    {
+      "criterium": "muscle_pain_worsened_by_exertion"
+    },
+    {
+      "criterium": "pain_at_rest_present"
+    },
+    {
+      "criterium": "muscle_palpable_tenderness"
+    },
+    {
+      "criterium": "pain_on_passive_muscle_stretch"
+    },
+    {
+      "criterium": "creatine_kinase_elevated"
+    },
+    {
+      "criterium": "lactate_dehydrogenase_elevated"
+    }
+  ],
+  "estimated_prevalence_percent": 12.0
+}

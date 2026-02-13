@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_rs4680_genotype",
+      "BDNF_rs6265_genotype",
+      "CACNA1C_rs1006737_genotype",
+      "HTR2A_rs6313_genotype",
+      "MAOA_uVNTR_genotype"
+    ],
+    "molecules": [
+      "frontal_dopamine_concentration",
+      "frontal_norepinephrine_concentration",
+      "frontal_GABA_concentration",
+      "frontal_glutamate_concentration",
+      "acetylcholine_frontal_concentration"
+    ],
+    "cells": [
+      "frontal_pyramidal_neuron_density",
+      "frontal_parvalbumin_interneuron_density",
+      "frontal_somatostatin_interneuron_density",
+      "frontal_microglia_density",
+      "frontal_astrocyte_density"
+    ],
+    "circuits": [
+      "frontal_beta_synchrony_network",
+      "dorsolateral_prefrontal_cortex_network",
+      "frontal_thalamo_cortical_loop",
+      "fronto_striatal_connectivity",
+      "anterior_cingulate_beta_coupling",
+      "prefrontal_parietal_network_beta"
+    ],
+    "physiology": [
+      "frontal_beta_power_absolute",
+      "frontal_beta_power_during_maintenance",
+      "frontal_beta_peak_frequency_hz",
+      "frontal_beta_coherence_with_dorsolateral_prefrontal_cortex",
+      "frontal_beta_coherence_with_anterior_cingulate_cortex",
+      "frontal_beta_event_related_synchronization"
+    ],
+    "behavior": [
+      "stimulus_response_time_ms",
+      "task_accuracy_percent",
+      "task_completion_time_ms",
+      "response_time_variability_ms",
+      "error_rate_percent"
+    ],
+    "self_report": [
+      "STAI_state_anxiety_score",
+      "STAI_trait_anxiety_score",
+      "GAD7_score",
+      "Beck_anxiety_inventory_score",
+      "PDSS_score"
+    ]
+  },
+  "estimated_prevalence_percent": 3.5
+}

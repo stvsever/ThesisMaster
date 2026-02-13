@@ -1,0 +1,20 @@
+{
+  "domain_path": "PSYCHO / Cognitive_Capacity_Enhancement_and_Stimulation",
+  "domain_root_path": [
+    "PSYCHO",
+    "Cognitive_Capacity_Enhancement_and_Stimulation"
+  ],
+  "leaf_count": 173,
+  "total_edges_in_subtree": 249,
+  "evaluated_pairs": 200,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 2,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "37ec7eadb1524fa4135d8a643e414c365c750db2",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 86.328
+}

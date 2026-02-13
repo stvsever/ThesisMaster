@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_visual_acuity_loss"
+    },
+    {
+      "criterium": "afferent_pupillary_defect"
+    },
+    {
+      "criterium": "color_desaturation"
+    },
+    {
+      "criterium": "pain_on_eye_movement"
+    },
+    {
+      "criterium": "internuclear_opthalmoplegia"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "spastic_paraparesis"
+    },
+    {
+      "criterium": "hyperreflexia"
+    },
+    {
+      "criterium": "extensor_plantar_response"
+    },
+    {
+      "criterium": "somatosensory_deficits_in_limbs"
+    },
+    {
+      "criterium": "urinary_bladder_dysfunction"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

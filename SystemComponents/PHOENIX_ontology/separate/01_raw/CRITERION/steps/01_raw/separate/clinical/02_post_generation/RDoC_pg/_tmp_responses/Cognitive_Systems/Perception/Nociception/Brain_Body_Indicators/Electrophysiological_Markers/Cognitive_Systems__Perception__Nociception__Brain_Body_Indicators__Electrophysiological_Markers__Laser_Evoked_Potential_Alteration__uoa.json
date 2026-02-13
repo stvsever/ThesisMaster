@@ -1,0 +1,59 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "SCN9A_genotype",
+      "SCN10A_genotype",
+      "OPRM1_genotype",
+      "COMT_genotype",
+      "BDNF_rs6265_genotype",
+      "TRPV1_genotype"
+    ],
+    "molecules": [
+      "glutamate_concentration",
+      "GABA_concentration",
+      "substance_P_level",
+      "BDNF_level",
+      "CGRP_level",
+      "endogenous_opioid_peptide_level"
+    ],
+    "cells": [
+      "nociceptor_neuron_density",
+      "dorsal_root_ganglion_neuron_density",
+      "thalamic_neuron_density",
+      "cortical_pyramidal_neuron_density_S1",
+      "inhibitory_interneuron_density_S1",
+      "microglia_activation_status"
+    ],
+    "circuits": [
+      "thalamocortical_pathway_activation",
+      "S1_activation_level",
+      "insula_activation_level",
+      "ACC_activation_level",
+      "PAG_activation_level",
+      "brain_network_synchrony_index"
+    ],
+    "physiology": [
+      "N2P2_amplitude_microvolts",
+      "N2_latency_ms",
+      "P2_latency_ms",
+      "LEP_area_under_curve_microvolt_millisecond",
+      "LEP_signal_to_noise_ratio",
+      "LEP_habituation_rate_per_trial"
+    ],
+    "behavior": [
+      "laser_stimulus_reaction_time_ms",
+      "withdrawal_response_latency_ms",
+      "pain_behavior_score",
+      "facial_pain_expression_score",
+      "pupil_dilation_mm",
+      "pain_behavior_occurrence_rate"
+    ],
+    "self_report": [
+      "pain_intensity_VAS",
+      "pain_discomfort_VAS",
+      "pain_quality_descriptor",
+      "pain_unpleasantness_VAS"
+    ]
+  },
+  "estimated_prevalence_percent": 4.8
+}

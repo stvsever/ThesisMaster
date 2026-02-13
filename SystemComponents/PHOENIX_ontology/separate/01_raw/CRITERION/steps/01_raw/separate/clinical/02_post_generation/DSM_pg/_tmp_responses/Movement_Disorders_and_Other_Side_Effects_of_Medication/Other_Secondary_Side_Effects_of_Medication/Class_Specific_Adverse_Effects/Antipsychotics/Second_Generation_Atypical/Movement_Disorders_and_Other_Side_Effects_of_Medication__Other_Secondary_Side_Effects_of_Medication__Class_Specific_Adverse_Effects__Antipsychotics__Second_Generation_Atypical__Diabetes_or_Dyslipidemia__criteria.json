@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "FPG_ge_126_mg_dL"
+    },
+    {
+      "criterium": "HbA1c_ge_6_5_percent"
+    },
+    {
+      "criterium": "OGTT_2h_glucose_ge_200_mg_dL"
+    },
+    {
+      "criterium": "Triglycerides_ge_150_mg_dL"
+    },
+    {
+      "criterium": "LDL_C_ge_100_mg_dL"
+    },
+    {
+      "criterium": "HDL_C_lt_40_mg_dL"
+    },
+    {
+      "criterium": "BMI_ge_30_kg_per_m2"
+    },
+    {
+      "criterium": "Polydipsia_reported"
+    },
+    {
+      "criterium": "Polyuria_reported"
+    }
+  ],
+  "estimated_prevalence_percent": 40.0
+}

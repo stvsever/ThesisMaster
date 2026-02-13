@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hepatic_encephalopathy_present"
+    },
+    {
+      "criterium": "asterixis_present"
+    },
+    {
+      "criterium": "coagulopathy_inr_elevated"
+    },
+    {
+      "criterium": "hyperbilirubinemia_present"
+    },
+    {
+      "criterium": "transaminase_extremely_elevated"
+    },
+    {
+      "criterium": "hyperammonemia_present"
+    },
+    {
+      "criterium": "hypoglycemia_present"
+    },
+    {
+      "criterium": "lactic_acidosis_present"
+    },
+    {
+      "criterium": "acute_kidney_injury_present"
+    },
+    {
+      "criterium": "hypotension_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

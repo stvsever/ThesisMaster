@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "pacing_behavior"
+    },
+    {
+      "criterium": "hand_wringing"
+    },
+    {
+      "criterium": "fidgeting"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "autonomic_arousal_signs"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

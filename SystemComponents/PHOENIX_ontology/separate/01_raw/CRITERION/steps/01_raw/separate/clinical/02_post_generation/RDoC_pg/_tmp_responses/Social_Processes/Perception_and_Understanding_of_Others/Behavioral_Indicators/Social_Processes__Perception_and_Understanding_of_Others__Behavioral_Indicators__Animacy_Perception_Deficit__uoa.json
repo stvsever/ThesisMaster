@@ -1,0 +1,44 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_rs53576",
+      "CNTNAP2_rs7794745",
+      "SHANK3_CNV",
+      "BDNF_rs6265_V66M"
+    ],
+    "molecules": [
+      "plasma_oxytocin_concentration",
+      "plasma_vasopressin_concentration",
+      "dopamine_D2_receptor_availability",
+      "serotonin_5HT2A_receptor_availability"
+    ],
+    "cells": [
+      "STS_pyramidal_neuron_density",
+      "mirror_neuron_population_density",
+      "amygdala_interneuron_density"
+    ],
+    "circuits": [
+      "posterior_STS_biological_motion_activation",
+      "TPJ_STS_connectivity_during_animacy_task",
+      "amygdala_prefrontal_connection_during_social_perception"
+    ],
+    "physiology": [
+      "pupil_dilation_to_biological_motion",
+      "gaze_fixation_duration_on_animate_stimuli",
+      "heart_rate_variability_during_animacy_task",
+      "skin_conductance_response_to_animate_stimuli"
+    ],
+    "behavior": [
+      "biological_motion_discrimination_accuracy",
+      "animacy_judgment_reaction_time",
+      "eye_fixation_duration_on_eye_region_in_animate_stimuli",
+      "gaze_following_accuracy_to_animate_stimuli"
+    ],
+    "self_report": [
+      "animacy_perception_self_assessment",
+      "social_perception_difficulty_scale",
+      "intentionality_judgment_confidence"
+    ]
+  },
+  "estimated_prevalence_percent": 1.5
+}

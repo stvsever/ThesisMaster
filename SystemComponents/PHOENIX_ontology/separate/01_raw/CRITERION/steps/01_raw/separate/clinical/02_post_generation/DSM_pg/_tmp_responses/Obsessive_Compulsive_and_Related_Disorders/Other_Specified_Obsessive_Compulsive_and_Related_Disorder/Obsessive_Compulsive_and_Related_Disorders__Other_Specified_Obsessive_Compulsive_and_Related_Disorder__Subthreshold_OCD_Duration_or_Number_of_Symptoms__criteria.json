@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_obsessions"
+    },
+    {
+      "criterium": "contamination_obsessions"
+    },
+    {
+      "criterium": "symmetry_obsessions"
+    },
+    {
+      "criterium": "harm_obsessions"
+    },
+    {
+      "criterium": "washing_compulsions"
+    },
+    {
+      "criterium": "checking_compulsions"
+    },
+    {
+      "criterium": "ordering_compulsions"
+    },
+    {
+      "criterium": "mental_compulsions"
+    },
+    {
+      "criterium": "counting_compulsions"
+    },
+    {
+      "criterium": "reassurance_seeking_behaviors"
+    },
+    {
+      "criterium": "avoidance_of_triggering_situations"
+    },
+    {
+      "criterium": "ego_dystonic_obsessions"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

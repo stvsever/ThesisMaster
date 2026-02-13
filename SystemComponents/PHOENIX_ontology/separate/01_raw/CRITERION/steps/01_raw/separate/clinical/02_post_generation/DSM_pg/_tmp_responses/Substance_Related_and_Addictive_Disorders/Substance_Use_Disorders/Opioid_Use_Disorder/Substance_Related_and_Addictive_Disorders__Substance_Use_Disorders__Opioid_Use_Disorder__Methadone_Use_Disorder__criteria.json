@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_methadone"
+    },
+    {
+      "criterium": "loss_of_control_over_methadone_use"
+    },
+    {
+      "criterium": "dose_escalation_without_prescriber_guidance"
+    },
+    {
+      "criterium": "tolerance_to_methadone"
+    },
+    {
+      "criterium": "withdrawal_symptoms_when_methadone_ceased"
+    },
+    {
+      "criterium": "time_spent_obtaining_methadone"
+    },
+    {
+      "criterium": "diversion_or_illicit_acquisition_of_methadone"
+    },
+    {
+      "criterium": "continued_methadone_use_despite_psychosocial_problems"
+    },
+    {
+      "criterium": "neglect_of_major_activities_due_to_methadone_use"
+    },
+    {
+      "criterium": "hazardous_use_of_methadone"
+    },
+    {
+      "criterium": "interpersonal_conflict_due_to_methadone_use"
+    },
+    {
+      "criterium": "preoccupation_with_methadone_dose_schedule"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

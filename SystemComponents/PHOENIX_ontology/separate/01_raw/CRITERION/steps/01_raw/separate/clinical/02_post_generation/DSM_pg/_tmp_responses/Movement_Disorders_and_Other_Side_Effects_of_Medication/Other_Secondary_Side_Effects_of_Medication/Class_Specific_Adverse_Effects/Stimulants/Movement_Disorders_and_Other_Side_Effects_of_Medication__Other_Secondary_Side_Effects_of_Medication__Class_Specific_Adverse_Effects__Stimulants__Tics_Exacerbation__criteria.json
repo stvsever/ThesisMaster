@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "increased_tic_frequency"
+    },
+    {
+      "criterium": "increased_tic_severity"
+    },
+    {
+      "criterium": "appearance_of_new_tics"
+    },
+    {
+      "criterium": "multiregional_tic_distribution_increase"
+    },
+    {
+      "criterium": "emergence_of_complex_tics"
+    },
+    {
+      "criterium": "decreased_tic_suppressibility"
+    },
+    {
+      "criterium": "increased_premonitory_urge_intensity"
+    },
+    {
+      "criterium": "stimulant_related_tic_exacerbation"
+    },
+    {
+      "criterium": "stress_related_tic_exacerbation"
+    },
+    {
+      "criterium": "self_reported_tic_burden_increase"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

@@ -1,0 +1,64 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD1_expression",
+      "DRD2_expression",
+      "SLC6A3_expression",
+      "BDNF_rs6265_genotype",
+      "COMT_V158M_genotype",
+      "CACNA1C_expression",
+      "GRIN2B_expression",
+      "OPRM1_expression"
+    ],
+    "molecules": [
+      "Dopamine_level",
+      "Dopamine_D2_receptor_binding",
+      "BDNF_protein_level",
+      "Glutamate_concentration",
+      "GABA_concentration",
+      "NMDA_receptor_phosphorylation",
+      "AMPA_receptor_subunit_phosphorylation",
+      "Acetylcholine_level"
+    ],
+    "cells": [
+      "VTA_dopaminergic_neuron_firing_rate",
+      "NAc_MSN_D1_firing_rate",
+      "NAc_MSN_D2_firing_rate",
+      "PFC_pyramidal_neuron_firing_rate",
+      "Hippocampal_pyramidal_neuron_firing_rate"
+    ],
+    "circuits": [
+      "VTA_to_NAcc_dopaminergic_projection_strength",
+      "NAcc_to_PFC_connectivity_strength",
+      "PFC_to_VTA_connectivity_strength",
+      "VTA_to_PFC_dopaminergic_signal_timing",
+      "NAc_to_VTA_feedback_strength",
+      "vmPFC_value_update_network_activity"
+    ],
+    "physiology": [
+      "pupil_dilation_peak",
+      "SCR_amplitude",
+      "heart_rate_change",
+      "FRN_amplitude",
+      "P300_amplitude",
+      "cortisol_level"
+    ],
+    "behavior": [
+      "trial_by_trial_choice_accuracy",
+      "reaction_time_to_choice",
+      "win_stay_ratio",
+      "lose_shift_ratio",
+      "post_reward_adjustment_latency",
+      "decision_latency_mean",
+      "reward_discrimination_accuracy"
+    ],
+    "self_report": [
+      "expected_reward_rating",
+      "surprise_rating",
+      "confidence_in_prediction",
+      "reward_value_alignment_rating",
+      "prediction_error_sensitivity_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

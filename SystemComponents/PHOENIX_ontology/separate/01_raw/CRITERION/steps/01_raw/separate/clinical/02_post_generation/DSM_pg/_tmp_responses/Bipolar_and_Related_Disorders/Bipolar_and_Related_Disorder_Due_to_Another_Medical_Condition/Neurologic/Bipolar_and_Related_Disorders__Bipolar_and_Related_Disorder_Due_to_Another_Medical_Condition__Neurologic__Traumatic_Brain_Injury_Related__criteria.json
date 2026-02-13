@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "manic_symptoms_present"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "amotivation"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "processing_speed_slow"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "fatigue"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

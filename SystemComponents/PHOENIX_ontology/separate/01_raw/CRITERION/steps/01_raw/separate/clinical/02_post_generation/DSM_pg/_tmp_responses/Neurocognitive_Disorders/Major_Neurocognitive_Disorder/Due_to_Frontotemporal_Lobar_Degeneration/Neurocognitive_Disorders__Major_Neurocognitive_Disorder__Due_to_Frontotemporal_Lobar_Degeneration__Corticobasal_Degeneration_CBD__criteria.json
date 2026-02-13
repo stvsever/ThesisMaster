@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "alien_limb_syndrome"
+    },
+    {
+      "criterium": "limb_kinetic_apraxia"
+    },
+    {
+      "criterium": "ideomotor_apraxia"
+    },
+    {
+      "criterium": "cortical_sensory_deficit"
+    },
+    {
+      "criterium": "constructional_apraxia"
+    },
+    {
+      "criterium": "apraxic_gait"
+    },
+    {
+      "criterium": "asymmetric_bradykinesia"
+    },
+    {
+      "criterium": "asymmetric_rigidity"
+    },
+    {
+      "criterium": "dystonia"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "nonfluent_aphasia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.003
+}

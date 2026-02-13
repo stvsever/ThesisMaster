@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hyperreactivity"
+    },
+    {
+      "criterium": "anticipatory_anxiety_to_sound_exposure"
+    },
+    {
+      "criterium": "avoidance_of_noise_exposure"
+    },
+    {
+      "criterium": "startle_response_to_unexpected_sounds"
+    },
+    {
+      "criterium": "panic_like_autonomic_symptoms_to_sound_exposure"
+    },
+    {
+      "criterium": "tachycardia_to_sound_exposure"
+    },
+    {
+      "criterium": "sweating_to_sound_exposure"
+    },
+    {
+      "criterium": "ear_protection_utilization_in_noise_context"
+    },
+    {
+      "criterium": "self_reported_distress_to_sound"
+    },
+    {
+      "criterium": "functional_impairment_in_social_or_professional_domains_due_to_sound"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

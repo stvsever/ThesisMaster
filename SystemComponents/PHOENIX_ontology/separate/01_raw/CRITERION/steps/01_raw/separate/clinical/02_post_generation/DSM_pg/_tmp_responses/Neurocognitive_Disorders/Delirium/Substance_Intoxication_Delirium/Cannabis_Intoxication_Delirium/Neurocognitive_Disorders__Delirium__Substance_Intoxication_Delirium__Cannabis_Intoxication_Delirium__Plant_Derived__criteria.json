@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "altered_level_of_consciousness"
+    },
+    {
+      "criterium": "disorganized_thought_processes"
+    },
+    {
+      "criterium": "perceptual_disturbances"
+    },
+    {
+      "criterium": "disorientation_to_time_and_place"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "psychomotor_agitation_or_psychomotor_retardation"
+    },
+    {
+      "criterium": "rambling_speech"
+    },
+    {
+      "criterium": "tangential_speech"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "autonomic_instability"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

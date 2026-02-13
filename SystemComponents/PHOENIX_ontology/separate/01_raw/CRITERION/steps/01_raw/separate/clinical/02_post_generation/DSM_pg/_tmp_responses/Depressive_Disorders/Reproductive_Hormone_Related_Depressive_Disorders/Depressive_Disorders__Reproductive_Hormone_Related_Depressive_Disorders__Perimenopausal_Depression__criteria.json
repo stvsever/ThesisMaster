@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "appetite_change"
+    },
+    {
+      "criterium": "psychomotor_changes"
+    },
+    {
+      "criterium": "guilt_worthlessness"
+    },
+    {
+      "criterium": "suicidal_ideation"
+    },
+    {
+      "criterium": "hot_flashes"
+    }
+  ],
+  "estimated_prevalence_percent": 6.0
+}

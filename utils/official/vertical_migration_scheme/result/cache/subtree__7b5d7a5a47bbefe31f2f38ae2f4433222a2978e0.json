@@ -1,0 +1,21 @@
+{
+  "domain_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Injury_Risk_Reduction_and_Tissue_Integrity",
+  "domain_root_path": [
+    "BIO",
+    "Movement_Physical_Function_and_Somatic_Care",
+    "Injury_Risk_Reduction_and_Tissue_Integrity"
+  ],
+  "leaf_count": 14,
+  "total_edges_in_subtree": 17,
+  "evaluated_pairs": 17,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "7b5d7a5a47bbefe31f2f38ae2f4433222a2978e0",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 20.364
+}

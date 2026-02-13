@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inconsistent_movement_pattern"
+    },
+    {
+      "criterium": "distractible_movements"
+    },
+    {
+      "criterium": "entrainable_tremor"
+    },
+    {
+      "criterium": "non_anatomic_dystonia_posture"
+    },
+    {
+      "criterium": "variable_tremor_frequency"
+    },
+    {
+      "criterium": "variable_tremor_amplitude"
+    },
+    {
+      "criterium": "gait_inconsistency_across_tasks"
+    },
+    {
+      "criterium": "asymmetric_movements_without_neurological_distribution"
+    },
+    {
+      "criterium": "movements_suppressible_by_attention"
+    },
+    {
+      "criterium": "rapid_fluctuation_of_symptoms_at_examination"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "postprandial_ruq_pain_exacerbation"
+    },
+    {
+      "criterium": "pain_radiates_to_back_or_right_shoulder"
+    },
+    {
+      "criterium": "pain_described_as_pressure"
+    },
+    {
+      "criterium": "nausea_during_pain"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_pain"
+    },
+    {
+      "criterium": "pain_preoccupation_present"
+    },
+    {
+      "criterium": "catastrophizing_pain_present"
+    },
+    {
+      "criterium": "pain_avoidance_behaviors_present"
+    },
+    {
+      "criterium": "somatic_symptom_severity_elevated"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

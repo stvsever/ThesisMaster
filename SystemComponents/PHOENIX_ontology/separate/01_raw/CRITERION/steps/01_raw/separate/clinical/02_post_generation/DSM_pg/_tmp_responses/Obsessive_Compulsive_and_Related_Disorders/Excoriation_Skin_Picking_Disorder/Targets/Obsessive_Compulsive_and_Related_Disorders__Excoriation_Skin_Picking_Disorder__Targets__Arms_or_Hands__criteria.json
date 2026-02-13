@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "arm_forearm_excoriation_lesions_present"
+    },
+    {
+      "criterium": "hand_excoriation_lesions_present"
+    },
+    {
+      "criterium": "arm_forearm_linear_scratch_marks_present"
+    },
+    {
+      "criterium": "arm_forearm_punctate_excoriations_present"
+    },
+    {
+      "criterium": "arm_forearm_scars_present"
+    },
+    {
+      "criterium": "recurrent_arm_excoriation_behavior_observed"
+    },
+    {
+      "criterium": "urge_to_excoriation_arms_reported"
+    },
+    {
+      "criterium": "attempts_to_resist_arm_excoriation_observed"
+    },
+    {
+      "criterium": "arm_area_hyperpigmentation_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

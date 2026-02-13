@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "attention_sustained_deficit"
+    },
+    {
+      "criterium": "processing_speed_decline"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "derealization"
+    },
+    {
+      "criterium": "depersonalization"
+    },
+    {
+      "criterium": "perceptual_hallucinations"
+    },
+    {
+      "criterium": "confabulation"
+    },
+    {
+      "criterium": "disorientation_time"
+    },
+    {
+      "criterium": "disorientation_place"
+    },
+    {
+      "criterium": "disorientation_person"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

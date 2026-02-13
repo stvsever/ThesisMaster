@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "electric_shock_like_pain"
+    },
+    {
+      "criterium": "unilateral_facial_pain_distribution_in_trigeminal_territory"
+    },
+    {
+      "criterium": "pain_triggered_by_light_touch"
+    },
+    {
+      "criterium": "allodynia_to_facial_stimulation"
+    },
+    {
+      "criterium": "paresthesia_in_facial_region"
+    },
+    {
+      "criterium": "dysesthesia_in_facial_region"
+    },
+    {
+      "criterium": "hyperalgesia_to_pain_stimuli"
+    },
+    {
+      "criterium": "pain_involves_multiple_trigeminal_branches_V1_V2_V3"
+    },
+    {
+      "criterium": "no_facial_motor_deficit_on_examination"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "compulsive_cosmetic_procedure_seeking"
+    },
+    {
+      "criterium": "recurrent_surgeon_consultations_same_body_part"
+    },
+    {
+      "criterium": "repeated_procedure_planning_without_medical_indication"
+    },
+    {
+      "criterium": "cross_clinic_procedure_proposals_solicitation"
+    },
+    {
+      "criterium": "persistent_body_part_imperfection_focus_in_consultations"
+    },
+    {
+      "criterium": "dissatisfaction_with_procedural_outcomes_despite_multiple_procedures"
+    },
+    {
+      "criterium": "repeated_imaging_or_photography_assessments_of_body_part"
+    },
+    {
+      "criterium": "requests_for_procedure_funding_or_insurance_approval_without_body_change"
+    },
+    {
+      "criterium": "preoccupation_with_body_part_imperfection_in_social_context"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "somatic_symptom_presence"
+    },
+    {
+      "criterium": "somatic_symptom_persistence"
+    },
+    {
+      "criterium": "disproportionate_thoughts_about_symptom_seriousness"
+    },
+    {
+      "criterium": "health_anxiety_related_to_symptoms"
+    },
+    {
+      "criterium": "recurrent_healthcare_visits_for_symptoms"
+    },
+    {
+      "criterium": "reassurance_seeking_related_to_symptoms"
+    },
+    {
+      "criterium": "avoidance_of_social_or_occupational_activities_due_to_symptoms"
+    },
+    {
+      "criterium": "functional_impairment_due_to_symptoms"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_symptoms"
+    },
+    {
+      "criterium": "fatigue_or_exhaustion_related_to_symptoms"
+    },
+    {
+      "criterium": "symptom_worsening_with_stressor"
+    },
+    {
+      "criterium": "presence_of_multiple_somatic_systems_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

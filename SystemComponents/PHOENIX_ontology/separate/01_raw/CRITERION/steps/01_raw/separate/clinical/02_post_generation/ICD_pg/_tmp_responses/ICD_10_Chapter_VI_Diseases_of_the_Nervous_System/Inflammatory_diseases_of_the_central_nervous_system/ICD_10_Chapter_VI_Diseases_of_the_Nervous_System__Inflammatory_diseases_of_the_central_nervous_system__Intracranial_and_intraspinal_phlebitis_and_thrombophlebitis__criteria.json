@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "altered_mental_status"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "aphasia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "hemiparesis"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "sensory_deficit"
+    },
+    {
+      "criterium": "cranial_nerve_palsy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

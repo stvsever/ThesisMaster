@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excoriations_back_chest"
+    },
+    {
+      "criterium": "linear_scratches_back_chest"
+    },
+    {
+      "criterium": "crusts_back_chest_excoriations"
+    },
+    {
+      "criterium": "scars_back_chest_from_excoriations"
+    },
+    {
+      "criterium": "postinflammatory_hyperpigmentation_back_chest"
+    },
+    {
+      "criterium": "erythema_around_back_chest_excoriations"
+    },
+    {
+      "criterium": "lichenification_back_chest"
+    },
+    {
+      "criterium": "bleeding_back_chest_excoriations"
+    },
+    {
+      "criterium": "secondary_infection_signs_back_chest"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

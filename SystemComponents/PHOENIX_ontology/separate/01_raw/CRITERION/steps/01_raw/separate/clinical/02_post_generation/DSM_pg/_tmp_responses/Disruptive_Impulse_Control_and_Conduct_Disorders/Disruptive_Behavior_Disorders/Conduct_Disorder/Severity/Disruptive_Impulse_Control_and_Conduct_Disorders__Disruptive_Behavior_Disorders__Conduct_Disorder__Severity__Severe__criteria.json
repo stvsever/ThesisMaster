@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "physical_aggression_toward_people"
+    },
+    {
+      "criterium": "threats_of_violent_intimidation"
+    },
+    {
+      "criterium": "initiates_physical_fights"
+    },
+    {
+      "criterium": "weapon_use_to_harm_or_intimidate"
+    },
+    {
+      "criterium": "cruelty_to_animals"
+    },
+    {
+      "criterium": "destruction_of_property"
+    },
+    {
+      "criterium": "fire_setting_with_intent_to_destroy"
+    },
+    {
+      "criterium": "burglary_break_in"
+    },
+    {
+      "criterium": "theft_of_nontrivial_value"
+    },
+    {
+      "criterium": "deceit_for_material_gain"
+    },
+    {
+      "criterium": "lying_to_evade_obligations"
+    },
+    {
+      "criterium": "runs_away_from_home_overnight"
+    },
+    {
+      "criterium": "stays_out_past_parental_prohibitions"
+    },
+    {
+      "criterium": "truancy_from_school"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

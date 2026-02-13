@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_headache"
+    },
+    {
+      "criterium": "muscle_tension"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "abdominal_discomfort"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "chest_discomfort"
+    },
+    {
+      "criterium": "shortness_of_breath"
+    },
+    {
+      "criterium": "bodily_sensation_hypersensitivity"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "biting_frequency_per_day"
+    },
+    {
+      "criterium": "bite_duration_minutes_per_session"
+    },
+    {
+      "criterium": "bite_sites_count"
+    },
+    {
+      "criterium": "presence_of_skin_lesions_from_biting"
+    },
+    {
+      "criterium": "nocturnal_biting_occurrence"
+    },
+    {
+      "criterium": "pre_bite_urge_intensity"
+    },
+    {
+      "criterium": "post_bite_relief_intensity"
+    },
+    {
+      "criterium": "automatic_biting_behavior_present"
+    },
+    {
+      "criterium": "focused_biting_behavior_present"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

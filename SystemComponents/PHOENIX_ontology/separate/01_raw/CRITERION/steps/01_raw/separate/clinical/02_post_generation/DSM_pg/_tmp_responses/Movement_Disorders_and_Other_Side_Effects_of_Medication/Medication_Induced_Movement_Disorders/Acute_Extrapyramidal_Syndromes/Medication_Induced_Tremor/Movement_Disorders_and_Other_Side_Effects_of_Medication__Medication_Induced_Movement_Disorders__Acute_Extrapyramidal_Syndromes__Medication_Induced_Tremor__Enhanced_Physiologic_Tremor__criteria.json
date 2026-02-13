@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tremor_amplitude_distal_upper_limb_exaggerated"
+    },
+    {
+      "criterium": "tremor_present_at_rest_distal_upper_limbs"
+    },
+    {
+      "criterium": "tremor_postural_distal_upper_limbs_present"
+    },
+    {
+      "criterium": "tremor_kinetic_distal_upper_limbs_present"
+    },
+    {
+      "criterium": "tremor_frequency_approx_8_to_12_hz"
+    },
+    {
+      "criterium": "tremor_bilateral_symmetry_distal_limbs"
+    },
+    {
+      "criterium": "tremor_exacerbated_by_stress_caffeine_or_fatigue"
+    },
+    {
+      "criterium": "tremor_impairs_fine_motor_performance_handwriting_or_buttoning"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

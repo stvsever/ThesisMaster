@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "verbal_fluency_decline"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "anomia_present"
+    },
+    {
+      "criterium": "apathy_present"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    }
+  ],
+  "estimated_prevalence_percent": 0.003
+}

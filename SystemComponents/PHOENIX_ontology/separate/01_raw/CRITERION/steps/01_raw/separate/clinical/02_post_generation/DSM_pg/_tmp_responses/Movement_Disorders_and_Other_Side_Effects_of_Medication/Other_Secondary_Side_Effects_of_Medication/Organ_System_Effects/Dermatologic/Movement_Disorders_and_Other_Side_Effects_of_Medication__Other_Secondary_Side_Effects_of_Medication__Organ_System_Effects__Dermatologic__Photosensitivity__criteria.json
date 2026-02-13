@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "UV_Erythema_Sun_Exposed_Areas"
+    },
+    {
+      "criterium": "Phototoxic_Rash_To_Sun_Exposure"
+    },
+    {
+      "criterium": "Dermatitis_On_Sun_Exposed_Skin"
+    },
+    {
+      "criterium": "Pruritus_Sun_Exposure"
+    },
+    {
+      "criterium": "Blistering_On_Sun_Exposed_Skin"
+    },
+    {
+      "criterium": "Vesicular_Rash_On_Sun_Exposed_Sites"
+    },
+    {
+      "criterium": "Hyperpigmentation_On_Sun_Exposed_Sites"
+    },
+    {
+      "criterium": "Urticaria_After_Sun_Exposure"
+    },
+    {
+      "criterium": "Maculopapular_Rash_Sun_Exposed"
+    },
+    {
+      "criterium": "Ocular_Photophobia"
+    },
+    {
+      "criterium": "Conjunctival_Erythema_After_Light_Exposure"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

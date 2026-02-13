@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "amaurosis_fugax"
+    },
+    {
+      "criterium": "unilateral_hemiparesis"
+    },
+    {
+      "criterium": "facial_droop"
+    },
+    {
+      "criterium": "aphasia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "unilateral_sensory_loss"
+    },
+    {
+      "criterium": "paresthesias"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "central_vertigo"
+    },
+    {
+      "criterium": "hemineglect"
+    },
+    {
+      "criterium": "gaze_palsy"
+    },
+    {
+      "criterium": "acute_confusion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

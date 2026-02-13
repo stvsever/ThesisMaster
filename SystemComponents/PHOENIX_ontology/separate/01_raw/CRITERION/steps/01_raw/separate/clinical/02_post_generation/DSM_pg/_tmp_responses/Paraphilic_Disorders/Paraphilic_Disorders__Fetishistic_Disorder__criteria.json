@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "FOCUS_ON_NONLIVING_OBJECT_FOR_AROUSAL"
+    },
+    {
+      "criterium": "SPECIFIC_NONLIVING_OBJECT_EXCLUSIVITY"
+    },
+    {
+      "criterium": "BODY_PART_FOCUSED_AROUSAL"
+    },
+    {
+      "criterium": "RITUALISTIC_OBJECT_HANDLING_BEHAVIOR"
+    },
+    {
+      "criterium": "OBJECT_INTEGRATION_IN_SEXUAL_ACTIVITIES"
+    },
+    {
+      "criterium": "PREFERS_OBJECT_STIMULATION_OVER_PARTNER_STIMULATION"
+    },
+    {
+      "criterium": "RECURRENT_FANTASIES_INVOLVING_OBJECT_OR_BODY_PART"
+    },
+    {
+      "criterium": "COMPULSIVE_REPETITIVE_OBJECT_MANIPULATION"
+    },
+    {
+      "criterium": "DISTRESS_OR_IMPAIRMENT_DUE_TO_FETISH_PATTERNS"
+    },
+    {
+      "criterium": "OBJECT_BECOMES_NECESSARY_FOR_SEXUAL_GRATIFICATION"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

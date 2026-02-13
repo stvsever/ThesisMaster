@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "daytime_micturition_frequency_elevated"
+    },
+    {
+      "criterium": "nocturnal_micturition_absent"
+    },
+    {
+      "criterium": "daytime_urgency_present"
+    },
+    {
+      "criterium": "daytime_incontinence_absent"
+    },
+    {
+      "criterium": "urinalysis_no_infection_signs"
+    },
+    {
+      "criterium": "normal_bladder_capacity_within_age_range"
+    },
+    {
+      "criterium": "normal_urine_output_per_void"
+    },
+    {
+      "criterium": "normal_growth_and_development"
+    },
+    {
+      "criterium": "absent_fever_or_systemic_signs"
+    }
+  ],
+  "estimated_prevalence_percent": 1.8
+}

@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "feeling_nervous_or_on_edge"
+    },
+    {
+      "criterium": "pervasive_restlessness"
+    },
+    {
+      "criterium": "difficulty_concentrating_due_to_worry"
+    },
+    {
+      "criterium": "fear_of_something_bad_may_happen"
+    },
+    {
+      "criterium": "fear_of_losing_control"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_worry"
+    },
+    {
+      "criterium": "increased_autonomic_arousal"
+    },
+    {
+      "criterium": "pacing_or_fidgeting_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

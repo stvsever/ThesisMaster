@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "difficulty_initiating_sleep"
+    },
+    {
+      "criterium": "bedtime_resistance"
+    },
+    {
+      "criterium": "sleep_onset_association_dependency"
+    },
+    {
+      "criterium": "parental_presence_required_to_fall_asleep"
+    },
+    {
+      "criterium": "nocturnal_awakenings"
+    },
+    {
+      "criterium": "sleep_maintenance_impairment"
+    },
+    {
+      "criterium": "daytime_sleepiness"
+    },
+    {
+      "criterium": "daytime_irritability"
+    },
+    {
+      "criterium": "attention_concentration_deficits"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

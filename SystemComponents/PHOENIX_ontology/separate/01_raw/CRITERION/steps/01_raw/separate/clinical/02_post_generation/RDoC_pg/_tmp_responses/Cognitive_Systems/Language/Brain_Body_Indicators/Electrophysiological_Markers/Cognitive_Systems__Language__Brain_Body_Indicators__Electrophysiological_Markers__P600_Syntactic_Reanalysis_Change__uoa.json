@@ -1,0 +1,40 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "FOXP2",
+      "CNTNAP2",
+      "DCDC2",
+      "KIAA0319",
+      "GRIN2B",
+      "ROBO1"
+    ],
+    "molecules": [
+      "NMDA_receptor_activity",
+      "Glutamate_concentration",
+      "GABA_A_receptor_activity",
+      "Dopamine_D1_receptor_activity",
+      "Acetylcholine_level",
+      "BDNF_level"
+    ],
+    "cells": [
+      "pyramidal_neuron_density_left_IFG",
+      "pyramidal_neuron_density_left_pSTG",
+      "interneuron_density_left_language_areas",
+      "oligodendrocyte_density_left_language_areas"
+    ],
+    "circuits": [
+      "Left_inferior_frontal_gyrus_activation",
+      "Left_posterior_temporal_gyrus_activation",
+      "Left_temporo_parietal_junction_connectivity"
+    ],
+    "physiology": [
+      "P600_amplitude_microvolts",
+      "P600_latency_ms",
+      "P600_topography_center_parietal",
+      "P600_duration_ms"
+    ],
+    "behavior": null,
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 4.0
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "qtc_gt_450ms_male"
+    },
+    {
+      "criterium": "qtc_gt_470ms_female"
+    },
+    {
+      "criterium": "qtc_gt_500ms_any_gender"
+    },
+    {
+      "criterium": "qtc_delta_gt_60ms_from_baseline"
+    },
+    {
+      "criterium": "torsades_de_pointes_occurrence"
+    },
+    {
+      "criterium": "ventricular_tachyarrhythmia_event"
+    },
+    {
+      "criterium": "palpitations_present"
+    },
+    {
+      "criterium": "syncope_related_to_qtc_prolongation"
+    },
+    {
+      "criterium": "ecg_qtc_prolongation_confirmed"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

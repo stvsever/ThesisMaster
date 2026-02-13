@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_headache"
+    },
+    {
+      "criterium": "pulsating_pain_quality"
+    },
+    {
+      "criterium": "moderate_to_severe_pain_intensity"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "vomiting_present"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "phonophobia_present"
+    },
+    {
+      "criterium": "aggravation_by_physical_activity_present"
+    },
+    {
+      "criterium": "aura_present"
+    },
+    {
+      "criterium": "aura_visual_symptoms_present"
+    },
+    {
+      "criterium": "aura_sensory_symptoms_present"
+    },
+    {
+      "criterium": "lacrimation_present"
+    },
+    {
+      "criterium": "nasal_congestion_present"
+    }
+  ],
+  "estimated_prevalence_percent": 25.0
+}

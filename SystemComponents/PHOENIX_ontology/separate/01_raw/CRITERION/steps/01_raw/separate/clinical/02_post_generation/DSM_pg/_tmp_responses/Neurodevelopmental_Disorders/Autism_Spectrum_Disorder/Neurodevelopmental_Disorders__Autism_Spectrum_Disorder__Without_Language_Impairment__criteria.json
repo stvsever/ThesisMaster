@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SOCIAL_INTERACTION_DIFFICULTY"
+    },
+    {
+      "criterium": "NONVERBAL_COMMUNICATION_DIFFICULTY"
+    },
+    {
+      "criterium": "JOINT_ATTENTION_DIFFICULTY"
+    },
+    {
+      "criterium": "RESTRICTED_INTERESTS"
+    },
+    {
+      "criterium": "REPETITIVE_MOTOR_BEHAVIORS"
+    },
+    {
+      "criterium": "SENSORY_HYPERREACTIVITY"
+    },
+    {
+      "criterium": "SENSORY_HYPOREACTIVITY"
+    },
+    {
+      "criterium": "PREFERS_RIGID_ROUTINES"
+    },
+    {
+      "criterium": "PREFERS_SOLITARY_PLAY"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

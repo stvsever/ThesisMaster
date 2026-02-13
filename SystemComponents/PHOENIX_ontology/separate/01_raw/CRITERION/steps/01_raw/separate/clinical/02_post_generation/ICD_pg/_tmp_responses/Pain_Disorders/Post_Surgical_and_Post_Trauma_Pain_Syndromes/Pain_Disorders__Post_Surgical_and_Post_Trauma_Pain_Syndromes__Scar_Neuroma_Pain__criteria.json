@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "spontaneous_pain_localized_to_scar_region"
+    },
+    {
+      "criterium": "mechanical_allodynia_in_scar_region"
+    },
+    {
+      "criterium": "pinprick_hyperalgesia_in_scar_region"
+    },
+    {
+      "criterium": "paresthesias_in_scar_region"
+    },
+    {
+      "criterium": "dysesthesias_in_scar_region"
+    },
+    {
+      "criterium": "thermal_hyperalgesia_in_scar_region"
+    },
+    {
+      "criterium": "thermal_allodynia_in_scar_region"
+    },
+    {
+      "criterium": "palpable_neuroma_mass_at_scar_site"
+    },
+    {
+      "criterium": "tinel_sign_at_scar_site"
+    },
+    {
+      "criterium": "numbness_hypesthesia_in_scar_region"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_scar_pain"
+    },
+    {
+      "criterium": "functional_impairment_due_to_scar_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

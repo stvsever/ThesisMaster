@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "autonomic_hyperactivity"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "perceptual_disturbances"
+    },
+    {
+      "criterium": "seizure_occurrence"
+    },
+    {
+      "criterium": "seizure_history"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

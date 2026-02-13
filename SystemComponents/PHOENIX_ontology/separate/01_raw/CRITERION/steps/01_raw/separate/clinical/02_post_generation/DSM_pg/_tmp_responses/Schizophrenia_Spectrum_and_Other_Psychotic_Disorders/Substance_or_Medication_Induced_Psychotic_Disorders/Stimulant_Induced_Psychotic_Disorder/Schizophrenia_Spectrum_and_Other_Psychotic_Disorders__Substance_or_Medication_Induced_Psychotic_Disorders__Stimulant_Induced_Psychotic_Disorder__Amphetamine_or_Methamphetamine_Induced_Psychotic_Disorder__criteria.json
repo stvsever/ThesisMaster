@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "criterium": "TACTILE_HALLUCINATIONS_FORMICATION"
+    },
+    {
+      "criterium": "PARANOID_DELUSIONS"
+    },
+    {
+      "criterium": "PERSECUTORY_DELUSIONS"
+    },
+    {
+      "criterium": "GRANDIOSE_DELUSIONS"
+    },
+    {
+      "criterium": "REFERENTIAL_DELUSIONS"
+    },
+    {
+      "criterium": "DISORGANIZED_THOUGHT_PROCESS"
+    },
+    {
+      "criterium": "DISORGANIZED_SPEECH"
+    },
+    {
+      "criterium": "DISORGANIZED_BEHAVIOR"
+    },
+    {
+      "criterium": "PSYCHOMOTOR_AGITATION"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

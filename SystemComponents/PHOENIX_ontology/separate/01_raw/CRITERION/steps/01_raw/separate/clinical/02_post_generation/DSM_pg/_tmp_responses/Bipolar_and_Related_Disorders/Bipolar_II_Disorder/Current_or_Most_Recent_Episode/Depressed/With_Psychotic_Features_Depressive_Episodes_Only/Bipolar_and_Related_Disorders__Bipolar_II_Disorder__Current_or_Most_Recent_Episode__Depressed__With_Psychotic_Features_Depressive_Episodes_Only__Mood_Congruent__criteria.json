@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusions_of_guilt_or_sin"
+    },
+    {
+      "criterium": "delusions_of_punishment_or_damnation"
+    },
+    {
+      "criterium": "nihilistic_delusions"
+    },
+    {
+      "criterium": "delusions_of_persecution"
+    },
+    {
+      "criterium": "delusions_of_reference"
+    },
+    {
+      "criterium": "auditory_hallucinations_derogatory_voices"
+    },
+    {
+      "criterium": "visual_hallucinations_morbid_images"
+    },
+    {
+      "criterium": "depressed_mood_persistent"
+    },
+    {
+      "criterium": "anhedonia_persistent"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

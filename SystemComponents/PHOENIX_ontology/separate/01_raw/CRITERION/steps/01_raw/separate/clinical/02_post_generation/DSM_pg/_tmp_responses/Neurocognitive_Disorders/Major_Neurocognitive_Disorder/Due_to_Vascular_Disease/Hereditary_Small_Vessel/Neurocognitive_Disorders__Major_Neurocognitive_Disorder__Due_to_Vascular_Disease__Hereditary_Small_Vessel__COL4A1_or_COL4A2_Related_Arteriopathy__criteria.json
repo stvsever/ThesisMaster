@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ICH_HISTORY"
+    },
+    {
+      "criterium": "PORENCEPHALY_ON_MRI"
+    },
+    {
+      "criterium": "LACUNAR_INFARCTS_HISTORY"
+    },
+    {
+      "criterium": "WHITE_MATTER_HYPERINTENSITIES_T2FLAIR"
+    },
+    {
+      "criterium": "CEREBRAL_MICROBLEEDS_SWI"
+    },
+    {
+      "criterium": "SEIZURE_HISTORY"
+    },
+    {
+      "criterium": "GAIT_ABNORMALITY"
+    },
+    {
+      "criterium": "EXECUTIVE_FUNCTION_DEFICIT"
+    },
+    {
+      "criterium": "PERINATAL_INTRACEREBRAL_HEMORRHAGE"
+    },
+    {
+      "criterium": "COL4A1_COL4A2_MUTATION_DETECTED"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

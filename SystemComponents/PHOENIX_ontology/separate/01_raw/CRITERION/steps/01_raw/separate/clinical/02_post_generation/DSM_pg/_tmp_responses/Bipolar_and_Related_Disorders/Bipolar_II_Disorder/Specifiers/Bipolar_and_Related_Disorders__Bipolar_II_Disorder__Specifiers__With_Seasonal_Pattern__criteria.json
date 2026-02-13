@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "winter_depressed_mood_present"
+    },
+    {
+      "criterium": "winter_anhedonia_present"
+    },
+    {
+      "criterium": "winter_sleep_disturbance_present"
+    },
+    {
+      "criterium": "winter_fatigue_present"
+    },
+    {
+      "criterium": "winter_appetite_change_present"
+    },
+    {
+      "criterium": "spring_hypomanic_elevated_mood_present"
+    },
+    {
+      "criterium": "spring_hypomanic_racing_thoughts_present"
+    },
+    {
+      "criterium": "spring_hypomanic_goal_directed_activities_increase_present"
+    },
+    {
+      "criterium": "spring_sleep_need_decrease_present"
+    },
+    {
+      "criterium": "spring_impulsive_behavior_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

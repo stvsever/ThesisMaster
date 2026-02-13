@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_rs1800497_A1_allele",
+      "COMT_V158M",
+      "SLC6A3_VNTR_9R_allele",
+      "BDNF_p.V66M",
+      "MAOA_promoter_uVNTR"
+    ],
+    "molecules": [
+      "dopamine_concentration",
+      "dopamine_metabolite_HVA_concentration",
+      "BDNF_protein_level",
+      "tyrosine_hydroxylase_activity",
+      "DAT_density",
+      "NMDA_receptor_GluN1_density"
+    ],
+    "cells": [
+      "VTA_DA_neuron_firing_rate",
+      "ACC_pyramidal_neuron_firing_rate",
+      "DLPFC_pyramidal_neuron_firing_rate",
+      "Striatal_MSN_input_strength"
+    ],
+    "circuits": [
+      "ACC_VTA_connectivity",
+      "VTA_NAcc_connectivity",
+      "PFC_ACC_connectivity",
+      "FrontalMidline_theta_synchrony",
+      "Frontostriatal_loop_efficiency"
+    ],
+    "physiology": [
+      "ERP_FRN_amplitude",
+      "ERP_FRN_latency",
+      "theta_power_during_feedback",
+      "FRN_signal_to_noise_ratio"
+    ],
+    "behavior": [
+      "Reward_learning_accuracy",
+      "Reaction_time_to_outcome",
+      "Win_stay_probability",
+      "Loss_aversion_index",
+      "Outcome_based_choice_consistency"
+    ],
+    "self_report": [
+      "BAS_total_score",
+      "BAS_reward_responsiveness",
+      "BAS_drive",
+      "SHAPS_total_score",
+      "TEPS_anticipatory",
+      "TEPS_consumatory"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

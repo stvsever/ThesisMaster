@@ -1,0 +1,20 @@
+{
+  "domain_path": "SOCIAL / Digital_Social_Environment",
+  "domain_root_path": [
+    "SOCIAL",
+    "Digital_Social_Environment"
+  ],
+  "leaf_count": 19,
+  "total_edges_in_subtree": 23,
+  "evaluated_pairs": 23,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "c7c388ad1c4ad72399b40fdeddf2c03e92271b01",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 33.673
+}

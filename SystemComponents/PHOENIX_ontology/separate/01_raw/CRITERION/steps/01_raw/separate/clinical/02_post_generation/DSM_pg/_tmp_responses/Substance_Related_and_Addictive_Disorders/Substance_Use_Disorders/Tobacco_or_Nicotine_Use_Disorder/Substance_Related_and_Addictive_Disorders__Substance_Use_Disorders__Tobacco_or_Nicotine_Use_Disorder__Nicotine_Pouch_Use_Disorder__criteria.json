@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_persistent_during_abstinence"
+    },
+    {
+      "criterium": "loss_of_control_over_pouch_use"
+    },
+    {
+      "criterium": "tolerance_development_to_nicotine_pouch"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_pouch_abstinence"
+    },
+    {
+      "criterium": "time_spent_obtaining_pouches"
+    },
+    {
+      "criterium": "time_spent_using_pouches"
+    },
+    {
+      "criterium": "time_spent_recovering_from_pouch_use_effects"
+    },
+    {
+      "criterium": "use_in_social_or_occupational_impairment_due_to_pouch_use"
+    },
+    {
+      "criterium": "continued_pouch_use_despite_health_consequences"
+    },
+    {
+      "criterium": "unsuccessful_attempts_to_cut_down_on_pouch_use"
+    },
+    {
+      "criterium": "use_in_hazardous_settings"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

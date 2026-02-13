@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_food_ingestion_during_partial_arousal"
+    },
+    {
+      "criterium": "amnesia_for_eating_episodes"
+    },
+    {
+      "criterium": "in_bed_food_consumption_during_sleep"
+    },
+    {
+      "criterium": "recurrent_nighttime_eating_episodes"
+    },
+    {
+      "criterium": "preference_for_palatable_foods_during_sleep_eating"
+    },
+    {
+      "criterium": "sleep_walking_during_eating_episodes"
+    },
+    {
+      "criterium": "food_remnants_found_in_bed_after_episodes"
+    },
+    {
+      "criterium": "aspiration_or_safety_risk_during_episodes"
+    },
+    {
+      "criterium": "weight_change_potential_associated_with_night_eating"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

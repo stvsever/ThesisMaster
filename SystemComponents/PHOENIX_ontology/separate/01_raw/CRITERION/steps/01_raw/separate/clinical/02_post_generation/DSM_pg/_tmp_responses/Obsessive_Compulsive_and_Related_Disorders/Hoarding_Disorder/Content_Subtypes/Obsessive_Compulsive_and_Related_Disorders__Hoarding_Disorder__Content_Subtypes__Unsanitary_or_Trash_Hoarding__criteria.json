@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_trash_bag_accumulation_in_living_spaces"
+    },
+    {
+      "criterium": "decaying_food_waste_piles_present"
+    },
+    {
+      "criterium": "unwashed_dishes_stacked_in_kitchen_area"
+    },
+    {
+      "criterium": "garbage_containers_overflowing_or_leaking"
+    },
+    {
+      "criterium": "foul_odor_emitted_from_hoarded_items"
+    },
+    {
+      "criterium": "surface_grease_or_soil_from_hoarded_trash"
+    },
+    {
+      "criterium": "clutter_significantly_impedes_pathways"
+    },
+    {
+      "criterium": "pest_presence_in_hoarded_spaces"
+    },
+    {
+      "criterium": "standing_water_or_moisture_from_rotting_waste"
+    },
+    {
+      "criterium": "mold_growth_in_hoarded_area"
+    },
+    {
+      "criterium": "storage_of_contaminated_food_packaging_in_hoarded_items"
+    },
+    {
+      "criterium": "trash_items_encroaching_bedroom_area"
+    }
+  ],
+  "estimated_prevalence_percent": 2.8
+}

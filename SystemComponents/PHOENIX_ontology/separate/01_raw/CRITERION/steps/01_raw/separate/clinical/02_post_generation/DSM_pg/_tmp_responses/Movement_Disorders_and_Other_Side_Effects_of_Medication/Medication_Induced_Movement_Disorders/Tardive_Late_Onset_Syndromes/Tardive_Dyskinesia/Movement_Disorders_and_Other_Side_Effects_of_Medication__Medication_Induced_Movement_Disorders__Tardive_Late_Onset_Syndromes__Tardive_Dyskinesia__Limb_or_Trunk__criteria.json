@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "limb_chorea"
+    },
+    {
+      "criterium": "axial_chorea"
+    },
+    {
+      "criterium": "limb_athetosis"
+    },
+    {
+      "criterium": "proximal_limb_dystonia"
+    },
+    {
+      "criterium": "distal_limb_dystonia"
+    },
+    {
+      "criterium": "truncal_dystonia"
+    },
+    {
+      "criterium": "proximal_limb_posturing"
+    },
+    {
+      "criterium": "distal_limb_posturing"
+    },
+    {
+      "criterium": "pelvic_thrusting_movements"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

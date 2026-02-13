@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_Variant",
+      "DRD2_rs1800497_Variant",
+      "COMT_rs4680_Variant",
+      "CAMK2A_Gene_Variant"
+    ],
+    "molecules": [
+      "BDNF_protein_level",
+      "NR2B_NMDAR_Subunit_Protein",
+      "CaMKII_Activity",
+      "Dopamine_D2_Receptor_density",
+      "GABA_A_Receptor_GABRA1_Level"
+    ],
+    "cells": [
+      "Purkinje_Cell_Firing_Rate",
+      "Cerebellar_Granule_Cell_Firing_Rate",
+      "Cerebellar_Nuclear_Neuron_Activity",
+      "Interneuron_Somatostatin_Positive_Synaptic_Strength"
+    ],
+    "circuits": [
+      "Cerebellar_Cortex_to_Vestibular_Nuclei_Loop",
+      "Cerebellar_Nuclei_to_Motor_Cortex_Loop",
+      "Cerebellar_Thalamo_Cortical_Pathway",
+      "Pontocerebellar_Mossy_Fiber_Loop"
+    ],
+    "physiology": [
+      "Aftereffect_Magnitude",
+      "Aftereffect_Decay_Rate",
+      "Washout_Response_Time",
+      "Movement_Timing_Variability"
+    ],
+    "behavior": [
+      "Reach_Aftereffect_Magnitude",
+      "Reach_Aftereffect_Direction",
+      "Saccade_Aftereffect_Angle_Shift",
+      "Gait_Aftereffect_Stability_Index",
+      "Grip_Force_Aftereffect_Consistency"
+    ],
+    "self_report": [
+      "Proprioceptive_Discrepancy_Awareness",
+      "Coordination_Difficulty_Intensity",
+      "Task_Effort_During_Aftereffect",
+      "Sensorimotor_Instability_Perception"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

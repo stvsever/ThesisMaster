@@ -1,0 +1,53 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_Taq1A_A1",
+      "DRD4_VNTR_7R",
+      "BDNF_V66M_genotype",
+      "COMT_V158M_genotype",
+      "SLC6A3_DAT1_3pUTR_9R"
+    ],
+    "molecules": [
+      "Dopamine_striatal_concentration",
+      "D2_receptor_availability_PET",
+      "BDNF_protein_plasma_levels",
+      "DAT_transporter_availability_PET",
+      "GluA1_phosphorylation_level"
+    ],
+    "cells": [
+      "striatal_MSN_spiking_rate",
+      "D1_MSN_density",
+      "D2_MSN_density",
+      "corticostriatal_interneuron_density"
+    ],
+    "circuits": [
+      "dorsolateral_striatum_corticostriatal_activation",
+      "nucleus_accumbens_reward_circuit_activation",
+      "prefrontal_cortex_inhibitory_control_network_synchrony",
+      "orbitofrontal_striatum_feedback_loop",
+      "ventromedial_prefrontal_to_striatum_connectivity_strength"
+    ],
+    "physiology": [
+      "skin_conductance_response_to_habit_cues",
+      "heart_rate_variability_during_habit_cues",
+      "pupil_dilation_to_habit_stimuli",
+      "EEG_beta_power_during_habit_execution",
+      "respiratory_rate_change_to_habit_cues"
+    ],
+    "behavior": [
+      "habit_strength_score",
+      "cue_triggered_response_frequency",
+      "automatic_action_frequency_in_tasks",
+      "response_latency_to_habit_trigger",
+      "error_rate_in_habit_tasks"
+    ],
+    "self_report": [
+      "Automaticity_scale_total_score",
+      "Habit_strength_questionnaire_total",
+      "Cue_responsivity_self_report",
+      "Routine_dependence_self_report",
+      "Awareness_of_habit_execution_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 8.5
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_onset_difficulty"
+    },
+    {
+      "criterium": "sleep_maintenance_difficulty"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "nonrestorative_sleep"
+    },
+    {
+      "criterium": "daytime_fatigue"
+    },
+    {
+      "criterium": "generalized_anxiety"
+    },
+    {
+      "criterium": "panic_symptoms"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "muscle_tension"
+    }
+  ],
+  "estimated_prevalence_percent": 9.0
+}

@@ -1,0 +1,60 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DBH",
+      "SLC6A2",
+      "ADRA2A",
+      "ADRA1A",
+      "ADRB2",
+      "CYP2D6"
+    ],
+    "molecules": [
+      "norepinephrine",
+      "epinephrine",
+      "cortisol",
+      "acetylcholine",
+      "dopamine",
+      "neuropeptide_Y"
+    ],
+    "cells": [
+      "locus_coeruleus_neurons",
+      "sympathetic_postganglionic_neurons",
+      "iris_dilator_muscle_cells",
+      "iris_sphincter_muscle_cells"
+    ],
+    "circuits": [
+      "locus_coeruleus_to_prefrontal_cortex_connectivity",
+      "locus_coeruleus_to_parietal_network_connectivity",
+      "autonomic_brainstem_circuit",
+      "pupil_control_circuit",
+      "frontoparietal_attention_network",
+      "limbic_attention_modulation_circuit"
+    ],
+    "physiology": [
+      "pupil_diameter_mm",
+      "pupil_dilation_amplitude_mm",
+      "pupil_dilation_latency_ms",
+      "baseline_pupil_diameter_mm",
+      "pupil_constriction_speed_mm_per_s",
+      "skin_conductance_micro_siemens",
+      "heart_rate_bpm",
+      "respiratory_rate_bpm"
+    ],
+    "behavior": [
+      "reaction_time_ms",
+      "target_detection_accuracy_percent",
+      "hit_rate_percent",
+      "omissions_percent",
+      "saccade_latency_ms",
+      "blink_rate_per_min"
+    ],
+    "self_report": [
+      "state_arousal_rating",
+      "attention_focus_rating",
+      "perceived_task_difficulty",
+      "mental_effort_rating",
+      "task_fatigue_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

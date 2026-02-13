@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood_present"
+    },
+    {
+      "criterium": "anhedonia_present"
+    },
+    {
+      "criterium": "guilt_worthlessness_present"
+    },
+    {
+      "criterium": "delusions_present"
+    },
+    {
+      "criterium": "auditory_hallucinations_present"
+    },
+    {
+      "criterium": "disorganized_speech_present"
+    },
+    {
+      "criterium": "psychomotor_disturbance_present"
+    },
+    {
+      "criterium": "suicidal_ideation_present"
+    },
+    {
+      "criterium": "insomnia_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

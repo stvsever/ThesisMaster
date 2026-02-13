@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "increased_sleep_latency"
+    },
+    {
+      "criterium": "reduced_sleep_efficiency"
+    },
+    {
+      "criterium": "sleep_fragmentation"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "reduced_total_sleep_time"
+    },
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "nocturnal_alcohol_related_awakenings"
+    },
+    {
+      "criterium": "REM_latency_increase"
+    },
+    {
+      "criterium": "nocturnal_movement_or_restlessness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

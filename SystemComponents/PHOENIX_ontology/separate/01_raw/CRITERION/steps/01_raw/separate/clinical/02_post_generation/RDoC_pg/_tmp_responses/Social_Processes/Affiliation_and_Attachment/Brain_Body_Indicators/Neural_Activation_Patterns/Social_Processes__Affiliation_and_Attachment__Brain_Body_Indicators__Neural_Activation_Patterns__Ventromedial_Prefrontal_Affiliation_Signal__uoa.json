@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_rs53576",
+      "OXTR_rs2254298",
+      "AVPR1A_rs3",
+      "DRD2_Taq1A",
+      "BDNF_rs6265"
+    ],
+    "molecules": [
+      "OXT",
+      "AVP",
+      "DA",
+      "BDNF"
+    ],
+    "cells": [
+      "vmPFC_pyramidal_neurons",
+      "vmPFC_GABAergic_interneurons",
+      "astrocytes_vmPFC"
+    ],
+    "circuits": [
+      "functional_connectivity_vmPFC_amygdala",
+      "functional_connectivity_vmPFC_nucleus_accumbens",
+      "functional_connectivity_vmPFC_dorsolateral_prefrontal_cortex",
+      "functional_connectivity_vmPFC_posterior_cingulate"
+    ],
+    "physiology": [
+      "HRV_rmssd",
+      "GSR_sweat_response",
+      "pupil_dilation",
+      "salivary_cortisol"
+    ],
+    "behavior": [
+      "trust_game_acceptance_rate",
+      "cooperative_choice_rate",
+      "social_gazing_duration",
+      "smiling_frequency"
+    ],
+    "self_report": [
+      "trust_sensitivity_scale",
+      "affiliation_satisfaction_scale",
+      "social_bonding_score",
+      "perceived_social_support_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 3.5
+}

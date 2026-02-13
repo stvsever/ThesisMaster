@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "subthreshold_delusional_belief_present"
+    },
+    {
+      "criterium": "delusional_belief_conviction_moderate"
+    },
+    {
+      "criterium": "ideas_of_reference_subthreshold_present"
+    },
+    {
+      "criterium": "external_agent_attribution_subthreshold"
+    },
+    {
+      "criterium": "unusual_thought_content_subthreshold_present"
+    },
+    {
+      "criterium": "reality_testing_behaviors_present"
+    },
+    {
+      "criterium": "resistance_to_counterevidence_present"
+    },
+    {
+      "criterium": "distress_in_response_to_belief_present"
+    },
+    {
+      "criterium": "fluctuation_in_belief_intensity_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

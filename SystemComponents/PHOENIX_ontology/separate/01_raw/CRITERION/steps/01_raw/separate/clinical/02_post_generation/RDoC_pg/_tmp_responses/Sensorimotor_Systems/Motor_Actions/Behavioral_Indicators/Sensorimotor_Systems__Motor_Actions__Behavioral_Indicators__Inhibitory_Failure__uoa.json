@@ -1,0 +1,59 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_V158M_genotype",
+      "DRD2_Taq1A_allele",
+      "BDNF_V66M_genotype",
+      "DRD4_VNTR_allele_7R",
+      "SNAP25_rs3745554_allele",
+      "MAOA_uVNTR_allele"
+    ],
+    "molecules": [
+      "dopamine_concentration_in_PFC",
+      "GABA_A_receptor_availability_in_motor_cortex",
+      "glutamate_concentration_in_prefrontal_cortex",
+      "BDNF_plasma_level",
+      "norepinephrine_tone_in_prefrontal_cortex",
+      "acetylcholine_release_in_SMA"
+    ],
+    "cells": [
+      "parvalbumin_interneuron_density_in_dlpfc",
+      "pyramidal_neuron_density_in_primary_motor_cortex",
+      "medium_spiny_neuron_density_in_putamen",
+      "gabaergic_interneuron_density_in_premotor_cortex",
+      "astrocyte_density_in_dlpfc",
+      "oligodendrocyte_density_in_sma"
+    ],
+    "circuits": [
+      "fronto_striatal_connectivity",
+      "preSMA_inhibitory_network_integrity",
+      "basal_ganglia_thalamo_cortical_loop_efficiency",
+      "dorsal_control_network_inhibition_coherence",
+      "motor_cortex_SMA_network_connectivity",
+      "prefrontal_motor_cortex_connectivity"
+    ],
+    "physiology": [
+      "heart_rate_variability_during_inhibition",
+      "pupil_dilation_amplitude_during_inhibition",
+      "eeg_beta_band_power_during_inhibition",
+      "skin_conductance_response_during_inhibition",
+      "respiration_rate_variability_during_inhibition"
+    ],
+    "behavior": [
+      "commission_error_rate",
+      "mean_go_trial_reaction_time_ms",
+      "mean_stop_signal_reaction_time_ms",
+      "stop_signal_accuracy_percent",
+      "premature_response_rate",
+      "perseverative_error_count"
+    ],
+    "self_report": [
+      "BIS11_total_score",
+      "UPPS_P_impulsivity_score",
+      "inhibitory_control_questionnaire_score",
+      "impulsivity_scale_score",
+      "self_report_inhibitory_control_difficulty"
+    ]
+  },
+  "estimated_prevalence_percent": 3.8
+}

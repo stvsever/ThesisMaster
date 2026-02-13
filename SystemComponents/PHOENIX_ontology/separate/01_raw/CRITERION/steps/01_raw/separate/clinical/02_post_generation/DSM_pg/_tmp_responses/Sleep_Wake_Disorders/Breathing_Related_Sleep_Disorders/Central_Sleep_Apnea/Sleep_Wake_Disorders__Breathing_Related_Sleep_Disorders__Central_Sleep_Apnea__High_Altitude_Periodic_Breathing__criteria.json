@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "periodic_breathing_during_sleep"
+    },
+    {
+      "criterium": "central_apnea_events_during_sleep"
+    },
+    {
+      "criterium": "absent_respiratory_effort_during_apneas"
+    },
+    {
+      "criterium": "nocturnal_spO2_desaturation_events"
+    },
+    {
+      "criterium": "sleep_arousals_coincident_with_breathing_events"
+    },
+    {
+      "criterium": "crescendo_decrescendo_breathing_cycles"
+    },
+    {
+      "criterium": "increased_respiratory_rate_variability_during_sleep"
+    },
+    {
+      "criterium": "daytime_fatigue_or_sleepiness_reported"
+    },
+    {
+      "criterium": "reduced_sleep_efficiency_due_to_breathing_disruptions"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

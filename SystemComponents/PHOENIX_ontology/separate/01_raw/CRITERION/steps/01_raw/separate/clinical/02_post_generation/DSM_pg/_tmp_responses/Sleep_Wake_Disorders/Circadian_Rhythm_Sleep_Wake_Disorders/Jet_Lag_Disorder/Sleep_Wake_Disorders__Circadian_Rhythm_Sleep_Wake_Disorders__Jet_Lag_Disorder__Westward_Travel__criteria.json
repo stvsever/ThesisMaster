@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_onset_latency_increase_westward_travel"
+    },
+    {
+      "criterium": "sleep_maintenance_disturbance_westward_travel"
+    },
+    {
+      "criterium": "total_sleep_time_reduction_westward_travel"
+    },
+    {
+      "criterium": "daytime_sleepiness_westward_travel"
+    },
+    {
+      "criterium": "fatigue_westward_travel"
+    },
+    {
+      "criterium": "cognitive_performance_decline_westward_travel"
+    },
+    {
+      "criterium": "mood_instability_westward_travel"
+    },
+    {
+      "criterium": "headache_westward_travel"
+    },
+    {
+      "criterium": "nausea_westward_travel"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

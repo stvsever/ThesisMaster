@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fluctuating_awareness"
+    },
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "disorganized_thought"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "psychomotor_disturbance"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "tremor_present"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "peripheral_neuropathy_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

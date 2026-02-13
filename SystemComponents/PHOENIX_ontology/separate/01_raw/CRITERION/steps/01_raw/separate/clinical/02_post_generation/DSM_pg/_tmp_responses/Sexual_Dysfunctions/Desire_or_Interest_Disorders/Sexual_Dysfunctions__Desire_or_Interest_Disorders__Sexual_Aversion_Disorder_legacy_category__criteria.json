@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "MARKED_AVERSION_TO_SEXUAL_INTERACTION"
+    },
+    {
+      "criterium": "AVERSION_TO_PENETRATIVE_SEX"
+    },
+    {
+      "criterium": "DISGUST_OR_REVULSION_DURING_SEXUAL_CUES"
+    },
+    {
+      "criterium": "ANTICIPATORY_ANXIETY_BEFORE_SEXUAL_PROPOSAL"
+    },
+    {
+      "criterium": "DISTRESS_UPON_SEXUAL_PROPOSAL_OR_INITIATION"
+    },
+    {
+      "criterium": "AVERSION_TO_SEXUAL_SITUATIONS_ACROSS_PARTNER_CONTEXTS"
+    },
+    {
+      "criterium": "IMPAIRMENT_IN_INTIMATE_RELATIONSHIPS_DUE_TO_SEX_AVERSION"
+    },
+    {
+      "criterium": "REDUCED_SEXUAL_ACTIVITY_ATTEMPTS_IN_PARTNERSHIPS"
+    },
+    {
+      "criterium": "PERSISTENT_AVERSION_TO_SEXUAL_SCENARIOS"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,35 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "GRIN2A_rs755337",
+      "GRIN2A_rs10199941",
+      "COMT_rs4680",
+      "CACNA1C_rs1006737",
+      "BDNF_rs6265",
+      "NRG1_rs6994991"
+    ],
+    "molecules": [
+      "BDNF_protein_concentration",
+      "NMDA_receptor_GluN1_subunit_expression",
+      "GABA_A_receptor_GABRA1_subunit_density",
+      "Dopamine_D2_receptor_density",
+      "Glutamate_release_probability"
+    ],
+    "cells": null,
+    "circuits": [
+      "A1_to_PFC_connectivity_strength",
+      "STG_to_IFG_connectivity_strength",
+      "Auditory_Thalamocortical_Loop_connectivity_strength",
+      "STG_to_dLPFC_connectivity_strength"
+    ],
+    "physiology": [
+      "MMN_amplitude_microvolts",
+      "MMN_latency_ms",
+      "MMN_peak_amplitude_microvolts",
+      "MMN_snr"
+    ],
+    "behavior": null,
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 3.4
+}

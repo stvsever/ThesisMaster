@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "respiratory_rate_below_8_bpm"
+    },
+    {
+      "criterium": "tidal_volume_reduction"
+    },
+    {
+      "criterium": "hypoxemia_spO2_lt_92_percent_room_air"
+    },
+    {
+      "criterium": "hypercapnia_paCO2_elevated"
+    },
+    {
+      "criterium": "depressed_level_of_consciousness"
+    },
+    {
+      "criterium": "decreased_responsiveness_to_verbal_stimuli"
+    },
+    {
+      "criterium": "miosis"
+    },
+    {
+      "criterium": "cyanosis"
+    },
+    {
+      "criterium": "use_of_accessory_muscles_of_breathing"
+    },
+    {
+      "criterium": "decreased_cough_reflex"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

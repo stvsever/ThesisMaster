@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "PER3_VNTR_5_4",
+      "CLOCK_rs1801260",
+      "BHLHE41_DEC2_P385R",
+      "HCRTR2_rs2653349",
+      "CRY1_rs2287161",
+      "CRY2_rs2305140"
+    ],
+    "molecules": [
+      "orexin_A_concentration",
+      "orexin_B_concentration",
+      "adenosine_concentration",
+      "glutamate_concentration",
+      "GABA_A_receptor_availability",
+      "norepinephrine_concentration"
+    ],
+    "cells": [
+      "orexin_neuron_density",
+      "hypocretin_neuron_count",
+      "locus_coeruleus_norepinephrine_neuron_density",
+      "tuberomammillary_nucleus_histaminergic_neuron_density"
+    ],
+    "circuits": [
+      "orexin_TM_Neuron_firing_rate",
+      "locus_coeruleus_norepinephrine_release",
+      "SCN_pacemaker_circuit_activity"
+    ],
+    "physiology": [
+      "MSLT_mean_sleep_latency_minutes",
+      "MSLT_REM_latency_minutes"
+    ],
+    "behavior": [
+      "PVT_mean_reaction_time_ms",
+      "PVT_lapse_count",
+      "daily_nap_count",
+      "daily_nap_duration_minutes"
+    ],
+    "self_report": [
+      "Epworth_sleepiness_scale_score",
+      "Karolinska_sleepiness_scale_score",
+      "Stanford_sleepiness_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 9.5
+}

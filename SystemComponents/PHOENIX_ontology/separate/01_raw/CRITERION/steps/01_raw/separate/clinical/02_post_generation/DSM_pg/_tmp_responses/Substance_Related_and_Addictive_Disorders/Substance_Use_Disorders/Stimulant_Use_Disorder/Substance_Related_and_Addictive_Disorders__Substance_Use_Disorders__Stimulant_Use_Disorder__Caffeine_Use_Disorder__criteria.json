@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tolerance_to_caffeine_effect"
+    },
+    {
+      "criterium": "craving_for_caffeine"
+    },
+    {
+      "criterium": "caffeine_withdrawal_symptoms_on_cessation"
+    },
+    {
+      "criterium": "increasing_daily_caffeine_intake_over_time"
+    },
+    {
+      "criterium": "unsuccessful_efforts_to_cut_down_on_caffeine_use"
+    },
+    {
+      "criterium": "continued_caffeine_use_despite_adverse_effects"
+    },
+    {
+      "criterium": "significant_time_spent_taking_obtaining_using_or_recovering_from_caffeine"
+    },
+    {
+      "criterium": "caffeine_related_social_or_occupational_impairment"
+    },
+    {
+      "criterium": "caffeine_use_in_hazardous_settings"
+    },
+    {
+      "criterium": "use_of_caffeine_to_relieve_withdrawal_symptoms"
+    },
+    {
+      "criterium": "caffeine_induced_sleep_disturbance"
+    },
+    {
+      "criterium": "caffeine_induced_anxiety_or_psychological_distress"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

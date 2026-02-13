@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_mRNA_expression_putamen",
+      "DRD1_mRNA_expression_putamen",
+      "DAT_mRNA_expression_caudate",
+      "COMT_rs4680_genotype",
+      "BDNF_mRNA_expression_striatum",
+      "SNAP25_mRNA_expression_caudate"
+    ],
+    "molecules": [
+      "Dopamine_concentration_dorsal_striatum",
+      "Glutamate_concentration_dorsolateral_striatum",
+      "BDNF_protein_level_putamen",
+      "GABA_A_receptor_protein_level_caudate",
+      "Endocannabinoid_anandamide_level_nucleus_accumbens",
+      "Dopamine_D2_receptor_protein_level_putamen"
+    ],
+    "cells": [
+      "Medium_spiny_neuron_density_putamen",
+      "GABAergic_interneuron_density_caudate",
+      "Astrocyte_density_putamen",
+      "Cholinergic_interneuron_density_putamen",
+      "Oligodendrocyte_density_dorsolateral_striatum"
+    ],
+    "circuits": [
+      "Dorsolateral_striatum_premotor_cortex_connectivity",
+      "Ventral_striatum_prefrontal_connectivity",
+      "Dorsolateral_striatum_basal_ganglia_connectivity",
+      "Cortico_striatal_synchronization_index",
+      "Anterior_cingulate_striatal_pathway_activity"
+    ],
+    "physiology": [
+      "Heart_rate_response_to_outcome_devaluation",
+      "Skin_conductance_response_habit_task",
+      "Pupillary_dilation_to_reward_outcome",
+      "Heart_rate_variability_during_devaluation",
+      "Cortisol_reactivity_to_reward_processing"
+    ],
+    "behavior": [
+      "outcome_devaluation_response_rate",
+      "habit_preference_index",
+      "lever_press_rate_controlled_by_value",
+      "perseveration_rate_in_devaluation_task",
+      "response_persistence_in_outcome_devaluation"
+    ],
+    "self_report": [
+      "Habit_strength_scale",
+      "Outcome_value_sensitivity_scale",
+      "Automaticity_subscale_score",
+      "Behavioral_inflexibility_questionnaire",
+      "Compulsivity_habit_index"
+    ]
+  },
+  "estimated_prevalence_percent": 3.5
+}

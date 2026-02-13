@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "reduced_level_of_consciousness"
+    },
+    {
+      "criterium": "disorientation_time"
+    },
+    {
+      "criterium": "disorientation_place"
+    },
+    {
+      "criterium": "disorientation_person"
+    },
+    {
+      "criterium": "impaired_attention"
+    },
+    {
+      "criterium": "memory_impairment_short_term"
+    },
+    {
+      "criterium": "disorganized_thought_process"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "mutism_or_minimal_verbal_response"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

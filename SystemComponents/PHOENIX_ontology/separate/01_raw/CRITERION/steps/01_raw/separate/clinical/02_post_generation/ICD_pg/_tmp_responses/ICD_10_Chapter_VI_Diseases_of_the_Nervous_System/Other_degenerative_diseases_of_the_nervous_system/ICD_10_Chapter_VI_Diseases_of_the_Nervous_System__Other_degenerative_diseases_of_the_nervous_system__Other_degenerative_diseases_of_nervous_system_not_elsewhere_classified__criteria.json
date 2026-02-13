@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bradyphrenia"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "apraxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "parkinsonian_rigidity"
+    },
+    {
+      "criterium": "resting_tremor"
+    },
+    {
+      "criterium": "postural_instability"
+    },
+    {
+      "criterium": "dysphagia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

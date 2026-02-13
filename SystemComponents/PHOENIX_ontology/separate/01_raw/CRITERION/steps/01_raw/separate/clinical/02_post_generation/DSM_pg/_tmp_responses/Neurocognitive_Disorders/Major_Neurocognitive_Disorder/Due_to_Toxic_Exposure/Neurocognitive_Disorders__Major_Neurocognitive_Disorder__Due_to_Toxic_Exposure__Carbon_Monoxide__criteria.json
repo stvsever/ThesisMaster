@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "attentional_deficit"
+    },
+    {
+      "criterium": "processing_speed_decline"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "language_naming_difficulty"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "mood_disturbance"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

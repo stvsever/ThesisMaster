@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_mRNA_expression_level",
+      "BDNF_protein_level",
+      "GRIN2A_mRNA_expression_level",
+      "GRIN2A_protein_level",
+      "CACNA1C_mRNA_expression_level",
+      "CACNA1C_protein_level"
+    ],
+    "molecules": [
+      "glutamate_concentration_V1",
+      "GABA_concentration_V1",
+      "acetylcholine_concentration_visual_cortex",
+      "NMDA_receptor_activity_visual_cortex",
+      "AMPA_receptor_activity_visual_cortex"
+    ],
+    "cells": null,
+    "circuits": [
+      "V1_thalamocortical_connectivity_strength",
+      "LGN_V1_synchrony_index",
+      "V1_V2_connectivity_strength",
+      "dorsal_visual_attention_network_efficiency"
+    ],
+    "physiology": [
+      "contrast_sensitivity_index",
+      "ERP_P100_latency_at_threshold",
+      "ERP_P100_amplitude_at_threshold",
+      "fMRI_BOLD_signal_at_threshold",
+      "retinal_ERG_amplitude_at_threshold"
+    ],
+    "behavior": [
+      "hit_rate_at_threshold_stimulus",
+      "reaction_time_at_threshold_stimulus",
+      "false_alarm_rate_at_threshold",
+      "d_prime_at_threshold",
+      "contrast_discrimination_accuracy_at_threshold"
+    ],
+    "self_report": [
+      "visual_sensitivity_self_report_score",
+      "perceived_visibility_rating_at_threshold",
+      "attention_to_visual_stimuli_self_report",
+      "visual_processing_speed_self_report",
+      "visual_search_efficiency_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

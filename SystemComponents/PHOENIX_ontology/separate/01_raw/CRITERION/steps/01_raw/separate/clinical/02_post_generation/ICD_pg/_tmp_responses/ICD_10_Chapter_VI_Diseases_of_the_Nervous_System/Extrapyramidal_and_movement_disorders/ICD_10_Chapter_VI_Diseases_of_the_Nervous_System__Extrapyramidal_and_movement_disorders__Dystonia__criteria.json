@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cervical_dystonia"
+    },
+    {
+      "criterium": "blepharospasm"
+    },
+    {
+      "criterium": "oromandibular_dystonia"
+    },
+    {
+      "criterium": "laryngeal_dystonia"
+    },
+    {
+      "criterium": "focal_hand_dystonia"
+    },
+    {
+      "criterium": "task_specific_dystonia"
+    },
+    {
+      "criterium": "foot_dystonia"
+    },
+    {
+      "criterium": "segmental_dystonia"
+    },
+    {
+      "criterium": "generalized_dystonia"
+    },
+    {
+      "criterium": "dystonic_tremor"
+    }
+  ],
+  "estimated_prevalence_percent": 0.016
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "startle_triggered_myoclonus_present"
+    },
+    {
+      "criterium": "movement_triggered_myoclonus_present"
+    },
+    {
+      "criterium": "myoclonic_seizures_present"
+    },
+    {
+      "criterium": "generalized_tonic_clonic_seizures_present"
+    },
+    {
+      "criterium": "gait_ataxia_present"
+    },
+    {
+      "criterium": "dysarthria_present"
+    },
+    {
+      "criterium": "cognitive_impairment_present"
+    },
+    {
+      "criterium": "pyramidal_signs_present"
+    },
+    {
+      "criterium": "hyperreflexia_present"
+    },
+    {
+      "criterium": "intention_tremor_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acute_onset_fluctuating_course"
+    },
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "altered_awareness"
+    },
+    {
+      "criterium": "disorientation_time_and_place"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "perceptual_disturbance"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "psychomotor_disturbance"
+    },
+    {
+      "criterium": "disorganized_speech"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

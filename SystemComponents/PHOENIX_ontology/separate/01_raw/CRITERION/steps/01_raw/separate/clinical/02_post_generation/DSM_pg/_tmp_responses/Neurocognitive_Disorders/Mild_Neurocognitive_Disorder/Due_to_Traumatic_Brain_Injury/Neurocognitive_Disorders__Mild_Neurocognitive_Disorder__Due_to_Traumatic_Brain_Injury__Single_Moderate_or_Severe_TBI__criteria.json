@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "processing_speed_slow"
+    },
+    {
+      "criterium": "sustained_attention_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "language_production_impairment"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "visuomotor_coordination_deficit"
+    },
+    {
+      "criterium": "motor_apraxia"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "irritability"
+    }
+  ],
+  "estimated_prevalence_percent": 0.12
+}

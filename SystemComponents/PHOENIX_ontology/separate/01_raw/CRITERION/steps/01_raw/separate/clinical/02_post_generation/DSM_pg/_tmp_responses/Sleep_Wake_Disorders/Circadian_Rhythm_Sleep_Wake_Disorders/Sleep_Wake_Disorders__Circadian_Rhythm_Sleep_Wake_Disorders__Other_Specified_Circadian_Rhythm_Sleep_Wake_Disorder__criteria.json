@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "PERSISTENT_DELAYED_SLEEP_ONSET"
+    },
+    {
+      "criterium": "PERSISTENT_DELAYED_WAKE_TIME"
+    },
+    {
+      "criterium": "DIFFICULTY_SLEEP_ONSET_AT_DESIRED_TIMES"
+    },
+    {
+      "criterium": "IRREGULAR_SLEEP_TIMING_ACROSS_DAYS"
+    },
+    {
+      "criterium": "VARIABLE_NIGHTLY_SLEEP_DURATION"
+    },
+    {
+      "criterium": "EXCESSIVE_DAYTIME_SLEEPINESS"
+    },
+    {
+      "criterium": "EARLY_MORNING_AWAKENING"
+    },
+    {
+      "criterium": "DIFFICULTY_ADJUSTING_SLEEP_TIMING_TO_LIGHT_CUES"
+    },
+    {
+      "criterium": "MOOD_DISTURBANCES_ASSOCIATED_WITH_SLEEP_MISALIGNMENT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

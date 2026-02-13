@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "self_induced_symptom_fabrication"
+    },
+    {
+      "criterium": "self_induced_injury_or_exacerbation_of_symptoms"
+    },
+    {
+      "criterium": "fabricated_medical_history"
+    },
+    {
+      "criterium": "self_tampering_with_lab_tests_or_results"
+    },
+    {
+      "criterium": "recurrent_demand_for_diagnostic_procedures_without_new_clinical_signs"
+    },
+    {
+      "criterium": "symptoms_present_with_negative_objective_findings"
+    },
+    {
+      "criterium": "inconsistent_symptom_reports_across_evaluations"
+    },
+    {
+      "criterium": "self_inflicted_physical_signs_or_lesions"
+    },
+    {
+      "criterium": "presentation_consistent_with_sick_role_desires"
+    },
+    {
+      "criterium": "frequent_hospital_visits_for_potential_illness_without_objective_evidence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

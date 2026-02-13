@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_discrimination_deficit"
+    },
+    {
+      "criterium": "dichotic_listening_deficit"
+    },
+    {
+      "criterium": "speech_in_noise_deficit"
+    },
+    {
+      "criterium": "sound_localization_deficit"
+    },
+    {
+      "criterium": "temporal_processing_deficit"
+    },
+    {
+      "criterium": "short_term_auditory_memory_deficit"
+    },
+    {
+      "criterium": "auditory_figure_ground_deficit"
+    },
+    {
+      "criterium": "rapid_speech_processing_deficit"
+    },
+    {
+      "criterium": "phonological_processing_deficit"
+    },
+    {
+      "criterium": "multistep_instruction_following_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

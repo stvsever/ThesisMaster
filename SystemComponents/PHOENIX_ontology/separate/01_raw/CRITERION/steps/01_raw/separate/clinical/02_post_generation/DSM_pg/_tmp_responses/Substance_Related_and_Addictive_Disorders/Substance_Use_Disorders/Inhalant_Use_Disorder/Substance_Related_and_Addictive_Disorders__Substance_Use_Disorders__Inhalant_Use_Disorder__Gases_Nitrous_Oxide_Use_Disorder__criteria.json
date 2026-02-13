@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_compulsion_n2o_inhalation"
+    },
+    {
+      "criterium": "loss_of_control_over_n2o_use"
+    },
+    {
+      "criterium": "tolerance_to_n2o_effects"
+    },
+    {
+      "criterium": "continued_n2o_use_despite_harm"
+    },
+    {
+      "criterium": "time_spent_acquiring_and_using_n2o"
+    },
+    {
+      "criterium": "use_in_dangerous_settings"
+    },
+    {
+      "criterium": "social_or_occupational_impairment_from_n2o_use"
+    },
+    {
+      "criterium": "withdrawal_symptoms_after_n2o_cessation"
+    },
+    {
+      "criterium": "neurocognitive_or_neurological_manifestations_from_chronic_n2o_exposure"
+    },
+    {
+      "criterium": "euphoric_or_anesthetic_effects_reinforcement"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

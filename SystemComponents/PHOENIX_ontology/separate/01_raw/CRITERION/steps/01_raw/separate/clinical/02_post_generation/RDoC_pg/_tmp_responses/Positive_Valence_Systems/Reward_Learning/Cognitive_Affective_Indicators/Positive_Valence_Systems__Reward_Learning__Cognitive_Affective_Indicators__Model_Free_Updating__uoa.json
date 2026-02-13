@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD1_mRNA_expression_striatum",
+      "DRD2_mRNA_expression_striatum",
+      "SLC6A3_DAT_mRNA_expression",
+      "BDNF_V66Met_genotype",
+      "COMT_Val158Met_genotype"
+    ],
+    "molecules": [
+      "CSF_dopamine_level",
+      "extracellular_dopamine_release_rate",
+      "D2_receptor_surface_density_in_striatum",
+      "DAT_protein_concentration",
+      "BDNF_protein_level_in_prefrontal_cortex",
+      "AMPA_NMDA_receptor_Ratio_in_striatum"
+    ],
+    "cells": [
+      "VTA_dopaminergic_neuron_firing_rate",
+      "NAcc_medium_spiny_neuron_firing_rate",
+      "striatal_GABA_interneuron_activity",
+      "prefrontal_pyramidal_neuron_activity_during_reward_prediction",
+      "striatal_cholinergic_interneuron_activity"
+    ],
+    "circuits": [
+      "VTA_to_NAcc_DA_projection_activity",
+      "nucleus_accumbens_to_prefrontal_cortex_connectivity",
+      "prefrontal_striatal_functional_connectivity_during_reward_prediction",
+      "VTA_to_PFC_coherence_during_reward_learning",
+      "corticostriatal_loop_connectivity_strength"
+    ],
+    "physiology": [
+      "pupil_dilation_response_to_reward_prediction_error",
+      "heart_rate_variability_during_reward_learning",
+      "skin_conductance_response_to_reward_prediction_error",
+      "respiratory_rate_change_during_reward_task"
+    ],
+    "behavior": [
+      "high_reward_choice_frequency",
+      "habitual_action_repetition_rate",
+      "model_free_learning_rate_estimate",
+      "exploitation_vs_exploration_tendency",
+      "reward_prediction_error_related_action_adjustment"
+    ],
+    "self_report": [
+      "habit_strength_score",
+      "automaticity_scale_score",
+      "reward_learning_bias_score",
+      "impulsivity_scale_score",
+      "action_tendency_score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.4
+}

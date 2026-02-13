@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anxiety_symptom_severity"
+    },
+    {
+      "criterium": "depression_symptom_severity"
+    },
+    {
+      "criterium": "fatigue_intensity"
+    },
+    {
+      "criterium": "cognitive_impairment_present"
+    },
+    {
+      "criterium": "sleep_disturbance_present"
+    },
+    {
+      "criterium": "emotional_lability_present"
+    },
+    {
+      "criterium": "quality_of_life_reduction_due_to_mental_symptoms"
+    },
+    {
+      "criterium": "social_withdrawal_behavior_present"
+    },
+    {
+      "criterium": "psychomotor_agitation_or_retardation_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

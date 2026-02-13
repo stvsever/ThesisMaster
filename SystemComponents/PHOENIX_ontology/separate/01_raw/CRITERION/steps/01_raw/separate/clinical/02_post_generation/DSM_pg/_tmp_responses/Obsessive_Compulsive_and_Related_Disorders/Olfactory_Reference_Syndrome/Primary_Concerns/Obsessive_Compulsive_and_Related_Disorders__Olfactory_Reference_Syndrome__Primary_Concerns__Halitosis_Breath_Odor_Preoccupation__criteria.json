@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_breath_odor_focus"
+    },
+    {
+      "criterium": "fixed_belief_of_foul_breath"
+    },
+    {
+      "criterium": "repetitive_breath_odor_self_assessment_actions"
+    },
+    {
+      "criterium": "masking_or_covering_breath_odor_with_mints_or_gum"
+    },
+    {
+      "criterium": "reassurance_seeking_about_breath_odor_from_others"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_breath_preoccupation"
+    },
+    {
+      "criterium": "oral_cavity_examination_for_odor_signs"
+    },
+    {
+      "criterium": "ritualized_breath_related_routines"
+    },
+    {
+      "criterium": "avoidance_of_social_activities_due_to_breath_concern"
+    },
+    {
+      "criterium": "odor_related_anxiety_distress_in_social_contexts"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

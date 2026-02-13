@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tactile_texture_hypersensitivity_to_food"
+    },
+    {
+      "criterium": "gustatory_hyperreactivity_to_food_taste"
+    },
+    {
+      "criterium": "olfactory_hyperreactivity_to_food_odors"
+    },
+    {
+      "criterium": "visual_appearance_sensitivity_to_food_color_or_shape"
+    },
+    {
+      "criterium": "temperature_sensitivity_to_food_temperature"
+    },
+    {
+      "criterium": "gag_response_to_sensory_food_features"
+    },
+    {
+      "criterium": "vomiting_response_to_sensory_food_features"
+    },
+    {
+      "criterium": "restricted_food_repertoire_due_to_sensory_characteristics"
+    },
+    {
+      "criterium": "anticipatory_distress_before_food_exposure_due_to_sensory_features"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,35 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_V66M",
+      "DRD2_rs1800497",
+      "DRD4_VNTR_7R"
+    ],
+    "molecules": [
+      "norepinephrine",
+      "dopamine",
+      "epinephrine"
+    ],
+    "cells": [
+      "iris_dilator_smooth_muscle_cells",
+      "locus_coeruleus_neurons",
+      "retinal_adrenergic_receptor_expressing_cells"
+    ],
+    "circuits": [
+      "locus_coeruleus_to_iris_dilator_pathway",
+      "nucleus_accumbens_reward_circuit",
+      "amygdala_reward_processing_network"
+    ],
+    "physiology": [
+      "baseline_pupil_diameter_mm",
+      "pupil_dilation_amplitude_deg",
+      "pupil_dilation_latency_ms",
+      "pupil_dilation_peak_time_ms",
+      "pupil_dilation_velocity_deg_per_s",
+      "pupil_area_under_curve_deg_ms"
+    ],
+    "behavior": null,
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 3.5
+}

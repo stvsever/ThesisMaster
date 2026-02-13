@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "yearning_for_deceased"
+    },
+    {
+      "criterium": "preoccupation_with_deceased"
+    },
+    {
+      "criterium": "difficulty_accepting_death"
+    },
+    {
+      "criterium": "disbelief_about_death"
+    },
+    {
+      "criterium": "bitterness_or_anger_related_to_loss"
+    },
+    {
+      "criterium": "intense_emotional_pain"
+    },
+    {
+      "criterium": "emotional_numbness"
+    },
+    {
+      "criterium": "meaninglessness_without_deceased"
+    },
+    {
+      "criterium": "sense_of_missing_part_of_self_without_deceased"
+    },
+    {
+      "criterium": "avoidance_of_reminders_of_loss"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_loss"
+    },
+    {
+      "criterium": "impairment_in_social_or_occupational_functioning_due_to_loss"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

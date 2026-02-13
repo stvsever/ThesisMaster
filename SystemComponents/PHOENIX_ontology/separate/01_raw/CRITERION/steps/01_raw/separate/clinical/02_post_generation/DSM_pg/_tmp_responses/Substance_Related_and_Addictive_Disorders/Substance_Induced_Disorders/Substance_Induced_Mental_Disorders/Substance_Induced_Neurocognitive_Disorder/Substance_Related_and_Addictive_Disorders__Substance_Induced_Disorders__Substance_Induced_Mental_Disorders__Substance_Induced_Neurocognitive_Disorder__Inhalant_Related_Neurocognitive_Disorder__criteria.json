@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inhalant_sustained_attention_deficit"
+    },
+    {
+      "criterium": "inhalant_working_memory_impairment"
+    },
+    {
+      "criterium": "inhalant_verbal_learning_deficit"
+    },
+    {
+      "criterium": "inhalant_delayed_recall_impairment"
+    },
+    {
+      "criterium": "inhalant_executive_function_deficit"
+    },
+    {
+      "criterium": "inhalant_processing_speed_slowing"
+    },
+    {
+      "criterium": "inhalant_visuospatial_deficit"
+    },
+    {
+      "criterium": "inhalant_expressive_language_impairment"
+    },
+    {
+      "criterium": "inhalant_ataxia_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_reexperiencing"
+    },
+    {
+      "criterium": "distressing_violent_dreams"
+    },
+    {
+      "criterium": "avoidance_reminders"
+    },
+    {
+      "criterium": "persistent_negative_mood"
+    },
+    {
+      "criterium": "emotional_numbing"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "dissociative_amnesia"
+    },
+    {
+      "criterium": "hypervigilance"
+    },
+    {
+      "criterium": "exaggerated_startle_response"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "anger_outbursts"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "reckless_self_destructive_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

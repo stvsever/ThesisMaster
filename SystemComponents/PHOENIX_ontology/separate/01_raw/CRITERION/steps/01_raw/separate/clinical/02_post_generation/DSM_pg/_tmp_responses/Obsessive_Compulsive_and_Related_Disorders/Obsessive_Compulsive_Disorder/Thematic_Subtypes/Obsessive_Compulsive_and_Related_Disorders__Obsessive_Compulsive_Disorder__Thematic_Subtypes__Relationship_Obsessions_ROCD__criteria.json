@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_relationship_thoughts"
+    },
+    {
+      "criterium": "repetitive_partner_compatibility_rumination"
+    },
+    {
+      "criterium": "obsessive_partner_trait_evaluation"
+    },
+    {
+      "criterium": "reassurance_seeking_about_partner_love"
+    },
+    {
+      "criterium": "constant_comparison_with_ideal_partner"
+    },
+    {
+      "criterium": "mental_review_of_relationship_history"
+    },
+    {
+      "criterium": "fear_of_relationship_loss_without_partner"
+    },
+    {
+      "criterium": "avoidance_of_intimacy_due_to_relationship_anxiety"
+    },
+    {
+      "criterium": "distress_when_relationship_thoughts_are_suppressed"
+    },
+    {
+      "criterium": "time_spent_dwell_in_relationship_related_thoughts"
+    },
+    {
+      "criterium": "compulsive_confirmatory_behaviors_about_relationship_status"
+    },
+    {
+      "criterium": "distress_over_partner_flaws_and_fit"
+    }
+  ],
+  "estimated_prevalence_percent": 2.4
+}

@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fever"
+    },
+    {
+      "criterium": "neck_stiffness"
+    },
+    {
+      "criterium": "photophobia"
+    },
+    {
+      "criterium": "severe_headache"
+    },
+    {
+      "criterium": "altered_mental_status"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "positive_kernig_sign"
+    },
+    {
+      "criterium": "positive_brudzinski_sign"
+    },
+    {
+      "criterium": "csf_neutrophilic_pleocytosis"
+    },
+    {
+      "criterium": "csf_glucose_below_threshold"
+    },
+    {
+      "criterium": "csf_protein_elevated"
+    },
+    {
+      "criterium": "csf_gram_stain_positive"
+    },
+    {
+      "criterium": "csf_culture_positive"
+    },
+    {
+      "criterium": "csf_opening_pressure_elevated"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

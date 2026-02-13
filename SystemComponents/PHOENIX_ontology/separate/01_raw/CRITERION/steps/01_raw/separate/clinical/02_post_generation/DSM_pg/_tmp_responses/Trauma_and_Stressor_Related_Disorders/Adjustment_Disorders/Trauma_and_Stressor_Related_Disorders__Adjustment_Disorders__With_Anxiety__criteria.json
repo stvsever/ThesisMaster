@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_anxiety_worry_about_stressor"
+    },
+    {
+      "criterium": "restlessness"
+    },
+    {
+      "criterium": "sleep_disturbance_insomnia"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "muscle_tension"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "impaired_work_functioning"
+    },
+    {
+      "criterium": "impaired_social_functioning"
+    },
+    {
+      "criterium": "avoidance_behaviors_related_to_stressor"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

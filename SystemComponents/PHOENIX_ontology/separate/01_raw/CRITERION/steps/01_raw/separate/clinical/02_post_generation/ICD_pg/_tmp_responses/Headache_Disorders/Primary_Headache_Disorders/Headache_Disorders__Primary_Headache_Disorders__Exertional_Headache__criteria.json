@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "exertional_trigger_present"
+    },
+    {
+      "criterium": "pulsating_quality_present"
+    },
+    {
+      "criterium": "pain_location_frontal_temporal_region_present"
+    },
+    {
+      "criterium": "pain_intensity_moderate_to_severe_present"
+    },
+    {
+      "criterium": "onset_during_or_immediately_after_exertion_present"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "phonophobia_present"
+    },
+    {
+      "criterium": "nausea_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

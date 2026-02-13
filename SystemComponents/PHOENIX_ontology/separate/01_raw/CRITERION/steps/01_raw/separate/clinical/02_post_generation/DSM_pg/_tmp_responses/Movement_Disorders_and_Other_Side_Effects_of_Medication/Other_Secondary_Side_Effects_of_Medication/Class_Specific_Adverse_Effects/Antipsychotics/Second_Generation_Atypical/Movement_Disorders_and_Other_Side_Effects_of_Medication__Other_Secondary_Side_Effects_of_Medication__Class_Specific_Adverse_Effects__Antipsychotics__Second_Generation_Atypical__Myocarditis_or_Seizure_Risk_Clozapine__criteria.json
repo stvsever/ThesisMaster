@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "chest_pain"
+    },
+    {
+      "criterium": "dyspnea"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "fever"
+    },
+    {
+      "criterium": "troponin_elevation"
+    },
+    {
+      "criterium": "CRP_elevation"
+    },
+    {
+      "criterium": "ECG_abnormalities"
+    },
+    {
+      "criterium": "reduced_LVEF"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "tachypnea"
+    },
+    {
+      "criterium": "new_onset_seizure"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

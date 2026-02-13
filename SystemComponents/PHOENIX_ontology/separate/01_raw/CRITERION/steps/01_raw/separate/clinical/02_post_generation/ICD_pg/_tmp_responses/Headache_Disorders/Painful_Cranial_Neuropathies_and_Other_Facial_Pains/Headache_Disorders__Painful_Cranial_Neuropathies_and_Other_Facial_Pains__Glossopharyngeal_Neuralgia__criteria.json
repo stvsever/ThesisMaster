@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_glossopharyngeal_pain_paroxysm"
+    },
+    {
+      "criterium": "radiation_to_ear"
+    },
+    {
+      "criterium": "radiation_to_base_of_tongue"
+    },
+    {
+      "criterium": "lancinating_pain_quality"
+    },
+    {
+      "criterium": "pain_triggered_by_swallowing"
+    },
+    {
+      "criterium": "pain_triggered_by_talking"
+    },
+    {
+      "criterium": "pain_triggered_by_chewing"
+    },
+    {
+      "criterium": "pain_triggered_by_yawning"
+    },
+    {
+      "criterium": "pain_triggered_by_coughing"
+    },
+    {
+      "criterium": "paroxysmal_attack_series"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

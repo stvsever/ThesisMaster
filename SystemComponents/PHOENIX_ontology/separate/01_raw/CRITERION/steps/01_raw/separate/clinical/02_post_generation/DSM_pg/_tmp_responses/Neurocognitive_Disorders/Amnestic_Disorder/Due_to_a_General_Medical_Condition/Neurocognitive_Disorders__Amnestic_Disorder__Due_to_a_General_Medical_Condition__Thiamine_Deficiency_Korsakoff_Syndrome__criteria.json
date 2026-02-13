@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_amnesia"
+    },
+    {
+      "criterium": "retrograde_amnesia"
+    },
+    {
+      "criterium": "confabulation"
+    },
+    {
+      "criterium": "encoding_deficit_new_information"
+    },
+    {
+      "criterium": "retrieval_deficit_existing_memories"
+    },
+    {
+      "criterium": "preserved_remote_memory"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "perseveration"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "anosognosia_for_memory_deficit"
+    },
+    {
+      "criterium": "procedural_memory_preserved"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "EDN1",
+      "EDNRA",
+      "ADRB1",
+      "ADRB2",
+      "ACE",
+      "AGT",
+      "REN"
+    ],
+    "molecules": [
+      "endothelin_1",
+      "norepinephrine",
+      "epinephrine",
+      "angiotensin_II",
+      "vasopressin",
+      "endothelin_2"
+    ],
+    "cells": [
+      "vascular_smooth_muscle_cells",
+      "sympathetic_postganglionic_neurons",
+      "endothelial_cells"
+    ],
+    "circuits": [
+      "amygdala",
+      "insula",
+      "hypothalamus",
+      "periaqueductal_gray",
+      "central_autonomic_network"
+    ],
+    "physiology": [
+      "finger_plethysmography_amplitude",
+      "ppg_waveform_amplitude",
+      "peripheral_vascular_resistance_index",
+      "mean_arterial_pressure",
+      "systolic_blood_pressure",
+      "diastolic_blood_pressure",
+      "skin_temperature_palm",
+      "heart_rate"
+    ],
+    "behavior": [
+      "startle_response_magnitude",
+      "freezing_behavior_duration",
+      "avoidance_behavior_frequency"
+    ],
+    "self_report": [
+      "subjective_fear_intensity",
+      "threat_level_rating",
+      "autonomic_arousal_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_deliberate_fire_setting_acts"
+    },
+    {
+      "criterium": "fire_setting_across_multiple_settings"
+    },
+    {
+      "criterium": "gratification_after_fire_setting_act"
+    },
+    {
+      "criterium": "pre_ignition_urge_or_compulsion_before_fire_setting"
+    },
+    {
+      "criterium": "increasing_frequency_of_fire_setting_acts"
+    },
+    {
+      "criterium": "increasing_extent_of_damage_or_severity_in_fire_setting_acts"
+    },
+    {
+      "criterium": "loss_of_resistance_to_fire_setting_when_tempted_or_stimulated"
+    },
+    {
+      "criterium": "premeditated_execution_of_fire_setting_despite_awareness_of_risk"
+    },
+    {
+      "criterium": "persistent_or_intrusive_ideas_about_fire_setting_when_not_acting_on_it"
+    },
+    {
+      "criterium": "functional_impairment_related_to_fire_setting_behaviors"
+    },
+    {
+      "criterium": "lack_of_remorse_or_guilt_after_fire_setting_event"
+    },
+    {
+      "criterium": "risk_of_harm_to_self_or_others_from_fire_setting"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

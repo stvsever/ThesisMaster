@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OPRM1_expression_insula",
+      "GRIN2B_expression_insula",
+      "BDNF_expression_insula",
+      "COMT_V158M_genotype",
+      "IL6_rs1800795_genotype",
+      "SCN9A_variant",
+      "P2RX7_expression_insula",
+      "CACNA1A_expression_insula"
+    ],
+    "molecules": [
+      "glutamate_concentration_insula",
+      "GABA_concentration_insula",
+      "substance_P_concentration_insula",
+      "CGRP_concentration_insula",
+      "BDNF_concentration_insula",
+      "noradrenaline_concentration_insula",
+      "IL6_concentration_insula",
+      "anandamide_concentration_insula"
+    ],
+    "cells": [
+      "pyramidal_neuron_firing_rate_insula",
+      "gabaergic_interneuron_firing_rate_insula",
+      "astrocyte_metabolic_activity_insula",
+      "microglial_activation_level_insula",
+      "oligodendrocyte_activity_insula"
+    ],
+    "circuits": [
+      "insula_dACC_coactivation_during_pain",
+      "insula_dACC_connectivity_pain_task",
+      "insula_pain_signal_hubness",
+      "dACC_pain_processing_network_activity"
+    ],
+    "physiology": [
+      "insula_BOLD_pain_amplification",
+      "dACC_BOLD_pain_amplification",
+      "heart_rate_response_to_pain",
+      "skin_conductance_response_to_pain",
+      "pupil_dilation_pain"
+    ],
+    "behavior": [
+      "withdrawal_latency_pain_stimulus",
+      "pain_related_facial_expression_intensity",
+      "pain_related_avoidance_frequency"
+    ],
+    "self_report": [
+      "pain_intensity_rating",
+      "pain_unpleasantness_rating",
+      "pain_expectation_rating",
+      "pain_anxiety_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 3.5
+}

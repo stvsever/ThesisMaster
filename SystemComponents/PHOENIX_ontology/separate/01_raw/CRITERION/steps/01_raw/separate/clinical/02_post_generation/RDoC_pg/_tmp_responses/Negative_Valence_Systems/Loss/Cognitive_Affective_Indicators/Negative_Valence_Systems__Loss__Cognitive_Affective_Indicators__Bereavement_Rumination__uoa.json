@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF",
+      "COMT",
+      "FKBP5",
+      "SLC6A4",
+      "NR3C1",
+      "CACNA1C"
+    ],
+    "molecules": [
+      "Cortisol",
+      "BDNF_protein",
+      "IL6",
+      "CRP",
+      "Norepinephrine",
+      "Dopamine"
+    ],
+    "cells": [
+      "PFC_pyramidal_neurons_density",
+      "amygdala_gaba_interneuron_density",
+      "astrocyte_density",
+      "oligodendrocyte_density",
+      "microglia_activation_markers"
+    ],
+    "circuits": [
+      "DMN_intrinsic_connectivity",
+      "dlPFC_amygdala_functional_connectivity",
+      "SN_anterior_insula_functional_connectivity",
+      "hippocampus_default_mode_network_coherence",
+      "memory_network_connectivity"
+    ],
+    "physiology": [
+      "resting_heart_rate",
+      "heart_rate_variability_rest",
+      "skin_conductance_level",
+      "respiratory_rate",
+      "core_body_temperature"
+    ],
+    "behavior": [
+      "rumination_cycles_per_minute",
+      "daily_loss_related_rumination_minutes",
+      "time_spent_loss_rumination_per_day_minutes",
+      "reminder_avoidance_behaviors_count",
+      "sleep_disturbance_due_to_rumination_min"
+    ],
+    "self_report": [
+      "bereavement_rumination_scale_score",
+      "intrusive_loss_thoughts_frequency",
+      "loss_rumination_distress_score",
+      "memory_rehearsal_frequency",
+      "cognitive_attention_to_loss_duration_minutes_per_day"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

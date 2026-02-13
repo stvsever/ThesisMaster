@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "low_total_testosterone"
+    },
+    {
+      "criterium": "elevated_prolactin"
+    },
+    {
+      "criterium": "reduced_libido"
+    },
+    {
+      "criterium": "decreased_morning_erections"
+    },
+    {
+      "criterium": "reduced_erectile_rigidity"
+    },
+    {
+      "criterium": "delayed_erection_onset"
+    },
+    {
+      "criterium": "decreased_nocturnal_penile_tumescence"
+    },
+    {
+      "criterium": "testicular_atrophy"
+    },
+    {
+      "criterium": "decreased_secondary_sex_characteristics"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

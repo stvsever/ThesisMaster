@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_V158M_genotype",
+      "DRD2_Taq1A_rs1800497_genotype",
+      "BDNF_rs6265_genotype",
+      "SLC6A3_DAT1_rs25531_genotype"
+    ],
+    "molecules": [
+      "dopamine",
+      "norepinephrine",
+      "glutamate",
+      "GABA",
+      "BDNF",
+      "cAMP"
+    ],
+    "cells": [
+      "dlPFC_pyramidal_neuron_density",
+      "PV_interneuron_density",
+      "dendritic_spine_density_dlPFC",
+      "oligodendrocyte_density_prefrontal_cortex",
+      "astrocyte_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "FPCN_activation_magnitude_task",
+      "FPCN_DAN_connectivity_strength",
+      "FPCN_intrinsic_coherence",
+      "DLPFC_ACC_network_synchrony",
+      "FPCN_DMN_modulation_index"
+    ],
+    "physiology": [
+      "prefrontal_theta_power_task",
+      "prefrontal_BOLD_change_task",
+      "pupil_dilation_task",
+      "heart_rate_variability_task",
+      "frontal_oxygenated_hemoglobin_change",
+      "frontal_alpha_power_rest"
+    ],
+    "behavior": [
+      "stroop_inhibition_accuracy",
+      "nback_accuracy_2back",
+      "go_no_go_false_alarm_rate",
+      "reaction_time_mean",
+      "task_switch_cost_ms"
+    ],
+    "self_report": [
+      "cognitive_control_difficulty_scale",
+      "impulsivity_scale_score",
+      "working_memory_difficulty_scale",
+      "executive_function_deficit_severity"
+    ]
+  },
+  "estimated_prevalence_percent": 8.5
+}

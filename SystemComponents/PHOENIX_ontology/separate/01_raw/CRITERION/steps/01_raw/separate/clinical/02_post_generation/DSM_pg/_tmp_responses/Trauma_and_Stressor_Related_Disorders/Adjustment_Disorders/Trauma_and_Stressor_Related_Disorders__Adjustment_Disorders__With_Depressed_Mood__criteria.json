@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood_present"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "hypersomnia"
+    },
+    {
+      "criterium": "weight_change"
+    },
+    {
+      "criterium": "appetite_change"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "tearfulness"
+    },
+    {
+      "criterium": "social_withdrawal"
+    },
+    {
+      "criterium": "guilt_or_worthlessness"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "impaired_functioning"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

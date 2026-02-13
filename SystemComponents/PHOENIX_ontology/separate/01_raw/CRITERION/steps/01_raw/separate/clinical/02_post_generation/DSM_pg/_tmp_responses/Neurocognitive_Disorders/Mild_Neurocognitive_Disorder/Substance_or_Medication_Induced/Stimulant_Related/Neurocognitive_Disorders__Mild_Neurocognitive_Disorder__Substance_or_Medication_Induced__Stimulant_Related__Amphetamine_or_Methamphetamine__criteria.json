@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sustained_attention_impairment"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "verbal_learning_deficit"
+    },
+    {
+      "criterium": "visuo_spatial_processing_deficit"
+    },
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "response_inhibition_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_intensity"
+    },
+    {
+      "criterium": "tolerance_development"
+    },
+    {
+      "criterium": "withdrawal_symptoms_present"
+    },
+    {
+      "criterium": "loss_of_control_in_use"
+    },
+    {
+      "criterium": "unsuccessful_cut_down_attempts"
+    },
+    {
+      "criterium": "time_spent_obtaining_using_recovering"
+    },
+    {
+      "criterium": "functional_impairment_social_occupational"
+    },
+    {
+      "criterium": "continued_use_despite_harm"
+    },
+    {
+      "criterium": "polysubstance_use"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

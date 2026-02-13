@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anorgasmia"
+    },
+    {
+      "criterium": "delayed_orgasm_latency"
+    },
+    {
+      "criterium": "decreased_orgasm_frequency"
+    },
+    {
+      "criterium": "reduced_orgasm_intensity"
+    },
+    {
+      "criterium": "incomplete_orgasm"
+    },
+    {
+      "criterium": "retrograde_ejaculation"
+    },
+    {
+      "criterium": "orgasmic_sensation_blunting"
+    },
+    {
+      "criterium": "orgasmic_satisfaction_reduction"
+    }
+  ],
+  "estimated_prevalence_percent": 25.0
+}

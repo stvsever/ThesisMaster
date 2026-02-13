@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tactile_hypersensitivity"
+    },
+    {
+      "criterium": "tactile_hyposensitivity"
+    },
+    {
+      "criterium": "auditory_hypersensitivity"
+    },
+    {
+      "criterium": "auditory_hyposensitivity"
+    },
+    {
+      "criterium": "visual_hypersensitivity"
+    },
+    {
+      "criterium": "visual_hyposensitivity"
+    },
+    {
+      "criterium": "olfactory_hypersensitivity"
+    },
+    {
+      "criterium": "gustatory_hypersensitivity"
+    },
+    {
+      "criterium": "vestibular_hypersensitivity"
+    },
+    {
+      "criterium": "proprioceptive_hypersensitivity"
+    },
+    {
+      "criterium": "proprioceptive_seeking"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

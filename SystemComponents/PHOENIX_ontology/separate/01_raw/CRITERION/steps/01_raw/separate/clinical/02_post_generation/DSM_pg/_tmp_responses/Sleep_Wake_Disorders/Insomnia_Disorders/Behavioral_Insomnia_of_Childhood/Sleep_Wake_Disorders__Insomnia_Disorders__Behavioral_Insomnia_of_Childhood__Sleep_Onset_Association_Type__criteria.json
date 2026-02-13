@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "parent_present_required_for_sleep_onset"
+    },
+    {
+      "criterium": "needs_specific_object_for_sleep_onset"
+    },
+    {
+      "criterium": "distress_on_parent_departure_at_sleep_onset"
+    },
+    {
+      "criterium": "requires_parent_proximity_in_room_to_fall_asleep"
+    },
+    {
+      "criterium": "requires_parent_physical_contact_to_fall_asleep"
+    },
+    {
+      "criterium": "unable_to_initiate_sleep_without_parent_coaching_or_guidance"
+    },
+    {
+      "criterium": "reassurance_dependent_at_sleep_onset"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "orthostatic_dizziness_on_standing"
+    },
+    {
+      "criterium": "orthostatic_presyncope_on_standing"
+    },
+    {
+      "criterium": "orthostatic_syncope_on_standing"
+    },
+    {
+      "criterium": "orthostatic_near_syncope_on_standing"
+    },
+    {
+      "criterium": "orthostatic_blurred_vision_on_standing"
+    },
+    {
+      "criterium": "orthostatic_lightheadedness_on_standing"
+    },
+    {
+      "criterium": "orthostatic_tachycardia_on_standing"
+    },
+    {
+      "criterium": "orthostatic_palpitations_on_standing"
+    },
+    {
+      "criterium": "orthostatic_fatigue_on_standing"
+    },
+    {
+      "criterium": "orthostatic_weakness_on_standing"
+    },
+    {
+      "criterium": "orthostatic_pallor_on_standing"
+    },
+    {
+      "criterium": "orthostatic_bp_drop_systolic_on_standing"
+    },
+    {
+      "criterium": "orthostatic_bp_drop_diastolic_on_standing"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

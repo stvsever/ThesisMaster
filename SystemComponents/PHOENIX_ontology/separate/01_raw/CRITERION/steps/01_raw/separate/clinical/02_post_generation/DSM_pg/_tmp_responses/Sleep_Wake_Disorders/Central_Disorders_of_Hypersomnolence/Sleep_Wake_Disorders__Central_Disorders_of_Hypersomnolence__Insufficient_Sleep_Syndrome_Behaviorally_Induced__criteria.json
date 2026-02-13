@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "short_total_sleep_time"
+    },
+    {
+      "criterium": "habitual_delayed_sleep_onset"
+    },
+    {
+      "criterium": "reduced_time_in_bed_for_sleep"
+    },
+    {
+      "criterium": "daytime_sleepiness_excessive"
+    },
+    {
+      "criterium": "fatigue_exhaustion_daytime"
+    },
+    {
+      "criterium": "attention_concentration_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "irritability_mood_swings"
+    },
+    {
+      "criterium": "unrefreshing_sleep_experience"
+    },
+    {
+      "criterium": "sleep_efficiency_reduction"
+    }
+  ],
+  "estimated_prevalence_percent": 2.3
+}

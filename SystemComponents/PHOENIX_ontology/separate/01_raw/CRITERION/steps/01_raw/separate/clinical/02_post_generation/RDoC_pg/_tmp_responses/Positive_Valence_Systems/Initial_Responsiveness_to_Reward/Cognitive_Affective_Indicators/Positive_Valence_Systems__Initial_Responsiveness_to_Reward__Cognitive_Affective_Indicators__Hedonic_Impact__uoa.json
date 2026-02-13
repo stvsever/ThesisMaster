@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_TaqIA_A1_allele",
+      "DRD4_VNTR_7R_allele",
+      "OPRM1_A118G",
+      "BDNF_V66M",
+      "COMT_V158M"
+    ],
+    "molecules": [
+      "DOPAMINE",
+      "BETA_ENDORPHIN",
+      "ENDOCANNABINOID_2_AG",
+      "BDNF",
+      "SEROTONIN",
+      "MU_OPIOID_RECEPTOR_DENSITY"
+    ],
+    "cells": [
+      "VTA_DOPAMINERGIC_NEURON_COUNT",
+      "NUCLEUS_ACCUMBENS_MSN_D1_COUNT",
+      "NUCLEUS_ACCUMBENS_MSN_D2_COUNT",
+      "OPIOID_RECEPTOR_EXPRESSING_NEURON_MARKER_COUNT"
+    ],
+    "circuits": [
+      "fMRI_BOLD_VTA_NAcc_connectivity",
+      "fMRI_BOLD_ORBITOFRONTAL_CORTEX_reward_signal",
+      "fMRI_BOLD_AMYGDALA_reward_response",
+      "EEG_reward_p300_amplitude"
+    ],
+    "physiology": [
+      "HEART_RATE_RESPONSE_TO_REWARD",
+      "SKIN_CONDUCTANCE_RESPONSE_TO_REWARD",
+      "PUPILLARY_DILATION_TO_REWARD",
+      "SALIVARY_CORTISOL_RESPONSE_TO_REWARD"
+    ],
+    "behavior": [
+      "RESPONSE_TIME_TO_REWARD_CUE",
+      "APPROACH_LATENCY_TO_REWARD_STIMULUS",
+      "RESPONSE_SELECTION_RATE_HIGH_REWARD",
+      "CONSUMMATORY_BEHAVIOR_DURATION"
+    ],
+    "self_report": [
+      "LIKING_RATING_SCORE",
+      "PLEASURE_EXPERIENCE_SCORE",
+      "HEDONIC_STATE_SCALE_SCORE",
+      "HEDONIC_CAPACITY_INDEX"
+    ]
+  },
+  "estimated_prevalence_percent": 6.3
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "arousal_to_amputation"
+    },
+    {
+      "criterium": "explicit_fantasy_content_involving_own_healthy_limb_amputation"
+    },
+    {
+      "criterium": "persistent_body_integrity_identity_conflict_with_healthy_limb"
+    },
+    {
+      "criterium": "desire_permanent_amputation_of_healthy_limb"
+    },
+    {
+      "criterium": "intent_to_undergo_medical_or_surgical_amputation"
+    },
+    {
+      "criterium": "attempts_to_research_surgical_amputation_options"
+    },
+    {
+      "criterium": "pursuit_of_medical_evaluation_for_amputation"
+    },
+    {
+      "criterium": "distress_or_impairment_due_to_amputation_preoccupations"
+    },
+    {
+      "criterium": "preoccupation_with_amputation_details_and_procedures"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_impairment"
+    },
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "confabulation"
+    },
+    {
+      "criterium": "impaired_free_recall"
+    },
+    {
+      "criterium": "impaired_cued_recall"
+    },
+    {
+      "criterium": "impaired_prospective_memory"
+    },
+    {
+      "criterium": "disorientation_in_time_or_place"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "semantic_memory_preservation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

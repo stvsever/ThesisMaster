@@ -1,0 +1,46 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_expression_in_FEF",
+      "CNTNAP2_rs7794745_G_variant",
+      "BDNF_rs6265_G_met_variant",
+      "MECP2_expression_in_social_circuit_regions"
+    ],
+    "molecules": [
+      "acetylcholine_in_Superior_Colliculus",
+      "dopamine_in_FEF",
+      "glutamate_in_Superior_Colliculus",
+      "serotonin_in_prefrontal_cortex"
+    ],
+    "cells": [
+      "FEF_pyramidal_neuron_firing_rate_during_eye_region_fixation",
+      "SC_saccade_related_neuron_firing_rate",
+      "Purkinje_cell_activity_eye_fixation_network"
+    ],
+    "circuits": [
+      "FEF_to_SC_connectivity_strength",
+      "FEF_network_eye_fixation_activity_pattern",
+      "SC_to_PPC_connectivity_strength",
+      "DLPFC_eye_fixation_control_network_connectivity"
+    ],
+    "physiology": [
+      "pupil_dilation_variability_during_eye_region_fixation",
+      "heart_rate_variability_during_social_gaze",
+      "skin_conductance_level_during_eye_region_fixation",
+      "blink_rate_during_eye_region_fixation"
+    ],
+    "behavior": [
+      "eye_region_fixation_duration_ms",
+      "eye_region_fixation_count",
+      "eye_region_fixation_latency_ms",
+      "eye_contact_frequency_per_min"
+    ],
+    "self_report": [
+      "self_report_eye_contact_difficulty_score",
+      "self_report_eye_contact_avoidance_scale",
+      "self_report_eye_contact_discomfort_score",
+      "self_report_eye_contact_importance_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 3.5
+}

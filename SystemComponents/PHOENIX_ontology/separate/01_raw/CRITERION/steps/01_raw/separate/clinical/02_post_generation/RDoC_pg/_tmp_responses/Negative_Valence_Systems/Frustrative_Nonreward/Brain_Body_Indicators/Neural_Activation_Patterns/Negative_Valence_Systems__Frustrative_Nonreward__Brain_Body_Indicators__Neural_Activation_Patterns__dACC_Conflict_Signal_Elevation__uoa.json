@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_rs4680_genotype",
+      "BDNF_rs6265_genotype",
+      "DRD2_rs1800497_genotype",
+      "FKBP5_rs1360780_genotype"
+    ],
+    "molecules": [
+      "glutamate_concentration_dACC",
+      "GABA_concentration_dACC",
+      "BDNF_protein_level_dACC",
+      "dopamine_tone_dACC",
+      "cortisol_serum_level"
+    ],
+    "cells": [
+      "layer5_pyramidal_neuron_density_dACC",
+      "interneuron_density_dACC",
+      "astrocyte_density_dACC",
+      "microglia_density_dACC"
+    ],
+    "circuits": [
+      "dACC_to_DLPFC_connectivity_strength",
+      "dACC_to_AIC_connectivity_strength",
+      "dACC_to_AMYGDALA_connectivity_strength",
+      "dACC_to_INS_connectivity_strength",
+      "dACC_network_coherence_index"
+    ],
+    "physiology": [
+      "heart_rate_peak_during_conflict",
+      "skin_conductance_response_amp",
+      "pupil_dilation_peak",
+      "respiration_rate_change_per_min",
+      "core_body_temperature_change_degC"
+    ],
+    "behavior": [
+      "reaction_time_conflict_ms",
+      "error_rate_conflict_percent",
+      "post_error_reaction_time_ms",
+      "conflict_trial_completion_rate"
+    ],
+    "self_report": [
+      "frustration_level_scale_score",
+      "distress_level_scale_score",
+      "negative_affect_scale_score",
+      "reward_loss_expectancy_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

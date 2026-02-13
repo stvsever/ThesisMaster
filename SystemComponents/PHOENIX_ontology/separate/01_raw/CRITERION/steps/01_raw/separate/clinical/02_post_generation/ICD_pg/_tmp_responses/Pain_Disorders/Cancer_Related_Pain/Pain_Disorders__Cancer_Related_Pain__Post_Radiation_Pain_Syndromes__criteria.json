@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_pain_in_radiation_field"
+    },
+    {
+      "criterium": "paroxysmal_pain_in_radiation_area"
+    },
+    {
+      "criterium": "paresthesias_in_radiation_region"
+    },
+    {
+      "criterium": "dysesthesias_in_radiation_field"
+    },
+    {
+      "criterium": "allodynia_to_light_touch_in_radiation_site"
+    },
+    {
+      "criterium": "hyperalgesia_to_noxious_stimuli_in_radiation_territory"
+    },
+    {
+      "criterium": "hypoesthesia_in_radiation_field"
+    },
+    {
+      "criterium": "motor_weakness_in_radiation_territory"
+    },
+    {
+      "criterium": "muscle_fasciculations_in_radiation_region"
+    },
+    {
+      "criterium": "hyporeflexia_in_radiation_territory"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bladder_pelvic_region_pain"
+    },
+    {
+      "criterium": "pain_worsened_by_bladder_filling"
+    },
+    {
+      "criterium": "pain_relieved_by_voiding"
+    },
+    {
+      "criterium": "urinary_urgency"
+    },
+    {
+      "criterium": "nocturia"
+    },
+    {
+      "criterium": "increased_daytime_urination_frequency"
+    },
+    {
+      "criterium": "pelvic_floor_tenderness"
+    },
+    {
+      "criterium": "pelvic_floor_hypertonicity"
+    },
+    {
+      "criterium": "dyspareunia"
+    },
+    {
+      "criterium": "dysuria_pain_on_urination"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

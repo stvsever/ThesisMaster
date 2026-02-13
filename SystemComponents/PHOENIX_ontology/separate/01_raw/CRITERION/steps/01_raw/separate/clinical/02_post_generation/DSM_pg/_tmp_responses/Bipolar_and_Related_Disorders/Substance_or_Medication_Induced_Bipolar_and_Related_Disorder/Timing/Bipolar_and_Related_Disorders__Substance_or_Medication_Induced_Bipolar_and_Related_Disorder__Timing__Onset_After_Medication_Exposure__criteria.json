@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ELEVATED_MOOD"
+    },
+    {
+      "criterium": "IRRITABLE_MOOD"
+    },
+    {
+      "criterium": "INCREASED_GOAL_DIRECTED_ACTIVITY"
+    },
+    {
+      "criterium": "DECREASED_SLEEP_REQUIREMENT"
+    },
+    {
+      "criterium": "PRESSURED_SPEECH"
+    },
+    {
+      "criterium": "FLIGHT_OF_IDEAS"
+    },
+    {
+      "criterium": "GRANDIOSE_IDEAS"
+    },
+    {
+      "criterium": "RISKY_IMPULSIVE_BEHAVIOR"
+    },
+    {
+      "criterium": "DELUSIONAL_CONTENT"
+    },
+    {
+      "criterium": "HALLUCINATIONS"
+    },
+    {
+      "criterium": "INSOMNIA"
+    },
+    {
+      "criterium": "HYPERSOMNIA"
+    },
+    {
+      "criterium": "DEPRESSED_MOOD"
+    },
+    {
+      "criterium": "ANHEDONIA"
+    },
+    {
+      "criterium": "SUICIDAL_THOUGHTS"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

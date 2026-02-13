@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_V66M",
+      "COMT_rs4680_Val158Met",
+      "DRD2_rs1800497_TaqIA1",
+      "OXTR_rs53576_A_allele",
+      "DRD4_rs1800955_VNTR_7R"
+    ],
+    "molecules": [
+      "BDNF_protein_level",
+      "DOPAMINE_plasma_level",
+      "OXT_plasma_level",
+      "NR3C1_mRNA_level",
+      "CORTISOL_plasma_level"
+    ],
+    "cells": [
+      "pyramidal_neuron_density_DLPFC",
+      "parvalbumin_interneuron_density_ACC",
+      "oligodendrocyte_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "DMN_connectivity_strength",
+      "SN_connectivity_strength",
+      "FPN_connectivity_strength",
+      "self_referential_network_activation_mPFC"
+    ],
+    "physiology": [
+      "HRV_baseline",
+      "SCR_self_reflection_amplitude",
+      "HRV_reactivity_to_social_evaluation",
+      "cortisol_reactivity_to_social_evaluation"
+    ],
+    "behavior": [
+      "self_description_inconsistency_across_contexts",
+      "self_esteem_fluctuation_rate",
+      "self_discrepancy_in_goals",
+      "self_reflection_task_goal_switches",
+      "self_disclosure_avoidance_frequency"
+    ],
+    "self_report": [
+      "SelfConceptClarity_score",
+      "SelfConceptIncoherence_scale_score",
+      "SelfDescriptionConsistency_rating",
+      "SelfConceptOrganization_index"
+    ]
+  },
+  "estimated_prevalence_percent": 3.8
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "polysubstance_use_present"
+    },
+    {
+      "criterium": "craving_intensity_high"
+    },
+    {
+      "criterium": "impaired_control_over_substance_use"
+    },
+    {
+      "criterium": "tolerance_development_to_substance"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_cessation"
+    },
+    {
+      "criterium": "use_despite_health_risks"
+    },
+    {
+      "criterium": "relapse_history"
+    },
+    {
+      "criterium": "unsuccessful_quit_attempts"
+    },
+    {
+      "criterium": "occupational_social_impairment_due_to_use"
+    },
+    {
+      "criterium": "interpersonal_conflict_related_to_substance_use"
+    },
+    {
+      "criterium": "compulsive_substance_seeking_behavior"
+    },
+    {
+      "criterium": "use_in_dangerous_or_unsafe_settings"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "urinary_incontinence_present"
+    },
+    {
+      "criterium": "urinary_incontinence_diurnal"
+    },
+    {
+      "criterium": "urinary_incontinence_nocturnal"
+    },
+    {
+      "criterium": "fecal_incontinence_present"
+    },
+    {
+      "criterium": "fecal_soiling_present"
+    },
+    {
+      "criterium": "urge_to_void_before_incontinence_present"
+    },
+    {
+      "criterium": "emotional_distress_associated_with_incontinence_present"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_incontinence_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

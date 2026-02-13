@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M_genotype",
+      "COMT_V158M_genotype",
+      "5HTTLPR_s_allele_genotype",
+      "FKBP5_rs1360780_genotype"
+    ],
+    "molecules": [
+      "BDNF_serum_protein_level",
+      "Cortisol_plasma_concentration",
+      "Norepinephrine_plasma_concentration",
+      "Glutamate_plasma_concentration"
+    ],
+    "cells": [
+      "amygdala_pyramidal_neuron_density",
+      "prefrontal_gaba_interneuron_GAD67_density",
+      "parvalbumin_interneuron_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_cortex_functional_connectivity",
+      "amygdala_visual_cortex_thalamus_cortex_pathway_connectivity",
+      "insula_anterior_cingulate_salience_network_connectivity"
+    ],
+    "physiology": [
+      "pupil_dilation_threat_stimulus",
+      "skin_conductance_response",
+      "heart_rate_in_response_to_threat",
+      "heart_rate_variability_during_threat",
+      "respiratory_rate_change_during_threat"
+    ],
+    "behavior": [
+      "threat_detection_reaction_time",
+      "threat_avoidance_latency",
+      "startle_response_amplitude",
+      "approach_avoidance_tendency",
+      "habituation_to_threat_rate"
+    ],
+    "self_report": [
+      "state_anxiety_level",
+      "trait_anxiety_level",
+      "fear_sensitivity_scale_score",
+      "threat_sensitivity_questionnaire_score",
+      "anxiety_disorder_risk_questionnaire_score"
+    ]
+  },
+  "estimated_prevalence_percent": 6.4
+}

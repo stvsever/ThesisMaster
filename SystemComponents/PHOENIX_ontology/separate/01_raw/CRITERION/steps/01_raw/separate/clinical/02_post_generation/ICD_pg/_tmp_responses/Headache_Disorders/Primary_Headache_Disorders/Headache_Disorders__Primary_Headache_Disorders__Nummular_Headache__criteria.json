@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "coin_shaped_pain_area_on_scalp"
+    },
+    {
+      "criterium": "continuous_pain_in_coin_area"
+    },
+    {
+      "criterium": "pain_quality_pressing_or_constrictive"
+    },
+    {
+      "criterium": "scalp_area_tenderness_to_palpation"
+    },
+    {
+      "criterium": "allodynia_in_coin_area"
+    },
+    {
+      "criterium": "sensory_abnormality_in_coin_area"
+    },
+    {
+      "criterium": "no_pain_radiation_beyond_coin_area"
+    },
+    {
+      "criterium": "normal_neurological_exam"
+    },
+    {
+      "criterium": "coin_area_diameter_1_to_3_cm"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

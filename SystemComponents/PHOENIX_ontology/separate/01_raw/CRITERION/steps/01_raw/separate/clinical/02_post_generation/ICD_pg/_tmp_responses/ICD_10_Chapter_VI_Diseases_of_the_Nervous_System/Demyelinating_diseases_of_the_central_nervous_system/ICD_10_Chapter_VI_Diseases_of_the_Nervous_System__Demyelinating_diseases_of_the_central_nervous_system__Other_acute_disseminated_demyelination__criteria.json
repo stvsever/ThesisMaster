@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hemiparesis"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "optic_neuritis"
+    },
+    {
+      "criterium": "diplopia"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "encephalopathy"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "aphasia"
+    },
+    {
+      "criterium": "hyperreflexia"
+    },
+    {
+      "criterium": "babinski_sign"
+    },
+    {
+      "criterium": "sensory_loss"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

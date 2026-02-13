@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "final_consonant_deletion"
+    },
+    {
+      "criterium": "cluster_reduction"
+    },
+    {
+      "criterium": "stopping_of_fricatives_and_affricates"
+    },
+    {
+      "criterium": "velar_fronting"
+    },
+    {
+      "criterium": "gliding_of_liquids"
+    },
+    {
+      "criterium": "epenthesis"
+    },
+    {
+      "criterium": "deaffrication"
+    },
+    {
+      "criterium": "affrication_of_fricatives"
+    },
+    {
+      "criterium": "palatal_substitution_of_alveolars"
+    }
+  ],
+  "estimated_prevalence_percent": 6.0
+}

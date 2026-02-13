@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "prolonged_sleep_onset_latency_rebound"
+    },
+    {
+      "criterium": "increased_wake_after_sleep_onset_rebound"
+    },
+    {
+      "criterium": "reduced_total_sleep_time_rebound"
+    },
+    {
+      "criterium": "reduced_sleep_efficiency_rebound"
+    },
+    {
+      "criterium": "early_morning_awakening_rebound"
+    },
+    {
+      "criterium": "nocturnal_hyperarousal_rebound"
+    },
+    {
+      "criterium": "nighttime_anxiety_rebound"
+    },
+    {
+      "criterium": "subjective_insomnia_severity_rebound"
+    },
+    {
+      "criterium": "subjective_daytime_sleepiness_rebound"
+    },
+    {
+      "criterium": "daytime_fatigue_rebound"
+    },
+    {
+      "criterium": "irritability_or_mood_lability_rebound"
+    },
+    {
+      "criterium": "concentration_difficulty_rebound"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

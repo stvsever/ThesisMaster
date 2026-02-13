@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "paresthesias_distal_extremities"
+    },
+    {
+      "criterium": "distal_sensory_hypoesthesia_pinprick"
+    },
+    {
+      "criterium": "distal_sensory_hypoesthesia_temperature"
+    },
+    {
+      "criterium": "vibration_sense_loss_great_toe"
+    },
+    {
+      "criterium": "proprioceptive_deficit_ankle"
+    },
+    {
+      "criterium": "absent_ankle_reflex"
+    },
+    {
+      "criterium": "distal_motor_weakness_foot_intrinsics"
+    },
+    {
+      "criterium": "gait_instability_sensory_due_to_neuropathy"
+    },
+    {
+      "criterium": "positive_romberg_sign"
+    },
+    {
+      "criterium": "neuropathic_pain_distal_limbs"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_pain"
+    },
+    {
+      "criterium": "depressive_symptoms_chronic_neuropathy"
+    },
+    {
+      "criterium": "cognitive_fatigue_executive_function_slowing"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

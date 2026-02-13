@@ -1,0 +1,67 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD1",
+      "DRD2",
+      "DRD3",
+      "DRD4",
+      "SLC6A3",
+      "COMT",
+      "BDNF",
+      "OPRM1",
+      "FAAH"
+    ],
+    "molecules": [
+      "Dopamine",
+      "Norepinephrine",
+      "Glutamate",
+      "GABA",
+      "Endocannabinoid_2_AG",
+      "Endocannabinoid_AEA",
+      "BDNF_protein",
+      "Dynorphin",
+      "Orexin_A"
+    ],
+    "cells": [
+      "VTA_DA_neurons",
+      "NAcc_MSN_D1",
+      "NAcc_MSN_D2",
+      "Prefrontal_pyramidal_neurons",
+      "Striatal_Cholinergic_interneurons",
+      "Striatal_GABAergic_interneurons"
+    ],
+    "circuits": [
+      "VTA_to_NAcc_dopaminergic_pathway",
+      "NAcc_to_Ventral_Pallidum_pathway",
+      "Prefrontal_reward_control_circuit",
+      "Amygdala_Orbitofrontal_reward_circuit",
+      "VTA_to_PFC_projection",
+      "Hippocampus_to_NAcc_context_encoding"
+    ],
+    "physiology": [
+      "Basal_dopamine_tone",
+      "Phasic_dopamine_release_to_reward_cue",
+      "Heart_rate_change_to_reward_cue",
+      "Skin_conductance_response_to_reward_cue",
+      "Pupil_dilation_to_reward_cue",
+      "Respiration_rate_change",
+      "Cortisol_response_to_reward_cue"
+    ],
+    "behavior": [
+      "cue_evoked_approach_latency",
+      "reward_seek_action_frequency",
+      "time_spent_near_reward_cue",
+      "persistence_in_reward_search_after_delay",
+      "instrumental_response_rate_to_reward_task",
+      "anticipatory_reward_selection_bias"
+    ],
+    "self_report": [
+      "craving_intensity",
+      "cue_induced_wanting_score",
+      "urge_to_approach_reward",
+      "reward_value_attribution_score",
+      "motivational_salience_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 3.0
+}

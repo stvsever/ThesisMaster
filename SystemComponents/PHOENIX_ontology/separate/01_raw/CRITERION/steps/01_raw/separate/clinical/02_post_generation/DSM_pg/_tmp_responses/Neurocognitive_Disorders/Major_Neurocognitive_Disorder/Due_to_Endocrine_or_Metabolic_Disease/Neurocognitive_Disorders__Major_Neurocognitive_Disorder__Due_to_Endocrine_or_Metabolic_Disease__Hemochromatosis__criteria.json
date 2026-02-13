@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "delayed_recall_deficit"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "attention_dysfunction"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "bradykinesia"
+    },
+    {
+      "criterium": "rest_tremor"
+    },
+    {
+      "criterium": "rigidity"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "naming_difficulty"
+    },
+    {
+      "criterium": "apraxia"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "fatigue_exhaustion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

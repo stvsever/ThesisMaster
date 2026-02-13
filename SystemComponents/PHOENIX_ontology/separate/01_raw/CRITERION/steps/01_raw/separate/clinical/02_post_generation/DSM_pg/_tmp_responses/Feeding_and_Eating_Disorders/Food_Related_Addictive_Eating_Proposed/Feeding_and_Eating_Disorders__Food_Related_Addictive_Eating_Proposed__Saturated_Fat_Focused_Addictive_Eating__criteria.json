@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SFFA_intense_sat_fat_craving"
+    },
+    {
+      "criterium": "SFFA_recurrent_sat_fat_binge_eating"
+    },
+    {
+      "criterium": "SFFA_loss_of_control_over_sat_fat_intake"
+    },
+    {
+      "criterium": "SFFA_persistent_sat_fat_preoccupation"
+    },
+    {
+      "criterium": "SFFA_secretive_sat_fat_consumption"
+    },
+    {
+      "criterium": "SFFA_eating_sat_fat_without_hunger"
+    },
+    {
+      "criterium": "SFFA_eating_sat_fat_despite_health_risks"
+    },
+    {
+      "criterium": "SFFA_saturated_fat_tolerance_increase"
+    },
+    {
+      "criterium": "SFFA_withdrawal_symptoms_on_sat_fat_restriction"
+    },
+    {
+      "criterium": "SFFA_social_occupational_impairment_from_sat_fat_eating"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

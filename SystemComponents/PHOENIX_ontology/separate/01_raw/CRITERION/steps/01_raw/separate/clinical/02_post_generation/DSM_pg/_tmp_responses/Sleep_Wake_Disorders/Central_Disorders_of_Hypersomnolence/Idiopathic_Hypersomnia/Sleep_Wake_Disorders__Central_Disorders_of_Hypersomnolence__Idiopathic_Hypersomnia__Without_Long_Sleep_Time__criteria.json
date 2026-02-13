@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "nonrefreshing_night_sleep"
+    },
+    {
+      "criterium": "spontaneous_daytime_napping"
+    },
+    {
+      "criterium": "sleep_inertia_post_awakening"
+    },
+    {
+      "criterium": "sleep_attacks_during_wakefulness"
+    },
+    {
+      "criterium": "cognitive_impairment_during_wakefulness"
+    },
+    {
+      "criterium": "sustained_attention_deficit"
+    },
+    {
+      "criterium": "working_memory_impairment_during_tasks"
+    },
+    {
+      "criterium": "emotional_lability_related_to_sleepiness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.03
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "delusions_of_persecution"
+    },
+    {
+      "criterium": "ideas_of_reference"
+    },
+    {
+      "criterium": "bizarre_delusions"
+    },
+    {
+      "criterium": "command_hallucinations"
+    },
+    {
+      "criterium": "thought_insertion"
+    },
+    {
+      "criterium": "thought_control_delusions"
+    },
+    {
+      "criterium": "disorganized_thought_process"
+    },
+    {
+      "criterium": "catatonia_features"
+    },
+    {
+      "criterium": "paranoid_ideation"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "loss_of_REM_atonia"
+    },
+    {
+      "criterium": "dream_enactment_behaviors"
+    },
+    {
+      "criterium": "complex_motor_behaviors_during_REM_sleep"
+    },
+    {
+      "criterium": "punching_kicking_in_bed_during_REM_sleep"
+    },
+    {
+      "criterium": "REM_sleep_vocalizations"
+    },
+    {
+      "criterium": "self_injury_during_REM_sleep"
+    },
+    {
+      "criterium": "injury_to_bed_partner_or_others_during_episodes"
+    },
+    {
+      "criterium": "bed_partner_distress_or_wakeups_due_to_episodes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

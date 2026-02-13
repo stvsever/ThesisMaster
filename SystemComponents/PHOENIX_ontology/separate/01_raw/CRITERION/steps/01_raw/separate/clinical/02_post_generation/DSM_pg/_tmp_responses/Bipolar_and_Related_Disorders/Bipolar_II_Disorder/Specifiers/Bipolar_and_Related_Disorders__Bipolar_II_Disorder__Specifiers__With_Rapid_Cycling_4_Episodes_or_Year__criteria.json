@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rapid_mood_switching"
+    },
+    {
+      "criterium": "hypomanic_episode_occurrence"
+    },
+    {
+      "criterium": "major_depressive_episode_occurrence"
+    },
+    {
+      "criterium": "mixed_features_present"
+    },
+    {
+      "criterium": "flight_of_ideas_or_racing_thoughts"
+    },
+    {
+      "criterium": "increased_goal_directed_activity_or_risk_taking"
+    },
+    {
+      "criterium": "decreased_need_for_sleep"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "irritability_during_mood_elevation"
+    },
+    {
+      "criterium": "marked_distractibility_or_impulsivity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

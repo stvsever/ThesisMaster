@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "TRPV1",
+      "TRPA1",
+      "SCN9A",
+      "ASIC3"
+    ],
+    "molecules": [
+      "CGRP",
+      "Substance_P",
+      "Glutamate",
+      "Bradykinin",
+      "Prostaglandin_E2"
+    ],
+    "cells": [
+      "TRPV1_positive_nociceptors",
+      "TRPA1_positive_nociceptors"
+    ],
+    "circuits": [
+      "nociceptive_spinal_cord_circuit",
+      "insula_pain_network",
+      "anterior_cingulate_cortex_network"
+    ],
+    "physiology": [
+      "heart_rate_increase_bpm",
+      "respiratory_rate_increase_per_min",
+      "skin_wheal_area_mm2",
+      "pupil_dilation_percent_change",
+      "HRV_LF_HF_ratio"
+    ],
+    "behavior": [
+      "head_turn_away_latency_ms",
+      "sniff_rate_per_min",
+      "facial_grimace_score",
+      "stimulus_avoidance_frequency_per_min",
+      "withdrawal_from_irritant_latency_ms"
+    ],
+    "self_report": [
+      "irritant_sensitivity_rating_scale",
+      "nasal_burning_intensity_rating",
+      "airway_discomfort_rating",
+      "stimulus_sensitivity_change_likert"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

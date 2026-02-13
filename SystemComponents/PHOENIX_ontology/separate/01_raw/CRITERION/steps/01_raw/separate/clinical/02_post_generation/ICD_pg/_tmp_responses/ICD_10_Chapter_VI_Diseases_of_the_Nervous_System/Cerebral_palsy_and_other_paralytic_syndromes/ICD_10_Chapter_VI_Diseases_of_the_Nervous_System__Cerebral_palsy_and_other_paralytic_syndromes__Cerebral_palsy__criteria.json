@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "upper_limb_spasticity"
+    },
+    {
+      "criterium": "lower_limb_spasticity"
+    },
+    {
+      "criterium": "spastic_gait"
+    },
+    {
+      "criterium": "dystonia_presence"
+    },
+    {
+      "criterium": "choreoathetosis_presence"
+    },
+    {
+      "criterium": "epilepsy_presence"
+    },
+    {
+      "criterium": "cognitive_impairment_presence"
+    },
+    {
+      "criterium": "dysarthria_presence"
+    },
+    {
+      "criterium": "visual_impairment_presence"
+    },
+    {
+      "criterium": "hearing_impairment_presence"
+    },
+    {
+      "criterium": "feeding_dysphagia_presence"
+    },
+    {
+      "criterium": "hip_dislocation_presence"
+    },
+    {
+      "criterium": "scoliosis_presence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

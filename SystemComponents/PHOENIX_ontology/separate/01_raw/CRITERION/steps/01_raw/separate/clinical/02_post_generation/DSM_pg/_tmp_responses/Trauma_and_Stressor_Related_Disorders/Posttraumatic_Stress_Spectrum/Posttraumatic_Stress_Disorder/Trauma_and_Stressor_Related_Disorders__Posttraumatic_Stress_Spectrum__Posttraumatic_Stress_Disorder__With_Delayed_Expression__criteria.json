@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusion_recollections"
+    },
+    {
+      "criterium": "distressing_nightmares"
+    },
+    {
+      "criterium": "dissociative_reactions_to_cues"
+    },
+    {
+      "criterium": "avoidance_of_thoughts_or_feelings"
+    },
+    {
+      "criterium": "avoidance_of_external_reminders"
+    },
+    {
+      "criterium": "dissociative_amnesia_for_traumatic_event"
+    },
+    {
+      "criterium": "negative_beliefs_about_self"
+    },
+    {
+      "criterium": "persistent_negative_emotions"
+    },
+    {
+      "criterium": "diminished_interest_in_activities"
+    },
+    {
+      "criterium": "detachment_or_social_withdrawal"
+    },
+    {
+      "criterium": "hypervigilance"
+    },
+    {
+      "criterium": "sleep_disturbances"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

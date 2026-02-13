@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations_presence"
+    },
+    {
+      "criterium": "visual_hallucinations_presence"
+    },
+    {
+      "criterium": "olfactory_hallucinations_presence"
+    },
+    {
+      "criterium": "gustatory_hallucinations_presence"
+    },
+    {
+      "criterium": "delusions_bizarre_content"
+    },
+    {
+      "criterium": "delusions_persecutory_content"
+    },
+    {
+      "criterium": "delusions_of_reference_present"
+    },
+    {
+      "criterium": "disorganized_thought_form_present"
+    },
+    {
+      "criterium": "disorganized_speech_present"
+    },
+    {
+      "criterium": "catatonia_features_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.04
+}

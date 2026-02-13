@@ -1,0 +1,29 @@
+{
+  "domain_path": "PSYCHO / Cognitive_Behavioral_Therapies / Problem_Solving_Training",
+  "domain_root_path": [
+    "PSYCHO",
+    "Cognitive_Behavioral_Therapies",
+    "Problem_Solving_Training"
+  ],
+  "leaf_count": 19,
+  "total_edges_in_subtree": 27,
+  "evaluated_pairs": 27,
+  "violations_count": 1,
+  "violation_rate": 0.037037037037037035,
+  "llm_calls": 1,
+  "violations": [
+    "Applied_Problem_Solving > Domains"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Applied_Problem_Solving > Domains",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / Problem_Solving_Training / Applied_Problem_Solving",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / Problem_Solving_Training / Applied_Problem_Solving / Domains"
+    }
+  ],
+  "cache_key": "cbc78e983c0041434c70c56b5cd13ba91be46acd",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 33.786
+}

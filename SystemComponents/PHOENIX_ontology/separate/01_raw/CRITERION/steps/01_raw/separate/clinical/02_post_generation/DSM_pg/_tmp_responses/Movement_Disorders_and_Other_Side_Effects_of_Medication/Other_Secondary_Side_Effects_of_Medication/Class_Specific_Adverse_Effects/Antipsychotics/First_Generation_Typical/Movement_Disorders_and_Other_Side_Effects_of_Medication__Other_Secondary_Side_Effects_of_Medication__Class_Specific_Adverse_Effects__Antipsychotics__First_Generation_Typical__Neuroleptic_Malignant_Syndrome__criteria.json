@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hyperthermia"
+    },
+    {
+      "criterium": "lead_pipe_rigidity"
+    },
+    {
+      "criterium": "altered_mental_status"
+    },
+    {
+      "criterium": "autonomic_instability"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "elevated_ck"
+    },
+    {
+      "criterium": "leukocytosis"
+    },
+    {
+      "criterium": "myoglobinuria"
+    },
+    {
+      "criterium": "elevated_transaminases"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "postural_tremor_hand_present"
+    },
+    {
+      "criterium": "postural_tremor_upper_extremity_present"
+    },
+    {
+      "criterium": "kinetic_tremor_hand_present"
+    },
+    {
+      "criterium": "intention_tremor_hand_present"
+    },
+    {
+      "criterium": "tremor_frequency_hz"
+    },
+    {
+      "criterium": "tremor_amplitude_degree"
+    },
+    {
+      "criterium": "bilateral_symmetry_of_tremor"
+    },
+    {
+      "criterium": "head_tremor_present"
+    },
+    {
+      "criterium": "voice_tremor_present"
+    },
+    {
+      "criterium": "finger_nose_tremor_present"
+    },
+    {
+      "criterium": "tremor_exacerbation_with_fine_motor_tasks_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

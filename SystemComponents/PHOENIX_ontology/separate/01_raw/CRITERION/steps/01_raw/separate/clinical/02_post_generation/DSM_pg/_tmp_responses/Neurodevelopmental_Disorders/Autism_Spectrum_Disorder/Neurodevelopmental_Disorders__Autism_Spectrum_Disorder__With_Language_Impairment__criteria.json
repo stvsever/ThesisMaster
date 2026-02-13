@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "expressive_language_impairment"
+    },
+    {
+      "criterium": "receptive_language_impairment"
+    },
+    {
+      "criterium": "limited_lexicon_size"
+    },
+    {
+      "criterium": "grammatical_syntax_deficits"
+    },
+    {
+      "criterium": "phonological_articulation_deficits"
+    },
+    {
+      "criterium": "pragmatic_language_impairment"
+    },
+    {
+      "criterium": "echolalia_present"
+    },
+    {
+      "criterium": "nonverbal_communication_deficit"
+    },
+    {
+      "criterium": "early_language_delay"
+    },
+    {
+      "criterium": "reduced_mean_length_of_utterance"
+    },
+    {
+      "criterium": "reduced_conversational_turn_taking"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

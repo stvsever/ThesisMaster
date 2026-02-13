@@ -1,0 +1,59 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_rs53576",
+      "COMT_Val158Met",
+      "SLC6A4_5HTTLPR",
+      "BDNF_Val66Met",
+      "DRD4_VNTR_7R",
+      "MAOA_uVNTR"
+    ],
+    "molecules": [
+      "oxytocin_plasma",
+      "cortisol_plasma",
+      "dopamine_plasma",
+      "serotonin_plasma",
+      "BDNF_plasma"
+    ],
+    "cells": [
+      "dlPFC_pyramidal_neurons_count",
+      "amygdala_pyramidal_neurons_count",
+      "GABA_interneurons_amygdala_density",
+      "astrocyte_density_prefrontal_cortex",
+      "microglia_density_frontal_lobe"
+    ],
+    "circuits": [
+      "vmPFC_amygdala_function",
+      "dlPFC_ACC_connectivity",
+      "ACC_blame_monitoring_activity",
+      "mPFC_pCC_network_blame_processing",
+      "anterior_insula_dACC_connectivity",
+      "ventral_striatum_blame_reward_bias"
+    ],
+    "physiology": [
+      "heart_rate_variability",
+      "skin_conductance_response",
+      "pupil_dilation_blame_task",
+      "salivary_cortisol_reactivity",
+      "respiration_rate_blame_task",
+      "skin_temperature_change"
+    ],
+    "behavior": [
+      "external_attribution_rate",
+      "internal_attribution_rate",
+      "blame_bias_index",
+      "blame_reaction_time",
+      "blame_decision_accuracy",
+      "blame_error_rate"
+    ],
+    "self_report": [
+      "external_blame_item1",
+      "external_blame_item2",
+      "external_blame_item3",
+      "internal_blame_item1",
+      "internal_blame_item2",
+      "internal_blame_item3"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

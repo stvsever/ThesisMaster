@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "magnetic_gait"
+    },
+    {
+      "criterium": "gait_festination"
+    },
+    {
+      "criterium": "gait_instability"
+    },
+    {
+      "criterium": "urinary_incontinence"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

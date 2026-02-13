@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_rs53576",
+      "OXTR_rs2254298",
+      "BDNF_rs6265",
+      "COMT_rs4680",
+      "NRG1_rs6994992"
+    ],
+    "molecules": [
+      "oxytocin_plasma_concentration",
+      "vasopressin_plasma_concentration",
+      "BDNF_protein_level",
+      "dopamine_metabolite_HVA_plasma",
+      "cortisol_plasma_concentration",
+      "oxytocin_receptor_protein_level"
+    ],
+    "cells": [
+      "tpj_pyramidal_neuron_density",
+      "tpj_gabaergic_interneuron_density",
+      "tpj_astrocyte_density",
+      "tpj_microglia_density"
+    ],
+    "circuits": [
+      "tpj_mPFC_functional_connectivity",
+      "tpj_STS_functional_connectivity",
+      "tpj_precuneus_functional_connectivity",
+      "tpj_amygdala_functional_connectivity"
+    ],
+    "physiology": [
+      "tpj_bold_percent_signal_change",
+      "tpj_bold_time_to_peak_ms",
+      "tpj_bold_cluster_size_voxels"
+    ],
+    "behavior": [
+      "false_belief_task_accuracy",
+      "mentalizing_task_reaction_time_ms",
+      "social_inference_accuracy"
+    ],
+    "self_report": [
+      "iri_perspective_taking_score",
+      "iri_empathic_concern_score",
+      "social_anxiety_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 2.0
+}

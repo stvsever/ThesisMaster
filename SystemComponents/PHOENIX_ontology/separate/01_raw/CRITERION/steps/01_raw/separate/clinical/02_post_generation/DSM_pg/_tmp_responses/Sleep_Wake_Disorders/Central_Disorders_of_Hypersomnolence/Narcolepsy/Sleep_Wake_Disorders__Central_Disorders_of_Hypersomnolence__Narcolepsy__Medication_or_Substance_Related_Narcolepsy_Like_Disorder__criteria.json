@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_attack_episodes"
+    },
+    {
+      "criterium": "cataplexy_like_events"
+    },
+    {
+      "criterium": "REM_intrusion_into_wake"
+    },
+    {
+      "criterium": "hypnagogic_hypnopompic_hallucinations"
+    },
+    {
+      "criterium": "sleep_paralysis_occurrences"
+    },
+    {
+      "criterium": "nocturnal_sleep_fragmentation"
+    },
+    {
+      "criterium": "automatic_behaviors_during_wakefulness"
+    },
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "non_restorative_sleep"
+    },
+    {
+      "criterium": "short_sleep_latency"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

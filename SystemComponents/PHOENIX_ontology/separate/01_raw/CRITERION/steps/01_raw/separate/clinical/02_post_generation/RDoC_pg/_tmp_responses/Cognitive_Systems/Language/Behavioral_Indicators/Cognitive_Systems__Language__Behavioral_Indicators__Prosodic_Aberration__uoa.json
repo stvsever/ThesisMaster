@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "FOXP2_expression_level",
+      "CNTNAP2_variant_status",
+      "FOXP1_expression_level",
+      "KIAA0319_expression_level",
+      "DCDC2_expression_level",
+      "ROBO1_expression_level"
+    ],
+    "molecules": [
+      "oxytocin_plasma_concentration",
+      "dopamine_D2_receptor_availability",
+      "serotonin_plasma_level",
+      "BDNF_level",
+      "glutamate_concentration_language_areas",
+      "acetylcholine_plasma_concentration"
+    ],
+    "cells": [
+      "pyramidal_neuron_density_language_areas",
+      "gabaergic_interneuron_marker_expression_language_areas",
+      "myelin_basic_protein_density_language_tracts"
+    ],
+    "circuits": [
+      "prosody_network_resting_state_connectivity",
+      "left_IFG_prosody_connectivity",
+      "right_STS_prosody_connectivity",
+      "left_STG_prosody_network_activation",
+      "bilateral_inferior_frontal_gyrus_connectivity"
+    ],
+    "physiology": [
+      "fundamental_frequency_variability",
+      "speech_rate",
+      "jitter",
+      "shimmer",
+      "loudness_variation",
+      "pitch_range_variability"
+    ],
+    "behavior": [
+      "monotone_speech",
+      "flattened_intonation",
+      "abnormal_pitch_contour",
+      "reduced_prosodic_rate_variability",
+      "inconsistent_pitch_accent_patterns"
+    ],
+    "self_report": [
+      "self_report_prosody_deficit_severity",
+      "self_report_intonation_control_difficulty",
+      "self_report_perceived_flat_intonation",
+      "self_report_communication_efficiency_related_to_prosody"
+    ]
+  },
+  "estimated_prevalence_percent": 1.8
+}

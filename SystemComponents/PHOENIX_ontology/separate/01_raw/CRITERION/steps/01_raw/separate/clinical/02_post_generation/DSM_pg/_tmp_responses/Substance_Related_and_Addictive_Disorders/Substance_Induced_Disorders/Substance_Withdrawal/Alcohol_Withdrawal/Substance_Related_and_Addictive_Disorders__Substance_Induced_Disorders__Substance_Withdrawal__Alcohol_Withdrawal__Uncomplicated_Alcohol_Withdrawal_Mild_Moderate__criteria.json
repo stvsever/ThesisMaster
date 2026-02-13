@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "transient_visual_hallucinations"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

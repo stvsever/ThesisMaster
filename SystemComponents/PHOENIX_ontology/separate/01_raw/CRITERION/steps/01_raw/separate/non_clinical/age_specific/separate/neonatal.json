@@ -1,0 +1,413 @@
+{
+  "NEONATAL": {
+    "social_development": {
+      "interaction": {
+        "eye_contact": {
+          "brief_eye_contact": {},
+          "sustained_eye_contact": {},
+          "mutual_gaze": {},
+          "tracking_with_eyes": {}
+        },
+        "social_smiling": {
+          "reflexive_smile": {},
+          "responsive_smile": {},
+          "social_reciprocity": {},
+          "smile_duration_variation": {}
+        },
+        "recognition": {
+          "familiar_faces": {
+            "primary_caregiver_recognition": {},
+            "sibling_recognition": {},
+            "visitor_recognition": {}
+          },
+          "familiar_voices": {
+            "parent_voice_recognition": {},
+            "sibling_voice_recognition": {},
+            "environmental_voice_recognition": {}
+          },
+          "familiar_sounds": {
+            "environmental_sounds_recognition": {},
+            "routine_sounds_recognition": {},
+            "music_recognition": {}
+          }
+        },
+        "social_engagement": {
+          "cooing_responses": {},
+          "interactive_gazing": {},
+          "turn_taking_behaviors": {},
+          "mimicking_faces": {}
+        }
+      },
+      "communication": {
+        "vocalizations": {
+          "cooing": {
+            "frequency_cooing": {},
+            "duration_cooing": {},
+            "context_cooing": {}
+          },
+          "gurgling": {
+            "types_gurgling": {},
+            "intensity_gurgling": {},
+            "frequency_gurgling": {}
+          },
+          "whimpering": {
+            "trigger_whimpering": {},
+            "duration_whimpering": {},
+            "intensity_whimpering": {}
+          }
+        },
+        "gestures": {
+          "hand_movements": {
+            "open_hands": {},
+            "fist_clenching": {},
+            "grasp_reflexes": {}
+          },
+          "arm_movements": {
+            "kicking_limbs": {},
+            "flexing_arms": {},
+            "extension_movements": {}
+          },
+          "body_movements": {
+            "twisting_body": {},
+            "arching_back": {},
+            "rocking_motion": {}
+          },
+          "facial_expressions": {
+            "frowning": {},
+            "grimacing": {},
+            "smiling": {}
+          }
+        },
+        "responsive_gaze": {
+          "following_objects": {
+            "slow_moving_objects": {},
+            "fast_moving_objects": {},
+            "object_tracking": {}
+          },
+          "tracking_movement": {
+            "horizontal_tracking": {},
+            "vertical_tracking": {},
+            "circular_tracking": {}
+          },
+          "shifting_attention": {
+            "auditory_attention_shift": {},
+            "visual_attention_shift": {},
+            "multisensory_attention_shift": {}
+          },
+          "gaze_aversion": {
+            "temporary_aversion": {},
+            "prolonged_aversion": {},
+            "contextual_aversion": {}
+          }
+        }
+      }
+    },
+    "physical_development": {
+      "motor_skills": {
+        "reflexes": {
+          "rooting_reflex": {
+            "response_time": {},
+            "directional_accuracy": {},
+            "trigger_intensity": {}
+          },
+          "sucking_reflex": {
+            "sucking_strength": {},
+            "sucking_frequency": {},
+            "sucking_duration": {}
+          },
+          "grasping_reflex": {
+            "grip_strength": {},
+            "grip_duration": {},
+            "grip_response": {}
+          },
+          "startle_reflex": {
+            "auditory_startle": {},
+            "visual_startle": {},
+            "tactile_startle": {}
+          }
+        },
+        "voluntary_movements": {
+          "arm_reaching": {
+            "reach_accuracy": {},
+            "reach_frequency": {},
+            "reach_timing": {}
+          },
+          "leg_kicking": {
+            "kick_strength": {},
+            "kick_frequency": {},
+            "kick_range": {}
+          },
+          "head_turning": {
+            "head_turn_range": {},
+            "head_turn_speed": {},
+            "head_turn_control": {}
+          },
+          "body_rolls": {
+            "roll_direction": {},
+            "roll_frequency": {},
+            "roll_control": {}
+          }
+        },
+        "coordination": {
+          "hand_eye_coordination": {
+            "hand_eye_timing": {},
+            "hand_eye_accuracy": {},
+            "hand_eye_sync": {}
+          },
+          "body_coordination": {
+            "trunk_control": {},
+            "limb_synchronization": {},
+            "balance_control": {}
+          },
+          "limb_synchronization": {
+            "arm_leg_sync": {},
+            "cross_limbs_sync": {},
+            "symmetrical_movements": {}
+          },
+          "fine_motor_skills": {
+            "finger_flexion": {},
+            "thumb_movement": {},
+            "finger_isolation": {}
+          }
+        }
+      },
+      "growth_metrics": {
+        "weight_gain": {
+          "weekly_gain": {},
+          "daily_gain": {},
+          "total_gain": {},
+          "growth_pattern": {}
+        },
+        "length_growth": {
+          "monthly_growth": {},
+          "weekly_growth": {},
+          "daily_growth": {},
+          "growth_curve": {}
+        },
+        "head_circumference": {
+          "monthly_growth": {},
+          "weekly_growth": {},
+          "daily_growth": {},
+          "growth_percentile": {}
+        },
+        "chest_circumference": {
+          "monthly_growth": {},
+          "weekly_growth": {},
+          "daily_growth": {},
+          "growth_percentile": {}
+        }
+      },
+      "sensory_development": {
+        "vision": {
+          "focus_distance": {},
+          "color_preference": {},
+          "contrast_preference": {},
+          "visual_tracking": {}
+        },
+        "hearing": {
+          "sound_recognition": {},
+          "volume_preference": {},
+          "pitch_preference": {},
+          "directional_hearing": {}
+        },
+        "touch": {
+          "tactile_sensitivity": {},
+          "texture_preference": {},
+          "temperature_preference": {},
+          "pressure_sensitivity": {}
+        },
+        "taste": {
+          "sweet_taste_preference": {},
+          "bitter_taste_aversion": {},
+          "sour_taste_response": {}
+        },
+        "olfaction": {
+          "smell_recognition": {},
+          "odor_preference": {},
+          "odor_aversion": {}
+        }
+      },
+      "sleep_patterns": {
+        "sleep_duration": {
+          "daily_sleep_hours": {},
+          "night_sleep_hours": {},
+          "day_sleep_hours": {}
+        },
+        "sleep_cycles": {
+          "REM_sleep": {},
+          "non_REM_sleep": {},
+          "sleep_transition": {}
+        },
+        "sleep_quality": {
+          "restful_sleep": {},
+          "disturbed_sleep": {},
+          "awake_during_sleep": {}
+        },
+        "sleep_positions": {
+          "supine_position": {},
+          "prone_position": {},
+          "side_position": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "comfort_seeking": {
+        "soothing_behaviors": {
+          "holding": {},
+          "cuddling": {},
+          "rocking": {},
+          "swaddling": {}
+        },
+        "calming_methods": {
+          "rhythmic_sounds": {},
+          "gentle_motion": {},
+          "soft_voice": {},
+          "white_noise": {}
+        },
+        "attachment": {
+          "primary_caregiver_attachment": {
+            "secure_attachment": {},
+            "insecure_attachment": {},
+            "avoidant_attachment": {}
+          },
+          "stranger_recognition": {},
+          "separation_reaction": {}
+        },
+        "self_soothing": {
+          "hand_sucking": {},
+          "thumb_sucking": {},
+          "body_sucking": {}
+        }
+      },
+      "emotional_expressions": {
+        "crying_patterns": {
+          "hunger_cry": {},
+          "discomfort_cry": {},
+          "pain_cry": {},
+          "tired_cry": {}
+        },
+        "contentment_signs": {
+          "relaxed_posture": {},
+          "quiet_alertness": {},
+          "smiling": {},
+          "calm_movement": {}
+        },
+        "distress_signs": {
+          "fussing": {},
+          "irritability": {},
+          "tense_body": {},
+          "agitation": {}
+        },
+        "positive_emotions": {
+          "joy_expressions": {},
+          "interest_expressions": {},
+          "surprise_expressions": {}
+        }
+      },
+      "temperament": {
+        "calmness": {
+          "easy_temperament": {},
+          "moderate_temperament": {},
+          "difficult_temperament": {},
+          "variable_temperament": {}
+        },
+        "activity_level": {
+          "high_activity": {},
+          "medium_activity": {},
+          "low_activity": {},
+          "fluctuating_activity": {}
+        },
+        "adaptability": {
+          "flexible_adaptation": {},
+          "moderate_adaptation": {},
+          "rigid_adaptation": {},
+          "slow_adaptation": {}
+        },
+        "mood_regulation": {
+          "consistent_mood": {},
+          "variable_mood": {},
+          "irritable_mood": {}
+        }
+      },
+      "stress_response": {
+        "cortisol_levels": {},
+        "heart_rate_variability": {},
+        "behavioral_responses": {},
+        "physiological_responses": {}
+      }
+    },
+    "cognitive_development": {
+      "sensory_perception": {
+        "vision": {
+          "face_tracking": {},
+          "pattern_recognition": {},
+          "color_discrimination": {},
+          "light_sensitivity": {}
+        },
+        "hearing": {
+          "sound_localization": {},
+          "voice_identification": {},
+          "sound_discrimination": {},
+          "volume_tolerance": {}
+        },
+        "touch": {
+          "texture_discrimination": {},
+          "temperature_recognition": {},
+          "pressure_sensitivity": {},
+          "vibration_sensitivity": {}
+        },
+        "taste": {
+          "taste_discrimination": {},
+          "flavor_preference": {},
+          "taste_memory": {}
+        },
+        "olfaction": {
+          "odor_discrimination": {},
+          "smell_memory": {},
+          "odor_preference": {}
+        }
+      },
+      "attention_and_awareness": {
+        "attention_span": {
+          "short_attention": {},
+          "moderate_attention": {},
+          "variable_attention": {},
+          "focused_attention": {}
+        },
+        "startle_response": {
+          "auditory_startle": {},
+          "visual_startle": {},
+          "tactile_startle": {},
+          "multi_sensory_startle": {}
+        },
+        "environmental_awareness": {
+          "movement_detection": {},
+          "light_response": {},
+          "sound_response": {},
+          "object_presence_detection": {}
+        },
+        "alertness_levels": {}
+      },
+      "memory": {
+        "recognition_memory": {
+          "familiar_faces_recognition": {},
+          "familiar_sounds_recognition": {},
+          "familiar_objects_recognition": {},
+          "familiar_tastes_recognition": {}
+        },
+        "anticipatory_memory": {
+          "feeding_times": {},
+          "sleep_times": {},
+          "interaction_times": {},
+          "bath_times": {}
+        },
+        "pattern_memory": {
+          "visual_patterns": {},
+          "sound_patterns": {},
+          "tactile_patterns": {},
+          "temporal_patterns": {}
+        }
+      }
+    }
+  }
+}

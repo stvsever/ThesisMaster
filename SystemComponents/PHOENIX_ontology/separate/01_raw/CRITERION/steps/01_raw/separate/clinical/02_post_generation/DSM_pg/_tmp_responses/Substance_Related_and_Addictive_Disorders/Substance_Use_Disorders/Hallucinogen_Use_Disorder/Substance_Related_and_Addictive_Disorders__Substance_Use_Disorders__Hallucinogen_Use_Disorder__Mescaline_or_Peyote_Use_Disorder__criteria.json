@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tolerance_development"
+    },
+    {
+      "criterium": "withdrawal_symptoms_present"
+    },
+    {
+      "criterium": "craving_present"
+    },
+    {
+      "criterium": "time_spent_obtaining_or_using"
+    },
+    {
+      "criterium": "larger_amounts_or_extended_use"
+    },
+    {
+      "criterium": "interpersonal_problems_due_to_use"
+    },
+    {
+      "criterium": "failure_to_fulfill_major_role_obligations"
+    },
+    {
+      "criterium": "giving_up_activities_due_to_use"
+    },
+    {
+      "criterium": "use_in_physically_hazardous_situations"
+    },
+    {
+      "criterium": "continued_use_despite_health_problems"
+    },
+    {
+      "criterium": "perceptual_distortions_during_intoxication"
+    },
+    {
+      "criterium": "geometric_visual_hallucinations_during_intoxication"
+    },
+    {
+      "criterium": "derealization_or_depersonalization_during_intoxication"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

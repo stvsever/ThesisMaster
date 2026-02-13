@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "lvef_below_40_percent"
+    },
+    {
+      "criterium": "lv_dilation_on_imaging"
+    },
+    {
+      "criterium": "bnp_or_ntprobnp_elevated"
+    },
+    {
+      "criterium": "s3_gallop_present"
+    },
+    {
+      "criterium": "sustained_ventricular_arrhythmia_present"
+    },
+    {
+      "criterium": "exertional_dyspnea_present"
+    },
+    {
+      "criterium": "orthopnea_present"
+    },
+    {
+      "criterium": "paroxysmal_nocturnal_dyspnea_present"
+    },
+    {
+      "criterium": "peripheral_edema_present"
+    },
+    {
+      "criterium": "cardiomegaly_on_imaging"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

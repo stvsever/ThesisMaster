@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tooth_region_pain_with_normal_clinical_exam_and_radiographs"
+    },
+    {
+      "criterium": "burning_pain_description"
+    },
+    {
+      "criterium": "electric_shock_like_pain_description"
+    },
+    {
+      "criterium": "aching_pain_description"
+    },
+    {
+      "criterium": "spontaneous_pain_presentation"
+    },
+    {
+      "criterium": "allodynia_to_light_touch_of_tooth_or_perioral_tissues"
+    },
+    {
+      "criterium": "hyperalgesia_to_pinch_or_pressure_in_oral_region"
+    },
+    {
+      "criterium": "pain_localization_to_trigeminal_distribution_region"
+    },
+    {
+      "criterium": "pain_fails_to_correlate_with_pulp_status_on_clinical_assessment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

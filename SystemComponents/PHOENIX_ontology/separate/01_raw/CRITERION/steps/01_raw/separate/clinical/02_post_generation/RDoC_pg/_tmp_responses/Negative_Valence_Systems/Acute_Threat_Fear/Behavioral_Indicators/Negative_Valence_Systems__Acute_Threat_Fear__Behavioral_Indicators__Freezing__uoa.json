@@ -1,0 +1,57 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_expression_amygdala",
+      "NR3C1_expression_hypothalamus",
+      "GAD1_expression_amygdala",
+      "SLC6A4_expression_brain",
+      "FKBP5_expression_hippocampus"
+    ],
+    "molecules": [
+      "cortisol_plasma_level",
+      "norepinephrine_plasma_level",
+      "epinephrine_plasma_level",
+      "CRF_plasma_level",
+      "beta_adrenergic_receptor_activity",
+      "glucocorticoid_receptor_density_brain"
+    ],
+    "cells": [
+      "GABAergic_interneuron_density_amygdala",
+      "pyramidal_neuron_density_prefrontal_cortex",
+      "microglia_activation_amygdala",
+      "astrocyte_density_infralimbic_cortex",
+      "oligodendrocyte_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "amygdala_activation_level",
+      "vmPFC_inhibitory_control_strength",
+      "hippocampus_amygdala_connectivity_strength",
+      "amygdala_prefrontal_connectivity",
+      "periaqueductal_gray_activation_level",
+      "insula_amygdala_connectivity"
+    ],
+    "physiology": [
+      "heart_rate_deceleration",
+      "heart_rate_variability_reduction",
+      "respiratory_rate_deceleration",
+      "blood_pressure_systolic_decline",
+      "muscle_tone_increase",
+      "pupil_dilation_change",
+      "skin_conductance_level"
+    ],
+    "behavior": [
+      "immobility_duration_seconds",
+      "freeze_bout_count",
+      "freeze_onset_latency_seconds",
+      "frozen_posture_presence",
+      "gaze_aversion_events"
+    ],
+    "self_report": [
+      "fear_intensity_during_freeze_scale",
+      "threat_perception_during_freeze_scale",
+      "anxiety_level_during_freeze_scale",
+      "subjective_freeze_experience_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

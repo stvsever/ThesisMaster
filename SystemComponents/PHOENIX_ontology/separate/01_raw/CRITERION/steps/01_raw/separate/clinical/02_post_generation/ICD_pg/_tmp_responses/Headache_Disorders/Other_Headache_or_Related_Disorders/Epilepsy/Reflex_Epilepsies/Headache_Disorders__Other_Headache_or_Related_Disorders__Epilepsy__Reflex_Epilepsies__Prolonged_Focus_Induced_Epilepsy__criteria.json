@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "seizure_evoked_by_prolonged_focus"
+    },
+    {
+      "criterium": "EEG_epileptiform_discharge_during_prolonged_focus"
+    },
+    {
+      "criterium": "impaired_consciousness_during_focus_evoked_seizure"
+    },
+    {
+      "criterium": "postictal_fatigue_or_confusion_after_focus_evoked_seizure"
+    },
+    {
+      "criterium": "autonomic_symptoms_during_focus_evoked_seizure"
+    },
+    {
+      "criterium": "aura_present_during_focus_evoked_seizure"
+    },
+    {
+      "criterium": "focal_motor_manifestations_during_focus_evoked_seizure"
+    },
+    {
+      "criterium": "recurrence_on_reexposure_to_prolonged_focus"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

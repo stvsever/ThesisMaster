@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "morbilliform_dermatitis"
+    },
+    {
+      "criterium": "urticarial_rash"
+    },
+    {
+      "criterium": "fixed_drug_eruption"
+    },
+    {
+      "criterium": "erythematous_maculopapular_rash"
+    },
+    {
+      "criterium": "vesiculobullous_rash"
+    },
+    {
+      "criterium": "targetoid_lesions"
+    },
+    {
+      "criterium": "mucosal_involvement"
+    },
+    {
+      "criterium": "pruritus"
+    },
+    {
+      "criterium": "fever"
+    },
+    {
+      "criterium": "eosinophilia"
+    },
+    {
+      "criterium": "desquamation"
+    },
+    {
+      "criterium": "photosensitive_rash"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

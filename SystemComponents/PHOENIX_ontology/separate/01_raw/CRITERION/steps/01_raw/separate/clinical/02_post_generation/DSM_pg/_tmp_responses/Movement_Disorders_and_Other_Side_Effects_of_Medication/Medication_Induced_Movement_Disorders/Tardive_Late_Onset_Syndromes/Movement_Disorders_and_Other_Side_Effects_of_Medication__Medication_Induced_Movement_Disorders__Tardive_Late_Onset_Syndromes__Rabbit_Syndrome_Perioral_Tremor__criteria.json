@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "perioral_rhythmic_tremor_presence"
+    },
+    {
+      "criterium": "perioral_rhythmic_tremor_bilateral"
+    },
+    {
+      "criterium": "perioral_tremor_frequency_hz"
+    },
+    {
+      "criterium": "perioral_tremor_amplitude_grade"
+    },
+    {
+      "criterium": "orbicularis_oris_muscle_tremor_presence"
+    },
+    {
+      "criterium": "tongue_tremor_presence"
+    },
+    {
+      "criterium": "masticatory_muscle_tremor_presence"
+    },
+    {
+      "criterium": "lip_pursing_involuntary_presence"
+    },
+    {
+      "criterium": "rest_tremor_component_presence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

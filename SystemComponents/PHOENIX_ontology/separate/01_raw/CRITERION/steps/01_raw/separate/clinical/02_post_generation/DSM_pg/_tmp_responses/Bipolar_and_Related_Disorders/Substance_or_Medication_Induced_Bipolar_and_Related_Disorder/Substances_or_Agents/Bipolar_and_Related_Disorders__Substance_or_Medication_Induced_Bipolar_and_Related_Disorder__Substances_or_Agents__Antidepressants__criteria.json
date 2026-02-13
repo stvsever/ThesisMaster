@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypomania_symptoms"
+    },
+    {
+      "criterium": "mania_symptoms"
+    },
+    {
+      "criterium": "reduced_sleep_need"
+    },
+    {
+      "criterium": "increased_goal_directed_activity"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "racing_thoughts"
+    },
+    {
+      "criterium": "grandiosity"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "impulsivity_risk_taking"
+    },
+    {
+      "criterium": "delusions"
+    },
+    {
+      "criterium": "hallucinations"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

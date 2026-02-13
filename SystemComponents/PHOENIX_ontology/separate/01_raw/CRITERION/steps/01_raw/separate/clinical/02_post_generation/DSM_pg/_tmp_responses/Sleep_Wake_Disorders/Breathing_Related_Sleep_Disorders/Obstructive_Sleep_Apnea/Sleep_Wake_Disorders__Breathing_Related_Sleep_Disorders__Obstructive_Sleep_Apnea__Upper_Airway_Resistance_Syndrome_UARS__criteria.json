@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "RERA_per_hour"
+    },
+    {
+      "criterium": "Arousal_index_per_hour"
+    },
+    {
+      "criterium": "WASO_minutes"
+    },
+    {
+      "criterium": "Sleep_efficiency_percent"
+    },
+    {
+      "criterium": "TST_minutes"
+    },
+    {
+      "criterium": "Epworth_sleepiness_score"
+    },
+    {
+      "criterium": "Morning_headache_frequency_per_week"
+    },
+    {
+      "criterium": "Snoring_intensity_db"
+    },
+    {
+      "criterium": "Esophageal_pressure_swing_mmH2O"
+    },
+    {
+      "criterium": "Oxygen_saturation_nadir_percent"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

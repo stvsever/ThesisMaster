@@ -1,0 +1,43 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_rs53576_genotype",
+      "OXTR_rs2254298_genotype",
+      "CD38_rs3796863_genotype",
+      "AVPR1A_RS3_repeat_length"
+    ],
+    "molecules": [
+      "oxytocin_plasma_concentration",
+      "vasopressin_plasma_concentration",
+      "cortisol_plasma_concentration",
+      "norepinephrine_plasma_concentration",
+      "dopamine_metabolite_HVA_plasma"
+    ],
+    "cells": null,
+    "circuits": [
+      "amygdala_prefrontal_connectivity_strength",
+      "amygdala_hippocampus_connectivity_strength",
+      "ventral_striatum_reward_response_to_separation",
+      "default_mode_network_synchrony_during_separation"
+    ],
+    "physiology": [
+      "heart_rate_variability_index",
+      "skin_conductance_response_amplitude",
+      "pupil_dilation_response",
+      "salivary_alpha_amylase_level"
+    ],
+    "behavior": [
+      "crying_duration_seconds",
+      "crying_frequency_per_minute",
+      "cling_duration_seconds",
+      "protest_vocalizations_per_minute",
+      "proximity_seeking_events_per_minute"
+    ],
+    "self_report": [
+      "subjective_distress_rating_during_separation",
+      "fear_of_loss_rating",
+      "attachment_security_self_report_score"
+    ]
+  },
+  "estimated_prevalence_percent": 4.0
+}

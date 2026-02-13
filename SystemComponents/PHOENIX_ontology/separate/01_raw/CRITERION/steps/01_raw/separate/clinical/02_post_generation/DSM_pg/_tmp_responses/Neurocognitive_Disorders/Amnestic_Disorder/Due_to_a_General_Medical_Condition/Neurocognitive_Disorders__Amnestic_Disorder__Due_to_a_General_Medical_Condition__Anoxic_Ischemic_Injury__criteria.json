@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_impairment"
+    },
+    {
+      "criterium": "short_term_memory_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "episodic_memory_encoding_deficit"
+    },
+    {
+      "criterium": "episodic_memory_retrieval_deficit"
+    },
+    {
+      "criterium": "attentional_control_deficit"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "disorientation_time_place_person"
+    },
+    {
+      "criterium": "visuospatial_orientation_deficit"
+    },
+    {
+      "criterium": "confabulation_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

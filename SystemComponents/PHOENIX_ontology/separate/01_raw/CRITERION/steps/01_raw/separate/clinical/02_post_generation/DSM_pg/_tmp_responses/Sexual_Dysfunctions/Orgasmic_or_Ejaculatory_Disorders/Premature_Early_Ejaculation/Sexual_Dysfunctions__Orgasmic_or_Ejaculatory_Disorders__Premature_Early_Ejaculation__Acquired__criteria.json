@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "IELT_reduction_relative_to_baseline"
+    },
+    {
+      "criterium": "Loss_of_ejaculatory_control_during_sex"
+    },
+    {
+      "criterium": "Ejaculation_occurs_with_minimal_stimulation"
+    },
+    {
+      "criterium": "Inability_to_delay_ejaculation_during_penile_intercourse"
+    },
+    {
+      "criterium": "Sexual_distress_related_to_ejaculation_timing"
+    },
+    {
+      "criterium": "Relationship_distress_due_to_premature_ejaculation"
+    },
+    {
+      "criterium": "Performance_anxiety_in_sexual_context_related_to_premature_ejaculation"
+    },
+    {
+      "criterium": "Decreased_partner_satisfaction_related_to_ejaculation_timing"
+    },
+    {
+      "criterium": "Compensatory_sexual_behavior_changes_in_response_to_premature_ejaculation"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

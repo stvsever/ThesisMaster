@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "dermatomal_pain_distribution"
+    },
+    {
+      "criterium": "spontaneous_burning_pain"
+    },
+    {
+      "criterium": "electric_shock_pains"
+    },
+    {
+      "criterium": "allodynia_to_light_touch"
+    },
+    {
+      "criterium": "hyperalgesia_to_pinprick"
+    },
+    {
+      "criterium": "thermal_allodynia"
+    },
+    {
+      "criterium": "dysesthesia_burning_stinging"
+    },
+    {
+      "criterium": "paresthesias_in_affected_dermatome"
+    },
+    {
+      "criterium": "hypoesthesia_in_affected_dermatome"
+    },
+    {
+      "criterium": "nocturnal_pain_exacerbation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

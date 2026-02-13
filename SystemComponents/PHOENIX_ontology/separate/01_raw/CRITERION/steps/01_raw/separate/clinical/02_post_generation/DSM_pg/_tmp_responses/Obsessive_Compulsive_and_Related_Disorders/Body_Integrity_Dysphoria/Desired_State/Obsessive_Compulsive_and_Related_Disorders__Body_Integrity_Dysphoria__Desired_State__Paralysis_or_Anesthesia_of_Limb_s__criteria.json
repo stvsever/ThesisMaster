@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "desire_paralysis_target_limb"
+    },
+    {
+      "criterium": "desire_anesthesia_target_limb"
+    },
+    {
+      "criterium": "preoccupation_with_target_limb_paralysis"
+    },
+    {
+      "criterium": "intrusive_thoughts_paralysis_target_limb"
+    },
+    {
+      "criterium": "avoidance_movements_target_limb"
+    },
+    {
+      "criterium": "perceived_limb_disconnection_from_body"
+    },
+    {
+      "criterium": "self_reported_numbness_in_target_limb"
+    },
+    {
+      "criterium": "intent_to_seek_paralysis_medical_intervention"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

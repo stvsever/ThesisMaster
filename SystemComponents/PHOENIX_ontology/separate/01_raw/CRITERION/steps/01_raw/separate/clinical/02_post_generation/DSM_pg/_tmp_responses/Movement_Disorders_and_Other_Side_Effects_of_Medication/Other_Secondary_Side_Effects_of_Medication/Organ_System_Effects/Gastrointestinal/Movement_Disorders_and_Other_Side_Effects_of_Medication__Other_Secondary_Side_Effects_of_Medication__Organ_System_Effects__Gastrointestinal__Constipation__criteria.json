@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "decreased_stool_frequency_per_week"
+    },
+    {
+      "criterium": "bristol_stool_form_type_1_or_2"
+    },
+    {
+      "criterium": "increased_straining_during_defecation"
+    },
+    {
+      "criterium": "sensation_of_incomplete_evacuation_after_defecation"
+    },
+    {
+      "criterium": "sensation_of_rectal_blockage_before_defecation"
+    },
+    {
+      "criterium": "manual_facilitation_of_defecation"
+    },
+    {
+      "criterium": "abdominal_distension_or_bloating_present"
+    },
+    {
+      "criterium": "abdominal_pain_or_discomfort_associated_with_defecation"
+    }
+  ],
+  "estimated_prevalence_percent": 14.0
+}

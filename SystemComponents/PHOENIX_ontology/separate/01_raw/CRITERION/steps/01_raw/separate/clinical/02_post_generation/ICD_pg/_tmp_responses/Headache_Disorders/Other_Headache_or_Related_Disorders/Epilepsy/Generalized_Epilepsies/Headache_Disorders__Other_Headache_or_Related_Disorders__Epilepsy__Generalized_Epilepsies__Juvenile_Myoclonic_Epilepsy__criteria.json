@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "morning_myoclonus"
+    },
+    {
+      "criterium": "awakening_generalized_tonic_clonic_seizures"
+    },
+    {
+      "criterium": "sleep_deprivation_triggered_seizures"
+    },
+    {
+      "criterium": "photic_stimulation_triggered_seizures"
+    },
+    {
+      "criterium": "eeg_generalized_polyspike_and_wave_discharges"
+    },
+    {
+      "criterium": "onset_age_12_to_18_years"
+    },
+    {
+      "criterium": "family_history_epilepsy"
+    },
+    {
+      "criterium": "normal_interictal_neurological_examination"
+    },
+    {
+      "criterium": "executive_function_deficits"
+    }
+  ],
+  "estimated_prevalence_percent": 0.07
+}

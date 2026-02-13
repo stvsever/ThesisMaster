@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "IELT_LE_60_SECONDS"
+    },
+    {
+      "criterium": "EJACULATION_LATENCY_PENETRATION_LE_60_SECONDS"
+    },
+    {
+      "criterium": "INABILITY_TO_DELAY_EJACULATION_ON_DEMAND"
+    },
+    {
+      "criterium": "SELF_REPORTED_LIFELONG_EJACULATION_PATTERN"
+    },
+    {
+      "criterium": "DISTRESS_OR_IMPAIRMENT_DUE_TO_EJACULATION"
+    },
+    {
+      "criterium": "PARTNER_DISTRESS_IMPAIRMENT_ASSOCIATED_WITH_EJACULATION"
+    },
+    {
+      "criterium": "EJACULATION_USUALLY_WITH_MINIMAL_PENILE_STIMULATION"
+    },
+    {
+      "criterium": "PERSISTENT_EJACULATION_ACROSS_PENETRATIVE_EPISODES"
+    },
+    {
+      "criterium": "NORMAL_ERECTILE_FUNCTION_DURING_SEXUAL_ACTIVITY"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

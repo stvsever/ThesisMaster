@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "blepharospasm"
+    },
+    {
+      "criterium": "oromandibular_dystonia"
+    },
+    {
+      "criterium": "lingual_dystonia"
+    },
+    {
+      "criterium": "facial_grimacing"
+    },
+    {
+      "criterium": "torticollis"
+    },
+    {
+      "criterium": "retrocollis"
+    },
+    {
+      "criterium": "axial_truncal_dystonia"
+    },
+    {
+      "criterium": "laryngeal_dystonia_dysphonia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "upper_limb_dystonia"
+    },
+    {
+      "criterium": "lower_limb_dystonia"
+    },
+    {
+      "criterium": "gait_dystonia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

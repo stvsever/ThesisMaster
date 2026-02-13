@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tmj_pain_with_mandibular_movement"
+    },
+    {
+      "criterium": "tmj_pain_at_rest"
+    },
+    {
+      "criterium": "tmj_joint_clicks_on_mouth_opening"
+    },
+    {
+      "criterium": "tmj_joint_crepitus_on_mandibular_movement"
+    },
+    {
+      "criterium": "limited_maximal_mouth_opening"
+    },
+    {
+      "criterium": "masticatory_muscle_tenderness_to_palpation"
+    },
+    {
+      "criterium": "bruxism_present"
+    },
+    {
+      "criterium": "pain_on_chewing"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_tmj_pain"
+    },
+    {
+      "criterium": "anxiety_symptoms_present"
+    },
+    {
+      "criterium": "depressive_symptoms_present"
+    }
+  ],
+  "estimated_prevalence_percent": 9.0
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_control_over_barbiturate_use"
+    },
+    {
+      "criterium": "craving_barbiturate"
+    },
+    {
+      "criterium": "tolerance_to_barbiturate_effects"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_cessation"
+    },
+    {
+      "criterium": "time_spent_obtaining_using_or_recovering_from_barbiturates"
+    },
+    {
+      "criterium": "unsuccessful_efforts_to_reduce_or_stop_barbiturate_use"
+    },
+    {
+      "criterium": "hazardous_use_due_to_barbiturate_effects"
+    },
+    {
+      "criterium": "continued_use_despite_psychological_or_phys_problems_due_to_barbiturate_use"
+    },
+    {
+      "criterium": "impairment_in_social_occupational_functioning_from_barbiturate_use"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

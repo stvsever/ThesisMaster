@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "altered_sensorium"
+    },
+    {
+      "criterium": "impaired_attention"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "delusional_thought_content"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "pupillary_dilation"
+    },
+    {
+      "criterium": "ataxia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

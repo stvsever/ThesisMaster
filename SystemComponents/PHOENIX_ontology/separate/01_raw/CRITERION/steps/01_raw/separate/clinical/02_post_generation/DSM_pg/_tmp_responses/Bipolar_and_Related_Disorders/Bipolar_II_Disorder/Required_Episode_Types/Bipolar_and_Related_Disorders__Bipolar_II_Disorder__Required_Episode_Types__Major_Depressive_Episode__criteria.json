@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood_present"
+    },
+    {
+      "criterium": "anhedonia_present"
+    },
+    {
+      "criterium": "significant_weight_loss"
+    },
+    {
+      "criterium": "significant_weight_gain"
+    },
+    {
+      "criterium": "sleep_disturbance_insomnia"
+    },
+    {
+      "criterium": "sleep_disturbance_hypersomnia"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "fatigue_loss_of_energy"
+    },
+    {
+      "criterium": "diminished_concentration_or_indecisiveness"
+    },
+    {
+      "criterium": "feelings_of_worthlessness_or_excessive_guilt"
+    },
+    {
+      "criterium": "recurrent_suicidal_ideation_or_death_thoughts"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

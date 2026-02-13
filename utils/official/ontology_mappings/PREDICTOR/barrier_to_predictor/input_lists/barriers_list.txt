@@ -1,0 +1,30 @@
+[BARRIERS]
+└─ Motivation
+  └─ Risk_Perception (ID:0)
+  └─ Outcome_Expectancies (ID:1)
+  └─ Values_Identity (ID:2)
+  └─ Self_Efficacy (ID:3)
+  └─ Ambivalence_Commitment (ID:4)
+  └─ Social_Norms_And_Beliefs (ID:5)
+  └─ Knowledge_And_Psychoeducation (ID:6)
+└─ Volition
+  └─ Planning (ID:7)
+  └─ Time_And_Organization (ID:8)
+  └─ Action_Initiation (ID:9)
+  └─ Action_Control (ID:10)
+  └─ Attention_And_Digital_Distraction (ID:11)
+  └─ Symptom_Interference (ID:12)
+└─ Context
+  └─ Social_Interpersonal (ID:13)
+  └─ Environmental_Logistics (ID:14)
+  └─ Healthcare_And_Services_Access (ID:15)
+  └─ Cultural_Structural (ID:16)
+  └─ Safety_And_Trauma_Exposure (ID:17)
+└─ Maintenance
+  └─ Sustaining_Change (ID:18)
+  └─ Habit_Formation (ID:19)
+  └─ Skill_Consolidation (ID:20)
+└─ Recovery
+  └─ After_Setback (ID:21)
+  └─ Reengagement_Blocks (ID:22)
+  └─ Crisis_Escalation_Risk (ID:23)

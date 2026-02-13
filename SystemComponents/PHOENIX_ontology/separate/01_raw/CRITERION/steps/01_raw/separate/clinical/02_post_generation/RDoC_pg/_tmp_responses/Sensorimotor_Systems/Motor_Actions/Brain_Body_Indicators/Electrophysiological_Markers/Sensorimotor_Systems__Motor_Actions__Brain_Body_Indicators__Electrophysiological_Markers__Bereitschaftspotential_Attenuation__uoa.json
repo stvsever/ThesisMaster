@@ -1,0 +1,41 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_V158M_genotype",
+      "BDNF_V66M_genotype",
+      "DRD2_TAQ1A_genotype"
+    ],
+    "molecules": [
+      "DOPAMINE_LEVEL",
+      "GLUTAMATE_LEVEL",
+      "GABA_LEVEL",
+      "ACETYLCHOLINE_LEVEL"
+    ],
+    "cells": [
+      "MOTOR_CORTEX_PYRAMIDAL_NEURON_DENSITY",
+      "SMA_GABAergic_INTERNEURON_MARKER_EXPRESSION"
+    ],
+    "circuits": [
+      "SMA_PREMOTOR_NETWORK_CONNECTIVITY",
+      "SUPPLEMENTARY_MOTOR_AREA_CONNECTIVITY",
+      "CORTICOSTRIATAL_CONNECTIVITY",
+      "SMA_MOTOR_CORTEX_CONNECTIVITY"
+    ],
+    "physiology": [
+      "READINESS_POTENTIAL_AMPLITUDE",
+      "READINESS_POTENTIAL_ONSET_LATENCY",
+      "EEG_PREMOTOR_BAND_POWER"
+    ],
+    "behavior": [
+      "MOVEMENT_INITIATION_LATENCY",
+      "REACTION_TIME_VARIABILITY",
+      "MOTOR_PREPARATION_ACCURACY"
+    ],
+    "self_report": [
+      "INTENTIONALITY_STRENGTH_RATING",
+      "FEELING_OF_PREPAREDNESS",
+      "SENSE_OF_AGENCY_RATING"
+    ]
+  },
+  "estimated_prevalence_percent": 2.7
+}

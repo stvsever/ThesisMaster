@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "KEYED_UP_TENSE"
+    },
+    {
+      "criterium": "UNUSUALLY_RESTLESS"
+    },
+    {
+      "criterium": "DIFFICULT_CONCENTRATION_DUE_TO_WORRY"
+    },
+    {
+      "criterium": "FEAR_SOMETHING_AWFUL_MAY_HAPPEN"
+    },
+    {
+      "criterium": "FEELING_LOSS_OF_CONTROL"
+    },
+    {
+      "criterium": "PSYCHOMOTOR_AGITATION"
+    },
+    {
+      "criterium": "INSOMNIA"
+    },
+    {
+      "criterium": "PALPITATIONS"
+    },
+    {
+      "criterium": "MUSCLE_TENSION"
+    },
+    {
+      "criterium": "SHORTNESS_OF_BREATH"
+    },
+    {
+      "criterium": "SWEATING"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

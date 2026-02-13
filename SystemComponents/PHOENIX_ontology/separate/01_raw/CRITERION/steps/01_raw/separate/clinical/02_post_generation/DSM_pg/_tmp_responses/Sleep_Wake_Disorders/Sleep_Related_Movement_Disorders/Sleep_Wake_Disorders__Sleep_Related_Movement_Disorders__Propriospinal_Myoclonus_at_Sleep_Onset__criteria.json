@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "paraspinal_myoclonus_at_sleep_onset"
+    },
+    {
+      "criterium": "proximal_limb_myoclonus_at_sleep_onset"
+    },
+    {
+      "criterium": "truncal_myoclonus_at_sleep_onset"
+    },
+    {
+      "criterium": "bilateral_symmetry_of_muscle_bursts_at_sleep_onset"
+    },
+    {
+      "criterium": "electromyographic_paraspinal_bursts_at_sleep_onset"
+    },
+    {
+      "criterium": "preserved_consciousness_during_event"
+    },
+    {
+      "criterium": "EEG_no_epileptiform_activity_during_events"
+    },
+    {
+      "criterium": "absence_of_respiratory_disturbance_during_events"
+    },
+    {
+      "criterium": "occurrence_exclusively_at_sleep_onset_transition"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

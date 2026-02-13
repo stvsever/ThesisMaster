@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "criterium": "DELUSIONS_OF_PERSECUTION"
+    },
+    {
+      "criterium": "DELUSIONS_OF_REFERENCE"
+    },
+    {
+      "criterium": "THOUGHT_DISORGANIZATION"
+    },
+    {
+      "criterium": "THOUGHT_PARAPHASIA"
+    },
+    {
+      "criterium": "DISORGANIZED_BEHAVIOR"
+    },
+    {
+      "criterium": "DEPERSONALIZATION"
+    },
+    {
+      "criterium": "DEREALIZATION"
+    },
+    {
+      "criterium": "ACUTE_AGITATION"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

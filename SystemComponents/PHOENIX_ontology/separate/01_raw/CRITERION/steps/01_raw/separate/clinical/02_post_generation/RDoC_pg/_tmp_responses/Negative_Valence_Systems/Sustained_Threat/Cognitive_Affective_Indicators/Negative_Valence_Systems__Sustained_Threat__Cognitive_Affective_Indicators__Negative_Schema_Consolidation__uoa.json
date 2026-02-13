@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_genotype",
+      "FKBP5_rs1360780_genotype",
+      "NR3C1_promoter_methylation",
+      "SLC6A4_5HTTLPR_genotype",
+      "COMT_val158met_genotype"
+    ],
+    "molecules": [
+      "BDNF_plasma_concentration",
+      "cortisol_plasma_concentration",
+      "CRH_plasma_concentration",
+      "glutamate_plasma_concentration",
+      "IL6_plasma_concentration",
+      "TNF_alpha_plasma_concentration"
+    ],
+    "cells": [
+      "hippocampal_pyramidal_neuron_density",
+      "amygdala_glutamatergic_neuron_density",
+      "prefrontal_cortex_interneuron_density",
+      "microglia_density_cortex"
+    ],
+    "circuits": [
+      "functional_connectivity_amygdala_prefrontal",
+      "functional_connectivity_hippocampus_prefrontal",
+      "amygdala_anterior_cingulate_connectivity",
+      "prefrontal_cortex_hippocampus_synchrony",
+      "vmPFC_amygdala_effective_connectivity"
+    ],
+    "physiology": [
+      "resting_heart_rate",
+      "heart_rate_variability_index",
+      "skin_galvanic_skin_response_amplitude",
+      "respiratory_rate",
+      "pupil_dilation_response_amplitude"
+    ],
+    "behavior": [
+      "rumination_frequency",
+      "intrusive_memory_frequency",
+      "negative_thoughts_belief_strength",
+      "memory_recall_bias_latency",
+      "avoidance_behavior_frequency"
+    ],
+    "self_report": [
+      "rumination_scale_score",
+      "intrusive_distress_scale_score",
+      "negative_thoughts_beliefs_strength_scale",
+      "memory_disorganization_scale_score",
+      "interpretation_bias_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 12.5
+}

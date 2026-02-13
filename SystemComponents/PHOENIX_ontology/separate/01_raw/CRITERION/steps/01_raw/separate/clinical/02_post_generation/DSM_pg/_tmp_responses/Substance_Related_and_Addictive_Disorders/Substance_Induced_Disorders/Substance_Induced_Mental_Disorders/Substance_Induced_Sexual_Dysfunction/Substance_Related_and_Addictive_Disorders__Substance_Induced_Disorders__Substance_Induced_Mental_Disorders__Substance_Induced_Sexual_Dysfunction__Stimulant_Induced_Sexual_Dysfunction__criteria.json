@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "erectile_dysfunction"
+    },
+    {
+      "criterium": "reduced_libido"
+    },
+    {
+      "criterium": "anorgasmia"
+    },
+    {
+      "criterium": "delayed_orgasm"
+    },
+    {
+      "criterium": "reduced_vaginal_lubrication"
+    },
+    {
+      "criterium": "decreased_genital_sensation"
+    },
+    {
+      "criterium": "reduced_orgasm_intensity"
+    },
+    {
+      "criterium": "decreased_sexual_activity_frequency"
+    },
+    {
+      "criterium": "sexual_distress_related_to_dysfunction"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

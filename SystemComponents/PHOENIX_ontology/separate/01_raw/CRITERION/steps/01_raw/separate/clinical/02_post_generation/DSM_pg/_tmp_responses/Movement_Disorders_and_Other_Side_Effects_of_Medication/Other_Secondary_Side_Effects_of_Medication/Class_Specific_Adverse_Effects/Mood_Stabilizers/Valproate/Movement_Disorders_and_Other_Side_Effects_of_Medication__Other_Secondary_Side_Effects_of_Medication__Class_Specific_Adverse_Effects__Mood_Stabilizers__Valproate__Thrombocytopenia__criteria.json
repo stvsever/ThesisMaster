@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "platelet_count_below_150k_per_uL"
+    },
+    {
+      "criterium": "spontaneous_petechiae_present"
+    },
+    {
+      "criterium": "ecchymosis_present"
+    },
+    {
+      "criterium": "mucosal_bleeding_present"
+    },
+    {
+      "criterium": "epistaxis_occurrence"
+    },
+    {
+      "criterium": "gingival_bleeding_occurrence"
+    },
+    {
+      "criterium": "easy_bruising_history"
+    },
+    {
+      "criterium": "prolonged_bleeding_after_injury"
+    },
+    {
+      "criterium": "lab_confirmed_thrombocytopenia"
+    },
+    {
+      "criterium": "prolonged_bleeding_time"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

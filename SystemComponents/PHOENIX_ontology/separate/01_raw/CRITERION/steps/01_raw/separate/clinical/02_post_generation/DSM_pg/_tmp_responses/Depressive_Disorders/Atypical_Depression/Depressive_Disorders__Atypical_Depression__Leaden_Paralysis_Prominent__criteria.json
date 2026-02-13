@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "leaden_paralysis_extremity_heaviness"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "hypersomnia_excessive_sleep_duration"
+    },
+    {
+      "criterium": "increased_appetite"
+    },
+    {
+      "criterium": "weight_gain"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "mood_reactivity_present"
+    },
+    {
+      "criterium": "interpersonal_rejection_sensitivity"
+    },
+    {
+      "criterium": "fatigue_or_low_energy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "meprobamate_craving"
+    },
+    {
+      "criterium": "meprobamate_tolerance_development"
+    },
+    {
+      "criterium": "meprobamate_dose_escalation"
+    },
+    {
+      "criterium": "meprobamate_failed_cessation_attempts"
+    },
+    {
+      "criterium": "time_spent_pursuing_meprobamate"
+    },
+    {
+      "criterium": "hazardous_use_meprobamate"
+    },
+    {
+      "criterium": "social_occupational_impairment_meprobamate"
+    },
+    {
+      "criterium": "continued_use_despite_adverse_effects_meprobamate"
+    },
+    {
+      "criterium": "withdrawal_symptoms_meprobamate"
+    },
+    {
+      "criterium": "relapse_after_cessation_meprobamate"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

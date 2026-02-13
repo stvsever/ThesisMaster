@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pragmatic_language_use_deficit"
+    },
+    {
+      "criterium": "conversational_turn_taking_impairment"
+    },
+    {
+      "criterium": "topic_maintenance_impairment"
+    },
+    {
+      "criterium": "contextual_language_adjustment_deficit"
+    },
+    {
+      "criterium": "nonverbal_communication_understanding_deficit"
+    },
+    {
+      "criterium": "nonverbal_communication_production_deficit"
+    },
+    {
+      "criterium": "figurative_language_inference_deficit"
+    },
+    {
+      "criterium": "prosody_processing_deficit"
+    },
+    {
+      "criterium": "narrative_coherence_deficit"
+    },
+    {
+      "criterium": "humor_understanding_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pain_intensity_increases_with_stress"
+    },
+    {
+      "criterium": "anxiety_present_during_epigastric_pain_episode"
+    },
+    {
+      "criterium": "sleep_disturbance_during_pancreatitis_attack"
+    },
+    {
+      "criterium": "mood_fluctuation_associated_with_pancreatitis_episode"
+    },
+    {
+      "criterium": "pain_catastrophizing_response"
+    },
+    {
+      "criterium": "illness_anxiety_about_recurrence"
+    },
+    {
+      "criterium": "somatic_symptom_focus_on_abdominal_pain"
+    },
+    {
+      "criterium": "social_function_impairment_during_attack"
+    },
+    {
+      "criterium": "avoidant_behavior_due_to_pain_expectation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.03
+}

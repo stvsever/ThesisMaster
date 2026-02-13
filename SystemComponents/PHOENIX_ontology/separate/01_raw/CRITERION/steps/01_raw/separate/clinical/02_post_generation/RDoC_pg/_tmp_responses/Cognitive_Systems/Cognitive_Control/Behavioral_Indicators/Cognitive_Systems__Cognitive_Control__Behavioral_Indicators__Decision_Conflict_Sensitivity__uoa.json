@@ -1,0 +1,44 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_rs4680_genotype",
+      "DRD2_rs1800497_genotype",
+      "BDNF_rs6265_genotype"
+    ],
+    "molecules": [
+      "dopamine_level_in_prefrontal_cortex",
+      "norepinephrine_level_in_dACC",
+      "glutamate_release_in_dACC",
+      "GABA_synaptic_inhibition_in_PFC",
+      "BDNF_protein_level_in_prefrontal_cortex"
+    ],
+    "cells": [
+      "pyramidal_neuron_density_in_dorsolateral_PFC",
+      "parvalbumin_interneuron_density_in_dACC",
+      "microglial_activation_state_in_PFC"
+    ],
+    "circuits": [
+      "acc_conflict_monitoring_activation",
+      "dlPFC_conflict_control_activation",
+      "functional_connectivity_ACC_DLPFC_conflict"
+    ],
+    "physiology": [
+      "heart_rate_during_conflict_task",
+      "skin_conductance_response_during_conflict",
+      "pupil_dilation_during_conflict"
+    ],
+    "behavior": [
+      "reaction_time_incongruent_trials",
+      "reaction_time_congruent_trials",
+      "accuracy_incongruent_trials",
+      "reaction_time_difference_congruent_vs_incongruent",
+      "error_rate_incongruent_trials"
+    ],
+    "self_report": [
+      "perceived_conflict_intensity_rating",
+      "cognitive_control_effort_rating",
+      "overall_conflict_sensitivity_self_report_score"
+    ]
+  },
+  "estimated_prevalence_percent": 9.5
+}

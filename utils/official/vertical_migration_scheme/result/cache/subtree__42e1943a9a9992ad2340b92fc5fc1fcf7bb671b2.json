@@ -1,0 +1,41 @@
+{
+  "domain_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity",
+  "domain_root_path": [
+    "BIO",
+    "Movement_Physical_Function_and_Somatic_Care",
+    "Ergonomics_Posture_and_Work_Capacity"
+  ],
+  "leaf_count": 21,
+  "total_edges_in_subtree": 24,
+  "evaluated_pairs": 24,
+  "violations_count": 3,
+  "violation_rate": 0.125,
+  "llm_calls": 1,
+  "violations": [
+    "Load_Management_and_Carry_Tools > Load_Distribution_Strategy_Framework",
+    "Load_Management_and_Carry_Tools > Supportive_Footwear_Framework",
+    "Workstation_Setup_Tools > Chair_Ergonomic_Adjustment_Framework"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Load_Management_and_Carry_Tools > Load_Distribution_Strategy_Framework",
+      "parent_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity / Load_Management_and_Carry_Tools",
+      "child_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity / Load_Management_and_Carry_Tools / Load_Distribution_Strategy_Framework"
+    },
+    {
+      "pair": "Load_Management_and_Carry_Tools > Supportive_Footwear_Framework",
+      "parent_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity / Load_Management_and_Carry_Tools",
+      "child_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity / Load_Management_and_Carry_Tools / Supportive_Footwear_Framework"
+    },
+    {
+      "pair": "Workstation_Setup_Tools > Chair_Ergonomic_Adjustment_Framework",
+      "parent_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity / Workstation_Setup_Tools",
+      "child_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity / Workstation_Setup_Tools / Chair_Ergonomic_Adjustment_Framework"
+    }
+  ],
+  "cache_key": "42e1943a9a9992ad2340b92fc5fc1fcf7bb671b2",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 30.994
+}

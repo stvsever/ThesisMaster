@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "episodic_memory_retrieval_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "attentional_control_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "verbal_fluency_decline"
+    },
+    {
+      "criterium": "visuospatial_processing_deficit"
+    },
+    {
+      "criterium": "prospective_memory_impairment"
+    },
+    {
+      "criterium": "psychomotor_slowness"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "depressed_mood"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

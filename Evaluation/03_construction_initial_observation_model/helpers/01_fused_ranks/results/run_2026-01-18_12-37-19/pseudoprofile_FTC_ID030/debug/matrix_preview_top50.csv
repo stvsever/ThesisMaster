@@ -1,0 +1,26 @@
+predictor_path,"disruptive, impulse-control, and conduct disorders / anger or aggression outburst disorders / intermittent explosive disorder / course / chronic course / *outburst_frequency_per_month",emotional / emotional awareness / self-recognition / trigger awareness / *identifying triggers,schizophrenia spectrum and other psychotic disorders / acute and brief psychotic disorders / brief psychotic disorder / with marked stressor(s) / *association_with_marked_stressor
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Psychiatric_Pharmacotherapy_Classes',,,880.0
+'[BIO] > Sleep_and_Circadian > Circadian_Entrainment',900.0,,820.0
+'[PSYCHO] > Cognitive_Behavioral_Therapies > Behavior_Change_and_Activation',,,860.0
+'[BIO] > Sleep_and_Circadian > Sleep_Devices_and_Technologies',850.0,,
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes',,,820.0
+'[PSYCHO] > Cognitive_Behavioral_Therapies > Behavioral_Experiments_and_Learning',,,820.0
+'[BIO] > Sleep_and_Circadian > Sleep_Environment',820.0,,790.0
+'[BIO] > Movement_and_Bodywork > Aerobic_Movement_Modalities',,800.0,
+'[PSYCHO] > Cognitive_Behavioral_Therapies > Transdiagnostic_CBT_Frameworks',,,790.0
+'[BIO] > Sleep_and_Circadian > Sleep_Pharmacotherapy_Classes',780.0,,
+'[PSYCHO] > Cognitive_and_Metacognitive_Interventions > Cognitive_Remediation_and_Rehabilitation',780.0,,
+'[BIO] > Sleep_and_Circadian > Sleep_Routines_and_Practices',820.0,700.0,800.0
+'[PSYCHO] > Third_Wave_and_Contextual_Therapies > Mindfulness_Based_Interventions',,,770.0
+'[BIO] > Sleep_and_Circadian > Sleep_Supplements',760.0,,
+'[PSYCHO] > Cognitive_Behavioral_Therapies > Exposure_and_Inhibitory_Learning',730.0,,790.0
+'[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities',,750.0,
+'[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring',,750.0,
+'[PSYCHO] > Digital_and_Tech_Enabled_Solutions > Care_Delivery_Formats',730.0,,
+'[BIO] > Movement_and_Bodywork > Mobility_MindBody_and_Somatic_Modalities',,720.0,
+'[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification',720.0,,
+'[BIO] > Environment_and_Exposure > Sensory_Environment',,700.0,
+'[BIO] > Movement_and_Bodywork > Bodywork_and_Physical_Therapies',,700.0,
+'[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Magnetic_Stimulation_Family',,700.0,
+'[BIO] > Somatic_and_Interventional > Brain_Stimulation_Therapies',,700.0,
+'[BIO] > Movement_and_Bodywork > Strength_and_Resistance_Modalities',,680.0,

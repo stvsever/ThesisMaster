@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delayed_habitual_bedtime"
+    },
+    {
+      "criterium": "prolonged_sleep_onset_latency"
+    },
+    {
+      "criterium": "delayed_habitual_wake_time"
+    },
+    {
+      "criterium": "delayed_dim_light_melatonin_onset"
+    },
+    {
+      "criterium": "delayed_dim_light_melatonin_offset"
+    },
+    {
+      "criterium": "delayed_core_body_temperature_nadir"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

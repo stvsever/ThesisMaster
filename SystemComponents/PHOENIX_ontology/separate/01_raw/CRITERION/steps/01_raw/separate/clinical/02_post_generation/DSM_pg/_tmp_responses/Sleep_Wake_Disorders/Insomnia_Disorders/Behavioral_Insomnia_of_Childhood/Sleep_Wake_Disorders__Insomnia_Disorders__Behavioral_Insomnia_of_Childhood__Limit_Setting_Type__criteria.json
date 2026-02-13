@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bedtime_resistance"
+    },
+    {
+      "criterium": "bedtime_stalling_behavior"
+    },
+    {
+      "criterium": "refusal_to_remain_in_bed_after_bedtime"
+    },
+    {
+      "criterium": "leaving_bedroom_after_bedtime"
+    },
+    {
+      "criterium": "crying_at_bedtime"
+    },
+    {
+      "criterium": "tantrums_at_bedtime"
+    },
+    {
+      "criterium": "recurrent_requests_for_additional_time_before_bed"
+    },
+    {
+      "criterium": "delayed_sleep_onset_due_to_delay_tactics"
+    },
+    {
+      "criterium": "noncompliance_with_bedtime_limits"
+    }
+  ],
+  "estimated_prevalence_percent": 7.8
+}

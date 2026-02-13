@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusion_reexperiencing_childhood_abuse"
+    },
+    {
+      "criterium": "nightmares_involving_childhood_abuse"
+    },
+    {
+      "criterium": "avoidance_of_childhood_abuse_reminders"
+    },
+    {
+      "criterium": "negative_beliefs_about_self_related_to_childhood_abuse"
+    },
+    {
+      "criterium": "persistent_negative_mood_related_to_childhood_abuse"
+    },
+    {
+      "criterium": "emotional_numbing_or_detachment_related_to_childhood_abuse"
+    },
+    {
+      "criterium": "diminished_interest_or_pleasure_in_activities_related_to_childhood_abuse"
+    },
+    {
+      "criterium": "irritability_or_aggression_related_to_childhood_abuse"
+    },
+    {
+      "criterium": "hypervigilance_related_to_childhood_abuse"
+    },
+    {
+      "criterium": "exaggerated_startle_response_related_to_childhood_abuse"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_trauma_from_childhood_abuse"
+    },
+    {
+      "criterium": "concentration_difficulties_related_to_trauma_from_childhood_abuse"
+    },
+    {
+      "criterium": "reckless_or_self_destructive_behaviors_related_to_childhood_abuse"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

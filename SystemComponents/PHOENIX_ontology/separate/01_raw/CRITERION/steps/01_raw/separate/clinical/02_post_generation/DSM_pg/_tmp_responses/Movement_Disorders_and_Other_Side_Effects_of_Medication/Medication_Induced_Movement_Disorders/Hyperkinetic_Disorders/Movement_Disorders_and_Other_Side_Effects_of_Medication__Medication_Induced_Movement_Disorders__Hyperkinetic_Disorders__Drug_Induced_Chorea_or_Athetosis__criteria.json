@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "facial_chorea"
+    },
+    {
+      "criterium": "limb_chorea"
+    },
+    {
+      "criterium": "axial_chorea"
+    },
+    {
+      "criterium": "choreoathetosis"
+    },
+    {
+      "criterium": "resting_chorea_present"
+    },
+    {
+      "criterium": "action_provoked_chorea"
+    },
+    {
+      "criterium": "irregular_nonrhythmic_movements"
+    },
+    {
+      "criterium": "tongue_movements_involuntary"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "gait_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

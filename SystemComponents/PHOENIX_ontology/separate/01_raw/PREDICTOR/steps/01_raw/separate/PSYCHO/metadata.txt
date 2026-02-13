@@ -1,0 +1,29 @@
+generated_utc: 2026-01-19T23:42:56Z
+leaf_count: 3103
+node_count: 3754
+max_depth: 6
+avg_leaf_depth: 4.16
+median_leaf_depth: 4
+sha256_minified_json: e5c5a8d39f5ccf6449af7b47b43063eca43438c2a7cec0ca3d1111c93d4873c6
+
+leaf_count_by_primary_node:
+  - Change_Process_and_Therapeutic_Phases: 622
+  - Cognitive_Behavioral_Therapies: 422
+  - Third_Wave_and_Contextual_Therapies: 377
+  - Lifestyle_Philosophies: 337
+  - Digital_and_Tech_Enabled_Solutions: 232
+  - Foundations_and_Common_Factors: 225
+  - Cognitive_Capacity_Enhancement_and_Stimulation: 173
+  - Substance_Use_Recovery_and_Behavior_Change: 145
+  - Core_Psychological_Skills_Toolkits: 103
+  - Trauma_Memory_Imagery_and_Narrative_Work: 78
+  - Brief_and_Motivational_Approaches: 53
+  - Systemic_Couple_Family_Parenting: 51
+  - Cognitive_and_Metacognitive_Interventions: 49
+  - Insight_Oriented_Therapies: 47
+  - Humanistic_and_Experiential_Therapies: 46
+  - Integrative_Creative_and_Body_Oriented_Interventions: 43
+  - Interpersonal_and_Attachment_Therapies: 30
+  - Positive_Psychology_and_Wellbeing: 24
+  - Measurement_Based_Care_and_Feedback: 23
+  - Self_and_Identity_Work: 23

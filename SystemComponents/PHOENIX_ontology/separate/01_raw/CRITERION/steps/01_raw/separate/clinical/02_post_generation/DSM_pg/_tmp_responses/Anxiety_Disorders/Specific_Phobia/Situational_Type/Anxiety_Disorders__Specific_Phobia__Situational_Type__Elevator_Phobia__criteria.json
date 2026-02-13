@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "palpitations_in_elevator_context"
+    },
+    {
+      "criterium": "tremors_in_elevator_context"
+    },
+    {
+      "criterium": "diaphoresis_in_elevator_context"
+    },
+    {
+      "criterium": "dyspnea_in_elevator_context"
+    },
+    {
+      "criterium": "dizziness_in_elevator_context"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_entering_elevator"
+    },
+    {
+      "criterium": "panic_attack_in_elevator_situation"
+    },
+    {
+      "criterium": "fear_or_terror_in_elevator_situation"
+    },
+    {
+      "criterium": "urge_to_escape_in_elevator"
+    },
+    {
+      "criterium": "avoidance_of_elevator_use"
+    }
+  ],
+  "estimated_prevalence_percent": 1.8
+}

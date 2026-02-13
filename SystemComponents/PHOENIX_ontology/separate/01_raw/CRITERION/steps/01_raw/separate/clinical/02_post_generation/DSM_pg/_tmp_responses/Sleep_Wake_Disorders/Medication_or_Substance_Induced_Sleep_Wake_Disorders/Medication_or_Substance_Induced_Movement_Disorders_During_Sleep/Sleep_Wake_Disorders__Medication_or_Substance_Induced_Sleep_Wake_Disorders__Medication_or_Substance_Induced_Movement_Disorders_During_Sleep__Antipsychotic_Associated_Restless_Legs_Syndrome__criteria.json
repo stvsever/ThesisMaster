@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "urge_to_move_legs_at_rest"
+    },
+    {
+      "criterium": "leg_paresthesias"
+    },
+    {
+      "criterium": "relief_of_leg_symptoms_with_movement"
+    },
+    {
+      "criterium": "symptoms_worse_in_evening_or_night"
+    },
+    {
+      "criterium": "symptoms_worse_with_inactivity_lying_down"
+    },
+    {
+      "criterium": "periodic_leg_movements_during_sleep"
+    },
+    {
+      "criterium": "sleep_fragmentation_due_to_leg_movements"
+    },
+    {
+      "criterium": "dysesthesias_of_legs"
+    },
+    {
+      "criterium": "bilateral_leg_symptoms_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

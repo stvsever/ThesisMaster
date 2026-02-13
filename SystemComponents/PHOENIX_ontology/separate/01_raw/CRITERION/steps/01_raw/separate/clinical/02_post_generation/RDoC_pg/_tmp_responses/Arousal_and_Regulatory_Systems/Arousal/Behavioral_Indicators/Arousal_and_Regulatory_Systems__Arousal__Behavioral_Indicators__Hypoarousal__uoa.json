@@ -1,0 +1,60 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "ADRA2A_expression",
+      "BDNF_expression",
+      "MAOA_expression",
+      "SLC6A4_expression",
+      "DBH_expression",
+      "CLOCK_expression",
+      "HTR1A_expression"
+    ],
+    "molecules": [
+      "Norepinephrine",
+      "Dopamine",
+      "Orexin_A",
+      "Orexin_B",
+      "Histamine",
+      "Acetylcholine",
+      "Cortisol"
+    ],
+    "cells": [
+      "Locus_coeruleus_neurons",
+      "Raphe_nucleus_serotonergic_neurons",
+      "Tuberomammillary_nucleus_histaminergic_neurons",
+      "Orexin_neurons",
+      "Basal_forebrain_cholinergic_neurons"
+    ],
+    "circuits": [
+      "Locus_coeruleus_to_cortex",
+      "Locus_coeruleus_to_prefrontal_cortex",
+      "Raphe_to_cortex",
+      "Orexin_neuron_projections_to_cortex",
+      "Orexin_to_thalamus_projection",
+      "Histaminergic_projections_to_cortex",
+      "Ascending_reticular_activating_system"
+    ],
+    "physiology": [
+      "Resting_heart_rate",
+      "Heart_rate_variability",
+      "Skin_conductance_level",
+      "Pupillary_dilation",
+      "EEG_arousal_index",
+      "Core_body_temperature"
+    ],
+    "behavior": [
+      "Reaction_time",
+      "Vigilance_task_accuracy",
+      "Sustained_attention_performance",
+      "Stimulus_detection_latency"
+    ],
+    "self_report": [
+      "Epworth_Sleepiness_Scale",
+      "Stanford_Sleepiness_Scale",
+      "Karolinska_Sleepiness_Scale",
+      "Subjective_Arousal_Rating",
+      "Fatigue_Severity_Scale"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

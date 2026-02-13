@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention_sustained_attention_deficit"
+    },
+    {
+      "criterium": "careless_errors_in_tasks_requiring_attention"
+    },
+    {
+      "criterium": "forgetfulness_in_daily_tasks"
+    },
+    {
+      "criterium": "difficulty_following_through_on_instructions"
+    },
+    {
+      "criterium": "poor_task_organization"
+    },
+    {
+      "criterium": "distractibility_by_external_stimuli"
+    },
+    {
+      "criterium": "fidgeting_or_restlessness"
+    },
+    {
+      "criterium": "leaving_seat_in_class_or_meeting"
+    },
+    {
+      "criterium": "running_or_climbing_in_inappropriate_settings"
+    },
+    {
+      "criterium": "blurting_out_answers_before_question_complete"
+    },
+    {
+      "criterium": "difficulty_waiting_turns"
+    },
+    {
+      "criterium": "interrupts_or_intrudes_on_others"
+    },
+    {
+      "criterium": "excessive_talking"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

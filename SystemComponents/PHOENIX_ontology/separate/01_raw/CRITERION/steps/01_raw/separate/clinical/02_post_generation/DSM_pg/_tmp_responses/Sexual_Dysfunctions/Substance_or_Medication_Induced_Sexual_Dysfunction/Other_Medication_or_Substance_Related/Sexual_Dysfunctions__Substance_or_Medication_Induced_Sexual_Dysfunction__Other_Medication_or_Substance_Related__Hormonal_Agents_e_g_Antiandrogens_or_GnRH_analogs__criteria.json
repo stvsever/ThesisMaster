@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "libido_decrease_hormonal_agent"
+    },
+    {
+      "criterium": "erectile_dysfunction_hormonal_agent"
+    },
+    {
+      "criterium": "anorgasmia_hormonal_agent"
+    },
+    {
+      "criterium": "delayed_orgasm_hormonal_agent"
+    },
+    {
+      "criterium": "reduced_vaginal_lubrication_hormonal_agent"
+    },
+    {
+      "criterium": "reduced_genital_sensation_hormonal_agent"
+    },
+    {
+      "criterium": "reduced_ejaculatory_volume_hormonal_agent"
+    },
+    {
+      "criterium": "reduced_sexual_satisfaction_hormonal_agent"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

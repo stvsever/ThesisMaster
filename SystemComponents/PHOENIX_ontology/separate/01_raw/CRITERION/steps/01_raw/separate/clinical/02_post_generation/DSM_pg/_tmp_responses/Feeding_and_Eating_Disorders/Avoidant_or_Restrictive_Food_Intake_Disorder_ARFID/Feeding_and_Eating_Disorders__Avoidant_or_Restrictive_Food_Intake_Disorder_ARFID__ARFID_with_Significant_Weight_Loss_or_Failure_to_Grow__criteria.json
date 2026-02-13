@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "weight_for_age_percentile_below_5th"
+    },
+    {
+      "criterium": "height_for_age_percentile_below_5th"
+    },
+    {
+      "criterium": "BMI_for_age_percentile_below_5th"
+    },
+    {
+      "criterium": "extremely_restricted_food_variety"
+    },
+    {
+      "criterium": "sensory_aversion_to_food_textures"
+    },
+    {
+      "criterium": "fear_of_negative_consequences_from_food_intake"
+    },
+    {
+      "criterium": "lack_of_interest_in_eating"
+    },
+    {
+      "criterium": "documented_energy_intake_below_estimated_needs"
+    },
+    {
+      "criterium": "social_meal_avoidance_or_refusal"
+    },
+    {
+      "criterium": "nutritional_deficiency_detected"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

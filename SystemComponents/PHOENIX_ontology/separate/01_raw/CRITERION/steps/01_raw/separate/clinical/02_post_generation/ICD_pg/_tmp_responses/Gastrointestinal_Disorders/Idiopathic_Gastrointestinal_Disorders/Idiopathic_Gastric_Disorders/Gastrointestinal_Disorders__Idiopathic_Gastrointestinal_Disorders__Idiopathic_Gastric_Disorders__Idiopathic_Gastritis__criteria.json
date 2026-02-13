@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "epigastric_pain_intensity"
+    },
+    {
+      "criterium": "epigastric_burning_sensation_present"
+    },
+    {
+      "criterium": "nausea_frequency"
+    },
+    {
+      "criterium": "vomiting_frequency"
+    },
+    {
+      "criterium": "early_satiety_presence"
+    },
+    {
+      "criterium": "abdominal_bloating_frequency"
+    },
+    {
+      "criterium": "unexplained_weight_loss_presence"
+    },
+    {
+      "criterium": "appetite_loss_frequency"
+    },
+    {
+      "criterium": "anxiety_about_gastritis_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

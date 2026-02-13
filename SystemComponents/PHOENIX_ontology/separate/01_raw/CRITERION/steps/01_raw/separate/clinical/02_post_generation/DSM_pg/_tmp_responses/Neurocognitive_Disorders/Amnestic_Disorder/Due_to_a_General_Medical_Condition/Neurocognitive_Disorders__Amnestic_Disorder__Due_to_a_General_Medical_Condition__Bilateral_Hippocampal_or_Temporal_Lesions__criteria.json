@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bilateral_hippocampal_atrophy_on_mri"
+    },
+    {
+      "criterium": "bilateral_medial_temporal_lobe_lesions_on_mri"
+    },
+    {
+      "criterium": "bilateral_hippocampal_t2_flair_hyperintensity"
+    },
+    {
+      "criterium": "declarative_memory_impairment_on_neuropsych_testing"
+    },
+    {
+      "criterium": "anterograde_amnesia_prominent"
+    },
+    {
+      "criterium": "retrograde_memory_deficit_present"
+    },
+    {
+      "criterium": "episodic_memory_deficit_on_assessment"
+    },
+    {
+      "criterium": "impaired_memory_encoding"
+    },
+    {
+      "criterium": "spatial_memory_deficit_observed_on_navigation_tasks"
+    },
+    {
+      "criterium": "reduced_recall_rate_on_memory_tasks"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

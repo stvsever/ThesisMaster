@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acute_onset_fluctuating_attention"
+    },
+    {
+      "criterium": "altered_level_of_awareness"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "psychomotor_agitation_or_retardation"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "miosis_pupillary_constriction"
+    },
+    {
+      "criterium": "impaired_short_term_memory"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

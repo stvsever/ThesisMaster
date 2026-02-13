@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Visual_hallucinations"
+    },
+    {
+      "criterium": "Auditory_hallucinations"
+    },
+    {
+      "criterium": "Olfactory_hallucinations"
+    },
+    {
+      "criterium": "Gustatory_hallucinations"
+    },
+    {
+      "criterium": "Tactile_hallucinations"
+    },
+    {
+      "criterium": "Illusions"
+    },
+    {
+      "criterium": "Derealization"
+    },
+    {
+      "criterium": "Depersonalization"
+    },
+    {
+      "criterium": "Visual_distortions"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

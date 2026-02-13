@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusions_persecutory"
+    },
+    {
+      "criterium": "delusions_reference"
+    },
+    {
+      "criterium": "delusions_grandiose"
+    },
+    {
+      "criterium": "delusions_control"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "disorganized_thought_content"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "disorganized_behavior"
+    },
+    {
+      "criterium": "flat_affect"
+    },
+    {
+      "criterium": "avolition"
+    },
+    {
+      "criterium": "anhedonia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

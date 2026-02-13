@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "ADRA2A",
+      "ADRA1A",
+      "ADRB1",
+      "SLC6A2",
+      "NOS1",
+      "CHRNA7"
+    ],
+    "molecules": [
+      "NOREPINEPHRINE",
+      "EPINEPHRINE",
+      "ACETYLCHOLINE",
+      "CORTISOL",
+      "NITRIC_OXIDE",
+      "ANGIOTENSIN_II"
+    ],
+    "cells": [
+      "SYMPATHETIC_POSTGANGLIONIC_NEURON",
+      "PARASYMPATHETIC_VAGAL_NEURON",
+      "ADRENAL_CHROMAFFIN_CELL",
+      "NTS_NEURON",
+      "DMV_NEURON"
+    ],
+    "circuits": [
+      "NTS_DMV_BAROREFLEX_ARC",
+      "INSULA_VAGAL_NETWORK",
+      "AMYGDALA_BAROREFLEX_PATHWAY",
+      "CINGULATE_INSULA_CONNECTIVITY",
+      "DORSAL_VAGAL_COMPLEX"
+    ],
+    "physiology": [
+      "RESTING_HEART_RATE",
+      "HF_HRV_POWER",
+      "LF_HRV_POWER",
+      "LF_HF_RATIO",
+      "RESPIRATORY_SINUS_ARRHYTHMIA",
+      "BAROREFLEX_SENSITIVITY",
+      "SKIN_CONDUCTANCE_LEVEL"
+    ],
+    "behavior": [
+      "ISOMETRIC_HANDGRIP_TASK",
+      "COLD_PRESSOR_TASK",
+      "ORTHOSTATIC_CHALLENGE"
+    ],
+    "self_report": [
+      "STATE_AROUSAL_RATING",
+      "ANXIETY_STATE_SCORE",
+      "PERCEIVED_STRESS_SCALE",
+      "PALPITATIONS_SEVERITY"
+    ]
+  },
+  "estimated_prevalence_percent": 4.3
+}

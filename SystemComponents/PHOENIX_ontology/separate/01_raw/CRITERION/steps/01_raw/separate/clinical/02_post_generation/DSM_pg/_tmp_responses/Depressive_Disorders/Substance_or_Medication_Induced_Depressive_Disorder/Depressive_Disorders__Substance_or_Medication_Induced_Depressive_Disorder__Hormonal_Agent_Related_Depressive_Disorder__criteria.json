@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "hypersomnia"
+    },
+    {
+      "criterium": "weight_loss"
+    },
+    {
+      "criterium": "weight_gain"
+    },
+    {
+      "criterium": "decreased_appetite"
+    },
+    {
+      "criterium": "decreased_concentration"
+    },
+    {
+      "criterium": "suicidal_ideation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

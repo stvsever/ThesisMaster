@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "limited_productive_vocabulary"
+    },
+    {
+      "criterium": "reduced_mean_length_of_utterance"
+    },
+    {
+      "criterium": "omission_of_function_words"
+    },
+    {
+      "criterium": "omission_of_inflectional_markers"
+    },
+    {
+      "criterium": "word_order_errors"
+    },
+    {
+      "criterium": "telegraphic_speech_pattern"
+    },
+    {
+      "criterium": "reduced_syntactic_complexity"
+    },
+    {
+      "criterium": "monotone_prosody"
+    },
+    {
+      "criterium": "articulatory_distortions"
+    }
+  ],
+  "estimated_prevalence_percent": 7.0
+}

@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_nail_picking_behavior"
+    },
+    {
+      "criterium": "nail_cuticle_excoriation_present"
+    },
+    {
+      "criterium": "perionychial_inflammation_present"
+    },
+    {
+      "criterium": "nail_bed_damage_present"
+    },
+    {
+      "criterium": "nail_plate_damage_present"
+    },
+    {
+      "criterium": "nail_surface_scarring_present"
+    },
+    {
+      "criterium": "callus_hyperkeratosis_at_fingertips_present"
+    },
+    {
+      "criterium": "multinail_involvement_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

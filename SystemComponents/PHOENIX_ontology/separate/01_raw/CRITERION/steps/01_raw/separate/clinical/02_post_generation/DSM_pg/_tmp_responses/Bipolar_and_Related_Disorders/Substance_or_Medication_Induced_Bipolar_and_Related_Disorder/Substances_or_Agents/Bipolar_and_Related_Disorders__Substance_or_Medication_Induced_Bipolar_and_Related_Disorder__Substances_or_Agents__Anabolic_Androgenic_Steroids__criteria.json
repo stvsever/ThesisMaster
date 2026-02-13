@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "euphoric_mood"
+    },
+    {
+      "criterium": "labile_mood"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "aggression"
+    },
+    {
+      "criterium": "grandiosity"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "decreased_sleep"
+    },
+    {
+      "criterium": "increased_goal_directed_activity"
+    },
+    {
+      "criterium": "hypersexuality"
+    },
+    {
+      "criterium": "reckless_risk_taking"
+    },
+    {
+      "criterium": "delusional_thought_content"
+    },
+    {
+      "criterium": "hallucinations"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

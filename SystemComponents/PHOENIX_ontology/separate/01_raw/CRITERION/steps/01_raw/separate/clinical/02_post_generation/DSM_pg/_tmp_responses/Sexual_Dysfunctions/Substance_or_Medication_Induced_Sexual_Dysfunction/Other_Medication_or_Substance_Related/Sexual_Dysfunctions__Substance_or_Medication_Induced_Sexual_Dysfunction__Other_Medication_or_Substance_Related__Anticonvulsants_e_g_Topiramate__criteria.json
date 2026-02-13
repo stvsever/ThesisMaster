@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypoactive_sexual_desire"
+    },
+    {
+      "criterium": "erectile_dysfunction"
+    },
+    {
+      "criterium": "vaginal_dryness"
+    },
+    {
+      "criterium": "reduced_genital_sensation"
+    },
+    {
+      "criterium": "anorgasmia"
+    },
+    {
+      "criterium": "delayed_orgasm"
+    },
+    {
+      "criterium": "decreased_orgasmic_intensity"
+    },
+    {
+      "criterium": "dyspareunia"
+    },
+    {
+      "criterium": "decreased_sexual_arousal"
+    }
+  ],
+  "estimated_prevalence_percent": 6.4
+}

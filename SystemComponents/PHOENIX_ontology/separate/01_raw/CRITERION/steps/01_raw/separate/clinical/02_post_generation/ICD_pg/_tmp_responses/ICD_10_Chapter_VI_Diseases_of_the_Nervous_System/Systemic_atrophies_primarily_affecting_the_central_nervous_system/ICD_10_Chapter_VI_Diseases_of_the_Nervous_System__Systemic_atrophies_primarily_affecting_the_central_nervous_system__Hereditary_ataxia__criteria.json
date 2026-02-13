@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gait_ataxia_wide_based_stance"
+    },
+    {
+      "criterium": "limb_ataxia_dysmetria"
+    },
+    {
+      "criterium": "limb_ataxia_dysdiadochokinesia"
+    },
+    {
+      "criterium": "intention_tremor"
+    },
+    {
+      "criterium": "nystagmus_present"
+    },
+    {
+      "criterium": "dysarthria_motor_speech_impairment"
+    },
+    {
+      "criterium": "truncal_ataxia"
+    },
+    {
+      "criterium": "hypotonia_muscle_tone_reduction"
+    },
+    {
+      "criterium": "babinski_sign_present"
+    },
+    {
+      "criterium": "reduced_deep_tendon_reflexes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.002
+}

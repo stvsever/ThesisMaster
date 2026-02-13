@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "compulsive_exercise_driving_urge"
+    },
+    {
+      "criterium": "preoccupation_with_exercise"
+    },
+    {
+      "criterium": "excessive_exercise_engagement"
+    },
+    {
+      "criterium": "interference_with_social_or_professional_functions_due_to_exercise"
+    },
+    {
+      "criterium": "continued_exercising_despite_injury_or_health_risk"
+    },
+    {
+      "criterium": "withdrawal_symptoms_when_exercise_is_restricted"
+    },
+    {
+      "criterium": "craving_for_exercise"
+    },
+    {
+      "criterium": "mood_regulation_via_exercise"
+    },
+    {
+      "criterium": "tolerance_increase_needing_more_exercise"
+    },
+    {
+      "criterium": "rigid_exercise_schedule_and_inflexible_routine"
+    },
+    {
+      "criterium": "exercise_identity_and_self-worth_dependence_on_exercise"
+    },
+    {
+      "criterium": "avoidance_of_alternative_activities_due_to_exercise"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

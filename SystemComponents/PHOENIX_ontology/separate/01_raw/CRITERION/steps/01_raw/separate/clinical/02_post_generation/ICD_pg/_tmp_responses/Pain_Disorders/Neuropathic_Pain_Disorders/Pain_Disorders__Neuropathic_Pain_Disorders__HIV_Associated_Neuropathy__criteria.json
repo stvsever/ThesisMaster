@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "distal_symmetrical_paresthesias"
+    },
+    {
+      "criterium": "distal_burning_pain"
+    },
+    {
+      "criterium": "diminished_pinprick_sensation_distal_limbs"
+    },
+    {
+      "criterium": "diminished_vibration_sense_distal_limbs"
+    },
+    {
+      "criterium": "diminished_temperature_sensation_distal_limbs"
+    },
+    {
+      "criterium": "reduced_ankle_reflexes_bilateral"
+    },
+    {
+      "criterium": "distal_motor_weakness_or_wasting"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "allodynia_to_stimuli_distal_limbs"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

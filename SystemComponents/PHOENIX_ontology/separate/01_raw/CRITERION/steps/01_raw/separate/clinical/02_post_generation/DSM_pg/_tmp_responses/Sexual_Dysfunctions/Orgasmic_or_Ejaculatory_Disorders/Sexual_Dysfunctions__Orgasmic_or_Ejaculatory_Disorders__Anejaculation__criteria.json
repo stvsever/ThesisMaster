@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "absent_ejaculatory_response"
+    },
+    {
+      "criterium": "inability_to_ejaculate_during_masturbation"
+    },
+    {
+      "criterium": "inability_to_ejaculate_during_penile_intercourse"
+    },
+    {
+      "criterium": "erectile_function_preserved"
+    },
+    {
+      "criterium": "libido_preserved"
+    },
+    {
+      "criterium": "orgasmic_sensation_without_ejaculation"
+    },
+    {
+      "criterium": "perceived_absence_of_semen_emission_during_climax"
+    },
+    {
+      "criterium": "no_pain_or_discomfort_with_stimulation"
+    },
+    {
+      "criterium": "psychosexual_distress_related_to_anejaculation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

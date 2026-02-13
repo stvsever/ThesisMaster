@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fecal_incontinence_episode_frequency_per_week"
+    },
+    {
+      "criterium": "fecal_soiling_underwear_occurrence"
+    },
+    {
+      "criterium": "stool_consistency_at_incontinence_event_liquid_to_mushy"
+    },
+    {
+      "criterium": "daytime_incontinence_occurrence"
+    },
+    {
+      "criterium": "incontinence_events_in_public_settings"
+    },
+    {
+      "criterium": "use_of_protective_underwear_or_pads_due_to_incontinence"
+    },
+    {
+      "criterium": "no_history_of_chronic_constipation"
+    },
+    {
+      "criterium": "incontinence_with_rapid_onset_minimal_warning"
+    },
+    {
+      "criterium": "emotional_distress_related_to_incontinence"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

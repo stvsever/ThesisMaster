@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "aphonia"
+    },
+    {
+      "criterium": "dysphonia"
+    },
+    {
+      "criterium": "mutism"
+    },
+    {
+      "criterium": "stuttering_like_dysfluency"
+    },
+    {
+      "criterium": "voice_tremor"
+    },
+    {
+      "criterium": "whispered_speech"
+    },
+    {
+      "criterium": "inconsistent_speech_impairment"
+    },
+    {
+      "criterium": "receptive_language_intact"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

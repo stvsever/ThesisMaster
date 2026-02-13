@@ -1,0 +1,36 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "ADRB1",
+      "ADRB2"
+    ],
+    "molecules": [
+      "norepinephrine",
+      "epinephrine"
+    ],
+    "cells": [
+      "SA_NODE_PACEMAKER_CELLS",
+      "AV_NODE_PACEMAKER_CELLS"
+    ],
+    "circuits": [
+      "amygdala_sympathetic_projection",
+      "insula_autonomic_network"
+    ],
+    "physiology": [
+      "heart_rate_acceleration_magnitude",
+      "heart_rate_acceleration_latency",
+      "heart_rate_peak_rate",
+      "baseline_heart_rate"
+    ],
+    "behavior": [
+      "startle_response_magnitude",
+      "startle_response_latency",
+      "freezing_duration_seconds"
+    ],
+    "self_report": [
+      "subjective_fear_intensity",
+      "subjective_arousal_level"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

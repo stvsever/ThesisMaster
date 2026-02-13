@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "spastic_paralysis"
+    },
+    {
+      "criterium": "hyperreflexia"
+    },
+    {
+      "criterium": "clonus_present"
+    },
+    {
+      "criterium": "muscle_wasting"
+    },
+    {
+      "criterium": "fasciculations_present"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "dysphagia"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "distal_weakness"
+    },
+    {
+      "criterium": "respiratory_muscle_weakness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.005
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "testicular_pain_intensity_0_10"
+    },
+    {
+      "criterium": "testicular_pain_quality_burning"
+    },
+    {
+      "criterium": "testicular_pain_quality_throbbing"
+    },
+    {
+      "criterium": "pain_radiation_to_groin_or_perineum"
+    },
+    {
+      "criterium": "pain_exacerbation_by_ejaculation"
+    },
+    {
+      "criterium": "pain_exacerbation_by_urination"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_orchialgia"
+    },
+    {
+      "criterium": "concentration_difficulty_due_to_pain"
+    },
+    {
+      "criterium": "anxiety_symptoms_pain_related"
+    },
+    {
+      "criterium": "depressive_symptoms_pain_related"
+    },
+    {
+      "criterium": "activity_interference_due_to_pain"
+    },
+    {
+      "criterium": "scrotal_exam_tenderness_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

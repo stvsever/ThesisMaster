@@ -1,0 +1,412 @@
+{
+  "EARLY_ADOLESCENCE": {
+    "social_development": {
+      "peer_relationships": {
+        "friendships": {
+          "forming_close_friendships": {},
+          "maintaining_friendships": {},
+          "peer_pressure_management": {},
+          "social_cliques": {}
+        },
+        "social_networks": {
+          "expanding_social_circle": {},
+          "online_friendships": {},
+          "community_involvement": {},
+          "extracurricular_groups": {}
+        },
+        "teamwork_and_collaboration": {
+          "group_projects": {},
+          "team_sports": {},
+          "collaborative_tasks": {},
+          "leadership_roles": {}
+        },
+        "conflict_resolution": {
+          "negotiation_skills": {},
+          "mediation_skills": {},
+          "compromise_skills": {},
+          "assertive_communication": {}
+        }
+      },
+      "family_relationships": {
+        "parent_interactions": {
+          "communication_with_parents": {},
+          "independence_from_parents": {},
+          "parental_guidance": {},
+          "family_time": {}
+        },
+        "sibling_relationships": {
+          "supportive_relationships": {},
+          "shared_responsibilities": {},
+          "conflict_management": {},
+          "cooperative_play": {}
+        },
+        "extended_family_interactions": {
+          "grandparent_relationships": {},
+          "aunt_uncle_relationships": {},
+          "cousin_relationships": {},
+          "family_event_participation": {}
+        },
+        "role_models_and_influences": {
+          "identifying_role_models": {},
+          "observational_learning": {},
+          "mimicking_behaviors": {},
+          "mentor_relationships": {}
+        }
+      },
+      "social_skills": {
+        "communication_skills": {
+          "verbal_communication": {},
+          "non_verbal_communication": {},
+          "active_listening": {},
+          "expressive_speaking": {}
+        },
+        "empathy_and_compassion": {
+          "understanding_others_feelings": {},
+          "helping_behaviors": {},
+          "comforting_peers": {},
+          "expressing_empathy": {}
+        },
+        "respect_and_responsibility": {
+          "respecting_personal_space": {},
+          "following_social_norms": {},
+          "taking_responsibility": {},
+          "polite_interactions": {}
+        },
+        "leadership_and_followership": {
+          "leadership_skills": {},
+          "following_directions": {},
+          "team_leadership": {},
+          "group_following": {}
+        }
+      },
+      "group_participation": {
+        "school_activities": {
+          "class_participation": {},
+          "group_projects": {},
+          "student_governance": {},
+          "extracurricular_activities": {}
+        },
+        "community_involvement": {
+          "volunteering": {},
+          "community_events": {},
+          "social_responsibility_projects": {},
+          "civic_participation": {}
+        },
+        "sports_and_recreation": {
+          "team_sports": {},
+          "individual_sports": {},
+          "recreational_games": {},
+          "physical_competitions": {}
+        },
+        "cultural_participation": {
+          "cultural_events": {},
+          "tradition_participation": {},
+          "cultural_exchange": {},
+          "arts_and_crafts": {}
+        }
+      }
+    },
+    "physical_development": {
+      "motor_skills": {
+        "gross_motor_skills": {
+          "running": {},
+          "jumping": {},
+          "climbing": {},
+          "balancing": {},
+          "throwing_and_catching": {}
+        },
+        "fine_motor_skills": {
+          "drawing": {},
+          "writing": {},
+          "cutting_with_scissors": {},
+          "manipulating_small_objects": {},
+          "buttoning_and_zipping": {}
+        },
+        "coordination": {
+          "hand_eye_cooperation": {},
+          "spatial_awareness": {},
+          "timing_and_rhythm": {},
+          "bilateral_coordination": {}
+        },
+        "reflexes": {
+          "reflex_diminution": {},
+          "startle_reflex": {},
+          "grasp_reflex": {},
+          "balance_reflex": {}
+        }
+      },
+      "growth_metrics": {
+        "height_growth": {
+          "linear_growth": {},
+          "height_percentile": {},
+          "growth_patterns": {},
+          "posture_development": {}
+        },
+        "weight_growth": {
+          "consistent_weight_gain": {},
+          "weight_percentile": {},
+          "growth_trends": {},
+          "nutrition_balance": {}
+        },
+        "body_proportion_changes": {
+          "limb_lengthening": {},
+          "torso_growth": {},
+          "head_to_body_ratio": {},
+          "muscle_development": {}
+        },
+        "physical_fitness": {
+          "endurance": {},
+          "strength": {},
+          "flexibility": {},
+          "agility": {}
+        }
+      },
+      "health_and_wellness": {
+        "nutrition": {
+          "balanced_diet": {},
+          "healthy_eating_habits": {},
+          "vitamin_intake": {},
+          "hydration": {}
+        },
+        "hygiene_habits": {
+          "hand_washing": {},
+          "tooth_brushing": {},
+          "personal_cleanliness": {},
+          "bathroom_habits": {}
+        },
+        "physical_activity": {
+          "daily_exercise": {},
+          "active_play": {},
+          "organized_sports": {},
+          "outdoor_activities": {}
+        },
+        "sleep_patterns": {
+          "consistent_sleep_schedule": {},
+          "nap_times": {},
+          "sleep_quality": {},
+          "bedtime_routines": {}
+        }
+      },
+      "coordination": {
+        "hand_eye_coordination": {
+          "throwing": {},
+          "catching": {},
+          "drawing_precision": {},
+          "writing_accuracy": {}
+        },
+        "spatial_awareness": {
+          "navigating_spaces": {},
+          "understanding_distances": {},
+          "object_orientation": {},
+          "map_reading_basics": {}
+        },
+        "timing_and_rhythm": {
+          "dancing": {},
+          "clapping_to_rhythm": {},
+          "timed_movements": {},
+          "music_participation": {}
+        },
+        "agility": {
+          "quick_movements": {},
+          "changing_directions": {},
+          "balance_control": {},
+          "coordination_under_pressure": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "emotional_regulation": {
+        "managing_frustration": {},
+        "expressing_emotions_appropriately": {},
+        "recognizing_emotions_self": {},
+        "recognizing_emotions_others": {}
+      },
+      "self_esteem": {
+        "confidence_building": {},
+        "independence": {},
+        "resilience": {},
+        "sense_of_competence": {}
+      },
+      "empathy_and_compassion": {
+        "understanding_others_feelings": {},
+        "helping_behaviors": {},
+        "sharing_emotions": {},
+        "comforting_others": {}
+      },
+      "attachment_and_relationships": {
+        "secure_attachments": {},
+        "friendships": {},
+        "trust_building": {},
+        "conflict_management": {}
+      },
+      "identity_development": {
+        "self_concept": {},
+        "personal_values": {},
+        "cultural_identity": {},
+        "gender_identity": {}
+      },
+      "stress_management": {
+        "coping_strategies": {},
+        "time_management": {},
+        "emotional_support_systems": {},
+        "mindfulness_practices": {}
+      }
+    },
+    "cognitive_development": {
+      "language_skills": {
+        "vocabulary_growth": {
+          "word_expansion": {},
+          "new_word_learning": {},
+          "contextual_usage": {},
+          "language_diversity": {}
+        },
+        "sentence_structure": {
+          "complex_sentences": {},
+          "question_asking": {},
+          "expressive_speech": {},
+          "sentence_variation": {}
+        },
+        "storytelling": {
+          "narrative_skills": {},
+          "sequencing_events": {},
+          "imaginative_telling": {},
+          "creative_story_creation": {}
+        },
+        "following_directions": {
+          "multi_step_commands": {},
+          "instruction_following": {},
+          "comprehension_skills": {},
+          "executing_tasks": {}
+        }
+      },
+      "thinking_and_reasoning": {
+        "problem_solving": {
+          "logical_thinking": {},
+          "identifying_patterns": {},
+          "reasoning_skills": {},
+          "creative_solutions": {}
+        },
+        "memory_skills": {
+          "short_term_memory": {},
+          "long_term_memory": {},
+          "recall_abilities": {},
+          "memory_retrieval": {}
+        },
+        "attention_span": {
+          "sustained_attention": {},
+          "selective_attention": {},
+          "divided_attention": {},
+          "focused_attention": {}
+        },
+        "critical_thinking": {
+          "analyzing_information": {},
+          "evaluating_scenarios": {},
+          "decision_making": {},
+          "questioning_assumptions": {}
+        }
+      },
+      "creativity_and_imagination": {
+        "pretend_play": {
+          "role_playing": {},
+          "imaginative_scenarios": {},
+          "story_creation": {},
+          "fantasy_world_building": {}
+        },
+        "artistic_expression": {
+          "drawing": {},
+          "painting": {},
+          "crafting": {},
+          "sculpting": {}
+        },
+        "inventive_thinking": {
+          "idea_generation": {},
+          "creative_solutions": {},
+          "innovative_play": {},
+          "designing_projects": {}
+        },
+        "exploration": {
+          "curiosity_driven_learning": {},
+          "experimental_play": {},
+          "discovering_new_things": {},
+          "scientific_inquiry": {}
+        }
+      },
+      "academic_skills": {
+        "basic_literacy": {
+          "letter_recognition": {},
+          "phonics": {},
+          "early_reading": {},
+          "reading_comprehension": {}
+        },
+        "basic_numeracy": {
+          "number_recognition": {},
+          "counting_skills": {},
+          "simple_addition": {},
+          "basic_subtraction": {}
+        },
+        "understanding_concepts": {
+          "size_concepts": {},
+          "color_concepts": {},
+          "shape_concepts": {},
+          "time_concepts": {}
+        },
+        "learning_strategies": {
+          "memorization": {},
+          "repetition": {},
+          "interactive_learning": {},
+          "organizational_skills": {}
+        },
+        "science_and_technology": {
+          "basic_scientific_concepts": {},
+          "technology_usage": {},
+          "experimenting": {},
+          "logical_reasoning": {}
+        },
+        "mathematical_reasoning": {
+          "problem_solving": {},
+          "pattern_recognition": {},
+          "logical_thinking": {},
+          "mathematical_operations": {}
+        }
+      },
+      "executive_functions": {
+        "attention_control": {
+          "sustained_attention": {},
+          "selective_attention": {},
+          "focus_shifting": {},
+          "inhibitory_control": {}
+        },
+        "impulse_control": {
+          "delaying_gratification": {},
+          "resisting_distractions": {},
+          "emotional_impulse_control": {},
+          "behavioral_impulse_control": {}
+        },
+        "working_memory": {
+          "holding_information_temporarily": {},
+          "simple_problem_solving": {},
+          "following_instructions": {},
+          "information_recall": {}
+        },
+        "cognitive_flexibility": {
+          "task_switching": {},
+          "adapting_to_change": {},
+          "flexible_thinking": {},
+          "problem_restructuring": {}
+        },
+        "planning_and_organization": {
+          "simple_planning": {},
+          "sequence_planning": {},
+          "goal_setting": {},
+          "task_prioritization": {}
+        },
+        "decision_making": {
+          "evaluating_options": {},
+          "risk_assessment": {},
+          "outcome_prediction": {},
+          "responsible_choices": {}
+        }
+      }
+    }
+  }
+}

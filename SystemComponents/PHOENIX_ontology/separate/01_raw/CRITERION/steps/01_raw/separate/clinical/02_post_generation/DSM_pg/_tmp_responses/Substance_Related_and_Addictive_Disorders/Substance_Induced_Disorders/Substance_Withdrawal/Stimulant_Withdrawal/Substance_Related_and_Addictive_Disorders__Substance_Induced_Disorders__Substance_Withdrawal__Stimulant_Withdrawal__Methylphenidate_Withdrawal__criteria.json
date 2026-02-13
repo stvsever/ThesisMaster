@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "hypersomnia"
+    },
+    {
+      "criterium": "increased_appetite"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "myalgia"
+    },
+    {
+      "criterium": "poor_concentration"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "craving_methylphenidate"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

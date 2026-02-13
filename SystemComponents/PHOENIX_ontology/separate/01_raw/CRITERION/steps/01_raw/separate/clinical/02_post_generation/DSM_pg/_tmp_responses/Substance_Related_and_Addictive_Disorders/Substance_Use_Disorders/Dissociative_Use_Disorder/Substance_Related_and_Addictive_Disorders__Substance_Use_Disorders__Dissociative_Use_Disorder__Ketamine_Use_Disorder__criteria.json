@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "escalating_ketamine_dose"
+    },
+    {
+      "criterium": "loss_of_control_over_ketamine_use"
+    },
+    {
+      "criterium": "persistent_ketamine_craving"
+    },
+    {
+      "criterium": "preoccupation_with_ketamine"
+    },
+    {
+      "criterium": "continued_ketamine_use_despite_adverse_consequences"
+    },
+    {
+      "criterium": "neglect_of_important_activities_due_to_ketamine_use"
+    },
+    {
+      "criterium": "hazardous_ketamine_use_in_risky_situations"
+    },
+    {
+      "criterium": "social_or_relationship_impairment_due_to_ketamine_use"
+    },
+    {
+      "criterium": "ketamine_withdrawal_symptoms_on_cessation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

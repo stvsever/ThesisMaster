@@ -1,0 +1,40 @@
+{
+  "domain_path": "BIO / Personalization_Monitoring_and_Data_Feedback",
+  "domain_root_path": [
+    "BIO",
+    "Personalization_Monitoring_and_Data_Feedback"
+  ],
+  "leaf_count": 177,
+  "total_edges_in_subtree": 223,
+  "evaluated_pairs": 200,
+  "violations_count": 3,
+  "violation_rate": 0.015,
+  "llm_calls": 2,
+  "violations": [
+    "Thermoregulation_And_Inflammatory_Signals > Home_Tools",
+    "Wearables_and_Home_Monitoring > Environment",
+    "Wearables_and_Home_Monitoring > Physiology"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Wearables_and_Home_Monitoring > Environment",
+      "parent_path": "BIO / Personalization_Monitoring_and_Data_Feedback / Wearables_and_Home_Monitoring",
+      "child_path": "BIO / Personalization_Monitoring_and_Data_Feedback / Wearables_and_Home_Monitoring / Environment"
+    },
+    {
+      "pair": "Wearables_and_Home_Monitoring > Physiology",
+      "parent_path": "BIO / Personalization_Monitoring_and_Data_Feedback / Wearables_and_Home_Monitoring",
+      "child_path": "BIO / Personalization_Monitoring_and_Data_Feedback / Wearables_and_Home_Monitoring / Physiology"
+    },
+    {
+      "pair": "Thermoregulation_And_Inflammatory_Signals > Home_Tools",
+      "parent_path": "BIO / Personalization_Monitoring_and_Data_Feedback / Wearables_and_Home_Monitoring / Physiology / Thermoregulation_And_Inflammatory_Signals",
+      "child_path": "BIO / Personalization_Monitoring_and_Data_Feedback / Wearables_and_Home_Monitoring / Physiology / Thermoregulation_And_Inflammatory_Signals / Home_Tools"
+    }
+  ],
+  "cache_key": "a0ce9084068bbcf3854951a169932105bb6bd644",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 95.805
+}

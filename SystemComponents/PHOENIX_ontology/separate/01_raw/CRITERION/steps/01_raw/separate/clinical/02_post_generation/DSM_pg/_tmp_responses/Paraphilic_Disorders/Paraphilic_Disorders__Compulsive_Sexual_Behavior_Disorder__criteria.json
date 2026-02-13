@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_uncontrolled_sexual_impulses"
+    },
+    {
+      "criterium": "preoccupation_with_sexual_thoughts_or_fantasies"
+    },
+    {
+      "criterium": "repeated_failed_attempts_to_reduce_or_stop_sexual_behavior"
+    },
+    {
+      "criterium": "excessive_time_spent_experiencing_or_planning_sexual_behavior"
+    },
+    {
+      "criterium": "sexual_behavior_causing_distress_or_impairment"
+    },
+    {
+      "criterium": "interpersonal_conflict_or_relationship_dysfunction_due_to_sexual_behavior"
+    },
+    {
+      "criterium": "secretive_or_deceptive_behaviors_to_mask_sexual_activity"
+    },
+    {
+      "criterium": "increased_frequency_or_intensity_of_sexual_behaviors_over_time"
+    },
+    {
+      "criterium": "sexual_behavior_as_mood_or_stress_coping_mechanism"
+    }
+  ],
+  "estimated_prevalence_percent": 4.0
+}

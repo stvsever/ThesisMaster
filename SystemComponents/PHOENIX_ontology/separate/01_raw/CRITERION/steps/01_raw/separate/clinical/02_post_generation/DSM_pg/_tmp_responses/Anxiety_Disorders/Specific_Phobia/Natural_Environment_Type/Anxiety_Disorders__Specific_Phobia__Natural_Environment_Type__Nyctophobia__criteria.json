@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intense_fear_of_darkness"
+    },
+    {
+      "criterium": "avoidance_of_dark_or_low_light_situations"
+    },
+    {
+      "criterium": "panic_or_anxiety_in_darkness"
+    },
+    {
+      "criterium": "tachycardia_in_darkness"
+    },
+    {
+      "criterium": "sweating_in_darkness"
+    },
+    {
+      "criterium": "shortness_of_breath_in_darkness"
+    },
+    {
+      "criterium": "hypervigilance_in_dark_environments"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_dark_fear"
+    },
+    {
+      "criterium": "frequent_safety_behaviors_in_darkness"
+    },
+    {
+      "criterium": "intrusive_thoughts_about_nighttime_dangers"
+    }
+  ],
+  "estimated_prevalence_percent": 2.8
+}

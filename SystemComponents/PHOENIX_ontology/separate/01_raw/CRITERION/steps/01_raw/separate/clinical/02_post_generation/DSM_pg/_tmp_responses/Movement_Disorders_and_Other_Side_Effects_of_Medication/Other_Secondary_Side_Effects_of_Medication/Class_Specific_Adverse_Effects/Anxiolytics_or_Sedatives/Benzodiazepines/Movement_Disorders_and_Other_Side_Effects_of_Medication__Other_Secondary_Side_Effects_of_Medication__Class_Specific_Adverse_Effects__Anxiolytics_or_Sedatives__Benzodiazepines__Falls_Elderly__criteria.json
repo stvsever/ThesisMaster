@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gait_instability"
+    },
+    {
+      "criterium": "increased_postural_sway"
+    },
+    {
+      "criterium": "delayed_protective_step_initiation"
+    },
+    {
+      "criterium": "delayed_postural_recovery_time"
+    },
+    {
+      "criterium": "dizziness_on_standing"
+    },
+    {
+      "criterium": "orthostatic_hypotension_signs"
+    },
+    {
+      "criterium": "somnolence_daytime"
+    },
+    {
+      "criterium": "reduced_reaction_time"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

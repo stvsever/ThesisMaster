@@ -1,0 +1,60 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "TH",
+      "DDC",
+      "SLC6A3",
+      "DRD1",
+      "DRD2",
+      "DRD3",
+      "SLC18A2"
+    ],
+    "molecules": [
+      "dopamine",
+      "DOPAC",
+      "HVA",
+      "VMAT2_protein",
+      "DAT_protein",
+      "DRD1_protein",
+      "DRD2_protein"
+    ],
+    "cells": [
+      "TH_positive_dopaminergic_neurons_SNc",
+      "TH_positive_dopaminergic_neurons_VTA",
+      "D1_spiny_projection_neurons_striatum",
+      "D2_spiny_projection_neurons_striatum",
+      "dopaminergic_bouton_density_in_striatum"
+    ],
+    "circuits": [
+      "VTA_to_NAc_projection_activity",
+      "SNc_to_dorsal_striatum_projection_activity",
+      "VTA_to_PFC_projection_activity",
+      "mesolimbic_pathway_activation",
+      "mesocortical_pathway_activation",
+      "nigrostriatal_pathway_activation"
+    ],
+    "physiology": [
+      "SNc_VTA_firing_rate",
+      "phasic_dopamine_release_events",
+      "tonic_dopamine_tone",
+      "midbrain_BOLD_response_to_reward_presentation",
+      "pupil_dilation_to_reward_cue",
+      "skin_conductance_response_to_reward"
+    ],
+    "behavior": [
+      "reaction_time_to_reward_cue",
+      "allocation_of_effort_to_high_value_reward",
+      "breakpoint_in_progressive_ratio_task",
+      "high_reward_choice_rate",
+      "cue_trigger_latency",
+      "reward_pursuit_duration"
+    ],
+    "self_report": [
+      "BAS_Reward_Responsivity_Score",
+      "BAS_Drive_Score",
+      "BAS_Fun_Seeking_Score",
+      "Self_Report_Reward_Sensitivity_Score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

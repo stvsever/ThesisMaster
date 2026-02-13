@@ -1,0 +1,34 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "parietal_premotor_activation_latency_ms",
+      "PPC_PMC_beta_connectivity_strength",
+      "PPC_PMC_gamma_coherence_value",
+      "IPS_PMC_activation_peak_amplitude",
+      "frontoparietal_network_node_coactivation_rate"
+    ],
+    "physiology": [
+      "parietal_mu_rhythm_power",
+      "central_mu_rhythm_suppression_percent",
+      "parietal_beta_power",
+      "somatosensory_evoked_potential_amplitude",
+      "parietal_ERP_peak_latency_ms"
+    ],
+    "behavior": [
+      "hand_tracking_accuracy_percent",
+      "trajectory_tracking_error_mm",
+      "visuomotor_reaction_time_ms",
+      "proprioceptive_displacement_threshold_mm",
+      "proprioceptive_drift_cm"
+    ],
+    "self_report": [
+      "rubber_hand_illusion_susceptibility_score",
+      "ownership_disruption_scale_score",
+      "agency_experienced_disruption_score"
+    ]
+  },
+  "estimated_prevalence_percent": 1.5
+}

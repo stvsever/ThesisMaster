@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "sleepiness_during_night_shifts"
+    },
+    {
+      "criterium": "attentional_lapses_during_night_shifts"
+    },
+    {
+      "criterium": "difficulty_falling_asleep_after_night_shift"
+    },
+    {
+      "criterium": "difficulty_maintaining_sleep_after_night_shift"
+    },
+    {
+      "criterium": "short_sleep_duration_after_night_shift"
+    },
+    {
+      "criterium": "nonrestorative_sleep_quality"
+    },
+    {
+      "criterium": "irregular_sleep_wake_schedule"
+    },
+    {
+      "criterium": "napping_during_work_shifts"
+    },
+    {
+      "criterium": "reduced_cognitive_performance_on_attention_tasks"
+    },
+    {
+      "criterium": "decreased_reaction_time_or_psychomotor_slowness"
+    },
+    {
+      "criterium": "increased_risk_of_errors_or_accidents_at_work"
+    },
+    {
+      "criterium": "increased_napping_outside_work_hours"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

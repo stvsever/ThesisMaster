@@ -1,0 +1,28 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "vestibular_nuclei_activity",
+      "nucleus_tractus_solitarius_activity",
+      "insular_cortex_activity",
+      "parabrachial_nucleus_activity",
+      "vestibulo_autonomic_network_connectivity"
+    ],
+    "physiology": [
+      "heart_rate_reactivity_to_vestibular_stimulation",
+      "systolic_blood_pressure_reactivity_to_vestibular_stimulation",
+      "diastolic_blood_pressure_reactivity_to_vestibular_stimulation",
+      "heart_rate_variability_sdnn",
+      "baroreflex_sensitivity"
+    ],
+    "behavior": [
+      "postural_stability_score_during_rotational_task",
+      "gait_stability_metric_during_rotational_challenge",
+      "vestibulo_ocular_reflex_performance_latency"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 0.8
+}

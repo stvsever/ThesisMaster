@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Lack_of_desire_for_close_relationships"
+    },
+    {
+      "criterium": "Preference_for_solitary_activities"
+    },
+    {
+      "criterium": "Low_interest_in_sexual_experience"
+    },
+    {
+      "criterium": "Takes_pleasure_in_few_activities"
+    },
+    {
+      "criterium": "Lack_of_close_friends_besides_family"
+    },
+    {
+      "criterium": "Indifference_to_praise_or_criticism"
+    },
+    {
+      "criterium": "Emotional_coldness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

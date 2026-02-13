@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucination_presence"
+    },
+    {
+      "criterium": "auditory_hallucination_voice_count_multiple"
+    },
+    {
+      "criterium": "auditory_hallucination_command_content_present"
+    },
+    {
+      "criterium": "auditory_hallucination_commentary_present"
+    },
+    {
+      "criterium": "auditory_hallucination_thought_echo_present"
+    },
+    {
+      "criterium": "auditory_hallucination_voice_identity_recognizable"
+    },
+    {
+      "criterium": "auditory_hallucination_intensity_high"
+    },
+    {
+      "criterium": "auditory_hallucination_distress_present"
+    },
+    {
+      "criterium": "auditory_hallucination_concentration_impairment_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

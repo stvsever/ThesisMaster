@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "phoneme_substitution_error"
+    },
+    {
+      "criterium": "phoneme_distortion_error"
+    },
+    {
+      "criterium": "final_consonant_deletion"
+    },
+    {
+      "criterium": "consonant_cluster_reduction"
+    },
+    {
+      "criterium": "velar_fronting_error"
+    },
+    {
+      "criterium": "initial_consonant_substitution"
+    },
+    {
+      "criterium": "sibilant_distortion"
+    },
+    {
+      "criterium": "liquid_distortion"
+    },
+    {
+      "criterium": "inconsistent_articulation_across_contexts"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_awakening_threshold_to_bladder_distension"
+    },
+    {
+      "criterium": "delayed_or_absent_awakening_to_micturition_signals"
+    },
+    {
+      "criterium": "bed_wetting_during_sleep_without_alarm_response"
+    },
+    {
+      "criterium": "normal_daytime_urinary_capacity"
+    },
+    {
+      "criterium": "normal_nocturnal_urine_production_rate"
+    },
+    {
+      "criterium": "normal_bladder_capacity_on_urodynamic_testing"
+    },
+    {
+      "criterium": "detrusor_overactivity_absent_on_urodynamics"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anticipatory_anxiety_before_dental_visit"
+    },
+    {
+      "criterium": "avoidance_of_dental_visits"
+    },
+    {
+      "criterium": "fear_response_to_dental_stimuli"
+    },
+    {
+      "criterium": "tachycardia_during_dental_procedure"
+    },
+    {
+      "criterium": "diaphoresis_during_dental_procedure"
+    },
+    {
+      "criterium": "presyncope_or_syncope_during_dental_procedure"
+    },
+    {
+      "criterium": "panic_like_symptoms_during_dental_procedure"
+    },
+    {
+      "criterium": "urge_to_escape_during_dental_procedure"
+    },
+    {
+      "criterium": "catastrophic_thoughts_about_dental_treatment"
+    },
+    {
+      "criterium": "hyperventilation_during_dental_procedure"
+    },
+    {
+      "criterium": "gag_reflex_triggered_by_dentistry"
+    },
+    {
+      "criterium": "heightened_startle_response_to_dental_noises"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

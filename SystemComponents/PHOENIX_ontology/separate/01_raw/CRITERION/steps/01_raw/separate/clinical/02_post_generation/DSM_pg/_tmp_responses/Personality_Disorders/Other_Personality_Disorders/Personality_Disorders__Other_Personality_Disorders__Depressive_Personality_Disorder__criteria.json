@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_negative_affect"
+    },
+    {
+      "criterium": "pervasive_pessimism"
+    },
+    {
+      "criterium": "low_self_esteem"
+    },
+    {
+      "criterium": "self_critical_rumination"
+    },
+    {
+      "criterium": "excessive_guilt"
+    },
+    {
+      "criterium": "interpersonal_withdrawal"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "flattened_affect"
+    },
+    {
+      "criterium": "negative_attribution_style"
+    },
+    {
+      "criterium": "hypersensitivity_to_criticism"
+    },
+    {
+      "criterium": "external_validation_dependence"
+    },
+    {
+      "criterium": "poor_stress_resilience"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

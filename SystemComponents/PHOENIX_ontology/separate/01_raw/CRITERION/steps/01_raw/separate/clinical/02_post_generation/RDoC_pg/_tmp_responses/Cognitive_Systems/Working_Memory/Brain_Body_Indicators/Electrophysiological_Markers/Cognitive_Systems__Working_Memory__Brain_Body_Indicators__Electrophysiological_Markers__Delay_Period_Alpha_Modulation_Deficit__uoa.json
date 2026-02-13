@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT",
+      "BDNF",
+      "DRD2",
+      "GRIN2B",
+      "CACNA1C",
+      "GRIA1",
+      "SLC6A4"
+    ],
+    "molecules": [
+      "DOPAMINE",
+      "GABA",
+      "GLUTAMATE",
+      "NOREPINEPHRINE",
+      "ACETYLCHOLINE",
+      "BDNF_PROTEIN"
+    ],
+    "cells": [
+      "Pyramidal_Neurons_Layers_II_III",
+      "Pyramidal_Neurons_Layers_VI",
+      "PV_Interneurons",
+      "SST_Interneurons",
+      "Astrocytes"
+    ],
+    "circuits": [
+      "Frontoparietal_Control_Network",
+      "DLPFC_Parietal_Coupling",
+      "Alpha_Generation_Network"
+    ],
+    "physiology": [
+      "EEG_Alpha_Power",
+      "Delay_Period_Alpha_Modulation_Index",
+      "Frontoparietal_Alpha_Coherence",
+      "EEG_Phase_Synchrony_Frontoparietal",
+      "Interhemispheric_Alpha_Asymmetry"
+    ],
+    "behavior": [
+      "NBack_Accuracy",
+      "NBack_Reaction_Time",
+      "Delayed_Response_Accuracy",
+      "Delayed_Response_Time",
+      "Memory_Span_Score"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 2.5
+}

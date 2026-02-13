@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "free_running_circadian_period_not_locked_to_24h"
+    },
+    {
+      "criterium": "daily_sleep_onset_time_phase_shift"
+    },
+    {
+      "criterium": "daily_wake_time_phase_shift"
+    },
+    {
+      "criterium": "irregular_sleep_wake_schedule_across_days"
+    },
+    {
+      "criterium": "nocturnal_sleep_fragmentation"
+    },
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "increased_daytime_napping_frequency"
+    },
+    {
+      "criterium": "misalignment_with_social_or_work_schedule"
+    },
+    {
+      "criterium": "variable_sleep_duration_between_nights"
+    },
+    {
+      "criterium": "prolonged_sleep_onset_latency"
+    },
+    {
+      "criterium": "variable_daytime_alertness"
+    },
+    {
+      "criterium": "absence_of_light_based_entrainment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

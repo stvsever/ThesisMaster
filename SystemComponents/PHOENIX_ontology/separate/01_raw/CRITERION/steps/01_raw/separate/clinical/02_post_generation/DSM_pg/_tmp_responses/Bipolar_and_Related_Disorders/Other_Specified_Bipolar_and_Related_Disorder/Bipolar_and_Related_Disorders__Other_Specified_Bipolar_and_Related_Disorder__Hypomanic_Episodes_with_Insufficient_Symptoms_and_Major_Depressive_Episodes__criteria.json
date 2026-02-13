@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_mood"
+    },
+    {
+      "criterium": "increased_goal_directed_activity"
+    },
+    {
+      "criterium": "decreased_need_for_sleep"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "grandiosity"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "diminished_concentration"
+    },
+    {
+      "criterium": "suicidal_ideation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

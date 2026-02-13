@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "oropharyngeal_dysphagia"
+    },
+    {
+      "criterium": "delayed_swallow_trigger"
+    },
+    {
+      "criterium": "nasal_regurgitation_during_swallow"
+    },
+    {
+      "criterium": "coughing_during_meal"
+    },
+    {
+      "criterium": "laryngeal_penetration_during_swallow"
+    },
+    {
+      "criterium": "aspiration_during_or_after_swallow"
+    },
+    {
+      "criterium": "vallecular_residue_post_swallow"
+    },
+    {
+      "criterium": "pyriform_sinus_residue_post_swallow"
+    },
+    {
+      "criterium": "reduced_hyoid_laryngeal_elevation_during_swallow"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

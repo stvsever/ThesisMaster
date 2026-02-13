@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_speculative_trading"
+    },
+    {
+      "criterium": "unsuccessful_efforts_to_reduce_trading"
+    },
+    {
+      "criterium": "craving_to_trade"
+    },
+    {
+      "criterium": "loss_of_control_over_trading"
+    },
+    {
+      "criterium": "chasing_trading_losses"
+    },
+    {
+      "criterium": "trading_to_escape_distress"
+    },
+    {
+      "criterium": "neglect_of_social_occupational_activities_due_to_trading"
+    },
+    {
+      "criterium": "continued_trading_despite_adverse_financial_or_personal_consequences"
+    },
+    {
+      "criterium": "deception_about_trading_activities"
+    },
+    {
+      "criterium": "jeopardizing_relationships_or_career_due_to_trading"
+    },
+    {
+      "criterium": "reliance_on_others_for_funding_trading_or_covering_losses"
+    },
+    {
+      "criterium": "excessive_risk_taking_in_trading"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rhythmic_trunk_rocking_during_sleep"
+    },
+    {
+      "criterium": "head_and_neck_rocking_during_sleep"
+    },
+    {
+      "criterium": "bilateral_symmetrical_rocking_motion"
+    },
+    {
+      "criterium": "pelvic_and_hip_involvement_in_rocking"
+    },
+    {
+      "criterium": "low_amplitude_rocking_motion"
+    },
+    {
+      "criterium": "repetitive_rocking_cycles_observed"
+    },
+    {
+      "criterium": "teeth_grinding_present_during_rocking"
+    },
+    {
+      "criterium": "bed_partner_observation_of_rocking_episodes"
+    },
+    {
+      "criterium": "rocking_episodes_observed_in_sleep_cycle"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

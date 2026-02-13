@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tolerance_development_to_benzodiazepines"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_cessation"
+    },
+    {
+      "criterium": "craving_for_benzodiazepines"
+    },
+    {
+      "criterium": "dose_escalation_over_time"
+    },
+    {
+      "criterium": "unsanctioned_acquisition_of_benzodiazepines"
+    },
+    {
+      "criterium": "use_despite_adverse_effects"
+    },
+    {
+      "criterium": "time_spent_obtaining_using_recovering_benzodiazepines"
+    },
+    {
+      "criterium": "functional_impairment_in_social_or_professional_domains_due_to_benzodiazepine_use"
+    },
+    {
+      "criterium": "use_in_dangerous_situations_due_to_impairment"
+    },
+    {
+      "criterium": "loss_of_control_over_benzodiazepine_use"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

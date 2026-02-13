@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "generalized_myoclonus"
+    },
+    {
+      "criterium": "focal_myoclonus"
+    },
+    {
+      "criterium": "facial_myoclonus"
+    },
+    {
+      "criterium": "limb_myoclonus"
+    },
+    {
+      "criterium": "axial_myoclonus"
+    },
+    {
+      "criterium": "stimulus_sensitive_myoclonus"
+    },
+    {
+      "criterium": "startle_induced_myoclonus"
+    },
+    {
+      "criterium": "action_triggered_myoclonus"
+    },
+    {
+      "criterium": "preserved_consciousness_during_events"
+    },
+    {
+      "criterium": "sleep_suppression_of_myoclonus"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

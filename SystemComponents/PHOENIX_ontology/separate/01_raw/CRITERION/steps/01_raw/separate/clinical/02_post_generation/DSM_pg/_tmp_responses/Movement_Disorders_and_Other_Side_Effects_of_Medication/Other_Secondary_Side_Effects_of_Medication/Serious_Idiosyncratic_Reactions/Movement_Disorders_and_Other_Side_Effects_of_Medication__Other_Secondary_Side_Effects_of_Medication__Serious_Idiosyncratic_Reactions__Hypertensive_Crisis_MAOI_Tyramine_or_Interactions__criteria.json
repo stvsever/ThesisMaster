@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SBP_>=180_mmHg"
+    },
+    {
+      "criterium": "DBP_>=120_mmHg"
+    },
+    {
+      "criterium": "Severe_Headache"
+    },
+    {
+      "criterium": "Chest_Pain"
+    },
+    {
+      "criterium": "Diaphoresis"
+    },
+    {
+      "criterium": "Tachycardia"
+    },
+    {
+      "criterium": "Palpitations"
+    },
+    {
+      "criterium": "Nausea_Vomiting"
+    },
+    {
+      "criterium": "Visual_Disturbances"
+    },
+    {
+      "criterium": "Altered_Mental_Status"
+    },
+    {
+      "criterium": "Dyspnea"
+    },
+    {
+      "criterium": "Epistaxis"
+    },
+    {
+      "criterium": "Oliguria"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

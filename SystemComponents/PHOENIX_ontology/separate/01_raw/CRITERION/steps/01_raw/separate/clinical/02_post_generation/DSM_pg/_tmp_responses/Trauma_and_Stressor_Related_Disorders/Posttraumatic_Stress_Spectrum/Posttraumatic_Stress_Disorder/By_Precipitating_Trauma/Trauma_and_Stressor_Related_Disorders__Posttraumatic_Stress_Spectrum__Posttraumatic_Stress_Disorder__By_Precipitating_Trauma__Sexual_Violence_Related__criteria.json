@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_memories_sexual_violence"
+    },
+    {
+      "criterium": "distressing_nightmares_sexual_violence"
+    },
+    {
+      "criterium": "dissociative_reexperiencing_to_sexual_violence_cues"
+    },
+    {
+      "criterium": "avoidance_thoughts_of_sexual_violence"
+    },
+    {
+      "criterium": "avoidance_of_reminders_sexual_violence"
+    },
+    {
+      "criterium": "persistent_negative_beliefs_about_self_related_to_sexual_violence"
+    },
+    {
+      "criterium": "persistent_negative_beliefs_about_world_related_to_sexual_violence"
+    },
+    {
+      "criterium": "anhedonia_related_to_sexual_violence_context"
+    },
+    {
+      "criterium": "hypervigilance_to_sexual_violence_reminders"
+    },
+    {
+      "criterium": "exaggerated_startle_response_to_sexual_violence"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_sexual_violence"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "autonomic_hyperactivity"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "hyperthermia"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "hyperreflexia"
+    },
+    {
+      "criterium": "inducible_clonus"
+    },
+    {
+      "criterium": "rigidity"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "delirium"
+    },
+    {
+      "criterium": "diarrhea"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

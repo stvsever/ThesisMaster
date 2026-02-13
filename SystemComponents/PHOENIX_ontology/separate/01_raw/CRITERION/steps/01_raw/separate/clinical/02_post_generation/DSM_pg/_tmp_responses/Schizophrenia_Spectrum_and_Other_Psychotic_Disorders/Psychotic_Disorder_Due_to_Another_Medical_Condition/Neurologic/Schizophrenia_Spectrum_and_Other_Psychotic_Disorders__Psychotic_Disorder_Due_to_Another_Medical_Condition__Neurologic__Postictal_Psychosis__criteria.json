@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "referential_delusions"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "disorganized_thought_form"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "inappropriate_affect"
+    },
+    {
+      "criterium": "impaired_insight"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

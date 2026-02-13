@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "arm_hair_pulling_patches_present"
+    },
+    {
+      "criterium": "leg_hair_pulling_patches_present"
+    },
+    {
+      "criterium": "axillary_hair_pulling_patches_present"
+    },
+    {
+      "criterium": "pubic_hair_pulling_patches_present"
+    },
+    {
+      "criterium": "arm_hair_short_broken_at_pulling_sites"
+    },
+    {
+      "criterium": "leg_hair_short_broken_at_pulling_sites"
+    },
+    {
+      "criterium": "axillary_hair_short_broken_at_pulling_sites"
+    },
+    {
+      "criterium": "pubic_hair_short_broken_at_pulling_sites"
+    },
+    {
+      "criterium": "regrown_hair_stubble_at_pulling_sites"
+    },
+    {
+      "criterium": "perifollicular_erythema_at_pulling_sites"
+    },
+    {
+      "criterium": "visible_excoriations_at_pulling_sites"
+    },
+    {
+      "criterium": "pre_pulling_urge_body_hair_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

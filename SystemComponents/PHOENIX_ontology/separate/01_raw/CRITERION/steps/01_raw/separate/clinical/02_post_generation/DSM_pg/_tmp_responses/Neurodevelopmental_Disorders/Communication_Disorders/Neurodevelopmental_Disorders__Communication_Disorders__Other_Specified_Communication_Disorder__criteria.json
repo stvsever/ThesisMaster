@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "receptive_language_deficit"
+    },
+    {
+      "criterium": "expressive_language_deficit"
+    },
+    {
+      "criterium": "pragmatic_language_deficit"
+    },
+    {
+      "criterium": "articulation_disorder"
+    },
+    {
+      "criterium": "fluency_disorder"
+    },
+    {
+      "criterium": "phonological_processing_deficit"
+    },
+    {
+      "criterium": "morphosyntactic_deficit"
+    },
+    {
+      "criterium": "word_retrieval_difficulty"
+    },
+    {
+      "criterium": "narrative_coherence_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

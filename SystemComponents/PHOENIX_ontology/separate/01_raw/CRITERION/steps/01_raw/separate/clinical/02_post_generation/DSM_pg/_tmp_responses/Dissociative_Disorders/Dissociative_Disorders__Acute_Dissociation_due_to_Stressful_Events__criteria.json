@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depersonalization_present"
+    },
+    {
+      "criterium": "derealization_present"
+    },
+    {
+      "criterium": "dissociative_amnesia_for_autobiographical_event"
+    },
+    {
+      "criterium": "memory_gap_for_stressor_related_events"
+    },
+    {
+      "criterium": "subjective_time_distortion"
+    },
+    {
+      "criterium": "identity_disturbance_present"
+    },
+    {
+      "criterium": "dissociative_trance_state_present"
+    },
+    {
+      "criterium": "episodic_unresponsiveness_or_stupor"
+    }
+  ],
+  "estimated_prevalence_percent": 4.0
+}

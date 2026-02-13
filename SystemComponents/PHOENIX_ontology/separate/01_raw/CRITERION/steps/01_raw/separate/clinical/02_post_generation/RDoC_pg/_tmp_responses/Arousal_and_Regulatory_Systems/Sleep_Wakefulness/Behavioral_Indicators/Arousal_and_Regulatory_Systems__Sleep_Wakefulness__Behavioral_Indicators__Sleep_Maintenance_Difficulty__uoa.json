@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "PER3_VNTR_5_5",
+      "PER3_VNTR_4_4",
+      "CLOCK_rs1801260_T",
+      "ARNTL_rs7950226"
+    ],
+    "molecules": [
+      "melatonin_plasma_level",
+      "adenosine_brain_concentration",
+      "GABA_tone_level",
+      "glutamate_tone_level",
+      "orexin_A_level",
+      "orexin_B_level",
+      "cortisol_plasma_level"
+    ],
+    "cells": null,
+    "circuits": [
+      "VLPO_GABAergic_neuron_activity",
+      "LHA_orexin_neuron_firing_rate",
+      "TMN_histaminergic_neuron_activity",
+      "thalamocortical_sleep_spindle_coherence"
+    ],
+    "physiology": [
+      "WASO_minutes",
+      "Sleep_efficiency_percent",
+      "Sleep_latency_minutes",
+      "sleep_fragmentation_index",
+      "REM_latency_minutes",
+      "EEG_delta_power_NREM",
+      "HRV_SDNN_ms"
+    ],
+    "behavior": [
+      "nocturnal_wake_episodes_count",
+      "nocturnal_awakenings_duration_minutes",
+      "total_sleep_time_minutes",
+      "sleep_latency_at_night_minutes"
+    ],
+    "self_report": [
+      "subjective_night_waking_frequency",
+      "subjective_sleep_maintenance_rating",
+      "ISI_total_score",
+      "PSQI_sleep_disturbance_subscale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 15.0
+}

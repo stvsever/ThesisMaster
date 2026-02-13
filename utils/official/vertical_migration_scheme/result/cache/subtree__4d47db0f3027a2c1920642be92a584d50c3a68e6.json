@@ -1,0 +1,47 @@
+{
+  "domain_path": "PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning",
+  "domain_root_path": [
+    "PSYCHO",
+    "Cognitive_Behavioral_Therapies",
+    "Exposure_and_Inhibitory_Learning"
+  ],
+  "leaf_count": 118,
+  "total_edges_in_subtree": 149,
+  "evaluated_pairs": 149,
+  "violations_count": 4,
+  "violation_rate": 0.026845637583892617,
+  "llm_calls": 2,
+  "violations": [
+    "Classical_Conditioning_and_Counterconditioning > Desensitization_Hierarchy_Design",
+    "Classical_Conditioning_and_Counterconditioning > Desensitization_Implementation_Variants",
+    "Exposure_and_Inhibitory_Learning > Classical_Conditioning_and_Counterconditioning",
+    "Exposure_and_Inhibitory_Learning > Design_and_Rationale"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Exposure_and_Inhibitory_Learning > Classical_Conditioning_and_Counterconditioning",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning / Classical_Conditioning_and_Counterconditioning"
+    },
+    {
+      "pair": "Exposure_and_Inhibitory_Learning > Design_and_Rationale",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning / Design_and_Rationale"
+    },
+    {
+      "pair": "Classical_Conditioning_and_Counterconditioning > Desensitization_Hierarchy_Design",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning / Classical_Conditioning_and_Counterconditioning",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning / Classical_Conditioning_and_Counterconditioning / Desensitization_Hierarchy_Design"
+    },
+    {
+      "pair": "Classical_Conditioning_and_Counterconditioning > Desensitization_Implementation_Variants",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning / Classical_Conditioning_and_Counterconditioning",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning / Classical_Conditioning_and_Counterconditioning / Desensitization_Implementation_Variants"
+    }
+  ],
+  "cache_key": "4d47db0f3027a2c1920642be92a584d50c3a68e6",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 87.094
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "platelets_lt_150k_per_uL"
+    },
+    {
+      "criterium": "platelets_lt_100k_per_uL"
+    },
+    {
+      "criterium": "platelets_lt_50k_per_uL"
+    },
+    {
+      "criterium": "petechiae_present"
+    },
+    {
+      "criterium": "purpura_present"
+    },
+    {
+      "criterium": "ecchymosis_present"
+    },
+    {
+      "criterium": "epistaxis_present"
+    },
+    {
+      "criterium": "gingival_bleeding_present"
+    },
+    {
+      "criterium": "menorrhagia_present"
+    },
+    {
+      "criterium": "splenomegaly_present"
+    },
+    {
+      "criterium": "hepatomegaly_present"
+    },
+    {
+      "criterium": "spontaneous_bruising_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

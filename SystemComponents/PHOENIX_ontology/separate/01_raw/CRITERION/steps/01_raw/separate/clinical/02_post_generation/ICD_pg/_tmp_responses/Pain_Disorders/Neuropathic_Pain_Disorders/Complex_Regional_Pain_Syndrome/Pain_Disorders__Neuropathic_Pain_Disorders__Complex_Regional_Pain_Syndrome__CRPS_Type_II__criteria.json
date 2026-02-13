@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "allodynia_mechanical"
+    },
+    {
+      "criterium": "allodynia_thermal"
+    },
+    {
+      "criterium": "hyperalgesia_pinprick"
+    },
+    {
+      "criterium": "spontaneous_pain_present"
+    },
+    {
+      "criterium": "edema_affected_extremity"
+    },
+    {
+      "criterium": "temperature_asymmetry"
+    },
+    {
+      "criterium": "sudomotor_changes_affected_extremity"
+    },
+    {
+      "criterium": "motor_weakness_affected_extremity"
+    },
+    {
+      "criterium": "decreased_range_of_motion_affected_extremity"
+    },
+    {
+      "criterium": "skin_trophic_changes_affected_extremity"
+    },
+    {
+      "criterium": "nail_changes_affected_extremity"
+    },
+    {
+      "criterium": "hair_growth_changes_affected_extremity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0262
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "muscle_tension"
+    },
+    {
+      "criterium": "shortness_of_breath"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "panic_attacks"
+    },
+    {
+      "criterium": "hypervigilance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

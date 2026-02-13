@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tolerance_to_gabapentinoids"
+    },
+    {
+      "criterium": "withdrawal_symptoms_gabapentinoids"
+    },
+    {
+      "criterium": "craving_gabapentinoids"
+    },
+    {
+      "criterium": "increased_dose_or_frequency_gabapentinoids"
+    },
+    {
+      "criterium": "unsuccessful_cessation_attempts_gabapentinoids"
+    },
+    {
+      "criterium": "time_spent_obtaining_or_using_gabapentinoids"
+    },
+    {
+      "criterium": "occupational_academic_impairment_due_to_gabapentinoids"
+    },
+    {
+      "criterium": "social_relationship_impairment_due_to_gabapentinoids"
+    },
+    {
+      "criterium": "continued_use_despite_physically_or_psychologically_harm_from_gabapentinoids"
+    },
+    {
+      "criterium": "recurrent_gabapentinoid_seeking_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

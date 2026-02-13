@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "body_weight_kg_increase"
+    },
+    {
+      "criterium": "bmi_increase_from_baseline"
+    },
+    {
+      "criterium": "waist_circumference_increase_cm"
+    },
+    {
+      "criterium": "hip_circumference_increase_cm"
+    },
+    {
+      "criterium": "percent_body_fat_increase"
+    },
+    {
+      "criterium": "edema_present"
+    },
+    {
+      "criterium": "increased_appetite_reported"
+    },
+    {
+      "criterium": "increased_food_intake_documented"
+    },
+    {
+      "criterium": "self_report_of_weight_gain"
+    }
+  ],
+  "estimated_prevalence_percent": 25.0
+}

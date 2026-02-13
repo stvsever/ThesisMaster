@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "verbal_aggression_outburst"
+    },
+    {
+      "criterium": "non_injurious_physical_aggression"
+    },
+    {
+      "criterium": "threatening_behaviors_without_contact"
+    },
+    {
+      "criterium": "absence_of_injury_during_outbursts"
+    },
+    {
+      "criterium": "absence_of_property_damage_during_outbursts"
+    },
+    {
+      "criterium": "impulsive_response_to_provocation"
+    },
+    {
+      "criterium": "lack_of_premeditation_in_outburst"
+    },
+    {
+      "criterium": "autonomic_arousal_during_outbursts"
+    },
+    {
+      "criterium": "remorse_or_guilt_post_outburst"
+    },
+    {
+      "criterium": "distress_or_impairment_related_to_outbursts"
+    },
+    {
+      "criterium": "loss_of_control_during_outburst"
+    },
+    {
+      "criterium": "social_interference_due_to_outbursts"
+    }
+  ],
+  "estimated_prevalence_percent": 1.3
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_attention"
+    },
+    {
+      "criterium": "fluctuating_consciousness"
+    },
+    {
+      "criterium": "disorientation_time"
+    },
+    {
+      "criterium": "disorientation_place"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "disorganized_thought_content"
+    },
+    {
+      "criterium": "visual_hallucinations_present"
+    },
+    {
+      "criterium": "delusions_present"
+    },
+    {
+      "criterium": "nystagmus_present"
+    },
+    {
+      "criterium": "ataxia_present"
+    },
+    {
+      "criterium": "slurred_speech_present"
+    },
+    {
+      "criterium": "tremor_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "headache_worsens_with_upright_posture"
+    },
+    {
+      "criterium": "headache_relief_with_supine_position"
+    },
+    {
+      "criterium": "headache_quality_throbbing"
+    },
+    {
+      "criterium": "neck_stiffness_present"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "dizziness_present"
+    },
+    {
+      "criterium": "vomiting_present"
+    },
+    {
+      "criterium": "phonophobia_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

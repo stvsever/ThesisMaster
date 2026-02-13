@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_neuralgiform_head_pain_orbital_temporal_region"
+    },
+    {
+      "criterium": "ipsilateral_conjunctival_injection"
+    },
+    {
+      "criterium": "ipsilateral_lacrimation"
+    },
+    {
+      "criterium": "ipsilateral_nasal_congestion"
+    },
+    {
+      "criterium": "ipsilateral_rhinorrhea"
+    },
+    {
+      "criterium": "ipsilateral_ptosis"
+    },
+    {
+      "criterium": "ipsilateral_periorbital_edema"
+    },
+    {
+      "criterium": "ipsilateral_facial_sweating"
+    },
+    {
+      "criterium": "pain_quality_neuralgiform_shock_like"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ANTICIPATORY_ANXIETY_PENETRATION"
+    },
+    {
+      "criterium": "AVOIDANCE_OF_VAGINAL_PENETRATION_DUE_TO_PAIN_ANTICIPATION"
+    },
+    {
+      "criterium": "PELVIC_FLOOR_TONUS_ELEVATION_PREPENETRATION"
+    },
+    {
+      "criterium": "TACHYCARDIA_PREPENETRATION"
+    },
+    {
+      "criterium": "TREMOR_PREPENETRATION"
+    },
+    {
+      "criterium": "SWEATING_PREPENETRATION"
+    },
+    {
+      "criterium": "CATASTROPHIZING_PAIN_EXPECTATION"
+    },
+    {
+      "criterium": "SLEEP_DISTURBANCE_ASSOCIATED_WITH_SEXUAL_ANTICIPATION"
+    },
+    {
+      "criterium": "FEAR_OF_SEXUAL_PAIN_WITH_PARTNER_INTERACTION"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

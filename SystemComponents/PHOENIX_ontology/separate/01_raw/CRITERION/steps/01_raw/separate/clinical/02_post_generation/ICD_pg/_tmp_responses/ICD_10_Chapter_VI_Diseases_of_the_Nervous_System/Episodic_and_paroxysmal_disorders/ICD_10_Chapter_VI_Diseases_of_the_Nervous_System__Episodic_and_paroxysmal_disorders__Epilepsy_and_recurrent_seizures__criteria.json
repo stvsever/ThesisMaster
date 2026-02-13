@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "generalized_tonic_clonic_seizure"
+    },
+    {
+      "criterium": "focal_motor_seizure"
+    },
+    {
+      "criterium": "focal_non_motor_seizure"
+    },
+    {
+      "criterium": "automatisms"
+    },
+    {
+      "criterium": "aura_present"
+    },
+    {
+      "criterium": "ictal_impaired_awareness"
+    },
+    {
+      "criterium": "tongue_biting"
+    },
+    {
+      "criterium": "incontinence_during_seizure"
+    },
+    {
+      "criterium": "postictal_confusion"
+    },
+    {
+      "criterium": "postictal_somnolence"
+    },
+    {
+      "criterium": "nocturnal_seizure"
+    },
+    {
+      "criterium": "amnesia_during_seizure"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

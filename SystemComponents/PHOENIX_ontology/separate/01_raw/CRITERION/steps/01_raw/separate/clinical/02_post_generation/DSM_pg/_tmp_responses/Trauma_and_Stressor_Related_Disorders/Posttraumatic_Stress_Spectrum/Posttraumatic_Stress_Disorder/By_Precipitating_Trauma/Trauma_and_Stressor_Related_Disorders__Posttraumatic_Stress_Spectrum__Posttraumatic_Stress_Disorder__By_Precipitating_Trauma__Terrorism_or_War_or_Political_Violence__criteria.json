@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_memories"
+    },
+    {
+      "criterium": "distressing_dreams_related_to_trauma"
+    },
+    {
+      "criterium": "dissociative_reactions"
+    },
+    {
+      "criterium": "avoidance_thoughts_or_memories"
+    },
+    {
+      "criterium": "avoidance_external_reminders"
+    },
+    {
+      "criterium": "negative_beliefs_and_cognition_about_self_or_world"
+    },
+    {
+      "criterium": "persistent_negative_emotions"
+    },
+    {
+      "criterium": "diminished_interest_or_participation_in_activities"
+    },
+    {
+      "criterium": "inability_to_experience_positive_emotions"
+    },
+    {
+      "criterium": "irritable_anger_or_aggression"
+    },
+    {
+      "criterium": "hypervigilance"
+    },
+    {
+      "criterium": "exaggerated_startle_response"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "reckless_or_self_destructive_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

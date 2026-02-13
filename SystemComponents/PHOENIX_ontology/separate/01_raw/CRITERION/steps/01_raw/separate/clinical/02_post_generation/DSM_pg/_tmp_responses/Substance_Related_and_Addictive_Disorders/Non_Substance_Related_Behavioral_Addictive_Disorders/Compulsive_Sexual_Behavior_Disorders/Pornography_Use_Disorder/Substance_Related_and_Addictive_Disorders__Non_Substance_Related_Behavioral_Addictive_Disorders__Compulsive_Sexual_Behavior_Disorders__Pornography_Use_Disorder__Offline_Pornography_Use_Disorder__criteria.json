@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "loss_of_control_over_offline_pornography_use"
+    },
+    {
+      "criterium": "increased_time_spent_on_offline_pornography_use"
+    },
+    {
+      "criterium": "tolerance_offline_pornography_use"
+    },
+    {
+      "criterium": "craving_for_offline_pornography"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_offline_pornography_abstinence"
+    },
+    {
+      "criterium": "unpleasant_mood_or_irritability_when_offline_pornography_access_is_restricted"
+    },
+    {
+      "criterium": "unsuccessful_attempts_to_reduce_offline_pornography_use"
+    },
+    {
+      "criterium": "occupational_performance_impairment_due_to_offline_pornography_use"
+    },
+    {
+      "criterium": "social_or_family_relationship_impairment_due_to_offline_pornography_use"
+    },
+    {
+      "criterium": "secretive_or_deceptive_offline_pornography_use_behaviors"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

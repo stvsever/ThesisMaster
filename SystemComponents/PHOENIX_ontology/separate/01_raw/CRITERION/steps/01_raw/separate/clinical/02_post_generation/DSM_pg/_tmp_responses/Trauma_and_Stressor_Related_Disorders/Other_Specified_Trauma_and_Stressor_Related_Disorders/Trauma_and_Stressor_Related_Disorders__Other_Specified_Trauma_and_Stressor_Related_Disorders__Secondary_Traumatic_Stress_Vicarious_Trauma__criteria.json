@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_trauma_images"
+    },
+    {
+      "criterium": "trauma_related_nightmares"
+    },
+    {
+      "criterium": "trauma_reminder_avoidance"
+    },
+    {
+      "criterium": "trauma_rumination"
+    },
+    {
+      "criterium": "emotional_numbing_detachment"
+    },
+    {
+      "criterium": "persistent_negative_mood"
+    },
+    {
+      "criterium": "irritability_or_anger_outbursts"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "hypervigilance"
+    },
+    {
+      "criterium": "exaggerated_startle_response"
+    },
+    {
+      "criterium": "concentration_difficulty_related_to_case_exposure"
+    },
+    {
+      "criterium": "social_withdrawal_or_interpersonal_detachment"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_zoophilic_fantasy_arousal"
+    },
+    {
+      "criterium": "recurrent_zoophilic_sexual_urges"
+    },
+    {
+      "criterium": "sexual_activity_with_animals_history"
+    },
+    {
+      "criterium": "planned_or_attempted_sexual_contact_with_animals"
+    },
+    {
+      "criterium": "current_sexual_contact_with_animals"
+    },
+    {
+      "criterium": "reduced_interest_in_human_sexual_stimuli"
+    },
+    {
+      "criterium": "distress_or_impairment_due_to_zoophilic_interest"
+    },
+    {
+      "criterium": "zoophilic_fantasies_triggered_by_animal_related_materials"
+    },
+    {
+      "criterium": "social_withdrawal_or_impairment_due_to_zoophilic_interest"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_intensity"
+    },
+    {
+      "criterium": "compulsive_use_behavior"
+    },
+    {
+      "criterium": "tolerance_increase"
+    },
+    {
+      "criterium": "withdrawal_symptoms_present"
+    },
+    {
+      "criterium": "loss_of_control_over_use"
+    },
+    {
+      "criterium": "time_spent_using_or_acquiring"
+    },
+    {
+      "criterium": "use_in_high_risk_settings"
+    },
+    {
+      "criterium": "occupational_impairment"
+    },
+    {
+      "criterium": "social_relationship_impairment"
+    },
+    {
+      "criterium": "continued_use_despite_health_harm"
+    },
+    {
+      "criterium": "injection_heroin_use"
+    },
+    {
+      "criterium": "needle_sharing_risk_behavior"
+    },
+    {
+      "criterium": "illicit_activities_to_support_use"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

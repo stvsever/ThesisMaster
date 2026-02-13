@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "daytime_incontinence_episodes"
+    },
+    {
+      "criterium": "leakage_due_to_mobility_limitation_requiring_assistance"
+    },
+    {
+      "criterium": "toilet_access_delay_leakage"
+    },
+    {
+      "criterium": "leakage_without_premonitory_urge"
+    },
+    {
+      "criterium": "leakage_during_activities_of_daily_living"
+    },
+    {
+      "criterium": "leakage_during_walking_or_transferring"
+    },
+    {
+      "criterium": "leakage_accompanied_by_cognitive_impairment"
+    },
+    {
+      "criterium": "leakage_in_multiple_settings"
+    },
+    {
+      "criterium": "leakage_when_toilet_nearby_but_unable_to_reach"
+    },
+    {
+      "criterium": "leakage_in_ambulatory_or_sedentary_postures"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

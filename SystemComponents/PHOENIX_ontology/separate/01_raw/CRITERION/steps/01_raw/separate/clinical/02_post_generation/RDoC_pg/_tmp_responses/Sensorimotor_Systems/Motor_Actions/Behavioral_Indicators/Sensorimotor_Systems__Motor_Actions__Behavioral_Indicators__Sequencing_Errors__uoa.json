@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_expression",
+      "COMT_expression",
+      "BDNF_expression",
+      "FOXP2_expression",
+      "SNAP25_expression",
+      "GRIN2B_expression"
+    ],
+    "molecules": [
+      "STRIATAL_DOPAMINE_CONCENTRATION",
+      "GABA_A_RECEPTOR_DENSITY",
+      "NMDA_RECEPTOR_DENSITY",
+      "BDNF_PROTEIN_LEVEL",
+      "GLUTAMATE_RELEASE_RATE",
+      "DOPAMINE_TRANSPORTER_LEVEL"
+    ],
+    "cells": [
+      "MSN_D1R_density",
+      "MSN_D2R_density",
+      "PVALB_INTERNEURON_DENSITY",
+      "CHOLINERGIC_INTERNEURON_DENSITY"
+    ],
+    "circuits": [
+      "BASAL_GANGLIA_MOTOR_LOOP_ACTIVITY",
+      "CEREBELLAR_THALAMOCORTICAL_LOOP_CONNECTIVITY",
+      "FRONTAL_PREMOTOR_MOTOR_PLANNING_NETWORK_CONNECTIVITY"
+    ],
+    "physiology": [
+      "PREMOVEMENT_EMG_LATENCY",
+      "MOVEMENT_ONSET_LATENCY",
+      "MOVEMENT_TRAJECTORY_VARIABILITY",
+      "INTER_ACTION_INTERVAL_VARIABILITY"
+    ],
+    "behavior": [
+      "OUT_OF_SEQUENCE_ACTIONS",
+      "ACTION_REPETITION_IN_SEQUENCE",
+      "ACTION_OMISSIONS",
+      "PREMATURE_ACTION_EXECUTION",
+      "DELAYED_ACTION_EXECUTION"
+    ],
+    "self_report": [
+      "PERCEIVED_SEQUENCING_DIFFICULTY",
+      "SELF_REPORTED_MOTOR_SEQUENCE_ERRORS_FREQUENCY",
+      "PERCEIVED_EXECUTION_SLOWNESS"
+    ]
+  },
+  "estimated_prevalence_percent": 3.5
+}

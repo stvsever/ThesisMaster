@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "FOXP2_risk_allele_presence",
+      "CNTNAP2_risk_allele_presence",
+      "KIAA0319_risk_allele_presence",
+      "DCDC2_risk_allele_presence",
+      "ROBO1_risk_allele_presence"
+    ],
+    "molecules": [
+      "FOXP2_protein_level",
+      "CNTNAP2_protein_level",
+      "DCDC2_mRNA_level",
+      "KIAA0319_protein_level",
+      "ROBO1_protein_level"
+    ],
+    "cells": [
+      "left_inferior_frontal_gyrus_pyramidal_neuron_density",
+      "left_perisylvian_cortex_inhibitory_interneuron_density"
+    ],
+    "circuits": [
+      "left_arcuate_fasciculus_integrity",
+      "left_perisylvian_language_network_connectivity",
+      "left_dorsal_language_network_connectivity",
+      "speech_production_network_activation_strength"
+    ],
+    "physiology": [
+      "laryngeal_muscle_tension",
+      "phonation_effort_index",
+      "breath_support_efficiency_during_speech",
+      "subglottal_pressure_variability"
+    ],
+    "behavior": [
+      "speech_rate_per_minute",
+      "disfluency_frequency_per_100_syllables",
+      "repetition_events_per_minute",
+      "prolongation_events_per_minute",
+      "hesitation_events_per_minute",
+      "pauses_per_100_syllables"
+    ],
+    "self_report": [
+      "self_report_fluency_disruption_severity",
+      "self_report_stuttering_frequency_past_week",
+      "self_report_communication_effort_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 0.7
+}

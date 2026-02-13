@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_thoughts_about_cosmetic_procedures"
+    },
+    {
+      "criterium": "compulsive_procedure_seeking_behavior"
+    },
+    {
+      "criterium": "inability_to_resist_procedure_seeking_urge"
+    },
+    {
+      "criterium": "tolerance_increasing_frequency_of_procedure_seeking"
+    },
+    {
+      "criterium": "withdrawal_symptoms_when_access_blocked"
+    },
+    {
+      "criterium": "excessive_time_spent_planning_procedures"
+    },
+    {
+      "criterium": "excessive_time_spent_researching_procedures"
+    },
+    {
+      "criterium": "financial_spending_on_procedures_exceeds_budget"
+    },
+    {
+      "criterium": "social_impairment_due_to_procedure_seeking"
+    },
+    {
+      "criterium": "continued_procedure_seeking_despite_adverse_health_risks"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

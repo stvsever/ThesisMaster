@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "core_temp_gt_38C"
+    },
+    {
+      "criterium": "lead_pipe_rigidity_present"
+    },
+    {
+      "criterium": "altered_mental_status_present"
+    },
+    {
+      "criterium": "tachycardia_present"
+    },
+    {
+      "criterium": "diaphoresis_present"
+    },
+    {
+      "criterium": "hypertension_present"
+    },
+    {
+      "criterium": "creatine_kinase_elevated"
+    },
+    {
+      "criterium": "leukocytosis_present"
+    },
+    {
+      "criterium": "myoglobinuria_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

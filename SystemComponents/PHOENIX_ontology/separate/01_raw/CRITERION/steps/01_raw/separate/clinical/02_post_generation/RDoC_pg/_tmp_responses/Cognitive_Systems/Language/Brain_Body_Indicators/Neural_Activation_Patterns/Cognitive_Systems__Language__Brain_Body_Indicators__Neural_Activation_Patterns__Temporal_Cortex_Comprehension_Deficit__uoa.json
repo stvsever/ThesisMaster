@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "FOXP2_rs779073_variant",
+      "CNTNAP2_rs7794745_variant",
+      "DCDC2_rs8074289_variant",
+      "KIAA0319_rs6936949_variant",
+      "ROBO1_rs11929303_variant"
+    ],
+    "molecules": [
+      "BDNF_level",
+      "NMDA_NR2B_density",
+      "GABRA1_expression",
+      "Glutamate_concentration_temporal_cortex",
+      "ChAT_activity"
+    ],
+    "cells": [
+      "temporal_cortex_pyramidal_neuron_count",
+      "parvalbumin_interneuron_count_temporal_cortex",
+      "somatostatin_interneuron_count_temporal_lobe",
+      "astrocyte_density_temporal_cortex",
+      "microglia_activation_temporal_lobe"
+    ],
+    "circuits": [
+      "Left_Temporal_Cortex_BOLD_activation",
+      "Temporal_Parietal_connectivity_strength",
+      "Left_Inferior_Frontal_Gyrus_connectivity_strength",
+      "Temporal_Parietal_Frontal_network_coherence",
+      "Language_processing_network_temporal_lobe_activation",
+      "Wernicke_temporoparietal_connectivity"
+    ],
+    "physiology": [
+      "ERP_N400_amplitude_temporal_roi",
+      "ERP_P600_amplitude_temporal_roi",
+      "Temporal_cortex_hemodynamic_response_time",
+      "Temporal_lobe_oxygenation_index",
+      "Temporal_EEG_theta_power"
+    ],
+    "behavior": [
+      "sentence_picture_matching_accuracy",
+      "sentence_completion_latency_seconds",
+      "grammatical_sense_judgment_accuracy",
+      "semantic_binding_task_accuracy",
+      "narrative_comprehension_question_accuracy",
+      "sentence_repetition_error_rate",
+      "receptive_language_question_response_time"
+    ],
+    "self_report": [
+      "self_report_language_comprehension_difficulty",
+      "self_report_sentence_processing_speed",
+      "self_report_word_finding_difficulty",
+      "self_report_listening_comprehension_difficulty"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

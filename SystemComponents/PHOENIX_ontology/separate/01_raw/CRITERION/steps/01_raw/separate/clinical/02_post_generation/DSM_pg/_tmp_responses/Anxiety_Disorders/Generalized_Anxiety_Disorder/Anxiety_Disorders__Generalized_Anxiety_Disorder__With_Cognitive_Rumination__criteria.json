@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_ruminative_thoughts_present"
+    },
+    {
+      "criterium": "repetitive_negative_rumination_cycles"
+    },
+    {
+      "criterium": "self_referential_ruminative_content"
+    },
+    {
+      "criterium": "catastrophizing_rumination_content"
+    },
+    {
+      "criterium": "future_oriented_worry_rumination"
+    },
+    {
+      "criterium": "difficulty_disengaging_from_ruminative_thoughts"
+    },
+    {
+      "criterium": "rumination_triggered_by_stress_or_anxiety_cues"
+    },
+    {
+      "criterium": "rumination_related_sleep_disturbance"
+    },
+    {
+      "criterium": "rumination_impairs_concentration_or_task_performance"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

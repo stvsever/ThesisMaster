@@ -1,0 +1,42 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": [
+      "CRF_concentration_BNST",
+      "CRF_receptor_1_density_BNST",
+      "GABA_concentration_BNST",
+      "Glutamate_concentration_BNST",
+      "NPY_concentration_BNST"
+    ],
+    "cells": [
+      "CRF_neuron_density_BNST",
+      "GABAergic_neuron_density_BNST",
+      "Glutamatergic_neuron_density_BNST",
+      "NPY_neuron_density_BNST"
+    ],
+    "circuits": [
+      "BNST_amygdala_connectivity_strength",
+      "BNST_prefrontal_cortex_connectivity_strength",
+      "BNST_hippocampus_connectivity_strength",
+      "BNST_thalamus_connectivity_strength"
+    ],
+    "physiology": [
+      "HRV_SDNN",
+      "SCL_amplitude",
+      "pupil_dilation",
+      "respiratory_rate",
+      "cortisol_plasma_level"
+    ],
+    "behavior": [
+      "startle_response_potentiation_index",
+      "avoidance_latency_ms",
+      "time_in_avoidance_zone_percentage",
+      "freezing_duration_ms"
+    ],
+    "self_report": [
+      "state_anxiety_score",
+      "trait_anxiety_score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

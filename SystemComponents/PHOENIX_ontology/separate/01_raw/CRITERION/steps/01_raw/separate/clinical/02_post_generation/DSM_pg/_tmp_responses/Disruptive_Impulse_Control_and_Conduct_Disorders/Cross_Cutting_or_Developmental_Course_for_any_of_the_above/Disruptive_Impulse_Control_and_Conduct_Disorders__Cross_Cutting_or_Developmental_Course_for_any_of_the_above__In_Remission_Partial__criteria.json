@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "residual_aggressive_outbursts"
+    },
+    {
+      "criterium": "residual_oppositional_defiant_behaviors"
+    },
+    {
+      "criterium": "residual_disobedience_to_authority"
+    },
+    {
+      "criterium": "residual_rules_violations"
+    },
+    {
+      "criterium": "residual_theft_or_deception_behaviors"
+    },
+    {
+      "criterium": "residual_property_damage_incidents"
+    },
+    {
+      "criterium": "residual_irritability_or_anger"
+    },
+    {
+      "criterium": "residual_impulsivity"
+    },
+    {
+      "criterium": "residual_verbal_aggression"
+    },
+    {
+      "criterium": "residual_social_functioning_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

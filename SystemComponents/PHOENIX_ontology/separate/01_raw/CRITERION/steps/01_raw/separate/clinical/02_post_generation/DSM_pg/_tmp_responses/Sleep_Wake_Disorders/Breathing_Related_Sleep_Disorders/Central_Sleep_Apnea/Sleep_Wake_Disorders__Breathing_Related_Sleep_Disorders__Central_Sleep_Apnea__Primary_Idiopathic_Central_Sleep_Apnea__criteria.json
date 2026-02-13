@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "central_apnea_index"
+    },
+    {
+      "criterium": "respiratory_effort_absent_during_central_apneas"
+    },
+    {
+      "criterium": "airflow_signal_absent_during_central_apneas"
+    },
+    {
+      "criterium": "cheyne_stokes_respiration_pattern_present"
+    },
+    {
+      "criterium": "oxygen_desaturation_index"
+    },
+    {
+      "criterium": "oxygen_saturation_nadir"
+    },
+    {
+      "criterium": "sleep_arousal_index_due_to_central_apneas"
+    },
+    {
+      "criterium": "periodic_breathing_cycles_present"
+    },
+    {
+      "criterium": "no_obstructive_apneas_detected_during_sleep"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

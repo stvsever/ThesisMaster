@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delirium"
+    },
+    {
+      "criterium": "somnolence"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "disorientation_time_place"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "seizure"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0
+}

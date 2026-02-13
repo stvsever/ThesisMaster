@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "frequent_nightmares"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "fatigue_low_energy"
+    },
+    {
+      "criterium": "somatic_pain_general"
+    },
+    {
+      "criterium": "appetite_loss"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "social_withdrawal"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "anxiety_after_fright_event"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "memory_difficulty"
+    },
+    {
+      "criterium": "hypervigilance"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

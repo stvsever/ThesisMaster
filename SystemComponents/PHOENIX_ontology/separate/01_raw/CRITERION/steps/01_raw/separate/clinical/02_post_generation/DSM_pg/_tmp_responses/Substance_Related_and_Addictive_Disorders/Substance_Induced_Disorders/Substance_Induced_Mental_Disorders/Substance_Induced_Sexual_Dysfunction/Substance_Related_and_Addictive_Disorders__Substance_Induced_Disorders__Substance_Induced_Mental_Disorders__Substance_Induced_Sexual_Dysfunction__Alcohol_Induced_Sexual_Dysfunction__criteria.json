@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "alcohol_induced_erectile_dysfunction"
+    },
+    {
+      "criterium": "alcohol_induced_libido_reduction"
+    },
+    {
+      "criterium": "alcohol_induced_delayed_ejaculation"
+    },
+    {
+      "criterium": "alcohol_induced_anorgasmia"
+    },
+    {
+      "criterium": "alcohol_induced_vaginal_lubrication_impairment"
+    },
+    {
+      "criterium": "alcohol_induced_reduced_sexual_satisfaction"
+    },
+    {
+      "criterium": "alcohol_induced_performance_anxiety_on_sexual_activity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

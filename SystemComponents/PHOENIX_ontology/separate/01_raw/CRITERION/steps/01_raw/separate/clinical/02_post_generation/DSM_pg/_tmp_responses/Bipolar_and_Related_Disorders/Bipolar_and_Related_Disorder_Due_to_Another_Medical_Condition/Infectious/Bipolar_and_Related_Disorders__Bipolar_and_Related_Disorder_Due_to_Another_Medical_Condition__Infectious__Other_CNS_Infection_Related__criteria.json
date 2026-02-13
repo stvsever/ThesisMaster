@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ELEVATED_MOOD_STATE"
+    },
+    {
+      "criterium": "INCREASED_GOAL_DIRECTED_ACTIVITY"
+    },
+    {
+      "criterium": "PRESSURED_SPEECH"
+    },
+    {
+      "criterium": "FLIGHT_OF_IDEAS"
+    },
+    {
+      "criterium": "GRANDIOSE_DELUSIONS"
+    },
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "criterium": "ATTENTION_DEFICIT"
+    },
+    {
+      "criterium": "EXECUTIVE_FUNCTION_IMPAIRMENT"
+    },
+    {
+      "criterium": "SHORT_TERM_MEMORY_IMPAIRMENT"
+    },
+    {
+      "criterium": "ATAXIA"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

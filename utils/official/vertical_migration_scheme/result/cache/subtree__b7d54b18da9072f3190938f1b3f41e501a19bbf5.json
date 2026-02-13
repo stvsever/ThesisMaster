@@ -1,0 +1,35 @@
+{
+  "domain_path": "PSYCHO / Cognitive_Behavioral_Therapies / Transdiagnostic_CBT_Frameworks",
+  "domain_root_path": [
+    "PSYCHO",
+    "Cognitive_Behavioral_Therapies",
+    "Transdiagnostic_CBT_Frameworks"
+  ],
+  "leaf_count": 12,
+  "total_edges_in_subtree": 20,
+  "evaluated_pairs": 20,
+  "violations_count": 2,
+  "violation_rate": 0.1,
+  "llm_calls": 1,
+  "violations": [
+    "Avoidance_and_Safety_Behaviors > Reduce_Maintainers",
+    "Unified_Protocol_Style_Processes > Core_Process_Targets"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Avoidance_and_Safety_Behaviors > Reduce_Maintainers",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / Transdiagnostic_CBT_Frameworks / Avoidance_and_Safety_Behaviors",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / Transdiagnostic_CBT_Frameworks / Avoidance_and_Safety_Behaviors / Reduce_Maintainers"
+    },
+    {
+      "pair": "Unified_Protocol_Style_Processes > Core_Process_Targets",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / Transdiagnostic_CBT_Frameworks / Unified_Protocol_Style_Processes",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / Transdiagnostic_CBT_Frameworks / Unified_Protocol_Style_Processes / Core_Process_Targets"
+    }
+  ],
+  "cache_key": "b7d54b18da9072f3190938f1b3f41e501a19bbf5",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 47.706
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cognitive_fluctuation"
+    },
+    {
+      "criterium": "visual_hallucinations_well_formed"
+    },
+    {
+      "criterium": "bradykinesia"
+    },
+    {
+      "criterium": "rigidity"
+    },
+    {
+      "criterium": "rest_tremor"
+    },
+    {
+      "criterium": "rem_sleep_behavior_disorder"
+    },
+    {
+      "criterium": "neuroleptic_sensitivity"
+    },
+    {
+      "criterium": "visuospatial_impairment"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "olfactory_impairment"
+    },
+    {
+      "criterium": "orthostatic_hypotension"
+    },
+    {
+      "criterium": "gait_instability"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

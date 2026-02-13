@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cannabis_use_intensity_exceeding_intent"
+    },
+    {
+      "criterium": "cannabis_tolerance_development"
+    },
+    {
+      "criterium": "cannabis_withdrawal_symptoms"
+    },
+    {
+      "criterium": "unsuccessful_attempts_to_cut_down_or_stop_use"
+    },
+    {
+      "criterium": "time_spent_obtaining_or_using_cannabis"
+    },
+    {
+      "criterium": "cannabis_craving"
+    },
+    {
+      "criterium": "major_role_obligations_impairment_due_to_cannabis_use"
+    },
+    {
+      "criterium": "social_interpersonal_problems_due_to_cannabis_use"
+    },
+    {
+      "criterium": "recreational_activities_reduced_due_to_cannabis_use"
+    },
+    {
+      "criterium": "cannabis_use_in_hazardous_situations"
+    },
+    {
+      "criterium": "continued_use_despite_physical_or_psychological_problems_due_to_use"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

@@ -1,0 +1,234 @@
+{
+  "LATE_ADOLESCENCE": {
+    "social_development": {
+      "peer_relationships": {
+        "friendships": {
+          "deepening_friendships": {},
+          "long_term_friendship_maintenance": {},
+          "peer_pressure_resistance": {},
+          "diverse_social_connections": {}
+        },
+        "romantic_relationships": {
+          "dating_experience": {},
+          "relationship_commitment": {},
+          "emotional_intimacy": {},
+          "relationship_conflict_resolution": {}
+        },
+        "social_networks": {
+          "professional_connections": {},
+          "online_and_virtual_relationships": {},
+          "college_and_workplace_friendships": {},
+          "expanding_social_circles": {}
+        },
+        "conflict_resolution": {
+          "negotiation_skills": {},
+          "assertive_communication": {},
+          "managing_relationship_boundaries": {},
+          "emotional_intelligence_in_conflicts": {}
+        }
+      },
+      "family_relationships": {
+        "parent_interactions": {
+          "navigating_independence": {},
+          "changing_dynamics_with_parents": {},
+          "financial_discussions": {},
+          "maintaining_family_bonds": {}
+        },
+        "sibling_relationships": {
+          "adult_sibling_interactions": {},
+          "sharing_family_responsibilities": {},
+          "emotional_support_between_siblings": {},
+          "independent_lifestyles": {}
+        },
+        "extended_family_interactions": {
+          "cousin_relationships": {},
+          "intergenerational_relationships": {},
+          "cultural_and_family_traditions": {},
+          "holiday_and_event_participation": {}
+        },
+        "mentorship_and_role_models": {
+          "finding_professional_mentors": {},
+          "learning_from_experienced_adults": {},
+          "role_model_identification": {},
+          "networking_for_career_guidance": {}
+        }
+      },
+      "social_skills": {
+        "communication_skills": {
+          "public_speaking": {},
+          "persuasive_communication": {},
+          "non_verbal_cues": {},
+          "confident_conversations": {}
+        },
+        "empathy_and_understanding": {
+          "perspective_taking": {},
+          "supportive_listening": {},
+          "helping_others_through_crisis": {},
+          "social_responsibility": {}
+        },
+        "respect_and_social_norms": {
+          "adapting_to_professional_settings": {},
+          "understanding_diverse_cultures": {},
+          "building_trust_in_relationships": {},
+          "handling_social_rejection": {}
+        },
+        "leadership_and_teamwork": {
+          "group_collaboration": {},
+          "mentoring_younger_peers": {},
+          "taking_leadership_in_projects": {},
+          "delegating_responsibilities": {}
+        }
+      },
+      "group_participation": {
+        "academic_and_workplace_participation": {
+          "engaging_in_college_discussions": {},
+          "collaborative_work_projects": {},
+          "internship_and_job_experience": {},
+          "entrepreneurial_networking": {}
+        },
+        "community_engagement": {
+          "volunteering_for_social_causes": {},
+          "political_and_civic_participation": {},
+          "community_service_initiatives": {},
+          "advocacy_and_campaigning": {}
+        },
+        "cultural_and_recreational_involvement": {
+          "attending_cultural_events": {},
+          "engaging_in_artistic_activities": {},
+          "travel_and_exploration": {},
+          "joining_hobby_groups": {}
+        },
+        "professional_socialization": {
+          "networking_events": {},
+          "workplace_dynamics": {},
+          "career_development_mentorship": {},
+          "building_professional_reputation": {}
+        }
+      }
+    },
+    "physical_development": {
+      "motor_skills_and_fitness": {
+        "strength_and_endurance": {
+          "muscle_development": {},
+          "cardiovascular_fitness": {},
+          "stamina_and_resistance": {},
+          "physical_performance_goals": {}
+        },
+        "coordination_and_agility": {
+          "hand_eye_coordination": {},
+          "spatial_awareness": {},
+          "refining_fine_motor_skills": {},
+          "precision_and_balance": {}
+        },
+        "athletic_capability": {
+          "sports_specialization": {},
+          "competitive_fitness": {},
+          "weight_training": {},
+          "yoga_and_flexibility_practices": {}
+        },
+        "recreational_physical_activity": {
+          "outdoor_adventures": {},
+          "dance_and_movement": {},
+          "team_sports_engagement": {},
+          "independent_workouts": {}
+        }
+      },
+      "growth_and_body_changes": {
+        "final_height_development": {},
+        "metabolic_changes": {},
+        "muscle_to_fat_ratio_adjustments": {},
+        "bone_density_strengthening": {}
+      },
+      "health_and_wellness": {
+        "nutrition_and_diet": {
+          "meal_planning": {},
+          "understanding_macronutrients": {},
+          "food_sensitivities": {},
+          "dietary_autonomy": {}
+        },
+        "personal_hygiene": {
+          "advanced_grooming_habits": {},
+          "skin_care_routines": {},
+          "oral_hygiene_practices": {},
+          "self_care_regimens": {}
+        },
+        "sleep_patterns_and_recovery": {
+          "consistent_sleep_schedule": {},
+          "managing_sleep_deprivation": {},
+          "impact_of_caffeine_and_stimulants": {},
+          "balancing_work_and_rest": {}
+        },
+        "health_risk_management": {
+          "understanding_substance_use_effects": {},
+          "safe_sexual_practices": {},
+          "mental_health_awareness": {},
+          "preventative_medical_care": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "self_regulation_and_emotional_control": {
+        "managing_stress_and_anxiety": {},
+        "handling_failure_and_rejection": {},
+        "impulse_control_in_decision_making": {},
+        "emotional_resilience": {}
+      },
+      "self_identity_and_personal_values": {
+        "forming_personal_beliefs": {},
+        "political_and_social_views": {},
+        "establishing_individual_goals": {},
+        "understanding_personal_boundaries": {}
+      },
+      "self_confidence_and_independence": {
+        "decision_making_autonomy": {},
+        "financial_responsibility": {},
+        "independent_living_skills": {},
+        "personal_resilience": {}
+      },
+      "relationship_and_emotional_intelligence": {
+        "building_trust_in_relationships": {},
+        "recognizing_emotional_needs": {},
+        "expressing_affection_and_support": {},
+        "balancing_social_and_emotional_needs": {}
+      },
+      "mental_wellness_and_coping": {
+        "seeking_professional_support": {},
+        "developing_healthy_coping_mechanisms": {},
+        "mindfulness_and_meditation": {},
+        "understanding_psychological_triggers": {}
+      }
+    },
+    "cognitive_development": {
+      "advanced_reasoning_and_decision_making": {
+        "long_term_planning": {},
+        "evaluating_risks_and_consequences": {},
+        "weighing_multiple_perspectives": {},
+        "abstract_thinking_and_analysis": {}
+      },
+      "academic_and_professional_growth": {
+        "thinking_about_future_path": {},
+        "career_path_exploration": {},
+        "work_ethic_and_time_management": {},
+        "self_discipline_in_study_habits": {}
+      },
+      "creativity_and_problem_solving": {
+        "innovative_thinking": {},
+        "entrepreneurial_mindset": {},
+        "design_and_artistic_skills": {},
+        "multidisciplinary_problem_solving": {}
+      },
+      "executive_functioning_and_cognitive_control": {
+        "goal_setting_and_prioritization": {},
+        "task_switching_abilities": {},
+        "memory_retrieval_and_application": {},
+        "strategic_planning_and_organization": {}
+      },
+      "technological_and_media_literacy": {
+        "evaluating_digital_information": {},
+        "understanding_social_media_influence": {},
+        "cybersecurity_awareness": {},
+        "using_technology_for_learning": {}
+      }
+    }
+  }
+}

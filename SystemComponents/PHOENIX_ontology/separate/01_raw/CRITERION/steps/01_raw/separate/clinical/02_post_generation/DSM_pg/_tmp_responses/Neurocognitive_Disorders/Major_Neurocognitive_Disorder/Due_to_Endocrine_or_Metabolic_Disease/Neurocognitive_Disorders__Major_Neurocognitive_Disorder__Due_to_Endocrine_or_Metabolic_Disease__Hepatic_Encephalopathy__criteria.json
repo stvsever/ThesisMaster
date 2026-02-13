@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ASTERIXIS"
+    },
+    {
+      "criterium": "ALTERED_CONSCIOUSNESS"
+    },
+    {
+      "criterium": "DISORIENTATION"
+    },
+    {
+      "criterium": "DYSARTHRIA"
+    },
+    {
+      "criterium": "FETOR_HEPATICUS"
+    },
+    {
+      "criterium": "CONSTRUCTIONAL_APRAXIA"
+    },
+    {
+      "criterium": "MOOD_LIBILITY"
+    },
+    {
+      "criterium": "MYOCLONUS"
+    },
+    {
+      "criterium": "SLEEP_WAKE_CYCLING_DISRUPTION"
+    },
+    {
+      "criterium": "COGNITIVE_SLOWING"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

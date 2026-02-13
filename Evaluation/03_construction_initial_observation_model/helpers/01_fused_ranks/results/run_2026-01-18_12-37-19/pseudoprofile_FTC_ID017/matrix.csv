@@ -1,0 +1,8 @@
+predictor_path,sleep-wake disorders / insomnia disorders / chronic insomnia disorder / mixed pattern / *non_restorative_sleep
+'[BIO] > Sleep_and_Circadian > Circadian_Entrainment',900.0
+'[BIO] > Sleep_and_Circadian > Sleep_Devices_and_Technologies',880.0
+'[BIO] > Sleep_and_Circadian > Sleep_Environment',860.0
+'[BIO] > Sleep_and_Circadian > Sleep_Pharmacotherapy_Classes',780.0
+'[BIO] > Sleep_and_Circadian > Sleep_Routines_and_Practices',760.0
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes',750.0
+'[BIO] > Sleep_and_Circadian > Sleep_Supplements',740.0

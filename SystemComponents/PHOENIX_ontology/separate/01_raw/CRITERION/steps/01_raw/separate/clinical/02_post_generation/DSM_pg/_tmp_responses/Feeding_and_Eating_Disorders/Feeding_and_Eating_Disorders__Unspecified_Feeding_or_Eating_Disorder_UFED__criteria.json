@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_binge_eating_with_loss_of_control"
+    },
+    {
+      "criterium": "purging_behaviors_present"
+    },
+    {
+      "criterium": "non_purging_compensatory_behaviors_present"
+    },
+    {
+      "criterium": "overvaluation_of_body_weight_or_shape"
+    },
+    {
+      "criterium": "dietary_restriction_or_food_rule_persistence"
+    },
+    {
+      "criterium": "calorie_content_preoccupation"
+    },
+    {
+      "criterium": "social_meal_avoidance_due_to_food_concerns"
+    },
+    {
+      "criterium": "ritualistic_eating_behaviors"
+    },
+    {
+      "criterium": "distress_and_impairment_from_eating_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

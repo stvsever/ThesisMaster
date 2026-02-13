@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recent_inhalant_exposure"
+    },
+    {
+      "criterium": "euphoric_mood"
+    },
+    {
+      "criterium": "disinhibition"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "slurred_speech"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "blurred_vision"
+    },
+    {
+      "criterium": "lethargy"
+    },
+    {
+      "criterium": "impaired_attention"
+    },
+    {
+      "criterium": "impaired_memory"
+    },
+    {
+      "criterium": "impaired_judgment"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "seizure"
+    },
+    {
+      "criterium": "stupor"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

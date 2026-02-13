@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "paroxysmal_lancinating_pain"
+    },
+    {
+      "criterium": "continuous_neuralgic_pain"
+    },
+    {
+      "criterium": "burning_pain_quality"
+    },
+    {
+      "criterium": "allodynia_to_light_touch"
+    },
+    {
+      "criterium": "hyperalgesia_to_pinprick"
+    },
+    {
+      "criterium": "paresthesias_in_affected_region"
+    },
+    {
+      "criterium": "hypoesthesia_in_affected_region"
+    },
+    {
+      "criterium": "temperature_allodynia_in_affected_region"
+    },
+    {
+      "criterium": "pain_intensity_fluctuation"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_pain"
+    },
+    {
+      "criterium": "anxiety_symptoms_in_pain_context"
+    },
+    {
+      "criterium": "depressive_symptoms_in_pain_context"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

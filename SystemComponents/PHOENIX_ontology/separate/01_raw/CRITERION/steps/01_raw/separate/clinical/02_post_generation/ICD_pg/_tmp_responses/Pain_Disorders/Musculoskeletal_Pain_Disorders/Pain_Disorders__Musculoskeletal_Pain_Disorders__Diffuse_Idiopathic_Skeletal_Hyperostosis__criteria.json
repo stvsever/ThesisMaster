@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "contiguous_four_or_more_levels_all_ossification"
+    },
+    {
+      "criterium": "anterior_longitudinal_ligament_ossification_present"
+    },
+    {
+      "criterium": "intervertebral_disc_height_preserved"
+    },
+    {
+      "criterium": "thoracic_spine_osteophyte_proliferation_present"
+    },
+    {
+      "criterium": "dysphagia_due_to_cervical_osteophytes_present"
+    },
+    {
+      "criterium": "spinal_extension_rom_restricted"
+    },
+    {
+      "criterium": "spinal_flexion_rom_restricted"
+    },
+    {
+      "criterium": "spinal_enthesopathy_at_paraspinal_insertions_present"
+    },
+    {
+      "criterium": "radiographic_ossification_pattern_consistent_with_dish"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

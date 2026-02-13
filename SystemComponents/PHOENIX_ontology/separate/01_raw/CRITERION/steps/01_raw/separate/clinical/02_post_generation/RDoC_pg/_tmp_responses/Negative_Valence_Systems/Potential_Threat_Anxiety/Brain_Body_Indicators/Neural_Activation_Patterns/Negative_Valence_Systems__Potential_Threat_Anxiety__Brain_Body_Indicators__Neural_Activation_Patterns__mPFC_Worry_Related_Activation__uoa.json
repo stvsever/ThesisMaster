@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265",
+      "COMT_rs4680",
+      "FKBP5_rs1360780",
+      "SLC6A4_5HTTLPR",
+      "NR3C1_rs6184"
+    ],
+    "molecules": [
+      "BDNF_protein_mPFC",
+      "Glutamate_mPFC",
+      "GABA_mPFC",
+      "Cortisol_plasma",
+      "Norepinephrine_plasma"
+    ],
+    "cells": [
+      "cFos_positive_neurons_mPFC",
+      "GAD67_positive_interneurons_mPFC",
+      "Dendritic_spine_density_mPFC",
+      "VGluT1_positive_neurons_mPFC"
+    ],
+    "circuits": [
+      "Functional_connectivity_mPFC_amygdala",
+      "Effective_connectivity_mPFC_amygdala",
+      "Resting_state_connectivity_mPFC_striatal",
+      "Task_based_connectivity_mPFC_dorsolateral_prefrontal"
+    ],
+    "physiology": [
+      "Heart_rate_increase_worry",
+      "SCR_amplitude_worry",
+      "Pupil_dilation_worry",
+      "Respiration_rate_change_worry",
+      "Skin_temperature_change_worry"
+    ],
+    "behavior": [
+      "Stroop_interference_latency_worry_induction_ms",
+      "GoNoGo_error_rate_worry_induction",
+      "Reaction_time_to_worry_probe_ms",
+      "Worry_induction_avoidance_rate"
+    ],
+    "self_report": [
+      "PSWQ_score",
+      "STAI_state_score",
+      "BAI_score"
+    ]
+  },
+  "estimated_prevalence_percent": 4.0
+}

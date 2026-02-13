@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "processing_speed_deficit"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "attentional_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "ischemic_stroke_history"
+    },
+    {
+      "criterium": "silent_infarcts_on_MRI"
+    },
+    {
+      "criterium": "subcortical_white_matter_changes_on_MRI"
+    }
+  ],
+  "estimated_prevalence_percent": 0.04
+}

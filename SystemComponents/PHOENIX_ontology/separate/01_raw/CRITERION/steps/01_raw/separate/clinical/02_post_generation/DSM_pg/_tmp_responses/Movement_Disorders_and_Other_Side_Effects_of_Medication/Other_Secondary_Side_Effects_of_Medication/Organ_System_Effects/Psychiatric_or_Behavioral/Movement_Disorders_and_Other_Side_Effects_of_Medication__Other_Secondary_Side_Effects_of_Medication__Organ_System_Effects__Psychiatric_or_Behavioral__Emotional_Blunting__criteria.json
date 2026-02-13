@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "FLAT_AFFECT"
+    },
+    {
+      "criterium": "RESTRICTED_AFFECTIVE_REPERTOIRE"
+    },
+    {
+      "criterium": "DIMINISHED_VOCAL_PROSODY"
+    },
+    {
+      "criterium": "REDUCED_FACIAL_EXPRESSIVITY"
+    },
+    {
+      "criterium": "DECREASED_EMPATHIC_RESPONSES"
+    },
+    {
+      "criterium": "DECREASED_RESPONSIVENESS_TO_SOCIAL_EMOTIONAL_CUES"
+    },
+    {
+      "criterium": "MONOTONE_SPEECH_PATTERN"
+    },
+    {
+      "criterium": "DIMINISHED_GESTURAL_AFFECT_EXPRESSIVITY"
+    },
+    {
+      "criterium": "INCREASED_EMOTIONAL_INDIFFERENCE"
+    },
+    {
+      "criterium": "BLUNTED_AFFECTIVE_REACTIONS_TO_EMOTIONAL_STIMULI"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

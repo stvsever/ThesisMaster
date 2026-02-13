@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_existential_obsessions"
+    },
+    {
+      "criterium": "perseverative_life_meaning_ruminations"
+    },
+    {
+      "criterium": "unwanted_metaphysical_questioning"
+    },
+    {
+      "criterium": "existential_absurdism_intrusions"
+    },
+    {
+      "criterium": "philosophical_questioning_fixation"
+    },
+    {
+      "criterium": "identity_and_selfhood_doubt_obsessions"
+    },
+    {
+      "criterium": "cosmological_origin_of_values_obsessions"
+    },
+    {
+      "criterium": "purpose_and_nothingness_ruminations"
+    },
+    {
+      "criterium": "certainty_doubt_salience_of_beliefs"
+    },
+    {
+      "criterium": "moral_values_origin_obsessions"
+    },
+    {
+      "criterium": "reality_vs_illusion_belief_doubt"
+    },
+    {
+      "criterium": "mental_compulsions_to_reassure_beliefs"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

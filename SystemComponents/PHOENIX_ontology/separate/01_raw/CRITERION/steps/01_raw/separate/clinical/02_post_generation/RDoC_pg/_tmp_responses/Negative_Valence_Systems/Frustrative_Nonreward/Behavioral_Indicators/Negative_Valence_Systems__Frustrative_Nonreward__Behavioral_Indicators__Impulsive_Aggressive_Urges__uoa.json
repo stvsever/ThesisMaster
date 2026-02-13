@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "MAOA_genotype",
+      "COMT_val158_met_genotype",
+      "SLC6A4_promoter_genotype",
+      "DRD2_rs1800497_genotype",
+      "BDNF_val66_met_genotype"
+    ],
+    "molecules": [
+      "serotonin_plasma_level",
+      "dopamine_plasma_level",
+      "norepinephrine_plasma_level",
+      "cortisol_plasma_level",
+      "testosterone_plasma_level"
+    ],
+    "cells": [
+      "amygdala_pyramidal_neuron_firing_rate",
+      "prefrontal_cortex_pyramidal_neuron_firing_rate",
+      "gaba_interneuron_density_prefrontal_cortex",
+      "synaptic_spine_density_amygdala"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_connectivity_strength",
+      "dmPFC_amygdala_connectivity_strength",
+      "anterior_cingulate_cortex_inhibitory_control_connectivity",
+      "ventromedial_prefrontal_cortex_connectivity_with_emotion",
+      "orbitofrontal_cortex_reward_processing_connectivity"
+    ],
+    "physiology": [
+      "heart_rate_peak_frustration_task",
+      "skin_conductance_peak_frustration_task",
+      "pupil_dilation_amplitude_frustration_task",
+      "cortisol_response_frustration_task"
+    ],
+    "behavior": [
+      "impulsive_aggressive_urge_frequency",
+      "aggressive_outburst_count",
+      "provoked_aggression_rate_per_minute",
+      "frustration_induced_aggression_latency"
+    ],
+    "self_report": [
+      "aggression_urge_intensity_rating",
+      "impulsivity_scale_score",
+      "frustration_susceptibility_score",
+      "aggression_questionnaire_score"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

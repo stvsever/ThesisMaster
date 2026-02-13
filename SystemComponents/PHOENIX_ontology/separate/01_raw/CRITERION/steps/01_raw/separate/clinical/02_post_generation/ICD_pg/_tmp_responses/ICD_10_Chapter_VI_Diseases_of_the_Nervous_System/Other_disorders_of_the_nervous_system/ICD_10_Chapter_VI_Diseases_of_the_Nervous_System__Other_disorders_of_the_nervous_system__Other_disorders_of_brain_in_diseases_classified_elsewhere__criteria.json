@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "short_term_memory_deficit"
+    },
+    {
+      "criterium": "long_term_memory_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "language_fluency_impairment"
+    },
+    {
+      "criterium": "orientation_disturbance"
+    },
+    {
+      "criterium": "mood_lability"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "hallucinations"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

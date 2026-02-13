@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "PERIPARTUM_ONSET_TIMING"
+    },
+    {
+      "criterium": "HYPOMANIC_SYMPTOMS_PRESENT"
+    },
+    {
+      "criterium": "DEPRESSIVE_EPISODES_PRESENT"
+    },
+    {
+      "criterium": "PRESSURED_SPEECH"
+    },
+    {
+      "criterium": "RACING_THOUGHTS"
+    },
+    {
+      "criterium": "DECREASED_SLEEP_REQUIREMENT"
+    },
+    {
+      "criterium": "INCREASED_ACTIVITY_LEVEL"
+    },
+    {
+      "criterium": "GRANDIOSITY"
+    },
+    {
+      "criterium": "INFLATED_SELF_ESTEEM"
+    },
+    {
+      "criterium": "IMPULSIVE_RISKY_BEHAVIOR"
+    },
+    {
+      "criterium": "IRRITABLE_MOOD"
+    },
+    {
+      "criterium": "PSYCHOMOTOR_ACTIVITY_ACCELERATION"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

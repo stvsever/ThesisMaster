@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "disease_threat_hypervigilance"
+    },
+    {
+      "criterium": "health_anxiety_rumination"
+    },
+    {
+      "criterium": "recurrent_symptom_monitoring"
+    },
+    {
+      "criterium": "reassurance_seeking_for_health"
+    },
+    {
+      "criterium": "germ_avoidance_behavior"
+    },
+    {
+      "criterium": "excessive_health_information_search"
+    },
+    {
+      "criterium": "physiological_arousal_to_health_cues"
+    },
+    {
+      "criterium": "healthcare_avoidance"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_health_anxiety"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_health_anxiety"
+    },
+    {
+      "criterium": "illness_thought_intrusions"
+    },
+    {
+      "criterium": "catastrophic_health_thinking"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

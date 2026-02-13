@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_impairment"
+    },
+    {
+      "criterium": "short_term_memory_deficit"
+    },
+    {
+      "criterium": "autobiographical_memory_retrieval_impairment"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "fluctuating_attention"
+    },
+    {
+      "criterium": "slowed_processing_speed"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "disorientation_time_and_place"
+    },
+    {
+      "criterium": "delirium_like_confusion"
+    },
+    {
+      "criterium": "language_fluency_reduction"
+    },
+    {
+      "criterium": "prospective_memory_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "lip_smacking_dyskinesia"
+    },
+    {
+      "criterium": "grimacing_dyskinesia"
+    },
+    {
+      "criterium": "lingual_protrusion_dyskinesia"
+    },
+    {
+      "criterium": "jaw_dyskinesia"
+    },
+    {
+      "criterium": "finger_flicking"
+    },
+    {
+      "criterium": "hand_dyskinesia"
+    },
+    {
+      "criterium": "arm_dyskinesia"
+    },
+    {
+      "criterium": "leg_dyskinesia"
+    },
+    {
+      "criterium": "trunk_dyskinesia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypersomnolence_during_episode"
+    },
+    {
+      "criterium": "cognitive_impairment_during_episode"
+    },
+    {
+      "criterium": "confusional_state_during_episode"
+    },
+    {
+      "criterium": "disorientation_during_episode"
+    },
+    {
+      "criterium": "hyperphagia_during_episode"
+    },
+    {
+      "criterium": "hypersexual_behavior_during_episode"
+    },
+    {
+      "criterium": "mood_lability_during_episode"
+    },
+    {
+      "criterium": "irritability_during_episode"
+    },
+    {
+      "criterium": "episodic_memory_impairment_during_episode"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

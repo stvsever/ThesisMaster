@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_attention"
+    },
+    {
+      "criterium": "disorientation_time_place"
+    },
+    {
+      "criterium": "fluctuating_alertness"
+    },
+    {
+      "criterium": "disorganized_thought_processes"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "delusions"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "emotional_lability"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

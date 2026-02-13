@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "restlessness"
+    },
+    {
+      "criterium": "difficulty_concentrating"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "increased_appetite"
+    },
+    {
+      "criterium": "nicotine_craving"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "dizziness"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

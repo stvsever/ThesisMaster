@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "altered_mental_status"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "hemiparesis"
+    },
+    {
+      "criterium": "paraparesis"
+    },
+    {
+      "criterium": "sensory_deficit"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "optic_neuritis"
+    },
+    {
+      "criterium": "bladder_bowel_dysfunction"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "cranial_nerve_palsy"
+    },
+    {
+      "criterium": "hyperreflexia"
+    },
+    {
+      "criterium": "pathological_babinski"
+    }
+  ],
+  "estimated_prevalence_percent": 0.002
+}

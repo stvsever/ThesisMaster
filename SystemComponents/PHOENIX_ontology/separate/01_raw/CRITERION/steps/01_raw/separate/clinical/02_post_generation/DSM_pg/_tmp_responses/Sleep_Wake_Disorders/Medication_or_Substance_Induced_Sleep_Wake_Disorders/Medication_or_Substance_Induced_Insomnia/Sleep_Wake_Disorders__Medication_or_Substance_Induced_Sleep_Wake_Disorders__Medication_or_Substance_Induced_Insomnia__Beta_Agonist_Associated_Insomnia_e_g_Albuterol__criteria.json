@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "difficulty_in_sleep_onset"
+    },
+    {
+      "criterium": "sleep_maintenance_disruption"
+    },
+    {
+      "criterium": "nocturnal_tachycardia"
+    },
+    {
+      "criterium": "nocturnal_tremor"
+    },
+    {
+      "criterium": "nocturnal_jitteriness"
+    },
+    {
+      "criterium": "nocturnal_restlessness"
+    },
+    {
+      "criterium": "daytime_nervousness"
+    },
+    {
+      "criterium": "daytime_anxiety"
+    },
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "impaired_daytime_cognition_or_attention"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

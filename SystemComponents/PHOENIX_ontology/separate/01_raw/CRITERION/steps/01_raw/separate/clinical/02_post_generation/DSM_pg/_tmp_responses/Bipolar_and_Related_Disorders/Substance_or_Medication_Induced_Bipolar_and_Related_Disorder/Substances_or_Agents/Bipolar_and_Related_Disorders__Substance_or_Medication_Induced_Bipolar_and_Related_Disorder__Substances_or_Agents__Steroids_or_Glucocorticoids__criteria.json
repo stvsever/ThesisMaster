@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "euphoric_mood"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "racing_thoughts"
+    },
+    {
+      "criterium": "grandiosity"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "reduced_sleep_need"
+    },
+    {
+      "criterium": "reckless_impulsivity"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "aggression"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "psychotic_symptoms"
+    },
+    {
+      "criterium": "hypersexuality"
+    },
+    {
+      "criterium": "insomnia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

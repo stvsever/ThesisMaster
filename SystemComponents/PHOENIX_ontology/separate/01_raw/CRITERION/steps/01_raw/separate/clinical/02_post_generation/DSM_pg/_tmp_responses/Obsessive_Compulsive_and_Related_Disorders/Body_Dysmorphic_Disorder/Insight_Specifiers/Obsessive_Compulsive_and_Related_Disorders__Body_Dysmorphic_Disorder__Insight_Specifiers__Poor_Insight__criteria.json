@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "INSIGHT_REAL_DEFECT_CONVICTION"
+    },
+    {
+      "criterium": "INSIGHT_BELIEF_CERTAINTY_HIGH"
+    },
+    {
+      "criterium": "INSIGHT_COUNTEREVIDENCE_RESISTANCE"
+    },
+    {
+      "criterium": "INSIGHT_ALTERNATIVE_EXPLANATIONS_DISREGARDED"
+    },
+    {
+      "criterium": "INSIGHT_REALITY_TESTING_ABSENT"
+    },
+    {
+      "criterium": "INSIGHT_METACOGNITIVE_AWARENESS_LOW"
+    },
+    {
+      "criterium": "BEHAVIOR_MIRROR_CHECKING_FREQUENCY_HIGH"
+    },
+    {
+      "criterium": "BEHAVIOR_CAMOUFLAGING_DEFECT_BEHAVIOR_PRESENT"
+    },
+    {
+      "criterium": "BEHAVIOR_REASSURANCE_SEEKING_PRESENT"
+    },
+    {
+      "criterium": "EMOTIONAL_DISTRESS_PERSISTENCE_DEFECT_BELIEF_PRESENT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

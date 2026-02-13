@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "vertical_gaze_palsy"
+    },
+    {
+      "criterium": "impaired_vertical_saccades"
+    },
+    {
+      "criterium": "axial_rigidity"
+    },
+    {
+      "criterium": "neck_stiffness"
+    },
+    {
+      "criterium": "postural_instability"
+    },
+    {
+      "criterium": "bradykinesia_axial_predominance"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "dysphagia"
+    },
+    {
+      "criterium": "masked_facies"
+    },
+    {
+      "criterium": "pseudobulbar_affect"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    }
+  ],
+  "estimated_prevalence_percent": 0.006
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_binge_eating_episodes"
+    },
+    {
+      "criterium": "loss_of_control_during_binge_eating"
+    },
+    {
+      "criterium": "self_induced_vomiting_after_binge"
+    },
+    {
+      "criterium": "laxative_abuse_after_binge"
+    },
+    {
+      "criterium": "diuretic_use_after_binge"
+    },
+    {
+      "criterium": "excessive_exercise_to_prevent_weight_gain"
+    },
+    {
+      "criterium": "russell_sign_present"
+    },
+    {
+      "criterium": "parotid_gland_enlargement"
+    },
+    {
+      "criterium": "dental_erosion_or_tooth_wear"
+    },
+    {
+      "criterium": "body_shape_concerns_dominant_in_self_evaluation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

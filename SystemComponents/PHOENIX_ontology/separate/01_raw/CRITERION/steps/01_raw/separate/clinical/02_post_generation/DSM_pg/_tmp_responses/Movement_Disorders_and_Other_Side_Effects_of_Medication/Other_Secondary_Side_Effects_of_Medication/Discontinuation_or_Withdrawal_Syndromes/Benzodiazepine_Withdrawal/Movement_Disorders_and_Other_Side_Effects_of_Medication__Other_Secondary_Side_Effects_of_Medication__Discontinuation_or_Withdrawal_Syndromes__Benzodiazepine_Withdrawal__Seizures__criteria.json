@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "generalized_tonic_clonic_seizure"
+    },
+    {
+      "criterium": "focal_onset_seizure_with_impaired_consciousness"
+    },
+    {
+      "criterium": "focal_onset_seizure_without_impaired_consciousness"
+    },
+    {
+      "criterium": "myoclonic_seizure_events"
+    },
+    {
+      "criterium": "absence_seizure_events"
+    },
+    {
+      "criterium": "aura_reported_by_patient"
+    },
+    {
+      "criterium": "tongue_biting_during_ictus"
+    },
+    {
+      "criterium": "incontinence_of_feces_or_micturition_during_ictus"
+    },
+    {
+      "criterium": "postictal_confusion_or_drowsiness"
+    },
+    {
+      "criterium": "postictal_amnesia_or_unresponsiveness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

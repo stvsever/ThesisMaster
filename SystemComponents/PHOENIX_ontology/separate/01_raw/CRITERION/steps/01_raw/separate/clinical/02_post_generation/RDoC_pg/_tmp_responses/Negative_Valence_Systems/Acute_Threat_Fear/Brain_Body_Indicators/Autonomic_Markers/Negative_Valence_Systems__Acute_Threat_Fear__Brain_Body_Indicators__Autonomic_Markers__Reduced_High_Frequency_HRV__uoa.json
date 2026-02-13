@@ -1,0 +1,39 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "CHRM2",
+      "ADRB1",
+      "ADRB2",
+      "GNB3",
+      "NOS3"
+    ],
+    "molecules": [
+      "ACETYLCHOLINE",
+      "MUSCARINIC_M2_RECEPTOR_PROTEIN",
+      "NITRIC_OXIDE",
+      "ACETYLCHOLINESTERASE",
+      "CGMP"
+    ],
+    "cells": [
+      "VAGAL_POSTGANGLIONIC_NEURON_DENSITY",
+      "SINOATRIAL_NODE_PARASYMPATHETIC_INNERVATION",
+      "CARDIAC_PARASYMPATHETIC_NEURONAL_ACTIVITY_RATE"
+    ],
+    "circuits": [
+      "Nucleus_Ambiguus_VAGAL_MOTOR_CIRCUIT",
+      "NTS_VAGAL_AFFERENT_CIRCUIT",
+      "PREFRONTAL_AMYGDALA_VAGAL_REGULATORY_CIRCUIT"
+    ],
+    "physiology": [
+      "HIGH_FREQUENCY_POWER",
+      "HEART_RATE",
+      "RMSSD",
+      "SDNN",
+      "RESPIRATORY_RATE",
+      "BREATHING_REGULARITY_INDEX"
+    ],
+    "behavior": null,
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 12.5
+}

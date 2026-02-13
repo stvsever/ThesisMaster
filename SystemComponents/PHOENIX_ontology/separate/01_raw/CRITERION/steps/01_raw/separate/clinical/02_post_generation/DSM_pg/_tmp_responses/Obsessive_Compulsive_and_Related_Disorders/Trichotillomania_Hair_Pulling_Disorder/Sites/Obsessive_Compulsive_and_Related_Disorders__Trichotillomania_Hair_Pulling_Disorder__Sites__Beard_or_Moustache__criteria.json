@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "urge_to_pull_beard_hairs"
+    },
+    {
+      "criterium": "beard_hair_pulling_frequency_per_day"
+    },
+    {
+      "criterium": "patchy_beard_hair_loss"
+    },
+    {
+      "criterium": "beard_hair_length_variability"
+    },
+    {
+      "criterium": "relief_after_beard_hair_pulling"
+    },
+    {
+      "criterium": "resistance_attempt_to_stop_beard_pulling"
+    },
+    {
+      "criterium": "beard_area_skin_excorations_or_inflammation"
+    },
+    {
+      "criterium": "distress_or_impairment_due_to_beard_pulling"
+    },
+    {
+      "criterium": "compulsive_beard_pulling_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_impairment"
+    },
+    {
+      "criterium": "memory_encoding_deficit"
+    },
+    {
+      "criterium": "free_recall_impairment"
+    },
+    {
+      "criterium": "delayed_recall_impairment"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "prospective_memory_impairment"
+    },
+    {
+      "criterium": "source_memory_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

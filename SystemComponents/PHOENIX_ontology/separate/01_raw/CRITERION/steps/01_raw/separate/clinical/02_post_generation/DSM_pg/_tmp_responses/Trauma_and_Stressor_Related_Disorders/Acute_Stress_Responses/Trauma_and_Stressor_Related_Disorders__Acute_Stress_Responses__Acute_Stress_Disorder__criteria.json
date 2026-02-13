@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_memories"
+    },
+    {
+      "criterium": "distressing_nightmares"
+    },
+    {
+      "criterium": "flashbacks"
+    },
+    {
+      "criterium": "distress_to_cues"
+    },
+    {
+      "criterium": "physiologic_reactivity_to_cues"
+    },
+    {
+      "criterium": "dissociative_amnesia"
+    },
+    {
+      "criterium": "depersonalization_or_derealization"
+    },
+    {
+      "criterium": "avoidance_of_thoughts_or_reminders"
+    },
+    {
+      "criterium": "inability_to_experience_positive_emotions"
+    },
+    {
+      "criterium": "hypervigilance"
+    },
+    {
+      "criterium": "exaggerated_startle_response"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "concentration_difficulties"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "PIH_onset_postictal"
+    },
+    {
+      "criterium": "PIH_bilateral_head_pain_location"
+    },
+    {
+      "criterium": "PIH_pain_quality_band_like"
+    },
+    {
+      "criterium": "PIH_pain_intensity_moderate_to_severe"
+    },
+    {
+      "criterium": "PIH_associated_nausea"
+    },
+    {
+      "criterium": "PIH_associated_vomiting"
+    },
+    {
+      "criterium": "PIH_associated_photophobia"
+    },
+    {
+      "criterium": "PIH_associated_phonophobia"
+    },
+    {
+      "criterium": "PIH_associated_dizziness"
+    },
+    {
+      "criterium": "PIH_associated_concentration_difficulty"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

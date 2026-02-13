@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS_PRESENT"
+    },
+    {
+      "criterium": "DELUSIONS_PRESENT"
+    },
+    {
+      "criterium": "DISORGANIZED_THOUGHT_PROCESS_PRESENT"
+    },
+    {
+      "criterium": "DISORGANIZED_SPEECH_PRESENT"
+    },
+    {
+      "criterium": "GROSS_DISORGANIZED_BEHAVIOR_PRESENT"
+    },
+    {
+      "criterium": "AFFECT_FLATTENING_PRESENT"
+    },
+    {
+      "criterium": "AVOLITION_PRESENT"
+    },
+    {
+      "criterium": "ALOGIA_PRESENT"
+    },
+    {
+      "criterium": "PSYCHOMOTOR_AGITATION_PRESENT"
+    },
+    {
+      "criterium": "PSYCHOMOTOR_RETARDATION_PRESENT"
+    },
+    {
+      "criterium": "POOR_INSIGHT_PRESENT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

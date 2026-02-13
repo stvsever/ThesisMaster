@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood_antenatal"
+    },
+    {
+      "criterium": "anhedonia_antenatal"
+    },
+    {
+      "criterium": "sleep_disturbance_antenatal"
+    },
+    {
+      "criterium": "appetite_change_antenatal"
+    },
+    {
+      "criterium": "weight_change_antenatal"
+    },
+    {
+      "criterium": "psychomotor_agitation_antenatal"
+    },
+    {
+      "criterium": "psychomotor_retardation_antenatal"
+    },
+    {
+      "criterium": "fatigue_loss_of_energy_antenatal"
+    },
+    {
+      "criterium": "concentration_impairment_antenatal"
+    },
+    {
+      "criterium": "guilt_worthlessness_antenatal"
+    },
+    {
+      "criterium": "suicidal_ideation_antenatal"
+    },
+    {
+      "criterium": "functional_impairment_antenatal"
+    }
+  ],
+  "estimated_prevalence_percent": 11.0
+}

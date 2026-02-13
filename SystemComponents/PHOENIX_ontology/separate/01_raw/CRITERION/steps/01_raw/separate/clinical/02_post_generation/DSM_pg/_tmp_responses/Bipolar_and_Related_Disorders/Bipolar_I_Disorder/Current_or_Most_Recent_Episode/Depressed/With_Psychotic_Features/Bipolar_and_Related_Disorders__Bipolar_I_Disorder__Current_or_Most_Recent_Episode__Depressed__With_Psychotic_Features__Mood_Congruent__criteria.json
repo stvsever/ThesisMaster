@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusions_of_guilt"
+    },
+    {
+      "criterium": "delusions_of_punishment"
+    },
+    {
+      "criterium": "delusions_of_worthlessness"
+    },
+    {
+      "criterium": "nihilistic_delusions"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "delusions_of_despair"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

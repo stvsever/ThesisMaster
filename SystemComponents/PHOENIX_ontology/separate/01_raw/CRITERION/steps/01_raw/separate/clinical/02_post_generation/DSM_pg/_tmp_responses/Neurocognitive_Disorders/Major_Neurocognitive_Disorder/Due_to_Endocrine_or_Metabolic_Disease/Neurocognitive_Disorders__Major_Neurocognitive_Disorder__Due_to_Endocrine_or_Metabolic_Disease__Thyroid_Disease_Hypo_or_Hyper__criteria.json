@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_short_term_memory"
+    },
+    {
+      "criterium": "impaired_working_memory"
+    },
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "reduced_processing_speed"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "verbal_fluency_decline"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "apathy_flat_affect"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

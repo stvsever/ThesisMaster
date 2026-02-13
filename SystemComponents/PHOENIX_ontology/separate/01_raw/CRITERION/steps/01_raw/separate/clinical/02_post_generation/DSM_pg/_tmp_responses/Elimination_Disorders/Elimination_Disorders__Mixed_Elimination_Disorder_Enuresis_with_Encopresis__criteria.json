@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ENURESIS_PRESENT"
+    },
+    {
+      "criterium": "ENURESIS_NOCTURNAL_EPISODES_PRESENT"
+    },
+    {
+      "criterium": "ENCOPRESIS_PRESENT"
+    },
+    {
+      "criterium": "ENCOPRESIS_DIURNAL_EPISODES_PRESENT"
+    },
+    {
+      "criterium": "CONSTIPATION_PRESENT"
+    },
+    {
+      "criterium": "TOILET_AVERSION_BEHAVIOR_PRESENT"
+    },
+    {
+      "criterium": "SLEEP_DISTURBANCE_ASSOCIATED_WITH_ELIMINATION_PRESENT"
+    },
+    {
+      "criterium": "SOCIAL_EMBARRASSMENT_OR_WITHDRAWAL_PRESENT"
+    },
+    {
+      "criterium": "CAREGIVER_REPORTED_EMOTIONAL_DISTRESS_DUE_TO_ELIMINATION_PRESENT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

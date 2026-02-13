@@ -1,0 +1,20 @@
+{
+  "domain_path": "PSYCHO / Positive_Psychology_and_Wellbeing",
+  "domain_root_path": [
+    "PSYCHO",
+    "Positive_Psychology_and_Wellbeing"
+  ],
+  "leaf_count": 24,
+  "total_edges_in_subtree": 28,
+  "evaluated_pairs": 28,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "c5814c88ce432b778aec553e8ceb77e5fbed48fa",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 24.993
+}

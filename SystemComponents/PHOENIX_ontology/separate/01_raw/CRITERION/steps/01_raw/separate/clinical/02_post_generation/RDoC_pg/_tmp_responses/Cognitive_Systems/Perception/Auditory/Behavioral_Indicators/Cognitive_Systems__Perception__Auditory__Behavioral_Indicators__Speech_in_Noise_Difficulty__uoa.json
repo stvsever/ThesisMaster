@@ -1,0 +1,44 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265",
+      "COMT_rs4680",
+      "CNTNAP2_rs7794745"
+    ],
+    "molecules": [
+      "BDNF_protein_level",
+      "GABA_A_receptor_GABRA1_concentration",
+      "Glutamate_GRIN2B_concentration",
+      "Dopamine_D2_receptor_density"
+    ],
+    "cells": [
+      "spiral_ganglion_neurons_density",
+      "auditory_cortex_pyramidal_neurons_firing_rate",
+      "inferior_colliculus_neuron_activity_rate"
+    ],
+    "circuits": [
+      "cochlear_nucleus_to_inferior_colliculus_connectivity",
+      "inferior_colliculus_to_medial_geniculate_connectivity",
+      "medial_geniculate_to_primary_auditory_cortex_connectivity",
+      "speech_processing_network_synchrony"
+    ],
+    "physiology": [
+      "speech_in_noise_SRT",
+      "SIN_threshold_dB",
+      "auditory_evoked_potential_N1_amplitude",
+      "pupil_dilation_magnitude"
+    ],
+    "behavior": [
+      "SIN_task_accuracy_percent",
+      "SIN_task_reaction_time_ms",
+      "phoneme_error_rate_in_noise",
+      "word_in_noise_recognition_score"
+    ],
+    "self_report": [
+      "speech_in_noise_difficulty_rating",
+      "listening_effort_rating",
+      "perceived_audio_clarity_in_noise"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

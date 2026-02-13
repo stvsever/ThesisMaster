@@ -1,0 +1,75 @@
+pseudoprofile_id: pseudoprofile_FTC_ID041
+mapped_file: /Users/stijnvanseveren/PythonProjects/MASTERPROEF/Evaluation/03_construction_initial_observation_model/constructed_PC_models/runs/2026-01-18_20-59-06/profiles/pseudoprofile_FTC_ID041/llm_observation_model_mapped.txt
+source_raw_model: llm_observation_model_raw.json
+
+TIME AXIS
+- n_timepoints: 180
+- freq (base axis): D  (measurement schedules may enforce extra missingness)
+- start_date: 2025-01-01
+
+REGIME SHIFT (Patterns 4 & 5)
+- center (t_norm): 0.5639
+- abrupt step: activates at t >= center
+- smooth transition: sigmoid around center (width ~0.04 in t_norm)
+
+LATENT DRIVERS
+- stress: AR(1) + smooth shift + weekly sinusoid + drift + pulses
+- sleep_disruption: AR(1) + improvement after shift + weekly sinusoid + drift + pulses
+
+SHARED CO-FLUCTUATION (Pattern 6)
+- shared_osc: sin(2π * 1.30 * t + phase=5.01)
+
+PULSES / EVENTS (Pattern 8)
+- number_of_pulses: 2
+  * pulse_1: start_idx=157, length=5, amp=0.873
+  * pulse_2: start_idx=104, length=4, amp=0.596
+
+CROSS-VARIABLE EFFECTS (Pattern 7)
+- driver_predictor_code (regime-dependent effect): P08
+- criteria receive lagged predictor influence via lags [2,4,7] (weights [0.50,0.35,0.15])
+
+MISSINGNESS (Pattern 10)
+- MCAR + MAR(stress-related) + block-missing + measurement schedule (freq hints)
+- realized missingness rates by code:
+  * P01: missing_rate=0.094 | freq_hint=None
+  * P02: missing_rate=0.167 | freq_hint=None
+  * P03: missing_rate=0.178 | freq_hint=None
+  * P04: missing_rate=0.067 | freq_hint=None
+  * P05: missing_rate=0.172 | freq_hint=None
+  * P06: missing_rate=0.178 | freq_hint=None
+  * P07: missing_rate=0.217 | freq_hint=None
+  * P08: missing_rate=0.156 | freq_hint=None
+  * C01: missing_rate=0.111 | freq_hint=None
+  * C02: missing_rate=0.194 | freq_hint=None
+  * C03: missing_rate=0.222 | freq_hint=None
+  * C04: missing_rate=0.211 | freq_hint=None
+  * C05: missing_rate=0.361 | freq_hint=None
+  * C06: missing_rate=0.222 | freq_hint=None
+
+VARIABLES
+- P01 (PREDICTOR): Imagery Rehearsal Therapy (IRT) practice adherence | ontology_id=nightmare_imagery_rehearsal | conf=0.92 | freq_hint=None
+- P02 (PREDICTOR): Presleep wind-down / detachment routine adherence | ontology_id=wind_down_routine | conf=0.92 | freq_hint=None
+- P03 (PREDICTOR): Paced breathing / grounding practice (post-awakening) | ontology_id=paced_breathing_practice | conf=0.84 | freq_hint=None
+- P04 (PREDICTOR): Sleep environment quality (comfort, light, temperature, noise) | ontology_id=sleep_quality_rating | conf=0.62 | freq_hint=None
+- P05 (PREDICTOR): Nightly wearable HR/HRV arousal index (passive) | ontology_id=photoplethysmography_hrv_wearable | conf=0.78 | freq_hint=None
+- P06 (PREDICTOR): Nonengagement with clock-checking (nighttime checking behavior) | ontology_id=nonengagement_with_clock_checking | conf=0.75 | freq_hint=None
+- P07 (PREDICTOR): Mindfulness/acceptance practice (in-bed or pre-sleep) | ontology_id=body_scan_practice | conf=0.72 | freq_hint=None
+- P08 (PREDICTOR): Bedtime/return-to-bed settling routine adherence (settling routine) | ontology_id=return_to_bed_settling_routine | conf=0.92 | freq_hint=None
+- C01 (CRITERION): Nightmare-triggered awakenings (occurrence) | ontology_id=nocturnal_awakenings_due_to_nightmares | conf=0.85 | freq_hint=None
+- C02 (CRITERION): Nightmare vividness/intensity | ontology_id=nightmares_or_vivid_dreams | conf=0.62 | freq_hint=None
+- C03 (CRITERION): Anticipatory fear of sleep / reluctance to go to bed | ontology_id=pre_sleep_anxiety_and_rumination | conf=0.72 | freq_hint=None
+- C04 (CRITERION): Acute autonomic arousal on awakening | ontology_id=awakening_due_to_nightmare | conf=0.74 | freq_hint=None
+- C05 (CRITERION): Prolonged post-awakening physiological/psychological activation | ontology_id=morning_hyperarousal_signs_post_awakening | conf=0.87 | freq_hint=None
+- C06 (CRITERION): Difficulty resuming sleep after nightmare awakenings | ontology_id=sleep_maintenance_difficulty | conf=0.78 | freq_hint=None
+
+PATTERN CHECKLIST
+1) AR(1) inertia
+2) weekly seasonality
+3) slow drift trend
+4) abrupt step change
+5) smooth sigmoid transition
+6) shared latent sinusoidal co-fluctuation
+7) lagged predictor->criterion effects
+8) bursts/pulses + decay
+9) outliers/shocks
+10) missingness: MCAR+MAR+block+schedule

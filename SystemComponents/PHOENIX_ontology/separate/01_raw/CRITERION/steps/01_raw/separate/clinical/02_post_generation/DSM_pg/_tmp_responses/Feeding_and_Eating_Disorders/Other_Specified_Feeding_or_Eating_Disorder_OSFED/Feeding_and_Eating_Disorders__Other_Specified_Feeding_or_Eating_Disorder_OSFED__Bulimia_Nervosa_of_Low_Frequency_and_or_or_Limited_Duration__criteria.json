@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "binge_eating_with_loss_of_control"
+    },
+    {
+      "criterium": "self_induced_vomiting"
+    },
+    {
+      "criterium": "laxative_abuse"
+    },
+    {
+      "criterium": "diuretic_abuse"
+    },
+    {
+      "criterium": "fasting_to_avoid_weight_gain"
+    },
+    {
+      "criterium": "excessive_exercise_for_weight_control"
+    },
+    {
+      "criterium": "dental_enamel_wear_from_vomiting"
+    },
+    {
+      "criterium": "parotid_gland_swelling"
+    },
+    {
+      "criterium": "russell_signs_present"
+    },
+    {
+      "criterium": "preoccupation_with_body_weight_and_shape"
+    },
+    {
+      "criterium": "self_evaluation_unduly_influenced_by_body_weight_and_shape"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

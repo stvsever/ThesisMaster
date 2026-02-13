@@ -1,0 +1,46 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_rs53576_genotype",
+      "OXTR_rs2254298_genotype",
+      "CD38_rs3796863_genotype"
+    ],
+    "molecules": [
+      "plasma_oxytocin_ng_per_ml",
+      "plasma_vasopressin_pg_per_ml",
+      "salivary_oxytocin_ng_per_ml"
+    ],
+    "cells": [
+      "pyramidal_neuron_density_TPJ",
+      "gabaergic_interneuron_density_TPJ",
+      "iba1_microglial_marker_TPJ_expression"
+    ],
+    "circuits": [
+      "TPJ_action_intention_fMRI_activation",
+      "STS_action_view_fMRI_activation",
+      "mPFC_TPJ_connectivity_intention_task",
+      "amygdala_response_to_action_cues_fMRI",
+      "PFC_TPJ_network_connectivity_action_attribution"
+    ],
+    "physiology": [
+      "heart_rate_variability_social_inference_task",
+      "skin_conductance_response_action_attribution_task",
+      "pupil_dilation_action_attribution_task",
+      "respiratory_rate_variability_social_perception"
+    ],
+    "behavior": [
+      "action_intention_misattribution_error_rate",
+      "reaction_time_action_intention_task_ms",
+      "action_intention_inference_accuracy_percent",
+      "false_belief_generation_rate",
+      "attribution_bias_in_response_time_ms"
+    ],
+    "self_report": [
+      "intention_misattribution_self_report_scale",
+      "theory_of_mind_self_assessment_score",
+      "social_sensitivity_self_report_score",
+      "anxiety_in_social_situations_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 1.2
+}

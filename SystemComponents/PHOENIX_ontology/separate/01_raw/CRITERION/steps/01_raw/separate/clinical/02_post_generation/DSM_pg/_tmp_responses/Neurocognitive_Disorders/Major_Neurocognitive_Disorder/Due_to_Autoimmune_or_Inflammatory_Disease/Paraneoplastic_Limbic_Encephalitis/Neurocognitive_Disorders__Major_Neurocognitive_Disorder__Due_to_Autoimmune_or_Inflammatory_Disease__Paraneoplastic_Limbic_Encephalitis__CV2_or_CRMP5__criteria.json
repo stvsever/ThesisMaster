@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "episodic_memory_loss"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "disorientation_time_place"
+    },
+    {
+      "criterium": "behavioral_disinhibition"
+    },
+    {
+      "criterium": "agitation_or_aggression"
+    },
+    {
+      "criterium": "delusions_present"
+    },
+    {
+      "criterium": "hallucinations_present"
+    },
+    {
+      "criterium": "mood_disturbance"
+    },
+    {
+      "criterium": "seizures_present"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "language_impairment"
+    },
+    {
+      "criterium": "confabulation_present"
+    },
+    {
+      "criterium": "attention_and_executive_dysfunction"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0001
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "aggressive_behavior_toward_people_or_animals"
+    },
+    {
+      "criterium": "cruelty_to_people_or_animals"
+    },
+    {
+      "criterium": "destruction_of_property"
+    },
+    {
+      "criterium": "deceit_or_theft"
+    },
+    {
+      "criterium": "serious_violations_of_rules"
+    },
+    {
+      "criterium": "truancy"
+    },
+    {
+      "criterium": "running_away_from_home"
+    },
+    {
+      "criterium": "curfew_violation"
+    },
+    {
+      "criterium": "bullying_or_intimidation_of_peers"
+    },
+    {
+      "criterium": "lack_of_remorse_or_guilt_after_harm"
+    },
+    {
+      "criterium": "reckless_disregard_for_safety_of_self_or_others"
+    },
+    {
+      "criterium": "irresponsible_behavior_in_school_or_home_responsibilities"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

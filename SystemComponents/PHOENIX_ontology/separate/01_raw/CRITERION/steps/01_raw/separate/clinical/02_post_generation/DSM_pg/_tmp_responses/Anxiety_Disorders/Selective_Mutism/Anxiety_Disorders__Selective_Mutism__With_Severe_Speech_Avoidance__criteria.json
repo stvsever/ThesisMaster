@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "speech_avoidance_across_social_settings"
+    },
+    {
+      "criterium": "home_setting_speech_preserved"
+    },
+    {
+      "criterium": "anxiety_when_speaking_in_social_settings"
+    },
+    {
+      "criterium": "speech_production_restricted_in_classroom_or_peer_settings"
+    },
+    {
+      "criterium": "nonverbal_communication_dominant_when_speech_expected"
+    },
+    {
+      "criterium": "eye_contact_avoidance_when_speech_required"
+    },
+    {
+      "criterium": "interpersonal_functioning_impairment_due_to_speech_avoidance"
+    },
+    {
+      "criterium": "escape_or_avoidance_behaviors_in_speech_tasks"
+    },
+    {
+      "criterium": "gesture_or_sign_communication_used_in_speech_required_settings"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

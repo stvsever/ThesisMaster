@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "delusions_present"
+    },
+    {
+      "criterium": "disorganized_thought_form"
+    },
+    {
+      "criterium": "mutism_or_reduced_speech"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "orofacial_dyskinesias"
+    },
+    {
+      "criterium": "catatonia_features"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "autonomic_dysregulation_signs"
+    },
+    {
+      "criterium": "altered_level_of_consciousness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0005
+}

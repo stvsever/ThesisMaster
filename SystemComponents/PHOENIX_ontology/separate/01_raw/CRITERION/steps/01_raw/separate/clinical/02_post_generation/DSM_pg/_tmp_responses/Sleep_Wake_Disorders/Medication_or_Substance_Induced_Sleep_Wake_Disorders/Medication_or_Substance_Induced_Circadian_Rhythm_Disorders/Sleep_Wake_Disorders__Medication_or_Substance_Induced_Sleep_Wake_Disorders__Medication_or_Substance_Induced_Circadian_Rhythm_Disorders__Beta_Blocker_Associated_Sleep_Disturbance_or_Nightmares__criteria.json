@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "beta_blocker_induced_insomnia"
+    },
+    {
+      "criterium": "beta_blocker_induced_nightmares"
+    },
+    {
+      "criterium": "beta_blocker_sleep_fragmentation"
+    },
+    {
+      "criterium": "beta_blocker_increased_sleep_latency"
+    },
+    {
+      "criterium": "beta_blocker_reduced_sleep_efficiency"
+    },
+    {
+      "criterium": "beta_blocker_early_morning_awakenings"
+    },
+    {
+      "criterium": "beta_blocker_increased_dream_frequency"
+    },
+    {
+      "criterium": "beta_blocker_rem_sleep_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

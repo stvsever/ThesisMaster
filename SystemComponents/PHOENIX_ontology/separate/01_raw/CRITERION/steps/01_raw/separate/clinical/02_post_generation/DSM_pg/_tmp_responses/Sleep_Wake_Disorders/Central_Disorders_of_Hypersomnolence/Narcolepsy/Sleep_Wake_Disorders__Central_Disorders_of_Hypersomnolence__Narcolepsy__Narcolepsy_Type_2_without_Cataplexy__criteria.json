@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "sleep_attacks"
+    },
+    {
+      "criterium": "mean_sleep_latency_MSLT_le_8_min"
+    },
+    {
+      "criterium": "presence_of_SOREMs_on_MSLT"
+    },
+    {
+      "criterium": "hypnagogic_hypnopompic_hallucinations"
+    },
+    {
+      "criterium": "sleep_paralysis_episodes"
+    },
+    {
+      "criterium": "automatic_behaviors_during_wakefulness"
+    },
+    {
+      "criterium": "nocturnal_sleep_fragmentation"
+    },
+    {
+      "criterium": "recurrent_nocturnal_awakenings"
+    }
+  ],
+  "estimated_prevalence_percent": 0.03
+}

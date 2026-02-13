@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_serum_prolactin"
+    },
+    {
+      "criterium": "galactorrhea"
+    },
+    {
+      "criterium": "amenorrhea"
+    },
+    {
+      "criterium": "decreased_libido"
+    },
+    {
+      "criterium": "erectile_dysfunction"
+    },
+    {
+      "criterium": "anorgasmia"
+    },
+    {
+      "criterium": "delayed_orgasm"
+    },
+    {
+      "criterium": "gynecomastia"
+    },
+    {
+      "criterium": "oligospermia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

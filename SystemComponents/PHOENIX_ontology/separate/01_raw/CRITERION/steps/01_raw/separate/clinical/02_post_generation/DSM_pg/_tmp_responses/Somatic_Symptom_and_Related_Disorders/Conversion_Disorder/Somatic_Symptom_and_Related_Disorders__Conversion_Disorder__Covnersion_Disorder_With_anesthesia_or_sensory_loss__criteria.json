@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "non_dermatomal_sensory_deficit"
+    },
+    {
+      "criterium": "unilateral_or_multiregional_sensory_deficit"
+    },
+    {
+      "criterium": "fluctuating_sensory_deficit"
+    },
+    {
+      "criterium": "rapid_change_in_sensory_deficit"
+    },
+    {
+      "criterium": "inconsistent_sensory_modalities_deficit"
+    },
+    {
+      "criterium": "painless_sensory_deficit"
+    },
+    {
+      "criterium": "deficit_modified_by_attention_or_distraction"
+    },
+    {
+      "criterium": "preserved_touch_in_area_of_sensory_loss"
+    },
+    {
+      "criterium": "preserved_pain_in_area_of_sensory_loss"
+    },
+    {
+      "criterium": "preserved_temperature_in_area_of_sensory_loss"
+    },
+    {
+      "criterium": "non_correspondence_between_sensory_deficit_and_dermatomal_boundaries"
+    },
+    {
+      "criterium": "immediate_remission_of_sensory_deficit_following_challenge_or_test"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

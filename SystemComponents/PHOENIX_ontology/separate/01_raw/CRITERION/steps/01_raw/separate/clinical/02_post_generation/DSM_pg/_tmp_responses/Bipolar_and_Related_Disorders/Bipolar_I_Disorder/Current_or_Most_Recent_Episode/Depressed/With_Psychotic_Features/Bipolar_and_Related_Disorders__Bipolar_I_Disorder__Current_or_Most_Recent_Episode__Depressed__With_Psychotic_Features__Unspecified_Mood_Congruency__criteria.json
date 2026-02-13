@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nihilistic_delusions"
+    },
+    {
+      "criterium": "guilt_delusions"
+    },
+    {
+      "criterium": "delusions_of_punishment"
+    },
+    {
+      "criterium": "delusions_of_disease"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "blunted_affect"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "poverty_of_speech"
+    },
+    {
+      "criterium": "insomnia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

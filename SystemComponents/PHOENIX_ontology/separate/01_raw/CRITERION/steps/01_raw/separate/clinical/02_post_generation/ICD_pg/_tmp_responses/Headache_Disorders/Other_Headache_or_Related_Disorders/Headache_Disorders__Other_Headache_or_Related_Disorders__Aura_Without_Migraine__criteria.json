@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "visual_scintillations"
+    },
+    {
+      "criterium": "visual_fortification_spectrum"
+    },
+    {
+      "criterium": "unilateral_visual_field_deficit"
+    },
+    {
+      "criterium": "somatosensory_paresthesias_face_limbs"
+    },
+    {
+      "criterium": "aphasia_like_speech_disturbance"
+    },
+    {
+      "criterium": "focal_motor_weakness"
+    },
+    {
+      "criterium": "vertigo"
+    },
+    {
+      "criterium": "ataxia_or_gait_disturbance"
+    },
+    {
+      "criterium": "dysarthria"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

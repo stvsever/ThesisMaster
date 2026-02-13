@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pain_disproportionate_to_objective_findings"
+    },
+    {
+      "criterium": "multisite_pain_presentation"
+    },
+    {
+      "criterium": "pain_exacerbated_by_psychological_stress"
+    },
+    {
+      "criterium": "documented_general_medical_condition_present_relevant_to_pain"
+    },
+    {
+      "criterium": "psychological_distress_associated_with_pain"
+    },
+    {
+      "criterium": "catastrophizing_or_magnification_of_pain"
+    },
+    {
+      "criterium": "pain_behaviors_guarding_or_reinforcement"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_pain"
+    },
+    {
+      "criterium": "anxiety_or_depression_related_to_pain"
+    },
+    {
+      "criterium": "work_impairment_due_to_pain"
+    },
+    {
+      "criterium": "social_function_impairment_due_to_pain"
+    },
+    {
+      "criterium": "inconsistent_pain_report_with_clinical_assessment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

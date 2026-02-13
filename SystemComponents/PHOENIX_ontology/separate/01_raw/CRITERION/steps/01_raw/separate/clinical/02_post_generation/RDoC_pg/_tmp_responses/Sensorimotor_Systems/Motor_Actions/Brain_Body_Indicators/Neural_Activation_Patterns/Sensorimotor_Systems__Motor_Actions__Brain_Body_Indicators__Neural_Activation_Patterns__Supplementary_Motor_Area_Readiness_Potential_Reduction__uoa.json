@@ -1,0 +1,44 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_genotype",
+      "BDNF_SMA_expression",
+      "GRIN2B_SMA_expression",
+      "DRD2_rs1800497_genotype",
+      "COMT_val158_met_genotype"
+    ],
+    "molecules": [
+      "GABA_SMA_concentration",
+      "Glutamate_SMA_concentration",
+      "Dopamine_SMA_tone",
+      "Serotonin_SMA_concentration",
+      "BDNF_SMA_protein_concentration"
+    ],
+    "cells": [
+      "pyramidal_neuron_density_SMA",
+      "inhibitory_interneuron_density_SMA",
+      "astrocyte_density_SMA",
+      "oligodendrocyte_density_SMA"
+    ],
+    "circuits": [
+      "SMA_M1_beta_synchrony",
+      "premotor_SMA_to_preSMA_connectivity_strength",
+      "SMA_thalamocortical_connectivity",
+      "SMA_network_coherence_with_motor_cortex"
+    ],
+    "physiology": [
+      "readiness_potential_amplitude_SMA",
+      "readiness_potential_latency_SMA",
+      "readiness_potential_area_SMA",
+      "beta_band_power_SMA"
+    ],
+    "behavior": [
+      "premovement_reaction_time",
+      "movement_onset_latency",
+      "movement_accuracy_in_motor_planning_task",
+      "movement_velocity_profile_SMA_related"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 0.5
+}

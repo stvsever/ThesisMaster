@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anticipatory_anxiety_in_social_evaluative_contexts"
+    },
+    {
+      "criterium": "avoidance_of_social_interactions_due_to_fear_of_judgment"
+    },
+    {
+      "criterium": "excessive_rumination_about_others_judgments"
+    },
+    {
+      "criterium": "catastrophizing_neutral_feedback_as_criticism"
+    },
+    {
+      "criterium": "hypervigilance_to_social_cues_signaling_evaluation"
+    },
+    {
+      "criterium": "eye_contact_avoidance_in_evaluative_settings"
+    },
+    {
+      "criterium": "self_consciousness_in_social_performance"
+    },
+    {
+      "criterium": "self_monitoring_of_facial_expressions_in_social_interactions"
+    },
+    {
+      "criterium": "fear_of_public_speaking_or_performance_due_to_evaluation_fear"
+    }
+  ],
+  "estimated_prevalence_percent": 6.5
+}

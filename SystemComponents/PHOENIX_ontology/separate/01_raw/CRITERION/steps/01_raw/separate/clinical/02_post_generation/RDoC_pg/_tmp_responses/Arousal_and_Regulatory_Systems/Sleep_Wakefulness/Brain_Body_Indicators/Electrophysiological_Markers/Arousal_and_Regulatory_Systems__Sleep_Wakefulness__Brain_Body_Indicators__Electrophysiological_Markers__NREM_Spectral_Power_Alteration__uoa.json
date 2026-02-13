@@ -1,0 +1,44 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "PER2_mRNA_expression",
+      "CRY1_mRNA_expression",
+      "BDNF_mRNA_expression",
+      "GABRA1_gene_expression",
+      "GRIN2A_gene_expression"
+    ],
+    "molecules": [
+      "GABA_concentration_cortex",
+      "Glutamate_concentration_cortex",
+      "Adenosine_concentration_brain",
+      "Acetylcholine_concentration_brain",
+      "Melatonin_concentration_plasma"
+    ],
+    "cells": [
+      "Pyramidal_neuron_density_cortex",
+      "PV_interneuron_density_cortex",
+      "SST_interneuron_density_cortex",
+      "Thalamocortical_neuron_firing_rate"
+    ],
+    "circuits": [
+      "thalamocortical_synchrony_index",
+      "cortico_thalamic_loop_power",
+      "reticular_nucleus_inhibitory_tone",
+      "delta_band_network_coherence"
+    ],
+    "physiology": [
+      "NREM_delta_power_0_4Hz",
+      "NREM_delta_power_density",
+      "K_complex_rate_per_min",
+      "Sleep_efficiency_percent"
+    ],
+    "behavior": [
+      "time_in_SWS_percent",
+      "SWS_duration_minutes",
+      "sleep_onset_latency_minutes",
+      "nocturnal_awakening_count"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 7.5
+}

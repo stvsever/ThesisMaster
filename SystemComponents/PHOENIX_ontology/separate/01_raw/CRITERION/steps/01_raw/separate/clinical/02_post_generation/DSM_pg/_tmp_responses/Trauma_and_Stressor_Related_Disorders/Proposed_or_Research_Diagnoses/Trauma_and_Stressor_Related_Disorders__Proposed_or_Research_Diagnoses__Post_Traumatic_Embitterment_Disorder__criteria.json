@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "perceived_injustice_fixation"
+    },
+    {
+      "criterium": "resentment_rumination"
+    },
+    {
+      "criterium": "bitter_affect_persistence"
+    },
+    {
+      "criterium": "anger_reactivity_to_stressor_cues"
+    },
+    {
+      "criterium": "intrusive_resentment_memories"
+    },
+    {
+      "criterium": "preoccupation_with_injustice_event"
+    },
+    {
+      "criterium": "grievance_expression_to_others"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_injustice_beliefs"
+    },
+    {
+      "criterium": "interpersonal_conflict_increased"
+    },
+    {
+      "criterium": "hypervigilance_to_injustice_cues"
+    },
+    {
+      "criterium": "cognitive_bias_injustice_sensitivity"
+    },
+    {
+      "criterium": "avoidance_of_injustice_triggering_situations"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

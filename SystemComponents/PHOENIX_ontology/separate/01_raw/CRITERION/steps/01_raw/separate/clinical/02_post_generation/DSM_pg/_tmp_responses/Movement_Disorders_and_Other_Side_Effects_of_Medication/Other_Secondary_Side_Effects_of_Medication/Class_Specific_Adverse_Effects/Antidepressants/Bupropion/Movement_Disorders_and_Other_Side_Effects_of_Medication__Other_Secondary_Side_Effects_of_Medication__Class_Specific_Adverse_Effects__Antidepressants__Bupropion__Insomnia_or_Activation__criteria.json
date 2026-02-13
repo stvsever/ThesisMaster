@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_onset_difficulty"
+    },
+    {
+      "criterium": "sleep_maintenance_difficulty"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "nonrestorative_sleep"
+    },
+    {
+      "criterium": "decreased_sleep_need"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "racing_thoughts"
+    },
+    {
+      "criterium": "increased_physical_energy"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "anxiety_exacerbation"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "tremor"
+    }
+  ],
+  "estimated_prevalence_percent": 12.0
+}

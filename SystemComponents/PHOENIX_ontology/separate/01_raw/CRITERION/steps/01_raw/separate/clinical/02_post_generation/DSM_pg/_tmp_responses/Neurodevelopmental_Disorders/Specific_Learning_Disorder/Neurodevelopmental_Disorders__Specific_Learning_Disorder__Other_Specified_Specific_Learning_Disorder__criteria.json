@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "reading_decoding_deficit"
+    },
+    {
+      "criterium": "reading_fluency_deficit"
+    },
+    {
+      "criterium": "reading_comprehension_impairment"
+    },
+    {
+      "criterium": "spelling_accuracy_deficit"
+    },
+    {
+      "criterium": "written_expression_grammar_deficit"
+    },
+    {
+      "criterium": "written_expression_spelling_deficit"
+    },
+    {
+      "criterium": "math_problem_solving_deficit"
+    },
+    {
+      "criterium": "math_fact_fluency_deficit"
+    },
+    {
+      "criterium": "mathematical_reasoning_deficit"
+    },
+    {
+      "criterium": "phonological_processing_deficit"
+    },
+    {
+      "criterium": "orthographic_processing_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

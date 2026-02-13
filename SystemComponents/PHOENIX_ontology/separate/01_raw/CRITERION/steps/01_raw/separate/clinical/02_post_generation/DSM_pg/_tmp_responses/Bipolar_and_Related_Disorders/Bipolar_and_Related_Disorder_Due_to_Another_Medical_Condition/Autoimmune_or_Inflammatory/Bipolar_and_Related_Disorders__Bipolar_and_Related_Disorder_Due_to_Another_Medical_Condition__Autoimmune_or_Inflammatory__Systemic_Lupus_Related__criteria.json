@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "irritability_agitation"
+    },
+    {
+      "criterium": "manic_or_hypomanic_features"
+    },
+    {
+      "criterium": "delusions"
+    },
+    {
+      "criterium": "hallucinations"
+    },
+    {
+      "criterium": "catatonia_features"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "memory_deficit"
+    },
+    {
+      "criterium": "seizure_events"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

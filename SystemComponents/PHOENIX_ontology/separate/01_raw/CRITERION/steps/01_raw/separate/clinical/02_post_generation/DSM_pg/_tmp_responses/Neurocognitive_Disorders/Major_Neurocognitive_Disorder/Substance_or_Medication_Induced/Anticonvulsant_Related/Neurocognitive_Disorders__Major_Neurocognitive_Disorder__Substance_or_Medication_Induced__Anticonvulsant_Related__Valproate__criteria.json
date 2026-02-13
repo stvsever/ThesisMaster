@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_short_term_memory"
+    },
+    {
+      "criterium": "impaired_episodic_memory"
+    },
+    {
+      "criterium": "impaired_working_memory"
+    },
+    {
+      "criterium": "impaired_processing_speed"
+    },
+    {
+      "criterium": "impaired_attention"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "language_fluency_deficit"
+    },
+    {
+      "criterium": "word_finding_deficit"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "constructional_apraxia"
+    },
+    {
+      "criterium": "praxis_impairment"
+    },
+    {
+      "criterium": "IADL_impairment"
+    },
+    {
+      "criterium": "time_and_place_disorientation"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

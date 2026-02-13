@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depersonalization_symptoms"
+    },
+    {
+      "criterium": "derealization_symptoms"
+    },
+    {
+      "criterium": "dissociative_amnesia_exposure_period"
+    },
+    {
+      "criterium": "identity_disturbance_or_identity_confusion"
+    },
+    {
+      "criterium": "perceptual_distortions"
+    },
+    {
+      "criterium": "time_perception_distortion"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "short_term_memory_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

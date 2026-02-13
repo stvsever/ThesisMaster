@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "FKBP5_rs1360780_genotype",
+      "BDNF_V66_met_allele_carrier_status",
+      "SLC6A4_promoter_LPR_genotype",
+      "CRHR1_rs110402_genotype",
+      "COMT_rs4680_genotype",
+      "GAD1_mRNA_expression_level"
+    ],
+    "molecules": [
+      "cortisol_plasma_concentration",
+      "CRH_plasma_concentration",
+      "norepinephrine_plasma_concentration",
+      "BDNF_plasma_concentration",
+      "glutamate_synaptic_concentration"
+    ],
+    "cells": [
+      "amygdala_neuron_density",
+      "prefrontal_cortex_GABAergic_interneuron_density",
+      "hippocampus_pyramidal_neuron_density",
+      "amygdala_central_nucleus_neuron_density"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_functional_connectivity_fMRI",
+      "amygdala_hippocampus_functional_connectivity_fMRI",
+      "insula_anterior_cingulate_network_connectivity_fMRI",
+      "fear_extinction_network_synchrony_measured_with_fMRI"
+    ],
+    "physiology": [
+      "heart_rate_variability",
+      "skin_conductance_level",
+      "startle_response_amplitude",
+      "pupil_dilation_index",
+      "respiratory_rate",
+      "cortisol_reactivity_to_uncertainty"
+    ],
+    "behavior": [
+      "avoidance_choice_rate_under_uncertainty",
+      "latency_to_avoid_under_uncertainty",
+      "safety_check_frequency_in_unknown_situations",
+      "hesitation_duration_in_unknown_situations",
+      "withdrawal_frequency_in_unknown_situations"
+    ],
+    "self_report": [
+      "state_anxiety_score",
+      "trait_anxiety_score",
+      "intolerance_of_uncertainty_scale_score",
+      "uncertainty_avoidance_rating",
+      "fear_of_unknown_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 9.5
+}

@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "marked_fear_in_presence_of_birds"
+    },
+    {
+      "criterium": "panic_like_symptoms_on_bird_exposure"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_bird_proximity"
+    },
+    {
+      "criterium": "avoidance_of_bird_proximity"
+    },
+    {
+      "criterium": "avoidance_of_bird_habitats"
+    },
+    {
+      "criterium": "escape_or_rapid_exit_when_birds_appear"
+    },
+    {
+      "criterium": "physiological_arousal_to_bird_stimuli"
+    },
+    {
+      "criterium": "startle_response_to_bird_sounds_or_movement"
+    },
+    {
+      "criterium": "intrusive_bird_related_thoughts"
+    },
+    {
+      "criterium": "distress_when_thinking_about_birds"
+    },
+    {
+      "criterium": "media_aversion_to_birds"
+    },
+    {
+      "criterium": "occupational_social_impairment_due_to_bird_fear"
+    },
+    {
+      "criterium": "reduced_willingness_to_leave_home_due_to_bird_presence"
+    }
+  ],
+  "estimated_prevalence_percent": 1.8
+}

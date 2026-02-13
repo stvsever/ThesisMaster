@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "automatic_pulling_out_of_awareness"
+    },
+    {
+      "criterium": "lack_of_awareness_during_pulling"
+    },
+    {
+      "criterium": "incomplete_post_pulling_recall"
+    },
+    {
+      "criterium": "hair_loss_patches_at_pulled_sites"
+    },
+    {
+      "criterium": "tension_before_pulling"
+    },
+    {
+      "criterium": "relief_after_pulling"
+    },
+    {
+      "criterium": "pulling_occurs_in_private_setting"
+    },
+    {
+      "criterium": "repetitive_hand_to_hair_actions_without_conscious_urge"
+    },
+    {
+      "criterium": "persistence_of_pulling_behavior_despite_distress"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

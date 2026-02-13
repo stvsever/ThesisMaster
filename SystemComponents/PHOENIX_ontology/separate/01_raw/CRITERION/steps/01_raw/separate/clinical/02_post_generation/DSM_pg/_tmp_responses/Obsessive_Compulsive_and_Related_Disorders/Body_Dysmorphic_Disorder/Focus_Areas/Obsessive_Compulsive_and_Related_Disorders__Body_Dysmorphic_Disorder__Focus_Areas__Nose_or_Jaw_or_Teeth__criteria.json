@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_nose_jaw_teeth_appearance"
+    },
+    {
+      "criterium": "repetitive_mirror_checking_nose_jaw_teeth"
+    },
+    {
+      "criterium": "camouflaging_behaviors_nose_jaw_teeth"
+    },
+    {
+      "criterium": "reassurance_seeking_nose_jaw_teeth"
+    },
+    {
+      "criterium": "excessive_grooming_nose_jaw_region"
+    },
+    {
+      "criterium": "avoidance_of_social_situations_due_to_nose_jaw_teeth_appearance"
+    },
+    {
+      "criterium": "avoidance_of_photographs_or_video_due_to_nose_jaw_teeth_appearance"
+    },
+    {
+      "criterium": "pursuit_of_cosmetic_procedures_nose_jaw_teeth"
+    },
+    {
+      "criterium": "time_spent_ruminating_on_nose_jaw_teeth_appearance"
+    },
+    {
+      "criterium": "functional_impairment_in_social_or_work_activities_due_to_nose_jaw_teeth_concerns"
+    }
+  ],
+  "estimated_prevalence_percent": 2.4
+}

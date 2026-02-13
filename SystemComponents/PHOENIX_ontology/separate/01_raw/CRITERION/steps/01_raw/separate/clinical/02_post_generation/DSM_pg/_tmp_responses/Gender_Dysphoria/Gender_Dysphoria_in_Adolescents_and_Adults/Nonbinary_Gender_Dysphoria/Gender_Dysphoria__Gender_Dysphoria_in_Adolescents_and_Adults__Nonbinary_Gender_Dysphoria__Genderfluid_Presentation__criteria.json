@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "self_reported_gender_identity_fluidity"
+    },
+    {
+      "criterium": "pronoun_preference_fluctuation"
+    },
+    {
+      "criterium": "name_preference_fluctuation"
+    },
+    {
+      "criterium": "gender_expression_variability_across_contexts"
+    },
+    {
+      "criterium": "appearance_style_variability_across_identity_states"
+    },
+    {
+      "criterium": "body_related_dysphoria_variation_with_identity_state"
+    },
+    {
+      "criterium": "dysphoric_affect_variation_related_to_identity_state"
+    },
+    {
+      "criterium": "social_role_presentation_switching_between_identity_states"
+    },
+    {
+      "criterium": "preferred_identity_labels_switching_between_sessions"
+    },
+    {
+      "criterium": "explicit_current_identity_label_in_consultation_changes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

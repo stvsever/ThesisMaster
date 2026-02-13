@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ANTICIPATORY_ANXIETY_BEFORE_BEE_ENCOUNTER"
+    },
+    {
+      "criterium": "INTENSE_FEAR_REACTIVITY_TO_BEE_CUES"
+    },
+    {
+      "criterium": "ACUTE_ANXIETY_ON_BEE_VISUAL_CUES"
+    },
+    {
+      "criterium": "ACUTE_ANXIETY_ON_BEE_AUDITORY_CUES"
+    },
+    {
+      "criterium": "PHYSIOLOGICAL_AROUSAL_TO_BEE_CUES"
+    },
+    {
+      "criterium": "PANIC_ATTACKS_ON_BEE_EXPOSURE"
+    },
+    {
+      "criterium": "BEES_AVOIDANCE_BEHAVIOR"
+    },
+    {
+      "criterium": "INTRUSIVE_BEE_FEAR_THOUGHTS"
+    },
+    {
+      "criterium": "CATASTROPHIC_THOUGHTS_ABOUT_BEE_STINGS"
+    },
+    {
+      "criterium": "FUNCTIONAL_IMPAIRMENT_DUE_TO_BEE_PHOBIA"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

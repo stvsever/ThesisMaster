@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "encephalopathy_subacute_onset"
+    },
+    {
+      "criterium": "new_onset_seizures_focal_or_generalized"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "behavioral_change"
+    },
+    {
+      "criterium": "psychotic_symptoms"
+    },
+    {
+      "criterium": "autonomic_dysregulation"
+    },
+    {
+      "criterium": "ataxia_or_gait_disturbance"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "neck_stiffness_or_meningeal_signs"
+    },
+    {
+      "criterium": "fever_present"
+    },
+    {
+      "criterium": "visual_disturbances"
+    },
+    {
+      "criterium": "MRI_radial_periventricular_enhancement"
+    },
+    {
+      "criterium": "CSF_pleocytosis_lymphocytic_predominance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

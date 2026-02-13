@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "photoparoxysmal_EEG_response"
+    },
+    {
+      "criterium": "photic_stimulation_induced_seizure"
+    },
+    {
+      "criterium": "photic_stimulation_induced_myoclonia"
+    },
+    {
+      "criterium": "strobe_light_triggered_seizure"
+    },
+    {
+      "criterium": "sunlight_flash_triggered_seizure"
+    },
+    {
+      "criterium": "video_game_related_photosensitivity_seizure"
+    },
+    {
+      "criterium": "flicker_stimulation_threshold_for_seizure"
+    },
+    {
+      "criterium": "intermittent_photic_stimulation_EEG_discharge"
+    },
+    {
+      "criterium": "flicker_stimulation_induced_EEG_changes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

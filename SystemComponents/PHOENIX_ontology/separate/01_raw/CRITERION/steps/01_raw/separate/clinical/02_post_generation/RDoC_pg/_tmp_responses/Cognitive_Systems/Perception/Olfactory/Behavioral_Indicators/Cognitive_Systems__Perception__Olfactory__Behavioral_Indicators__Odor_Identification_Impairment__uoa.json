@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OR7D4_variant_genotype",
+      "OR2J3_variant_genotype",
+      "OR5A1_variant_genotype",
+      "OR56D1_variant_genotype",
+      "OR2W1_variant_genotype"
+    ],
+    "molecules": [
+      "ACIII_activity",
+      "cAMP_concentration_OSN",
+      "G_olf_bound_GTP_fraction",
+      "CNG_channel_open_probability",
+      "olfactory_receptor_ligand_binding_affinity_OSN"
+    ],
+    "cells": [
+      "olfactory_receptor_neuron_count",
+      "mitral_cell_density_piriform_cortex",
+      "granule_cell_density_olfactory_bulb",
+      "sustentacular_cell_count_olfactory_epithelium"
+    ],
+    "circuits": [
+      "bulb_piriform_pathway_latency_ms",
+      "bulb_piriform_pathway_synchrony_index",
+      "piriform_to_orbitofrontal_connectivity_strength",
+      "orbitofrontal_odor_identification_activation_latency_ms"
+    ],
+    "physiology": [
+      "sniff_initiation_latency_ms",
+      "sniff_duration_ms",
+      "sniff_rate_per_min",
+      "nasal_airflow_rate_ml_per_s",
+      "breathing_cycle_variability_index"
+    ],
+    "behavior": [
+      "odor_identification_accuracy_percent",
+      "odor_identification_reaction_time_ms",
+      "odor_identification_error_rate",
+      "odor_identification_response_bias"
+    ],
+    "self_report": [
+      "anosmia_severity_self_report",
+      "hyposmia_severity_self_report",
+      "odor_identification_difficulty_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 6.0
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_driving_episode"
+    },
+    {
+      "criterium": "sleep_eating_episode"
+    },
+    {
+      "criterium": "sleep_walking_episode"
+    },
+    {
+      "criterium": "verbalizations_during_sleep_episode"
+    },
+    {
+      "criterium": "anterograde_amnesia_during_episode"
+    },
+    {
+      "criterium": "partial_recall_of_episode"
+    },
+    {
+      "criterium": "episode_onset_within_two_hours_of_z_drug_ingestion"
+    },
+    {
+      "criterium": "temporal_association_with_z_drug_ingestion"
+    },
+    {
+      "criterium": "vehicle_operation_during_episode"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

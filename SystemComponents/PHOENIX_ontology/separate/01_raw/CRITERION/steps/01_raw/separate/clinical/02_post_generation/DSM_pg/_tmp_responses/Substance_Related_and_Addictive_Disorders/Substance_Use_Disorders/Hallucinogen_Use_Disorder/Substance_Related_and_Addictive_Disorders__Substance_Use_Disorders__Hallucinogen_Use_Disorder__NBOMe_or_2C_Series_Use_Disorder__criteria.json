@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tolerance_nbome_2c_series"
+    },
+    {
+      "criterium": "withdrawal_nbome_2c_series"
+    },
+    {
+      "criterium": "craving_nbome_2c_series"
+    },
+    {
+      "criterium": "unsuccessful_cut_down_attempts_nbome_2c_series"
+    },
+    {
+      "criterium": "hazardous_use_nbome_2c_series"
+    },
+    {
+      "criterium": "social_interpersonal_problems_nbome_2c_series"
+    },
+    {
+      "criterium": "time_spent_obtaining_using_nbome_2c_series"
+    },
+    {
+      "criterium": "neglect_of_important_activities_nbome_2c_series"
+    },
+    {
+      "criterium": "continued_use_despite_psychological_or_physical_problems_nbome_2c_series"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

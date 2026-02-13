@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "INATTENTION"
+    },
+    {
+      "criterium": "DISORIENTATION_TIME"
+    },
+    {
+      "criterium": "DISORIENTATION_PLACE"
+    },
+    {
+      "criterium": "DISORGANIZED_THINKING"
+    },
+    {
+      "criterium": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "criterium": "PERCEPTUAL_DISTURBANCES"
+    },
+    {
+      "criterium": "MEMORY_IMPAIRMENT_SHORT_TERM"
+    },
+    {
+      "criterium": "RAMBLING_SPEECH"
+    },
+    {
+      "criterium": "AFFECT_LABILITY"
+    },
+    {
+      "criterium": "PSYCHOMOTOR_AGITATION"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

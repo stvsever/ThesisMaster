@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "expressive_language_impairment"
+    },
+    {
+      "criterium": "language_comprehension_impairment"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "ideomotor_apraxia"
+    },
+    {
+      "criterium": "constructional_apraxia"
+    },
+    {
+      "criterium": "orientation_impairment"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "apathy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.08
+}

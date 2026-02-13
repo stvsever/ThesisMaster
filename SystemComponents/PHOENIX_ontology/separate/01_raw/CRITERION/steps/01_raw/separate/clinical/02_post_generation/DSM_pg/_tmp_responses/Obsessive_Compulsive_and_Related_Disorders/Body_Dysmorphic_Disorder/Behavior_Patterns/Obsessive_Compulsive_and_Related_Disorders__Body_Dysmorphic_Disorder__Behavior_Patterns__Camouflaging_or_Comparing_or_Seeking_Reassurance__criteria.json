@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "camouflaging_public_appearance"
+    },
+    {
+      "criterium": "concealment_by_clothing"
+    },
+    {
+      "criterium": "concealment_by_makeup"
+    },
+    {
+      "criterium": "concealment_by_hair_or_accessory"
+    },
+    {
+      "criterium": "appearance_comparison_frequency"
+    },
+    {
+      "criterium": "appearance_comparison_via_social_media_frequency"
+    },
+    {
+      "criterium": "reassurance_seeking_in_person_frequency"
+    },
+    {
+      "criterium": "reassurance_seeking_via_messages_frequency"
+    },
+    {
+      "criterium": "reassurance_seeking_from_family_or_close_contacts_frequency"
+    },
+    {
+      "criterium": "intrusive_appearance_related_thoughts_frequency"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

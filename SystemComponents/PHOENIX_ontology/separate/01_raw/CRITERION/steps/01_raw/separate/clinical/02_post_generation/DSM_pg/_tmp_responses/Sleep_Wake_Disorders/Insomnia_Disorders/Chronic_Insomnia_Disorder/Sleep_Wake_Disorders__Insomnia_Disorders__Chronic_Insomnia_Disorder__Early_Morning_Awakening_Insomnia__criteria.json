@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pre_dawn_awakening"
+    },
+    {
+      "criterium": "inability_to_resleep_after_premature_wake"
+    },
+    {
+      "criterium": "intrusive_rumination_post_awakening"
+    },
+    {
+      "criterium": "morning_hyperarousal_signs_post_awakening"
+    },
+    {
+      "criterium": "morning_mood_disturbance_post_awakening"
+    },
+    {
+      "criterium": "daytime_sleepiness_following_early_morning_awakenings"
+    },
+    {
+      "criterium": "impaired_morning_attention_or_alertness"
+    },
+    {
+      "criterium": "morning_restlessness_or_agitation_in_bed"
+    },
+    {
+      "criterium": "increased_sensitivity_to_noise_in_morning"
+    },
+    {
+      "criterium": "consistent_early_morning_wake_events_across_multiple_nights"
+    }
+  ],
+  "estimated_prevalence_percent": 3.7
+}

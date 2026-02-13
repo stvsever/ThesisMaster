@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "eyeblink_tics"
+    },
+    {
+      "criterium": "facial_grimacing_tics"
+    },
+    {
+      "criterium": "jaw_movement_tics"
+    },
+    {
+      "criterium": "neck_tics"
+    },
+    {
+      "criterium": "shoulder_shrug_tics"
+    },
+    {
+      "criterium": "arm_jerks_tics"
+    },
+    {
+      "criterium": "finger_tapping_tics"
+    },
+    {
+      "criterium": "leg_jerks_tics"
+    },
+    {
+      "criterium": "phonation_tics"
+    },
+    {
+      "criterium": "throat_clearance_tics"
+    },
+    {
+      "criterium": "grunting_tics"
+    },
+    {
+      "criterium": "coprolalia_tics"
+    },
+    {
+      "criterium": "complex_motor_tics"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

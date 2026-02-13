@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_V158M_genotype",
+      "BDNF_V66M_genotype",
+      "DRD2_TaqIA_A1_allele_presence",
+      "MAOA_uVNTR_genotype"
+    ],
+    "molecules": [
+      "DOPAMINE",
+      "GLUTAMATE",
+      "GABA",
+      "BDNF_protein_vmPFC"
+    ],
+    "cells": [
+      "Pyramidal_neurons_vmPFC",
+      "PV_interneurons_vmPFC",
+      "SOM_interneurons_vmPFC",
+      "Astrocytes_vmPFC"
+    ],
+    "circuits": [
+      "vmPFC_to_NAcc_connectivity_strength",
+      "vmPFC_to_amygdala_connectivity_strength",
+      "vmPFC_to_DLPFC_connectivity_strength",
+      "vmPFC_to_hippocampus_connectivity_strength"
+    ],
+    "physiology": [
+      "Pupil_dilation_during_feedback",
+      "Heart_rate_variability_during_reward_update",
+      "Skin_conductance_response_to_prediction_error",
+      "Cortisol_response_to_reward_feedback"
+    ],
+    "behavior": [
+      "Reward_learning_rate",
+      "Policy_update_rate",
+      "Choice_stability_after_feedback",
+      "Reaction_time_to_reward_presentation"
+    ],
+    "self_report": [
+      "BAS_Reward_Responsiveness_score",
+      "BAS_Drive_score",
+      "BAS_Fun_Seeking_score",
+      "Subjective_reward_value_estimate_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 6.4
+}

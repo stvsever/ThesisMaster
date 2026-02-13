@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "language_impairment"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "delusions_present"
+    },
+    {
+      "criterium": "hallucinations_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

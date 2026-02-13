@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "deficient_memory_encoding"
+    },
+    {
+      "criterium": "deficient_delayed_memory_recall"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "sustained_attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "cognitive_flexibility_deficit"
+    },
+    {
+      "criterium": "visuospatial_constructional_deficit"
+    },
+    {
+      "criterium": "verbal_fluency_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sensory_hypoesthesia_in_nerve_distribution"
+    },
+    {
+      "criterium": "paresthesias_in_nerve_distribution"
+    },
+    {
+      "criterium": "neuropathic_pain_in_nerve_distribution"
+    },
+    {
+      "criterium": "motor_weakness_in_muscles_innervated_by_nerve_distribution"
+    },
+    {
+      "criterium": "intrinsic_hand_or_forearm_muscle_atrophy_in_nerve_distribution"
+    },
+    {
+      "criterium": "fasciculations_in_affected_muscles"
+    },
+    {
+      "criterium": "decreased_grip_strength"
+    },
+    {
+      "criterium": "impaired_pinch_grip_strength"
+    },
+    {
+      "criterium": "positive_Tinel_sign_at_affected_site"
+    },
+    {
+      "criterium": "decreased_upper_extremity_reflexes_in_affected_segment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

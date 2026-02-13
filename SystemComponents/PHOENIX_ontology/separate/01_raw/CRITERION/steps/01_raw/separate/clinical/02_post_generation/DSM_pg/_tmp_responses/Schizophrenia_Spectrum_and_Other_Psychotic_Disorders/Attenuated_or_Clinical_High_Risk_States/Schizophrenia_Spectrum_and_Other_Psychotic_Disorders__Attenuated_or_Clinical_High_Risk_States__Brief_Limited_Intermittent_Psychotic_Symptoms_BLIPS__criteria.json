@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations_present"
+    },
+    {
+      "criterium": "visual_hallucinations_present"
+    },
+    {
+      "criterium": "delusional_beliefs_present"
+    },
+    {
+      "criterium": "delusions_of_persecution_present"
+    },
+    {
+      "criterium": "delusions_of_reference_present"
+    },
+    {
+      "criterium": "delusions_of_control_present"
+    },
+    {
+      "criterium": "voices_commentary_present"
+    },
+    {
+      "criterium": "disorganized_speech_present"
+    },
+    {
+      "criterium": "passivity_experiences_present"
+    },
+    {
+      "criterium": "neologisms_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

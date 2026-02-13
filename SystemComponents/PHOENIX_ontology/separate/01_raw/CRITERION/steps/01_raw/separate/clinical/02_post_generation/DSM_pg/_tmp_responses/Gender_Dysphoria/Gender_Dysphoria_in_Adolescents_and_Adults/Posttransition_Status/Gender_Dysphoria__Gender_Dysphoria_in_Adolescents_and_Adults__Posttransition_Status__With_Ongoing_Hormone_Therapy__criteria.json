@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "serum_testosterone_level_with_HT_reduced"
+    },
+    {
+      "criterium": "serum_estradiol_level_with_HT_in_target_range"
+    },
+    {
+      "criterium": "LH_with_HT_suppressed"
+    },
+    {
+      "criterium": "FSH_with_HT_suppressed"
+    },
+    {
+      "criterium": "breast_development_stage_change"
+    },
+    {
+      "criterium": "body_fat_distribution_shift_toward_feminine_pattern"
+    },
+    {
+      "criterium": "bone_mineral_density_T_score_change"
+    },
+    {
+      "criterium": "lipid_profile_total_cholesterol_change"
+    },
+    {
+      "criterium": "mood_symptom_severity_change_with_HT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

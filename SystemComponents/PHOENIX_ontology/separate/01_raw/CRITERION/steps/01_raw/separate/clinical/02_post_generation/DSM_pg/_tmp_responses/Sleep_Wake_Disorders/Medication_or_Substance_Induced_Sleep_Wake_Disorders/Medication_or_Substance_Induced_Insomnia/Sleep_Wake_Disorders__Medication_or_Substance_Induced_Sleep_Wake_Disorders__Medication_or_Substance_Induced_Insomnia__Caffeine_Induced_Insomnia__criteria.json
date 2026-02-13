@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SOL_increase"
+    },
+    {
+      "criterium": "WASO_increase"
+    },
+    {
+      "criterium": "TST_decrease"
+    },
+    {
+      "criterium": "SE_decrease"
+    },
+    {
+      "criterium": "sleep_fragmentation_increase"
+    },
+    {
+      "criterium": "nocturnal_awakenings_increase"
+    },
+    {
+      "criterium": "nonrestorative_sleep_experience"
+    },
+    {
+      "criterium": "daytime_fatigue_increase"
+    },
+    {
+      "criterium": "subjective_sleep_quality_decline"
+    }
+  ],
+  "estimated_prevalence_percent": 1.8
+}

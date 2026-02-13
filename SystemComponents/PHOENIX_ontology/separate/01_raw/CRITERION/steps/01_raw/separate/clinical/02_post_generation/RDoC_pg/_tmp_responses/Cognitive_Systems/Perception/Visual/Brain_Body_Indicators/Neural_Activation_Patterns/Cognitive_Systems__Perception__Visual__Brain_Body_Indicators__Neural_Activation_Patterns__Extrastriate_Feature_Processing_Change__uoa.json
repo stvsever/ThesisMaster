@@ -1,0 +1,29 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "V4_activation_pattern_change",
+      "IT_object_selectivity_change",
+      "LOC_activation_change",
+      "V2_V4_connectivity_change",
+      "V4_IT_connectivity_change"
+    ],
+    "physiology": [
+      "fMRI_BOLD_V4_change",
+      "fMRI_BOLD_IT_change",
+      "EEG_VEP_extrastriate_latency_change",
+      "EEG_VEP_extrastriate_amplitude_change",
+      "MEG_extrastriate_beta_power_change"
+    ],
+    "behavior": [
+      "visual_feature_discrimination_accuracy",
+      "visual_feature_discrimination_reaction_time",
+      "visual_feature_detection_threshold",
+      "contrast_sensitivity_threshold"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 1.4
+}

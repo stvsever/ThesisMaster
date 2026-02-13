@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "multisite_pain_distribution_present"
+    },
+    {
+      "criterium": "allodynia_present"
+    },
+    {
+      "criterium": "hyperalgesia_present"
+    },
+    {
+      "criterium": "pain_catastrophizing_present"
+    },
+    {
+      "criterium": "pain_related_anxiety_present"
+    },
+    {
+      "criterium": "pain_related_depression_present"
+    },
+    {
+      "criterium": "sleep_disturbance_present"
+    },
+    {
+      "criterium": "daytime_fatigue_present"
+    },
+    {
+      "criterium": "cognitive_fog_present"
+    },
+    {
+      "criterium": "pain_interference_work_present"
+    },
+    {
+      "criterium": "pain_interference_social_present"
+    },
+    {
+      "criterium": "pain_related_attention_dysfunction_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

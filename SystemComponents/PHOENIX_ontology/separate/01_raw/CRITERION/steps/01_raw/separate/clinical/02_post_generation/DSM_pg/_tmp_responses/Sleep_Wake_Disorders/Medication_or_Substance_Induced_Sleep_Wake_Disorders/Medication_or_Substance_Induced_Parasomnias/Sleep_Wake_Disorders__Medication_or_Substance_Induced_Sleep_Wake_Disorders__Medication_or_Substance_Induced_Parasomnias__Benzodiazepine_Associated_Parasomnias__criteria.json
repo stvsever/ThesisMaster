@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "somnambulism_episodes"
+    },
+    {
+      "criterium": "confusional_arousals_episodes"
+    },
+    {
+      "criterium": "sleep_terror_episodes"
+    },
+    {
+      "criterium": "sleep_eating_episodes"
+    },
+    {
+      "criterium": "sleep_driving_episodes"
+    },
+    {
+      "criterium": "sleep_talking_episodes"
+    },
+    {
+      "criterium": "amnesia_for_episodes"
+    },
+    {
+      "criterium": "injury_occurrence_during_sleep_parasomnia"
+    },
+    {
+      "criterium": "autonomic_arousal_during_episodes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

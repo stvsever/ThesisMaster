@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "agrammatic_speech_production"
+    },
+    {
+      "criterium": "apraxia_of_speech"
+    },
+    {
+      "criterium": "phonemic_paraphasias"
+    },
+    {
+      "criterium": "reduced_speech_fluency"
+    },
+    {
+      "criterium": "grammatical_syntax_deficit"
+    },
+    {
+      "criterium": "telegraphic_speech_pattern"
+    },
+    {
+      "criterium": "impaired_sentence_repetition"
+    },
+    {
+      "criterium": "dysprosody"
+    },
+    {
+      "criterium": "impaired_complex_sentence_comprehension"
+    }
+  ],
+  "estimated_prevalence_percent": 0.002
+}

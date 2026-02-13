@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "seasonal_onset_fall_winter"
+    },
+    {
+      "criterium": "seasonal_offset_spring_summer"
+    },
+    {
+      "criterium": "hypomanic_like_symptoms_fall_winter"
+    },
+    {
+      "criterium": "depressive_symptoms_fall_winter"
+    },
+    {
+      "criterium": "hypomanic_like_symptoms_spring_summer"
+    },
+    {
+      "criterium": "depressive_symptoms_spring_summer"
+    },
+    {
+      "criterium": "seasonal_energy_level_variation_fall_winter"
+    },
+    {
+      "criterium": "seasonal_sleep_disturbance_fall_winter"
+    },
+    {
+      "criterium": "seasonal_social_and_occupational_impairment_fall_winter"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

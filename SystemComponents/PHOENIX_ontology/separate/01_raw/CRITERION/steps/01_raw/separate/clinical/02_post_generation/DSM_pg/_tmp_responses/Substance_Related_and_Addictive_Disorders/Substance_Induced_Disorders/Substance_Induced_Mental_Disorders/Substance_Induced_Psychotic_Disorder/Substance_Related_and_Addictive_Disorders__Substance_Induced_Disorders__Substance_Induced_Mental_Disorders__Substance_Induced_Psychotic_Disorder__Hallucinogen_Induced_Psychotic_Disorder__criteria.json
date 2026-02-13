@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "tactile_hallucinations"
+    },
+    {
+      "criterium": "perceptual_distortion"
+    },
+    {
+      "criterium": "derealization"
+    },
+    {
+      "criterium": "depersonalization"
+    },
+    {
+      "criterium": "delusions_persecutory"
+    },
+    {
+      "criterium": "delusions_bizarre"
+    },
+    {
+      "criterium": "delusions_of_reference"
+    },
+    {
+      "criterium": "disorganized_thought_form"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "disorganized_behavior"
+    },
+    {
+      "criterium": "impaired_insight"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

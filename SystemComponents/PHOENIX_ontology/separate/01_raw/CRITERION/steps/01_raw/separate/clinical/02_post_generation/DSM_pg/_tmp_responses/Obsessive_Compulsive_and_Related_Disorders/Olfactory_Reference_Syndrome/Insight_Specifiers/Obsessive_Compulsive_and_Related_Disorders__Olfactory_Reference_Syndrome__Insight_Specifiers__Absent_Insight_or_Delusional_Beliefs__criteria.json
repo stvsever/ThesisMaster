@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusional_olfactory_belief"
+    },
+    {
+      "criterium": "absent_insight_to_olfactory_belief"
+    },
+    {
+      "criterium": "odor_preoccupation"
+    },
+    {
+      "criterium": "odor_testing_compulsions"
+    },
+    {
+      "criterium": "odor_related_social_withdrawal"
+    },
+    {
+      "criterium": "odor_avoidance_in_public_spaces"
+    },
+    {
+      "criterium": "distress_in_response_to_odor_belief"
+    },
+    {
+      "criterium": "work_or_social_function_impairment_due_to_odor_belief"
+    },
+    {
+      "criterium": "odor_elimination_or_cleaning_compulsions"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

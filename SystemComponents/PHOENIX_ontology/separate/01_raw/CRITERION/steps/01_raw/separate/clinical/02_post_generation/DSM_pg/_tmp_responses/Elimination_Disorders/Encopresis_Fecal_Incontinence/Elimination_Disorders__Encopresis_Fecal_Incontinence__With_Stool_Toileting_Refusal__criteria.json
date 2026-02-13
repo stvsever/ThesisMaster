@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "stool_withholding_behavior"
+    },
+    {
+      "criterium": "toilet_defecation_refusal"
+    },
+    {
+      "criterium": "abdominal_distension_from_constipation"
+    },
+    {
+      "criterium": "palpable_fecal_mass_abdomen"
+    },
+    {
+      "criterium": "fecal_incontinence_out_of_toilet"
+    },
+    {
+      "criterium": "stool_soiling_underwear"
+    },
+    {
+      "criterium": "painful_defecation_or_rectal_discomfort"
+    },
+    {
+      "criterium": "defecation_urge_resisted"
+    },
+    {
+      "criterium": "avoidance_of_toilet_for_defecation_seen_by_caregiver"
+    },
+    {
+      "criterium": "stool_passage_only_in_diaper_or_pants"
+    },
+    {
+      "criterium": "perianal_skin_irritation_or_excoriations"
+    },
+    {
+      "criterium": "constipation_signs_present_on_exam_or_history"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

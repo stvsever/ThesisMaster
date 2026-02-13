@@ -1,0 +1,53 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265",
+      "COMT_rs4680",
+      "SLC6A4_rs25531",
+      "FKBP5_rs1360780",
+      "CACNA1C_rs1006737"
+    ],
+    "molecules": [
+      "CRF",
+      "CORTISOL",
+      "BDNF",
+      "GABA",
+      "GLUTAMATE",
+      "NOREPINEPHRINE"
+    ],
+    "cells": [
+      "AMYGDALA_PYRAMIDAL_NEURON_DENSITY",
+      "PREFRONTAL_GABA_INTERNEURON_ACTIVITY",
+      "BNST_NEURONAL_ACTIVITY",
+      "HIPPOCAMPAL_PYRAMIDAL_NEURON_DENSITY"
+    ],
+    "circuits": [
+      "AMYGDALA_PFC_FUNCTIONAL_CONNECTIVITY",
+      "BNST_AMYGDALA_THREAT_NETWORK_ACTIVITY",
+      "PREFRONTAL_CORTEX_TOPDOWN_THREAT_REGULATION"
+    ],
+    "physiology": [
+      "HEART_RATE",
+      "HEART_RATE_VARIABILITY",
+      "SKIN_CONDUCTANCE",
+      "SALIVARY_CORTISOL",
+      "PUPILLARY_DILATION",
+      "RESPIRATORY_RATE"
+    ],
+    "behavior": [
+      "REASSURANCE_SEEKING_FREQUENCY",
+      "REASSURANCE_SEEKING_INTENSITY",
+      "REASSURANCE_SEEKING_DURATION",
+      "CHECKING_BEHAVIOR_FREQUENCY",
+      "CHECKING_BEHAVIOR_DURATION",
+      "AVOIDANCE_BEHAVIOR_FREQUENCY"
+    ],
+    "self_report": [
+      "REASSURANCE_SEEKING_SCALE_SCORE",
+      "STATE_ANXIETY_SCALE_SCORE",
+      "TRAIT_ANXIETY_SCALE_SCORE",
+      "WORRY_FREQUENCY_SCALE_SCORE"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

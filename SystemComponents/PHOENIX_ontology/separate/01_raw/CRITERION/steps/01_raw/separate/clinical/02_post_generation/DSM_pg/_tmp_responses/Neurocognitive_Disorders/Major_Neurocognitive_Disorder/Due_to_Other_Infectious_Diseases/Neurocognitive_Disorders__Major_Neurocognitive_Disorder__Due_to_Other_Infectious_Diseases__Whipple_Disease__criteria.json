@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "oculomasticatory_myorhythmia"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "ophthalmoplegia"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "csf_pleocytosis"
+    },
+    {
+      "criterium": "csf_protein_elevation"
+    },
+    {
+      "criterium": "positive_csf_t_whipplei_pcr"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0001
+}

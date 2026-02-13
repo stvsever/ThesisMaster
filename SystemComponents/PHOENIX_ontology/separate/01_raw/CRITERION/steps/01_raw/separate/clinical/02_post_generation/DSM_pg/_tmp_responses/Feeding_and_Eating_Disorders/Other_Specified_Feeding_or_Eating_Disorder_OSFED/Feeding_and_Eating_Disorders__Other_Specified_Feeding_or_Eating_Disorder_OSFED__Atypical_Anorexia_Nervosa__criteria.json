@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intense_fear_weight_gain"
+    },
+    {
+      "criterium": "disturbance_body_weight_shape_perception"
+    },
+    {
+      "criterium": "restrictive_energy_intake_normal_weight"
+    },
+    {
+      "criterium": "calorie_counting_food_preoccupation"
+    },
+    {
+      "criterium": "rigid_food_rules_avoidance"
+    },
+    {
+      "criterium": "excessive_exercise_weight_control"
+    },
+    {
+      "criterium": "ritualistic_eating_patterns"
+    },
+    {
+      "criterium": "persistent_body_image_disturbance"
+    },
+    {
+      "criterium": "avoid_high_fat_foods_weight_concerns"
+    },
+    {
+      "criterium": "preoccupation_food_quality_caloric_content"
+    },
+    {
+      "criterium": "social_withdrawal_weight_concerns"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

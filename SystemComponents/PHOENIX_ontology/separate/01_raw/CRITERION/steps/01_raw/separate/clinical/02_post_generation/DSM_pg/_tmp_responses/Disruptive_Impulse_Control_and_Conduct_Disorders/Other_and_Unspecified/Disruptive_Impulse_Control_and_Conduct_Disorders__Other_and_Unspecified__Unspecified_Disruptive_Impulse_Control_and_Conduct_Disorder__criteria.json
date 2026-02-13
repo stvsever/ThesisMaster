@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "aggressive_behavior_towards_people_or_animals"
+    },
+    {
+      "criterium": "destruction_of_property"
+    },
+    {
+      "criterium": "theft_of_property"
+    },
+    {
+      "criterium": "deceitful_or_deceptive_behavior"
+    },
+    {
+      "criterium": "serious_rule_violations"
+    },
+    {
+      "criterium": "noncompliance_with_authority_figures"
+    },
+    {
+      "criterium": "truancy"
+    },
+    {
+      "criterium": "bullying_or_intimidation_of_peers"
+    },
+    {
+      "criterium": "runaway_from_home"
+    },
+    {
+      "criterium": "impulsive_aggression_or_outbursts"
+    },
+    {
+      "criterium": "reckless_disregard_for_safety_of_self_or_others"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "absolute_weight_gain_kg"
+    },
+    {
+      "criterium": "percent_weight_gain"
+    },
+    {
+      "criterium": "bmi_increase"
+    },
+    {
+      "criterium": "waist_circumference_increase_cm"
+    },
+    {
+      "criterium": "edema_present_pitting"
+    },
+    {
+      "criterium": "increased_appetite_reported"
+    },
+    {
+      "criterium": "central_fat_distribution_increase"
+    },
+    {
+      "criterium": "lipohypertrophy_present"
+    },
+    {
+      "criterium": "clothing_size_increase_reported"
+    }
+  ],
+  "estimated_prevalence_percent": 25.0
+}

@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fear_inability_to_escape_public_places"
+    },
+    {
+      "criterium": "avoid_public_transportation"
+    },
+    {
+      "criterium": "avoid_open_spaces"
+    },
+    {
+      "criterium": "avoid_enclosed_spaces"
+    },
+    {
+      "criterium": "avoid_crowded_or_line_areas"
+    },
+    {
+      "criterium": "need_companion_in_feared_situations"
+    },
+    {
+      "criterium": "panic_like_symptoms_in_feared_situations"
+    },
+    {
+      "criterium": "palpitations_in_feared_situations"
+    },
+    {
+      "criterium": "shortness_of_breath_in_feared_situations"
+    },
+    {
+      "criterium": "dizziness_in_feared_situations"
+    },
+    {
+      "criterium": "sweating_in_feared_situations"
+    },
+    {
+      "criterium": "trembling_in_feared_situations"
+    },
+    {
+      "criterium": "functional_impairment_due_to_agoraphobia"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

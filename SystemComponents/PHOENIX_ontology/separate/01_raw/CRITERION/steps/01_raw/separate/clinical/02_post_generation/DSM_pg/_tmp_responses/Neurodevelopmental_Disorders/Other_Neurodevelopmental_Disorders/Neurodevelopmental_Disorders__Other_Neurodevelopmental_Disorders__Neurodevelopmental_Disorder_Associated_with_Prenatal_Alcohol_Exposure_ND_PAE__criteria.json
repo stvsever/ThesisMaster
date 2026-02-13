@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Attention_Deficits"
+    },
+    {
+      "criterium": "Hyperactivity"
+    },
+    {
+      "criterium": "Impulsivity"
+    },
+    {
+      "criterium": "Executive_Function_Deficit"
+    },
+    {
+      "criterium": "Working_Memory_Deficit"
+    },
+    {
+      "criterium": "Processing_Speed_Deficit"
+    },
+    {
+      "criterium": "Adaptive_Functioning_Impairment"
+    },
+    {
+      "criterium": "Language_Development_Delay"
+    },
+    {
+      "criterium": "Motor_Coordination_Impairment"
+    },
+    {
+      "criterium": "Social_Communication_Difficulties"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

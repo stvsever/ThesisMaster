@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "venipuncture_avoidance"
+    },
+    {
+      "criterium": "injection_procedure_fear_on_cue"
+    },
+    {
+      "criterium": "blood_exposure_fear_on_cue"
+    },
+    {
+      "criterium": "pallor_on_exposure_to_blood_or_injection"
+    },
+    {
+      "criterium": "diaphoresis_on_exposure_to_blood_or_injection"
+    },
+    {
+      "criterium": "dizziness_on_exposure_to_blood_or_injection"
+    },
+    {
+      "criterium": "nausea_on_exposure_to_blood_or_injection"
+    },
+    {
+      "criterium": "syncope_on_exposure_to_blood_or_injection"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_medical_exposure"
+    },
+    {
+      "criterium": "avoidance_of_healthcare_settings_due_to_fear"
+    },
+    {
+      "criterium": "safety_behaviors_in_medical_context_to_reduce_exposure"
+    },
+    {
+      "criterium": "distress_in_waiting_room_before_procedure"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

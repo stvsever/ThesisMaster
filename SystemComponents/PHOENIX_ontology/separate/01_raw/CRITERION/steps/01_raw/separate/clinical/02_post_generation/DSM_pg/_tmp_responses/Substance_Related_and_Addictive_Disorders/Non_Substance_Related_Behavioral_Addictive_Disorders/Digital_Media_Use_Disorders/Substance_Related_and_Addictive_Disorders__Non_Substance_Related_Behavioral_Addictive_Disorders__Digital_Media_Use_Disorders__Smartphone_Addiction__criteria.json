@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_smartphone"
+    },
+    {
+      "criterium": "compulsive_phone_checking"
+    },
+    {
+      "criterium": "tolerance_increased_smartphone_use"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_phone_disconnection"
+    },
+    {
+      "criterium": "functional_impairment_due_to_phone_use"
+    },
+    {
+      "criterium": "phone_use_in_risky_or_inappropriate_contexts"
+    },
+    {
+      "criterium": "neglect_of_other_activities_due_to_phone"
+    },
+    {
+      "criterium": "phantom_phone_vibration_sensation"
+    },
+    {
+      "criterium": "mood_regulation_via_phone_use"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_phone_use"
+    }
+  ],
+  "estimated_prevalence_percent": 12.5
+}

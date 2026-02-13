@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "disproportionate_pain_to_objective_findings"
+    },
+    {
+      "criterium": "multisite_pain_locations"
+    },
+    {
+      "criterium": "non_anatomic_neurological_signs_on_exam"
+    },
+    {
+      "criterium": "pain_fluctuation_with_psychosocial_stressors"
+    },
+    {
+      "criterium": "inconsistent_pain_location_between_assessments"
+    },
+    {
+      "criterium": "pain_behaviors_magnify_pain_expression"
+    },
+    {
+      "criterium": "activity_avoidance_due_to_pain"
+    },
+    {
+      "criterium": "comorbid_psychological_disorder_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "incongruence_between_experienced_gender_and_assigned_sex"
+    },
+    {
+      "criterium": "desire_to_be_of_other_gender"
+    },
+    {
+      "criterium": "desire_to_be_treated_as_other_gender"
+    },
+    {
+      "criterium": "desire_to_reduce_or_remove_primary_sex_characteristics"
+    },
+    {
+      "criterium": "desire_to_develop_or_enhance_secondary_sex_characteristics_of_other_gender"
+    },
+    {
+      "criterium": "strong_identification_with_other_gender_label"
+    },
+    {
+      "criterium": "desire_to_live_as_other_gender_socially"
+    },
+    {
+      "criterium": "distress_or_impairment_due_to_gender_dysphoria"
+    },
+    {
+      "criterium": "impairment_in_social_or_occupational_function_due_to_gender_dysphoria"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

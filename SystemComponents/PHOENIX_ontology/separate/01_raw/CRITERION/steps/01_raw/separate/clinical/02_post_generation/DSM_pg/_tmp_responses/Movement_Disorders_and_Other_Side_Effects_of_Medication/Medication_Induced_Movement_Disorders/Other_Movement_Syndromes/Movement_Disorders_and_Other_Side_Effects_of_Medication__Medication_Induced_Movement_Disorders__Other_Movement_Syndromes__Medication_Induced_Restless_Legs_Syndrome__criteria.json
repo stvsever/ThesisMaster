@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "urge_to_move_legs_at_rest"
+    },
+    {
+      "criterium": "leg_paresthesias_tingling"
+    },
+    {
+      "criterium": "symptom_relief_with_leg_movement"
+    },
+    {
+      "criterium": "symptoms_worse_in_evening_or_night"
+    },
+    {
+      "criterium": "periodic_limb_movements_during_sleep"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_leg_symptoms"
+    },
+    {
+      "criterium": "temporally_associated_with_medication_initiation"
+    },
+    {
+      "criterium": "exacerbation_with_medication_dose_increase"
+    },
+    {
+      "criterium": "lower_limb_predominance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

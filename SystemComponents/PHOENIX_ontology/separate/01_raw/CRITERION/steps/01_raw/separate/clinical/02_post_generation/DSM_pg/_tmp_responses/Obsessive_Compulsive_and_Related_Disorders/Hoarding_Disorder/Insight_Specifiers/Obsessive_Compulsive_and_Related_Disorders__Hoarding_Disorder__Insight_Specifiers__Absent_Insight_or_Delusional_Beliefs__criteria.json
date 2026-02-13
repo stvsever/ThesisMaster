@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "absent_insight_to_irrational_hoarding_beliefs"
+    },
+    {
+      "criterium": "delusional_valuation_of_possessions"
+    },
+    {
+      "criterium": "delusional_magical_properties_of_items"
+    },
+    {
+      "criterium": "delusional_importance_of_items_for_safety"
+    },
+    {
+      "criterium": "delusional_control_over_items"
+    },
+    {
+      "criterium": "delusional_ownership_claims_over_others_possessions"
+    },
+    {
+      "criterium": "resistance_to_discard_due_to_irrational_beliefs"
+    },
+    {
+      "criterium": "fear_of_discard_causing_catastrophe"
+    },
+    {
+      "criterium": "prolonged_acquisition_of_items_beyond_actual_need"
+    },
+    {
+      "criterium": "retention_of_damaged_or_contaminated_items_due_to_beliefs"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

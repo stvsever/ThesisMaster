@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_orbitotemporal_pain"
+    },
+    {
+      "criterium": "ipsilateral_conjunctival_injection"
+    },
+    {
+      "criterium": "ipsilateral_lacrimation"
+    },
+    {
+      "criterium": "nasal_congestion"
+    },
+    {
+      "criterium": "nasal_rhinorrhea"
+    },
+    {
+      "criterium": "ptosis"
+    },
+    {
+      "criterium": "miosis"
+    },
+    {
+      "criterium": "eyelid_edema"
+    },
+    {
+      "criterium": "facial_sweating"
+    },
+    {
+      "criterium": "restlessness_during_attack"
+    },
+    {
+      "criterium": "photophobia"
+    },
+    {
+      "criterium": "phonophobia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

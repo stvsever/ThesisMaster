@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "phantosmia"
+    },
+    {
+      "criterium": "phantogeusia"
+    },
+    {
+      "criterium": "complex_auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "delusion_persecution"
+    },
+    {
+      "criterium": "delusion_referential"
+    },
+    {
+      "criterium": "delusion_grandiose"
+    },
+    {
+      "criterium": "derealization"
+    },
+    {
+      "criterium": "depersonalization"
+    },
+    {
+      "criterium": "postictal_confusion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

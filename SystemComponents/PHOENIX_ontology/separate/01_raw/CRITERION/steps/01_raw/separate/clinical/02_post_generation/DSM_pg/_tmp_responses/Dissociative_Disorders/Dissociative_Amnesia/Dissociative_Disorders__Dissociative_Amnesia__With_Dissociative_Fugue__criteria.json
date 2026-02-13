@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "autobiographical_amnesia"
+    },
+    {
+      "criterium": "purposeful_travel_or_wandering"
+    },
+    {
+      "criterium": "assumption_of_new_identity"
+    },
+    {
+      "criterium": "memory_gap_for_personal_history"
+    },
+    {
+      "criterium": "identity_confusion_or_identity_loss"
+    },
+    {
+      "criterium": "impairment_in_social_or_occupational_functioning"
+    },
+    {
+      "criterium": "abrupt_onset_after_stressor_or_traumatic_event"
+    },
+    {
+      "criterium": "incomplete_recall_of_life_history"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

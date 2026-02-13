@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "processing_speed_deficit"
+    },
+    {
+      "criterium": "sustained_attention_deficit"
+    },
+    {
+      "criterium": "executive_function_decline"
+    },
+    {
+      "criterium": "visuospatial_ability_impairment"
+    },
+    {
+      "criterium": "visuoconstructional_deficit"
+    },
+    {
+      "criterium": "language_fluency_impairment"
+    },
+    {
+      "criterium": "ideomotor_apraxia"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "dysarthria"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

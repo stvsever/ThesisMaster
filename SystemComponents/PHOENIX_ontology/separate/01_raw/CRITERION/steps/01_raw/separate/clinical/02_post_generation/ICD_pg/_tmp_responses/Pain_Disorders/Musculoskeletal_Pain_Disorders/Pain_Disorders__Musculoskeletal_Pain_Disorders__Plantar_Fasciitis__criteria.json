@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "medial_calcaneal_tubercle_tenderness"
+    },
+    {
+      "criterium": "morning_first_step_pain"
+    },
+    {
+      "criterium": "pain_with_prolonged_standing_or_walking"
+    },
+    {
+      "criterium": "plantar_fascia_insertion_tenderness"
+    },
+    {
+      "criterium": "positive_windlass_test"
+    },
+    {
+      "criterium": "limited_ankle_dorsiflexion_range_of_motion"
+    },
+    {
+      "criterium": "increased_pain_with_plantar_fascia_stretch"
+    },
+    {
+      "criterium": "ultrasound_plantar_fascia_thickness_increased"
+    },
+    {
+      "criterium": "heel_swelling_absent"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

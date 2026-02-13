@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "epigastric_abdominal_pain"
+    },
+    {
+      "criterium": "pain_radiates_to_back"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "abdominal_tenderness_epigastric"
+    },
+    {
+      "criterium": "fever"
+    },
+    {
+      "criterium": "leukocytosis"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypotension_hypoperfusion"
+    },
+    {
+      "criterium": "amylase_3x_ULN"
+    },
+    {
+      "criterium": "lipase_3x_ULN"
+    },
+    {
+      "criterium": "pancreatic_edema_on_imaging"
+    },
+    {
+      "criterium": "jaundice"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

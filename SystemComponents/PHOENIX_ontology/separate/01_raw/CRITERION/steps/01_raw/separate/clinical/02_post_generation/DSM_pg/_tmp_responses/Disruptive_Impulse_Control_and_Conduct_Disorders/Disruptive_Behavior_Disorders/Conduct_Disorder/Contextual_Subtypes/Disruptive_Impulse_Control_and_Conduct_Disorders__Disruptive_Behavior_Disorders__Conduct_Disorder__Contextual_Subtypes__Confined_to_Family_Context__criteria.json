@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "aggression_toward_family_members"
+    },
+    {
+      "criterium": "property_damage_in_home"
+    },
+    {
+      "criterium": "theft_of_family_items"
+    },
+    {
+      "criterium": "deceit_or_manipulation_of_family_members"
+    },
+    {
+      "criterium": "noncompliance_with_parental_directions_at_home"
+    },
+    {
+      "criterium": "verbal_aggression_in_home"
+    },
+    {
+      "criterium": "covert_antisocial_behavior_in_home"
+    },
+    {
+      "criterium": "deliberate_rule_violation_at_home"
+    },
+    {
+      "criterium": "manipulation_of_siblings_at_home"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

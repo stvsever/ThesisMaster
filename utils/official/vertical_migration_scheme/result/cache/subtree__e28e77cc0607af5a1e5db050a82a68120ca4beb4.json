@@ -1,0 +1,28 @@
+{
+  "domain_path": "SOCIAL / Legal_Safety_and_Rights_Support",
+  "domain_root_path": [
+    "SOCIAL",
+    "Legal_Safety_and_Rights_Support"
+  ],
+  "leaf_count": 26,
+  "total_edges_in_subtree": 32,
+  "evaluated_pairs": 32,
+  "violations_count": 1,
+  "violation_rate": 0.03125,
+  "llm_calls": 1,
+  "violations": [
+    "Legal_Safety_and_Rights_Support > Legal_and_Rights_Support"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Legal_Safety_and_Rights_Support > Legal_and_Rights_Support",
+      "parent_path": "SOCIAL / Legal_Safety_and_Rights_Support",
+      "child_path": "SOCIAL / Legal_Safety_and_Rights_Support / Legal_and_Rights_Support"
+    }
+  ],
+  "cache_key": "e28e77cc0607af5a1e5db050a82a68120ca4beb4",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 47.294
+}

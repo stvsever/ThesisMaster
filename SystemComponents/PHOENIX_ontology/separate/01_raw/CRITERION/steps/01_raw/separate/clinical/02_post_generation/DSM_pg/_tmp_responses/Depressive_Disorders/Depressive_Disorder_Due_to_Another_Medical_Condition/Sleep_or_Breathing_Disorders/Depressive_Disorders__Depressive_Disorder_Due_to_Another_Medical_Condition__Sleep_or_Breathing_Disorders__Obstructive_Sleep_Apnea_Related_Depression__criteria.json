@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood_persistent"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "fatigue_excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "cognitive_impairment_attention_concentration"
+    },
+    {
+      "criterium": "nonrestorative_sleep"
+    },
+    {
+      "criterium": "morning_headache"
+    },
+    {
+      "criterium": "weight_gain"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "snoring_or_sleep_apnea_features"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

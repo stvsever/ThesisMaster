@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_reassurance_seeking"
+    },
+    {
+      "criterium": "repetitive_checking_behaviors"
+    },
+    {
+      "criterium": "time_spent_on_reassurance_seeking_per_day"
+    },
+    {
+      "criterium": "time_spent_on_checking_per_day"
+    },
+    {
+      "criterium": "repeated_verification_of_basic_tasks_before_use"
+    },
+    {
+      "criterium": "repeated_questioning_of_safety_or_risk_to_self_or_others"
+    },
+    {
+      "criterium": "seeking_confirmatory_evidence_from_multiple_sources"
+    },
+    {
+      "criterium": "avoidance_of_decisions_due_to_verification_need"
+    },
+    {
+      "criterium": "distress_when_verification_steps_are_omitted"
+    },
+    {
+      "criterium": "intrusive_verification_related_thoughts"
+    },
+    {
+      "criterium": "ritualized_verification_routines_in_daily_activity"
+    },
+    {
+      "criterium": "functional_impairment_from_reassurance_or_checking"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

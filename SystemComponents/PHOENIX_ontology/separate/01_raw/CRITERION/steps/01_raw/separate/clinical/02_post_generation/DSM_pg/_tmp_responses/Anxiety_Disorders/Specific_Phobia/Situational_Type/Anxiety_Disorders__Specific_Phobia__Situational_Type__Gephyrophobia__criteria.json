@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anticipatory_anxiety_before_bridge_encounter"
+    },
+    {
+      "criterium": "physiological_arousal_on_bridge_exposure"
+    },
+    {
+      "criterium": "panic_symptoms_on_bridge_exposure"
+    },
+    {
+      "criterium": "tachycardia_on_bridge_exposure"
+    },
+    {
+      "criterium": "dizziness_on_bridge_exposure"
+    },
+    {
+      "criterium": "tremor_on_bridge_approach"
+    },
+    {
+      "criterium": "dyspnea_on_bridge_exposure"
+    },
+    {
+      "criterium": "gastrointestinal_distress_on_bridge_exposure"
+    },
+    {
+      "criterium": "avoidance_of_bridge_travel"
+    },
+    {
+      "criterium": "escape_urge_on_bridge_exposure"
+    },
+    {
+      "criterium": "intrusive_thoughts_about_bridge_threat"
+    },
+    {
+      "criterium": "attention_to_bridge_threat"
+    },
+    {
+      "criterium": "functional_impairment_in_bridge_related_activities"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "dyspnea"
+    },
+    {
+      "criterium": "chest_pain_discomfort"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "hot_flashes"
+    },
+    {
+      "criterium": "dry_mouth"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

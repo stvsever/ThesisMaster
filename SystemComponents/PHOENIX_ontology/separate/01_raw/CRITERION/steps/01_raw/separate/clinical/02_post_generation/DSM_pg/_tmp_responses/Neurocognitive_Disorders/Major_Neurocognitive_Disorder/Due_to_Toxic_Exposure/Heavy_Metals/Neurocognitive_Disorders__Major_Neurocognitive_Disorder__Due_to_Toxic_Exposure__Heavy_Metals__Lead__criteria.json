@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "peripheral_neuropathy_paresthesias"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

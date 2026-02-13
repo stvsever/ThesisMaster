@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "subthreshold_auditory_hallucinations"
+    },
+    {
+      "criterium": "subthreshold_delusional_thought_content"
+    },
+    {
+      "criterium": "ideas_of_reference_subthreshold"
+    },
+    {
+      "criterium": "social_withdrawal_subclinical"
+    },
+    {
+      "criterium": "decline_in_occupational_academic_functioning"
+    },
+    {
+      "criterium": "anhedonia_subclinical"
+    },
+    {
+      "criterium": "avolition_subclinical"
+    },
+    {
+      "criterium": "affective_flattening_subclinical"
+    },
+    {
+      "criterium": "concrete_thinking_subclinical"
+    },
+    {
+      "criterium": "executive_function_subclinical_impairment"
+    },
+    {
+      "criterium": "working_memory_subclinical_impairment"
+    },
+    {
+      "criterium": "attention_subclinical_deficits"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

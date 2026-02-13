@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusions_of_grandeur"
+    },
+    {
+      "criterium": "delusions_of_influence"
+    },
+    {
+      "criterium": "delusions_of_invulnerability"
+    },
+    {
+      "criterium": "delusions_of_mission_or_destiny"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "increased_goal_directed_activity"
+    },
+    {
+      "criterium": "decreased_need_for_sleep"
+    },
+    {
+      "criterium": "increased_risk_taking"
+    },
+    {
+      "criterium": "racing_thoughts"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

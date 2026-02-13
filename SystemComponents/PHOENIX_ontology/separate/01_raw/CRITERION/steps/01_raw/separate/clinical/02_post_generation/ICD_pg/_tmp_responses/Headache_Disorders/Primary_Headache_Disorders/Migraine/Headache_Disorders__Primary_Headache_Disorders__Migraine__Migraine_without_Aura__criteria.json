@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_headache"
+    },
+    {
+      "criterium": "pulsating_headache_quality"
+    },
+    {
+      "criterium": "pain_intensity_moderate_to_severe"
+    },
+    {
+      "criterium": "worsens_with_physical_activity"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "photophobia"
+    },
+    {
+      "criterium": "phonophobia"
+    }
+  ],
+  "estimated_prevalence_percent": 8.5
+}

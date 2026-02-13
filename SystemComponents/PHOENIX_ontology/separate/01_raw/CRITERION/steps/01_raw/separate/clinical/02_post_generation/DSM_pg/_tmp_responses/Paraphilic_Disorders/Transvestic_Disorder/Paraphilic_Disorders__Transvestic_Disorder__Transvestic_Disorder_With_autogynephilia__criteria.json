@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cross_dressing_fantasy_arousal_presence"
+    },
+    {
+      "criterium": "autogynephilic_fantasy_arousal_presence"
+    },
+    {
+      "criterium": "cross_dressing_behavior_frequency"
+    },
+    {
+      "criterium": "cross_dressing_compulsivity"
+    },
+    {
+      "criterium": "masturbation_associated_with_cross_dressing"
+    },
+    {
+      "criterium": "arousal_to_own_femininity_imagery"
+    },
+    {
+      "criterium": "distress_related_to_paraphilic_interest"
+    },
+    {
+      "criterium": "impairment_social_occupational_function_due_to_paraphilic_interest"
+    },
+    {
+      "criterium": "stimulus_triggered_cross_dressing_arousal_presence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "seizures_epilepsy"
+    },
+    {
+      "criterium": "lupus_psychosis"
+    },
+    {
+      "criterium": "depressive_episode"
+    },
+    {
+      "criterium": "anxiety_disorder"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "headache_migraine_like"
+    },
+    {
+      "criterium": "ischemic_stroke"
+    },
+    {
+      "criterium": "transverse_myelitis"
+    },
+    {
+      "criterium": "lupus_chorea"
+    },
+    {
+      "criterium": "delirium"
+    },
+    {
+      "criterium": "optic_neuropathy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

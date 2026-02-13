@@ -1,0 +1,16 @@
+{
+  "run_id": "20260115_094306",
+  "generated_at": "2026-01-15 09:43:06",
+  "input": "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/SystemComponents/PHOENIX_ontology/aggretated/01_raw/ontology_aggregated.json",
+  "total_nodes": 51013,
+  "roots": 1,
+  "leaves": 41769,
+  "internal": 9244,
+  "max_depth": 13,
+  "min_depth": 1,
+  "avg_depth": 8.853115872424675,
+  "median_depth": 9.0,
+  "duplicate_labels": 4010,
+  "anomalies_count": 0,
+  "top_k": 10
+}

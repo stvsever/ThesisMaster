@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "central_apnea_index_elevated"
+    },
+    {
+      "criterium": "absence_of_respiratory_effort_during_apneas"
+    },
+    {
+      "criterium": "oxygen_desaturation_during_apneas"
+    },
+    {
+      "criterium": "periodic_breathing_pattern_present"
+    },
+    {
+      "criterium": "cheyne_stokes_like_respiration_present"
+    },
+    {
+      "criterium": "increased_arousal_index_from_breathing_events"
+    },
+    {
+      "criterium": "reduced_sleep_efficiency_due_to_breathing_disruption"
+    },
+    {
+      "criterium": "nocturnal_hypoxemia_during_sleep"
+    },
+    {
+      "criterium": "elevated_pct_time_spO2_below_90_percent"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

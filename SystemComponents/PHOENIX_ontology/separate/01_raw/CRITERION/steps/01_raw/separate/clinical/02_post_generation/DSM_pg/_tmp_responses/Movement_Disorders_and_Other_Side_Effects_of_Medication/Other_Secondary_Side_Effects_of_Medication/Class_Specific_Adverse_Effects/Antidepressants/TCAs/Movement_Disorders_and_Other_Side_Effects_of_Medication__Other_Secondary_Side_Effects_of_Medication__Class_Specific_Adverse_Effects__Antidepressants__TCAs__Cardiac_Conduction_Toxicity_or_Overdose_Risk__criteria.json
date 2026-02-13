@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "QTc_prolongation"
+    },
+    {
+      "criterium": "QRS_widening"
+    },
+    {
+      "criterium": "PR_interval_prolongation"
+    },
+    {
+      "criterium": "AV_block"
+    },
+    {
+      "criterium": "Sinus_bradycardia"
+    },
+    {
+      "criterium": "Sinus_tachycardia"
+    },
+    {
+      "criterium": "Premature_ventricular_complexes"
+    },
+    {
+      "criterium": "Ventricular_tachycardia"
+    },
+    {
+      "criterium": "Torsades_de_pointes"
+    },
+    {
+      "criterium": "Ventricular_fibrillation"
+    },
+    {
+      "criterium": "Left_Bundle_Branch_Block"
+    },
+    {
+      "criterium": "Hypotension"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "orthostatic_dizziness"
+    },
+    {
+      "criterium": "vertigo_spinning"
+    },
+    {
+      "criterium": "lightheadedness"
+    },
+    {
+      "criterium": "disequilibrium"
+    },
+    {
+      "criterium": "gait_instability"
+    },
+    {
+      "criterium": "motion_sensitivity"
+    },
+    {
+      "criterium": "nausea_concomitant_with_dizziness"
+    },
+    {
+      "criterium": "blurred_vision_during_dizziness"
+    },
+    {
+      "criterium": "nystagmus_observed"
+    },
+    {
+      "criterium": "head_movement_induced_vertigo"
+    }
+  ],
+  "estimated_prevalence_percent": 3.2
+}

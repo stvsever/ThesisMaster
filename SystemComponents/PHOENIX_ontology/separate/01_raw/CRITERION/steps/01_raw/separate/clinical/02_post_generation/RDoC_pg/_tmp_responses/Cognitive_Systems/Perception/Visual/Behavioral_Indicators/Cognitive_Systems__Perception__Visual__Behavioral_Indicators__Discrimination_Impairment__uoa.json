@@ -1,0 +1,61 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_gene_variant",
+      "COMT_V158_Met_variant",
+      "DRD2_gene_variant",
+      "GAD1_gene_variant",
+      "GRIN2A_gene_variant",
+      "CNTNAP2_gene_variant"
+    ],
+    "molecules": [
+      "BDNF_protein_level_visual_cortex",
+      "GABA_concentration_visual_cortex",
+      "Dopamine_level_visual_cortex",
+      "Glutamate_concentration_visual_cortex",
+      "NMDA_NR2A_subunit_expression_visual_cortex",
+      "AMPA_GLUR2_subunit_expression_visual_cortex",
+      "CREB_phosphorylation_visual_cortex"
+    ],
+    "cells": [
+      "V1_pyramidal_neuron_density",
+      "V1_parvalbumin_interneuron_density",
+      "V1_somatostatin_interneuron_density",
+      "retinal_cone_photoreceptor_density",
+      "retinal_rods_density",
+      "LGN_neuron_density"
+    ],
+    "circuits": [
+      "V1_V2_feedforward_connectivity_strength",
+      "V2_V4_connectivity_strength",
+      "MT_MST_motion_processing_connectivity_strength",
+      "V1_V2_inhibitory_excitatory_balance",
+      "V1_to_V4_pathway_connectivity_strength",
+      "V1_LGN_thalamic_projection_connectivity_strength"
+    ],
+    "physiology": [
+      "contrast_sensitivity_threshold",
+      "visual_evoked_potential_P100_latency",
+      "visual_evoked_potential_P100_amplitude",
+      "saccade_latency_visual_discrimination",
+      "pupil_dilation_peak_latency",
+      "reaction_time_visual_discrimination"
+    ],
+    "behavior": [
+      "visual_discrimination_accuracy",
+      "visual_discrimination_reaction_time",
+      "color_discrimination_accuracy",
+      "shape_discrimination_accuracy",
+      "pattern_discrimination_accuracy",
+      "visual_search_efficiency_in_discrimination_tasks"
+    ],
+    "self_report": [
+      "self_report_visual_discrimination_difficulty",
+      "self_report_visual_processing_speed",
+      "self_report_visual_discrimination_confidence",
+      "self_report_visual_perceptual_noise_experience",
+      "self_report_color_discrimination_difficulty"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

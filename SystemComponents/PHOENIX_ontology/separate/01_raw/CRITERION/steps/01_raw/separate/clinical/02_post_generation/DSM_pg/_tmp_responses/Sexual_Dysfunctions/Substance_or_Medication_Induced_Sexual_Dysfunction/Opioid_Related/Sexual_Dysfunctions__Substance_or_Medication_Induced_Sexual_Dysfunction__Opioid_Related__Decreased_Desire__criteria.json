@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "libido_intensity_decrease"
+    },
+    {
+      "criterium": "sexual_thought_frequency_decrease"
+    },
+    {
+      "criterium": "sexual_fantasy_frequency_decrease"
+    },
+    {
+      "criterium": "initiation_of_sexual_activity_decrease"
+    },
+    {
+      "criterium": "desire_for_sexual_contact_decrease"
+    },
+    {
+      "criterium": "masturbation_frequency_decrease"
+    },
+    {
+      "criterium": "self_report_of_sexual_desire_decrease"
+    },
+    {
+      "criterium": "partner_report_of_sexual_interest_decline"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

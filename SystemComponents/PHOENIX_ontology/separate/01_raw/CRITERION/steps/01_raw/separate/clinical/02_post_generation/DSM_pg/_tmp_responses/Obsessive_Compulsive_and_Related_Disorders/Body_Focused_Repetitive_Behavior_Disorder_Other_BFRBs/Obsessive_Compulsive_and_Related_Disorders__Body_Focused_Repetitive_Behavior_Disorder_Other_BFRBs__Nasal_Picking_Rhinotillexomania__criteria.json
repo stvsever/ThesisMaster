@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_nasal_picking_behavior"
+    },
+    {
+      "criterium": "nasal_picking_frequency_per_day"
+    },
+    {
+      "criterium": "nose_picking_with_fingers"
+    },
+    {
+      "criterium": "nose_picking_with_instrument_or_other_object"
+    },
+    {
+      "criterium": "nasal_mucosal_erosions_or_ulcerations"
+    },
+    {
+      "criterium": "epistaxis_during_or_after_picking"
+    },
+    {
+      "criterium": "nasal_skin_irritation_crusting_or_scaling"
+    },
+    {
+      "criterium": "secretive_or_concealed_nasal_picking_behavior"
+    },
+    {
+      "criterium": "picking_across_multiple_settings"
+    },
+    {
+      "criterium": "functional_impairment_due_to_nasal_picking"
+    },
+    {
+      "criterium": "pre_picking_intrusive_urge_or_anxiety"
+    },
+    {
+      "criterium": "distress_when_attempting_to_resist_picking"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "neurogenic_erectile_dysfunction"
+    },
+    {
+      "criterium": "genital_sensory_loss"
+    },
+    {
+      "criterium": "anorgasmia_neuropathic_origin"
+    },
+    {
+      "criterium": "ejaculatory_dysfunction_neuropathic_origin"
+    },
+    {
+      "criterium": "reduced_genital_lubrication_response"
+    },
+    {
+      "criterium": "hypoactive_sexual_desire_neuropathic_origin"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

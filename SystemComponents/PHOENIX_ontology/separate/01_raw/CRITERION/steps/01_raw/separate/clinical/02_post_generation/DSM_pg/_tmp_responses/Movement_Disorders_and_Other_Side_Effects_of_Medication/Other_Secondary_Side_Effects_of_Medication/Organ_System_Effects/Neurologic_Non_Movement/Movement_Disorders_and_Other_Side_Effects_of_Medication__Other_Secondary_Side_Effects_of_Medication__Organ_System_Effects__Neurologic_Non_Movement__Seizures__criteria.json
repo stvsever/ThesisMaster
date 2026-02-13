@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ictal_generalized_tonic_clonic_movements"
+    },
+    {
+      "criterium": "ictal_loss_of_consciousness"
+    },
+    {
+      "criterium": "ictal_focal_motor_jerks"
+    },
+    {
+      "criterium": "ictal_automatism_presence"
+    },
+    {
+      "criterium": "ictal_aura_presence"
+    },
+    {
+      "criterium": "tongue_biting_lateral"
+    },
+    {
+      "criterium": "urinary_incontinence_during_seizure"
+    },
+    {
+      "criterium": "eye_head_deviation_during_seizure"
+    },
+    {
+      "criterium": "postictal_fatigue_or_confusion"
+    },
+    {
+      "criterium": "autonomic_symptoms_during_seizure"
+    },
+    {
+      "criterium": "impaired_responsiveness_during_seizure"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

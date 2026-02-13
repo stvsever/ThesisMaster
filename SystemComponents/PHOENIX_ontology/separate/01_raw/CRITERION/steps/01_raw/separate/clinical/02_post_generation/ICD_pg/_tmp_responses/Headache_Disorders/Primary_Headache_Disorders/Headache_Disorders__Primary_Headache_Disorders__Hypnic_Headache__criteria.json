@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_onset"
+    },
+    {
+      "criterium": "awakening_due_to_headache"
+    },
+    {
+      "criterium": "consistent_same_night_time_of_onset"
+    },
+    {
+      "criterium": "attack_duration_15_to_180_minutes"
+    },
+    {
+      "criterium": "bilateral_diffuse_headache_location"
+    },
+    {
+      "criterium": "headache_quality_dull"
+    },
+    {
+      "criterium": "normal_neurological_exam_between_attacks"
+    },
+    {
+      "criterium": "elderly_onset_common"
+    },
+    {
+      "criterium": "resolution_upon_waking"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

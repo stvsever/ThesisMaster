@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "motor_tics_present"
+    },
+    {
+      "criterium": "vocal_tics_present"
+    },
+    {
+      "criterium": "simple_motor_tics_present"
+    },
+    {
+      "criterium": "complex_motor_tics_present"
+    },
+    {
+      "criterium": "simple_vocal_tics_present"
+    },
+    {
+      "criterium": "complex_vocal_tics_present"
+    },
+    {
+      "criterium": "coprolalia_present"
+    },
+    {
+      "criterium": "echolalia_present"
+    },
+    {
+      "criterium": "premonitory_urge_present"
+    },
+    {
+      "criterium": "tic_suppressibility_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

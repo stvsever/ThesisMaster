@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "spiteful_vindictive_behaviors_toward_others"
+    },
+    {
+      "criterium": "retaliatory_actions_after_perceived_slight"
+    },
+    {
+      "criterium": "deliberate_humiliation_of_peers"
+    },
+    {
+      "criterium": "spreading_rumors_to_harm_others"
+    },
+    {
+      "criterium": "gloating_over_others_misfortune"
+    },
+    {
+      "criterium": "holding_grudges_against_specific_individuals"
+    },
+    {
+      "criterium": "manipulative_behaviors_to_elicit_revenge_from_others"
+    },
+    {
+      "criterium": "verbal_bullying_with_vindictive_motivation"
+    },
+    {
+      "criterium": "revenge_seeking_behaviors_after_conflict"
+    }
+  ],
+  "estimated_prevalence_percent": 1.4
+}

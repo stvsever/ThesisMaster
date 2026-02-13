@@ -1,0 +1,52 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD1",
+      "DRD2",
+      "SLC6A3",
+      "BDNF",
+      "COMT",
+      "HTR2A"
+    ],
+    "molecules": [
+      "dopamine",
+      "DOPAC",
+      "HVA",
+      "glutamate",
+      "GABA",
+      "2-AG"
+    ],
+    "cells": [
+      "MSN_D1",
+      "MSN_D2",
+      "GABAergic_interneurons",
+      "astrocytes"
+    ],
+    "circuits": [
+      "NAcc_core_activation",
+      "NAcc_shell_activation",
+      "Dorsal_striatum_activation",
+      "VTA_to_NAcc_connectivity",
+      "PFC_to_striatum_connectivity"
+    ],
+    "physiology": [
+      "striatal_BOLD_response",
+      "heart_rate_response_to_reward",
+      "pupil_dilation_to_reward",
+      "skin_conductance_response_to_reward"
+    ],
+    "behavior": [
+      "probabilistic_reward_task_performance",
+      "delay_discounting_rate",
+      "risk_adjusted_choice_rate",
+      "reward_learning_rate_behavior"
+    ],
+    "self_report": [
+      "BAS_Reward_Responsiveness",
+      "BAS_Drive",
+      "BAS_Fun_Seeking",
+      "SRS_Total"
+    ]
+  },
+  "estimated_prevalence_percent": 3.2
+}

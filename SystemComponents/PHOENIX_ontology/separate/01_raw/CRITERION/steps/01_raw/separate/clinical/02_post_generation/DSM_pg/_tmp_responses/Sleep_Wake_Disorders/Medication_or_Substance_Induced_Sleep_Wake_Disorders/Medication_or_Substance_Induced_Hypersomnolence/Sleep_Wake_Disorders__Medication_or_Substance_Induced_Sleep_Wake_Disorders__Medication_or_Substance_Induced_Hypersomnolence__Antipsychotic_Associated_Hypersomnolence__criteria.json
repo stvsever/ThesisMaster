@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "unplanned_sleep_attacks_during_wakefulness"
+    },
+    {
+      "criterium": "unplanned_daytime_naps"
+    },
+    {
+      "criterium": "micro_sleep_events_during_wakefulness"
+    },
+    {
+      "criterium": "sleep_inertia_post_arousal"
+    },
+    {
+      "criterium": "impaired_sustained_attention_due_to_sleepiness"
+    },
+    {
+      "criterium": "slowed_reaction_time_due_to_sleepiness"
+    },
+    {
+      "criterium": "nonrestorative_sleep_experience"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

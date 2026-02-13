@@ -1,0 +1,5 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+SOCIAL / interpersonal_therapeutic_solutions / interpersonal_therapeutic_and_coaching_services / clinical_specialization_focus / social_learning_and_neurodevelopmental_profile_support / sensory_aware_interaction_planning_coaching,SOCIAL,2,0.4,101.0,49.0,0.19764125,0.005616896
+SOCIAL / interpersonal_therapeutic_solutions / interpersonal_therapeutic_and_coaching_services / conflict_repair_and_mediation / anger_and_escalation / rage_trigger_and_repair_pathway_coaching,SOCIAL,1,0.2,105.0,0.0,0.21581104,0.0
+SOCIAL / interpersonal_therapeutic_solutions / interpersonal_therapeutic_and_coaching_services / clinical_specialization_focus / social_anxiety_and_avoidance_profile_support / social_evaluation_fear_response_skills_coaching,SOCIAL,1,0.2,164.0,0.0,0.20766047,0.0
+SOCIAL / romantic_intimacy_and_relationships / romantic_relationship_skills_and_support / relationship_maintenance_and_enrichment / emotional_intimacy_and_vulnerability / self_soothing_and_couple_soothing_balancing_plan,SOCIAL,1,0.2,188.0,0.0,0.20626834,0.0

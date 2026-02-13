@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "eyebrow_hair_pulling_episodes_present"
+    },
+    {
+      "criterium": "eyelash_hair_pulling_episodes_present"
+    },
+    {
+      "criterium": "patchy_eyebrow_hair_loss"
+    },
+    {
+      "criterium": "patchy_eyelash_hair_loss"
+    },
+    {
+      "criterium": "eyebrow_hair_lengths_varied_due_to_pulling"
+    },
+    {
+      "criterium": "eyelash_hair_lengths_varied_due_to_pulling"
+    },
+    {
+      "criterium": "eyebrow_hair_fragments_on_pillow_or_clothing"
+    },
+    {
+      "criterium": "eyelash_hair_fragments_on_pillow_or_clothing"
+    },
+    {
+      "criterium": "eyebrow_hair_regrowth_with_short_stubs"
+    },
+    {
+      "criterium": "eyelash_hair_regrowth_with_short_stubs"
+    },
+    {
+      "criterium": "skin_irritation_or_inflammation_in_eyelid_region_due_to_pulling"
+    },
+    {
+      "criterium": "distress_or_impairment_related_to_eyebrow_eyelash_loss"
+    },
+    {
+      "criterium": "intrusive_urge_to_pull_eyebrows_or_eyelashes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

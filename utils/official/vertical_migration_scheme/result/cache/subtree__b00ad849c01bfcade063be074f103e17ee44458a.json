@@ -1,0 +1,21 @@
+{
+  "domain_path": "PSYCHO / Third_Wave_and_Contextual_Therapies / Compassion_Focused_Interventions",
+  "domain_root_path": [
+    "PSYCHO",
+    "Third_Wave_and_Contextual_Therapies",
+    "Compassion_Focused_Interventions"
+  ],
+  "leaf_count": 18,
+  "total_edges_in_subtree": 18,
+  "evaluated_pairs": 18,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "b00ad849c01bfcade063be074f103e17ee44458a",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 16.783
+}

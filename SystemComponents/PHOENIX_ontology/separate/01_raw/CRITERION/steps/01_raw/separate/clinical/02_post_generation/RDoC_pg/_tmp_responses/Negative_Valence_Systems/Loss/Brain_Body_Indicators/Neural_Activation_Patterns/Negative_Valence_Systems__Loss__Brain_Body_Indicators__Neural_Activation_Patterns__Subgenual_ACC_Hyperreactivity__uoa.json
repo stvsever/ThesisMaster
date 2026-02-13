@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_Val66Met_genotype",
+      "5HTTLPR_genotype",
+      "COMT_rs4680_genotype",
+      "FKBP5_rs1360780_genotype",
+      "NR3C1_rs6195_genotype"
+    ],
+    "molecules": [
+      "BDNF_protein_SgACC",
+      "Glutamate_concentration_SgACC",
+      "GABA_concentration_SgACC",
+      "cFos_expression_SgACC",
+      "Cortisol_serum_level",
+      "IL6_protein_serum_level"
+    ],
+    "cells": [
+      "Pyramidal_neuron_density_SgACC",
+      "GABAergic_interneuron_density_SgACC",
+      "Astrocyte_density_SgACC",
+      "Dendritic_spine_density_SgACC",
+      "Microglia_density_SgACC"
+    ],
+    "circuits": [
+      "Functional_connectivity_SgACC_amygdala",
+      "Functional_connectivity_SgACC_mPFC",
+      "Functional_connectivity_SgACC_DMN",
+      "Effective_connectivity_SgACC_to_PFC",
+      "Functional_connectivity_SgACC_to_insula"
+    ],
+    "physiology": [
+      "BOLD_signal_SgACC_loss_condition",
+      "Cerebral_blood_flow_SgACC",
+      "Heart_rate_change_to_loss",
+      "Skin_conductance_response_loss",
+      "Pupillary_dilation_to_loss"
+    ],
+    "behavior": [
+      "Reaction_time_loss_task",
+      "Loss_related_choice_bias",
+      "Punishment_sensitivity_score",
+      "Decision_latency_loss_condition",
+      "Error_rate_loss_task"
+    ],
+    "self_report": [
+      "Negative_affect_scale_score",
+      "Distress_intensity_loss_scale_score",
+      "Emotional_pain_scale_score",
+      "Rumination_frequency_score",
+      "Anxious_distress_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 4.6
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intraoral_mucosa_biting"
+    },
+    {
+      "criterium": "lip_biting"
+    },
+    {
+      "criterium": "tongue_biting"
+    },
+    {
+      "criterium": "buccal_mucosa_biting"
+    },
+    {
+      "criterium": "oral_mucosal_ulcerations_from_biting"
+    },
+    {
+      "criterium": "mucosal_trauma_at_bite_sites"
+    },
+    {
+      "criterium": "bite_marks_on_oral_soft_tissue"
+    },
+    {
+      "criterium": "self_reported_compulsive_urge_to_bite_oral_mucosa"
+    },
+    {
+      "criterium": "nocturnal_oral_biting_episodes"
+    },
+    {
+      "criterium": "repetitive_biting_at_consistent_sites"
+    }
+  ],
+  "estimated_prevalence_percent": 2.3
+}

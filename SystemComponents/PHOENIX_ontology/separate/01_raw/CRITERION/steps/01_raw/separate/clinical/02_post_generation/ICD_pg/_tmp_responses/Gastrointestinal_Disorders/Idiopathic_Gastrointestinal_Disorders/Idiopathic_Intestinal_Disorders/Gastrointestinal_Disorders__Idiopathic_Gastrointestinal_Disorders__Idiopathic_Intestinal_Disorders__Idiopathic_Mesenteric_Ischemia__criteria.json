@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "postprandial_abdominal_pain_present"
+    },
+    {
+      "criterium": "weight_loss_present"
+    },
+    {
+      "criterium": "sitophobia_present"
+    },
+    {
+      "criterium": "abdominal_bruit_present_on_auscultation"
+    },
+    {
+      "criterium": "ct_angiography_mesenteric_artery_stenosis_present"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "vomiting_present"
+    },
+    {
+      "criterium": "reduced_food_intake_present"
+    },
+    {
+      "criterium": "elevated_serum_lactate_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "distal_sensorimotor_weakness"
+    },
+    {
+      "criterium": "areflexia"
+    },
+    {
+      "criterium": "distal_hypoesthesia"
+    },
+    {
+      "criterium": "paresthesias_limbs"
+    },
+    {
+      "criterium": "dysesthesias_limbs"
+    },
+    {
+      "criterium": "allodynia"
+    },
+    {
+      "criterium": "reduced_proprioception"
+    },
+    {
+      "criterium": "paroxysmal_neuropathic_pain"
+    },
+    {
+      "criterium": "autonomic_dysfunction"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

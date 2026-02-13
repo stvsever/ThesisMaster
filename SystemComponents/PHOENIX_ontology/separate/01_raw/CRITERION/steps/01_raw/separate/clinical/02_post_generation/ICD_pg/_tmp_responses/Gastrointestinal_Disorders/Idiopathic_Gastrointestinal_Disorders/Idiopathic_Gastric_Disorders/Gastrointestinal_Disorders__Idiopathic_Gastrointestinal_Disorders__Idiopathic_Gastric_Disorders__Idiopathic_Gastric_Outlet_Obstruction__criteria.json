@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "epigastric_pain_postprandial"
+    },
+    {
+      "criterium": "early_satiation"
+    },
+    {
+      "criterium": "nausea_postprandial"
+    },
+    {
+      "criterium": "nonbilious_vomiting"
+    },
+    {
+      "criterium": "unintentional_weight_loss"
+    },
+    {
+      "criterium": "epigastric_abdominal_distension"
+    },
+    {
+      "criterium": "hypochloremic_metabolic_alkalosis"
+    },
+    {
+      "criterium": "dehydration_signs"
+    },
+    {
+      "criterium": "cognitive_impairment_observed"
+    },
+    {
+      "criterium": "attention_deficit_observed"
+    },
+    {
+      "criterium": "mood_disturbance_observed"
+    },
+    {
+      "criterium": "decreased_appetite"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

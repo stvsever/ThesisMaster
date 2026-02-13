@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_rumination_frequency"
+    },
+    {
+      "criterium": "intrusive_rumination_duration_minutes_per_day"
+    },
+    {
+      "criterium": "rumination_repetition_rate_per_day"
+    },
+    {
+      "criterium": "neutralizing_urge_frequency"
+    },
+    {
+      "criterium": "neutralization_mental_rituals_per_day"
+    },
+    {
+      "criterium": "covert_checking_urge_frequency"
+    },
+    {
+      "criterium": "covert_checking_episodes_per_day"
+    },
+    {
+      "criterium": "memory_verification_attempts_per_day"
+    },
+    {
+      "criterium": "rumination_distress_level"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

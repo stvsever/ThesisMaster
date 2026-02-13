@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "MTNR1A",
+      "MTNR1B",
+      "AANAT",
+      "ASMT",
+      "CLOCK",
+      "BMAL1",
+      "CRY1",
+      "CRY2"
+    ],
+    "molecules": [
+      "melatonin",
+      "6-sulfatoxymelatonin",
+      "N-acetylserotonin",
+      "serotonin"
+    ],
+    "cells": [
+      "SCN_neuron_firing_rate",
+      "pinealocyte_AANAT_expression",
+      "pinealocyte_ASMT_expression"
+    ],
+    "circuits": [
+      "retinohypothalamic_pathway_activity",
+      "SCN_pacemaker_output",
+      "PVN_to_pineal_neural_drive"
+    ],
+    "physiology": [
+      "DLMO_onset_time",
+      "DLMO_offset_time",
+      "melatonin_plasma_peak_time",
+      "core_body_temperature_minimum_time",
+      "melatonin_area_under_curve"
+    ],
+    "behavior": [
+      "sleep_onset_time",
+      "wake_time",
+      "sleep_midpoint",
+      "total_sleep_duration"
+    ],
+    "self_report": [
+      "chronotype_questionnaire_score",
+      "subjective_sleep_quality_score",
+      "subjective_daytime_alertness_score"
+    ]
+  },
+  "estimated_prevalence_percent": 2.0
+}

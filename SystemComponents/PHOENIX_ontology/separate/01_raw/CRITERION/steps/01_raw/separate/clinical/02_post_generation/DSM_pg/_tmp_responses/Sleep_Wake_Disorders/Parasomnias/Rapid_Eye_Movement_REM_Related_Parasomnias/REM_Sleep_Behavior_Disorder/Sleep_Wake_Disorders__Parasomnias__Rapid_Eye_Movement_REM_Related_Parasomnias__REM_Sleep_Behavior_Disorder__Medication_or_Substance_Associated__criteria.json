@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "LOSS_OF_REM_ATONIA_ON_PSG"
+    },
+    {
+      "criterium": "REM_BEHAVIOR_EPISODES"
+    },
+    {
+      "criterium": "KICKING_PUNCHING_MOVEMENTS"
+    },
+    {
+      "criterium": "REM_VOCALIZATIONS"
+    },
+    {
+      "criterium": "PARTNER_INJURIES_FROM_EPISODES"
+    },
+    {
+      "criterium": "SELF_INJURIES_FROM_EPISODES"
+    },
+    {
+      "criterium": "EPISODES_POST_MEDICATION_INITIATION"
+    },
+    {
+      "criterium": "SUBSTANCE_ASSOCIATION_WITH_ONSET"
+    },
+    {
+      "criterium": "EPISODE_FREQUENCY_PER_NIGHT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

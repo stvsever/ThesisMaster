@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Excessive_daytime_somnolence"
+    },
+    {
+      "criterium": "Unintended_daytime_napping"
+    },
+    {
+      "criterium": "Microsleeps_during_wakefulness"
+    },
+    {
+      "criterium": "Delayed_psychomotor_reaction_time"
+    },
+    {
+      "criterium": "Impaired_sustained_attention"
+    },
+    {
+      "criterium": "Cognitive_processing_speed_slowing"
+    },
+    {
+      "criterium": "Working_memory_impairment"
+    },
+    {
+      "criterium": "Irritability_or_emotional_lability_due_to_sleepiness"
+    },
+    {
+      "criterium": "Impaired_gait_or_balance_during_wakefulness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

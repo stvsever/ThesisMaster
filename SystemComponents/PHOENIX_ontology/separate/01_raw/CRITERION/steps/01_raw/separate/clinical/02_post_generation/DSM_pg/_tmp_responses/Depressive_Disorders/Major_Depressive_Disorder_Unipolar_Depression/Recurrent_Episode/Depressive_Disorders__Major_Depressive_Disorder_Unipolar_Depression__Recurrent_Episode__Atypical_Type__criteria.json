@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "atypical_mood_reactivity"
+    },
+    {
+      "criterium": "atypical_weight_gain"
+    },
+    {
+      "criterium": "atypical_hypersomnia"
+    },
+    {
+      "criterium": "atypical_leaden_paralysis"
+    },
+    {
+      "criterium": "atypical_rejection_sensitivity"
+    },
+    {
+      "criterium": "atypical_carbohydrate_craving"
+    },
+    {
+      "criterium": "atypical_mood_lability"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

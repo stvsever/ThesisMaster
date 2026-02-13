@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "altered_awareness"
+    },
+    {
+      "criterium": "disorganized_thought_process"
+    },
+    {
+      "criterium": "memory_impairment_short_term"
+    },
+    {
+      "criterium": "disorientation_to_time"
+    },
+    {
+      "criterium": "disorientation_to_place"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "tremor_fine_movement"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "slurred_speech"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

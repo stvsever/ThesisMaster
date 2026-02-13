@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bullying_or_intimidation_of_peers"
+    },
+    {
+      "criterium": "physical_fighting_with_others"
+    },
+    {
+      "criterium": "weapon_use_in_fights"
+    },
+    {
+      "criterium": "cruelty_to_people"
+    },
+    {
+      "criterium": "cruelty_to_animals"
+    },
+    {
+      "criterium": "destruction_of_property"
+    },
+    {
+      "criterium": "theft_confronting_victim"
+    },
+    {
+      "criterium": "lying_to_obtain_goods_or_favors"
+    },
+    {
+      "criterium": "theft_of_nontrivial_value_without_confrontation"
+    },
+    {
+      "criterium": "persistent_disregard_for_rules"
+    },
+    {
+      "criterium": "lack_of_remorse_or_guilt_after_harm"
+    },
+    {
+      "criterium": "callous_unemotional_traits"
+    },
+    {
+      "criterium": "reduced_empathy_or_shallow_affect"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

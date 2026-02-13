@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "compulsive_shortform_video_usage"
+    },
+    {
+      "criterium": "craving_for_shortform_video_content"
+    },
+    {
+      "criterium": "preoccupation_with_shortform_video_platforms"
+    },
+    {
+      "criterium": "tolerance_to_shortform_video_stimulation"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_platform_disconnection"
+    },
+    {
+      "criterium": "loss_of_control_over_shortform_streaming"
+    },
+    {
+      "criterium": "impaired_social_occupational_functioning_due_to_streaming"
+    },
+    {
+      "criterium": "recurrent_failed_attempts_to_reduce_streaming"
+    },
+    {
+      "criterium": "emotional_regulation_dysfunction_associated_with_streaming"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

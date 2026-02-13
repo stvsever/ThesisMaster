@@ -1,0 +1,57 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "LRRK2_mutation_status",
+      "SNCA_gene_duplication_status",
+      "PRKN_mutation_status",
+      "GBA_mutation_status",
+      "PINK1_mutation_status",
+      "ATP13A2_mutation_status"
+    ],
+    "molecules": [
+      "striatal_dopamine_concentration",
+      "D2_receptor_availability",
+      "DAT_transporter_availability",
+      "GABAergic_inhibitory_signaling_in_striatum",
+      "glutamatergic_synaptic_strength_in_basal_ganglia",
+      "acetylcholine_release_in_striatum"
+    ],
+    "cells": [
+      "substantia_nigra_dopaminergic_neuron_firing_rate",
+      "putamen_direct_pathway_MSN_firing_rate",
+      "putamen_indirect_pathway_MSN_firing_rate",
+      "striatal_GABAergic_interneuron_firing_rate",
+      "cortical_pyramidal_neuron_activity_in_M1"
+    ],
+    "circuits": [
+      "basal_ganglia_motor_circuit_beta_band_power",
+      "cortico_basal_ganglia_thalamocortical_loop_activity",
+      "direct_pathway_to_indirect_pathway_activity_ratio",
+      "motor_cortex_beta_synchronization",
+      "thalamocortical_relay_strength",
+      "subthalamic_nucleus_output_firing_rate"
+    ],
+    "physiology": [
+      "movement_initiation_latency_ms",
+      "peak_reach_velocity_mm_per_s",
+      "stride_length_cm",
+      "gait_speed_cm_per_s",
+      "submovement_frequency_per_trial"
+    ],
+    "behavior": [
+      "finger_tapping_rate_per_sec",
+      "pegboard_completion_time_seconds",
+      "button_press_reaction_time_ms",
+      "rapid_alternating_movements_rate_per_min",
+      "gait_walk_time_seconds_per_10m",
+      "dyskinesia_frequency_per_min"
+    ],
+    "self_report": [
+      "self_report_bradykinesia_severity_scale_score",
+      "self_report_hyperkinesia_severity_scale_score",
+      "self_report_freezing_of_gait_frequency",
+      "self_report_motor_slowing_impairment_frequency"
+    ]
+  },
+  "estimated_prevalence_percent": 0.3
+}

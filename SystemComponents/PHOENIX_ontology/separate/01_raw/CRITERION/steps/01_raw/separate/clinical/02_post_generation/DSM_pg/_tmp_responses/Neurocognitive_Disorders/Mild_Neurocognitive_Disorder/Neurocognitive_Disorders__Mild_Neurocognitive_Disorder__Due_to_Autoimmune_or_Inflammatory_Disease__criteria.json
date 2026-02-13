@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowness"
+    },
+    {
+      "criterium": "sustained_attention_deficit"
+    },
+    {
+      "criterium": "language_production_difficulty"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "focal_neurological_sign"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "csf_pleocytosis"
+    },
+    {
+      "criterium": "mri_white_matter_lesions"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

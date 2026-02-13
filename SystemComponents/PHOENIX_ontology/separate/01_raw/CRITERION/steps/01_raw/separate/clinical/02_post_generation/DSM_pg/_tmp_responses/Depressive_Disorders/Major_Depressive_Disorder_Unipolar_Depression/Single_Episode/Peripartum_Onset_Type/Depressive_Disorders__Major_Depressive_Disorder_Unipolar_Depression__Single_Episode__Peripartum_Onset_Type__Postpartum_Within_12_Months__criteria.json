@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood_most_of_day"
+    },
+    {
+      "criterium": "anhedonia_loss_of_interest_or_pleasure"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "hypersomnia"
+    },
+    {
+      "criterium": "weight_change"
+    },
+    {
+      "criterium": "appetite_change"
+    },
+    {
+      "criterium": "fatigue_or_low_energy"
+    },
+    {
+      "criterium": "psychomotor_agitation_or_retardation"
+    },
+    {
+      "criterium": "guilt_worthlessness"
+    },
+    {
+      "criterium": "cognitive_concentration_impairment"
+    },
+    {
+      "criterium": "suicidal_ideation_or_thoughts_of_death"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "functional_impairment_in_social_or_work_roles"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

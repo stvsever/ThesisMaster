@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "perceived_dysphagia_without_mechanical_obstruction"
+    },
+    {
+      "criterium": "globus_sensation_during_swallow"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_swallowing"
+    },
+    {
+      "criterium": "avoidance_of_foods_requiring_swallowing"
+    },
+    {
+      "criterium": "frequent_water_sips_before_or_during_swallow"
+    },
+    {
+      "criterium": "laryngopharyngeal_muscle_tension_during_swallow"
+    },
+    {
+      "criterium": "tachycardia_or_palpitations_during_swallow_attempts"
+    },
+    {
+      "criterium": "dry_swallowing_behavior_during_meals"
+    },
+    {
+      "criterium": "panic_or_flush_during_swallow_attempts"
+    },
+    {
+      "criterium": "eating_impairment_due_to_swallowing_anxiety"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

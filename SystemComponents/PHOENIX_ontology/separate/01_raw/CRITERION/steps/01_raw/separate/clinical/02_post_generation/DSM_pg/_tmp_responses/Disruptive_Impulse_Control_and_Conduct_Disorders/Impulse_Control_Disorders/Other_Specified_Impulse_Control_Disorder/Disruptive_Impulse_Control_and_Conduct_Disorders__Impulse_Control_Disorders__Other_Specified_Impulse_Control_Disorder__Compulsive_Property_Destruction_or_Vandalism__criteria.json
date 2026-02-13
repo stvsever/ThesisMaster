@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_compulsive_property_destruction_urges"
+    },
+    {
+      "criterium": "destructive_property_destruction_act_upon_compulsive_urge"
+    },
+    {
+      "criterium": "premonitory_urge_to_destroy_property"
+    },
+    {
+      "criterium": "anxiety_or_tension_before_destruction_urge"
+    },
+    {
+      "criterium": "temporary_relief_after_destruction_act"
+    },
+    {
+      "criterium": "guilt_or_remorse_following_destruction"
+    },
+    {
+      "criterium": "destruction_of_property_involves_vandalism_or_damage_to_property"
+    },
+    {
+      "criterium": "destruction_incidents_across_multiple_settings"
+    },
+    {
+      "criterium": "significant_social_or_occupational_impairment_due_to_destruction_behaviors"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

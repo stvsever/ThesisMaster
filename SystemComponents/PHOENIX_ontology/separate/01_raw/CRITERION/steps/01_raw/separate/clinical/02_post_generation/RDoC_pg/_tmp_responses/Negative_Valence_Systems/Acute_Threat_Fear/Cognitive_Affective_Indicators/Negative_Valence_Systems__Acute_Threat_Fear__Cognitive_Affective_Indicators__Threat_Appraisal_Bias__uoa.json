@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_genotype",
+      "FKBP5_rs1360780_genotype",
+      "COMT_rs4680_genotype",
+      "SLC6A4_promoter_genotype",
+      "ADCYAP1R1_rs2267360_genotype"
+    ],
+    "molecules": [
+      "cortisol_serum_level",
+      "norepinephrine_serum_level",
+      "glutamate_serum_level",
+      "GABA_serum_level",
+      "BDNF_plasma_level"
+    ],
+    "cells": [
+      "pyramidal_neuron_density",
+      "gabaergic_interneuron_density",
+      "microglial_marker_density",
+      "oligodendrocyte_marker_expression"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_functional_connectivity",
+      "threat_processing_network_activation",
+      "amygdala_reactivity_to_threat_stimuli",
+      "insula_anterior_cingulate_connectivity"
+    ],
+    "physiology": [
+      "heart_rate_response_to_threat_stimulus",
+      "skin_conductance_response_to_threat",
+      "pupil_dilation_peak_threat",
+      "startle_potentiation_magnitude"
+    ],
+    "behavior": [
+      "attentional_bias_toward_threat",
+      "interpretation_bias_ambiguous_threat_scenarios",
+      "threat_overestimation_in_ambiguous_scenarios"
+    ],
+    "self_report": [
+      "threat_appraisal_bias_self_report_score",
+      "interpretation_bias_self_report_score",
+      "anxiety_sensitivity_self_report_score"
+    ]
+  },
+  "estimated_prevalence_percent": 8.5
+}

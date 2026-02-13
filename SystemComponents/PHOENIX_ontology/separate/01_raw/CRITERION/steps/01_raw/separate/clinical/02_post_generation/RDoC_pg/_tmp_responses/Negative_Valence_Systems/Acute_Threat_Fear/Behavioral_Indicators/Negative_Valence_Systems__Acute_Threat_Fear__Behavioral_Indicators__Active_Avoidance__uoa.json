@@ -1,0 +1,44 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_genotype",
+      "FKBP5_rs1360780_genotype",
+      "COMT_val158_met_genotype"
+    ],
+    "molecules": [
+      "BDNF_protein_level",
+      "CRH_plasma_concentration",
+      "cortisol_serum_concentration",
+      "norepinephrine_plasma_concentration"
+    ],
+    "cells": [
+      "basolateral_amygdala_neuron_density",
+      "parvalbumin_interneuron_density_amygdala",
+      "pyramidal_neuron_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_cortex_connectivity_strength",
+      "amygdala_hippocampus_connectivity_strength",
+      "prefrontal_cortex_inhibitory_control_signal_strength",
+      "thalamus_amygdala_pathway_activation_pattern"
+    ],
+    "physiology": [
+      "skin_conductance_response_amplitude",
+      "heart_rate_response_to_threat_peak",
+      "pupil_dilation_during_threat_cues",
+      "startle_response_amplitude"
+    ],
+    "behavior": [
+      "latency_to_escape_response_seconds",
+      "avoidance_response_rate_per_minute",
+      "number_of_avoidance_responses_per_session",
+      "escape_success_rate"
+    ],
+    "self_report": [
+      "state_fear_questionnaire_score",
+      "state_anxiety_questionnaire_score",
+      "avoidance_tendency_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.3
+}

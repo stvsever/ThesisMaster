@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delirium_present"
+    },
+    {
+      "criterium": "disorientation_time_place"
+    },
+    {
+      "criterium": "impaired_attention"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_dysfunction"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "tremor_present"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "seizures_present"
+    },
+    {
+      "criterium": "nystagmus"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

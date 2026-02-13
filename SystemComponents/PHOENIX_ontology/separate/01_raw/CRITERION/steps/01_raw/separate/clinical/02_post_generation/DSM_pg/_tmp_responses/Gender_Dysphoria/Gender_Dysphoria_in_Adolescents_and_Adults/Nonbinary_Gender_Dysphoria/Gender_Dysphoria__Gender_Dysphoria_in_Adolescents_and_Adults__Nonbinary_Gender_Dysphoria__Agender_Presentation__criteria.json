@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "self_identified_agender_identity"
+    },
+    {
+      "criterium": "absence_of_binary_gender_identity"
+    },
+    {
+      "criterium": "pronoun_preference_nonbinary_or_agender"
+    },
+    {
+      "criterium": "gender_expression_neutral_or_nonbinary_style"
+    },
+    {
+      "criterium": "avoidance_of_binary_gender_role_performance"
+    },
+    {
+      "criterium": "dysphoria_when_assigned_binary_labels"
+    },
+    {
+      "criterium": "discomfort_with_binary_gender_descriptors_by_others"
+    },
+    {
+      "criterium": "clothing_and_accessory_presentation_neutral"
+    },
+    {
+      "criterium": "body_perception_incongruence_with_binary_stereotypes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

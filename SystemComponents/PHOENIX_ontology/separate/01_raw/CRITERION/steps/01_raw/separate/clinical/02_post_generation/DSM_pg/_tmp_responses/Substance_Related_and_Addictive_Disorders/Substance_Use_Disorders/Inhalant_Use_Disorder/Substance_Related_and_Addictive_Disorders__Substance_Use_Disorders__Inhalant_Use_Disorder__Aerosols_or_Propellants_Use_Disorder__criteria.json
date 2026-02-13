@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_inhalants"
+    },
+    {
+      "criterium": "tolerance_to_inhalant_effects"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_inhalant_cessation"
+    },
+    {
+      "criterium": "inability_to_control_inhalant_use"
+    },
+    {
+      "criterium": "preoccupation_with_inhalants"
+    },
+    {
+      "criterium": "secretive_or_discreet_inhalant_use_behavior"
+    },
+    {
+      "criterium": "recurrent_inhalant_use_despite_social_or_occupational_impairment"
+    },
+    {
+      "criterium": "inhalant_use_in_dangerous_settings"
+    },
+    {
+      "criterium": "cognitive_impairment_associated_with_inhalant_use"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

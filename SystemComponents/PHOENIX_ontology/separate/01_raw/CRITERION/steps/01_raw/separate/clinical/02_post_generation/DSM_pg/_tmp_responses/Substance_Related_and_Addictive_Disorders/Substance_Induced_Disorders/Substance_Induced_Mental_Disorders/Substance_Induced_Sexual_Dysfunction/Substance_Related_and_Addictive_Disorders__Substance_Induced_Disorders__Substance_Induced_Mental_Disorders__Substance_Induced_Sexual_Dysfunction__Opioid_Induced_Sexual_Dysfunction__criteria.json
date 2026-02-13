@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "decreased_libido"
+    },
+    {
+      "criterium": "erectile_dysfunction"
+    },
+    {
+      "criterium": "anorgasmia"
+    },
+    {
+      "criterium": "delayed_ejaculation"
+    },
+    {
+      "criterium": "reduced_vaginal_lubrication"
+    },
+    {
+      "criterium": "reduced_sensation_during_intercourse"
+    },
+    {
+      "criterium": "decreased_sexual_interest"
+    },
+    {
+      "criterium": "low_serum_testosterone"
+    },
+    {
+      "criterium": "elevated_serum_prolactin"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

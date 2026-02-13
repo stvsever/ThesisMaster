@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "penetration_pain"
+    },
+    {
+      "criterium": "touch_pain_to_vestibule"
+    },
+    {
+      "criterium": "tampon_insertion_pain"
+    },
+    {
+      "criterium": "digital_stimulation_pain_to_vestibule"
+    },
+    {
+      "criterium": "intercourse_pain"
+    },
+    {
+      "criterium": "vestibule_tenderness_on_exam"
+    },
+    {
+      "criterium": "hyperalgesia_to_vestibular_stimulation"
+    },
+    {
+      "criterium": "allodynia_to_vestibular_touch"
+    },
+    {
+      "criterium": "pain_with_sustained_pressure_to_vestibule"
+    }
+  ],
+  "estimated_prevalence_percent": 9.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "binge_eating_episode_present"
+    },
+    {
+      "criterium": "loss_of_control_during_eating_present"
+    },
+    {
+      "criterium": "purging_behavior_present"
+    },
+    {
+      "criterium": "restrictive_eating_pattern_present"
+    },
+    {
+      "criterium": "excessive_exercise_for_weight_control_present"
+    },
+    {
+      "criterium": "weight_shape_concern_present"
+    },
+    {
+      "criterium": "body_image_disturbance_present"
+    },
+    {
+      "criterium": "fear_of_weight_gain_present"
+    },
+    {
+      "criterium": "functional_impairment_due_to_eating_symptoms_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

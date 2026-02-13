@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "passive_suicidal_ideation_present"
+    },
+    {
+      "criterium": "active_suicidal_ideation_present"
+    },
+    {
+      "criterium": "suicidal_plan_present"
+    },
+    {
+      "criterium": "suicide_attempt_history_present"
+    },
+    {
+      "criterium": "self_harm_history_present"
+    },
+    {
+      "criterium": "suicidal_threat_expression_present"
+    },
+    {
+      "criterium": "intent_to_harm_self_present"
+    },
+    {
+      "criterium": "means_accessibility_present"
+    },
+    {
+      "criterium": "hopelessness_level_present"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

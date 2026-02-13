@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_intensity_ultra_processed_foods"
+    },
+    {
+      "criterium": "loss_of_control_over_ultra_processed_food_intake"
+    },
+    {
+      "criterium": "preoccupation_with_ultra_processed_foods"
+    },
+    {
+      "criterium": "recurrent_binge_like_consumption_of_ultra_processed_foods"
+    },
+    {
+      "criterium": "tolerance_increment_to_ultra_processed_food_reward"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_reduction_or_stopping_ultra_processed_foods"
+    },
+    {
+      "criterium": "time_spent_planning_acquiring_or_consuming_ultra_processed_foods"
+    },
+    {
+      "criterium": "continued_ultra_processed_food_use_in_spite_of_physical_or_psychological_harm"
+    },
+    {
+      "criterium": "difficulty_avoiding_ultra_processed_foods_in_triggers"
+    },
+    {
+      "criterium": "cue-induced_urge_to_consume_ultra_processed_foods"
+    },
+    {
+      "criterium": "social_or_occupational_impairment_due_to_ultra_processed_food_consumption"
+    },
+    {
+      "criterium": "preference_for_ultra_processed_foods_over_healthier_alternatives"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

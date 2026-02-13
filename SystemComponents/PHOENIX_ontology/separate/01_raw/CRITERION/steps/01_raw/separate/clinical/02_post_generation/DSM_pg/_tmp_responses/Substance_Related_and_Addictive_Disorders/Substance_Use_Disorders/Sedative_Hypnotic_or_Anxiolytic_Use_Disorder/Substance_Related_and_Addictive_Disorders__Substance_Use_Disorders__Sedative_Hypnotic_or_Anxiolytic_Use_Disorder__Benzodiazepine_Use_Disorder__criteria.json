@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tolerance_to_benzodiazepines"
+    },
+    {
+      "criterium": "dose_escalation_benzodiazepines"
+    },
+    {
+      "criterium": "craving_for_benzodiazepines"
+    },
+    {
+      "criterium": "unsuccessful_cut_down_attempts_for_benzodiazepines"
+    },
+    {
+      "criterium": "time_spent_obtaining_and_using_benzodiazepines"
+    },
+    {
+      "criterium": "hazardous_use_of_benzodiazepines"
+    },
+    {
+      "criterium": "social_or_occupational_impairment_due_to_benzodiazepines"
+    },
+    {
+      "criterium": "reduction_of_other_activities_due_to_benzodiazepines"
+    },
+    {
+      "criterium": "continued_use_despite_physical_or_psychological_problems_from_benzodiazepines"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_cessation_of_benzodiazepines"
+    },
+    {
+      "criterium": "avoidance_of_withdrawal_symptoms_via_benzodiazepines"
+    },
+    {
+      "criterium": "polysubstance_use_with_benzodiazepines"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

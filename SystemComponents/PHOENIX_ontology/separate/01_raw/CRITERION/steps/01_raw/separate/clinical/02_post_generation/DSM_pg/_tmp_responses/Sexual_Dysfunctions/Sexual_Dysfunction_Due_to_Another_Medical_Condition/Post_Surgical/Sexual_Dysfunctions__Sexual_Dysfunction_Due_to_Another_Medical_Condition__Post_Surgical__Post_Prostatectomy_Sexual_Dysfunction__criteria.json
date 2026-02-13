@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "erectile_dysfunction_post_prostatectomy"
+    },
+    {
+      "criterium": "decreased_penile_sensitivity"
+    },
+    {
+      "criterium": "retrograde_ejaculation"
+    },
+    {
+      "criterium": "anorgasmia"
+    },
+    {
+      "criterium": "dry_orgasm"
+    },
+    {
+      "criterium": "decreased_nocturnal_erections"
+    },
+    {
+      "criterium": "penile_length_reduction_post_prostatectomy"
+    },
+    {
+      "criterium": "delayed_orgasmic_release"
+    }
+  ],
+  "estimated_prevalence_percent": 40.0
+}

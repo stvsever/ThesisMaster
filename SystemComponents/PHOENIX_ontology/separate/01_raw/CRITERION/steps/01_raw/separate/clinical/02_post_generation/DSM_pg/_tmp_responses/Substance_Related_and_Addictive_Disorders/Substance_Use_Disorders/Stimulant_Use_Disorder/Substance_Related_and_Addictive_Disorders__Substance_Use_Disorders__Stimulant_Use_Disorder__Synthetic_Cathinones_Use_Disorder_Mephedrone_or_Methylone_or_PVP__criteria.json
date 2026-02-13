@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_persistent_to_synthetic_cathinones"
+    },
+    {
+      "criterium": "tolerance_development_to_mephedrone_methylone_alpha_pvp"
+    },
+    {
+      "criterium": "withdrawal_symptoms_upon_cessation"
+    },
+    {
+      "criterium": "time_spent_using_sc"
+    },
+    {
+      "criterium": "unsuccessful_attempts_to_reduce_or_stop_use"
+    },
+    {
+      "criterium": "continued_use_despite_physical_psychological_problems"
+    },
+    {
+      "criterium": "impairment_in_social_occupational_functioning_due_to_use"
+    },
+    {
+      "criterium": "binge_or_discrete_extreme_use_sessions"
+    },
+    {
+      "criterium": "cue_induced_craving"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

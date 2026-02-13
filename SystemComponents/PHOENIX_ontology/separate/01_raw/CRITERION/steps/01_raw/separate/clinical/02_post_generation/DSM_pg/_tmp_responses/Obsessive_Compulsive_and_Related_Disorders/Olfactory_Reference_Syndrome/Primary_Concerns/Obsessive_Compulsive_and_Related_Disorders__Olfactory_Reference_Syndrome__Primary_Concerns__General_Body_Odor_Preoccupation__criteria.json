@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_personal_odor"
+    },
+    {
+      "criterium": "belief_in_unbearable_personal_odor"
+    },
+    {
+      "criterium": "odor_monitoring_and_sniffing_behavior"
+    },
+    {
+      "criterium": "excessive_deodorant_application"
+    },
+    {
+      "criterium": "excessive_showering_to_eliminate_odor"
+    },
+    {
+      "criterium": "reassurance_seeking_about_odor"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_odor_concerns"
+    },
+    {
+      "criterium": "avoidance_of_close_contact_due_to_odor_concerns"
+    },
+    {
+      "criterium": "concealment_or_masking_of_odor_sources_behavior"
+    },
+    {
+      "criterium": "odor_related_anxiety_or_distress"
+    },
+    {
+      "criterium": "odor_thought_rumination"
+    },
+    {
+      "criterium": "impairment_in_social_or_work_functioning_due_to_odor_concerns"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

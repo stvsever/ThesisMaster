@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusion_grandeur_mood_incongruent"
+    },
+    {
+      "criterium": "delusion_persecutory_mood_incongruent"
+    },
+    {
+      "criterium": "delusion_thought_broadcast_mood_incongruent"
+    },
+    {
+      "criterium": "delusion_thought_insertion_mood_incongruent"
+    },
+    {
+      "criterium": "delusion_thought_control_mood_incongruent"
+    },
+    {
+      "criterium": "hallucination_auditory_mood_incongruent"
+    },
+    {
+      "criterium": "hallucination_visual_mood_incongruent"
+    },
+    {
+      "criterium": "hallucination_olfactory_mood_incongruent"
+    },
+    {
+      "criterium": "hallucination_tactile_mood_incongruent"
+    },
+    {
+      "criterium": "formal_thought_disorder_mood_incongruent"
+    },
+    {
+      "criterium": "psychomotor_agitation_or_retardation_mood_incongruent"
+    },
+    {
+      "criterium": "affect_content_mismatch_mood_incongruent"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

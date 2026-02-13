@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "giggle_induced_urinary_leakage"
+    },
+    {
+      "criterium": "daytime_incontinence_coinciding_with_laughter"
+    },
+    {
+      "criterium": "leakage_onset_at_giggle_start"
+    },
+    {
+      "criterium": "leakage_cessation_at_giggle_end"
+    },
+    {
+      "criterium": "leakage_predominantly_during_giggling_events"
+    },
+    {
+      "criterium": "leakage_across_classroom_and_social_settings"
+    },
+    {
+      "criterium": "normal_bladder_capacity_between_episodes"
+    },
+    {
+      "criterium": "absence_of_nighttime_enuresis_related_to_condition"
+    },
+    {
+      "criterium": "no_significant_urgency_prior_to_giggle_leakage"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

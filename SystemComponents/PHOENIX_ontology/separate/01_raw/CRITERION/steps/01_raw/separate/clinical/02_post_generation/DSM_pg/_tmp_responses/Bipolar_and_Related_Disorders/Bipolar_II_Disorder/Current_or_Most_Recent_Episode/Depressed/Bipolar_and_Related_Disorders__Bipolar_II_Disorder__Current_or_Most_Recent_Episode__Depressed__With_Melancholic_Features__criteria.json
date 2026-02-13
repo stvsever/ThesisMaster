@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "mood_reactivity_absent"
+    },
+    {
+      "criterium": "profound_despondency"
+    },
+    {
+      "criterium": "morning_worsening_of_mood"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "weight_loss"
+    },
+    {
+      "criterium": "loss_of_appetite"
+    },
+    {
+      "criterium": "excessive_guilt_or_worthlessness"
+    },
+    {
+      "criterium": "anhedonia_persistent"
+    },
+    {
+      "criterium": "decreased_energy_or_fatigue"
+    },
+    {
+      "criterium": "distinct_quality_of_dep_mood"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

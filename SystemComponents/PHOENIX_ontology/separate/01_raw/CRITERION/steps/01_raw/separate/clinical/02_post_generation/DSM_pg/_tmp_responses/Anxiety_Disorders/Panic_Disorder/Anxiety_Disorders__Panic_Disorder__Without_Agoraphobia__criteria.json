@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_panic_attacks_present"
+    },
+    {
+      "criterium": "palpitations_present"
+    },
+    {
+      "criterium": "sweating_present"
+    },
+    {
+      "criterium": "trembling_present"
+    },
+    {
+      "criterium": "shortness_of_breath_present"
+    },
+    {
+      "criterium": "sensation_of_choking_present"
+    },
+    {
+      "criterium": "chest_pain_present"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "dizziness_present"
+    },
+    {
+      "criterium": "derealization_present"
+    },
+    {
+      "criterium": "depersonalization_present"
+    },
+    {
+      "criterium": "paresthesias_present"
+    },
+    {
+      "criterium": "fear_of_losing_control_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AURA_VISUAL_SCINTILLATING_SCOTOMA"
+    },
+    {
+      "criterium": "AURA_VISUAL_FORTIFICATION_SPECTRUM"
+    },
+    {
+      "criterium": "AURA_VISUAL_SCOTOMA"
+    },
+    {
+      "criterium": "AURA_SENSORY_PARESTHESIA_FACE"
+    },
+    {
+      "criterium": "AURA_SENSORY_PARESTHESIA_HAND_OR_ARM"
+    },
+    {
+      "criterium": "AURA_LANGUAGE_APHASIA"
+    },
+    {
+      "criterium": "AURA_DYSARTHRIA"
+    },
+    {
+      "criterium": "AURA_MOTOR_WEAKNESS"
+    },
+    {
+      "criterium": "AURA_ATAXIA"
+    },
+    {
+      "criterium": "AURA_VERTIGO"
+    },
+    {
+      "criterium": "AURA_DIPLOPIA"
+    },
+    {
+      "criterium": "AURA_TINNITUS"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

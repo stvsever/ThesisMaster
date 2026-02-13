@@ -1,0 +1,29 @@
+{
+  "domain_path": "PSYCHO / Cognitive_Behavioral_Therapies / CBT_Foundations",
+  "domain_root_path": [
+    "PSYCHO",
+    "Cognitive_Behavioral_Therapies",
+    "CBT_Foundations"
+  ],
+  "leaf_count": 19,
+  "total_edges_in_subtree": 23,
+  "evaluated_pairs": 23,
+  "violations_count": 1,
+  "violation_rate": 0.043478260869565216,
+  "llm_calls": 1,
+  "violations": [
+    "Case_Conceptualization_and_Targeting > Models_and_Maps"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Case_Conceptualization_and_Targeting > Models_and_Maps",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / CBT_Foundations / Case_Conceptualization_and_Targeting",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / CBT_Foundations / Case_Conceptualization_and_Targeting / Models_and_Maps"
+    }
+  ],
+  "cache_key": "a2e6b047cfda973c6f1ef1a935f80628302f8ba7",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 42.634
+}

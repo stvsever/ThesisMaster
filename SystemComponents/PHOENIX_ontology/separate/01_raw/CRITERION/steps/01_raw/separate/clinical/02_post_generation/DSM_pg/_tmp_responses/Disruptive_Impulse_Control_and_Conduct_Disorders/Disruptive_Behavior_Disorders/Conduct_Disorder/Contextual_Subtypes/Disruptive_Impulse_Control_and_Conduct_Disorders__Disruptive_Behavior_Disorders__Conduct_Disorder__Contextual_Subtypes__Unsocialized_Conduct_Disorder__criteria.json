@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "aggression_toward_people"
+    },
+    {
+      "criterium": "cruelty_to_animals"
+    },
+    {
+      "criterium": "property_destruction"
+    },
+    {
+      "criterium": "theft_of_items"
+    },
+    {
+      "criterium": "deceit"
+    },
+    {
+      "criterium": "truancy_from_school"
+    },
+    {
+      "criterium": "running_away_from_home"
+    },
+    {
+      "criterium": "deliberate_rule_violation"
+    },
+    {
+      "criterium": "disregard_for_rights_of_others"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

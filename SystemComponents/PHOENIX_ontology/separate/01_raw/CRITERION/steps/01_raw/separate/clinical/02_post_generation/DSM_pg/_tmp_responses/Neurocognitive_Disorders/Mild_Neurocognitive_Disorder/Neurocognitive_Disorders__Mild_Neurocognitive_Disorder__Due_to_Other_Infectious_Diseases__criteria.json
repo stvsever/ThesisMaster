@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "processing_speed_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "language_fluency_impairment"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "semantic_memory_deficit"
+    },
+    {
+      "criterium": "visuospatial_construction_deficit"
+    },
+    {
+      "criterium": "visuospatial_orientation_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "calculation_ability_impairment"
+    },
+    {
+      "criterium": "recognition_memory_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acquired_aphasia_after_normal_language_development"
+    },
+    {
+      "criterium": "receptive_language_impairment"
+    },
+    {
+      "criterium": "expressive_language_impairment"
+    },
+    {
+      "criterium": "seizures_present"
+    },
+    {
+      "criterium": "sleep_related_epileptiform_discharges_EEG"
+    },
+    {
+      "criterium": "normal_hearing"
+    },
+    {
+      "criterium": "onset_age_before_7_years"
+    },
+    {
+      "criterium": "EEG_abnormalities_without_structural_brain_lesion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

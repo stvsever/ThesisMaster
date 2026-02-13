@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "neck_pain_intensity_severity"
+    },
+    {
+      "criterium": "pain_catastrophizing_elevated"
+    },
+    {
+      "criterium": "depressive_symptomatology_elevated"
+    },
+    {
+      "criterium": "anxiety_symptomatology_elevated"
+    },
+    {
+      "criterium": "sleep_disturbance_present"
+    },
+    {
+      "criterium": "fatigue_level_elevated"
+    },
+    {
+      "criterium": "kinesiophobia_present"
+    },
+    {
+      "criterium": "cervical_range_of_motion_restriction_observed"
+    },
+    {
+      "criterium": "functional_impairment_ADL_due_to_neck_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 7.5
+}

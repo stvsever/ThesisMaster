@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pain_disproportionate_to_medical_findings"
+    },
+    {
+      "criterium": "pain_fluctuation_with_psychological_stress"
+    },
+    {
+      "criterium": "pain_guarding_behaviors"
+    },
+    {
+      "criterium": "frequent_healthcare_visits_for_pain"
+    },
+    {
+      "criterium": "pain_related_anxiety_or_catastrophizing"
+    },
+    {
+      "criterium": "comorbidity_of_mood_or_anxiety_disorder"
+    },
+    {
+      "criterium": "functional_impairment_in_work_or_social_roles_due_to_pain"
+    },
+    {
+      "criterium": "pain_reports_inconsistent_with_objective_tests"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pervasive_suspicion_of_others_motives"
+    },
+    {
+      "criterium": "unjustified_partner_loyalty_or_infidelity_suspicion"
+    },
+    {
+      "criterium": "unwillingness_to_rely_on_others_due_to_distrust"
+    },
+    {
+      "criterium": "benign_statements_interpreted_as_malevolent"
+    },
+    {
+      "criterium": "persistent_grudges"
+    },
+    {
+      "criterium": "hypervigilance_to_potential_threats"
+    },
+    {
+      "criterium": "reluctance_to_confide_due_to_fear_of_disclosure"
+    },
+    {
+      "criterium": "excessive_need_to_confirm_before_trusting"
+    },
+    {
+      "criterium": "reading_hidden_meanings_in_neutral_events"
+    },
+    {
+      "criterium": "jealousy_of_partner_without_justification"
+    },
+    {
+      "criterium": "suspicions_of_exploitation_or_harm_by_others"
+    },
+    {
+      "criterium": "distrustful_responses_to_requests_for_information"
+    }
+  ],
+  "estimated_prevalence_percent": 2.3
+}

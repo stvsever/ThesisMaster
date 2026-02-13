@@ -1,0 +1,57 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "NR3C1_expression",
+      "CLOCK_expression",
+      "BMAL1_expression",
+      "PER1_expression",
+      "PER2_expression",
+      "CRH_expression"
+    ],
+    "molecules": [
+      "cortisol_concentration",
+      "ACTH_concentration",
+      "CRH_concentration",
+      "HSD11B1_activity",
+      "melatonin_concentration",
+      "CLOCK_protein_level",
+      "BMAL1_protein_level"
+    ],
+    "cells": [
+      "neutrophil_count",
+      "lymphocyte_count",
+      "monocyte_count",
+      "eosinophil_count",
+      "basophil_count",
+      "PBMC_count"
+    ],
+    "circuits": [
+      "amygdala_activation",
+      "prefrontal_cortex_activation",
+      "hippocampus_activation",
+      "PVN_activity",
+      "HPA_axis_connectivity"
+    ],
+    "physiology": [
+      "diurnal_cortisol_slope",
+      "cortisol_AUC_24h",
+      "awakening_cortisol_response",
+      "morning_cortisol_peak",
+      "evening_cortisol_concentration",
+      "bedtime_cortisol_concentration"
+    ],
+    "behavior": [
+      "sleep_onset_latency_minutes",
+      "total_sleep_time_hours",
+      "sleep_efficiency_percent",
+      "nocturnal_awakenings_count",
+      "daytime_napping_frequency_per_day"
+    ],
+    "self_report": [
+      "psqi_global_score",
+      "MEQ_score",
+      "epworth_sleepiness_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 12.0
+}

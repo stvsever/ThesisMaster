@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "FMR1_premutation_carrier"
+    },
+    {
+      "criterium": "intention_tremor"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "dysmetria"
+    },
+    {
+      "criterium": "dysdiadochokinesia"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "MCP_T2_FLAIR_hyperintensity"
+    },
+    {
+      "criterium": "peripheral_neuropathy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

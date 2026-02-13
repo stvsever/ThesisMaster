@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "systolic_bp_ge_140_mmHg"
+    },
+    {
+      "criterium": "diastolic_bp_ge_90_mmHg"
+    },
+    {
+      "criterium": "pulse_pressure_ge_60_mmHg"
+    },
+    {
+      "criterium": "mean_arterial_pressure_ge_100_mmHg"
+    },
+    {
+      "criterium": "nocturnal_bp_nondipping"
+    },
+    {
+      "criterium": "albuminuria_present"
+    },
+    {
+      "criterium": "hypertensive_retinopathy_grade_ge_1"
+    },
+    {
+      "criterium": "left_ventricular_hypertrophy_on_ECG_or_ECHO"
+    },
+    {
+      "criterium": "serum_creatinine_elevated"
+    },
+    {
+      "criterium": "bp_reading_variability_high"
+    }
+  ],
+  "estimated_prevalence_percent": 32.0
+}

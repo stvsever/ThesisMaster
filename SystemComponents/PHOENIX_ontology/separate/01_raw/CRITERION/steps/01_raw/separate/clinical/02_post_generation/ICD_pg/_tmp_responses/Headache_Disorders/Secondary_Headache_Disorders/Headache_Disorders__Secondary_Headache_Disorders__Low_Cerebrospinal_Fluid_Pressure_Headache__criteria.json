@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "orthostatic_headache_worsening_on_upright_position"
+    },
+    {
+      "criterium": "headache_relieved_by_supine_position"
+    },
+    {
+      "criterium": "neck_stiffness_present"
+    },
+    {
+      "criterium": "nausea_present_during_headache"
+    },
+    {
+      "criterium": "photophobia_present_during_headache"
+    },
+    {
+      "criterium": "tinnitus_present_during_headache"
+    },
+    {
+      "criterium": "diplopia_present_during_headache"
+    },
+    {
+      "criterium": "transient_visual_disturbance_during_headache"
+    },
+    {
+      "criterium": "cognitive_fog_during_headache"
+    },
+    {
+      "criterium": "concentration_difficulty_during_headache"
+    },
+    {
+      "criterium": "episodic_memory_impairment_during_headache"
+    },
+    {
+      "criterium": "mood_change_during_headache"
+    }
+  ],
+  "estimated_prevalence_percent": 0.003
+}

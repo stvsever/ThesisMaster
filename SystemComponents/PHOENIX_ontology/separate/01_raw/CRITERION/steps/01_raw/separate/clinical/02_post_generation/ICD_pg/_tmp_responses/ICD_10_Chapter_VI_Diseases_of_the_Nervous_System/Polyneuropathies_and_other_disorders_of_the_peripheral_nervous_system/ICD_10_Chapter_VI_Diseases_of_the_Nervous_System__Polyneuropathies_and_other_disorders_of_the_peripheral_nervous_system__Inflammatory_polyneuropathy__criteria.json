@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "distal_symmetrical_weakness"
+    },
+    {
+      "criterium": "absent_deep_tendon_reflexes"
+    },
+    {
+      "criterium": "distal_sensory_loss_glove_stocking_distribution"
+    },
+    {
+      "criterium": "paresthesias"
+    },
+    {
+      "criterium": "neuropathic_pain"
+    },
+    {
+      "criterium": "distal_muscle_wasting"
+    },
+    {
+      "criterium": "loss_of_vibration_sense"
+    },
+    {
+      "criterium": "loss_of_proprioception"
+    },
+    {
+      "criterium": "sensory_ataxia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.002
+}

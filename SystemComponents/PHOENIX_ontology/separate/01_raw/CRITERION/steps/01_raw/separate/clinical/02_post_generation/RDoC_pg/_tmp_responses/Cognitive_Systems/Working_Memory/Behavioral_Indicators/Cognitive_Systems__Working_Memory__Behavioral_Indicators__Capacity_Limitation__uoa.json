@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_V158M_Genotype",
+      "BDNF_V66M_Genotype",
+      "DRD2_Taq1A_Genotype",
+      "DISC1_Gene_Variant_Genotype",
+      "KCNB1_Genotype"
+    ],
+    "molecules": [
+      "Dopamine_D1_receptor_density",
+      "BDNF_protein_level_in_plasma",
+      "cAMP_signaling_activity_in_PFC",
+      "Glutamatergic_GABAergic_ratio_in_PFC",
+      "Alpha2A_adrenoceptor_density_in_PFC"
+    ],
+    "cells": [
+      "PFC_Layer5_pyramidal_neuron_density",
+      "PFC_GABAergic_PV_interneuron_density",
+      "Dendritic_spine_density_PFC_layer2_3",
+      "Gad1_mRNA_expression_PFC",
+      "Oligodendrocyte_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "DLPFC_frontoparietal_connectivity_strength",
+      "Frontoparietal_network_theta_synchrony",
+      "Working_memory_network_efficiency_index",
+      "DLPFC_parietal_network_coherence",
+      "Fronto_striatal_connectivity_strength"
+    ],
+    "physiology": [
+      "PFC_cortical_oxygenation_during_memory_task",
+      "Hemodynamic_response_amplitude_in_PFC",
+      "Heart_rate_variability_during_working_memory_task",
+      "Pupil_dilation_slope_during_memory_task",
+      "Cortical_neurovascular_coupling_index"
+    ],
+    "behavior": [
+      "Digit_span_forward_score",
+      "Digit_span_backward_score",
+      "Nback_accuracy",
+      "Operation_span_score",
+      "Spatial_span_score"
+    ],
+    "self_report": [
+      "Self_report_WorkingMemory_Capacity",
+      "Self_report_WorkingMemory_Difficulty",
+      "Self_report_Mental_Workload",
+      "Self_report_Task_Load_perceived",
+      "Self_report_Effort_for_memory_tasks"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

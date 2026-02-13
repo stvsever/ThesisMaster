@@ -1,0 +1,3511 @@
+{
+  "Pain Disorders": {
+    "Neuropathic Pain Disorders": {
+      "Diabetic Neuropathy": {
+        "criteria": [
+          "distal_symmetrical_paresthesias",
+          "burning_pain_distal_extremities",
+          "electric_shock_like_pains",
+          "allodynia_to_light_touch",
+          "hyperalgesia_to_pinch",
+          "hypoesthesia_to_pinprick",
+          "loss_of_vibration_sense_ankle",
+          "reduced_ankle_reflexes",
+          "stocking_glove_sensory_deficit"
+        ],
+        "estimated_prevalence_percent": 4.5
+      },
+      "Postherpetic Neuralgia": {
+        "criteria": [
+          "dermatomal_pain_distribution",
+          "spontaneous_burning_pain",
+          "electric_shock_pains",
+          "allodynia_to_light_touch",
+          "hyperalgesia_to_pinprick",
+          "thermal_allodynia",
+          "dysesthesia_burning_stinging",
+          "paresthesias_in_affected_dermatome",
+          "hypoesthesia_in_affected_dermatome",
+          "nocturnal_pain_exacerbation"
+        ],
+        "estimated_prevalence_percent": 0.2
+      },
+      "Phantom Limb Pain": {
+        "criteria": [
+          "phantom_limb_pain_presence",
+          "phantom_limb_pain_intensity_current",
+          "phantom_limb_pain_quality_burning",
+          "phantom_limb_pain_quality_shooting",
+          "phantom_limb_pain_quality_electric_shock",
+          "phantom_limb_pain_allodynia_present",
+          "phantom_limb_pain_hyperalgesia_present",
+          "phantom_limb_pain_evoked_by_stump_contact",
+          "phantom_limb_pain_spontaneous_occurrence",
+          "phantom_limb_pain_frequency_per_day"
+        ],
+        "estimated_prevalence_percent": 0.15
+      },
+      "Complex Regional Pain Syndrome": {
+        "CRPS Type I": {
+          "criteria": [
+            "spontaneous_pain_in_affected_extremity",
+            "allodynia_in_affected_extremity",
+            "hyperalgesia_in_affected_extremity",
+            "edema_in_affected_extremity",
+            "temperature_asymmetry_in_affected_extremity",
+            "skin_color_change_in_affected_extremity",
+            "sweating_abnormality_in_affected_extremity",
+            "nail_changes_in_affected_extremity",
+            "hair_changes_in_affected_extremity",
+            "decreased_rom_in_affected_extremity",
+            "muscle_wasting_in_affected_extremity",
+            "dystonia_in_affected_extremity",
+            "tremor_in_affected_extremity"
+          ],
+          "estimated_prevalence_percent": 0.1
+        },
+        "CRPS Type II": {
+          "criteria": [
+            "allodynia_mechanical",
+            "allodynia_thermal",
+            "hyperalgesia_pinprick",
+            "spontaneous_pain_present",
+            "edema_affected_extremity",
+            "temperature_asymmetry",
+            "sudomotor_changes_affected_extremity",
+            "motor_weakness_affected_extremity",
+            "decreased_range_of_motion_affected_extremity",
+            "skin_trophic_changes_affected_extremity",
+            "nail_changes_affected_extremity",
+            "hair_growth_changes_affected_extremity"
+          ],
+          "estimated_prevalence_percent": 0.0262
+        }
+      },
+      "Central Pain Syndrome": {
+        "criteria": [
+          "spontaneous_neuropathic_pain_presence",
+          "allodynia_to_light_touch_presence",
+          "hyperalgesia_to_nociceptive_stimuli_presence",
+          "dysesthesia_presence",
+          "paresthesia_presence",
+          "burning_pain_quality_presence",
+          "thermal_allodynia_presence",
+          "thermal_hyperalgesia_presence",
+          "unilateral_pain_distribution_presence",
+          "sensory_hypoesthesia_in_pain_region_presence",
+          "sensory_hyperesthesia_in_pain_region_presence",
+          "allodynia_to_pressure_presence"
+        ],
+        "estimated_prevalence_percent": 0.3
+      },
+      "Peripheral Neuropathy": {
+        "criteria": [
+          "allodynia",
+          "hyperalgesia",
+          "paresthesias",
+          "dysesthesias",
+          "distal_hypoesthesia",
+          "loss_of_vibration_sense",
+          "decreased_pinprick_sensation",
+          "absent_ankle_reflex",
+          "distal_muscle_wasting",
+          "distal_weakness",
+          "sensory_gait_ataxia",
+          "orthostatic_hypotension"
+        ],
+        "estimated_prevalence_percent": 2.5
+      },
+      "Radiculopathy": {
+        "criteria": [
+          "radicular_pain_distribution",
+          "dermatomal_sensory_loss",
+          "myotomal_weakness",
+          "hyporeflexia_of_affected_root",
+          "positive_straight_leg_raise",
+          "positive_spurling_sign",
+          "pain_exacerbation_with_spinal_movement",
+          "pain_radiation_with_cough_or_sneeze",
+          "dermatomal_hyperalgesia",
+          "gait_disturbance_due_to_radiculopathy",
+          "sleep_disturbance_due_to_pain"
+        ],
+        "estimated_prevalence_percent": 2.5
+      },
+      "Polyneuropathy": {
+        "criteria": [
+          "distal_symmetrical_paresthesias",
+          "numbness_distal_extremities",
+          "burning_pain_distal_limbs",
+          "allodynia_distal_limbs",
+          "hyperalgesia_distal_limbs",
+          "reduced_vibration_sense_toes",
+          "reduced_proprioception_feet",
+          "absent_ankle_reflexes",
+          "sensory_loss_glove_stocking_distribution",
+          "distal_muscle_weakness",
+          "distal_muscle_atrophy",
+          "sensory_gait_disturbance"
+        ],
+        "estimated_prevalence_percent": 2.5
+      },
+      "Post-Stroke Pain": {
+        "criteria": [
+          "contralateral_pain_distribution",
+          "spontaneous_pain_presence",
+          "paroxysmal_pain_attacks",
+          "burning_pain_quality",
+          "dysesthesia_paresthesia",
+          "allodynia_to_light_touch",
+          "hyperalgesia_to_pinprick",
+          "thermal_allodynia",
+          "contralateral_sensory_deficit_in_pain_area"
+        ],
+        "estimated_prevalence_percent": 0.2
+      },
+      "HIV-Associated Neuropathy": {
+        "criteria": [
+          "distal_symmetrical_paresthesias",
+          "distal_burning_pain",
+          "diminished_pinprick_sensation_distal_limbs",
+          "diminished_vibration_sense_distal_limbs",
+          "diminished_temperature_sensation_distal_limbs",
+          "reduced_ankle_reflexes_bilateral",
+          "distal_motor_weakness_or_wasting",
+          "gait_disturbance",
+          "allodynia_to_stimuli_distal_limbs"
+        ],
+        "estimated_prevalence_percent": 0.25
+      },
+      "Chemotherapy-Induced Peripheral Neuropathy": {
+        "criteria": [
+          "distal_sensory_hypoesthesia",
+          "distal_paresthesias",
+          "neuropathic_pain_in_distal_limbs",
+          "allodynia_in_distal_limbs",
+          "hyperalgesia_in_distal_limbs",
+          "diminished_ankle_reflexes",
+          "impaired_proprioception_in_distal_limbs",
+          "distal_muscle_weakness",
+          "gait_instability_due_to_pn",
+          "loss_of_vibration_sense_in_distal_limbs",
+          "temperature_hypoesthesia_in_distal_limbs"
+        ],
+        "estimated_prevalence_percent": 0.1
+      },
+      "Entrapment Neuropathies (e.g., Carpal Tunnel Syndrome)": {
+        "criteria": [
+          "paresthesias_median_distribution_digits_1_3",
+          "numbness_median_distribution_digits_1_3",
+          "pain_median_distribution_digits_1_3",
+          "thumb_opposition_weakness",
+          "thenar_eminence_atrophy",
+          "decreased_pinch_grip_strength",
+          "positive_tinel_sign_wrist",
+          "positive_phalen_sign",
+          "nocturnal_pain_in_hand",
+          "sleep_disturbance_due_to_hand_pain"
+        ],
+        "estimated_prevalence_percent": 4.5
+      }
+    },
+    "Musculoskeletal Pain Disorders": {
+      "Fibromyalgia": {
+        "criteria": [
+          "widespread_pain",
+          "persistent_fatigue",
+          "nonrestorative_sleep",
+          "cognitive_dysfunction",
+          "morning_stiffness",
+          "headache",
+          "myofascial_tenderness",
+          "somatic_hypersensitivity",
+          "irritable_bowel_syndrome_symptoms",
+          "anxiety_symptoms",
+          "depressive_symptoms"
+        ],
+        "estimated_prevalence_percent": 2.9
+      },
+      "Myofascial Pain Syndrome": {
+        "criteria": [
+          "trigger_point_count",
+          "taut_band_presence",
+          "trigger_point_pain_reproduction_on_palpation",
+          "referred_pain_area_extent",
+          "pain_exacerbation_on_stretch_of_painful_muscle",
+          "pain_exacerbation_on_resisted_contraction_of_painful_muscle",
+          "sleep_disturbance_due_to_pain",
+          "fatigue_related_to_chronic_pain",
+          "activity_limitations_due_to_pain"
+        ],
+        "estimated_prevalence_percent": 2.5
+      },
+      "Chronic Low Back Pain": {
+        "criteria": [
+          "catastrophizing_about_back_pain",
+          "kinesiophobia_back_pain",
+          "depressive_symptoms_present",
+          "anxiety_symptoms_present",
+          "sleep_disturbance_due_to_back_pain",
+          "fatigue_persistent_related_to_pain",
+          "attention_concentration_difficulty_related_to_back_pain",
+          "pain_related_activity_avoidance",
+          "occupational_impairment_due_to_back_pain"
+        ],
+        "estimated_prevalence_percent": 6.0
+      },
+      "Chronic Neck Pain": {
+        "criteria": [
+          "neck_pain_intensity_severity",
+          "pain_catastrophizing_elevated",
+          "depressive_symptomatology_elevated",
+          "anxiety_symptomatology_elevated",
+          "sleep_disturbance_present",
+          "fatigue_level_elevated",
+          "kinesiophobia_present",
+          "cervical_range_of_motion_restriction_observed",
+          "functional_impairment_ADL_due_to_neck_pain"
+        ],
+        "estimated_prevalence_percent": 7.5
+      },
+      "Osteoarthritis Pain": {
+        "criteria": [
+          "resting_pain_intensity",
+          "pain_with_activity_exertion",
+          "joint_tenderness_on_examination",
+          "crepitus_present",
+          "range_of_motion_limitation_due_to_pain",
+          "morning_stiffness_present",
+          "sleep_disturbance_due_to_pain",
+          "fatigue_level_related_to_pain",
+          "mood_disturbance_associated_with_pain",
+          "pain_interferes_with_cognitive_tasks"
+        ],
+        "estimated_prevalence_percent": 8.5
+      },
+      "Rheumatoid Arthritis Pain": {
+        "criteria": [
+          "pain_catastrophizing",
+          "pain_hypervigilance",
+          "anxiety_about_pain",
+          "depressed_mood_related_to_pain",
+          "sleep_disturbance_due_to_pain",
+          "fatigue_exacerbated_by_pain",
+          "pain_related_rumination",
+          "avoidance_of_activity_due_to_pain",
+          "pain_related_concentration_difficulty",
+          "social_withdrawal_due_to_pain"
+        ],
+        "estimated_prevalence_percent": 0.75
+      },
+      "Ankylosing Spondylitis Pain": {
+        "criteria": [
+          "pain_intensity_elevated",
+          "fatigue_present",
+          "anxiety_present",
+          "depression_present",
+          "sleep_disturbance_present",
+          "catastrophizing_pain_thoughts_present",
+          "kinesiophobia_present",
+          "pain_hypervigilance_present",
+          "reduced_spinal_mobility_on_exam",
+          "functional_impairment_due_to_pain_present",
+          "social_withdrawal_due_to_pain_present",
+          "central_sensitization_signs_present",
+          "allodynia_or_hyperalgesia_present"
+        ],
+        "estimated_prevalence_percent": 0.25
+      },
+      "Ehlers-Danlos Syndrome Pain": {
+        "criteria": [
+          "multisite_pain_distribution_present",
+          "allodynia_present",
+          "hyperalgesia_present",
+          "pain_catastrophizing_present",
+          "pain_related_anxiety_present",
+          "pain_related_depression_present",
+          "sleep_disturbance_present",
+          "daytime_fatigue_present",
+          "cognitive_fog_present",
+          "pain_interference_work_present",
+          "pain_interference_social_present",
+          "pain_related_attention_dysfunction_present"
+        ],
+        "estimated_prevalence_percent": 0.02
+      },
+      "Tendinopathies": {
+        "criteria": [
+          "tendon_tenderness_on_palpation_at_insertion_site",
+          "tendon_thickening_at_pathway_or_insertion",
+          "pain_on_resisted_contraction_of_involved_muscle_group",
+          "pain_on_passive_stretch_of_involved_muscle_tendon_unit",
+          "pain_worsened_by_eccentric_tendon_loading",
+          "crepitus_or_grating_over_tendon_with_motion",
+          "localization_of_pain_to_tendon_site",
+          "night_pain_at_tendon_site",
+          "activity_related_pain_limitation_in_tasks_relying_on_affected_tendon"
+        ],
+        "estimated_prevalence_percent": 4.5
+      },
+      "Plantar Fasciitis": {
+        "criteria": [
+          "medial_calcaneal_tubercle_tenderness",
+          "morning_first_step_pain",
+          "pain_with_prolonged_standing_or_walking",
+          "plantar_fascia_insertion_tenderness",
+          "positive_windlass_test",
+          "limited_ankle_dorsiflexion_range_of_motion",
+          "increased_pain_with_plantar_fascia_stretch",
+          "ultrasound_plantar_fascia_thickness_increased",
+          "heel_swelling_absent"
+        ],
+        "estimated_prevalence_percent": 1.5
+      },
+      "Frozen Shoulder (Adhesive Capsulitis)": {
+        "criteria": [
+          "anxiety_about_shoulder_pain",
+          "depressive_symptoms_related_to_limitation",
+          "pain_catastrophizing_present",
+          "kinesiophobia_shoulder_movement_present",
+          "sleep_disturbance_due_to_pain_present",
+          "somatic_symptom_burden_present",
+          "stress_response_to_pain_present",
+          "pain_hypersensitivity_present",
+          "rumination_about_pain_present",
+          "avoidant_behaviors_related_to_shoulder_function_present",
+          "cognitive_intrusive_pain_thoughts_present",
+          "fatigue_due_to_chronic_pain_present"
+        ],
+        "estimated_prevalence_percent": 3.0
+      },
+      "Diffuse Idiopathic Skeletal Hyperostosis": {
+        "criteria": [
+          "contiguous_four_or_more_levels_all_ossification",
+          "anterior_longitudinal_ligament_ossification_present",
+          "intervertebral_disc_height_preserved",
+          "thoracic_spine_osteophyte_proliferation_present",
+          "dysphagia_due_to_cervical_osteophytes_present",
+          "spinal_extension_rom_restricted",
+          "spinal_flexion_rom_restricted",
+          "spinal_enthesopathy_at_paraspinal_insertions_present",
+          "radiographic_ossification_pattern_consistent_with_dish"
+        ],
+        "estimated_prevalence_percent": 4.5
+      }
+    },
+    "Visceral Pain Disorders": {
+      "Irritable Bowel Syndrome (IBS)": {
+        "criteria": [
+          "abdominal_pain",
+          "pain_relieved_by_defecation",
+          "abdominal_bloating_distension",
+          "mucus_in_stool",
+          "altered_stool_frequency",
+          "stool_form_change",
+          "urge_to_defecate",
+          "incomplete_defecation",
+          "excess_gas_flatulence"
+        ],
+        "estimated_prevalence_percent": 11.2
+      },
+      "Interstitial Cystitis": {
+        "criteria": [
+          "bladder_pelvic_region_pain",
+          "pain_worsened_by_bladder_filling",
+          "pain_relieved_by_voiding",
+          "urinary_urgency",
+          "nocturia",
+          "increased_daytime_urination_frequency",
+          "pelvic_floor_tenderness",
+          "pelvic_floor_hypertonicity",
+          "dyspareunia",
+          "dysuria_pain_on_urination"
+        ],
+        "estimated_prevalence_percent": 0.5
+      },
+      "Endometriosis": {
+        "criteria": [
+          "chronic_pelvic_pain_intensity",
+          "dysmenorrhea_severity",
+          "dyspareunia_severity",
+          "noncyclic_pelvic_pain_frequency_per_month",
+          "pain_on_defecation",
+          "pelvic_floor_muscle_tone_hypertonicity",
+          "sleep_disturbance_due_to_pain",
+          "fatigue_level",
+          "anxiety_symptoms_pain_related",
+          "depressive_symptoms_pain_related"
+        ],
+        "estimated_prevalence_percent": 1.0
+      },
+      "Chronic Pelvic Pain Syndrome": {
+        "criteria": [
+          "pelvic_pain_intensity_nrs",
+          "pelvic_floor_muscle_tone_hypertonicity",
+          "pelvic_floor_tenderness_on_examination",
+          "dyspareunia_pain_with_intercourse",
+          "pain_on_urination",
+          "urinary_frequency",
+          "urinary_urgency",
+          "defecatory_pain_during_bowel_movements",
+          "pelvic_region_allodynia_to_light_touch",
+          "sleep_disturbance_related_to_pelvic_pain"
+        ],
+        "estimated_prevalence_percent": 7.5
+      },
+      "Chronic Prostatitis": {
+        "criteria": [
+          "pelvic_perineal_pain_presence",
+          "sitting_provoked_pelvic_pain",
+          "ejaculatory_pain_or_discomfort",
+          "dysuria",
+          "urinary_frequency",
+          "urinary_urgency",
+          "nocturia",
+          "testicular_pain",
+          "penile_pain",
+          "prostate_tenderness_on_DRE",
+          "pain_related_anxiety",
+          "sleep_disturbance_from_pelvic_pain"
+        ],
+        "estimated_prevalence_percent": 5.0
+      },
+      "Functional Dyspepsia": {
+        "criteria": [
+          "gastric_symptom_anxiety",
+          "catastrophizing_gastric_symptoms",
+          "interoceptive_hypervigilance_gastric_signals",
+          "somatic_symptom_magnification_in_dyspepsia",
+          "cognitive_preoccupation_with_dyspepsia",
+          "food_avoidance_due_to_dyspeptic_symptoms",
+          "sleep_disturbance_from_dyspepsia",
+          "mood_disturbance_related_to_gastric_symptoms",
+          "work_impairment_due_to_dyspepsia",
+          "avoidance_of_social_meals_due_to_dyspepsia"
+        ],
+        "estimated_prevalence_percent": 11.0
+      },
+      "Non-Cardiac Chest Pain": {
+        "criteria": [
+          "thoracic_pain_catastrophizing",
+          "chest_pain_anxiety",
+          "fear_of_myocardial_infarction",
+          "interoceptive_hypervigilance_to_thoracic_signals",
+          "attention_bias_to_thoracic_sensations",
+          "autonomic_arousal_in_response_to_thoracic_pain_sensations",
+          "somatic_symptom_magnification_of_thoracic_pain",
+          "reassurance_seeking_related_to_chest_pain",
+          "avoidance_of_physical_activity_due_to_chest_pain",
+          "health_anxiety_specific_to_cardiac_threat"
+        ],
+        "estimated_prevalence_percent": 5.0
+      },
+      "Chronic Pancreatitis Pain": {
+        "criteria": [
+          "catastrophizing_about_pain",
+          "pain_hypervigilance",
+          "pain_anxiety",
+          "depressive_symptoms",
+          "sleep_disturbance_due_to_pain",
+          "allodynia_present",
+          "central_sensitization_signs",
+          "reduced_health_related_quality_of_life",
+          "functional_impairment_due_to_pain",
+          "fear_of_pain_recurrence"
+        ],
+        "estimated_prevalence_percent": 0.06
+      },
+      "Functional Abdominal Pain Syndrome": {
+        "criteria": [
+          "recurrent_chronic_abdominal_pain",
+          "pain_not_explained_by_organic_pathology",
+          "pain_not_relieved_by_defecation",
+          "pain_not_meal_related",
+          "pain_exacerbated_by_psychological_stress",
+          "pain_disproportionate_to_objective_findings",
+          "pain_impairs_social_and_family_functioning",
+          "pain_impairs_work_or_school_performance",
+          "elevated_pain_score_without_structural_pathology"
+        ],
+        "estimated_prevalence_percent": 2.5
+      },
+      "Functional Biliary Pain": {
+        "criteria": [
+          "postprandial_ruq_pain_exacerbation",
+          "pain_radiates_to_back_or_right_shoulder",
+          "pain_described_as_pressure",
+          "nausea_during_pain",
+          "sleep_disturbance_related_to_pain",
+          "pain_preoccupation_present",
+          "catastrophizing_pain_present",
+          "pain_avoidance_behaviors_present",
+          "somatic_symptom_severity_elevated"
+        ],
+        "estimated_prevalence_percent": 0.9
+      },
+      "Chronic Testicular Pain (Orchialgia)": {
+        "criteria": [
+          "testicular_pain_intensity_0_10",
+          "testicular_pain_quality_burning",
+          "testicular_pain_quality_throbbing",
+          "pain_radiation_to_groin_or_perineum",
+          "pain_exacerbation_by_ejaculation",
+          "pain_exacerbation_by_urination",
+          "sleep_disturbance_due_to_orchialgia",
+          "concentration_difficulty_due_to_pain",
+          "anxiety_symptoms_pain_related",
+          "depressive_symptoms_pain_related",
+          "activity_interference_due_to_pain",
+          "scrotal_exam_tenderness_present"
+        ],
+        "estimated_prevalence_percent": 0.5
+      },
+      "Vulvodynia": {
+        "criteria": [
+          "vestibular_pain_on_contact",
+          "spontaneous_vulvar_pain",
+          "pain_with_penetrative_intercourse",
+          "allodynia_to_light_touch_in_vulvar_region",
+          "hyperalgesia_to_pressure_in_vulvar_region",
+          "pain_on_cotton_swab_testing",
+          "pain_worsened_by_sitting",
+          "burning_pain_in_vulvar_region",
+          "pain_on_manual_palpation_of_vulvar_labia_or_vestibule",
+          "vulvar_pain_without_visible_inflammation"
+        ],
+        "estimated_prevalence_percent": 6.5
+      }
+    },
+    "Functional Pain Disorders": {
+      "Somatic Symptom Disorder with Predominant Pain": {
+        "criteria": [
+          "predominant_pain_symptom",
+          "disproportionate_thoughts_about_pain_seriousness",
+          "high_health_anxiety_related_to_pain",
+          "excessive_time_and_energy_devoted_to_pain_or_health_concerns",
+          "pain_related_distress_impairing_social_and_work_functioning",
+          "multiple_pain_locations_reported",
+          "avoidance_or_restriction_of_activities_due_to_pain",
+          "sleep_disturbance_due_to_pain"
+        ],
+        "estimated_prevalence_percent": 1.5
+      },
+      "Psychogenic Pain Disorder": {
+        "criteria": [
+          "disproportionate_pain_to_objective_findings",
+          "multisite_pain_locations",
+          "non_anatomic_neurological_signs_on_exam",
+          "pain_fluctuation_with_psychosocial_stressors",
+          "inconsistent_pain_location_between_assessments",
+          "pain_behaviors_magnify_pain_expression",
+          "activity_avoidance_due_to_pain",
+          "comorbid_psychological_disorder_present"
+        ],
+        "estimated_prevalence_percent": 1.2
+      },
+      "Persistent Somatoform Pain Disorder": {
+        "criteria": [
+          "PAIN_OUT_OF_PROPORTION_TO_FINDINGS",
+          "EXCESSIVE_PAIN_THOUGHTS",
+          "HEALTH_ANXIETY_ABOUT_PAIN",
+          "EXTENSIVE_TIME_ENERGY_DEVOTED_TO_PAIN",
+          "MULTIPLE_PAIN_SITES",
+          "PAIN_IMPAIRMENT_WORK",
+          "PAIN_IMPAIRMENT_SOCIAL_FUNCTIONING",
+          "REPEATED_MEDICAL_VISITS_FOR_PAIN",
+          "PAIN_SLEEP_DISTURBANCE",
+          "PAIN_BEHAVIORAL_ADAPTATIONS"
+        ],
+        "estimated_prevalence_percent": 0.8
+      },
+      "Conversion Disorder with Sensory Symptom": {
+        "criteria": [
+          "non_dermatomal_sensory_deficit",
+          "inconsistent_sensory_exam_results",
+          "sensory_symptom_modulated_by_attention_or_distraction",
+          "preserved_proprioception_in_area_of_deficit",
+          "preserved_vibration_sense_in_area_of_deficit",
+          "noncontiguous_sensory_deficit_distribution",
+          "variability_of_sensory_symptom_over_time"
+        ],
+        "estimated_prevalence_percent": 0.04
+      },
+      "Pain Disorder Associated with Psychological Factors": {
+        "criteria": [
+          "pain_disproportionate_to_medical_findings",
+          "pain_fluctuation_with_psychological_stress",
+          "pain_guarding_behaviors",
+          "frequent_healthcare_visits_for_pain",
+          "pain_related_anxiety_or_catastrophizing",
+          "comorbidity_of_mood_or_anxiety_disorder",
+          "functional_impairment_in_work_or_social_roles_due_to_pain",
+          "pain_reports_inconsistent_with_objective_tests"
+        ],
+        "estimated_prevalence_percent": 0.2
+      },
+      "Pain Disorder Associated with Both Psychological Factors and a General Medical Condition": {
+        "criteria": [
+          "pain_disproportionate_to_objective_findings",
+          "multisite_pain_presentation",
+          "pain_exacerbated_by_psychological_stress",
+          "documented_general_medical_condition_present_relevant_to_pain",
+          "psychological_distress_associated_with_pain",
+          "catastrophizing_or_magnification_of_pain",
+          "pain_behaviors_guarding_or_reinforcement",
+          "sleep_disturbance_related_to_pain",
+          "anxiety_or_depression_related_to_pain",
+          "work_impairment_due_to_pain",
+          "social_function_impairment_due_to_pain",
+          "inconsistent_pain_report_with_clinical_assessment"
+        ],
+        "estimated_prevalence_percent": 0.6
+      },
+      "Body Dysmorphic Disorder with Pain Complaints": {
+        "criteria": [
+          "preoccupation_with_perceived_body_flaw",
+          "repetitive_visual_inspection_of_area_of_perceived_flaw",
+          "repetitive_grooming_or_masking_behavior_targeting_perceived_flaw",
+          "excessive_appearance_related_rumination",
+          "recurrent_assurance_seeking_about_appearance",
+          "pain_experiences_located_in_or_referred_to_perceived_flaw_area",
+          "pain_exaggeration_or_catastrophizing_about_pain_in_flawed_area",
+          "pain_without_medical_explanation_persisting",
+          "appearance_pain_related_distress_impairing_social_or_work_function",
+          "increased_healthcare_visits_for_pain_and_appearance_concerns"
+        ],
+        "estimated_prevalence_percent": 0.3
+      }
+    },
+    "Orofacial Pain Disorders": {
+      "Burning Mouth Syndrome": {
+        "criteria": [
+          "oral_burning_pain",
+          "tongue_burning_pain",
+          "dysgeusia",
+          "hypogeusia",
+          "ageusia",
+          "xerostomia_sensation",
+          "oral_paresthesia",
+          "normal_intraoral_mucosa_exam",
+          "food_trigger_pain_in_mouth"
+        ],
+        "estimated_prevalence_percent": 1.0
+      },
+      "Atypical Odontalgia": {
+        "criteria": [
+          "tooth_region_pain_with_normal_clinical_exam_and_radiographs",
+          "burning_pain_description",
+          "electric_shock_like_pain_description",
+          "aching_pain_description",
+          "spontaneous_pain_presentation",
+          "allodynia_to_light_touch_of_tooth_or_perioral_tissues",
+          "hyperalgesia_to_pinch_or_pressure_in_oral_region",
+          "pain_localization_to_trigeminal_distribution_region",
+          "pain_fails_to_correlate_with_pulp_status_on_clinical_assessment"
+        ],
+        "estimated_prevalence_percent": 0.3
+      },
+      "Temporomandibular Joint Disorders": {
+        "criteria": [
+          "masticatory_muscle_pain",
+          "tmj_joint_pain",
+          "joint_clicking_on_movement",
+          "crepitus_on_movement_of_tmj",
+          "restricted_mouth_opening",
+          "pain_on_chewing",
+          "headache_of_temporomandibular_origin",
+          "neck_muscle_tension_associated_with_tmjd",
+          "bruxism_behavior",
+          "sleep_disturbance_due_to_tmjd_pain",
+          "jaw_locking_during_opening_or_closing",
+          "preauricular_area_pain_or_tenderness"
+        ],
+        "estimated_prevalence_percent": 6.0
+      },
+      "Eagle Syndrome": {
+        "criteria": [
+          "styloid_process_length_mm_gt_30",
+          "pain_reproduced_by_tonsillar_fossa_palpation",
+          "otalgia_without_otitis_media",
+          "dysphagia_present",
+          "foreign_body_sensation_in_throat_present",
+          "pain_radiating_to_ear_present",
+          "tinnitus_present",
+          "neck_pain_exacerbated_by_head_movement_present",
+          "palpation_of_styloid_region_reproduces_pain_present"
+        ],
+        "estimated_prevalence_percent": 0.16
+      },
+      "Sluder's Neuralgia": {
+        "criteria": [
+          "unilateral_orofacial_pain",
+          "ipsilateral_lacrimation",
+          "ipsilateral_conjunctival_injection",
+          "ipsilateral_nasal_congestion",
+          "ipsilateral_rhinorrhea",
+          "ipsilateral_ptosis",
+          "ipsilateral_miosis",
+          "ipsilateral_facial_sweating",
+          "ipsilateral_orbital_pain"
+        ],
+        "estimated_prevalence_percent": 0.1
+      }
+    },
+    "Cancer-Related Pain": {
+      "Bone Pain due to Metastases": {
+        "criteria": [
+          "pain_intensity_0to10",
+          "pain_worsened_by_weight_bearing",
+          "nocturnal_pain_present",
+          "pain_quality_deep_boring",
+          "multisite_skeletal_pain_involvement",
+          "pathologic_fracture_present",
+          "bone_tenderness_over_metastatic_site",
+          "elevated_serum_alkaline_phosphatase",
+          "radiographic_osteolytic_lesions_detected",
+          "bone_scan_hot_spots_detected"
+        ],
+        "estimated_prevalence_percent": 0.01
+      },
+      "Neuropathic Pain due to Chemotherapy": {
+        "criteria": [
+          "spontaneous_neuropathic_pain",
+          "paroxysmal_shooting_pain",
+          "burning_pain_descriptors",
+          "electric_shock_like_pain",
+          "allodynia_to_light_touch",
+          "hyperalgesia_to_pinch",
+          "paresthesias_in_distal_extremities",
+          "numbness_in_distal_extremities",
+          "hypoesthesia_to_pinprick",
+          "reduced_vibration_sense_in_distal_digits",
+          "motor_weakness_in_distal_muscles"
+        ],
+        "estimated_prevalence_percent": 0.0
+      },
+      "Post-Radiation Pain Syndromes": {
+        "criteria": [
+          "persistent_pain_in_radiation_field",
+          "paroxysmal_pain_in_radiation_area",
+          "paresthesias_in_radiation_region",
+          "dysesthesias_in_radiation_field",
+          "allodynia_to_light_touch_in_radiation_site",
+          "hyperalgesia_to_noxious_stimuli_in_radiation_territory",
+          "hypoesthesia_in_radiation_field",
+          "motor_weakness_in_radiation_territory",
+          "muscle_fasciculations_in_radiation_region",
+          "hyporeflexia_in_radiation_territory"
+        ],
+        "estimated_prevalence_percent": 0.25
+      },
+      "Tumor-Related Pain": {
+        "criteria": [
+          "rest_pain_intensity_NRS4plus",
+          "movement_exacerbated_pain",
+          "paroxysmal_neuropathic_pain",
+          "allodynia_light_touch_over_tumor_site",
+          "hyperalgesia_in_tumor_region",
+          "nocturnal_pain_wakeups",
+          "pain_described_as_burning",
+          "pain_described_as_stabbing",
+          "pain_radiates_to_adjacent_dermatomes",
+          "facial_grimacing_during_pain",
+          "protective_guarding_of_affected_region",
+          "pain_associated_fatigue_or_listlessness"
+        ],
+        "estimated_prevalence_percent": 0.5
+      }
+    },
+    "Post-Surgical and Post-Trauma Pain Syndromes": {
+      "Post-Mastectomy Pain Syndrome": {
+        "criteria": [
+          "chest_wall_neuropathic_pain_present",
+          "allodynia_at_mastectomy_site",
+          "hyperalgesia_at_mastectomy_site",
+          "paresthesias_at_surgical_site",
+          "burning_pain_at_mastectomy_site",
+          "shooting_pain_radiating_to_upper_extremity",
+          "phantom_mastectomy_sensations",
+          "sleep_disturbance_due_to_pain",
+          "depressive_symptoms_present",
+          "anxiety_symptoms_present",
+          "concentration_difficulty_due_to_pain",
+          "memory_difficulty_due_to_pain",
+          "fatigue_due_to_chronic_pain",
+          "functional_impairment_in_daily_activities_due_to_pain"
+        ],
+        "estimated_prevalence_percent": 0.8
+      },
+      "Post-Thoracotomy Pain Syndrome": {
+        "criteria": [
+          "intercostal_neuropathic_pain_present",
+          "chest_wall_allodynia_light_touch_present",
+          "thoracic_dermatomal_hyperalgesia_to_punctate_stimuli_present",
+          "thoracic_dermatomal_paresthesias_present",
+          "spontaneous_thoracic_pain_paroxysms_present",
+          "pain_exacerbation_by_coughing_or_deep_breathing_present",
+          "pain_exacerbation_by_trunk_movement_present",
+          "sleep_disturbance_related_to_pain_present",
+          "mood_disturbance_related_to_pain_present",
+          "fatigue_related_to_chronic_pain_present",
+          "functional_impairment_in_daily_activities_present",
+          "thoracic_wall_tenderness_on_exam_present",
+          "sensory_hypoesthesia_thoracic_dermatomes_present"
+        ],
+        "estimated_prevalence_percent": 0.4
+      },
+      "Post-Herniorrhaphy Pain Syndrome": {
+        "criteria": [
+          "scar_allodynia_to_light_touch",
+          "scar_hyperalgesia_to_thermal_stimuli",
+          "scar_paresthesias_in_inguinal_area",
+          "spontaneous_pain_in_scar_region",
+          "paroxysmal_shooting_pains_in_scar",
+          "pain_exacerbation_with_ambulation",
+          "pain_with_sitting_pressure_on_scar",
+          "nocturnal_pain_interrupting_sleep",
+          "pain_related_fatigue"
+        ],
+        "estimated_prevalence_percent": 12.0
+      },
+      "Post-Amputation Pain": {
+        "criteria": [
+          "phantom_pain_presence",
+          "phantom_pain_intensity",
+          "residual_limb_pain_presence",
+          "neuroma_pain_presence",
+          "allodynia_in_residual_limb",
+          "hyperalgesia_in_residual_limb",
+          "movement_induced_pain_in_residual_limb",
+          "sleep_disturbance_due_to_pain",
+          "pain_related_anxiety",
+          "pain_catastrophizing",
+          "depressive_symptoms_pain_related",
+          "functional_impairment_due_to_pain"
+        ],
+        "estimated_prevalence_percent": 0.15
+      },
+      "Post-Laminectomy Syndrome": {
+        "criteria": [
+          "post_laminectomy_pain_present",
+          "radicular_leg_pain_present",
+          "allodynia_present",
+          "hyperalgesia_present",
+          "burning_pain_present",
+          "electric_shock_pain_present",
+          "paresthesias_present",
+          "sensory_hypoesthesia_dermatomal_present",
+          "motor_weakness_lower_extremities_present",
+          "hyporeflexia_lower_extremities_present",
+          "functional_adl_impairment_present",
+          "sleep_disturbance_present"
+        ],
+        "estimated_prevalence_percent": 1.2
+      },
+      "Post-Traumatic Neuralgia": {
+        "criteria": [
+          "paroxysmal_lancinating_pain",
+          "continuous_neuralgic_pain",
+          "burning_pain_quality",
+          "allodynia_to_light_touch",
+          "hyperalgesia_to_pinprick",
+          "paresthesias_in_affected_region",
+          "hypoesthesia_in_affected_region",
+          "temperature_allodynia_in_affected_region",
+          "pain_intensity_fluctuation",
+          "sleep_disturbance_due_to_pain",
+          "anxiety_symptoms_in_pain_context",
+          "depressive_symptoms_in_pain_context"
+        ],
+        "estimated_prevalence_percent": 0.5
+      },
+      "Scar Neuroma Pain": {
+        "criteria": [
+          "spontaneous_pain_localized_to_scar_region",
+          "mechanical_allodynia_in_scar_region",
+          "pinprick_hyperalgesia_in_scar_region",
+          "paresthesias_in_scar_region",
+          "dysesthesias_in_scar_region",
+          "thermal_hyperalgesia_in_scar_region",
+          "thermal_allodynia_in_scar_region",
+          "palpable_neuroma_mass_at_scar_site",
+          "tinel_sign_at_scar_site",
+          "numbness_hypesthesia_in_scar_region",
+          "sleep_disturbance_due_to_scar_pain",
+          "functional_impairment_due_to_scar_pain"
+        ],
+        "estimated_prevalence_percent": 0.8
+      }
+    },
+    "Central Sensitivity Syndromes": {
+      "Chronic Fatigue Syndrome OR Myalgic Encephalomyelitis": {
+        "criteria": [
+          "post_exertional_malaise",
+          "unrefreshing_sleep",
+          "cognitive_impairment",
+          "persistent_fatigue_not_relieved_by_rest",
+          "orthostatic_intolerance",
+          "myalgia",
+          "arthralgia",
+          "sore_throat",
+          "tender_lymph_nodes"
+        ],
+        "estimated_prevalence_percent": 0.3
+      },
+      "Multiple Chemical Sensitivity": {
+        "criteria": [
+          "CHEMICAL_TRIGGERED_HEADACHE",
+          "CHEMICAL_TRIGGERED_FATIGUE",
+          "CHEMICAL_TRIGGERED_COGNITIVE_DYSFUNCTION",
+          "CHEMICAL_TRIGGERED_SLEEP_DISTURBANCE",
+          "CHEMICAL_TRIGGERED_DIZZINESS",
+          "CHEMICAL_TRIGGERED_NASAL_IRRITATION",
+          "CHEMICAL_TRIGGERED_EYE_IRRITATION",
+          "CHEMICAL_TRIGGERED_MUSCULOSKELETAL_PAIN",
+          "CHEMICAL_TRIGGERED_GASTROINTESTINAL_NAUSEA"
+        ],
+        "estimated_prevalence_percent": 2.5
+      }
+    }
+  },
+  "Headache Disorders": {
+    "Primary Headache Disorders": {
+      "Migraine": {
+        "Migraine without Aura": {
+          "criteria": [
+            "unilateral_headache",
+            "pulsating_headache_quality",
+            "pain_intensity_moderate_to_severe",
+            "worsens_with_physical_activity",
+            "nausea",
+            "vomiting",
+            "photophobia",
+            "phonophobia"
+          ],
+          "estimated_prevalence_percent": 8.5
+        },
+        "Migraine with Aura": {
+          "criteria": [
+            "AURA_VISUAL_SCINTILLATING_SCOTOMA",
+            "AURA_VISUAL_FORTIFICATION_SPECTRUM",
+            "AURA_VISUAL_SCOTOMA",
+            "AURA_SENSORY_PARESTHESIA_FACE",
+            "AURA_SENSORY_PARESTHESIA_HAND_OR_ARM",
+            "AURA_LANGUAGE_APHASIA",
+            "AURA_DYSARTHRIA",
+            "AURA_MOTOR_WEAKNESS",
+            "AURA_ATAXIA",
+            "AURA_VERTIGO",
+            "AURA_DIPLOPIA",
+            "AURA_TINNITUS"
+          ],
+          "estimated_prevalence_percent": 3.0
+        },
+        "Chronic Migraine": {
+          "criteria": [
+            "pulsating_headache_quality",
+            "unilateral_headache_location",
+            "pain_intensity_moderate_to_severe",
+            "photophobia",
+            "phonophobia",
+            "nausea",
+            "vomiting",
+            "cutaneous_allodynia",
+            "neck_stiffness",
+            "cognitive_fog_during_attack"
+          ],
+          "estimated_prevalence_percent": 1.5
+        },
+        "Menstrual Migraine": {
+          "criteria": [
+            "unilateral_pulsating_headache",
+            "pain_intensity_moderate_to_severe",
+            "nausea",
+            "vomiting",
+            "photophobia",
+            "phonophobia",
+            "aura_symptoms_present",
+            "headache_worsens_with_physical_activity",
+            "headache_characteristically_throbbing",
+            "temporal_association_with_menses"
+          ],
+          "estimated_prevalence_percent": 2.5
+        }
+      },
+      "Tension-Type Headache": {
+        "criteria": [
+          "bilateral_location",
+          "pressing_tightening_quality",
+          "non_pulsating_quality",
+          "mild_to_moderate_intensity",
+          "not_aggravated_by_routine_physical_activity",
+          "episode_duration_30_min_to_7_days",
+          "absence_of_nausea",
+          "absence_of_vomiting",
+          "photophobia_present",
+          "phonophobia_present",
+          "pericranial_mmuscle_tenderness_present",
+          "neck_stiffness_present"
+        ],
+        "estimated_prevalence_percent": 2.0
+      },
+      "Cluster Headache": {
+        "criteria": [
+          "unilateral_orbital_temporal_pain",
+          "pain_severity_severe",
+          "pacing_or_restlessness_during_attack",
+          "ipsilateral_conjunctival_injection",
+          "ipsilateral_lacrimation",
+          "ipsilateral_nasal_congestion",
+          "ipsilateral_rhinorrhea",
+          "ipsilateral_ptosis",
+          "ipsilateral_miosis",
+          "ipsilateral_eyelid_edema",
+          "ipsilateral_facial_sweating",
+          "attack_circadian_rhythmicity"
+        ],
+        "estimated_prevalence_percent": 0.15
+      },
+      "Other Trigeminal Autonomic Cephalalgias": {
+        "Paroxysmal Hemicrania": {
+          "criteria": [
+            "unilateral_orbitotemporal_pain",
+            "ipsilateral_conjunctival_injection",
+            "ipsilateral_lacrimation",
+            "nasal_congestion",
+            "nasal_rhinorrhea",
+            "ptosis",
+            "miosis",
+            "eyelid_edema",
+            "facial_sweating",
+            "restlessness_during_attack",
+            "photophobia",
+            "phonophobia"
+          ],
+          "estimated_prevalence_percent": 0.001
+        },
+        "Hemicrania Continua": {
+          "criteria": [
+            "unilateral_headache_location",
+            "ipsilateral_lacrimation",
+            "ipsilateral_conjunctival_injection",
+            "ipsilateral_nasal_congestion",
+            "ipsilateral_rhinorrhea",
+            "ipsilateral_ptosis",
+            "ipsilateral_miosis",
+            "photophobia_present",
+            "phonophobia_present",
+            "nausea_present",
+            "headache_pulsating_quality"
+          ],
+          "estimated_prevalence_percent": 0.002
+        },
+        "SUNCT and SUNA": {
+          "criteria": [
+            "unilateral_neuralgiform_head_pain_orbital_temporal_region",
+            "ipsilateral_conjunctival_injection",
+            "ipsilateral_lacrimation",
+            "ipsilateral_nasal_congestion",
+            "ipsilateral_rhinorrhea",
+            "ipsilateral_ptosis",
+            "ipsilateral_periorbital_edema",
+            "ipsilateral_facial_sweating",
+            "pain_quality_neuralgiform_shock_like"
+          ],
+          "estimated_prevalence_percent": 0.001
+        }
+      },
+      "Idiopathic Stabbing Headache": {
+        "criteria": [
+          "scalp_jab_pain",
+          "pain_quality_lancinating",
+          "unilateral_scalp_pain",
+          "bilateral_scalp_pain",
+          "frontal_scalp_region_jab",
+          "parietal_scalp_region_jab",
+          "temporal_scalp_region_jab",
+          "occipital_scalp_region_jab",
+          "spontaneous_occurrence_of_pain",
+          "no_focal_neurological_deficits_on_exam"
+        ],
+        "estimated_prevalence_percent": 0.8
+      },
+      "Hypnic Headache": {
+        "criteria": [
+          "nocturnal_onset",
+          "awakening_due_to_headache",
+          "consistent_same_night_time_of_onset",
+          "attack_duration_15_to_180_minutes",
+          "bilateral_diffuse_headache_location",
+          "headache_quality_dull",
+          "normal_neurological_exam_between_attacks",
+          "elderly_onset_common",
+          "resolution_upon_waking"
+        ],
+        "estimated_prevalence_percent": 0.01
+      },
+      "New Daily Persistent Headache": {
+        "criteria": [
+          "abrupt_onset_headache_at_single_timepoint",
+          "daily_headache_present_from_onset",
+          "headache_location_bilateral_frontal_temporal_distribution",
+          "headache_pain_quality_throbbing",
+          "headache_pain_quality_pressure_like",
+          "headache_pain_intensity_moderate_to_severe",
+          "photophobia_present",
+          "phonophobia_present",
+          "nausea_present"
+        ],
+        "estimated_prevalence_percent": 0.15
+      },
+      "Nummular Headache": {
+        "criteria": [
+          "coin_shaped_pain_area_on_scalp",
+          "continuous_pain_in_coin_area",
+          "pain_quality_pressing_or_constrictive",
+          "scalp_area_tenderness_to_palpation",
+          "allodynia_in_coin_area",
+          "sensory_abnormality_in_coin_area",
+          "no_pain_radiation_beyond_coin_area",
+          "normal_neurological_exam",
+          "coin_area_diameter_1_to_3_cm"
+        ],
+        "estimated_prevalence_percent": 0.3
+      },
+      "Exertional Headache": {
+        "criteria": [
+          "exertional_trigger_present",
+          "pulsating_quality_present",
+          "pain_location_frontal_temporal_region_present",
+          "pain_intensity_moderate_to_severe_present",
+          "onset_during_or_immediately_after_exertion_present",
+          "photophobia_present",
+          "phonophobia_present",
+          "nausea_present"
+        ],
+        "estimated_prevalence_percent": 0.3
+      },
+      "Cough Headache": {
+        "criteria": [
+          "headache_triggered_by_cough",
+          "headache_triggered_by_valsalva_maneuver",
+          "headache_triggered_by_bending_forward",
+          "headache_onset_immediately_after_trigger",
+          "headache_location_occipital_region",
+          "headache_recurrence_with_same_trigger",
+          "neurological_examination_normal",
+          "neuroimaging_no_secondary_pathology_when_indicated"
+        ],
+        "estimated_prevalence_percent": 0.3
+      },
+      "Thunderclap Headache": {
+        "criteria": [
+          "sudden_onset_severe_headache",
+          "thunderclap_descriptor_reported",
+          "neck_stiffness_present",
+          "photophobia_present",
+          "phonophobia_present",
+          "nausea_present",
+          "vomiting_present",
+          "syncope_present",
+          "altered_mental_status_present",
+          "focal_neurological_deficit_present"
+        ],
+        "estimated_prevalence_percent": 0.2
+      },
+      "Cold-Stimulus Headache": {
+        "criteria": [
+          "COLD_TRIGGER_FACE_SCALP",
+          "ONSET_WITHIN_SECONDS_AFTER_COLD_EXPOSURE",
+          "PAIN_QUALITY_PRESSING_TIGHT",
+          "PAIN_LOCATION_FRONTOTEMPORAL_REGION",
+          "PAIN_INTENSITY_MODERATE",
+          "REPRODUCIBLE_WITH_EACH_COLD_EXPOSURE",
+          "NO_AURA_PRESENT",
+          "NO_NAUSEA_VOMITING",
+          "NO_PHOTOPHOBIA",
+          "NO_CONJUNCTIVAL_SYMPTOMS"
+        ],
+        "estimated_prevalence_percent": 20.0
+      },
+      "Ophthalmodynia Periodica": {
+        "criteria": [
+          "unilateral_periorbital_pain",
+          "conjunctival_injection_on_affected_side",
+          "lacrimation_on_affected_side",
+          "ptosis_on_affected_side",
+          "miosis_on_affected_side",
+          "nasal_congestion_on_affected_side",
+          "normal_neurological_examination_between_attacks",
+          "pain_quality_sharp_or_stabbing"
+        ],
+        "estimated_prevalence_percent": 0.01
+      },
+      "Sexual Headache": {
+        "criteria": [
+          "onset_during_sexual_activity",
+          "onset_at_orgasm",
+          "headache_onset_sudden_thunderclap",
+          "headache_location_occipital",
+          "headache_location_bilateral",
+          "headache_intensity_severe",
+          "associated_nausea_present",
+          "photophobia_present",
+          "neck_pain_present",
+          "recurs_with_sexual_activity"
+        ],
+        "estimated_prevalence_percent": 0.3
+      }
+    },
+    "Secondary Headache Disorders": {
+      "Headache Attributed to Trauma": {
+        "criteria": [
+          "headache_post_trauma_present",
+          "headache_location_unilateral",
+          "headache_quality_throbbing",
+          "headache_quality_pressure_like",
+          "headache_severity_moderate_to_severe",
+          "photophobia_present",
+          "phonophobia_present",
+          "nausea_present",
+          "vomiting_present",
+          "headache_exacerbated_by_physical_activity",
+          "headache_worsened_by_head_movement_or_bending",
+          "neurologic_examination_normal"
+        ],
+        "estimated_prevalence_percent": 0.4
+      },
+      "Medication Overuse Headache": {
+        "criteria": [
+          "rebound_headache_phenomenon",
+          "headache_quality_throbbing",
+          "headache_location_bilateral",
+          "nausea_present",
+          "photophobia_present",
+          "phonophobia_present",
+          "headache_intensity_moderate_to_severe",
+          "migraine_like_characteristics_present"
+        ],
+        "estimated_prevalence_percent": 1.0
+      },
+      "Headache Attributed to Infection": {
+        "criteria": [
+          "fever_present",
+          "malaise_present",
+          "myalgia_present",
+          "photophobia_present",
+          "phonophobia_present",
+          "nausea_present",
+          "headache_onset_coincident_with_infection_symptoms",
+          "headache_worsens_during_fever",
+          "headache_resolves_with_infection_resolution",
+          "leukocytosis_present",
+          "CRP_elevated"
+        ],
+        "estimated_prevalence_percent": 0.25
+      },
+      "Headache Attributed to Homeostatic Disorder": {
+        "criteria": [
+          "hypohydration_headache",
+          "hypoglycemia_headache",
+          "sleep_deprivation_headache",
+          "circadian_rhythm_disturbance_headache",
+          "orthostatic_hypotension_headache",
+          "electrolyte_disorder_headache",
+          "autonomic_dysregulation_headache",
+          "diurnal_intensity_variation_headache",
+          "thermoregulation_disruption_headache"
+        ],
+        "estimated_prevalence_percent": 0.5
+      },
+      "Headache Attributed to Psychiatric Disorder": {
+        "criteria": [
+          "ha_pain_intensity_0_10",
+          "ha_pain_quality_pressing_tight",
+          "ha_pain_location_bilateral_diffuse",
+          "ha_associated_nausea_present",
+          "ha_photophobia_present",
+          "ha_pain_worsened_by_anxiety",
+          "ha_pain_worsened_by_depressive_symptoms",
+          "ha_headache_cooccurs_with_anxiety_episode",
+          "ha_headache_cooccurs_with_depressive_episode",
+          "ha_headache_cooccurs_with_somatization_features"
+        ],
+        "estimated_prevalence_percent": 0.3
+      },
+      "Idiopathic Intracranial Hypertension": {
+        "criteria": [
+          "papilledema",
+          "transient_visual_obscurations",
+          "cranial_nerve_VI_palsy",
+          "pulsatile_tinnitus",
+          "visual_acuity_reduction",
+          "visual_field_defect",
+          "elevated_opening_pressure_lumbar_puncture",
+          "empty_sella_on_MRI",
+          "venous_sinus_stenosis_on_MRV",
+          "obesity_present"
+        ],
+        "estimated_prevalence_percent": 0.002
+      },
+      "Low Cerebrospinal Fluid Pressure Headache": {
+        "criteria": [
+          "orthostatic_headache_worsening_on_upright_position",
+          "headache_relieved_by_supine_position",
+          "neck_stiffness_present",
+          "nausea_present_during_headache",
+          "photophobia_present_during_headache",
+          "tinnitus_present_during_headache",
+          "diplopia_present_during_headache",
+          "transient_visual_disturbance_during_headache",
+          "cognitive_fog_during_headache",
+          "concentration_difficulty_during_headache",
+          "episodic_memory_impairment_during_headache",
+          "mood_change_during_headache"
+        ],
+        "estimated_prevalence_percent": 0.003
+      },
+      "Cervicogenic Headache": {
+        "criteria": [
+          "neck_pain_present",
+          "headache_radiates_occipital_from_neck",
+          "headache_worsened_by_neck_movement",
+          "headache_worsened_by_neck_posture",
+          "limited_neck_ROM_on_exam",
+          "tender_neck_muscles_on_palpation",
+          "suboccipital_tenderness_present",
+          "headache_quality_non_pulsatile",
+          "normal_focal_neurological_exam"
+        ],
+        "estimated_prevalence_percent": 0.4
+      },
+      "Orthostatic Headache": {
+        "criteria": [
+          "headache_worsens_with_upright_posture",
+          "headache_relief_with_supine_position",
+          "headache_quality_throbbing",
+          "neck_stiffness_present",
+          "nausea_present",
+          "photophobia_present",
+          "dizziness_present",
+          "vomiting_present",
+          "phonophobia_present"
+        ],
+        "estimated_prevalence_percent": 0.01
+      },
+      "Rhinitis Headache": {
+        "criteria": [
+          "nasal_congestion_severity",
+          "rhinorrhea_presence",
+          "nasal_pruritus_presence",
+          "sneezing_frequency",
+          "facial_pain_maxillary_sinus_tenderness",
+          "facial_pain_frontal_sinus_tenderness",
+          "headache_quality_pressing_or_bandlike",
+          "headache_location_frontal_region",
+          "nasal_mucosa_edema_present"
+        ],
+        "estimated_prevalence_percent": 0.75
+      }
+    },
+    "Painful Cranial Neuropathies and Other Facial Pains": {
+      "Trigeminal Neuralgia": {
+        "criteria": [
+          "unilateral_trigeminal_pain_paroxysms",
+          "electric_shock_like_pain_quality",
+          "pain_distribution_V2_V3_territory",
+          "trigger_pain_by_light_touch_to_face",
+          "trigger_pain_by_chewing",
+          "trigger_pain_by_temperature_change_to_face",
+          "interictal_pain_absent_between_attacks",
+          "lacrimation_during_attacks",
+          "conjunctival_injection_during_attacks"
+        ],
+        "estimated_prevalence_percent": 0.012
+      },
+      "Glossopharyngeal Neuralgia": {
+        "criteria": [
+          "unilateral_glossopharyngeal_pain_paroxysm",
+          "radiation_to_ear",
+          "radiation_to_base_of_tongue",
+          "lancinating_pain_quality",
+          "pain_triggered_by_swallowing",
+          "pain_triggered_by_talking",
+          "pain_triggered_by_chewing",
+          "pain_triggered_by_yawning",
+          "pain_triggered_by_coughing",
+          "paroxysmal_attack_series"
+        ],
+        "estimated_prevalence_percent": 0.001
+      },
+      "Occipital Neuralgia": {
+        "criteria": [
+          "paroxysmal_shooting_pain_in_occipital_region",
+          "unilateral_occipital_region_pain",
+          "electric_shock_like_pain_quality",
+          "tenderness_to_palpation_over_occipital_nerve_course",
+          "pain_reproduced_by_occipital_nerve_compression",
+          "allodynia_or_hyperalgesia_in_occipital_region",
+          "neck_movement_exacerbates_pain",
+          "radiation_to_vertex_area"
+        ],
+        "estimated_prevalence_percent": 0.3
+      },
+      "Facial Pain": {
+        "criteria": [
+          "electric_shock_like_pain",
+          "unilateral_facial_pain_distribution_in_trigeminal_territory",
+          "pain_triggered_by_light_touch",
+          "allodynia_to_facial_stimulation",
+          "paresthesia_in_facial_region",
+          "dysesthesia_in_facial_region",
+          "hyperalgesia_to_pain_stimuli",
+          "pain_involves_multiple_trigeminal_branches_V1_V2_V3",
+          "no_facial_motor_deficit_on_examination"
+        ],
+        "estimated_prevalence_percent": 1.2
+      },
+      "Temporomandibular Joint Disorder": {
+        "criteria": [
+          "tmj_pain_with_mandibular_movement",
+          "tmj_pain_at_rest",
+          "tmj_joint_clicks_on_mouth_opening",
+          "tmj_joint_crepitus_on_mandibular_movement",
+          "limited_maximal_mouth_opening",
+          "masticatory_muscle_tenderness_to_palpation",
+          "bruxism_present",
+          "pain_on_chewing",
+          "sleep_disturbance_due_to_tmj_pain",
+          "anxiety_symptoms_present",
+          "depressive_symptoms_present"
+        ],
+        "estimated_prevalence_percent": 9.0
+      }
+    },
+    "Other Headache- or Related Disorders": {
+      "Aura Without Migraine": {
+        "criteria": [
+          "visual_scintillations",
+          "visual_fortification_spectrum",
+          "unilateral_visual_field_deficit",
+          "somatosensory_paresthesias_face_limbs",
+          "aphasia_like_speech_disturbance",
+          "focal_motor_weakness",
+          "vertigo",
+          "ataxia_or_gait_disturbance",
+          "dysarthria"
+        ],
+        "estimated_prevalence_percent": 0.5
+      },
+      "Sleep-Related Headache": {
+        "criteria": [
+          "onset_during_sleep",
+          "awakening_headache",
+          "headache_location_bilateral",
+          "headache_quality_pulsatile",
+          "photophobia_present",
+          "phonophobia_present",
+          "nausea_present",
+          "normal_neurological_exam",
+          "no_focal_neurological_deficits"
+        ],
+        "estimated_prevalence_percent": 0.01
+      },
+      "Epilepsy": {
+        "Focal Epilepsies": {
+          "Temporal Lobe Epilepsy": {
+            "criteria": [
+              "epigastric_aura",
+              "olfactory_hallucination",
+              "gustatory_hallucination",
+              "deja_vu_aura",
+              "jamais_vu_experience",
+              "epileptic_fear_aura",
+              "lip_smacking_automatism",
+              "manual_fidget_automatism",
+              "impaired_awareness_during_seizure",
+              "postictal_amnesia",
+              "temporal_lobe_epileptiform_discharges",
+              "mesial_temporal_sclerosis_on_MRI"
+            ],
+            "estimated_prevalence_percent": 0.3
+          },
+          "Frontal Lobe Epilepsy": {
+            "criteria": [
+              "ictal_hypermotor_activity",
+              "orofacial_automatisms",
+              "vocalizations_during_ictus",
+              "dystonic_neck_posturing",
+              "unilateral_tonic_posturing_upper_limb",
+              "bicycling_movements_during_ictus",
+              "pelvic_thrashing_or_hip_rotation_movements",
+              "ictal_aggression_or_fear_response",
+              "ictal_laughter_or_crying",
+              "nocturnal_onset_episodes",
+              "ictal_autonomic_changes",
+              "preserved_consciousness_during_ictus"
+            ],
+            "estimated_prevalence_percent": 0.15
+          },
+          "Parietal Lobe Epilepsy": {
+            "criteria": [
+              "contralateral_paresthesias",
+              "contralateral_hypesthesia",
+              "topographic_disorientation",
+              "constructional_apraxia",
+              "finger_agnosia",
+              "acalculia",
+              "agraphia",
+              "hemispatial_neglect",
+              "ideomotor_apraxia",
+              "body_schema_distortion"
+            ],
+            "estimated_prevalence_percent": 0.04
+          },
+          "Occipital Lobe Epilepsy": {
+            "criteria": [
+              "scintillating_scotoma",
+              "teichopsia",
+              "geometric_visual_patterns",
+              "formed_visual_hallucinations",
+              "palinopsia",
+              "photopsia",
+              "transient_hemianopia_during_ictal",
+              "ictal_nystagmus",
+              "visual_field_deficit_during_ictal"
+            ],
+            "estimated_prevalence_percent": 0.2
+          }
+        },
+        "Generalized Epilepsies": {
+          "Childhood Absence Epilepsy": {
+            "criteria": [
+              "absence_seizure_episodes_present",
+              "absence_seizure_frequency_per_day",
+              "consciousness_impairment_during_absence",
+              "automatisms_present_during_absence",
+              "three_hz_spike_wave_eeg",
+              "onset_age_years_4_to_8",
+              "hyperventilation_induced_absence_seizures",
+              "bilateral_symmetrical_3hz_spike_wave_eeg",
+              "immediate_recovery_to_baseline_after_absence"
+            ],
+            "estimated_prevalence_percent": 0.07
+          },
+          "Juvenile Myoclonic Epilepsy": {
+            "criteria": [
+              "morning_myoclonus",
+              "awakening_generalized_tonic_clonic_seizures",
+              "sleep_deprivation_triggered_seizures",
+              "photic_stimulation_triggered_seizures",
+              "eeg_generalized_polyspike_and_wave_discharges",
+              "onset_age_12_to_18_years",
+              "family_history_epilepsy",
+              "normal_interictal_neurological_examination",
+              "executive_function_deficits"
+            ],
+            "estimated_prevalence_percent": 0.07
+          },
+          "Tonic-Clonic Seizures Only": {
+            "criteria": [
+              "loss_of_consciousness_at_onset",
+              "bilateral_tonic_phase_present",
+              "bilateral_clonic_phase_present",
+              "tongue_biting_present",
+              "urinary_incontinence_present",
+              "postictal_confusion_present",
+              "postictal_drowsiness_present",
+              "postictal_amnesia_present",
+              "postictal_emotional_lability_present",
+              "postictal_fatigue_present"
+            ],
+            "estimated_prevalence_percent": 0.5
+          },
+          "Lennox-Gastaut Syndrome": {
+            "criteria": [
+              "atonic_seizures_present",
+              "myoclonic_seizures_present",
+              "tonic_seizures_present",
+              "generalized_tonic_clonic_seizures_present",
+              "slow_spike_wave_EEG_pattern_present",
+              "interictal_epileptiform_discharges_present",
+              "intellectual_disability_present",
+              "language_delay_present",
+              "behavioral_regression_present",
+              "developmental_delay_present"
+            ],
+            "estimated_prevalence_percent": 0.02
+          }
+        },
+        "Cominbed Generalized and Focal Epilepsies": {
+          "Dravet Syndrome (Severe Myoclonic Epilepsy of Infancy)": {
+            "criteria": [
+              "infant_onset_febrile_seizures",
+              "prolonged_febrile_seizures",
+              "clustered_febrile_seizures",
+              "myoclonic_seizures_in_infancy",
+              "generalized_seizures_present",
+              "focal_seizures_present",
+              "multiple_seizure_types_present",
+              "neurodevelopmental_delay_present",
+              "language_delay_present",
+              "intellectual_disability_present",
+              "ataxia_or_gait_imbalance_present",
+              "hypotonia_in_infant_present",
+              "autistic_like_social_deficits_present"
+            ],
+            "estimated_prevalence_percent": 0.0035
+          },
+          "Doose Syndrome (Myoclonic-Astatic Epilepsy)": {
+            "criteria": [
+              "onset_age_before_5_years",
+              "seizure_type_myoclonic",
+              "seizure_type_atonic",
+              "seizure_type_tonic_clonic",
+              "EEG_generalized_spike_and_wave",
+              "EEG_polyspike_and_wave",
+              "normal_development_before_onset",
+              "developmental_decline_post_onset",
+              "sleep_related_seizure_exacerbation",
+              "cognitive_impairment_present"
+            ],
+            "estimated_prevalence_percent": 0.01
+          }
+        },
+        "Reflex Epilepsies": {
+          "Photosensitive Epilepsy": {
+            "criteria": [
+              "photoparoxysmal_EEG_response",
+              "photic_stimulation_induced_seizure",
+              "photic_stimulation_induced_myoclonia",
+              "strobe_light_triggered_seizure",
+              "sunlight_flash_triggered_seizure",
+              "video_game_related_photosensitivity_seizure",
+              "flicker_stimulation_threshold_for_seizure",
+              "intermittent_photic_stimulation_EEG_discharge",
+              "flicker_stimulation_induced_EEG_changes"
+            ],
+            "estimated_prevalence_percent": 0.2
+          },
+          "Startle Epilepsy": {
+            "criteria": [
+              "startle_triggered_seizure_occurrence",
+              "generalized_tonic_clonic_seizure_after_startle",
+              "focal_impaired_awareness_seizure_after_startle",
+              "myoclonic_blasts_initiated_by_startle",
+              "autonomic_symptoms_during_startle_seizure",
+              "postictal_confusion_after_startle_seizure",
+              "postictal_fatigue_after_startle_seizure",
+              "EEG_onset_coincides_with_startle_stimulus",
+              "interictal_epileptiform_activity_between_startle_seizures"
+            ],
+            "estimated_prevalence_percent": 0.01
+          },
+          "Prolonged Focus Induced Epilepsy": {
+            "criteria": [
+              "seizure_evoked_by_prolonged_focus",
+              "EEG_epileptiform_discharge_during_prolonged_focus",
+              "impaired_consciousness_during_focus_evoked_seizure",
+              "postictal_fatigue_or_confusion_after_focus_evoked_seizure",
+              "autonomic_symptoms_during_focus_evoked_seizure",
+              "aura_present_during_focus_evoked_seizure",
+              "focal_motor_manifestations_during_focus_evoked_seizure",
+              "recurrence_on_reexposure_to_prolonged_focus"
+            ],
+            "estimated_prevalence_percent": 0.01
+          }
+        },
+        "Progressive Myoclonic Epilepsies": {
+          "Unverricht-Lundborg Disease": {
+            "criteria": [
+              "startle_triggered_myoclonus_present",
+              "movement_triggered_myoclonus_present",
+              "myoclonic_seizures_present",
+              "generalized_tonic_clonic_seizures_present",
+              "gait_ataxia_present",
+              "dysarthria_present",
+              "cognitive_impairment_present",
+              "pyramidal_signs_present",
+              "hyperreflexia_present",
+              "intention_tremor_present"
+            ],
+            "estimated_prevalence_percent": 0.001
+          },
+          "Lafora Disease": {
+            "criteria": [
+              "myoclonus_present",
+              "generalized_seizures_present",
+              "childhood_onset_epilepsy",
+              "progressive_cognitive_decline",
+              "ataxia",
+              "dysarthria",
+              "psychiatric_symptoms",
+              "spastic_gait",
+              "EEG_epileptiform_abnormalities",
+              "MRI_brain_atrophy"
+            ],
+            "estimated_prevalence_percent": 0.0001
+          }
+        },
+        "Developmental and Epileptic Encephalopathies": {
+          "West Syndrome (Infantile Spasms)": {
+            "criteria": [
+              "infantile_spasms_present",
+              "spasms_cluster_presentation_present",
+              "spasms_bilateral_symmetric_presentation_present",
+              "hypsarrhythmia_EEG_present",
+              "developmental_delay_observed",
+              "neurodevelopmental_regression_observed",
+              "microcephaly_present",
+              "hypotonia_present",
+              "structural_brain_abnormality_on_MRI_present"
+            ],
+            "estimated_prevalence_percent": 0.02
+          },
+          "Landau-Kleffner": {
+            "criteria": [
+              "acquired_aphasia_after_normal_language_development",
+              "receptive_language_impairment",
+              "expressive_language_impairment",
+              "seizures_present",
+              "sleep_related_epileptiform_discharges_EEG",
+              "normal_hearing",
+              "onset_age_before_7_years",
+              "EEG_abnormalities_without_structural_brain_lesion"
+            ],
+            "estimated_prevalence_percent": 0.01
+          }
+        },
+        "Self-Limited Epilepsies": {
+          "Benign Rolandic Epilepsy": {
+            "criteria": [
+              "unilateral_orofacial_focal_motor_seizures",
+              "hypersalivation_during_seizure",
+              "speech_arrest_during_seizure",
+              "lip_smacking_oral_automatisms",
+              "tongue_movements_during_seizure",
+              "nocturnal_seizures_predominant"
+            ],
+            "estimated_prevalence_percent": 0.01
+          },
+          "Panayiotopoulos Syndrome": {
+            "criteria": [
+              "ictal_vomiting",
+              "ictal_pallor",
+              "ictal_tachycardia",
+              "ictal_pupillary_dilation",
+              "ictal_eye_deviation",
+              "ictal_head_turning",
+              "ictal_visual_disturbance",
+              "ictal_speech_arrest",
+              "ictal_nasal_congestion",
+              "postictal_fatigue"
+            ],
+            "estimated_prevalence_percent": 0.02
+          }
+        },
+        "Other Epilepsies": {
+          "Hypothalamus Hamartoma": {
+            "criteria": [
+              "gelastic_seizures",
+              "focal_seizures",
+              "central_precocious_puberty",
+              "cognitive_impairment",
+              "behavioral_disturbance",
+              "sleep_disturbance",
+              "recurrent_headache",
+              "eeg_epileptiform_activity_hypothalamic_region",
+              "imaging_confirmed_hypothalamic_hamartoma"
+            ],
+            "estimated_prevalence_percent": 0.01
+          },
+          "Autosomal Dominant Nocturnal Frontal Lobe Epilepsy": {
+            "criteria": [
+              "nocturnal_focal_motor_ictus_frontal_origin",
+              "hyperkinetic_nocturnal_movements",
+              "nocturnal_vocalisations",
+              "autonomic_signs_during_nocturnal_seizures",
+              "postictal_amnesia_for_nocturnal_events",
+              "automatisms_during_sleep_seizures",
+              "family_history_ADNFLE_in_first_degree_relatives",
+              "interictal_frontal_lobe_epileptiform_discharges_on_EEG",
+              "ictal_frontal_seizure_signature_on_EEG"
+            ],
+            "estimated_prevalence_percent": 0.02
+          },
+          "Jeavons Syndrome (Eyelid Myoclonia with Absences)": {
+            "criteria": [
+              "eyelid_myoclonia_events",
+              "absence_attacks",
+              "photic_stimulation_triggered_events",
+              "eye_opening_closing_triggered_events",
+              "generalized_tonic_clonic_seizures_presence",
+              "eeg_spike_and_wave_3hz_presence",
+              "photoparoxysmal_eeg_response_presence"
+            ],
+            "estimated_prevalence_percent": 0.02
+          },
+          "Postictal Headache": {
+            "criteria": [
+              "PIH_onset_postictal",
+              "PIH_bilateral_head_pain_location",
+              "PIH_pain_quality_band_like",
+              "PIH_pain_intensity_moderate_to_severe",
+              "PIH_associated_nausea",
+              "PIH_associated_vomiting",
+              "PIH_associated_photophobia",
+              "PIH_associated_phonophobia",
+              "PIH_associated_dizziness",
+              "PIH_associated_concentration_difficulty"
+            ],
+            "estimated_prevalence_percent": 0.3
+          }
+        }
+      }
+    }
+  },
+  "Gastrointestinal Disorders": {
+    "Psychogenic Vomiting": {
+      "criteria": [
+        "recurrent_vomiting_episodes",
+        "emesis_triggered_by_psychological_stress",
+        "vomiting_with_normal_abdominal_examination",
+        "normal_abdominal_imaging_when_performed",
+        "normal_biochemical_panels",
+        "absence_of_alternative_organic_pathology_after_workup",
+        "emesis_not_altered_by_meals_or_food_intake",
+        "psychological_distress_history_concurrent_with_vomiting",
+        "episodic_vomiting_without_weight_loss_or_dehydration_signs"
+      ],
+      "estimated_prevalence_percent": 0.1
+    },
+    "Functional Gastrointestinal Disorders": {
+      "Irritable Bowel Syndrome": {
+        "criteria": [
+          "recurrent_abdominal_pain",
+          "pain_relieved_by_defecation",
+          "altered_stool_frequency",
+          "altered_stool_form",
+          "mucus_in_stool",
+          "abdominal_bloating",
+          "fecal_urgency",
+          "incomplete_evacuative_sensation",
+          "abdominal_distension"
+        ],
+        "estimated_prevalence_percent": 11.0
+      },
+      "Functional Dyspepsia": {
+        "criteria": [
+          "POSTPRANDIAL_FULLNESS",
+          "EARLY_SATIETY",
+          "EPIGASTRIC_PAIN",
+          "EPIGASTRIC_BURNING",
+          "NAUSEA",
+          "ERUCTATION",
+          "BLOATING",
+          "DELAYED_GASTRIC_EMPTYING",
+          "IMPAIRED_GASTRIC_ACCOMMODATION",
+          "GASTRIC_HYPERSENSITIVITY"
+        ],
+        "estimated_prevalence_percent": 9.5
+      },
+      "Functional Abdominal Pain Syndrome": {
+        "criteria": [
+          "recurrent_abdominal_pain",
+          "pain_not_relieved_by_defecation",
+          "pain_interferes_with_daily_activities",
+          "pain_related_psychological_distress",
+          "pain_related_sleep_disturbance",
+          "fatigue_related_to_pain",
+          "headache_present",
+          "dizziness_present",
+          "musculoskeletal_pain_present",
+          "pain_exacerbated_by_stress"
+        ],
+        "estimated_prevalence_percent": 1.2
+      },
+      "Functional Constipation": {
+        "criteria": [
+          "Illness_anxiety_about_constipation",
+          "Stool_withholding_behavior",
+          "Toilet_avoidance_public_settings",
+          "Interoceptive_hypervigilance_gut_signals",
+          "Rumination_about_bowel_sensations",
+          "Catastrophizing_about_constipation_symptoms",
+          "Stress_reactivity_of_gastrointestinal_symptoms",
+          "Sleep_disturbance_due_to_gut_discomfort",
+          "Mood_disturbance_associated_with_constipation_flare",
+          "Social_withdrawal_due_to_defecation_anxiety"
+        ],
+        "estimated_prevalence_percent": 14.0
+      },
+      "Functional Diarrhea": {
+        "criteria": [
+          "stool_consistency_loose_watery",
+          "stool_frequency_ge_3_per_day",
+          "urgent_defecation",
+          "fecal_incontinence",
+          "stool_mucus_presence",
+          "abdominal_bloating",
+          "nocturnal_stool_events_absent",
+          "stool_pain_absent_or_mild",
+          "stool_form_bristol_scale_6_7"
+        ],
+        "estimated_prevalence_percent": 2.5
+      }
+    },
+    "Idiopathic Gastrointestinal Disorders": {
+      "Idiopathic Esophageal Disorders": {
+        "Idiopathic Esophageal Achalasia": {
+          "criteria": [
+            "dysphagia_related_anxiety",
+            "eating_avoidance_due_to_dysphagia",
+            "illness_anxiety_about_achalasia",
+            "catastrophizing_swallowing_difficulty",
+            "sleep_disturbance_due_to_dysphagia",
+            "social_function_impairment_from_dysphagia",
+            "depressive_symptoms_related_to_chronic_symptom_burden",
+            "somatic_symptom_burden_elevated",
+            "rumination_about_dysphagia"
+          ],
+          "estimated_prevalence_percent": 0.01
+        },
+        "Idiopathic Eosinophilic Esophagitis": {
+          "criteria": [
+            "esophageal_eosinophils_ge_15_per_hpf",
+            "dysphagia_solids",
+            "food_impaction_history",
+            "odynophagia_present",
+            "endoscopy_linear_furrows_present",
+            "endoscopy_mucosal_rings_present",
+            "endoscopy_white_exudates_present",
+            "endoscopy_mucosal_edema_present",
+            "atopy_history_present",
+            "peripheral_eosinophilia_present",
+            "avoidant_eating_behavior_present",
+            "meal_related_anxiety_present"
+          ],
+          "estimated_prevalence_percent": 0.08
+        }
+      },
+      "Idiopathic Gastric Disorders": {
+        "Idiopathic Gastroparesis": {
+          "criteria": [
+            "nausea_present",
+            "vomiting_present",
+            "early_satiety_present",
+            "postprandial_fullness_present",
+            "bloating_present",
+            "abdominal_pain_present",
+            "weight_loss_present",
+            "dehydration_sign_present",
+            "malnutrition_sign_present",
+            "regurgitation_present",
+            "delayed_gastric_emptying_confirmed",
+            "gastric_retention_evidence_on_scintigraphy_present"
+          ],
+          "estimated_prevalence_percent": 0.3
+        },
+        "Idiopathic Gastritis": {
+          "criteria": [
+            "epigastric_pain_intensity",
+            "epigastric_burning_sensation_present",
+            "nausea_frequency",
+            "vomiting_frequency",
+            "early_satiety_presence",
+            "abdominal_bloating_frequency",
+            "unexplained_weight_loss_presence",
+            "appetite_loss_frequency",
+            "anxiety_about_gastritis_symptoms"
+          ],
+          "estimated_prevalence_percent": 0.2
+        },
+        "Idiopathic Gastric Outlet Obstruction": {
+          "criteria": [
+            "epigastric_pain_postprandial",
+            "early_satiation",
+            "nausea_postprandial",
+            "nonbilious_vomiting",
+            "unintentional_weight_loss",
+            "epigastric_abdominal_distension",
+            "hypochloremic_metabolic_alkalosis",
+            "dehydration_signs",
+            "cognitive_impairment_observed",
+            "attention_deficit_observed",
+            "mood_disturbance_observed",
+            "decreased_appetite"
+          ],
+          "estimated_prevalence_percent": 0.01
+        },
+        "Idiopathic Gastric Antral Vascular Ectasia": {
+          "criteria": [
+            "endoscopic_watermelon_stomach_pattern_in_antrum",
+            "endoscopic_longitudinal_erythematous_stripes_in_gastric_antrum",
+            "histology_dilated_capillaries_in_gastric_mucosa",
+            "histology_fibromuscular_hyperplasia_of_gastric_antral_mucosa",
+            "iron_deficiency_anemia_lab_confirmed",
+            "low_serum_ferritin",
+            "low_mean_corpuscular_volume",
+            "positive_fecal_occult_blood_test",
+            "documented_hematemesis_or_melena"
+          ],
+          "estimated_prevalence_percent": 0.01
+        }
+      },
+      "Idiopathic Intestinal Disorders": {
+        "Idiopathic Chronic Constipation": {
+          "criteria": [
+            "delayed_colonic_transit",
+            "stool_frequency_lt_3_per_week",
+            "stool_form_type_1_or_2",
+            "defecation_straining_during_defecation",
+            "incomplete_evacuations_feeling_post_defecation",
+            "abdominal_bloating",
+            "pelvic_floor_dyssynergia_during_defecation",
+            "rectal_hypersensitivity",
+            "time_spent_defecating_exceeds_15_minutes_per_attempt",
+            "manual_augmentation_during_defecation",
+            "defecation_related_anxiety_or_preoccupation",
+            "stool_withholding_behavior"
+          ],
+          "estimated_prevalence_percent": 14.0
+        },
+        "Idiopathic Chronic Diarrhea": {
+          "criteria": [
+            "stool_frequency_increase",
+            "stool_watery_consistency",
+            "stool_urgency_present",
+            "nocturnal_defecation_present",
+            "fecal_incontinence_present",
+            "abdominal_pain_present",
+            "hypervigilance_to_gi_symptoms_present",
+            "health_anxiety_about_bowel_symptoms_present",
+            "catastrophizing_bowel_symptoms_present",
+            "social_work_impairment_due_to_diarrhea_present"
+          ],
+          "estimated_prevalence_percent": 0.5
+        },
+        "Idiopathic Ulcerative Colitis": {
+          "criteria": [
+            "anxiety_symptom_severity",
+            "depression_symptom_severity",
+            "fatigue_intensity",
+            "cognitive_impairment_present",
+            "sleep_disturbance_present",
+            "emotional_lability_present",
+            "quality_of_life_reduction_due_to_mental_symptoms",
+            "social_withdrawal_behavior_present",
+            "psychomotor_agitation_or_retardation_present"
+          ],
+          "estimated_prevalence_percent": 0.3
+        },
+        "Idiopathic Inflammatory Bowel Disease": {
+          "criteria": [
+            "IBD_chronic_fatigue",
+            "IBD_depressed_mood",
+            "IBD_anxiety_symptoms",
+            "IBD_sleep_disturbance",
+            "IBD_cognitive_fog",
+            "IBD_attention_deficit",
+            "IBD_memory_impairment",
+            "IBD_executive_function_impairment",
+            "IBD_psychomotor_changes",
+            "IBD_social_function_decline"
+          ],
+          "estimated_prevalence_percent": 0.4
+        },
+        "Idiopathic Intestinal Pseudo-Obstruction": {
+          "criteria": [
+            "executive_function_deficit",
+            "working_memory_deficit",
+            "attention_deficit",
+            "processing_speed_slowing",
+            "verbal_fluency_reduction",
+            "episodic_memory_deficit",
+            "emotional_lability",
+            "anxiety_symptoms",
+            "depressed_mood",
+            "psychomotor_retardation"
+          ],
+          "estimated_prevalence_percent": 0.0005
+        },
+        "Idiopathic Short Bowel Syndrome": {
+          "criteria": [
+            "executive_dysfunction",
+            "attention_deficit",
+            "short_term_memory_impairment",
+            "processing_speed_slowing",
+            "disorientation_time_or_place",
+            "apathy_or_avolition",
+            "depressed_mood",
+            "anxiety_symptoms",
+            "peripheral_neuropathy_signs",
+            "gait_ataxia",
+            "serum_B12_below_normal",
+            "serum_folate_below_normal"
+          ],
+          "estimated_prevalence_percent": 0.01
+        },
+        "Idiopathic Recurrent Vomiting": {
+          "criteria": [
+            "recurrent_vomiting_episodes",
+            "inter_episode_asymptomatic_periods",
+            "pre_emetic_nausea_present",
+            "stress_or_anxiety_trigger_emesis",
+            "normal_growth_parameters_between_episodes",
+            "normal_lab_results_between_episodes",
+            "normal_endoscopy_findings_when_performed",
+            "no_weight_loss_between_episodes",
+            "family_history_of_recurrent_vomiting"
+          ],
+          "estimated_prevalence_percent": 0.15
+        },
+        "Idiopathic Fecal Incontinence": {
+          "criteria": [
+            "urge_fecal_incontinence",
+            "passive_fecal_incontinence",
+            "incontinence_liquid_stool",
+            "incontinence_solid_stool",
+            "incontinence_gas",
+            "reduced_rectal_sensation",
+            "low_anal_sphincter_rest_pressure",
+            "stress_induced_fecal_incontinence",
+            "fecal_incontinence_worsened_by_diarrhea",
+            "nocturnal_fecal_incontinence",
+            "anxiety_related_to_incontinence",
+            "avoidance_of_social_activities_due_to_incontinence",
+            "depression_symptoms_related_to_incontinence"
+          ],
+          "estimated_prevalence_percent": 3.0
+        },
+        "Idiopathic Mesenteric Ischemia": {
+          "criteria": [
+            "postprandial_abdominal_pain_present",
+            "weight_loss_present",
+            "sitophobia_present",
+            "abdominal_bruit_present_on_auscultation",
+            "ct_angiography_mesenteric_artery_stenosis_present",
+            "nausea_present",
+            "vomiting_present",
+            "reduced_food_intake_present",
+            "elevated_serum_lactate_present"
+          ],
+          "estimated_prevalence_percent": 0.01
+        },
+        "Idiopathic Rectal Prolapse": {
+          "criteria": [
+            "external_rectal_prolapse_protrusion_during_straining",
+            "prolapse_reducible_by_manual_reduction",
+            "rectal_mucous_discharge_associated_with_prolapse",
+            "fecal_incontinence_present_with_prolapse",
+            "rectal_bleeding_occurring_with_prolapse_events",
+            "pelvic_floor_weakness_signs_on_exam",
+            "perineal_sensation_of_pressure_with_prolapse",
+            "defecatory_difficulty_cooccurring_with_prolapse",
+            "anal_sphincter_tone_altered_by_prolapse"
+          ],
+          "estimated_prevalence_percent": 0.2
+        }
+      },
+      "Idiopathic Hepatic Disorders": {
+        "Idiopathic Hepatic Fibrosis": {
+          "criteria": [
+            "ASTERIXIS_PRESENT",
+            "SLEEP_WAKE_CYCLE_REVERSED",
+            "CONFUSIONAL_STATE_PRESENT",
+            "DISORIENTATION_TO_TIME",
+            "DISORIENTATION_TO_PLACE",
+            "IMPAIRED_ATTENTION",
+            "IMPAIRED_CONCENTRATION",
+            "SLOWED_PROCESSING_SPEED",
+            "IMPAIRED_WORKING_MEMORY",
+            "MOOD_LABILITY",
+            "CONSTRUCTIONAL_APRAXIA_PRESENT",
+            "HAND_TREMOR_PRESENT"
+          ],
+          "estimated_prevalence_percent": 0.01
+        },
+        "Idiopathic Autoimmune Hepatitis": {
+          "criteria": [
+            "Asterixis_present",
+            "Confusion_present",
+            "Fatigue_present",
+            "Pruritus_present",
+            "Jaundice_present",
+            "Hepatomegaly_present",
+            "ALT_elevation",
+            "AST_elevation",
+            "Bilirubin_elevation",
+            "ANA_positivity",
+            "SMA_positivity",
+            "LKM1_positivity",
+            "IgG_elevation"
+          ],
+          "estimated_prevalence_percent": 0.04
+        },
+        "Idiopathic Non-Cirrhotic Portal Hypertension": {
+          "criteria": [
+            "splenomegaly",
+            "esophageal_varices",
+            "portal_hypertensive_gastropathy",
+            "ascites_present",
+            "thrombocytopenia",
+            "normal_bilirubin",
+            "normal_albumin",
+            "normal_inr",
+            "imaging_no_cirrhosis",
+            "obliterative_portal_venopathy",
+            "nodular_regenerative_hyperplasia",
+            "elevated_hvpg"
+          ],
+          "estimated_prevalence_percent": 0.01
+        },
+        "Idiopathic Portal Hypertension": {
+          "criteria": [
+            "splenomegaly",
+            "thrombocytopenia",
+            "hypersplenism",
+            "esophageal_varices",
+            "portal_hypertensive_gastropathy",
+            "ascites",
+            "elevated_portal_pressure",
+            "portosystemic_shunt",
+            "normal_bilirubin",
+            "normal_albumin",
+            "normal_inr",
+            "normal_ast_alt"
+          ],
+          "estimated_prevalence_percent": 0.005
+        }
+      },
+      "Idioapthic Pancreatic Disorders": {
+        "Idiopathic Chronic Pancreatitis": {
+          "criteria": [
+            "epigastric_pain",
+            "pain_radiation_to_back",
+            "postprandial_epigastric_pain",
+            "steatorrhea",
+            "unintentional_weight_loss",
+            "fecal_fat_excretion_increased",
+            "abdominal_tenderness_on_examination",
+            "pancreatic_calcifications_on_imaging",
+            "pancreatic_ductal_dilatation_on_imaging",
+            "pancreatogenic_diabetes_mellitus"
+          ],
+          "estimated_prevalence_percent": 0.04
+        },
+        "Idiopathic Acute Pancreatitis": {
+          "criteria": [
+            "pain_intensity_increases_with_stress",
+            "anxiety_present_during_epigastric_pain_episode",
+            "sleep_disturbance_during_pancreatitis_attack",
+            "mood_fluctuation_associated_with_pancreatitis_episode",
+            "pain_catastrophizing_response",
+            "illness_anxiety_about_recurrence",
+            "somatic_symptom_focus_on_abdominal_pain",
+            "social_function_impairment_during_attack",
+            "avoidant_behavior_due_to_pain_expectation"
+          ],
+          "estimated_prevalence_percent": 0.03
+        },
+        "Idiopathic Pancreatic Pseudocyst": {
+          "criteria": [
+            "cognitive_decline",
+            "executive_dysfunction",
+            "working_memory_impairment",
+            "attention_deficit",
+            "episodic_memory_impairment",
+            "processing_speed_slowing",
+            "language_fluency_decline",
+            "depressive_symptomatology",
+            "anxiety_symptomatology",
+            "sleep_disturbance_insomnia",
+            "irritability_agitation",
+            "functional_impairment_in_work_social"
+          ],
+          "estimated_prevalence_percent": 0.01
+        },
+        "Idiopathic Pancreatic Insufficiency": {
+          "criteria": [
+            "cognitive_slowness",
+            "attention_deficit",
+            "working_memory_impairment",
+            "executive_function_impairment",
+            "verbal_fluency_decline",
+            "depressed_mood",
+            "anxiety_symptoms",
+            "fatigue_persistent",
+            "ataxia",
+            "peripheral_neuropathy",
+            "low_fat_sol_vitamin_levels",
+            "steatorrhea_present"
+          ],
+          "estimated_prevalence_percent": 0.01
+        }
+      },
+      "Idiopathic Biliary Disorders": {
+        "Idiopathic Bile Acid Malabsorption": {
+          "criteria": [
+            "stool_diarrhea_daily_frequency",
+            "stool_consistency_watery",
+            "steatorrhea_presence",
+            "stool_urgency",
+            "stool_fecal_incontinence",
+            "abdominal_bloating",
+            "postprandial_abdominal_pain",
+            "unintentional_weight_loss",
+            "fatigue_subjective",
+            "cognitive_fog"
+          ],
+          "estimated_prevalence_percent": 0.8
+        },
+        "Idiopathic Sphincter of Oddi Dysfunction": {
+          "criteria": [
+            "colicky_epigastric_pain_descriptor",
+            "postprandial_pain_exacerbation",
+            "pain_radiation_to_back_or_right_epigastric_area",
+            "tachycardia_during_pain_episode",
+            "pain_hypervigilance_present",
+            "pain_catastrophizing_score_high",
+            "somatic_symptom_burden_high",
+            "state_anxiety_elevated_during_pain_episode",
+            "depressive_symptoms_present",
+            "functional_impairment_due_to_pain_in_daily_activities"
+          ],
+          "estimated_prevalence_percent": 0.0015
+        }
+      }
+    }
+  },
+  "Diseases of the Nervous System": {
+    "Inflammatory diseases of the central nervous system": {
+      "Bacterial meningitis, not elsewhere classified": {
+        "criteria": [
+          "delirium_present",
+          "orientation_impaired",
+          "attention_deficit",
+          "memory_impairment",
+          "agitation",
+          "irritability",
+          "hallucinations",
+          "severe_headache",
+          "fever_pyrexia",
+          "nuchal_rigidity",
+          "photophobia",
+          "positive_kernig_sign",
+          "positive_brudzinski_sign",
+          "seizure_occurrence"
+        ],
+        "estimated_prevalence_percent": 0.003
+      },
+      "Meningitis in bacterial diseases classified elsewhere": {
+        "criteria": [
+          "fever",
+          "neck_stiffness",
+          "photophobia",
+          "severe_headache",
+          "altered_mental_status",
+          "vomiting",
+          "nausea",
+          "positive_kernig_sign",
+          "positive_brudzinski_sign",
+          "csf_neutrophilic_pleocytosis",
+          "csf_glucose_below_threshold",
+          "csf_protein_elevated",
+          "csf_gram_stain_positive",
+          "csf_culture_positive",
+          "csf_opening_pressure_elevated"
+        ],
+        "estimated_prevalence_percent": 0.001
+      },
+      "Meningitis in other infectious and parasitic diseases classified elsewhere": {
+        "criteria": [
+          "delirium_presence",
+          "altered_attention",
+          "short_term_memory_deficit",
+          "disorientation",
+          "language_deficit",
+          "executive_function_deficit",
+          "visual_hallucinations",
+          "auditory_hallucinations",
+          "delusional_thought_content",
+          "mood_disturbance",
+          "sleep_wake_cycle_disturbance",
+          "psychomotor_changes"
+        ],
+        "estimated_prevalence_percent": 0.001
+      },
+      "Meningitis due to other and unspecified causes": {
+        "criteria": [
+          "delirium",
+          "encephalopathy",
+          "memory_impairment",
+          "attention_deficit",
+          "executive_function_deficit",
+          "language_dysfunction",
+          "orientation_disturbance",
+          "visuospatial_deficit",
+          "mood_disturbance",
+          "sleep_wake_cycle_disruption"
+        ],
+        "estimated_prevalence_percent": 0.001
+      },
+      "Encephalitis, myelitis and encephalomyelitis": {
+        "criteria": [
+          "fever",
+          "headache",
+          "delirium",
+          "seizure_activity",
+          "aphasia",
+          "hemiparesis",
+          "ataxia",
+          "dysarthria",
+          "myoclonus"
+        ],
+        "estimated_prevalence_percent": 0.01
+      },
+      "Encephalitis, myelitis and encephalomyelitis in diseases classified elsewhere": {
+        "criteria": [
+          "altered_mental_status",
+          "seizure_activity",
+          "cognitive_impairment",
+          "hemiparesis",
+          "paraparesis",
+          "sensory_deficit",
+          "ataxia",
+          "optic_neuritis",
+          "bladder_bowel_dysfunction",
+          "dysarthria",
+          "cranial_nerve_palsy",
+          "hyperreflexia",
+          "pathological_babinski"
+        ],
+        "estimated_prevalence_percent": 0.002
+      },
+      "Intracranial and intraspinal abscess and granuloma": {
+        "criteria": [
+          "fever",
+          "headache",
+          "altered_mental_status",
+          "cognitive_impairment",
+          "memory_deficit",
+          "seizure_activity",
+          "focal_neurological_deficit",
+          "aphasia",
+          "nuchal_rigidity",
+          "papilledema",
+          "radiculopathy",
+          "ataxia"
+        ],
+        "estimated_prevalence_percent": 0.001
+      },
+      "Intracranial and intraspinal abscess and granuloma in diseases classified elsewhere": {
+        "criteria": [
+          "headache_present",
+          "fever_present",
+          "altered_mental_status",
+          "delirium_present",
+          "confusion_present",
+          "memory_impairment",
+          "seizure_occurrence",
+          "hemiparesis",
+          "ataxia",
+          "papilledema_present",
+          "nuchal_rigidity",
+          "cranial_nerve_palsy",
+          "urinary_dysfunction"
+        ],
+        "estimated_prevalence_percent": 0.001
+      },
+      "Intracranial and intraspinal phlebitis and thrombophlebitis": {
+        "criteria": [
+          "altered_mental_status",
+          "attention_deficit",
+          "memory_impairment",
+          "executive_dysfunction",
+          "aphasia",
+          "dysarthria",
+          "seizure_activity",
+          "headache",
+          "hemiparesis",
+          "ataxia",
+          "sensory_deficit",
+          "cranial_nerve_palsy"
+        ],
+        "estimated_prevalence_percent": 0.01
+      },
+      "Sequelae of inflammatory diseases of central nervous system": {
+        "criteria": [
+          "memory_impairment",
+          "executive_function_deficit",
+          "attention_deficit",
+          "processing_speed_reduction",
+          "verbal_fluency_impairment",
+          "visuospatial_deficit",
+          "focal_motor_weakness",
+          "ataxia",
+          "sensory_deficit",
+          "dysarthria",
+          "post_inflammatory_epilepsy",
+          "chronic_fatigue"
+        ],
+        "estimated_prevalence_percent": 0.04
+      }
+    },
+    "Systemic atrophies primarily affecting the central nervous system": {
+      "Huntington disease": {
+        "criteria": [
+          "CHOREA",
+          "DYSARTHRIA",
+          "GAIT_DISTURBANCE",
+          "EXECUTIVE_DYSFUNCTION",
+          "DEPRESSION",
+          "APATHY",
+          "IRRITABILITY",
+          "SACCADIC_IMPAIRMENT",
+          "CAUDATE_NUCLEUS_ATROPHY"
+        ],
+        "estimated_prevalence_percent": 0.005
+      },
+      "Hereditary ataxia": {
+        "criteria": [
+          "gait_ataxia_wide_based_stance",
+          "limb_ataxia_dysmetria",
+          "limb_ataxia_dysdiadochokinesia",
+          "intention_tremor",
+          "nystagmus_present",
+          "dysarthria_motor_speech_impairment",
+          "truncal_ataxia",
+          "hypotonia_muscle_tone_reduction",
+          "babinski_sign_present",
+          "reduced_deep_tendon_reflexes"
+        ],
+        "estimated_prevalence_percent": 0.002
+      },
+      "Spinal muscular atrophy and related syndromes": {
+        "criteria": [
+          "proximal_limb_weakness",
+          "muscle_atrophy",
+          "fasciculations",
+          "hyporeflexia",
+          "hypotonia",
+          "bulbar_weakness",
+          "dysarthria",
+          "dysphagia",
+          "gowers_sign",
+          "scoliosis",
+          "respiratory_muscle_weakness",
+          "nocturnal_hypoventilation",
+          "recurrent_respiratory_infections",
+          "pes_cavus_foot_deformity",
+          "joint_contractures"
+        ],
+        "estimated_prevalence_percent": 0.002
+      },
+      "Systemic atrophies primarily affecting central nervous system in diseases classified elsewhere": {
+        "criteria": [
+          "cognitive_impairment",
+          "executive_dysfunction",
+          "gait_ataxia",
+          "parkinsonism",
+          "dystonia",
+          "chorea",
+          "spastic_paraparesis",
+          "dysarthria",
+          "dysphagia",
+          "orthostatic_hypotension",
+          "urinary_incontinence",
+          "depression",
+          "apathy"
+        ],
+        "estimated_prevalence_percent": 0.02
+      },
+      "Postpolio syndrome": {
+        "criteria": [
+          "new_weakness_in_previously_affected_muscles",
+          "increased_fatigue_with_exertion",
+          "decreased_exertional_endurance",
+          "muscle_wasting_in_polio_affected_muscle_groups",
+          "myalgia",
+          "arthralgia",
+          "muscle_cramps",
+          "sleep_disturbance_due_to_fatigue",
+          "dyspnea_on_exertion_due_to_respiratory_muscle_weakness"
+        ],
+        "estimated_prevalence_percent": 0.05
+      }
+    },
+    "Extrapyramidal and movement disorders": {
+      "Parkinson disease": {
+        "criteria": [
+          "resting_tremor",
+          "bradykinesia",
+          "rigidity",
+          "postural_instability",
+          "shuffling_gait",
+          "facial_masking",
+          "micrographia",
+          "dysarthria",
+          "bradyphrenia",
+          "executive_dysfunction",
+          "visuospatial_deficit",
+          "depression_symptoms",
+          "REM_sleep_behavior_disorder"
+        ],
+        "estimated_prevalence_percent": 0.3
+      },
+      "Secondary parkinsonism": {
+        "criteria": [
+          "bradykinesia",
+          "resting_tremor",
+          "cogwheel_rigidity",
+          "hypomimia",
+          "micrographia",
+          "shuffling_gait",
+          "postural_instability",
+          "reduced_arm_swing",
+          "dysarthria",
+          "freezing_of_gait"
+        ],
+        "estimated_prevalence_percent": 0.25
+      },
+      "Parkinsonism in diseases classified elsewhere": {
+        "criteria": [
+          "bradykinesia",
+          "resting_tremor",
+          "rigidity",
+          "akinesia",
+          "festination_gait",
+          "freezing_of_gait",
+          "postural_instability",
+          "micrographia",
+          "hypomimia",
+          "hypokinetic_dysarthria",
+          "reduced_blink_rate"
+        ],
+        "estimated_prevalence_percent": 0.08
+      },
+      "Other degenerative diseases of basal ganglia": {
+        "criteria": [
+          "bradykinesia",
+          "resting_tremor",
+          "rigidity",
+          "postural_instability",
+          "gait_disturbance_shuffling_steps",
+          "dystonia",
+          "chorea",
+          "micrographia",
+          "masked_facies",
+          "hypophonia"
+        ],
+        "estimated_prevalence_percent": 0.05
+      },
+      "Dystonia": {
+        "criteria": [
+          "cervical_dystonia",
+          "blepharospasm",
+          "oromandibular_dystonia",
+          "laryngeal_dystonia",
+          "focal_hand_dystonia",
+          "task_specific_dystonia",
+          "foot_dystonia",
+          "segmental_dystonia",
+          "generalized_dystonia",
+          "dystonic_tremor"
+        ],
+        "estimated_prevalence_percent": 0.016
+      },
+      "Other extrapyramidal and movement disorders": {
+        "criteria": [
+          "tardive_dyskinesia_movements",
+          "oromandibular_dyskinesia",
+          "blepharospasm",
+          "cervical_dystonia",
+          "generalized_dystonia",
+          "myoclonus",
+          "chorea",
+          "athetosis",
+          "parkinsonism_rigidity",
+          "bradykinesia",
+          "rest_tremor",
+          "akathisia"
+        ],
+        "estimated_prevalence_percent": 0.2
+      },
+      "Extrapyramidal and movement disorders in diseases classified elsewhere": {
+        "criteria": [
+          "bradykinesia",
+          "tremor_resting",
+          "tremor_postural",
+          "rigidity",
+          "gait_disturbance",
+          "postural_instability",
+          "chorea",
+          "dystonia",
+          "athetosis",
+          "ballism",
+          "myoclonus",
+          "tardive_dyskinesia",
+          "akathisia",
+          "tics",
+          "dysarthria"
+        ],
+        "estimated_prevalence_percent": 0.3
+      }
+    },
+    "Other degenerative diseases of the nervous system": {
+      "Alzheimer disease": {
+        "criteria": [
+          "episodic_memory_impairment",
+          "word_finding_difficulty",
+          "executive_function_impairment",
+          "visuospatial_deficit",
+          "disorientation_time_place",
+          "ideomotor_apraxia",
+          "aphasia",
+          "apathy",
+          "depressive_symptoms",
+          "delusions",
+          "sleep_disturbance",
+          "emotional_lability"
+        ],
+        "estimated_prevalence_percent": 0.5
+      },
+      "Other degenerative diseases of nervous system, not elsewhere classified": {
+        "criteria": [
+          "bradyphrenia",
+          "executive_dysfunction",
+          "memory_impairment",
+          "visuospatial_deficit",
+          "apraxia",
+          "dysarthria",
+          "gait_ataxia",
+          "parkinsonian_rigidity",
+          "resting_tremor",
+          "postural_instability",
+          "dysphagia"
+        ],
+        "estimated_prevalence_percent": 0.05
+      },
+      "Other degenerative disorders of nervous system in diseases classified elsewhere": {
+        "criteria": [
+          "episodic_memory_decline",
+          "working_memory_impairment",
+          "attention_deficit",
+          "executive_function_deficit",
+          "visuospatial_processing_deficit",
+          "aphasia",
+          "ideomotor_apraxia",
+          "apathy",
+          "disinhibition"
+        ],
+        "estimated_prevalence_percent": 0.1
+      }
+    },
+    "Demyelinating diseases of the central nervous system": {
+      "Multiple sclerosis": {
+        "criteria": [
+          "optic_neuritis",
+          "internuclear_ophthalmoplegia",
+          "limb_weakness",
+          "spasticity",
+          "dysarthria",
+          "ataxia",
+          "paresthesias",
+          "sensory_loss",
+          "bladder_dysfunction",
+          "bowel_dysfunction",
+          "cognitive_impairment",
+          "lhermitte_sign",
+          "uhthoff_phenomenon"
+        ],
+        "estimated_prevalence_percent": 0.04
+      },
+      "Other acute disseminated demyelination": {
+        "criteria": [
+          "hemiparesis",
+          "ataxia",
+          "optic_neuritis",
+          "diplopia",
+          "seizure_activity",
+          "encephalopathy",
+          "nystagmus",
+          "dysarthria",
+          "aphasia",
+          "hyperreflexia",
+          "babinski_sign",
+          "sensory_loss"
+        ],
+        "estimated_prevalence_percent": 0.001
+      },
+      "Other demyelinating diseases of central nervous system": {
+        "criteria": [
+          "unilateral_visual_acuity_loss",
+          "afferent_pupillary_defect",
+          "color_desaturation",
+          "pain_on_eye_movement",
+          "internuclear_opthalmoplegia",
+          "nystagmus",
+          "gait_ataxia",
+          "spastic_paraparesis",
+          "hyperreflexia",
+          "extensor_plantar_response",
+          "somatosensory_deficits_in_limbs",
+          "urinary_bladder_dysfunction",
+          "fatigue",
+          "cognitive_impairment"
+        ],
+        "estimated_prevalence_percent": 0.01
+      }
+    },
+    "Episodic and paroxysmal disorders": {
+      "Epilepsy and recurrent seizures": {
+        "criteria": [
+          "generalized_tonic_clonic_seizure",
+          "focal_motor_seizure",
+          "focal_non_motor_seizure",
+          "automatisms",
+          "aura_present",
+          "ictal_impaired_awareness",
+          "tongue_biting",
+          "incontinence_during_seizure",
+          "postictal_confusion",
+          "postictal_somnolence",
+          "nocturnal_seizure",
+          "amnesia_during_seizure"
+        ],
+        "estimated_prevalence_percent": 0.8
+      },
+      "Status epilepticus": {
+        "criteria": [
+          "persistent_generalized_convulsive_seizure_activity",
+          "persistent_focal_motor_seizure_activity",
+          "unresponsiveness_to_external_stimuli",
+          "tachycardia",
+          "hypertension",
+          "diaphoresis",
+          "hypoxemia",
+          "hypoventilation_or_apnea",
+          "pupillary_dilation",
+          "urinary_incontinence",
+          "fecal_incontinence",
+          "postictal_confusion"
+        ],
+        "estimated_prevalence_percent": 0.01
+      },
+      "Migraine": {
+        "criteria": [
+          "unilateral_headache",
+          "headache_pulsating_quality",
+          "pain_intensity_moderate_to_severe",
+          "nausea_present",
+          "vomiting_present",
+          "photophobia_present",
+          "phonophobia_present",
+          "aura_visual_scintillations_present",
+          "aura_fortification_spectra_present",
+          "aura_sensory_paresthesias_present",
+          "osmophobia_present",
+          "cognitive_impairment_during_attack_present",
+          "neck_stiffness_present",
+          "postdrome_fatigue_present"
+        ],
+        "estimated_prevalence_percent": 12.0
+      },
+      "Other headache syndromes": {
+        "criteria": [
+          "unilateral_head_pain",
+          "pulsating_pain_quality",
+          "pain_of_moderate_to_severe_intensity",
+          "photophobia",
+          "phonophobia",
+          "nausea",
+          "vomiting",
+          "lacrimation_present",
+          "nasal_congestion",
+          "nasal_rhinorrhea",
+          "cognitive_impairment_during_attack",
+          "attention_deficit_during_attack"
+        ],
+        "estimated_prevalence_percent": 2.0
+      },
+      "Transient cerebral ischaemic attacks and related syndromes": {
+        "criteria": [
+          "amaurosis_fugax",
+          "unilateral_motor_weakness",
+          "facial_droop",
+          "aphasia",
+          "dysarthria",
+          "sensory_disturbance",
+          "visual_field_deficit",
+          "ataxia",
+          "vertigo"
+        ],
+        "estimated_prevalence_percent": 0.2
+      },
+      "Vascular syndromes of brain in cerebrovascular diseases": {
+        "criteria": [
+          "amaurosis_fugax",
+          "unilateral_hemiparesis",
+          "facial_droop",
+          "aphasia",
+          "dysarthria",
+          "unilateral_sensory_loss",
+          "paresthesias",
+          "ataxia",
+          "central_vertigo",
+          "hemineglect",
+          "gaze_palsy",
+          "acute_confusion"
+        ],
+        "estimated_prevalence_percent": 0.05
+      },
+      "Sleep disorders": {
+        "criteria": [
+          "excessive_daytime_sleepiness",
+          "sleep_latency_gt_30_min",
+          "sleep_maintenance_difficulty",
+          "total_sleep_time_lt_6_hours",
+          "sleep_efficiency_lt_85_percent",
+          "nocturnal_awakenings_per_night_gt_2",
+          "snoring_present",
+          "apnea_hypopnea_index_gt_5_per_hour",
+          "periodic_limb_movements_in_sleep_present",
+          "parasomnia_episodes_present"
+        ],
+        "estimated_prevalence_percent": 22.5
+      }
+    },
+    "Nerve, nerve root and plexus disorders": {
+      "Disorders of trigeminal nerve": {
+        "criteria": [
+          "unilateral_trigeminal_distribution_pain",
+          "electric_shock_like_pain_quality",
+          "paroxysmal_pain_events",
+          "pain_triggered_by_light_touch",
+          "pain_triggered_by_chewing_or_speaking",
+          "involvement_of_V1_V2_or_V3_distribution",
+          "sensory_hypesthesia_in_trigeminal_territory",
+          "paresthesias_in_trigeminal_territory",
+          "allodynia_in_trigeminal_territory"
+        ],
+        "estimated_prevalence_percent": 0.02
+      },
+      "Facial nerve disorders": {
+        "criteria": [
+          "unilateral_facial_muscle_paralysis",
+          "inability_to_close_eye_on_affected_side",
+          "smile_asymmetry_on_affected_side",
+          "forehead_wrinkling_reduction_on_affected_side",
+          "nasolabial_fold_flattening_on_affected_side",
+          "hyperacusis_in_affected_ear",
+          "loss_of_taste_in_anterior_two_thirds_of_tongue",
+          "reduced_lacrimation_on_affected_side",
+          "decreased_salivation_on_affected_side"
+        ],
+        "estimated_prevalence_percent": 0.12
+      },
+      "Disorders of other cranial nerves": {
+        "criteria": [
+          "facial_nerve_palsy_sign",
+          "dysphagia_present",
+          "dysarthria_present",
+          "hoarseness_present",
+          "gag_reflex_loss",
+          "uvula_deviation",
+          "tongue_deviation_on_protrusion",
+          "ptosis_present",
+          "diplopia_present",
+          "hyperacusis_present"
+        ],
+        "estimated_prevalence_percent": 0.15
+      },
+      "Cranial nerve disorders in diseases classified elsewhere": {
+        "criteria": [
+          "ptosis",
+          "pupil_dilation_nonreactive",
+          "diplopia",
+          "facial_weakness",
+          "facial_numbness",
+          "corneal_reflex_absent",
+          "tongue_deviation",
+          "dysphagia",
+          "hoarseness",
+          "dysarthria",
+          "hearing_loss",
+          "vertigo"
+        ],
+        "estimated_prevalence_percent": 0.15
+      },
+      "Nerve root and plexus disorders": {
+        "criteria": [
+          "radicular_pain",
+          "dermatomal_sensory_deficit",
+          "paresthesias_radicular",
+          "myotomal_weakness",
+          "muscle_wasting_in_innervation_region",
+          "hyporeflexia_in_affected_segment",
+          "gait_disturbance_from_paresis",
+          "positive_SLR_pain"
+        ],
+        "estimated_prevalence_percent": 1.2
+      },
+      "Nerve root and plexus compressions in diseases classified elsewhere": {
+        "criteria": [
+          "radicular_pain_dermatomal_radiation",
+          "sensory_deficit_dermatomal_distribution",
+          "dermatomal_hypoesthesia",
+          "paresthesias_in_affected_dermatomes",
+          "myotomal_weakness",
+          "deep_tendon_reflex_decrement_in_affected_segment",
+          "muscle_atrophy_in_involved_myotome",
+          "positive_spurling_sign",
+          "positive_straight_leg_raise"
+        ],
+        "estimated_prevalence_percent": 0.5
+      },
+      "Mononeuropathies of upper limb": {
+        "criteria": [
+          "sensory_hypoesthesia_in_nerve_distribution",
+          "paresthesias_in_nerve_distribution",
+          "neuropathic_pain_in_nerve_distribution",
+          "motor_weakness_in_muscles_innervated_by_nerve_distribution",
+          "intrinsic_hand_or_forearm_muscle_atrophy_in_nerve_distribution",
+          "fasciculations_in_affected_muscles",
+          "decreased_grip_strength",
+          "impaired_pinch_grip_strength",
+          "positive_Tinel_sign_at_affected_site",
+          "decreased_upper_extremity_reflexes_in_affected_segment"
+        ],
+        "estimated_prevalence_percent": 0.8
+      },
+      "Mononeuropathies of lower limb": {
+        "criteria": [
+          "foot_drop_unilateral",
+          "dorsiflexion_weakness_unilateral",
+          "toe_extension_weakness_unilateral",
+          "ankle_eversion_weakness_unilateral",
+          "lateral_leg_sensory_deficit_unilateral",
+          "dorsal_foot_sensory_deficit_unilateral",
+          "paresthesias_dorsum_foot_unilateral",
+          "pain_around_fibular_head_unilateral",
+          "tinel_sign_fibular_head_positive",
+          "distal_leg_muscle_atrophy_unilateral"
+        ],
+        "estimated_prevalence_percent": 0.02
+      },
+      "Other mononeuropathies": {
+        "criteria": [
+          "sensory_deficit_in_affected_nerve_distribution",
+          "paresthesias_in_affected_nerve_distribution",
+          "hypoesthesia_in_affected_nerve_distribution",
+          "focal_motor_weakness_in_innervated_muscles",
+          "muscle_atrophy_in_innervated_muscles",
+          "fasciculations_in_innervated_muscles",
+          "pain_in_nerve_distribution",
+          "positive_Tinel_sign_over_affected_nerve",
+          "diminished_or_absent_distal_nerve_reflex_in_affected_area"
+        ],
+        "estimated_prevalence_percent": 0.25
+      },
+      "Mononeuropathy in diseases classified elsewhere": {
+        "criteria": [
+          "focal_motor_weakness_in_affected_nerve_distribution",
+          "muscle_atrophy_in_innervated_muscle_group_of_affected_nerve",
+          "sensory_hypoesthesia_in_affected_nerve_distribution",
+          "paresthesias_in_affected_nerve_distribution",
+          "neuralgiform_pain_in_affected_nerve_distribution",
+          "hyporeflexia_in_affected_nerve_segment",
+          "vasomotor_changes_in_affected_nerve_distribution",
+          "proprioception_reduction_in_affected_nerve_distribution",
+          "vibration_sense_reduction_in_affected_nerve_distribution"
+        ],
+        "estimated_prevalence_percent": 0.05
+      }
+    },
+    "Polyneuropathies and other disorders of the peripheral nervous system": {
+      "Hereditary and idiopathic neuropathy": {
+        "criteria": [
+          "distal_lower_limb_motor_weakness",
+          "distal_lower_limb_muscle_atrophy",
+          "absent_deep_tendon_reflexes",
+          "pes_cavus_foot_deformity",
+          "hammer_toe_deformity",
+          "intrinsic_hand_muscle_wasting",
+          "length_dependent_sensory_loss",
+          "proprioceptive_loss_distal",
+          "vibration_sense_loss_distal",
+          "neuropathic_pain_distal_limbs"
+        ],
+        "estimated_prevalence_percent": 0.04
+      },
+      "Inflammatory polyneuropathy": {
+        "criteria": [
+          "distal_symmetrical_weakness",
+          "absent_deep_tendon_reflexes",
+          "distal_sensory_loss_glove_stocking_distribution",
+          "paresthesias",
+          "neuropathic_pain",
+          "distal_muscle_wasting",
+          "loss_of_vibration_sense",
+          "loss_of_proprioception",
+          "sensory_ataxia"
+        ],
+        "estimated_prevalence_percent": 0.002
+      },
+      "Other polyneuropathies": {
+        "criteria": [
+          "paresthesias_distal_extremities",
+          "distal_sensory_hypoesthesia_pinprick",
+          "distal_sensory_hypoesthesia_temperature",
+          "vibration_sense_loss_great_toe",
+          "proprioceptive_deficit_ankle",
+          "absent_ankle_reflex",
+          "distal_motor_weakness_foot_intrinsics",
+          "gait_instability_sensory_due_to_neuropathy",
+          "positive_romberg_sign",
+          "neuropathic_pain_distal_limbs",
+          "sleep_disturbance_related_to_pain",
+          "depressive_symptoms_chronic_neuropathy",
+          "cognitive_fatigue_executive_function_slowing"
+        ],
+        "estimated_prevalence_percent": 0.8
+      },
+      "Polyneuropathy in diseases classified elsewhere": {
+        "criteria": [
+          "attentional_deficit",
+          "fluctuating_attention",
+          "processing_speed_slowing",
+          "executive_function_deficit",
+          "verbal_fluency_impairment",
+          "word_finding_difficulty",
+          "short_term_memory_impairment",
+          "episodic_memory_impairment",
+          "visuospatial_deficit",
+          "psychomotor_slowing",
+          "apathy",
+          "depressive_symptoms",
+          "anxiety_symptoms"
+        ],
+        "estimated_prevalence_percent": 1.5
+      },
+      "Other disorders of peripheral nervous system": {
+        "criteria": [
+          "distal_sensorimotor_weakness",
+          "areflexia",
+          "distal_hypoesthesia",
+          "paresthesias_limbs",
+          "dysesthesias_limbs",
+          "allodynia",
+          "reduced_proprioception",
+          "paroxysmal_neuropathic_pain",
+          "autonomic_dysfunction"
+        ],
+        "estimated_prevalence_percent": 1.0
+      }
+    },
+    "Diseases of myoneural junction and muscle": {
+      "Myasthenia gravis and other myoneural disorders": {
+        "criteria": [
+          "ptosis",
+          "diplopia",
+          "ophthalmoplegia",
+          "fatigable_weakness",
+          "diurnal_variation_in_strength",
+          "bulbar_weakness",
+          "dysphagia",
+          "dysarthria",
+          "proximal_limb_weakness",
+          "respiratory_weakness"
+        ],
+        "estimated_prevalence_percent": 0.02
+      },
+      "Primary disorders of muscles": {
+        "criteria": [
+          "proximal_limb_girdle_weakness",
+          "gowers_sign",
+          "calf_pseudohypertrophy",
+          "facial_weakness",
+          "ptosis",
+          "neck_flexor_weakness",
+          "elevated_serum_ck",
+          "exercise_induced_fatigue",
+          "cognitive_function_deficit",
+          "working_memory_impairment",
+          "executive_function_deficit",
+          "processing_speed_slow",
+          "attention_deficit",
+          "learning_disability"
+        ],
+        "estimated_prevalence_percent": 0.02
+      },
+      "Other myopathies": {
+        "criteria": [
+          "proximal_muscle_weakness",
+          "neck_flexor_weakness",
+          "facial_weakness",
+          "fatigable_exertional_weakness",
+          "persistent_muscle_wasting",
+          "myalgia",
+          "elevated_serum_creatine_kinase",
+          "myopathic_EMG_pattern",
+          "muscle_biopsy_fiber_size_variation",
+          "muscle_biopsy_central_nuclei",
+          "diaphragmatic_weakness",
+          "dysphagia_due_to_pharyngeal_muscle_weakness"
+        ],
+        "estimated_prevalence_percent": 0.05
+      },
+      "Disorders of myoneural junction and muscle in diseases classified elsewhere": {
+        "criteria": [
+          "ptosis",
+          "diplopia",
+          "ophthalmoplegia",
+          "facial_weakness",
+          "bulbar_weakness",
+          "dysphagia",
+          "dysarthria",
+          "proximal_muscle_weakness",
+          "fatigable_weakness",
+          "respiratory_weakness"
+        ],
+        "estimated_prevalence_percent": 0.02
+      }
+    },
+    "Cerebral palsy and other paralytic syndromes": {
+      "Cerebral palsy": {
+        "criteria": [
+          "upper_limb_spasticity",
+          "lower_limb_spasticity",
+          "spastic_gait",
+          "dystonia_presence",
+          "choreoathetosis_presence",
+          "epilepsy_presence",
+          "cognitive_impairment_presence",
+          "dysarthria_presence",
+          "visual_impairment_presence",
+          "hearing_impairment_presence",
+          "feeding_dysphagia_presence",
+          "hip_dislocation_presence",
+          "scoliosis_presence"
+        ],
+        "estimated_prevalence_percent": 0.2
+      },
+      "Hemiplegia": {
+        "criteria": [
+          "Unilateral_limb_paresis",
+          "Spastic_tone_in_affected_side_limbs",
+          "Hyperreflexia_on_afflicted_side",
+          "Positive_Babinski_sign_on_afflicted_side",
+          "Ankle_clonus_on_afflicted_side",
+          "Oral_motor_weakness",
+          "Gait_pattern_consistent_with_hemiplegia",
+          "Impaired_fine_motor_control_of_affected_hand",
+          "Proprioceptive_deficit_on_affected_side"
+        ],
+        "estimated_prevalence_percent": 0.05
+      },
+      "Paraplegia and tetraplegia": {
+        "criteria": [
+          "cognitive_impairment",
+          "executive_function_deficit",
+          "attention_deficit",
+          "memory_deficit",
+          "language_processing_impairment",
+          "verbal_fluency_impairment",
+          "emotional_dysregulation",
+          "depressive_symptoms",
+          "anxiety_symptoms",
+          "apathy",
+          "sleep_disturbance",
+          "fatigue"
+        ],
+        "estimated_prevalence_percent": 0.09
+      },
+      "Other paralytic syndromes": {
+        "criteria": [
+          "spastic_paralysis",
+          "hyperreflexia",
+          "clonus_present",
+          "muscle_wasting",
+          "fasciculations_present",
+          "dysarthria",
+          "dysphagia",
+          "gait_disturbance",
+          "distal_weakness",
+          "respiratory_muscle_weakness"
+        ],
+        "estimated_prevalence_percent": 0.005
+      }
+    },
+    "Other disorders of the nervous system": {
+      "Disorders of autonomic nervous system": {
+        "criteria": [
+          "orthostatic_hypotension_present",
+          "orthostatic_tachycardia_present",
+          "resting_tachycardia_present",
+          "hypohidrosis_present",
+          "hyperhidrosis_present",
+          "gastroparesis_present",
+          "constipation_present",
+          "urinary_retention_present",
+          "erectile_dysfunction_present",
+          "syncope_present",
+          "blood_pressure_lability_present",
+          "temperature_regulation_dysfunction_present"
+        ],
+        "estimated_prevalence_percent": 0.25
+      },
+      "Hydrocephalus": {
+        "criteria": [
+          "executive_dysfunction",
+          "episodic_memory_impairment",
+          "attention_deficit",
+          "processing_speed_deficit",
+          "visuospatial_disorientation",
+          "gait_disturbance",
+          "urinary_incontinence",
+          "headache_recurrent",
+          "nausea_vomiting",
+          "papilledema"
+        ],
+        "estimated_prevalence_percent": 0.2
+      },
+      "Toxic encephalopathy": {
+        "criteria": [
+          "delirium_present",
+          "disorientation_time_place",
+          "impaired_attention",
+          "short_term_memory_impairment",
+          "executive_function_dysfunction",
+          "psychomotor_slowing",
+          "dysarthria",
+          "gait_ataxia",
+          "tremor_present",
+          "visual_hallucinations",
+          "seizures_present",
+          "nystagmus"
+        ],
+        "estimated_prevalence_percent": 0.02
+      },
+      "Other disorders of brain": {
+        "criteria": [
+          "consciousness_fluctuation",
+          "short_term_memory_impairment",
+          "attention_deficit",
+          "executive_function_deficit",
+          "expressive_aphasia",
+          "receptive_aphasia",
+          "visuospatial_disorientation",
+          "ataxia",
+          "limb_weakness_paresis",
+          "focal_seizure_activity",
+          "tremor_present",
+          "affective_disturbance"
+        ],
+        "estimated_prevalence_percent": 0.5
+      },
+      "Other disorders of brain in diseases classified elsewhere": {
+        "criteria": [
+          "short_term_memory_deficit",
+          "long_term_memory_deficit",
+          "working_memory_deficit",
+          "attention_deficit",
+          "executive_function_deficit",
+          "processing_speed_slowing",
+          "visuospatial_deficit",
+          "language_fluency_impairment",
+          "orientation_disturbance",
+          "mood_lability",
+          "apathy",
+          "hallucinations"
+        ],
+        "estimated_prevalence_percent": 0.25
+      },
+      "Other diseases of spinal cord": {
+        "criteria": [
+          "spastic_paraparesis",
+          "hyperreflexia_lower_extremities",
+          "extensor_plantar_sign_present",
+          "loss_of_proprioception_lower_extremities",
+          "loss_of_vibration_sense_lower_extremities",
+          "gait_ataxia",
+          "sensory_paresthesias_extremities",
+          "urinary_incontinence",
+          "sphincter_dysfunction",
+          "autonomic_dysfunction"
+        ],
+        "estimated_prevalence_percent": 0.01
+      },
+      "Other disorders of central nervous system": {
+        "criteria": [
+          "anterograde_memory_impairment",
+          "retrograde_memory_impairment",
+          "working_memory_deficit",
+          "attention_deficit",
+          "executive_function_deficit",
+          "processing_speed_slowing",
+          "language_impairment",
+          "visuospatial_deficit",
+          "emotional_lability",
+          "apathy",
+          "depressed_mood",
+          "anxiety",
+          "delusions_present",
+          "hallucinations_present"
+        ],
+        "estimated_prevalence_percent": 0.5
+      },
+      "Postprocedural disorders of nervous system, not elsewhere classified": {
+        "criteria": [
+          "postproc_delirium_presence",
+          "postproc_anterograde_memory_impairment",
+          "postproc_retrograde_memory_impairment",
+          "postproc_attention_deficit",
+          "postproc_executive_function_dysfunction",
+          "postproc_language_impairment",
+          "postproc_visuospatial_deficit",
+          "postproc_apraxia",
+          "postproc_seizure_event",
+          "postproc_headache",
+          "postproc_neuropathic_pain"
+        ],
+        "estimated_prevalence_percent": 0.8
+      },
+      "Other disorders of nervous system, not elsewhere classified": {
+        "criteria": [
+          "ataxia",
+          "dysarthria",
+          "nystagmus",
+          "dysmetria",
+          "tremor",
+          "spasticity",
+          "hyporeflexia",
+          "paresthesias",
+          "myoclonus",
+          "seizure",
+          "dysphagia",
+          "memory_impairment"
+        ],
+        "estimated_prevalence_percent": 0.25
+      },
+      "Other disorders of nervous system in diseases classified elsewhere": {
+        "criteria": [
+          "short_term_memory_deficit",
+          "working_memory_impairment",
+          "executive_function_deficit",
+          "attention_deficit",
+          "aphasia",
+          "visuospatial_deficit",
+          "apraxia",
+          "disorientation_time_place",
+          "cognitive_fatigue",
+          "emotional_lability",
+          "apathy",
+          "processing_speed_deficit"
+        ],
+        "estimated_prevalence_percent": 0.3
+      }
+    }
+  }
+}

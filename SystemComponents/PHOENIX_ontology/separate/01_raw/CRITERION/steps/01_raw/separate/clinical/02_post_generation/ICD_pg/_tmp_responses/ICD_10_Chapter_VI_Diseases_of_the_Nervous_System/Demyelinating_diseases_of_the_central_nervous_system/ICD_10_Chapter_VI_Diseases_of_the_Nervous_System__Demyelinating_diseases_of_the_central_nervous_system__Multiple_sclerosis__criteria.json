@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "optic_neuritis"
+    },
+    {
+      "criterium": "internuclear_ophthalmoplegia"
+    },
+    {
+      "criterium": "limb_weakness"
+    },
+    {
+      "criterium": "spasticity"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "paresthesias"
+    },
+    {
+      "criterium": "sensory_loss"
+    },
+    {
+      "criterium": "bladder_dysfunction"
+    },
+    {
+      "criterium": "bowel_dysfunction"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "lhermitte_sign"
+    },
+    {
+      "criterium": "uhthoff_phenomenon"
+    }
+  ],
+  "estimated_prevalence_percent": 0.04
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "contralateral_paresthesias"
+    },
+    {
+      "criterium": "contralateral_hypesthesia"
+    },
+    {
+      "criterium": "topographic_disorientation"
+    },
+    {
+      "criterium": "constructional_apraxia"
+    },
+    {
+      "criterium": "finger_agnosia"
+    },
+    {
+      "criterium": "acalculia"
+    },
+    {
+      "criterium": "agraphia"
+    },
+    {
+      "criterium": "hemispatial_neglect"
+    },
+    {
+      "criterium": "ideomotor_apraxia"
+    },
+    {
+      "criterium": "body_schema_distortion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.04
+}

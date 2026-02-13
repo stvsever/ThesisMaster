@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "anger_outbursts"
+    },
+    {
+      "criterium": "aggression_toward_others"
+    },
+    {
+      "criterium": "destruction_of_property"
+    },
+    {
+      "criterium": "delinquent_behaviors"
+    },
+    {
+      "criterium": "noncompliance_with_rules"
+    },
+    {
+      "criterium": "impulsivity"
+    },
+    {
+      "criterium": "impaired_social_functioning"
+    },
+    {
+      "criterium": "impaired_academic_performance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_urine_volume_ml_per_night"
+    },
+    {
+      "criterium": "nocturnal_urine_production_rate_ml_per_hour_during_sleep"
+    },
+    {
+      "criterium": "nocturnal_urine_proportion_of_24h_total"
+    },
+    {
+      "criterium": "nocturnal_voids_per_night"
+    },
+    {
+      "criterium": "nocturnal_bladder_capacity_ml_during_sleep"
+    },
+    {
+      "criterium": "nocturnal_urine_osmolality_mOsm_per_kg"
+    },
+    {
+      "criterium": "nocturnal_urine_specific_gravity"
+    },
+    {
+      "criterium": "nocturnal_awakenings_due_to_urination_per_night"
+    },
+    {
+      "criterium": "nocturnal_enuresis_episodes_per_night"
+    }
+  ],
+  "estimated_prevalence_percent": 2.8
+}

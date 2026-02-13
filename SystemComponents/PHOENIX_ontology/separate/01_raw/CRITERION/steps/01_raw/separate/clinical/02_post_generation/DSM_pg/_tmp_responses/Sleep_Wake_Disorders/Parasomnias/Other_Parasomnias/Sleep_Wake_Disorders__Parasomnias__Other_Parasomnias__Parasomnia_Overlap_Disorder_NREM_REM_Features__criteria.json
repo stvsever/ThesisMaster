@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "NREM_somnambulism_episode_present"
+    },
+    {
+      "criterium": "NREM_confusional_arousal_episode_present"
+    },
+    {
+      "criterium": "NREM_sleep_terror_episode_present"
+    },
+    {
+      "criterium": "REM_dream_enactment_behaviour_present"
+    },
+    {
+      "criterium": "REM_vocalisations_during_sleep_present"
+    },
+    {
+      "criterium": "REM_atonia_loss_on_EMG_present"
+    },
+    {
+      "criterium": "autonomic_arousal_signs_during_events_present"
+    },
+    {
+      "criterium": "injury_or_aggression_during_episodes_present"
+    },
+    {
+      "criterium": "amnesia_for_parasomnia_events_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

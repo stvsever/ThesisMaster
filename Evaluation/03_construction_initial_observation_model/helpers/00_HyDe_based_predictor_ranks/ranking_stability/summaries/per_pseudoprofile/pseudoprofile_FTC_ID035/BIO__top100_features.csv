@@ -1,0 +1,6 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_impulse_control,BIO,1,0.2,129.0,0.0,0.20475304,0.0
+BIO / cognitive_capacity_and_brain_health / neuroenergetics_and_metabolic_support / glucose_insulin_and_metabolic_control / continuous_glucose_monitoring_for_cognition,BIO,1,0.2,159.0,0.0,0.20276059,0.0
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / mindful_labeling_of_thoughts,BIO,1,0.2,180.0,0.0,0.2005395,0.0
+BIO / nutrition_hydration_and_metabolic_health / caffeine_and_stimulant_intake_modulation / caffeine_reduction_plan,BIO,1,0.2,187.0,0.0,0.19984174,0.0
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / acceptance_of_wakefulness_practice,BIO,1,0.2,197.0,0.0,0.1989407,0.0

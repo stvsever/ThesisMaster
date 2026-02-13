@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "dlmo_delayed_onset"
+    },
+    {
+      "criterium": "dlmo_advanced_onset"
+    },
+    {
+      "criterium": "nocturnal_melatonin_peak_blunting"
+    },
+    {
+      "criterium": "sleep_onset_latency_increase"
+    },
+    {
+      "criterium": "nocturnal_awakenings_increase"
+    },
+    {
+      "criterium": "sleep_efficiency_decrease"
+    },
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "rest_activity_rhythm_phase_shift"
+    },
+    {
+      "criterium": "core_body_temperature_rhythm_phase_shift"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

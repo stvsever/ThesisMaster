@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_orofacial_focal_motor_seizures"
+    },
+    {
+      "criterium": "hypersalivation_during_seizure"
+    },
+    {
+      "criterium": "speech_arrest_during_seizure"
+    },
+    {
+      "criterium": "lip_smacking_oral_automatisms"
+    },
+    {
+      "criterium": "tongue_movements_during_seizure"
+    },
+    {
+      "criterium": "nocturnal_seizures_predominant"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

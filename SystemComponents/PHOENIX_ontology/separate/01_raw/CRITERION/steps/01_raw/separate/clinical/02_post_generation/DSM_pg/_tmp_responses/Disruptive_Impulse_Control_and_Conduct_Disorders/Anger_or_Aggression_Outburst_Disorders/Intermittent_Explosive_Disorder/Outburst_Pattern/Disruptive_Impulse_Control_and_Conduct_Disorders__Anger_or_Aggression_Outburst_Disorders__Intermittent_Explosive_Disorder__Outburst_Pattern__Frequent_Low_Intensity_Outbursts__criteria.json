@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "outburst_frequency_monthly"
+    },
+    {
+      "criterium": "outburst_intensity_low"
+    },
+    {
+      "criterium": "verbal_aggression_during_outbursts"
+    },
+    {
+      "criterium": "physical_aggression_during_outbursts"
+    },
+    {
+      "criterium": "outburst_target_property_or_person"
+    },
+    {
+      "criterium": "impulse_control_failure_during_outbursts"
+    },
+    {
+      "criterium": "antecedent_elevated_affective_arousal_before_outburst"
+    },
+    {
+      "criterium": "post_outburst_remorse_or_guilt"
+    },
+    {
+      "criterium": "outburst_related_social_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

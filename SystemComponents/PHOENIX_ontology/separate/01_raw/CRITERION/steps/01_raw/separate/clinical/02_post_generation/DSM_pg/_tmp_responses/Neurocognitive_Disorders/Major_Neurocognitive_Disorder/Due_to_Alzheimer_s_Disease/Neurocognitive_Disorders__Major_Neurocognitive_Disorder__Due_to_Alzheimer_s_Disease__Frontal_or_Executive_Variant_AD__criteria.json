@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "set_shifting_impairment"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "planning_deficit"
+    },
+    {
+      "criterium": "problem_solving_difficulty"
+    },
+    {
+      "criterium": "abstract_reasoning_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "disinhibition"
+    },
+    {
+      "criterium": "loss_of_insight"
+    },
+    {
+      "criterium": "ideomotor_apraxia"
+    },
+    {
+      "criterium": "social_inappropriateness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

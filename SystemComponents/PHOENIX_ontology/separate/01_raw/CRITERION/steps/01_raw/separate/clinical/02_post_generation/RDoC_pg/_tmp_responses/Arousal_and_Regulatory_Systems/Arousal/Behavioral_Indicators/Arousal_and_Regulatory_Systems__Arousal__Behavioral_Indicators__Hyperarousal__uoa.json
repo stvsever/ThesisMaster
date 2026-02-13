@@ -1,0 +1,35 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "amygdala_hyperreactivity",
+      "locus_coeruleus_norepinephrine_activity",
+      "prefrontal_limbic_connectivity",
+      "anterior_cingulate_activation"
+    ],
+    "physiology": [
+      "resting_heart_rate_elevation",
+      "skin_conductance_response_amplitude",
+      "cortisol_serum_elevation",
+      "respiratory_rate_elevation",
+      "pupil_dilation_index"
+    ],
+    "behavior": [
+      "hypervigilance_behavior_observed",
+      "irritability_behavior_observed",
+      "agitation_behavior_observed",
+      "startle_triggered_behavior",
+      "sleep_disturbance_behavior_observed"
+    ],
+    "self_report": [
+      "hypervigilance_self_report",
+      "sleep_disturbance_self_report",
+      "irritability_self_report",
+      "muscle_tension_self_report",
+      "startle_sensitivity_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

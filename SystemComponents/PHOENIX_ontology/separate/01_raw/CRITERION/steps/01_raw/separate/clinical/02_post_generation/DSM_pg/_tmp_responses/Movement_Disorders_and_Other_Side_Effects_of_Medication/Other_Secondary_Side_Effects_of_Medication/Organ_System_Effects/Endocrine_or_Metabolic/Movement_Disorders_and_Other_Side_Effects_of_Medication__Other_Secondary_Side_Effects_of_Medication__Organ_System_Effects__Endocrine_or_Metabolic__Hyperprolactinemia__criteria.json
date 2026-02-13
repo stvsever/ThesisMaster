@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_serum_prolactin"
+    },
+    {
+      "criterium": "galactorrhea"
+    },
+    {
+      "criterium": "amenorrhea"
+    },
+    {
+      "criterium": "oligomenorrhea"
+    },
+    {
+      "criterium": "infertility_or_subfertility"
+    },
+    {
+      "criterium": "decreased_libido"
+    },
+    {
+      "criterium": "erectile_dysfunction"
+    },
+    {
+      "criterium": "headaches"
+    },
+    {
+      "criterium": "visual_field_defect"
+    },
+    {
+      "criterium": "pituitary_mass_on_imaging_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

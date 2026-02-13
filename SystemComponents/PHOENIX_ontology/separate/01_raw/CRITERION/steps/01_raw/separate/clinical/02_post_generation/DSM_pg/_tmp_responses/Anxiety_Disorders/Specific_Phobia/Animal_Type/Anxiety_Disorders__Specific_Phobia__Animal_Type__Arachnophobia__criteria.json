@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SPIDER_CUE_AUTONOMIC_AROUSAL"
+    },
+    {
+      "criterium": "SPIDER_VISUAL_CUE_FEAR_REACTION"
+    },
+    {
+      "criterium": "SPIDER_ANTICIPATORY_ANXIETY"
+    },
+    {
+      "criterium": "SPIDER_AVOIDANCE_BEHAVIOR"
+    },
+    {
+      "criterium": "SPIDER_PANIC_ATTACKS"
+    },
+    {
+      "criterium": "SPIDER_INTRUSIVE_THOUGHTS"
+    },
+    {
+      "criterium": "SPIDER_TREMOR"
+    },
+    {
+      "criterium": "SPIDER_SWEATING"
+    },
+    {
+      "criterium": "SPIDER_PALPITATIONS"
+    },
+    {
+      "criterium": "SPIDER_IMPAIRED_FUNCTIONING_DUE_TO_FEAR"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

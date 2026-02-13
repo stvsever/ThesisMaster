@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fragmentary_myoclonus_events_in_sleep"
+    },
+    {
+      "criterium": "tibialis_anterior_EMG_bursts_lt_0_5s"
+    },
+    {
+      "criterium": "high_fragmentary_myoclonus_burst_density_in_NREM"
+    },
+    {
+      "criterium": "bursts_non_rhythmic_and_variable_amplitude"
+    },
+    {
+      "criterium": "bursts_without_concurrent_EEG_arousal"
+    },
+    {
+      "criterium": "EMG_events_detectable_on_polysomnography"
+    },
+    {
+      "criterium": "unilateral_fragmentary_myoclonus_events"
+    },
+    {
+      "criterium": "bilateral_fragmentary_myoclonus_events"
+    },
+    {
+      "criterium": "across_multiple_sleep_cycles"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

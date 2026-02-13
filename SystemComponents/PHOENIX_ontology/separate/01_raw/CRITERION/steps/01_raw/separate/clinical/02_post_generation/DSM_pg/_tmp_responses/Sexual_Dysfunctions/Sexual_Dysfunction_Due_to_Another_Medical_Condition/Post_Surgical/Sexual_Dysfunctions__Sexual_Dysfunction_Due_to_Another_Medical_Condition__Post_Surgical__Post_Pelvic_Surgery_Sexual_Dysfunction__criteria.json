@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypoactive_libido"
+    },
+    {
+      "criterium": "erectile_dysfunction"
+    },
+    {
+      "criterium": "anorgasmia"
+    },
+    {
+      "criterium": "delayed_ejaculation"
+    },
+    {
+      "criterium": "retrograde_ejaculation"
+    },
+    {
+      "criterium": "genital_sensory_loss"
+    },
+    {
+      "criterium": "dyspareunia_pelvic_surgery"
+    },
+    {
+      "criterium": "reduced_vaginal_lubrication"
+    },
+    {
+      "criterium": "pelvic_floor_pain_during_sex"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

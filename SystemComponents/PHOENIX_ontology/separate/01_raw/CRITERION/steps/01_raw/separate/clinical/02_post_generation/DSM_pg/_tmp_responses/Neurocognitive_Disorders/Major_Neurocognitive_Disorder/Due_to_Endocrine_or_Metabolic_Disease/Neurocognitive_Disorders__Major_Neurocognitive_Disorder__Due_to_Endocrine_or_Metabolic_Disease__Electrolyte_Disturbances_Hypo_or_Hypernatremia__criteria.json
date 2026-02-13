@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delirium_present"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "memory_impairment_short_term"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "gait_instability"
+    },
+    {
+      "criterium": "speech_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

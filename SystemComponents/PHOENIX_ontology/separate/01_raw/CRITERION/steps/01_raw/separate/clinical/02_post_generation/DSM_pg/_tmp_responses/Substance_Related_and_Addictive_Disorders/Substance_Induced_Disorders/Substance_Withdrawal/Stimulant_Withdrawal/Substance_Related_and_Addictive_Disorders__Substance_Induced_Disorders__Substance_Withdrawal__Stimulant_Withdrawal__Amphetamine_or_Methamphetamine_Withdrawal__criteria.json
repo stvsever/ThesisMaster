@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "dysphoric_mood"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "vivid_dreams"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "hypersomnia"
+    },
+    {
+      "criterium": "increased_appetite"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "stimulant_craving"
+    },
+    {
+      "criterium": "anhedonia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

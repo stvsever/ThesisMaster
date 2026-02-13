@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "tactile_hallucinations"
+    },
+    {
+      "criterium": "formication"
+    },
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "referential_delusions"
+    },
+    {
+      "criterium": "grandiose_delusions"
+    },
+    {
+      "criterium": "disorganized_thought_content"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "gross_disorganized_behavior"
+    },
+    {
+      "criterium": "agitation_or_aggression"
+    },
+    {
+      "criterium": "disorientation_in_time_place_person"
+    },
+    {
+      "criterium": "insight_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

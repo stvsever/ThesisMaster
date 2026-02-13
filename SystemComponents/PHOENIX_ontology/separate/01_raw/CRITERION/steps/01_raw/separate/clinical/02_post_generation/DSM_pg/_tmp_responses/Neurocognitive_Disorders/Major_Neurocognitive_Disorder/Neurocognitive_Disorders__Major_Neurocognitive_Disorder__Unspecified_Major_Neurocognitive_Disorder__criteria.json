@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "attention_processing_speed_slowing"
+    },
+    {
+      "criterium": "IADL_impairment"
+    },
+    {
+      "criterium": "ADL_impairment"
+    },
+    {
+      "criterium": "anosognosia"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "PER1",
+      "PER2",
+      "PER3",
+      "CLOCK",
+      "ARNTL",
+      "CRY1",
+      "CRY2",
+      "NPAS2",
+      "BHLHE41"
+    ],
+    "molecules": [
+      "MELATONIN",
+      "CORTISOL",
+      "SEROTONIN",
+      "DOPAMINE",
+      "GABA",
+      "GLUTAMATE"
+    ],
+    "cells": [
+      "SCN_NEURONS",
+      "ipRGCs"
+    ],
+    "circuits": [
+      "SCN_CIRCUIT",
+      "VLPO_SLEEP_CIRCUIT",
+      "ARAS_AROUSAL_CIRCUIT"
+    ],
+    "physiology": [
+      "CORE_BODY_TEMPERATURE_MEAN",
+      "CORE_BODY_TEMPERATURE_AMPLITUDE",
+      "DLMO_TIMING",
+      "MELATONIN_AUC",
+      "CORTISOL_AWAKE_RESPONSE",
+      "HEART_RATE_VARIABILITY_NIGHT"
+    ],
+    "behavior": [
+      "SLEEP_ONSET_LATENCY",
+      "TOTAL_SLEEP_TIME",
+      "NIGHT_WAKE_BOUTS",
+      "SLEEP_SCHEDULE_VARIABILITY",
+      "PHASE_DELAY",
+      "PHASE_ADVANCE"
+    ],
+    "self_report": [
+      "SLEEP_QUALITY_SCORE",
+      "DAYTIME_SOMNOLENCE_SCORE",
+      "SLEEP_TIMING_REGULARITY_SCORE",
+      "INSOMIA_SEVERITY_INDEX"
+    ]
+  },
+  "estimated_prevalence_percent": 0.6
+}

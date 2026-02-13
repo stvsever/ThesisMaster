@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bodily_odor_obsession"
+    },
+    {
+      "criterium": "odor_monitoring_vigilance"
+    },
+    {
+      "criterium": "odor_related_compulsive_washing"
+    },
+    {
+      "criterium": "excessive_deodorant_or_fragrance_use"
+    },
+    {
+      "criterium": "odor_avoidance_in_social_context"
+    },
+    {
+      "criterium": "social_impairment_due_to_odor_concern"
+    },
+    {
+      "criterium": "reassurance_seeking_about_odor"
+    },
+    {
+      "criterium": "olfactory_intrusive_thoughts"
+    },
+    {
+      "criterium": "odor_source_search_rumination"
+    },
+    {
+      "criterium": "odor_masking_behaviors_in_public_settings"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

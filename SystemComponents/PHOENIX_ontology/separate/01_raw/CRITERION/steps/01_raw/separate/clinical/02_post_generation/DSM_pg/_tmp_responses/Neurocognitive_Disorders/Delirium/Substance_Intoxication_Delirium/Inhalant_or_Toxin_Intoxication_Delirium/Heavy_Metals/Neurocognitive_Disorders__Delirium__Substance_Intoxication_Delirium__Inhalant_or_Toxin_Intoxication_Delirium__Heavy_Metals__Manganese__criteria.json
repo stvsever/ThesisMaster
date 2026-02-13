@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bradykinesia"
+    },
+    {
+      "criterium": "rigidity"
+    },
+    {
+      "criterium": "resting_tremor"
+    },
+    {
+      "criterium": "hypomimia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "fluctuating_consciousness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

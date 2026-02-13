@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SOCIAL_AVOIDANCE_BEHAVIOR"
+    },
+    {
+      "criterium": "ODOR_EMISSION_BELIEF"
+    },
+    {
+      "criterium": "ODOR_MANAGEMENT_BEHAVIOR"
+    },
+    {
+      "criterium": "SOCIAL_ANXIETY_DURING_ODOR_CONTEXT"
+    },
+    {
+      "criterium": "SOCIAL_WITHDRAWAL_FROM_WORK_SCHOOL"
+    },
+    {
+      "criterium": "PUBLIC_PLACES_AVOIDANCE"
+    },
+    {
+      "criterium": "ISOLATION_FROM_SOCIAL_NETWORKS"
+    },
+    {
+      "criterium": "REASSURANCE_SEEKING_ABOUT_ODOR"
+    },
+    {
+      "criterium": "IMPAIRMENT_IN_SOCIAL_FUNCTIONING"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

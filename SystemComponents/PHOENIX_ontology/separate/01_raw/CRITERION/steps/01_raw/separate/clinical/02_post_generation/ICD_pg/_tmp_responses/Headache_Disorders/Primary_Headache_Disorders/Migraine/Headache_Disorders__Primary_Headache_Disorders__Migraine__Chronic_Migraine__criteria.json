@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pulsating_headache_quality"
+    },
+    {
+      "criterium": "unilateral_headache_location"
+    },
+    {
+      "criterium": "pain_intensity_moderate_to_severe"
+    },
+    {
+      "criterium": "photophobia"
+    },
+    {
+      "criterium": "phonophobia"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "cutaneous_allodynia"
+    },
+    {
+      "criterium": "neck_stiffness"
+    },
+    {
+      "criterium": "cognitive_fog_during_attack"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

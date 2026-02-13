@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "REEXPERIENCING_INTRUSIVE_MEMORIES"
+    },
+    {
+      "criterium": "DISTRESSING_DREAMS_OF_TRAUMA"
+    },
+    {
+      "criterium": "DISSOCIATIVE_REACTIONS_TO_TRAUMA_CUES"
+    },
+    {
+      "criterium": "AVOIDANCE_OF_TRAUMA_RELATED_STIMULI"
+    },
+    {
+      "criterium": "PERSISTENT_NEGATIVE_EMOTIONAL_STATE"
+    },
+    {
+      "criterium": "DETACHMENT_OR_SOCIAL_WITHDRAWAL"
+    },
+    {
+      "criterium": "HYPERVIGILANCE"
+    },
+    {
+      "criterium": "EXAGGERATED_STARTLE_RESPONSE"
+    },
+    {
+      "criterium": "IRRITABILITY_OR_AGGRESSIVE_OUTBURSTS"
+    },
+    {
+      "criterium": "SLEEP_DISTURBANCE"
+    },
+    {
+      "criterium": "CONCENTRATION_DIFFICULTIES"
+    },
+    {
+      "criterium": "PERSISTENT_GUILT_OR_SELF_BLAME_AFTER_TRAUMA"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

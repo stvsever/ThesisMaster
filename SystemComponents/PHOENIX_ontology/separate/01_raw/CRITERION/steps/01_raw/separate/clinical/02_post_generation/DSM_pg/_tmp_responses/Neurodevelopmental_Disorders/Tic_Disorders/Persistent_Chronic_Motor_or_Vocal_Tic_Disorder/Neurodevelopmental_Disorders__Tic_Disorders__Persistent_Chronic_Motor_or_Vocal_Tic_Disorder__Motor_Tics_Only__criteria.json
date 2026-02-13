@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "EYE_BLINK_TIC"
+    },
+    {
+      "criterium": "FACIAL_GRIMACE_TIC"
+    },
+    {
+      "criterium": "HEAD_JERK_TIC"
+    },
+    {
+      "criterium": "NECK_TURN_TIC"
+    },
+    {
+      "criterium": "SHOULDER_RAISE_TIC"
+    },
+    {
+      "criterium": "ARM_EXTENSION_TIC"
+    },
+    {
+      "criterium": "HAND_TAPPING_TIC"
+    },
+    {
+      "criterium": "TORSO_TWIST_TIC"
+    },
+    {
+      "criterium": "LEG_JERK_TIC"
+    },
+    {
+      "criterium": "SELF_TOUCHING_TIC"
+    },
+    {
+      "criterium": "TOUCHING_OBJECTS_TIC"
+    },
+    {
+      "criterium": "COMPLEX_MOTOR_TIC_JUMPING_OR_HOPPING"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

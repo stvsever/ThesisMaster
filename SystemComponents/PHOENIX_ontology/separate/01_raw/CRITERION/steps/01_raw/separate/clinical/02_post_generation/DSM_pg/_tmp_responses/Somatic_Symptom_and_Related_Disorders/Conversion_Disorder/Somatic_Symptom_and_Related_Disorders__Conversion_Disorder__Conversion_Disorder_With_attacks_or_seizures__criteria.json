@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "paroxysmal_seizure_like_attack"
+    },
+    {
+      "criterium": "non_epileptiform_EEG_during_attack"
+    },
+    {
+      "criterium": "preserved_or_fluctuating_awareness_during_attack"
+    },
+    {
+      "criterium": "eye_closure_during_attack"
+    },
+    {
+      "criterium": "asynchronous_limb_movements_during_attack"
+    },
+    {
+      "criterium": "absence_of_tongue_biting_during_attack"
+    },
+    {
+      "criterium": "maintained_responsiveness_during_attack"
+    },
+    {
+      "criterium": "no_postictal_confusion_or_fatigue_post_attack"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

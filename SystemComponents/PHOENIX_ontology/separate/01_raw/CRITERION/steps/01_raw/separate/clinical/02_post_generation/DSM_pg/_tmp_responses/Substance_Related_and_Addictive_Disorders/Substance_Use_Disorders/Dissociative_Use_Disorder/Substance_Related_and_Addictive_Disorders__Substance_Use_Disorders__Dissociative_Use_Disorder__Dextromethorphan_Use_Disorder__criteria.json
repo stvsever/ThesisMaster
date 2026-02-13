@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "dxm_dissociation_experience"
+    },
+    {
+      "criterium": "dxm_visual_hallucination"
+    },
+    {
+      "criterium": "dxm_auditory_hallucination"
+    },
+    {
+      "criterium": "dxm_time_distortion"
+    },
+    {
+      "criterium": "dxm_nystagmus"
+    },
+    {
+      "criterium": "dxm_tachycardia"
+    },
+    {
+      "criterium": "dxm_hypertension"
+    },
+    {
+      "criterium": "dxm_gait_ataxia"
+    },
+    {
+      "criterium": "dxm_slurred_speech"
+    },
+    {
+      "criterium": "dxm_pupillary_dilatation"
+    },
+    {
+      "criterium": "dxm_craving"
+    },
+    {
+      "criterium": "dxm_compulsive_use_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

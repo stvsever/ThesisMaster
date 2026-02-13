@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "clouding_of_consciousness"
+    },
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "disorientation_to_time_place_person"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "fever"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "fluctuating_level_of_consciousness"
+    },
+    {
+      "criterium": "delusional_thought_content"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "poor_symbolic_number_processing"
+    },
+    {
+      "criterium": "difficult_arithmetic_fact_retrieval"
+    },
+    {
+      "criterium": "weak_subitizing_ability"
+    },
+    {
+      "criterium": "weak_magnitude_estimation"
+    },
+    {
+      "criterium": "deficient_number_line_orientation"
+    },
+    {
+      "criterium": "poor_place_value_acuity"
+    },
+    {
+      "criterium": "difficulty_with_multi_digit_arithmetic"
+    },
+    {
+      "criterium": "deficient_working_memory_numerical_load"
+    },
+    {
+      "criterium": "slowed_math_processing_speed"
+    },
+    {
+      "criterium": "reliance_on_finger_counting"
+    },
+    {
+      "criterium": "math_anxiety_or_avoidance_behavior"
+    },
+    {
+      "criterium": "procedural_arithmetic_error_proneness"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

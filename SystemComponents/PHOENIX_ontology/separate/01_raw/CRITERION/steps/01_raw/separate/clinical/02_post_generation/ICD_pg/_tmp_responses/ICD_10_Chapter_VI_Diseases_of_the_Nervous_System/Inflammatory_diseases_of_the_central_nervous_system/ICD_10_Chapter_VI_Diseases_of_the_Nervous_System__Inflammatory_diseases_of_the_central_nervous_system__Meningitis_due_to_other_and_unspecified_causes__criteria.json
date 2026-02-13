@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delirium"
+    },
+    {
+      "criterium": "encephalopathy"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "language_dysfunction"
+    },
+    {
+      "criterium": "orientation_disturbance"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "mood_disturbance"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disruption"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

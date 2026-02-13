@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "ideomotor_apraxia"
+    },
+    {
+      "criterium": "IADL_impairment"
+    },
+    {
+      "criterium": "disorientation_in_time_or_place"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    },
+    {
+      "criterium": "facial_recognition_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.08
+}

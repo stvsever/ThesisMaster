@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "detrusor_overactivity_filling_phase"
+    },
+    {
+      "criterium": "reduced_functional_bladder_capacity"
+    },
+    {
+      "criterium": "elevated_intravesical_pressure_at_capacity"
+    },
+    {
+      "criterium": "early_sensation_of_fullness"
+    },
+    {
+      "criterium": "daytime_urinary_frequency"
+    },
+    {
+      "criterium": "urinary_urgency"
+    },
+    {
+      "criterium": "nocturnal_enuresis_present"
+    },
+    {
+      "criterium": "nocturnal_enuresis_episodes"
+    },
+    {
+      "criterium": "elevated_postvoid_residual_volume"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

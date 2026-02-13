@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_pornography"
+    },
+    {
+      "criterium": "compulsive_pornography_viewing"
+    },
+    {
+      "criterium": "loss_of_control_over_pornography_use"
+    },
+    {
+      "criterium": "tolerance_to_pornography_reward"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_pornography_restriction"
+    },
+    {
+      "criterium": "repeated_failed_attempts_to_cut_down_pornography_use"
+    },
+    {
+      "criterium": "impairment_in_work_or_academic_performance_due_to_pornography_use"
+    },
+    {
+      "criterium": "interpersonal_conflict_or_relationship_impairment_due_to_pornography_use"
+    },
+    {
+      "criterium": "use_pornography_to_mitigate_negative_emotions_or_stress"
+    },
+    {
+      "criterium": "intrusive_pornographic_thoughts_when_not_viewing"
+    },
+    {
+      "criterium": "cue_reactivity_to_pornography_stimuli"
+    },
+    {
+      "criterium": "secretive_or_deceptive_pornography_use_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 4.0
+}

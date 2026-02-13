@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ANTICIPATORY_ANXIETY_PENETRATION"
+    },
+    {
+      "criterium": "FEAR_VAGINAL_PENETRATION_PAIN"
+    },
+    {
+      "criterium": "PENETRATION_AVOIDANCE_BEHAVIOR"
+    },
+    {
+      "criterium": "PELVIC_FLOOR_TONE_HYPERTONIA_ON_PENETRATION_ATTEMPT"
+    },
+    {
+      "criterium": "DYSPAREUNIA_WITH_VAGINAL_PENETRATION"
+    },
+    {
+      "criterium": "PENETRATION_ATTEMPT_ABORTED_DUE_TO_FEAR"
+    },
+    {
+      "criterium": "AVERSION_TO_SEXUAL_ACTIVITY_INVOLVING_PENETRATION"
+    },
+    {
+      "criterium": "REPORTED_DISTRESS_ASSOCIATED_WITH_PENETRATION_CUES"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

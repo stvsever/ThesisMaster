@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "refusal_to_comply_with_directives"
+    },
+    {
+      "criterium": "argues_with_adults_or_authorities"
+    },
+    {
+      "criterium": "deliberate_provocation_of_others"
+    },
+    {
+      "criterium": "blames_others_for_personal_misconduct"
+    },
+    {
+      "criterium": "frequent_temper_tantrums_or_angry_outbursts"
+    },
+    {
+      "criterium": "spiteful_or_vindictive_behavior"
+    },
+    {
+      "criterium": "resists_cooperation_with_warnings_or_consequences"
+    },
+    {
+      "criterium": "persistent_interpersonal_conflict_in_peer_interactions"
+    }
+  ],
+  "estimated_prevalence_percent": 1.8
+}

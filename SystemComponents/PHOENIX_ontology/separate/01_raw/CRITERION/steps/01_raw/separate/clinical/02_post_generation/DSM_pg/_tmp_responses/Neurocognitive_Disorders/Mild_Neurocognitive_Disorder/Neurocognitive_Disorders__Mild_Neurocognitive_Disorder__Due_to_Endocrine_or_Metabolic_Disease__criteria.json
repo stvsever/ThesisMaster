@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_short_term_memory"
+    },
+    {
+      "criterium": "impaired_new_learning"
+    },
+    {
+      "criterium": "attentional_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "processing_speed_deficit"
+    },
+    {
+      "criterium": "visuospatial_processing_deficit"
+    },
+    {
+      "criterium": "language_fluency_decline"
+    },
+    {
+      "criterium": "orientation_impairment"
+    },
+    {
+      "criterium": "semantic_memory_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

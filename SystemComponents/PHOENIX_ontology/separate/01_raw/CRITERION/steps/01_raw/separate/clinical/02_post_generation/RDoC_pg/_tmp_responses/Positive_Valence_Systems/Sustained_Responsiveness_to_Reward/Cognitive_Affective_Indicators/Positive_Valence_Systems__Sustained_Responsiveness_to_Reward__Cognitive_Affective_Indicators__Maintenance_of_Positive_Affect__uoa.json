@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265",
+      "DRD2_rs1800497",
+      "COMT_rs4680",
+      "SLC6A4_5HTTLPR",
+      "HTR1A_rs6295",
+      "MAOA_uVNTR"
+    ],
+    "molecules": [
+      "BDNF_concentration",
+      "Dopamine_concentration",
+      "Serotonin_concentration",
+      "Norepinephrine_concentration",
+      "Dopamine_receptor_D2_availability",
+      "BDNF_signaling_activity"
+    ],
+    "cells": [
+      "PFC_pyramidal_neuron_density",
+      "VTA_dopaminergic_neuron_count",
+      "DRN_serotonergic_neuron_count",
+      "NAcc_medium_spiny_neuron_count",
+      "Hippocampal_pyramidal_neuron_density"
+    ],
+    "circuits": [
+      "VTA_DA_pathway_activity",
+      "NAcc_reward_processing_connectivity",
+      "PFC_reward_regulation_connectivity",
+      "Amygdala_prefrontal_connectivity",
+      "Hippocampus_reward_context_processing_connectivity"
+    ],
+    "physiology": [
+      "Heart_rate_variability",
+      "Skin_conductance_response",
+      "Cortisol_serum_level",
+      "Respiratory_rate",
+      "Blood_pressure_systolic"
+    ],
+    "behavior": [
+      "Sustained_smiling_behavior_duration",
+      "Positive_verbal_expression_rate",
+      "Eye_contact_duration_positive",
+      "Reward_pursuit_latency",
+      "Reward_engagement_frequency"
+    ],
+    "self_report": [
+      "PANAS_Positive_Affect_score",
+      "State_Mood_Positive",
+      "Pleasure_capacity_scale",
+      "Positive_affect_trait_score",
+      "Affective_Satisfaction_Score"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

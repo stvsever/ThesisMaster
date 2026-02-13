@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypoactive_desire"
+    },
+    {
+      "criterium": "reduced_arousal_to_stimuli"
+    },
+    {
+      "criterium": "anorgasmia"
+    },
+    {
+      "criterium": "delayed_orgasm"
+    },
+    {
+      "criterium": "erectile_dysfunction"
+    },
+    {
+      "criterium": "premature_ejaculation"
+    },
+    {
+      "criterium": "genito_pelvic_pain_during_penetration"
+    },
+    {
+      "criterium": "sexual_activity_avoidance"
+    },
+    {
+      "criterium": "distress_related_to_sexual_dysfunction"
+    }
+  ],
+  "estimated_prevalence_percent": 4.3
+}

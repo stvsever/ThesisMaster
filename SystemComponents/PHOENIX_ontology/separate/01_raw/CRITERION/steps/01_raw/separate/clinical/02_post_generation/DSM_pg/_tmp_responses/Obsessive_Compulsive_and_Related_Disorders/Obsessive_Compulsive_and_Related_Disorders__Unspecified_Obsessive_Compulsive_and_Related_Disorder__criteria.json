@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_obsessional_thoughts_of_contamination"
+    },
+    {
+      "criterium": "compulsive_washing_behaviors"
+    },
+    {
+      "criterium": "repetitive_checking_behaviors"
+    },
+    {
+      "criterium": "symmetry_ordering_compulsions"
+    },
+    {
+      "criterium": "mental_compulsions"
+    },
+    {
+      "criterium": "obsessional_thoughts_of_aggression_or_sexual_content"
+    },
+    {
+      "criterium": "obsessional_religious_or_morality_obsessions"
+    },
+    {
+      "criterium": "reassurance_seeking_behaviors"
+    },
+    {
+      "criterium": "avoidance_of_triggering_stimuli_or_objects"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

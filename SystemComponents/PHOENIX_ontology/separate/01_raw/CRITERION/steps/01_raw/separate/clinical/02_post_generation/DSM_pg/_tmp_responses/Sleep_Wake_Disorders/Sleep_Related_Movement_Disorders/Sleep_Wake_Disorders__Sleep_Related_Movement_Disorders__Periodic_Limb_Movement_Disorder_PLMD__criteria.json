@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "plmi_per_hour"
+    },
+    {
+      "criterium": "plms_movement_duration_ms"
+    },
+    {
+      "criterium": "plms_intermovement_interval_s"
+    },
+    {
+      "criterium": "plms_periodicity_index"
+    },
+    {
+      "criterium": "plms_arousal_association_present"
+    },
+    {
+      "criterium": "plms_bilateral_occurrence_present"
+    },
+    {
+      "criterium": "plms_subjective_leg_sensation_present"
+    },
+    {
+      "criterium": "plms_sleep_fragmentation_index"
+    },
+    {
+      "criterium": "plms_nrem_stage_occurrence_present"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

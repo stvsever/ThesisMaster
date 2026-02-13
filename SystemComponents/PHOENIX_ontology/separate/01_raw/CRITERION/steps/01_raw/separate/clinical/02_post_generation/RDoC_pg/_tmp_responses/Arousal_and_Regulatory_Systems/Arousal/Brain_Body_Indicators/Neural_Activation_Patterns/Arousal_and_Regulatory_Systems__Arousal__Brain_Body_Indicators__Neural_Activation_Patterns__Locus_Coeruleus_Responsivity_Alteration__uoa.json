@@ -1,0 +1,51 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DBH_genotype",
+      "SLC6A2_genotype",
+      "ADRA2A_genotype",
+      "ADRA1A_genotype",
+      "DBH_methylation_status",
+      "SLC6A2_promoter_methylation",
+      "NET_gene_expression"
+    ],
+    "molecules": [
+      "CSF_norepinephrine",
+      "CSF_MHPG",
+      "Plasma_norepinephrine",
+      "Urine_MHPG"
+    ],
+    "cells": [
+      "LC_neuron_firing_rate_during_stimulus",
+      "LC_neuron_firing_rate_rest",
+      "LC_neuron_firing_variability",
+      "LC_neuron_density"
+    ],
+    "circuits": [
+      "LC_fMRI_activation_peak_to_stimulus",
+      "LC_to_prefrontal_functional_connectivity",
+      "LC_to_amygdala_functional_connectivity",
+      "LC_thalamocortical_connectivity_strength"
+    ],
+    "physiology": [
+      "pupil_dilation_max",
+      "pupil_dilation_latency",
+      "heart_rate_variability",
+      "skin_conductance_response_amplitude",
+      "respiratory_rate_variability"
+    ],
+    "behavior": [
+      "reaction_time_to_stimulus",
+      "task_accuracy_under_arousal",
+      "response_bias_under_stress",
+      "error_rate_under_arousal"
+    ],
+    "self_report": [
+      "state_arousal_rating",
+      "perceived_stress_scale_score",
+      "state_anxiety_rating",
+      "sleepiness_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 6.8
+}

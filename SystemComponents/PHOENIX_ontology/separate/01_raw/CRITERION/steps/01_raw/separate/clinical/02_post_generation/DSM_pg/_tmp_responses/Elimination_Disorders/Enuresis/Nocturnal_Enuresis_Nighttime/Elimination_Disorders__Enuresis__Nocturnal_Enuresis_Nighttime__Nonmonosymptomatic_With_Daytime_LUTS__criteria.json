@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_enuresis_frequency"
+    },
+    {
+      "criterium": "daytime_urgency_present"
+    },
+    {
+      "criterium": "daytime_incontinence_present"
+    },
+    {
+      "criterium": "daytime_micturition_frequency_elevated"
+    },
+    {
+      "criterium": "polyuria_sign_present"
+    },
+    {
+      "criterium": "bladder_capacity_reduced_on_assessment"
+    },
+    {
+      "criterium": "post_void_residual_volume_elevated"
+    },
+    {
+      "criterium": "detrusor_overactivity_signs_present"
+    },
+    {
+      "criterium": "pelvic_floor_dysfunction_signs_present"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

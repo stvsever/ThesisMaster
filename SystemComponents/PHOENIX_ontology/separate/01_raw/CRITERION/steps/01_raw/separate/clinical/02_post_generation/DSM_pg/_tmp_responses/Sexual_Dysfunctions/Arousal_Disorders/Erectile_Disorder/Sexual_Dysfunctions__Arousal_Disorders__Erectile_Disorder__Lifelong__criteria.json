@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inability_to_achieve_sufficient_penile_rigidity_for_intercourse"
+    },
+    {
+      "criterium": "inability_to_maintain_penile_rigidity_through_coitus"
+    },
+    {
+      "criterium": "inadequate_penile_rigidity_in_response_to_sexual_stimulation"
+    },
+    {
+      "criterium": "absent_or_significantly_reduced_nocturnal_penile_erections"
+    },
+    {
+      "criterium": "short_duration_of_erections_in_intercourse_attempts"
+    },
+    {
+      "criterium": "inconsistent_erection_quality_across_sexual_attempts"
+    },
+    {
+      "criterium": "decreased_frequency_of_erections_in_desired_context"
+    },
+    {
+      "criterium": "lack_of_spontaneous_erections_in_absence_of_stimulation"
+    },
+    {
+      "criterium": "erection_difficulty_persists_across_partners_and_settings"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "DECREASED_SLEEP_NEED"
+    },
+    {
+      "criterium": "PRESSURED_SPEECH"
+    },
+    {
+      "criterium": "FLIGHT_OF_IDEAS"
+    },
+    {
+      "criterium": "RACING_THOUGHTS"
+    },
+    {
+      "criterium": "GRANDIOSITY"
+    },
+    {
+      "criterium": "INCREASED_GOAL_DIRECTED_ACTIVITY"
+    },
+    {
+      "criterium": "IRRITABLE_MOOD"
+    },
+    {
+      "criterium": "RISKY_IMPULSIVE_BEHAVIOR"
+    },
+    {
+      "criterium": "DEPRESSED_MOOD"
+    },
+    {
+      "criterium": "ANHEDONIA"
+    },
+    {
+      "criterium": "SLEEP_DISTURBANCE"
+    },
+    {
+      "criterium": "FATIGUE"
+    },
+    {
+      "criterium": "POOR_CONCENTRATION"
+    },
+    {
+      "criterium": "SUICIDAL_THOUGHTS"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ALT_ABOVE_ULN"
+    },
+    {
+      "criterium": "AST_ABOVE_ULN"
+    },
+    {
+      "criterium": "ALT_GT_3x_ULN"
+    },
+    {
+      "criterium": "AST_GT_3x_ULN"
+    },
+    {
+      "criterium": "ALT_AST_RATIO_GT_2"
+    },
+    {
+      "criterium": "GGT_ABOVE_ULN"
+    },
+    {
+      "criterium": "ALP_ABOVE_ULN"
+    },
+    {
+      "criterium": "TOTAL_BILIRUBIN_ABOVE_ULN"
+    },
+    {
+      "criterium": "DIRECT_BILIRUBIN_ABOVE_ULN"
+    },
+    {
+      "criterium": "INR_PROLONGED_ABOVE_ULN"
+    }
+  ],
+  "estimated_prevalence_percent": 14.5
+}

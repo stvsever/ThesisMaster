@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anomia_confrontation_naming_subtle"
+    },
+    {
+      "criterium": "semantic_memory_deficit_subtle"
+    },
+    {
+      "criterium": "word_retrieval_latency_subtle"
+    },
+    {
+      "criterium": "phonemic_paraphasias_present_subtle"
+    },
+    {
+      "criterium": "speech_rate_decrease_subtle"
+    },
+    {
+      "criterium": "repetition_deficit_subtle"
+    },
+    {
+      "criterium": "articulation_planning_difficulty_subtle"
+    },
+    {
+      "criterium": "apraxia_of_speech_subclinical"
+    },
+    {
+      "criterium": "agrammatism_subtle"
+    },
+    {
+      "criterium": "semantic_fluency_deficit_subtle"
+    }
+  ],
+  "estimated_prevalence_percent": 0.003
+}

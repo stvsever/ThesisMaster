@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hair_ingestion_present"
+    },
+    {
+      "criterium": "bezoar_in_gi_tract_present"
+    },
+    {
+      "criterium": "abdominal_pain_present"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "vomiting_present"
+    },
+    {
+      "criterium": "early_satiety_present"
+    },
+    {
+      "criterium": "unintentional_weight_loss_present"
+    },
+    {
+      "criterium": "abdominal_distension_present"
+    },
+    {
+      "criterium": "gastric_obstruction_signs_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

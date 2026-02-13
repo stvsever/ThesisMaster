@@ -1,0 +1,26 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "thalamo_cortical_somatosensory_projection_strength",
+      "S1_pyramidal_network_connectivity",
+      "GABAergic_inhibition_S1_network",
+      "S1_thalamocortical_connectivity_strength"
+    ],
+    "physiology": [
+      "SEP_N20_latency_ms",
+      "SEP_N20_amplitude_uV",
+      "SEP_P30_latency_ms",
+      "SEP_P30_amplitude_uV"
+    ],
+    "behavior": [
+      "tactile_discrimination_accuracy_percent",
+      "somatosensory_reaction_time_ms",
+      "tactile_detection_task_performance_percent"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 1.2
+}

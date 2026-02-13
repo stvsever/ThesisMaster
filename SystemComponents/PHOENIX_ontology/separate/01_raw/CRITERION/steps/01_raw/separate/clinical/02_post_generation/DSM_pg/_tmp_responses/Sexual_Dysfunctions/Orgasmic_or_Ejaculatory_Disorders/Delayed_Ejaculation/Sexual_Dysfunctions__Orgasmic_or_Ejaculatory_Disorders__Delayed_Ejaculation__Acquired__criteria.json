@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "prolonged_latency_to_ejaculation"
+    },
+    {
+      "criterium": "inability_to_ejaculate_in_coital_activity"
+    },
+    {
+      "criterium": "reduced_ejaculatory_frequency"
+    },
+    {
+      "criterium": "ejaculation_requires_extremely_high_stimulation"
+    },
+    {
+      "criterium": "decreased_orgasmic_sensation_at_ejaculation"
+    },
+    {
+      "criterium": "preserved_erectile_function"
+    },
+    {
+      "criterium": "psychological_distress_related_to_ejaculatory_difficulty"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

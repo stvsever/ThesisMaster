@@ -1,0 +1,45 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_mRNA_expression_level",
+      "FOXP2_mRNA_expression_level",
+      "CNTNAP2_mRNA_expression_level",
+      "GRIN2B_mRNA_expression_level",
+      "GAD1_mRNA_expression_level"
+    ],
+    "molecules": [
+      "GABA_concentration_in_auditory_cortex",
+      "Glutamate_concentration_in_auditory_cortex",
+      "D_serine_concentration_in_auditory_synapses",
+      "Acetylcholine_level_in_acoustic_pathways"
+    ],
+    "cells": [
+      "PV_interneuron_density_in_auditory_cortex",
+      "Pyramidal_neuron_density_in_auditory_cortex"
+    ],
+    "circuits": [
+      "auditory_cortex_to_prefrontal_cortex_connectivity_strength",
+      "auditory_thalamocortical_pathway_integrity",
+      "superior_temporal_gyrus_auditory_connectivity",
+      "gamma_band_synchrony_across_auditory_network"
+    ],
+    "physiology": [
+      "auditory_timing_jitter_ms",
+      "ERP_N1_latency_ms",
+      "ERP_P2_latency_ms",
+      "MEG_gamma_band_power_during_TOJ"
+    ],
+    "behavior": [
+      "auditory_TOJ_accuracy_percent",
+      "auditory_TOJ_reaction_time_ms",
+      "temporal_order_discrimination_threshold_ms",
+      "sequence_reordering_error_rate_percent"
+    ],
+    "self_report": [
+      "subjective_auditory_temporal_disruption_score",
+      "perceived_auditory_temporal_processing_difficulty",
+      "self_report_temporal_order_confusion_severity"
+    ]
+  },
+  "estimated_prevalence_percent": 3.5
+}

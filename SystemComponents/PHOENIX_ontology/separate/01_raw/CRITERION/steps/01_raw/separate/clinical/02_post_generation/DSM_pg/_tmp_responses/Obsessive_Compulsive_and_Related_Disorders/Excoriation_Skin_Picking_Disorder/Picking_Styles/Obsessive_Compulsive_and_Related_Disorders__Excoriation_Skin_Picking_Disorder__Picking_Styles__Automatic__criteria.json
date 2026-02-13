@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "automatic_picking_without_awareness"
+    },
+    {
+      "criterium": "picking_during_other_tasks"
+    },
+    {
+      "criterium": "repetitive_skin_picking_behavior"
+    },
+    {
+      "criterium": "picking_target_site_face"
+    },
+    {
+      "criterium": "picking_target_site_hands"
+    },
+    {
+      "criterium": "relief_after_picking"
+    },
+    {
+      "criterium": "difficult_to_interrupt_picking"
+    },
+    {
+      "criterium": "picking_occurs_in_attentional_gap"
+    },
+    {
+      "criterium": "picking_without_conscious_preplanning"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

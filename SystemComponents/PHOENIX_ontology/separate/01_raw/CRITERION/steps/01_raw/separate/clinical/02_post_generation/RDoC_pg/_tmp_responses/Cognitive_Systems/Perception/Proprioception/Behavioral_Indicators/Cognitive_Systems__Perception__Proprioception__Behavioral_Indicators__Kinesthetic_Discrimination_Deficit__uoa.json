@@ -1,0 +1,42 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "PIEZO2_gene_expression",
+      "RUNX3_gene_expression",
+      "POU4F1_gene_expression"
+    ],
+    "molecules": [
+      "PIEZO2_protein_level",
+      "RUNX3_protein_level",
+      "TRPV4_protein_level"
+    ],
+    "cells": [
+      "DRG_proprioceptive_neuron_count",
+      "Aβ_proprioceptive_fiber_density",
+      "parietal_proprioceptive_neuron_marker_density"
+    ],
+    "circuits": [
+      "posterior_parietal_cortex_proprioception_task_BOLD",
+      "premotor_cortex_proprioception_task_BOLD",
+      "S1_PPC_proprioception_connectivity_strength"
+    ],
+    "physiology": [
+      "joint_angle_discrimination_threshold_deg",
+      "joint_position_matching_error_deg",
+      "kinesthetic_sensitivity_index",
+      "movement_direction_discrimination_threshold_deg"
+    ],
+    "behavior": [
+      "joint_position_matching_accuracy_percent",
+      "kinesthetic_discrimination_test_success_rate",
+      "movement_direction_identification_accuracy"
+    ],
+    "self_report": [
+      "self_report_kinesthetic_discrimination_difficulty_score",
+      "self_report_proprioception_deficit_severity",
+      "self_report_body_position_error_perceived",
+      "self_report_proprioceptive_quality_of_life"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

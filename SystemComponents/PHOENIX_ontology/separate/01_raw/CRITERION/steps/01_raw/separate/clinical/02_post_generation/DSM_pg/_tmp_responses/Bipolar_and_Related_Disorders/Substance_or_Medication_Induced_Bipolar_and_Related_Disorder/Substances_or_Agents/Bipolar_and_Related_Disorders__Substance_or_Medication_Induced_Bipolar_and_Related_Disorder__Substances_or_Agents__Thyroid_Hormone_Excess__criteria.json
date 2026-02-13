@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sinus_tachycardia"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "fine_hand_tremor"
+    },
+    {
+      "criterium": "heat_intolerance"
+    },
+    {
+      "criterium": "unintentional_weight_loss"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "diarrhea"
+    },
+    {
+      "criterium": "proximal_muscle_weakness"
+    },
+    {
+      "criterium": "hyperreflexia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

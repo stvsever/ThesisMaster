@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_infant_harm_thoughts_presence"
+    },
+    {
+      "criterium": "intrusive_infant_negligence_thoughts_presence"
+    },
+    {
+      "criterium": "egodystonic_nature_of_intrusive_thoughts"
+    },
+    {
+      "criterium": "distress_level_from_intrusive_thoughts"
+    },
+    {
+      "criterium": "recurrence_frequency_of_intrusive_thoughts_infant"
+    },
+    {
+      "criterium": "anxiety_or_autonomic_arousal_associated_with_intrusive_thoughts"
+    },
+    {
+      "criterium": "insight_into_unwanted_character_of_thoughts"
+    },
+    {
+      "criterium": "sleep_disturbance_associated_with_intrusive_thoughts"
+    },
+    {
+      "criterium": "feeding_or_care_routine_disruption_due_to_intrusive_thoughts"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

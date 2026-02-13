@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bed_exit_during_sleep"
+    },
+    {
+      "criterium": "somnambulistic_ambulation"
+    },
+    {
+      "criterium": "eyes_open_during_episode"
+    },
+    {
+      "criterium": "unresponsiveness_to_verbal_stimulation_during_episode"
+    },
+    {
+      "criterium": "amnesia_for_episode"
+    },
+    {
+      "criterium": "complex_motor_actions_during_sleepwalking"
+    },
+    {
+      "criterium": "injury_occurrence_during_episode"
+    },
+    {
+      "criterium": "verbal_output_during_episode"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

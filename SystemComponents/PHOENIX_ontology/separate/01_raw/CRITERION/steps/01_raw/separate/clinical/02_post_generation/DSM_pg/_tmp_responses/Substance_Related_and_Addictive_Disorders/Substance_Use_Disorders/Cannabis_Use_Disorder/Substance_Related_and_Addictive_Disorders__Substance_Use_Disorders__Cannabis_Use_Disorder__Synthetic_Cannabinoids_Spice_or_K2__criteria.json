@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "paranoid_delusions"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "seizures"
+    },
+    {
+      "criterium": "diaphoresis"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

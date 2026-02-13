@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "faciobrachial_dystonic_seizures"
+    },
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "confusion_or_delirium"
+    },
+    {
+      "criterium": "hyponatremia"
+    },
+    {
+      "criterium": "temporal_lobe_T2_FLAIR_hyperintensities"
+    },
+    {
+      "criterium": "focal_seizures"
+    },
+    {
+      "criterium": "psychiatric_symptom_presentation"
+    },
+    {
+      "criterium": "CSF_pleocytosis"
+    },
+    {
+      "criterium": "EEG_epileptiform_activity"
+    },
+    {
+      "criterium": "temporal_lobe_atrophy_on_MRI"
+    },
+    {
+      "criterium": "autonomic_dysfunction"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0015
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "superficial_dyspareunia"
+    },
+    {
+      "criterium": "deep_pelvic_dyspareunia"
+    },
+    {
+      "criterium": "postcoital_pain"
+    },
+    {
+      "criterium": "cyclic_pelvic_pain"
+    },
+    {
+      "criterium": "dysmenorrhea"
+    },
+    {
+      "criterium": "dyschezia"
+    },
+    {
+      "criterium": "noncyclic_pelvic_pain"
+    },
+    {
+      "criterium": "referred_pain_to_lower_back"
+    },
+    {
+      "criterium": "intercourse_avoidance_due_to_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

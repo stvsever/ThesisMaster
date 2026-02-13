@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_complex_attention"
+    },
+    {
+      "criterium": "impaired_working_memory"
+    },
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "language_fluency_decline"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "ideomotor_apraxia"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

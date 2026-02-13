@@ -1,0 +1,32 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "PFC_pain_catastrophizing_task_activation",
+      "ACC_pain_catastrophizing_task_activation",
+      "insula_pain_catastrophizing_task_activation",
+      "DLPFC_pain_catastrophizing_task_activation"
+    ],
+    "physiology": [
+      "heart_rate_increase_during_pain_catastrophizing",
+      "skin_conductance_increase_pain_catastrophizing",
+      "pupil_dilation_pain_catastrophizing",
+      "cortisol_level_pain_catastrophizing"
+    ],
+    "behavior": [
+      "facial_expression_pain_catastrophizing",
+      "guarding_behavior_pain_event",
+      "verbal_rumination_during_pain_assessment",
+      "avoidance_behavior_pain_context"
+    ],
+    "self_report": [
+      "PCS_total_score",
+      "PCS_rumination_score",
+      "PCS_magnification_score",
+      "PCS_helplessness_score"
+    ]
+  },
+  "estimated_prevalence_percent": 12.5
+}

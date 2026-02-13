@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "kayser_fleischer_rings"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "parkinsonism"
+    },
+    {
+      "criterium": "dystonia"
+    },
+    {
+      "criterium": "cerebellar_ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "dysphagia"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "mood_disorder_depression"
+    },
+    {
+      "criterium": "anxiety_presentation"
+    },
+    {
+      "criterium": "hepatic_dysfunction"
+    },
+    {
+      "criterium": "low_serum_ceruloplasmin"
+    },
+    {
+      "criterium": "increased_urinary_copper_excretion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0033
+}

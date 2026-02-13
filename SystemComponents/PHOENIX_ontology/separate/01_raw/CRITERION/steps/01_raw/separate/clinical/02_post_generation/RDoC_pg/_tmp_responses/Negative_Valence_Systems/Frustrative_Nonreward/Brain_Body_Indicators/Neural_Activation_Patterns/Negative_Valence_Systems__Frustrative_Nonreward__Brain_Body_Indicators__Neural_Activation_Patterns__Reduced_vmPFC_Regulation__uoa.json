@@ -1,0 +1,53 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_Val66Met",
+      "COMT_rs4680_val158met",
+      "FKBP5_rs1360780",
+      "NR3C1_promoter_methylation_vmPFC",
+      "HTTLPR_L_allele",
+      "HTTLPR_S_allele"
+    ],
+    "molecules": [
+      "BDNF_protein_vmPFC",
+      "cortisol_plasma",
+      "glutamate_vmPFC",
+      "GABA_vmPFC",
+      "dopamine_D2_receptor_vmPFC_density",
+      "norepinephrine_vmPFC"
+    ],
+    "cells": [
+      "pyramidal_neurons_vmPFC_density",
+      "parvalbumin_interneurons_vmPFC_density",
+      "astrocyte_vmPFC_density",
+      "oligodendrocyte_vmPFC_density"
+    ],
+    "circuits": [
+      "vmPFC_amygdala_functional_connectivity",
+      "vmPFC_dACC_functional_connectivity",
+      "vmPFC_ventral_striatum_connectivity",
+      "vmPFC_hippocampus_connectivity"
+    ],
+    "physiology": [
+      "vmPFC_BOLD_activation",
+      "vmPFC_CBF",
+      "heart_rate_variability",
+      "skin_conductance_response_peak",
+      "pupil_dilation_vmPFC_task"
+    ],
+    "behavior": [
+      "frustration_task_reaction_time",
+      "frustration_task_error_rate",
+      "reward_processing_bias_behavior",
+      "delay_of_gratification_choice_latency",
+      "regulation_strategy_use_behavior"
+    ],
+    "self_report": [
+      "emotion_regulation_difficulty_score",
+      "frustration_sensitivity_scale_score",
+      "reappraisal_use_scale_score",
+      "vmPFC_regulation_belief_confidence"
+    ]
+  },
+  "estimated_prevalence_percent": 9.4
+}

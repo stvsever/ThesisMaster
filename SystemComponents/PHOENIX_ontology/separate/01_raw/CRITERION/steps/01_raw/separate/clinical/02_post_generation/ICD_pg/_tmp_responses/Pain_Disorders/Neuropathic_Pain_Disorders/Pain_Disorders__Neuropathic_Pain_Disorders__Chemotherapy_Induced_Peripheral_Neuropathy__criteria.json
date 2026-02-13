@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "distal_sensory_hypoesthesia"
+    },
+    {
+      "criterium": "distal_paresthesias"
+    },
+    {
+      "criterium": "neuropathic_pain_in_distal_limbs"
+    },
+    {
+      "criterium": "allodynia_in_distal_limbs"
+    },
+    {
+      "criterium": "hyperalgesia_in_distal_limbs"
+    },
+    {
+      "criterium": "diminished_ankle_reflexes"
+    },
+    {
+      "criterium": "impaired_proprioception_in_distal_limbs"
+    },
+    {
+      "criterium": "distal_muscle_weakness"
+    },
+    {
+      "criterium": "gait_instability_due_to_pn"
+    },
+    {
+      "criterium": "loss_of_vibration_sense_in_distal_limbs"
+    },
+    {
+      "criterium": "temperature_hypoesthesia_in_distal_limbs"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

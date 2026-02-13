@@ -1,0 +1,47 @@
+{
+  "domain_path": "BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools",
+  "domain_root_path": [
+    "BIO",
+    "Nutrition_Hydration_and_Metabolic_Health",
+    "Hydration_and_Beverage_Tools"
+  ],
+  "leaf_count": 11,
+  "total_edges_in_subtree": 11,
+  "evaluated_pairs": 11,
+  "violations_count": 4,
+  "violation_rate": 0.36363636363636365,
+  "llm_calls": 1,
+  "violations": [
+    "Hydration_and_Beverage_Tools > Alcohol_Free_Beverage_Options",
+    "Hydration_and_Beverage_Tools > Caffeine_Substitution_Decaf",
+    "Hydration_and_Beverage_Tools > Herbal_Tea_Rotation",
+    "Hydration_and_Beverage_Tools > Sparkling_Water_Rotation"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Hydration_and_Beverage_Tools > Alcohol_Free_Beverage_Options",
+      "parent_path": "BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools",
+      "child_path": "BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools / Alcohol_Free_Beverage_Options"
+    },
+    {
+      "pair": "Hydration_and_Beverage_Tools > Caffeine_Substitution_Decaf",
+      "parent_path": "BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools",
+      "child_path": "BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools / Caffeine_Substitution_Decaf"
+    },
+    {
+      "pair": "Hydration_and_Beverage_Tools > Herbal_Tea_Rotation",
+      "parent_path": "BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools",
+      "child_path": "BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools / Herbal_Tea_Rotation"
+    },
+    {
+      "pair": "Hydration_and_Beverage_Tools > Sparkling_Water_Rotation",
+      "parent_path": "BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools",
+      "child_path": "BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools / Sparkling_Water_Rotation"
+    }
+  ],
+  "cache_key": "6db7348065aa8315b8fe455fba46ed7d6425390c",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 34.912
+}

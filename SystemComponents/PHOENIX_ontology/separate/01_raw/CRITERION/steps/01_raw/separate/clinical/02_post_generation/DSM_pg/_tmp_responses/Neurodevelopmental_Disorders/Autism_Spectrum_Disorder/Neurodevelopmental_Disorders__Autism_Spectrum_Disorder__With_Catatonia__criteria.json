@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "stupor"
+    },
+    {
+      "criterium": "mutism"
+    },
+    {
+      "criterium": "waxy_flexibility"
+    },
+    {
+      "criterium": "catalepsy"
+    },
+    {
+      "criterium": "posturing"
+    },
+    {
+      "criterium": "negativism"
+    },
+    {
+      "criterium": "rigidity"
+    },
+    {
+      "criterium": "stereotyped_movements"
+    },
+    {
+      "criterium": "echolalia"
+    },
+    {
+      "criterium": "echopraxia"
+    },
+    {
+      "criterium": "grimacing"
+    },
+    {
+      "criterium": "mannerisms"
+    }
+  ],
+  "estimated_prevalence_percent": 0.12
+}

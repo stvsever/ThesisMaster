@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_encoding_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "attention_concentration_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "receptive_language_deficit"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "delirium_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

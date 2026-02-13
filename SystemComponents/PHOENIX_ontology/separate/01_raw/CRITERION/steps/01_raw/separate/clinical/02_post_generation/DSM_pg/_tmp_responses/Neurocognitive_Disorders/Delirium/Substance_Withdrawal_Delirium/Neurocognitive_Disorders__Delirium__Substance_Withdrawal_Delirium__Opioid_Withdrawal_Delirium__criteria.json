@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "fluctuating_consciousness"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "delusional_thought_content"
+    },
+    {
+      "criterium": "disorganized_thought_process"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "rhinorrhea"
+    },
+    {
+      "criterium": "lacrimation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

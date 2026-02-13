@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "identity_disturbance"
+    },
+    {
+      "criterium": "affectivity_lability"
+    },
+    {
+      "criterium": "unstable_interpersonal_relationships"
+    },
+    {
+      "criterium": "impulsivity"
+    },
+    {
+      "criterium": "anger_outbursts"
+    },
+    {
+      "criterium": "emotional_dysregulation"
+    },
+    {
+      "criterium": "paranoid_suspicion_under_stress"
+    },
+    {
+      "criterium": "chronic_emptiness"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

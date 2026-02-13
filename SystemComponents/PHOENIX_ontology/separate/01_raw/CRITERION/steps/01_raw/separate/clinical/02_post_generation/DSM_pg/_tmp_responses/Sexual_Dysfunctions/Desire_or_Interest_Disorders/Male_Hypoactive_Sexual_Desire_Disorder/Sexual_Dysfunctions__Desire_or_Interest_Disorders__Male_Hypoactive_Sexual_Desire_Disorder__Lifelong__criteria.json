@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "lifelong_persistent_hypoactive_sexual_desire"
+    },
+    {
+      "criterium": "infrequent_sexual_thoughts"
+    },
+    {
+      "criterium": "low_initiation_of_sexual_activity_with_partner"
+    },
+    {
+      "criterium": "decreased_interest_in_sexual_stimulation"
+    },
+    {
+      "criterium": "blunted_response_to_partner_initiating_sexual_activity"
+    },
+    {
+      "criterium": "absent_precoital_desire"
+    },
+    {
+      "criterium": "limited_planning_of_sexual_activities_with_partner"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

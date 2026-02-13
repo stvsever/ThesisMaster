@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "mood_lability"
+    },
+    {
+      "criterium": "elevated_or_irritable_mood_with_increased_energy"
+    },
+    {
+      "criterium": "decreased_need_for_sleep"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "racing_thoughts"
+    },
+    {
+      "criterium": "grandiosity_or_inflated_self-esteem"
+    },
+    {
+      "criterium": "increased_goal_directed_activity_or_psychomotor_agitation"
+    },
+    {
+      "criterium": "distractibility"
+    },
+    {
+      "criterium": "risky_or_impulsive_behaviors"
+    },
+    {
+      "criterium": "alternating_depressive_and_hypomanic_like_symptoms"
+    },
+    {
+      "criterium": "anhedonia_or_dysphoric_mood_state_present"
+    },
+    {
+      "criterium": "impaired_concentration_due_to_mood_lability"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

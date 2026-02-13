@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "plasma_ammonia_elevation"
+    },
+    {
+      "criterium": "decreased_level_of_consciousness"
+    },
+    {
+      "criterium": "delirium_present"
+    },
+    {
+      "criterium": "confusion"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "lethargy"
+    },
+    {
+      "criterium": "somnolence"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "seizures"
+    },
+    {
+      "criterium": "vomiting"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

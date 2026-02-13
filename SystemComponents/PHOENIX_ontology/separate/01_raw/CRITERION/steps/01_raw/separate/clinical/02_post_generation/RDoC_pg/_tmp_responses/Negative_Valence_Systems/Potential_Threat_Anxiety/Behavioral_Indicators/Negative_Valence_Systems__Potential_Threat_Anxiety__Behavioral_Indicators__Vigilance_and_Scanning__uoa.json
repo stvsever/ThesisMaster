@@ -1,0 +1,63 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "fkbp5",
+      "crhr1",
+      "slc6a4",
+      "bdnf",
+      "comt",
+      "cacna1c",
+      "htr1a",
+      "nr3c1"
+    ],
+    "molecules": [
+      "cortisol",
+      "norepinephrine",
+      "epinephrine",
+      "crf",
+      "bdnf",
+      "glutamate",
+      "gaba"
+    ],
+    "cells": [
+      "amygdala_lateral_nucleus_pyramidal_neurons",
+      "basolateral_amygdala_interneurons",
+      "prefrontal_cortex_pyramidal_neurons",
+      "parvalbumin_positive_interneurons_pfc",
+      "locus_coeruleus_neurons",
+      "anterior_cingulate_cortex_neurons"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_connectivity",
+      "amygdala_insula_connectivity",
+      "dlpfc_threat_processing_connectivity",
+      "anterior_cingulate_connectivity",
+      "locus_coeruleus_amygdala_connectivity",
+      "frontoamygdala_network"
+    ],
+    "physiology": [
+      "baseline_heart_rate",
+      "heart_rate_variability",
+      "skin_conductance_response",
+      "pupil_dilation",
+      "startle_response_amplitude",
+      "respiratory_rate"
+    ],
+    "behavior": [
+      "saccade_rate_to_threat_stimuli",
+      "fixation_duration_threat_stimuli",
+      "threat_bias_in_visual_search_latency",
+      "threat_stimulus_detection_rate",
+      "scanning_efficiency_threat_related_stimuli",
+      "vigilance_duration_in_threat_context"
+    ],
+    "self_report": [
+      "state_anxiety_score",
+      "trait_anxiety_score",
+      "hypervigilance_scale_score",
+      "attention_to_threat_scale_score",
+      "perceived_threat_sensitivity"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

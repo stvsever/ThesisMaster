@@ -1,0 +1,21 @@
+{
+  "domain_path": "BIO / Nutrition_Hydration_and_Metabolic_Health / Dietary_Patterns_and_Frameworks",
+  "domain_root_path": [
+    "BIO",
+    "Nutrition_Hydration_and_Metabolic_Health",
+    "Dietary_Patterns_and_Frameworks"
+  ],
+  "leaf_count": 38,
+  "total_edges_in_subtree": 38,
+  "evaluated_pairs": 38,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "c41ac3f1c80806d31210227dedc6cf3e0840aa56",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 8.787
+}

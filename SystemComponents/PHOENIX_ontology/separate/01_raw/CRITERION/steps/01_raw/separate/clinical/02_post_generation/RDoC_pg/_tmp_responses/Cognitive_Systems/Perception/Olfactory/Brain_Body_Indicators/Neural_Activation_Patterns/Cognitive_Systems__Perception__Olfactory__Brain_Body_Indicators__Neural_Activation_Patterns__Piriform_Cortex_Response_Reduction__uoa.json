@@ -1,0 +1,35 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "piriform_olfactory_bulb_projection_density",
+      "piriform_cortex_amygdala_connectivity_strength",
+      "piriform_cortex_prefrontal_connectivity_strength",
+      "piriform_cortex_basal_forebrain_input_strength",
+      "piriform_cortex_intracortical_synaptic_strength",
+      "piriform_cortex_interhemispheric_coherence"
+    ],
+    "physiology": [
+      "piriform_cortex_BOLD_evoked_amplitude",
+      "piriform_cortex_BOLD_peak_latency",
+      "piriform_cortex_theta_power",
+      "piriform_cortex_gamma_power",
+      "piriform_cortex_evoked_potential_amplitude"
+    ],
+    "behavior": [
+      "odor_detection_threshold",
+      "odor_identification_accuracy",
+      "odor_discrimination_accuracy",
+      "odor_reaction_time",
+      "odor_habituation_rate"
+    ],
+    "self_report": [
+      "odor_sensitivity_self_report",
+      "odor_identification_confidence",
+      "smell_disruption_impact_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 6.0
+}

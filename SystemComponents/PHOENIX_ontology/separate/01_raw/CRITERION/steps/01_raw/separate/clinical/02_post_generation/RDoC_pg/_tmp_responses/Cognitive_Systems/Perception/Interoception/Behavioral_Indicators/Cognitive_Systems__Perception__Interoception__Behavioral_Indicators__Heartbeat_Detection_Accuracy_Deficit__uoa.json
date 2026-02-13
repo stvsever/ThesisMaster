@@ -1,0 +1,28 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "insula_BOLD_activation_peak",
+      "anterior_cingulate_BOLD_activation_peak",
+      "somatosensory_cortex_BOLD_activation_peak"
+    ],
+    "physiology": [
+      "heart_rate_mean",
+      "heart_rate_variability_SDNN",
+      "heart_rate_variability_RMSSD"
+    ],
+    "behavior": [
+      "heartbeat_detection_accuracy_percent",
+      "heartbeat_detection_false_alarm_rate",
+      "heartbeat_tapping_latency_ms"
+    ],
+    "self_report": [
+      "interoceptive_awareness_questionnaire_score",
+      "heartbeat_perception_self_report_score",
+      "interoceptive_attention_self_report_score"
+    ]
+  },
+  "estimated_prevalence_percent": 12.0
+}

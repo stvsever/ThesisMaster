@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "body_weight_increase_kg"
+    },
+    {
+      "criterium": "bmi_increase"
+    },
+    {
+      "criterium": "waist_circumference_increase_cm"
+    },
+    {
+      "criterium": "hip_circumference_increase_cm"
+    },
+    {
+      "criterium": "body_fat_mass_increase_kg"
+    },
+    {
+      "criterium": "percent_body_fat_increase_percent"
+    },
+    {
+      "criterium": "daily_caloric_intake_increase_kcal"
+    },
+    {
+      "criterium": "appetite_increase_reported"
+    },
+    {
+      "criterium": "daily_snack_frequency_increase"
+    }
+  ],
+  "estimated_prevalence_percent": 30.0
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "psilocybin_tolerance"
+    },
+    {
+      "criterium": "psilocybin_craving"
+    },
+    {
+      "criterium": "psilocybin_withdrawal_symptoms"
+    },
+    {
+      "criterium": "psilocybin_cut_down_failed"
+    },
+    {
+      "criterium": "psilocybin_time_spent_using_or_recovering"
+    },
+    {
+      "criterium": "psilocybin_role_impairment"
+    },
+    {
+      "criterium": "psilocybin_hazardous_use"
+    },
+    {
+      "criterium": "psilocybin_social_impairment"
+    },
+    {
+      "criterium": "psilocybin_loss_of_interest_in_other_activities"
+    },
+    {
+      "criterium": "psilocybin_persistent_use_despite_distress"
+    },
+    {
+      "criterium": "psilocybin_social_isolation"
+    },
+    {
+      "criterium": "psilocybin_cue_reactivity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

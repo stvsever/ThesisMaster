@@ -1,0 +1,34 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": [
+      "glutamate_concentration_insula_mrs",
+      "GABA_concentration_insula_mrs"
+    ],
+    "cells": null,
+    "circuits": [
+      "anterior_insula_bold_activation_during_sustained_anticipation",
+      "insula_amygdala_functional_connectivity_during_anticipation",
+      "insula_dorsolateral_prefrontal_cortex_connectivity_during_anticipation",
+      "insula_salience_network_engagement_during_anticipation",
+      "anterior_cingulate_insula_connectivity_during_anticipation"
+    ],
+    "physiology": [
+      "skin_conductance_response_amplitude_during_anticipation",
+      "heart_rate_peak_during_anticipation",
+      "heart_rate_variability_during_anticipation",
+      "pupil_dilation_peak_during_anticipation"
+    ],
+    "behavior": [
+      "startle_potentiation_during_anticipation_probe",
+      "reaction_time_to_threat_stimulus_during_anticipation",
+      "approach_avoidance_bias_during_anticipation"
+    ],
+    "self_report": [
+      "state_anxiety_during_anticipation_scale",
+      "anticipatory_somatic_anxiety_rating",
+      "subjective_distress_during_anticipation_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 9.5
+}

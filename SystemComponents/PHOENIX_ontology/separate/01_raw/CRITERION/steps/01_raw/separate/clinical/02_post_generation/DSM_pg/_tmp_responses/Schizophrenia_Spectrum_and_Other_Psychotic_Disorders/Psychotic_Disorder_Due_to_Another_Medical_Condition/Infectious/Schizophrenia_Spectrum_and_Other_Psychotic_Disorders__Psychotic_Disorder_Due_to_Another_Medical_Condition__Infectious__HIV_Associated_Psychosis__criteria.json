@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "delusions_paranoid"
+    },
+    {
+      "criterium": "delusions_grandiose"
+    },
+    {
+      "criterium": "delusions_referential"
+    },
+    {
+      "criterium": "disorganized_thought_process"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "grossly_disorganized_behavior"
+    },
+    {
+      "criterium": "catatonic_behaviors"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "negative_symptoms_avolition"
+    },
+    {
+      "criterium": "affective_flatting"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

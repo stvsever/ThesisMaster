@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood_present"
+    },
+    {
+      "criterium": "anhedonia_present"
+    },
+    {
+      "criterium": "fatigue_energy_loss_present"
+    },
+    {
+      "criterium": "sleep_disturbance_present"
+    },
+    {
+      "criterium": "appetite_weight_change_present"
+    },
+    {
+      "criterium": "concentration_difficulty_present"
+    },
+    {
+      "criterium": "psychomotor_changes_present"
+    },
+    {
+      "criterium": "guilt_worthlessness_present"
+    },
+    {
+      "criterium": "suicidal_ideation_present"
+    },
+    {
+      "criterium": "functional_impairment_present"
+    },
+    {
+      "criterium": "beta_blocker_temporal_onset_association_present"
+    },
+    {
+      "criterium": "beta_blocker_dose_related_symptom_worsening_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

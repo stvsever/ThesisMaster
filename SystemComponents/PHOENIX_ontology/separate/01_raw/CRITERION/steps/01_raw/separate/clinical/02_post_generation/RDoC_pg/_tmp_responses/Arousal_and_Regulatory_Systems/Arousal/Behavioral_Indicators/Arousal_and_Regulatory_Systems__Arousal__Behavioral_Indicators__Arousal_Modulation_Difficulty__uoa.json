@@ -1,0 +1,51 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265",
+      "COMT_rs4680",
+      "FKBP5_rs1360780",
+      "ADORA2A_rs5751876"
+    ],
+    "molecules": [
+      "NOREPINEPHRINE",
+      "DOPAMINE",
+      "OREXIN_A",
+      "OREXIN_B",
+      "ACETYLCHOLINE",
+      "GABA"
+    ],
+    "cells": [
+      "Locus_Coeruleus_NORadrenergic_Neurons",
+      "Orexin_Producing_Neurons",
+      "Basal_Forebrain_Cholinergic_Neurons",
+      "Histaminergic_Neurons_Tuberomammillary_Nucleus"
+    ],
+    "circuits": [
+      "Locus_Coeruleus_to_Prefrontal_Cortex",
+      "Locus_Coeruleus_to_Amygdala",
+      "Orexin_to_Tuberomammillary_Nucleus",
+      "Basal_Forebrain_Cholinergic_to_Cortex",
+      "Reticular_Activating_System_Ascending"
+    ],
+    "physiology": [
+      "PUPIL_DILATION",
+      "HEART_RATE",
+      "HEART_RATE_VARIABILITY",
+      "SKIN_CONDUCTANCE_LEVEL",
+      "CORTISOL_SALIVA",
+      "BREATHING_RATE"
+    ],
+    "behavior": [
+      "STARTLE_RESPONSE_AMPLITUDE",
+      "STARTLE_RESPONSE_LATENCY",
+      "HYPERVIGILANT_BEHAVIOR_FREQUENCY",
+      "AROUSAL_RECOVERY_TIME_POST_STIMULUS"
+    ],
+    "self_report": [
+      "self_report_arousal_regulation_difficulty",
+      "self_report_startle_sensitivity",
+      "self_report_chronic_hyperarousal"
+    ]
+  },
+  "estimated_prevalence_percent": 8.5
+}

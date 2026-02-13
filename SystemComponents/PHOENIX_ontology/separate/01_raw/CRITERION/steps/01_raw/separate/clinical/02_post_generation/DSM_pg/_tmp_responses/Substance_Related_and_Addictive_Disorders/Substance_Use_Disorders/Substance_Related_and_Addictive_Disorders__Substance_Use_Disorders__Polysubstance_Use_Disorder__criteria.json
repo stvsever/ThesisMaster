@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "multisubstance_involvement"
+    },
+    {
+      "criterium": "concurrent_substance_use"
+    },
+    {
+      "criterium": "tolerance_across_substances"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_ceasing_substances"
+    },
+    {
+      "criterium": "craving_for_multiple_substances"
+    },
+    {
+      "criterium": "time_spent_obtaining_or_using_substances"
+    },
+    {
+      "criterium": "recurrent_unsuccessful_attempts_to_cut_down_across_substances"
+    },
+    {
+      "criterium": "social_or_occupational_impairment_due_to_substance_use"
+    },
+    {
+      "criterium": "hazardous_use_of_substances"
+    }
+  ],
+  "estimated_prevalence_percent": 2.7
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "compulsive_internet_health_searching"
+    },
+    {
+      "criterium": "anxiety_increased_by_online_health_information"
+    },
+    {
+      "criterium": "repeated_searching_despite_clinical_reassurance"
+    },
+    {
+      "criterium": "catastrophic_misinterpretation_of_somatic_sensations_from_online_content"
+    },
+    {
+      "criterium": "excessive_time_spent_on_health_related_searching"
+    },
+    {
+      "criterium": "preoccupation_with_health_status_needing_web_verification"
+    },
+    {
+      "criterium": "distress_or_impairment_in_social_or_professional_functioning_due_to_health_searching"
+    },
+    {
+      "criterium": "avoidance_of_healthcare_engagement_due_to_online_risk_fears"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_health_anxieties_from_online_searches"
+    }
+  ],
+  "estimated_prevalence_percent": 9.2
+}

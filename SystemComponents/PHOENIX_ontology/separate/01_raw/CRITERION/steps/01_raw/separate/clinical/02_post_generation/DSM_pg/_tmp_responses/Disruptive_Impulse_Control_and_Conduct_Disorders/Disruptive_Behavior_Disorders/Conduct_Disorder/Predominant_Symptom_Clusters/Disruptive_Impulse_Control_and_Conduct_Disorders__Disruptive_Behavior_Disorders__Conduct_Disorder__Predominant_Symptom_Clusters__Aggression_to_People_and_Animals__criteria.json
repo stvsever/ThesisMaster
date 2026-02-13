@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "physical_aggression_to_people"
+    },
+    {
+      "criterium": "verbal_aggression_to_people"
+    },
+    {
+      "criterium": "threats_of_physical_harm_to_people"
+    },
+    {
+      "criterium": "bullying_or_intimidation_of_others"
+    },
+    {
+      "criterium": "initiates_fights_with_peers_or_adults"
+    },
+    {
+      "criterium": "physical_aggression_to_animals"
+    },
+    {
+      "criterium": "animal_cruelty"
+    },
+    {
+      "criterium": "impulsive_aggression_outbursts_in_response_to_frustration"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

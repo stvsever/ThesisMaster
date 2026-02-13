@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "penile_arterial_insufficiency"
+    },
+    {
+      "criterium": "penile_venous_leakage"
+    },
+    {
+      "criterium": "penile_duplex_abnormal_arterial_flow"
+    },
+    {
+      "criterium": "penile_duplex_abnormal_resistive_index"
+    },
+    {
+      "criterium": "absent_nocturnal_penile_turgescence"
+    },
+    {
+      "criterium": "reduced_intracavernosal_pressure_response_to_stimulation"
+    },
+    {
+      "criterium": "shortened_rigidity_duration_for_intercourse"
+    },
+    {
+      "criterium": "decreased_penile_blood_flow_recovery_after_stimulation"
+    },
+    {
+      "criterium": "penile_tissue_oxygenation_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 6.2
+}

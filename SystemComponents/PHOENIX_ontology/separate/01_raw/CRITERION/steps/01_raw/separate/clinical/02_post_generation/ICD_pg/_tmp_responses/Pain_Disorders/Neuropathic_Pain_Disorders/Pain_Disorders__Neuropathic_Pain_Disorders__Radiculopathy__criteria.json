@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "radicular_pain_distribution"
+    },
+    {
+      "criterium": "dermatomal_sensory_loss"
+    },
+    {
+      "criterium": "myotomal_weakness"
+    },
+    {
+      "criterium": "hyporeflexia_of_affected_root"
+    },
+    {
+      "criterium": "positive_straight_leg_raise"
+    },
+    {
+      "criterium": "positive_spurling_sign"
+    },
+    {
+      "criterium": "pain_exacerbation_with_spinal_movement"
+    },
+    {
+      "criterium": "pain_radiation_with_cough_or_sneeze"
+    },
+    {
+      "criterium": "dermatomal_hyperalgesia"
+    },
+    {
+      "criterium": "gait_disturbance_due_to_radiculopathy"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

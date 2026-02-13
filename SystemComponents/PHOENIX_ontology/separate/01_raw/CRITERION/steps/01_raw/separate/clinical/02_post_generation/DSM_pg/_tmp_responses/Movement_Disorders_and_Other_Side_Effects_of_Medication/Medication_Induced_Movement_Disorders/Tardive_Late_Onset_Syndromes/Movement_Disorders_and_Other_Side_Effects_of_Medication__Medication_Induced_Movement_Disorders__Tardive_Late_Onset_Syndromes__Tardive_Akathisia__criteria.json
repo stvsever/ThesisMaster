@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "subjective_inner_restlessness"
+    },
+    {
+      "criterium": "pacing_in_place"
+    },
+    {
+      "criterium": "inability_to_stay_seated"
+    },
+    {
+      "criterium": "leg_tapping"
+    },
+    {
+      "criterium": "arm_fidgeting"
+    },
+    {
+      "criterium": "rocking_or_swaying"
+    },
+    {
+      "criterium": "leg_crossing_and_uncrossing"
+    },
+    {
+      "criterium": "repetitive_position_changes_of_feet"
+    },
+    {
+      "criterium": "trunk_rocking"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

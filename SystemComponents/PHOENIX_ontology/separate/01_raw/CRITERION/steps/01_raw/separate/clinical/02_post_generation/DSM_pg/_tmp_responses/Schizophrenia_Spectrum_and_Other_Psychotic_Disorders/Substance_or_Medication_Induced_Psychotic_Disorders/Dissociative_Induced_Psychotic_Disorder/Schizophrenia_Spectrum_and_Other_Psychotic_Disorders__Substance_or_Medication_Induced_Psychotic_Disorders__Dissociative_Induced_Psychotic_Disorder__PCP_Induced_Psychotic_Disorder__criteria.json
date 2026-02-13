@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "paranoid_delusions"
+    },
+    {
+      "criterium": "delusions_of_reference"
+    },
+    {
+      "criterium": "disorganized_thought_content"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "grossly_disorganized_behavior"
+    },
+    {
+      "criterium": "agitation_or_aggression"
+    },
+    {
+      "criterium": "derealization_or_depersonalization"
+    },
+    {
+      "criterium": "nystagmus_vertical"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "catatonic_behaviors"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

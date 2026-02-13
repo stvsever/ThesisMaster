@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_sexual_behaviors_present"
+    },
+    {
+      "criterium": "masturbation_during_sleep"
+    },
+    {
+      "criterium": "sexual_contact_with_partner_during_sleep"
+    },
+    {
+      "criterium": "sexual_vocalizations_during_sleep"
+    },
+    {
+      "criterium": "amnesia_for_sleep_related_events"
+    },
+    {
+      "criterium": "lack_of_conscious_awareness_during_episodes"
+    },
+    {
+      "criterium": "episode_witnessed_by_cohabitant"
+    },
+    {
+      "criterium": "episodes_occurring_during_NREM_arousals"
+    },
+    {
+      "criterium": "episodes_recurrent_across_nights"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

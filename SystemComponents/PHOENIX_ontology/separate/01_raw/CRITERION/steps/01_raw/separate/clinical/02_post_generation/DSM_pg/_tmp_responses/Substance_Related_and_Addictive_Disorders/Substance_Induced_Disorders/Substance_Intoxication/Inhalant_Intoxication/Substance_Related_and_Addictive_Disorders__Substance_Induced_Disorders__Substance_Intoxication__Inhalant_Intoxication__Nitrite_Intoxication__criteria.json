@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypotension"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "facial_flushing"
+    },
+    {
+      "criterium": "chest_pain"
+    },
+    {
+      "criterium": "dyspnea"
+    },
+    {
+      "criterium": "cyanosis"
+    },
+    {
+      "criterium": "syncope"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "altered_mental_status"
+    }
+  ],
+  "estimated_prevalence_percent": 0.07
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_impairment"
+    },
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "verbal_memory_impairment"
+    },
+    {
+      "criterium": "visual_memory_impairment"
+    },
+    {
+      "criterium": "delayed_recall_deficit"
+    },
+    {
+      "criterium": "immediate_recall_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "explicit_memory_deficit"
+    },
+    {
+      "criterium": "autobiographical_memory_deficit"
+    },
+    {
+      "criterium": "procedural_memory_preservation"
+    },
+    {
+      "criterium": "confabulation_presence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

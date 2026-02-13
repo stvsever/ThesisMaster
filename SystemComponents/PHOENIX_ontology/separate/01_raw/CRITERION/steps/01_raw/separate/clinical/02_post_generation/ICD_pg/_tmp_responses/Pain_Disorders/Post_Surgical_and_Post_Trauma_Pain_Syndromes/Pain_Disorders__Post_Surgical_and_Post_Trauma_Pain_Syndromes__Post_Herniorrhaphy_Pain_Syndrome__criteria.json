@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "scar_allodynia_to_light_touch"
+    },
+    {
+      "criterium": "scar_hyperalgesia_to_thermal_stimuli"
+    },
+    {
+      "criterium": "scar_paresthesias_in_inguinal_area"
+    },
+    {
+      "criterium": "spontaneous_pain_in_scar_region"
+    },
+    {
+      "criterium": "paroxysmal_shooting_pains_in_scar"
+    },
+    {
+      "criterium": "pain_exacerbation_with_ambulation"
+    },
+    {
+      "criterium": "pain_with_sitting_pressure_on_scar"
+    },
+    {
+      "criterium": "nocturnal_pain_interrupting_sleep"
+    },
+    {
+      "criterium": "pain_related_fatigue"
+    }
+  ],
+  "estimated_prevalence_percent": 12.0
+}

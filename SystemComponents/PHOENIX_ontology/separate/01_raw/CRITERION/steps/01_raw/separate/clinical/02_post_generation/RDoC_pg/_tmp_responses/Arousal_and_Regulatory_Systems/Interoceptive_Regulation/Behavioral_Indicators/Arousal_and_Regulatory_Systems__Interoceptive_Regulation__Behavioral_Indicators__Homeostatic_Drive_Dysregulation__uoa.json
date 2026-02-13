@@ -1,0 +1,64 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "LEP",
+      "LEPR",
+      "NPY",
+      "AGRP",
+      "MC4R",
+      "BDNF"
+    ],
+    "molecules": [
+      "leptin",
+      "ghrelin",
+      "insulin",
+      "cortisol",
+      "orexin-A",
+      "orexin-B",
+      "neuropeptide Y",
+      "PYY"
+    ],
+    "cells": [
+      "POMC_neurons",
+      "AGRP_neurons",
+      "orexin_neurons",
+      "NPY_neurons",
+      "LHA_neurons",
+      "VTA_dopamine_neurons"
+    ],
+    "circuits": [
+      "insula_ACC_interoceptive_network",
+      "hypothalamus_NAc_reward_pathway",
+      "amygdala_hypothalamus_circuit",
+      "NTS_hypothalamus_gut_brain_axis",
+      "hypothalamus_brainstem_autonomic_circuit"
+    ],
+    "physiology": [
+      "heart_rate",
+      "heart_rate_variability",
+      "skin_conductance",
+      "respiratory_rate",
+      "core_body_temperature",
+      "gastric_motility",
+      "pupil_dilation"
+    ],
+    "behavior": [
+      "food_seek_duration",
+      "meal_initiation_latency",
+      "meal_frequency",
+      "caloric_intake_per_meal",
+      "total_caloric_intake_per_day",
+      "grazing_frequency",
+      "binge_episode_count"
+    ],
+    "self_report": [
+      "hunger_intensity",
+      "satiety_rating",
+      "craving_intensity",
+      "interoceptive_awareness_score",
+      "urge_to_eat",
+      "fullness_satisfaction_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 7.8
+}

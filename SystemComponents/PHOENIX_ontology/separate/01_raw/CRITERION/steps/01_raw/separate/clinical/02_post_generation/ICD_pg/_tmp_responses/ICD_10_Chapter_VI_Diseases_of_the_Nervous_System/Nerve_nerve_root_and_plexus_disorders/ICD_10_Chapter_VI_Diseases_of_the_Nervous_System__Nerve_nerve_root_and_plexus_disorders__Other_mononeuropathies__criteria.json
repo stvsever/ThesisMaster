@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sensory_deficit_in_affected_nerve_distribution"
+    },
+    {
+      "criterium": "paresthesias_in_affected_nerve_distribution"
+    },
+    {
+      "criterium": "hypoesthesia_in_affected_nerve_distribution"
+    },
+    {
+      "criterium": "focal_motor_weakness_in_innervated_muscles"
+    },
+    {
+      "criterium": "muscle_atrophy_in_innervated_muscles"
+    },
+    {
+      "criterium": "fasciculations_in_innervated_muscles"
+    },
+    {
+      "criterium": "pain_in_nerve_distribution"
+    },
+    {
+      "criterium": "positive_Tinel_sign_over_affected_nerve"
+    },
+    {
+      "criterium": "diminished_or_absent_distal_nerve_reflex_in_affected_area"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "epigastric_pain_present"
+    },
+    {
+      "criterium": "pain_radiates_to_back"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "vomiting_present"
+    },
+    {
+      "criterium": "epigastric_tenderness_present"
+    },
+    {
+      "criterium": "abdominal_guarding_present"
+    },
+    {
+      "criterium": "leukocytosis_present"
+    },
+    {
+      "criterium": "fever_present"
+    },
+    {
+      "criterium": "serum_amylase_elevated"
+    },
+    {
+      "criterium": "serum_lipase_elevated"
+    },
+    {
+      "criterium": "abdominal_distension_present"
+    },
+    {
+      "criterium": "pancreatic_necrosis_on_imaging"
+    },
+    {
+      "criterium": "pseudocyst_on_imaging"
+    },
+    {
+      "criterium": "hypotension_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

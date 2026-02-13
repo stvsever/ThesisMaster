@@ -1,0 +1,20 @@
+{
+  "domain_path": "SOCIAL / Work_Education_and_Role_Functioning",
+  "domain_root_path": [
+    "SOCIAL",
+    "Work_Education_and_Role_Functioning"
+  ],
+  "leaf_count": 59,
+  "total_edges_in_subtree": 72,
+  "evaluated_pairs": 72,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "87734a8e10d6047c0864020e68ffe4eea86f5e74",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 34.219
+}

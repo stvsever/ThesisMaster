@@ -1,0 +1,45 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_genotype",
+      "OXTR_rs53576_genotype",
+      "CNTNAP2_rs7794745_variant",
+      "COMT_rs4680_genotype"
+    ],
+    "molecules": [
+      "glutamate_concentration_sts",
+      "GABA_concentration_sts",
+      "BDNF_protein_level_sts",
+      "oxytocin_plasma_level",
+      "serotonin_metabolite_level_sts"
+    ],
+    "cells": [
+      "STS_pyramidal_neuron_density",
+      "STS_GABAergic_interneuron_density",
+      "STS_microglial_density"
+    ],
+    "circuits": [
+      "STS_amygdala_connectivity_strength",
+      "STS_pSTS_to_ITG_connectivity_strength",
+      "STS_ITG_connectivity_strength"
+    ],
+    "physiology": [
+      "STS_BOLD_percent_signal_change_bio_motion",
+      "STS_BOLD_latency_to_peak_bio_motion",
+      "Pupil_dilation_bio_motion_task",
+      "Skin_conductance_response_bio_motion"
+    ],
+    "behavior": [
+      "biological_motion_detection_accuracy",
+      "biological_motion_reaction_time",
+      "biological_motion_discrimination_threshold",
+      "eye_fixation_duration_on_bio_motion"
+    ],
+    "self_report": [
+      "autism_traits_questionnaire_score",
+      "social_anxiety_scale_score",
+      "empathy_quotient_score"
+    ]
+  },
+  "estimated_prevalence_percent": 2.0
+}

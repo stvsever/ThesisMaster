@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_related_myoclonus_events"
+    },
+    {
+      "criterium": "awake_periods_without_myoclonus"
+    },
+    {
+      "criterium": "eeg_during_events_no_epileptiform_activity"
+    },
+    {
+      "criterium": "eeg_background_normal_between_events"
+    },
+    {
+      "criterium": "no_loss_of_consciousness_during_events"
+    },
+    {
+      "criterium": "normal_neurological_examination"
+    },
+    {
+      "criterium": "normal_motor_and_cognitive_development"
+    },
+    {
+      "criterium": "absence_of_autonomic_signs_during_events"
+    },
+    {
+      "criterium": "no_postictal_state_following_events"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

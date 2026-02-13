@@ -1,0 +1,58 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66Met",
+      "FKBP5_rs1360780",
+      "SLC6A4_5HTTLPR",
+      "COMT_V158M",
+      "CACNA1C_rs1006737"
+    ],
+    "molecules": [
+      "Norepinephrine",
+      "Epinephrine",
+      "Cortisol",
+      "CRH",
+      "Glutamate",
+      "GABA"
+    ],
+    "cells": [
+      "Locus_coeruleus_noradrenergic_neurons",
+      "Basolateral_amygdala_pyramidal_neurons",
+      "Central_nucleus_amygdala_neurons",
+      "PV_interneurons_BLA",
+      "PAG_glutamatergic_neurons",
+      "Prefrontal_cortex_excitatory_neurons"
+    ],
+    "circuits": [
+      "amygdala_brainstem_startle_pathway",
+      "amygdala_prefrontal_regulatory_circuit",
+      "BNST_amygdala_circuit",
+      "hippocampus_amygdala_context_integration_circuit",
+      "PAG_startle_mediating_circuit",
+      "fear_conditioning_network"
+    ],
+    "physiology": [
+      "eyeblink_emg_amplitude",
+      "startle_latency_to_peak",
+      "heart_rate_acceleration",
+      "skin_conductance_response_amplitude",
+      "pupil_dilation_change",
+      "respiratory_rate_variation"
+    ],
+    "behavior": [
+      "startle_response_magnitude",
+      "startle_response_latency_to_peak",
+      "threat_cue_reactivity_rate",
+      "avoidance_behavior_intensity",
+      "freezing_behavior_duration"
+    ],
+    "self_report": [
+      "fear_anxiety_intensity",
+      "threat_expectancy_rating",
+      "acute_threat_sensitivity_score",
+      "startle_sensitivity_questionnaire_score",
+      "perceived_control_over_threat"
+    ]
+  },
+  "estimated_prevalence_percent": 4.8
+}

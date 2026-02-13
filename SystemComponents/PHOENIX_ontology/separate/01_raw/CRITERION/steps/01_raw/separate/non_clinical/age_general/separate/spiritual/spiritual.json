@@ -1,0 +1,640 @@
+{
+  "SPIRITUAL": {
+    "SenseOfPurpose": {
+      "LifePhilosophy": {
+        "PersonalBeliefs": {
+          "ReligiousBeliefs": {},
+          "SecularBeliefs": {},
+          "PhilosophicalBeliefs": {},
+          "SpiritualBeliefs": {}
+        },
+        "ValueSystem": {
+          "CoreValues": {},
+          "CulturalValues": {},
+          "EthicalValues": {},
+          "PersonalValues": {}
+        },
+        "EthicalPrinciples": {
+          "MoralGuidelines": {},
+          "VirtueEthics": {},
+          "DeontologicalEthics": {},
+          "ConsequentialistEthics": {}
+        },
+        "GuidingPrinciples": {
+          "LifeGuidelines": {},
+          "DecisionMakingPrinciples": {},
+          "BehavioralPrinciples": {},
+          "InterpersonalPrinciples": {}
+        }
+      },
+      "PersonalMission": {
+        "GoalsAndAspirations": {
+          "ShortTermGoals": {},
+          "LongTermGoals": {},
+          "PersonalAspirations": {},
+          "ProfessionalAspirations": {}
+        },
+        "Legacy": {
+          "ImpactGoals": {},
+          "MemoryBuilding": {},
+          "ContributionLegacy": {},
+          "GenerationalImpact": {}
+        },
+        "ContributionToOthers": {
+          "CommunityService": {},
+          "Mentorship": {},
+          "Volunteering": {},
+          "CharitableGiving": {}
+        },
+        "SelfActualization": {
+          "PersonalGrowth": {},
+          "SkillDevelopment": {},
+          "PotentialRealization": {},
+          "CreativeExpression": {}
+        }
+      },
+      "Transcendence": {
+        "BeyondSelfInterest": {
+          "Selflessness": {},
+          "AltruisticBehavior": {},
+          "ServiceOrientation": {},
+          "CommunityFocus": {}
+        },
+        "Altruism": {
+          "HelpingOthers": {},
+          "CompassionateActs": {},
+          "EmpathyDevelopment": {},
+          "Philanthropy": {}
+        },
+        "ConnectionToHigherPower": {
+          "DivineConnection": {},
+          "UniversalEnergy": {},
+          "Spiritual Guides": {},
+          "TranscendentBelief": {}
+        },
+        "SpiritualExperiences": {
+          "MysticalExperiences": {},
+          "PeakExperiences": {},
+          "TranspersonalExperiences": {},
+          "SacredEncounters": {}
+        }
+      },
+      "ConnectionWithTheSacred": {
+        "ReligiousPractices": {
+          "WorshipServices": {},
+          "Sacraments": {},
+          "PrayerSessions": {},
+          "ReligiousStudy": {}
+        },
+        "MeditationAndPrayer": {
+          "SilentMeditation": {},
+          "GuidedMeditation": {},
+          "StructuredPrayer": {},
+          "SpontaneousPrayer": {}
+        },
+        "SacredRituals": {
+          "RitualCeremonies": {},
+          "LifeCycleRituals": {},
+          "SeasonalRituals": {},
+          "PersonalRituals": {}
+        },
+        "Pilgrimage": {
+          "SacredJourneys": {},
+          "SpiritualTours": {},
+          "DestinationPilgrimages": {},
+          "PersonalPilgrimages": {}
+        }
+      }
+    },
+    "SpiritualPractices": {
+      "Meditation": {
+        "MindfulnessMeditation": {
+          "BreathingMeditation": {},
+          "BodyScanMeditation": {},
+          "LovingKindnessMeditation": {},
+          "ZenMeditation": {}
+        },
+        "TranscendentalMeditation": {
+          "MantraMeditation": {},
+          "SilentMeditation": {},
+          "FocusedMeditation": {},
+          "GuidedTranscendentalMeditation": {}
+        },
+        "GuidedImagery": {
+          "VisualizationExercises": {},
+          "CreativeVisualization": {},
+          "HealingImagery": {},
+          "PerformanceVisualization": {}
+        },
+        "BreathingExercises": {
+          "DeepBreathing": {},
+          "ControlledBreathing": {},
+          "Pranayama": {},
+          "BreathFocus": {}
+        }
+      },
+      "Prayer": {
+        "PersonalPrayer": {
+          "SilentPrayer": {},
+          "SpokenPrayer": {},
+          "WrittenPrayer": {},
+          "InformalPrayer": {}
+        },
+        "CommunalPrayer": {
+          "GroupPrayerSessions": {},
+          "CongregationalPrayer": {},
+          "PrayerMeetings": {},
+          "CollectivePrayerEvents": {}
+        },
+        "IntercessoryPrayer": {
+          "PrayingForOthers": {},
+          "DedicatedPrayerTime": {},
+          "PrayerChains": {},
+          "PrayerGroups": {}
+        },
+        "DevotionalPractices": {
+          "DailyDevotions": {},
+          "ScriptureReading": {},
+          "DevotionalBooks": {},
+          "DevotionalMusic": {}
+        }
+      },
+      "Rituals": {
+        "ReligiousCeremonies": {
+          "Weddings": {},
+          "Funerals": {},
+          "Baptisms": {},
+          "BarMitzvahs": {}
+        },
+        "PersonalRituals": {
+          "DailyRoutines": {},
+          "MorningRituals": {},
+          "EveningRituals": {},
+          "SeasonalRituals": {}
+        },
+        "SeasonalCelebrations": {
+          "HolidayCelebrations": {},
+          "SolsticeFestivals": {},
+          "EquinoxObservances": {},
+          "HarvestFestivals": {}
+        },
+        "CulturalTraditions": {
+          "AncestralRites": {},
+          "CulturalFestivals": {},
+          "TraditionalPractices": {},
+          "HeritageCelebrations": {}
+        }
+      },
+      "Mindfulness": {
+        "PresentMomentAwareness": {
+          "CurrentMomentFocus": {},
+          "HereAndNowPresence": {},
+          "ImmediateExperienceAwareness": {},
+          "MomentByMomentAwareness": {}
+        },
+        "NonJudgmentalObservation": {
+          "AcceptanceWithoutJudgment": {},
+          "ObservingThoughts": {},
+          "WitnessingEmotions": {},
+          "NeutralAwareness": {}
+        },
+        "Acceptance": {
+          "SelfAcceptance": {},
+          "AcceptanceOfOthers": {},
+          "AcceptanceOfCircumstances": {},
+          "RadicalAcceptance": {}
+        },
+        "GratitudePractice": {
+          "DailyGratitude": {},
+          "GratitudeJournaling": {},
+          "ExpressingGratitude": {},
+          "GratitudeMeditation": {}
+        }
+      }
+    },
+    "AlignmentWithValues": {
+      "Integrity": {
+        "Honesty": {
+          "Truthfulness": {},
+          "Transparency": {},
+          "Sincerity": {},
+          "Genuineness": {}
+        },
+        "Consistency": {
+          "BehaviorConsistency": {},
+          "ValueConsistency": {},
+          "ActionAlignment": {},
+          "ReliableBehavior": {}
+        },
+        "Authenticity": {
+          "GenuineSelf": {},
+          "AuthenticInteractions": {},
+          "TrueRepresentation": {},
+          "SelfIntegrity": {}
+        },
+        "MoralUprightness": {
+          "EthicalConduct": {},
+          "PrincipledBehavior": {},
+          "MoralStandards": {},
+          "VirtuousLiving": {}
+        }
+      },
+      "Authenticity": {
+        "BeingTrueToOneself": {
+          "SelfExpression": {},
+          "PersonalIdentity": {},
+          "AuthenticLiving": {},
+          "SelfConsistency": {}
+        },
+        "ExpressingTrueFeelings": {
+          "EmotionalHonesty": {},
+          "Vulnerability": {},
+          "OpenCommunication": {},
+          "AuthenticEmotions": {}
+        },
+        "LivingAuthentically": {
+          "AlignedLifestyle": {},
+          "ValueDrivenActions": {},
+          "AuthenticChoices": {},
+          "TrueToBeliefs": {}
+        },
+        "SelfDisclosure": {
+          "SharingPersonalThoughts": {},
+          "EmotionalSharing": {},
+          "PersonalStorytelling": {},
+          "HonestCommunication": {}
+        }
+      },
+      "MoralDevelopment": {
+        "EthicalUnderstanding": {
+          "MoralEducation": {},
+          "EthicalAwareness": {},
+          "UnderstandingEthics": {},
+          "MoralKnowledge": {}
+        },
+        "MoralReasoning": {
+          "CriticalEthicalAnalysis": {},
+          "DecisionMakingEthics": {},
+          "MoralDilemmasResolution": {},
+          "EthicalJudgment": {}
+        },
+        "ValueClarification": {
+          "IdentifyingPersonalValues": {},
+          "PrioritizingValues": {},
+          "AligningActionsWithValues": {},
+          "ReevaluatingValues": {}
+        },
+        "EthicalDecisionMaking": {
+          "PrincipledDecisionMaking": {},
+          "ValueBasedChoices": {},
+          "EthicalFrameworks": {},
+          "MoralDecisionProcesses": {}
+        }
+      },
+      "EthicalLiving": {
+        "ResponsibleActions": {
+          "AccountableBehavior": {},
+          "DutyFulfillment": {},
+          "ResponsibleChoices": {},
+          "EthicalResponsibilities": {}
+        },
+        "Fairness": {
+          "EquitableTreatment": {},
+          "JusticeInActions": {},
+          "Impartiality": {},
+          "EqualityPromotion": {}
+        },
+        "RespectForOthers": {
+          "HonorOthers": {},
+          "Consideration": {},
+          "Empathy": {},
+          "DignityRespect": {}
+        },
+        "JusticeAdvocacy": {
+          "AdvocatingForJustice": {},
+          "SocialJusticeWork": {},
+          "LegalAdvocacy": {},
+          "ActivismForFairness": {}
+        }
+      }
+    },
+    "InnerPeace": {
+      "Harmony": {
+        "BalanceInLife": {
+          "WorkLifeHarmony": {},
+          "EmotionalBalance": {},
+          "PhysicalMentalBalance": {},
+          "SpiritualEmotionalBalance": {}
+        },
+        "EmotionalEquilibrium": {
+          "StableEmotions": {},
+          "EmotionalResilience": {},
+          "MoodStability": {},
+          "EmotionalRegulation": {}
+        },
+        "Acceptance": {
+          "SelfAcceptance": {},
+          "AcceptanceOfLife": {},
+          "AcceptanceOfChange": {},
+          "AcceptanceOfLimitations": {}
+        },
+        "StressReduction": {
+          "RelaxationTechniques": {},
+          "TimeManagement": {},
+          "HealthyLifestyleChoices": {},
+          "MindfulnessPractices": {}
+        }
+      },
+      "Tranquility": {
+        "Calmness": {
+          "MentalCalmness": {},
+          "EmotionalCalmness": {},
+          "PhysicalCalmness": {},
+          "EnvironmentalCalmness": {}
+        },
+        "Serenity": {
+          "InnerSerenity": {},
+          "ExternalSerenity": {},
+          "PeacefulMind": {},
+          "TranquilEnvironment": {}
+        },
+        "Relaxation": {
+          "DeepRelaxation": {},
+          "MuscleRelaxation": {},
+          "MentalRelaxation": {},
+          "RelaxationPractices": {}
+        },
+        "QuietMind": {
+          "MentalStillness": {},
+          "ThoughtQuieting": {},
+          "MeditativeState": {},
+          "FocusedMind": {}
+        }
+      },
+      "Acceptance": {
+        "AcceptanceOfSelf": {
+          "SelfLove": {},
+          "SelfForgiveness": {},
+          "SelfCompassion": {},
+          "EmbracingImperfections": {}
+        },
+        "AcceptanceOfOthers": {
+          "Tolerance": {},
+          "UnderstandingDifferences": {},
+          "NonJudgmentalAttitude": {},
+          "RespectingDiversity": {}
+        },
+        "AcceptanceOfCircumstances": {
+          "ResilienceInAdversity": {},
+          "Adaptability": {},
+          "LettingGoOfControl": {},
+          "PeacefulAcceptance": {}
+        },
+        "LettingGo": {
+          "ReleasingNegativeEmotions": {},
+          "ForgivingOthers": {},
+          "MovingForward": {},
+          "Detachment": {}
+        }
+      },
+      "Contentment": {
+        "SatisfactionWithLife": {
+          "LifeSatisfaction": {},
+          "AchievementSatisfaction": {},
+          "RelationshipSatisfaction": {},
+          "HealthSatisfaction": {}
+        },
+        "Gratitude": {
+          "ExpressingGratitude": {},
+          "GratitudeJournaling": {},
+          "GratitudeMeditation": {},
+          "GratitudeAttitude": {}
+        },
+        "Fulfillment": {
+          "PersonalFulfillment": {},
+          "ProfessionalFulfillment": {},
+          "SpiritualFulfillment": {},
+          "EmotionalFulfillment": {}
+        },
+        "Peacefulness": {
+          "InnerPeace": {},
+          "EnvironmentalPeacefulness": {},
+          "MentalPeace": {},
+          "EmotionalPeace": {}
+        }
+      }
+    },
+    "Connectedness": {
+      "ConnectionWithOthers": {
+        "CommunityParticipation": {
+          "VolunteerWork": {},
+          "CommunityGroups": {},
+          "LocalOrganizations": {},
+          "CivicEngagement": {}
+        },
+        "Empathy": {
+          "UnderstandingOthers": {},
+          "EmotionalEmpathy": {},
+          "CognitiveEmpathy": {},
+          "Compassion": {}
+        },
+        "SharedExperiences": {
+          "CollectiveActivities": {},
+          "GroupEvents": {},
+          "SharedJourneys": {},
+          "MutualSupport": {}
+        },
+        "InterpersonalRelationships": {
+          "Friendships": {},
+          "FamilyRelationships": {},
+          "RomanticRelationships": {},
+          "ProfessionalRelationships": {}
+        }
+      },
+      "ConnectionWithNature": {
+        "AppreciationOfEnvironment": {
+          "NatureAppreciation": {},
+          "EnvironmentalBeauty": {},
+          "SustainableLiving": {},
+          "EcoAesthetics": {}
+        },
+        "EcologicalAwareness": {
+          "EnvironmentalEducation": {},
+          "SustainabilityAwareness": {},
+          "ConservationKnowledge": {},
+          "EcoConsciousness": {}
+        },
+        "NatureBasedPractices": {
+          "Gardening": {},
+          "Hiking": {},
+          "NatureMeditation": {},
+          "EcoTherapy": {}
+        },
+        "EnvironmentalStewardship": {
+          "ConservationEfforts": {},
+          "SustainablePractices": {},
+          "EcoAdvocacy": {},
+          "ResourceManagement": {}
+        }
+      },
+      "SenseOfBelonging": {
+        "InclusionInGroups": {
+          "SocialInclusion": {},
+          "CulturalInclusion": {},
+          "ProfessionalInclusion": {},
+          "CommunityInclusion": {}
+        },
+        "SharedIdentity": {
+          "CulturalIdentity": {},
+          "ProfessionalIdentity": {},
+          "GroupIdentity": {},
+          "PersonalIdentity": {}
+        },
+        "SocialSupport": {
+          "EmotionalSupport": {},
+          "PracticalSupport": {},
+          "InformationalSupport": {},
+          "AppraisalSupport": {}
+        },
+        "CulturalAffiliation": {
+          "CulturalParticipation": {},
+          "CulturalCelebrations": {},
+          "CulturalOrganizations": {},
+          "CulturalHeritage": {}
+        }
+      },
+      "UniversalConnectedness": {
+        "OnenessWithUniverse": {
+          "CosmicAwareness": {},
+          "UniversalEnergyConnection": {},
+          "Interconnectedness": {},
+          "UniversalConsciousness": {}
+        },
+        "CollectiveConsciousness": {
+          "SharedMindsets": {},
+          "GroupAwareness": {},
+          "CollectiveBeliefs": {},
+          "UnifiedIntentions": {}
+        },
+        "TranspersonalExperiences": {
+          "BeyondEgoExperiences": {},
+          "SpiritualInsights": {},
+          "UnifiedFieldExperiences": {},
+          "HigherStateOfConsciousness": {}
+        },
+        "SpiritualUnity": {
+          "InterfaithHarmony": {},
+          "GlobalSpiritualMovements": {},
+          "UniversalSpiritualPrinciples": {},
+          "UnifiedSpiritualGoals": {}
+        }
+      }
+    },
+    "SelfTranscendence": {
+      "Altruism": {
+        "SelflessActs": {
+          "RandomActsOfKindness": {},
+          "ServiceToCommunity": {},
+          "HelpingStrangers": {},
+          "CharitableActs": {}
+        },
+        "HelpingOthers": {
+          "AssistingInNeed": {},
+          "SupportingPeers": {},
+          "Mentoring": {},
+          "ProvidingResources": {}
+        },
+        "Volunteerism": {
+          "CommunityVolunteering": {},
+          "DisasterReliefVolunteering": {},
+          "SkillBasedVolunteering": {},
+          "LongTermVolunteering": {}
+        },
+        "CompassionateService": {
+          "EmotionalSupport": {},
+          "PracticalAssistance": {},
+          "HealthcareSupport": {},
+          "SpiritualGuidance": {}
+        }
+      },
+      "TranspersonalExperiences": {
+        "PeakExperiences": {
+          "FlowStates": {},
+          "Elation": {},
+          "IntenseJoy": {},
+          "UnifiedExperience": {}
+        },
+        "FlowStates": {
+          "OptimalEngagement": {},
+          "TotalImmersion": {},
+          "IntrinsicMotivation": {},
+          "EffortlessPerformance": {}
+        },
+        "MysticalExperiences": {
+          "SenseOfUnity": {},
+          "Timelessness": {},
+          "BoundlessConsciousness": {},
+          "SpiritualRevelation": {}
+        },
+        "SpiritualAwakening": {
+          "HeightenedAwareness": {},
+          "NewPerspectives": {},
+          "InnerTransformation": {},
+          "Enlightenment": {}
+        }
+      },
+      "UnityWithUniverse": {
+        "CosmicConsciousness": {
+          "UniversalAwareness": {},
+          "InterconnectedMind": {},
+          "HolisticUnderstanding": {},
+          "UnifiedFieldPerception": {}
+        },
+        "SpiritualEnlightenment": {
+          "AwarenessExpansion": {},
+          "InsightfulUnderstanding": {},
+          "HigherKnowledge": {},
+          "EnlightenedState": {}
+        },
+        "EgoDissolution": {
+          "Selflessness": {},
+          "LossOfEgoIdentity": {},
+          "TranscendenceOfSelf": {},
+          "UnifiedSelf": {}
+        },
+        "DeepMeditation": {
+          "ProfoundStillness": {},
+          "InnerJourney": {},
+          "MeditativeDepth": {},
+          "TranscendentalState": {}
+        }
+      },
+      "Elevation": {
+        "MoralElevation": {
+          "AdmirationOfVirtue": {},
+          "InspirationFromGoodness": {},
+          "UpliftingStories": {},
+          "RoleModeling": {}
+        },
+        "Inspiration": {
+          "CreativeInspiration": {},
+          "SpiritualInspiration": {},
+          "PersonalInspiration": {},
+          "CollectiveInspiration": {}
+        },
+        "Awe": {
+          "NaturalAwe": {},
+          "ArtisticAwe": {},
+          "SpiritualAwe": {},
+          "ExistentialAwe": {}
+        },
+        "AdmirationOfVirtue": {
+          "RespectForIntegrity": {},
+          "AppreciationOfCourage": {},
+          "HonorForCompassion": {},
+          "ValuingHonesty": {}
+        }
+      }
+    }
+  }
+}

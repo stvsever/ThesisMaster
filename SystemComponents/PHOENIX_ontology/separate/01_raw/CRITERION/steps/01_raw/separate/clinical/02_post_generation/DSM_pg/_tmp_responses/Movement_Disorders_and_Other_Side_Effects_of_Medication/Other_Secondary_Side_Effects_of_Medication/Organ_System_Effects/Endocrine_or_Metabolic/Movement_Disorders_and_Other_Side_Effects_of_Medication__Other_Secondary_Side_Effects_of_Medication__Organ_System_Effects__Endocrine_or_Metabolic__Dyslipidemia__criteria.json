@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "LDL_cholesterol_elevated"
+    },
+    {
+      "criterium": "HDL_cholesterol_reduced"
+    },
+    {
+      "criterium": "Total_cholesterol_elevated"
+    },
+    {
+      "criterium": "Triglycerides_elevated"
+    },
+    {
+      "criterium": "Lp(a)_elevated"
+    },
+    {
+      "criterium": "ApoB_elevated"
+    },
+    {
+      "criterium": "ApoB_ApoA1_ratio_increased"
+    },
+    {
+      "criterium": "Xanthelasma_present"
+    },
+    {
+      "criterium": "Tendon_xanthomas_present"
+    },
+    {
+      "criterium": "Corneal_arcus_present"
+    }
+  ],
+  "estimated_prevalence_percent": 39.0
+}

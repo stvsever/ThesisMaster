@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypnagogic_foot_tremor_present"
+    },
+    {
+      "criterium": "hypnagogic_toe_movements_present"
+    },
+    {
+      "criterium": "rhythmic_tremor_pattern_present"
+    },
+    {
+      "criterium": "EMG_foot_muscle_activity_during_hypnagogia_detected"
+    },
+    {
+      "criterium": "tremor_visible_on_video_during_hypnagogia"
+    },
+    {
+      "criterium": "tremor_suppressed_by_tactile_contact"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

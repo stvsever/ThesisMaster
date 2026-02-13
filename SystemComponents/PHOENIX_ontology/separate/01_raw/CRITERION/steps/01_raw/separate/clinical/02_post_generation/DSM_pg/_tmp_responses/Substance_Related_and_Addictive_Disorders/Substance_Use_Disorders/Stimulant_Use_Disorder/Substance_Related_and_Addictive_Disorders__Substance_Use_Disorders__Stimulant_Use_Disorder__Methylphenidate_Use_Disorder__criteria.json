@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "increased_methylphenidate_tolerance"
+    },
+    {
+      "criterium": "craving_methylphenidate"
+    },
+    {
+      "criterium": "nonprescribed_methylphenidate_use"
+    },
+    {
+      "criterium": "time_spent_obtaining_methylphenidate"
+    },
+    {
+      "criterium": "failed_attempts_to_stop_methylphenidate"
+    },
+    {
+      "criterium": "withdrawal_symptoms_methylphenidate"
+    },
+    {
+      "criterium": "continued_use_despite_harm_from_methylphenidate"
+    },
+    {
+      "criterium": "loss_of_control_over_methylphenidate_use"
+    },
+    {
+      "criterium": "preoccupation_with_methylphenidate"
+    },
+    {
+      "criterium": "occupational_social_impairment_due_to_methylphenidate"
+    },
+    {
+      "criterium": "polysubstance_use_with_methylphenidate"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

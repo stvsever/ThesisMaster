@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusion_guilt_fixed_belief"
+    },
+    {
+      "criterium": "delusion_punishment_fixed_belief"
+    },
+    {
+      "criterium": "delusion_sin_fixed_belief"
+    },
+    {
+      "criterium": "delusion_god_punishment_fixed_belief"
+    },
+    {
+      "criterium": "nihilistic_delusions_of_body_or_world"
+    },
+    {
+      "criterium": "auditory_hallucinations_voice_reproachful_content"
+    },
+    {
+      "criterium": "auditory_hallucinations_voice_comments_on_worthlessness"
+    },
+    {
+      "criterium": "auditory_hallucinations_voice_guilt_related_content"
+    },
+    {
+      "criterium": "visual_hallucinations_punitive_content"
+    },
+    {
+      "criterium": "mood_congruent_thought_content"
+    },
+    {
+      "criterium": "delusion_of_punishment_by_external_agent"
+    },
+    {
+      "criterium": "delusion_narrative_of_impending_social_or_physical_doom"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

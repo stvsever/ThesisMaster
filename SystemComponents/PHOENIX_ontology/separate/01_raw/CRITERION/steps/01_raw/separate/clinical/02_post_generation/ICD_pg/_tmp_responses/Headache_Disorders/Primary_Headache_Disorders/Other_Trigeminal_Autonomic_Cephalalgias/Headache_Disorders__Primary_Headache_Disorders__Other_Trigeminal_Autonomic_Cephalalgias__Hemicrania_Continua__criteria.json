@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_headache_location"
+    },
+    {
+      "criterium": "ipsilateral_lacrimation"
+    },
+    {
+      "criterium": "ipsilateral_conjunctival_injection"
+    },
+    {
+      "criterium": "ipsilateral_nasal_congestion"
+    },
+    {
+      "criterium": "ipsilateral_rhinorrhea"
+    },
+    {
+      "criterium": "ipsilateral_ptosis"
+    },
+    {
+      "criterium": "ipsilateral_miosis"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "phonophobia_present"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "headache_pulsating_quality"
+    }
+  ],
+  "estimated_prevalence_percent": 0.002
+}

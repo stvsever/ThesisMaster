@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "incongruence_experienced_with_assigned_gender"
+    },
+    {
+      "criterium": "desire_to_be_rid_of_primary_sex_characteristics"
+    },
+    {
+      "criterium": "desire_to_be_rid_of_secondary_sex_characteristics"
+    },
+    {
+      "criterium": "desire_for_primary_sex_characteristics_of_other_gender"
+    },
+    {
+      "criterium": "desire_for_secondary_sex_characteristics_of_other_gender"
+    },
+    {
+      "criterium": "desire_to_be_other_gender"
+    },
+    {
+      "criterium": "desire_to_be_treated_as_other_gender"
+    },
+    {
+      "criterium": "identity_conviction_other_gender"
+    },
+    {
+      "criterium": "distress_from_gender_incongruence"
+    },
+    {
+      "criterium": "impairment_in_social_or_occupational_functioning_due_to_incongruence"
+    },
+    {
+      "criterium": "preoccupation_with_gender_identity"
+    },
+    {
+      "criterium": "cross_gender_clothing_preference"
+    },
+    {
+      "criterium": "cross_gender_social_role_preference"
+    },
+    {
+      "criterium": "body_related_distress_due_to_assigned_gender_characteristics"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

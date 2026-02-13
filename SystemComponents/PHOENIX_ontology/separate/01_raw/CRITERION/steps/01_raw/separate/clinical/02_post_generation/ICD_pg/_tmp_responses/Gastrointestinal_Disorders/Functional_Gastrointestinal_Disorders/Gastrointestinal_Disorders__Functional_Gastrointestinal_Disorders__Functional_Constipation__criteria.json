@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Illness_anxiety_about_constipation"
+    },
+    {
+      "criterium": "Stool_withholding_behavior"
+    },
+    {
+      "criterium": "Toilet_avoidance_public_settings"
+    },
+    {
+      "criterium": "Interoceptive_hypervigilance_gut_signals"
+    },
+    {
+      "criterium": "Rumination_about_bowel_sensations"
+    },
+    {
+      "criterium": "Catastrophizing_about_constipation_symptoms"
+    },
+    {
+      "criterium": "Stress_reactivity_of_gastrointestinal_symptoms"
+    },
+    {
+      "criterium": "Sleep_disturbance_due_to_gut_discomfort"
+    },
+    {
+      "criterium": "Mood_disturbance_associated_with_constipation_flare"
+    },
+    {
+      "criterium": "Social_withdrawal_due_to_defecation_anxiety"
+    }
+  ],
+  "estimated_prevalence_percent": 14.0
+}

@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SPECIFIC_BII_CUE_FEAR"
+    },
+    {
+      "criterium": "AVOIDANCE_BII_EXPOSURES"
+    },
+    {
+      "criterium": "ANTICIPATORY_ANXIETY_BEFORE_BII"
+    },
+    {
+      "criterium": "PHYSIOLOGICAL_AROUSAL_BII_CUES"
+    },
+    {
+      "criterium": "VASOVAGAL_EPISODES_DURING_BII_EXPOSURE"
+    },
+    {
+      "criterium": "DISTRESS_DURING_BII_MEDICAL_PROCEDURES"
+    },
+    {
+      "criterium": "RESTRICTED_PARTICIPATION_MEDICAL_VISITS"
+    },
+    {
+      "criterium": "CUE_GENERALIZATION_BII_TO_MEDICAL_SETTINGS"
+    }
+  ],
+  "estimated_prevalence_percent": 2.3
+}

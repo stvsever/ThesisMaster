@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "shallow_anterior_chamber_depth"
+    },
+    {
+      "criterium": "gonioscopic_narrow_angles_grade_0_1_all_quadrants"
+    },
+    {
+      "criterium": "increased_lens_thickness"
+    },
+    {
+      "criterium": "short_axial_length"
+    },
+    {
+      "criterium": "plateau_iris_configuration"
+    },
+    {
+      "criterium": "hyperopic_refractive_error"
+    },
+    {
+      "criterium": "age_over_60"
+    },
+    {
+      "criterium": "female_sex"
+    },
+    {
+      "criterium": "family_history_angle_closure_glaucoma"
+    },
+    {
+      "criterium": "pupillary_block_signs_present"
+    },
+    {
+      "criterium": "peripheral_anterior_synechiae_present"
+    },
+    {
+      "criterium": "iris_bombe_configuration_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

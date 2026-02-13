@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "spontaneous_neuropathic_pain_presence"
+    },
+    {
+      "criterium": "allodynia_to_light_touch_presence"
+    },
+    {
+      "criterium": "hyperalgesia_to_nociceptive_stimuli_presence"
+    },
+    {
+      "criterium": "dysesthesia_presence"
+    },
+    {
+      "criterium": "paresthesia_presence"
+    },
+    {
+      "criterium": "burning_pain_quality_presence"
+    },
+    {
+      "criterium": "thermal_allodynia_presence"
+    },
+    {
+      "criterium": "thermal_hyperalgesia_presence"
+    },
+    {
+      "criterium": "unilateral_pain_distribution_presence"
+    },
+    {
+      "criterium": "sensory_hypoesthesia_in_pain_region_presence"
+    },
+    {
+      "criterium": "sensory_hyperesthesia_in_pain_region_presence"
+    },
+    {
+      "criterium": "allodynia_to_pressure_presence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

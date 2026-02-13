@@ -1,0 +1,61 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V1_expression",
+      "NR2A_V1_expression",
+      "NR2B_V1_expression",
+      "GAD1_V1_expression",
+      "GAD2_V1_expression",
+      "GRIN1_V1_expression",
+      "GRIA1_V1_expression"
+    ],
+    "molecules": [
+      "GABA_V1_concentration",
+      "Glutamate_V1_concentration",
+      "BDNF_V1_protein_level",
+      "NR2B_V1_phosphorylation",
+      "GluA1_V1_phosphorylation",
+      "Dopamine_V1_concentration",
+      "Acetylcholine_V1_concentration"
+    ],
+    "cells": [
+      "Pyramidal_neuron_density_V1",
+      "PV_interneuron_density_V1",
+      "SST_interneuron_density_V1",
+      "VIP_interneuron_density_V1",
+      "GABAergic_synapse_density_V1",
+      "VGluT1_positive_terminal_density_V1"
+    ],
+    "circuits": [
+      "LGN_to_V1_feedforward_weight",
+      "V1_recurrent_excitation_weight",
+      "V1_inhibitory_influence_weight",
+      "V1_horizontal_connectivity_strength",
+      "V1_synchrony_index",
+      "V1_to_V2_feedforward_projection_strength"
+    ],
+    "physiology": [
+      "V1_BOLD_percent_signal_change",
+      "V1_EEG_gamma_band_power",
+      "V1_VEP_amplitude_microvolts",
+      "V1_hemodynamic_response_onset_time_ms",
+      "V1_fNIRS_oxyhemoglobin_concentration_change"
+    ],
+    "behavior": [
+      "Contrast_sensitivity_V1_gain_test",
+      "Visual_acuity_change_under_grating",
+      "Brightness_based_detection_accuracy",
+      "Phosphene_susceptibility_visual_task",
+      "Visual_motion_detection_threshold_change",
+      "Contour_integration_gain_task"
+    ],
+    "self_report": [
+      "Subjective_visual_brightness_enhancement",
+      "Subjective_contrast_sensitivity_change",
+      "Subjective_visual_acuity_change",
+      "Subjective_phosphene_experience_frequency",
+      "Subjective_visual_illusion_susceptibility"
+    ]
+  },
+  "estimated_prevalence_percent": 2.4
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "OPEN_SPACE_AVOIDANCE"
+    },
+    {
+      "criterium": "COMPANION_REQUIRED_FOR_OUTDOOR_ACTIVITY"
+    },
+    {
+      "criterium": "DISTRESS_IN_OPEN_AIR_ENVIRONMENTS"
+    },
+    {
+      "criterium": "PHYSIOLOGICAL_AROUSAL_OPEN_SPACE_EXPOSURE"
+    },
+    {
+      "criterium": "PANIC_ATTACKS_OPEN_SPACE_EXPOSURE"
+    },
+    {
+      "criterium": "FEAR_OF_NOT_ESCAPE_OPEN_SPACES"
+    },
+    {
+      "criterium": "SAFETY_SEEKING_BEHAVIORS_OUTDOORS"
+    },
+    {
+      "criterium": "LIMITED_OUTDOOR_MOVEMENT_RADIUS"
+    },
+    {
+      "criterium": "IMPAIRMENT_IN_WORK_SOCIAL_FUNCTIONING_DUE_TO_OPEN_SPACE_FEARS"
+    },
+    {
+      "criterium": "SPECIFIC_OPEN_SPACE_AVOIDANCE_PATTERNS"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

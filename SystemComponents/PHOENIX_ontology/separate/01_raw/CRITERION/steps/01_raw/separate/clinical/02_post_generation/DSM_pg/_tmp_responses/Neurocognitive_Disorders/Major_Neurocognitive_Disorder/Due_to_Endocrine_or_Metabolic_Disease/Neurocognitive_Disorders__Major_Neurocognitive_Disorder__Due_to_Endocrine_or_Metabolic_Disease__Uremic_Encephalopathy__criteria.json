@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "clouded_consciousness"
+    },
+    {
+      "criterium": "disorientation_time_place"
+    },
+    {
+      "criterium": "cognitive_slowing_processing_speed"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "asterixis_present"
+    },
+    {
+      "criterium": "myoclonus_present"
+    },
+    {
+      "criterium": "tremor_present"
+    },
+    {
+      "criterium": "ataxia_or_gait_abnormality"
+    },
+    {
+      "criterium": "hyporeflexia"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "EEG_triphasic_waves"
+    },
+    {
+      "criterium": "slurred_speech_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

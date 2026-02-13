@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persecutory_delusion_presence"
+    },
+    {
+      "criterium": "persecutory_delusion_conviction_high"
+    },
+    {
+      "criterium": "surveillance_belief_presence"
+    },
+    {
+      "criterium": "conspiracy_belief_presence"
+    },
+    {
+      "criterium": "harm_threat_belief_presence"
+    },
+    {
+      "criterium": "poisoning_belief_presence"
+    },
+    {
+      "criterium": "hypervigilance_behavior"
+    },
+    {
+      "criterium": "threat_monitoring_behavior"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_paranoia"
+    },
+    {
+      "criterium": "delusional_distress_level_high"
+    },
+    {
+      "criterium": "functional_impairment_due_to_paranoia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ELEVATED_MOOD_STATE"
+    },
+    {
+      "criterium": "DECREASED_SLEEP_NEED"
+    },
+    {
+      "criterium": "PRESSURE_OF_SPEECH"
+    },
+    {
+      "criterium": "FLIGHT_OF_IDEAS"
+    },
+    {
+      "criterium": "GRANDIOSITY"
+    },
+    {
+      "criterium": "INCREASED_RISK_TAKING"
+    },
+    {
+      "criterium": "MOOD_LABILITY"
+    },
+    {
+      "criterium": "IRRITABILITY_OR_AGITATION"
+    },
+    {
+      "criterium": "MEMORY_IMPAIRMENT"
+    },
+    {
+      "criterium": "EXECUTIVE_FUNCTION_DEFICIT"
+    },
+    {
+      "criterium": "HEMIPARESIS"
+    },
+    {
+      "criterium": "APHASIA"
+    },
+    {
+      "criterium": "DYSARTHRIA"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

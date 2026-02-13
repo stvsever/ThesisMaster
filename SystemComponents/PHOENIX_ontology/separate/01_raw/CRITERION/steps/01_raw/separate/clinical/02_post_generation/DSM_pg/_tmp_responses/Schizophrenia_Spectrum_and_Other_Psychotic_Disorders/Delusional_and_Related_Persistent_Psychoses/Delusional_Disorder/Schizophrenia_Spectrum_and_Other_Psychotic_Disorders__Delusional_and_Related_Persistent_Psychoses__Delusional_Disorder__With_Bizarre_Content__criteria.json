@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bizarre_content_present"
+    },
+    {
+      "criterium": "delusion_thought_insertion"
+    },
+    {
+      "criterium": "delusion_thought_broadcast"
+    },
+    {
+      "criterium": "delusion_thought_control"
+    },
+    {
+      "criterium": "delusion_external_control_of_actions"
+    },
+    {
+      "criterium": "bodily_implant_delusion"
+    },
+    {
+      "criterium": "bodily_part_replacement_delusion"
+    },
+    {
+      "criterium": "bodily_part_extrusion_delusion"
+    },
+    {
+      "criterium": "organ_loss_or_removal_delusion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

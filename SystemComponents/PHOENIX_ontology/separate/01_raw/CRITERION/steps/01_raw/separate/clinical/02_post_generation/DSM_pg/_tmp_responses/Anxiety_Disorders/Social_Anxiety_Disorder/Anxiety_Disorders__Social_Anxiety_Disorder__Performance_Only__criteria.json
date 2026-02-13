@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fear_of_public_performance"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_performance"
+    },
+    {
+      "criterium": "avoidance_of_performance_situations"
+    },
+    {
+      "criterium": "performance_related_tremor"
+    },
+    {
+      "criterium": "performance_related_palpitations"
+    },
+    {
+      "criterium": "performance_related_sweating"
+    },
+    {
+      "criterium": "facial_flushing_during_performance"
+    },
+    {
+      "criterium": "vocal_tremor_during_performance"
+    },
+    {
+      "criterium": "fear_of_negative_evaluation_specific_to_performance"
+    },
+    {
+      "criterium": "cognitive_thoughts_of_embarrassment_during_performance"
+    },
+    {
+      "criterium": "eye_contact_avoidance_during_performance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

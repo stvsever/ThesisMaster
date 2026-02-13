@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "radicular_pain_dermatomal_radiation"
+    },
+    {
+      "criterium": "sensory_deficit_dermatomal_distribution"
+    },
+    {
+      "criterium": "dermatomal_hypoesthesia"
+    },
+    {
+      "criterium": "paresthesias_in_affected_dermatomes"
+    },
+    {
+      "criterium": "myotomal_weakness"
+    },
+    {
+      "criterium": "deep_tendon_reflex_decrement_in_affected_segment"
+    },
+    {
+      "criterium": "muscle_atrophy_in_involved_myotome"
+    },
+    {
+      "criterium": "positive_spurling_sign"
+    },
+    {
+      "criterium": "positive_straight_leg_raise"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "neck_pain_present"
+    },
+    {
+      "criterium": "headache_radiates_occipital_from_neck"
+    },
+    {
+      "criterium": "headache_worsened_by_neck_movement"
+    },
+    {
+      "criterium": "headache_worsened_by_neck_posture"
+    },
+    {
+      "criterium": "limited_neck_ROM_on_exam"
+    },
+    {
+      "criterium": "tender_neck_muscles_on_palpation"
+    },
+    {
+      "criterium": "suboccipital_tenderness_present"
+    },
+    {
+      "criterium": "headache_quality_non_pulsatile"
+    },
+    {
+      "criterium": "normal_focal_neurological_exam"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

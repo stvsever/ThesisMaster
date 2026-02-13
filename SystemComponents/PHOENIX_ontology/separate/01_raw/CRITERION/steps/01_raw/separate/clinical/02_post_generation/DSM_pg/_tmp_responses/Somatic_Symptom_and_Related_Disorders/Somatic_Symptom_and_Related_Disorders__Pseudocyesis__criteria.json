@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusional_pregnancy_conviction"
+    },
+    {
+      "criterium": "abdominal_distension_without_pregnancy"
+    },
+    {
+      "criterium": "amenorrhea"
+    },
+    {
+      "criterium": "breast_changes"
+    },
+    {
+      "criterium": "nausea_without_gestation"
+    },
+    {
+      "criterium": "vomiting_without_gestation"
+    },
+    {
+      "criterium": "perceived_fetal_movements"
+    },
+    {
+      "criterium": "weight_gain_without_pregnancy"
+    },
+    {
+      "criterium": "prenatal_care_seek_behavior"
+    },
+    {
+      "criterium": "pregnancy_related_anxiety"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

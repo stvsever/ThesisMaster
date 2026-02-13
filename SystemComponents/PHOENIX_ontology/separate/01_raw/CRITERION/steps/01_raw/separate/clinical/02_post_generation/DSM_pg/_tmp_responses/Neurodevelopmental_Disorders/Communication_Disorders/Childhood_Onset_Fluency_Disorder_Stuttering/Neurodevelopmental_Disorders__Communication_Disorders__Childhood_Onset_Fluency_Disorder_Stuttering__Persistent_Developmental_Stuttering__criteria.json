@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Part_word_repetition"
+    },
+    {
+      "criterium": "Syllable_repetition"
+    },
+    {
+      "criterium": "Sound_repetition"
+    },
+    {
+      "criterium": "Sound_prolongation"
+    },
+    {
+      "criterium": "Speech_block"
+    },
+    {
+      "criterium": "Facial_or_head_tension_during_disfluency"
+    },
+    {
+      "criterium": "Escape_behaviors_during_disfluency"
+    },
+    {
+      "criterium": "Avoidance_behaviors_in_speaking"
+    },
+    {
+      "criterium": "Clustering_of_disfluencies"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

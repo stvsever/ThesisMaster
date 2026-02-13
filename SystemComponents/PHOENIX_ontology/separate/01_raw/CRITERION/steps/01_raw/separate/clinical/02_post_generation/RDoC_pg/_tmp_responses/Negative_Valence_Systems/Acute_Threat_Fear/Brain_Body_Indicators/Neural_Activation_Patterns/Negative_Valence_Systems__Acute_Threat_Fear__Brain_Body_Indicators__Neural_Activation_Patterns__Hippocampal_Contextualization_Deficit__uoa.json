@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF",
+      "CREB1",
+      "GRIN2B",
+      "GRIA1",
+      "CACNA1C",
+      "COMT"
+    ],
+    "molecules": [
+      "BDNF_protein",
+      "Glutamate",
+      "GABA",
+      "Cortisol",
+      "CRH",
+      "NR2B",
+      "AMPA_receptor"
+    ],
+    "cells": [
+      "CA1_pyramidal_neurons",
+      "CA3_pyramidal_neurons",
+      "GABAergic_interneurons_CA1",
+      "dentate_gyrus_granule_cells",
+      "astrocytes_CA1"
+    ],
+    "circuits": [
+      "hippocampus_amygdala_pathway",
+      "Schaffer_collateral_network",
+      "entorhinal_hippocampal_pathway",
+      "ventral_hippocampus_prefrontal_connectivity"
+    ],
+    "physiology": [
+      "hippocampal_theta_power",
+      "hippocampal_BOLD_signal_change",
+      "cortisol_response_peak",
+      "skin_conductance_response_peak",
+      "heart_rate_variability_during_context"
+    ],
+    "behavior": [
+      "contextual_freezing_percentage",
+      "context_discrimination_score",
+      "fear_generalization_index",
+      "latency_to_freeze_in_context",
+      "contextual_memory_recall_score"
+    ],
+    "self_report": [
+      "STAI_State",
+      "STAI_Trait",
+      "Contextual_fear_questionnaire_score",
+      "Fear_generalization_questionnaire_score",
+      "Anxiety_sensitivity_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 4.3
+}

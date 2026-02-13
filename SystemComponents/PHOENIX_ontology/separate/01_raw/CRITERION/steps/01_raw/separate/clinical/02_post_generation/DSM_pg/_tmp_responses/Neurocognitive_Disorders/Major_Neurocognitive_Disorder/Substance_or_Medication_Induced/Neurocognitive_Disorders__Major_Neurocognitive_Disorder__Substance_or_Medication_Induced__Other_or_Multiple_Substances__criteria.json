@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "new_learning_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "visuospatial_constructional_deficit"
+    },
+    {
+      "criterium": "verbal_fluency_decline"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "instrumental_activities_of_daily_living_impairment"
+    },
+    {
+      "criterium": "disorientation_in_time_or_place"
+    },
+    {
+      "criterium": "cognitive_performance_fluctuation_related_to_substance_level"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

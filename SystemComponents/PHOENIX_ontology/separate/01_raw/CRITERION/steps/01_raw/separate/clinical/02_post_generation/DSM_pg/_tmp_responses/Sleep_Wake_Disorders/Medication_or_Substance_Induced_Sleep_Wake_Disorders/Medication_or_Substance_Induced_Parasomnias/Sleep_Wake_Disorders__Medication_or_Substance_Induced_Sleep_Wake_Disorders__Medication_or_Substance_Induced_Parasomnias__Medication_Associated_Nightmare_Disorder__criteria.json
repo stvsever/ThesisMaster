@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "increased_nightmare_frequency"
+    },
+    {
+      "criterium": "nightmares_onset_after_medication_initiation"
+    },
+    {
+      "criterium": "nightmares_onset_after_dose_increase"
+    },
+    {
+      "criterium": "nightmares_occurrence_during_REM_sleep"
+    },
+    {
+      "criterium": "nightmare_content_distress"
+    },
+    {
+      "criterium": "nightmare_recall_on_waking"
+    },
+    {
+      "criterium": "nocturnal_sleep_fragmentation"
+    },
+    {
+      "criterium": "nocturnal_awakenings_due_to_nightmares"
+    },
+    {
+      "criterium": "autonomic_arousal_during_nightmares"
+    },
+    {
+      "criterium": "daytime_fatigue_due_to_sleep_disturbance"
+    },
+    {
+      "criterium": "concentration_impairment_due_to_sleep_loss"
+    },
+    {
+      "criterium": "sleep_quality_reduction_due_to_nightmares"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

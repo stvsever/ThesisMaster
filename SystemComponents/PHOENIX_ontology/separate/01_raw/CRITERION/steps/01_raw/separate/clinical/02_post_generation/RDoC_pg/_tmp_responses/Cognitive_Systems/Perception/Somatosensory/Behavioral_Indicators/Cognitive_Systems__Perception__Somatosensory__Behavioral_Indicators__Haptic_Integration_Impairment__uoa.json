@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_gene_expression",
+      "SCN9A_gene_expression",
+      "GRIN2A_gene_expression",
+      "GAD1_gene_expression",
+      "OPRM1_gene_expression",
+      "SLC6A4_gene_expression"
+    ],
+    "molecules": [
+      "GABA_concentration",
+      "Glutamate_concentration",
+      "BDNF_protein_level",
+      "NMDA_receptor_phosphorylation_NMDAR2A",
+      "AMPA_receptor_phosphorylation_GluA1"
+    ],
+    "cells": [
+      "Pyramidal_neurons_S1",
+      "PV_interneurons_S1",
+      "Layer_IV_spiny_stellate_cells_S1"
+    ],
+    "circuits": [
+      "S1_S2_integration_circuit",
+      "Thalamocortical_loop_S1",
+      "Posterior_parietal_S1_network",
+      "S1_to_insula_connectivity"
+    ],
+    "physiology": [
+      "SSEP_amplitude",
+      "SSEP_latency",
+      "Tactile_detection_threshold",
+      "Proprioceptive_discrimination_threshold"
+    ],
+    "behavior": [
+      "Haptic_discrimination_accuracy",
+      "Haptic_discrimination_reaction_time",
+      "Texture_discrimination_accuracy",
+      "Temporal_order_judgment_accuracy"
+    ],
+    "self_report": [
+      "Touch_sensitivity_scale_score",
+      "Proprioception_discrepancy_self_report",
+      "Multisensory_integration_difficulty_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

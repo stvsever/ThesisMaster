@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "excessive_worry"
+    },
+    {
+      "criterium": "panic_attack_features"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "restlessness"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "sleep_onset_difficulty"
+    },
+    {
+      "criterium": "sleep_maintenance_difficulty"
+    },
+    {
+      "criterium": "nocturnal_awakenings"
+    },
+    {
+      "criterium": "nonrestorative_sleep"
+    },
+    {
+      "criterium": "hypervigilance"
+    }
+  ],
+  "estimated_prevalence_percent": 12.4
+}

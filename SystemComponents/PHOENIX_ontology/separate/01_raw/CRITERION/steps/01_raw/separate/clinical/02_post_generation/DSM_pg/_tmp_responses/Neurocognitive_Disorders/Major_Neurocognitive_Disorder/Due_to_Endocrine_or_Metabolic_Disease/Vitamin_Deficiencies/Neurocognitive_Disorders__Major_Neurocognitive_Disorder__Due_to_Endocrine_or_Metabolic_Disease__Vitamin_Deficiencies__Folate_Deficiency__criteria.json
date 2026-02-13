@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "low_serum_folate"
+    },
+    {
+      "criterium": "low_erythrocyte_folate"
+    },
+    {
+      "criterium": "macrocytosis"
+    },
+    {
+      "criterium": "hypersegmented_neutrophils"
+    },
+    {
+      "criterium": "megaloblastic_anemia"
+    },
+    {
+      "criterium": "elevated_serum_homocysteine"
+    },
+    {
+      "criterium": "glossitis"
+    },
+    {
+      "criterium": "pallor"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "irritability"
+    }
+  ],
+  "estimated_prevalence_percent": 1.3
+}

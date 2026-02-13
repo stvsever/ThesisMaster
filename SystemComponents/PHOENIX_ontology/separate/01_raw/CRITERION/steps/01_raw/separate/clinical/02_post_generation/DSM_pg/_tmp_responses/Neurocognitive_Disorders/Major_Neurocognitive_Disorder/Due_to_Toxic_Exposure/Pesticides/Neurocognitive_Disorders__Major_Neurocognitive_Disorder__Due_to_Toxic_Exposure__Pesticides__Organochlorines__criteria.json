@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "semantic_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "visuospatial_processing_deficit"
+    },
+    {
+      "criterium": "language_fluency_decline"
+    },
+    {
+      "criterium": "ideomotor_apraxia"
+    },
+    {
+      "criterium": "gait_dysfunction"
+    },
+    {
+      "criterium": "bradyphrenia"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "olfactory_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

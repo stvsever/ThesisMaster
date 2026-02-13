@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "desire_to_be_other_gender"
+    },
+    {
+      "criterium": "distress_about_primary_sex_characteristics"
+    },
+    {
+      "criterium": "distress_about_secondary_sex_characteristics"
+    },
+    {
+      "criterium": "preference_for_cross_gender_expression"
+    },
+    {
+      "criterium": "body_ownership_dysphoria_related_to_sex_development"
+    },
+    {
+      "criterium": "dsd_genitalia_ambiguous_phenotype_present"
+    },
+    {
+      "criterium": "dsd_chromosomal_variant_present"
+    },
+    {
+      "criterium": "dsd_gonadal_variant_present"
+    },
+    {
+      "criterium": "social_function_impairment_due_to_gender_dysphoria_with_dsd"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

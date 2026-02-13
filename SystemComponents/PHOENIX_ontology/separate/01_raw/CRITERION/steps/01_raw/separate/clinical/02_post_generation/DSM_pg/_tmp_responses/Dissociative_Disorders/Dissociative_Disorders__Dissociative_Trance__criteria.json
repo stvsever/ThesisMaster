@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "altered_consciousness_during_trance"
+    },
+    {
+      "criterium": "amnesia_for_trance_events"
+    },
+    {
+      "criterium": "possession_state_during_trance"
+    },
+    {
+      "criterium": "voice_modulation_during_trance"
+    },
+    {
+      "criterium": "dramatic_behavioral_changes_during_trance"
+    },
+    {
+      "criterium": "autonomic_arousal_changes_during_trance"
+    },
+    {
+      "criterium": "reduced_responsiveness_to_external_stimuli_during_trance"
+    },
+    {
+      "criterium": "distorted_time_perception_during_trance"
+    },
+    {
+      "criterium": "altered_sense_of_identity_during_trance"
+    },
+    {
+      "criterium": "unusual_gestural_behaviors_during_trance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

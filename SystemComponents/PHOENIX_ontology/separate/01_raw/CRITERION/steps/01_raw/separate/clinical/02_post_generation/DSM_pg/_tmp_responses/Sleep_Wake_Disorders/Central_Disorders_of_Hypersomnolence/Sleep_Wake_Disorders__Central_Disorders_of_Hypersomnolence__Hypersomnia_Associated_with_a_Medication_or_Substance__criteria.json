@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "unrefreshing_nocturnal_sleep"
+    },
+    {
+      "criterium": "irresistible_sleep_attacks"
+    },
+    {
+      "criterium": "unplanned_naps_frequency"
+    },
+    {
+      "criterium": "sleep_inertia_post_awakening"
+    },
+    {
+      "criterium": "microsleeps_during_active_tasks"
+    },
+    {
+      "criterium": "cognitive_impairment_wakefulness"
+    },
+    {
+      "criterium": "attention_deficit_related_to_sleepiness"
+    },
+    {
+      "criterium": "mood_fluctuation_associated_with_hypersomnolence"
+    },
+    {
+      "criterium": "substance_medication_temporal_association"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

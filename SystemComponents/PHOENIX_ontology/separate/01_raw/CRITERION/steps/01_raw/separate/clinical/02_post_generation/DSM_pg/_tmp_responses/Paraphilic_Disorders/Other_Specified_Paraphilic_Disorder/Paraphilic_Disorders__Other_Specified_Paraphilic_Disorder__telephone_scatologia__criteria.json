@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "obscene_phone_calls_initiation"
+    },
+    {
+      "criterium": "explicit_sexual_language_in_phone_calls"
+    },
+    {
+      "criterium": "obscene_content_in_phone_calls_towards_strangers"
+    },
+    {
+      "criterium": "obscene_content_in_phone_calls_towards_known_contacts"
+    },
+    {
+      "criterium": "unsolicited_obscene_phone_exchanges"
+    },
+    {
+      "criterium": "repetitive_obscene_phone_behaviors"
+    },
+    {
+      "criterium": "sexual_content_descriptions_in_phone_conversations"
+    },
+    {
+      "criterium": "clinically_significant_distress_due_to_obscene_phone_behavior"
+    },
+    {
+      "criterium": "impairment_in_social_or_occupational_functioning_due_to_phone_obscenity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

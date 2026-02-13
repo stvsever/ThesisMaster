@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "chronic_deceptive_behavior"
+    },
+    {
+      "criterium": "grandiose_fabrications"
+    },
+    {
+      "criterium": "elaborate_storytelling"
+    },
+    {
+      "criterium": "inconsistent_autobiographical_accounts"
+    },
+    {
+      "criterium": "fabrications_across_multiple_social_contexts"
+    },
+    {
+      "criterium": "lack_of_remorse_after_lies"
+    },
+    {
+      "criterium": "attention_seeking_through_lying"
+    },
+    {
+      "criterium": "rapid_change_in_fabricated_narratives"
+    },
+    {
+      "criterium": "plausible_details_in_fabrications"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_onset_latency_increase"
+    },
+    {
+      "criterium": "sleep_maintenance_impairment"
+    },
+    {
+      "criterium": "nocturnal_awakenings_increase"
+    },
+    {
+      "criterium": "total_sleep_time_decrease"
+    },
+    {
+      "criterium": "sleep_fragmentation_increase"
+    },
+    {
+      "criterium": "REM_sleep_pressure_increase"
+    },
+    {
+      "criterium": "REM_sleep_rebound"
+    },
+    {
+      "criterium": "vivid_dream_recall_increase"
+    },
+    {
+      "criterium": "nightmares_increased_frequency"
+    },
+    {
+      "criterium": "early_morning_waking"
+    },
+    {
+      "criterium": "circadian_rhythm_disruption"
+    },
+    {
+      "criterium": "daytime_sleepiness_increase"
+    }
+  ],
+  "estimated_prevalence_percent": 25.0
+}

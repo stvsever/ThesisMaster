@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypersomnolence_daytime"
+    },
+    {
+      "criterium": "unintentional_daytime_napping"
+    },
+    {
+      "criterium": "micro_sleep_events"
+    },
+    {
+      "criterium": "reduced_reaction_time"
+    },
+    {
+      "criterium": "impaired_sustained_attention"
+    },
+    {
+      "criterium": "decreased_psychomotor_speed"
+    },
+    {
+      "criterium": "slowed_cognitive_processing"
+    },
+    {
+      "criterium": "sleep_inertia_post_awakening"
+    },
+    {
+      "criterium": "impaired_divided_attention"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

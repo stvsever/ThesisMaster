@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "slurred_speech"
+    },
+    {
+      "criterium": "incoordination"
+    },
+    {
+      "criterium": "unsteady_gait"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "impaired_attention"
+    },
+    {
+      "criterium": "impaired_short_term_memory"
+    },
+    {
+      "criterium": "impaired_judgment"
+    },
+    {
+      "criterium": "reduced_psychomotor_speed"
+    },
+    {
+      "criterium": "mood_lability"
+    }
+  ],
+  "estimated_prevalence_percent": 1.8
+}

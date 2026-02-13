@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gdx_incongruence_experienced_vs_assigned_gender"
+    },
+    {
+      "criterium": "desire_to_discard_sex_characteristics"
+    },
+    {
+      "criterium": "desire_to_acquire_characteristics_of_other_gender"
+    },
+    {
+      "criterium": "desire_to_be_treated_as_male"
+    },
+    {
+      "criterium": "conviction_of_male_gender_identity"
+    },
+    {
+      "criterium": "distress_or_impairment_due_to_gdx"
+    },
+    {
+      "criterium": "chest_dysphoria"
+    },
+    {
+      "criterium": "voice_pitch_dysphoria"
+    },
+    {
+      "criterium": "body_shape_dysphoria_feminine_contours"
+    },
+    {
+      "criterium": "social_dysphoria_in_gender_presentation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

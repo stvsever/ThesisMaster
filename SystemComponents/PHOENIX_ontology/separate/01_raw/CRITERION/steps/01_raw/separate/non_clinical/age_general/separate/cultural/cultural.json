@@ -1,0 +1,428 @@
+{
+  "CULTURAL": {
+    "CulturalIdentity": {
+      "PrideInHeritage": {
+        "UnderstandingAncestry": {
+          "GenealogicalResearch": {},
+          "FamilyHistoryDocumentation": {},
+          "AncestralHealthAwareness": {},
+          "Cultural LineageTracing": {}
+        },
+        "CelebratingCulturalHolidays": {
+          "TraditionalFestivities": {},
+          "ReligiousObservances": {},
+          "NationalCelebrations": {},
+          "Cultural Parades": {}
+        },
+        "CulturalDress": {
+          "TraditionalClothing": {},
+          "CeremonialAttire": {},
+          "EverydayCulturalWear": {},
+          "CulturalFashionInnovation": {}
+        },
+        "LanguagePreservation": {
+          "LanguageEducationPrograms": {},
+          "BilingualismPromotion": {},
+          "DialectProtection": {},
+          "Language Documentation": {}
+        }
+      },
+      "CulturalTraditions": {
+        "RitualsAndCeremonies": {
+          "LifecycleRituals": {},
+          "ReligiousCeremonies": {},
+          "CommunityRituals": {},
+          "PersonalMilestoneCeremonies": {}
+        },
+        "TraditionalFoods": {
+          "CuisinePreservation": {},
+          "CookingMethods": {},
+          "CulinaryFestivals": {},
+          "Recipe Documentation": {}
+        },
+        "FolkloreAndStories": {
+          "OralTraditions": {},
+          "Mythology": {},
+          "LegendaryTales": {},
+          "FolkMusicAndDance": {}
+        },
+        "MusicAndDance": {
+          "TraditionalMusic": {},
+          "FolkDance": {},
+          "InstrumentalMusic": {},
+          "DanceChoreography": {}
+        }
+      },
+      "CulturalPractices": {
+        "ArtisticExpression": {
+          "TraditionalArts": {},
+          "ModernCulturalArts": {},
+          "FolkArtForms": {},
+          "Cultural Art Exhibitions": {}
+        },
+        "CraftsAndSkills": {
+          "Handicrafts": {},
+          "TraditionalCraftsmanship": {},
+          "ArtisanWorkshops": {},
+          "Skill Transmission": {}
+        },
+        "CulturalSports": {
+          "TraditionalSports": {},
+          "CulturalCompetitions": {},
+          "Community SportsEvents": {},
+          "SportsCultural Integration": {}
+        },
+        "CommunityGatherings": {
+          "LocalFestivals": {},
+          "CommunityMeetings": {},
+          "Cultural Picnics": {},
+          "Neighborhood Celebrations": {}
+        }
+      },
+      "CulturalAwareness": {
+        "UnderstandingHistory": {
+          "HistoricalEducation": {},
+          "DocumentaryViewing": {},
+          "Historical SiteVisits": {},
+          "Historical Literature": {}
+        },
+        "AppreciationOfCulturalContributions": {
+          "CulturalAchievementsRecognition": {},
+          "Honoring Cultural Pioneers": {},
+          "Celebrating Cultural Innovations": {},
+          "Cultural ImpactStudies": {}
+        },
+        "CulturalEducation": {
+          "SchoolCurriculumIntegration": {},
+          "Cultural Workshops": {},
+          "Public Seminars": {},
+          "Online Cultural Courses": {}
+        },
+        "IntergenerationalKnowledgeTransfer": {
+          "EldersMentoringYouth": {},
+          "StorytellingSessions": {},
+          "Cultural Apprenticeships": {},
+          "Knowledge Sharing Platforms": {}
+        }
+      }
+    },
+    "CulturalParticipation": {
+      "CulturalEvents": {
+        "Festivals": {
+          "MusicFestivals": {},
+          "FoodFestivals": {},
+          "FilmFestivals": {},
+          "ArtFestivals": {}
+        },
+        "Parades": {
+          "NationalParades": {},
+          "CulturalParades": {},
+          "ReligiousParades": {},
+          "CommunityParades": {}
+        },
+        "Exhibitions": {
+          "ArtExhibitions": {},
+          "CulturalHeritageExhibitions": {},
+          "ScienceAndCultureExhibitions": {},
+          "InteractiveCulturalDisplays": {}
+        },
+        "Performances": {
+          "TheaterPerformances": {},
+          "DancePerformances": {},
+          "MusicPerformances": {},
+          "Cultural Storytelling": {}
+        }
+      },
+      "ArtisticExpression": {
+        "Theater": {
+          "TraditionalTheater": {},
+          "ModernTheater": {},
+          "CommunityTheater": {},
+          "ExperimentalTheater": {}
+        },
+        "Music": {
+          "TraditionalMusicPerformance": {},
+          "ContemporaryMusic": {},
+          "InstrumentalPerformances": {},
+          "VocalPerformances": {}
+        },
+        "Dance": {
+          "FolkDancePerformances": {},
+          "ModernDance": {},
+          "DanceWorkshops": {},
+          "ChoreographyDevelopment": {}
+        },
+        "VisualArts": {
+          "PaintingExhibits": {},
+          "SculptureDisplays": {},
+          "PhotographyExhibitions": {},
+          "MixedMediaArt": {}
+        }
+      },
+      "CulturalExchange": {
+        "Travel": {
+          "CulturalTourism": {},
+          "EducationalTravelPrograms": {},
+          "HeritageTravel": {},
+          "AdventureCulturalTrips": {}
+        },
+        "LanguageExchange": {
+          "LanguagePartnerPrograms": {},
+          "ImmersiveLanguageLearning": {},
+          "Language ExchangeEvents": {},
+          "Bilingual EducationPrograms": {}
+        },
+        "InternationalPrograms": {
+          "StudentExchangePrograms": {},
+          "Cultural AmbassadorPrograms": {},
+          "GlobalCulturalInitiatives": {},
+          "InternationalCollaborations": {}
+        },
+        "HostingVisitors": {
+          "CulturalHostingPrograms": {},
+          "VisitorGuidance": {},
+          "Cultural Welcome Events": {},
+          "Community Hosting Initiatives": {}
+        }
+      },
+      "HeritagePreservation": {
+        "MuseumVisits": {
+          "LocalMuseums": {},
+          "NationalMuseums": {},
+          "SpecializedMuseums": {},
+          "InteractiveMuseums": {}
+        },
+        "HistoricalSites": {
+          "HeritageSitePreservation": {},
+          "GuidedHistoricalTours": {},
+          "HistoricalReenactments": {},
+          "SiteMaintenancePrograms": {}
+        },
+        "ArchivingAndDocumentation": {
+          "DigitalArchiving": {},
+          "HistoricalDocumentation": {},
+          "OralHistoryProjects": {},
+          "Cultural RecordKeeping": {}
+        },
+        "CulturalAdvocacy": {
+          "PolicyAdvocacy": {},
+          "CulturalRightsCampaigns": {},
+          "PublicAwarenessCampaigns": {},
+          "CulturalProtectionInitiatives": {}
+        }
+      }
+    },
+    "CulturalAcceptance": {
+      "AppreciationOfDiversity": {
+        "LearningAboutOtherCultures": {
+          "Cultural EducationPrograms": {},
+          "Intercultural Workshops": {},
+          "Cultural Immersion Experiences": {},
+          "Diversity Training": {}
+        },
+        "CelebratingMulticulturalism": {
+          "MulticulturalFestivals": {},
+          "Diversity Celebrations": {},
+          "Inclusive Events": {},
+          "Cultural Showcases": {}
+        },
+        "InterculturalDialogue": {
+          "Community Discussions": {},
+          "Intercultural Panels": {},
+          "Dialogue Circles": {},
+          "Cross-Cultural Forums": {}
+        },
+        "InclusivePractices": {
+          "Inclusive Policies": {},
+          "Accessibility in Events": {},
+          "Diverse Representation": {},
+          "Equitable Participation": {}
+        }
+      },
+      "Inclusivity": {
+        "AntiDiscriminationEfforts": {
+          "EqualRightsAdvocacy": {},
+          "Anti-Racism Programs": {},
+          "GenderEquality Initiatives": {},
+          "LGBTQ+ Support Programs": {}
+        },
+        "EqualOpportunities": {
+          "InclusiveHiring Practices": {},
+          "Accessibility Initiatives": {},
+          "Educational Opportunities": {},
+          "Economic Equity Programs": {}
+        },
+        "Accessibility": {
+          "PhysicalAccessibility": {},
+          "DigitalAccessibility": {},
+          "CommunicationAccessibility": {},
+          "CulturalAccessibility": {}
+        },
+        "CommunityIntegration": {
+          "Community Building Activities": {},
+          "Integration Programs": {},
+          "Support Networks": {},
+          "Inclusive Community Spaces": {}
+        }
+      },
+      "CrossCulturalUnderstanding": {
+        "LanguageLearning": {
+          "ForeignLanguageClasses": {},
+          "Language Immersion Programs": {},
+          "Online Language Learning": {},
+          "Language Practice Groups": {}
+        },
+        "CulturalSensitivityTraining": {
+          "Workplace Training": {},
+          "Educational Workshops": {},
+          "Public Awareness Programs": {},
+          "Cultural Competency Courses": {}
+        },
+        "ExchangePrograms": {
+          "StudentExchange": {},
+          "Professional Exchange": {},
+          "Cultural Exchange Tours": {},
+          "Virtual Exchange Programs": {}
+        },
+        "CollaborativeProjects": {
+          "JointArtProjects": {},
+          "Cultural Research Initiatives": {},
+          "Community Service Projects": {},
+          "International Collaboration Projects": {}
+        }
+      },
+      "RespectForOtherCultures": {
+        "AvoidingCulturalAppropriation": {
+          "Cultural Sensitivity Education": {},
+          "Ethical Representation": {},
+          "RespectingCulturalSymbols": {},
+          "Appropriate Cultural Borrowing": {}
+        },
+        "CulturalEtiquette": {
+          "UnderstandingSocialNorms": {},
+          "RespectfulBehavior Practices": {},
+          "Proper Communication Styles": {},
+          "Protocol Adherence": {}
+        },
+        "SupportingCulturalRights": {
+          "Advocating forCulturalFreedom": {},
+          "ProtectingCulturalExpressions": {},
+          "PromotingCultural Sovereignty": {},
+          "DefendingCulturalHeritage": {}
+        },
+        "EthicalTourism": {
+          "ResponsibleTravel Practices": {},
+          "SupportLocalEconomies": {},
+          "PreservingCulturalIntegrity": {},
+          "Environmental Sustainability in Tourism": {}
+        }
+      }
+    },
+    "CulturalCompetence": {
+      "CulturalSensitivity": {
+        "AwarenessOfCulturalNorms": {
+          "UnderstandingCulturalValues": {},
+          "RecognizingCulturalBehaviors": {},
+          "IdentifyingCulturalTaboos": {},
+          "Cultural NormsEducation": {}
+        },
+        "AdaptingCommunicationStyles": {
+          "VerbalCommunicationAdaptation": {},
+          "NonVerbalCommunicationAdaptation": {},
+          "ContextualCommunication": {},
+          "Cultural NuancesInCommunication": {}
+        },
+        "AvoidingStereotypes": {
+          "StereotypeAwareness": {},
+          "ChallengingPreconceivedNotions": {},
+          "PromotingIndividuality": {},
+          "EducatingAgainstStereotypes": {}
+        },
+        "EmpathyAcrossCultures": {
+          "DevelopingCulturalEmpathy": {},
+          "UnderstandingCulturalPerspectives": {},
+          "BuildingEmotionalConnections": {},
+          "EmpatheticInterculturalInteractions": {}
+        }
+      },
+      "UnderstandingCulturalDifferences": {
+        "KnowledgeOfCulturalPractices": {
+          "CulturalRituals": {},
+          "DailyCulturalPractices": {},
+          "SpecialOccasionPractices": {},
+          "Cultural NormsAndValues": {}
+        },
+        "RecognitionOfCulturalValues": {
+          "IdentifyingCoreValues": {},
+          "UnderstandingValueSystems": {},
+          "RespectingDifferentValues": {},
+          "Value-BasedInteractions": {}
+        },
+        "HistoricalContextAwareness": {
+          "UnderstandingCulturalHistory": {},
+          "RecognizingHistoricalInfluences": {},
+          "Cultural EvolutionStudies": {},
+          "ImpactOfHistoryOnPresentCulture": {}
+        },
+        "SocioeconomicFactors": {
+          "EconomicImpactOnCulture": {},
+          "SocialStructureUnderstanding": {},
+          "CulturalEconomicInterdependencies": {},
+          "Societal Influences on Culture": {}
+        }
+      },
+      "CrossCulturalCommunication": {
+        "EffectiveLanguageUse": {
+          "LanguageProficiency": {},
+          "ClearCommunication": {},
+          "Cultural LinguisticAdaptation": {},
+          "Language Appropriateness": {}
+        },
+        "NonVerbalCommunicationAwareness": {
+          "BodyLanguageUnderstanding": {},
+          "FacialExpressionInterpretation": {},
+          "GesturalCommunication": {},
+          "SpatialCommunication": {}
+        },
+        "TranslationSkills": {
+          "AccurateTranslation": {},
+          "Cultural ContextualTranslation": {},
+          "Multilingual Communication": {},
+          "Translation TechnologyUse": {}
+        },
+        "NegotiationAcrossCultures": {
+          "CulturallySensitiveNegotiation": {},
+          "UnderstandingNegotiationStyles": {},
+          "BuildingNegotiationStrategies": {},
+          "Conflict ResolutionInCrossCulturalContexts": {}
+        }
+      },
+      "CulturalAdaptability": {
+        "FlexibilityInNewEnvironments": {
+          "AdjustingToNewCulturalSettings": {},
+          "Cultural Immersion Adaptation": {},
+          "AdoptingLocal Customs": {},
+          "Behavioral Adaptability": {}
+        },
+        "LearningLocalCustoms": {
+          "UnderstandingLocalEtiquette": {},
+          "ParticipatingInLocalTraditions": {},
+          "RespectingLocalNorms": {},
+          "Cultural Learning Programs": {}
+        },
+        "IntegrationStrategies": {
+          "Community Engagement": {},
+          "BuildingLocalRelationships": {},
+          "ParticipatingInLocalActivities": {},
+          "Cultural Assimilation Techniques": {}
+        },
+        "OpenMindedness": {
+          "EmbracingDiversity": {},
+          "AcceptingDifferentPerspectives": {},
+          "FosteringInclusiveMindsets": {},
+          "PromotingCulturalAcceptance": {}
+        }
+      }
+    }
+  }
+}

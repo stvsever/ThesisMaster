@@ -1,0 +1,29 @@
+{
+  "domain_path": "PSYCHO / Cognitive_Behavioral_Therapies / Sleep_Related_Cognitive_Behavioral_Interventions",
+  "domain_root_path": [
+    "PSYCHO",
+    "Cognitive_Behavioral_Therapies",
+    "Sleep_Related_Cognitive_Behavioral_Interventions"
+  ],
+  "leaf_count": 8,
+  "total_edges_in_subtree": 14,
+  "evaluated_pairs": 14,
+  "violations_count": 1,
+  "violation_rate": 0.07142857142857142,
+  "llm_calls": 1,
+  "violations": [
+    "Sleep_Related_Cognitive_Behavioral_Interventions > Cognitive_Work"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Sleep_Related_Cognitive_Behavioral_Interventions > Cognitive_Work",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / Sleep_Related_Cognitive_Behavioral_Interventions",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / Sleep_Related_Cognitive_Behavioral_Interventions / Cognitive_Work"
+    }
+  ],
+  "cache_key": "03d5e5478911d84897d90a33ade2163f1c715ed6",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 52.918
+}

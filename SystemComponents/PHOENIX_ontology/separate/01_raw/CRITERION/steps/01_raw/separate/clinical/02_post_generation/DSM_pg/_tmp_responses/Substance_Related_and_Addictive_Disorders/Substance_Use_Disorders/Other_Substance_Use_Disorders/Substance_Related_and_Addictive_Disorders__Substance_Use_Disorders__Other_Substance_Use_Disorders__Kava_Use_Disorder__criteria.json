@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "kava_craving_intensity"
+    },
+    {
+      "criterium": "kava_tolerance_development"
+    },
+    {
+      "criterium": "kava_withdrawal_symptoms_present"
+    },
+    {
+      "criterium": "kava_use_continues_despite_adverse_effects"
+    },
+    {
+      "criterium": "unsuccessful_attempts_to_reduce_kava_use"
+    },
+    {
+      "criterium": "preoccupation_with_kava"
+    },
+    {
+      "criterium": "time_spent_on_kava_related_activities_excessive"
+    },
+    {
+      "criterium": "kava_use_impairs_social_functioning"
+    },
+    {
+      "criterium": "kava_use_impairs_occupational_functioning"
+    },
+    {
+      "criterium": "persistent_desire_to_cut_down_kava"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

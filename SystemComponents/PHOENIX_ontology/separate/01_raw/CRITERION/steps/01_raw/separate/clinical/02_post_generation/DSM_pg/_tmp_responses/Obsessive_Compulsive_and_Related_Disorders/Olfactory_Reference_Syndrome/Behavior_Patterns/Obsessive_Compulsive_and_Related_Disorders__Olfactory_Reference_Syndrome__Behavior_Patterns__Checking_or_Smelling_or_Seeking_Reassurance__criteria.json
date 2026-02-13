@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sniffing_behavior_frequency"
+    },
+    {
+      "criterium": "self_odor_investigation_frequency"
+    },
+    {
+      "criterium": "odor_source_screening_frequency"
+    },
+    {
+      "criterium": "garment_odor_sniffing_frequency"
+    },
+    {
+      "criterium": "reassurance_seek_from_others_frequency"
+    },
+    {
+      "criterium": "odor_belief_strength"
+    },
+    {
+      "criterium": "intrusive_odor_thought_frequency"
+    },
+    {
+      "criterium": "odor_salience_attention_allocation_frequency"
+    },
+    {
+      "criterium": "ritualized_odor_verification_frequency"
+    },
+    {
+      "criterium": "social_interference_due_to_odor_checking_frequency"
+    },
+    {
+      "criterium": "avoidance_of_public_places_due_to_odor_frequency"
+    },
+    {
+      "criterium": "odor_related_compulsive_check_frequency"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

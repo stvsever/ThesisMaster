@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "CHOREA"
+    },
+    {
+      "criterium": "DYSARTHRIA"
+    },
+    {
+      "criterium": "GAIT_DISTURBANCE"
+    },
+    {
+      "criterium": "EXECUTIVE_DYSFUNCTION"
+    },
+    {
+      "criterium": "DEPRESSION"
+    },
+    {
+      "criterium": "APATHY"
+    },
+    {
+      "criterium": "IRRITABILITY"
+    },
+    {
+      "criterium": "SACCADIC_IMPAIRMENT"
+    },
+    {
+      "criterium": "CAUDATE_NUCLEUS_ATROPHY"
+    }
+  ],
+  "estimated_prevalence_percent": 0.005
+}

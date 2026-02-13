@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "criterium": "TACTILE_HALLUCINATIONS"
+    },
+    {
+      "criterium": "DELUSIONAL_PERSECUTION_CONTENT"
+    },
+    {
+      "criterium": "DELUSIONAL_GRANDIOSITY_CONTENT"
+    },
+    {
+      "criterium": "DELUSIONAL_REFERENTIAL_CONTENT"
+    },
+    {
+      "criterium": "THOUGHT_INSERTION"
+    },
+    {
+      "criterium": "THOUGHT_BROADCASTING"
+    },
+    {
+      "criterium": "THOUGHT_WITHDRAWAL"
+    },
+    {
+      "criterium": "DISORGANIZED_THOUGHT_FORM"
+    },
+    {
+      "criterium": "PSYCHOMOTOR_AGITATION"
+    },
+    {
+      "criterium": "SLEEP_DISTURBANCE"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

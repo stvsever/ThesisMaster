@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_anhedonia"
+    },
+    {
+      "criterium": "dysphoric_mood"
+    },
+    {
+      "criterium": "stimulant_craving"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "impaired_concentration"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "hypersomnia"
+    },
+    {
+      "criterium": "increased_appetite"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    },
+    {
+      "criterium": "memory_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "volitional_urination_delay"
+    },
+    {
+      "criterium": "holding_maneuver_usage"
+    },
+    {
+      "criterium": "pelvic_floor_contraction_during_micturition"
+    },
+    {
+      "criterium": "leg_crossing_to_delay_voiding"
+    },
+    {
+      "criterium": "squatting_to_delay_voiding"
+    },
+    {
+      "criterium": "urinary_incontinence_after_delay_observation"
+    },
+    {
+      "criterium": "urge_suppression_behaviors_present"
+    },
+    {
+      "criterium": "abdominal_perineal_pressure_during_micturition_attempts"
+    },
+    {
+      "criterium": "voiding_refusal_when_urge_present"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

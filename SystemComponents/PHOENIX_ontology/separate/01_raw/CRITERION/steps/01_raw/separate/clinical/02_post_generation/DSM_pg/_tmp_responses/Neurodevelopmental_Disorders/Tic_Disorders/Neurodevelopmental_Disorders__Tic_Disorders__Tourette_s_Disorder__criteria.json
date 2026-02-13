@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "MULTIPLE_DISTINCT_MOTOR_TICS"
+    },
+    {
+      "criterium": "AT_LEAST_ONE_VOCAL_TIC"
+    },
+    {
+      "criterium": "ECHOLALIA_PRESENT"
+    },
+    {
+      "criterium": "PALILALIA_PRESENT"
+    },
+    {
+      "criterium": "COPROLALIA_PRESENT"
+    },
+    {
+      "criterium": "SIMPLE_MOTOR_TIC_PRESENT"
+    },
+    {
+      "criterium": "COMPLEX_MOTOR_TIC_PRESENT"
+    },
+    {
+      "criterium": "SIMPLE_VOCAL_TIC_PRESENT"
+    },
+    {
+      "criterium": "COMPLEX_VOCAL_TIC_PRESENT"
+    },
+    {
+      "criterium": "TIC_SUPPRESSIBILITY"
+    },
+    {
+      "criterium": "PREMONITORY_URGE_PRESENT"
+    },
+    {
+      "criterium": "MOTOR_TICS_DISTRIBUTED_ACROSS_BODY_REGIONS_PRESENT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

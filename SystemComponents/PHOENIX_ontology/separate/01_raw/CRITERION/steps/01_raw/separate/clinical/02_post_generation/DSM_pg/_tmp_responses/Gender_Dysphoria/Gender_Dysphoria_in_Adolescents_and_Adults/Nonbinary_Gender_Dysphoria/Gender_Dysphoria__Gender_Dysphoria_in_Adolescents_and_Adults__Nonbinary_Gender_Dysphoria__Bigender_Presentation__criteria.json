@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gender_identity_fluidity_between_masculine_and_feminine_presentations"
+    },
+    {
+      "criterium": "pronoun_preference_switching_across_social_contexts"
+    },
+    {
+      "criterium": "chosen_name_changes_across_social_interactions"
+    },
+    {
+      "criterium": "dress_style_fluctuation_between_masculine_and_feminine_styles"
+    },
+    {
+      "criterium": "hairstyle_variability_coinciding_with_presentation_changes"
+    },
+    {
+      "criterium": "presentation_variability_across_social_contexts"
+    },
+    {
+      "criterium": "internal_sense_of_bifurcated_gender_identity"
+    },
+    {
+      "criterium": "ambivalence_toward_single_gender_identity"
+    },
+    {
+      "criterium": "social_role_expression_shift_between_masculine_and_feminine"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

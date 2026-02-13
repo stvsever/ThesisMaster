@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_health_anxiety_thoughts"
+    },
+    {
+      "criterium": "preoccupation_with_body_symptoms"
+    },
+    {
+      "criterium": "catastrophizing_bodily_signs"
+    },
+    {
+      "criterium": "repetitive_health_checking_behaviors"
+    },
+    {
+      "criterium": "reassurance_seeking_about_health"
+    },
+    {
+      "criterium": "self_monitoring_of_bodily_functions"
+    },
+    {
+      "criterium": "avoidance_of_healthcare_settings"
+    },
+    {
+      "criterium": "excessive_health_related_information_search"
+    },
+    {
+      "criterium": "rumination_on_disease_consequences"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

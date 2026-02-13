@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_memories"
+    },
+    {
+      "criterium": "nightmares"
+    },
+    {
+      "criterium": "avoidance_of_reminders"
+    },
+    {
+      "criterium": "emotional_numbing_detachment"
+    },
+    {
+      "criterium": "negative_beliefs_or_cognitions"
+    },
+    {
+      "criterium": "hyperarousal"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "irritability_or_anger_outbursts"
+    },
+    {
+      "criterium": "concentration_difficulties"
+    },
+    {
+      "criterium": "exaggerated_startle_response"
+    },
+    {
+      "criterium": "dissociative_symptoms"
+    },
+    {
+      "criterium": "flashbacks"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

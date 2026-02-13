@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "spastic_paraparesis"
+    },
+    {
+      "criterium": "hyperreflexia_lower_extremities"
+    },
+    {
+      "criterium": "extensor_plantar_sign_present"
+    },
+    {
+      "criterium": "loss_of_proprioception_lower_extremities"
+    },
+    {
+      "criterium": "loss_of_vibration_sense_lower_extremities"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "sensory_paresthesias_extremities"
+    },
+    {
+      "criterium": "urinary_incontinence"
+    },
+    {
+      "criterium": "sphincter_dysfunction"
+    },
+    {
+      "criterium": "autonomic_dysfunction"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

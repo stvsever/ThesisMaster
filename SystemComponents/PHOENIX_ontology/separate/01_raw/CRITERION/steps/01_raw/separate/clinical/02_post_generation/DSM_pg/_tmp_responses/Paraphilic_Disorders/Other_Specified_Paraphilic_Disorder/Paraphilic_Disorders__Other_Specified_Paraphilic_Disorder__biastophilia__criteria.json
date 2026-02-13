@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "arousal_coercive_scenarios"
+    },
+    {
+      "criterium": "arousal_nonconsensual_fantasies"
+    },
+    {
+      "criterium": "arousal_physical_force_in_sexual_contexts"
+    },
+    {
+      "criterium": "dominance_power_imbalance_preference"
+    },
+    {
+      "criterium": "verbal_dominance_threat_in_sexual_fantasies"
+    },
+    {
+      "criterium": "humiliation_fantasies_in_sexual_contexts"
+    },
+    {
+      "criterium": "coercive_scripting_in_sexual_scenes"
+    },
+    {
+      "criterium": "partner_resistance_fantasy"
+    },
+    {
+      "criterium": "history_of_coercive_sexual_behaviors"
+    },
+    {
+      "criterium": "ongoing_coercive_urges_or_impulses"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

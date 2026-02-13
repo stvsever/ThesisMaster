@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M",
+      "COMT_V158M",
+      "CACNA1C_rs1006737"
+    ],
+    "molecules": [
+      "GABA_AI_concentration",
+      "glutamate_ACC_concentration",
+      "BDNF_AI_level",
+      "BDNF_ACC_level"
+    ],
+    "cells": [
+      "AI_pyramidal_neuron_density",
+      "ACC_pyramidal_neuron_density",
+      "AI_interneuron_GABA_density",
+      "ACC_interneuron_GABA_density"
+    ],
+    "circuits": [
+      "functional_connectivity_AI_ACC_resting",
+      "functional_connectivity_AI_ACC_task",
+      "effective_connectivity_AI_to_ACC",
+      "effective_connectivity_ACC_to_AI",
+      "cross_frequency_coupling_AI_ACC"
+    ],
+    "physiology": [
+      "heart_rate_variability_RMSSD",
+      "skin_conductance_level",
+      "respiratory_rate",
+      "pupil_dilation_index",
+      "skin_temperature_change"
+    ],
+    "behavior": [
+      "interoceptive_attention_performance",
+      "interoceptive_discrimination_accuracy",
+      "emotional_regulation_task_performance",
+      "pain_reactivity_task_response"
+    ],
+    "self_report": [
+      "interoceptive_awareness_scale_score",
+      "state_anxiety_scale_score",
+      "alexithymia_scale_score",
+      "emotional_dysregulation_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 3.5
+}

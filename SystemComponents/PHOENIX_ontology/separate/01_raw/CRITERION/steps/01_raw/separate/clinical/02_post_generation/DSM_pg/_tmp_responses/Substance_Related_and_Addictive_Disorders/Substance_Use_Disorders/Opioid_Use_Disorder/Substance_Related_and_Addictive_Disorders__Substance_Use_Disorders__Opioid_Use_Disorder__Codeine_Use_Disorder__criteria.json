@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "codeine_craving_persistent"
+    },
+    {
+      "criterium": "codeine_tolerance_development"
+    },
+    {
+      "criterium": "codeine_withdrawal_symptoms_present"
+    },
+    {
+      "criterium": "increased_codeine_consumption_quantity"
+    },
+    {
+      "criterium": "recurrent_failed_attempts_to_reduce_codeine_use"
+    },
+    {
+      "criterium": "excessive_time_spent_obtaining_and_using_codeine"
+    },
+    {
+      "criterium": "neglect_of_primary_roles_due_to_codeine_use"
+    },
+    {
+      "criterium": "social_or_interpersonal_conflicts_due_to_codeine_use"
+    },
+    {
+      "criterium": "recurrent_codeine_use_in_dangerous_situations"
+    },
+    {
+      "criterium": "continued_codeine_use_despite_physio_psychological_harm"
+    },
+    {
+      "criterium": "codeine_use_while_driving_or_operating_vehicle_influence"
+    },
+    {
+      "criterium": "preoccupation_with_codeine_availability_leading_to_disruption"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

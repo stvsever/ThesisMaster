@@ -1,0 +1,45 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_rs4680_V158M",
+      "DRD2_rs1800497_TaqIA",
+      "DRD4_VNTR_7R",
+      "BDNF_rs6265_Variant",
+      "SLC6A3_3prime_UTR_VNTR_9R"
+    ],
+    "molecules": [
+      "BDNF_plasma_level",
+      "DOPAMINE_plasma_level",
+      "HVA_plasma_level",
+      "MHPG_plasma_level",
+      "NOREPINEPHRINE_plasma_level"
+    ],
+    "cells": [
+      "PFC_pyramidal_neuron_density",
+      "PFC_GABAergic_interneuron_density"
+    ],
+    "circuits": [
+      "DLPFC_EEG_theta_power",
+      "ACC_EEG_theta_power",
+      "PFC_striatum_connectivity_fMRI"
+    ],
+    "physiology": [
+      "HRV_SDNN",
+      "Pupil_dilation_peak",
+      "Cortisol_saliva_level",
+      "Respiratory_rate_during_task"
+    ],
+    "behavior": [
+      "Sustained_attention_lapses_rate",
+      "Premature_responses_rate",
+      "Perseverative_errors_rate",
+      "Task_switch_cost_ms"
+    ],
+    "self_report": [
+      "BRIEF_WorkingMemory_subscale_score",
+      "BRIEF_Inhibit_subscale_score",
+      "CFQ_total_score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

@@ -1,0 +1,21 @@
+{
+  "domain_path": "BIO / Nutrition_Hydration_and_Metabolic_Health / Microbiome_Interventions",
+  "domain_root_path": [
+    "BIO",
+    "Nutrition_Hydration_and_Metabolic_Health",
+    "Microbiome_Interventions"
+  ],
+  "leaf_count": 50,
+  "total_edges_in_subtree": 60,
+  "evaluated_pairs": 60,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "aaf9b9c1debcec9de4e8b667774ff90082be5726",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 22.486
+}

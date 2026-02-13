@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tolerance_to_poppers_inhalation"
+    },
+    {
+      "criterium": "nitrite_withdrawal_symptoms"
+    },
+    {
+      "criterium": "craving_or_strong_urge_for_poppers"
+    },
+    {
+      "criterium": "unsuccessful_efforts_to_reduce_poppers_use"
+    },
+    {
+      "criterium": "occupational_or_academic_impairment_due_to_poppers_use"
+    },
+    {
+      "criterium": "social_or_family_impairment_due_to_poppers_use"
+    },
+    {
+      "criterium": "hazardous_use_of_poppers"
+    },
+    {
+      "criterium": "significant_time_spent_purchasing_or_using_poppers"
+    },
+    {
+      "criterium": "continued_poppers_use_in_spite_of_adverse_physical_effects"
+    },
+    {
+      "criterium": "conjunctival_irritation_after_poppers_use"
+    },
+    {
+      "criterium": "headache_after_poppers_inhalation"
+    },
+    {
+      "criterium": "tachycardia_post_poppers_use"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

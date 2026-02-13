@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "time_spent_online_excessive"
+    },
+    {
+      "criterium": "preoccupation_with_internet"
+    },
+    {
+      "criterium": "tolerance_internet_use_increase_needed"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_discontinuation_of_internet"
+    },
+    {
+      "criterium": "inability_to_control_internet_use_despite_attempts"
+    },
+    {
+      "criterium": "neglect_of_academic_or_work_responsibilities_due_to_internet"
+    },
+    {
+      "criterium": "deception_about_internet_usage"
+    },
+    {
+      "criterium": "loss_of_interest_in_other_activities"
+    },
+    {
+      "criterium": "internet_use_in_dangerous_or_risky_contexts"
+    }
+  ],
+  "estimated_prevalence_percent": 4.0
+}

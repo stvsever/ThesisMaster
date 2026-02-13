@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "approximate_responses_to_basic_questions"
+    },
+    {
+      "criterium": "dissociative_amnesia_for_events"
+    },
+    {
+      "criterium": "clouding_of_consciousness"
+    },
+    {
+      "criterium": "derealization"
+    },
+    {
+      "criterium": "depersonalization"
+    },
+    {
+      "criterium": "pseudoneurological_symptoms_present"
+    },
+    {
+      "criterium": "disorientation_in_time_place"
+    },
+    {
+      "criterium": "conversion_symptoms_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

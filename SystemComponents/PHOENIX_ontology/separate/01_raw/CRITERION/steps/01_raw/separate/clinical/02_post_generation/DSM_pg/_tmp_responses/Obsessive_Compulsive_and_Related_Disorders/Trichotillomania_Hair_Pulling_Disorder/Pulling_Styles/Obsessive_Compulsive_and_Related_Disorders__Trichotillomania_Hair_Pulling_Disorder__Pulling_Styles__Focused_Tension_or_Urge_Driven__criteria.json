@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "urge_pre_pull_present"
+    },
+    {
+      "criterium": "urge_pre_pull_intensity_high"
+    },
+    {
+      "criterium": "pulling_in_response_to_urge"
+    },
+    {
+      "criterium": "conscious_attention_during_pulling"
+    },
+    {
+      "criterium": "deliberate_hand_contact_with_hair"
+    },
+    {
+      "criterium": "hair_pulled_from_specific_sites"
+    },
+    {
+      "criterium": "targeted_hair_extraction_motion"
+    },
+    {
+      "criterium": "visible_pulling_sequence"
+    },
+    {
+      "criterium": "relief_after_pulling_reported"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

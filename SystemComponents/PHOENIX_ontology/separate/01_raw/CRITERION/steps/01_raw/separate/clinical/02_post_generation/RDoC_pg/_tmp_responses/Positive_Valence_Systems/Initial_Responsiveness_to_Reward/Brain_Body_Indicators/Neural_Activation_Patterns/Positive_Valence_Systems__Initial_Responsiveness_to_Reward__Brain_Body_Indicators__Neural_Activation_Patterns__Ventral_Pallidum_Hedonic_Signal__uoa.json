@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OPRM1_genotype_A118G_VP",
+      "OPRM1_mRNA_VP_expression",
+      "PDYN_mRNA_VP_expression",
+      "PENK_mRNA_VP_expression",
+      "GAD1_mRNA_VP_expression"
+    ],
+    "molecules": [
+      "beta_endorphin_VP_concentration",
+      "enkephalin_VP_concentration",
+      "prodynorphin_peptide_VP_concentration",
+      "mu_opioid_receptor_ligand_binding_VP",
+      "endocannabinoid_AEA_VP_concentration",
+      "endocannabinoid_2AG_VP_concentration"
+    ],
+    "cells": [
+      "GAD65_positive_VP_neuron_density",
+      "Penk_positive_VP_neuron_density",
+      "Pdyn_positive_VP_neuron_density"
+    ],
+    "circuits": [
+      "VP_VTA_functional_connectivity",
+      "VP_NAcc_core_functional_connectivity",
+      "VP_Amygdala_functional_connectivity",
+      "VP_BOLD_activation_to_hedonic_stimuli"
+    ],
+    "physiology": [
+      "skin_conductance_response_to_reward_cues",
+      "heart_rate_variability_change_to_reward_presentation",
+      "pupil_dilation_to_reward_presentation",
+      "respiration_rate_change_during_reward_presentation"
+    ],
+    "behavior": [
+      "lick_rate_to_sucrose_reward",
+      "approach_latency_to_reward_cue",
+      "consummatory_behavior_frequency_to_reward",
+      "reward_completion_rate_in_reward_task"
+    ],
+    "self_report": [
+      "subjective_liking_rating_reward_presentation",
+      "subjective_wanting_rating_reward_presentation",
+      "pleasure_experience_intensity_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

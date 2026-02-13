@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "cataplexy_episodes"
+    },
+    {
+      "criterium": "sleep_attacks"
+    },
+    {
+      "criterium": "hypnagogic_hypnopompic_hallucinations"
+    },
+    {
+      "criterium": "sleep_paralysis_episodes"
+    },
+    {
+      "criterium": "rem_sleep_latency_shortening"
+    },
+    {
+      "criterium": "sorems_on_polysomnography"
+    },
+    {
+      "criterium": "csf_hypocretin1_deficiency"
+    },
+    {
+      "criterium": "nocturnal_sleep_fragmentation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.03
+}

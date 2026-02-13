@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "tremor_resting"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "paresthesias"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "dizziness_orthostatic"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "concentration_deficit"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "nightmares"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

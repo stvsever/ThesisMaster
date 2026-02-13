@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "autobiographical_memory_loss"
+    },
+    {
+      "criterium": "selective_autobiographical_memory_loss"
+    },
+    {
+      "criterium": "localized_autobiographical_memory_loss"
+    },
+    {
+      "criterium": "preserved_procedural_memory"
+    },
+    {
+      "criterium": "preserved_semantic_memory_of_self_and_facts"
+    },
+    {
+      "criterium": "distress_or_impairment_due_to_memory_loss"
+    },
+    {
+      "criterium": "absence_of_fugue_episodes"
+    },
+    {
+      "criterium": "intact_new_learning_ability"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

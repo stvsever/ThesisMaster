@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_onset_time_variability"
+    },
+    {
+      "criterium": "wake_time_variability"
+    },
+    {
+      "criterium": "total_sleep_time_variability"
+    },
+    {
+      "criterium": "multiple_daytime_naps_present"
+    },
+    {
+      "criterium": "nighttime_sleep_fragmentation"
+    },
+    {
+      "criterium": "frequent_nocturnal_awakenings"
+    },
+    {
+      "criterium": "polyphasic_sleep_pattern_present"
+    },
+    {
+      "criterium": "daytime_sleepiness_present"
+    },
+    {
+      "criterium": "inconsistent_sleep_wake_schedule"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,683 @@
+{
+  "Negative Valence Systems": {
+    "Acute Threat (Fear)": {
+      "Behavioral Indicators": {
+        "EscapeorFlight Tendencies": {},
+        "Active Avoidance": {},
+        "Startle Potentiation": {},
+        "Freezing": {},
+        "Safety-Seeking Behaviors": {}
+      },
+      "Cognitive-Affective Indicators": {
+        "Threat Appraisal Bias": {},
+        "Catastrophic Misinterpretation": {},
+        "Probability Overestimation": {},
+        "Safety Signal Underutilization": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Amygdala Hyperreactivity": {},
+          "Dorsal ACC Salience Signal Elevation": {},
+          "vmPFC Safety Signal Reduction": {},
+          "Insula Interoceptive Gain": {},
+          "Hippocampal Contextualization Deficit": {}
+        },
+        "Autonomic Markers": {
+          "Skin Conductance Response Potentiation": {},
+          "Heart Rate Acceleration": {},
+          "Reduced High-Frequency HRV": {},
+          "Vasoconstriction Index Elevation": {}
+        },
+        "Endocrine-Immune Markers": {
+          "Cortisol Awakening Response Elevation": {},
+          "Flattened Cortisol Diurnal Slope": {},
+          "Proinflammatory Cytokine Elevation": {}
+        },
+        "Electrophysiological Markers": {
+          "Fear-Potentiated Startle Amplitude": {},
+          "Enhanced Late Positive Potential to Threat": {},
+          "Alpha Suppression to Threat Cues": {}
+        },
+        "Oculomotor Markers": {
+          "Pupil Dilation to Threat": {},
+          "Threat-Cue Gaze Bias": {}
+        }
+      }
+    },
+    "Potential Threat (Anxiety)": {
+      "Behavioral Indicators": {
+        "Vigilance and Scanning": {},
+        "Avoidance of Uncertain Situations": {},
+        "Reassurance Seeking": {}
+      },
+      "Cognitive-Affective Indicators": {
+        "Intolerance of Uncertainty": {},
+        "Sustained Anticipation": {},
+        "Generalization of Threat": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "BNST Sustained Activity": {},
+          "Insula Sustained Anticipatory Signal": {},
+          "mPFC Worry-Related Activation": {}
+        },
+        "Autonomic Markers": {
+          "Tonic Skin Conductance Elevation": {},
+          "Low Baseline HRV": {}
+        },
+        "Endocrine-Immune Markers": {
+          "Prolonged Cortisol Elevation under Uncertainty": {}
+        },
+        "Electrophysiological Markers": {
+          "Sustained Frontal Beta Activity": {},
+          "Threat-Contingent Contingent Negative Variation": {}
+        }
+      }
+    },
+    "Sustained Threat": {
+      "Behavioral Indicators": {
+        "Stress Sensitization": {},
+        "Anhedonic Withdrawal under Chronic Stress": {}
+      },
+      "Cognitive-Affective Indicators": {
+        "Negative Schema Consolidation": {},
+        "Stress Recovery Impairment": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Hippocampal VolumeorActivity Reduction": {},
+          "Amygdala–mPFC Connectivity Alteration": {}
+        },
+        "Autonomic Markers": {
+          "Blunted HRV Reactivity": {},
+          "Elevated Resting Heart Rate": {}
+        },
+        "Endocrine-Immune Markers": {
+          "HPA Axis Dysregulation": {},
+          "Inflammatory Tone Elevation": {}
+        }
+      }
+    },
+    "Loss": {
+      "Behavioral Indicators": {
+        "Separation Distress": {},
+        "Social Withdrawal": {}
+      },
+      "Cognitive-Affective Indicators": {
+        "Bereavement Rumination": {},
+        "Guilt and Self-Blame Focus": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Subgenual ACC Hyperreactivity": {},
+          "Default Mode Network Rumination Coupling": {}
+        },
+        "Endocrine-Immune Markers": {
+          "Dysregulated Cortisol under Bereavement": {}
+        }
+      }
+    },
+    "Frustrative Nonreward": {
+      "Behavioral Indicators": {
+        "Irritability": {},
+        "Impulsive Aggressive Urges": {},
+        "Task Disengagement under Blocked Goals": {}
+      },
+      "Cognitive-Affective Indicators": {
+        "Attribution of Blame Bias": {},
+        "Frustration Intolerance": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Anterior Insula Frustration Signal": {},
+          "dACC Conflict Signal Elevation": {},
+          "Reduced vmPFC Regulation": {}
+        },
+        "Autonomic Markers": {
+          "Sympathetic Surge to Nonreward": {}
+        }
+      }
+    }
+  },
+  "Positive Valence Systems": {
+    "Approach Motivation": {
+      "Behavioral Indicators": {
+        "Effort Expenditure for Reward": {},
+        "Goal Pursuit Initiation": {}
+      },
+      "Cognitive-Affective Indicators": {
+        "Incentive Salience Attribution": {},
+        "Approach Bias": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Ventral Striatal Anticipatory Response": {},
+          "vmPFC Goal Value Coding": {},
+          "Dopaminergic Midbrain Responsivity": {}
+        },
+        "Electrophysiological Markers": {
+          "Reward Anticipation CNV Enhancement": {}
+        }
+      }
+    },
+    "Reward Valuation": {
+      "Behavioral Indicators": {
+        "Risk Preference Pattern": {},
+        "Delay Discounting Profile": {}
+      },
+      "Cognitive-Affective Indicators": {
+        "Expected Value Estimation": {},
+        "Probability Weighting": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Orbitofrontal Value Coding": {},
+          "Striatal Value Sensitivity": {}
+        },
+        "Electrophysiological Markers": {
+          "Feedback-Related Negativity Modulation": {},
+          "P300 to Reward Outcomes": {}
+        }
+      }
+    },
+    "Initial Responsiveness to Reward": {
+      "Behavioral Indicators": {
+        "Consummatory Engagement": {}
+      },
+      "Cognitive-Affective Indicators": {
+        "Hedonic Impact": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Ventral Pallidum Hedonic Signal": {},
+          "Nucleus Accumbens Consummatory Response": {}
+        },
+        "Autonomic Markers": {
+          "Pupil Dilation to Reward Receipt": {}
+        }
+      }
+    },
+    "Sustained Responsiveness to Reward": {
+      "Behavioral Indicators": {
+        "Persistence of Pleasure": {},
+        "Satiation Dynamics": {}
+      },
+      "Cognitive-Affective Indicators": {
+        "Maintenance of Positive Affect": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Frontostriatal Maintenance of Reward State": {}
+        }
+      }
+    },
+    "Reward Learning": {
+      "Behavioral Indicators": {
+        "Contingency Acquisition": {},
+        "Extinction Retention": {}
+      },
+      "Cognitive-Affective Indicators": {
+        "Prediction Error Utilization": {},
+        "Model-Based Updating": {},
+        "Model-Free Updating": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Striatal Reward Prediction Error Signal": {},
+          "Hippocampal Context–Reward Binding": {},
+          "vmPFC Policy Updating": {}
+        },
+        "Electrophysiological Markers": {
+          "Reward Prediction Error FRN": {},
+          "Reinforcement-Related Theta Power": {}
+        }
+      }
+    },
+    "Habit": {
+      "Behavioral Indicators": {
+        "Outcome Insensitivity": {},
+        "Perseverative Responding": {}
+      },
+      "Cognitive-Affective Indicators": {
+        "Automaticity": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Dorsolateral Striatum Dominance": {},
+          "Reduced Prefrontal Oversight": {}
+        }
+      }
+    }
+  },
+  "Cognitive Systems": {
+    "Attention": {
+      "Behavioral Indicators": {
+        "Sustained Attention Lapses": {},
+        "Selective Attention Filtering Deficit": {},
+        "Attentional Capture by Salience": {}
+      },
+      "Cognitive-Affective Indicators": {
+        "Executive Control of Attention": {},
+        "Alerting Readiness": {},
+        "Orienting Efficiency": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Dorsal Attention Network Integrity": {},
+          "Ventral Attention Network Reorienting": {},
+          "Locus Coeruleus–Norepinephrine Tone": {}
+        },
+        "Electrophysiological Markers": {
+          "P1orN1 Modulation by Attention": {},
+          "N2pc Spatial Selection": {},
+          "P3b Target Updating": {}
+        },
+        "Autonomic Markers": {
+          "Pupil-Linked Arousal Coupling": {}
+        }
+      }
+    },
+    "Perception": {
+      "Visual": {
+        "Behavioral Indicators": {
+          "Detection Threshold Elevation": {},
+          "Discrimination Impairment": {},
+          "Integration Deficit": {},
+          "Perceptual Distortion": {}
+        },
+        "Brain-Body Indicators": {
+          "Neural Activation Patterns": {
+            "Primary Visual Cortex Gain Alteration": {},
+            "Extrastriate Feature Processing Change": {}
+          },
+          "Electrophysiological Markers": {
+            "P1orN170 Face-Object Processing": {},
+            "Visual Mismatch Negativity Reduction": {}
+          },
+          "Oculomotor Markers": {
+            "Abnormal Microsaccade Rate": {}
+          }
+        }
+      },
+      "Auditory": {
+        "Behavioral Indicators": {
+          "Detection Threshold Change": {},
+          "Temporal Order Confusion": {},
+          "Speech-in-Noise Difficulty": {}
+        },
+        "Brain-Body Indicators": {
+          "Neural Activation Patterns": {
+            "Primary Auditory Cortex Hyperexcitability": {}
+          },
+          "Electrophysiological Markers": {
+            "Auditory Mismatch Negativity Reduction": {},
+            "P2orN1 Amplitude Alteration": {}
+          }
+        }
+      },
+      "Somatosensory": {
+        "Behavioral Indicators": {
+          "Tactile Discrimination Deficit": {},
+          "Haptic Integration Impairment": {}
+        },
+        "Brain-Body Indicators": {
+          "Electrophysiological Markers": {
+            "Somatosensory Evoked Potentials N20orP30 Alteration": {}
+          }
+        }
+      },
+      "Thermoception": {
+        "Behavioral Indicators": {
+          "Thermal Detection Abnormality": {}
+        },
+        "Brain-Body Indicators": {
+          "Autonomic Markers": {
+            "Abnormal Vasomotor Response": {}
+          }
+        }
+      },
+      "Nociception": {
+        "Behavioral Indicators": {
+          "Pain Threshold Shift": {},
+          "Hyperalgesia": {},
+          "Allodynia": {},
+          "Catastrophizing Bias": {}
+        },
+        "Brain-Body Indicators": {
+          "Neural Activation Patterns": {
+            "Insula and dACC Pain Signal Amplification": {}
+          },
+          "Electrophysiological Markers": {
+            "Laser-Evoked Potential Alteration": {}
+          }
+        }
+      },
+      "Proprioception": {
+        "Behavioral Indicators": {
+          "Joint Position Sense Error": {},
+          "Kinesthetic Discrimination Deficit": {}
+        },
+        "Brain-Body Indicators": {
+          "Neural Activation Patterns": {
+            "Parietal Body Map Disruption": {}
+          }
+        }
+      },
+      "Vestibular": {
+        "Behavioral Indicators": {
+          "Postural Instability": {},
+          "Vertigo Susceptibility": {}
+        },
+        "Brain-Body Indicators": {
+          "Autonomic Markers": {
+            "Vestibulo-Cardiac Reflex Abnormality": {}
+          }
+        }
+      },
+      "Interoception": {
+        "Behavioral Indicators": {
+          "Heartbeat Detection Accuracy Deficit": {},
+          "Dyspnea Sensitivity Elevation": {},
+          "Gastroceptive Misinterpretation": {}
+        },
+        "Brain-Body Indicators": {
+          "Neural Activation Patterns": {
+            "Anterior Insula Interoceptive Signal Gain": {},
+            "Somatovisceral Integration Alteration": {}
+          },
+          "Autonomic Markers": {
+            "Baroreflex Sensitivity Change": {}
+          }
+        }
+      },
+      "Olfactory": {
+        "Behavioral Indicators": {
+          "Odor Identification Impairment": {},
+          "HyposmiaorAnosmia": {}
+        },
+        "Brain-Body Indicators": {
+          "Neural Activation Patterns": {
+            "Piriform Cortex Response Reduction": {}
+          }
+        }
+      },
+      "Gustatory": {
+        "Behavioral Indicators": {
+          "Taste Identification Impairment": {},
+          "HypogeusiaorDysgeusia": {}
+        }
+      },
+      "Chemesthesis": {
+        "Behavioral Indicators": {
+          "Irritant Sensitivity Elevation": {}
+        }
+      },
+      "Pruriception": {
+        "Behavioral Indicators": {
+          "Itch Threshold Reduction": {},
+          "Scratching Compulsion": {}
+        }
+      },
+      "Temporal Perception": {
+        "Behavioral Indicators": {
+          "Interval Timing Distortion": {},
+          "Order Judgment Impairment": {}
+        },
+        "Brain-Body Indicators": {
+          "Electrophysiological Markers": {
+            "BetaorGamma Timing Signatures Alteration": {}
+          }
+        }
+      }
+    },
+    "Working Memory": {
+      "Behavioral Indicators": {
+        "Capacity Limitation": {},
+        "Updating Deficit": {},
+        "Manipulation Impairment": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Dorsolateral PFC Load Response": {},
+          "Frontoparietal Connectivity Integrity": {}
+        },
+        "Electrophysiological Markers": {
+          "Frontal Theta Power Reduction": {},
+          "Delay Period Alpha Modulation Deficit": {}
+        }
+      }
+    },
+    "Declarative Memory": {
+      "Behavioral Indicators": {
+        "Encoding Deficit": {},
+        "Context Binding Impairment": {},
+        "Retrieval Failure": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Hippocampal Encoding Signal Reduction": {},
+          "Anterior Temporal Semantic System Disruption": {}
+        }
+      }
+    },
+    "Language": {
+      "Behavioral Indicators": {
+        "Fluency Disruption": {},
+        "Comprehension Breakdown": {},
+        "Prosodic Aberration": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Left IFG Production Inefficiency": {},
+          "Temporal Cortex Comprehension Deficit": {}
+        },
+        "Electrophysiological Markers": {
+          "N400 Semantic Processing Alteration": {},
+          "P600 Syntactic Reanalysis Change": {}
+        }
+      }
+    },
+    "Cognitive Control": {
+      "Behavioral Indicators": {
+        "Inhibitory Control Failure": {},
+        "Set Shifting Slowness": {},
+        "Perseveration": {},
+        "Goal Maintenance Failure": {},
+        "Decision Conflict Sensitivity": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "ACC Conflict Signal Alteration": {},
+          "Right IFG Inhibition Failure": {},
+          "Frontoparietal Control Network Disruption": {}
+        },
+        "Electrophysiological Markers": {
+          "Error-Related Negativity Reduction": {},
+          "Error Positivity Alteration": {}
+        }
+      }
+    }
+  },
+  "Social Processes": {
+    "Affiliation and Attachment": {
+      "Behavioral Indicators": {
+        "Bond Formation Difficulty": {},
+        "Separation Protest": {},
+        "Caregiving Atypicality": {},
+        "Care-Seeking Excess or Deficit": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Ventromedial Prefrontal Affiliation Signal": {},
+          "Striatal Social Reward Response": {},
+          "Amygdala Attachment Cue Reactivity": {}
+        },
+        "Endocrine Markers": {
+          "Oxytocinergic Signaling Variation": {}
+        }
+      }
+    },
+    "Social Communication": {
+      "Behavioral Indicators": {
+        "Facial Expression Recognition Deficit": {},
+        "Prosodic Comprehension Deficit": {},
+        "Gesture Production Atypicality": {},
+        "Pragmatic Language Impairment": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Fusiform Face Area Hyporesponsivity": {},
+          "Superior Temporal Sulcus Biological Motion Signal": {}
+        },
+        "Electrophysiological Markers": {
+          "N170 Face Processing Alteration": {}
+        },
+        "Oculomotor Markers": {
+          "Reduced Eye-Region Fixation": {}
+        }
+      }
+    },
+    "Perception and Understanding of Self": {
+      "Behavioral Indicators": {
+        "Agency Disturbance": {},
+        "Self-Concept Incoherence": {},
+        "Body Ownership Distortion": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Medial PFC Self-Referential Signal Alteration": {},
+          "Temporoparietal Junction Agency Mapping Disruption": {}
+        }
+      }
+    },
+    "Perception and Understanding of Others": {
+      "Behavioral Indicators": {
+        "Animacy Perception Deficit": {},
+        "Action Intention Misattribution": {},
+        "Mental State Inference Error": {},
+        "Empathic Responsivity Reduction": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Temporoparietal Junction Mentalizing Signal": {},
+          "Posterior Superior Temporal Sulcus Action Perception": {},
+          "Amygdala Social Salience Response": {}
+        }
+      }
+    }
+  },
+  "Arousal and Regulatory Systems": {
+    "Arousal": {
+      "Behavioral Indicators": {
+        "Hyperarousal": {},
+        "Hypoarousal": {},
+        "Arousal Modulation Difficulty": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Locus Coeruleus Responsivity Alteration": {},
+          "Thalamocortical Arousal Coupling Change": {}
+        },
+        "Autonomic Markers": {
+          "Tonic Pupillometry Abnormality": {},
+          "HRV Arousal Coupling Deficit": {}
+        }
+      }
+    },
+    "Circadian Rhythms": {
+      "Behavioral Indicators": {
+        "Phase Delay or Advance": {},
+        "Irregular Sleep-Wake Pattern": {}
+      },
+      "Brain-Body Indicators": {
+        "Endocrine Markers": {
+          "Melatonin Phase Shift": {},
+          "Cortisol Rhythm Instability": {}
+        },
+        "Physiological Markers": {
+          "Core Body Temperature Rhythm Alteration": {}
+        }
+      }
+    },
+    "Sleep-Wakefulness": {
+      "Behavioral Indicators": {
+        "Sleep Initiation Difficulty": {},
+        "Sleep Maintenance Difficulty": {},
+        "Excessive Daytime Sleepiness": {}
+      },
+      "Brain-Body Indicators": {
+        "Physiological Markers": {
+          "Reduced Slow-Wave Sleep": {},
+          "REM Density Alteration": {},
+          "Sleep Spindle Density Reduction": {}
+        },
+        "Electrophysiological Markers": {
+          "NREM Spectral Power Alteration": {},
+          "REM Atonia Disruption": {}
+        }
+      }
+    },
+    "Interoceptive Regulation": {
+      "Behavioral Indicators": {
+        "Homeostatic Drive Dysregulation": {},
+        "Maladaptive Regulatory Behaviors": {}
+      },
+      "Brain-Body Indicators": {
+        "Autonomic Markers": {
+          "Sympathovagal Imbalance": {},
+          "Baroreflex Sensitivity Reduction": {}
+        },
+        "Neural Activation Patterns": {
+          "Anterior Insula–ACC Regulatory Coupling Deficit": {}
+        }
+      }
+    }
+  },
+  "Sensorimotor Systems": {
+    "Motor Actions": {
+      "Behavioral Indicators": {
+        "Initiation Slowing": {},
+        "Sequencing Errors": {},
+        "Inhibitory Failure": {},
+        "Bradykinesia or Hyperkinesia": {},
+        "Fatigability": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Supplementary Motor Area Readiness Potential Reduction": {},
+          "Basal Ganglia Output Imbalance": {},
+          "Cerebellar Error Prediction Deficit": {}
+        },
+        "Electrophysiological Markers": {
+          "Bereitschaftspotential Attenuation": {},
+          "Beta Desynchronization Reduction during Movement": {}
+        }
+      }
+    },
+    "Agency and Ownership": {
+      "Behavioral Indicators": {
+        "Action–Outcome Attribution Disturbance": {},
+        "Body Schema Distortion": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Parietal–Premotor Integration Deficit": {},
+          "Temporoparietal Junction Agency Signal Reduction": {}
+        }
+      }
+    },
+    "Sensorimotor Learning": {
+      "Behavioral Indicators": {
+        "Calibration Failure": {},
+        "Adaptation Deficit": {},
+        "Aftereffect Abnormality": {}
+      },
+      "Brain-Body Indicators": {
+        "Neural Activation Patterns": {
+          "Cerebellar Learning Signal Reduction": {},
+          "Sensorimotor Prediction Error Signal Alteration": {}
+        }
+      }
+    }
+  }
+}

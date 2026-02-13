@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "insomnia_rebound"
+    },
+    {
+      "criterium": "anxiety_reemergence"
+    },
+    {
+      "criterium": "autonomic_hyperarousal"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "myalgia"
+    },
+    {
+      "criterium": "seizure"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

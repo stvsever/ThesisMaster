@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "goiter_present"
+    },
+    {
+      "criterium": "exophthalmos_present"
+    },
+    {
+      "criterium": "resting_tachycardia"
+    },
+    {
+      "criterium": "resting_bradycardia"
+    },
+    {
+      "criterium": "heat_intolerance"
+    },
+    {
+      "criterium": "cold_intolerance"
+    },
+    {
+      "criterium": "unintended_weight_loss"
+    },
+    {
+      "criterium": "unintended_weight_gain"
+    },
+    {
+      "criterium": "dry_skin"
+    },
+    {
+      "criterium": "hair_loss_thinning"
+    },
+    {
+      "criterium": "menstrual_irregularities"
+    },
+    {
+      "criterium": "delayed_reflexes"
+    },
+    {
+      "criterium": "tremor_fine"
+    },
+    {
+      "criterium": "palpitations_present"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

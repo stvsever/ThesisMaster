@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anxiety_about_shoulder_pain"
+    },
+    {
+      "criterium": "depressive_symptoms_related_to_limitation"
+    },
+    {
+      "criterium": "pain_catastrophizing_present"
+    },
+    {
+      "criterium": "kinesiophobia_shoulder_movement_present"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_pain_present"
+    },
+    {
+      "criterium": "somatic_symptom_burden_present"
+    },
+    {
+      "criterium": "stress_response_to_pain_present"
+    },
+    {
+      "criterium": "pain_hypersensitivity_present"
+    },
+    {
+      "criterium": "rumination_about_pain_present"
+    },
+    {
+      "criterium": "avoidant_behaviors_related_to_shoulder_function_present"
+    },
+    {
+      "criterium": "cognitive_intrusive_pain_thoughts_present"
+    },
+    {
+      "criterium": "fatigue_due_to_chronic_pain_present"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

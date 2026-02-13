@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pellagra_photosensitive_dermatitis"
+    },
+    {
+      "criterium": "pellagra_casal_necklace_sign"
+    },
+    {
+      "criterium": "pellagra_diarrhea"
+    },
+    {
+      "criterium": "pellagra_mucosal_stomatitis"
+    },
+    {
+      "criterium": "pellagra_glossitis"
+    },
+    {
+      "criterium": "pellagra_angular_cheilitis"
+    },
+    {
+      "criterium": "pellagra_neuropathy"
+    },
+    {
+      "criterium": "pellagra_ataxia"
+    },
+    {
+      "criterium": "pellagra_weight_loss"
+    },
+    {
+      "criterium": "pellagra_fatigue"
+    },
+    {
+      "criterium": "pellagra_dementia"
+    },
+    {
+      "criterium": "pellagra_depression"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

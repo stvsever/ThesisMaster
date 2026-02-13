@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "attentional_deficit"
+    },
+    {
+      "criterium": "fluctuating_attention"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "verbal_fluency_impairment"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

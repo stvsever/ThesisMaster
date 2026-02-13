@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "distal_symmetrical_paresthesias"
+    },
+    {
+      "criterium": "numbness_distal_extremities"
+    },
+    {
+      "criterium": "burning_pain_distal_limbs"
+    },
+    {
+      "criterium": "allodynia_distal_limbs"
+    },
+    {
+      "criterium": "hyperalgesia_distal_limbs"
+    },
+    {
+      "criterium": "reduced_vibration_sense_toes"
+    },
+    {
+      "criterium": "reduced_proprioception_feet"
+    },
+    {
+      "criterium": "absent_ankle_reflexes"
+    },
+    {
+      "criterium": "sensory_loss_glove_stocking_distribution"
+    },
+    {
+      "criterium": "distal_muscle_weakness"
+    },
+    {
+      "criterium": "distal_muscle_atrophy"
+    },
+    {
+      "criterium": "sensory_gait_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

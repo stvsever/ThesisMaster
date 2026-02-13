@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "euphoria"
+    },
+    {
+      "criterium": "perioral_numbness"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "vertigo"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "slurred_speech"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "confusion_or_disorientation"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

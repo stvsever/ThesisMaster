@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nail_biting_frequency_per_day"
+    },
+    {
+      "criterium": "visible_bite_marks_on_nails"
+    },
+    {
+      "criterium": "nail_surface_damage_present"
+    },
+    {
+      "criterium": "paronychia_present"
+    },
+    {
+      "criterium": "onycholysis_present"
+    },
+    {
+      "criterium": "finger_tip_callus_present"
+    },
+    {
+      "criterium": "nail_discoloration_present"
+    },
+    {
+      "criterium": "cuticle_damage_present"
+    },
+    {
+      "criterium": "nail_bed_shape_abnormal_present"
+    }
+  ],
+  "estimated_prevalence_percent": 12.4
+}

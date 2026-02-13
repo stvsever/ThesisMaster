@@ -1,0 +1,35 @@
+{
+  "domain_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neural_Structure_Membranes_and_Myelination",
+  "domain_root_path": [
+    "BIO",
+    "Cognitive_Capacity_and_Brain_Health",
+    "Neural_Structure_Membranes_and_Myelination"
+  ],
+  "leaf_count": 13,
+  "total_edges_in_subtree": 15,
+  "evaluated_pairs": 15,
+  "violations_count": 2,
+  "violation_rate": 0.13333333333333333,
+  "llm_calls": 1,
+  "violations": [
+    "Neural_Structure_Membranes_and_Myelination > Cholinergic_Precursors_and_Membrane_Pools",
+    "Neural_Structure_Membranes_and_Myelination > Omega3_and_Lipid_Support"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Neural_Structure_Membranes_and_Myelination > Cholinergic_Precursors_and_Membrane_Pools",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neural_Structure_Membranes_and_Myelination",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neural_Structure_Membranes_and_Myelination / Cholinergic_Precursors_and_Membrane_Pools"
+    },
+    {
+      "pair": "Neural_Structure_Membranes_and_Myelination > Omega3_and_Lipid_Support",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neural_Structure_Membranes_and_Myelination",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neural_Structure_Membranes_and_Myelination / Omega3_and_Lipid_Support"
+    }
+  ],
+  "cache_key": "662b31c7193ced49a515c01b54c35b109c79d4e0",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 54.045
+}

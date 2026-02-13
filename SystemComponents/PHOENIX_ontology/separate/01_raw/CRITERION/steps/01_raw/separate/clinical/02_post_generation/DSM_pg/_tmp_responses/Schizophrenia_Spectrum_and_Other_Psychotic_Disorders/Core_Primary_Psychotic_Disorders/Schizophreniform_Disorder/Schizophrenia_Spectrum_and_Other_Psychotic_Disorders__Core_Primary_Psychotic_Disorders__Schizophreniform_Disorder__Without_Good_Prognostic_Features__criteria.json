@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS_PRESENT"
+    },
+    {
+      "criterium": "DELUSIONS_PRESENT"
+    },
+    {
+      "criterium": "FORMAL_THOUGHT_DISORDER_PRESENT"
+    },
+    {
+      "criterium": "DISORGANIZED_BEHAVIOR_PRESENT"
+    },
+    {
+      "criterium": "FLAT_AFFECT_PRESENT"
+    },
+    {
+      "criterium": "ALOGIA_PRESENT"
+    },
+    {
+      "criterium": "AVOLITION_PRESENT"
+    },
+    {
+      "criterium": "ANHEDONIA_PRESENT"
+    },
+    {
+      "criterium": "POOR_PREMORBID_FUNCTIONING_PRESENT"
+    },
+    {
+      "criterium": "POOR_SOCIAL_FUNCTIONING_PRESENT"
+    },
+    {
+      "criterium": "INSIGHT_IMPAIRED_PRESENT"
+    },
+    {
+      "criterium": "COGNITIVE_DEFICITS_PRESENT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "disorientation_upon_arousal"
+    },
+    {
+      "criterium": "glassy_dazed_gaze"
+    },
+    {
+      "criterium": "slowed_or_incoherent_speech"
+    },
+    {
+      "criterium": "unresponsiveness_to_verbal_stimuli"
+    },
+    {
+      "criterium": "amnesia_for_event"
+    },
+    {
+      "criterium": "simple_automatism_movements"
+    },
+    {
+      "criterium": "tachycardia_during_episode"
+    },
+    {
+      "criterium": "diaphoresis_during_episode"
+    },
+    {
+      "criterium": "frightened_or_agitated_affect"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

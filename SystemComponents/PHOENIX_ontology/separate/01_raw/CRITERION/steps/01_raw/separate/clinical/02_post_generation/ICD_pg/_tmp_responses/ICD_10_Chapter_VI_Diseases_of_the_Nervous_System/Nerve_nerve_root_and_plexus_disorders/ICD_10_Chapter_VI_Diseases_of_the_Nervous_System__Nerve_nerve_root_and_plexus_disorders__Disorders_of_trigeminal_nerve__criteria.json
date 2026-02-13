@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_trigeminal_distribution_pain"
+    },
+    {
+      "criterium": "electric_shock_like_pain_quality"
+    },
+    {
+      "criterium": "paroxysmal_pain_events"
+    },
+    {
+      "criterium": "pain_triggered_by_light_touch"
+    },
+    {
+      "criterium": "pain_triggered_by_chewing_or_speaking"
+    },
+    {
+      "criterium": "involvement_of_V1_V2_or_V3_distribution"
+    },
+    {
+      "criterium": "sensory_hypesthesia_in_trigeminal_territory"
+    },
+    {
+      "criterium": "paresthesias_in_trigeminal_territory"
+    },
+    {
+      "criterium": "allodynia_in_trigeminal_territory"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

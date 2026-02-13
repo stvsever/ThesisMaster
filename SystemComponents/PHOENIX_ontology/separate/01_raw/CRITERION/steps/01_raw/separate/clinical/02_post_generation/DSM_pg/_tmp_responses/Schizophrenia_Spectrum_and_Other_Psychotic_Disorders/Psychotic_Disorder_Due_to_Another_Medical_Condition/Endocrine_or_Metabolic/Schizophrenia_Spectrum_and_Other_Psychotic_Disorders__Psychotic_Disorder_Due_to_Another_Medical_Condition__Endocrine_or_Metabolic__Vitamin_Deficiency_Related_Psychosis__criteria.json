@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "gross_disorganized_behavior"
+    },
+    {
+      "criterium": "anterograde_amnesia"
+    },
+    {
+      "criterium": "confabulation"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "nystagmus"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

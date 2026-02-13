@@ -1,0 +1,6 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+BIO / cognitive_capacity_and_brain_health / sensory_integrity_and_access_supports / hearing_and_auditory / noise_exposure_reduction_tools,BIO,4,0.8,79.0,28.887714,0.20974362,0.011269168
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_urge_intensity,BIO,3,0.6,106.333336,43.698463,0.20825692,0.012897028
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / pain_medicine_and_somatic_distress / referral_and_evaluation / central_sensitization_evaluation_pathway,BIO,3,0.6,122.0,25.703438,0.20677483,0.006940179
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_impulse_control,BIO,3,0.6,160.66667,11.585432,0.210118,0.0013157155
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_coping_strategy_used,BIO,1,0.2,113.0,0.0,0.21098514,0.0

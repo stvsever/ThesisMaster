@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "migraine_with_aura"
+    },
+    {
+      "criterium": "recurrent_subcortical_infarcts"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "progressive_cognitive_decline"
+    },
+    {
+      "criterium": "pseudobulbar_affect"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "urinary_dysfunction"
+    },
+    {
+      "criterium": "alopecia"
+    },
+    {
+      "criterium": "back_pain_due_to_spondylosis"
+    },
+    {
+      "criterium": "seizures"
+    },
+    {
+      "criterium": "ocular_anomalies"
+    }
+  ],
+  "estimated_prevalence_percent": 0.003
+}

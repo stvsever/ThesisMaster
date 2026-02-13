@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acute_alcohol_induced_hypoactive_desire"
+    },
+    {
+      "criterium": "acute_alcohol_induced_erectile_dysfunction"
+    },
+    {
+      "criterium": "acute_alcohol_induced_delayed_orgasm"
+    },
+    {
+      "criterium": "acute_alcohol_induced_anorgasmia"
+    },
+    {
+      "criterium": "acute_alcohol_induced_diminished_vaginal_lubrication"
+    },
+    {
+      "criterium": "acute_alcohol_induced_diminished_genital_sensitivity"
+    }
+  ],
+  "estimated_prevalence_percent": 7.5
+}

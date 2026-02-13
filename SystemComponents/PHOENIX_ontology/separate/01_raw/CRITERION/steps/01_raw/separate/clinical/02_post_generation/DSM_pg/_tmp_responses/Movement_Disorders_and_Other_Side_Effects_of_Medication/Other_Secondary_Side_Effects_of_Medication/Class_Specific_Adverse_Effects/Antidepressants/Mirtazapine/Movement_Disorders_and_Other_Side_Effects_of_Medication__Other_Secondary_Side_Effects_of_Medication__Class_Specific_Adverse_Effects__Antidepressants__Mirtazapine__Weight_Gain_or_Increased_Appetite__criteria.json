@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "weight_gain"
+    },
+    {
+      "criterium": "BMI_increase"
+    },
+    {
+      "criterium": "appetite_increase"
+    },
+    {
+      "criterium": "hyperphagia"
+    },
+    {
+      "criterium": "caloric_intake_increase"
+    },
+    {
+      "criterium": "carbohydrate_craving"
+    },
+    {
+      "criterium": "sugar_craving"
+    },
+    {
+      "criterium": "snack_frequency_increase"
+    },
+    {
+      "criterium": "portion_size_increase"
+    }
+  ],
+  "estimated_prevalence_percent": 28.0
+}

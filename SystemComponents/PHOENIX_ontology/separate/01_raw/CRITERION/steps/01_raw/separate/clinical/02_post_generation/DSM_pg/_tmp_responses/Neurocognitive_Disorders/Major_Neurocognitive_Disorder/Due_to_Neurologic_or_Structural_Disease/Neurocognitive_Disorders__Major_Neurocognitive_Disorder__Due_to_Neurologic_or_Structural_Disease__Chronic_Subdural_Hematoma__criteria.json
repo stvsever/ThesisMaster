@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hemiparesis"
+    },
+    {
+      "criterium": "gait_instability"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "confusion"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "language_disturbance"
+    },
+    {
+      "criterium": "seizure"
+    },
+    {
+      "criterium": "drowsiness"
+    },
+    {
+      "criterium": "visual_disturbance"
+    },
+    {
+      "criterium": "apraxia"
+    },
+    {
+      "criterium": "unilateral_sensory_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

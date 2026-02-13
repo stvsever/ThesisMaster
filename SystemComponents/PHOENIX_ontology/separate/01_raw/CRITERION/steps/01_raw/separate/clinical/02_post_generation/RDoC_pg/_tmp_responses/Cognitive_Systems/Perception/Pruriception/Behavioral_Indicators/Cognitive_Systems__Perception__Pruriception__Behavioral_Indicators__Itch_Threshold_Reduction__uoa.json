@@ -1,0 +1,60 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "TRPV1_gene_expression",
+      "MRGPRX1_gene_expression",
+      "IL31RA_gene_expression",
+      "NPPB_gene_expression",
+      "S1PR3_gene_expression",
+      "PIEZO2_gene_expression"
+    ],
+    "molecules": [
+      "histamine_level",
+      "IL31_level",
+      "NGF_level",
+      "substance_P_level",
+      "PGE2_level",
+      "S1P_level"
+    ],
+    "cells": [
+      "intraepidermal_nerve_fiber_density",
+      "MRGPR_positive_neuron_density",
+      "pruriceptor_neuron_density",
+      "keratinocyte_pruriceptor_receptor_density",
+      "dermal_mast_cell_density"
+    ],
+    "circuits": [
+      "spinothalamic_pathway_activity",
+      "insular_cortex_activation",
+      "somatosensory_cortex_activation",
+      "anterior_cingulate_cortex_activation",
+      "thalamic_nucleus_VPL_activation",
+      "periaqueductal_gray_activation"
+    ],
+    "physiology": [
+      "skin_conductance_response_to_itch_stimulus",
+      "heart_rate_response_to_itch_stimulus",
+      "pupil_dilation_to_itch_stimulus",
+      "cutaneous_blood_flow_change_in_itch_region",
+      "skin_temperature_change_during_itch",
+      "respiratory_rate_change_during_itch"
+    ],
+    "behavior": [
+      "scratch_bout_count",
+      "scratch_duration_seconds",
+      "scratch_force_newtons",
+      "itch_behavior_latency_ms",
+      "scratching_rate_per_minute",
+      "rubbing_behavior_frequency_per_minute"
+    ],
+    "self_report": [
+      "itch_intensity_VAS",
+      "itch_intensity_NRS",
+      "pruritus_discomfort_score",
+      "sleep_disturbance_due_to_pruritus",
+      "daytime_impairment_due_to_pruritus",
+      "urge_to_scratch_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 6.0
+}

@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_headache"
+    },
+    {
+      "criterium": "headache_pulsating_quality"
+    },
+    {
+      "criterium": "pain_intensity_moderate_to_severe"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "vomiting_present"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "phonophobia_present"
+    },
+    {
+      "criterium": "aura_visual_scintillations_present"
+    },
+    {
+      "criterium": "aura_fortification_spectra_present"
+    },
+    {
+      "criterium": "aura_sensory_paresthesias_present"
+    },
+    {
+      "criterium": "osmophobia_present"
+    },
+    {
+      "criterium": "cognitive_impairment_during_attack_present"
+    },
+    {
+      "criterium": "neck_stiffness_present"
+    },
+    {
+      "criterium": "postdrome_fatigue_present"
+    }
+  ],
+  "estimated_prevalence_percent": 12.0
+}

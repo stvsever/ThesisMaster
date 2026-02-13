@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "memory_impairment_short_term"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "aphasia_present"
+    },
+    {
+      "criterium": "apraxia_present"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "eeg_periodic_sharp_wave_complexes"
+    },
+    {
+      "criterium": "mri_diffusion_weighted_imaging_restricted_lesions"
+    },
+    {
+      "criterium": "hyperreflexia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0002
+}

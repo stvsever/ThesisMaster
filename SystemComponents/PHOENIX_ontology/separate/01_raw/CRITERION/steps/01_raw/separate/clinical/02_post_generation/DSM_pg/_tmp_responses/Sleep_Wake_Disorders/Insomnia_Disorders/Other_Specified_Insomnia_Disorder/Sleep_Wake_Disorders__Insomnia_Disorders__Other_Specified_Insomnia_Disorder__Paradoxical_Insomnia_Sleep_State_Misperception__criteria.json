@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "subjective_sleep_latency_prolonged"
+    },
+    {
+      "criterium": "objective_sleep_latency_normal_or_short"
+    },
+    {
+      "criterium": "subjective_total_sleep_time_reduced"
+    },
+    {
+      "criterium": "objective_total_sleep_time_normal_or_high"
+    },
+    {
+      "criterium": "subjective_sleep_efficiency_reduced"
+    },
+    {
+      "criterium": "objective_sleep_efficiency_normal_or_high"
+    },
+    {
+      "criterium": "subjective_sleep_quality_poor"
+    },
+    {
+      "criterium": "perceived_sleep_refreshment_nonrefreshing"
+    },
+    {
+      "criterium": "discrepancy_subjective_vs_objective_sleep_duration"
+    },
+    {
+      "criterium": "discrepancy_subjective_vs_objective_sleep_efficiency"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

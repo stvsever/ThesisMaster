@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cough_induced_urine_leakage"
+    },
+    {
+      "criterium": "sneeze_induced_urine_leakage"
+    },
+    {
+      "criterium": "laugh_induced_urine_leakage"
+    },
+    {
+      "criterium": "physical_exertion_induced_urine_leakage"
+    },
+    {
+      "criterium": "standing_from_sitting_induced_urine_leakage"
+    },
+    {
+      "criterium": "no_urine_leakage_at_rest"
+    },
+    {
+      "criterium": "leakage_reduced_by_pelvic_floor_contraction"
+    },
+    {
+      "criterium": "positive_cough_stress_test"
+    },
+    {
+      "criterium": "urethral_hyper_mobility_on_qtip_test"
+    },
+    {
+      "criterium": "pelvic_floor_muscle_weakness_on_exam"
+    },
+    {
+      "criterium": "urine_leakage_during_valsalva_maneuver"
+    }
+  ],
+  "estimated_prevalence_percent": 7.0
+}

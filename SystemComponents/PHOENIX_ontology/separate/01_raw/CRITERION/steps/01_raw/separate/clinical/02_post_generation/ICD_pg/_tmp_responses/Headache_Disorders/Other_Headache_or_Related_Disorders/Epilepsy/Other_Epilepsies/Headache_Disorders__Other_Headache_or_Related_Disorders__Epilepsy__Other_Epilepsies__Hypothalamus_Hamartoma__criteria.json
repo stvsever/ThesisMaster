@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gelastic_seizures"
+    },
+    {
+      "criterium": "focal_seizures"
+    },
+    {
+      "criterium": "central_precocious_puberty"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "behavioral_disturbance"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "recurrent_headache"
+    },
+    {
+      "criterium": "eeg_epileptiform_activity_hypothalamic_region"
+    },
+    {
+      "criterium": "imaging_confirmed_hypothalamic_hamartoma"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

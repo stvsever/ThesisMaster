@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "mood_depressed"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "hypersomnia"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "increased_appetite"
+    },
+    {
+      "criterium": "suicidality"
+    },
+    {
+      "criterium": "concentration_difficulties"
+    },
+    {
+      "criterium": "guilt_or_worthlessness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

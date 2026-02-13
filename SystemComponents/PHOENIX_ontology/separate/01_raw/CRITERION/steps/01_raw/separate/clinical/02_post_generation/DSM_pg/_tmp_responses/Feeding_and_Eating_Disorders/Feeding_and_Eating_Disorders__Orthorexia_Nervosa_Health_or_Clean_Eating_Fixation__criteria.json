@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_food_quality_purity"
+    },
+    {
+      "criterium": "rigid_health_benefit_based_food_rules"
+    },
+    {
+      "criterium": "excessive_time_spent_planning_and_preparing_food"
+    },
+    {
+      "criterium": "extensive_food_label_scrutiny_and_ingredient_verification"
+    },
+    {
+      "criterium": "selective_food_exclusion_based_on_purity_criteria"
+    },
+    {
+      "criterium": "ritualized_meal_planning_and_preparation_patterns"
+    },
+    {
+      "criterium": "social_isolation_due_to_dietary_rules"
+    },
+    {
+      "criterium": "distress_when_food_rules_are_violated"
+    },
+    {
+      "criterium": "functional_impairment_due_to_dietary_restrictions"
+    }
+  ],
+  "estimated_prevalence_percent": 4.0
+}

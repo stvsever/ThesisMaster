@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "reduced_sexual_desire_frequency"
+    },
+    {
+      "criterium": "reduced_sexual_desire_intensity"
+    },
+    {
+      "criterium": "reduced_subjective_arousal_to_sexual_stimuli"
+    },
+    {
+      "criterium": "reduced_vaginal_lubrication"
+    },
+    {
+      "criterium": "reduced_clitoral_engorgement"
+    },
+    {
+      "criterium": "avoidance_of_sexual_intercourse"
+    },
+    {
+      "criterium": "decreased_responsiveness_to_partner_initiation"
+    },
+    {
+      "criterium": "psychological_distress_due_to_sexual_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 4.2
+}

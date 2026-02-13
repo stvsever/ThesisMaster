@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "irritable_mood_present"
+    },
+    {
+      "criterium": "angry_affect_expression"
+    },
+    {
+      "criterium": "verbal_temper_outburst"
+    },
+    {
+      "criterium": "physical_temper_outburst"
+    },
+    {
+      "criterium": "easily_annoyed_or_touchy"
+    },
+    {
+      "criterium": "defiant_argumentative_behavior"
+    },
+    {
+      "criterium": "spiteful_vindictive_behavior"
+    },
+    {
+      "criterium": "blame_others"
+    },
+    {
+      "criterium": "emotional_dysregulation"
+    },
+    {
+      "criterium": "conflict_with_authority_figures"
+    }
+  ],
+  "estimated_prevalence_percent": 4.0
+}

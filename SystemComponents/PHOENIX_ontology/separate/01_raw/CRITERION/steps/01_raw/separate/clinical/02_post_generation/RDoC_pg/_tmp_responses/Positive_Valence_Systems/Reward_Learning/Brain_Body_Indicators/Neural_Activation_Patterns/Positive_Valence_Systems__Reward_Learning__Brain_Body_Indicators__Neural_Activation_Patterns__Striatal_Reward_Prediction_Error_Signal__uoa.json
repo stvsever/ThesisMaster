@@ -1,0 +1,46 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD1_gene_expression",
+      "DRD2_gene_expression",
+      "SLC6A3_gene_expression",
+      "BDNF_gene_expression",
+      "COMT_gene_expression",
+      "GRIN2B_gene_expression"
+    ],
+    "molecules": [
+      "DOPAMINE_levels_striatum",
+      "DOPAMINE_release_rate_striatum",
+      "DOPAMINE_D1_receptor_density",
+      "DOPAMINE_D2_receptor_density",
+      "GLUTAMATE_levels_striatum",
+      "GABA_levels_striatum"
+    ],
+    "cells": [
+      "MSN_D1_cell_density",
+      "MSN_D2_cell_density",
+      "GABAergic_interneuron_density",
+      "Astrocyte_marker_expression_striatum"
+    ],
+    "circuits": [
+      "caudate_nucleus_activity",
+      "putamen_activity",
+      "nucleus_accumbens_activity",
+      "VTA_to_striatum_dopaminergic_projection_activity",
+      "PFC_striatum_connectivity_strength"
+    ],
+    "physiology": [
+      "striatal_BOLD_signal_amplitude",
+      "striatal_BOLD_signal_latency",
+      "striatal_cerebral_blood_flow_change",
+      "pupil_dilation_index_PE_task"
+    ],
+    "behavior": [
+      "reaction_time_reward_cue",
+      "PE_task_response_accuracy",
+      "PE_task_trial_to_trial_variability"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 2.3
+}

@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "genital_lubrication_deficit"
+    },
+    {
+      "criterium": "genital_vasocongestion_deficit"
+    },
+    {
+      "criterium": "clitoral_engorgement_deficit"
+    },
+    {
+      "criterium": "labial_engorgement_deficit"
+    },
+    {
+      "criterium": "vaginal_wall_engorgement_deficit"
+    },
+    {
+      "criterium": "absent_subjective_arousal_to_stimulation"
+    },
+    {
+      "criterium": "reduced_subjective_arousal_to_stimulation"
+    },
+    {
+      "criterium": "genital_sensation_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

@@ -1,0 +1,75 @@
+pseudoprofile_id: pseudoprofile_FTC_ID008
+mapped_file: /Users/stijnvanseveren/PythonProjects/MASTERPROEF/Evaluation/03_construction_initial_observation_model/constructed_PC_models/runs/2026-01-18_20-59-06/profiles/pseudoprofile_FTC_ID008/llm_observation_model_mapped.txt
+source_raw_model: llm_observation_model_raw.json
+
+TIME AXIS
+- n_timepoints: 180
+- freq (base axis): D  (measurement schedules may enforce extra missingness)
+- start_date: 2025-01-01
+
+REGIME SHIFT (Patterns 4 & 5)
+- center (t_norm): 0.5029
+- abrupt step: activates at t >= center
+- smooth transition: sigmoid around center (width ~0.04 in t_norm)
+
+LATENT DRIVERS
+- stress: AR(1) + smooth shift + weekly sinusoid + drift + pulses
+- sleep_disruption: AR(1) + improvement after shift + weekly sinusoid + drift + pulses
+
+SHARED CO-FLUCTUATION (Pattern 6)
+- shared_osc: sin(2π * 1.00 * t + phase=3.80)
+
+PULSES / EVENTS (Pattern 8)
+- number_of_pulses: 2
+  * pulse_1: start_idx=30, length=6, amp=0.872
+  * pulse_2: start_idx=89, length=3, amp=1.134
+
+CROSS-VARIABLE EFFECTS (Pattern 7)
+- driver_predictor_code (regime-dependent effect): P02
+- criteria receive lagged predictor influence via lags [2,4,7] (weights [0.50,0.35,0.15])
+
+MISSINGNESS (Pattern 10)
+- MCAR + MAR(stress-related) + block-missing + measurement schedule (freq hints)
+- realized missingness rates by code:
+  * P01: missing_rate=0.211 | freq_hint=None
+  * P02: missing_rate=0.150 | freq_hint=None
+  * P03: missing_rate=0.122 | freq_hint=None
+  * P04: missing_rate=0.056 | freq_hint=None
+  * P05: missing_rate=0.144 | freq_hint=None
+  * P06: missing_rate=0.122 | freq_hint=None
+  * P07: missing_rate=0.206 | freq_hint=None
+  * P08: missing_rate=0.172 | freq_hint=None
+  * C01: missing_rate=0.156 | freq_hint=None
+  * C02: missing_rate=0.261 | freq_hint=None
+  * C03: missing_rate=0.067 | freq_hint=None
+  * C04: missing_rate=0.072 | freq_hint=None
+  * C05: missing_rate=0.172 | freq_hint=None
+  * C06: missing_rate=0.328 | freq_hint=None
+
+VARIABLES
+- P01 (PREDICTOR): Progressive muscle relaxation (PMR) practice intensity since last prompt | ontology_id=progressive_muscle_relaxation_practice | conf=0.95 | freq_hint=None
+- P02 (PREDICTOR): Interoceptive awareness/body-scan practice (mindfulness) since last prompt | ontology_id=interoceptive_awareness_practice | conf=0.72 | freq_hint=None
+- P03 (PREDICTOR): Diaphragmatic/soothing breathing micro-practices since last prompt | ontology_id=diaphragmatic_breathing_practice | conf=0.88 | freq_hint=None
+- P04 (PREDICTOR): Sleep quality last night (morning diary) | ontology_id=sleep_quality_rating | conf=0.92 | freq_hint=None
+- P05 (PREDICTOR): Ergonomic/posture adjustments and mindful posture checks since last prompt | ontology_id=mindful_posture_checkin | conf=0.82 | freq_hint=None
+- P06 (PREDICTOR): Passive jaw-clench/bruxism sensor event count (per EMA window) | ontology_id=jaw_clench_bruxism_sensor | conf=0.82 | freq_hint=None
+- P07 (PREDICTOR): Hourly micro-breaks with movement since last prompt | ontology_id=micro_restoration_routines | conf=0.72 | freq_hint=None
+- P08 (PREDICTOR): Threat reappraisal / cognitive reframing practice since last prompt | ontology_id=threat_appraisal_reframe_practice | conf=0.84 | freq_hint=None
+- C01 (CRITERION): Elevated resting muscle tension in shoulders and jaw | ontology_id=neck_muscle_tension_associated_with_tmjd | conf=0.78 | freq_hint=None
+- C02 (CRITERION): Low moment-to-moment awareness of bodily tension | ontology_id=reduced_level_of_awareness | conf=0.63 | freq_hint=None
+- C03 (CRITERION): Headaches triggered by muscular tension | ontology_id=mild_to_moderate_intensity | conf=0.72 | freq_hint=None
+- C04 (CRITERION): Persistent anticipatory threat expectation | ontology_id=fear_of_something_bad_may_happen | conf=0.78 | freq_hint=None
+- C05 (CRITERION): Difficulty relaxing on low-stress days | ontology_id=emotional | conf=0.65 | freq_hint=None
+- C06 (CRITERION): Habitual anticipatory muscle bracing in absence of immediate threat | ontology_id=posture | conf=0.58 | freq_hint=None
+
+PATTERN CHECKLIST
+1) AR(1) inertia
+2) weekly seasonality
+3) slow drift trend
+4) abrupt step change
+5) smooth sigmoid transition
+6) shared latent sinusoidal co-fluctuation
+7) lagged predictor->criterion effects
+8) bursts/pulses + decay
+9) outliers/shocks
+10) missingness: MCAR+MAR+block+schedule

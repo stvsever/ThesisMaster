@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "opioid_induced_anorgasmia"
+    },
+    {
+      "criterium": "opioid_induced_delayed_orgasm_latency"
+    },
+    {
+      "criterium": "opioid_induced_reduced_orgasm_intensity"
+    },
+    {
+      "criterium": "opioid_induced_reduced_frequency_of_orgasm"
+    },
+    {
+      "criterium": "opioid_induced_increased_stimulation_threshold_for_orgasm"
+    },
+    {
+      "criterium": "opioid_induced_orgasm_satisfaction_reduction"
+    },
+    {
+      "criterium": "opioid_induced_incomplete_or_partial_orgasm"
+    },
+    {
+      "criterium": "opioid_induced_decreased_genital_sensation_at_climax"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

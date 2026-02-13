@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ANTENATAL_DEPRESSED_MOOD"
+    },
+    {
+      "criterium": "ANTENATAL_ANHEDONIA"
+    },
+    {
+      "criterium": "ANTENATAL_SLEEP_DISTURBANCE"
+    },
+    {
+      "criterium": "ANTENATAL_FATIGUE_ENERGY_DEPLETION"
+    },
+    {
+      "criterium": "ANTENATAL_CONCENTRATION_DIFFICULTY"
+    },
+    {
+      "criterium": "ANTENATAL_APPETITE_CHANGE"
+    },
+    {
+      "criterium": "ANTENATAL_WEIGHT_CHANGE"
+    },
+    {
+      "criterium": "ANTENATAL_FEELINGS_OF_WORTHLESSNESS_GUILT"
+    },
+    {
+      "criterium": "ANTENATAL_PSYCHOMOTOR_ACTIVITY_CHANGE"
+    },
+    {
+      "criterium": "ANTENATAL_SUICIDAL_IDEATION"
+    },
+    {
+      "criterium": "ANTENATAL_ANXIETY_SYMPTOMS"
+    },
+    {
+      "criterium": "ANTENATAL_MOOD_LABILITY_IRRITABILITY"
+    }
+  ],
+  "estimated_prevalence_percent": 12.0
+}

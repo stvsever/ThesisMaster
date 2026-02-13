@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SpO2_nadir_sleep_below_88_percent"
+    },
+    {
+      "criterium": "SpO2_mean_sleep_below_92_percent"
+    },
+    {
+      "criterium": "SpO2_time_below_90_percent_during_sleep_percentage"
+    },
+    {
+      "criterium": "nocturnal_SpO2_desaturation_events_present"
+    },
+    {
+      "criterium": "apnea_hypopnea_index_elevated"
+    },
+    {
+      "criterium": "obstructive_sleep_apnea_event_present"
+    },
+    {
+      "criterium": "central_sleep_apnea_event_present"
+    },
+    {
+      "criterium": "sleep_arousal_index_elevated"
+    },
+    {
+      "criterium": "nocturnal_tachycardia_occurrence"
+    },
+    {
+      "criterium": "sleep_efficiency_reduction_present"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fear_of_offending_others_by_body_odor"
+    },
+    {
+      "criterium": "fear_of_offending_others_by_body_appearance"
+    },
+    {
+      "criterium": "fear_of_offending_others_by_facial_expression"
+    },
+    {
+      "criterium": "intrusive_thoughts_of_offending_others_by_body_or_expression"
+    },
+    {
+      "criterium": "compulsive_body_or_gesture_monitoring_to_prevent_offense"
+    },
+    {
+      "criterium": "compulsive_adjustment_of_posture_or_gesture_to_prevent_offense"
+    },
+    {
+      "criterium": "avoidance_of_social_situations_due_to_offense_fear"
+    },
+    {
+      "criterium": "hypervigilance_to_others_gaze_or_reactions_in_social_settings"
+    },
+    {
+      "criterium": "reassurance_seeking_from_others_about_offense_risk"
+    },
+    {
+      "criterium": "distress_or_anxiety_in_social_interactions_due_to_offense_fear"
+    },
+    {
+      "criterium": "panic_symptoms_triggered_by_social_exposure_related_to_offense_fear"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

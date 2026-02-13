@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "orthostatic_hypotension_present"
+    },
+    {
+      "criterium": "orthostatic_tachycardia_present"
+    },
+    {
+      "criterium": "resting_tachycardia_present"
+    },
+    {
+      "criterium": "hypohidrosis_present"
+    },
+    {
+      "criterium": "hyperhidrosis_present"
+    },
+    {
+      "criterium": "gastroparesis_present"
+    },
+    {
+      "criterium": "constipation_present"
+    },
+    {
+      "criterium": "urinary_retention_present"
+    },
+    {
+      "criterium": "erectile_dysfunction_present"
+    },
+    {
+      "criterium": "syncope_present"
+    },
+    {
+      "criterium": "blood_pressure_lability_present"
+    },
+    {
+      "criterium": "temperature_regulation_dysfunction_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD1",
+      "DRD2",
+      "BDNF",
+      "COMT",
+      "SLC6A4"
+    ],
+    "molecules": [
+      "DOPAMINE",
+      "GLUTAMATE",
+      "GABA",
+      "SEROTONIN",
+      "NOREPINEPHRINE"
+    ],
+    "cells": [
+      "Pyramidal_neurons_VMPFC",
+      "Interneurons_VMPFC",
+      "DOPAMINERGIC_SYNAPSES_VMPFC",
+      "GLUTAMATERGIC_SYNAPSES_VMPFC"
+    ],
+    "circuits": [
+      "vmPFC_amygdala_connectivity",
+      "vmPFC_nucleus_accumbens_connectivity",
+      "vmPFC_dorsolateral_prefrontal_connectivity",
+      "vmPFC_striatum_projection_strength",
+      "orbitofrontal_network_vmPFC"
+    ],
+    "physiology": [
+      "BOLD_signal_vmPFC",
+      "fMRI_activation_vmPFC_goal_value",
+      "CEREBRAL_BLOOD_FLOW_vmPFC"
+    ],
+    "behavior": [
+      "Value_based_choice_frequency",
+      "Value_based_decision_reaction_time",
+      "Reward_sensitivity_in_decision_latency"
+    ],
+    "self_report": [
+      "Subjective_reward_sensitivity",
+      "Expected_value_awareness",
+      "Pleasure_prediction_confidence"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

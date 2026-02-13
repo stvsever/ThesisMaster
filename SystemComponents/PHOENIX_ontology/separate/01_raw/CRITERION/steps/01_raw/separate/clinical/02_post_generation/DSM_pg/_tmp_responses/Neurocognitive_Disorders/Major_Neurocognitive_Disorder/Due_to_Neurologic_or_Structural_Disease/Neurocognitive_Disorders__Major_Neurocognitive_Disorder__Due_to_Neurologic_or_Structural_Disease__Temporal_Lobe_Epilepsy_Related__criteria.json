@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_verbal_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_deficit"
+    },
+    {
+      "criterium": "verbal_learning_deficit"
+    },
+    {
+      "criterium": "confrontation_naming_impairment"
+    },
+    {
+      "criterium": "verbal_fluency_deficit"
+    },
+    {
+      "criterium": "face_recognition_deficit"
+    },
+    {
+      "criterium": "semantic_memory_deficit"
+    },
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "visuospatial_memory_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

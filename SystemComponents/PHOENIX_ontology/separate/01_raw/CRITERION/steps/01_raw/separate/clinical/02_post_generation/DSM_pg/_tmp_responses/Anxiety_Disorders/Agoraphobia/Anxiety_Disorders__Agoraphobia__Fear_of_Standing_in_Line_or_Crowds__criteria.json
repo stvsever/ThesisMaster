@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "line_queue_avoidance"
+    },
+    {
+      "criterium": "crowd_avoidance"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_queue_exposure"
+    },
+    {
+      "criterium": "in_situation_anxiety_in_queue_or_crowd"
+    },
+    {
+      "criterium": "physiological_arousal_in_queue_or_crowd"
+    },
+    {
+      "criterium": "panic_like_symptoms_in_queue_exposure"
+    },
+    {
+      "criterium": "safety_behaviors_in_queue"
+    },
+    {
+      "criterium": "functional_impairment_in_work_social_activities_due_to_queue_fear"
+    },
+    {
+      "criterium": "escape_or_exit_behaviors_in_queue_exposure"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

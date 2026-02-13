@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusional_thought_content"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "disorganized_behavior"
+    },
+    {
+      "criterium": "catatonic_features"
+    },
+    {
+      "criterium": "attention_impairment"
+    },
+    {
+      "criterium": "orientation_disorientation"
+    },
+    {
+      "criterium": "memory_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

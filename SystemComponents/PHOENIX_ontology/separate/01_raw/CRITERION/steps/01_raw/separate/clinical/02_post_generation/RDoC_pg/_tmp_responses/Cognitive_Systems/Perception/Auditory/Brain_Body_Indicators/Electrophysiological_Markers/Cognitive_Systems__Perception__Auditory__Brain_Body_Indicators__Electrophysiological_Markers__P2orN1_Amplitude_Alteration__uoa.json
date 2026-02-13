@@ -1,0 +1,58 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "GRIN1",
+      "GRIN2A",
+      "GRIN2B",
+      "GRIA1",
+      "CACNA1A",
+      "CACNA1D"
+    ],
+    "molecules": [
+      "glutamate",
+      "GABA",
+      "dopamine",
+      "acetylcholine",
+      "noradrenaline",
+      "serotonin"
+    ],
+    "cells": [
+      "pyramidal_neurons_A1",
+      "PV_interneurons_A1",
+      "SST_interneurons_A1",
+      "granular_cells_A1",
+      "stellate_cells_A1",
+      "basket_cells_A1"
+    ],
+    "circuits": [
+      "A1_primary_auditory_cortex",
+      "MGN_medial_geniculate_nucleus",
+      "inferior_colliculus",
+      "planum_temporale",
+      "STG_superior_temporal_gyrus",
+      "auditory_cortical_network"
+    ],
+    "physiology": [
+      "P2_amplitude_mV",
+      "N1_amplitude_mV",
+      "P2_latency_ms",
+      "N1_latency_ms",
+      "P2_N1_amplitude_diff_mV"
+    ],
+    "behavior": [
+      "auditory_discrimination_accuracy",
+      "reaction_time_to_tone_presentation_ms",
+      "gap_detection_threshold_ms",
+      "speech_in_noise_performance",
+      "tonal_discrimination_accuracy"
+    ],
+    "self_report": [
+      "hearing_in_background_noise_difficulty",
+      "auditory_attention_difficulty",
+      "auditory_processing_fatigue",
+      "tinnitus_severity",
+      "sound_intensity_sensitivity"
+    ]
+  },
+  "estimated_prevalence_percent": 4.2
+}

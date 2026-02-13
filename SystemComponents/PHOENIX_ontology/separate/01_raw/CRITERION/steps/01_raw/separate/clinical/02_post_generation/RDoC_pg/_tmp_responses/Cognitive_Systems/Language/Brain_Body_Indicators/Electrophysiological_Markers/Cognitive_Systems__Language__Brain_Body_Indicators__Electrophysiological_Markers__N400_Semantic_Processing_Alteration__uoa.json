@@ -1,0 +1,43 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_V66M",
+      "COMT_rs4680_V158M",
+      "CNTNAP2_rs7794745",
+      "DISC1_rs821597",
+      "APOE_e4_presence"
+    ],
+    "molecules": [
+      "glutamate_concentration",
+      "GABA_concentration",
+      "NMDA_receptor_density",
+      "BDNF_protein_level",
+      "acetylcholine_level"
+    ],
+    "cells": [
+      "left_STG_pyramidal_neuron_count",
+      "left_STG_inhibitory_interneuron_count",
+      "left_MTG_pyramidal_neuron_count",
+      "left_AngularGyrus_neuron_count"
+    ],
+    "circuits": [
+      "left_STG_to_MTG_connectivity",
+      "left_MTG_to_IFG_connectivity",
+      "left_STG_to_IFG_connectivity",
+      "left_AngularGyrus_to_STG_connectivity"
+    ],
+    "physiology": [
+      "N400_amplitude_microvolts",
+      "N400_latency_ms",
+      "N400_topography_left_hemisphere"
+    ],
+    "behavior": [
+      "semantic_incongruity_task_accuracy",
+      "semantic_incongruity_task_reaction_time_ms",
+      "sentence_reading_time_ms",
+      "word_semantic_judgment_accuracy"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 2.0
+}

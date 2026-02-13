@@ -1,0 +1,600 @@
+{
+  "PHYSICAL": {
+    "Physical Health": {
+      "Vitality": {
+        "Energy Levels": {
+          "Energy Balance": {},
+          "Energy Optimization": {},
+          "Energy Sustainability": {},
+          "Energy Renewal": {}
+        },
+        "Health Resilience": {
+          "Proactive Health Maintenance": {},
+          "Preventive Health Strategies": {},
+          "Health Risk Reduction": {},
+          "Immune System Support": {}
+        },
+        "Fitness": {
+          "Cardiovascular Fitness": {
+            "Heart Health": {},
+            "Lung Capacity": {},
+            "Circulatory Efficiency": {},
+            "Endurance Fitness": {}
+          },
+          "Muscular Strength": {
+            "Muscle Building": {},
+            "Physical Power": {},
+            "Body Composition": {},
+            "Functional Strength": {}
+          },
+          "Flexibility": {
+            "Joint Mobility": {},
+            "Muscle Elasticity": {},
+            "Range of Motion": {},
+            "Physical Agility": {}
+          },
+          "Endurance": {
+            "Physical Stamina": {},
+            "Long-Term Performance": {},
+            "Sustained Effort": {},
+            "Energy Conservation": {}
+          }
+        },
+        "Absence of Illness": {
+          "Disease Prevention": {
+            "Health Resilience": {},
+            "Disease Resistance": {},
+            "Preventive Health": {},
+            "Immune Support": {}
+          },
+          "Regular Health Check-Ups": {
+            "Routine Health Assessments": {},
+            "Early Disease Detection": {},
+            "Health Monitoring": {},
+            "Preventive Screening": {}
+          },
+          "Immunizations": {
+            "Vaccination Uptake": {},
+            "Immunity Enhancement": {},
+            "Disease Resistance": {},
+            "Public Health Contributions": {}
+          },
+          "Healthy Immune System": {
+            "Immune Resilience": {},
+            "Balanced Immune Function": {},
+            "Immune System Optimization": {},
+            "Supportive Nutrition": {}
+          }
+        }
+      },
+      "Healthy Lifestyle": {
+        "Balanced Nutrition": {
+          "Nutrient Balance": {},
+          "Dietary Diversity": {},
+          "Hydration Balance": {},
+          "Moderation in Diet": {}
+        },
+        "Regular Exercise": {
+          "Consistent Physical Activity": {},
+          "Aerobic Health": {},
+          "Strength Development": {},
+          "Flexibility Enhancement": {}
+        },
+        "Adequate Sleep": {
+          "Sleep Quality": {},
+          "Sleep Consistency": {},
+          "Restorative Sleep": {},
+          "Sleep Regulation": {}
+        },
+        "Avoidance of Harmful Substances": {
+          "Substance Avoidance": {},
+          "Healthful Choices": {},
+          "Responsible Consumption": {},
+          "Safe Medication Use": {}
+        }
+      },
+      "Physical Safety": {
+        "Freedom from Threats": {
+          "Safe Living Environment": {},
+          "Community Security": {},
+          "Situational Awareness": {},
+          "Emergency Preparedness": {}
+        },
+        "Personal Security": {
+          "Self-Defense Confidence": {},
+          "Risk Awareness": {},
+          "Protective Measures": {},
+          "Safety Planning": {}
+        },
+        "Safe Behaviors": {
+          "Safe Driving Practices": {},
+          "Workplace Safety": {},
+          "Home Safety": {},
+          "Accident Prevention": {}
+        },
+        "Risk Management": {
+          "Risk Assessment": {},
+          "Decision Making": {},
+          "Safety Precautions": {},
+          "Emergency Response": {}
+        }
+      },
+      "Physical Comfort": {
+        "Comfortable Living Conditions": {
+          "Adequate Housing": {},
+          "Environmental Comfort": {},
+          "Comfortable Furnishings": {},
+          "Clean Living Spaces": {}
+        },
+        "Access to Healthcare": {
+          "Healthcare Accessibility": {},
+          "Affordable Care": {},
+          "Preventive Medicine": {},
+          "Health Education": {}
+        },
+        "Relaxation": {
+          "Rest and Recovery": {},
+          "Relaxation Techniques": {},
+          "Stress Reduction": {},
+          "Leisure Engagement": {}
+        },
+        "Pain Management": {
+          "Pain Relief Strategies": {},
+          "Therapeutic Interventions": {},
+          "Medication Management": {},
+          "Alternative Pain Therapies": {}
+        }
+      },
+      "Physical Self-Care": {
+        "Personal Hygiene": {
+          "Personal Cleanliness": {},
+          "Oral Health Maintenance": {},
+          "Skin Health": {},
+          "Grooming Standards": {}
+        },
+        "Medical Check-Ups": {
+          "Health Monitoring": {},
+          "Preventive Health Maintenance": {},
+          "Regular Health Assessments": {},
+          "Medical Relationship Building": {}
+        },
+        "Listening to Body Signals": {
+          "Symptom Awareness": {},
+          "Responsive Action": {},
+          "Body Awareness": {},
+          "Self-Insight": {}
+        },
+        "Healthy Sexuality": {
+          "Sexual Safety": {},
+          "Sexual Autonomy": {},
+          "Sexual Health Responsibility": {},
+          "Sexual Consent Culture": {}
+        }
+      }
+    },
+    "Healthy Lifestyle": {
+      "Balanced Nutrition": {
+        "Healthy Eating Habits": {
+          "Mindful Eating": {},
+          "Portion Control": {},
+          "Nutrient-Dense Choices": {},
+          "Regular Meal Patterns": {}
+        },
+        "Nutrient-Rich Foods": {
+          "Superfood Inclusion": {},
+          "Whole Food Consumption": {},
+          "Varied Diet": {},
+          "Antioxidant-Rich Foods": {}
+        },
+        "Hydration": {
+          "Optimal Fluid Intake": {},
+          "Electrolyte Balance": {},
+          "Consistent Hydration": {},
+          "Hydration Awareness": {}
+        },
+        "Moderation": {
+          "Balanced Consumption": {},
+          "Avoiding Excessive Intake": {},
+          "Mindful Indulgence": {},
+          "Dietary Balance": {}
+        }
+      },
+      "Regular Exercise": {
+        "Physical Activity Routine": {
+          "Consistent Exercise Schedule": {},
+          "Variety in Workouts": {},
+          "Personalized Fitness Plans": {},
+          "Goal-Oriented Training": {}
+        },
+        "Aerobic Exercise": {
+          "Cardiovascular Training": {},
+          "Endurance Activities": {},
+          "Heart-Healthy Exercises": {},
+          "Breathing Efficiency": {}
+        },
+        "Strength Training": {
+          "Muscle Building": {},
+          "Resistance Exercises": {},
+          "Functional Strength": {},
+          "Muscle Endurance": {}
+        },
+        "Flexibility Exercises": {
+          "Joint Mobility": {},
+          "Stretching Practices": {},
+          "Yoga and Pilates": {},
+          "Range of Motion Improvement": {}
+        }
+      },
+      "Adequate Sleep": {
+        "Sleep Hygiene": {
+          "Sleep Environment Optimization": {},
+          "Consistent Sleep Schedule": {},
+          "Pre-Sleep Routines": {},
+          "Reducing Sleep Disruptors": {}
+        },
+        "Regular Sleep Schedule": {
+          "Fixed Bedtimes": {},
+          "Consistent Wake Times": {},
+          "Sleep Duration Management": {},
+          "Sleep Regularity": {}
+        },
+        "Quality Sleep": {
+          "Deep Sleep": {},
+          "REM Sleep": {},
+          "Uninterrupted Sleep": {},
+          "Sleep Comfort": {}
+        },
+        "Restfulness": {
+          "Feeling Refreshed": {},
+          "Low Sleep Disturbances": {},
+          "Relaxed Wakefulness": {},
+          "Mental Clarity Upon Waking": {}
+        }
+      },
+      "Avoidance of Harmful Substances": {
+        "No Smoking": {
+          "Smoking Cessation": {},
+          "Avoiding Secondhand Smoke": {},
+          "Promoting Smoke-Free Environments": {},
+          "Healthy Respiratory Practices": {}
+        },
+        "Moderate Alcohol Use": {
+          "Responsible Drinking": {},
+          "Understanding Limits": {},
+          "Avoiding Excess": {},
+          "Balanced Consumption": {}
+        },
+        "Avoiding Drugs": {
+          "Substance-Free Lifestyle": {},
+          "Awareness of Drug Risks": {},
+          "Support for Sobriety": {},
+          "Healthy Alternatives": {}
+        },
+        "Safe Medication Use": {
+          "Proper Medication Use": {},
+          "Medication Education": {},
+          "Monitoring Medication Effects": {},
+          "Safe Medication Storage": {}
+        }
+      }
+    },
+    "Physical Safety": {
+      "Freedom from Threats": {
+        "Safe Living Environment": {
+          "Secure Home": {},
+          "Safe Neighborhood": {},
+          "Home Security Systems": {},
+          "Safe Entry Practices": {}
+        },
+        "Community Security": {
+          "Community Safety Programs": {},
+          "Neighborhood Watch": {},
+          "Public Safety Awareness": {},
+          "Low Crime Rates": {}
+        },
+        "Situational Awareness": {
+          "Situational Awareness Training": {},
+          "Environmental Awareness": {},
+          "Vigilance in Public Spaces": {},
+          "Personal Safety Training": {}
+        },
+        "Emergency Preparedness": {
+          "Having Emergency Plans": {},
+          "Emergency Kits": {},
+          "Knowledge of Emergency Procedures": {},
+          "Regular Drills": {}
+        }
+      },
+      "Personal Security": {
+        "Self-Defense Confidence": {
+          "Self-Defense Training": {},
+          "Practical Defense Techniques": {},
+          "Confidence Building": {},
+          "Preventive Measures": {}
+        },
+        "Risk Awareness": {
+          "Identifying Potential Risks": {},
+          "Understanding Threats": {},
+          "Evaluating Personal Safety": {},
+          "Mitigating Risks": {}
+        },
+        "Protective Measures": {
+          "Using Safety Devices": {},
+          "Adhering to Safety Protocols": {},
+          "Personal Safety Practices": {},
+          "Defensive Strategies": {}
+        },
+        "Safety Planning": {
+          "Creating Safety Plans": {},
+          "Emergency Contacts": {},
+          "Safe Routes Planning": {},
+          "Crisis Management Plans": {}
+        }
+      },
+      "Safe Behaviors": {
+        "Safe Driving Practices": {
+          "Defensive Driving": {},
+          "Adhering to Traffic Laws": {},
+          "Avoiding Impaired Driving": {},
+          "Maintaining Vehicle Safety": {}
+        },
+        "Workplace Safety": {
+          "Following Safety Procedures": {},
+          "Using Protective Equipment": {},
+          "Workplace Safety Training": {},
+          "Reporting Hazards": {}
+        },
+        "Home Safety": {
+          "Fire Safety": {},
+          "Electrical Safety": {},
+          "Childproofing": {},
+          "Preventing Falls": {}
+        },
+        "Accident Prevention": {
+          "Awareness of Potential Hazards": {},
+          "Using Safety Equipment": {},
+          "Maintaining Safe Environments": {},
+          "Promoting Safe Practices": {}
+        }
+      },
+      "Risk Management": {
+        "Risk Assessment": {
+          "Risk Identification": {},
+          "Risk Evaluation": {},
+          "Risk Prioritization": {},
+          "Risk Mitigation Planning": {}
+        },
+        "Decision Making": {
+          "Informed Decision Making": {},
+          "Weighing Risks and Benefits": {},
+          "Strategic Planning": {},
+          "Risk-Based Choices": {}
+        },
+        "Safety Precautions": {
+          "Implementing Precautions": {},
+          "Using Protective Gear": {},
+          "Adhering to Safety Guidelines": {},
+          "Regular Safety Reviews": {}
+        },
+        "Emergency Response": {
+          "Crisis Management": {},
+          "First Aid Knowledge": {},
+          "Emergency Contact Systems": {},
+          "Responding to Emergencies": {}
+        }
+      }
+    },
+    "Physical Comfort": {
+      "Comfortable Living Conditions": {
+        "Adequate Housing": {
+          "Safe and Secure Housing": {},
+          "Adequate Space": {},
+          "Comfortable Furnishings": {},
+          "Cleanliness": {}
+        },
+        "Environmental Comfort": {
+          "Temperature Control": {},
+          "Climate Regulation": {},
+          "Comfortable Living Spaces": {},
+          "Environmental Aesthetics": {}
+        },
+        "Comfortable Furnishings": {
+          "Ergonomic Furniture": {},
+          "Adequate Seating": {},
+          "Supportive Bedding": {},
+          "Comfort in Living Spaces": {}
+        },
+        "Clean Living Spaces": {
+          "Regular Cleaning": {},
+          "Sanitation Practices": {},
+          "Clutter-Free Environments": {},
+          "Healthy Indoor Air Quality": {}
+        }
+      },
+      "Access to Healthcare": {
+        "Healthcare Accessibility": {
+          "Availability of Healthcare Providers": {},
+          "Access to Specialists": {},
+          "Timely Medical Care": {},
+          "Comprehensive Healthcare Coverage": {}
+        },
+        "Affordable Care": {
+          "Cost-Effective Healthcare": {},
+          "Insurance Coverage": {},
+          "Access to Subsidized Care": {},
+          "Financial Planning for Health": {}
+        },
+        "Preventive Medicine": {
+          "Routine Screenings": {},
+          "Vaccinations": {},
+          "Health Education": {},
+          "Lifestyle Interventions": {}
+        },
+        "Health Education": {
+          "Awareness Programs": {},
+          "Health Literacy": {},
+          "Promoting Healthy Habits": {},
+          "Educational Resources": {}
+        }
+      },
+      "Relaxation": {
+        "Rest and Recovery": {
+          "Scheduled Rest Periods": {},
+          "Active Recovery Techniques": {},
+          "Ensuring Sufficient Rest": {},
+          "Balancing Activity and Rest": {}
+        },
+        "Relaxation Techniques": {
+          "Meditation": {},
+          "Deep Breathing": {},
+          "Progressive Muscle Relaxation": {},
+          "Visualization": {}
+        },
+        "Stress Reduction": {
+          "Managing Daily Stress": {},
+          "Time Management": {},
+          "Healthy Coping Mechanisms": {},
+          "Reducing Life Stressors": {}
+        },
+        "Leisure Engagement": {
+          "Engaging in Hobbies": {},
+          "Participating in Recreational Activities": {},
+          "Pursuing Interests": {},
+          "Enjoying Free Time": {}
+        }
+      },
+      "Pain Management": {
+        "Pain Relief Strategies": {
+          "Non-Pharmacological Pain Relief": {},
+          "Physical Therapy": {},
+          "Mind-Body Techniques": {},
+          "Lifestyle Adjustments": {}
+        },
+        "Therapeutic Interventions": {
+          "Physical Therapy": {},
+          "Massage Therapy": {},
+          "Acupuncture": {},
+          "Chiropractic Care": {}
+        },
+        "Medication Management": {
+          "Proper Medication Use": {},
+          "Pain Medication Education": {},
+          "Monitoring Medication Effects": {},
+          "Safe Medication Storage": {}
+        },
+        "Alternative Pain Therapies": {
+          "Holistic Treatments": {},
+          "Mind-Body Practices": {},
+          "Natural Remedies": {},
+          "Complementary Therapies": {}
+        }
+      }
+    },
+    "Physical Self-Care": {
+      "Personal Hygiene": {
+        "Personal Cleanliness": {
+          "Daily Hygiene Practices": {},
+          "Maintaining Cleanliness": {},
+          "Regular Bathing": {},
+          "Oral Hygiene": {}
+        },
+        "Oral Health Maintenance": {
+          "Brushing Teeth": {},
+          "Flossing": {},
+          "Regular Dental Check-Ups": {},
+          "Maintaining Oral Health": {}
+        },
+        "Skin Health": {
+          "Skincare Practices": {},
+          "Sun Protection": {},
+          "Hydration for Skin": {},
+          "Treating Skin Concerns": {}
+        },
+        "Grooming Standards": {
+          "Hair Care": {},
+          "Nail Care": {},
+          "Personal Appearance": {},
+          "Maintaining Grooming Standards": {}
+        }
+      },
+      "Medical Check-Ups": {
+        "Health Monitoring": {
+          "Regular Health Assessments": {},
+          "Using Health Trackers": {},
+          "Personal Health Records": {},
+          "Continuous Health Monitoring": {}
+        },
+        "Preventive Health Maintenance": {
+          "Routine Medical Visits": {},
+          "Health Screenings": {},
+          "Early Disease Detection": {},
+          "Preventive Care Measures": {}
+        },
+        "Regular Health Assessments": {
+          "Comprehensive Health Evaluations": {},
+          "Periodic Medical Exams": {},
+          "Health Status Reviews": {},
+          "Health Progress Tracking": {}
+        },
+        "Medical Relationship Building": {
+          "Doctor-Patient Trust": {},
+          "Effective Healthcare Communication": {},
+          "Collaborative Health Planning": {},
+          "Building Healthcare Partnerships": {}
+        }
+      },
+      "Listening to Body Signals": {
+        "Symptom Awareness": {
+          "Recognizing Physical Cues": {},
+          "Identifying Health Signals": {},
+          "Understanding Body Responses": {},
+          "Awareness of Physical Changes": {}
+        },
+        "Responsive Action": {
+          "Taking Appropriate Actions": {},
+          "Seeking Medical Advice": {},
+          "Adjusting Activities Based on Signals": {},
+          "Implementing Comfort Measures": {}
+        },
+        "Body Awareness": {
+          "Understanding Body Needs": {},
+          "Self-Monitoring": {},
+          "Body Mindfulness": {},
+          "Physical Self-Insight": {}
+        },
+        "Self-Insight": {
+          "Personal Health Understanding": {},
+          "Recognizing Health Patterns": {},
+          "Analyzing Body Responses": {},
+          "Gaining Health Awareness": {}
+        }
+      },
+      "Healthy Sexuality": {
+        "Sexual Safety": {
+          "Sexual Protection": {},
+          "Preventive Sexual Health": {},
+          "Safe Sexual Practices": {},
+          "Sexual Health Responsibility": {}
+        },
+        "Sexual Autonomy": {
+          "Personal Sexual Agency": {},
+          "Freedom in Sexual Choices": {},
+          "Respecting Sexual Boundaries": {},
+          "Empowering Sexual Decision-Making": {}
+        },
+        "Sexual Health Responsibility": {
+          "Regular STI Testing": {},
+          "Consent Practices": {},
+          "Sexual Health Education": {},
+          "Promoting Sexual Well-being": {}
+        },
+        "Sexual Consent Culture": {
+          "Open Discussions about Consent": {},
+          "Clear Sexual Communication": {},
+          "Mutual Agreement": {},
+          "Respecting Sexual Boundaries": {}
+        }
+      }
+    }
+  }
+}

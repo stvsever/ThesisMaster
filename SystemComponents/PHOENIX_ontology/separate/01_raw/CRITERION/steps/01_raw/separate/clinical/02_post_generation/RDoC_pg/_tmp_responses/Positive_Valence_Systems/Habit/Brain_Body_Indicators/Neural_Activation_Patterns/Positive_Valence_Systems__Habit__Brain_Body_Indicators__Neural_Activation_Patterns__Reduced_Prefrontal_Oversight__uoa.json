@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_rs4680_V158M",
+      "BDNF_rs6265_V66M",
+      "DRD2_rs1800497_Taq1A",
+      "MAOA_uVNTR"
+    ],
+    "molecules": [
+      "Dopamine_D1_receptor",
+      "Dopamine_D2_receptor",
+      "Glutamate_NMDA_receptor_GRIN2B",
+      "GABA_A_receptor_GABRA1",
+      "BDNF"
+    ],
+    "cells": [
+      "dlPFC_layer5_pyramidal_neurons",
+      "striatal_D1_medium_spiny_neurons",
+      "PV_interneurons_DL_PFC"
+    ],
+    "circuits": [
+      "frontostriatal_pathway",
+      "dlPFC_striatum_connectivity",
+      "PFC_dopaminergic_modulation_of_control"
+    ],
+    "physiology": [
+      "dlPFC_BOLD_signal",
+      "frontal_theta_band_power",
+      "pupil_dilation",
+      "heart_rate_variability",
+      "skin_conductance_response"
+    ],
+    "behavior": [
+      "habitual_response_rate",
+      "perseveration_errors_on_inhibition_tasks",
+      "habit_strength_scale_score",
+      "impulsive_actions_occurrence",
+      "intra_session_habit_execution_error_rate"
+    ],
+    "self_report": [
+      "BIS11_total_score",
+      "Self_control_scale_total",
+      "Habit_strength_self_report",
+      "Habit_awareness_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 5.5
+}

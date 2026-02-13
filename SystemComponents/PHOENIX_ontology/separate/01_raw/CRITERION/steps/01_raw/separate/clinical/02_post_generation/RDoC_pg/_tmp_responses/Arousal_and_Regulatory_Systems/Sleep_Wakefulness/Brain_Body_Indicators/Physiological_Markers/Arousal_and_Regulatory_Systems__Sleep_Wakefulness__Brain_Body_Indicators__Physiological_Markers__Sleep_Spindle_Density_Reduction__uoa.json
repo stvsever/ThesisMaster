@@ -1,0 +1,53 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "GABRA1_expression",
+      "GABRB2_expression",
+      "GABRD_expression",
+      "CACNA1G_expression",
+      "CACNA1H_expression",
+      "CACNA1I_expression"
+    ],
+    "molecules": [
+      "GABA_concentration_TRN",
+      "GABA_A_receptor_density_GABRA1",
+      "GABA_B_receptor_density_GABBR1",
+      "CaV3_1_channel_density_CACNA1G",
+      "CaV3_3_channel_density_CACNA1I",
+      "GAD1_expression"
+    ],
+    "cells": [
+      "TRN_GABAergic_neuron_density",
+      "thalamocortical_neuron_density",
+      "cortical_pyramidal_neuron_activity_level",
+      "inhibitory_interneuron_density_THALAMUS",
+      "thalamic_relay_neuron_responsiveness"
+    ],
+    "circuits": [
+      "TRN_TC_loop_synchrony",
+      "ThalamoCortical_coherence_spindle_band",
+      "Spindle_generation_network_phase_locking",
+      "CorticoThalamic_connectivity_spindle_network"
+    ],
+    "physiology": [
+      "sleep_spindle_density_per_min",
+      "spindle_frequency_hz",
+      "spindle_burst_amplitude_microvolts",
+      "N2_sleep_duration_minutes",
+      "N2_sleep_fraction",
+      "spindle_density_normalized_age_adjusted"
+    ],
+    "behavior": [
+      "procedural_memory_task_accuracy_post_sleep",
+      "declarative_memory_task_accuracy_post_sleep",
+      "nighttime_awakenings_count"
+    ],
+    "self_report": [
+      "Pittsburgh_Sleep_Quality_Index_score",
+      "Epworth_Sleepiness_Scale_score",
+      "Insomnia_Severity_Index_score",
+      "Subjective_sleep_quality_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

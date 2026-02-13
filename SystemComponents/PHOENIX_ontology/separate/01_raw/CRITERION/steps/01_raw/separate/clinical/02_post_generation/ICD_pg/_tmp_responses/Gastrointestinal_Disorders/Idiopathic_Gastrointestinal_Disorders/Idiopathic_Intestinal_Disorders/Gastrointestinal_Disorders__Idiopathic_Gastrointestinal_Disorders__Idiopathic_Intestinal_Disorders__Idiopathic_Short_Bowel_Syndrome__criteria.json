@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "disorientation_time_or_place"
+    },
+    {
+      "criterium": "apathy_or_avolition"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    },
+    {
+      "criterium": "peripheral_neuropathy_signs"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "serum_B12_below_normal"
+    },
+    {
+      "criterium": "serum_folate_below_normal"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

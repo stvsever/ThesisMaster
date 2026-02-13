@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "TACTILE_HALLUCINATIONS"
+    },
+    {
+      "criterium": "PERCEPTUAL_ILLUSIONS"
+    },
+    {
+      "criterium": "DEPERSONALIZATION"
+    },
+    {
+      "criterium": "DEREALIZATION"
+    },
+    {
+      "criterium": "PARANOID_DELUSIONS"
+    },
+    {
+      "criterium": "DISORGANIZED_THOUGHT"
+    },
+    {
+      "criterium": "ATTENTION_DEFICIT"
+    },
+    {
+      "criterium": "WORKING_MEMORY_IMPAIRMENT"
+    },
+    {
+      "criterium": "EXECUTIVE_FUNCTION_IMPAIRMENT"
+    },
+    {
+      "criterium": "PROCESSING_SPEED_IMPAIRMENT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

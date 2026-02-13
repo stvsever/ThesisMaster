@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "compulsive_urge_to_break_non_monetary_rules"
+    },
+    {
+      "criterium": "recurrent_non_monetary_rule_breaking_across_settings"
+    },
+    {
+      "criterium": "non_monetary_rule_breaking_without_monetary_gain"
+    },
+    {
+      "criterium": "poor_resistance_to_rule_breaking_impulses"
+    },
+    {
+      "criterium": "cognitive_rationalizations_for_rule_breaking"
+    },
+    {
+      "criterium": "disregard_for_social_norms_when_breaking_rules"
+    },
+    {
+      "criterium": "preoccupation_with_rules_transgression"
+    },
+    {
+      "criterium": "distress_or_impairment_related_to_rule_breaking"
+    },
+    {
+      "criterium": "self_reported_intrusive_urge_to_break_rules"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

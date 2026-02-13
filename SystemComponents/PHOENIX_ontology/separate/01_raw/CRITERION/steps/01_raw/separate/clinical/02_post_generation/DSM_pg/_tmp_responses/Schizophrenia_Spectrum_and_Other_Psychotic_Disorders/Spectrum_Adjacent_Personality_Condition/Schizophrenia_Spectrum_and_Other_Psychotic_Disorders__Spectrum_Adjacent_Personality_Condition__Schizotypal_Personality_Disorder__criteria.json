@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ideas_of_reference"
+    },
+    {
+      "criterium": "magical_thinking"
+    },
+    {
+      "criterium": "odd_speech_pattern"
+    },
+    {
+      "criterium": "unusual_perceptual_experiences"
+    },
+    {
+      "criterium": "paranoid_ideation"
+    },
+    {
+      "criterium": "eccentric_behavior"
+    },
+    {
+      "criterium": "odd_appearance"
+    },
+    {
+      "criterium": "constricted_affect"
+    },
+    {
+      "criterium": "lack_of_close_friends"
+    },
+    {
+      "criterium": "excessive_social_anxiety_with_familiarity"
+    },
+    {
+      "criterium": "social_withdrawal"
+    },
+    {
+      "criterium": "unusual_thought_content"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

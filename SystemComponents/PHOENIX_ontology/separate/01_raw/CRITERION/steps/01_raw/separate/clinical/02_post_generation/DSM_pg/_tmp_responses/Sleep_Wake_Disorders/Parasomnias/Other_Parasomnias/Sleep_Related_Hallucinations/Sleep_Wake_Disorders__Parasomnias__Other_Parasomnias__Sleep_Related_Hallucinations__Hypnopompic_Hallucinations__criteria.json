@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "HP_visual_hallucinations_present"
+    },
+    {
+      "criterium": "HP_auditory_hallucinations_present"
+    },
+    {
+      "criterium": "HP_tactile_hallucinations_present"
+    },
+    {
+      "criterium": "HP_presence_of_entity_or_figure_seen_present"
+    },
+    {
+      "criterium": "HP_environment_misperception_present"
+    },
+    {
+      "criterium": "HP_dream_content_recall_in_wake_state_present"
+    },
+    {
+      "criterium": "HP_disorientation_or_confusion_on_wake_transition_present"
+    },
+    {
+      "criterium": "HP_fear_or_anxiety_reaction_present"
+    },
+    {
+      "criterium": "HP_time_perception_distortion_present"
+    }
+  ],
+  "estimated_prevalence_percent": 7.0
+}

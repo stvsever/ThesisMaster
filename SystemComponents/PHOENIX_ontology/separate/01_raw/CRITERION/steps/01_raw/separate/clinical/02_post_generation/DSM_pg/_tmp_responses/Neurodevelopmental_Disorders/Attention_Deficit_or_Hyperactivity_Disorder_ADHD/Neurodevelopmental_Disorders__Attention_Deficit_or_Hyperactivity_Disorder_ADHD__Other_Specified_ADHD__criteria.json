@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention_to_details"
+    },
+    {
+      "criterium": "difficulty_sustaining_attention"
+    },
+    {
+      "criterium": "easily_distracted_by_external_stimuli"
+    },
+    {
+      "criterium": "forgetfulness_in_daily_tasks"
+    },
+    {
+      "criterium": "organizational_deficits"
+    },
+    {
+      "criterium": "fidgeting"
+    },
+    {
+      "criterium": "interrupting_others"
+    },
+    {
+      "criterium": "blurting_out_responses"
+    },
+    {
+      "criterium": "difficulty_following_through_on_tasks"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

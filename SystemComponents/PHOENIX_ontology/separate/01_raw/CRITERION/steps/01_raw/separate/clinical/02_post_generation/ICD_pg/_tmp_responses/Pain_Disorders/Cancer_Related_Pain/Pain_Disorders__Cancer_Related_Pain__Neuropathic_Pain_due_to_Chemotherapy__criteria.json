@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "spontaneous_neuropathic_pain"
+    },
+    {
+      "criterium": "paroxysmal_shooting_pain"
+    },
+    {
+      "criterium": "burning_pain_descriptors"
+    },
+    {
+      "criterium": "electric_shock_like_pain"
+    },
+    {
+      "criterium": "allodynia_to_light_touch"
+    },
+    {
+      "criterium": "hyperalgesia_to_pinch"
+    },
+    {
+      "criterium": "paresthesias_in_distal_extremities"
+    },
+    {
+      "criterium": "numbness_in_distal_extremities"
+    },
+    {
+      "criterium": "hypoesthesia_to_pinprick"
+    },
+    {
+      "criterium": "reduced_vibration_sense_in_distal_digits"
+    },
+    {
+      "criterium": "motor_weakness_in_distal_muscles"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0
+}

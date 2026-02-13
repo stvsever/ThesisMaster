@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_intense_desire_to_use_amphetamine"
+    },
+    {
+      "criterium": "tolerance_development_increasing_dose_to_achieve_effect"
+    },
+    {
+      "criterium": "withdrawal_symptoms_upon_cessation"
+    },
+    {
+      "criterium": "time_spent_obtaining_and_using_amphetamine"
+    },
+    {
+      "criterium": "unsuccessful_attempts_to_reduce_or_stop_use"
+    },
+    {
+      "criterium": "use_in_hazardous_settings"
+    },
+    {
+      "criterium": "continued_use_despite_physical_or_psychological_problems"
+    },
+    {
+      "criterium": "interpersonal_or_professional_impairment_due_to_use"
+    },
+    {
+      "criterium": "financial_or_legal_problems_related_to_use"
+    },
+    {
+      "criterium": "preoccupation_with_amphetamine_supply"
+    },
+    {
+      "criterium": "psychotic_or_paranoid_symptoms_temporarily_related_to_use"
+    },
+    {
+      "criterium": "sleep_disturbance_or_insomnia_related_to_use"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

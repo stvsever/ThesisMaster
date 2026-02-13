@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "grandiose_delusions"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "disorganized_thoughts"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "gross_disorganized_behavior"
+    },
+    {
+      "criterium": "catatonia"
+    },
+    {
+      "criterium": "manic_features"
+    },
+    {
+      "criterium": "depressive_features"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

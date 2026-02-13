@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT",
+      "DRD2",
+      "DRD4",
+      "BDNF",
+      "CLOCK",
+      "PER1"
+    ],
+    "molecules": [
+      "Dopamine",
+      "Norepinephrine",
+      "Serotonin",
+      "Acetylcholine",
+      "GABA",
+      "Glutamate",
+      "BDNF"
+    ],
+    "cells": [
+      "prefrontal_cortex_pyramidal_neurons",
+      "parvalbumin_positive_interneurons",
+      "striatal_medium_spiny_neurons",
+      "cerebellar_purkinje_cells",
+      "hippocampal_pyramidal_cells",
+      "entorhinal_cortex_neurons"
+    ],
+    "circuits": [
+      "prefrontal_cortex_to_striatum_timing_loop",
+      "cerebellar_thalamo_cortical_loop",
+      "basal_ganglia_timing_loop",
+      "parietal_premotor_timing_network",
+      "hippocampo_temporal_sequence_network"
+    ],
+    "physiology": [
+      "CNV_amplitude",
+      "EEG_theta_power",
+      "EEG_beta_power",
+      "pupil_dilation_index",
+      "heart_rate_variability",
+      "skin_conductance_response"
+    ],
+    "behavior": [
+      "temporal_order_task_accuracy",
+      "temporal_order_discrimination_threshold_ms",
+      "order_recall_latency_ms",
+      "interval_production_error_ms",
+      "sequence_timing_error_rate"
+    ],
+    "self_report": [
+      "time_perception_disruption_self_report",
+      "temporal_order_impairment_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

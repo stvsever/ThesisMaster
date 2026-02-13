@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_expansive_mood"
+    },
+    {
+      "criterium": "increased_goal_directed_activity"
+    },
+    {
+      "criterium": "decreased_need_for_sleep"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "grandiose_delusions"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "disorganized_behavior"
+    },
+    {
+      "criterium": "mood_lability"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

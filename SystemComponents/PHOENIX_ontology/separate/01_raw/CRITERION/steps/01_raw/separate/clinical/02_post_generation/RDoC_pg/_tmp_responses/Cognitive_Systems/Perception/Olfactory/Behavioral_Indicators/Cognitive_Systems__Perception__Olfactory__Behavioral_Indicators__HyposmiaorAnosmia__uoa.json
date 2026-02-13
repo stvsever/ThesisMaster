@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OR1A1",
+      "OR2J3",
+      "OR5A1",
+      "GNAL",
+      "GNAT3",
+      "ADCY3",
+      "CNGA2",
+      "CNGB1"
+    ],
+    "molecules": [
+      "cAMP",
+      "calcium_ion",
+      "ADCY3_protein",
+      "CNGA2_protein",
+      "CNGB1_protein",
+      "GNAL_protein",
+      "GNAT3_protein",
+      "odorant_receptor_protein"
+    ],
+    "cells": [
+      "olfactory_receptor_neuron_density",
+      "basal_progenitor_cell_density",
+      "sustentacular_cell_density",
+      "olfactory_epithelium_cell_density"
+    ],
+    "circuits": [
+      "mitral_cell_firing_rate",
+      "glomerular_map_integrity",
+      "piriform_cortex_neuron_activity",
+      "orbitofrontal_cortex_activation"
+    ],
+    "physiology": [
+      "nasal_airflow_rate",
+      "nasal_resistance",
+      "EOG_amplitude",
+      "nasal_nitric_oxide_concentration",
+      "sniff_initiation_latency"
+    ],
+    "behavior": [
+      "odor_threshold_score",
+      "odor_discrimination_score",
+      "odor_identification_score",
+      "odor_detection_reaction_time"
+    ],
+    "self_report": [
+      "self_report_olfactory_function_score",
+      "self_report_smell_loss_severity",
+      "odor_detection_self_report",
+      "smell_quality_change_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 9.0
+}

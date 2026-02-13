@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusional_conviction_about_body_flaw"
+    },
+    {
+      "criterium": "absent_insight_to_bdd_symptom_belief"
+    },
+    {
+      "criterium": "unshakeable_disfigurement_belief_despite_evidence"
+    },
+    {
+      "criterium": "resistance_to_counterevidence_from_others_about_appearance"
+    },
+    {
+      "criterium": "mirror_checking_compulsions"
+    },
+    {
+      "criterium": "appearance_related_rumination"
+    },
+    {
+      "criterium": "camouflaging_behaviors_to_hide_disfigurement"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_disfigurement_belief"
+    },
+    {
+      "criterium": "reassurance_seeking_behaviors_about_appearance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

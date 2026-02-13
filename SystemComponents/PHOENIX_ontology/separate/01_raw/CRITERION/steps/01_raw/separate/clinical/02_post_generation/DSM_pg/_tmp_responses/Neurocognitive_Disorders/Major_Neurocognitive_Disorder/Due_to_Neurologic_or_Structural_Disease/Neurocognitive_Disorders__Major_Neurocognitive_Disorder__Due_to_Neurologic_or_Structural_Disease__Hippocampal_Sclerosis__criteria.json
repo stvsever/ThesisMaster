@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "delayed_recall_deficit_for_new_information"
+    },
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "autobiographical_memory_deficit"
+    },
+    {
+      "criterium": "topographical_disorientation"
+    },
+    {
+      "criterium": "spatial_navigation_deficit_in_known_environments"
+    },
+    {
+      "criterium": "hippocampal_dependent_memory_task_performance_reduction"
+    },
+    {
+      "criterium": "reduced_memory_binding_on_associative_learning_tasks"
+    },
+    {
+      "criterium": "preserved_language_fluency"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

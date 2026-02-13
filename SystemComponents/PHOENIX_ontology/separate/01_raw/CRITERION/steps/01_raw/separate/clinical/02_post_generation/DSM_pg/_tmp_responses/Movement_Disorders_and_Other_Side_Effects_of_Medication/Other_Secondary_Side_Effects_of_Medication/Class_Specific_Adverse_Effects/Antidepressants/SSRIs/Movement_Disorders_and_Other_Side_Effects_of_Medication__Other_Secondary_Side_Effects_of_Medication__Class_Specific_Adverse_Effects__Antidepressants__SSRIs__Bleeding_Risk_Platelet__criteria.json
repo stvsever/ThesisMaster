@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "epistaxis"
+    },
+    {
+      "criterium": "gingival_bleeding_on_brushing"
+    },
+    {
+      "criterium": "easy_bruising_without_injury"
+    },
+    {
+      "criterium": "petechiae_present"
+    },
+    {
+      "criterium": "ecchymosis_on_skin"
+    },
+    {
+      "criterium": "menorrhagia"
+    },
+    {
+      "criterium": "GI_bleeding_events"
+    },
+    {
+      "criterium": "postprocedural_bleeding_after_minor_dental_procedure"
+    },
+    {
+      "criterium": "mucosal_bleeding_after_minimal_trauma"
+    },
+    {
+      "criterium": "prolonged_bleeding_time"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

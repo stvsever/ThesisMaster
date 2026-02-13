@@ -1,0 +1,21 @@
+{
+  "domain_path": "BIO / Nutrition_Hydration_and_Metabolic_Health / Caffeine_and_Stimulant_Intake_Modulation",
+  "domain_root_path": [
+    "BIO",
+    "Nutrition_Hydration_and_Metabolic_Health",
+    "Caffeine_and_Stimulant_Intake_Modulation"
+  ],
+  "leaf_count": 7,
+  "total_edges_in_subtree": 7,
+  "evaluated_pairs": 7,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "d94d24b7f02f9f1f04ba19a83406f71c26bb965a",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 10.509
+}

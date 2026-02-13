@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "slowed_fine_motor_tapping_velocity"
+    },
+    {
+      "criterium": "reduced_reaching_movement_speed"
+    },
+    {
+      "criterium": "masked_facies"
+    },
+    {
+      "criterium": "hypophonia"
+    },
+    {
+      "criterium": "micrographia"
+    },
+    {
+      "criterium": "reduced_arm_swing_during_gait"
+    },
+    {
+      "criterium": "shuffling_gait_pattern"
+    },
+    {
+      "criterium": "festination"
+    },
+    {
+      "criterium": "delayed_gait_initiation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

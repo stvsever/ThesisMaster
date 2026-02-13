@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ma2_antibody_positive_serum_csf"
+    },
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "seizures_present"
+    },
+    {
+      "criterium": "altered_mental_status"
+    },
+    {
+      "criterium": "psychiatric_symptoms_present"
+    },
+    {
+      "criterium": "bilateral_medial_temporal_lobe_hyperintensities_mri"
+    },
+    {
+      "criterium": "csf_pleocytosis_present"
+    },
+    {
+      "criterium": "csf_oligoclonal_bands_present"
+    },
+    {
+      "criterium": "eeg_temporal_lobe_epileptiform_activity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

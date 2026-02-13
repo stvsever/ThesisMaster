@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M_variant",
+      "COMT_V158M_variant",
+      "FKBP5_risk_allele",
+      "NR3C1_GCR_variant",
+      "CACNA1C_risk_variant"
+    ],
+    "molecules": [
+      "BDNF_protein_concentration",
+      "GABA_A_receptor_GABRA1_phosphorylation",
+      "NMDA_receptor_GRIN2B_phosphorylation",
+      "CRF_plasma_concentration",
+      "Dopamine_D2_receptor_availability"
+    ],
+    "cells": [
+      "amygdala_pyramidal_neuron_firing_rate_during_safety_cues",
+      "vmPFC_pyramidal_neuron_firing_rate_during_safety_cues",
+      "parvalbumin_interneuron_density_prefrontal_cortex",
+      "hippocampal_neuron_population_activity_safety_encoding",
+      "glutamatergic_synapse_density_amygdala"
+    ],
+    "circuits": [
+      "functional_connectivity_amygdala_vmPFC_safety_signal",
+      "functional_connectivity_amygdala_hippocampus_safety_encoding",
+      "vmPFC_activation_during_safety_signal"
+    ],
+    "physiology": [
+      "skin_conductance_response_to_safety_cue",
+      "heart_rate_variability_during_safety_signal",
+      "pupil_dilation_to_safety_signal",
+      "cortisol_reactivity_to_safety_cue",
+      "respiratory_rate_change_during_safety_signal"
+    ],
+    "behavior": [
+      "avoidance_responses_frequency_to_safety_cues",
+      "freeze_behavior_frequency_during_safety_signals",
+      "risk_assessment_latency_to_safety_signal",
+      "explicit_safety_cue_learning_rate"
+    ],
+    "self_report": [
+      "self_report_safety_signal_underutilization_frequency",
+      "self_report_confidence_in_safety_signals",
+      "perceived_efficacy_of_safety_signals",
+      "self_report_safety_cue_discrimination_accuracy"
+    ]
+  },
+  "estimated_prevalence_percent": 9.7
+}

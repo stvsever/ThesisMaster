@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_reexperiencing_symptoms"
+    },
+    {
+      "criterium": "distress_in_response_to_cues"
+    },
+    {
+      "criterium": "avoidance_of_trauma_thoughts_or_memories"
+    },
+    {
+      "criterium": "avoidance_of_trauma_related_external_reminders"
+    },
+    {
+      "criterium": "negative_beliefs_about_self_or_world"
+    },
+    {
+      "criterium": "persistent_negative_affect"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "concentration_difficulties"
+    },
+    {
+      "criterium": "irritability_or_aggressive_outbursts"
+    },
+    {
+      "criterium": "hypervigilance"
+    },
+    {
+      "criterium": "exaggerated_startle_response"
+    }
+  ],
+  "estimated_prevalence_percent": 5.3
+}

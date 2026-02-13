@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "digit_symbol_quantity_mapping_deficit"
+    },
+    {
+      "criterium": "magnitude_comparison_deficit"
+    },
+    {
+      "criterium": "one_to_one_correspondence_deficit"
+    },
+    {
+      "criterium": "place_value_understanding_deficit"
+    },
+    {
+      "criterium": "finger_counting_dependence_observed"
+    },
+    {
+      "criterium": "mental_math_estimation_deficit"
+    },
+    {
+      "criterium": "arithmetic_fact_retrieval_deficit"
+    },
+    {
+      "criterium": "number_line_estimation_inaccuracy"
+    },
+    {
+      "criterium": "digit_recognition_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

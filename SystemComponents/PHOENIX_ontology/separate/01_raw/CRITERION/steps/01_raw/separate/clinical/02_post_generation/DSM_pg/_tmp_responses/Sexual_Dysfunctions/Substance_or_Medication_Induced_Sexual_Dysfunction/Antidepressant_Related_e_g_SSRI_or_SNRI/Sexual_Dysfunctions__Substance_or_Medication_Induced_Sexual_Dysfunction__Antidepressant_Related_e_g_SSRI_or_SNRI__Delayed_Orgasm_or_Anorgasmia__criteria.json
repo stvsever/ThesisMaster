@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "orgasm_latency_prolonged"
+    },
+    {
+      "criterium": "orgasmic_sensation_reduced"
+    },
+    {
+      "criterium": "absence_of_orgasm_despite_prolonged_stimulation"
+    },
+    {
+      "criterium": "failure_to_reach_orgasm_with_standard_stimulation"
+    },
+    {
+      "criterium": "reduced_frequency_of_orgasm_events"
+    },
+    {
+      "criterium": "diminished_pelvic_contraction_amplitude_at_climax"
+    },
+    {
+      "criterium": "inconsistent_orgasm_timing_across_sexual_activities"
+    },
+    {
+      "criterium": "reduced_orgasmic_sensation_across_modalities"
+    },
+    {
+      "criterium": "absence_of_orgasm_despite_high_arousal_levels"
+    }
+  ],
+  "estimated_prevalence_percent": 4.0
+}

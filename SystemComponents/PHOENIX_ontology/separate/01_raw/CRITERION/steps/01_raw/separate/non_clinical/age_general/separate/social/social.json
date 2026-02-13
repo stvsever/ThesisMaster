@@ -1,0 +1,1046 @@
+{
+  "SOCIAL": {
+    "Positive Relationships": {
+      "Trust": {
+        "Reliability": {
+          "Consistent Behavior": {},
+          "Dependable Actions": {},
+          "Predictable Responses": {}
+        },
+        "Honesty": {
+          "Truthfulness": {},
+          "Transparency": {},
+          "Sincerity": {}
+        },
+        "Dependability": {
+          "Commitment Fulfillment": {},
+          "Supportive Actions": {},
+          "Reliable Presence": {}
+        },
+        "Confidence in Others": {
+          "Belief in Others' Abilities": {},
+          "Trust in Others' Judgments": {},
+          "Assurance in Relationships": {}
+        }
+      },
+      "Empathy": {
+        "Understanding Others’ Feelings": {
+          "Emotional Recognition": {},
+          "Perspective-Taking": {},
+          "Emotional Insight": {}
+        },
+        "Emotional Support": {
+          "Providing Comfort": {},
+          "Offering Encouragement": {},
+          "Being Present": {}
+        },
+        "Compassion": {
+          "Showing Care": {},
+          "Responding to Needs": {},
+          "Altruistic Behavior": {}
+        },
+        "Active Listening": {
+          "Engaged Listening": {},
+          "Reflective Listening": {},
+          "Non-Interruptive Listening": {}
+        }
+      },
+      "Intimacy": {
+        "Emotional Closeness": {
+          "Deep Emotional Sharing": {},
+          "Trust in Vulnerability": {},
+          "Emotional Synchrony": {}
+        },
+        "Vulnerability": {
+          "Sharing Personal Feelings": {},
+          "Being Open": {},
+          "Expressing Fears and Hopes": {}
+        },
+        "Shared Experiences": {
+          "Creating Memories Together": {},
+          "Participating in Joint Activities": {},
+          "Building Shared Histories": {}
+        },
+        "Deep Connections": {
+          "Strong Emotional Bonds": {},
+          "Meaningful Relationships": {},
+          "Intimate Partnerships": {}
+        },
+        "Sexual Intimacy": {
+          "Consensual Sexual Relationships": {
+            "Mutual Consent": {
+              "Affirmative Consent": {
+                "Explicit Agreement": {},
+                "Enthusiastic Participation": {},
+                "Clear Communication": {}
+              },
+              "Ongoing Consent": {
+                "Continuous Affirmation": {},
+                "Respecting Withdrawal": {},
+                "Adaptive Consent Practices": {}
+              },
+              "Clear Communication of Consent": {
+                "Verbal Affirmations": {},
+                "Non-Verbal Cues": {},
+                "Transparent Discussions": {}
+              }
+            },
+            "Respect for Boundaries": {
+              "Understanding Personal Limits": {
+                "Self-Awareness": {},
+                "Recognizing Comfort Zones": {},
+                "Identifying Triggers": {}
+              },
+              "Respecting Partner's Boundaries": {
+                "Listening Actively": {},
+                "Validating Feelings": {},
+                "Adjusting Behaviors Accordingly": {}
+              },
+              "Adjusting to Changing Boundaries": {
+                "Flexibility in Relationships": {},
+                "Revisiting Boundaries Regularly": {},
+                "Evolving Consent Practices": {}
+              }
+            },
+            "Equality in Relationships": {
+              "Balanced Power Dynamics": {
+                "Shared Decision Making": {},
+                "Mutual Influence": {},
+                "Equitable Responsibilities": {}
+              },
+              "Shared Decision Making": {
+                "Collaborative Choices": {},
+                "Joint Planning": {},
+                "Consensus Building": {}
+              },
+              "Mutual Respect": {
+                "Valuing Each Other's Opinions": {},
+                "Honoring Differences": {},
+                "Supporting Each Other's Goals": {}
+              }
+            }
+          },
+          "Mutual Sexual Satisfaction": {
+            "Shared Pleasure": {
+              "Exploring Preferences": {
+                "Discovering Likes and Dislikes": {},
+                "Experimenting with Activities": {},
+                "Personalized Intimacy Practices": {}
+              },
+              "Enhancing Physical Pleasure": {
+                "Understanding Physical Cues": {},
+                "Using Enhancements Responsibly": {},
+                "Prioritizing Comfort": {}
+              },
+              "Enjoying Intimate Activities Together": {
+                "Participating in Joint Activities": {},
+                "Creating Memorable Experiences": {},
+                "Fostering Playfulness": {}
+              }
+            },
+            "Emotional Fulfillment": {
+              "Feeling Connected": {
+                "Emotional Synchrony": {},
+                "Deep Emotional Bonds": {},
+                "Sense of Unity": {}
+              },
+              "Sense of Belonging": {
+                "Embracing Togetherness": {},
+                "Feeling Included in Each Other's Lives": {},
+                "Building a Shared Identity": {}
+              },
+              "Emotional Security": {
+                "Trusting Each Other": {},
+                "Providing Emotional Safety": {},
+                "Reducing Anxiety through Intimacy": {}
+              }
+            },
+            "Physical Well-being": {
+              "Health and Hygiene": {
+                "Maintaining Personal Hygiene": {},
+                "Regular Health Check-ups": {},
+                "Promoting Sexual Health": {}
+              },
+              "Comfort and Safety": {
+                "Creating a Safe Environment": {},
+                "Ensuring Physical Comfort": {},
+                "Preventing Injuries": {}
+              },
+              "Physical Fitness": {
+                "Encouraging Active Lifestyles": {},
+                "Supporting Each Other's Health Goals": {},
+                "Promoting Physical Strength and Endurance": {}
+              }
+            }
+          },
+          "Healthy Sexual Communication": {
+            "Expressing Desires and Needs": {
+              "Open Expression": {
+                "Sharing Sexual Desires": {},
+                "Communicating Needs Clearly": {},
+                "Encouraging Honest Dialogue": {}
+              },
+              "Honest Sharing": {
+                "Being Truthful About Preferences": {},
+                "Admitting Discomforts": {},
+                "Fostering Transparency": {}
+              },
+              "Effective Articulation": {
+                "Using Clear Language": {},
+                "Avoiding Ambiguity": {},
+                "Ensuring Mutual Understanding": {}
+              }
+            },
+            "Discussing Boundaries": {
+              "Setting Sexual Limits": {
+                "Defining Personal Boundaries": {},
+                "Communicating Non-Negotiables": {},
+                "Respecting Agreed Limits": {}
+              },
+              "Negotiating Comfort Levels": {
+                "Adjusting Intimacy Practices": {},
+                "Compromising on Preferences": {},
+                "Ensuring Mutual Comfort": {}
+              },
+              "Adapting to Changes": {
+                "Revisiting Boundaries as Needed": {},
+                "Flexibility in Intimacy": {},
+                "Responding to Evolving Needs": {}
+              }
+            },
+            "Feedback and Adjustment": {
+              "Giving Constructive Feedback": {
+                "Offering Positive Reinforcement": {},
+                "Providing Areas for Improvement": {},
+                "Encouraging Growth": {}
+              },
+              "Receiving Feedback Gracefully": {
+                "Being Open to Suggestions": {},
+                "Avoiding Defensiveness": {},
+                "Valuing Partner's Input": {}
+              },
+              "Making Adjustments Based on Feedback": {
+                "Implementing Changes": {},
+                "Continuous Improvement": {},
+                "Enhancing Relationship Quality": {}
+              }
+            }
+          },
+          "Emotional Bonding through Sexuality": {
+            "Deepening Emotional Connection": {
+              "Sharing Intimate Moments": {
+                "Creating Meaningful Experiences": {},
+                "Engaging in Shared Rituals": {},
+                "Fostering Mutual Enjoyment": {}
+              },
+              "Building Trust Through Intimacy": {
+                "Establishing Reliability": {},
+                "Demonstrating Consistency": {},
+                "Enhancing Dependability": {}
+              },
+              "Emotional Synchrony": {
+                "Harmonizing Emotions": {},
+                "Aligning Emotional States": {},
+                "Achieving Emotional Balance": {}
+              }
+            },
+            "Mutual Vulnerability": {
+              "Being Open and Honest": {
+                "Sharing Personal Stories": {},
+                "Expressing Genuine Feelings": {},
+                "Fostering Authenticity": {}
+              },
+              "Sharing Personal Stories": {
+                "Revealing Past Experiences": {},
+                "Disclosing Personal Insights": {},
+                "Building a Shared Narrative": {}
+              },
+              "Embracing Emotional Risk": {
+                "Taking Emotional Chances": {},
+                "Overcoming Fear of Rejection": {},
+                "Encouraging Mutual Vulnerability": {}
+              }
+            },
+            "Intimacy Beyond Sexuality": {
+              "Emotional Support": {
+                "Providing Comfort During Tough Times": {},
+                "Offering Encouragement": {},
+                "Being a Reliable Support System": {}
+              },
+              "Shared Life Goals": {
+                "Aligning Future Aspirations": {},
+                "Collaborating on Goals": {},
+                "Supporting Each Other's Dreams": {}
+              },
+              "Companionship": {
+                "Enjoying Each Other's Company": {},
+                "Engaging in Shared Interests": {},
+                "Fostering Friendship Within the Relationship": {}
+              }
+            }
+          }
+        }
+      },
+      "Mutual Respect": {
+        "Valuing Others’ Opinions": {
+          "Listening to Perspectives": {},
+          "Appreciating Diverse Views": {},
+          "Acknowledging Contributions": {}
+        },
+        "Equality in Relationships": {
+          "Fair Treatment": {},
+          "Balanced Power Dynamics": {},
+          "Respecting Autonomy": {}
+        },
+        "Appreciation": {
+          "Expressing Gratitude": {},
+          "Recognizing Efforts": {},
+          "Valuing Contributions": {}
+        },
+        "Consideration": {
+          "Being Thoughtful": {},
+          "Respecting Boundaries": {},
+          "Mindful Interactions": {}
+        }
+      }
+    },
+    "Social Integration": {
+      "Sense of Belonging": {
+        "Community Membership": {
+          "Participating in Groups": {},
+          "Identifying with Community": {},
+          "Active Engagement": {}
+        },
+        "Group Identity": {
+          "Shared Values": {},
+          "Cultural Identity": {},
+          "Collective Identity": {}
+        },
+        "Acceptance by Peers": {
+          "Peer Approval": {},
+          "Social Acceptance": {},
+          "Being Included": {}
+        },
+        "Inclusion": {
+          "Inclusive Practices": {},
+          "Diverse Environments": {},
+          "Equal Participation": {}
+        }
+      },
+      "Community Involvement": {
+        "Volunteering": {
+          "Charitable Activities": {},
+          "Service Projects": {},
+          "Helping Initiatives": {}
+        },
+        "Civic Engagement": {
+          "Participating in Civic Duties": {},
+          "Involvement in Local Governance": {},
+          "Advocacy": {}
+        },
+        "Participation in Events": {
+          "Attending Community Events": {},
+          "Organizing Social Gatherings": {},
+          "Engaging in Cultural Events": {}
+        },
+        "Social Activities": {
+          "Joining Clubs and Organizations": {},
+          "Engaging in Recreational Activities": {},
+          "Socializing": {}
+        }
+      },
+      "Social Connectedness": {
+        "Network of Friends": {
+          "Maintaining Friendships": {
+            "Regular Communication": {
+              "Frequency of Interaction": {
+                "Daily": {},
+                "Weekly": {},
+                "Monthly": {}
+              },
+              "Communication Channels": {
+                "In-Person": {},
+                "Digital": {
+                  "Social Media": {},
+                  "Messaging Apps": {},
+                  "Email": {}
+                },
+                "Telephone": {}
+              }
+            },
+            "Conflict Resolution": {
+              "Effective Communication": {
+                "Active Listening": {},
+                "Expressing Feelings": {}
+              },
+              "Mediation Techniques": {
+                "Seeking Common Ground": {},
+                "Compromise": {}
+              },
+              "Apology and Forgiveness": {
+                "Sincere Apologies": {},
+                "Granting Forgiveness": {}
+              }
+            },
+            "Shared Activities": {
+              "Hobbies and Interests": {
+                "Sports": {},
+                "Arts and Crafts": {},
+                "Gaming": {}
+              },
+              "Social Gatherings": {
+                "Parties": {},
+                "Dinners": {},
+                "Outings": {}
+              },
+              "Collaborative Projects": {
+                "Work Projects": {},
+                "Volunteer Activities": {}
+              }
+            },
+            "Trust Building": {
+              "Reliability": {
+                "Consistent Support": {},
+                "Dependability": {}
+              },
+              "Honesty": {
+                "Open Communication": {},
+                "Transparency": {}
+              },
+              "Vulnerability": {
+                "Sharing Personal Thoughts": {},
+                "Emotional Openness": {}
+              }
+            },
+            "Reciprocity": {
+              "Mutual Support": {
+                "Emotional Support": {},
+                "Practical Assistance": {}
+              },
+              "Balanced Give and Take": {
+                "Equitable Efforts": {},
+                "Avoiding One-Sided Relationships": {}
+              },
+              "Shared Responsibilities": {
+                "Joint Decision Making": {},
+                "Task Sharing": {}
+              }
+            }
+          },
+          "Building New Friendships": {
+            "Social Skills Development": {
+              "Active Listening": {},
+              "Effective Communication": {},
+              "Empathy and Understanding": {}
+            },
+            "Opportunities for Interaction": {
+              "Social Events": {
+                "Meetups": {},
+                "Conferences": {},
+                "Workshops": {}
+              },
+              "Community Involvement": {
+                "Volunteer Work": {},
+                "Local Clubs": {},
+                "Religious Groups": {}
+              },
+              "Educational Settings": {
+                "Classes": {},
+                "Seminars": {},
+                "Study Groups": {}
+              }
+            },
+            "Common Interests": {
+              "Hobbies": {
+                "Sports": {},
+                "Arts": {},
+                "Gaming": {}
+              },
+              "Professional Interests": {
+                "Career Goals": {},
+                "Industry Networking": {}
+              },
+              "Cultural Interests": {
+                "Books": {},
+                "Movies": {},
+                "Music": {}
+              }
+            },
+            "Approachability": {
+              "Body Language": {
+                "Open Posture": {},
+                "Eye Contact": {}
+              },
+              "Positive Attitude": {
+                "Optimism": {},
+                "Friendly Demeanor": {}
+              },
+              "Confidence": {
+                "Self-Assuredness": {},
+                "Assertiveness": {}
+              }
+            },
+            "Networking": {
+              "Expanding Social Circles": {
+                "Connecting Through Friends": {},
+                "Professional Networking": {}
+              },
+              "Maintaining Contacts": {
+                "Follow-Ups": {},
+                "Regular Check-Ins": {}
+              },
+              "Leveraging Social Platforms": {
+                "LinkedIn": {},
+                "Facebook": {},
+                "Instagram": {}
+              }
+            }
+          },
+          "Social Support from Friends": {
+            "Emotional Support": {
+              "Providing Comfort": {},
+              "Listening to Concerns": {},
+              "Offering Encouragement": {}
+            },
+            "Instrumental Support": {
+              "Practical Assistance": {
+                "Helping with Tasks": {},
+                "Providing Resources": {}
+              },
+              "Financial Assistance": {},
+              "Transportation Support": {}
+            },
+            "Informational Support": {
+              "Advice and Guidance": {},
+              "Sharing Knowledge": {},
+              "Problem-Solving Assistance": {}
+            },
+            "Appraisal Support": {
+              "Feedback": {},
+              "Validation of Feelings": {},
+              "Constructive Criticism": {}
+            },
+            "Companionship": {
+              "Shared Activities": {},
+              "Mutual Enjoyment": {},
+              "Presence During Events": {}
+            }
+          }
+        },
+        "Family Ties": {
+          "Family Relationships": {},
+          "Interfamily Communication": {},
+          "Family Support Systems": {}
+        },
+        "Social Media Connections": {
+          "Online Friendships": {},
+          "Digital Communities": {},
+          "Social Networking": {}
+        },
+        "Professional Networks": {
+          "Workplace Relationships": {},
+          "Professional Associations": {},
+          "Career Networking": {}
+        }
+      },
+      "Acceptance by Others": {
+        "Social Approval": {
+          "Seeking Validation": {},
+          "Receiving Positive Feedback": {},
+          "Social Recognition": {}
+        },
+        "Validation": {
+          "Emotional Validation": {},
+          "Acknowledgment of Feelings": {},
+          "Recognition of Experiences": {}
+        },
+        "Supportive Relationships": {
+          "Providing and Receiving Support": {},
+          "Emotional Support Systems": {},
+          "Reliable Support": {}
+        },
+        "Positive Feedback": {
+          "Encouraging Feedback": {},
+          "Constructive Feedback": {},
+          "Affirmative Feedback": {}
+        }
+      }
+    },
+    "Social Contribution": {
+      "Feeling Useful": {
+        "Helping Others": {
+          "Providing Assistance": {},
+          "Supporting Peers": {},
+          "Aiding in Needs": {}
+        },
+        "Mentorship": {
+          "Guiding Others": {},
+          "Providing Advice": {},
+          "Teaching and Coaching": {}
+        },
+        "Providing Value": {
+          "Contributing Skills": {},
+          "Sharing Knowledge": {},
+          "Adding to Others' Lives": {}
+        },
+        "Community Service": {
+          "Participating in Service Projects": {},
+          "Volunteering Time": {},
+          "Engaging in Service Activities": {}
+        }
+      },
+      "Contribution to Community": {
+        "Charitable Work": {
+          "Donating to Causes": {},
+          "Organizing Charity Events": {},
+          "Supporting Non-Profits": {}
+        },
+        "Environmental Efforts": {
+          "Sustainable Practices": {},
+          "Conservation Activities": {},
+          "Environmental Advocacy": {}
+        },
+        "Social Initiatives": {
+          "Promoting Social Change": {},
+          "Initiating Community Projects": {},
+          "Supporting Social Causes": {}
+        },
+        "Public Service": {
+          "Engaging in Public Duties": {},
+          "Serving the Public": {},
+          "Contributing to Public Welfare": {}
+        }
+      },
+      "Helping Others": {
+        "Acts of Kindness": {
+          "Performing Kind Acts": {},
+          "Random Acts of Kindness": {},
+          "Kindness in Daily Life": {}
+        },
+        "Supportive Actions": {
+          "Providing Emotional Support": {},
+          "Offering Practical Help": {},
+          "Being There for Others": {}
+        },
+        "Sharing Resources": {
+          "Resource Sharing": {},
+          "Providing Access to Resources": {},
+          "Sharing Knowledge and Skills": {}
+        },
+        "Volunteering": {
+          "Dedicated Volunteering": {},
+          "Occasional Volunteering": {},
+          "Consistent Volunteering": {}
+        }
+      },
+      "Social Responsibility": {
+        "Ethical Behavior": {
+          "Maintaining Integrity": {},
+          "Upholding Moral Standards": {},
+          "Consistent Ethical Conduct": {}
+        },
+        "Civic Duty": {
+          "Fulfilling Civic Obligations": {},
+          "Participating in Civic Activities": {},
+          "Engaging in Civic Responsibilities": {}
+        },
+        "Advocacy": {
+          "Promoting Social Causes": {},
+          "Advocating for Change": {},
+          "Supporting Advocacy Initiatives": {}
+        },
+        "Respect for Laws": {
+          "Adhering to Legal Standards": {},
+          "Promoting Legal Compliance": {},
+          "Supporting Justice": {}
+        }
+      }
+    },
+    "Social Actualization": {
+      "Belief in Social Growth": {
+        "Optimism About Society": {
+          "Positive Societal Outlook": {},
+          "Hope for Social Progress": {},
+          "Confidence in Collective Improvement": {}
+        },
+        "Hope for Future Generations": {
+          "Optimism for Youth": {},
+          "Faith in Future Leaders": {},
+          "Belief in Next Generation's Potential": {}
+        },
+        "Faith in Humanity": {
+          "Trust in People": {},
+          "Belief in Human Goodness": {},
+          "Confidence in Human Progress": {}
+        },
+        "Vision for Social Progress": {
+          "Strategic Social Vision": {},
+          "Long-Term Social Goals": {},
+          "Envisioning Better Society": {}
+        }
+      },
+      "Community Development": {
+        "Participation in Social Change": {
+          "Engaging in Social Reforms": {},
+          "Promoting Equity and Justice": {},
+          "Advancing Social Movements": {}
+        },
+        "Supporting Local Initiatives": {
+          "Backing Local Projects": {},
+          "Community Support Programs": {},
+          "Local Leadership Support": {}
+        },
+        "Urban Improvement": {
+          "Enhancing Urban Spaces": {},
+          "Promoting Sustainable Urban Development": {},
+          "Improving Community Infrastructure": {}
+        },
+        "Educational Programs": {
+          "Supporting Education": {},
+          "Promoting Lifelong Learning": {},
+          "Engaging in Educational Outreach": {}
+        }
+      },
+      "Cultural Evolution": {
+        "Embracing Diversity": {
+          "Celebrating Cultural Differences": {},
+          "Promoting Multiculturalism": {},
+          "Fostering Inclusive Environments": {}
+        },
+        "Innovation in Arts": {
+          "Creative Artistic Expression": {},
+          "Supporting the Arts": {},
+          "Encouraging Artistic Innovation": {}
+        },
+        "Cultural Exchange": {
+          "Sharing Cultural Practices": {},
+          "Promoting Cross-Cultural Understanding": {},
+          "Facilitating Cultural Dialogues": {}
+        },
+        "Global Awareness": {
+          "Understanding Global Issues": {},
+          "Engaging in Global Communities": {},
+          "Promoting International Cooperation": {}
+        }
+      },
+      "Faith in People": {
+        "Trust in Others": {
+          "Reliance on Others": {},
+          "Belief in Others' Integrity": {},
+          "Confidence in Social Trust": {}
+        },
+        "Belief in Goodness": {
+          "Assumption of Others' Good Intentions": {},
+          "Expecting Positive Behavior": {},
+          "Belief in Human Kindness": {}
+        },
+        "Supportive Attitudes": {
+          "Encouraging Others": {},
+          "Promoting Positive Relationships": {},
+          "Fostering a Supportive Environment": {}
+        },
+        "Positive Social Expectations": {
+          "Optimistic Social Expectations": {},
+          "Belief in Positive Social Outcomes": {},
+          "Confidence in Social Interactions": {}
+        }
+      }
+    },
+    "Social Acceptance": {
+      "Positive Attitude Toward Others": {
+        "Non-Judgmentalism": {
+          "Avoiding Prejudice": {},
+          "Embracing Diversity": {},
+          "Open-Minded Interactions": {}
+        },
+        "Open-Mindedness": {
+          "Willingness to Consider New Ideas": {},
+          "Receptivity to Different Perspectives": {},
+          "Flexibility in Thinking": {}
+        },
+        "Appreciation of Differences": {
+          "Valuing Diversity": {},
+          "Respecting Varied Backgrounds": {},
+          "Celebrating Unique Traits": {}
+        },
+        "Inclusivity": {
+          "Promoting Inclusive Practices": {},
+          "Creating Inclusive Spaces": {},
+          "Ensuring Equal Participation": {}
+        }
+      },
+      "Understanding Diversity": {
+        "Cultural Awareness": {
+          "Knowledge of Different Cultures": {},
+          "Sensitivity to Cultural Norms": {},
+          "Cultural Competence": {}
+        },
+        "Respect for Different Perspectives": {
+          "Valuing Diverse Opinions": {},
+          "Appreciating Varied Viewpoints": {},
+          "Encouraging Diverse Thoughts": {}
+        },
+        "Acceptance of Various Lifestyles": {
+          "Respecting Lifestyle Choices": {},
+          "Embracing Different Life Paths": {},
+          "Valuing Individual Choices": {}
+        },
+        "Global Citizenship": {
+          "Responsibility Toward Global Community": {},
+          "Engagement in Global Issues": {},
+          "Promoting Worldwide Understanding": {}
+        }
+      },
+      "Tolerance": {
+        "Patience with Others": {
+          "Being Patient in Interactions": {},
+          "Allowing Others' Pace": {},
+          "Practicing Patience": {}
+        },
+        "Acceptance of Imperfections": {
+          "Embracing Flaws in Others": {},
+          "Forgiving Mistakes": {},
+          "Understanding Human Imperfection": {}
+        },
+        "Forgiveness": {
+          "Letting Go of Grudges": {},
+          "Forgiving Others": {},
+          "Releasing Resentment": {}
+        },
+        "Peaceful Coexistence": {
+          "Maintaining Harmony": {},
+          "Resolving Conflicts Peacefully": {},
+          "Living Harmoniously": {}
+        }
+      },
+      "Acceptance of Others": {
+        "Empathy": {
+          "Understanding Others' Emotions": {},
+          "Sharing in Others' Feelings": {},
+          "Emotional Resonance": {}
+        },
+        "Compassion": {
+          "Showing Compassion": {},
+          "Offering Support": {},
+          "Caring for Others": {}
+        },
+        "Kindness": {
+          "Performing Kind Acts": {},
+          "Being Considerate": {},
+          "Showing Generosity": {}
+        },
+        "Supportiveness": {
+          "Providing Emotional Support": {},
+          "Encouraging Others": {},
+          "Being Reliably Supportive": {}
+        }
+      }
+    },
+    "Social Skills": {
+      "Communication Skills": {
+        "Effective Speaking": {
+          "Clear Articulation": {},
+          "Expressive Speech": {},
+          "Persuasive Communication": {}
+        },
+        "Active Listening": {
+          "Engaged Listening": {},
+          "Reflective Listening": {},
+          "Non-Interruptive Listening": {}
+        },
+        "Non-Verbal Communication": {
+          "Body Language": {},
+          "Facial Expressions": {},
+          "Gestures": {}
+        },
+        "Clarity of Expression": {
+          "Articulate Communication": {},
+          "Precise Messaging": {},
+          "Unambiguous Expression": {}
+        }
+      },
+      "Conflict Resolution": {
+        "Negotiation Skills": {
+          "Finding Common Ground": {},
+          "Compromise": {},
+          "Effective Bargaining": {}
+        },
+        "Mediation": {
+          "Facilitating Discussions": {},
+          "Impartial Mediation": {},
+          "Resolving Disputes": {}
+        },
+        "Problem Solving": {
+          "Identifying Solutions": {},
+          "Collaborative Problem Solving": {},
+          "Creative Problem Solving": {}
+        },
+        "Emotional Regulation": {
+          "Managing Emotions in Conflict": {},
+          "Staying Calm During Disputes": {},
+          "Maintaining Composure": {}
+        }
+      },
+      "Networking": {
+        "Building Relationships": {
+          "Forming Connections": {},
+          "Maintaining Networks": {},
+          "Strengthening Bonds": {}
+        },
+        "Professional Connections": {
+          "Workplace Relationships": {},
+          "Professional Associations": {},
+          "Career Networking": {}
+        },
+        "Social Engagements": {
+          "Participating in Social Events": {},
+          "Engaging in Social Gatherings": {},
+          "Attending Social Functions": {}
+        },
+        "Community Building": {
+          "Creating Community Networks": {},
+          "Fostering Community Spirit": {},
+          "Building Social Cohesion": {}
+        }
+      },
+      "Relationship Building": {
+        "Trust Development": {
+          "Building Trust Over Time": {},
+          "Establishing Reliability": {},
+          "Fostering Trust": {}
+        },
+        "Shared Interests": {
+          "Finding Common Interests": {},
+          "Engaging in Mutual Hobbies": {},
+          "Bonding Over Shared Activities": {}
+        },
+        "Mutual Support": {
+          "Providing and Receiving Support": {},
+          "Emotional Support Exchange": {},
+          "Reciprocal Support": {}
+        },
+        "Long-Term Connections": {
+          "Sustaining Relationships": {},
+          "Maintaining Long-Term Bonds": {},
+          "Deepening Relationships Over Time": {}
+        }
+      }
+    },
+    "Family": {
+      "Family Cohesion": {
+        "Family Bonding": {
+          "Spending Quality Time Together": {},
+          "Building Strong Family Ties": {},
+          "Creating Family Traditions": {}
+        },
+        "Shared Activities": {
+          "Participating in Joint Activities": {},
+          "Engaging in Family Hobbies": {},
+          "Collaborative Projects": {}
+        },
+        "Emotional Support": {
+          "Providing Emotional Support Within Family": {},
+          "Receiving Emotional Support from Family": {},
+          "Emotional Safety in Family": {}
+        },
+        "Strong Relationships": {
+          "Deep Family Relationships": {},
+          "Maintaining Healthy Family Dynamics": {},
+          "Nurturing Family Bonds": {}
+        }
+      },
+      "Supportive Family Relationships": {
+        "Open Communication": {
+          "Honest Conversations": {},
+          "Expressing Feelings Freely": {},
+          "Transparent Communication": {}
+        },
+        "Trust": {
+          "Building Trust in Family": {},
+          "Maintaining Trust": {},
+          "Trustworthy Interactions": {}
+        },
+        "Mutual Respect": {
+          "Respecting Family Members": {},
+          "Valuing Each Other's Opinions": {},
+          "Upholding Family Values": {}
+        },
+        "Family Traditions": {
+          "Creating Family Rituals": {},
+          "Celebrating Traditions": {},
+          "Maintaining Cultural Traditions": {}
+        }
+      },
+      "Family Communication": {
+        "Active Listening": {
+          "Engaged Listening in Family": {},
+          "Listening Without Interrupting": {},
+          "Understanding Family Members' Perspectives": {}
+        },
+        "Expressing Feelings": {
+          "Sharing Emotions with Family": {},
+          "Communicating Needs and Desires": {},
+          "Emotional Expression in Family": {}
+        },
+        "Conflict Resolution": {
+          "Resolving Family Conflicts": {},
+          "Negotiating Family Disputes": {},
+          "Maintaining Harmony in Family": {}
+        },
+        "Understanding": {
+          "Empathizing with Family Members": {},
+          "Comprehending Family Dynamics": {},
+          "Recognizing Each Other's Needs": {}
+        }
+      },
+      "Intergenerational Support": {
+        "Caring for Elders": {
+          "Supporting Elder Family Members": {},
+          "Providing Care for Seniors": {},
+          "Respecting Elderly Family Members": {}
+        },
+        "Mentoring Youth": {
+          "Guiding Younger Family Members": {},
+          "Providing Advice and Support to Youth": {},
+          "Encouraging Young Family Members": {}
+        },
+        "Family History Sharing": {
+          "Sharing Ancestral Stories": {},
+          "Preserving Family Heritage": {},
+          "Passing Down Traditions": {}
+        },
+        "Emotional Support Across Generations": {
+          "Intergenerational Emotional Support": {},
+          "Emotional Bonds Between Generations": {},
+          "Supporting Family Members of All Ages": {}
+        }
+      },
+      "Interpersonal Relationships": {
+        "Parent-Child Relationships": {
+          "Parental Support": {},
+          "Nurturing Relationships": {},
+          "Guidance and Mentorship": {},
+          "Emotional Bonding": {}
+        },
+        "Sibling Relationships": {
+          "Brother-Sister Bonds": {},
+          "Support Among Siblings": {},
+          "Shared Experiences": {},
+          "Conflict Resolution Among Siblings": {}
+        },
+        "Extended Family Relationships": {
+          "Cousin Relationships": {},
+          "Aunt-Uncle Relationships": {},
+          "Grandparent-Grandchild Bonds": {},
+          "Family Network Support": {}
+        },
+        "Romantic Relationships": {
+          "Partner Support": {},
+          "Emotional and Sexual Intimacy": {},
+          "Mutual Growth": {},
+          "Shared Goals and Values": {}
+        }
+      }
+    }
+  }
+}

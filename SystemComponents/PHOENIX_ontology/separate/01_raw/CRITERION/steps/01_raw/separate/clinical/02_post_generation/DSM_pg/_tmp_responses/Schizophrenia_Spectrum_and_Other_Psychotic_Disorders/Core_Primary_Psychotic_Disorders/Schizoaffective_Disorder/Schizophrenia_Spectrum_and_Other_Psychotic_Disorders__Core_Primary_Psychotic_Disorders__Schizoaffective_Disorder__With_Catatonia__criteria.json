@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "catatonia_stupor"
+    },
+    {
+      "criterium": "catatonia_mutism"
+    },
+    {
+      "criterium": "negativism"
+    },
+    {
+      "criterium": "waxy_flexibility"
+    },
+    {
+      "criterium": "catalepsy"
+    },
+    {
+      "criterium": "echolalia"
+    },
+    {
+      "criterium": "echopraxia"
+    },
+    {
+      "criterium": "catatonia_posturing"
+    },
+    {
+      "criterium": "catatonia_mannerisms"
+    },
+    {
+      "criterium": "catatonia_stereotyped_movements"
+    },
+    {
+      "criterium": "catatonia_grimacing"
+    },
+    {
+      "criterium": "catatonia_rigidity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

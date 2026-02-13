@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "simple_motor_tics_present"
+    },
+    {
+      "criterium": "complex_motor_tics_present"
+    },
+    {
+      "criterium": "vocal_tics_present"
+    },
+    {
+      "criterium": "premonitory_urge_present"
+    },
+    {
+      "criterium": "tic_suppressibility_observed"
+    },
+    {
+      "criterium": "stress_related_increase_in_tic_frequency"
+    },
+    {
+      "criterium": "tics_waxing_waning_over_time"
+    },
+    {
+      "criterium": "coprolalia_present"
+    },
+    {
+      "criterium": "copropraxia_present"
+    },
+    {
+      "criterium": "diurnal_variation_in_tic_frequency"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

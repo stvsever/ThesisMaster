@@ -1,0 +1,45 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_V66M",
+      "COMT_rs4680_V158M",
+      "DRD2_rs1800497_Taq1A_A1"
+    ],
+    "molecules": [
+      "Acetylcholine",
+      "Norepinephrine",
+      "Dopamine",
+      "BDNF",
+      "Glutamate"
+    ],
+    "cells": [
+      "Pyramidal_cells_TPJ",
+      "GABAergic_interneurons_VAN",
+      "Astrocytes_VAN"
+    ],
+    "circuits": [
+      "TPJ_VAN_activation",
+      "IFG_VAN_activation",
+      "TPJ_VAN_connectivity",
+      "IFG_VAN_connectivity"
+    ],
+    "physiology": [
+      "Pupil_dilation_evoked_by_reorienting",
+      "Saccade_latency_to_reorienting_cues",
+      "Heart_rate_increase_during_reorienting",
+      "Pupil_dilation_variability"
+    ],
+    "behavior": [
+      "reaction_time_unexpected_stimulus",
+      "reorienting_accuracy",
+      "cue_reorienting_success_rate",
+      "eye_movement_saccade_rate_during_reorientation"
+    ],
+    "self_report": [
+      "mind_wandering_frequency",
+      "attentional_control_scale_score",
+      "subjective_alertness_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

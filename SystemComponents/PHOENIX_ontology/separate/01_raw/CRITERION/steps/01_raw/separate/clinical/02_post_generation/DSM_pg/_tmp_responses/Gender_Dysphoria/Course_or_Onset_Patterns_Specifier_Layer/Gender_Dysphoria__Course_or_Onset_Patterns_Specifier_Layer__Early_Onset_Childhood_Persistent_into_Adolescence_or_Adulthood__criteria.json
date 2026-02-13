@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cross_gender_identity_in_childhood"
+    },
+    {
+      "criterium": "desire_to_live_as_other_gender"
+    },
+    {
+      "criterium": "distress_with_assigned_sex_characteristics"
+    },
+    {
+      "criterium": "preoccupation_with_other_gender_presentation"
+    },
+    {
+      "criterium": "use_of_other_gender_names_and_pronouns"
+    },
+    {
+      "criterium": "clothing_or_styling_preference_matching_other_gender"
+    },
+    {
+      "criterium": "social_role_preferences_matching_other_gender"
+    },
+    {
+      "criterium": "avoidance_of_body_features_associated_with_assigned_sex"
+    },
+    {
+      "criterium": "preferential_affiliation_with_other_gender_peer_group"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

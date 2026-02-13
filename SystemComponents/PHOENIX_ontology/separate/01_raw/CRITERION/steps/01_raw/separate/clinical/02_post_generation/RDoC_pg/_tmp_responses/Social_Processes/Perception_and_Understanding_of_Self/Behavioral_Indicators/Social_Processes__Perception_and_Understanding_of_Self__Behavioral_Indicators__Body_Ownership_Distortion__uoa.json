@@ -1,0 +1,31 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "parietal_insular_ownership_network_activation",
+      "multisensory_integration_network_connectivity_parietal_insula",
+      "posterior_parietal_cortex_somatosensory_integration_synchrony",
+      "insula_parietal_network_hub_metric",
+      "premotor_parietal_interface_activity"
+    ],
+    "physiology": [
+      "proprioceptive_accuracy",
+      "proprioceptive_drift_magnitude",
+      "tactile_discrimination_threshold",
+      "galvanic_skin_response_to_ownership_stimulus",
+      "heart_rate_variability_during_ownership_task"
+    ],
+    "behavior": [
+      "ownership_illusion_latency",
+      "ownership_illusion_magnitude_observed"
+    ],
+    "self_report": [
+      "embodiment_questionnaire_score",
+      "ownership_susceptibility_scale_score",
+      "subjective_ownership_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 1.5
+}

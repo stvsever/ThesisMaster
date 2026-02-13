@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "stereotypic_motor_movements_present"
+    },
+    {
+      "criterium": "hand_flapping_present"
+    },
+    {
+      "criterium": "body_rocking_present"
+    },
+    {
+      "criterium": "finger_tapping_present"
+    },
+    {
+      "criterium": "self_injurious_behavior_absent"
+    },
+    {
+      "criterium": "stereotypy_persists_across_settings"
+    },
+    {
+      "criterium": "functional_impairment_due_to_stereotypy_present"
+    },
+    {
+      "criterium": "onset_in_early_development_present"
+    },
+    {
+      "criterium": "stereotypy_rhythmicity_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

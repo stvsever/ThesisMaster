@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AQUA_PANIC_ATTACKS_ON_WATER_CUES"
+    },
+    {
+      "criterium": "AQUA_WATER_EXPOSURE_AVERSION_BEHAVIOR"
+    },
+    {
+      "criterium": "AQUA_ANTICIPATORY_ANXIETY_BEFORE_WATER_EXPOSURE"
+    },
+    {
+      "criterium": "AQUA_PALPITATIONS_ON_WATER_CUES"
+    },
+    {
+      "criterium": "AQUA_DIAPHORESIS_ON_WATER_CUES"
+    },
+    {
+      "criterium": "AQUA_PUPILLARY_DILATION_WATER_CUES"
+    },
+    {
+      "criterium": "AQUA_SOB_RESPIRATORY_TIGHTNESS_WATER_CUES"
+    },
+    {
+      "criterium": "AQUA_TREMORS_ON_WATER_EXPOSURE"
+    },
+    {
+      "criterium": "AQUA_MOTOR_FREEZE_ON_WATER_EXPOSURE"
+    },
+    {
+      "criterium": "AQUA_AVOIDANCE_OF_WATER_EXPOSURE"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

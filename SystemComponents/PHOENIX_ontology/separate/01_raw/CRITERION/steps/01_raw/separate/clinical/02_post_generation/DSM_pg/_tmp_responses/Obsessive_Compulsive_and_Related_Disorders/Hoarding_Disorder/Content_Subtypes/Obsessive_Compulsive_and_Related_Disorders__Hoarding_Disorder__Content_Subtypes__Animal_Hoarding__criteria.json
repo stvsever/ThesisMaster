@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_animal_acquisition"
+    },
+    {
+      "criterium": "persistent_inability_to_discard_animals"
+    },
+    {
+      "criterium": "cluttered_living_space_due_to_animals"
+    },
+    {
+      "criterium": "unsafe_living_environment_due_to_animals"
+    },
+    {
+      "criterium": "unsanitary_conditions_due_to_animals"
+    },
+    {
+      "criterium": "chronic_animal_welfare_neglect"
+    },
+    {
+      "criterium": "recurrent_animal_illness_or_injury_due_to_neglect"
+    },
+    {
+      "criterium": "financial_impairment_from_animal_care_expenses"
+    },
+    {
+      "criterium": "social_or_occupational_impairment_due_to_hoarding_of_animals"
+    },
+    {
+      "criterium": "concealment_of_hoard"
+    },
+    {
+      "criterium": "restricted_home_access_due_to_hoarding"
+    },
+    {
+      "criterium": "legal_interventions_for_animal_seizures_or_welfare_concerns"
+    },
+    {
+      "criterium": "frequent_animal_deaths_in_home"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

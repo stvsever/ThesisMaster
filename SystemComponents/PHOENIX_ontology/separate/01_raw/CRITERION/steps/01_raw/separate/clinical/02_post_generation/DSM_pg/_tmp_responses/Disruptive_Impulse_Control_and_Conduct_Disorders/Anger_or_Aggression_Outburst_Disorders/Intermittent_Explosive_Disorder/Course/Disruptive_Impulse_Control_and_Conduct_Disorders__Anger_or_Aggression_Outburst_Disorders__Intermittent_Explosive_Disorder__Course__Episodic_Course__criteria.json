@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "verbal_aggression_outburst"
+    },
+    {
+      "criterium": "physical_aggression_outburst"
+    },
+    {
+      "criterium": "outburst_disproportionate_to_stressor"
+    },
+    {
+      "criterium": "loss_of_control_during_outburst"
+    },
+    {
+      "criterium": "premeditation_absent_during_outburst"
+    },
+    {
+      "criterium": "post_outburst_mood_dysregulation"
+    },
+    {
+      "criterium": "guilt_or_remorse_after_outburst"
+    },
+    {
+      "criterium": "impairment_in_social_or_occupational_functioning_due_to_outburst"
+    },
+    {
+      "criterium": "outburst_involves_damage_to_property_or_people"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

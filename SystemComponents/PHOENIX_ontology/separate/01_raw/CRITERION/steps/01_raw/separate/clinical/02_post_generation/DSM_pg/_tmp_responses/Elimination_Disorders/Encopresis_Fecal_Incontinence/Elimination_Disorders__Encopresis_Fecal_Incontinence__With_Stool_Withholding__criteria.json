@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "volitional_stool_withholding"
+    },
+    {
+      "criterium": "stool_retention_behavior"
+    },
+    {
+      "criterium": "painful_defecation_behaviors"
+    },
+    {
+      "criterium": "abdominal_pain_before_defecation"
+    },
+    {
+      "criterium": "fecal_impaction_present"
+    },
+    {
+      "criterium": "rectal_mass_on_exam"
+    },
+    {
+      "criterium": "overflow_fecal_incontinence"
+    },
+    {
+      "criterium": "stool_passing_only_with_straining"
+    },
+    {
+      "criterium": "toilet_avoidance_behavior"
+    },
+    {
+      "criterium": "fecal_soiling_occurrence"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

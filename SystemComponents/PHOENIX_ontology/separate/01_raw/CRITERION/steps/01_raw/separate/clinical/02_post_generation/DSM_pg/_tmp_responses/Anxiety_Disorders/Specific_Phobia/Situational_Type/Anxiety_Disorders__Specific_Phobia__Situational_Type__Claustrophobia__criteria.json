@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "INTENSE_FEAR_UPON_ENCLOSED_SPACE_EXPOSURE"
+    },
+    {
+      "criterium": "ANTICIPATORY_ANXIETY_BEFORE_ENCLOSED_SPACE_EXPOSURE"
+    },
+    {
+      "criterium": "AVOIDANCE_BEHAVIOR_OF_ENCLOSED_SPACES"
+    },
+    {
+      "criterium": "PANIC_ATTACK_LIKE_EPISODE_ON_ENCLOSED_SPACE_EXPOSURE"
+    },
+    {
+      "criterium": "TACHYCARDIA_ON_ENCLOSED_SPACE_EXPOSURE"
+    },
+    {
+      "criterium": "SWEATING_ON_ENCLOSED_SPACE_EXPOSURE"
+    },
+    {
+      "criterium": "TREMOR_ON_ENCLOSED_SPACE_EXPOSURE"
+    },
+    {
+      "criterium": "DYSPNEA_ON_ENCLOSED_SPACE_EXPOSURE"
+    },
+    {
+      "criterium": "DIZZINESS_ON_ENCLOSED_SPACE_EXPOSURE"
+    },
+    {
+      "criterium": "PALLOR_ON_ENCLOSED_SPACE_EXPOSURE"
+    },
+    {
+      "criterium": "PUPILLARY_DILATION_ON_ENCLOSED_SPACE_EXPOSURE"
+    },
+    {
+      "criterium": "NAUSEA_ON_ENCLOSED_SPACE_EXPOSURE"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

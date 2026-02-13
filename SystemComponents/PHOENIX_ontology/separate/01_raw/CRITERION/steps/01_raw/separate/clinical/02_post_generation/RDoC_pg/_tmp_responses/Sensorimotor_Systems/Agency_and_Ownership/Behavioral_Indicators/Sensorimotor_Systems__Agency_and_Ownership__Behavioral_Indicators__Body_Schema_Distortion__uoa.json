@@ -1,0 +1,46 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M",
+      "COMT_Val158Met",
+      "DRD2_rs1800497",
+      "NRG1_rs6994992"
+    ],
+    "molecules": [
+      "BDNF_protein_level",
+      "DOPAMINE_brain_concentration",
+      "GABA_brain_concentration",
+      "GLUTAMATE_brain_concentration"
+    ],
+    "cells": [
+      "Pyramidal_neuron_density_S1",
+      "Interneuron_PV_density_parietal_cortex",
+      "Astrocyte_density_parietal_cortex",
+      "Microglia_activation_parietal"
+    ],
+    "circuits": [
+      "TPJ_activation_body_ownership_task",
+      "PPC_integration_activation_body_schema_task",
+      "S1_activation_body_owned_condition",
+      "TPJ_PPC_functional_connectivity_body_schema_task"
+    ],
+    "physiology": [
+      "SCR_body_ownership_task",
+      "HRV_body_ownership_task",
+      "Respiratory_rate_change_body_ownership_task",
+      "Blood_pressure_change_body_ownership_task"
+    ],
+    "behavior": [
+      "proprioceptive_drift_angle",
+      "hand_position_matching_error_degrees",
+      "ownership_inference_latency_ms",
+      "illusion_sensitivity_score"
+    ],
+    "self_report": [
+      "body_ownership_rating",
+      "agency_sense_rating",
+      "proprioceptive_discrepancy_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 1.8
+}

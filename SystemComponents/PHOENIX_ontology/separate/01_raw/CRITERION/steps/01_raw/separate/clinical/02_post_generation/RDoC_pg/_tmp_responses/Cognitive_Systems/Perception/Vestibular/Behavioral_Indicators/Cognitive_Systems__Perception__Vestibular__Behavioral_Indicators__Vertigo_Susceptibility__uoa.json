@@ -1,0 +1,33 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "vestibulo_ocular_reflex_circuit_efficiency",
+      "thalamocortical_vestibular_pathway_connectivity",
+      "parietal_insular_vestibular_network_integrity",
+      "cerebellar_vestibular_circuit_synchrony"
+    ],
+    "physiology": [
+      "vestibulo_ocular_reflex_gain",
+      "postural_stability_index",
+      "nystagmus_latency_during_rotary_test",
+      "dynamic_balance_sway_amplitude"
+    ],
+    "behavior": [
+      "vertigo_attack_frequency_per_month",
+      "vertigo_attack_duration_seconds_average",
+      "head_movement_trigger_vertigo_occurrence_rate",
+      "gait_and_balance_impairment_events_per_walk"
+    ],
+    "self_report": [
+      "self_report_vertigo_severity_rating",
+      "self_report_vertigo_frequency_rating",
+      "self_report_vertigo_duration_today_rating",
+      "self_report_motion_sensitivity_rating",
+      "self_report_dizziness_impact_daily_activities_score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

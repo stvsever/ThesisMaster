@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "delusions_of_reference"
+    },
+    {
+      "criterium": "disorganized_thought_form"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "depersonalization"
+    },
+    {
+      "criterium": "derealization"
+    },
+    {
+      "criterium": "perceptual_distortions"
+    },
+    {
+      "criterium": "affect_incongruent_with_thought_content"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

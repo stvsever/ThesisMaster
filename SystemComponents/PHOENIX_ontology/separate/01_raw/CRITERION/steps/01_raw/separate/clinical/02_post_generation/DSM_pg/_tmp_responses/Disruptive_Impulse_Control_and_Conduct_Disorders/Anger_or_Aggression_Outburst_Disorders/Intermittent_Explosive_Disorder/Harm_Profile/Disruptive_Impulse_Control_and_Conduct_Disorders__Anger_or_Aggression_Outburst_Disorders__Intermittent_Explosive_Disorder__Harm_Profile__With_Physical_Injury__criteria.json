@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "outburst_disproportionate_to_stimulus"
+    },
+    {
+      "criterium": "loss_of_control_during_outburst"
+    },
+    {
+      "criterium": "physical_injury_to_other_during_outburst"
+    },
+    {
+      "criterium": "physical_injury_to_self_during_outburst"
+    },
+    {
+      "criterium": "weapon_use_or_threat_during_outburst"
+    },
+    {
+      "criterium": "verbal_aggression_during_outburst"
+    },
+    {
+      "criterium": "rapid_onset_of_outburst_with_minimal_warning"
+    },
+    {
+      "criterium": "remorse_or_concern_after_outburst"
+    },
+    {
+      "criterium": "outbursts_across_multiple_settings"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

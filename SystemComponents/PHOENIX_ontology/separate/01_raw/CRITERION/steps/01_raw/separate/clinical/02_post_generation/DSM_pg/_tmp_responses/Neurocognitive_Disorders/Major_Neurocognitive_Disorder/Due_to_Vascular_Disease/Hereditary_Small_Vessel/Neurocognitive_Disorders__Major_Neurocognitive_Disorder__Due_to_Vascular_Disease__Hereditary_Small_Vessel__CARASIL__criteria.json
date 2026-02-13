@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "premature_scalp_alopecia"
+    },
+    {
+      "criterium": "premature_graying_hair"
+    },
+    {
+      "criterium": "early_onset_spondylosis_degeneration"
+    },
+    {
+      "criterium": "disc_degeneration_back_pain"
+    },
+    {
+      "criterium": "gait_disturbance_subcortical_vascular"
+    },
+    {
+      "criterium": "executive_function_decline"
+    },
+    {
+      "criterium": "subcortical_dementia_profile"
+    },
+    {
+      "criterium": "white_matter_hyperintensities_mri"
+    },
+    {
+      "criterium": "lacunar_infarcts_mri"
+    },
+    {
+      "criterium": "subcortical_cerebral_atrophy"
+    }
+  ],
+  "estimated_prevalence_percent": 1e-06
+}

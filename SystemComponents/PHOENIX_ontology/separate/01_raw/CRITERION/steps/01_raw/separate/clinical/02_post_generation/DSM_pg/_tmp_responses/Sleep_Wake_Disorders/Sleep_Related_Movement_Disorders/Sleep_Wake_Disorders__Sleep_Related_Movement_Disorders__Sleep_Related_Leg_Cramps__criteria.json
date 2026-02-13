@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Nocturnal_calf_foot_cramp_pain_episode"
+    },
+    {
+      "criterium": "Unilateral_leg_spasm_at_night"
+    },
+    {
+      "criterium": "Bilateral_leg_spasm_at_night"
+    },
+    {
+      "criterium": "Abrupt_onset_leg_spasm"
+    },
+    {
+      "criterium": "Severe_intense_cramp_pain_description"
+    },
+    {
+      "criterium": "Arousal_due_to_cramp_pain"
+    },
+    {
+      "criterium": "Cramp_site_locations_calves_or_feet"
+    },
+    {
+      "criterium": "Palpable_muscle_contraction_during_spasm"
+    },
+    {
+      "criterium": "Pain_relief_with_passive_leg_stretch"
+    },
+    {
+      "criterium": "Pain_relief_with_leg_massage"
+    }
+  ],
+  "estimated_prevalence_percent": 25.0
+}

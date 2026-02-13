@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bradykinesia"
+    },
+    {
+      "criterium": "resting_tremor"
+    },
+    {
+      "criterium": "rigidity"
+    },
+    {
+      "criterium": "postural_instability"
+    },
+    {
+      "criterium": "gait_disturbance_shuffling_steps"
+    },
+    {
+      "criterium": "dystonia"
+    },
+    {
+      "criterium": "chorea"
+    },
+    {
+      "criterium": "micrographia"
+    },
+    {
+      "criterium": "masked_facies"
+    },
+    {
+      "criterium": "hypophonia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

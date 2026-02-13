@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "deep_pelvic_pain_during_penetration"
+    },
+    {
+      "criterium": "pain_intensity_during_penetration_NRS_0_10"
+    },
+    {
+      "criterium": "pelvic_floor_hypertonicity_on_examination"
+    },
+    {
+      "criterium": "posterior_vaginal_fornix_tenderness_on_examination"
+    },
+    {
+      "criterium": "pelvic_floor_trigger_points_present"
+    },
+    {
+      "criterium": "vaginal_wall_spasm_during_deep_penetration"
+    },
+    {
+      "criterium": "pain_radiation_to_lower_back_or_hips_during_penetration"
+    },
+    {
+      "criterium": "coital_penetration_aversion_due_to_pain"
+    },
+    {
+      "criterium": "coital_penetration_avoidance_present"
+    },
+    {
+      "criterium": "involuntary_pelvic_floor_contractions_during_penetration"
+    },
+    {
+      "criterium": "pain_provoked_by_deep_bimanual_exam_of_pelvic_floor"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

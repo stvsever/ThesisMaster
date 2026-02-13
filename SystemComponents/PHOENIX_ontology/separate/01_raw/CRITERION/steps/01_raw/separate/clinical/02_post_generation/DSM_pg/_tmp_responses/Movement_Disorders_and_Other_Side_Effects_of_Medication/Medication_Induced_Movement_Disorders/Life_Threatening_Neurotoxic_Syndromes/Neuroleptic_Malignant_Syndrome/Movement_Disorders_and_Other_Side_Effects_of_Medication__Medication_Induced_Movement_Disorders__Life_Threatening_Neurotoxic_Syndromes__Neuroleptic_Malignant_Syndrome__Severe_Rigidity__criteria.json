@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "lead_pipe_rigidity"
+    },
+    {
+      "criterium": "cogwheel_rigidity"
+    },
+    {
+      "criterium": "delirium"
+    },
+    {
+      "criterium": "mutism"
+    },
+    {
+      "criterium": "hyperthermia"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "blood_pressure_lability"
+    },
+    {
+      "criterium": "elevated_serum_ck"
+    },
+    {
+      "criterium": "myoglobinuria"
+    },
+    {
+      "criterium": "leukocytosis"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

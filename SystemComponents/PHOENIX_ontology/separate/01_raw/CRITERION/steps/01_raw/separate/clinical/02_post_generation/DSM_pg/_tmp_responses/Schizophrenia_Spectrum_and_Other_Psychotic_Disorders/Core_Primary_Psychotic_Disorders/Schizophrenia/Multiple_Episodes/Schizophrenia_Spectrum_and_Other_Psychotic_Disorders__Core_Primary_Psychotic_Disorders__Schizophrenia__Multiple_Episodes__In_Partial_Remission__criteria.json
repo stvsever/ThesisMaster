@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusions_mild_residual"
+    },
+    {
+      "criterium": "hallucinations_mild_residual"
+    },
+    {
+      "criterium": "disorganized_thought_residual"
+    },
+    {
+      "criterium": "flat_affect_mild"
+    },
+    {
+      "criterium": "avolition_mild"
+    },
+    {
+      "criterium": "alogia_mild"
+    },
+    {
+      "criterium": "anhedonia_mild"
+    },
+    {
+      "criterium": "social_withdrawal_mild"
+    },
+    {
+      "criterium": "conceptual_disorganization_residual"
+    },
+    {
+      "criterium": "perseveration_mild"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

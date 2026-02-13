@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "body_weight_gain_kg"
+    },
+    {
+      "criterium": "BMI_increase"
+    },
+    {
+      "criterium": "waist_circumference_increase_cm"
+    },
+    {
+      "criterium": "hip_circumference_increase_cm"
+    },
+    {
+      "criterium": "waist_hip_ratio_increase"
+    },
+    {
+      "criterium": "percent_body_fat_increase"
+    },
+    {
+      "criterium": "fat_mass_increase_kg"
+    },
+    {
+      "criterium": "thigh_circumference_increase_cm"
+    },
+    {
+      "criterium": "arm_circumference_increase_cm"
+    },
+    {
+      "criterium": "peripheral_edema_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

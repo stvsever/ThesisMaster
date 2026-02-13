@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "iq_score_50_69"
+    },
+    {
+      "criterium": "adaptive_functioning_deficit_all_settings"
+    },
+    {
+      "criterium": "conceptual_domain_deficit"
+    },
+    {
+      "criterium": "social_domain_deficit"
+    },
+    {
+      "criterium": "practical_domain_deficit"
+    },
+    {
+      "criterium": "language_development_delay_childhood"
+    },
+    {
+      "criterium": "academic_skill_level_below_expected_by_school_age"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "fine_motor_skill_delay"
+    }
+  ],
+  "estimated_prevalence_percent": 0.85
+}

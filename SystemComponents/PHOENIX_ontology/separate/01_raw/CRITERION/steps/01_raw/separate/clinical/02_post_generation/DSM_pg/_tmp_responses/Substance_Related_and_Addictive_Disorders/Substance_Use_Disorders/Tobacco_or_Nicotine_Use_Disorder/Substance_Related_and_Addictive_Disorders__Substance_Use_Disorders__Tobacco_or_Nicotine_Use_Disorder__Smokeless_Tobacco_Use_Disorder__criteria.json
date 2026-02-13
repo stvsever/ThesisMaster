@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tol_smokeless_tobacco_use"
+    },
+    {
+      "criterium": "craving_smokeless_tobacco"
+    },
+    {
+      "criterium": "withdrawal_smokeless_tobacco_abstinence"
+    },
+    {
+      "criterium": "failed_cut_down_smokeless_tobacco"
+    },
+    {
+      "criterium": "continued_use_despite_harm_smokeless_tobacco"
+    },
+    {
+      "criterium": "impaired_role_obligations_smokeless_tobacco"
+    },
+    {
+      "criterium": "social_functioning_impairment_smokeless_tobacco"
+    },
+    {
+      "criterium": "hazardous_use_smokeless_tobacco"
+    },
+    {
+      "criterium": "time_spent_obtaining_using_recovering_smokeless_tobacco"
+    },
+    {
+      "criterium": "loss_of_control_smokeless_tobacco_use"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

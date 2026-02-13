@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "endoscopic_watermelon_stomach_pattern_in_antrum"
+    },
+    {
+      "criterium": "endoscopic_longitudinal_erythematous_stripes_in_gastric_antrum"
+    },
+    {
+      "criterium": "histology_dilated_capillaries_in_gastric_mucosa"
+    },
+    {
+      "criterium": "histology_fibromuscular_hyperplasia_of_gastric_antral_mucosa"
+    },
+    {
+      "criterium": "iron_deficiency_anemia_lab_confirmed"
+    },
+    {
+      "criterium": "low_serum_ferritin"
+    },
+    {
+      "criterium": "low_mean_corpuscular_volume"
+    },
+    {
+      "criterium": "positive_fecal_occult_blood_test"
+    },
+    {
+      "criterium": "documented_hematemesis_or_melena"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_muscularity"
+    },
+    {
+      "criterium": "mirror_checking_behaviors"
+    },
+    {
+      "criterium": "body_comparison_behaviors"
+    },
+    {
+      "criterium": "excessive_time_spent_in_workouts_to_increase_muscle_mass"
+    },
+    {
+      "criterium": "rigid_training_routines_centered_on_muscle_gain"
+    },
+    {
+      "criterium": "dietary_restriction_to_increase_muscle_mass"
+    },
+    {
+      "criterium": "supplement_use_for_muscle_gain"
+    },
+    {
+      "criterium": "anabolic_agent_use_for_muscle_gain"
+    },
+    {
+      "criterium": "reassurance_seeking_about_musculature"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_body_image_concerns"
+    },
+    {
+      "criterium": "camouflaging_or_covering_the_body_in_public"
+    },
+    {
+      "criterium": "perceived_muscle_deficit_despite_objective_muscularity"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

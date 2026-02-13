@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anticipatory_anxiety_public_speaking"
+    },
+    {
+      "criterium": "speaking_avoidance_behavior"
+    },
+    {
+      "criterium": "public_speaking_panic_attacks"
+    },
+    {
+      "criterium": "tachycardia_public_speaking"
+    },
+    {
+      "criterium": "sweating_public_speaking"
+    },
+    {
+      "criterium": "tremor_hands_public_speaking"
+    },
+    {
+      "criterium": "dyspnea_public_speaking"
+    },
+    {
+      "criterium": "nausea_public_speaking"
+    },
+    {
+      "criterium": "catastrophizing_public_speaking_performance"
+    },
+    {
+      "criterium": "urge_escape_public_speaking"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

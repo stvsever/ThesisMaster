@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "paranoid_delusions"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "dissociation"
+    },
+    {
+      "criterium": "synesthesia"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "hyperreflexia"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "seizures"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

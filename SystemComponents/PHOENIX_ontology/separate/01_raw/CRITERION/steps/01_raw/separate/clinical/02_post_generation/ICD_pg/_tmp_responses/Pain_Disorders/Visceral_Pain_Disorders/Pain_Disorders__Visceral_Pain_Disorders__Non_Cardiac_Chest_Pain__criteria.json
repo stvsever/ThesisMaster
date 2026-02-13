@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "thoracic_pain_catastrophizing"
+    },
+    {
+      "criterium": "chest_pain_anxiety"
+    },
+    {
+      "criterium": "fear_of_myocardial_infarction"
+    },
+    {
+      "criterium": "interoceptive_hypervigilance_to_thoracic_signals"
+    },
+    {
+      "criterium": "attention_bias_to_thoracic_sensations"
+    },
+    {
+      "criterium": "autonomic_arousal_in_response_to_thoracic_pain_sensations"
+    },
+    {
+      "criterium": "somatic_symptom_magnification_of_thoracic_pain"
+    },
+    {
+      "criterium": "reassurance_seeking_related_to_chest_pain"
+    },
+    {
+      "criterium": "avoidance_of_physical_activity_due_to_chest_pain"
+    },
+    {
+      "criterium": "health_anxiety_specific_to_cardiac_threat"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

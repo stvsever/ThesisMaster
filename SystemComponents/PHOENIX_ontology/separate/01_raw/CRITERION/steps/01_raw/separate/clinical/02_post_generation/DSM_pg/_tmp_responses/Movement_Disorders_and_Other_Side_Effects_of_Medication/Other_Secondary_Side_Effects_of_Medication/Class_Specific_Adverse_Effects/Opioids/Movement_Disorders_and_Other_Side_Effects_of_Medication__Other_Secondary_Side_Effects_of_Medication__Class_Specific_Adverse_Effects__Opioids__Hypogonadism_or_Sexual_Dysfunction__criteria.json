@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "low_total_testosterone"
+    },
+    {
+      "criterium": "low_free_testosterone"
+    },
+    {
+      "criterium": "decreased_libido"
+    },
+    {
+      "criterium": "erectile_dysfunction"
+    },
+    {
+      "criterium": "anorgasmia"
+    },
+    {
+      "criterium": "testicular_atrophy"
+    },
+    {
+      "criterium": "oligospermia"
+    },
+    {
+      "criterium": "decreased_lean_body_mass"
+    },
+    {
+      "criterium": "increased_body_fat_percentage"
+    },
+    {
+      "criterium": "decreased_bone_mineral_density"
+    },
+    {
+      "criterium": "reduced_muscle_strength"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

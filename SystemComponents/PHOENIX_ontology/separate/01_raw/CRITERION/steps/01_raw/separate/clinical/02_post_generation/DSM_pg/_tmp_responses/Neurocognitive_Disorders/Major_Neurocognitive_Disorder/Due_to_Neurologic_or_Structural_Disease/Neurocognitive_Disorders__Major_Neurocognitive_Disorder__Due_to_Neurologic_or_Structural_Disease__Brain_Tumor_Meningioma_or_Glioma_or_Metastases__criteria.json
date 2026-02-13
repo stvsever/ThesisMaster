@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "anomia"
+    },
+    {
+      "criterium": "receptive_language_impairment"
+    },
+    {
+      "criterium": "expressive_aphasia"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "hemiparesis"
+    },
+    {
+      "criterium": "homonymous_visual_field_deficit"
+    },
+    {
+      "criterium": "seizure_occurrence"
+    },
+    {
+      "criterium": "new_headache_worsening"
+    },
+    {
+      "criterium": "papilledema_present"
+    },
+    {
+      "criterium": "gait_ataxia"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

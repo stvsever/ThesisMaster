@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "addition_fact_retrieval_latency"
+    },
+    {
+      "criterium": "subtraction_fact_retrieval_latency"
+    },
+    {
+      "criterium": "multiplication_fact_retrieval_latency"
+    },
+    {
+      "criterium": "division_fact_retrieval_latency"
+    },
+    {
+      "criterium": "addition_fact_retrieval_accuracy"
+    },
+    {
+      "criterium": "subtraction_fact_retrieval_accuracy"
+    },
+    {
+      "criterium": "multiplication_fact_retrieval_accuracy"
+    },
+    {
+      "criterium": "division_fact_retrieval_accuracy"
+    },
+    {
+      "criterium": "fact_retrieval_strategies_reliance"
+    },
+    {
+      "criterium": "cross_context_fact_retrieval_inconsistency"
+    },
+    {
+      "criterium": "working_memory_load_impact_on_fact_retrieval"
+    },
+    {
+      "criterium": "stress_condition_fact_retrieval_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

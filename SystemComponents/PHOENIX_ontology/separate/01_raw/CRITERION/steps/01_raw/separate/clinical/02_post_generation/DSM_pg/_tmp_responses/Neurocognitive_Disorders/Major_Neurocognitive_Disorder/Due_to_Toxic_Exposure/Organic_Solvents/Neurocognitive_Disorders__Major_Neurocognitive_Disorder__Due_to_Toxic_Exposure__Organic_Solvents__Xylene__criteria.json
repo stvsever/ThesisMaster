@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_deficit"
+    },
+    {
+      "criterium": "retrograde_memory_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "sustained_attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "visuospatial_ability_deficit"
+    },
+    {
+      "criterium": "visuoconstruction_deficit"
+    },
+    {
+      "criterium": "expressive_language_impairment"
+    },
+    {
+      "criterium": "receptive_language_impairment"
+    },
+    {
+      "criterium": "orientation_disorientation"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

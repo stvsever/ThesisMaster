@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Asterixis_present"
+    },
+    {
+      "criterium": "Confusion_present"
+    },
+    {
+      "criterium": "Fatigue_present"
+    },
+    {
+      "criterium": "Pruritus_present"
+    },
+    {
+      "criterium": "Jaundice_present"
+    },
+    {
+      "criterium": "Hepatomegaly_present"
+    },
+    {
+      "criterium": "ALT_elevation"
+    },
+    {
+      "criterium": "AST_elevation"
+    },
+    {
+      "criterium": "Bilirubin_elevation"
+    },
+    {
+      "criterium": "ANA_positivity"
+    },
+    {
+      "criterium": "SMA_positivity"
+    },
+    {
+      "criterium": "LKM1_positivity"
+    },
+    {
+      "criterium": "IgG_elevation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.04
+}

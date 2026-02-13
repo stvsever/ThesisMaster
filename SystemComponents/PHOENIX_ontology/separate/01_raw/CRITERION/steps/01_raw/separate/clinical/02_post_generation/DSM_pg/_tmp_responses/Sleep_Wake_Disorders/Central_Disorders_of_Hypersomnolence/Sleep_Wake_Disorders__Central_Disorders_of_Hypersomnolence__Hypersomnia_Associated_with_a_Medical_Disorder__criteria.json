@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "napping_frequency_high"
+    },
+    {
+      "criterium": "short_MSLT_mean_latency"
+    },
+    {
+      "criterium": "long_nocturnal_sleep_duration"
+    },
+    {
+      "criterium": "unrefreshing_sleep_reported"
+    },
+    {
+      "criterium": "sleep_inertia_severity"
+    },
+    {
+      "criterium": "sleep_fragmentation_night"
+    },
+    {
+      "criterium": "reduced_awakeness_responsiveness"
+    },
+    {
+      "criterium": "cognitive_impairment_due_to_sleepiness"
+    },
+    {
+      "criterium": "decreased_sustained_attention"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "reduced_daytime_performance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

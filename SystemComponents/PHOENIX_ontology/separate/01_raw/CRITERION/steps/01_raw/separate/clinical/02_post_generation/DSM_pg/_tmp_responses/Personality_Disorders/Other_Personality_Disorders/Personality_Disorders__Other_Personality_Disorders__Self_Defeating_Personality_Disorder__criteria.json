@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "self_sabotage_goal_progress"
+    },
+    {
+      "criterium": "chronic_self_criticism"
+    },
+    {
+      "criterium": "pervasive_inadequacy_belief"
+    },
+    {
+      "criterium": "recurrent_shame_and_guilt"
+    },
+    {
+      "criterium": "avoidance_of_opportunities_due_to_fear_of_failure"
+    },
+    {
+      "criterium": "self_punitive_behaviour"
+    },
+    {
+      "criterium": "interpersonal_withdrawal_from_close_relations"
+    },
+    {
+      "criterium": "excessive_need_for_external_validation"
+    },
+    {
+      "criterium": "rumination_on_flaws_and_errors"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

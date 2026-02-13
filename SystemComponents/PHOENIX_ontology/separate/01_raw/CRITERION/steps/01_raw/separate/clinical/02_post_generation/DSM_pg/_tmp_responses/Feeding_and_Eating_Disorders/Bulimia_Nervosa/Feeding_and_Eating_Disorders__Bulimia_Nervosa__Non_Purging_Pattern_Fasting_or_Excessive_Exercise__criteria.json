@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_exercise_to_prevent_weight_gain"
+    },
+    {
+      "criterium": "self_imposed_fasting_to_prevent_weight_gain"
+    },
+    {
+      "criterium": "recurrent_binge_eating_episodes"
+    },
+    {
+      "criterium": "compensatory_fasting_after_binge_eating"
+    },
+    {
+      "criterium": "compensatory_exercise_after_binge_eating"
+    },
+    {
+      "criterium": "preoccupation_with_body_shape_and_weight"
+    },
+    {
+      "criterium": "overvaluation_of_body_shape_in_self_evaluation"
+    },
+    {
+      "criterium": "rigid_calorie_restriction_despite_satiety"
+    },
+    {
+      "criterium": "ritualized_food_restriction_and_meal_planning"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_eating_concerns"
+    },
+    {
+      "criterium": "dietary_rules_interfere_with_daily_activities"
+    },
+    {
+      "criterium": "anxiety_or_distress_around_meals"
+    }
+  ],
+  "estimated_prevalence_percent": 0.07
+}

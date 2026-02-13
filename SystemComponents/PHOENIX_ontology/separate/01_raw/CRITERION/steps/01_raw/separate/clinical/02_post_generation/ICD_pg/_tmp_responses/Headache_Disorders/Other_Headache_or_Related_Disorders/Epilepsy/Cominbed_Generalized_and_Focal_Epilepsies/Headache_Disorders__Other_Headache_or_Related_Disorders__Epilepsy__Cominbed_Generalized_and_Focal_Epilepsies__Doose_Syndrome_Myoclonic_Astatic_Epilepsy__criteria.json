@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "onset_age_before_5_years"
+    },
+    {
+      "criterium": "seizure_type_myoclonic"
+    },
+    {
+      "criterium": "seizure_type_atonic"
+    },
+    {
+      "criterium": "seizure_type_tonic_clonic"
+    },
+    {
+      "criterium": "EEG_generalized_spike_and_wave"
+    },
+    {
+      "criterium": "EEG_polyspike_and_wave"
+    },
+    {
+      "criterium": "normal_development_before_onset"
+    },
+    {
+      "criterium": "developmental_decline_post_onset"
+    },
+    {
+      "criterium": "sleep_related_seizure_exacerbation"
+    },
+    {
+      "criterium": "cognitive_impairment_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

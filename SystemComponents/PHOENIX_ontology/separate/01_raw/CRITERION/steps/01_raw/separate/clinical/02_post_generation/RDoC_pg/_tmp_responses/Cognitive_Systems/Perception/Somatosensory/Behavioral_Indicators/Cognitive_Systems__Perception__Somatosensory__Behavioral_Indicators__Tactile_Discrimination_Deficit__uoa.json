@@ -1,0 +1,42 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "PIEZO2",
+      "STOML3",
+      "BDNF",
+      "NGF"
+    ],
+    "molecules": [
+      "PIEZO2_protein",
+      "BDNF_protein",
+      "NGF_protein",
+      "GDNF_protein"
+    ],
+    "cells": [
+      "Aβ_mechanoreceptor_neurons",
+      "DRG_neurons"
+    ],
+    "circuits": [
+      "VPL_to_S1_thalamocortical_pathway",
+      "S1_primary_somatosensory_cortex_circuit",
+      "S1_to_S2_association_network"
+    ],
+    "physiology": [
+      "two_point_discrimination_threshold_mm",
+      "grating_orientation_threshold_deg",
+      "somatosensory_evoked_potential_latency_ms",
+      "somatosensory_evoked_potential_amplitude_uV"
+    ],
+    "behavior": [
+      "two_point_discrimination_task_accuracy_percent",
+      "texture_discrimination_task_accuracy_percent",
+      "grating_orientation_discrimination_accuracy_percent"
+    ],
+    "self_report": [
+      "self_report_tactile_discrimination_difficulty",
+      "self_report_touch_sensation_changes",
+      "self_report_localized_hypersensitivity"
+    ]
+  },
+  "estimated_prevalence_percent": 3.5
+}

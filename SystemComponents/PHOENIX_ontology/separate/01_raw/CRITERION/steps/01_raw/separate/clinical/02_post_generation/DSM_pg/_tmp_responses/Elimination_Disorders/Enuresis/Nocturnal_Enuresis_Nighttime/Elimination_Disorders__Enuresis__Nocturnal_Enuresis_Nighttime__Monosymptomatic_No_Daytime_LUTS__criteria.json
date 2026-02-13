@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bedwetting_events_per_night"
+    },
+    {
+      "criterium": "bedwetting_events_per_week"
+    },
+    {
+      "criterium": "absence_of_daytime_LUTS"
+    },
+    {
+      "criterium": "primary_nocturnal_enuresis_history_present"
+    },
+    {
+      "criterium": "secondary_nocturnal_enuresis_history_present"
+    },
+    {
+      "criterium": "family_history_of_enuresis_positive"
+    }
+  ],
+  "estimated_prevalence_percent": 4.0
+}

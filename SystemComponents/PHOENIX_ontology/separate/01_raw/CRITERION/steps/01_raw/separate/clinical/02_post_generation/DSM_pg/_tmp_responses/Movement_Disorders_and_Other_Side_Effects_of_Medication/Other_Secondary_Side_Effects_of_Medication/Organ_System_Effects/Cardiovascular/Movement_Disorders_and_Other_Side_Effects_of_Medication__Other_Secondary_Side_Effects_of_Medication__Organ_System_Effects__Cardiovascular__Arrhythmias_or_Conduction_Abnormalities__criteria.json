@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "syncope"
+    },
+    {
+      "criterium": "presyncope"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "bradycardia"
+    },
+    {
+      "criterium": "ventricular_ectopy"
+    },
+    {
+      "criterium": "atrial_ectopy"
+    },
+    {
+      "criterium": "atrial_fibrillation"
+    },
+    {
+      "criterium": "PR_interval_prolongation"
+    },
+    {
+      "criterium": "second_degree_AV_block"
+    },
+    {
+      "criterium": "third_degree_AV_block"
+    },
+    {
+      "criterium": "bundle_branch_block"
+    },
+    {
+      "criterium": "QTc_prolongation"
+    },
+    {
+      "criterium": "QRS_widening"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

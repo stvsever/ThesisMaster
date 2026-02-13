@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "erotic_arousal_to_crossdressing"
+    },
+    {
+      "criterium": "erotic_fantasies_involving_crossdressing"
+    },
+    {
+      "criterium": "masturbation_involving_crossdressing"
+    },
+    {
+      "criterium": "recurrent_urges_to_crossdress"
+    },
+    {
+      "criterium": "compulsive_crossdressing_behaviors"
+    },
+    {
+      "criterium": "crossdressing_attire_as_primary_fetish_stimulus"
+    },
+    {
+      "criterium": "presence_of_fetish_objects_related_to_crossdressing"
+    },
+    {
+      "criterium": "distress_due_to_crossdressing_fetishism"
+    },
+    {
+      "criterium": "impairment_in_social_or_professional_functioning_due_to_crossdressing_fetishism"
+    },
+    {
+      "criterium": "preference_for_crossdressing_in_sexual_context_over_other_stimuli"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

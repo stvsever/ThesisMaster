@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tolerance_gambling_expenditure_increase"
+    },
+    {
+      "criterium": "withdrawal_irritability_on_stopping_gambling"
+    },
+    {
+      "criterium": "recurrent_failed_cutback_attempts"
+    },
+    {
+      "criterium": "excessive_time_spent_gambling_planning_executing_or_recovering"
+    },
+    {
+      "criterium": "gambling_in_response_to_distress_or_negative_affect"
+    },
+    {
+      "criterium": "chasing_losses_to_recover_funds"
+    },
+    {
+      "criterium": "deception_about_gambling_activities"
+    },
+    {
+      "criterium": "relationship_impairment_due_to_gambling"
+    },
+    {
+      "criterium": "occupational_or_educational_impairment_due_to_gambling"
+    },
+    {
+      "criterium": "financial_dependence_on_others_for_gambling_funding"
+    },
+    {
+      "criterium": "continued_gambling_despite_harm_or_risk"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bradykinesia"
+    },
+    {
+      "criterium": "rigidity"
+    },
+    {
+      "criterium": "rest_tremor"
+    },
+    {
+      "criterium": "masked_facies"
+    },
+    {
+      "criterium": "oromandibular_dystonia"
+    },
+    {
+      "criterium": "gait_postural_instability"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "dysphagia"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    },
+    {
+      "criterium": "apathy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

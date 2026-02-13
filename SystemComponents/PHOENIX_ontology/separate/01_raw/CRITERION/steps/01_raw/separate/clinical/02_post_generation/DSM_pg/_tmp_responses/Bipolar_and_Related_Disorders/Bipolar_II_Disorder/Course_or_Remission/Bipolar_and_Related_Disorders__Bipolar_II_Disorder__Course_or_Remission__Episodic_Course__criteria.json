@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypomanic_episode_presence"
+    },
+    {
+      "criterium": "depressive_episode_presence"
+    },
+    {
+      "criterium": "inter_episode_euthymia_presence"
+    },
+    {
+      "criterium": "mood_lability_present"
+    },
+    {
+      "criterium": "rapid_cycling_present"
+    },
+    {
+      "criterium": "suicidality_present"
+    },
+    {
+      "criterium": "psychomotor_agitation_present"
+    },
+    {
+      "criterium": "decreased_sleep_need_present"
+    },
+    {
+      "criterium": "pressured_speech_present"
+    },
+    {
+      "criterium": "increased_goal_directed_activity_present"
+    },
+    {
+      "criterium": "irritability_present"
+    },
+    {
+      "criterium": "anhedonia_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

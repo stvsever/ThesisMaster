@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delayed_sleep_onset_time"
+    },
+    {
+      "criterium": "delayed_wake_time"
+    },
+    {
+      "criterium": "irregular_sleep_wake_schedule"
+    },
+    {
+      "criterium": "nocturnal_sleep_fragmentation"
+    },
+    {
+      "criterium": "daytime_sleepiness_excess"
+    },
+    {
+      "criterium": "daytime_napping_occurrence"
+    },
+    {
+      "criterium": "melatonin_onset_timing_abnormal"
+    },
+    {
+      "criterium": "circadian_light_cycle_misalignment"
+    },
+    {
+      "criterium": "reduced_sleep_efficiency"
+    },
+    {
+      "criterium": "prolonged_sleep_latency"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

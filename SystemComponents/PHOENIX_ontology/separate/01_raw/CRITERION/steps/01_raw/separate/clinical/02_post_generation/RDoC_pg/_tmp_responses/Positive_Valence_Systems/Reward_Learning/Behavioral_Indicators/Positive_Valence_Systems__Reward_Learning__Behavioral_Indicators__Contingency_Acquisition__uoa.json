@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2",
+      "DRD4",
+      "SLC6A3",
+      "COMT",
+      "BDNF",
+      "OPRM1"
+    ],
+    "molecules": [
+      "DOPAMINE",
+      "GLUTAMATE",
+      "GABA",
+      "BDNF",
+      "NMDA_RECEPTOR",
+      "AMPA_RECEPTOR",
+      "DOPAMINE_TRANSPORTER"
+    ],
+    "cells": [
+      "DOPAMINERGIC_NEURON_ACTIVITY",
+      "MSN_DIRECT_NEURON_ACTIVITY",
+      "MSN_INDIRECT_NEURON_ACTIVITY",
+      "PREFRONTAL_CORTEX_PYRAMIDAL_NEURON_ACTIVITY",
+      "STRIATAL_INTERNEURON_DENSITY"
+    ],
+    "circuits": [
+      "VTA_NAC_DOPAMINERGIC_SIGNAL",
+      "PFC_STRIATUM_CONNECTIVITY",
+      "AMYGDALA_PFC_CONNECTIVITY",
+      "NUCLEUS_ACCUMBENS_ACTIVATION"
+    ],
+    "physiology": [
+      "SKIN_CONDUCTANCE_RESPONSE",
+      "HEART_RATE_VARIABILITY",
+      "PUPILLARY_DILATION",
+      "RESPIRATORY_RATE"
+    ],
+    "behavior": [
+      "CS_US_ASSOCIATION_ACQUISITION_RATE",
+      "RESPONSE_SPEED_TO_CS",
+      "RESPONSE_ACCURACY_TO_CS",
+      "RESPONSE_BIAS_TOWARD_HIGH_REWARD",
+      "RESPONSE_SELECTION_BIAS"
+    ],
+    "self_report": [
+      "AWARENESS_OF_CS_US_ASSOCIATION",
+      "REWARD_EXPECTANCY_RATING",
+      "CONTINGENCY_AWARENESS_SCORE",
+      "REWARD_SENSITIVITY_SELF_REPORT"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

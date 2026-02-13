@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "OPIOID_TOLERANCE_DEVELOPMENT"
+    },
+    {
+      "criterium": "OPIOID_WITHDRAWAL_SYMPTOMS_PRESENT"
+    },
+    {
+      "criterium": "CRAVING_FOR_HYDROCODONE"
+    },
+    {
+      "criterium": "INABILITY_TO_CUT_DOWN_OR_STOP_USE"
+    },
+    {
+      "criterium": "REPEATED_USE_IN_HAZARDOUS_SITUATIONS"
+    },
+    {
+      "criterium": "USE_LEADS_TO_SOCIAL_OR_INTERPERSONAL_PROBLEMS"
+    },
+    {
+      "criterium": "FAILURE_TO_FULFILL_MAJOR_ROLES_DUE_TO_USE"
+    },
+    {
+      "criterium": "GIVING_UP_OR_REDUCING_RECREATIONAL_ACTIVITIES_DUE_TO_USE"
+    },
+    {
+      "criterium": "CONTINUED_USE_DESPITE_ADVERSE_HEALTH_PSYCHOLOGICAL_EFFECTS"
+    },
+    {
+      "criterium": "TIME_AND_RESOURCES_COMMITTED_TO_OBTAINING_HYDROCODONE"
+    },
+    {
+      "criterium": "PERSISTENT_USE_TO_AVOID_WITHDRAWAL_SYMPTOMS"
+    },
+    {
+      "criterium": "CONTINUED_USE_DESPITE_LEGAL_SOCIAL_CONSEQUENCES"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

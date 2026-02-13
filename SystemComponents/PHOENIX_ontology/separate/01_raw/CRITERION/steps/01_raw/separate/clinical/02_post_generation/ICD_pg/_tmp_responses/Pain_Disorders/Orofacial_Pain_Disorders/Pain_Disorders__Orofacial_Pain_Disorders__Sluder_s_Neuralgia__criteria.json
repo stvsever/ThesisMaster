@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_orofacial_pain"
+    },
+    {
+      "criterium": "ipsilateral_lacrimation"
+    },
+    {
+      "criterium": "ipsilateral_conjunctival_injection"
+    },
+    {
+      "criterium": "ipsilateral_nasal_congestion"
+    },
+    {
+      "criterium": "ipsilateral_rhinorrhea"
+    },
+    {
+      "criterium": "ipsilateral_ptosis"
+    },
+    {
+      "criterium": "ipsilateral_miosis"
+    },
+    {
+      "criterium": "ipsilateral_facial_sweating"
+    },
+    {
+      "criterium": "ipsilateral_orbital_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

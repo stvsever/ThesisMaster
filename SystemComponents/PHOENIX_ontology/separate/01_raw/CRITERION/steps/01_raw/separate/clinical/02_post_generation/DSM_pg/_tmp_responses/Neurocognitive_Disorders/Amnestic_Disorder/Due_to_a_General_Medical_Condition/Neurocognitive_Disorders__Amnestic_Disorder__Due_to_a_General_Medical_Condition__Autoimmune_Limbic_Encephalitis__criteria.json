@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "subacute_memory_impairment"
+    },
+    {
+      "criterium": "anterograde_amnesia"
+    },
+    {
+      "criterium": "altered_mental_status"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "psychiatric_symptoms"
+    },
+    {
+      "criterium": "faciobrachial_dystonic_seizures"
+    },
+    {
+      "criterium": "clinical_seizures"
+    },
+    {
+      "criterium": "CSF_pleocytosis"
+    },
+    {
+      "criterium": "CSF_protein_elevation"
+    },
+    {
+      "criterium": "MRI_medial_temporal_lobe_hyperintensity"
+    },
+    {
+      "criterium": "EEG_epileptiform_activity"
+    },
+    {
+      "criterium": "LGI1_antibody_positive"
+    },
+    {
+      "criterium": "CASPR2_antibody_positive"
+    },
+    {
+      "criterium": "NMDA_receptor_antibody_positive"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0025
+}

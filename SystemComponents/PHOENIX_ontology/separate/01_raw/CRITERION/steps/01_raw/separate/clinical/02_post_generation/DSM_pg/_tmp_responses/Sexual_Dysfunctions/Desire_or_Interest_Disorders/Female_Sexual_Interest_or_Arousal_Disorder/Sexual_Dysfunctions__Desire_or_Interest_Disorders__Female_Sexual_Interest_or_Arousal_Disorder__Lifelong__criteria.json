@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "reduced_female_sexual_desire"
+    },
+    {
+      "criterium": "absent_sexual_thoughts_or_fantasies"
+    },
+    {
+      "criterium": "decreased_initiation_of_sexual_activity"
+    },
+    {
+      "criterium": "reduced_responsiveness_to_sexual_stimulation_from_partner"
+    },
+    {
+      "criterium": "delayed_or_inadequate_genital_arousal_to_stimulation"
+    },
+    {
+      "criterium": "decreased_vaginal_lubrication_in_response_to_stimulation"
+    },
+    {
+      "criterium": "reduced_clitoral_sensory_response"
+    },
+    {
+      "criterium": "reduced_subjective_arousal_experience_during_sexual_activity"
+    },
+    {
+      "criterium": "decreased_excitement_or_anticipation_of_sexual_encounters"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

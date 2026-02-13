@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "disorganized_thought"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "tactile_hallucinations"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "abdominal_pain"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "diarrhea"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

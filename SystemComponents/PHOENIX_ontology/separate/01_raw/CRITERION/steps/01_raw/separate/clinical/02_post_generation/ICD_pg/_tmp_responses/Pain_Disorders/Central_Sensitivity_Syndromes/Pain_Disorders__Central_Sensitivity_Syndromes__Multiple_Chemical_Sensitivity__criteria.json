@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "CHEMICAL_TRIGGERED_HEADACHE"
+    },
+    {
+      "criterium": "CHEMICAL_TRIGGERED_FATIGUE"
+    },
+    {
+      "criterium": "CHEMICAL_TRIGGERED_COGNITIVE_DYSFUNCTION"
+    },
+    {
+      "criterium": "CHEMICAL_TRIGGERED_SLEEP_DISTURBANCE"
+    },
+    {
+      "criterium": "CHEMICAL_TRIGGERED_DIZZINESS"
+    },
+    {
+      "criterium": "CHEMICAL_TRIGGERED_NASAL_IRRITATION"
+    },
+    {
+      "criterium": "CHEMICAL_TRIGGERED_EYE_IRRITATION"
+    },
+    {
+      "criterium": "CHEMICAL_TRIGGERED_MUSCULOSKELETAL_PAIN"
+    },
+    {
+      "criterium": "CHEMICAL_TRIGGERED_GASTROINTESTINAL_NAUSEA"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_impairment"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "processing_speed_slow"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "visuospatial_disorientation"
+    },
+    {
+      "criterium": "perceptual_distortions"
+    },
+    {
+      "criterium": "depersonalization_experiences_present"
+    },
+    {
+      "criterium": "derealization_experiences_present"
+    },
+    {
+      "criterium": "disorientation_time_place_person_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ALT_elevation"
+    },
+    {
+      "criterium": "AST_elevation"
+    },
+    {
+      "criterium": "ALP_elevation"
+    },
+    {
+      "criterium": "GGT_elevation"
+    },
+    {
+      "criterium": "Total_bilirubin_elevation"
+    },
+    {
+      "criterium": "Direct_bilirubin_elevation"
+    },
+    {
+      "criterium": "INR_prolongation"
+    },
+    {
+      "criterium": "Albumin_reduction"
+    },
+    {
+      "criterium": "Jaundice_present"
+    },
+    {
+      "criterium": "Dark_urine_color"
+    },
+    {
+      "criterium": "Pale_stool_color"
+    },
+    {
+      "criterium": "Hepatomegaly_on_exam"
+    },
+    {
+      "criterium": "RUQ_pain_tenderness"
+    },
+    {
+      "criterium": "Nausea"
+    },
+    {
+      "criterium": "Fatigue"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

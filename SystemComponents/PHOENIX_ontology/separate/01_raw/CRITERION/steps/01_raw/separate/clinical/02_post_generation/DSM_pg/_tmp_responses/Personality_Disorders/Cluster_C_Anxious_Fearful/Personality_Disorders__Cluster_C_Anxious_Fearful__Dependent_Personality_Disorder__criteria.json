@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_need_to_be_taken_care_of"
+    },
+    {
+      "criterium": "indecisiveness_needing_excessive_reassurance"
+    },
+    {
+      "criterium": "needs_others_to_handle_major_life_responsibilities"
+    },
+    {
+      "criterium": "difficulty_disagreeing_due_to_fear_of_loss_of_support"
+    },
+    {
+      "criterium": "difficulty_initiating_projects_due_to_lack_of_self_confidence"
+    },
+    {
+      "criterium": "goes_to_excessive_lengths_to_obtain_nurturance_or_support"
+    },
+    {
+      "criterium": "uncomfortable_or_helpless_when_alone"
+    },
+    {
+      "criterium": "urgent_seeking_of_new_relationship_as_source_of_care_when_close_relationship_ends"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

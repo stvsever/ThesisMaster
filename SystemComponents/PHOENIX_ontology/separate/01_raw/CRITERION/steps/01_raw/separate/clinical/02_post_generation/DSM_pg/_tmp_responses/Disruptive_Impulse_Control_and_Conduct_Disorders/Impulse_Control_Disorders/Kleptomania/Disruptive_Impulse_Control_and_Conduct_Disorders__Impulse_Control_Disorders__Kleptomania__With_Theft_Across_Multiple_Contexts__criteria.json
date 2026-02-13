@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_compulsive_urge_to_steal"
+    },
+    {
+      "criterium": "tension_or_arousal_immediately_before_theft"
+    },
+    {
+      "criterium": "stealing_of_items_not_needed_for_personal_use_or_of_minimal_value"
+    },
+    {
+      "criterium": "theft_occurs_across_multiple_contexts_or_settings"
+    },
+    {
+      "criterium": "temporary_relief_or_gratification_at_the_time_of_theft"
+    },
+    {
+      "criterium": "guilt_or_remorse_after_theft"
+    },
+    {
+      "criterium": "failure_of_resistance_to_stealing_impulse_despite_social_consequences"
+    },
+    {
+      "criterium": "stealing_not_committed_to_express_anger_or_vengeance"
+    },
+    {
+      "criterium": "absence_of_delusional_or_hallucinatory_command_influence_on_theft"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

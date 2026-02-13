@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_acquisition_of_possessions"
+    },
+    {
+      "criterium": "persistent_difficulty_discarding_possessions"
+    },
+    {
+      "criterium": "strong_emotional_attachment_to_possessions"
+    },
+    {
+      "criterium": "clutter_congestion_of_living_spaces"
+    },
+    {
+      "criterium": "functional_impairment_due_to_clutter"
+    },
+    {
+      "criterium": "indecisiveness_about_discarding"
+    },
+    {
+      "criterium": "distress_when_discussing_or_considering_discarding"
+    },
+    {
+      "criterium": "space_restriction_impeding_domestic_activities"
+    },
+    {
+      "criterium": "safety_risks_from_hoarded_items"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

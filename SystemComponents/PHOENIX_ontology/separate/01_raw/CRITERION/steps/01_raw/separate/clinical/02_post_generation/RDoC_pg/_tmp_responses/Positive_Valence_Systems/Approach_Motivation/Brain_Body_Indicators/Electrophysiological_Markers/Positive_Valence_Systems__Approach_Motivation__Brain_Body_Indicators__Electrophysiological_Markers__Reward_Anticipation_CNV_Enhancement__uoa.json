@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_V158M_Genotype",
+      "BDNF_V66M_Genotype",
+      "DRD2_Taq1A_Genotype",
+      "SLC6A3_VNTR_Genotype"
+    ],
+    "molecules": [
+      "Dopamine_Level_Plasma",
+      "Dopamine_Metabolite_HVA_Plasma",
+      "BDNF_Level_Plasma",
+      "Norepinephrine_Level_Plasma"
+    ],
+    "cells": [
+      "VTA_Dopaminergic_Neuron_Count",
+      "Cortical_Pyramidal_Neuron_Excitability_Index",
+      "Medium_Spiny_Neuron_Density_D1",
+      "Medium_Spiny_Neuron_Density_D2"
+    ],
+    "circuits": [
+      "SMA_PFC_Connectivity",
+      "ACC_SMA_Connectivity",
+      "DLPFC_SMA_Connectivity",
+      "Frontostriatal_Circuit_Connectivity",
+      "Basal_Ganglia_Circuit_Connectivity"
+    ],
+    "physiology": [
+      "CNV_Amplitude_microvolts",
+      "CNV_Onset_latency_ms",
+      "CNV_Peak_time_ms",
+      "CNV_Slope_microvolts_per_second",
+      "CNV_Sustained_Negative_Voltage_uV"
+    ],
+    "behavior": [
+      "Reaction_Time_ms",
+      "Target_Detection_Accuracy_percent",
+      "Go_Trial_Response_Variability_ms",
+      "Premature_Response_Rate_percent"
+    ],
+    "self_report": [
+      "Reward_Anticipation_Score",
+      "Motivation_to_Act_Score",
+      "Expected_Reinforcement_Value_Score",
+      "Impulsivity_Score"
+    ]
+  },
+  "estimated_prevalence_percent": 4.2
+}

@@ -1,0 +1,51 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_expression_level",
+      "DRD1_expression_level",
+      "OPRM1_expression_level",
+      "BDNF_expression_level",
+      "CREB_expression_level"
+    ],
+    "molecules": [
+      "dopamine_level",
+      "endorphin_level",
+      "endocannabinoid_level",
+      "serotonin_level",
+      "ghrelin_level"
+    ],
+    "cells": [
+      "NAcc_D1_MSN_firing_rate",
+      "NAcc_D2_MSN_firing_rate",
+      "VTA_dopamine_neuron_firing_rate",
+      "PFC_excitatory_neuron_firing_rate"
+    ],
+    "circuits": [
+      "NAcc_VTA_loop_activity_sync",
+      "NAcc_OFC_connectivity_strength",
+      "VTA_to_NAcc_dopaminergic_pathway_strength",
+      "Medial_PFC_NAcc_pathway_strength"
+    ],
+    "physiology": [
+      "heart_rate_response_to_reward_presentation",
+      "skin_conductance_response_to_reward_presentation",
+      "pupil_dilation_to_reward_cues",
+      "cortisol_level_reactivity_to_reward_presentation",
+      "respiration_rate_change_in_reward_context"
+    ],
+    "behavior": [
+      "consummatory_lick_rate",
+      "sucrose_consumption_amount",
+      "reward_pellet_consumption_latency",
+      "time_to_first_bite",
+      "approach_rate_to_reward"
+    ],
+    "self_report": [
+      "subjective_pleasure_rating",
+      "liking_intensity_score",
+      "reward_engagement_questionnaire_score",
+      "hedonic_capacity_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 7.2
+}

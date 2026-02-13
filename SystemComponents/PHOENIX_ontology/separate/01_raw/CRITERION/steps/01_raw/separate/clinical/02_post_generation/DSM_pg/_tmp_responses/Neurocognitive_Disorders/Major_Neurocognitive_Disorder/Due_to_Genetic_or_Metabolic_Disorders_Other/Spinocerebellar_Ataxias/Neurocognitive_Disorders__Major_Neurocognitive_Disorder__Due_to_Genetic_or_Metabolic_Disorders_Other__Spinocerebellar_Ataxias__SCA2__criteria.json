@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "limb_ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "slow_saccades"
+    },
+    {
+      "criterium": "dysdiadochokinesia"
+    },
+    {
+      "criterium": "intention_tremor"
+    },
+    {
+      "criterium": "scanning_speech"
+    },
+    {
+      "criterium": "pyramidal_signs_hyperreflexia"
+    },
+    {
+      "criterium": "distal_sensorimotor_polyneuropathy"
+    },
+    {
+      "criterium": "dysphagia"
+    },
+    {
+      "criterium": "cognitive_decline_executive_dysfunction"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

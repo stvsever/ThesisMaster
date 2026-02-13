@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "APATHY"
+    },
+    {
+      "criterium": "DISINHIBITION"
+    },
+    {
+      "criterium": "LOSS_OF_EMPATHY"
+    },
+    {
+      "criterium": "HYPERPHAGIA"
+    },
+    {
+      "criterium": "STEREOTYPED_BEHAVIOR"
+    },
+    {
+      "criterium": "COMPULSIVE_BEHAVIOR"
+    },
+    {
+      "criterium": "PERSONAL_HYGIENE_NEGLECT"
+    },
+    {
+      "criterium": "AFFECTIVE_FLATTENING"
+    },
+    {
+      "criterium": "REDUCED_VERBAL_FLUENCY"
+    },
+    {
+      "criterium": "SOCIAL_WITHDRAWAL"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

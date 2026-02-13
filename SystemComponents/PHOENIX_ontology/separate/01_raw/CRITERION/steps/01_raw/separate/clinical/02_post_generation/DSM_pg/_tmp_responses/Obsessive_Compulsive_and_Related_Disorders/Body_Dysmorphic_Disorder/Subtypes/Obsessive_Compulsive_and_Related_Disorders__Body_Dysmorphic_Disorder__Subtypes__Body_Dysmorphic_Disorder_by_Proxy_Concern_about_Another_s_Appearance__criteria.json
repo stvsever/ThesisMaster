@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_thoughts_about_proxy_appearance_defect"
+    },
+    {
+      "criterium": "repetitive_monitoring_of_proxy_appearance_features"
+    },
+    {
+      "criterium": "verbal_criticism_of_proxy_appearance_to_others"
+    },
+    {
+      "criterium": "reassurance_seeking_about_proxy_appearance"
+    },
+    {
+      "criterium": "pressure_for_cosmetic_procedures_on_proxy"
+    },
+    {
+      "criterium": "attempts_to_arrange_cosmetic_interventions_for_proxy"
+    },
+    {
+      "criterium": "proxy_appearance_related_social_avoidance"
+    },
+    {
+      "criterium": "interpersonal_conflict_related_to_proxy_bdd_concerns"
+    },
+    {
+      "criterium": "emotional_distress_about_proxy_appearance_concerns"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

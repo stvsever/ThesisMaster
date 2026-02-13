@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "delusions_present"
+    },
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "disorganized_thought_form"
+    },
+    {
+      "criterium": "tangential_thinking"
+    },
+    {
+      "criterium": "disorganized_behavior"
+    },
+    {
+      "criterium": "catatonia_features"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "fluctuating_level_of_consciousness"
+    },
+    {
+      "criterium": "incoherent_speech"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

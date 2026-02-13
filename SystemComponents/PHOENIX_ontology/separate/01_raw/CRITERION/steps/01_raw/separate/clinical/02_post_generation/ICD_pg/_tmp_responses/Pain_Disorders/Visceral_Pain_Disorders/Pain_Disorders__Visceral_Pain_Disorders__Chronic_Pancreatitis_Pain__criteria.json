@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "catastrophizing_about_pain"
+    },
+    {
+      "criterium": "pain_hypervigilance"
+    },
+    {
+      "criterium": "pain_anxiety"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_pain"
+    },
+    {
+      "criterium": "allodynia_present"
+    },
+    {
+      "criterium": "central_sensitization_signs"
+    },
+    {
+      "criterium": "reduced_health_related_quality_of_life"
+    },
+    {
+      "criterium": "functional_impairment_due_to_pain"
+    },
+    {
+      "criterium": "fear_of_pain_recurrence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.06
+}

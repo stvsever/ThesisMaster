@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "functional_seizure_activity"
+    },
+    {
+      "criterium": "functional_aphonia"
+    },
+    {
+      "criterium": "functional_gait_disturbance"
+    },
+    {
+      "criterium": "functional_limb_weakness"
+    },
+    {
+      "criterium": "non_dermatomal_sensory_deficit"
+    },
+    {
+      "criterium": "non_organic_paresthesias"
+    },
+    {
+      "criterium": "inconsistent_neurological_signs_on_exam"
+    },
+    {
+      "criterium": "hoover_sign_positive"
+    },
+    {
+      "criterium": "give_way_sign_positive"
+    },
+    {
+      "criterium": "symptom_variability_with_distraction"
+    },
+    {
+      "criterium": "functional_visual_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "GI_nausea"
+    },
+    {
+      "criterium": "GI_vomiting"
+    },
+    {
+      "criterium": "GI_diarrhea"
+    },
+    {
+      "criterium": "tremor_coarse"
+    },
+    {
+      "criterium": "ataxia_gait_instability"
+    },
+    {
+      "criterium": "dysdiadochokinesia"
+    },
+    {
+      "criterium": "confusion_disorientation"
+    },
+    {
+      "criterium": "somnolence_lethargy"
+    },
+    {
+      "criterium": "seizures_tonic_clonic"
+    },
+    {
+      "criterium": "arrhythmia_palpitations"
+    },
+    {
+      "criterium": "arrhythmia_bradycardia"
+    },
+    {
+      "criterium": "arrhythmia_tachycardia"
+    },
+    {
+      "criterium": "pulse_irregular"
+    },
+    {
+      "criterium": "syncope_fainting"
+    },
+    {
+      "criterium": "hypotension_hypoperfusion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

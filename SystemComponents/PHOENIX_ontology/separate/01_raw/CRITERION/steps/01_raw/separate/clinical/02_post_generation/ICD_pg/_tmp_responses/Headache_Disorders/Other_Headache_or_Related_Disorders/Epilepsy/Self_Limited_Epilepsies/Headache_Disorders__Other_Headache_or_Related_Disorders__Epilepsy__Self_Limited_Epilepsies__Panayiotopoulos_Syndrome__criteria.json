@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ictal_vomiting"
+    },
+    {
+      "criterium": "ictal_pallor"
+    },
+    {
+      "criterium": "ictal_tachycardia"
+    },
+    {
+      "criterium": "ictal_pupillary_dilation"
+    },
+    {
+      "criterium": "ictal_eye_deviation"
+    },
+    {
+      "criterium": "ictal_head_turning"
+    },
+    {
+      "criterium": "ictal_visual_disturbance"
+    },
+    {
+      "criterium": "ictal_speech_arrest"
+    },
+    {
+      "criterium": "ictal_nasal_congestion"
+    },
+    {
+      "criterium": "postictal_fatigue"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

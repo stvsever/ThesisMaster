@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_depressed_mood"
+    },
+    {
+      "criterium": "anhedonia_persistent"
+    },
+    {
+      "criterium": "insomnia_subthreshold"
+    },
+    {
+      "criterium": "hypersomnia_subthreshold"
+    },
+    {
+      "criterium": "fatigue_persistent"
+    },
+    {
+      "criterium": "psychomotor_slowing_subthreshold"
+    },
+    {
+      "criterium": "psychomotor_agitation_subthreshold"
+    },
+    {
+      "criterium": "concentration_difficulty_subthreshold"
+    },
+    {
+      "criterium": "worthlessness_guilt_subthreshold"
+    },
+    {
+      "criterium": "suicidal_ideation_subthreshold"
+    },
+    {
+      "criterium": "increased_energy_subthreshold"
+    },
+    {
+      "criterium": "decreased_need_for_sleep_subthreshold"
+    },
+    {
+      "criterium": "pressured_speech_subthreshold"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

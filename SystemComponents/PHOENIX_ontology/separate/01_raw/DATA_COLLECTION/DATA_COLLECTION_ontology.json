@@ -1,0 +1,1149 @@
+{
+  "Data_Collection_Options": {
+    "Study_Metadata_And_Operational_Context": {
+      "Study_And_Protocol_Metadata": {
+        "Protocol_Version_Record": {},
+        "Site_And_Lab_Metadata_Record": {},
+        "Study_Arm_And_Condition_Assignment_Record": {},
+        "Randomization_And_Allocation_Log": {},
+        "Eligibility_Screening_Form": {},
+        "Inclusion_Exclusion_Checklist_Form": {},
+        "Recruitment_Channel_Record": {},
+        "Compensation_And_Incentive_Log": {},
+        "Deviations_And_Adverse_Event_Log": {},
+        "Participant_Contact_Preferences_Record": {},
+        "Language_And_Accessibility_Preferences_Record": {}
+      },
+      "Participant_Background_Baseline_Profile": {
+        "Demographics_Form": {},
+        "Education_And_Occupation_Form": {},
+        "Lifestyle_And_Habits_Form": {},
+        "Medical_History_Form": {},
+        "Medication_List_Form": {},
+        "Family_History_Form": {},
+        "Technology_Literacy_And_Device_Access_Form": {},
+        "Wearable_Ownership_And_Platform_Form": {}
+      },
+      "Care_Context_Metadata": {
+        "Care_Setting_Label_Record": {},
+        "Care_Modality_Label_Record": {},
+        "Visit_Type_Label_Record": {},
+        "Provider_Type_Label_Record": {},
+        "Session_Scheduling_Record": {}
+      },
+      "Optimization_And_Modeling_Metadata": {
+        "Primary_Outcome_Target_Record": {},
+        "Secondary_Outcome_Target_Record": {},
+        "Early_Warning_Objective_Record": {},
+        "Personalization_Objective_Record": {},
+        "Dose_And_Timing_Optimization_Objective_Record": {},
+        "JITAI_Decision_Objective_Record": {},
+        "Mechanism_Probing_Objective_Record": {},
+        "Risk_Stratification_Objective_Record": {},
+        "Feasibility_And_Burden_Objective_Record": {}
+      }
+    },
+
+    "Time_Stamping_And_Sampling_Design": {
+      "Timestamping_And_Time_Reference": {
+        "UTC_Timestamp_Record": {},
+        "Local_Timezone_Stamp_Record": {},
+        "Daylight_Savings_Handling_Record": {},
+        "Device_Clock_Offset_Record": {},
+        "Server_Receipt_Timestamp_Record": {},
+        "Participant_Reported_Event_Time_Record": {}
+      },
+      "Temporal_Sampling_Patterns": {
+        "Continuous_Streaming_Collection": {},
+        "High_Frequency_Burst_Collection": {},
+        "Scheduled_Interval_Collection": {},
+        "Randomized_Prompt_Collection": {},
+        "Event_Contingent_Collection": {},
+        "State_Contingent_Collection": {},
+        "Geofence_Contingent_Collection": {},
+        "Circadian_Phase_Targeted_Collection": {},
+        "Weekend_Weekday_Stratified_Collection": {},
+        "Seasonal_Stratified_Collection": {},
+        "Life_Event_Triggered_Collection": {}
+      },
+      "Chronobiology_And_Sleep_Timing_Collections": {
+        "Sleep_Wake_Diary_Collection": {},
+        "Actigraphy_Sleep_Wake_Estimation_Collection": {},
+        "Light_Exposure_Profile_Collection": {},
+        "Core_Body_Temperature_Rhythm_Collection": {},
+        "Skin_Temperature_Rhythm_Collection": {},
+        "Salivary_Melatonin_Series_Collection": {},
+        "Cortisol_Awakening_Response_Series_Collection": {},
+        "Diurnal_Cortisol_Slope_Series_Collection": {},
+        "Chronotype_Questionnaire_Collection": {},
+        "Social_Jetlag_Metrics_Collection": {}
+      }
+    },
+
+    "Active_Self_Report_And_Experience_Sampling": {
+      "Experience_Sampling_EMA_ESM": {
+        "Delivery_Channel": {
+          "Native_Smartphone_App_Prompts": {},
+          "Web_Browser_Prompts": {},
+          "SMS_Text_Prompts": {},
+          "Messaging_App_Bot_Prompts": {},
+          "Email_Link_Prompts": {},
+          "Interactive_Voice_Response_IVR_Prompts": {},
+          "Wearable_Haptic_Prompts": {},
+          "Smart_Speaker_Prompts": {}
+        },
+        "Sampling_Schedule_Configuration_Data": {
+          "Fixed_Time_Schedule_Config_Record": {},
+          "Random_Time_Window_Config_Record": {},
+          "Stratified_Time_Block_Config_Record": {},
+          "Event_Triggered_Rule_Config_Record": {},
+          "Adaptive_Prompting_Rule_Config_Record": {},
+          "Snooze_And_Deferral_Events_Log": {},
+          "Prompt_Delivery_Attempt_Log": {},
+          "Prompt_Open_And_Completion_Log": {}
+        },
+        "Response_Mode": {
+          "Likert_Scale_Response": {},
+          "Visual_Analog_Slider_Response": {},
+          "Binary_Checkbox_Response": {},
+          "Multiple_Choice_Response": {},
+          "Rank_Order_Response": {},
+          "Free_Text_Response": {},
+          "Voice_Response_Audio": {},
+          "Photo_Assisted_Response": {},
+          "Video_Assisted_Response": {},
+          "Drawing_Sketch_Response": {}
+        },
+        "EMA_Item_Templates_And_Structure": {
+          "Single_Item_State_Rating": {},
+          "Multi_Item_MicroSurvey_Battery": {},
+          "Branching_Logic_Adaptive_Items": {},
+          "Computerized_Adaptive_Testing_CAT_Iteming": {},
+          "Anchored_Vignette_Iteming": {},
+          "Experience_Sampling_Context_Tagging": {},
+          "Event_Log_Iteming": {},
+          "Goal_And_Plan_Checkin_Iteming": {},
+          "Skill_Use_Checkin_Iteming": {},
+          "Exposure_Completion_Checkin_Iteming": {},
+          "Adherence_Checkin_Iteming": {},
+          "Open_Ended_Reflection_Prompt": {}
+        },
+        "EMA_Context_Capture_Addons": {
+          "Current_Location_Category_SelfTag": {},
+          "Current_Activity_Category_SelfTag": {},
+          "Social_Context_SelfTag": {},
+          "Recent_Caffeine_Alcohol_Nicotine_Intake_Log": {},
+          "Meal_And_Hydration_Log": {},
+          "Medication_Intake_Log": {},
+          "Physical_Activity_Log": {},
+          "Screen_Time_Intent_Log": {}
+        }
+      },
+
+      "Daily_Weekly_Diaries_And_Journals": {
+        "Morning_Checkin_Form": {},
+        "End_Of_Day_Diary_Form": {},
+        "Weekly_Reflection_Form": {},
+        "Narrative_Journal_Free_Text": {},
+        "Audio_Journal_Recordings": {},
+        "Photo_Journal_Entries": {},
+        "Video_Journal_Entries": {},
+        "Gratitude_Log_Entries": {},
+        "Goal_Setting_And_Planning_Entries": {},
+        "Sleep_Diary_Entries": {},
+        "Diet_And_Meal_Diary_Entries": {},
+        "Physical_Activity_Diary_Entries": {}
+      },
+
+      "Surveys_Questionnaires_And_Screeners": {
+        "Delivery_Mode": {
+          "Web_Survey_Completion": {},
+          "Mobile_Survey_Completion": {},
+          "Tablet_In_Clinic_Survey_Completion": {},
+          "Paper_To_Digital_Scan_Entry": {},
+          "Computer_Assisted_Self_Interview_CASI": {},
+          "Computer_Assisted_Telephone_Interview_CATI": {},
+          "Computerized_Adaptive_Testing_CAT": {}
+        },
+        "Construct_Family_Batteries_Generic": {
+          "Affect_And_Emotion_Regulation_Battery": {},
+          "Stress_And_Burnout_Battery": {},
+          "Sleep_Quality_And_Fatigue_Battery": {},
+          "Cognition_And_Attention_Battery": {},
+          "Social_Functioning_And_Support_Battery": {},
+          "Quality_Of_Life_And_Functioning_Battery": {},
+          "Pain_And_Somatic_Functioning_Battery": {},
+          "Resilience_And_Coping_Battery": {},
+          "Personality_Trait_Battery": {},
+          "Life_Events_And_Adversity_Battery": {},
+          "Health_Behavior_Battery": {}
+        }
+      },
+
+      "Conversational_Checkins_And_Human_Interaction_Data": {
+        "Chatbot_And_LLM_Interaction": {
+          "Text_Chat_Transcripts": {},
+          "Voice_Chat_Recordings": {},
+          "Conversation_Turn_Timestamps": {},
+          "User_Intent_Labels_Log": {},
+          "System_Prompt_Version_Log": {},
+          "Tool_Use_And_Action_Log": {},
+          "Conversation_Summary_Artifacts": {},
+          "User_Ratings_And_Feedback_On_Responses": {}
+        },
+        "Clinician_Psychologist_Interaction": {
+          "In_Person_Session_Notes_Digitized": {},
+          "Telehealth_Video_Session_Recordings_If_Consented": {},
+          "Telehealth_Audio_Recordings_If_Consented": {},
+          "Session_Attendance_Log": {},
+          "Structured_Session_Checklists": {},
+          "Session_Feedback_Forms": {},
+          "Between_Session_Secure_Messages": {}
+        },
+        "Coaching_And_Case_Management": {
+          "Human_Coach_Checkin_Logs": {},
+          "Care_Coordination_Call_Logs": {},
+          "Support_Ticket_Logs": {},
+          "Adherence_Support_Interactions": {}
+        },
+        "Peer_And_Group_Interaction": {
+          "Group_Session_Attendance_Log": {},
+          "Group_Chat_Transcripts_If_Consented": {},
+          "Forum_Posts_If_Consented": {},
+          "Peer_Support_Checkin_Logs": {}
+        }
+      }
+    },
+
+    "Observer_Informant_And_Clinician_Collected_Data": {
+      "Clinician_Rated_Assessments": {
+        "Global_Impression_And_Functioning_Rating_Form": {},
+        "Structured_Behavioral_Observation_Form": {},
+        "Side_Effect_And_Tolerability_Form": {},
+        "Treatment_Response_Rating_Form": {},
+        "Protocol_Adherence_Rating_Form": {}
+      },
+      "Informant_Reports": {
+        "Caregiver_Report_Form": {},
+        "Partner_Report_Form": {},
+        "Teacher_Report_Form": {},
+        "Peer_Report_Form": {},
+        "Workplace_Supervisor_Report_Form": {}
+      },
+      "Behavioral_Observation_Modes": {
+        "Clinic_Observation_Session": {},
+        "Home_Visit_Observation_Session": {},
+        "School_Work_Observation_Session": {},
+        "Video_Recorded_Observation_Session": {},
+        "Wearable_Camera_Observation_Session": {},
+        "Ecological_Observation_Sampling_Log": {}
+      }
+    },
+
+    "Behavioral_Tasks_Cognitive_Assessment_And_Human_Performance": {
+      "Administration_Context": {
+        "Laboratory_Computerized_Task_Session": {},
+        "Clinic_Based_Task_Session": {},
+        "Remote_Web_Task_Session": {},
+        "Mobile_App_Task_Session": {},
+        "Tablet_Task_Session": {},
+        "Teleproctored_Task_Session": {},
+        "Unsupervised_Home_Task_Session": {}
+      },
+
+      "Attention_And_Vigilance_Tasks": {
+        "Psychomotor_Vigilance_Task_PVT": {},
+        "Continuous_Performance_Task_CPT": {},
+        "Sustained_Attention_To_Response_Task_SART": {},
+        "Attentional_Network_Task_ANT": {},
+        "Choice_Reaction_Time_Task": {}
+      },
+
+      "Working_Memory_Tasks": {
+        "NBack_Task": {},
+        "Digit_Span_Task": {},
+        "Spatial_Span_Task": {},
+        "Operation_Span_Task": {},
+        "Running_Span_Task": {}
+      },
+
+      "Executive_Function_And_Control_Tasks": {
+        "Stroop_Task": {},
+        "Flanker_Task": {},
+        "Task_Switching_Paradigm": {},
+        "Set_Shifting_Card_Sort_Task": {},
+        "Trail_Making_Test_Digital": {},
+        "Tower_Planning_Task": {}
+      },
+
+      "Inhibitory_Control_Tasks": {
+        "Go_NoGo_Task": {},
+        "Stop_Signal_Task_SST": {},
+        "Simon_Task": {},
+        "Antisaccade_Task": {},
+        "Response_Deadline_Inhibition_Task": {}
+      },
+
+      "Learning_And_Reinforcement_Tasks": {
+        "Probabilistic_Selection_Task": {},
+        "Two_Step_Model_Based_RL_Task": {},
+        "Reversal_Learning_Task": {},
+        "Reward_Sensitivity_Task": {},
+        "Loss_Aversion_Task": {},
+        "Prediction_Error_Learning_Task": {}
+      },
+
+      "Decision_Making_And_Risk_Tasks": {
+        "Delay_Discounting_Task": {},
+        "Iowa_Gambling_Task_IGT": {},
+        "Balloon_Analogue_Risk_Task_BART": {},
+        "Risky_Choice_Task": {},
+        "Effort_Discounting_Task": {}
+      },
+
+      "Memory_Tasks": {
+        "Word_List_Learning_Task": {},
+        "Paired_Associate_Learning_Task": {},
+        "Recognition_Memory_Task": {},
+        "Autobiographical_Memory_Task": {},
+        "Prospective_Memory_Task": {}
+      },
+
+      "Language_And_Speech_Tasks": {
+        "Verbal_Fluency_Semantic_Task": {},
+        "Verbal_Fluency_Phonemic_Task": {},
+        "Picture_Naming_Task": {},
+        "Reading_Aloud_Task": {},
+        "Spontaneous_Speech_Narration_Task": {},
+        "Diadochokinetic_Rate_Task": {}
+      },
+
+      "Social_Cognition_Tasks": {
+        "Emotion_Labeling_From_Faces_Task": {},
+        "Reading_The_Mind_In_The_Eyes_Task_RMET": {},
+        "Theory_Of_Mind_Stories_Task": {},
+        "Gaze_Cueing_Task": {},
+        "Trust_Game": {},
+        "Ultimatum_Game": {},
+        "Dictator_Game": {},
+        "Social_Norm_Violation_Task": {}
+      },
+
+      "Affective_And_Attentional_Bias_Tasks": {
+        "Dot_Probe_Task": {},
+        "Emotional_Stroop_Task": {},
+        "Affective_Go_NoGo_Task": {},
+        "Approach_Avoidance_Task_AAT": {},
+        "Emotional_Face_Matching_Task": {}
+      },
+
+      "Interoception_And_Bodily_Perception_Tasks": {
+        "Heartbeat_Counting_Task": {},
+        "Heartbeat_Discrimination_Task": {},
+        "Respiratory_Interoception_Task": {},
+        "Thermal_Sensation_Rating_Task": {}
+      },
+
+      "Motor_Psychomotor_And_Functional_Tasks": {
+        "Finger_Tapping_Task": {},
+        "Purdue_Pegboard_Digital_Or_InPerson": {},
+        "Grooved_Pegboard_Digital_Or_InPerson": {},
+        "Gait_And_Balance_Task": {},
+        "Timed_Up_And_Go_TUG": {},
+        "Romberg_Balance_Test": {},
+        "Dual_Task_Walking": {},
+        "Grip_Strength_Test": {},
+        "Functional_Capacity_Assessment_Task": {}
+      },
+
+      "Ecological_Cognitive_Assessment_Microtasks": {
+        "In_The_Moment_Reaction_Time_Microtask": {},
+        "In_The_Moment_Go_NoGo_Microtask": {},
+        "Short_NBack_Microtask": {},
+        "Mobile_Stroop_Microtask": {},
+        "Symbol_Digit_Substitution_Microtask": {},
+        "Ecological_Prospective_Memory_Ping_Task": {}
+      }
+    },
+
+    "Self_Collected_Media_And_Artifacts": {
+      "Voice_Samples": {
+        "Sustained_Vowel_Audio": {},
+        "Read_Passage_Audio": {},
+        "Free_Speech_Narrative_Audio": {},
+        "Conversation_Snippet_Audio": {},
+        "Emotion_Elicitation_Speech_Audio": {},
+        "Breathing_Sounds_Audio": {}
+      },
+      "Video_Samples": {
+        "Facial_Recording_Video": {},
+        "Head_Pose_And_Gaze_Video": {},
+        "Speech_And_Prosody_Video": {},
+        "Behavioral_Task_Performance_Video": {},
+        "Remote_Proctoring_Video": {}
+      },
+      "Handwriting_And_Drawing": {
+        "Spiral_Drawing_Capture": {},
+        "Sentence_Writing_Capture": {},
+        "Copying_Task_Capture": {},
+        "Clock_Drawing_Capture": {},
+        "Tablet_Stylus_Kinematics_Capture": {}
+      },
+      "Photo_Artifacts": {
+        "Meal_Photo_Log": {},
+        "Medication_Photo_Log": {},
+        "Environment_Photo_Log": {},
+        "Document_Photo_Scan": {},
+        "Body_Posture_Photo_Capture": {}
+      },
+      "Document_Uploads": {
+        "PDF_Report_Upload": {},
+        "Image_File_Upload": {},
+        "CSV_Data_File_Upload": {},
+        "Device_Export_File_Upload": {}
+      }
+    },
+
+    "Mobile_Device_Sensing_And_Digital_Phenotyping": {
+      "Smartphone_Sensors_Raw": {
+        "Accelerometer_Stream": {},
+        "Gyroscope_Stream": {},
+        "Magnetometer_Stream": {},
+        "GPS_Location_Stream": {},
+        "WiFi_Scan_Logs": {},
+        "Bluetooth_Proximity_Logs": {},
+        "Barometer_Stream": {},
+        "Ambient_Light_Stream": {},
+        "Microphone_Audio_Snippets_If_Consented": {},
+        "Camera_Image_Capture_If_Consented": {},
+        "Touchscreen_Tap_Swipe_Logs": {},
+        "Keystroke_Dynamics_Stream": {}
+      },
+      "Device_And_OS_Telemetry": {
+        "Screen_On_Off_Events": {},
+        "Unlock_Frequency_Log": {},
+        "App_Usage_Stats_Log": {},
+        "Notification_Received_Log": {},
+        "Notification_Opened_Log": {},
+        "Battery_Charge_And_Drain_Log": {},
+        "Device_Mobility_State_Log": {},
+        "Connectivity_State_Log": {},
+        "OS_Version_And_Device_Model_Record": {}
+      },
+      "Communication_Metadata_Optional": {
+        "Call_Log_Metadata": {},
+        "SMS_Metadata": {},
+        "Messaging_App_Metadata": {},
+        "Contact_Graph_Metadata": {},
+        "Response_Latency_To_Incoming_Messages": {}
+      },
+      "Derived_Mobility_And_Routine_Features": {
+        "Home_Stay_Estimate": {},
+        "Time_At_Location_Clusters": {},
+        "Radius_Of_Gyration_Estimate": {},
+        "Location_Entropy_Estimate": {},
+        "Routine_Regularity_Estimate": {},
+        "Trip_Distance_And_Duration_Estimates": {},
+        "Point_Of_Interest_Category_Inference": {},
+        "Nature_Exposure_Proxy_Estimate": {}
+      },
+      "Audio_And_Speech_Derived_Features": {
+        "Prosody_Feature_Set": {},
+        "Speech_Rate_Feature_Set": {},
+        "Pause_Pattern_Feature_Set": {},
+        "Voice_Quality_Feature_Set": {},
+        "Turn_Taking_Proxy_Feature_Set": {},
+        "Ambient_Soundscape_Classification_Output": {}
+      },
+      "Text_And_Typing_Derived_Features": {
+        "Typing_Speed_Feature": {},
+        "Backspace_Rate_Feature": {},
+        "Error_Rate_Feature": {},
+        "Interkey_Interval_Variability_Feature": {},
+        "Lexical_And_Syntax_Feature_Set_From_Optional_Text": {}
+      }
+    },
+
+    "Wearables_Personal_Sensors_And_Home_Medical_Devices": {
+      "Consumer_Wearables": {
+        "Smartwatch_Data_Sync": {},
+        "Fitness_Band_Data_Sync": {},
+        "Smart_Ring_Data_Sync": {},
+        "Chest_Strap_Data_Sync": {},
+        "Smart_Earbuds_Data_Sync": {},
+        "Smart_Glasses_Data_Sync": {}
+      },
+      "Physiology": {
+        "PPG": {
+          "Heart_Rate_Stream": {},
+          "Heart_Rate_Variability_Stream": {},
+          "Pulse_Wave_Features_Stream": {},
+          "Respiratory_Rate_From_PPG_Stream": {}
+        },
+        "ECG": {
+          "Single_Lead_ECG_Recordings": {},
+          "Multi_Lead_ECG_Recordings": {},
+          "Holter_Monitor_Recordings": {}
+        },
+        "EDA": {
+          "Tonic_Skin_Conductance_Level_Stream": {},
+          "Phasic_Skin_Conductance_Response_Stream": {},
+          "EDA_Artifact_Flags_Stream": {}
+        },
+        "Temperature": {
+          "Skin_Temperature_Stream": {},
+          "Core_Temperature_Estimate_Stream": {}
+        },
+        "Blood_Oxygenation": {
+          "SpO2_Stream": {},
+          "Desaturation_Event_Log": {}
+        },
+        "Blood_Pressure": {
+          "Cuff_Based_BP_Readings": {},
+          "Cuffless_BP_Estimates_If_Available": {}
+        },
+        "Respiration": {
+          "Respiration_Belt_Stream": {},
+          "Impedance_Respiration_Stream": {},
+          "Snoring_And_Breathing_Event_Log_If_Available": {}
+        },
+        "Glucose": {
+          "Continuous_Glucose_Monitoring_CGM_Stream": {},
+          "Capillary_Glucose_Readings_Log": {}
+        }
+      },
+      "Activity_And_Sleep": {
+        "Steps_And_Intensity_Stream": {},
+        "Sedentary_Bout_Log": {},
+        "Posture_Stream": {},
+        "Actigraphy_Stream": {},
+        "Sleep_Duration_Estimate": {},
+        "Sleep_Timing_Estimate": {},
+        "Sleep_Stage_Estimate_Consumer": {},
+        "Sleep_Regularity_Metrics": {}
+      },
+      "Specialized_Wearables": {
+        "Wearable_EEG_Stream": {},
+        "Wearable_fNIRS_Stream": {},
+        "Wearable_EMG_Stream": {},
+        "Tremor_Sensor_Stream": {},
+        "Hydration_Sensor_Stream": {}
+      },
+      "Home_Medical_Devices": {
+        "Digital_Thermometer_Readings": {},
+        "Pulse_Oximeter_Readings": {},
+        "Home_Spirometer_Readings": {},
+        "Peak_Flow_Meter_Readings": {},
+        "Smart_Inhaler_Use_Log": {},
+        "Smart_Insulin_Pen_Log": {},
+        "Smart_Pillbox_Open_Close_Log": {},
+        "Electronic_Pill_Bottle_Log": {},
+        "Home_ECG_Device_Recordings": {},
+        "Home_Blood_Pressure_Cuff_Readings": {}
+      }
+    },
+
+    "Smart_Home_IoT_And_Ambient_Sensing": {
+      "Environmental_Sensors": {
+        "Ambient_Temperature_Stream": {},
+        "Ambient_Humidity_Stream": {},
+        "CO2_Stream": {},
+        "VOC_Stream": {},
+        "PM2_5_Stream": {},
+        "PM10_Stream": {},
+        "Ambient_Noise_Level_Stream": {},
+        "Ambient_Light_Level_Stream": {},
+        "Radon_Stream": {}
+      },
+      "Ambient_Presence_And_Motion": {
+        "PIR_Motion_Events": {},
+        "Radar_Presence_Events": {},
+        "Door_Window_Contact_Events": {},
+        "Bed_Pressure_Sensing_Stream": {},
+        "Room_Occupancy_Inference_Output": {}
+      },
+      "Utilities_And_Appliances": {
+        "Electricity_Usage_Stream": {},
+        "Water_Usage_Stream": {},
+        "Heating_Cooling_Telemetry_Stream": {},
+        "Cooking_Device_Telemetry_Stream": {},
+        "Refrigerator_Access_Event_Log": {}
+      },
+      "Audio_Environment": {
+        "Smart_Speaker_Usage_Metadata": {},
+        "Ambient_Speech_Feature_Extraction_Output": {},
+        "Soundscape_Event_Log": {}
+      }
+    },
+
+    "Geospatial_Environmental_And_Contextual_APIs": {
+      "Weather_And_Meteorology_API_Pulls": {
+        "Temperature_API_Record": {},
+        "Humidity_API_Record": {},
+        "Precipitation_API_Record": {},
+        "Wind_API_Record": {},
+        "Pressure_API_Record": {},
+        "UV_Index_API_Record": {},
+        "Solar_Radiation_API_Record": {},
+        "Severe_Weather_Alert_API_Record": {}
+      },
+      "Air_Quality_And_Allergen_API_Pulls": {
+        "AQI_API_Record": {},
+        "PM2_5_PM10_API_Record": {},
+        "NO2_API_Record": {},
+        "O3_API_Record": {},
+        "SO2_API_Record": {},
+        "CO_API_Record": {},
+        "Pollen_Count_API_Record": {},
+        "Mold_Spore_API_Record": {},
+        "Wildfire_Smoke_Exposure_API_Record": {}
+      },
+      "Built_Environment_And_Exposure_Models": {
+        "Walkability_Index_Record": {},
+        "Transit_Access_Index_Record": {},
+        "Traffic_Congestion_Index_Record": {},
+        "Green_Space_NDVI_Record": {},
+        "Blue_Space_Proximity_Record": {},
+        "Food_Environment_Index_Record": {},
+        "Healthcare_Access_Proximity_Record": {},
+        "Noise_Model_Exposure_Record": {},
+        "Nighttime_Light_Exposure_Record": {}
+      },
+      "Socioeconomic_And_Safety_Context_Indices": {
+        "Area_Deprivation_Index_Record": {},
+        "Population_Density_Record": {},
+        "Crime_Rate_Index_Record": {},
+        "Housing_Stability_Index_Record": {}
+      }
+    },
+
+    "Digital_Footprints_And_Platform_Data": {
+      "Data_Access_Modes": {
+        "Participant_Data_Export_File_Ingest": {},
+        "Platform_API_With_Consent_Ingest": {},
+        "Research_Platform_Connector_Ingest": {},
+        "Browser_Extension_Data_Capture_If_Consented": {}
+      },
+      "Social_And_Communication_Platform_Elements_Optional": {
+        "Post_Text_If_Consented": {},
+        "Post_Image_If_Consented": {},
+        "Post_Video_If_Consented": {},
+        "Comment_Text_If_Consented": {},
+        "Reaction_Like_Metadata_If_Consented": {},
+        "Share_Repost_Metadata_If_Consented": {},
+        "Hashtag_Topic_Metadata_If_Consented": {},
+        "Timestamp_Metadata": {},
+        "Geotag_Metadata_If_Present": {}
+      },
+      "Browsing_And_Search_Data_Optional": {
+        "Browser_History_Timestamps_If_Consented": {},
+        "Domain_Category_Binning_Output": {},
+        "Time_Spent_By_Category_Output": {},
+        "Late_Night_Browsing_Flag_Output": {},
+        "Search_Query_Topic_Binning_If_Consented": {}
+      },
+      "Streaming_And_Content_Consumption_Optional": {
+        "Music_Listening_History_If_Consented": {},
+        "Podcast_Listening_History_If_Consented": {},
+        "Video_Watch_History_If_Consented": {},
+        "News_Consumption_Patterns_If_Consented": {},
+        "Reading_And_Ebook_Activity_If_Consented": {}
+      }
+    },
+
+    "Clinical_Records_Administrative_And_Healthcare_Process_Data": {
+      "EHR_Access_And_Ingestion": {
+        "FHIR_API_Extraction": {},
+        "HL7_Interface_Extraction": {},
+        "Direct_Database_Extract": {},
+        "Document_Abstraction_And_Coding": {},
+        "Patient_Portal_Export_Ingest": {},
+        "Blue_Button_Export_Ingest": {}
+      },
+      "EHR_Data_Types": {
+        "Diagnoses_Record": {},
+        "Problem_List_Record": {},
+        "Medication_Record": {},
+        "Medication_Change_Events_Record": {},
+        "Allergy_Record": {},
+        "Vitals_Record": {},
+        "Laboratory_Results_Record": {},
+        "Imaging_Report_Record": {},
+        "Clinical_Note_Text_Record": {},
+        "Appointment_Attendance_Record": {},
+        "Referral_Record": {},
+        "Hospitalization_And_ED_Visit_Record": {},
+        "Procedure_Record": {}
+      },
+      "Claims_And_Utilization_Data": {
+        "Insurance_Claims_Record": {},
+        "Pharmacy_Claims_Record": {},
+        "Procedure_Code_Record": {},
+        "Diagnosis_Code_Record": {},
+        "Utilization_Pattern_Derivations_Record": {}
+      }
+    },
+
+    "Biospecimens_Biological_Assays_And_Biobehavioral_Markers": {
+      "Collection_Context": {
+        "Clinic_Collection_Event": {},
+        "Home_Self_Collection_Event": {},
+        "Mobile_Phlebotomy_Event": {},
+        "Biobank_Aliquot_Event": {},
+        "Laboratory_Visit_Collection_Event": {}
+      },
+      "Biospecimen_Types": {
+        "Blood": {
+          "Venous_Draw_Collection": {},
+          "Capillary_Fingerprick_Collection": {},
+          "Dried_Blood_Spot_Collection": {},
+          "Plasma_Processing": {},
+          "Serum_Processing": {},
+          "PBMC_Isolation": {}
+        },
+        "Saliva": {
+          "Passive_Drool_Collection": {},
+          "Saliva_Swab_Collection": {},
+          "Timed_Saliva_Series_Collection": {}
+        },
+        "Urine": {
+          "Spot_Urine_Collection": {},
+          "Timed_Urine_Collection": {},
+          "TwentyFour_Hour_Urine_Collection": {}
+        },
+        "Stool": {
+          "Microbiome_Kit_Collection": {},
+          "Metabolomics_Kit_Collection": {}
+        },
+        "Hair_And_Nails": {
+          "Hair_Sample_Collection": {},
+          "Nail_Sample_Collection": {}
+        },
+        "Breath": {
+          "Breath_VOC_Collection": {},
+          "Exhaled_NO_Collection": {}
+        },
+        "Sweat_Sample_Collection": {},
+        "Buccal_Swab_Collection": {},
+        "CSF_Collection": {}
+      },
+      "Assay_Families": {
+        "Endocrine_Panel_Assay": {},
+        "Inflammation_And_Immune_Panel_Assay": {},
+        "Metabolic_And_Nutritional_Panel_Assay": {},
+        "Neuroactive_And_Neurometabolic_Panel_Assay": {},
+        "Toxicology_And_Exposure_Assay": {},
+        "Microbiome_Sequencing_Assay": {},
+        "Metabolomics_Assay": {},
+        "Proteomics_Assay": {}
+      },
+      "Biobanking_And_Preanalytics_Metadata": {
+        "Chain_Of_Custody_Log": {},
+        "Cold_Chain_Log": {},
+        "Storage_Temperature_Log": {},
+        "Time_To_Freezer_Log": {},
+        "Aliquoting_And_Barcoding_Log": {},
+        "Hemolysis_And_Quality_Flags_Log": {}
+      }
+    },
+
+    "Genetics_Genomics_Epigenetics_And_Omics": {
+      "Genomic_Data_Types": {
+        "Genotyping_Array_Data_Collection": {},
+        "Whole_Genome_Sequencing_Data_Collection": {},
+        "Whole_Exome_Sequencing_Data_Collection": {},
+        "Targeted_Gene_Panel_Data_Collection": {},
+        "Mitochondrial_Genome_Data_Collection": {}
+      },
+      "Epigenetics_Data_Types": {
+        "DNA_Methylation_Array_Data_Collection": {},
+        "Epigenetic_Clock_Derivation_Data_Collection": {},
+        "Chromatin_Accessibility_Data_Collection": {},
+        "Histone_Modification_Assay_Data_Collection": {}
+      },
+      "Transcriptomics_Data_Types": {
+        "Bulk_RNAseq_Data_Collection": {},
+        "Single_Cell_RNAseq_Data_Collection": {},
+        "miRNA_Assay_Data_Collection": {}
+      },
+      "Other_Omics_Data_Types": {
+        "Proteomics_Data_Collection": {},
+        "Metabolomics_Data_Collection": {},
+        "Lipidomics_Data_Collection": {},
+        "Microbiome_Shotgun_Metagenomics_Data_Collection": {}
+      },
+      "Genetic_Derivations_As_Data_Products": {
+        "Polygenic_Score_Derivation_Record": {},
+        "Pharmacogenomic_Profile_Record": {},
+        "Ancestry_Inference_Record": {}
+      }
+    },
+
+    "Neuroimaging_And_Neurophysiology_Acquisition": {
+      "MRI_Structural_Acquisition": {
+        "T1_Weighted_MPRAGE_Acquisition": {},
+        "T2_Weighted_Acquisition": {},
+        "FLAIR_Acquisition": {},
+        "Proton_Density_Acquisition": {},
+        "SWI_Acquisition": {},
+        "T2_Star_Acquisition": {},
+        "Quantitative_MRI_T1_Mapping_Acquisition": {},
+        "Quantitative_MRI_T2_Mapping_Acquisition": {},
+        "Quantitative_MRI_T2star_Mapping_Acquisition": {},
+        "Myelin_Mapping_T1_T2_Ratio_Acquisition": {},
+        "Magnetization_Transfer_MT_Acquisition": {}
+      },
+      "MRI_Diffusion_Acquisition": {
+        "DTI_Acquisition": {},
+        "DKI_Acquisition": {},
+        "HARDI_Acquisition": {},
+        "DSI_Acquisition": {},
+        "NODDI_Acquisition": {},
+        "Free_Water_Imaging_Acquisition": {},
+        "Fieldmap_And_Distortion_Correction_Acquisition": {}
+      },
+      "MRI_Functional_Acquisition": {
+        "Resting_State_fMRI_Acquisition": {},
+        "Task_Based_fMRI_Acquisition": {
+          "Emotion_Processing_Task_Acquisition": {},
+          "Reward_Processing_Task_Acquisition": {},
+          "Cognitive_Control_Task_Acquisition": {},
+          "Social_Cognition_Task_Acquisition": {},
+          "Interoception_And_Pain_Task_Acquisition": {},
+          "Stress_Threat_Task_Acquisition": {}
+        },
+        "RealTime_fMRI_Neurofeedback_Acquisition": {
+          "Region_Based_Neurofeedback_Acquisition": {},
+          "Network_Based_Neurofeedback_Acquisition": {}
+        }
+      },
+      "MRI_Perfusion_And_Physiology_Acquisition": {
+        "Arterial_Spin_Labeling_ASL_Acquisition": {},
+        "Cerebrovascular_Reactivity_CVR_Acquisition": {},
+        "Phase_Contrast_Flow_Acquisition": {}
+      },
+      "MR_Spectroscopy_Acquisition": {
+        "Single_Voxel_MRS_Acquisition": {},
+        "MultiVoxel_MRSI_Acquisition": {}
+      },
+      "PET_And_SPECT_Acquisition": {
+        "FDG_PET_Acquisition": {},
+        "Receptor_Ligand_PET_Acquisition": {},
+        "Neuroinflammation_PET_Acquisition": {},
+        "SPECT_Perfusion_Acquisition": {}
+      },
+      "CT_Acquisition": {
+        "Structural_CT_Acquisition": {},
+        "CT_Perfusion_Acquisition": {}
+      },
+      "EEG_Electrophysiology_Acquisition": {
+        "Resting_EEG_Eyes_Open_Acquisition": {},
+        "Resting_EEG_Eyes_Closed_Acquisition": {},
+        "Task_EEG_ERP_Acquisition": {
+          "Oddball_P300_Acquisition": {},
+          "Error_Monitoring_ERN_Acquisition": {},
+          "Face_Processing_N170_Acquisition": {},
+          "Affective_LPP_Acquisition": {}
+        },
+        "Sleep_EEG_Polysomnography_Acquisition": {},
+        "Ambulatory_EEG_Acquisition": {},
+        "High_Density_EEG_Acquisition": {},
+        "EEG_Neurofeedback_Session_Acquisition": {}
+      },
+      "MEG_Acquisition": {
+        "Resting_MEG_Acquisition": {},
+        "Task_MEG_Acquisition": {},
+        "Source_Localization_Compatible_Acquisition": {}
+      },
+      "fNIRS_Acquisition": {
+        "Lab_fNIRS_Acquisition": {},
+        "Wearable_fNIRS_Acquisition": {},
+        "Prefrontal_Task_fNIRS_Acquisition": {}
+      },
+      "Noninvasive_Brain_Stimulation_Measurement": {
+        "TMS_Motor_Threshold_Assessment": {},
+        "MEP_Motor_Evoked_Potential_Recording": {},
+        "TMS_EEG_TMS_Evoked_Potential_Acquisition": {},
+        "tDCS_Response_Measurement_Session": {},
+        "tACS_Response_Measurement_Session": {}
+      },
+      "Eye_Tracking_And_Pupillometry_Acquisition": {
+        "Lab_Eye_Tracking_Acquisition": {},
+        "Remote_Webcam_Eye_Tracking_Acquisition": {},
+        "Mobile_Eye_Tracking_Acquisition": {},
+        "Baseline_Pupil_Diameter_Acquisition": {},
+        "Task_Evoked_Pupil_Response_Acquisition": {},
+        "Saccade_And_Antisaccade_Acquisition": {},
+        "Fixation_Attention_Bias_Acquisition": {}
+      },
+      "Imaging_And_Neurophysiology_Metadata_QC": {
+        "Scanner_Model_FieldStrength_Record": {},
+        "Sequence_Parameters_Record": {},
+        "Head_Motion_Metrics_Record": {},
+        "Physiological_Noise_Recording_Resp_ECG": {},
+        "Stimulus_Timing_And_Event_Files_Record": {},
+        "Preprocessing_Pipeline_Metadata_Record": {},
+        "BIDS_Compliance_Metadata_Record": {},
+        "DICOM_Header_Metadata_Record": {},
+        "Artifact_And_QC_Metrics_Record": {}
+      }
+    },
+
+    "Psychophysiology_Biomechanics_And_Somatic_Function": {
+      "Autonomic_Lab_Recordings": {
+        "ECG_HRV_Lab_Recording": {},
+        "EDA_Lab_Recording": {},
+        "Respiration_Belt_Lab_Recording": {},
+        "Blood_Pressure_Reactivity_Lab_Recording": {},
+        "Baroreflex_Sensitivity_Lab_Recording": {}
+      },
+      "Startle_And_Threat_Physiology": {
+        "EMG_Startle_Blink_Recording": {},
+        "Fear_Potentiated_Startle_Recording": {}
+      },
+      "Pupillometry": {
+        "Baseline_Pupil_Size_Recording": {},
+        "Task_Evoked_Pupil_Response_Recording": {}
+      },
+      "Motor_And_Biomechanics": {
+        "Surface_EMG_Recording": {},
+        "Force_Plate_Recording": {},
+        "Gait_Analysis_Recording": {},
+        "Posturography_Recording": {},
+        "Optical_Motion_Capture_Recording": {},
+        "Inertial_Motion_Capture_IMU_Recording": {}
+      },
+      "Sensory_And_Pain_Testing": {
+        "Quantitative_Sensory_Testing_QST_Recording": {},
+        "Thermal_Threshold_Test_Recording": {},
+        "Pressure_Threshold_Test_Recording": {},
+        "Conditioned_Modulation_Test_Recording": {}
+      }
+    },
+
+    "Laboratory_Experimental_Paradigms_And_Provocations": {
+      "Stress_Induction_Paradigms": {
+        "Social_Evaluative_Stress_Task_Session": {},
+        "Cold_Pressor_Task_Session": {},
+        "CO2_Inhalation_Challenge_Session": {},
+        "Cognitive_Stress_Paradigm_Session": {}
+      },
+      "Sleep_And_Circadian_Manipulations": {
+        "Sleep_Deprivation_Protocol_Session": {},
+        "Sleep_Restriction_Protocol_Session": {},
+        "Forced_Desynchrony_Protocol_Session": {},
+        "Light_Exposure_Manipulation_Session": {}
+      },
+      "Pharmacological_Challenge_Paradigms": {
+        "Acute_Serotonergic_Challenge_Session": {},
+        "Acute_Dopaminergic_Challenge_Session": {},
+        "Caffeine_Challenge_Session": {},
+        "Nicotine_Challenge_Session": {}
+      },
+      "VR_AR_Paradigms": {
+        "VR_Social_Stress_Session": {},
+        "VR_Exposure_Session": {},
+        "VR_Navigation_And_Memory_Session": {},
+        "AR_Contextual_Assessment_Session": {}
+      }
+    },
+
+    "Intervention_Engagement_Adherence_And_Process_Data": {
+      "Medication_Adherence_Collections": {
+        "Smart_Pillbox_Adherence_Log": {},
+        "Electronic_Pill_Bottle_Adherence_Log": {},
+        "Self_Report_Adherence_Log": {},
+        "Pharmacy_Refill_Proxy_Record": {},
+        "Therapeutic_Drug_Monitoring_Blood_Level_Record": {}
+      },
+      "Psychotherapy_And_Coaching_Process_Collections": {
+        "Session_Attendance_Record": {},
+        "Homework_Completion_Log": {},
+        "Skill_Practice_Log": {},
+        "Therapeutic_Alliance_Rating_Form": {},
+        "Session_Feedback_Rating_Form": {},
+        "Between_Session_Message_Log": {}
+      },
+      "Digital_Intervention_Usage_Collections": {
+        "Module_Completion_Log": {},
+        "Time_Spent_In_App_Log": {},
+        "Exercise_Completion_Log": {},
+        "In_App_Assessment_Log": {},
+        "Chatbot_Interaction_Log": {},
+        "Notification_Nudge_Delivery_Log": {}
+      },
+      "JITAI_Process_Collections": {
+        "Decision_Rule_Firing_Log": {},
+        "Intervention_Delivery_Confirmation_Log": {},
+        "Post_Intervention_Checkin_Response": {},
+        "Acceptability_And_Burden_Checkin_Response": {}
+      }
+    },
+
+    "Behavioral_Ecology_Social_Functioning_And_Life_Logs": {
+      "Time_Use_And_Activity_Logging": {
+        "Time_Use_Diary_Entries": {},
+        "Activity_Category_SelfLog": {},
+        "Household_Activity_SelfLog": {},
+        "Exercise_And_Fitness_SelfLog": {},
+        "Outdoor_Time_SelfLog": {},
+        "Commute_And_Travel_SelfLog": {}
+      },
+      "Social_Interaction_Logging": {
+        "In_Person_Social_Contact_Log": {},
+        "Digital_Social_Contact_Log": {},
+        "Proximity_To_Others_Proxy_Log": {},
+        "Conversation_Amount_Proxy_Log": {},
+        "Social_Network_Metadata_Log": {}
+      },
+      "Work_School_And_Productivity_Logging": {
+        "Attendance_Log": {},
+        "Work_Shift_Schedule_Log": {},
+        "Task_Completion_SelfLog": {},
+        "Productivity_SelfRating_Log": {},
+        "Performance_Proxy_Log": {}
+      },
+      "Life_Event_And_Stressor_Logging": {
+        "Acute_Life_Event_Log": {},
+        "Chronic_Stressor_Log": {},
+        "Financial_Event_Log": {},
+        "Relationship_Event_Log": {},
+        "Bereavement_Event_Log": {},
+        "Exposure_Event_Log_Generic": {}
+      }
+    },
+
+    "Financial_Commercial_And_Consumption_Data_Optional": {
+      "Bank_Transaction_Exports_Ingest": {
+        "Spending_By_Category_Record": {},
+        "Income_And_Pay_Cycle_Record": {},
+        "Debt_And_Overdraft_Event_Record": {}
+      },
+      "Receipt_And_Purchase_Logs_Ingest": {
+        "Receipt_Scan_And_Itemization_Record": {},
+        "Grocery_Purchase_Record": {},
+        "Medication_Purchase_Record": {}
+      },
+      "Loyalty_And_Shopping_History_Ingest": {
+        "Purchase_Frequency_Record": {},
+        "Time_Of_Purchase_Record": {}
+      }
+    },
+
+    "Data_Ingestion_Integration_And_Interoperability": {
+      "Ingestion_Modes": {
+        "Real_Time_Stream_Ingest": {},
+        "Near_Real_Time_Batch_Ingest": {},
+        "Scheduled_Batch_ETL_Ingest": {},
+        "Participant_Manual_Upload_Ingest": {},
+        "Research_Staff_Manual_Entry_Ingest": {},
+        "Device_To_Phone_Bluetooth_Sync_Ingest": {},
+        "Vendor_Cloud_To_Server_Sync_Ingest": {}
+      },
+      "Integration_Patterns": {
+        "API_Based_Connector_Ingest": {},
+        "File_Export_Import_CSV_Ingest": {},
+        "File_Export_Import_JSON_Ingest": {},
+        "PDF_Report_Parsing_Ingest": {},
+        "DICOM_Import_Ingest": {},
+        "BIDS_Dataset_Packaging_Ingest": {},
+        "Open_mHealth_Payload_Ingest": {}
+      },
+      "Standards_And_Formats_As_Collected_Artifacts": {
+        "FHIR_Resource_Bundle": {},
+        "OMOP_CDM_Table_Extract": {},
+        "HL7_v2_Message_Log": {},
+        "DICOM_Series_Archive": {},
+        "BIDS_Sidecar_JSON_And_TSV": {},
+        "CSV_Data_Dump": {},
+        "JSON_Data_Dump": {}
+      }
+    },
+
+    "Privacy_Consent_Security_And_Governance_Data": {
+      "Consent_And_Permissions_Records": {
+        "Informed_Consent_Signature_Record": {},
+        "Dynamic_Consent_Update_Log": {},
+        "Permission_Scope_Authorization_Log": {},
+        "Data_Sharing_Preference_Record": {},
+        "Withdrawal_And_Data_Deletion_Request_Log": {}
+      },
+      "Security_And_Audit_Artifacts": {
+        "Access_Control_Role_Assignment_Log": {},
+        "Authentication_Event_Log": {},
+        "Authorization_Decision_Log": {},
+        "Data_Access_Audit_Trail": {},
+        "Encryption_Key_Rotation_Log": {},
+        "Data_Export_Event_Log": {}
+      },
+      "Data_Minimization_And_Redaction_Artifacts": {
+        "On_Device_Feature_Extraction_Config_Record": {},
+        "Selective_Sampling_Window_Config_Record": {},
+        "Coarsened_Location_Config_Record": {},
+        "Content_Redaction_Log": {}
+      },
+      "Safety_And_Escalation_Workflow_Records": {
+        "Escalation_Triage_Log": {},
+        "Care_Team_Notification_Log": {},
+        "Participant_Support_Outreach_Log": {},
+        "Crisis_Protocol_Activation_Log": {}
+      }
+    },
+
+    "Data_Quality_QA_And_Monitoring_Collections": {
+      "Completeness_And_Missingness_Metrics": {
+        "Prompt_Response_Rate_Metric": {},
+        "Sensor_Nonwear_Detection_Metric": {},
+        "Upload_Failure_Log": {},
+        "Dropout_Risk_Monitoring_Metric": {},
+        "Protocol_Deviation_Flag_Log": {}
+      },
+      "Signal_Quality_Metrics": {
+        "PPG_Signal_Quality_Index": {},
+        "ECG_Artifact_Flag_Log": {},
+        "EDA_Artifact_Flag_Log": {},
+        "EEG_Artifact_Flag_Log": {},
+        "Imaging_QC_Metric_Log": {}
+      },
+      "Validity_And_Plausibility_Checks": {
+        "Range_Check_Flag_Log": {},
+        "Cross_Source_Consistency_Check_Log": {},
+        "Duplicate_And_Anomaly_Detection_Log": {}
+      },
+      "Calibration_And_Standardization_Records": {
+        "Device_Calibration_Log": {},
+        "Inter_Rater_Reliability_Record": {},
+        "Protocol_Standardization_Checklist": {}
+      }
+    },
+
+    "Participant_Logistics_Support_And_Engagement_Data": {
+      "Onboarding_And_Setup_Artifacts": {
+        "Device_Setup_Checklist": {},
+        "App_Installation_Log": {},
+        "Training_Material_Completion_Log": {},
+        "Run_In_Period_Compliance_Log": {},
+        "Baseline_Test_Call_Or_Check_Log": {}
+      },
+      "Engagement_Strategy_Artifacts": {
+        "Reminder_And_Nudge_Log": {},
+        "Gamification_Event_Log": {},
+        "Incentive_Disbursement_Log": {},
+        "Progress_Feedback_View_Log": {},
+        "Human_Checkin_Schedule_Log": {}
+      },
+      "Accessibility_And_Inclusion_Artifacts": {
+        "Low_Literacy_UI_Config_Record": {},
+        "Language_Localization_Config_Record": {},
+        "Assistive_Technology_Config_Record": {},
+        "Offline_Low_Bandwidth_Mode_Log": {}
+      },
+      "Support_Channel_Artifacts": {
+        "Helpdesk_Ticket_Log": {},
+        "In_App_Support_Chat_Log": {},
+        "Phone_Support_Log": {},
+        "In_Person_Support_Log": {}
+      }
+    }
+  }
+}

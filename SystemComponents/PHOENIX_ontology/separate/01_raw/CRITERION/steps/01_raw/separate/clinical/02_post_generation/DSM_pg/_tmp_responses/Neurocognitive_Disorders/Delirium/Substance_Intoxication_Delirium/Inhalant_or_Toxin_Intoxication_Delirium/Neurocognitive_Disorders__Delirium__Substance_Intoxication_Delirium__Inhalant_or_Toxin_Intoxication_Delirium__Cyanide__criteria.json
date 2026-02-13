@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattentiveness"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "altered_consciousness"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "tachypnea"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypoxemia"
+    },
+    {
+      "criterium": "elevated_serum_lactate"
+    },
+    {
+      "criterium": "metabolic_acidosis"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "almond_odor_detected"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0
+}

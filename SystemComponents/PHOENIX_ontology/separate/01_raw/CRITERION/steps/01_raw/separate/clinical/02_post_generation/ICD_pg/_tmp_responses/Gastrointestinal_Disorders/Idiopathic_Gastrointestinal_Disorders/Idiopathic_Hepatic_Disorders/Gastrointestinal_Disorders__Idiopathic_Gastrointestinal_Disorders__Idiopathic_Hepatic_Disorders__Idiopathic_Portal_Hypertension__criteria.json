@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "splenomegaly"
+    },
+    {
+      "criterium": "thrombocytopenia"
+    },
+    {
+      "criterium": "hypersplenism"
+    },
+    {
+      "criterium": "esophageal_varices"
+    },
+    {
+      "criterium": "portal_hypertensive_gastropathy"
+    },
+    {
+      "criterium": "ascites"
+    },
+    {
+      "criterium": "elevated_portal_pressure"
+    },
+    {
+      "criterium": "portosystemic_shunt"
+    },
+    {
+      "criterium": "normal_bilirubin"
+    },
+    {
+      "criterium": "normal_albumin"
+    },
+    {
+      "criterium": "normal_inr"
+    },
+    {
+      "criterium": "normal_ast_alt"
+    }
+  ],
+  "estimated_prevalence_percent": 0.005
+}

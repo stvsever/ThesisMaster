@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_verbalization_occurrence"
+    },
+    {
+      "criterium": "audible_verbal_output_present_to_bed_partner"
+    },
+    {
+      "criterium": "intelligible_speech_present_during_sleep_talking"
+    },
+    {
+      "criterium": "nonsensical_speech_present_during_sleep_talking"
+    },
+    {
+      "criterium": "repetitive_phrases_present_in_sleep_talking"
+    },
+    {
+      "criterium": "swearing_during_sleep_talking_present"
+    },
+    {
+      "criterium": "emotional_tone_in_sleep_talking_present"
+    },
+    {
+      "criterium": "dream_related_content_present_in_sleep_talking"
+    },
+    {
+      "criterium": "memory_recall_of_sleep_talking_after_waking_present"
+    }
+  ],
+  "estimated_prevalence_percent": 7.5
+}

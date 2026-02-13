@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood_winter"
+    },
+    {
+      "criterium": "anhedonia_winter"
+    },
+    {
+      "criterium": "hypersomnia_winter"
+    },
+    {
+      "criterium": "weight_gain_winter"
+    },
+    {
+      "criterium": "carb_craving_winter"
+    },
+    {
+      "criterium": "fatigue_winter"
+    },
+    {
+      "criterium": "psychomotor_retardation_winter"
+    },
+    {
+      "criterium": "concentration_impairment_winter"
+    },
+    {
+      "criterium": "irritability_winter"
+    },
+    {
+      "criterium": "social_withdrawal_winter"
+    },
+    {
+      "criterium": "suicidal_ideation_winter"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

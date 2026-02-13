@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "severe_temper_outbursts_out_of_proportion_to_provocation"
+    },
+    {
+      "criterium": "verbal_aggression_during_outbursts_toward_people_or_property"
+    },
+    {
+      "criterium": "physical_aggression_during_outbursts_toward_people_or_property"
+    },
+    {
+      "criterium": "destruction_of_property_during_outbursts"
+    },
+    {
+      "criterium": "persistent_irritable_or_angry_mood_between_outbursts"
+    },
+    {
+      "criterium": "irritability_or_angry_mood_observable_by_others_most_of_day"
+    },
+    {
+      "criterium": "impairment_in_social_academic_or_familial_functioning_due_to_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_body_washing"
+    },
+    {
+      "criterium": "repetitive_washing_of_clothing_and_bedding"
+    },
+    {
+      "criterium": "frequent_fragrance_application_to_skin"
+    },
+    {
+      "criterium": "use_of_multiple_fragrances_to_mask_odor"
+    },
+    {
+      "criterium": "self_odor_sniffing_to_confirm_presence"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_odor_camouflage"
+    },
+    {
+      "criterium": "ritualized_odor_camouflage_routine"
+    },
+    {
+      "criterium": "extensive_time_spent_on_camouflaging_behaviors"
+    },
+    {
+      "criterium": "reassurance_seeking_about_odor_from_others"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

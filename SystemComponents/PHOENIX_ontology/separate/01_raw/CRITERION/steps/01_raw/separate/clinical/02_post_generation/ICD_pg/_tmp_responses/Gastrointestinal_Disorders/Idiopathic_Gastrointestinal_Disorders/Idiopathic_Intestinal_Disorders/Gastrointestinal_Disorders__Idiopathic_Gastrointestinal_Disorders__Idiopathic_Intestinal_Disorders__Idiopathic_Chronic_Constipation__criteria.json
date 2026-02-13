@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delayed_colonic_transit"
+    },
+    {
+      "criterium": "stool_frequency_lt_3_per_week"
+    },
+    {
+      "criterium": "stool_form_type_1_or_2"
+    },
+    {
+      "criterium": "defecation_straining_during_defecation"
+    },
+    {
+      "criterium": "incomplete_evacuations_feeling_post_defecation"
+    },
+    {
+      "criterium": "abdominal_bloating"
+    },
+    {
+      "criterium": "pelvic_floor_dyssynergia_during_defecation"
+    },
+    {
+      "criterium": "rectal_hypersensitivity"
+    },
+    {
+      "criterium": "time_spent_defecating_exceeds_15_minutes_per_attempt"
+    },
+    {
+      "criterium": "manual_augmentation_during_defecation"
+    },
+    {
+      "criterium": "defecation_related_anxiety_or_preoccupation"
+    },
+    {
+      "criterium": "stool_withholding_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 14.0
+}

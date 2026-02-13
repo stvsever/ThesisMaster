@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_nonbinary_identity"
+    },
+    {
+      "criterium": "dysphoria_incongruence_with_assigned_sex_characteristics"
+    },
+    {
+      "criterium": "desire_to_modify_secondary_sex_characteristics"
+    },
+    {
+      "criterium": "pronoun_name_affirmation_preference"
+    },
+    {
+      "criterium": "distress_due_to_gender_dysphoria"
+    },
+    {
+      "criterium": "nonbinary_social_role_expression"
+    },
+    {
+      "criterium": "body_dysphoria_about_secondary_sex_characteristics"
+    },
+    {
+      "criterium": "nonbinary_clothing_and_style_expression"
+    },
+    {
+      "criterium": "nonbinary_voice_pitch_and_intonation_modulation"
+    },
+    {
+      "criterium": "functional_impairment_due_to_gender_dysphoria"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_Episodic_Memory"
+    },
+    {
+      "criterium": "impaired_Working_Memory"
+    },
+    {
+      "criterium": "impaired_Attention"
+    },
+    {
+      "criterium": "impaired_Executive_Function"
+    },
+    {
+      "criterium": "slowed_Processing_Speed"
+    },
+    {
+      "criterium": "impaired_Visuospatial_Ability"
+    },
+    {
+      "criterium": "impaired_Language_Skills"
+    },
+    {
+      "criterium": "impaired_Verbal_Fluency"
+    },
+    {
+      "criterium": "impaired_Naming_Retrieval"
+    },
+    {
+      "criterium": "disorientation_in_time_or_place"
+    },
+    {
+      "criterium": "impaired_Cognitive_Flexibility"
+    },
+    {
+      "criterium": "impaired_Judgment_and_Problem_Solving"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

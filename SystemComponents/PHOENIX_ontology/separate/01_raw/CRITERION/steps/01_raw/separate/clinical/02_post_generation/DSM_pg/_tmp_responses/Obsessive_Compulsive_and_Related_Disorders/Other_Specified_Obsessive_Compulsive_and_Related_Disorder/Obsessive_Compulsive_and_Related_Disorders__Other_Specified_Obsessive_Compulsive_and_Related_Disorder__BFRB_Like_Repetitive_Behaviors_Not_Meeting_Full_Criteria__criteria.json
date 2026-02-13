@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "repetitive_hair_pulling_present"
+    },
+    {
+      "criterium": "repetitive_skin_picking_present"
+    },
+    {
+      "criterium": "nail_biting_present"
+    },
+    {
+      "criterium": "lip_biting_present"
+    },
+    {
+      "criterium": "eyebrow_plucking_present"
+    },
+    {
+      "criterium": "eyelash_pulling_present"
+    },
+    {
+      "criterium": "cuticle_picking_present"
+    },
+    {
+      "criterium": "skin_excoriation_present"
+    },
+    {
+      "criterium": "cheek_rubbing_present"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

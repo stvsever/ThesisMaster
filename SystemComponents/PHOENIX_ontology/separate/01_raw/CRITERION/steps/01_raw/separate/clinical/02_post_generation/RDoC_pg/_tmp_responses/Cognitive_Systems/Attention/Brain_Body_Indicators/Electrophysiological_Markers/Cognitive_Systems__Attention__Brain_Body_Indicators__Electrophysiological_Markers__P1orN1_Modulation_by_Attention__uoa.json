@@ -1,0 +1,52 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265",
+      "COMT_rs4680",
+      "CHRNA7_expression",
+      "DRD2_rs1800497",
+      "MAOA_uVNTR"
+    ],
+    "molecules": [
+      "acetylcholine_level",
+      "norepinephrine_level",
+      "glutamate_level",
+      "GABA_level",
+      "BDNF_protein_level",
+      "ACh_receptor_density"
+    ],
+    "cells": [
+      "PV_interneuron_density",
+      "pyramidal_neuron_firing_rate",
+      "inhibitory_to_excitatory_neuron_ratio",
+      "layer4_pyramidal_cell_density"
+    ],
+    "circuits": [
+      "frontoparietal_network_synchrony",
+      "dorsal_attention_network_connectivity",
+      "ventral_attention_network_connectivity",
+      "occipital_attention_network_connectivity",
+      "theta_band_synchrony_FP_network"
+    ],
+    "physiology": [
+      "P1_amplitude",
+      "N1_amplitude",
+      "P1_latency",
+      "N1_latency",
+      "P1_to_N1_amplitude_diff",
+      "P1_N1_modulation_index"
+    ],
+    "behavior": [
+      "attentional_detection_accuracy",
+      "attentional_reaction_time",
+      "target_detection_hit_rate",
+      "attentional_task_error_rate"
+    ],
+    "self_report": [
+      "self_report_attention_focus",
+      "self_report_distractibility",
+      "mind_wandering_frequency"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "DEXA_SPINE_T_SCORE_LEQ_MINUS2_5"
+    },
+    {
+      "criterium": "DEXA_HIP_T_SCORE_LEQ_MINUS2_5"
+    },
+    {
+      "criterium": "VERTEBRAL_FRACTURE_ON_IMAGING"
+    },
+    {
+      "criterium": "HIP_PROXIMAL_FRACTURE_HISTORY"
+    },
+    {
+      "criterium": "DISTAL_RADIAL_FRACTURE_HISTORY"
+    },
+    {
+      "criterium": "LOW_TRAUMA_FRACTURE_HISTORY_ANY_SITE"
+    },
+    {
+      "criterium": "MULTIPLE_FRACTURES_HISTORY"
+    },
+    {
+      "criterium": "HEIGHT_REDUCTION_OVER_TIME"
+    },
+    {
+      "criterium": "SPINAL_DEFORMITY_ON_IMAGING"
+    }
+  ],
+  "estimated_prevalence_percent": 7.5
+}

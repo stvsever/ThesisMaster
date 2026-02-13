@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "irritable_angry_mood"
+    },
+    {
+      "criterium": "argues_with_adults"
+    },
+    {
+      "criterium": "refuses_to_follow_adult_requests"
+    },
+    {
+      "criterium": "deliberate_disobedience_of_rules"
+    },
+    {
+      "criterium": "deliberate_annoyance_of_others"
+    },
+    {
+      "criterium": "blames_others_for_personal_misconduct"
+    },
+    {
+      "criterium": "vindictive_spiteful_attitude"
+    },
+    {
+      "criterium": "peer_conflicts"
+    },
+    {
+      "criterium": "school_impairment_due_to_oppositional_behaviour"
+    },
+    {
+      "criterium": "tests_limits_of_parental_boundaries"
+    },
+    {
+      "criterium": "noncompliance_across_settings"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

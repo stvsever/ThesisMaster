@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "loss_of_pleasure_in_all_or_almost_all_activities"
+    },
+    {
+      "criterium": "lack_of_reactivity_to_pleasurable_stimuli"
+    },
+    {
+      "criterium": "distinct_quality_of_depressed_mood"
+    },
+    {
+      "criterium": "mood_worsens_in_morning"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "psychomotor_agitation_or_retardation"
+    },
+    {
+      "criterium": "significant_weight_loss"
+    },
+    {
+      "criterium": "decreased_appetite"
+    },
+    {
+      "criterium": "excessive_or_inappropriate_guilt"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

@@ -1,0 +1,35 @@
+{
+  "domain_path": "PSYCHO / Cognitive_Behavioral_Therapies / Behavioral_Experiments_and_Learning",
+  "domain_root_path": [
+    "PSYCHO",
+    "Cognitive_Behavioral_Therapies",
+    "Behavioral_Experiments_and_Learning"
+  ],
+  "leaf_count": 26,
+  "total_edges_in_subtree": 38,
+  "evaluated_pairs": 38,
+  "violations_count": 2,
+  "violation_rate": 0.05263157894736842,
+  "llm_calls": 1,
+  "violations": [
+    "Behavioral_Experiments_and_Learning > Design_Principles",
+    "Safety_Behavior_and_Attention > Disconfirm_Maintainers"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Behavioral_Experiments_and_Learning > Design_Principles",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / Behavioral_Experiments_and_Learning",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / Behavioral_Experiments_and_Learning / Design_Principles"
+    },
+    {
+      "pair": "Safety_Behavior_and_Attention > Disconfirm_Maintainers",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / Behavioral_Experiments_and_Learning / Safety_Behavior_and_Attention",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / Behavioral_Experiments_and_Learning / Safety_Behavior_and_Attention / Disconfirm_Maintainers"
+    }
+  ],
+  "cache_key": "5e98e100a6675dc1fabe227d712aff6d99d3829a",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 64.259
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_dysphoric_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "excessive_guilt_or_worthlessness"
+    },
+    {
+      "criterium": "impaired_concentration_or_indecisiveness"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "appetite_change"
+    },
+    {
+      "criterium": "fatigue_or_low_energy"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "social_withdrawal"
+    },
+    {
+      "criterium": "suicidality_or_self_harm_ideation"
+    },
+    {
+      "criterium": "apathy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0035
+}

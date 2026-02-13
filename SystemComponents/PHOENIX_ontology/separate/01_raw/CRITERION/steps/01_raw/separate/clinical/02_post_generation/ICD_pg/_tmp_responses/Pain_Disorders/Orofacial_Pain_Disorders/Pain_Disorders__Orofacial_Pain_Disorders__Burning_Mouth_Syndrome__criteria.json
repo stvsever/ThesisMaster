@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "oral_burning_pain"
+    },
+    {
+      "criterium": "tongue_burning_pain"
+    },
+    {
+      "criterium": "dysgeusia"
+    },
+    {
+      "criterium": "hypogeusia"
+    },
+    {
+      "criterium": "ageusia"
+    },
+    {
+      "criterium": "xerostomia_sensation"
+    },
+    {
+      "criterium": "oral_paresthesia"
+    },
+    {
+      "criterium": "normal_intraoral_mucosa_exam"
+    },
+    {
+      "criterium": "food_trigger_pain_in_mouth"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

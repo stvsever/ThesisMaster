@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_onset_latency_increase"
+    },
+    {
+      "criterium": "sleep_fragmentation_increase"
+    },
+    {
+      "criterium": "total_sleep_time_reduction"
+    },
+    {
+      "criterium": "sleep_efficiency_reduction"
+    },
+    {
+      "criterium": "nocturnal_awakenings_increase"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "nightmares_or_vivid_dreams"
+    },
+    {
+      "criterium": "daytime_sleepiness_or_somnolence"
+    },
+    {
+      "criterium": "circadian_rhythm_disruption"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

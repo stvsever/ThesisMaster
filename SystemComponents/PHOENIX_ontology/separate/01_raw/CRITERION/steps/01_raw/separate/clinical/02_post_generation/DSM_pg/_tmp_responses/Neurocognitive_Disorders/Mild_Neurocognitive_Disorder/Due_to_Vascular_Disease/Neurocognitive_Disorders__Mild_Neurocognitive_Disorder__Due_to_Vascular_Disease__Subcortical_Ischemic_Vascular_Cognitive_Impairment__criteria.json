@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "processing_speed_decline"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "retrieval_deficit"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "urinary_incontinence"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

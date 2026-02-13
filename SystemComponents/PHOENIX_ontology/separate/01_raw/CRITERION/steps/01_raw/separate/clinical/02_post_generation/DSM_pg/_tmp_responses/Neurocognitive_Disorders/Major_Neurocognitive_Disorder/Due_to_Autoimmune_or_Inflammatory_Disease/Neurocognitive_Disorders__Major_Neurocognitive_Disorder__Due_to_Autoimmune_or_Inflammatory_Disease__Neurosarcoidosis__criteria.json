@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "facial_nerve_palsy"
+    },
+    {
+      "criterium": "optic_neuritis"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "cerebellar_ataxia"
+    },
+    {
+      "criterium": "memory_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "leptomeningeal_enhancement_mri"
+    },
+    {
+      "criterium": "parenchymal_brain_lesions_mri"
+    },
+    {
+      "criterium": "csf_lymphocytic_pleocytosis"
+    },
+    {
+      "criterium": "csf_protein_elevation"
+    },
+    {
+      "criterium": "serum_ace_elevation"
+    },
+    {
+      "criterium": "spinal_cord_myelopathy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

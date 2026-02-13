@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "atonic_seizures_present"
+    },
+    {
+      "criterium": "myoclonic_seizures_present"
+    },
+    {
+      "criterium": "tonic_seizures_present"
+    },
+    {
+      "criterium": "generalized_tonic_clonic_seizures_present"
+    },
+    {
+      "criterium": "slow_spike_wave_EEG_pattern_present"
+    },
+    {
+      "criterium": "interictal_epileptiform_discharges_present"
+    },
+    {
+      "criterium": "intellectual_disability_present"
+    },
+    {
+      "criterium": "language_delay_present"
+    },
+    {
+      "criterium": "behavioral_regression_present"
+    },
+    {
+      "criterium": "developmental_delay_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

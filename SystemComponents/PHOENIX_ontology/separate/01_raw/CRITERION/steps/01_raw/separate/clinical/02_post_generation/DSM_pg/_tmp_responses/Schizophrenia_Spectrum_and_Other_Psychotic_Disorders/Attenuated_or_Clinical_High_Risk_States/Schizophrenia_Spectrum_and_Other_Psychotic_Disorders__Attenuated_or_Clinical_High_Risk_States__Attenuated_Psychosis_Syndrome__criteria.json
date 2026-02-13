@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "attenuated_delusional_ideation_present"
+    },
+    {
+      "criterium": "subthreshold_perceptual_abnormalities_present"
+    },
+    {
+      "criterium": "suspiciousness_subthreshold_present"
+    },
+    {
+      "criterium": "referential_thought_content_present"
+    },
+    {
+      "criterium": "disorganized_speech_subthreshold_present"
+    },
+    {
+      "criterium": "odd_belief_system_present"
+    },
+    {
+      "criterium": "magical_thinking_subthreshold_present"
+    },
+    {
+      "criterium": "distress_due_to_subthreshold_symptoms_present"
+    },
+    {
+      "criterium": "functional_impairment_due_to_subthreshold_symptoms_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

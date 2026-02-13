@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "absent_ejaculatory_emission_in_response_to_stimulation"
+    },
+    {
+      "criterium": "inability_to_ejaculate_across_stimulation_modalities"
+    },
+    {
+      "criterium": "normal_or_preserved_erectile_function_during_stimulation"
+    },
+    {
+      "criterium": "self_report_of_adequate_sexual_arousal_during_stimulation"
+    },
+    {
+      "criterium": "self_report_of_intact_sexual_desire_and_drive"
+    },
+    {
+      "criterium": "ejaculation_occurs_only_during_nocturnal_emission"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

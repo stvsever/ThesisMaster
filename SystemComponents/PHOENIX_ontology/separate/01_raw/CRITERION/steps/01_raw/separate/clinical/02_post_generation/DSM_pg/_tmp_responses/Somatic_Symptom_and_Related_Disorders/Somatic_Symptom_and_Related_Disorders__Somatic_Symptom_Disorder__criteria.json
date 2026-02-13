@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "somatic_symptom_present"
+    },
+    {
+      "criterium": "distress_or_impairment_from_somatic_symptom"
+    },
+    {
+      "criterium": "excessive_thoughts_about_seriousness_of_symptoms"
+    },
+    {
+      "criterium": "persistent_health_anxiety_about_symptoms"
+    },
+    {
+      "criterium": "excessive_time_or_energy_devoted_to_symptoms_or_health_concerns"
+    },
+    {
+      "criterium": "hypervigilance_to_body_sensations"
+    },
+    {
+      "criterium": "catastrophizing_thoughts_about_symptoms"
+    },
+    {
+      "criterium": "recurrent_healthcare_reassurance_seeking"
+    },
+    {
+      "criterium": "repeated_diagnostic_testing_without_clear_findings"
+    },
+    {
+      "criterium": "symptom_focus_in_social_interactions"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

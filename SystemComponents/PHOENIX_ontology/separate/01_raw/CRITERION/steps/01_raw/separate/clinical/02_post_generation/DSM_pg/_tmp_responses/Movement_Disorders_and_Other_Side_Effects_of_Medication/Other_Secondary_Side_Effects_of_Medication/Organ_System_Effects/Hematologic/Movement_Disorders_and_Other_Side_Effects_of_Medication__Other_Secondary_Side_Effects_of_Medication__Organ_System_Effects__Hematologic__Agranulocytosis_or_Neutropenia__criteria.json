@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ANC_lt_1500_per_uL"
+    },
+    {
+      "criterium": "ANC_lt_1000_per_uL"
+    },
+    {
+      "criterium": "ANC_lt_500_per_uL"
+    },
+    {
+      "criterium": "WBC_lt_3_5x10_9_per_L"
+    },
+    {
+      "criterium": "Fever_38C_or_higher"
+    },
+    {
+      "criterium": "Oral_mucosal_ulcerations_present"
+    },
+    {
+      "criterium": "Sore_throat_present"
+    },
+    {
+      "criterium": "Gingival_ulceration_present"
+    },
+    {
+      "criterium": "Skin_or_soft_tissue_infection_present"
+    },
+    {
+      "criterium": "Pneumonia_present"
+    },
+    {
+      "criterium": "Sepsis_signs_present"
+    },
+    {
+      "criterium": "Lethargy_or_malaise_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0005
+}

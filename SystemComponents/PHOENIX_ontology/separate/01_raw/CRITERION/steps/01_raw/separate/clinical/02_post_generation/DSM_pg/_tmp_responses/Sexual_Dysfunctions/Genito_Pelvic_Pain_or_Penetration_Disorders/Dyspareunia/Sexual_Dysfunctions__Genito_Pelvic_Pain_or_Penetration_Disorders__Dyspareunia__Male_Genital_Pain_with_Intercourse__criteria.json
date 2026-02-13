@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "penile_pain_during_penetration"
+    },
+    {
+      "criterium": "penile_pain_during_thrusting"
+    },
+    {
+      "criterium": "penile_pain_during_ejaculation"
+    },
+    {
+      "criterium": "glans_pain_during_intercourse"
+    },
+    {
+      "criterium": "perineal_pain_during_intercourse"
+    },
+    {
+      "criterium": "scrotal_pain_during_intercourse"
+    },
+    {
+      "criterium": "urethral_pain_during_intercourse"
+    },
+    {
+      "criterium": "penile_pain_on_palpation"
+    },
+    {
+      "criterium": "pelvic_floor_hypertonicity_on_examination"
+    },
+    {
+      "criterium": "penile_tenderness_on_examination"
+    },
+    {
+      "criterium": "burning_pain_of_penis_during_intercourse"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

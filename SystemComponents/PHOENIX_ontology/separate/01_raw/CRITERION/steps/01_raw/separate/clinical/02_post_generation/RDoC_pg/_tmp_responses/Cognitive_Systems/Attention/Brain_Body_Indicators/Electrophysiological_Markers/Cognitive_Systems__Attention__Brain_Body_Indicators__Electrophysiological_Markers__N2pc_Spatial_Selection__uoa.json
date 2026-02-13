@@ -1,0 +1,26 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "DAN_contralateral_occipitotemporal_EEG_activity",
+      "DAN_VAN_inter_network_synchrony"
+    ],
+    "physiology": [
+      "N2pc_amplitude_microvolts",
+      "N2pc_latency_ms",
+      "N2pc_amplitude_diff_contra_ipsi_microvolts",
+      "N2pc_peak_amplitude_microvolts",
+      "N2pc_scalp_distribution_index"
+    ],
+    "behavior": [
+      "spatial_attention_task_accuracy_percent",
+      "reaction_time_to_target_ms",
+      "cue_target_reaction_time_difference_ms",
+      "target_detection_rate_percent"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 2.5
+}

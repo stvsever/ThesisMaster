@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anticipatory_anxiety_before_public_eating_or_drinking"
+    },
+    {
+      "criterium": "avoidance_of_public_eating_in_restaurants_cafes_or_public_settings"
+    },
+    {
+      "criterium": "avoidance_of_public_drinking_in_social_settings"
+    },
+    {
+      "criterium": "tachycardia_or_palpitations_during_public_eating_or_drinking"
+    },
+    {
+      "criterium": "sweating_or_flushing_in_public_eating_or_drinking"
+    },
+    {
+      "criterium": "trembling_or_shakiness_in_public_eating_or_drinking"
+    },
+    {
+      "criterium": "fear_of_embarrassment_or_negative_evaluation_when_eating_or_drinking_in_public"
+    },
+    {
+      "criterium": "intrusive_thoughts_of_embarrassment_related_to_public_eating_or_drinking"
+    },
+    {
+      "criterium": "consumption_of_private_meals_or_drinks_to_avoid_public_settings"
+    },
+    {
+      "criterium": "cancellation_or_postponement_of_social_meals_or_events_due_to_eating_in_public"
+    },
+    {
+      "criterium": "avoidance_of_social_gatherings_that_include_food_or_drink_due_to_fear_of_public_eating"
+    },
+    {
+      "criterium": "inability_to_eat_or_drink_comfortably_in_public_settings"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

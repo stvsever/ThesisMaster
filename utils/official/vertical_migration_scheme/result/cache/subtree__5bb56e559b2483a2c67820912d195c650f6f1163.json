@@ -1,0 +1,35 @@
+{
+  "domain_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotransmitter_and_Neuromodulator_Support",
+  "domain_root_path": [
+    "BIO",
+    "Cognitive_Capacity_and_Brain_Health",
+    "Neurotransmitter_and_Neuromodulator_Support"
+  ],
+  "leaf_count": 17,
+  "total_edges_in_subtree": 20,
+  "evaluated_pairs": 20,
+  "violations_count": 2,
+  "violation_rate": 0.1,
+  "llm_calls": 1,
+  "violations": [
+    "Catecholamine_Precursors_and_Cofactors > Copper_Status_Check_Framework",
+    "Catecholamine_Precursors_and_Cofactors > Iron_Status_Optimization_Framework"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Catecholamine_Precursors_and_Cofactors > Copper_Status_Check_Framework",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotransmitter_and_Neuromodulator_Support / Catecholamine_Precursors_and_Cofactors",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotransmitter_and_Neuromodulator_Support / Catecholamine_Precursors_and_Cofactors / Copper_Status_Check_Framework"
+    },
+    {
+      "pair": "Catecholamine_Precursors_and_Cofactors > Iron_Status_Optimization_Framework",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotransmitter_and_Neuromodulator_Support / Catecholamine_Precursors_and_Cofactors",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotransmitter_and_Neuromodulator_Support / Catecholamine_Precursors_and_Cofactors / Iron_Status_Optimization_Framework"
+    }
+  ],
+  "cache_key": "5bb56e559b2483a2c67820912d195c650f6f1163",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 35.404
+}

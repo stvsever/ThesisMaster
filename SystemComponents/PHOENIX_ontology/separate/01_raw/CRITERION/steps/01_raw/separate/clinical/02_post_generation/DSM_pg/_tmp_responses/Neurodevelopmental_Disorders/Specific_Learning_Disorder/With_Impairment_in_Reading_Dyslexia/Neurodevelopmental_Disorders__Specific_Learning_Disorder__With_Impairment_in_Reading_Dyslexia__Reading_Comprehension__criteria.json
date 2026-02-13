@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "low_text_comprehension_accuracy"
+    },
+    {
+      "criterium": "poor_inferential_reasoning_in_text"
+    },
+    {
+      "criterium": "weak_main_idea_identification"
+    },
+    {
+      "criterium": "impaired_details_recall_after_reading"
+    },
+    {
+      "criterium": "reduced_passage_summarization_quality"
+    },
+    {
+      "criterium": "poor_text_integration_across_paragraphs"
+    },
+    {
+      "criterium": "low_text_recall_after_short_delay"
+    },
+    {
+      "criterium": "slow_reading_rate"
+    },
+    {
+      "criterium": "frequent_misinterpretation_of_text_events"
+    },
+    {
+      "criterium": "low_standardized_reading_comprehension_score"
+    }
+  ],
+  "estimated_prevalence_percent": 7.5
+}

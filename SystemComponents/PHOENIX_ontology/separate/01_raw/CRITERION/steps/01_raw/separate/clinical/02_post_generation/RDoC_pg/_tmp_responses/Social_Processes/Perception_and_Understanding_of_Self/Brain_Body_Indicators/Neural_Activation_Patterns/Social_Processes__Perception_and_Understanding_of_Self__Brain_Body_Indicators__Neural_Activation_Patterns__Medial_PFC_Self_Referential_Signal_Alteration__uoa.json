@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_V158M_genotype",
+      "BDNF_V66M_genotype",
+      "SLC6A4_5HTTLPR_genotype",
+      "CNTNAP2_rs7794745_genotype"
+    ],
+    "molecules": [
+      "BDNF_protein_level",
+      "Dopamine_D1_receptor_protein_level",
+      "Dopamine_D2_receptor_protein_level",
+      "Cortisol_plasma_level",
+      "NMDA_NR2B_subunit_protein_level"
+    ],
+    "cells": [
+      "Medial_PFC_pyramidal_neuron_density",
+      "Medial_PFC_interneuron_density",
+      "Dendritic_spine_density_Medial_PFC",
+      "Medial_PFC_microglial_activation_density",
+      "Oligodendrocyte_density_Medial_PFC"
+    ],
+    "circuits": [
+      "Default_Mode_Network_strength",
+      "Medial_PFC_PCC_connectivity",
+      "Medial_PFC_Amygdala_connectivity",
+      "Medial_PFC_Hippocampus_connectivity",
+      "Medial_PFC_DLPFC_connectivity"
+    ],
+    "physiology": [
+      "Medial_PFC_BOLD_percent_signal_change",
+      "Resting_Medial_PFC_BOLD_fluctuation_power",
+      "Heart_rate_reactivity_during_self_ref_task"
+    ],
+    "behavior": [
+      "Self_referential_task_accuracy",
+      "Self_referential_task_reaction_time",
+      "Self_reflection_bias_score",
+      "Self_referential_decision_consistency"
+    ],
+    "self_report": [
+      "Rosenberg_Self_Esteem_Scale_score",
+      "Self_Consciousness_Scale_score",
+      "Self_Referential_Processing_Questionnaire_score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

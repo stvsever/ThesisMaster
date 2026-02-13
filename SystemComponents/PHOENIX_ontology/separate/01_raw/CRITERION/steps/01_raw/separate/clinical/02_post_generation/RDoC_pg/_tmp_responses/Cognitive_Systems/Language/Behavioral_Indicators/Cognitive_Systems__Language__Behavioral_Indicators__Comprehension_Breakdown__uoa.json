@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "FOXP2",
+      "CNTNAP2",
+      "DCDC2",
+      "KIAA0319",
+      "ROBO1"
+    ],
+    "molecules": [
+      "glutamate",
+      "GABA",
+      "BDNF",
+      "dopamine",
+      "NMDA_receptor_subunits"
+    ],
+    "cells": [
+      "left_language_area_pyramidal_neurons",
+      "left_language_area_interneurons",
+      "broca_area_pyramidal_neurons",
+      "wernicke_area_pyramidal_neurons"
+    ],
+    "circuits": [
+      "left_wernicke_broca_circuit",
+      "left_semantic_network",
+      "arcuate_fasciculus_dorsal_stream",
+      "left_frontal_language_network"
+    ],
+    "physiology": [
+      "ERP_N400_amplitude",
+      "ERP_N400_latency",
+      "ERP_P600_amplitude",
+      "fMRI_left_hemisphere_language_activation"
+    ],
+    "behavior": [
+      "spoken_sentence_comprehension_accuracy",
+      "written_sentence_comprehension_accuracy",
+      "sentence_to_picture_matching_accuracy",
+      "instruction_following_accuracy",
+      "story_comprehension_question_accuracy"
+    ],
+    "self_report": [
+      "self_report_frequency_of_comprehension_failures",
+      "self_report_need_for_repetition",
+      "self_report_difficulty_following_speech_in_noise",
+      "self_report_difficulty_following_complex_sentences"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

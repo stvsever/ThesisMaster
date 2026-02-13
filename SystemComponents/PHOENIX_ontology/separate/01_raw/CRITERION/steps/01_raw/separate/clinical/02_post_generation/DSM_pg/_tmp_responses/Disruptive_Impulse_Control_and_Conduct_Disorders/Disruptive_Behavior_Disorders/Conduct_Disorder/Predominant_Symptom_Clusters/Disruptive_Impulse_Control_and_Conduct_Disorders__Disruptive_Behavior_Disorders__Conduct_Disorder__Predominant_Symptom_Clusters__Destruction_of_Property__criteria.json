@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "property_destruction_incidents"
+    },
+    {
+      "criterium": "deliberate_property_damage_without_gain"
+    },
+    {
+      "criterium": "impulsive_property_damage_outbursts"
+    },
+    {
+      "criterium": "property_damage_during_rage_or_fury"
+    },
+    {
+      "criterium": "property_damage_home_setting"
+    },
+    {
+      "criterium": "property_damage_school_setting"
+    },
+    {
+      "criterium": "property_damage_community_setting"
+    },
+    {
+      "criterium": "destruction_of_others_property"
+    },
+    {
+      "criterium": "property_damage_with_minimal_concern_for_consequences"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "bruxism"
+    },
+    {
+      "criterium": "hyperactivity"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "euphoria"
+    },
+    {
+      "criterium": "increased_alertness"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "decreased_appetite"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "hypervigilance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

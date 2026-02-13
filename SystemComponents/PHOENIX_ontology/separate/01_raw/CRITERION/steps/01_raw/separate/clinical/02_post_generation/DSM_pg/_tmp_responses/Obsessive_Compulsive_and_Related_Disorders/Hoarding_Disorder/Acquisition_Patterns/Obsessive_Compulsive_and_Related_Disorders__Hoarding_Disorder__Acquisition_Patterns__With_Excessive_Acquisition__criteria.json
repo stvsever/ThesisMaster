@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "compulsive_purchase_behavior"
+    },
+    {
+      "criterium": "excess_online_purchasing"
+    },
+    {
+      "criterium": "in_store_purchase_spree"
+    },
+    {
+      "criterium": "scavenging_for_items"
+    },
+    {
+      "criterium": "dumpster_diving_for_items"
+    },
+    {
+      "criterium": "acquisition_of_free_items"
+    },
+    {
+      "criterium": "acquisition_of_duplicate_items"
+    },
+    {
+      "criterium": "acquisition_of_unneeded_items"
+    },
+    {
+      "criterium": "purchasing_despite_budget_constraint"
+    },
+    {
+      "criterium": "impulsive_buying_in_response_to_discounts"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anticipatory_anxiety_public_restroom_use"
+    },
+    {
+      "criterium": "avoidance_public_restroom_visits"
+    },
+    {
+      "criterium": "panic_attack_public_restroom_context"
+    },
+    {
+      "criterium": "physiological_arousal_public_restroom_context"
+    },
+    {
+      "criterium": "cognitive_intrusive_thoughts_public_restrooms"
+    },
+    {
+      "criterium": "safety_behaviors_in_restroom_context"
+    },
+    {
+      "criterium": "hypervigilance_to_restroom_threats"
+    },
+    {
+      "criterium": "sweating_in_public_restroom_context"
+    },
+    {
+      "criterium": "tremors_in_public_restroom_context"
+    },
+    {
+      "criterium": "impairment_in_social_or_occupational_function_due_to_restroom_fear"
+    }
+  ],
+  "estimated_prevalence_percent": 1.8
+}

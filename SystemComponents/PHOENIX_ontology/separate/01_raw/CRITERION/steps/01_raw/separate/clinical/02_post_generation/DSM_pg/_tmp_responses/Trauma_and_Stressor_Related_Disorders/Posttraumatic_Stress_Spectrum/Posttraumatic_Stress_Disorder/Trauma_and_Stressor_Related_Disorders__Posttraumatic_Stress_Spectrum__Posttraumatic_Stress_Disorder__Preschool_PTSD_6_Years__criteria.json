@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_play_reenactment_of_trauma"
+    },
+    {
+      "criterium": "distressing_trauma_related_dreams"
+    },
+    {
+      "criterium": "dissociative_reactions_to_triggers"
+    },
+    {
+      "criterium": "physiological_distress_to_trauma_reminders"
+    },
+    {
+      "criterium": "avoidance_of_trauma_reminders"
+    },
+    {
+      "criterium": "persistent_negative_affect"
+    },
+    {
+      "criterium": "anhedonia_in_play_or_activities"
+    },
+    {
+      "criterium": "irritability_or_angry_outbursts"
+    },
+    {
+      "criterium": "hypervigilance"
+    },
+    {
+      "criterium": "exaggerated_startle_response"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

@@ -1,0 +1,52 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265",
+      "SLC6A4_5HTTLPR",
+      "COMT_rs4680",
+      "DRD2_rs1800497",
+      "MAOA_uVNTR",
+      "FKBP5_rs1360780"
+    ],
+    "molecules": [
+      "cortisol",
+      "dopamine",
+      "norepinephrine",
+      "serotonin",
+      "GABA",
+      "glutamate",
+      "CRH"
+    ],
+    "cells": [
+      "PFC_pyramidal_neuron_density",
+      "PFC_GABAergic_interneuron_density",
+      "amygdala_neuron_density",
+      "hippocampus_neuron_density"
+    ],
+    "circuits": [
+      "PFC_amygdala_connectivity",
+      "ACC_PFC_connectivity",
+      "ventral_striatum_PFC_connectivity",
+      "insula_amygdala_connectivity"
+    ],
+    "physiology": [
+      "heart_rate_variability",
+      "skin_galvanic_response_amplitude",
+      "pupil_dilation_index",
+      "respiratory_rate",
+      "systolic_blood_pressure"
+    ],
+    "behavior": [
+      "frustration_outburst_frequency",
+      "response_inhibition_error_rate",
+      "task_retry_latency_after_failure",
+      "reward_omission_persistence_duration"
+    ],
+    "self_report": [
+      "frustration_intolerance_scale_total_score",
+      "frustration_intolerance_reactivity_subscale",
+      "frustration_intolerance_control_subscale"
+    ]
+  },
+  "estimated_prevalence_percent": 6.8
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_onset_myo_clonus_present"
+    },
+    {
+      "criterium": "jerk_bilateral_at_sleep_onset_present"
+    },
+    {
+      "criterium": "jerk_unilateral_at_sleep_onset_present"
+    },
+    {
+      "criterium": "multiple_sleep_onset_jerks_present"
+    },
+    {
+      "criterium": "leg_involvement_in_sleep_onset_myo_clonus_present"
+    },
+    {
+      "criterium": "arm_involvement_in_sleep_onset_myo_clonus_present"
+    },
+    {
+      "criterium": "trunk_involvement_in_sleep_onset_myo_clonus_present"
+    },
+    {
+      "criterium": "sensation_of_falling_at_sleep_onset_present"
+    },
+    {
+      "criterium": "vivid_dream_like_experience_at_sleep_onset_present"
+    },
+    {
+      "criterium": "jerk_duration_brief_present"
+    }
+  ],
+  "estimated_prevalence_percent": 70.0
+}

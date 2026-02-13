@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "speech_in_home_contexts_present"
+    },
+    {
+      "criterium": "speech_in_familiar_contexts_present"
+    },
+    {
+      "criterium": "speech_in_private_settings_present"
+    },
+    {
+      "criterium": "speech_in_peers_contexts_present"
+    },
+    {
+      "criterium": "mutism_in_school_contexts_present"
+    },
+    {
+      "criterium": "mutism_in_public_contexts_present"
+    },
+    {
+      "criterium": "mutism_in_unfamiliar_adult_contexts_present"
+    },
+    {
+      "criterium": "verbal_responses_when_direct_addressed_in_preferred_contexts_present"
+    },
+    {
+      "criterium": "nonverbal_communication_dominant_in_muted_contexts_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

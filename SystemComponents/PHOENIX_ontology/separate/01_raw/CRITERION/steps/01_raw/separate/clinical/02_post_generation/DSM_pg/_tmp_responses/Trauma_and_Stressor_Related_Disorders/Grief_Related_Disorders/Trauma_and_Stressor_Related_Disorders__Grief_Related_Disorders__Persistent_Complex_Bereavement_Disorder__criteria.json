@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intense_yearning_for_deceased"
+    },
+    {
+      "criterium": "intrusive_memories_of_loss"
+    },
+    {
+      "criterium": "persistent_disbelief_about_loss"
+    },
+    {
+      "criterium": "intense_emotional_pain_related_to_loss"
+    },
+    {
+      "criterium": "preoccupation_with_deceased"
+    },
+    {
+      "criterium": "avoidance_of_reminders_of_loss"
+    },
+    {
+      "criterium": "difficulty_accepting_loss_as_real"
+    },
+    {
+      "criterium": "emotional_numbing_or_detachment"
+    },
+    {
+      "criterium": "meaninglessness_or_loss_of_purpose"
+    },
+    {
+      "criterium": "impairment_in_psychosocial_functioning_due_to_grief"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

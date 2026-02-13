@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "truancy"
+    },
+    {
+      "criterium": "noncompliance_with_parental_rules"
+    },
+    {
+      "criterium": "lying_to_escape_obligations"
+    },
+    {
+      "criterium": "theft_of_low_value_items"
+    },
+    {
+      "criterium": "shoplifting"
+    },
+    {
+      "criterium": "physical_aggression_toward_classmates"
+    },
+    {
+      "criterium": "verbal_aggression_toward_classmates"
+    },
+    {
+      "criterium": "bullying_or_intimidation_of_classmates"
+    },
+    {
+      "criterium": "property_damage_minor"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

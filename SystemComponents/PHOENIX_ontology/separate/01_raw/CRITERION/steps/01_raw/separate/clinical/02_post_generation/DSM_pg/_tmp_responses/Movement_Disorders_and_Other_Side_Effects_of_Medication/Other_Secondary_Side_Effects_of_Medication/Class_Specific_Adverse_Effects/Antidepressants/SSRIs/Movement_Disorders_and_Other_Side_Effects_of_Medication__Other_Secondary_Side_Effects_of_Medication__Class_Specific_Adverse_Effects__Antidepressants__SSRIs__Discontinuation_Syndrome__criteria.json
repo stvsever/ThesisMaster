@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "electric_shock_sensation"
+    },
+    {
+      "criterium": "paresthesias"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "emesis"
+    },
+    {
+      "criterium": "diarrhea"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "mood_swings"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "tremor"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

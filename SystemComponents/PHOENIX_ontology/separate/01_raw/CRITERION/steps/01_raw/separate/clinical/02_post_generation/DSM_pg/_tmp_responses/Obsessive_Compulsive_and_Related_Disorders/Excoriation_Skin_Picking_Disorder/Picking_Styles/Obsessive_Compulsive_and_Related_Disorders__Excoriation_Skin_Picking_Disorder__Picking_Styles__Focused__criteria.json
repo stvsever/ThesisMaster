@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "focus_picking_frequency_per_day"
+    },
+    {
+      "criterium": "average_picking_duration_minutes"
+    },
+    {
+      "criterium": "target_area_recurrence_rate"
+    },
+    {
+      "criterium": "intrusive_urge_before_picking_present"
+    },
+    {
+      "criterium": "difficulty_resisting_picking_present"
+    },
+    {
+      "criterium": "preoccupation_with_skin_flaws_present"
+    },
+    {
+      "criterium": "post_picking_skin_damage_present"
+    },
+    {
+      "criterium": "temporary_relief_post_picking_present"
+    },
+    {
+      "criterium": "functional_impairment_due_to_picking_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

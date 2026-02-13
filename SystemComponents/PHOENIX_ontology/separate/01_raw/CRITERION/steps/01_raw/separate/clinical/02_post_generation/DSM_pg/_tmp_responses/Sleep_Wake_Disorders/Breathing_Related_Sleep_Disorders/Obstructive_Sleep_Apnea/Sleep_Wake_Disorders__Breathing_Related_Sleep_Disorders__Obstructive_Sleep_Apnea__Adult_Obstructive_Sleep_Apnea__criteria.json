@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "apnea_hypopnea_index_elevated"
+    },
+    {
+      "criterium": "intermittent_oxygen_desaturation_during_sleep"
+    },
+    {
+      "criterium": "loud_snoring"
+    },
+    {
+      "criterium": "gasping_or_choking_during_sleep"
+    },
+    {
+      "criterium": "sleep_fragmentation_multiple_awakenings"
+    },
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "unrefreshing_morning_sleep"
+    },
+    {
+      "criterium": "morning_headache"
+    },
+    {
+      "criterium": "cognitive_impairment_attention_or_memory_dysfunction"
+    },
+    {
+      "criterium": "impaired_executive_function_related_to_sleepiness"
+    },
+    {
+      "criterium": "bed_partner_report_of_apnea_events"
+    }
+  ],
+  "estimated_prevalence_percent": 9.0
+}

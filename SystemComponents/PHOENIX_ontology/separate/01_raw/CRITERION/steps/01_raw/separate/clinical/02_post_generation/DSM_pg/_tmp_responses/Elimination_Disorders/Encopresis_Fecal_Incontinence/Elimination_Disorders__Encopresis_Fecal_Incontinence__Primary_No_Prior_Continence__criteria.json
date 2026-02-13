@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fecal_incontinence_to_underwear_or_clothes"
+    },
+    {
+      "criterium": "fecal_soiling_in_public_or_school"
+    },
+    {
+      "criterium": "overflow_incontinence_observed"
+    },
+    {
+      "criterium": "functional_constipation_features_present"
+    },
+    {
+      "criterium": "stool_withholding_behavior_present"
+    },
+    {
+      "criterium": "abdominal_distension_present"
+    },
+    {
+      "criterium": "rectal_fecal_impaction_palpable"
+    },
+    {
+      "criterium": "hard_stool_palpable_rectally"
+    },
+    {
+      "criterium": "decreased_bowel_movement_frequency_observed"
+    },
+    {
+      "criterium": "growth_percentiles_within_normal_range"
+    },
+    {
+      "criterium": "emotional_distress_related_to_soiling_present"
+    },
+    {
+      "criterium": "social_withdrawal_or_school_anxiety_related_to_soiling_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

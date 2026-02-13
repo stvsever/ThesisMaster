@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M",
+      "SLC6A4_5HTTLPR",
+      "COMT_rs4680",
+      "FKBP5_rs1360780"
+    ],
+    "molecules": [
+      "BDNF",
+      "glutamate",
+      "GABA",
+      "norepinephrine",
+      "CRH"
+    ],
+    "cells": [
+      "amygdala_pyramidal_neurons",
+      "prefrontal_cortex_excitatory_neurons",
+      "parvalbumin_positive_interneurons",
+      "hippocampal_pyramidal_cells"
+    ],
+    "circuits": [
+      "amygdala_to_prefrontal_cortex_connectivity_fMRI",
+      "prefrontal_to_amygdala_connectivity_fMRI",
+      "amygdala_hippocampus_connectivity_fMRI",
+      "insula_amygdala_connectivity_fMRI"
+    ],
+    "physiology": [
+      "salivary_cortisol",
+      "heart_rate_variability",
+      "skin_conductance_response",
+      "pupil_dilation_magnitude",
+      "respiratory_rate"
+    ],
+    "behavior": [
+      "interpretation_bias_RT",
+      "interpretation_bias_accuracy",
+      "threat_avoidance_frequency",
+      "avoidance_latency_to_threat"
+    ],
+    "self_report": [
+      "catastrophic_misinterpretation_scale_total",
+      "anxiety_sensitivity_index_total",
+      "panic_symptoms_questionnaire_total"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

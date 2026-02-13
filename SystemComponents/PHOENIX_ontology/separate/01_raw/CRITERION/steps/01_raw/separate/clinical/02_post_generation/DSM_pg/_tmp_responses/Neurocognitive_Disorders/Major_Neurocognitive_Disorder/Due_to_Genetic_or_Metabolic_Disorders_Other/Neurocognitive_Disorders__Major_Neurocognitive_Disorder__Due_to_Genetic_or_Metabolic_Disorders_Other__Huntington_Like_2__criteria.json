@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "chorea_limbs"
+    },
+    {
+      "criterium": "orofacial_chorea"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "dystonia_present"
+    },
+    {
+      "criterium": "bradykinesia_present"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "depressive_symptoms_present"
+    },
+    {
+      "criterium": "irritability_present"
+    },
+    {
+      "criterium": "aggression_present"
+    },
+    {
+      "criterium": "apathy_or_social_withdrawal_present"
+    },
+    {
+      "criterium": "caudate_nucleus_atrophy_on_mri"
+    },
+    {
+      "criterium": "putamen_atrophy_on_mri"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0005
+}

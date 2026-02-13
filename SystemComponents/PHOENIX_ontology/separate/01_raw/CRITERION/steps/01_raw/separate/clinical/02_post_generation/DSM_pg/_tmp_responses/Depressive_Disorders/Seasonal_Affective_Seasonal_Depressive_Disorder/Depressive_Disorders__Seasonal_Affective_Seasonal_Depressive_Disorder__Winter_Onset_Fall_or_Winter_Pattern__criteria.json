@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SAD_DEPRESSIVE_MOOD"
+    },
+    {
+      "criterium": "SAD_ANHEDONIA"
+    },
+    {
+      "criterium": "SAD_ENERGY_DECREASE"
+    },
+    {
+      "criterium": "SAD_HYPERSOMNIA"
+    },
+    {
+      "criterium": "SAD_WEIGHT_GAIN"
+    },
+    {
+      "criterium": "SAD_CARB_CRAVING"
+    },
+    {
+      "criterium": "SAD_APPETITE_INCREASE"
+    },
+    {
+      "criterium": "SAD_IRRITABILITY"
+    },
+    {
+      "criterium": "SAD_CONCENTRATION_DIFFICULTY"
+    },
+    {
+      "criterium": "SAD_SOCIAL_WITHDRAWAL"
+    },
+    {
+      "criterium": "SAD_PSYCHOMOTOR_SLOWING"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

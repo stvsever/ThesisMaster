@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "conjunctival_pallor"
+    },
+    {
+      "criterium": "skin_pallor"
+    },
+    {
+      "criterium": "resting_tachycardia"
+    },
+    {
+      "criterium": "dyspnea_on_exertion"
+    },
+    {
+      "criterium": "exertional_fatigue"
+    },
+    {
+      "criterium": "koilonychia"
+    },
+    {
+      "criterium": "glossitis"
+    },
+    {
+      "criterium": "angular_stomatitis"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "low_hemoglobin"
+    },
+    {
+      "criterium": "low_hematocrit"
+    },
+    {
+      "criterium": "low_mean_cell_volume"
+    }
+  ],
+  "estimated_prevalence_percent": 24.0
+}

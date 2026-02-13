@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "paresthesias_distal_extremities"
+    },
+    {
+      "criterium": "numbness_distal_extremities"
+    },
+    {
+      "criterium": "burning_pain_distal_extremities"
+    },
+    {
+      "criterium": "allodynia_distal_extremities"
+    },
+    {
+      "criterium": "hypoesthesia_stocking_glove_distribution"
+    },
+    {
+      "criterium": "decreased_vibration_sense_lower_limbs"
+    },
+    {
+      "criterium": "decreased_proprioception_lower_limbs"
+    },
+    {
+      "criterium": "decreased_pinprick_sense_lower_limbs"
+    },
+    {
+      "criterium": "decreased_ankle_reflex"
+    },
+    {
+      "criterium": "distal_muscle_weakness"
+    },
+    {
+      "criterium": "gait_instability"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

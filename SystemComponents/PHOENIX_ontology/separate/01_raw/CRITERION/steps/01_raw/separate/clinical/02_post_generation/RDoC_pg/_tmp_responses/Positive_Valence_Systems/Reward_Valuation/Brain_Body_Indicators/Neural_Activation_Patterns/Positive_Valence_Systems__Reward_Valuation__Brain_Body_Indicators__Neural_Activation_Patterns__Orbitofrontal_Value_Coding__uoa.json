@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_V158M_genotype",
+      "BDNF_V66M_genotype",
+      "DRD2_TaqIA_allele",
+      "SLC6A4_promoter_Variant",
+      "MAOA_uVNTR_allele",
+      "OPRM1_A118G"
+    ],
+    "molecules": [
+      "Dopamine_in_OFC_concentration",
+      "Glutamate_in_OFC_concentration",
+      "GABA_in_OFC_concentration",
+      "BDNF_in_OFC_level",
+      "Anandamide_in_OFC_concentration",
+      "Serotonin_in_OFC_concentration"
+    ],
+    "cells": [
+      "pyramidal_neuron_density_OFC",
+      "parvalbumin_interneuron_density_OFC",
+      "inhibitory_neuron_density_OFC",
+      "glutamatergic_synapse_density_OFC"
+    ],
+    "circuits": [
+      "OFC_Ventral_Striatum_connectivity_strength",
+      "OFC_Amygdala_connectivity_strength",
+      "OFC_DLPFC_connectivity_strength",
+      "OFC_Ventral_Pallidum_connectivity_strength",
+      "OFC_Thalamic_input_strength"
+    ],
+    "physiology": [
+      "OFC_BOLD_value_encoding_amplitude",
+      "OFC_CBF_change_during_value_task",
+      "OFC_fdg_pet_metabolic_rate",
+      "OFC_hemodynamic_response_latency_ms",
+      "frontal_theta_power_during_value_task"
+    ],
+    "behavior": [
+      "monetary_reward_task_choice_frequency",
+      "delay_discounting_rate",
+      "risk_adjusted_decision_index",
+      "value_based_decision_reaction_time_ms",
+      "reward_persistence_in_reversal_task"
+    ],
+    "self_report": [
+      "subjective_value_rating_during_task",
+      "reward_sensitivity_questionnaire_score",
+      "pleasantness_rating_during_reward_presentation",
+      "mood_state_during_task_score"
+    ]
+  },
+  "estimated_prevalence_percent": 4.7
+}

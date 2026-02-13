@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SBP_drop_standing_20mmHg"
+    },
+    {
+      "criterium": "DBP_drop_standing_10mmHg"
+    },
+    {
+      "criterium": "HR_increase_standing_30bpm"
+    },
+    {
+      "criterium": "dizziness_standing"
+    },
+    {
+      "criterium": "presyncope_standing"
+    },
+    {
+      "criterium": "syncope_standing"
+    },
+    {
+      "criterium": "visual_disturbance_standing"
+    },
+    {
+      "criterium": "pallor_standing"
+    },
+    {
+      "criterium": "diaphoresis_standing"
+    },
+    {
+      "criterium": "fatigue_standing"
+    }
+  ],
+  "estimated_prevalence_percent": 1.8
+}

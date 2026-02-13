@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "expressive_language_impairment"
+    },
+    {
+      "criterium": "receptive_language_impairment"
+    },
+    {
+      "criterium": "limited_lexical_diversity"
+    },
+    {
+      "criterium": "reduced_syntactic_complexity"
+    },
+    {
+      "criterium": "impaired_pragmatic_communication"
+    },
+    {
+      "criterium": "poor_conversational_turn_taking"
+    },
+    {
+      "criterium": "articulatory_intelligibility_reduction"
+    },
+    {
+      "criterium": "diminished_nonverbal_communication_ability"
+    },
+    {
+      "criterium": "phonological_processing_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

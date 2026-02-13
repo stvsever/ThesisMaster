@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "neonatal_tremors"
+    },
+    {
+      "criterium": "neonatal_hypertonia"
+    },
+    {
+      "criterium": "hyperreflexia"
+    },
+    {
+      "criterium": "high_pitched_cry"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "yawning"
+    },
+    {
+      "criterium": "sneezing"
+    },
+    {
+      "criterium": "nasal_congestion"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "tachypnea"
+    },
+    {
+      "criterium": "poor_feeding"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

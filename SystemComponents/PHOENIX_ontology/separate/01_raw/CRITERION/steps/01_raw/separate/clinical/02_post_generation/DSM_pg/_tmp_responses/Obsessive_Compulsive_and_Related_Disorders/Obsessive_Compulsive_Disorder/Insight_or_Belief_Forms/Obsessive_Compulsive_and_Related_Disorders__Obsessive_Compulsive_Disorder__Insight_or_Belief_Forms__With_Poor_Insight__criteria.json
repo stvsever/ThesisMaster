@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "obsession_belief_conviction_high"
+    },
+    {
+      "criterium": "doubt_about_obsession_belief_minimal"
+    },
+    {
+      "criterium": "insight_irrationality_absent"
+    },
+    {
+      "criterium": "counterevidence_disregarded"
+    },
+    {
+      "criterium": "recognition_of_others_opinions_absent"
+    },
+    {
+      "criterium": "rituals_performed_with_low_doubt"
+    },
+    {
+      "criterium": "beliefs_unmodified_by_counterevidence"
+    },
+    {
+      "criterium": "persistent_belief_despite_counterevidence"
+    },
+    {
+      "criterium": "resistance_to_explanations_of_beliefs"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

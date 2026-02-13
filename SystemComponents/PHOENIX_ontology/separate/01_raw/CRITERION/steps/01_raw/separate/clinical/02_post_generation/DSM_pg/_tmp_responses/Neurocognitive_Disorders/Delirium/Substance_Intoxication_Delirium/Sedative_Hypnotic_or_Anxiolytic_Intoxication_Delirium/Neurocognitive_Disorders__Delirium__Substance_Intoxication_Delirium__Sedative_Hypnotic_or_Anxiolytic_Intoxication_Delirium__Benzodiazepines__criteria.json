@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_attention"
+    },
+    {
+      "criterium": "fluctuating_level_of_consciousness"
+    },
+    {
+      "criterium": "disorientation_time_place_person"
+    },
+    {
+      "criterium": "disorganized_thought_process"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "ataxia_gait_disturbance"
+    },
+    {
+      "criterium": "slurred_speech"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

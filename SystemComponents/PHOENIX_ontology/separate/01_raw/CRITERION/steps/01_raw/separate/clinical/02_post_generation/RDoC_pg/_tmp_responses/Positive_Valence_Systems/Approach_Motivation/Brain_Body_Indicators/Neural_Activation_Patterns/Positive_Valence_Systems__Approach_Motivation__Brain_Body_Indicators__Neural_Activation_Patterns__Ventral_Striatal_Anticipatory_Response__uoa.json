@@ -1,0 +1,53 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD1",
+      "DRD2",
+      "ANKK1",
+      "SLC6A3",
+      "COMT"
+    ],
+    "molecules": [
+      "dopamine",
+      "D1_receptor_density",
+      "D2_receptor_density",
+      "DAT_density",
+      "glutamate_concentration",
+      "BDNF_level"
+    ],
+    "cells": [
+      "D1_MSN_density",
+      "D2_MSN_density",
+      "GABAergic_interneuron_density",
+      "astrocyte_density"
+    ],
+    "circuits": [
+      "VTA_to_NAc_dopaminergic_projection_strength",
+      "NAc_MSN_activation_pattern_D1",
+      "NAc_MSN_activation_pattern_D2",
+      "NAc_to_VP_thalamic_relays_activation",
+      "mesolimbic_circuit_activation_during_anticipation"
+    ],
+    "physiology": [
+      "heart_rate_increase_magnitude",
+      "skin_conductance_amplitude",
+      "pupil_dilation_magnitude",
+      "respiration_rate_change",
+      "cortisol_level_change",
+      "skin_temperature_change"
+    ],
+    "behavior": [
+      "reaction_time_to_reward_cue",
+      "anticipatory_movement_latency",
+      "reward_pursuit_movement_frequency",
+      "approach_actions_count"
+    ],
+    "self_report": [
+      "reward_expectation_rating",
+      "craving_intensity_rating",
+      "urge_to_approach_reward_rating",
+      "anticipatory_arousal_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

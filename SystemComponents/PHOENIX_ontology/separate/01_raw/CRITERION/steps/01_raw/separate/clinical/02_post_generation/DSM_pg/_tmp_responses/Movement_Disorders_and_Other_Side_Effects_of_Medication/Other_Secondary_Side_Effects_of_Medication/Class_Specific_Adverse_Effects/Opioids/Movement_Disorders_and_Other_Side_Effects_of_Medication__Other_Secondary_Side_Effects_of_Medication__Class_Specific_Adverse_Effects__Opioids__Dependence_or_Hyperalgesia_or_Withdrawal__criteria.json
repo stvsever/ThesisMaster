@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "opioid_craving_present"
+    },
+    {
+      "criterium": "opioid_tolerance_developed"
+    },
+    {
+      "criterium": "opioid_induced_hyperalgesia_present"
+    },
+    {
+      "criterium": "withdrawal_yawning_present"
+    },
+    {
+      "criterium": "withdrawal_lacrimation_present"
+    },
+    {
+      "criterium": "withdrawal_rhinorrhea_present"
+    },
+    {
+      "criterium": "withdrawal_piloerection_present"
+    },
+    {
+      "criterium": "withdrawal_diaphoresis_present"
+    },
+    {
+      "criterium": "withdrawal_mydriasis_present"
+    },
+    {
+      "criterium": "withdrawal_tremor_present"
+    },
+    {
+      "criterium": "withdrawal_nausea_vomiting_present"
+    },
+    {
+      "criterium": "withdrawal_abdominal_cramps_present"
+    },
+    {
+      "criterium": "opioid_related_insomnia_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

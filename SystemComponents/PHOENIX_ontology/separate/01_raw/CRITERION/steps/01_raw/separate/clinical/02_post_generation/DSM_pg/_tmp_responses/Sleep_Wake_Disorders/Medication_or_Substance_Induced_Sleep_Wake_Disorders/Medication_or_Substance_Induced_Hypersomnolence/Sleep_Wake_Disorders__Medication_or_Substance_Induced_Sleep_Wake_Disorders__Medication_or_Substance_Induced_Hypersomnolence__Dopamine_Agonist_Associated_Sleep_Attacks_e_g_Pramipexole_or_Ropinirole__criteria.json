@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sudden_sleep_onset_during_wakefulness"
+    },
+    {
+      "criterium": "sleep_attacks_during_active_tasks"
+    },
+    {
+      "criterium": "automatism_during_sleep_attacks"
+    },
+    {
+      "criterium": "sleep_attacks_during_driving_or_operating_vehicle"
+    },
+    {
+      "criterium": "loss_of_responsiveness_during_sleep_attacks"
+    },
+    {
+      "criterium": "amnesia_for_sleep_attack_events"
+    },
+    {
+      "criterium": "no_warning_before_sleep_attacks"
+    },
+    {
+      "criterium": "sleep_inertia_post_attack"
+    },
+    {
+      "criterium": "temporal_association_with_dopamine_agonist_administration"
+    },
+    {
+      "criterium": "daytime_occurrence_of_sleep_attacks"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

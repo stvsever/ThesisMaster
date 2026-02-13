@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "anxiety_symptomatology"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "cognitive_concentration_difficulty"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "irritability_and_aggression"
+    },
+    {
+      "criterium": "somatic_pain_symptoms"
+    },
+    {
+      "criterium": "social_withdrawal"
+    },
+    {
+      "criterium": "interpersonal_conflict"
+    },
+    {
+      "criterium": "occupational_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

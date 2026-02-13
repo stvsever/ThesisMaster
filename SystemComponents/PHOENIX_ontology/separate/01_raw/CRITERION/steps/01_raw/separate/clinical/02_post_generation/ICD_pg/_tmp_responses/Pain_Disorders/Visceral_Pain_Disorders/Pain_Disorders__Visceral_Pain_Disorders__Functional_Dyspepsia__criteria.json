@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gastric_symptom_anxiety"
+    },
+    {
+      "criterium": "catastrophizing_gastric_symptoms"
+    },
+    {
+      "criterium": "interoceptive_hypervigilance_gastric_signals"
+    },
+    {
+      "criterium": "somatic_symptom_magnification_in_dyspepsia"
+    },
+    {
+      "criterium": "cognitive_preoccupation_with_dyspepsia"
+    },
+    {
+      "criterium": "food_avoidance_due_to_dyspeptic_symptoms"
+    },
+    {
+      "criterium": "sleep_disturbance_from_dyspepsia"
+    },
+    {
+      "criterium": "mood_disturbance_related_to_gastric_symptoms"
+    },
+    {
+      "criterium": "work_impairment_due_to_dyspepsia"
+    },
+    {
+      "criterium": "avoidance_of_social_meals_due_to_dyspepsia"
+    }
+  ],
+  "estimated_prevalence_percent": 11.0
+}

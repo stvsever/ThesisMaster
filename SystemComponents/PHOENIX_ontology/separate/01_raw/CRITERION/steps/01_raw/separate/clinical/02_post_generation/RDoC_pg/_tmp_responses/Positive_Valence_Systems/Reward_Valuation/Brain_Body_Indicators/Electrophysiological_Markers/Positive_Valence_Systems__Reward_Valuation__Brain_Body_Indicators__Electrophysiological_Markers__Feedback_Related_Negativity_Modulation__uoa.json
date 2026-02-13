@@ -1,0 +1,46 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_val158met_genotype",
+      "BDNF_val66met_genotype",
+      "DRD2_taq1a_genotype",
+      "SLC6A3_DAT1_vntr_allele_type",
+      "GRIN2B_rs10189062_genotype"
+    ],
+    "molecules": [
+      "dopamine_plasma_concentration",
+      "dopamine_metabolite_HVA_plasma",
+      "BDNF_serum_level",
+      "NMDA_GRIN2B_subunit_expression",
+      "DOPAMINE_TRANSPORTER_DAT1_protein_level"
+    ],
+    "cells": [
+      "ACC_pyramidal_neuron_density",
+      "GABAergic_interneuron_density_ACC",
+      "dopaminergic_neuron_density_VTA",
+      "glutamatergic_synapse_density_ACC",
+      "microglial_density_ACC"
+    ],
+    "circuits": [
+      "ACC_VS_functional_connectivity_strength",
+      "ACC_vmPFC_functional_connectivity_strength",
+      "VTA_VS_functional_connectivity_strength",
+      "reward_network_coherence_metric"
+    ],
+    "physiology": [
+      "frn_amplitude_Fz_microvolts",
+      "frn_latency_ms"
+    ],
+    "behavior": [
+      "feedback_based_choice_accuracy",
+      "learning_rate_from_feedback",
+      "post_feedback_risk_adjustment_index"
+    ],
+    "self_report": [
+      "self_report_reward_sensitivity_scale",
+      "self_report_feedback_valuation_bias",
+      "self_report_loss_aversion_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 6.2
+}

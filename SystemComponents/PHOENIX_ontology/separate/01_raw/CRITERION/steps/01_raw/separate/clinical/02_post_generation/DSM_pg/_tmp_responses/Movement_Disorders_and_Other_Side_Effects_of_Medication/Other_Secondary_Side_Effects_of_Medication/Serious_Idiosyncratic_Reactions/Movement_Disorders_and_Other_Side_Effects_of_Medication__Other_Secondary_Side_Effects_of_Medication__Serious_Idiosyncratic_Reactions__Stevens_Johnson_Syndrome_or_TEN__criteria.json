@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "epidermal_detachment_TBSA"
+    },
+    {
+      "criterium": "positive_nikolsky_sign"
+    },
+    {
+      "criterium": "mucosal_involvement_present"
+    },
+    {
+      "criterium": "oral_mucosa_ulcerations_present"
+    },
+    {
+      "criterium": "conjunctival_involvement_present"
+    },
+    {
+      "criterium": "bullae_present"
+    },
+    {
+      "criterium": "targetoid_lesions_present"
+    },
+    {
+      "criterium": "erythematous_macules_present"
+    },
+    {
+      "criterium": "skin_pain_present"
+    },
+    {
+      "criterium": "fever_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0001
+}

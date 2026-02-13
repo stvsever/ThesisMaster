@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DBH_gene_expression",
+      "TH_gene_expression",
+      "SLC6A2_gene_expression",
+      "DDC_gene_expression",
+      "ADRA2A_gene_expression"
+    ],
+    "molecules": [
+      "norepinephrine_concentration",
+      "MHPG_concentration",
+      "tyrosine_concentration",
+      "DOPA_concentration",
+      "metanephrine_concentration"
+    ],
+    "cells": [
+      "LC_noradrenergic_neuron_density",
+      "TH_positive_neuron_fraction_in_LC",
+      "NE_terminals_density_in_prefrontal_cortex",
+      "norepinephrine_synthesis_rate_per_neuron",
+      "LC_noradrenergic_projection_density_in_target_areas"
+    ],
+    "circuits": [
+      "LC_to_PFC_functional_connectivity",
+      "LC_to_ACC_functional_connectivity",
+      "LC_to_thalamus_functional_connectivity",
+      "attention_network_coherence_with_LC",
+      "global_noradrenergic_network_synchrony"
+    ],
+    "physiology": [
+      "basal_pupil_diameter_mm",
+      "phasic_pupil_dilation_mm_per_s",
+      "heart_rate_variability_RMSSD_ms",
+      "skin_conductance_micro_siemens",
+      "salivary_alpha_amylase_activity_units",
+      "respiratory_rate_bpm"
+    ],
+    "behavior": [
+      "target_detection_accuracy_percent",
+      "mean_reaction_time_ms",
+      "reaction_time_variability_ms",
+      "hit_rate_percent",
+      "false_alarm_rate_percent"
+    ],
+    "self_report": [
+      "ASRS_v1_1_total_score",
+      "Conners_ADHD_self_report_inattention_score",
+      "Conners_ADHD_self_report_hyperactivity_score",
+      "self_report_alertness_level_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 4.6
+}

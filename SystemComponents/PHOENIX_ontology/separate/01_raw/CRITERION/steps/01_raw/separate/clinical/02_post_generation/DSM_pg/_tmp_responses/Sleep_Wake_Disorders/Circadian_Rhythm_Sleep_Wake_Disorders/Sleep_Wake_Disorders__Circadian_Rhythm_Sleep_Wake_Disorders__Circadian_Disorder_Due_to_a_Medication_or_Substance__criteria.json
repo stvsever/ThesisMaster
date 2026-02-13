@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delayed_sleep_onset_substance_induced"
+    },
+    {
+      "criterium": "early_morning_awakening_substance_induced"
+    },
+    {
+      "criterium": "nighttime_awakening_substance_induced"
+    },
+    {
+      "criterium": "reduced_sleep_efficiency_substance_induced"
+    },
+    {
+      "criterium": "shortened_total_sleep_substance_induced"
+    },
+    {
+      "criterium": "daytime_sleepiness_substance_induced"
+    },
+    {
+      "criterium": "irregular_sleep_wake_pattern_substance_induced"
+    },
+    {
+      "criterium": "daytime_napping_substance_induced"
+    },
+    {
+      "criterium": "circadian_phase_delay_substance_induced"
+    },
+    {
+      "criterium": "circadian_phase_advance_substance_induced"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

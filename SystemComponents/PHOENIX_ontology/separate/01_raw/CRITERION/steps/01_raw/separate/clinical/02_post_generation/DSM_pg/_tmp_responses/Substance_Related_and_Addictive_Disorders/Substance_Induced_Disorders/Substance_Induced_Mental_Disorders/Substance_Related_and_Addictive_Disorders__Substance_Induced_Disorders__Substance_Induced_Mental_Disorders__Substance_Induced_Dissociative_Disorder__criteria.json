@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "dissoc_amnesia_autobiographical_memory_gap"
+    },
+    {
+      "criterium": "depersonalization_substance_induced"
+    },
+    {
+      "criterium": "derealization_substance_induced"
+    },
+    {
+      "criterium": "identity_disturbance_or_identity_change_substance_induced"
+    },
+    {
+      "criterium": "memory_fragmentation_substance_related_events"
+    },
+    {
+      "criterium": "gaps_in_recall_substance_related_events"
+    },
+    {
+      "criterium": "discontinuous_time_experience_substance_use"
+    },
+    {
+      "criterium": "alternate_identity_state_substance_induced"
+    },
+    {
+      "criterium": "involuntary_dissociative_symptoms_during_withdrawal"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

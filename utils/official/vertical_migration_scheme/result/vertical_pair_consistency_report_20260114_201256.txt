@@ -1,0 +1,1569 @@
+VERTICAL CONSISTENCY REPORT (Immediate Parent→Child Edges Only)
+Generated: 2026-01-14T20:12:56
+
+CONFIG
+- batch_size: 100
+- cached_subtrees_skipped: 96
+- config_fingerprint: 3f452adcb43fce12d15de6288dd057c7d6dc55a6
+- errors_count: 0
+- max_inflight: 100
+- max_leaves_per_domain: 200
+- max_pairs_per_domain: 200
+- max_workers: 120
+- model: gpt-5-nano
+- ontology_path: /Users/stijnvanseveren/PythonProjects/MASTERPROEF/SystemComponents/PHOENIX_ontology/separate/01_raw/PREDICTOR/steps/01_raw/aggregated/PREDICTOR_ontology.json
+- output_dir: /Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/official/vertical_migration_scheme/result
+- seed: 42
+- selected_domains: 97
+- subtrees_computed_now: 1
+- total_llm_calls_planned_compute_only: 2
+- total_llm_calls_planned_if_no_cache: 114
+- total_llm_calls_used_ok: 114
+- total_vertical_edges_evaluated_ok: 5450
+- total_vertical_edges_in_selected_domains: 5585
+- total_vertical_edges_targeted_for_eval: 5450
+
+AGGREGATE RESULTS (Top-level domains)
+- BIO: violations=29 / evaluated=2334 (0.012%)
+- PSYCHO: violations=18 / evaluated=2146 (0.008%)
+- SOCIAL: violations=7 / evaluated=970 (0.007%)
+
+- ALL: violations=54 / evaluated=5450 (0.010)
+
+DOMAIN DETAILS (each is a selected, non-overlapping subtree)
+
+================================================================================
+Selected domain subtree: BIO / Environmental_Exposures_and_Built_Environment_Optimization
+Leaf count (subtree): 168
+Vertical edges in subtree (total): 204
+Vertical edges evaluated (sampled): 200
+Violations: 1 (0.005)
+LLM calls used: 2
+Cache key: ec9038b3ed2e838a45eee591cd534160af9fa333
+Source: cache
+
+Violated parent→child edges:
+- Moisture_Mold_and_Allergens > Humidity_Control
+
+Traceback paths for violated edges:
+- Moisture_Mold_and_Allergens > Humidity_Control
+  parent_path: BIO / Environmental_Exposures_and_Built_Environment_Optimization / Indoor_Air_Quality_and_Ventilation / Moisture_Mold_and_Allergens
+  child_path : BIO / Environmental_Exposures_and_Built_Environment_Optimization / Indoor_Air_Quality_and_Ventilation / Moisture_Mold_and_Allergens / Humidity_Control
+
+================================================================================
+Selected domain subtree: BIO / Medical_Assessment_and_Physiology_Testing
+Leaf count (subtree): 182
+Vertical edges in subtree (total): 226
+Vertical edges evaluated (sampled): 200
+Violations: 0 (0.000)
+LLM calls used: 2
+Cache key: dd7e1e673d353c0e3473b5d219e10e7661d7d26c
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Personalization_Monitoring_and_Data_Feedback
+Leaf count (subtree): 177
+Vertical edges in subtree (total): 223
+Vertical edges evaluated (sampled): 200
+Violations: 3 (0.015)
+LLM calls used: 2
+Cache key: a0ce9084068bbcf3854951a169932105bb6bd644
+Source: cache
+
+Violated parent→child edges:
+- Thermoregulation_And_Inflammatory_Signals > Home_Tools
+- Wearables_and_Home_Monitoring > Environment
+- Wearables_and_Home_Monitoring > Physiology
+
+Traceback paths for violated edges:
+- Wearables_and_Home_Monitoring > Environment
+  parent_path: BIO / Personalization_Monitoring_and_Data_Feedback / Wearables_and_Home_Monitoring
+  child_path : BIO / Personalization_Monitoring_and_Data_Feedback / Wearables_and_Home_Monitoring / Environment
+- Wearables_and_Home_Monitoring > Physiology
+  parent_path: BIO / Personalization_Monitoring_and_Data_Feedback / Wearables_and_Home_Monitoring
+  child_path : BIO / Personalization_Monitoring_and_Data_Feedback / Wearables_and_Home_Monitoring / Physiology
+- Thermoregulation_And_Inflammatory_Signals > Home_Tools
+  parent_path: BIO / Personalization_Monitoring_and_Data_Feedback / Wearables_and_Home_Monitoring / Physiology / Thermoregulation_And_Inflammatory_Signals
+  child_path : BIO / Personalization_Monitoring_and_Data_Feedback / Wearables_and_Home_Monitoring / Physiology / Thermoregulation_And_Inflammatory_Signals / Home_Tools
+
+================================================================================
+Selected domain subtree: BIO / Sleep_Circadian_and_Restoration
+Leaf count (subtree): 193
+Vertical edges in subtree (total): 219
+Vertical edges evaluated (sampled): 200
+Violations: 0 (0.000)
+LLM calls used: 2
+Cache key: 7950ade794e37024a6acd4f6b4d4aee113da1fe8
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Somatic_and_Interventional_Care_Pathways
+Leaf count (subtree): 105
+Vertical edges in subtree (total): 128
+Vertical edges evaluated (sampled): 128
+Violations: 11 (0.086)
+LLM calls used: 2
+Cache key: e7e67c14a7a37a9bc608094abb6c537f300a4eb1
+Source: cache
+
+Violated parent→child edges:
+- ImmunoHematologic_Interventional_Evaluations > Therapeutic_Apheresis
+- Medical_Specialty_Linkage > Cardiopulmonary_and_Autonomic
+- Medical_Specialty_Linkage > Infectious_And_Inflammatory
+- Medical_Specialty_Linkage > Metabolic_Endocrine_and_Nutrition
+- RapidActing_Interventional_Psychopharmacology > Clinical_Operations_and_Care_Integration
+- Rehabilitation_and_Functional_Restoration > Somatic_Symptom_and_Stress_Physiology_Interfaces
+- Somatic_and_Interventional_Therapies > ImmunoHematologic_Interventional_Evaluations
+- Somatic_and_Interventional_Therapies > Medical_Specialty_Linkage
+- Somatic_and_Interventional_Therapies > Physiologic_Environmental_Medicine
+- Somatic_and_Interventional_Therapies > Safety_Monitoring_and_Escalation
+- Somatic_and_Interventional_Therapies > Sleep_Medicine_and_Circadian_Care
+
+Traceback paths for violated edges:
+- Somatic_and_Interventional_Therapies > ImmunoHematologic_Interventional_Evaluations
+  parent_path: BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies
+  child_path : BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / ImmunoHematologic_Interventional_Evaluations
+- Somatic_and_Interventional_Therapies > Medical_Specialty_Linkage
+  parent_path: BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies
+  child_path : BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage
+- Somatic_and_Interventional_Therapies > Physiologic_Environmental_Medicine
+  parent_path: BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies
+  child_path : BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Physiologic_Environmental_Medicine
+- Somatic_and_Interventional_Therapies > Safety_Monitoring_and_Escalation
+  parent_path: BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies
+  child_path : BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Safety_Monitoring_and_Escalation
+- Somatic_and_Interventional_Therapies > Sleep_Medicine_and_Circadian_Care
+  parent_path: BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies
+  child_path : BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Sleep_Medicine_and_Circadian_Care
+- ImmunoHematologic_Interventional_Evaluations > Therapeutic_Apheresis
+  parent_path: BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / ImmunoHematologic_Interventional_Evaluations
+  child_path : BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / ImmunoHematologic_Interventional_Evaluations / Therapeutic_Apheresis
+- Medical_Specialty_Linkage > Cardiopulmonary_and_Autonomic
+  parent_path: BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage
+  child_path : BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage / Cardiopulmonary_and_Autonomic
+- Medical_Specialty_Linkage > Infectious_And_Inflammatory
+  parent_path: BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage
+  child_path : BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage / Infectious_And_Inflammatory
+- Medical_Specialty_Linkage > Metabolic_Endocrine_and_Nutrition
+  parent_path: BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage
+  child_path : BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Medical_Specialty_Linkage / Metabolic_Endocrine_and_Nutrition
+- RapidActing_Interventional_Psychopharmacology > Clinical_Operations_and_Care_Integration
+  parent_path: BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / RapidActing_Interventional_Psychopharmacology
+  child_path : BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / RapidActing_Interventional_Psychopharmacology / Clinical_Operations_and_Care_Integration
+- Rehabilitation_and_Functional_Restoration > Somatic_Symptom_and_Stress_Physiology_Interfaces
+  parent_path: BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Rehabilitation_and_Functional_Restoration
+  child_path : BIO / Somatic_and_Interventional_Care_Pathways / Somatic_and_Interventional_Therapies / Rehabilitation_and_Functional_Restoration / Somatic_Symptom_and_Stress_Physiology_Interfaces
+
+================================================================================
+Selected domain subtree: PSYCHO / Brief_and_Motivational_Approaches
+Leaf count (subtree): 53
+Vertical edges in subtree (total): 56
+Vertical edges evaluated (sampled): 56
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 72c63811e07fb5c00658b8aaa21c3ff211cf3dfe
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Capacity_Enhancement_and_Stimulation
+Leaf count (subtree): 173
+Vertical edges in subtree (total): 249
+Vertical edges evaluated (sampled): 200
+Violations: 0 (0.000)
+LLM calls used: 2
+Cache key: 37ec7eadb1524fa4135d8a643e414c365c750db2
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_and_Metacognitive_Interventions
+Leaf count (subtree): 49
+Vertical edges in subtree (total): 51
+Vertical edges evaluated (sampled): 51
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 1761dde16739c99025ee1697655312990707fc65
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Core_Psychological_Skills_Toolkits
+Leaf count (subtree): 103
+Vertical edges in subtree (total): 154
+Vertical edges evaluated (sampled): 154
+Violations: 0 (0.000)
+LLM calls used: 2
+Cache key: 0f16dd22fbc151669ad06111c8c99330fbf76585
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Digital_and_Tech_Enabled_Solutions
+Leaf count (subtree): 38
+Vertical edges in subtree (total): 40
+Vertical edges evaluated (sampled): 40
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 74d4bf77002e150f6afc81cc371641ff8571bbec
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Humanistic_and_Experiential_Therapies
+Leaf count (subtree): 46
+Vertical edges in subtree (total): 50
+Vertical edges evaluated (sampled): 50
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 680726b9db9131da73599afb29331aa66be75984
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Insight_Oriented_Therapies
+Leaf count (subtree): 47
+Vertical edges in subtree (total): 51
+Vertical edges evaluated (sampled): 51
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 59623e992de9ba72a030a704c68ea27d704dda4e
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Integrative_Creative_and_Body_Oriented_Interventions
+Leaf count (subtree): 43
+Vertical edges in subtree (total): 47
+Vertical edges evaluated (sampled): 47
+Violations: 1 (0.021)
+LLM calls used: 1
+Cache key: 66a1cffae7ff86944c73d79cd80098d4502ac977
+Source: cache
+
+Violated parent→child edges:
+- Integrative_Creative_and_Body_Oriented_Interventions > Parts_And_Internal_Systems_Work
+
+Traceback paths for violated edges:
+- Integrative_Creative_and_Body_Oriented_Interventions > Parts_And_Internal_Systems_Work
+  parent_path: PSYCHO / Integrative_Creative_and_Body_Oriented_Interventions
+  child_path : PSYCHO / Integrative_Creative_and_Body_Oriented_Interventions / Parts_And_Internal_Systems_Work
+
+================================================================================
+Selected domain subtree: PSYCHO / Interpersonal_and_Attachment_Therapies
+Leaf count (subtree): 30
+Vertical edges in subtree (total): 32
+Vertical edges evaluated (sampled): 32
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: dd6a914105f86209bc111e8c33a7cd240b3f4b55
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Measurement_Based_Care_and_Feedback
+Leaf count (subtree): 23
+Vertical edges in subtree (total): 24
+Vertical edges evaluated (sampled): 24
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 17c0ddba7f0badb3baeefed002935cf555544a0d
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Positive_Psychology_and_Wellbeing
+Leaf count (subtree): 24
+Vertical edges in subtree (total): 28
+Vertical edges evaluated (sampled): 28
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: c5814c88ce432b778aec553e8ceb77e5fbed48fa
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Self_and_Identity_Work
+Leaf count (subtree): 23
+Vertical edges in subtree (total): 27
+Vertical edges evaluated (sampled): 27
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 95d1e7117f76a1bb57bdc43a41282ea0d5c44779
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Systemic_Couple_Family_Parenting
+Leaf count (subtree): 51
+Vertical edges in subtree (total): 54
+Vertical edges evaluated (sampled): 54
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 135716344572413d347486ae6b34e7d5100275b6
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Trauma_Memory_Imagery_and_Narrative_Work
+Leaf count (subtree): 78
+Vertical edges in subtree (total): 85
+Vertical edges evaluated (sampled): 85
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: b5a4f2369dd3d5540564f96b96375fa85c406d80
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: SOCIAL / Care_Navigation_Access_and_Coordination
+Leaf count (subtree): 113
+Vertical edges in subtree (total): 127
+Vertical edges evaluated (sampled): 127
+Violations: 4 (0.031)
+LLM calls used: 2
+Cache key: 90675c7835339c0ea7b467aa0715ff82e92ce44a
+Source: cache
+
+Violated parent→child edges:
+- Access_Barrier_Reduction_Solutions > Cultural_Context_and_Safety
+- Access_Barrier_Reduction_Solutions > Trust_Stigma_and_Engagement
+- Care_Navigation_Access_and_Coordination > Care_Navigation_and_Access
+- Care_Navigation_and_Access > Advocacy_and_Representation
+
+Traceback paths for violated edges:
+- Care_Navigation_Access_and_Coordination > Care_Navigation_and_Access
+  parent_path: SOCIAL / Care_Navigation_Access_and_Coordination
+  child_path : SOCIAL / Care_Navigation_Access_and_Coordination / Care_Navigation_and_Access
+- Access_Barrier_Reduction_Solutions > Cultural_Context_and_Safety
+  parent_path: SOCIAL / Care_Navigation_Access_and_Coordination / Access_Barrier_Reduction_Solutions
+  child_path : SOCIAL / Care_Navigation_Access_and_Coordination / Access_Barrier_Reduction_Solutions / Cultural_Context_and_Safety
+- Access_Barrier_Reduction_Solutions > Trust_Stigma_and_Engagement
+  parent_path: SOCIAL / Care_Navigation_Access_and_Coordination / Access_Barrier_Reduction_Solutions
+  child_path : SOCIAL / Care_Navigation_Access_and_Coordination / Access_Barrier_Reduction_Solutions / Trust_Stigma_and_Engagement
+- Care_Navigation_and_Access > Advocacy_and_Representation
+  parent_path: SOCIAL / Care_Navigation_Access_and_Coordination / Care_Navigation_and_Access
+  child_path : SOCIAL / Care_Navigation_Access_and_Coordination / Care_Navigation_and_Access / Advocacy_and_Representation
+
+================================================================================
+Selected domain subtree: SOCIAL / Community_Participation_and_Social_Prescribing
+Leaf count (subtree): 135
+Vertical edges in subtree (total): 176
+Vertical edges evaluated (sampled): 176
+Violations: 0 (0.000)
+LLM calls used: 2
+Cache key: 72a083a5a75e6c43c9907bf15fd267e3d3ad45eb
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: SOCIAL / Culture_Identity_and_Social_Inclusion
+Leaf count (subtree): 27
+Vertical edges in subtree (total): 32
+Vertical edges evaluated (sampled): 32
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 204286d8b7979e35b6b7de405764160720cfa4e6
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: SOCIAL / Digital_Social_Environment
+Leaf count (subtree): 19
+Vertical edges in subtree (total): 23
+Vertical edges evaluated (sampled): 23
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: c7c388ad1c4ad72399b40fdeddf2c03e92271b01
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: SOCIAL / Family_Parenting_and_Household_Systems
+Leaf count (subtree): 56
+Vertical edges in subtree (total): 68
+Vertical edges evaluated (sampled): 68
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: bfa146ef47e4b076e37d65bb9ee0c7adb00c37f7
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: SOCIAL / Interpersonal_Therapeutic_Solutions
+Leaf count (subtree): 168
+Vertical edges in subtree (total): 214
+Vertical edges evaluated (sampled): 200
+Violations: 1 (0.005)
+LLM calls used: 2
+Cache key: dc0257f15f07ecaf2985a342f3099f770905e1f7
+Source: cache
+
+Violated parent→child edges:
+- Group_Therapy_Formats > Contextual_Applications
+
+Traceback paths for violated edges:
+- Group_Therapy_Formats > Contextual_Applications
+  parent_path: SOCIAL / Interpersonal_Therapeutic_Solutions / Interpersonal_Therapeutic_and_Coaching_Services / Group_Therapy_Formats
+  child_path : SOCIAL / Interpersonal_Therapeutic_Solutions / Interpersonal_Therapeutic_and_Coaching_Services / Group_Therapy_Formats / Contextual_Applications
+
+================================================================================
+Selected domain subtree: SOCIAL / Legal_Safety_and_Rights_Support
+Leaf count (subtree): 26
+Vertical edges in subtree (total): 32
+Vertical edges evaluated (sampled): 32
+Violations: 1 (0.031)
+LLM calls used: 1
+Cache key: e28e77cc0607af5a1e5db050a82a68120ca4beb4
+Source: cache
+
+Violated parent→child edges:
+- Legal_Safety_and_Rights_Support > Legal_and_Rights_Support
+
+Traceback paths for violated edges:
+- Legal_Safety_and_Rights_Support > Legal_and_Rights_Support
+  parent_path: SOCIAL / Legal_Safety_and_Rights_Support
+  child_path : SOCIAL / Legal_Safety_and_Rights_Support / Legal_and_Rights_Support
+
+================================================================================
+Selected domain subtree: SOCIAL / Romantic_Intimacy_and_Relationships
+Leaf count (subtree): 77
+Vertical edges in subtree (total): 91
+Vertical edges evaluated (sampled): 91
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: cbc97ad12816eca80e92265e40f2366f9855deab
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: SOCIAL / Social_Support_and_Belonging
+Leaf count (subtree): 67
+Vertical edges in subtree (total): 81
+Vertical edges evaluated (sampled): 81
+Violations: 1 (0.012)
+LLM calls used: 1
+Cache key: 4787f2327672c38b51350fde85ef9f85e2149dbb
+Source: cache
+
+Violated parent→child edges:
+- Belonging_Isolation_and_Meaning > Safety_and_Trust_in_Support
+
+Traceback paths for violated edges:
+- Belonging_Isolation_and_Meaning > Safety_and_Trust_in_Support
+  parent_path: SOCIAL / Social_Support_and_Belonging / Belonging_Isolation_and_Meaning
+  child_path : SOCIAL / Social_Support_and_Belonging / Belonging_Isolation_and_Meaning / Safety_and_Trust_in_Support
+
+================================================================================
+Selected domain subtree: SOCIAL / Socioeconomic_and_Material_Resource_Solutions
+Leaf count (subtree): 55
+Vertical edges in subtree (total): 68
+Vertical edges evaluated (sampled): 68
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 6be7362720c662b1ac479e74fe51632ebeb81a73
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: SOCIAL / Work_Education_and_Role_Functioning
+Leaf count (subtree): 59
+Vertical edges in subtree (total): 72
+Vertical edges evaluated (sampled): 72
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 87734a8e10d6047c0864020e68ffe4eea86f5e74
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Cognitive_Capacity_and_Brain_Health / Cerebrovascular_and_Oxygenation_Support
+Leaf count (subtree): 13
+Vertical edges in subtree (total): 15
+Vertical edges evaluated (sampled): 15
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: e9f372a8564f15645d38ae2b24ed45bfc7af08ce
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Cognitive_Capacity_and_Brain_Health / Microbiome_GutBrain_Axis_Support
+Leaf count (subtree): 20
+Vertical edges in subtree (total): 23
+Vertical edges evaluated (sampled): 23
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 86cb8ac900a1d7b7213a6577edd04390ae4bee62
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Cognitive_Capacity_and_Brain_Health / Micronutrient_Status_and_Correction
+Leaf count (subtree): 23
+Vertical edges in subtree (total): 25
+Vertical edges evaluated (sampled): 25
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: f67caec34a87665527c46920cccc0c4914f9a4b8
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Cognitive_Capacity_and_Brain_Health / Neural_Structure_Membranes_and_Myelination
+Leaf count (subtree): 13
+Vertical edges in subtree (total): 15
+Vertical edges evaluated (sampled): 15
+Violations: 2 (0.133)
+LLM calls used: 1
+Cache key: 662b31c7193ced49a515c01b54c35b109c79d4e0
+Source: cache
+
+Violated parent→child edges:
+- Neural_Structure_Membranes_and_Myelination > Cholinergic_Precursors_and_Membrane_Pools
+- Neural_Structure_Membranes_and_Myelination > Omega3_and_Lipid_Support
+
+Traceback paths for violated edges:
+- Neural_Structure_Membranes_and_Myelination > Cholinergic_Precursors_and_Membrane_Pools
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neural_Structure_Membranes_and_Myelination
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neural_Structure_Membranes_and_Myelination / Cholinergic_Precursors_and_Membrane_Pools
+- Neural_Structure_Membranes_and_Myelination > Omega3_and_Lipid_Support
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neural_Structure_Membranes_and_Myelination
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neural_Structure_Membranes_and_Myelination / Omega3_and_Lipid_Support
+
+================================================================================
+Selected domain subtree: BIO / Cognitive_Capacity_and_Brain_Health / Neurodegeneration_Risk_Modifiers_and_Longevity_Neurohealth
+Leaf count (subtree): 10
+Vertical edges in subtree (total): 12
+Vertical edges evaluated (sampled): 12
+Violations: 1 (0.083)
+LLM calls used: 1
+Cache key: d0cfcceed6fa776270f21f5b04748dc4a8564780
+Source: cache
+
+Violated parent→child edges:
+- Neurodegeneration_Risk_Modifiers_and_Longevity_Neurohealth > Screening_and_Referrals
+
+Traceback paths for violated edges:
+- Neurodegeneration_Risk_Modifiers_and_Longevity_Neurohealth > Screening_and_Referrals
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurodegeneration_Risk_Modifiers_and_Longevity_Neurohealth
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurodegeneration_Risk_Modifiers_and_Longevity_Neurohealth / Screening_and_Referrals
+
+================================================================================
+Selected domain subtree: BIO / Cognitive_Capacity_and_Brain_Health / Neuroenergetics_and_Metabolic_Support
+Leaf count (subtree): 21
+Vertical edges in subtree (total): 24
+Vertical edges evaluated (sampled): 24
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 506c73609414f80811f9c3aa2d090a573b99713f
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Cognitive_Capacity_and_Brain_Health / Neuroprotection_Inflammation_and_Oxidative_Stress
+Leaf count (subtree): 30
+Vertical edges in subtree (total): 33
+Vertical edges evaluated (sampled): 33
+Violations: 2 (0.061)
+LLM calls used: 1
+Cache key: c4c2745dce1e687286ae634d18303d564c6ddb47
+Source: cache
+
+Violated parent→child edges:
+- Glutathione_and_Redox_Support > Glycine
+- Polyphenols_and_Antioxidant_Bioactives > Sulforaphane_Precursor
+
+Traceback paths for violated edges:
+- Glutathione_and_Redox_Support > Glycine
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neuroprotection_Inflammation_and_Oxidative_Stress / Glutathione_and_Redox_Support
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neuroprotection_Inflammation_and_Oxidative_Stress / Glutathione_and_Redox_Support / Glycine
+- Polyphenols_and_Antioxidant_Bioactives > Sulforaphane_Precursor
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neuroprotection_Inflammation_and_Oxidative_Stress / Polyphenols_and_Antioxidant_Bioactives
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neuroprotection_Inflammation_and_Oxidative_Stress / Polyphenols_and_Antioxidant_Bioactives / Sulforaphane_Precursor
+
+================================================================================
+Selected domain subtree: BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction
+Leaf count (subtree): 9
+Vertical edges in subtree (total): 11
+Vertical edges evaluated (sampled): 11
+Violations: 11 (1.000)
+LLM calls used: 1
+Cache key: d9ad33c92c4ed47ba82740a83e8a14a121e4e8b3
+Source: cache
+
+Violated parent→child edges:
+- Heavy_Metals_and_Environmental_Toxins > Air_Quality_Monitor
+- Heavy_Metals_and_Environmental_Toxins > HEPA_Air_Purification
+- Heavy_Metals_and_Environmental_Toxins > Heavy_Metal_Screen
+- Heavy_Metals_and_Environmental_Toxins > Lead_Exposure_Risk_Assessment_Framework
+- Heavy_Metals_and_Environmental_Toxins > Pesticide_Exposure_Reduction
+- Heavy_Metals_and_Environmental_Toxins > Solvent_Exposure_Reduction
+- Neurotoxin_and_Exposure_Risk_Reduction > Heavy_Metals_and_Environmental_Toxins
+- Neurotoxin_and_Exposure_Risk_Reduction > Sleep_Disordered_Breathing_and_Hypoxia_Risk
+- Sleep_Disordered_Breathing_and_Hypoxia_Risk > Home_Sleep_Testing_Referral
+- Sleep_Disordered_Breathing_and_Hypoxia_Risk > Polysomnography_Referral
+- Sleep_Disordered_Breathing_and_Hypoxia_Risk > Pulse_Oximeter
+
+Traceback paths for violated edges:
+- Neurotoxin_and_Exposure_Risk_Reduction > Heavy_Metals_and_Environmental_Toxins
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins
+- Neurotoxin_and_Exposure_Risk_Reduction > Sleep_Disordered_Breathing_and_Hypoxia_Risk
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk
+- Heavy_Metals_and_Environmental_Toxins > Air_Quality_Monitor
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins / Air_Quality_Monitor
+- Heavy_Metals_and_Environmental_Toxins > HEPA_Air_Purification
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins / HEPA_Air_Purification
+- Heavy_Metals_and_Environmental_Toxins > Heavy_Metal_Screen
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins / Heavy_Metal_Screen
+- Heavy_Metals_and_Environmental_Toxins > Lead_Exposure_Risk_Assessment_Framework
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins / Lead_Exposure_Risk_Assessment_Framework
+- Heavy_Metals_and_Environmental_Toxins > Pesticide_Exposure_Reduction
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins / Pesticide_Exposure_Reduction
+- Heavy_Metals_and_Environmental_Toxins > Solvent_Exposure_Reduction
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins / Solvent_Exposure_Reduction
+- Sleep_Disordered_Breathing_and_Hypoxia_Risk > Home_Sleep_Testing_Referral
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk / Home_Sleep_Testing_Referral
+- Sleep_Disordered_Breathing_and_Hypoxia_Risk > Polysomnography_Referral
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk / Polysomnography_Referral
+- Sleep_Disordered_Breathing_and_Hypoxia_Risk > Pulse_Oximeter
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk / Pulse_Oximeter
+
+================================================================================
+Selected domain subtree: BIO / Cognitive_Capacity_and_Brain_Health / Neurotransmitter_and_Neuromodulator_Support
+Leaf count (subtree): 17
+Vertical edges in subtree (total): 20
+Vertical edges evaluated (sampled): 20
+Violations: 2 (0.100)
+LLM calls used: 1
+Cache key: 5bb56e559b2483a2c67820912d195c650f6f1163
+Source: cache
+
+Violated parent→child edges:
+- Catecholamine_Precursors_and_Cofactors > Copper_Status_Check_Framework
+- Catecholamine_Precursors_and_Cofactors > Iron_Status_Optimization_Framework
+
+Traceback paths for violated edges:
+- Catecholamine_Precursors_and_Cofactors > Copper_Status_Check_Framework
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurotransmitter_and_Neuromodulator_Support / Catecholamine_Precursors_and_Cofactors
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurotransmitter_and_Neuromodulator_Support / Catecholamine_Precursors_and_Cofactors / Copper_Status_Check_Framework
+- Catecholamine_Precursors_and_Cofactors > Iron_Status_Optimization_Framework
+  parent_path: BIO / Cognitive_Capacity_and_Brain_Health / Neurotransmitter_and_Neuromodulator_Support / Catecholamine_Precursors_and_Cofactors
+  child_path : BIO / Cognitive_Capacity_and_Brain_Health / Neurotransmitter_and_Neuromodulator_Support / Catecholamine_Precursors_and_Cofactors / Iron_Status_Optimization_Framework
+
+================================================================================
+Selected domain subtree: BIO / Cognitive_Capacity_and_Brain_Health / Nootropics_and_Cognitive_Enhancers
+Leaf count (subtree): 37
+Vertical edges in subtree (total): 45
+Vertical edges evaluated (sampled): 45
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: f0d0882ea78e9c77c54e82c6a95ad3c5257741ee
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Cognitive_Capacity_and_Brain_Health / Sensory_Integrity_and_Access_Supports
+Leaf count (subtree): 8
+Vertical edges in subtree (total): 10
+Vertical edges evaluated (sampled): 10
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: e8d88bd24348ab473baf0dad5c90c10d57bdbd7f
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Cognitive_Capacity_and_Brain_Health / Sleep_Circadian_and_Glymphatic_Support
+Leaf count (subtree): 16
+Vertical edges in subtree (total): 18
+Vertical edges evaluated (sampled): 18
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 029d6b25cd213da6c2af47d7c52789c1b800d9f3
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Movement_Physical_Function_and_Somatic_Care / Aerobic_and_Cardiorespiratory_Movement
+Leaf count (subtree): 45
+Vertical edges in subtree (total): 52
+Vertical edges evaluated (sampled): 52
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 589ef29fe6e1e57aa69365fe898313bb9ab790d0
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Movement_Physical_Function_and_Somatic_Care / Balance_Coordination_and_Proprioception
+Leaf count (subtree): 17
+Vertical edges in subtree (total): 20
+Vertical edges evaluated (sampled): 20
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: ceaf703d4a1b0e1fba5f8a3e584a0437eed8f75a
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Movement_Physical_Function_and_Somatic_Care / Bodywork_Manual_Therapies_and_Somatic_Supports
+Leaf count (subtree): 24
+Vertical edges in subtree (total): 29
+Vertical edges evaluated (sampled): 29
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: d6fef5a557488ab58453c626835da83cd16bab16
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity
+Leaf count (subtree): 21
+Vertical edges in subtree (total): 24
+Vertical edges evaluated (sampled): 24
+Violations: 3 (0.125)
+LLM calls used: 1
+Cache key: 42e1943a9a9992ad2340b92fc5fc1fcf7bb671b2
+Source: cache
+
+Violated parent→child edges:
+- Load_Management_and_Carry_Tools > Load_Distribution_Strategy_Framework
+- Load_Management_and_Carry_Tools > Supportive_Footwear_Framework
+- Workstation_Setup_Tools > Chair_Ergonomic_Adjustment_Framework
+
+Traceback paths for violated edges:
+- Load_Management_and_Carry_Tools > Load_Distribution_Strategy_Framework
+  parent_path: BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity / Load_Management_and_Carry_Tools
+  child_path : BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity / Load_Management_and_Carry_Tools / Load_Distribution_Strategy_Framework
+- Load_Management_and_Carry_Tools > Supportive_Footwear_Framework
+  parent_path: BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity / Load_Management_and_Carry_Tools
+  child_path : BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity / Load_Management_and_Carry_Tools / Supportive_Footwear_Framework
+- Workstation_Setup_Tools > Chair_Ergonomic_Adjustment_Framework
+  parent_path: BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity / Workstation_Setup_Tools
+  child_path : BIO / Movement_Physical_Function_and_Somatic_Care / Ergonomics_Posture_and_Work_Capacity / Workstation_Setup_Tools / Chair_Ergonomic_Adjustment_Framework
+
+================================================================================
+Selected domain subtree: BIO / Movement_Physical_Function_and_Somatic_Care / Injury_Risk_Reduction_and_Tissue_Integrity
+Leaf count (subtree): 14
+Vertical edges in subtree (total): 17
+Vertical edges evaluated (sampled): 17
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 7b5d7a5a47bbefe31f2f38ae2f4433222a2978e0
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Movement_Physical_Function_and_Somatic_Care / Mobility_Flexibility_and_Joint_Health
+Leaf count (subtree): 22
+Vertical edges in subtree (total): 25
+Vertical edges evaluated (sampled): 25
+Violations: 1 (0.040)
+LLM calls used: 1
+Cache key: a472f5cc6eb87405324f472a90525ca78d5aa9a8
+Source: cache
+
+Violated parent→child edges:
+- Mobility_Flexibility_and_Joint_Health > Myofascial_and_Soft_Tissue_Tools
+
+Traceback paths for violated edges:
+- Mobility_Flexibility_and_Joint_Health > Myofascial_and_Soft_Tissue_Tools
+  parent_path: BIO / Movement_Physical_Function_and_Somatic_Care / Mobility_Flexibility_and_Joint_Health
+  child_path : BIO / Movement_Physical_Function_and_Somatic_Care / Mobility_Flexibility_and_Joint_Health / Myofascial_and_Soft_Tissue_Tools
+
+================================================================================
+Selected domain subtree: BIO / Movement_Physical_Function_and_Somatic_Care / Physical_Monitoring_and_Assessment
+Leaf count (subtree): 12
+Vertical edges in subtree (total): 14
+Vertical edges evaluated (sampled): 14
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: ef235f5b01350c5138247e592c70d4ac497516d7
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Movement_Physical_Function_and_Somatic_Care / Recovery_and_Regeneration_Supports
+Leaf count (subtree): 7
+Vertical edges in subtree (total): 9
+Vertical edges evaluated (sampled): 9
+Violations: 1 (0.111)
+LLM calls used: 1
+Cache key: f34d23581a4d07fe3bd5bbd3b1237f37e8a8d6d0
+Source: cache
+
+Violated parent→child edges:
+- Hydration_and_Electrolytes_For_Recovery > Tart_Cherry_Extract
+
+Traceback paths for violated edges:
+- Hydration_and_Electrolytes_For_Recovery > Tart_Cherry_Extract
+  parent_path: BIO / Movement_Physical_Function_and_Somatic_Care / Recovery_and_Regeneration_Supports / Hydration_and_Electrolytes_For_Recovery
+  child_path : BIO / Movement_Physical_Function_and_Somatic_Care / Recovery_and_Regeneration_Supports / Hydration_and_Electrolytes_For_Recovery / Tart_Cherry_Extract
+
+================================================================================
+Selected domain subtree: BIO / Movement_Physical_Function_and_Somatic_Care / Rehabilitation_and_Functional_Restoration
+Leaf count (subtree): 25
+Vertical edges in subtree (total): 28
+Vertical edges evaluated (sampled): 28
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 72010243f38f0082e96c8629d5cad1d224514378
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Movement_Physical_Function_and_Somatic_Care / Respiratory_and_Autonomic_Physiology_Tools
+Leaf count (subtree): 17
+Vertical edges in subtree (total): 20
+Vertical edges evaluated (sampled): 20
+Violations: 2 (0.100)
+LLM calls used: 1
+Cache key: 4e2bc255e6bfde9e01ef20466b6f83f52732ae51
+Source: cache
+
+Violated parent→child edges:
+- Airway_and_Nasal_Supports > Allergic_Rhinitis_Care_Framework
+- Airway_and_Nasal_Supports > Mouth_Taping_Risk_Check_Framework
+
+Traceback paths for violated edges:
+- Airway_and_Nasal_Supports > Allergic_Rhinitis_Care_Framework
+  parent_path: BIO / Movement_Physical_Function_and_Somatic_Care / Respiratory_and_Autonomic_Physiology_Tools / Airway_and_Nasal_Supports
+  child_path : BIO / Movement_Physical_Function_and_Somatic_Care / Respiratory_and_Autonomic_Physiology_Tools / Airway_and_Nasal_Supports / Allergic_Rhinitis_Care_Framework
+- Airway_and_Nasal_Supports > Mouth_Taping_Risk_Check_Framework
+  parent_path: BIO / Movement_Physical_Function_and_Somatic_Care / Respiratory_and_Autonomic_Physiology_Tools / Airway_and_Nasal_Supports
+  child_path : BIO / Movement_Physical_Function_and_Somatic_Care / Respiratory_and_Autonomic_Physiology_Tools / Airway_and_Nasal_Supports / Mouth_Taping_Risk_Check_Framework
+
+================================================================================
+Selected domain subtree: BIO / Movement_Physical_Function_and_Somatic_Care / Strength_Power_and_Resistance
+Leaf count (subtree): 26
+Vertical edges in subtree (total): 31
+Vertical edges evaluated (sampled): 31
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 1bab8fc563cd935e470454ffb0a18d364cedbcf2
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Nutrition_Hydration_and_Metabolic_Health / Alcohol_and_Other_Intake_Modulation
+Leaf count (subtree): 6
+Vertical edges in subtree (total): 6
+Vertical edges evaluated (sampled): 6
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 0af0c4825b8be3119a5b8c6d611ca30a705eeb6a
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Nutrition_Hydration_and_Metabolic_Health / Caffeine_and_Stimulant_Intake_Modulation
+Leaf count (subtree): 7
+Vertical edges in subtree (total): 7
+Vertical edges evaluated (sampled): 7
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: d94d24b7f02f9f1f04ba19a83406f71c26bb965a
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Nutrition_Hydration_and_Metabolic_Health / Dietary_Patterns_and_Frameworks
+Leaf count (subtree): 38
+Vertical edges in subtree (total): 38
+Vertical edges evaluated (sampled): 38
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: c41ac3f1c80806d31210227dedc6cf3e0840aa56
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Nutrition_Hydration_and_Metabolic_Health / Eating_Behavior_and_Satiety_Skills
+Leaf count (subtree): 12
+Vertical edges in subtree (total): 12
+Vertical edges evaluated (sampled): 12
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 18ccf93994f5f5e8b9b7e91ad158f71844e57e1b
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools
+Leaf count (subtree): 11
+Vertical edges in subtree (total): 11
+Vertical edges evaluated (sampled): 11
+Violations: 4 (0.364)
+LLM calls used: 1
+Cache key: 6db7348065aa8315b8fe455fba46ed7d6425390c
+Source: cache
+
+Violated parent→child edges:
+- Hydration_and_Beverage_Tools > Alcohol_Free_Beverage_Options
+- Hydration_and_Beverage_Tools > Caffeine_Substitution_Decaf
+- Hydration_and_Beverage_Tools > Herbal_Tea_Rotation
+- Hydration_and_Beverage_Tools > Sparkling_Water_Rotation
+
+Traceback paths for violated edges:
+- Hydration_and_Beverage_Tools > Alcohol_Free_Beverage_Options
+  parent_path: BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools
+  child_path : BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools / Alcohol_Free_Beverage_Options
+- Hydration_and_Beverage_Tools > Caffeine_Substitution_Decaf
+  parent_path: BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools
+  child_path : BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools / Caffeine_Substitution_Decaf
+- Hydration_and_Beverage_Tools > Herbal_Tea_Rotation
+  parent_path: BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools
+  child_path : BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools / Herbal_Tea_Rotation
+- Hydration_and_Beverage_Tools > Sparkling_Water_Rotation
+  parent_path: BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools
+  child_path : BIO / Nutrition_Hydration_and_Metabolic_Health / Hydration_and_Beverage_Tools / Sparkling_Water_Rotation
+
+================================================================================
+Selected domain subtree: BIO / Nutrition_Hydration_and_Metabolic_Health / Meal_Planning_and_Structure
+Leaf count (subtree): 34
+Vertical edges in subtree (total): 36
+Vertical edges evaluated (sampled): 36
+Violations: 1 (0.028)
+LLM calls used: 1
+Cache key: 2b04c1168c5c2771d7dc9cc85a325cb8f455cfb3
+Source: cache
+
+Violated parent→child edges:
+- Cooking_Methods > No_Cook_Meals
+
+Traceback paths for violated edges:
+- Cooking_Methods > No_Cook_Meals
+  parent_path: BIO / Nutrition_Hydration_and_Metabolic_Health / Meal_Planning_and_Structure / Cooking_Methods
+  child_path : BIO / Nutrition_Hydration_and_Metabolic_Health / Meal_Planning_and_Structure / Cooking_Methods / No_Cook_Meals
+
+================================================================================
+Selected domain subtree: BIO / Nutrition_Hydration_and_Metabolic_Health / Meal_Templates
+Leaf count (subtree): 70
+Vertical edges in subtree (total): 74
+Vertical edges evaluated (sampled): 74
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 9892382c591689d416dbd4ba2214e747cd1d0f28
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Nutrition_Hydration_and_Metabolic_Health / Medical_Nutrition_Therapy_Tools
+Leaf count (subtree): 10
+Vertical edges in subtree (total): 10
+Vertical edges evaluated (sampled): 10
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 6294d70f4065379760873898f6f94ca0475d5760
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Nutrition_Hydration_and_Metabolic_Health / Microbiome_Interventions
+Leaf count (subtree): 50
+Vertical edges in subtree (total): 60
+Vertical edges evaluated (sampled): 60
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: aaf9b9c1debcec9de4e8b667774ff90082be5726
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Nutrition_Hydration_and_Metabolic_Health / Micronutrient_Supplement_Forms
+Leaf count (subtree): 56
+Vertical edges in subtree (total): 87
+Vertical edges evaluated (sampled): 87
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: a5521cffa87afc692d42344d11dcc3bbee5e2475
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Nutrition_Hydration_and_Metabolic_Health / Supplement_and_Nutraceutical_Library
+Leaf count (subtree): 116
+Vertical edges in subtree (total): 123
+Vertical edges evaluated (sampled): 123
+Violations: 3 (0.024)
+LLM calls used: 2
+Cache key: 5bb64b6bb696cf5ecd87cc33b0bcd398a82bb7a4
+Source: cache
+
+Violated parent→child edges:
+- Polyphenols_and_Phytonutrients > Berberine
+- Polyphenols_and_Phytonutrients > Boswellia
+- Polyphenols_and_Phytonutrients > Sulforaphane_Precursor
+
+Traceback paths for violated edges:
+- Polyphenols_and_Phytonutrients > Berberine
+  parent_path: BIO / Nutrition_Hydration_and_Metabolic_Health / Supplement_and_Nutraceutical_Library / Polyphenols_and_Phytonutrients
+  child_path : BIO / Nutrition_Hydration_and_Metabolic_Health / Supplement_and_Nutraceutical_Library / Polyphenols_and_Phytonutrients / Berberine
+- Polyphenols_and_Phytonutrients > Boswellia
+  parent_path: BIO / Nutrition_Hydration_and_Metabolic_Health / Supplement_and_Nutraceutical_Library / Polyphenols_and_Phytonutrients
+  child_path : BIO / Nutrition_Hydration_and_Metabolic_Health / Supplement_and_Nutraceutical_Library / Polyphenols_and_Phytonutrients / Boswellia
+- Polyphenols_and_Phytonutrients > Sulforaphane_Precursor
+  parent_path: BIO / Nutrition_Hydration_and_Metabolic_Health / Supplement_and_Nutraceutical_Library / Polyphenols_and_Phytonutrients
+  child_path : BIO / Nutrition_Hydration_and_Metabolic_Health / Supplement_and_Nutraceutical_Library / Polyphenols_and_Phytonutrients / Sulforaphane_Precursor
+
+================================================================================
+Selected domain subtree: BIO / Pharmacology_and_Biomedical_Treatments / AntiInflammatory_and_Immunomodulatory_Therapeutics
+Leaf count (subtree): 39
+Vertical edges in subtree (total): 51
+Vertical edges evaluated (sampled): 51
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 5fe5b45321dda70db26cbbe5d71ceec421d7e094
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Pharmacology_and_Biomedical_Treatments / Endocrine_and_Metabolic_Therapeutics
+Leaf count (subtree): 36
+Vertical edges in subtree (total): 49
+Vertical edges evaluated (sampled): 49
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 3354a473b9e19cce8518bbf0e42d9ccb268ae721
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Pharmacology_and_Biomedical_Treatments / Medication_Formulations_and_Routes
+Leaf count (subtree): 17
+Vertical edges in subtree (total): 24
+Vertical edges evaluated (sampled): 24
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: bb3e6f1c70b9f3bf62474e65a45beac7c7b82ec1
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Pharmacology_and_Biomedical_Treatments / Medication_Safety_and_Personalization_Tools
+Leaf count (subtree): 21
+Vertical edges in subtree (total): 24
+Vertical edges evaluated (sampled): 24
+Violations: 3 (0.125)
+LLM calls used: 1
+Cache key: 2c108daab69e01ae7c6e2e6884d40723bc510775
+Source: cache
+
+Violated parent→child edges:
+- Adherence_and_Tracking > Shared_Decision_Making_Medication_Review_With_Clinician
+- Adherence_and_Tracking > Side_Effect_Tracking_Log
+- Adherence_and_Tracking > Symptom_Tracking_Log_Medication_Linked
+
+Traceback paths for violated edges:
+- Adherence_and_Tracking > Shared_Decision_Making_Medication_Review_With_Clinician
+  parent_path: BIO / Pharmacology_and_Biomedical_Treatments / Medication_Safety_and_Personalization_Tools / Adherence_and_Tracking
+  child_path : BIO / Pharmacology_and_Biomedical_Treatments / Medication_Safety_and_Personalization_Tools / Adherence_and_Tracking / Shared_Decision_Making_Medication_Review_With_Clinician
+- Adherence_and_Tracking > Side_Effect_Tracking_Log
+  parent_path: BIO / Pharmacology_and_Biomedical_Treatments / Medication_Safety_and_Personalization_Tools / Adherence_and_Tracking
+  child_path : BIO / Pharmacology_and_Biomedical_Treatments / Medication_Safety_and_Personalization_Tools / Adherence_and_Tracking / Side_Effect_Tracking_Log
+- Adherence_and_Tracking > Symptom_Tracking_Log_Medication_Linked
+  parent_path: BIO / Pharmacology_and_Biomedical_Treatments / Medication_Safety_and_Personalization_Tools / Adherence_and_Tracking
+  child_path : BIO / Pharmacology_and_Biomedical_Treatments / Medication_Safety_and_Personalization_Tools / Adherence_and_Tracking / Symptom_Tracking_Log_Medication_Linked
+
+================================================================================
+Selected domain subtree: BIO / Pharmacology_and_Biomedical_Treatments / Pain_and_Somatic_Symptom_Therapeutics
+Leaf count (subtree): 49
+Vertical edges in subtree (total): 67
+Vertical edges evaluated (sampled): 67
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 1f892fd4c9daa3ed814c8b8bc767c5303eafc3c4
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Pharmacology_and_Biomedical_Treatments / Psychiatric_and_CNS_Pharmacotherapy
+Leaf count (subtree): 106
+Vertical edges in subtree (total): 144
+Vertical edges evaluated (sampled): 144
+Violations: 0 (0.000)
+LLM calls used: 2
+Cache key: 144199c21cdb97398ad2fd4e756034900a336a0e
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: BIO / Pharmacology_and_Biomedical_Treatments / Sleep_Related_Pharmacotherapy
+Leaf count (subtree): 27
+Vertical edges in subtree (total): 39
+Vertical edges evaluated (sampled): 39
+Violations: 1 (0.026)
+LLM calls used: 1
+Cache key: c17c993d5fb905777f107fcd159b591c357d1dee
+Source: cache
+
+Violated parent→child edges:
+- Melatonin_Receptor_Agonists > Melatonin
+
+Traceback paths for violated edges:
+- Melatonin_Receptor_Agonists > Melatonin
+  parent_path: BIO / Pharmacology_and_Biomedical_Treatments / Sleep_Related_Pharmacotherapy / Melatonin_Pathway_Modulators / Melatonin_Receptor_Agonists
+  child_path : BIO / Pharmacology_and_Biomedical_Treatments / Sleep_Related_Pharmacotherapy / Melatonin_Pathway_Modulators / Melatonin_Receptor_Agonists / Melatonin
+
+================================================================================
+Selected domain subtree: BIO / Pharmacology_and_Biomedical_Treatments / Substance_Intake_Support_Pharmacotherapy
+Leaf count (subtree): 17
+Vertical edges in subtree (total): 24
+Vertical edges evaluated (sampled): 24
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: d6a33938b9e8e15775e294e926d76e14cc630549
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Behavioral_Therapies / Behavior_Change_and_Activation
+Leaf count (subtree): 34
+Vertical edges in subtree (total): 44
+Vertical edges evaluated (sampled): 44
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 550c964c14f02644aa4bb11404a137bcddeb3ca6
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Behavioral_Therapies / Behavioral_Experiments_and_Learning
+Leaf count (subtree): 26
+Vertical edges in subtree (total): 38
+Vertical edges evaluated (sampled): 38
+Violations: 2 (0.053)
+LLM calls used: 1
+Cache key: 5e98e100a6675dc1fabe227d712aff6d99d3829a
+Source: cache
+
+Violated parent→child edges:
+- Behavioral_Experiments_and_Learning > Design_Principles
+- Safety_Behavior_and_Attention > Disconfirm_Maintainers
+
+Traceback paths for violated edges:
+- Behavioral_Experiments_and_Learning > Design_Principles
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Behavioral_Experiments_and_Learning
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Behavioral_Experiments_and_Learning / Design_Principles
+- Safety_Behavior_and_Attention > Disconfirm_Maintainers
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Behavioral_Experiments_and_Learning / Safety_Behavior_and_Attention
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Behavioral_Experiments_and_Learning / Safety_Behavior_and_Attention / Disconfirm_Maintainers
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Behavioral_Therapies / CBT_Foundations
+Leaf count (subtree): 19
+Vertical edges in subtree (total): 23
+Vertical edges evaluated (sampled): 23
+Violations: 1 (0.043)
+LLM calls used: 1
+Cache key: a2e6b047cfda973c6f1ef1a935f80628302f8ba7
+Source: cache
+
+Violated parent→child edges:
+- Case_Conceptualization_and_Targeting > Models_and_Maps
+
+Traceback paths for violated edges:
+- Case_Conceptualization_and_Targeting > Models_and_Maps
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / CBT_Foundations / Case_Conceptualization_and_Targeting
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / CBT_Foundations / Case_Conceptualization_and_Targeting / Models_and_Maps
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Behavioral_Therapies / CBT_Skills_Training_Libraries
+Leaf count (subtree): 22
+Vertical edges in subtree (total): 30
+Vertical edges evaluated (sampled): 30
+Violations: 1 (0.033)
+LLM calls used: 1
+Cache key: 451a9fc4b08019da6361804049fb499a83ac8fad
+Source: cache
+
+Violated parent→child edges:
+- Assertiveness_and_Boundaries > Core_Skills
+
+Traceback paths for violated edges:
+- Assertiveness_and_Boundaries > Core_Skills
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / CBT_Skills_Training_Libraries / Assertiveness_and_Boundaries
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / CBT_Skills_Training_Libraries / Assertiveness_and_Boundaries / Core_Skills
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Behavioral_Therapies / Cognitive_Bias_and_Attention_Modification
+Leaf count (subtree): 14
+Vertical edges in subtree (total): 20
+Vertical edges evaluated (sampled): 20
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 18d879d42e6697e4d0c1bddcd9830156de5b219a
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Behavioral_Therapies / Cognitive_Restructuring
+Leaf count (subtree): 89
+Vertical edges in subtree (total): 110
+Vertical edges evaluated (sampled): 110
+Violations: 0 (0.000)
+LLM calls used: 2
+Cache key: cf7ce100f22d0d1a92e22a93f63a3f67dfe55020
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning
+Leaf count (subtree): 118
+Vertical edges in subtree (total): 149
+Vertical edges evaluated (sampled): 149
+Violations: 4 (0.027)
+LLM calls used: 2
+Cache key: 4d47db0f3027a2c1920642be92a584d50c3a68e6
+Source: cache
+
+Violated parent→child edges:
+- Classical_Conditioning_and_Counterconditioning > Desensitization_Hierarchy_Design
+- Classical_Conditioning_and_Counterconditioning > Desensitization_Implementation_Variants
+- Exposure_and_Inhibitory_Learning > Classical_Conditioning_and_Counterconditioning
+- Exposure_and_Inhibitory_Learning > Design_and_Rationale
+
+Traceback paths for violated edges:
+- Exposure_and_Inhibitory_Learning > Classical_Conditioning_and_Counterconditioning
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning / Classical_Conditioning_and_Counterconditioning
+- Exposure_and_Inhibitory_Learning > Design_and_Rationale
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning / Design_and_Rationale
+- Classical_Conditioning_and_Counterconditioning > Desensitization_Hierarchy_Design
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning / Classical_Conditioning_and_Counterconditioning
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning / Classical_Conditioning_and_Counterconditioning / Desensitization_Hierarchy_Design
+- Classical_Conditioning_and_Counterconditioning > Desensitization_Implementation_Variants
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning / Classical_Conditioning_and_Counterconditioning
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Exposure_and_Inhibitory_Learning / Classical_Conditioning_and_Counterconditioning / Desensitization_Implementation_Variants
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions
+Leaf count (subtree): 24
+Vertical edges in subtree (total): 34
+Vertical edges evaluated (sampled): 34
+Violations: 3 (0.088)
+LLM calls used: 1
+Cache key: 80e394cd5aa2a9cd780114d7f160922dcfa10d99
+Source: cache
+
+Violated parent→child edges:
+- Perseverative_Cognition_Interventions > Metacognitive_Beliefs
+- Perseverative_Cognition_Interventions > Tolerance_of_Uncertainty
+- Tolerance_of_Uncertainty > Cognitive_and_Behavioral
+
+Traceback paths for violated edges:
+- Perseverative_Cognition_Interventions > Metacognitive_Beliefs
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions / Metacognitive_Beliefs
+- Perseverative_Cognition_Interventions > Tolerance_of_Uncertainty
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions / Tolerance_of_Uncertainty
+- Tolerance_of_Uncertainty > Cognitive_and_Behavioral
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions / Tolerance_of_Uncertainty
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions / Tolerance_of_Uncertainty / Cognitive_and_Behavioral
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Behavioral_Therapies / Problem_Solving_Training
+Leaf count (subtree): 19
+Vertical edges in subtree (total): 27
+Vertical edges evaluated (sampled): 27
+Violations: 1 (0.037)
+LLM calls used: 1
+Cache key: cbc78e983c0041434c70c56b5cd13ba91be46acd
+Source: cache
+
+Violated parent→child edges:
+- Applied_Problem_Solving > Domains
+
+Traceback paths for violated edges:
+- Applied_Problem_Solving > Domains
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Problem_Solving_Training / Applied_Problem_Solving
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Problem_Solving_Training / Applied_Problem_Solving / Domains
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Behavioral_Therapies / Rational_Belief_Work_REBT_Family
+Leaf count (subtree): 15
+Vertical edges in subtree (total): 25
+Vertical edges evaluated (sampled): 25
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 8305e44b915b38733ad9fd36f4a243b9b249d340
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Behavioral_Therapies / Schema_Focused_CBT_Derivatives
+Leaf count (subtree): 22
+Vertical edges in subtree (total): 34
+Vertical edges evaluated (sampled): 34
+Violations: 1 (0.029)
+LLM calls used: 1
+Cache key: 900e6829fb6d1c57f869dc2876f37bfadb2647ba
+Source: cache
+
+Violated parent→child edges:
+- Relational_Stance > Therapeutic_Method
+
+Traceback paths for violated edges:
+- Relational_Stance > Therapeutic_Method
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Schema_Focused_CBT_Derivatives / Change_Techniques / Relational_Stance
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Schema_Focused_CBT_Derivatives / Change_Techniques / Relational_Stance / Therapeutic_Method
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Behavioral_Therapies / Sleep_Related_Cognitive_Behavioral_Interventions
+Leaf count (subtree): 8
+Vertical edges in subtree (total): 14
+Vertical edges evaluated (sampled): 14
+Violations: 1 (0.071)
+LLM calls used: 1
+Cache key: 03d5e5478911d84897d90a33ade2163f1c715ed6
+Source: cache
+
+Violated parent→child edges:
+- Sleep_Related_Cognitive_Behavioral_Interventions > Cognitive_Work
+
+Traceback paths for violated edges:
+- Sleep_Related_Cognitive_Behavioral_Interventions > Cognitive_Work
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Sleep_Related_Cognitive_Behavioral_Interventions
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Sleep_Related_Cognitive_Behavioral_Interventions / Cognitive_Work
+
+================================================================================
+Selected domain subtree: PSYCHO / Cognitive_Behavioral_Therapies / Transdiagnostic_CBT_Frameworks
+Leaf count (subtree): 12
+Vertical edges in subtree (total): 20
+Vertical edges evaluated (sampled): 20
+Violations: 2 (0.100)
+LLM calls used: 1
+Cache key: b7d54b18da9072f3190938f1b3f41e501a19bbf5
+Source: cache
+
+Violated parent→child edges:
+- Avoidance_and_Safety_Behaviors > Reduce_Maintainers
+- Unified_Protocol_Style_Processes > Core_Process_Targets
+
+Traceback paths for violated edges:
+- Avoidance_and_Safety_Behaviors > Reduce_Maintainers
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Transdiagnostic_CBT_Frameworks / Avoidance_and_Safety_Behaviors
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Transdiagnostic_CBT_Frameworks / Avoidance_and_Safety_Behaviors / Reduce_Maintainers
+- Unified_Protocol_Style_Processes > Core_Process_Targets
+  parent_path: PSYCHO / Cognitive_Behavioral_Therapies / Transdiagnostic_CBT_Frameworks / Unified_Protocol_Style_Processes
+  child_path : PSYCHO / Cognitive_Behavioral_Therapies / Transdiagnostic_CBT_Frameworks / Unified_Protocol_Style_Processes / Core_Process_Targets
+
+================================================================================
+Selected domain subtree: PSYCHO / Foundations_and_Common_Factors / Case_Formulation_and_Treatment_Planning
+Leaf count (subtree): 29
+Vertical edges in subtree (total): 29
+Vertical edges evaluated (sampled): 29
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: fcd8764c31df0fa2171e490b086537acc14e407c
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Foundations_and_Common_Factors / Ethics_Consent_and_Safety
+Leaf count (subtree): 8
+Vertical edges in subtree (total): 8
+Vertical edges evaluated (sampled): 8
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 7b04091a0688d6b5ec2a5f107b433df7ae5d900d
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Foundations_and_Common_Factors / Goals_Values_and_Maintenance_Planning
+Leaf count (subtree): 25
+Vertical edges in subtree (total): 25
+Vertical edges evaluated (sampled): 25
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 7f2e617d58ee6e5aa9ab5b1f3cec99fcc084f388
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Foundations_and_Common_Factors / Psychoeducation_Modules
+Leaf count (subtree): 128
+Vertical edges in subtree (total): 159
+Vertical edges evaluated (sampled): 159
+Violations: 0 (0.000)
+LLM calls used: 2
+Cache key: a3d184dbdabc0853c22469b3062e73aa8160a950
+Source: computed
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Foundations_and_Common_Factors / Therapeutic_Relationship_and_Context
+Leaf count (subtree): 35
+Vertical edges in subtree (total): 35
+Vertical edges evaluated (sampled): 35
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: bf3cabb39c1feb224641185f0ba857bdb05fc78b
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Third_Wave_and_Contextual_Therapies / ACT_Contextual_Behavioral_Therapy
+Leaf count (subtree): 64
+Vertical edges in subtree (total): 70
+Vertical edges evaluated (sampled): 70
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 2ae534bbc60b7240b3b3c5f504b1aefc2037eb99
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Third_Wave_and_Contextual_Therapies / Compassion_Focused_Interventions
+Leaf count (subtree): 18
+Vertical edges in subtree (total): 18
+Vertical edges evaluated (sampled): 18
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: b00ad849c01bfcade063be074f103e17ee44458a
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Third_Wave_and_Contextual_Therapies / DBT_Skills_Based_Therapy
+Leaf count (subtree): 142
+Vertical edges in subtree (total): 170
+Vertical edges evaluated (sampled): 170
+Violations: 1 (0.006)
+LLM calls used: 2
+Cache key: bf44937686f92e0fbb589b9915e8b58bba943833
+Source: cache
+
+Violated parent→child edges:
+- Distress_Tolerance_Skills > Turning_The_Mind_Practice
+
+Traceback paths for violated edges:
+- Distress_Tolerance_Skills > Turning_The_Mind_Practice
+  parent_path: PSYCHO / Third_Wave_and_Contextual_Therapies / DBT_Skills_Based_Therapy / Distress_Tolerance_Skills
+  child_path : PSYCHO / Third_Wave_and_Contextual_Therapies / DBT_Skills_Based_Therapy / Distress_Tolerance_Skills / Turning_The_Mind_Practice
+
+================================================================================
+Selected domain subtree: PSYCHO / Third_Wave_and_Contextual_Therapies / Functional_Analytic_Behavior_Therapy
+Leaf count (subtree): 10
+Vertical edges in subtree (total): 10
+Vertical edges evaluated (sampled): 10
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 4ed3f3197b51a847d654265e6cdee7672660ed72
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Third_Wave_and_Contextual_Therapies / Mindfulness_Based_Interventions
+Leaf count (subtree): 124
+Vertical edges in subtree (total): 136
+Vertical edges evaluated (sampled): 136
+Violations: 0 (0.000)
+LLM calls used: 2
+Cache key: 8cdd0ce4ea705259444f04b3722a5c1c4cbaacf2
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Third_Wave_and_Contextual_Therapies / Radically_Open_Skills_Based_Therapy
+Leaf count (subtree): 11
+Vertical edges in subtree (total): 11
+Vertical edges evaluated (sampled): 11
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 852ef86d0a1b8b4118a02c9cf6d9d8479632cc08
+Source: cache
+
+Violated parent→child edges: none
+
+================================================================================
+Selected domain subtree: PSYCHO / Third_Wave_and_Contextual_Therapies / Stress_Inoculation_and_Coping_Skills
+Leaf count (subtree): 8
+Vertical edges in subtree (total): 8
+Vertical edges evaluated (sampled): 8
+Violations: 0 (0.000)
+LLM calls used: 1
+Cache key: 659e0cf9b3ef127298fdc50b8a6e7a0a83ea2b0e
+Source: cache
+
+Violated parent→child edges: none

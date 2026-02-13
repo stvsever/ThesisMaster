@@ -1,0 +1,46 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_expression_in_anterior_insula",
+      "BDNF_expression_in_anterior_insula",
+      "GRIN2B_expression_in_anterior_insula"
+    ],
+    "molecules": [
+      "glutamate_concentration_in_anterior_insula",
+      "GABA_concentration_in_anterior_insula",
+      "BDNF_protein_level_in_anterior_insula",
+      "NMDA_receptor_availability_in_anterior_insula",
+      "dopamine_concentration_in_anterior_insula",
+      "serotonin_concentration_in_anterior_insula"
+    ],
+    "cells": [
+      "pyramidal_neuron_density_in_anterior_insula",
+      "inhibitory_interneuron_density_in_anterior_insula",
+      "astrocyte_density_in_anterior_insula",
+      "microglia_density_in_anterior_insula"
+    ],
+    "circuits": [
+      "anterior_insula_amygdala_functional_connectivity",
+      "anterior_insula_dorsolateral_prefrontal_connectivity",
+      "anterior_insula_anterior_cingulate_functional_connectivity",
+      "insula_network_resting_state_degree_centrality"
+    ],
+    "physiology": [
+      "heart_rate_change_during_interoceptive_stimulus",
+      "skin_conductance_change_during_interoceptive_task",
+      "respiratory_rate_variability_during_interoceptive_signal",
+      "pupil_dilation_during_interoceptive_cues"
+    ],
+    "behavior": [
+      "heartbeat_counting_accuracy",
+      "interoceptive_bias_in_task",
+      "interoceptive_reaction_time_in_task"
+    ],
+    "self_report": [
+      "interoceptive_awareness_scale_score",
+      "interoceptive_attention_focus_rating",
+      "interoceptive_sensitivity_questionnaire_score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.4
+}

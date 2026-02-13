@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "dissociative_experience"
+    },
+    {
+      "criterium": "hallucinations"
+    },
+    {
+      "criterium": "time_distortion"
+    },
+    {
+      "criterium": "amnesia"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "slurred_speech"
+    },
+    {
+      "criterium": "pupillary_dilation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "palpable_tunica_albuginea_plaque"
+    },
+    {
+      "criterium": "penile_curvature_angle_deg"
+    },
+    {
+      "criterium": "curvature_direction"
+    },
+    {
+      "criterium": "dorsal_plaque_presence"
+    },
+    {
+      "criterium": "ventral_plaque_presence"
+    },
+    {
+      "criterium": "plaque_length_mm"
+    },
+    {
+      "criterium": "plaque_width_mm"
+    },
+    {
+      "criterium": "pain_during_erection_present"
+    },
+    {
+      "criterium": "erectile_dysfunction_present"
+    },
+    {
+      "criterium": "plaque_calcification_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

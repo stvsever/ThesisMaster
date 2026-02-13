@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "distress_on_separation_from_attachment_figure"
+    },
+    {
+      "criterium": "excessive_worry_about_loss_harm_to_attachment_figure"
+    },
+    {
+      "criterium": "refusal_to_go_to_school_or_leave_home_due_to_separation_anxiety"
+    },
+    {
+      "criterium": "fear_of_being_alone_or_without_attachment_figure"
+    },
+    {
+      "criterium": "difficulty_falling_or_staying_asleep_without_attachment_figure"
+    },
+    {
+      "criterium": "nightmares_about_separation"
+    },
+    {
+      "criterium": "somatic_symptoms_with_separation_or_thought_of_separation"
+    },
+    {
+      "criterium": "clinginess_or_need_to_be_near_attachment_figure"
+    },
+    {
+      "criterium": "excessive_reassurance_seeking_about_separation_and_safety_of_attachment_figures"
+    },
+    {
+      "criterium": "avoidance_of_new_places_or_sleepovers_without_attachment_figure"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

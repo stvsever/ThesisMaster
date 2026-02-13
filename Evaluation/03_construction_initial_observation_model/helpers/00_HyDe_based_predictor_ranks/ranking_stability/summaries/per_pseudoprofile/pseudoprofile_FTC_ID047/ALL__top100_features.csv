@@ -1,0 +1,101 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / loneliness_reduction_planning / meaningful_activity_with_others_planning,SOCIAL,5,1.0,1.2,0.4,0.25088027,0.0065073716
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / roles_relationships_and_belonging / social_role_selection_and_prioritization_practice,PSYCHO,5,1.0,4.4,3.4985712,0.2426703,0.008994074
+SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / loneliness_reduction_planning / reengagement_after_isolation_plan,SOCIAL,5,1.0,5.6,2.4166093,0.23891535,0.006407542
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / roles_relationships_and_belonging / prosocial_contribution_planning,PSYCHO,5,1.0,7.0,3.9496837,0.23786478,0.0077807014
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / roles_relationships_and_belonging / community_belonging_investment_plan,PSYCHO,5,1.0,7.8,3.4871192,0.23736008,0.005338061
+SOCIAL / social_support_and_belonging / support_network_development / family_caregiver_and_friends_mobilization / caregiver_role_clarification_and_support_plan,SOCIAL,5,1.0,8.6,6.88767,0.23839214,0.005952424
+SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / loneliness_reduction_planning / micro_connection_opportunities_plan,SOCIAL,5,1.0,9.0,4.1952353,0.23671813,0.006153999
+SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / safety_and_trust_in_support / reduce_toxic_relationship_exposure_plan,SOCIAL,5,1.0,9.2,5.418487,0.23696645,0.009508998
+SOCIAL / social_support_and_belonging / support_network_development / family_caregiver_and_friends_mobilization / shared_care_plan_with_family_consent,SOCIAL,5,1.0,10.0,9.528904,0.23827477,0.0058310996
+SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / loneliness_reduction_planning / loneliness_reduction_action_plan,SOCIAL,5,1.0,10.6,5.043808,0.2356318,0.005746144
+SOCIAL / culture_identity_and_social_inclusion / culture_identity_and_inclusion_solutions / belonging_and_social_safety_skills / self_advocacy_for_identity_safety_support,SOCIAL,5,1.0,11.2,4.308132,0.23321207,0.009101277
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / roles_relationships_and_belonging / belonging_and_values_aligned_community_search_plan,PSYCHO,5,1.0,12.6,5.1224995,0.23275438,0.005065558
+PSYCHO / third_wave_and_contextual_therapies / compassion_focused_interventions / compassionate_self_identity_work,PSYCHO,5,1.0,16.6,2.8,0.2291393,0.007623417
+SOCIAL / culture_identity_and_social_inclusion / culture_identity_and_inclusion_solutions / belonging_and_social_safety_skills / stigma_reduction_support_group,SOCIAL,5,1.0,18.2,7.984986,0.22864386,0.008266158
+PSYCHO / change_process_and_therapeutic_phases / behavior_change_theories_and_modern_protocol_arcs / self_determination_theory_solutions / sdt_relatedness_and_belonging_build,PSYCHO,5,1.0,20.0,8.876937,0.22782214,0.004146903
+SOCIAL / culture_identity_and_social_inclusion / culture_identity_and_inclusion_solutions / belonging_and_social_safety_skills / community_belonging_coaching,SOCIAL,5,1.0,20.6,20.185144,0.2301182,0.010917321
+SOCIAL / social_support_and_belonging / support_network_development / family_caregiver_and_friends_mobilization / family_and_friends_support_circle_mobilization,SOCIAL,5,1.0,21.4,13.078226,0.22837691,0.004507844
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / roles_relationships_and_belonging / role_transition_support_plan,PSYCHO,5,1.0,22.0,6.6030297,0.2260859,0.0075333826
+PSYCHO / interpersonal_and_attachment_therapies / interpersonal_therapy_family / social_support_mobilization,PSYCHO,5,1.0,26.8,9.108238,0.22344515,0.007951507
+PSYCHO / integrative_creative_and_body_oriented_interventions / parts_and_internal_systems_work / self_leadership_practice,PSYCHO,5,1.0,27.8,8.565045,0.22318089,0.008410119
+SOCIAL / social_support_and_belonging / network_building_and_maintenance / initiation_and_invitation_support / gradual_social_exposure_plan,SOCIAL,5,1.0,28.4,10.537552,0.2226139,0.005175014
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / lifestyle_performance_and_wellbeing_integration / social_connection_investment_plan,PSYCHO,5,1.0,31.6,11.235657,0.2221806,0.0043529896
+SOCIAL / social_support_and_belonging / support_network_development / family_caregiver_and_friends_mobilization / household_support_task_coordination,SOCIAL,5,1.0,32.8,23.025204,0.22303422,0.0050266865
+SOCIAL / social_support_and_belonging / support_network_development / family_caregiver_and_friends_mobilization / supportive_checkin_network_setup,SOCIAL,5,1.0,34.4,21.583326,0.22176404,0.005276389
+SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / loneliness_reduction_planning / barrier_analysis_for_social_withdrawal,SOCIAL,5,1.0,36.0,12.116105,0.22005448,0.0062154373
+PSYCHO / lifestyle_philosophies / modern_psychology_informed_lifestyles / self_determination_theory_lifestyle / sdt_relatedness_and_belonging_intention_practice,PSYCHO,5,1.0,37.2,18.048822,0.21984196,0.005093067
+SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / safety_and_trust_in_support / conflict_deescalation_with_close_others,SOCIAL,5,1.0,37.2,32.412342,0.22261286,0.01090736
+PSYCHO / self_and_identity_work / self_esteem_and_self_worth_work / self_worth_from_values_practice,PSYCHO,5,1.0,37.6,17.522556,0.22109175,0.012533124
+SOCIAL / social_support_and_belonging / network_building_and_maintenance / reconnection_and_repair / boundary_reset_conversation_planning,SOCIAL,5,1.0,41.0,14.170392,0.2181077,0.007330657
+SOCIAL / social_support_and_belonging / network_building_and_maintenance / reconnection_and_repair / relationship_expectation_reset_planning,SOCIAL,5,1.0,42.0,30.945112,0.22004823,0.010595301
+PSYCHO / change_process_and_therapeutic_phases / experiential_disconfirmation / relational_and_insession_experiential_work / authentic_self_disclosure_practice,PSYCHO,5,1.0,43.2,25.474693,0.21951306,0.013624064
+PSYCHO / self_and_identity_work / shame_guilt_and_self_forgiveness / disclosure_with_boundaries_practice,PSYCHO,5,1.0,43.4,24.450766,0.21882,0.013023447
+PSYCHO / self_and_identity_work / self_esteem_and_self_worth_work / self_compassion_for_failure_practice,PSYCHO,5,1.0,43.6,14.650597,0.21818276,0.010622612
+SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / safety_and_trust_in_support / boundary_setting_with_support_network,SOCIAL,5,1.0,45.8,14.274452,0.21688008,0.0072615305
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / lifestyle_performance_and_wellbeing_integration / self_compassion_after_failure_practice,PSYCHO,5,1.0,47.6,16.499697,0.21587789,0.005166552
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / environmental_and_social_system_design / boundary_with_external_stressors_plan,PSYCHO,5,1.0,47.6,17.760632,0.21634471,0.0065476354
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / roles_relationships_and_belonging / relational_safety_stabilization_practice,PSYCHO,5,1.0,48.2,22.471315,0.2172525,0.009416518
+PSYCHO / brief_and_motivational_approaches / coaching_and_behavior_change_support / identity_based_habit_work,PSYCHO,5,1.0,48.2,41.150455,0.21860102,0.0100573255
+PSYCHO / substance_use_recovery_and_behavior_change / recovery_identity_and_meaning / narrative_and_self_concept_work / strengths_based_recovery_identity_map,PSYCHO,5,1.0,51.0,31.260199,0.21728632,0.013063883
+PSYCHO / self_and_identity_work / self_esteem_and_self_worth_work / reduce_self_comparison_practice,PSYCHO,5,1.0,52.2,20.70169,0.21559295,0.013029481
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / roles_relationships_and_belonging / care_seeking_care_giving_balance_practice,PSYCHO,5,1.0,52.8,9.410632,0.21429935,0.0069121616
+SOCIAL / work_education_and_role_functioning / education_and_training_context_solutions / campus_belonging_and_support / student_community_group_connection,SOCIAL,5,1.0,54.2,27.31593,0.21555114,0.005317158
+PSYCHO / substance_use_recovery_and_behavior_change / affect_regulation_for_recovery / shame_guilt_and_self_attack_work / reduce_self_criticism_after_setback,PSYCHO,5,1.0,57.6,36.625675,0.2150921,0.009911052
+SOCIAL / social_support_and_belonging / network_building_and_maintenance / reciprocity_and_contribution / skill_based_helping_role_planning,SOCIAL,5,1.0,58.6,24.94474,0.21415272,0.008086776
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / roles_relationships_and_belonging / repair_and_trust_repetition_practice,PSYCHO,5,1.0,59.4,31.613922,0.21443626,0.009350417
+PSYCHO / systemic_couple_family_parenting / parenting_and_caregiver_interventions / parental_self_regulation_skills,PSYCHO,5,1.0,60.0,24.223955,0.21309924,0.0071749557
+SOCIAL / social_support_and_belonging / network_building_and_maintenance / reciprocity_and_contribution / community_role_adoption_plan,SOCIAL,5,1.0,64.2,36.01333,0.21302156,0.004415498
+SOCIAL / social_support_and_belonging / support_network_development / family_caregiver_and_friends_mobilization / trusted_person_emergency_contact_plan,SOCIAL,5,1.0,65.0,41.904655,0.2134819,0.0069609494
+SOCIAL / social_support_and_belonging / network_building_and_maintenance / mapping_and_assessment / belonging_and_community_fit_assessment,SOCIAL,5,1.0,65.2,40.35542,0.21320856,0.00517391
+PSYCHO / substance_use_recovery_and_behavior_change / recovery_identity_and_meaning / narrative_and_self_concept_work / self_respect_practice_in_recovery_context,PSYCHO,5,1.0,65.8,31.707413,0.21284428,0.01035337
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / autonomy_and_self_directed_growth / future_self_alignment_practice,PSYCHO,5,1.0,67.8,36.20718,0.21235068,0.01239162
+PSYCHO / self_and_identity_work / self_esteem_and_self_worth_work / balanced_self_appraisal_practice,PSYCHO,5,1.0,69.6,25.192062,0.21168856,0.011093478
+PSYCHO / core_psychological_skills_toolkits / executive_function_and_self_management / initiation_and_followthrough / start_and_persist / implementation_intention_self_management,PSYCHO,5,1.0,69.6,25.656189,0.21074505,0.009373507
+PSYCHO / change_process_and_therapeutic_phases / behavior_change_theories_and_modern_protocol_arcs / social_cognitive_theory_solutions / sct_social_support_as_opportunity_design,PSYCHO,5,1.0,72.0,24.174368,0.21080776,0.0051632384
+SOCIAL / social_support_and_belonging / network_building_and_maintenance / reconnection_and_repair / conflict_repair_and_reengagement_support,SOCIAL,5,1.0,72.4,61.01344,0.2139318,0.009437854
+PSYCHO / change_process_and_therapeutic_phases / behavior_change_theories_and_modern_protocol_arcs / modern_clinical_protocol_arcs_solutions / act_process_self_as_context_work,PSYCHO,5,1.0,76.4,17.61363,0.20937765,0.003938834
+PSYCHO / systemic_couple_family_parenting / couple_based_interventions / shared_meaning_goals_work,PSYCHO,5,1.0,76.8,47.671375,0.21251182,0.011385205
+PSYCHO / change_process_and_therapeutic_phases / readiness_and_engagement / wellbeing_optimization_entry_path / community_and_belonging_entry_plan,PSYCHO,5,1.0,78.0,39.166313,0.21094528,0.0022106338
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / environmental_and_social_system_design / identity_supporting_environment_redesign,PSYCHO,5,1.0,78.8,37.17203,0.2105202,0.008489541
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / environmental_and_social_system_design / support_seeking_and_receiving_plan,PSYCHO,5,1.0,80.0,25.75267,0.20909834,0.0034313796
+PSYCHO / change_process_and_therapeutic_phases / phase_management_and_sequencing / flourishing_and_prevention_crosscutting / self_compassion_and_dignity_protection_plan,PSYCHO,5,1.0,82.4,29.295732,0.20852582,0.006306763
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / parts_integration_and_self_leadership / self_respect_and_dignity_boundaries_practice,PSYCHO,5,1.0,82.4,34.851685,0.20972018,0.012001887
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / roles_relationships_and_belonging / attachment_needs_expression_practice,PSYCHO,5,1.0,83.0,31.6291,0.20943522,0.008108144
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / parts_integration_and_self_leadership / protector_role_renegotiation_practice,PSYCHO,5,1.0,83.8,57.26919,0.21084526,0.013539761
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / parts_integration_and_self_leadership / compassionate_internal_dialogue_practice,PSYCHO,5,1.0,84.0,24.803226,0.20887718,0.009391492
+PSYCHO / self_and_identity_work / shame_guilt_and_self_forgiveness / guilt_repair_planning,PSYCHO,5,1.0,85.6,59.132393,0.2129759,0.016177304
+PSYCHO / change_process_and_therapeutic_phases / behavior_change_theories_and_modern_protocol_arcs / social_cognitive_theory_solutions / sct_self_monitoring_goals_and_feedback_loop,PSYCHO,5,1.0,86.2,32.164577,0.20810059,0.007845898
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / parts_integration_and_self_leadership / self_leadership_practice,PSYCHO,5,1.0,87.2,35.83518,0.20938735,0.012269117
+PSYCHO / cognitive_behavioral_therapies / rational_belief_work_rebt_family / rational_self_talk / coping_language / philosophical_change_dialogue,PSYCHO,5,1.0,88.4,49.92234,0.20983429,0.0070327763
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / environmental_and_social_system_design / social_support_mobilization_plan,PSYCHO,5,1.0,91.6,37.643593,0.2076948,0.004522479
+SOCIAL / work_education_and_role_functioning / education_and_training_context_solutions / campus_belonging_and_support / mentorship_program_enrollment,SOCIAL,5,1.0,92.4,52.040752,0.209932,0.0069032
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / parts_integration_and_self_leadership / inner_critic_transformation_practice,PSYCHO,5,1.0,96.8,26.91765,0.20708351,0.009128088
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / parts_integration_and_self_leadership / internal_conflict_mediation_practice,PSYCHO,5,1.0,97.6,38.27584,0.2079026,0.011234735
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / autonomy_and_self_directed_growth / self_maintenance_identity_commitment_practice,PSYCHO,5,1.0,97.8,42.75231,0.20805304,0.011211253
+PSYCHO / change_process_and_therapeutic_phases / readiness_and_engagement / motivation_readiness_and_ambivalence_work / self_efficacy_priming_protocol,PSYCHO,5,1.0,100.2,31.025152,0.20614457,0.0048714317
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / parts_integration_and_self_leadership / vulnerable_part_compassion_practice,PSYCHO,5,1.0,103.6,40.961445,0.20716698,0.011223969
+PSYCHO / change_process_and_therapeutic_phases / behavior_change_theories_and_modern_protocol_arcs / social_cognitive_theory_solutions / sct_self_efficacy_mastery_recall_practice,PSYCHO,5,1.0,104.0,22.724436,0.20531109,0.0059166565
+PSYCHO / change_process_and_therapeutic_phases / phase_management_and_sequencing / flourishing_and_prevention_crosscutting / social_connection_investment_plan,PSYCHO,5,1.0,106.4,15.90723,0.2051887,0.0059656277
+PSYCHO / brief_and_motivational_approaches / coaching_and_behavior_change_support / self_efficacy_building,PSYCHO,5,1.0,107.0,31.464266,0.20538668,0.005448798
+PSYCHO / change_process_and_therapeutic_phases / experiential_disconfirmation / interoceptive_and_somatic_experiential_work / titration_of_activation_practice,PSYCHO,5,1.0,108.0,45.294594,0.20635831,0.006490333
+PSYCHO / third_wave_and_contextual_therapies / dbt_skills_based_therapy / emotion_regulation_skills / change_based_skills / opposite_action_and_action_shaping / self_respect_action_planning,PSYCHO,5,1.0,109.8,45.617542,0.20553002,0.0054990016
+PSYCHO / change_process_and_therapeutic_phases / identity_consolidation / autonomy_and_self_directed_growth / self_efficacy_mastery_recall_practice,PSYCHO,5,1.0,113.8,49.95758,0.20628452,0.010254784
+SOCIAL / romantic_intimacy_and_relationships / romantic_relationship_skills_and_support / communication_and_connection / skills_and_frameworks / i_statement_and_impact_language_coaching,SOCIAL,5,1.0,114.0,55.72432,0.20540135,0.0069301836
+PSYCHO / change_process_and_therapeutic_phases / behavior_change_theories_and_modern_protocol_arcs / ttm_stages_of_change_solutions / ttm_self_liberation_commitment_practice,PSYCHO,5,1.0,116.6,39.912907,0.20490246,0.005945828
+PSYCHO / third_wave_and_contextual_therapies / dbt_skills_based_therapy / interpersonal_effectiveness_skills / self_respect_effectiveness_practice,PSYCHO,5,1.0,127.0,35.014282,0.20336723,0.008884655
+SOCIAL / social_support_and_belonging / support_network_development / group_based_connection / identity_affirming_group_enrollment_support,SOCIAL,5,1.0,128.4,34.10337,0.20271583,0.0049594804
+PSYCHO / trauma_memory_imagery_and_narrative_work / stabilization_and_resourcing / parts_awareness_and_self_leadership_practice,PSYCHO,5,1.0,136.4,13.617635,0.20214382,0.00626929
+PSYCHO / core_psychological_skills_toolkits / interpersonal_effectiveness_and_relational_repair / core_communication / listen_express_clarify / i_statement_communication_practice,PSYCHO,5,1.0,137.2,33.01757,0.20216766,0.0066001383
+PSYCHO / third_wave_and_contextual_therapies / mindfulness_based_interventions / affective_mindfulness_and_urge_work / self_compassion_mindfulness_practice,PSYCHO,4,0.8,51.75,21.381943,0.2139105,0.007863251
+PSYCHO / substance_use_recovery_and_behavior_change / affect_regulation_for_recovery / shame_guilt_and_self_attack_work / compassionate_response_to_lapse,PSYCHO,4,0.8,56.0,9.8234415,0.21270724,0.008937933
+PSYCHO / third_wave_and_contextual_therapies / mindfulness_based_interventions / affective_mindfulness_and_urge_work / self_validation_mindfulness_practice,PSYCHO,4,0.8,66.0,12.0,0.20945776,0.006579794
+SOCIAL / work_education_and_role_functioning / education_and_training_context_solutions / campus_belonging_and_support / campus_support_service_linkage,SOCIAL,4,0.8,67.75,40.03358,0.21232744,0.0060173087
+SOCIAL / social_support_and_belonging / support_network_development / befriending_and_outreach / social_isolation_outreach_service,SOCIAL,4,0.8,84.5,22.852789,0.20714644,0.0059081605
+PSYCHO / third_wave_and_contextual_therapies / dbt_skills_based_therapy / emotion_regulation_skills / self_relating_and_repair / validate_and_soothe / compassionate_self_talk_practice,PSYCHO,4,0.8,86.0,34.633797,0.20718873,0.0076807262
+PSYCHO / core_psychological_skills_toolkits / interpersonal_effectiveness_and_relational_repair / connection_and_social_fluency / initiate_and_deepen / social_initiation_practice,PSYCHO,4,0.8,86.5,24.057224,0.20955357,0.006989695
+PSYCHO / cognitive_behavioral_therapies / rational_belief_work_rebt_family / acceptance_work / unconditional_acceptance / unconditional_self_acceptance_practice,PSYCHO,4,0.8,87.0,46.770718,0.2095538,0.0086299665
+SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / safety_and_trust_in_support / trusted_person_safety_check_plan,SOCIAL,4,0.8,92.5,30.874746,0.20661174,0.008554792
+SOCIAL / social_support_and_belonging / support_network_development / mentorship_and_buddying / buddy_system_program,SOCIAL,4,0.8,94.0,46.184414,0.20809703,0.0053385575
+SOCIAL / social_support_and_belonging / network_building_and_maintenance / reconnection_and_repair / reconnection_with_lapsed_contacts,SOCIAL,4,0.8,94.5,17.670597,0.20578583,0.0060991473
+SOCIAL / social_support_and_belonging / network_building_and_maintenance / mapping_and_assessment / support_needs_by_context_assessment,SOCIAL,4,0.8,95.25,11.497282,0.20536256,0.0055063204

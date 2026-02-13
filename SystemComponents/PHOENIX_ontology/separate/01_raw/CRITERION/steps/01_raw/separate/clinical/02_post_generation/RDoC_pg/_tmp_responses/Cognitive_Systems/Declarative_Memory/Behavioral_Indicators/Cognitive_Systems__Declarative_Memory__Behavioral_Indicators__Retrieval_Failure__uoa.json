@@ -1,0 +1,42 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M_genotype",
+      "APOE_E4_status",
+      "COMT_Met158Met_genotype"
+    ],
+    "molecules": [
+      "BDNF_protein_hippocampus_level",
+      "NMDA_NR2B_receptor_density",
+      "CREB_phosphorylation_level_hippocampus"
+    ],
+    "cells": [
+      "hippocampal_pyramidal_neuron_density",
+      "dentate_gyrus_granule_cells_density",
+      "CA1_interneuron_density"
+    ],
+    "circuits": [
+      "HPC_PFC_functional_connectivity",
+      "HPC_MTL_network_functional_connectivity"
+    ],
+    "physiology": [
+      "pupil_dilation_memory_task",
+      "heart_rate_variability_memory_task",
+      "skin_conductance_memory_task",
+      "serum_cortisol_memory_task"
+    ],
+    "behavior": [
+      "free_recall_accuracy_percent",
+      "cued_recall_accuracy_percent",
+      "retrieval_latency_ms_first_response",
+      "intrusive_memory_error_count",
+      "tip_of_tongue_events_count"
+    ],
+    "self_report": [
+      "subjective_memory_decline_score",
+      "memory_error_frequency_self_report",
+      "recall_success_confidence_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 4.2
+}

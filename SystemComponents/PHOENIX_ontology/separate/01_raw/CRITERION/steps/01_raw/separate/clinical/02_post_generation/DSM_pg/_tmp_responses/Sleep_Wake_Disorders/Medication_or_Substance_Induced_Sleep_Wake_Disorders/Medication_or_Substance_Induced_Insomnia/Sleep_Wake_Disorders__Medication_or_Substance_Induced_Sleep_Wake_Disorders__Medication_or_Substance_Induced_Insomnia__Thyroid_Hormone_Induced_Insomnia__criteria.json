@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_onset_latency_increase"
+    },
+    {
+      "criterium": "total_sleep_time_decrease"
+    },
+    {
+      "criterium": "wake_after_sleep_onset_increase"
+    },
+    {
+      "criterium": "sleep_efficiency_decrease"
+    },
+    {
+      "criterium": "nocturnal_awakenings_frequency_increase"
+    },
+    {
+      "criterium": "sleep_fragmentation_increase"
+    },
+    {
+      "criterium": "daytime_fatigue_increase"
+    },
+    {
+      "criterium": "daytime_sleepiness_increase"
+    },
+    {
+      "criterium": "attention_concentration_decline"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

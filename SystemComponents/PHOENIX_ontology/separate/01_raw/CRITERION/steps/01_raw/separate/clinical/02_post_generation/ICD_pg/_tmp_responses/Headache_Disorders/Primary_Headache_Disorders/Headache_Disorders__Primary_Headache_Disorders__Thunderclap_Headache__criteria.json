@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sudden_onset_severe_headache"
+    },
+    {
+      "criterium": "thunderclap_descriptor_reported"
+    },
+    {
+      "criterium": "neck_stiffness_present"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "phonophobia_present"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "vomiting_present"
+    },
+    {
+      "criterium": "syncope_present"
+    },
+    {
+      "criterium": "altered_mental_status_present"
+    },
+    {
+      "criterium": "focal_neurological_deficit_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

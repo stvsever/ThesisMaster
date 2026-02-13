@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rest_pain_intensity_NRS4plus"
+    },
+    {
+      "criterium": "movement_exacerbated_pain"
+    },
+    {
+      "criterium": "paroxysmal_neuropathic_pain"
+    },
+    {
+      "criterium": "allodynia_light_touch_over_tumor_site"
+    },
+    {
+      "criterium": "hyperalgesia_in_tumor_region"
+    },
+    {
+      "criterium": "nocturnal_pain_wakeups"
+    },
+    {
+      "criterium": "pain_described_as_burning"
+    },
+    {
+      "criterium": "pain_described_as_stabbing"
+    },
+    {
+      "criterium": "pain_radiates_to_adjacent_dermatomes"
+    },
+    {
+      "criterium": "facial_grimacing_during_pain"
+    },
+    {
+      "criterium": "protective_guarding_of_affected_region"
+    },
+    {
+      "criterium": "pain_associated_fatigue_or_listlessness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

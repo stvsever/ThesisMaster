@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_mood"
+    },
+    {
+      "criterium": "grandiosity"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "decreased_need_for_sleep"
+    },
+    {
+      "criterium": "increased_goal_directed_activity"
+    },
+    {
+      "criterium": "distractibility"
+    },
+    {
+      "criterium": "increased_risk_taking"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "fatigue_or_loss_of_energy"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "decreased_concentration"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

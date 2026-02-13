@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "snoring_presence"
+    },
+    {
+      "criterium": "witnessed_apneas"
+    },
+    {
+      "criterium": "mouth_breathing_during_sleep"
+    },
+    {
+      "criterium": "sleep_fragmentation"
+    },
+    {
+      "criterium": "nocturnal_enuresis"
+    },
+    {
+      "criterium": "morning_headache"
+    },
+    {
+      "criterium": "daytime_sleepiness"
+    },
+    {
+      "criterium": "daytime_hyperactivity_inattention"
+    },
+    {
+      "criterium": "irritability_or_behavioral_disturbance"
+    },
+    {
+      "criterium": "bruxism_night_teeth_grinding"
+    },
+    {
+      "criterium": "restless_sleep"
+    },
+    {
+      "criterium": "poor_sleep_efficiency"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

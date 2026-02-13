@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_rs1800497_allele",
+      "COMT_V158M_genotype",
+      "BDNF_rs6265_allele",
+      "OPRM1_A118G_genotype",
+      "SLC6A4_LPR_genotype",
+      "MAOA_uVNTR_genotype"
+    ],
+    "molecules": [
+      "Dopamine_tone_in_mesolimbic_pathway",
+      "Dopamine_D2_receptor_availability_NAcc",
+      "Serotonin_concentration_prefrontal_cortex",
+      "Glutamate_concentration_VTA_synapses",
+      "BDNF_plasma_levels",
+      "Endocannabinoid_2-AG_levels"
+    ],
+    "cells": [
+      "Dopaminergic_neuron_density_VTA",
+      "Medium_spiny_neuron_density_NAcc",
+      "Pyramidal_neuron_density_prefrontal_cortex",
+      "GABAergic_interneuron_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "VTA_NAcc_synchrony_during_reward",
+      "Prefrontal_value_integration_network_activity",
+      "ACC_value_monitoring_connectivity",
+      "Orbitofrontal_value_assessment_connectivity",
+      "Hippocampus_reward_context_connectivity"
+    ],
+    "physiology": [
+      "Pupillometry_ev_cue_response_peak",
+      "Heart_rate_variability_during_reward_prediction",
+      "Skin_conductance_response_to_value_cues",
+      "Cortisol_level_post_reward",
+      "Respiratory_rate_change_during_ev_cue"
+    ],
+    "behavior": [
+      "ev_estimation_accuracy",
+      "ev_estimation_bias",
+      "ev_estimation_reaction_time",
+      "value_based_choice_rate",
+      "risk_adjusted_decision_rate",
+      "ev_based_choice_consistency"
+    ],
+    "self_report": [
+      "self_report_ev_estimation_ability",
+      "self_report_ev_estimation_confidence",
+      "self_report_risk_understanding"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

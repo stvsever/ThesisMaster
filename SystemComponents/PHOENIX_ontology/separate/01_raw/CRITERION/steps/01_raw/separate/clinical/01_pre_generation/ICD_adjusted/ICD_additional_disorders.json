@@ -1,0 +1,317 @@
+{
+    "Pain Disorders": {
+        "Neuropathic Pain Disorders": {
+            "Diabetic Neuropathy": {},
+            "Postherpetic Neuralgia": {},
+            "Phantom Limb Pain": {},
+            "Complex Regional Pain Syndrome": {
+                "CRPS Type I": {},
+                "CRPS Type II": {}
+            },
+            "Central Pain Syndrome": {},
+            "Peripheral Neuropathy": {},
+            "Radiculopathy": {},
+            "Polyneuropathy": {},
+            "Post-Stroke Pain": {},
+            "HIV-Associated Neuropathy": {},
+            "Chemotherapy-Induced Peripheral Neuropathy": {},
+            "Entrapment Neuropathies (e.g., Carpal Tunnel Syndrome)": {}
+        },
+        "Musculoskeletal Pain Disorders": {
+            "Fibromyalgia": {},
+            "Myofascial Pain Syndrome": {},
+            "Chronic Low Back Pain": {},
+            "Chronic Neck Pain": {},
+            "Osteoarthritis Pain": {},
+            "Rheumatoid Arthritis Pain": {},
+            "Ankylosing Spondylitis Pain": {},
+            "Ehlers-Danlos Syndrome Pain": {},
+            "Tendinopathies": {},
+            "Plantar Fasciitis": {},
+            "Frozen Shoulder (Adhesive Capsulitis)": {},
+            "Diffuse Idiopathic Skeletal Hyperostosis": {}
+        },
+        "Visceral Pain Disorders": {
+            "Irritable Bowel Syndrome (IBS)": {},
+            "Interstitial Cystitis": {},
+            "Endometriosis": {},
+            "Chronic Pelvic Pain Syndrome": {},
+            "Chronic Prostatitis": {},
+            "Functional Dyspepsia": {},
+            "Non-Cardiac Chest Pain": {},
+            "Chronic Pancreatitis Pain": {},
+            "Functional Abdominal Pain Syndrome": {},
+            "Functional Biliary Pain": {},
+            "Chronic Testicular Pain (Orchialgia)": {},
+            "Vulvodynia": {}
+        },
+        "Functional Pain Disorders": {
+            "Somatic Symptom Disorder with Predominant Pain": {},
+            "Psychogenic Pain Disorder": {},
+            "Persistent Somatoform Pain Disorder": {},
+            "Conversion Disorder with Sensory Symptom": {},
+            "Pain Disorder Associated with Psychological Factors": {},
+            "Pain Disorder Associated with Both Psychological Factors and a General Medical Condition": {},
+            "Body Dysmorphic Disorder with Pain Complaints": {}
+        },
+        "Orofacial Pain Disorders": {
+            "Burning Mouth Syndrome": {},
+            "Atypical Odontalgia": {},
+            "Temporomandibular Joint Disorders": {},
+            "Eagle Syndrome": {},
+            "Sluder's Neuralgia": {}
+        },
+        "Cancer-Related Pain": {
+            "Bone Pain due to Metastases": {},
+            "Neuropathic Pain due to Chemotherapy": {},
+            "Post-Radiation Pain Syndromes": {},
+            "Tumor-Related Pain": {}
+        },
+        "Post-Surgical and Post-Trauma Pain Syndromes": {
+            "Post-Mastectomy Pain Syndrome": {},
+            "Post-Thoracotomy Pain Syndrome": {},
+            "Post-Herniorrhaphy Pain Syndrome": {},
+            "Post-Amputation Pain": {},
+            "Post-Laminectomy Syndrome": {},
+            "Post-Traumatic Neuralgia": {},
+            "Scar Neuroma Pain": {}
+        },
+        "Central Sensitivity Syndromes": {
+            "Chronic Fatigue Syndrome OR Myalgic Encephalomyelitis": {},
+            "Multiple Chemical Sensitivity": {}
+        }
+    },
+    "Headache Disorders": {
+        "Primary Headache Disorders": {
+            "Migraine": {
+                "Migraine without Aura": {},
+                "Migraine with Aura": {},
+                "Chronic Migraine": {},
+                "Menstrual Migraine": {}
+            },
+            "Tension-Type Headache": {},
+            "Cluster Headache": {},
+            "Other Trigeminal Autonomic Cephalalgias": {
+                "Paroxysmal Hemicrania": {},
+                "Hemicrania Continua": {},
+                "SUNCT and SUNA": {}
+            },
+            "Idiopathic Stabbing Headache": {},
+            "Hypnic Headache": {},
+            "New Daily Persistent Headache": {},
+            "Nummular Headache": {},
+            "Exertional Headache": {},
+            "Cough Headache": {},
+            "Thunderclap Headache": {},
+            "Cold-Stimulus Headache": {},
+            "Ophthalmodynia Periodica": {},
+            "Sexual Headache": {}
+        },
+        "Secondary Headache Disorders": {
+            "Headache Attributed to Trauma": {},
+            "Medication Overuse Headache": {},
+            "Headache Attributed to Infection": {},
+            "Headache Attributed to Homeostatic Disorder": {},
+            "Headache Attributed to Psychiatric Disorder": {},
+            "Idiopathic Intracranial Hypertension": {},
+            "Low Cerebrospinal Fluid Pressure Headache": {},
+            "Cervicogenic Headache": {},
+            "Orthostatic Headache": {},
+            "Rhinitis Headache": {}
+        },
+        "Painful Cranial Neuropathies and Other Facial Pains": {
+            "Trigeminal Neuralgia": {},
+            "Glossopharyngeal Neuralgia": {},
+            "Occipital Neuralgia": {},
+            "Facial Pain": {},
+            "Temporomandibular Joint Disorder": {}
+        },
+        "Other Headache- or Related Disorders": {
+            "Aura Without Migraine": {},
+            "Sleep-Related Headache": {},
+            "Epilepsy": {
+                "Focal Epilepsies": {
+                    "Temporal Lobe Epilepsy": {},
+                    "Frontal Lobe Epilepsy": {},
+                    "Parietal Lobe Epilepsy": {},
+                    "Occipital Lobe Epilepsy": {}
+                },
+                "Generalized Epilepsies": {
+                    "Childhood Absence Epilepsy": {},
+                    "Juvenile Myoclonic Epilepsy": {},
+                    "Tonic-Clonic Seizures Only": {},
+                    "Lennox-Gastaut Syndrome": {}
+                },
+                "Cominbed Generalized and Focal Epilepsies": {
+                    "Dravet Syndrome (Severe Myoclonic Epilepsy of Infancy)": {},
+                    "Doose Syndrome (Myoclonic-Astatic Epilepsy)": {}
+                },
+                "Reflex Epilepsies": {
+                    "Photosensitive Epilepsy": {},
+                    "Startle Epilepsy": {},
+                    "Prolonged Focus Induced Epilepsy": {}
+                },
+                "Progressive Myoclonic Epilepsies": {
+                    "Unverricht-Lundborg Disease": {},
+                    "Lafora Disease": {}
+                },
+                "Developmental and Epileptic Encephalopathies": {
+                    "West Syndrome (Infantile Spasms)": {},
+                    "Landau-Kleffner": {}
+                },
+                "Self-Limited Epilepsies": {
+                    "Benign Rolandic Epilepsy": {},
+                    "Panayiotopoulos Syndrome": {}
+                },
+                "Other Epilepsies": {
+                    "Hypothalamus Hamartoma": {},
+                    "Autosomal Dominant Nocturnal Frontal Lobe Epilepsy": {},
+                    "Jeavons Syndrome (Eyelid Myoclonia with Absences)": {},
+                    "Postictal Headache": {}
+                }
+            }
+        }
+    },
+    "Gastrointestinal Disorders": {
+        "Psychogenic Vomiting": {},
+        "Functional Gastrointestinal Disorders": {
+            "Irritable Bowel Syndrome": {},
+            "Functional Dyspepsia": {},
+            "Functional Abdominal Pain Syndrome": {},
+            "Functional Constipation": {},
+            "Functional Diarrhea": {}
+        },
+        "Idiopathic Gastrointestinal Disorders": {
+            "Idiopathic Esophageal Disorders": {
+                "Idiopathic Esophageal Achalasia": {},
+                "Idiopathic Eosinophilic Esophagitis": {}
+            },
+            "Idiopathic Gastric Disorders": {
+                "Idiopathic Gastroparesis": {},
+                "Idiopathic Gastritis": {},
+                "Idiopathic Gastric Outlet Obstruction": {},
+                "Idiopathic Gastric Antral Vascular Ectasia": {}
+            },
+            "Idiopathic Intestinal Disorders": {
+                "Idiopathic Chronic Constipation": {},
+                "Idiopathic Chronic Diarrhea": {},
+                "Idiopathic Ulcerative Colitis": {},
+                "Idiopathic Inflammatory Bowel Disease": {},
+                "Idiopathic Intestinal Pseudo-Obstruction": {},
+                "Idiopathic Short Bowel Syndrome": {},
+                "Idiopathic Recurrent Vomiting": {},
+                "Idiopathic Fecal Incontinence": {},
+                "Idiopathic Mesenteric Ischemia": {},
+                "Idiopathic Rectal Prolapse": {}
+            },
+            "Idiopathic Hepatic Disorders": {
+                "Idiopathic Hepatic Fibrosis": {},
+                "Idiopathic Autoimmune Hepatitis": {},
+                "Idiopathic Non-Cirrhotic Portal Hypertension": {},
+                "Idiopathic Portal Hypertension": {}
+            },
+            "Idioapthic Pancreatic Disorders": {
+                "Idiopathic Chronic Pancreatitis": {},
+                "Idiopathic Acute Pancreatitis": {},
+                "Idiopathic Pancreatic Pseudocyst": {},
+                "Idiopathic Pancreatic Insufficiency": {}
+            },
+            "Idiopathic Biliary Disorders": {
+                "Idiopathic Bile Acid Malabsorption": {},
+                "Idiopathic Sphincter of Oddi Dysfunction": {}
+            }
+        }
+    },
+    "ICD-10 Chapter VI — Diseases of the Nervous System": {
+        "Inflammatory diseases of the central nervous system": {
+          "Bacterial meningitis, not elsewhere classified": {},
+          "Meningitis in bacterial diseases classified elsewhere": {},
+          "Meningitis in other infectious and parasitic diseases classified elsewhere": {},
+          "Meningitis due to other and unspecified causes": {},
+          "Encephalitis, myelitis and encephalomyelitis": {},
+          "Encephalitis, myelitis and encephalomyelitis in diseases classified elsewhere": {},
+          "Intracranial and intraspinal abscess and granuloma": {},
+          "Intracranial and intraspinal abscess and granuloma in diseases classified elsewhere": {},
+          "Intracranial and intraspinal phlebitis and thrombophlebitis": {},
+          "Sequelae of inflammatory diseases of central nervous system": {}
+        },
+        "Systemic atrophies primarily affecting the central nervous system": {
+          "Huntington disease": {},
+          "Hereditary ataxia": {},
+          "Spinal muscular atrophy and related syndromes": {},
+          "Systemic atrophies primarily affecting central nervous system in diseases classified elsewhere": {},
+          "Postpolio syndrome": {}
+        },
+        "Extrapyramidal and movement disorders": {
+          "Parkinson disease": {},
+          "Secondary parkinsonism": {},
+          "Parkinsonism in diseases classified elsewhere": {},
+          "Other degenerative diseases of basal ganglia": {},
+          "Dystonia": {},
+          "Other extrapyramidal and movement disorders": {},
+          "Extrapyramidal and movement disorders in diseases classified elsewhere": {}
+        },
+        "Other degenerative diseases of the nervous system": {
+          "Alzheimer disease": {},
+          "Other degenerative diseases of nervous system, not elsewhere classified": {},
+          "Other degenerative disorders of nervous system in diseases classified elsewhere": {}
+        },
+        "Demyelinating diseases of the central nervous system": {
+          "Multiple sclerosis": {},
+          "Other acute disseminated demyelination": {},
+          "Other demyelinating diseases of central nervous system": {}
+        },
+        "Episodic and paroxysmal disorders": {
+          "Epilepsy and recurrent seizures": {},
+          "Status epilepticus": {},
+          "Migraine": {},
+          "Other headache syndromes": {},
+          "Transient cerebral ischaemic attacks and related syndromes": {},
+          "Vascular syndromes of brain in cerebrovascular diseases": {},
+          "Sleep disorders": {}
+        },
+        "Nerve, nerve root and plexus disorders": {
+          "Disorders of trigeminal nerve": {},
+          "Facial nerve disorders": {},
+          "Disorders of other cranial nerves": {},
+          "Cranial nerve disorders in diseases classified elsewhere": {},
+          "Nerve root and plexus disorders": {},
+          "Nerve root and plexus compressions in diseases classified elsewhere": {},
+          "Mononeuropathies of upper limb": {},
+          "Mononeuropathies of lower limb": {},
+          "Other mononeuropathies": {},
+          "Mononeuropathy in diseases classified elsewhere": {}
+        },
+        "Polyneuropathies and other disorders of the peripheral nervous system": {
+          "Hereditary and idiopathic neuropathy": {},
+          "Inflammatory polyneuropathy": {},
+          "Other polyneuropathies": {},
+          "Polyneuropathy in diseases classified elsewhere": {},
+          "Other disorders of peripheral nervous system": {}
+        },
+        "Diseases of myoneural junction and muscle": {
+          "Myasthenia gravis and other myoneural disorders": {},
+          "Primary disorders of muscles": {},
+          "Other myopathies": {},
+          "Disorders of myoneural junction and muscle in diseases classified elsewhere": {}
+        },
+        "Cerebral palsy and other paralytic syndromes": {
+          "Cerebral palsy": {},
+          "Hemiplegia": {},
+          "Paraplegia and tetraplegia": {},
+          "Other paralytic syndromes": {}
+        },
+        "Other disorders of the nervous system": {
+          "Disorders of autonomic nervous system": {},
+          "Hydrocephalus": {},
+          "Toxic encephalopathy": {},
+          "Other disorders of brain": {},
+          "Other disorders of brain in diseases classified elsewhere": {},
+          "Other diseases of spinal cord": {},
+          "Other disorders of central nervous system": {},
+          "Postprocedural disorders of nervous system, not elsewhere classified": {},
+          "Other disorders of nervous system, not elsewhere classified": {},
+          "Other disorders of nervous system in diseases classified elsewhere": {}
+        }
+  }
+}

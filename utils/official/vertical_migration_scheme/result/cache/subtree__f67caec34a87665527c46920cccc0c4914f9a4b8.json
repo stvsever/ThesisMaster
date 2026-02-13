@@ -1,0 +1,21 @@
+{
+  "domain_path": "BIO / Cognitive_Capacity_and_Brain_Health / Micronutrient_Status_and_Correction",
+  "domain_root_path": [
+    "BIO",
+    "Cognitive_Capacity_and_Brain_Health",
+    "Micronutrient_Status_and_Correction"
+  ],
+  "leaf_count": 23,
+  "total_edges_in_subtree": 25,
+  "evaluated_pairs": 25,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "f67caec34a87665527c46920cccc0c4914f9a4b8",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 28.727
+}

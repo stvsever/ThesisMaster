@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "REST_TREMOR_PRESENT_AT_REST"
+    },
+    {
+      "criterium": "REST_TREMOR_FREQUENCY_4_TO_6_HZ"
+    },
+    {
+      "criterium": "REST_TREMOR_DISTAL_HAND_FOREARM_PREDOMINANCE"
+    },
+    {
+      "criterium": "REST_TREMOR_PILL_ROLLING_PATTERN"
+    },
+    {
+      "criterium": "REST_TREMOR_UNILATERAL_ONSET_WITH_BILATERAL_SPREAD"
+    },
+    {
+      "criterium": "REST_TREMOR_SUPPRESSED_BY_VOLUNTARY_MOVEMENT"
+    },
+    {
+      "criterium": "REST_TREMOR_SUPPRESSED_BY_SLEEP"
+    },
+    {
+      "criterium": "REST_TREMOR_EXACERBATED_BY_STRESS"
+    },
+    {
+      "criterium": "REST_TREMOR_DETECTED_IN_FACE_JAW_OR_TONGUE"
+    },
+    {
+      "criterium": "REST_TREMOR_REGULAR_RHYTHMIC_PATTERN"
+    },
+    {
+      "criterium": "REST_TREMOR_BETTER_WITH_POSTURAL_STABILITY"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

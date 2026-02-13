@@ -1,0 +1,46 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M",
+      "SLC6A4_HTTLPR_S_ALLELE",
+      "COMT_V158M",
+      "FKBP5_RISK_ALLELE"
+    ],
+    "molecules": [
+      "DOPAMINE_RELEASE_AMYGDALA",
+      "NOREPINEPHRINE_LEVELS_AMYGDALA",
+      "CORTISOL_SERUM_LEVEL",
+      "OXYTOCIN_SERUM_LEVEL"
+    ],
+    "cells": [
+      "AMYGDALA_PYRAMIDAL_NEURON_DENSITY",
+      "AMYGDALA_GABA_INTERNEURON_DENSITY",
+      "AMYGDALA_CFOS_EXPRESSION"
+    ],
+    "circuits": [
+      "AMYGDALA_PFC_CONNECTIVITY",
+      "AMYGDALA_ACC_CONNECTIVITY",
+      "AMYGDALA_TPJ_CONNECTIVITY",
+      "AMYGDALA_FFA_CONNECTIVITY",
+      "AMYGDALA_VMPFC_CONNECTIVITY"
+    ],
+    "physiology": [
+      "SKIN_CONDUCTANCE_RESPONSE",
+      "HEART_RATE_ACCELERATION",
+      "PUPILLARY_DILATION",
+      "RESPIRATORY_RATE_CHANGE"
+    ],
+    "behavior": [
+      "GAZE_TIME_FACE_STIMULI",
+      "REACTION_TIME_SOCIAL_STIMULI",
+      "SOCIAL_APPROACH_BEHAVIOR",
+      "SOCIAL_AVERSION_BEHAVIOR"
+    ],
+    "self_report": [
+      "SELFREPORT_SOCIAL_AROUSAL",
+      "SELFREPORT_SOCIAL_THREAT_SENSITIVITY",
+      "SELFREPORT_SOCIAL_ANXIETY_INTENSITY"
+    ]
+  },
+  "estimated_prevalence_percent": 7.0
+}

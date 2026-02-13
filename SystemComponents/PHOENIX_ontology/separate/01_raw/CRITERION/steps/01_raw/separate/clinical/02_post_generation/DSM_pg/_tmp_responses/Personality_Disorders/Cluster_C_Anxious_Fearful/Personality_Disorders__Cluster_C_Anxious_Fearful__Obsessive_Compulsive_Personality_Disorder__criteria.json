@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_orderliness"
+    },
+    {
+      "criterium": "perfectionism_impairs_task_completion"
+    },
+    {
+      "criterium": "devotion_to_work_excludes_leisure"
+    },
+    {
+      "criterium": "moral_inflexibility"
+    },
+    {
+      "criterium": "inability_to_discard_worn_out_objects"
+    },
+    {
+      "criterium": "reluctance_to_delegate"
+    },
+    {
+      "criterium": "extreme_saving_behavior"
+    },
+    {
+      "criterium": "rigidity_of_thought_and_behavior"
+    },
+    {
+      "criterium": "resistance_to_change"
+    },
+    {
+      "criterium": "inflexible_interpersonal_dynamics"
+    }
+  ],
+  "estimated_prevalence_percent": 2.9
+}

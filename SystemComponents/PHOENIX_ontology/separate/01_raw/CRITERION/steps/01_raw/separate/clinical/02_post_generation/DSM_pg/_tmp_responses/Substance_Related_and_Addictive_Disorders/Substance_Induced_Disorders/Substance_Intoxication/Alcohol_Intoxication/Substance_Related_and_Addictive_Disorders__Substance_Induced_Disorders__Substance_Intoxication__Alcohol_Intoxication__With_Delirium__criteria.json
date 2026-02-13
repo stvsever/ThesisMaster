@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "altered_level_of_consciousness"
+    },
+    {
+      "criterium": "disorientation_time"
+    },
+    {
+      "criterium": "disorientation_place"
+    },
+    {
+      "criterium": "disorientation_person"
+    },
+    {
+      "criterium": "memory_impairment_short_term"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "perceptual_illusions"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "speech_disorganization"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "autonomic_hyperactivity"
+    },
+    {
+      "criterium": "fluctuating_course"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

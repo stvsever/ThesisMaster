@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nitazene_tolerance_development"
+    },
+    {
+      "criterium": "nitazene_withdrawal_symptoms_present"
+    },
+    {
+      "criterium": "nitazene_dose_escalation"
+    },
+    {
+      "criterium": "unsuccessful_nitazene_cessation_attempts"
+    },
+    {
+      "criterium": "time_spent_acquiring_or_using_nitazenes"
+    },
+    {
+      "criterium": "nitazene_craving_intensity"
+    },
+    {
+      "criterium": "failure_to_fulfill_major_role_obligations_due_to_nitazenes"
+    },
+    {
+      "criterium": "social_or_interpersonal_impairment_from_nitazene_use"
+    },
+    {
+      "criterium": "activities_reduced_or_given_up_due_to_nitazenes"
+    },
+    {
+      "criterium": "recurrent_nitazene_use_in_hazardous_settings"
+    },
+    {
+      "criterium": "continued_nitazene_use_despite_physical_or_psychological_problems"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

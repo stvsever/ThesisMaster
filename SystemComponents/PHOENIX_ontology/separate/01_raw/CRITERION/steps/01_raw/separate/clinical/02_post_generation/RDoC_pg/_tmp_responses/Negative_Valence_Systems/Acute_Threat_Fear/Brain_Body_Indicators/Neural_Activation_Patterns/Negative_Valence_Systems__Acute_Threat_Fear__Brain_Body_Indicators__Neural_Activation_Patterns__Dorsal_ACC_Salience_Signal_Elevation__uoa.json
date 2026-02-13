@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_Val66Met",
+      "COMT_rs4680_V158M",
+      "FKBP5_rs1360780",
+      "SLC6A4_rs25531",
+      "CACNA1C_rs1006737",
+      "GRIN2B"
+    ],
+    "molecules": [
+      "BDNF_protein",
+      "CORTISOL_serum",
+      "NOREPINEPHRINE",
+      "GLUTAMATE",
+      "GABA",
+      "DOPAMINE"
+    ],
+    "cells": [
+      "pyramidal_neuron_density_DACC",
+      "gabaergic_interneuron_count_PV_positive_DACC",
+      "astrocyte_density_DACC",
+      "oligodendrocyte_density_DACC",
+      "microglia_density_DACC"
+    ],
+    "circuits": [
+      "dACC_AI_connectivity_strength",
+      "dACC_amygdala_connectivity_strength",
+      "dACC_prefrontal_connectivity_strength",
+      "dACC_thalamic_input_strength",
+      "dACC_salience_network_coherence"
+    ],
+    "physiology": [
+      "heart_rate_peak_to_threat",
+      "skin_conductance_peak",
+      "pupil_dilation_peak",
+      "respiratory_rate_change_peak",
+      "skin_temperature_change_peak",
+      "blood_pressure_change_peak"
+    ],
+    "behavior": [
+      "threat_stimulus_reaction_time",
+      "startle_potentiation_magnitude",
+      "threat_avoidance_frequency",
+      "approach_avoidance_tendency_index"
+    ],
+    "self_report": [
+      "STAI_state_score",
+      "STAI_trait_score",
+      "PCL5_score"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

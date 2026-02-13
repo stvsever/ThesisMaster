@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "postural_tremor_presence_outstretched_arms"
+    },
+    {
+      "criterium": "postural_tremor_bilateral_upper_extremities"
+    },
+    {
+      "criterium": "postural_tremor_frequency_hz_band_4_to_6"
+    },
+    {
+      "criterium": "postural_tremor_amplitude_moderate_observable"
+    },
+    {
+      "criterium": "tremor_exacerbation_with_upper_limb_loading"
+    },
+    {
+      "criterium": "fine_motor_task_impairment_due_to_tremor_handwriting_or_drawing"
+    },
+    {
+      "criterium": "tremor_symmetry_across_hands"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

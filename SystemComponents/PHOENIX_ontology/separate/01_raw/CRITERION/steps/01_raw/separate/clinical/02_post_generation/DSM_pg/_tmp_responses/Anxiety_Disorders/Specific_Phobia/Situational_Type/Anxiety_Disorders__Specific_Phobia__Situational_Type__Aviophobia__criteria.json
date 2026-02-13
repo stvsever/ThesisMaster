@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "panic_attack_on_flight_exposure"
+    },
+    {
+      "criterium": "tachycardia_on_flight_exposure"
+    },
+    {
+      "criterium": "sweating_on_flight_exposure"
+    },
+    {
+      "criterium": "tremor_on_flight_exposure"
+    },
+    {
+      "criterium": "nausea_on_flight_exposure"
+    },
+    {
+      "criterium": "shortness_of_breath_on_flight_exposure"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_flight"
+    },
+    {
+      "criterium": "catastrophic_thoughts_about_flight"
+    },
+    {
+      "criterium": "avoidance_of_airports_or_flight_exposure"
+    },
+    {
+      "criterium": "hypervigilance_to_flight_related_sounds"
+    },
+    {
+      "criterium": "escape_behaviors_or_attempts_to_leave_flight_context"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

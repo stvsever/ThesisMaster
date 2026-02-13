@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "aphasia"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "orientation_disorientation"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "delirium_present"
+    },
+    {
+      "criterium": "altered_level_of_consciousness"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "focal_neurological_deficit"
+    },
+    {
+      "criterium": "hallucinations"
+    },
+    {
+      "criterium": "behavioral_disinhibition"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0003
+}

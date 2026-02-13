@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ptosis"
+    },
+    {
+      "criterium": "pupil_dilation_nonreactive"
+    },
+    {
+      "criterium": "diplopia"
+    },
+    {
+      "criterium": "facial_weakness"
+    },
+    {
+      "criterium": "facial_numbness"
+    },
+    {
+      "criterium": "corneal_reflex_absent"
+    },
+    {
+      "criterium": "tongue_deviation"
+    },
+    {
+      "criterium": "dysphagia"
+    },
+    {
+      "criterium": "hoarseness"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "hearing_loss"
+    },
+    {
+      "criterium": "vertigo"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

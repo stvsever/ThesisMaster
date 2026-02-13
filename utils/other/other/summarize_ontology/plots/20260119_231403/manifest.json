@@ -1,0 +1,60 @@
+{
+  "run_id": "20260119_231403",
+  "run_dir": "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403",
+  "input": "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/SystemComponents/PHOENIX_ontology/aggretated/01_raw/ontology_aggregated.json",
+  "generated_at": "2026-01-19 23:14:03",
+  "main_root": "ONTOLOGY",
+  "secondary_nodes_detected": [
+    "CRITERION",
+    "PREDICTOR",
+    "PERSON",
+    "CONTEXT",
+    "HAPA"
+  ],
+  "secondary_panel_nodes": [
+    "CRITERION",
+    "PREDICTOR",
+    "PERSON",
+    "HAPA",
+    "CONTEXT"
+  ],
+  "secondary_choice_note": null,
+  "counts": {
+    "total_nodes": 52482,
+    "roots": 1,
+    "internal": 9427,
+    "leaves": 43055,
+    "max_depth": 13,
+    "avg_branching_internal": 5.5670945157526255,
+    "max_branching_internal": 57,
+    "duplicate_labels": 4059
+  },
+  "files_written": [
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/01_overview/01_overview_counts.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/02_depth/02_depth_distribution_overall.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/02_depth/03_depth_distribution_overall_logy.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/02_depth/04_width_by_depth.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/02_depth/05_depth_histogram_kdelike.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/03_branching/01_branching_distribution.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/03_branching/02_branching_distribution_logy.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/03_branching/03_top_branching_nodes.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/03_branching/04_depth_vs_children_scatter.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/04_labels/01_top_duplicated_labels.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/04_labels/02_duplicate_label_frequency_logy.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/06_secondary/02_secondary_sizes_and_leaf_ratio.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/06_secondary/03_secondary_subtree_size_distribution_loglog.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/06_secondary/01_secondary_depth_panel_relative_linear.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/06_secondary/01_secondary_depth_panel_relative_logy.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/05_text/02_deepest_leaf_paths.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/05_text/03_top_branching_nodes_text.png",
+    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/README.txt"
+  ],
+  "subdirs": {
+    "overview": "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/01_overview",
+    "depth": "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/02_depth",
+    "branching": "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/03_branching",
+    "labels": "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/04_labels",
+    "text": "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/05_text",
+    "secondary": "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/other/other/summarize_ontology/plots/20260119_231403/06_secondary"
+  }
+}

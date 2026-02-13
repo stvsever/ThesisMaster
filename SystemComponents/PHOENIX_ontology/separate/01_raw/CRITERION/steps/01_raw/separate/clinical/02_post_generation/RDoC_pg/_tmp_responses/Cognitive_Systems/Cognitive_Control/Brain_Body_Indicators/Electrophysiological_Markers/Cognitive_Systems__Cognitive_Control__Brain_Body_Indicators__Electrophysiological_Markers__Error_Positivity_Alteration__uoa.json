@@ -1,0 +1,39 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_V66M",
+      "COMT_rs4680_V158M",
+      "DRD2_rs1800497_Taq1A"
+    ],
+    "molecules": [
+      "BDNF_protein_level",
+      "DOPAMINE_concentration_prefrontal_cortex",
+      "GLUTAMATE_concentration_ACC"
+    ],
+    "cells": [
+      "pyramidal_neuron_density_ACC",
+      "gaba_interneuron_density_dACC",
+      "astrocyte_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "dACC_post_error_activation",
+      "dlPFC_inhibitory_control_network_connectivity",
+      "insula_prefrontal_post_error_network"
+    ],
+    "physiology": [
+      "Pe_amplitude_microvolts",
+      "Pe_latency_ms",
+      "ERP_signal_to_noise_ratio"
+    ],
+    "behavior": [
+      "post_error_rt_increase_ms",
+      "post_error_slowing_percent",
+      "error_rate_percent"
+    ],
+    "self_report": [
+      "error_awareness_scale_score",
+      "subjective_error_confidence_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "delusions_of_reference"
+    },
+    {
+      "criterium": "delusions_of_control"
+    },
+    {
+      "criterium": "thought_broadcasting"
+    },
+    {
+      "criterium": "thought_insertion"
+    },
+    {
+      "criterium": "thought_withdrawal"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "loosening_of_association"
+    },
+    {
+      "criterium": "disorganized_behavior"
+    },
+    {
+      "criterium": "incongruent_affect"
+    }
+  ],
+  "estimated_prevalence_percent": 0.04
+}

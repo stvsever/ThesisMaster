@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "grandiosity"
+    },
+    {
+      "criterium": "decreased_sleep_need"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "increased_goal_directed_activity"
+    },
+    {
+      "criterium": "distractibility"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "increased_risk_taking"
+    },
+    {
+      "criterium": "hypersexuality"
+    },
+    {
+      "criterium": "increased_spending_sprees"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

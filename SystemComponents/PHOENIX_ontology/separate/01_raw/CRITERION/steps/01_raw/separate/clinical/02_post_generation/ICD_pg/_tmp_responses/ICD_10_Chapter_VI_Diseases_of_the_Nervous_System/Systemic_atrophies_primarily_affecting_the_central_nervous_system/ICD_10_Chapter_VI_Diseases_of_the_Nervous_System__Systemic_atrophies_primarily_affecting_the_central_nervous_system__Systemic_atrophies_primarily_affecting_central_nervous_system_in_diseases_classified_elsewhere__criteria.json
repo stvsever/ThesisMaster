@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "parkinsonism"
+    },
+    {
+      "criterium": "dystonia"
+    },
+    {
+      "criterium": "chorea"
+    },
+    {
+      "criterium": "spastic_paraparesis"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "dysphagia"
+    },
+    {
+      "criterium": "orthostatic_hypotension"
+    },
+    {
+      "criterium": "urinary_incontinence"
+    },
+    {
+      "criterium": "depression"
+    },
+    {
+      "criterium": "apathy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

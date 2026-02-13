@@ -1,0 +1,53 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_rs1800497",
+      "BDNF_V66M",
+      "COMT_V158M",
+      "SLC6A3_VNTR",
+      "MAOA_uVNTR"
+    ],
+    "molecules": [
+      "dopamine_level",
+      "norepinephrine_level",
+      "cortisol_level",
+      "BDNF_level",
+      "glutamate_level"
+    ],
+    "cells": [
+      "TH_positive_cells",
+      "D1_receptor_positive_cells",
+      "D2_receptor_positive_cells",
+      "glutamatergic_neuron_count"
+    ],
+    "circuits": [
+      "ventral_striatum_activation",
+      "amygdala_activation",
+      "anterior_cingulate_activation",
+      "orbitofrontal_cortex_activation",
+      "dorsolateral_prefrontal_cortex_activation"
+    ],
+    "physiology": [
+      "heart_rate_bpm",
+      "heart_rate_variability",
+      "skin_conductance_level",
+      "pupil_diameter_mm",
+      "respiratory_rate_bpm",
+      "salivary_cortisol"
+    ],
+    "behavior": [
+      "response_latency_ms",
+      "omission_rate_per_min",
+      "task_engagement_duration_ms",
+      "error_rate_percent",
+      "task_withdrawal_events_per_session"
+    ],
+    "self_report": [
+      "self_report_task_engagement_score",
+      "self_report_frustration_level",
+      "self_report_goal_blockage_sensitivity",
+      "self_report_help_seeking_intent"
+    ]
+  },
+  "estimated_prevalence_percent": 7.6
+}

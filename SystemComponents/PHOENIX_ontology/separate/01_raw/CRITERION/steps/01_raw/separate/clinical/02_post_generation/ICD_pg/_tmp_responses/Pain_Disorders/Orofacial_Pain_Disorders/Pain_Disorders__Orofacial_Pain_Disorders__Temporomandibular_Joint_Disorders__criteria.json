@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "masticatory_muscle_pain"
+    },
+    {
+      "criterium": "tmj_joint_pain"
+    },
+    {
+      "criterium": "joint_clicking_on_movement"
+    },
+    {
+      "criterium": "crepitus_on_movement_of_tmj"
+    },
+    {
+      "criterium": "restricted_mouth_opening"
+    },
+    {
+      "criterium": "pain_on_chewing"
+    },
+    {
+      "criterium": "headache_of_temporomandibular_origin"
+    },
+    {
+      "criterium": "neck_muscle_tension_associated_with_tmjd"
+    },
+    {
+      "criterium": "bruxism_behavior"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_tmjd_pain"
+    },
+    {
+      "criterium": "jaw_locking_during_opening_or_closing"
+    },
+    {
+      "criterium": "preauricular_area_pain_or_tenderness"
+    }
+  ],
+  "estimated_prevalence_percent": 6.0
+}

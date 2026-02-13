@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Mood_lability"
+    },
+    {
+      "criterium": "Elevated_expansive_mood"
+    },
+    {
+      "criterium": "Increased_goal_directed_activity_or_energy"
+    },
+    {
+      "criterium": "Decreased_sleep_needs"
+    },
+    {
+      "criterium": "Racing_thoughts"
+    },
+    {
+      "criterium": "Pressured_speech"
+    },
+    {
+      "criterium": "Grandiosity"
+    },
+    {
+      "criterium": "Irritable_mood"
+    },
+    {
+      "criterium": "Depressed_mood"
+    },
+    {
+      "criterium": "Anhedonia"
+    },
+    {
+      "criterium": "Fatigue"
+    },
+    {
+      "criterium": "Psychomotor_agitation_or_retardation"
+    },
+    {
+      "criterium": "Concentration_difficulties"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

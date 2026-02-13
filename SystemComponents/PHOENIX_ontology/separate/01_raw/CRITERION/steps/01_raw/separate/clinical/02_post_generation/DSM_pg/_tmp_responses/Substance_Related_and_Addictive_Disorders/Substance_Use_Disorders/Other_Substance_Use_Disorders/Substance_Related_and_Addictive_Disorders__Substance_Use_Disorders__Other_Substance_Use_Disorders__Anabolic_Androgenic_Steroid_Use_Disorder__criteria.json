@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AAS_tolerance_development"
+    },
+    {
+      "criterium": "AAS_withdrawal_symptoms"
+    },
+    {
+      "criterium": "AAS_dose_escalation"
+    },
+    {
+      "criterium": "AAS_craving"
+    },
+    {
+      "criterium": "AAS_use_despite_adverse_effects"
+    },
+    {
+      "criterium": "AAS_mood_disturbance"
+    },
+    {
+      "criterium": "AAS_aggression_or_hostility"
+    },
+    {
+      "criterium": "AAS_acne_exacerbation"
+    },
+    {
+      "criterium": "testicular_atrophy"
+    },
+    {
+      "criterium": "virilization_signs_in_females"
+    },
+    {
+      "criterium": "liver_function_abnormalities"
+    },
+    {
+      "criterium": "lipid_profile_derangements"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

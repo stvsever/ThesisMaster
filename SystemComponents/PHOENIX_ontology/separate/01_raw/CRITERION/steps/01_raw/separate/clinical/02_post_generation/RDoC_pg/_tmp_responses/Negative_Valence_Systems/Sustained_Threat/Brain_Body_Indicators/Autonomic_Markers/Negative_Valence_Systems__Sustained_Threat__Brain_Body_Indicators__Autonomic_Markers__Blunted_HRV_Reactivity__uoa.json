@@ -1,0 +1,34 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "GNB3_rs5443",
+      "COMT_rs4680"
+    ],
+    "molecules": [
+      "plasma_norepinephrine",
+      "salivary_cortisol"
+    ],
+    "cells": null,
+    "circuits": [
+      "amygdala_prefrontal_connectivity_strength",
+      "insula_brainstem_connectivity",
+      "cardiac_vagal_control_network_synchrony"
+    ],
+    "physiology": [
+      "HRV_reactivity_delta",
+      "RSA_change",
+      "heart_rate_change_during_stressor",
+      "RMSSD_reactivity_change"
+    ],
+    "behavior": [
+      "stress_task_reaction_time",
+      "stress_task_error_rate"
+    ],
+    "self_report": [
+      "perceived_stress_scale_total",
+      "state_anxiety_scale_total",
+      "PANAS_negative_affect"
+    ]
+  },
+  "estimated_prevalence_percent": 6.4
+}

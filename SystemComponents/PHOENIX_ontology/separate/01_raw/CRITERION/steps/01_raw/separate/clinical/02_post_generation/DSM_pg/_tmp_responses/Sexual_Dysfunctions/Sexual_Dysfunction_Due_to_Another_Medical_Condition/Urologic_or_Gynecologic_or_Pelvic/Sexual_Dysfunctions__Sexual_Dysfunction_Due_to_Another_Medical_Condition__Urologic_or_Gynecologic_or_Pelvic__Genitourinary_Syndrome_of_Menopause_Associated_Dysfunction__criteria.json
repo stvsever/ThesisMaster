@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "vaginal_epithelium_thinning"
+    },
+    {
+      "criterium": "vaginal_mucosal_atrophy"
+    },
+    {
+      "criterium": "vaginal_dryness"
+    },
+    {
+      "criterium": "vaginal_burning"
+    },
+    {
+      "criterium": "dyspareunia"
+    },
+    {
+      "criterium": "reduced_vaginal_elasticity"
+    },
+    {
+      "criterium": "elevated_vaginal_pH"
+    },
+    {
+      "criterium": "urinary_frequency"
+    },
+    {
+      "criterium": "urinary_urgency"
+    },
+    {
+      "criterium": "dysuria"
+    },
+    {
+      "criterium": "recurrent_urinary_tract_infections"
+    },
+    {
+      "criterium": "introital_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 12.0
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tsh_elevated"
+    },
+    {
+      "criterium": "free_t4_decreased"
+    },
+    {
+      "criterium": "weight_gain_unexplained"
+    },
+    {
+      "criterium": "fatigue_persistent"
+    },
+    {
+      "criterium": "cold_intolerance"
+    },
+    {
+      "criterium": "constipation"
+    },
+    {
+      "criterium": "dry_skin"
+    },
+    {
+      "criterium": "hair_loss"
+    },
+    {
+      "criterium": "delayed_deep_tendon_reflex"
+    },
+    {
+      "criterium": "bradycardia"
+    },
+    {
+      "criterium": "hoarseness_of_voice"
+    },
+    {
+      "criterium": "menstrual_irregularities"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

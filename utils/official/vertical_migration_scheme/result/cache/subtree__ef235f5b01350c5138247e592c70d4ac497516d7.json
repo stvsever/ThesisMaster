@@ -1,0 +1,21 @@
+{
+  "domain_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Physical_Monitoring_and_Assessment",
+  "domain_root_path": [
+    "BIO",
+    "Movement_Physical_Function_and_Somatic_Care",
+    "Physical_Monitoring_and_Assessment"
+  ],
+  "leaf_count": 12,
+  "total_edges_in_subtree": 14,
+  "evaluated_pairs": 14,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "ef235f5b01350c5138247e592c70d4ac497516d7",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 32.22
+}

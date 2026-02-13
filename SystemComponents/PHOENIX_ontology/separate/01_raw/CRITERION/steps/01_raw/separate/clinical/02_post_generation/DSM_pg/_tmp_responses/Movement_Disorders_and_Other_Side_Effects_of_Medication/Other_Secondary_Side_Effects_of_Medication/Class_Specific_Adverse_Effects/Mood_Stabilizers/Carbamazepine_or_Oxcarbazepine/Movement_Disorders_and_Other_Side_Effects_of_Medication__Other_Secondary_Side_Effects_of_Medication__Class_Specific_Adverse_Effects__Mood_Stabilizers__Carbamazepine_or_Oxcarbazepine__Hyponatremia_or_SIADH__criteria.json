@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "serum_sodium_below_135_mEq_per_L"
+    },
+    {
+      "criterium": "serum_osmolality_below_275_mOsm_per_kg"
+    },
+    {
+      "criterium": "urine_sodium_above_40_mEq_per_L"
+    },
+    {
+      "criterium": "urine_osmolality_above_serum_osmolality"
+    },
+    {
+      "criterium": "euvolemic_fluid_status"
+    },
+    {
+      "criterium": "serum_uric_acid_decreased"
+    },
+    {
+      "criterium": "thyroid_function_normal"
+    },
+    {
+      "criterium": "adrenal_function_normal"
+    },
+    {
+      "criterium": "headache_present"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "altered_mental_status_present"
+    },
+    {
+      "criterium": "seizure_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

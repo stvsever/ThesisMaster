@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_sports_betting"
+    },
+    {
+      "criterium": "escalating_betting_stakes_for_excitement"
+    },
+    {
+      "criterium": "restlessness_or_irritability_when_trying_to_cut_back"
+    },
+    {
+      "criterium": "repeated_failed_efforts_to_reduce_betting"
+    },
+    {
+      "criterium": "repeated_failed_efforts_to_cease_betting"
+    },
+    {
+      "criterium": "betting_to_escape_distress"
+    },
+    {
+      "criterium": "after_loss_betting_to_get_even"
+    },
+    {
+      "criterium": "lies_to_conceal_extent_of_betting"
+    },
+    {
+      "criterium": "relationship_impairment_due_to_betting"
+    },
+    {
+      "criterium": "work_or_school_impairment_due_to_betting"
+    },
+    {
+      "criterium": "financial_support_from_others_due_to_betting"
+    },
+    {
+      "criterium": "financial_impairment_due_to_betting"
+    },
+    {
+      "criterium": "cravings_to_bet"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

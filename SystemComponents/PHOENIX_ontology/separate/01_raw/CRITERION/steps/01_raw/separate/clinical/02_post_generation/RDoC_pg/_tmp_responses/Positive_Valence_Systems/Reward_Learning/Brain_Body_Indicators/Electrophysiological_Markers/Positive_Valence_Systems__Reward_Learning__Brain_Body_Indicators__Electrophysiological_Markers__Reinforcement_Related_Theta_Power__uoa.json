@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265",
+      "COMT_rs4680",
+      "DRD2_rs1800497",
+      "CACNA1C_rs1006737"
+    ],
+    "molecules": [
+      "dopamine",
+      "glutamate",
+      "GABA",
+      "BDNF_protein"
+    ],
+    "cells": [
+      "pyramidal_neurons_ACC_density",
+      "parvalbumin_interneurons_PFC_density",
+      "astrocytes_PFC_density",
+      "microglia_PFC_density"
+    ],
+    "circuits": [
+      "frontal_midline_theta_network",
+      "ACC_prefrontal_theta_connectivity",
+      "reward_learning_network_activation",
+      "ventral_striatum_theta_synchrony"
+    ],
+    "physiology": [
+      "frontal_midline_theta_power_4_7Hz",
+      "frontal_midline_theta_power_4_8Hz",
+      "theta_band_power_event_related",
+      "theta_phase_coherence_ACC_PFC",
+      "theta_peak_frequency_FRONTAL"
+    ],
+    "behavior": [
+      "reward_learning_task_accuracy",
+      "probabilistic_reward_discrimination_accuracy",
+      "reinforcement_learning_rate_estimate",
+      "reaction_time_in_reward_learning_tasks"
+    ],
+    "self_report": [
+      "BAS_reward_responsiveness",
+      "BAS_drive",
+      "BAS_fun_seeking",
+      "BIS_score"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

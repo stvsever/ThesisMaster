@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inability_to_achieve_sufficient_penile_rigidity"
+    },
+    {
+      "criterium": "inability_to_maintain_sufficient_penile_rigidity_for_intercourse"
+    },
+    {
+      "criterium": "absent_or_reduced_morning_erections"
+    },
+    {
+      "criterium": "reduced_nocturnal_penile_tumescence"
+    },
+    {
+      "criterium": "decreased_libido"
+    },
+    {
+      "criterium": "low_total_testosterone"
+    },
+    {
+      "criterium": "elevated_serum_prolactin"
+    },
+    {
+      "criterium": "penile_blood_flow_impairment_on_duplex_doppler"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

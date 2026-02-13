@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "scarring_alopecia_patch_present"
+    },
+    {
+      "criterium": "non_scarring_patchy_alopecia_present"
+    },
+    {
+      "criterium": "hairs_of_varied_lengths_in_patches"
+    },
+    {
+      "criterium": "short_broken_hair_shafts_present_in_patches"
+    },
+    {
+      "criterium": "broken_hair_fragments_present_in_patches"
+    },
+    {
+      "criterium": "exposed_scalp_area_in_patches"
+    },
+    {
+      "criterium": "irregular_patch_shape_on_scalp"
+    },
+    {
+      "criterium": "patch_locations_consistent_with_hair_pulling_sites"
+    },
+    {
+      "criterium": "perifollicular_hyperpigmentation_at_pulling_sites"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

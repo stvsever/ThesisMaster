@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "avoidant_occupational_interpersonal_contact_avoidance_due_to_fear_of_rejection"
+    },
+    {
+      "criterium": "unwilling_to_get_involved_with_people_without_assurance_of_being_liked"
+    },
+    {
+      "criterium": "restraint_within_relationships_due_to_fear_of_shaming_or_ridicule"
+    },
+    {
+      "criterium": "hypersensitivity_to_negative_evaluation_in_social_situations"
+    },
+    {
+      "criterium": "preoccupation_with_being_criticized_or_rejected_in_social_contexts"
+    },
+    {
+      "criterium": "inhibition_in_new_interpersonal_situations_due_to_feelings_of_inadequacy"
+    },
+    {
+      "criterium": "self_view_as_socially_inadequate"
+    },
+    {
+      "criterium": "self_view_as_personally_unappealing"
+    },
+    {
+      "criterium": "self_view_as_inferior_to_others"
+    },
+    {
+      "criterium": "reluctance_to_take_personal_risks_or_engage_in_new_activities_due_to_embarrassment_fear"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

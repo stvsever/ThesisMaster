@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "autonomic_hyperarousal"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    },
+    {
+      "criterium": "panic_attacks"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "perceptual_disturbances"
+    },
+    {
+      "criterium": "seizures"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

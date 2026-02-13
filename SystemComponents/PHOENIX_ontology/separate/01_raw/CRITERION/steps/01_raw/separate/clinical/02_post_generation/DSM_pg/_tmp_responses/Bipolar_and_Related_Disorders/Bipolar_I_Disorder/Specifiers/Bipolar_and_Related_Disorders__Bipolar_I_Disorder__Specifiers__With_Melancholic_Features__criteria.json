@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anhedonia_profound"
+    },
+    {
+      "criterium": "mood_reactivity_absent"
+    },
+    {
+      "criterium": "early_morning_worsening_of_mood"
+    },
+    {
+      "criterium": "psychomotor_agitation_or_retardation"
+    },
+    {
+      "criterium": "significant_weight_loss_or_diminished_appetite"
+    },
+    {
+      "criterium": "excessive_or_inappropriate_guilt"
+    },
+    {
+      "criterium": "profound_despondency_or_empty_mood"
+    },
+    {
+      "criterium": "reduced_energy_or_fatigue"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

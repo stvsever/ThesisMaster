@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "loses_temper_often"
+    },
+    {
+      "criterium": "frequently_irritable_or_touchy"
+    },
+    {
+      "criterium": "often_angry_and_resentful"
+    },
+    {
+      "criterium": "argues_with_authority_figures"
+    },
+    {
+      "criterium": "defies_rules_or_requests_often"
+    },
+    {
+      "criterium": "deliberately_annoys_others"
+    },
+    {
+      "criterium": "blames_others_for_mistakes"
+    },
+    {
+      "criterium": "vindictive_or_spiteful_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

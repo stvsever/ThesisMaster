@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sib_head_banging"
+    },
+    {
+      "criterium": "sib_head_hitting_self"
+    },
+    {
+      "criterium": "sib_face_biting"
+    },
+    {
+      "criterium": "sib_hand_biting"
+    },
+    {
+      "criterium": "sib_pinching"
+    },
+    {
+      "criterium": "sib_skin_picking_excoriations"
+    },
+    {
+      "criterium": "sib_scratching_with_skin_lesions"
+    },
+    {
+      "criterium": "sib_body_rubbing_to_injury"
+    },
+    {
+      "criterium": "sib_use_of_objects_for_self_injury"
+    },
+    {
+      "criterium": "sib_injury_site_bleeding_or_ecchymosis"
+    }
+  ],
+  "estimated_prevalence_percent": 0.03
+}

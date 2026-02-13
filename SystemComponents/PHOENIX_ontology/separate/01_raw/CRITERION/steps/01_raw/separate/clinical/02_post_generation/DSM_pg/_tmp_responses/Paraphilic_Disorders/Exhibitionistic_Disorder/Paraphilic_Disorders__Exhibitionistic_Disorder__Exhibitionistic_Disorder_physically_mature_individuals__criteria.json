@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "genital_exposure_to_nonconsenting_observers"
+    },
+    {
+      "criterium": "exposure_acts_in_public_settings"
+    },
+    {
+      "criterium": "self_reported_sexual_arousal_during_exposure"
+    },
+    {
+      "criterium": "physiological_sexual_arousal_during_exposure"
+    },
+    {
+      "criterium": "urge_or_impulse_to_expose_genitals"
+    },
+    {
+      "criterium": "planning_for_exposure_episodes"
+    },
+    {
+      "criterium": "inability_to_resist_exposure_impulses"
+    },
+    {
+      "criterium": "distress_or_impairment_following_exposure_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

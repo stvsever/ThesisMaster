@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_reexperiencing_episodes"
+    },
+    {
+      "criterium": "disaster_related_nightmares"
+    },
+    {
+      "criterium": "disaster_cue_hyperarousal_reactivity"
+    },
+    {
+      "criterium": "avoidance_of_disaster_reminders"
+    },
+    {
+      "criterium": "avoidance_of_discussion_or_thoughts_about_disaster"
+    },
+    {
+      "criterium": "persistent_negative_mood_or_beliefs_about_disaster"
+    },
+    {
+      "criterium": "sleep_disturbance_post_disaster"
+    },
+    {
+      "criterium": "exaggerated_startle_response"
+    },
+    {
+      "criterium": "hypervigilance"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

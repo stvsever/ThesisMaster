@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_nocturnal_sleep_time"
+    },
+    {
+      "criterium": "increased_sleep_quantity"
+    },
+    {
+      "criterium": "recurrent_daytime_napping"
+    },
+    {
+      "criterium": "unrefreshing_sleep_quality"
+    },
+    {
+      "criterium": "sleep_inertia_on_waking"
+    },
+    {
+      "criterium": "daytime_sleepiness_persistence"
+    },
+    {
+      "criterium": "cognitive_fatigue_during_daytime_tasks"
+    },
+    {
+      "criterium": "reduced_alertness_during_high_demand_activities"
+    },
+    {
+      "criterium": "functional_impairment_in_work_or_school_due_to_sleepiness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.03
+}

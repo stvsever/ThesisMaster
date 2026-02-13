@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "IBD_chronic_fatigue"
+    },
+    {
+      "criterium": "IBD_depressed_mood"
+    },
+    {
+      "criterium": "IBD_anxiety_symptoms"
+    },
+    {
+      "criterium": "IBD_sleep_disturbance"
+    },
+    {
+      "criterium": "IBD_cognitive_fog"
+    },
+    {
+      "criterium": "IBD_attention_deficit"
+    },
+    {
+      "criterium": "IBD_memory_impairment"
+    },
+    {
+      "criterium": "IBD_executive_function_impairment"
+    },
+    {
+      "criterium": "IBD_psychomotor_changes"
+    },
+    {
+      "criterium": "IBD_social_function_decline"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

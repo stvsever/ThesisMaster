@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "desire_to_be_blind"
+    },
+    {
+      "criterium": "desire_to_be_deaf"
+    },
+    {
+      "criterium": "intrusive_thoughts_of_visual_impairment"
+    },
+    {
+      "criterium": "intrusive_thoughts_of_hearing_impairment"
+    },
+    {
+      "criterium": "fantasies_of_becoming_blind"
+    },
+    {
+      "criterium": "fantasies_of_becoming_deaf"
+    },
+    {
+      "criterium": "avoidance_of_visual_improvement_options"
+    },
+    {
+      "criterium": "avoidance_of_hearing_improvement_options"
+    },
+    {
+      "criterium": "intent_to_act_to_induce_sensory_loss"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

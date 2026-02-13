@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_enuresis_events_per_night"
+    },
+    {
+      "criterium": "diurnal_wetting_present"
+    },
+    {
+      "criterium": "bed_wetting_on_bedding_or_sleeping_mat"
+    },
+    {
+      "criterium": "family_history_primary_enuresis_present"
+    },
+    {
+      "criterium": "nocturnal_enuresis_events_before_midnight_present"
+    },
+    {
+      "criterium": "nocturnal_enuresis_events_after_midnight_present"
+    },
+    {
+      "criterium": "morning_dryness_between_enuresis_events_present"
+    },
+    {
+      "criterium": "stress_or_anxiety_trigger_associated_with_enuresis_reported"
+    },
+    {
+      "criterium": "sleep_quality_impact_reported_due_to_enuresis"
+    },
+    {
+      "criterium": "emotional_distress_related_to_enuresis_reported"
+    },
+    {
+      "criterium": "enuresis_diary_log_used_present"
+    },
+    {
+      "criterium": "enuresis_events_consistent_across_nights_present"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

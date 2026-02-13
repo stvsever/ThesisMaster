@@ -1,0 +1,1066 @@
+{
+  "EMOTIONAL": {
+    "Positive Emotions": {
+        "Joy": {
+          "Happiness": {
+            "Inner Contentment": {},
+            "Ecstatic Joy": {},
+            "Serene Happiness": {}
+          },
+          "Laughter": {
+            "Spontaneous Laughter": {},
+            "Social Laughter": {},
+            "Therapeutic Laughter": {}
+          },
+          "Cheerfulness": {
+            "Everyday Cheerfulness": {},
+            "Resilient Cheerfulness": {},
+            "Optimistic Cheerfulness": {}
+          },
+          "Playfulness": {
+            "Spontaneous Play": {},
+            "Creative Play": {},
+            "Social Play": {}
+          },
+          "Amusement": {
+            "Humor Appreciation": {
+              "Appreciation of Wit": {},
+              "Appreciation of Slapstick": {},
+              "Appreciation of Satire": {}
+            },
+            "Enjoyment of Comedy": {
+              "Watching Comedy": {},
+              "Participating in Comedy": {},
+              "Creating Comedy": {}
+            },
+            "Lightheartedness": {
+              "Everyday Lightheartedness": {},
+              "Spontaneous Lightheartedness": {},
+              "Playful Lightheartedness": {}
+            },
+            "Social Playfulness": {
+              "Interactive Playfulness": {},
+              "Group Playfulness": {},
+              "Playful Communication": {}
+            }
+          }
+        },
+        "Gratitude": {
+          "Appreciation": {
+            "Appreciation for Others": {},
+            "Appreciation for Life": {},
+            "Appreciation for Nature": {}
+          },
+          "Thankfulness": {
+            "Thankfulness for Relationships": {},
+            "Thankfulness for Opportunities": {},
+            "Thankfulness for Simple Things": {}
+          },
+          "Recognition": {
+            "Recognition of Efforts": {},
+            "Recognition of Achievements": {},
+            "Recognition of Kindness": {}
+          },
+          "Expressiveness": {
+            "Verbal Expressions": {},
+            "Written Expressions": {},
+            "Non-Verbal Expressions": {}
+          }
+        },
+        "Contentment": {
+          "Life Satisfaction": {
+            "Overall Life Satisfaction": {},
+            "Satisfaction in Specific Domains": {},
+            "Long-Term Satisfaction": {}
+          },
+          "Peacefulness": {
+            "Inner Peace": {},
+            "Environmental Peace": {},
+            "Interpersonal Peace": {}
+          },
+          "Relaxation": {
+            "Mental Relaxation": {},
+            "Physical Relaxation": {},
+            "Emotional Relaxation": {}
+          },
+          "Fulfillment": {
+            "Goal Fulfillment": {},
+            "Personal Fulfillment": {},
+            "Professional Fulfillment": {}
+          }
+        },
+        "Love": {
+          "Affection": {
+            "Affection for Self": {},
+            "Affection for Others": {},
+            "Affection in Relationships": {}
+          },
+          "Compassion": {
+            "Self-Compassion": {},
+            "Compassion for Others": {},
+            "Compassionate Actions": {}
+          },
+          "Bonding": {
+            "Emotional Bonding": {},
+            "Social Bonding": {},
+            "Familial Bonding": {}
+          },
+          "Kindness": {
+            "Acts of Kindness": {},
+            "Kindness in Communication": {},
+            "Kindness in Actions": {}
+          }
+        },
+        "Optimism": {
+          "Positive Outlook": {
+            "Future Hope": {},
+            "Positive Expectations": {},
+            "Resilient Hope": {}
+          },
+          "Hopefulness": {
+            "Short-Term Hope": {},
+            "Long-Term Hope": {},
+            "Hope in Adversity": {}
+          },
+          "Confidence": {
+            "Self-Confidence": {},
+            "Confidence in Others": {},
+            "Confidence in Abilities": {}
+          },
+          "Expectancy": {
+            "Positive Outcome Expectancy": {},
+            "Realistic Expectancy": {},
+            "Optimistic Expectancy": {}
+          }
+        },
+        "Pride": {
+          "Achievement": {
+            "Personal Achievements": {},
+            "Professional Achievements": {},
+            "Academic Achievements": {}
+          },
+          "Recognition": {
+            "Self-Recognition": {},
+            "External Recognition": {},
+            "Peer Recognition": {}
+          },
+          "Self-Esteem": {
+            "Healthy Self-Esteem": {},
+            "High Self-Esteem": {},
+            "Stable Self-Esteem": {}
+          },
+          "Accomplishment": {
+            "Goal Accomplishment": {},
+            "Milestone Accomplishment": {},
+            "Continuous Accomplishment": {}
+          }
+        },
+        "Playfulness": {
+          "Humor": {
+            "Ease of Laughing": {
+              "Spontaneous Laughing": {},
+              "Laughing Without Inhibition": {},
+              "Natural Laughter Responses": {}
+            },
+            "Joy in Jokes": {
+              "Appreciating Jokes": {},
+              "Finding Joy in Humor": {},
+              "Enjoying Humor": {}
+            },
+            "Lightheartedness": {
+              "Maintaining a Light Attitude": {},
+              "Approaching Life Lightly": {},
+              "Lighthearted Emotional State": {}
+            },
+            "Laughter Sharing": {
+              "Sharing Laughter with Others": {},
+              "Group Laughter Experiences": {},
+              "Social Sharing of Laughter": {}
+            }
+          },
+          "Spontaneity": {
+            "Positive Impulse Action": {
+              "Acting on Positive Impulses": {},
+              "Responding Quickly to Opportunities": {},
+              "Embracing Impulsive Joy": {}
+            },
+            "Openness to New Experiences": {
+              "Welcoming New Experiences": {},
+              "Exploring Novel Situations": {},
+              "Embracing Change": {}
+            },
+            "Flexibility": {
+              "Adapting Playfulness": {},
+              "Adjusting to Playful Situations": {},
+              "Emotional Flexibility in Play": {}
+            },
+            "Creative Expression": {
+              "Expressing Creativity": {},
+              "Engaging in Creative Activities": {},
+              "Innovative Play": {}
+            }
+          },
+          "Enjoyment of Fun Activities": {
+            "Hobby Engagement": {
+              "Participating in Hobbies": {},
+              "Enjoying Personal Interests": {},
+              "Investing Time in Hobbies": {}
+            },
+            "Game Participation": {
+              "Playing Games": {},
+              "Engaging in Competitive Play": {},
+              "Participating in Recreational Games": {}
+            },
+            "Recreational Activities": {
+              "Engaging in Recreational Pastimes": {},
+              "Participating in Leisure Activities": {},
+              "Enjoying Recreational Pursuits": {}
+            },
+            "Social Fun": {
+              "Enjoying Social Gatherings": {},
+              "Participating in Social Events": {},
+              "Engaging in Group Fun Activities": {}
+            }
+          },
+          "Childlike Wonder": {
+            "Curiosity": {
+              "Exploring New Ideas": {},
+              "Seeking New Knowledge": {},
+              "Embracing Inquisitiveness": {}
+            },
+            "Awe and Amazement": {
+              "Experiencing Awe": {},
+              "Feeling Amazed": {},
+              "Emotional Awe": {}
+            },
+            "Exploration": {
+              "Exploring New Environments": {},
+              "Adventurous Exploration": {},
+              "Embracing Discovery": {}
+            },
+            "Delight in Simple Pleasures": {
+              "Enjoying Simple Things": {},
+              "Finding Joy in the Basics": {},
+              "Appreciating Everyday Pleasures": {}
+            }
+          },
+          "Creativity": {
+            "Innovative Thinking": {
+              "Generating New Ideas": {},
+              "Creative Problem Solving": {},
+              "Original Thought": {}
+            },
+            "Artistic Expression": {
+              "Engaging in Art": {},
+              "Expressing Through Art": {},
+              "Creative Arts Participation": {}
+            },
+            "Imaginative Play": {
+              "Engaging in Fantasy Play": {},
+              "Using Imagination in Play": {},
+              "Creative Storytelling": {}
+            },
+            "Problem-Solving Creativity": {
+              "Creative Solutions": {},
+              "Innovative Problem Solving": {},
+              "Emotionally-Informed Creativity": {}
+            }
+          },
+          "Leisure Engagement": {
+            "Work-Play Balance": {
+              "Balancing Work and Play": {},
+              "Integrating Leisure into Life": {},
+              "Maintaining Leisure Time": {}
+            },
+            "Relaxation Techniques": {
+              "Practicing Relaxation": {},
+              "Engaging in Relaxing Activities": {},
+              "Incorporating Relaxation into Routine": {}
+            },
+            "Mindful Leisure": {
+              "Mindful Enjoyment of Leisure": {},
+              "Conscious Leisure Activities": {},
+              "Mindful Engagement in Play": {}
+            },
+            "Active Recreation": {
+              "Participating in Active Recreation": {},
+              "Engaging in Physical Fun": {},
+              "Active Leisure Activities": {}
+            }
+          }
+        }
+      },
+      "Negative Emotions": {
+        "Anger": {
+          "Annoyance": {},
+          "Fury": {},
+          "Rage": {}
+        },
+        "Anxiety": {
+          "Worry": {},
+          "Panic": {},
+          "Terror": {}
+        },
+        "Sadness": {
+          "Grief": {},
+          "Guilt": {},
+          "Regret": {},
+          "Despair": {},
+          "Disappointment": {},
+          "Shame": {}
+        },
+        "Disgust": {
+          "Animal-Nature Disgust": {},
+          "Core Disgust": {},
+          "Interpersonal Disgust": {},
+          "Moral Disgust": {}
+        },
+        "Contempt": {},
+        "Boredom": {},
+        "Compulsion": {},
+        "Confusion": {},
+        "Dubious": {},
+        "Embarrassment": {},
+        "Enthusiasm": {},
+        "Expectant": {},
+        "Jealousy": {},
+        "Stress": {},
+        "Surprise": {},
+        "Trust": {},
+        "Gloomy Mood": {},
+        "Irritable Mood": {}
+      },
+      "Pleasure": {
+        "Aesthetic Pleasure": {},
+        "Mastery Pleasure": {},
+        "Schadenfreude": {},
+        "Sensory Pleasure": {},
+        "Sexual Pleasure": {},
+        "Social Pleasure": {},
+        "Physical Pleasure": {}
+      },
+      "Mood Process": {
+        "Anxious Mood": {},
+        "Cheerful Mood": {},
+        "Excited Mood": {},
+        "Gloomy Mood": {},
+        "Irritable Mood": {},
+        "Merry Mood": {}
+      },
+      "Subjective Affective Feeling": {
+        "Feeling Alertness": {},
+        "Feeling at Ease": {},
+        "Feeling Bad": {},
+        "Feeling Calm": {},
+        "Feeling Energetic": {},
+        "Feeling Good": {},
+        "Feeling in Control": {},
+        "Feeling Nervous": {},
+        "Feeling of Desire": {},
+        "Feeling of Need": {},
+        "Feeling of Wanting": {},
+        "Feeling of Hunger": {},
+        "Feeling of Pain": {},
+        "Feeling of Thirst": {},
+        "Feeling of Urge": {},
+        "Feeling Out of Control": {},
+        "Feeling Restless": {},
+        "Feeling Strong": {},
+        "Feeling Ticklish": {},
+        "Feeling Tired": {},
+        "Feeling Exhausted": {},
+        "Feeling Weakness": {}
+      },
+      "Affective Process": {
+        "Emotion Process": {
+          "Anger": {},
+          "Anxiety": {},
+          "Sadness": {},
+          "Disgust": {},
+          "Contempt": {},
+          "Boredom": {},
+          "Compassion": {},
+          "Concern": {},
+          "Confusion": {},
+          "Dubious": {},
+          "Embarrassment": {},
+          "Enthusiasm": {},
+          "Expectant": {},
+          "Fear": {},
+          "Panic": {},
+          "Terror": {},
+          "Grief": {},
+          "Guilt": {},
+          "Happiness": {},
+          "Amusement": {},
+          "Contentment": {},
+          "Elation": {},
+          "Enjoyment": {},
+          "Euphoria": {},
+          "Joy": {},
+          "Serenity": {},
+          "Hope": {},
+          "Inspiration (Emotion)": {},
+          "Interest": {},
+          "Irritation": {},
+          "Jealousy": {},
+          "Mistrust": {},
+          "Pride": {},
+          "Regret": {},
+          "Satisfaction": {},
+          "Shame": {},
+          "Stress (Emotion)": {},
+          "Surprise": {},
+          "Worry": {}
+        }
+      },
+      "Emotional Regulation": {
+        "Coping Strategies": {
+          "Problem-Focused Coping": {
+            "Problem Solving": {},
+            "Decision Making": {},
+            "Time Management": {}
+          },
+          "Emotion-Focused Coping": {
+            "Emotional Venting": {},
+            "Emotional Expression": {},
+            "Emotional Acceptance": {}
+          },
+          "Seeking Support": {
+            "Social Support Seeking": {},
+            "Professional Support Seeking": {},
+            "Community Support Seeking": {}
+          },
+          "Stress Management": {
+            "Relaxation Techniques": {},
+            "Time Management": {},
+            "Healthy Lifestyle Choices": {}
+          }
+        },
+        "Resilience": {
+          "Adversity Recovery": {
+            "Bouncing Back": {},
+            "Overcoming Setbacks": {},
+            "Emotional Recovery": {}
+          },
+          "Adaptability": {
+            "Flexibility in Thinking": {},
+            "Adaptation to Change": {},
+            "Emotional Adaptation": {}
+          },
+          "Persistence": {
+            "Grit": {},
+            "Determination": {},
+            "Sustained Effort": {}
+          }
+        },
+        "Emotional Stability": {
+          "Mood Management": {
+            "Regulating Mood Swings": {},
+            "Maintaining Stable Moods": {},
+            "Mood Awareness": {}
+          },
+          "Calmness": {
+            "Inner Calmness": {},
+            "Stress Reduction": {},
+            "Relaxed Demeanor": {}
+          },
+          "Anxiety Reduction": {
+            "Managing Worries": {},
+            "Reducing Tension": {},
+            "Calming Techniques": {}
+          },
+          "Anger Control": {
+            "Managing Anger": {},
+            "Expressing Anger Appropriately": {},
+            "Reducing Aggression": {}
+          }
+        },
+        "Mindfulness": {
+          "Present Awareness": {
+            "Being Present": {},
+            "Mindful Observation": {},
+            "Focused Attention": {}
+          },
+          "Non-Judgmental Observation": {
+            "Accepting Experiences": {},
+            "Mindful Acceptance": {}
+          },
+          "Breathing Awareness": {
+            "Conscious Breathing": {},
+            "Breathing Techniques": {},
+            "Breath Focus": {}
+          },
+          "Meditative Practices": {
+            "Guided Meditation": {},
+            "Silent Meditation": {},
+            "Movement Meditation": {}
+          }
+        },
+        "Emotional Flexibility": {
+          "Adaptability": {
+            "Flexibility in Emotions": {},
+            "Adjusting Emotional Responses": {},
+            "Responsive Emotional Shifts": {}
+          },
+          "Cognitive Reappraisal": {
+            "Reframing Thoughts": {},
+            "Positive Reinterpretation": {},
+            "Perspective Shifting": {}
+          },
+          "Acceptance": {
+            "Accepting Emotions": {},
+            "Emotional Acceptance": {},
+            "Non-Resistance to Emotions": {}
+          },
+          "Letting Go": {
+            "Releasing Negative Emotions": {},
+            "Moving Beyond Past Emotions": {},
+            "Emotional Detachment": {}
+          }
+        },
+        "Self-Regulation": {
+          "Time Management": {
+            "Scheduling": {},
+            "Prioritizing Tasks": {},
+            "Organizing Activities": {}
+          },
+          "Healthy Habits": {
+            "Exercise": {},
+            "Nutrition": {},
+            "Sleep": {}
+          },
+          "Routine Establishment": {
+            "Daily Routines": {},
+            "Consistent Habits": {},
+            "Structured Activities": {}
+          },
+          "Goal Setting": {
+            "Setting Objectives": {},
+            "Planning Goals": {},
+            "Tracking Progress": {}
+          }
+        }
+      },
+      "Emotional Awareness": {
+        "Self-Recognition": {
+          "Feeling Identification": {
+            "Recognizing Emotions": {},
+            "Labeling Feelings": {},
+            "Emotion Naming": {}
+          },
+          "Understanding Responses": {
+            "Emotional Response Analysis": {},
+            "Linking Emotions to Actions": {},
+            "Emotional Insight": {}
+          },
+          "Trigger Awareness": {
+            "Identifying Triggers": {},
+            "Understanding Trigger Sources": {},
+            "Managing Emotional Triggers": {}
+          },
+          "Emotion Monitoring": {
+            "Tracking Emotions": {},
+            "Emotion Logging": {},
+            "Emotional Self-Monitoring": {}
+          }
+        },
+        "Emotional Literacy": {
+          "Vocabulary Expansion": {
+            "Learning Emotion Terms": {},
+            "Using Emotion Words": {},
+            "Expressing Emotions Verbally": {}
+          },
+          "Accurate Expression": {
+            "Expressing Emotions Clearly": {},
+            "Matching Emotion with Expression": {},
+            "Effective Emotional Communication": {}
+          },
+          "Complex Emotion Understanding": {
+            "Understanding Mixed Emotions": {},
+            "Recognizing Nuanced Emotions": {},
+            "Differentiating Subtle Emotions": {}
+          },
+          "Emotion Differentiation": {
+            "Distinguishing Emotions": {},
+            "Separating Similar Emotions": {},
+            "Identifying Emotion Types": {}
+          }
+        },
+        "Empathy": {
+          "Understanding Others' Emotions": {
+            "Recognizing Others' Feelings": {},
+            "Interpreting Emotional Cues": {},
+            "Emotional Awareness of Others": {}
+          },
+          "Perspective-Taking": {
+            "Seeing from Others' Viewpoints": {},
+            "Understanding Others' Perspectives": {},
+            "Adopting Others' Emotional States": {}
+          },
+          "Compassionate Responses": {
+            "Responding with Compassion": {},
+            "Offering Emotional Support": {},
+            "Expressing Compassion": {}
+          },
+          "Active Listening": {
+            "Listening with Empathy": {},
+            "Engaged Listening": {},
+            "Reflective Listening": {}
+          }
+        },
+        "Emotional Expression": {
+          "Effective Communication": {
+            "Expressing Emotions Clearly": {},
+            "Communicating Feelings": {},
+            "Articulating Emotional States": {}
+          },
+          "Appropriate Display": {
+            "Contextual Emotional Display": {},
+            "Socially Appropriate Emotion Expression": {},
+            "Emotion Regulation in Displays": {}
+          },
+          "Assertive Expression": {
+            "Expressing Needs Assertively": {},
+            "Healthy Emotional Assertion": {},
+            "Balanced Emotion Expression": {}
+          },
+          "Non-Verbal Communication": {
+            "Body Language": {},
+            "Facial Expressions": {},
+            "Gestures": {}
+          }
+        },
+        "Self-Reflection": {
+          "Introspection": {
+            "Self-Examination": {},
+            "Internal Emotional Analysis": {},
+            "Reflective Thinking": {}
+          },
+          "Emotion Journaling": {
+            "Recording Emotions": {},
+            "Emotion Diary": {},
+            "Writing About Feelings": {}
+          },
+          "Pattern Analysis": {
+            "Identifying Emotional Patterns": {},
+            "Analyzing Emotional Trends": {},
+            "Understanding Emotional Cycles": {}
+          },
+          "Mindful Reflection": {
+            "Mindful Emotional Awareness": {},
+            "Reflecting with Mindfulness": {},
+            "Conscious Emotional Reflection": {}
+          }
+        },
+        "Emotional Validation": {
+          "Emotion Acknowledgment": {
+            "Recognizing Emotions": {},
+            "Accepting Emotions": {},
+            "Acknowledging Feelings": {}
+          },
+          "Acceptance of Feelings": {
+            "Embracing Emotions": {},
+            "Non-Rejecting Acceptance": {},
+            "Emotional Acceptance": {}
+          },
+          "Respecting Emotional States": {
+            "Valuing Emotional Experiences": {},
+            "Respecting Others' Emotions": {},
+            "Maintaining Emotional Respect": {}
+          },
+          "Encouraging Honesty": {
+            "Promoting Emotional Honesty": {},
+            "Supporting Truthful Emotion Expression": {},
+            "Fostering Genuine Emotional Sharing": {}
+          }
+        }
+      },
+      "Emotional Intelligence": {
+        "Perceiving Emotions": {
+          "Facial Expression Reading": {
+            "Interpreting Facial Cues": {},
+            "Identifying Facial Expressions": {},
+            "Reading Microexpressions": {}
+          },
+          "Tone Interpretation": {
+            "Understanding Vocal Tones": {},
+            "Interpreting Speech Inflections": {},
+            "Detecting Emotional Tones": {}
+          },
+          "Body Language Awareness": {
+            "Reading Body Signals": {},
+            "Interpreting Gestures": {},
+            "Understanding Posture and Movement": {}
+          },
+          "Emotional Cue Detection": {
+            "Noticing Emotional Indicators": {},
+            "Identifying Subtle Emotional Cues": {},
+            "Detecting Non-Verbal Emotional Signals": {}
+          }
+        },
+        "Using Emotions": {
+          "Thought Facilitation": {
+            "Using Emotions to Enhance Thinking": {},
+            "Emotion-Driven Insights": {},
+            "Emotional Influence on Cognition": {}
+          },
+          "Thinking Prioritization": {
+            "Prioritizing Based on Emotions": {},
+            "Emotion-Driven Decision Making": {},
+            "Emotional Prioritization of Thoughts": {}
+          },
+          "Creative Thinking": {
+            "Emotional Inspiration for Creativity": {},
+            "Using Emotions in Creative Processes": {},
+            "Emotion-Enhanced Innovation": {}
+          },
+          "Emotion-Integrated Problem Solving": {
+            "Using Emotions in Problem Solving": {},
+            "Emotionally-Informed Solutions": {},
+            "Emotionally-Aware Problem Solving": {}
+          }
+        },
+        "Understanding Emotions": {
+          "Emotional Meaning Grasping": {
+            "Understanding Emotional Significance": {},
+            "Comprehending Emotional Contexts": {},
+            "Decoding Emotional Meanings": {}
+          },
+          "Predicting Emotional Outcomes": {
+            "Forecasting Emotional Responses": {},
+            "Anticipating Emotional Consequences": {},
+            "Predicting Emotional Impacts": {}
+          },
+          "Emotional Transition Understanding": {
+            "Understanding Emotional Changes": {},
+            "Recognizing Emotional Shifts": {},
+            "Comprehending Emotional Transitions": {}
+          },
+          "Complex Emotion Comprehension": {
+            "Understanding Mixed Emotions": {},
+            "Comprehending Nuanced Emotions": {},
+            "Grasping Multifaceted Emotions": {}
+          }
+        },
+        "Managing Emotions": {
+          "Self-Regulation": {
+            "Controlling Emotional Responses": {},
+            "Regulating Personal Emotions": {},
+            "Managing Emotional Reactions": {}
+          },
+          "Regulating Others' Emotions": {
+            "Influencing Others' Emotions": {},
+            "Supporting Others' Emotional Management": {},
+            "Managing Group Emotions": {}
+          },
+          "Emotional Adaptability": {
+            "Adjusting Emotions to Situations": {},
+            "Adapting Emotional Responses": {},
+            "Flexible Emotional Management": {}
+          },
+          "Emotional Goal Setting": {
+            "Setting Emotional Objectives": {},
+            "Planning Emotional Development": {},
+            "Aligning Emotions with Goals": {}
+          }
+        },
+        "Social Skills": {
+          "Relationship Building": {
+            "Forming Emotional Bonds": {},
+            "Nurturing Relationships": {},
+            "Maintaining Emotional Connections": {}
+          },
+          "Effective Communication": {
+            "Expressing Emotions Clearly": {},
+            "Active Emotional Listening": {},
+            "Emotionally Intelligent Communication": {}
+          },
+          "Conflict Resolution": {
+            "Managing Emotional Conflicts": {},
+            "Resolving Emotional Disputes": {},
+            "Negotiating Emotions": {}
+          },
+          "Collaborative Problem Solving": {
+            "Emotionally Collaborative Solutions": {},
+            "Joint Emotional Problem Solving": {},
+            "Emotionally Cooperative Problem Solving": {}
+          }
+        },
+        "Motivation": {
+          "Intrinsic Motivation": {
+            "Internal Drive": {},
+            "Self-Motivated Goals": {},
+            "Passion-Driven Actions": {}
+          },
+          "Goal-Directed Behavior": {
+            "Emotionally Driven Goals": {},
+            "Motivated Actions": {},
+            "Emotionally Aligned Goals": {}
+          },
+          "Emotional Drive": {
+            "Emotion-Fueled Motivation": {},
+            "Emotionally Inspired Effort": {},
+            "Emotionally Sustained Drive": {}
+          },
+          "Sustained Effort": {
+            "Persistent Emotional Effort": {},
+            "Long-Term Emotional Commitment": {},
+            "Continuous Emotional Endeavor": {}
+          }
+        }
+      },
+      "Self-Compassion": {
+        "Self-Kindness": {
+          "Gentleness": {},
+          "Positive Self-Talk": {},
+          "Self-Forgiveness": {},
+          "Self-Encouragement": {}
+        },
+        "Mindful Self-Awareness": {
+          "Non-Judgmental Observation": {
+            "Observing Self Without Judgment": {},
+            "Mindfully Noticing Emotions": {},
+            "Neutral Self-Awareness": {}
+          },
+          "Present Moment Focus": {
+            "Living in the Present": {},
+            "Focusing on Current Emotions": {},
+            "Present-Minded Awareness": {}
+          },
+          "Emotion Acceptance": {
+            "Accepting Current Emotions": {},
+            "Embracing Emotional States": {},
+            "Non-Resistance to Emotions": {}
+          },
+          "Self-Reflection": {
+            "Reflecting on Emotions": {},
+            "Introspective Thinking": {},
+            "Analyzing Personal Emotions": {}
+          }
+        },
+        "Common Humanity": {
+          "Shared Experience Understanding": {
+            "Recognizing Common Emotions": {},
+            "Understanding Universal Emotional Experiences": {},
+            "Emotional Solidarity": {}
+          },
+          "Connection to Others": {
+            "Feeling Connected": {},
+            "Emotional Bonds with Others": {},
+            "Shared Emotional Experiences": {}
+          },
+          "Isolation Reduction": {
+            "Combatting Loneliness": {},
+            "Building Emotional Connections": {},
+            "Fostering Community": {}
+          },
+          "Universal Perspective": {
+            "Seeing Beyond Self": {},
+            "Embracing Shared Humanity": {},
+            "Understanding Universal Emotions": {}
+          }
+        },
+        "Self-Forgiveness": {
+          "Letting Go of Self-Blame": {
+            "Releasing Guilt": {},
+            "Overcoming Self-Blame": {},
+            "Forgiving Personal Shortcomings": {}
+          },
+          "Learning from Mistakes": {
+            "Gaining Insights from Errors": {},
+            "Embracing Growth from Failures": {},
+            "Developing from Past Mistakes": {}
+          },
+          "Moving Forward": {
+            "Progressing Beyond Past": {},
+            "Embracing Future Opportunities": {},
+            "Building Forward Momentum": {}
+          },
+          "Accepting Imperfections": {
+            "Embracing Flaws": {},
+            "Acknowledging Human Imperfection": {},
+            "Self-Acceptance of Imperfections": {}
+          }
+        },
+        "Self-Respect": {
+          "Boundary Setting": {
+            "Establishing Personal Boundaries": {},
+            "Maintaining Healthy Limits": {},
+            "Respecting Own Boundaries": {}
+          },
+          "Integrity Maintenance": {
+            "Upholding Personal Values": {},
+            "Maintaining Moral Principles": {},
+            "Consistent Ethical Behavior": {}
+          },
+          "Self-Worth Valuation": {
+            "Recognizing Own Value": {},
+            "Valuing Self": {},
+            "Affirming Self-Worth": {}
+          },
+          "Personal Needs Respect": {
+            "Prioritizing Personal Needs": {},
+            "Meeting Emotional Needs": {},
+            "Respecting Own Desires": {}
+          }
+        },
+        "Self-Acceptance": {
+          "Strengths and Weaknesses Embrace": {
+            "Acknowledging Strengths": {},
+            "Recognizing Weaknesses": {},
+            "Balancing Strengths and Weaknesses": {}
+          },
+          "Authenticity": {
+            "Being True to Self": {},
+            "Expressing Genuine Emotions": {},
+            "Living Authentically": {}
+          },
+          "Unconditional Self-Acceptance": {
+            "Accepting Self Without Conditions": {},
+            "Embracing Self Regardless of Flaws": {},
+            "Unconditional Self-Love": {}
+          },
+          "Positive Self-Identity": {
+            "Building Positive Self-Concept": {},
+            "Developing a Strong Self-Identity": {},
+            "Positive Self-Perception": {}
+          }
+        }
+      },
+      "Arousal": {
+        "Attending": {
+          "Focused Attention": {
+            "Narrow Focus": {},
+            "Intense Focus": {},
+            "Deep Focus": {}
+          },
+          "Selective Attention": {
+            "Filtering Distractions": {},
+            "Prioritizing Stimuli": {},
+            "Task Relevance": {}
+          },
+          "Divided Attention": {
+            "Multitasking": {},
+            "Parallel Processing": {},
+            "Task Switching": {}
+          },
+          "Sustained Attention": {
+            "Long-Term Focus": {},
+            "Continuous Engagement": {},
+            "Endurance in Attention": {}
+          }
+        },
+        "Alertness": {
+          "Heightened Awareness": {
+            "Sensory Sensitivity": {},
+            "Environmental Scanning": {},
+            "Immediate Detection": {}
+          },
+          "Quick Reflexes": {
+            "Rapid Response": {},
+            "Instant Reaction": {},
+            "Swift Movement": {}
+          },
+          "Mental Readiness": {
+            "Preparedness for Action": {},
+            "Cognitive Readiness": {},
+            "Strategic Planning": {}
+          },
+          "Situational Awareness": {
+            "Contextual Understanding": {},
+            "Environmental Awareness": {},
+            "Predictive Vigilance": {}
+          }
+        },
+        "Vigilance": {
+          "Continuous Monitoring": {
+            "Ongoing Observation": {},
+            "Surveillance": {},
+            "Real-Time Tracking": {}
+          },
+          "Persistent Attention": {
+            "Unwavering Focus": {},
+            "Steady Concentration": {},
+            "Enduring Alertness": {}
+          },
+          "Situational Awareness": {
+            "Contextual Perception": {},
+            "Environmental Cognition": {},
+            "Anticipatory Insight": {}
+          },
+          "Threat Detection": {
+            "Identifying Hazards": {},
+            "Risk Assessment": {},
+            "Preventative Alertness": {}
+          }
+        },
+        "Libido": {
+          "Sexual Desire": {
+            "Craving for Intimacy": {},
+            "Yearning for Connection": {},
+            "Passionate Longing": {}
+          },
+          "Erotic Motivation": {
+            "Drive for Sexual Activity": {},
+            "Desire for Pleasure": {},
+            "Intimate Pursuit": {}
+          },
+          "Passion": {
+            "Intense Emotion": {},
+            "Fervent Enthusiasm": {},
+            "Burning Desire": {}
+          },
+          "Sexual Attraction": {
+            "Physical Attraction": {},
+            "Emotional Attraction": {},
+            "Psychological Attraction": {}
+          }
+        },
+        "Orgasm": {
+          "Peak Experience": {
+            "Climactic Release": {},
+            "Intense Pleasure": {},
+            "Emotional Fulfillment": {}
+          },
+          "Physical Release": {
+            "Muscle Contractions": {},
+            "Physiological Response": {},
+            "Bodily Sensations": {}
+          },
+          "Emotional Release": {
+            "Emotional High": {},
+            "Sense of Accomplishment": {},
+            "Euphoric Feeling": {}
+          },
+          "Post-Orgasm Recovery": {
+            "Relaxation Phase": {},
+            "Refractory Period": {},
+            "Emotional Calmness": {}
+          }
+        },
+        "Wanting": {
+          "Desire": {
+            "Strong Urge": {},
+            "Intense Wish": {},
+            "Craving": {}
+          },
+          "Craving": {
+            "Yearning": {},
+            "Longing": {},
+            "Hankering": {}
+          },
+          "Impulsion": {
+            "Sudden Urge": {},
+            "Immediate Need": {},
+            "Spontaneous Drive": {}
+          },
+          "Goal-Directed Desire": {
+            "Aspirational Wanting": {},
+            "Purposeful Craving": {},
+            "Intentional Desire": {}
+          }
+        }
+      }
+    }
+}

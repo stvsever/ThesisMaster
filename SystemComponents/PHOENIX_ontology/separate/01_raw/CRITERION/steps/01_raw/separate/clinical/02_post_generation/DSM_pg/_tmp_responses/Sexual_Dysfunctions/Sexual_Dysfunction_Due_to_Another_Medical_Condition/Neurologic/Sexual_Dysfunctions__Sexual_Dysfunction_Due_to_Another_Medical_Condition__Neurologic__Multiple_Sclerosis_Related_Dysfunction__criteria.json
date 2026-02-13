@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hyposexual_desire_ms"
+    },
+    {
+      "criterium": "erectile_dysfunction_ms"
+    },
+    {
+      "criterium": "vaginal_lubrication_deficit_ms"
+    },
+    {
+      "criterium": "orgasmic_dysfunction_ms"
+    },
+    {
+      "criterium": "genital_sensory_loss_ms"
+    },
+    {
+      "criterium": "dyspareunia_ms"
+    },
+    {
+      "criterium": "urinary_incontinence_during_sex_ms"
+    },
+    {
+      "criterium": "fatigue_related_sexual_dysfunction_ms"
+    },
+    {
+      "criterium": "depression_associated_sexual_dysfunction_ms"
+    },
+    {
+      "criterium": "anxiety_associated_sexual_dysfunction_ms"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

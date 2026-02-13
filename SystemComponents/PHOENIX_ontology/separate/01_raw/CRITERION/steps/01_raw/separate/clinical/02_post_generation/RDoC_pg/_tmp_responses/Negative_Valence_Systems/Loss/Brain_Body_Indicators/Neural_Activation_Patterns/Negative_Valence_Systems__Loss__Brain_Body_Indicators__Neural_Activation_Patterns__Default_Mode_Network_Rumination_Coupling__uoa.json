@@ -1,0 +1,30 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "dmn_pcc_mpfc_fc",
+      "dmn_pcc_angular_gyrus_fc",
+      "dmn_sn_coupling_strength",
+      "dmn_cen_coupling_strength"
+    ],
+    "physiology": [
+      "heart_rate_variability_during_rumination",
+      "cortisol_plasma_during_rumination",
+      "respiratory_rate_during_rumination",
+      "skin_conductance_level_during_rumination",
+      "pupil_dilation_during_rumination"
+    ],
+    "behavior": [
+      "rumination_episode_count",
+      "rumination_episode_duration",
+      "intrusive_negative_thought_frequency"
+    ],
+    "self_report": [
+      "RRS_brooding_score",
+      "RRS_reflection_score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.4
+}

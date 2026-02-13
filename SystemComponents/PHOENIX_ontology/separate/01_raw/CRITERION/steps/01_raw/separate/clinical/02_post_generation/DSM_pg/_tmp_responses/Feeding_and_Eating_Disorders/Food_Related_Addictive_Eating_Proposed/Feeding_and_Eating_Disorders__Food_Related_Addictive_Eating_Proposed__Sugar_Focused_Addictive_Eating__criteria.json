@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sugar_craving_intensity"
+    },
+    {
+      "criterium": "sugar_binge_occurrence"
+    },
+    {
+      "criterium": "loss_of_sugar_consumption_control"
+    },
+    {
+      "criterium": "preoccupation_with_sugar_thoughts"
+    },
+    {
+      "criterium": "sugar_seeking_behavior"
+    },
+    {
+      "criterium": "sugar_purchase_behavior"
+    },
+    {
+      "criterium": "sugar_withdrawal_symptoms"
+    },
+    {
+      "criterium": "tolerance_to_sugar_effect"
+    },
+    {
+      "criterium": "functional_impairment_due_to_sugar_eating"
+    },
+    {
+      "criterium": "guilt_or_self_reproach_after_sugar_consumption"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

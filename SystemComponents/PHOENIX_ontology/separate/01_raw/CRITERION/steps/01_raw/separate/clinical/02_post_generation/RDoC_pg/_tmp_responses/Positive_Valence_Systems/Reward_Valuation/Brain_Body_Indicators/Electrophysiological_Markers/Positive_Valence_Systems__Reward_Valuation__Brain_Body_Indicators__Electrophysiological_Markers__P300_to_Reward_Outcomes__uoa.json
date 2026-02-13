@@ -1,0 +1,41 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_rs4680_genotype",
+      "BDNF_rs6265_genotype",
+      "DRD2_rs1800497_genotype",
+      "DRD4_VNTR_allele",
+      "SLC6A3_VNTR_allele"
+    ],
+    "molecules": [
+      "dopamine_during_task_level",
+      "norepinephrine_during_task_level",
+      "glutamate_during_task_level",
+      "GABA_during_task_level"
+    ],
+    "cells": null,
+    "circuits": [
+      "P300_source_parietal_cortex",
+      "P300_source_temporo_parietal_junction",
+      "ventral_striatum_reward_pathway_activation"
+    ],
+    "physiology": [
+      "P300_amplitude_Fz",
+      "P300_amplitude_Cz",
+      "P300_amplitude_Pz",
+      "P300_latency_Fz",
+      "P300_latency_Cz",
+      "P300_latency_Pz"
+    ],
+    "behavior": [
+      "reward_feedback_discrimination_accuracy",
+      "reaction_time_to_reward_outcome",
+      "choice_preference_after_reward"
+    ],
+    "self_report": [
+      "self_report_reward_sensitivity_scale_score",
+      "self_report_anhedonia_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 6.0
+}

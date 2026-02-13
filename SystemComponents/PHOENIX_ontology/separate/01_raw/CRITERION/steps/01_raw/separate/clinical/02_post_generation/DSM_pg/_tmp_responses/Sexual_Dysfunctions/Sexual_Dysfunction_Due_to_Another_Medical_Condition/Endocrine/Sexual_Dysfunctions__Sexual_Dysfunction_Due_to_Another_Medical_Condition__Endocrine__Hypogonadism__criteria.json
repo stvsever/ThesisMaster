@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "serum_total_testosterone_below_reference_morning"
+    },
+    {
+      "criterium": "serum_free_testosterone_below_reference"
+    },
+    {
+      "criterium": "serum_lh_elevated"
+    },
+    {
+      "criterium": "serum_fsh_elevated"
+    },
+    {
+      "criterium": "reduced_libido"
+    },
+    {
+      "criterium": "erectile_dysfunction_present"
+    },
+    {
+      "criterium": "decreased_muscle_mass_or_strength"
+    },
+    {
+      "criterium": "increased_body_fat_or_central_obesity"
+    },
+    {
+      "criterium": "oligozoospermia_or_azoospermia"
+    }
+  ],
+  "estimated_prevalence_percent": 6.5
+}

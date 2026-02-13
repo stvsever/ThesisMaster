@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "refusal_to_sit_on_toilet"
+    },
+    {
+      "criterium": "avoidance_of_toilet_use_during_training"
+    },
+    {
+      "criterium": "stool_withholding_behavior"
+    },
+    {
+      "criterium": "fear_or_anxiety_about_toileting"
+    },
+    {
+      "criterium": "noncompliance_with_potty_training_routine"
+    },
+    {
+      "criterium": "escape_or_running_away_when_prompted_to_toilet"
+    },
+    {
+      "criterium": "persistent_diaper_use_in_daytime"
+    },
+    {
+      "criterium": "verbal_or_nonverbal_protest_when_toilet_prompted"
+    },
+    {
+      "criterium": "refusal_to_urinate_on_toilet"
+    },
+    {
+      "criterium": "refusal_to_defecate_on_toilet"
+    },
+    {
+      "criterium": "clinginess_to_parent_during_toileting_prompts"
+    },
+    {
+      "criterium": "agitation_in_bathroom_setting"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

@@ -1,0 +1,42 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "ADRB1_R389G_genotype",
+      "ADRB2_R16G_genotype",
+      "NOS3_E298D_genotype",
+      "GNB3_rs5443_genotype",
+      "ACE_I_D_genotype"
+    ],
+    "molecules": [
+      "plasma_norepinephrine_concentration",
+      "plasma_epinephrine_concentration",
+      "plasma_cortisol_concentration",
+      "plasma_aldosterone_concentration"
+    ],
+    "cells": [
+      "TH_expression_sympathetic_neurons",
+      "CHAT_expression_parasympathetic_neurons",
+      "ACHE_activity_autonomic_synapses"
+    ],
+    "circuits": [
+      "autonomic_regulatory_network_resting_connectivity",
+      "insula_amygdala_connectivity_resting_state",
+      "prefrontal_control_network_resting_state"
+    ],
+    "physiology": [
+      "resting_heart_rate_bpm",
+      "heart_rate_variability_rmssd_ms",
+      "systolic_blood_pressure_mmHg",
+      "diastolic_blood_pressure_mmHg",
+      "respiratory_rate_bpm",
+      "skin_conductance_micro_siemens"
+    ],
+    "behavior": null,
+    "self_report": [
+      "self_report_palpitations_frequency",
+      "self_report_autonomic_arousal_sensitivity",
+      "self_report_stress_level"
+    ]
+  },
+  "estimated_prevalence_percent": 9.5
+}

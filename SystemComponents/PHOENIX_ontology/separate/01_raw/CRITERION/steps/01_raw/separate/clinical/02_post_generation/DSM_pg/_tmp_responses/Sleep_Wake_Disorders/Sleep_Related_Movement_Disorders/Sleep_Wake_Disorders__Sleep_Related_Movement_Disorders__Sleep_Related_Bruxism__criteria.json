@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rhythmic_masticatory_muscle_activity_during_sleep"
+    },
+    {
+      "criterium": "nocturnal_masticatory_sounds_observed_or_reported"
+    },
+    {
+      "criterium": "jaw_clenching_events_during_sleep"
+    },
+    {
+      "criterium": "tooth_grinding_events_during_sleep"
+    },
+    {
+      "criterium": "masseter_temporalis_muscle_contractions_during_sleep"
+    },
+    {
+      "criterium": "polysomnography_evidence_of_RMMAS"
+    },
+    {
+      "criterium": "bilateral_masticatory_muscle_activation_during_sleep"
+    },
+    {
+      "criterium": "tooth_wear_signs_consistent_with_bruxism_on_clinical_exam"
+    },
+    {
+      "criterium": "bed_partner_report_of_nocturnal_bruxism"
+    }
+  ],
+  "estimated_prevalence_percent": 12.4
+}

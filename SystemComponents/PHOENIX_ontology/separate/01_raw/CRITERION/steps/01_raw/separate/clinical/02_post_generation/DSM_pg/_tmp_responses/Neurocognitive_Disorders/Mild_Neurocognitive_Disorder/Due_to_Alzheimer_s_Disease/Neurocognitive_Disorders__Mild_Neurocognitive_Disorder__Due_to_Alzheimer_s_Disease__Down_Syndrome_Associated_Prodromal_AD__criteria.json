@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_decline"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "executive_function_decline"
+    },
+    {
+      "criterium": "visuospatial_processing_decline"
+    },
+    {
+      "criterium": "processing_speed_decline"
+    },
+    {
+      "criterium": "adaptive_function_decline_in_ADLs"
+    },
+    {
+      "criterium": "apathy_or_social_withdrawal"
+    },
+    {
+      "criterium": "mood_changes_depression_or_irritability"
+    },
+    {
+      "criterium": "olfactory_deficit"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "gait_and_motor_slowing"
+    },
+    {
+      "criterium": "disorientation_in_time_or_place"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

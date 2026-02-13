@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_trigeminal_pain_paroxysms"
+    },
+    {
+      "criterium": "electric_shock_like_pain_quality"
+    },
+    {
+      "criterium": "pain_distribution_V2_V3_territory"
+    },
+    {
+      "criterium": "trigger_pain_by_light_touch_to_face"
+    },
+    {
+      "criterium": "trigger_pain_by_chewing"
+    },
+    {
+      "criterium": "trigger_pain_by_temperature_change_to_face"
+    },
+    {
+      "criterium": "interictal_pain_absent_between_attacks"
+    },
+    {
+      "criterium": "lacrimation_during_attacks"
+    },
+    {
+      "criterium": "conjunctival_injection_during_attacks"
+    }
+  ],
+  "estimated_prevalence_percent": 0.012
+}

@@ -1,0 +1,62 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "PER3",
+      "BHLHE41",
+      "CLOCK",
+      "CRY1",
+      "CRY2",
+      "ARNTL",
+      "NPAS2"
+    ],
+    "molecules": [
+      "BDNF",
+      "GABA",
+      "ADENOSINE",
+      "MELATONIN",
+      "CORTISOL",
+      "IGF1",
+      "TNF_ALPHA"
+    ],
+    "cells": [
+      "GABAergic_inhibitory_neurons",
+      "Glutamatergic_pyramidal_neurons",
+      "Hypocretin_orexin_neurons",
+      "MCH_neurons",
+      "Thalamocortical_relay_neurons",
+      "Locus_coeruleus_norepinephrine_neurons"
+    ],
+    "circuits": [
+      "thalamocortical_slow_wave_generation_circuit",
+      "preoptic_area_sleep_promoting_circuit",
+      "locus_coeruleus_wake_promotion_circuit",
+      "orexin_hypothalamus_wake_circuit",
+      "VLPO_sleep_promoting_circuit",
+      "circadian_input_to_sleep_wake_circuit"
+    ],
+    "physiology": [
+      "EEG_delta_power_NREM_0_5_4Hz",
+      "SWS_duration_minutes",
+      "SWS_proportion_of_total_sleep",
+      "NREM3_latency_seconds",
+      "Heart_rate_during_SWS_bpm",
+      "Respiratory_rate_during_SWS_bpm"
+    ],
+    "behavior": [
+      "NREM3_epoch_count",
+      "NREM3_epoch_total_duration_seconds",
+      "SWS_proportion_of_total_sleep_time",
+      "Nighttime_awakenings_count",
+      "Sleep_efficiency_percent",
+      "Total_sleep_time_minutes"
+    ],
+    "self_report": [
+      "Epworth_Sleepiness_Scale",
+      "Pittsburgh_Sleep_Quality_Index",
+      "Insomnia_Severity_Index",
+      "Morningness_Eveningness_Questionnaire_score",
+      "Subjective_SWS_Sleep_Duration_hours"
+    ]
+  },
+  "estimated_prevalence_percent": 12.0
+}

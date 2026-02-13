@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pedophilic_theme_intrusive_thoughts"
+    },
+    {
+      "criterium": "pedophilic_theme_rumination"
+    },
+    {
+      "criterium": "urge_to_act_on_pedophilic_thoughts"
+    },
+    {
+      "criterium": "neutralization_compulsions_targeting_pedophilic_thoughts"
+    },
+    {
+      "criterium": "avoidance_of_pedophilic_content_triggering_contexts"
+    },
+    {
+      "criterium": "distress_due_to_pedophilic_obsessions"
+    },
+    {
+      "criterium": "guilt_in_response_to_pedophilic_thoughts"
+    },
+    {
+      "criterium": "shame_in_response_to_pedophilic_thought_content"
+    },
+    {
+      "criterium": "insight_into_unrealistic_nature_of_obsessions"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

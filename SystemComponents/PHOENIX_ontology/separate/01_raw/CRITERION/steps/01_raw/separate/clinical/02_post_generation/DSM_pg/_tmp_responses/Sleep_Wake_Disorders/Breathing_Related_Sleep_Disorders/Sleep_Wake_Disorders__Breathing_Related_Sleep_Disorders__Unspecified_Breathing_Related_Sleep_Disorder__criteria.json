@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "snoring_present"
+    },
+    {
+      "criterium": "witnessed_apneas_during_sleep"
+    },
+    {
+      "criterium": "nocturnal_gasping_or_choking_events"
+    },
+    {
+      "criterium": "arousal_index_per_hour"
+    },
+    {
+      "criterium": "oxygen_desaturation_events_per_hour"
+    },
+    {
+      "criterium": "nadir_SpO2_percent_during_sleep"
+    },
+    {
+      "criterium": "sleep_efficiency_percent"
+    },
+    {
+      "criterium": "sleep_latency_minutes"
+    },
+    {
+      "criterium": "nonrestorative_sleep_present"
+    },
+    {
+      "criterium": "daytime_sleepiness_present"
+    }
+  ],
+  "estimated_prevalence_percent": 2.8
+}

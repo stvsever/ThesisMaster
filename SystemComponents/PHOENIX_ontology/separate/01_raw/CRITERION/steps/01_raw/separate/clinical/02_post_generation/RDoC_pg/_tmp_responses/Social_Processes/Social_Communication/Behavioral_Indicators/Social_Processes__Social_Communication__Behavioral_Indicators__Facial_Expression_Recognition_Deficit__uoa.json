@@ -1,0 +1,46 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_rs53576_genotype",
+      "OXTR_expression_level_in_amygdala",
+      "CD38_expression_level",
+      "BDNF_expression_level_in_prefrontal_cortex"
+    ],
+    "molecules": [
+      "plasma_oxytocin",
+      "plasma_vasopressin",
+      "glutamate_concentration_in_prefrontal_cortex",
+      "BDNF_protein_level_in_cortex"
+    ],
+    "cells": [
+      "fusiform_gyrus_pyramidal_neuron_density",
+      "amygdala_pyramidal_neuron_density",
+      "prefrontal_cortex_inhibitory_interneuron_density"
+    ],
+    "circuits": [
+      "amygdala_fusiform_connectivity",
+      "amygdala_prefrontal_connectivity",
+      "occipital_face_area_amygdala_pathway_strength",
+      "pSTS_fusiform_connectivity"
+    ],
+    "physiology": [
+      "zygomaticus_major_emg_amplitude",
+      "corrugator_supercilii_emg_amplitude",
+      "skin_conductance_response_to_faces",
+      "pupil_dilation_to_faces"
+    ],
+    "behavior": [
+      "reaction_time_face_emotion_discrimination",
+      "accuracy_face_emotion_recognition",
+      "false_alarm_rate_in_facial_expression_task",
+      "eye_fixation_duration_on_faces",
+      "gaze_variability_in_face_viewing"
+    ],
+    "self_report": [
+      "self_report_facial_expression_recognition_ability",
+      "self_report_emotional_reading_deficit",
+      "self_report_social_perception_difficulty"
+    ]
+  },
+  "estimated_prevalence_percent": 4.3
+}

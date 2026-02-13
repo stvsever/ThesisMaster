@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "splenomegaly"
+    },
+    {
+      "criterium": "esophageal_varices"
+    },
+    {
+      "criterium": "portal_hypertensive_gastropathy"
+    },
+    {
+      "criterium": "ascites_present"
+    },
+    {
+      "criterium": "thrombocytopenia"
+    },
+    {
+      "criterium": "normal_bilirubin"
+    },
+    {
+      "criterium": "normal_albumin"
+    },
+    {
+      "criterium": "normal_inr"
+    },
+    {
+      "criterium": "imaging_no_cirrhosis"
+    },
+    {
+      "criterium": "obliterative_portal_venopathy"
+    },
+    {
+      "criterium": "nodular_regenerative_hyperplasia"
+    },
+    {
+      "criterium": "elevated_hvpg"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations_mild_present"
+    },
+    {
+      "criterium": "delusions_mild_present"
+    },
+    {
+      "criterium": "blunted_affect_present"
+    },
+    {
+      "criterium": "alogia_present"
+    },
+    {
+      "criterium": "avolition_present"
+    },
+    {
+      "criterium": "anhedonia_present"
+    },
+    {
+      "criterium": "asociality_present"
+    },
+    {
+      "criterium": "disorganized_thinking_mild_present"
+    },
+    {
+      "criterium": "disorganized_behavior_mild_present"
+    },
+    {
+      "criterium": "insight_preserved"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "chest_wall_neuropathic_pain_present"
+    },
+    {
+      "criterium": "allodynia_at_mastectomy_site"
+    },
+    {
+      "criterium": "hyperalgesia_at_mastectomy_site"
+    },
+    {
+      "criterium": "paresthesias_at_surgical_site"
+    },
+    {
+      "criterium": "burning_pain_at_mastectomy_site"
+    },
+    {
+      "criterium": "shooting_pain_radiating_to_upper_extremity"
+    },
+    {
+      "criterium": "phantom_mastectomy_sensations"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_pain"
+    },
+    {
+      "criterium": "depressive_symptoms_present"
+    },
+    {
+      "criterium": "anxiety_symptoms_present"
+    },
+    {
+      "criterium": "concentration_difficulty_due_to_pain"
+    },
+    {
+      "criterium": "memory_difficulty_due_to_pain"
+    },
+    {
+      "criterium": "fatigue_due_to_chronic_pain"
+    },
+    {
+      "criterium": "functional_impairment_in_daily_activities_due_to_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

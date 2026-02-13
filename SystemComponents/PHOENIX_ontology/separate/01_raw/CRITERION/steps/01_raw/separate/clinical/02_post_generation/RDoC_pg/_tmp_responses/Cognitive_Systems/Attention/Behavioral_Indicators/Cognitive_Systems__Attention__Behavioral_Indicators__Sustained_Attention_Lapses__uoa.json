@@ -1,0 +1,58 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD4_rs1800955",
+      "DRD2_rs1800497",
+      "SLC6A3_VNTR_9R",
+      "COMT_rs4680",
+      "BDNF_rs6265",
+      "MAOA_rs6323",
+      "CHRNA4_rs1044396"
+    ],
+    "molecules": [
+      "dopamine",
+      "norepinephrine",
+      "acetylcholine",
+      "glutamate",
+      "GABA",
+      "BDNF",
+      "cortisol"
+    ],
+    "cells": [
+      "PFC_pyramidal_neurons",
+      "PV_interneurons_prefrontal_cortex",
+      "LC_noradrenergic_neurons",
+      "striatal_spiny_neurons"
+    ],
+    "circuits": [
+      "dorsal_attention_network",
+      "frontal_parietal_network",
+      "default_mode_network",
+      "locus_coeruleus_noradrenergic_pathway"
+    ],
+    "physiology": [
+      "pupil_dilation_index",
+      "heart_rate_variability",
+      "skin_conductance_level",
+      "EEG_theta_power",
+      "EEG_alpha_power",
+      "EEG_beta_power",
+      "EEG_gamma_power"
+    ],
+    "behavior": [
+      "reaction_time_mean",
+      "reaction_time_variability",
+      "omission_errors",
+      "commission_errors",
+      "percent_correct"
+    ],
+    "self_report": [
+      "Karolinska_Sleepiness_Scale_score",
+      "Epworth_Sleepiness_Scale_score",
+      "Mind_Wandering_frequency_score",
+      "Attention_fatigue_scale_score",
+      "Sustained_Attention_Lapses_frequency_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 6.0
+}

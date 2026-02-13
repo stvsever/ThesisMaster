@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tolerance_hydromorphone_development"
+    },
+    {
+      "criterium": "withdrawal_symptoms_when_hydromorphone_withheld"
+    },
+    {
+      "criterium": "craving_hydromorphone"
+    },
+    {
+      "criterium": "increased_hydromorphone_intake_over_time"
+    },
+    {
+      "criterium": "persistent_desire_to_reduce_hydromorphone_use"
+    },
+    {
+      "criterium": "unsuccessful_quit_attempts_hydromorphone_use"
+    },
+    {
+      "criterium": "time_spent_acquiring_and_using_hydromorphone"
+    },
+    {
+      "criterium": "use_in_dangerous_settings_due_to_hydromorphone"
+    },
+    {
+      "criterium": "social_or_occupational_impairment_due_to_hydromorphone"
+    },
+    {
+      "criterium": "continued_hydromorphone_use_despite_adverse_health_effects"
+    },
+    {
+      "criterium": "hydromorphone_seeking_and_planning_behavior"
+    },
+    {
+      "criterium": "illicit_or_unsanctioned_hydromorphone_acquisition"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

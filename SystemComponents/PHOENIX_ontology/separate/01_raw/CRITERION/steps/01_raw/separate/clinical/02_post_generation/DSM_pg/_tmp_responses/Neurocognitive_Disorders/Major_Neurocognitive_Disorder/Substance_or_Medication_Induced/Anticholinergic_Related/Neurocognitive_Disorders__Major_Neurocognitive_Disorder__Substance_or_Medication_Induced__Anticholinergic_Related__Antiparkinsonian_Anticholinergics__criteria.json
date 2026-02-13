@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "language_impairment"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "delusional_thought_content"
+    },
+    {
+      "criterium": "orientation_disorientation"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

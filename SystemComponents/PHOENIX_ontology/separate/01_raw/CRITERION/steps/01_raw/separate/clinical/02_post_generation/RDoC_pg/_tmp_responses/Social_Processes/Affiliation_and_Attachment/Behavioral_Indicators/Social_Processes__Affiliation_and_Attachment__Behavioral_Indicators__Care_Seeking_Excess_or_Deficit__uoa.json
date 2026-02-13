@@ -1,0 +1,57 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_rs53576_GG",
+      "OXTR_rs53576_AG",
+      "OXTR_rs53576_AA",
+      "AVPR1A_SLR_short",
+      "AVPR1A_SLR_long",
+      "CD38_rs3796863_AA",
+      "CD38_rs3796863_AG",
+      "CD38_rs3796863_GG"
+    ],
+    "molecules": [
+      "oxytocin_plasma_concentration",
+      "vasopressin_plasma_concentration",
+      "cortisol_serum_level",
+      "BDNF_plasma_level",
+      "prolactin_plasma_level"
+    ],
+    "cells": [
+      "OXTR_expressing_pfc_neuron_density",
+      "OXTR_expressing_amygdala_neuron_density",
+      "CD38_positive_neuron_density_posterior_hypothalamus",
+      "AVPR1A_expressing_hippocampal_cells"
+    ],
+    "circuits": [
+      "NAcc_social_reward_activation",
+      "amygdala_social_salience_activation",
+      "prefrontal_control_of_social_emotion",
+      "ventral_striatum_social_connectivity",
+      "dmPFC_social_processing_activation"
+    ],
+    "physiology": [
+      "heart_rate_variability_SDNN",
+      "skin_conductance_response_social_stimulus",
+      "salivary_cortisol_post_social_exposure",
+      "respiratory_rate_social_stress",
+      "pupil_dilation_social_attention"
+    ],
+    "behavior": [
+      "social_initiation_rate_per_hour",
+      "proximity_to_attachment_figure_time_percentage",
+      "affiliative_gesture_frequency",
+      "request_for_contact_with_partner_per_day",
+      "occurrence_of_help_offering_per_social_interaction",
+      "duration_of_social_interaction_with_partner"
+    ],
+    "self_report": [
+      "care_seeking_deficit_score",
+      "care_seeking_excess_score",
+      "attachment_anxiety_score",
+      "affiliation_need_scale_score",
+      "social_needs_insistence_score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

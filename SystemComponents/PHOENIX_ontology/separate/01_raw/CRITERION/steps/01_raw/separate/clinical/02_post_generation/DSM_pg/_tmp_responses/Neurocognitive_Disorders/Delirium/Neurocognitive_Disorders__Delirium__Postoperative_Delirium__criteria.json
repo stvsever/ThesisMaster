@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "altered_level_of_consciousness"
+    },
+    {
+      "criterium": "disorientation_time"
+    },
+    {
+      "criterium": "disorientation_place"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "memory_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

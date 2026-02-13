@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_control_over_areca_use"
+    },
+    {
+      "criterium": "craving_for_areca_nut"
+    },
+    {
+      "criterium": "tolerance_to_areca_nut_effects"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_cessation_of_areca_use"
+    },
+    {
+      "criterium": "time_spent_obtaining_or_using_areca_nut"
+    },
+    {
+      "criterium": "daily_areca_nut_use_pattern"
+    },
+    {
+      "criterium": "continued_use_despite_health_harm_from_areca_nut"
+    },
+    {
+      "criterium": "use_in_dangerous_settings_due_to_areca_nut"
+    },
+    {
+      "criterium": "social_or_occupational_impairment_due_to_areca_nut_use"
+    },
+    {
+      "criterium": "neglect_of_important_activities_due_to_areca_nut_use"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

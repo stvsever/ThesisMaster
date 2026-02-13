@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "increased_sleep_onset_latency"
+    },
+    {
+      "criterium": "nocturnal_awakening_frequency_increased"
+    },
+    {
+      "criterium": "decreased_sleep_efficiency"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "nonrestorative_sleep_quality_decline"
+    },
+    {
+      "criterium": "increased_daytime_fatigue"
+    },
+    {
+      "criterium": "palpitations_present"
+    },
+    {
+      "criterium": "increased_subjective_anxiety"
+    },
+    {
+      "criterium": "impaired_daytime_concentration"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

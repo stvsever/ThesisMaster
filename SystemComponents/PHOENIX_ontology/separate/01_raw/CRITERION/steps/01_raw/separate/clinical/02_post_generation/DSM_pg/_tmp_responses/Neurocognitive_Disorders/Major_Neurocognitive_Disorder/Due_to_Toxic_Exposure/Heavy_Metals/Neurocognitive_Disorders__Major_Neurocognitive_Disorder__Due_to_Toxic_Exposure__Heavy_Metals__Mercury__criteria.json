@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_decline"
+    },
+    {
+      "criterium": "processing_speed_slowness"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "peripheral_neuropathy"
+    },
+    {
+      "criterium": "sensorineural_hearing_loss"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

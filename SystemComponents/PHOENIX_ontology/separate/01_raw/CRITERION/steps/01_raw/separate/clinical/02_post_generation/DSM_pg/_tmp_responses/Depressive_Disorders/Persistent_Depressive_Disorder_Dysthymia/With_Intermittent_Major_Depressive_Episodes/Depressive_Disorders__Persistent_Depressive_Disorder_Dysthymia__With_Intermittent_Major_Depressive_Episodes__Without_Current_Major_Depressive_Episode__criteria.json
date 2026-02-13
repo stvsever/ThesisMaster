@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "mood_depressed_most_of_day"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "fatigue_low_energy"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "appetite_disturbance"
+    },
+    {
+      "criterium": "concentration_difficulties"
+    },
+    {
+      "criterium": "low_self_esteem"
+    },
+    {
+      "criterium": "hopelessness"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "social_withdrawal"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

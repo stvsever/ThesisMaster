@@ -1,0 +1,40 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DBH_gene_expression",
+      "ADRA1A_gene_expression",
+      "ADRA2A_gene_expression",
+      "COMT_gene_expression",
+      "BDNF_gene_expression"
+    ],
+    "molecules": [
+      "norepinephrine_plasma_concentration",
+      "epinephrine_plasma_concentration",
+      "alpha1_adrenoceptor_mRNA_expression_in_pupil_iris",
+      "cortisol_plasma_concentration"
+    ],
+    "cells": [
+      "locus_coeruleus_noradrenergic_neuron_firing_rate",
+      "iris_dilator_pupillae_smooth_muscle_cell_activity",
+      "retinal_ganglion_cell_activity"
+    ],
+    "circuits": [
+      "amygdala_activation_to_threat",
+      "locus_coeruleus_activation_to_threat",
+      "amygdala_prefrontal_connectivity_threat"
+    ],
+    "physiology": [
+      "pupil_dilation_max_magnitude_degrees",
+      "pupil_dilation_latency_ms",
+      "pupil_dilation_velocity_deg_per_s",
+      "pupil_dilation_baseline_diameter_degrees"
+    ],
+    "behavior": [
+      "saccade_latency_to_threat_ms",
+      "gaze_duration_on_threat_ms",
+      "eye_fixation_duration_on_threat_ms"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 2.5
+}

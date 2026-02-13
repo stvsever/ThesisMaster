@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_deficit"
+    },
+    {
+      "criterium": "visuospatial_disorientation"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "urinary_incontinence"
+    },
+    {
+      "criterium": "headache_recurrent"
+    },
+    {
+      "criterium": "nausea_vomiting"
+    },
+    {
+      "criterium": "papilledema"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

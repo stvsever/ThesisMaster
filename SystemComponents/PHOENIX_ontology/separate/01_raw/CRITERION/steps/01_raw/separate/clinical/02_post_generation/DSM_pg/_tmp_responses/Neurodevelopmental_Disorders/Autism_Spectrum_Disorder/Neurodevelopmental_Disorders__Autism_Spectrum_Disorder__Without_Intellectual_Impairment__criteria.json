@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "deficits_in_social_emotional_reciprocity"
+    },
+    {
+      "criterium": "deficits_in_nonverbal_communication"
+    },
+    {
+      "criterium": "pragmatic_language_difficulties"
+    },
+    {
+      "criterium": "joint_attention_deficits"
+    },
+    {
+      "criterium": "repetitive_motor_behaviors"
+    },
+    {
+      "criterium": "stereotyped_language_patterns"
+    },
+    {
+      "criterium": "echolalia"
+    },
+    {
+      "criterium": "insistence_on_sameness"
+    },
+    {
+      "criterium": "restricted_interests_intense_focus"
+    },
+    {
+      "criterium": "sensory_processing_differences"
+    },
+    {
+      "criterium": "difficulties_in_peer_relationships"
+    },
+    {
+      "criterium": "reduced_eye_contact"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

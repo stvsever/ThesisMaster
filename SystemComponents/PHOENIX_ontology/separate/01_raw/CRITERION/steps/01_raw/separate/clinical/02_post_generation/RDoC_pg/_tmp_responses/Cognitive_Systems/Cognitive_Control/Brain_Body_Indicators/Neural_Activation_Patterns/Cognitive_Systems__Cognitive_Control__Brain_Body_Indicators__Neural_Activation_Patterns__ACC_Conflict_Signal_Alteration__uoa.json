@@ -1,0 +1,58 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_rs4680_genotype",
+      "BDNF_rs6265_genotype",
+      "DRD2_rs1800497_genotype",
+      "SLC6A4_5HTTLPR_genotype",
+      "CNTNAP2_rs7794745_genotype"
+    ],
+    "molecules": [
+      "glutamate_ACC_concentration",
+      "GABA_ACC_concentration",
+      "dopamine_ACC_concentration",
+      "norepinephrine_ACC_concentration",
+      "glutamate_NMDAR_subunit_NR2B_expression_ACC",
+      "GABA_A_receptor_subunit_GABRA1_expression_ACC"
+    ],
+    "cells": [
+      "pyramidal_neuron_firing_rate_ACC",
+      "interneuron_firing_rate_ACC",
+      "astrocyte_GFAP_expression_ACC",
+      "microglial_density_ACC",
+      "oligodendrocyte_marker_Olig2_expression_ACC"
+    ],
+    "circuits": [
+      "fc_ACC_to_dLPFC_strength",
+      "fc_ACC_to_preSMA_strength",
+      "ACC_BOLD_task_activation_peak",
+      "ERN_amplitude_microvolts",
+      "functional_connectivity_ACC_to_insula_strength",
+      "ACC_resting_state_connectivity_measure"
+    ],
+    "physiology": [
+      "skin_conductance_response_peak_conflict",
+      "heart_rate_variability_conflict_task",
+      "pupil_dilation_conflict_task_peak",
+      "salivary_cortisol_change_conflict_task",
+      "respiration_rate_change_conflict_task",
+      "skin_temperature_change_conflict_task"
+    ],
+    "behavior": [
+      "reaction_time_conflict_task_mean",
+      "accuracy_conflict_task_percent_correct",
+      "post_error_adjustment_latency_ms",
+      "post_error_rate_percent",
+      "stroop_interference_effect_size",
+      "conflict_task_error_rate"
+    ],
+    "self_report": [
+      "state_anxiety_score",
+      "trait_anxiety_score",
+      "perceived_task_difficulty",
+      "cognitive_control_effort_score",
+      "mental_effort_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 2.8
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_onset_latency_increased"
+    },
+    {
+      "criterium": "sleep_maintenance_difficulty"
+    },
+    {
+      "criterium": "frequent_nighttime_awakenings"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "nonrestorative_sleep"
+    },
+    {
+      "criterium": "reduced_sleep_efficiency"
+    },
+    {
+      "criterium": "subjective_sleep_quantity_insufficiency"
+    },
+    {
+      "criterium": "daytime_fatigue"
+    },
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "concentration_impairment"
+    },
+    {
+      "criterium": "irritability_or_mood_disturbance"
+    },
+    {
+      "criterium": "impaired_daytime_functioning"
+    }
+  ],
+  "estimated_prevalence_percent": 9.0
+}

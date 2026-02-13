@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "masseter_EMG_burst_density_during_sleep"
+    },
+    {
+      "criterium": "nocturnal_jaw_clenching_events"
+    },
+    {
+      "criterium": "audible_sleep_bruxism_episodes"
+    },
+    {
+      "criterium": "bedpartner_report_nocturnal_tooth_grinding"
+    },
+    {
+      "criterium": "morning_masseter_tenderness_on_waking"
+    },
+    {
+      "criterium": "morning_mandibular_pain_intensity"
+    },
+    {
+      "criterium": "sleep_arousal_events_coincident_with_bruxism_bursts"
+    },
+    {
+      "criterium": "sleep_fragmentation_index_associated_with_bruxism"
+    },
+    {
+      "criterium": "bruxism_event_frequency_per_hour_of_sleep"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

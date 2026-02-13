@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "attentional_deficit"
+    },
+    {
+      "criterium": "global_disorientation"
+    },
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "speech_disorganization"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "perceptual_illusions"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "pupillary_dilation"
+    },
+    {
+      "criterium": "fluctuating_course"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

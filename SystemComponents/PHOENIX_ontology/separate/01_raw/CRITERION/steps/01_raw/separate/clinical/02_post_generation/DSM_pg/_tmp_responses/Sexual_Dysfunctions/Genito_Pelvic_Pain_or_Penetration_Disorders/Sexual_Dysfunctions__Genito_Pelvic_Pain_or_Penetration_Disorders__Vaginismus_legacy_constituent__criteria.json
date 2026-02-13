@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "levator_ani_spasm_on_penetration_attempt"
+    },
+    {
+      "criterium": "pubococcygeus_muscle_contraction_to_penetration_stimulus"
+    },
+    {
+      "criterium": "vaginal_introitus_tightening_on_penetration_attempt"
+    },
+    {
+      "criterium": "inability_to_achieve_vaginal_penetration"
+    },
+    {
+      "criterium": "pain_during_penetration_attempt"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_penetration_stimulus"
+    },
+    {
+      "criterium": "fear_of_pain_with_penetration"
+    },
+    {
+      "criterium": "penetration_avoidance_behavior"
+    },
+    {
+      "criterium": "pelvic_floor_hypertonicity_induced_by_penetrative_stimulus"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

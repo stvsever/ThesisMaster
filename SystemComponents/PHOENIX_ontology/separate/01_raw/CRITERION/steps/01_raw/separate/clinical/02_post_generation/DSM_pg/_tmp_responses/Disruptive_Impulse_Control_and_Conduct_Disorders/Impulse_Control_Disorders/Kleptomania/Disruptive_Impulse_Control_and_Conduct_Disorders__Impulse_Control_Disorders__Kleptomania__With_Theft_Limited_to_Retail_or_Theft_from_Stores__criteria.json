@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_impulsive_urge_to_steal_goods_from_retail_stores"
+    },
+    {
+      "criterium": "anticipatory_tension_before_the_stealing_act"
+    },
+    {
+      "criterium": "inability_to_resist_the_impulse_to_steal"
+    },
+    {
+      "criterium": "gratification_or_relief_after_theft"
+    },
+    {
+      "criterium": "stolen_items_of_minimal_value_or_no_personal_use_value"
+    },
+    {
+      "criterium": "theft_from_retail_settings_is_primary_theft_context"
+    },
+    {
+      "criterium": "concealment_of_stolen_goods_or_evasion_of_detection"
+    },
+    {
+      "criterium": "remorse_or_guilt_after_the_stealing_event"
+    },
+    {
+      "criterium": "stealing_causes_distress_or_impairment_in_social_or_occupational_functioning"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

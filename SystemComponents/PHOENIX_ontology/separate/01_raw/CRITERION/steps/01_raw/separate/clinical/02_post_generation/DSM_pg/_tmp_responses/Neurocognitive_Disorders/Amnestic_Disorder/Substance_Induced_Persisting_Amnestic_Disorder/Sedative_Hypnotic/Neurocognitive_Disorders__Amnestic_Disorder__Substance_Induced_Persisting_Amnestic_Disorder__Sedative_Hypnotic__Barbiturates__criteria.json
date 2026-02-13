@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_impairment"
+    },
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "prospective_memory_deficit"
+    },
+    {
+      "criterium": "autobiographical_memory_deficit"
+    },
+    {
+      "criterium": "recognition_memory_deficit"
+    },
+    {
+      "criterium": "source_memory_deficit"
+    },
+    {
+      "criterium": "procedural_memory_preservation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

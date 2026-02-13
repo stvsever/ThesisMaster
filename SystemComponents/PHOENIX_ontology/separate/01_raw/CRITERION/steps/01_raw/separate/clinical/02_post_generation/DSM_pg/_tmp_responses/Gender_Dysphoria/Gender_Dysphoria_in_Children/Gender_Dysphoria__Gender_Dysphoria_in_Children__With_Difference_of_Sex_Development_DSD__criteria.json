@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ambiguous_genitalia_at_birth"
+    },
+    {
+      "criterium": "discordant_chromosomal_and_phenotypic_sex"
+    },
+    {
+      "criterium": "gonadal_dysgenesis_present"
+    },
+    {
+      "criterium": "ovarian_tissue_present"
+    },
+    {
+      "criterium": "testicular_tissue_present"
+    },
+    {
+      "criterium": "ovotesticular_tissue_present"
+    },
+    {
+      "criterium": "persistent_mullerian_duct_structures_present"
+    },
+    {
+      "criterium": "hypospadias_present"
+    },
+    {
+      "criterium": "mosaic_sex_chromosome_pattern_present"
+    },
+    {
+      "criterium": "karyotype_discrepancy_with_phenotype_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

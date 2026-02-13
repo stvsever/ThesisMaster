@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_moral_guilt"
+    },
+    {
+      "criterium": "pervasive_moral_shame"
+    },
+    {
+      "criterium": "self_blame_for_morally_transgressive_actions"
+    },
+    {
+      "criterium": "anger_or_resentment_in_response_to_moral_violations"
+    },
+    {
+      "criterium": "distressing_reexperiencing_of_moral_events"
+    },
+    {
+      "criterium": "nightmares_related_to_morally_violating_scenarios"
+    },
+    {
+      "criterium": "intrusive_moral_thoughts"
+    },
+    {
+      "criterium": "avoidance_of_reminders_of_moral_event"
+    },
+    {
+      "criterium": "moral_numbing_or_diminished_emotional_responsiveness"
+    },
+    {
+      "criterium": "existential_distress_related_to_moral_actions"
+    },
+    {
+      "criterium": "loss_of_trust_in_self_or_others_due_to_moral_beliefs"
+    },
+    {
+      "criterium": "loss_of_meaning_related_to_moral_injury"
+    }
+  ],
+  "estimated_prevalence_percent": 3.4
+}

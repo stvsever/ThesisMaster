@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fever"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "delirium"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "aphasia"
+    },
+    {
+      "criterium": "hemiparesis"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "myoclonus"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

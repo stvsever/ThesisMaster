@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattentiveness"
+    },
+    {
+      "criterium": "disorientation_time_place"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "language_disturbance"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "perceptual_disturbance"
+    },
+    {
+      "criterium": "delusional_thought_content"
+    },
+    {
+      "criterium": "fluctuating_alertness"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "ataxia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

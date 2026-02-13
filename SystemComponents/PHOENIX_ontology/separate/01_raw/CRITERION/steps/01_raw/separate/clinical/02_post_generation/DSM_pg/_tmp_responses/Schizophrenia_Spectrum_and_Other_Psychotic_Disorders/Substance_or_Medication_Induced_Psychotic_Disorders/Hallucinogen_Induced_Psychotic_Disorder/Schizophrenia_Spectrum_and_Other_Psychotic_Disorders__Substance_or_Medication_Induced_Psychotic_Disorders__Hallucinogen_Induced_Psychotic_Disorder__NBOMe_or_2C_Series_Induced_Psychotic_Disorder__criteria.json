@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "OLFACTORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "GUSTATORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "DELUSIONAL_PARANOID_THEMES"
+    },
+    {
+      "criterium": "DELUSIONAL_REFERENTIAL_THEMES"
+    },
+    {
+      "criterium": "DISORGANIZED_THOUGHT_CONTENT"
+    },
+    {
+      "criterium": "DISORGANIZED_SPEECH"
+    },
+    {
+      "criterium": "DISORGANIZED_BEHAVIOR"
+    },
+    {
+      "criterium": "AGITATION"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

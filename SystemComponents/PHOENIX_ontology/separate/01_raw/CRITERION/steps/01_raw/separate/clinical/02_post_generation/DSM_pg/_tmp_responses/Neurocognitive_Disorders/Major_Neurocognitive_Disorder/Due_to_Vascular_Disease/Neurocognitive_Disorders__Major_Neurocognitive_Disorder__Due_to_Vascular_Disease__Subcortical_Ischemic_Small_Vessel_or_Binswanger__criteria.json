@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_decline"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "urinary_incontinence"
+    },
+    {
+      "criterium": "pseudobulbar_affect"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

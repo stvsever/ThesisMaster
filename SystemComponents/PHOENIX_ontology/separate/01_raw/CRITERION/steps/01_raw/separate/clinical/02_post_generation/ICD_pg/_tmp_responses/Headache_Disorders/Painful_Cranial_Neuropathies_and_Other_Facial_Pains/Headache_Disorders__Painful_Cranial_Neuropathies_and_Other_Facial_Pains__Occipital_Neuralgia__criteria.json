@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "paroxysmal_shooting_pain_in_occipital_region"
+    },
+    {
+      "criterium": "unilateral_occipital_region_pain"
+    },
+    {
+      "criterium": "electric_shock_like_pain_quality"
+    },
+    {
+      "criterium": "tenderness_to_palpation_over_occipital_nerve_course"
+    },
+    {
+      "criterium": "pain_reproduced_by_occipital_nerve_compression"
+    },
+    {
+      "criterium": "allodynia_or_hyperalgesia_in_occipital_region"
+    },
+    {
+      "criterium": "neck_movement_exacerbates_pain"
+    },
+    {
+      "criterium": "radiation_to_vertex_area"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

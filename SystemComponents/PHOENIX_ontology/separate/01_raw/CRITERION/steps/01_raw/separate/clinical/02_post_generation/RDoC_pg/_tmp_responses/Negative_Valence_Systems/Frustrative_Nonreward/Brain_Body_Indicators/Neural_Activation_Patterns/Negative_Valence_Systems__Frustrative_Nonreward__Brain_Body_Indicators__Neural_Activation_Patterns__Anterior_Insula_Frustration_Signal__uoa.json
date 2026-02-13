@@ -1,0 +1,46 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_Val66Met",
+      "COMT_V158M",
+      "CACNA1C_rs1006737"
+    ],
+    "molecules": [
+      "glutamate",
+      "GABA",
+      "dopamine",
+      "norepinephrine",
+      "cortisol"
+    ],
+    "cells": [
+      "pyramidal_neurons_anterior_insula",
+      "parvalbumin_interneurons_anterior_insula",
+      "astrocytes_anterior_insula"
+    ],
+    "circuits": [
+      "salience_network_anterior_insula_node",
+      "insula_dacc_connectivity",
+      "insula_amygdala_connectivity",
+      "insula_vmPFC_connectivity"
+    ],
+    "physiology": [
+      "heart_rate",
+      "skin_conductance_amplitude",
+      "pupil_dilation",
+      "respiration_rate",
+      "heart_rate_variability"
+    ],
+    "behavior": [
+      "reaction_time_frustration_task",
+      "error_rate_frustration_task",
+      "task_completion_time",
+      "task_persistence_time"
+    ],
+    "self_report": [
+      "state_frustration_rating",
+      "state_anger_rating",
+      "frustration_intensity_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "trigger_point_count"
+    },
+    {
+      "criterium": "taut_band_presence"
+    },
+    {
+      "criterium": "trigger_point_pain_reproduction_on_palpation"
+    },
+    {
+      "criterium": "referred_pain_area_extent"
+    },
+    {
+      "criterium": "pain_exacerbation_on_stretch_of_painful_muscle"
+    },
+    {
+      "criterium": "pain_exacerbation_on_resisted_contraction_of_painful_muscle"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_pain"
+    },
+    {
+      "criterium": "fatigue_related_to_chronic_pain"
+    },
+    {
+      "criterium": "activity_limitations_due_to_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

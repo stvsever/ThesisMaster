@@ -1,0 +1,58 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "NR3C1",
+      "FKBP5",
+      "CRH",
+      "CRHR1",
+      "CRHR2",
+      "POMC",
+      "MC2R",
+      "AVP"
+    ],
+    "molecules": [
+      "cortisol",
+      "ACTH",
+      "CRH",
+      "beta_endorphin",
+      "DHEA",
+      "aldosterone"
+    ],
+    "cells": [
+      "hypothalamic_crh_neurons",
+      "pituitary_corticotrophs",
+      "adrenal_fasciculata_cells",
+      "monocytes",
+      "lymphocytes"
+    ],
+    "circuits": [
+      "pvn_crh_neuron_activity",
+      "amygdala_hpa_pathway_activity",
+      "hippocampus_hpa_modulation",
+      "prefrontal_cortex_regulation_of_hpa"
+    ],
+    "physiology": [
+      "basal_cortisol",
+      "cortisol_diurnal_rhythm_amplitude",
+      "cortisol_morning_peak",
+      "ACTH_level",
+      "dexamethasone_suppression_response",
+      "cortisol_response_to_stressor"
+    ],
+    "behavior": [
+      "sleep_disturbance",
+      "fatigue",
+      "irritability",
+      "hypervigilance_behavior",
+      "appetite_change"
+    ],
+    "self_report": [
+      "perceived_stress_level",
+      "sleep_quality_score",
+      "fatigue_severity",
+      "mood_disturbance_score",
+      "anxiety_level"
+    ]
+  },
+  "estimated_prevalence_percent": 12.5
+}

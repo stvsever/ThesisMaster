@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "mood_elevation_during_substance_use"
+    },
+    {
+      "criterium": "grandiosity_during_substance_use"
+    },
+    {
+      "criterium": "decreased_need_for_sleep_during_substance_use"
+    },
+    {
+      "criterium": "pressured_speech_during_substance_use"
+    },
+    {
+      "criterium": "flight_of_ideas_during_substance_use"
+    },
+    {
+      "criterium": "increased_goal_directed_activity_during_substance_use"
+    },
+    {
+      "criterium": "distractibility_during_substance_use"
+    },
+    {
+      "criterium": "psychomotor_agitation_during_substance_use"
+    },
+    {
+      "criterium": "impulsive_risky_behaviors_during_substance_use"
+    },
+    {
+      "criterium": "delusions_during_substance_use"
+    },
+    {
+      "criterium": "hallucinations_during_substance_use"
+    },
+    {
+      "criterium": "mood_lability_during_substance_use"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

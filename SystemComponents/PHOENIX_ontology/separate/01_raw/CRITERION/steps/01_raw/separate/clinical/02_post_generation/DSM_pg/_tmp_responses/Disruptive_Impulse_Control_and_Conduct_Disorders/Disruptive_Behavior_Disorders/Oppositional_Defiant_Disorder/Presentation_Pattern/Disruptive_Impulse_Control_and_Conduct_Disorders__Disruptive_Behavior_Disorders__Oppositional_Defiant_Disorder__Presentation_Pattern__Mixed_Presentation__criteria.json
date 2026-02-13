@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "angry_irritable_mood"
+    },
+    {
+      "criterium": "temper_tantrums"
+    },
+    {
+      "criterium": "defiant_to_authority"
+    },
+    {
+      "criterium": "deliberate_noncompliance"
+    },
+    {
+      "criterium": "provocative_behavior"
+    },
+    {
+      "criterium": "vindictive_behavior"
+    },
+    {
+      "criterium": "blames_others"
+    },
+    {
+      "criterium": "verbal_aggression"
+    },
+    {
+      "criterium": "physical_aggression_toward_people_or_animals"
+    }
+  ],
+  "estimated_prevalence_percent": 3.3
+}

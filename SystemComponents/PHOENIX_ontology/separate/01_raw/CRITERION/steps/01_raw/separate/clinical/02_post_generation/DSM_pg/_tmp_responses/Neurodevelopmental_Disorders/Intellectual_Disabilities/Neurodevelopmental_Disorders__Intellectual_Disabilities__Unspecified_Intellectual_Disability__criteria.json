@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "low_global_iq_score"
+    },
+    {
+      "criterium": "adaptive_conceptual_deficit"
+    },
+    {
+      "criterium": "adaptive_social_deficit"
+    },
+    {
+      "criterium": "adaptive_practical_deficit"
+    },
+    {
+      "criterium": "receptive_language_impairment"
+    },
+    {
+      "criterium": "expressive_language_impairment"
+    },
+    {
+      "criterium": "pragmatic_language_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

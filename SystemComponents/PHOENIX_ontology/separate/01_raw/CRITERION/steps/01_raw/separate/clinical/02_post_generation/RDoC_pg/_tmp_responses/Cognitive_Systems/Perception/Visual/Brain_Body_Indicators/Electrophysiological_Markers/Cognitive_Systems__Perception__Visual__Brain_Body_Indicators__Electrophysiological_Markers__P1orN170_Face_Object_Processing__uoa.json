@@ -1,0 +1,28 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "Fusiform_Gyrus",
+      "Fusiform_Face_Area",
+      "Occipitotemporal_Cortex",
+      "Superior_Temporal_Sulcus"
+    ],
+    "physiology": [
+      "P1_amplitude_uV",
+      "P1_latency_ms",
+      "N170_amplitude_uV",
+      "N170_latency_ms"
+    ],
+    "behavior": [
+      "Face_identification_accuracy_percent",
+      "Face_detection_reaction_time_ms"
+    ],
+    "self_report": [
+      "PI20_total_score",
+      "PIQ_total_score"
+    ]
+  },
+  "estimated_prevalence_percent": 2.0
+}

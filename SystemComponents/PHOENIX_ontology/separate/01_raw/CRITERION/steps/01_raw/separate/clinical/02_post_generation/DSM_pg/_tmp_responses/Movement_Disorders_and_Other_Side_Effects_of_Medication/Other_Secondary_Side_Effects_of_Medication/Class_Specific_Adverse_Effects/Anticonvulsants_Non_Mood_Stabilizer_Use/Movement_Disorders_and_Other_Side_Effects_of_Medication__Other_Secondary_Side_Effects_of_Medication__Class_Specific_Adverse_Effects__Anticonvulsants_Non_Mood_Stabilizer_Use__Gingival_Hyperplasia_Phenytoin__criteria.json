@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gingival_overgrowth_present"
+    },
+    {
+      "criterium": "interdental_papilla_enlargement"
+    },
+    {
+      "criterium": "facial_buccal_gingival_hyperplasia"
+    },
+    {
+      "criterium": "gingival_tissue_color_pale_pink"
+    },
+    {
+      "criterium": "gingival_tissue_color_erythematous"
+    },
+    {
+      "criterium": "bleeding_on_probing"
+    },
+    {
+      "criterium": "fibrous_consistency_overgrowth"
+    },
+    {
+      "criterium": "pseudopocket_formation"
+    },
+    {
+      "criterium": "impaired_oral_hygiene_due_to_overgrowth"
+    },
+    {
+      "criterium": "masticatory_function_impairment_due_to_gingival_overgrowth"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

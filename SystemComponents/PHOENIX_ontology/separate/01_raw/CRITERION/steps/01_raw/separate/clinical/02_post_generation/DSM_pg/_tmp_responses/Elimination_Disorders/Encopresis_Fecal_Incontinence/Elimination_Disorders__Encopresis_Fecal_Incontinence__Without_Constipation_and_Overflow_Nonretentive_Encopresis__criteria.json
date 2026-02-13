@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fecal_incontinence_episodes"
+    },
+    {
+      "criterium": "stool_soiling_underwear"
+    },
+    {
+      "criterium": "absence_of_constipation_history"
+    },
+    {
+      "criterium": "normal_defecation_frequency"
+    },
+    {
+      "criterium": "no_stool_withholding_behaviors"
+    },
+    {
+      "criterium": "normal_anorectal_exam"
+    },
+    {
+      "criterium": "no_rectal_fecal_mass"
+    },
+    {
+      "criterium": "no_abdominal_distension"
+    },
+    {
+      "criterium": "normal_bowel_sounds_on_exam"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

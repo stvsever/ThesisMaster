@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusions_grandeur"
+    },
+    {
+      "criterium": "delusions_persecutory"
+    },
+    {
+      "criterium": "delusions_referential"
+    },
+    {
+      "criterium": "delusions_guilt_or_punishment"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "loosening_of_associations"
+    },
+    {
+      "criterium": "tangential_thinking"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

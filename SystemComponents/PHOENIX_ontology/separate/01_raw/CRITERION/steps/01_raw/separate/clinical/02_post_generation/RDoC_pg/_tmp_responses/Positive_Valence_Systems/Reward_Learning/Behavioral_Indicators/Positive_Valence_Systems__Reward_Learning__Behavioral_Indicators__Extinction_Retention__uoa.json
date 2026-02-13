@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_V66M",
+      "COMT_rs4680_V158M",
+      "CREB1_gene_variant"
+    ],
+    "molecules": [
+      "BDNF_protein_level",
+      "CREB_phosphorylation_level",
+      "NMDA_NR2B_phosphorylation_level",
+      "AMPA_GluA1_phosphorylation_level",
+      "NPY_neuropeptide_level"
+    ],
+    "cells": [
+      "BLA_pyramidal_neuron_density",
+      "PFC_pyramidal_neuron_density",
+      "PV_interneuron_density_prefrontal_cortex",
+      "hippocampus_CA1_neuron_density",
+      "cFos_positive_neurons_prefrontal_cortex"
+    ],
+    "circuits": [
+      "mPFC_BLA_functional_connectivity",
+      "HPC_mPFC_theta_coherence",
+      "amygdala_prefrontal_synchrony_extinction",
+      "ventral_striatum_reward_learning_connectivity"
+    ],
+    "physiology": [
+      "heart_rate_retention_test",
+      "skin_conductance_response_retention_amplitude",
+      "pupil_dilation_retention_peak",
+      "salivary_cortisol_retention",
+      "respiration_rate_retention"
+    ],
+    "behavior": [
+      "extinction_retention_response_rate",
+      "extinction_retention_latency_ms",
+      "conditioned_response_strength_retention",
+      "reward_pursuit_rate_retention"
+    ],
+    "self_report": [
+      "subjective_reward_expectancy_retention",
+      "extinction_memory_confidence_rating",
+      "reward_value_valuation_retention",
+      "cue_salience_rating_retention"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

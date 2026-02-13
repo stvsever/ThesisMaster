@@ -1,0 +1,21 @@
+predictor_path,sleep-wake disorders / insomnia disorders / chronic insomnia disorder / early-morning awakening insomnia / *intrusive_rumination_post_awakening,sleep-wake disorders / medication or substance-induced sleep-wake disorders / medication or substance-induced insomnia / ssri or snri-associated insomnia / *vivid_dreams,sleep-wake disorders / medication or substance-induced sleep-wake disorders / medication or substance-induced parasomnias / medication-associated nightmare disorder / *autonomic_arousal_during_nightmares,sleep-wake disorders / parasomnias / rapid eye movement (rem)–related parasomnias / nightmare disorder / *anxiety_or_anticipatory_fear_before_sleep_due_to_nightmares,sleep-wake disorders / parasomnias / rapid eye movement (rem)–related parasomnias / nightmare disorder / *awakening_due_to_nightmare
+'[PSYCHO] > Third_Wave_and_Contextual_Therapies > Mindfulness_Based_Interventions',,,,880.0,
+'[BIO] > Sleep_and_Circadian > Circadian_Entrainment',900.0,900.0,750.0,900.0,880.0
+'[PSYCHO] > Cognitive_Behavioral_Therapies > Behavior_Change_and_Activation',,,,830.0,
+'[BIO] > Sleep_and_Circadian > Sleep_Environment',880.0,880.0,650.0,860.0,850.0
+'[PSYCHO] > Skills_Libraries > Emotion_Regulation_and_Affect_Skills',,,,820.0,
+'[BIO] > Sleep_and_Circadian > Sleep_Routines_and_Practices',820.0,820.0,700.0,780.0,900.0
+'[BIO] > Sleep_and_Circadian > Sleep_Pharmacotherapy_Classes',800.0,800.0,860.0,800.0,720.0
+'[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Restructuring',,,,770.0,
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes',780.0,780.0,800.0,820.0,650.0
+'[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules',,,,760.0,
+'[BIO] > Sleep_and_Circadian > Sleep_Devices_and_Technologies',860.0,860.0,600.0,,700.0
+'[BIO] > Movement_and_Bodywork > Aerobic_Movement_Modalities',750.0,750.0,,,
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Pain_and_Somatic_Pharmacotherapy_Classes',740.0,740.0,,,
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Substance_Use_Treatment_Pharmacotherapy_Classes',720.0,720.0,,,
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Psychiatric_Pharmacotherapy_Classes',760.0,760.0,,,500.0
+'[BIO] > Sleep_and_Circadian > Sleep_Supplements',,,500.0,,680.0
+'[BIO] > Somatic_and_Interventional > Brain_Stimulation_Therapies',,,500.0,,
+'[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Family',,,400.0,,
+'[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring',,,420.0,,360.0
+'[PSYCHO] > Digital_and_Tech_Enabled_Solutions > Care_Delivery_Formats',,,,,320.0

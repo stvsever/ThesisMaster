@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bradyphrenia"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "set_shifting_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "visuospatial_construction_deficit"
+    },
+    {
+      "criterium": "visuospatial_orientation_deficit"
+    },
+    {
+      "criterium": "anomia"
+    },
+    {
+      "criterium": "ideomotor_apraxia_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.004
+}

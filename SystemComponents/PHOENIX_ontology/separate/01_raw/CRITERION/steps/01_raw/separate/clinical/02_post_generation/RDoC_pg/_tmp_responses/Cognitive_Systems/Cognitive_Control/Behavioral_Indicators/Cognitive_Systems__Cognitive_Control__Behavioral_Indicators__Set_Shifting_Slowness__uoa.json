@@ -1,0 +1,51 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_V158M",
+      "BDNF_V66M",
+      "DRD2_Taq1A_A1",
+      "DRD4_VNTR_7R",
+      "SLC6A4_5HTTLPR_S",
+      "SLC6A4_5HTTLPR_L"
+    ],
+    "molecules": [
+      "Dopamine_D1_receptor_density",
+      "Dopamine_D2_receptor_density",
+      "BDNF_protein_level",
+      "NMDA_GluN2A_subunit_level",
+      "AMPA_GluA1_subunit_level",
+      "GABA_GAD67_level"
+    ],
+    "cells": [
+      "Prefrontal_cortex_pyramidal_neuron_density",
+      "Prefrontal_cortex_PV_interneuron_density",
+      "DLPFC_dendritic_spine_density",
+      "Striatal_spiny_neuron_density"
+    ],
+    "circuits": [
+      "Frontostriatal_connectivity_strength",
+      "FrontoParietal_connectivity_strength",
+      "DLPFC_BasalGanglia_network_integration",
+      "Interhemispheric_prefrontal_connectivity"
+    ],
+    "physiology": [
+      "PFC_theta_power",
+      "PFC_beta_power",
+      "PFC_gamma_power",
+      "Heart_rate_variability"
+    ],
+    "behavior": [
+      "switch_cost_reaction_time_ms",
+      "switch_trial_accuracy",
+      "perseverative_errors_WCST",
+      "set_shift_latency_ms",
+      "repeat_trial_latency_ms"
+    ],
+    "self_report": [
+      "Cognitive_Flexibility_Scale_total",
+      "Set_Shifting_Self_Efficacy_Score",
+      "Executive_Functions_Self_Assessment_Score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.2
+}

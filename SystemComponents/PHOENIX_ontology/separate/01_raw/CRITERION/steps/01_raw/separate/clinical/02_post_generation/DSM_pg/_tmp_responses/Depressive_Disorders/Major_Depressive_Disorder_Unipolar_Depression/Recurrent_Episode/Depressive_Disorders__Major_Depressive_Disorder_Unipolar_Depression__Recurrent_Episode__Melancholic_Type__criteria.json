@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anhedonia_nonreactive_to_pleasure"
+    },
+    {
+      "criterium": "morning_mood_worsening"
+    },
+    {
+      "criterium": "significant_weight_loss"
+    },
+    {
+      "criterium": "decreased_appetite"
+    },
+    {
+      "criterium": "early_morning_waking"
+    },
+    {
+      "criterium": "excessive_guilt"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "fatigue_lack_of_energy"
+    }
+  ],
+  "estimated_prevalence_percent": 1.3
+}

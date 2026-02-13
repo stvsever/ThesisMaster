@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "phantom_limb_pain_presence"
+    },
+    {
+      "criterium": "phantom_limb_pain_intensity_current"
+    },
+    {
+      "criterium": "phantom_limb_pain_quality_burning"
+    },
+    {
+      "criterium": "phantom_limb_pain_quality_shooting"
+    },
+    {
+      "criterium": "phantom_limb_pain_quality_electric_shock"
+    },
+    {
+      "criterium": "phantom_limb_pain_allodynia_present"
+    },
+    {
+      "criterium": "phantom_limb_pain_hyperalgesia_present"
+    },
+    {
+      "criterium": "phantom_limb_pain_evoked_by_stump_contact"
+    },
+    {
+      "criterium": "phantom_limb_pain_spontaneous_occurrence"
+    },
+    {
+      "criterium": "phantom_limb_pain_frequency_per_day"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

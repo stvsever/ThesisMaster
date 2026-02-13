@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "perceived_blurred_vision"
+    },
+    {
+      "criterium": "decreased_visual_acuity"
+    },
+    {
+      "criterium": "accommodative_dysfunction"
+    },
+    {
+      "criterium": "diplopia"
+    },
+    {
+      "criterium": "pupillary_dilation"
+    },
+    {
+      "criterium": "photophobia"
+    },
+    {
+      "criterium": "ocular_dryness"
+    },
+    {
+      "criterium": "color_vision_disturbance"
+    },
+    {
+      "criterium": "contrast_sensitivity_reduction"
+    }
+  ],
+  "estimated_prevalence_percent": 8.4
+}

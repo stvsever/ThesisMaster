@@ -1,0 +1,52 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_V158M_genotype",
+      "BDNF_Val66Met_genotype",
+      "DRD2_Taq1A_allele",
+      "SLC6A3_VNTR_3prime_allele",
+      "MAOA_uVNTR_genotype"
+    ],
+    "molecules": [
+      "Dopamine_concentration_pFC",
+      "GABA_concentration_pFC",
+      "Glutamate_concentration_pFC",
+      "Norepinephrine_concentration_pFC",
+      "Dopamine_D2_receptor_binding_affinity_pFC",
+      "Dopamine_to_Norepinephrine_ratio_pFC"
+    ],
+    "cells": [
+      "PV_interneuron_density_prefrontal_cortex",
+      "Pyramidal_neuron_density_prefrontal_cortex",
+      "GABA_release_probability_pfc_synapses",
+      "Inhibitory_synapse_density_prefrontal"
+    ],
+    "circuits": [
+      "RIFG_inhibitory_control_network_strength",
+      "DLPFC_VLPFC_connectivity_with_striatum_strength",
+      "Prefrontal_striatocortical_connectivity_strength",
+      "Stop_signal_task_activation_RIFG",
+      "SMA_inhibition_network_activation"
+    ],
+    "physiology": [
+      "Prefrontal_cortex_cortical_excitability_TMS_MEP_amplitude",
+      "HRV_SDNN",
+      "SCR_amplitude_inhibition_task",
+      "Pupillary_dilation_inhibition_task"
+    ],
+    "behavior": [
+      "SSRT",
+      "Stop_signal_commission_error_rate",
+      "Go_no_go_commission_error_rate",
+      "Antisaccade_error_rate",
+      "Go_reaction_time_inhibition_variability"
+    ],
+    "self_report": [
+      "BRIEF_Inhibit_Subscale_Score",
+      "BIS11_Total_Score",
+      "UPPS_NegativeUrgency_Score",
+      "UPPS_Lack_of_Premeditation_Score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.0
+}

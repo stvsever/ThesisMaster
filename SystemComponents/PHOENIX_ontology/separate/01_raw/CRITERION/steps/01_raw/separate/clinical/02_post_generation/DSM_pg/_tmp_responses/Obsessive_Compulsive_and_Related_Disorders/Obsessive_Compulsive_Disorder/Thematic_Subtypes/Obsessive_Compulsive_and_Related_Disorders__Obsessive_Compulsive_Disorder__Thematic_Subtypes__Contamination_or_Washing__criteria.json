@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "obsessive_contamination_thoughts"
+    },
+    {
+      "criterium": "compulsive_washing_behaviors"
+    },
+    {
+      "criterium": "excessive_hand_washing_frequency"
+    },
+    {
+      "criterium": "excessive_disinfection_of_objects"
+    },
+    {
+      "criterium": "reassurance_seeking_contamination"
+    },
+    {
+      "criterium": "avoidance_of_contaminated_contacts"
+    },
+    {
+      "criterium": "ritualized_cleaning_of_personal_items"
+    },
+    {
+      "criterium": "hypervigilance_to_contamination_cues"
+    },
+    {
+      "criterium": "distress_response_to_contamination_threat"
+    },
+    {
+      "criterium": "safety_behaviors_to_reduce_contamination_anxiety"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

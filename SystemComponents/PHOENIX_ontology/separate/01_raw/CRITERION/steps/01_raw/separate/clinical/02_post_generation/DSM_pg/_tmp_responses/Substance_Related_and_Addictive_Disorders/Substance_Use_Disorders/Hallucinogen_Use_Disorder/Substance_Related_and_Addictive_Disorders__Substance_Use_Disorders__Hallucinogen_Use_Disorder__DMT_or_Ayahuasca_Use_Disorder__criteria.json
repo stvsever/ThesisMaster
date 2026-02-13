@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "compulsive_dmt_ayahuasca_use"
+    },
+    {
+      "criterium": "tolerance_development_to_dmt_ayahuasca"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_dmt_ayahuasca_cessation"
+    },
+    {
+      "criterium": "recurrent_unsuccessful_cut_down_attempts_for_dmt_ayahuasca"
+    },
+    {
+      "criterium": "excessive_time_spent_on_dmt_ayahuasca_related_activities"
+    },
+    {
+      "criterium": "craving_intensity_for_dmt_ayahuasca"
+    },
+    {
+      "criterium": "use_in_hazardous_settings_of_dmt_ayahuasca"
+    },
+    {
+      "criterium": "social_or_occupational_impairment_due_to_dmt_ayahuasca_use"
+    },
+    {
+      "criterium": "continued_dmt_ayahuasca_use_despite_psychiatric_symptoms"
+    },
+    {
+      "criterium": "escalation_of_dmt_ayahuasca_dose_over_time"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_offline_gaming"
+    },
+    {
+      "criterium": "salience_of_offline_gaming_in_daily_routine"
+    },
+    {
+      "criterium": "tolerance_offline_gaming_time_increase"
+    },
+    {
+      "criterium": "withdrawal_symptoms_when_offline_gaming_unavailable"
+    },
+    {
+      "criterium": "loss_of_control_over_offline_gaming_duration"
+    },
+    {
+      "criterium": "unsuccessful_attempts_to_reduce_offline_gaming"
+    },
+    {
+      "criterium": "neglect_of_personal_or_professional_activities_due_to_offline_gaming"
+    },
+    {
+      "criterium": "deception_about_offline_gaming_extent_or_time"
+    },
+    {
+      "criterium": "escapism_through_offline_gaming"
+    },
+    {
+      "criterium": "craving_or_strong_desire_to_play_offline_games"
+    },
+    {
+      "criterium": "irritability_or_mood_lability_when_offline_gaming_is_restricted"
+    },
+    {
+      "criterium": "continued_offline_gaming_in_spite_of_psychosocial_problems"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

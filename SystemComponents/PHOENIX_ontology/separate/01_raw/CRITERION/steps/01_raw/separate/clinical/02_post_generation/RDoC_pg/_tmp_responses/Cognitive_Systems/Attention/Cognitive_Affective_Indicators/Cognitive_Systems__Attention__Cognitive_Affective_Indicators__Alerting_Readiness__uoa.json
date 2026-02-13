@@ -1,0 +1,58 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265",
+      "COMT_rs4680",
+      "DRD2_rs1800497",
+      "ADRA2A_rs1800544",
+      "CHRNA4_rs1044396",
+      "CLOCK_rs1801260",
+      "PER3_rs228697"
+    ],
+    "molecules": [
+      "norepinephrine",
+      "dopamine",
+      "acetylcholine",
+      "orexin_A",
+      "cortisol",
+      "BDNF"
+    ],
+    "cells": [
+      "locus_coeruleus_neurons",
+      "basal_forebrain_cholinergic_neurons",
+      "prefrontal_cortex_pyramidal_cells",
+      "parietal_cortex_pyramidal_cells",
+      "basal_ganglia_medium_spiny_neurons"
+    ],
+    "circuits": [
+      "locus_coeruleus_to_prefrontal_cortex_pathway",
+      "basal_forebrain_cholinergic_projection_to_cortex",
+      "dorsal_attention_network",
+      "frontal_parietal_network",
+      "cingulo_opercular_network"
+    ],
+    "physiology": [
+      "pupil_diameter_mm",
+      "heart_rate_bpm",
+      "heart_rate_variability_rmssd",
+      "skin_conductance_microSiemens",
+      "EEG_theta_power",
+      "EEG_beta_power"
+    ],
+    "behavior": [
+      "mean_reaction_time_ms",
+      "reaction_time_variability_ms",
+      "hit_rate_percent",
+      "false_alarm_rate_percent",
+      "d_prime"
+    ],
+    "self_report": [
+      "alertness_self_report",
+      "vigilance_scale_score",
+      "sleepiness_scale_score",
+      "fatigue_level",
+      "arousal_level_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

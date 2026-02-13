@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "approach_unfamiliar_adults_with_minimal_or_no_hesitation"
+    },
+    {
+      "criterium": "verbal_over_familiarity_with_unfamiliar_adults"
+    },
+    {
+      "criterium": "physical_over_familiarity_with_unfamiliar_adults"
+    },
+    {
+      "criterium": "failure_to_seek_caregiver_comfort_in_distress_in_stranger_context"
+    },
+    {
+      "criterium": "lack_of_check_back_with_caregiver_during_unfamiliar_interactions"
+    },
+    {
+      "criterium": "willingness_to_go_with_unfamiliar_adults_without_guardian_present"
+    },
+    {
+      "criterium": "diminished_fear_of_strangers"
+    },
+    {
+      "criterium": "disinhibited_social_engagement_across_settings"
+    },
+    {
+      "criterium": "inappropriate_boundary_perception_in_social_interactions_with_unfamiliar_adults"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

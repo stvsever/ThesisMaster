@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "ADRA2A_gene_expression",
+      "ADRB1_gene_expression",
+      "ADRB2_gene_expression",
+      "SLC6A2_gene_expression",
+      "MAOA_gene_expression",
+      "COMT_gene_expression"
+    ],
+    "molecules": [
+      "plasma_norepinephrine_concentration",
+      "plasma_epinephrine_concentration",
+      "salivary_alpha_amylase_activity",
+      "plasma_cortisol_concentration",
+      "urinary_norepinephrine_excretion"
+    ],
+    "cells": [
+      "locus_coeruleus_neuron_firing_rate",
+      "adrenal_chromaffin_cell_activity",
+      "sympathetic_postganglionic_neuron_firing_rate"
+    ],
+    "circuits": [
+      "amygdala_fMRI_activation",
+      "hypothalamus_fMRI_activation",
+      "prefrontal_cortex_fMRI_activation",
+      "locus_coeruleus_fMRI_signal",
+      "anterior_cingulate_cortex_activation"
+    ],
+    "physiology": [
+      "heart_rate_increase",
+      "blood_pressure_systolic_increase",
+      "skin_conductance_response",
+      "pupil_dilation",
+      "respiratory_rate_increase"
+    ],
+    "behavior": [
+      "response_time_to_nonreward",
+      "miss_rate_in_nonreward_trials",
+      "reaction_time_variability_in_nonreward_trials"
+    ],
+    "self_report": [
+      "frustration_intensity_rating",
+      "subjective_stress_level",
+      "anxiety_level_during_task",
+      "negative_affect_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

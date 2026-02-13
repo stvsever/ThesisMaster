@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "FBDS"
+    },
+    {
+      "criterium": "focal_seizures"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "hyponatremia"
+    },
+    {
+      "criterium": "neuromyotonia"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "psychiatric_symptoms"
+    },
+    {
+      "criterium": "autonomic_dysfunction"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

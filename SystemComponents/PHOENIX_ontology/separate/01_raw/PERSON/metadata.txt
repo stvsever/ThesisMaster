@@ -1,0 +1,26 @@
+generated_utc: 2026-01-15T08:31:20Z
+leaf_count: 1683
+node_count: 1978
+max_depth: 5
+avg_leaf_depth: 3.76
+median_leaf_depth: 4
+sha256_minified_json: b76a0e029b80d33cb15fb34eccf7cd45b088b20f76fb693bff57975b9baced6a
+
+leaf_count_by_primary_node:
+  - Demographics_and_Identity: 450
+  - Safety_and_Legal: 232
+  - Socioeconomic_and_Resources: 180
+  - Language_and_Communication: 102
+  - Religion_Spirituality_and_Worldview: 99
+  - Employment_and_Work: 70
+  - Administrative_and_Data_Context: 69
+  - Social_and_Community: 64
+  - Education_and_Skills: 63
+  - Housing_and_Neighborhood: 58
+  - Geography_and_Location: 56
+  - Household_and_Family: 56
+  - Migration_and_Residency: 54
+  - Healthcare_Access_and_Preferences: 38
+  - Function_and_Accessibility: 35
+  - Life_Course_and_Background: 29
+  - Digital_and_Technology: 28

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cannabis_related_erectile_dysfunction"
+    },
+    {
+      "criterium": "cannabis_related_decreased_libido"
+    },
+    {
+      "criterium": "cannabis_related_arousal_difficulty"
+    },
+    {
+      "criterium": "cannabis_related_vaginal_lubrication_decline"
+    },
+    {
+      "criterium": "cannabis_related_delayed_orgasm"
+    },
+    {
+      "criterium": "cannabis_related_anorgasmia"
+    },
+    {
+      "criterium": "cannabis_related_delayed_ejaculation"
+    },
+    {
+      "criterium": "cannabis_related_reduced_genital_sensation"
+    },
+    {
+      "criterium": "cannabis_related_intercourse_avoidance_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

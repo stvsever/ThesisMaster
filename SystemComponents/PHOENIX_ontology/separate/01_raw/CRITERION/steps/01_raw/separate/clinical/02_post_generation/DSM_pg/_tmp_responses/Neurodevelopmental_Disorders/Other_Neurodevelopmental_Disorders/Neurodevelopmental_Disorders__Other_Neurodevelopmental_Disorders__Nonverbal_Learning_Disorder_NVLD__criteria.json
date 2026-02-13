@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "visuospatial_processing_deficit"
+    },
+    {
+      "criterium": "visuospatial_working_memory_deficit"
+    },
+    {
+      "criterium": "motor_coordination_impairment"
+    },
+    {
+      "criterium": "social_perception_deficit"
+    },
+    {
+      "criterium": "navigational_spatial_orientation_deficit"
+    },
+    {
+      "criterium": "executive_function_planning_organization_deficit"
+    },
+    {
+      "criterium": "math_problem_solving_visual_spatial_dependency"
+    },
+    {
+      "criterium": "verbal_ability_preserved_or_superior"
+    },
+    {
+      "criterium": "left_right_discrimination_deficit"
+    },
+    {
+      "criterium": "visual_memory_deficit"
+    },
+    {
+      "criterium": "cognitive_flexibility_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusion_guilt_punishment_mood_congruent"
+    },
+    {
+      "criterium": "delusion_worthlessness_mood_congruent"
+    },
+    {
+      "criterium": "delusion_punishment_by_self_mood_congruent"
+    },
+    {
+      "criterium": "delusion_nihilistic_loss_of_purpose_mood_congruent"
+    },
+    {
+      "criterium": "auditory_hallucinations_mood_congruent_comments_about_self"
+    },
+    {
+      "criterium": "auditory_hallucinations_mood_congruent_voice_telling_of_guilt"
+    },
+    {
+      "criterium": "visual_hallucinations_mood_congruent_negative_scenes"
+    },
+    {
+      "criterium": "delusion_body_punishment_theme_mood_congruent"
+    },
+    {
+      "criterium": "delusion_sin_and_guilt_theme_mood_congruent"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

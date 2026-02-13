@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "group_delinquency_participation"
+    },
+    {
+      "criterium": "coordinated_group_planning_of_illicit_acts"
+    },
+    {
+      "criterium": "recruitment_of_peers_to_group_delinquency"
+    },
+    {
+      "criterium": "peer_norms_justify_illicit_behaviors"
+    },
+    {
+      "criterium": "loyalty_to_peer_group_over_rules_authorities"
+    },
+    {
+      "criterium": "peer_pressure_to_participate_in_illicit_acts"
+    },
+    {
+      "criterium": "group_leadership_in_delinquent_acts"
+    },
+    {
+      "criterium": "solitary_antisocial_behaviors_absent_or_minimal"
+    },
+    {
+      "criterium": "group_context_specific_aggression_or_property_crime"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

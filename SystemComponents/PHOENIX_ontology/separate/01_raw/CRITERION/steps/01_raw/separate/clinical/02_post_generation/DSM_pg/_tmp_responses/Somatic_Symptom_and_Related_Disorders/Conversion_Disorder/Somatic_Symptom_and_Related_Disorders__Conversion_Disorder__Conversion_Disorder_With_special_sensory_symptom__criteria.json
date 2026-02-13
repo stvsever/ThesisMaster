@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "non_dermatomal_sensory_deficit"
+    },
+    {
+      "criterium": "asymmetrical_sensory_loss"
+    },
+    {
+      "criterium": "fluctuating_sensory_deficit"
+    },
+    {
+      "criterium": "inconsistent_neurological_exam_findings"
+    },
+    {
+      "criterium": "vision_loss"
+    },
+    {
+      "criterium": "hearing_loss"
+    },
+    {
+      "criterium": "tactile_deficit"
+    },
+    {
+      "criterium": "vibration_deficit"
+    },
+    {
+      "criterium": "proprioception_deficit"
+    },
+    {
+      "criterium": "temperature_sense_deficit"
+    },
+    {
+      "criterium": "smell_deficit"
+    },
+    {
+      "criterium": "taste_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

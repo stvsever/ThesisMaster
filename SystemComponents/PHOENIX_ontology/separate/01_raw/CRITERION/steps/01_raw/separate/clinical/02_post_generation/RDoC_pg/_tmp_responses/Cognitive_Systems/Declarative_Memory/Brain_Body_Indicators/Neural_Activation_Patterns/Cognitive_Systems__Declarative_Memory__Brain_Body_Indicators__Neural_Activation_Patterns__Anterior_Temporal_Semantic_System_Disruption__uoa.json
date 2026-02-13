@@ -1,0 +1,51 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "MAPT_H1_haplotype",
+      "GRN_mutation_status",
+      "C9orf72_expansion_status",
+      "TARDBP_variant",
+      "BDNF_V66M"
+    ],
+    "molecules": [
+      "NfL_plasma_concentration",
+      "Tau_phosphorylation_ATL",
+      "Tau_3R_4R_ratio",
+      "TDP43_biomarker_level",
+      "Synaptophysin_level"
+    ],
+    "cells": [
+      "ATL_pyramidal_neuron_density",
+      "ATL_inhibitory_interneuron_density",
+      "ATL_neuronal_viability_score",
+      "ATL_synaptic_density"
+    ],
+    "circuits": [
+      "ATL_to_IFG_connectivity_strength",
+      "ATL_to_PHG_connectivity_strength",
+      "ATL_to_ITG_connectivity_strength",
+      "ventral_semantic_network_integrity_index",
+      "semantic_network_hub_activation_coherence"
+    ],
+    "physiology": [
+      "fMRI_BOLD_ATL_semantic_task_amplitude",
+      "FDG_PET_ATL_metabolic_rate",
+      "EEG_theta_band_power_ATL_semantic_task",
+      "resting_state_ATL_seed_based_connectivity_strength"
+    ],
+    "behavior": [
+      "object_naming_accuracy",
+      "category_fluency_score",
+      "semantic_feature_verification_accuracy",
+      "picture_description_semantic_content_score",
+      "naming_latency_ms"
+    ],
+    "self_report": [
+      "semantic_memory_concerns",
+      "object_naming_difficulty_self_report",
+      "category_semantics_difficulty_self_report",
+      "word_finding_difficulty_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 0.05
+}

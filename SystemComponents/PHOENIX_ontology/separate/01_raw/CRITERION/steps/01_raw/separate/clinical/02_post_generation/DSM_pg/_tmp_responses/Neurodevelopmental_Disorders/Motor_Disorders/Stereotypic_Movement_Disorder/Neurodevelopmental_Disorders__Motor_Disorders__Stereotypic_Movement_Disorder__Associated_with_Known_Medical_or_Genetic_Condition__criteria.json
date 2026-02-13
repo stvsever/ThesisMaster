@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hand_flapping_stereotypy"
+    },
+    {
+      "criterium": "body_rocking_stereotypy"
+    },
+    {
+      "criterium": "head_banging_stereotypy"
+    },
+    {
+      "criterium": "jaw_clenching_stereotypy"
+    },
+    {
+      "criterium": "finger_tapping_stereotypy"
+    },
+    {
+      "criterium": "eye_blink_repetition_stereotypy"
+    },
+    {
+      "criterium": "facial_grimacing_stereotypy"
+    },
+    {
+      "criterium": "toe_walking_stereotypy"
+    },
+    {
+      "criterium": "postural_stiffening_stereotypy"
+    },
+    {
+      "criterium": "stereotypy_frequency_per_min"
+    },
+    {
+      "criterium": "stereotypy_duration_per_episode"
+    },
+    {
+      "criterium": "stereotypy_suppressibility_by_attention"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

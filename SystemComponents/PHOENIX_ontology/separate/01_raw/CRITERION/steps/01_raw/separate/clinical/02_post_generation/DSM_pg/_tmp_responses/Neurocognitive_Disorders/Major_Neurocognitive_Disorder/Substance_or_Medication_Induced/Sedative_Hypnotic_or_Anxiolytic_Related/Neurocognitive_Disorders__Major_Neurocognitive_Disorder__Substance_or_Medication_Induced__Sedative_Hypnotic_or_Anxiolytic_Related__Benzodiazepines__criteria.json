@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_amnesia"
+    },
+    {
+      "criterium": "retrograde_memory_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "visuospatial_disorientation"
+    },
+    {
+      "criterium": "language_impairment"
+    },
+    {
+      "criterium": "delirium_features"
+    },
+    {
+      "criterium": "fluctuating_attention"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "reduced_alertness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

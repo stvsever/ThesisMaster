@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "absence_seizure_episodes_present"
+    },
+    {
+      "criterium": "absence_seizure_frequency_per_day"
+    },
+    {
+      "criterium": "consciousness_impairment_during_absence"
+    },
+    {
+      "criterium": "automatisms_present_during_absence"
+    },
+    {
+      "criterium": "three_hz_spike_wave_eeg"
+    },
+    {
+      "criterium": "onset_age_years_4_to_8"
+    },
+    {
+      "criterium": "hyperventilation_induced_absence_seizures"
+    },
+    {
+      "criterium": "bilateral_symmetrical_3hz_spike_wave_eeg"
+    },
+    {
+      "criterium": "immediate_recovery_to_baseline_after_absence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.07
+}

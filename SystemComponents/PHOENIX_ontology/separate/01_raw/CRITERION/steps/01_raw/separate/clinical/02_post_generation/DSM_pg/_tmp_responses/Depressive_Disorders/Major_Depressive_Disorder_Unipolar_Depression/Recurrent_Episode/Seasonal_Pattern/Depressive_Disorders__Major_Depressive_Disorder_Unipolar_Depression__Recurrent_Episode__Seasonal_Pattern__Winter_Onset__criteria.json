@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "hypersomnia"
+    },
+    {
+      "criterium": "hyperphagia"
+    },
+    {
+      "criterium": "weight_gain"
+    },
+    {
+      "criterium": "carbohydrate_craving"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "social_withdrawal"
+    },
+    {
+      "criterium": "impaired_concentration"
+    },
+    {
+      "criterium": "suicidal_ideation"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

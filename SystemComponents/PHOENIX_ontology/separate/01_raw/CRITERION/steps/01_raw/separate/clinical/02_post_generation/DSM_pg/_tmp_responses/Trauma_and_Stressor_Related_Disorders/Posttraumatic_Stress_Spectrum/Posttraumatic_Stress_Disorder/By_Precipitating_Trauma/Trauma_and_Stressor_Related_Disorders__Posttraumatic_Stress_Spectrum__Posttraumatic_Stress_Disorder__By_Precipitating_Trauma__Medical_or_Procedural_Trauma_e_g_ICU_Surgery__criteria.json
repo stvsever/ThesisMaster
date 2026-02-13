@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_reexperiencing_episodes"
+    },
+    {
+      "criterium": "distressing_trauma_related_nightmares"
+    },
+    {
+      "criterium": "dissociative_reactions_to_reminders"
+    },
+    {
+      "criterium": "avoidance_of_reminders_of_medical_settings_or_procedures"
+    },
+    {
+      "criterium": "persistent_negative_beliefs_about_self"
+    },
+    {
+      "criterium": "persistent_negative_beliefs_about_safety"
+    },
+    {
+      "criterium": "distressing_emotions"
+    },
+    {
+      "criterium": "markedly_diminished_interest_or_participation"
+    },
+    {
+      "criterium": "detachment_or_social_withdrawal"
+    },
+    {
+      "criterium": "inability_to_experience_positive_emotions"
+    },
+    {
+      "criterium": "hypervigilance"
+    },
+    {
+      "criterium": "exaggerated_startle_response"
+    },
+    {
+      "criterium": "irritability_or_aggression"
+    },
+    {
+      "criterium": "concentration_difficulties"
+    },
+    {
+      "criterium": "sleep_disturbances"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

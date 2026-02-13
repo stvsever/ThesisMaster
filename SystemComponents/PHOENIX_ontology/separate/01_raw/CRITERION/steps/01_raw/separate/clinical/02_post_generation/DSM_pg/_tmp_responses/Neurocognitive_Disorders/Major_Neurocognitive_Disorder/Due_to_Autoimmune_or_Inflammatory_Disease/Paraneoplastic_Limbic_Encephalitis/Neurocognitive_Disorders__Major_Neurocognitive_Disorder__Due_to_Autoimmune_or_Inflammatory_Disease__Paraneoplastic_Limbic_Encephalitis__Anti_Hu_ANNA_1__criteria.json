@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_amnesia"
+    },
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "disorientation_to_time_or_place"
+    },
+    {
+      "criterium": "temporal_lobe_seizures"
+    },
+    {
+      "criterium": "focal_seizures"
+    },
+    {
+      "criterium": "olfactory_hallucinations"
+    },
+    {
+      "criterium": "gustatory_hallucinations"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "behavioral_disinhibition"
+    },
+    {
+      "criterium": "psychotic_symptoms"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

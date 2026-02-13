@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "visuospatial_organization_deficit"
+    },
+    {
+      "criterium": "praxis_deficit"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "disinhibition"
+    },
+    {
+      "criterium": "impulsivity"
+    },
+    {
+      "criterium": "IADL_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.08
+}

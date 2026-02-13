@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "TPJ_GABRA1_expression",
+      "TPJ_DRD2_expression",
+      "TPJ_BDNF_expression",
+      "TPJ_OXTR_expression",
+      "TPJ_COMT_expression"
+    ],
+    "molecules": [
+      "TPJ_DOPAMINE_concentration",
+      "TPJ_GLUTAMATE_concentration",
+      "TPJ_GABA_concentration",
+      "TPJ_SEROTONIN_concentration",
+      "TPJ_ACETYLCHOLINE_concentration"
+    ],
+    "cells": [
+      "TPJ_pyramidal_cell_density",
+      "TPJ_inhibitory_interneuron_density",
+      "TPJ_microglia_density",
+      "TPJ_astrocyte_density"
+    ],
+    "circuits": [
+      "TPJ_MENTALIZING_NETWORK_functional_connectivity",
+      "TPJ_SENSORIMOTOR_NETWORK_functional_connectivity",
+      "TPJ_MENTALIZING_NETWORK_effective_connectivity_with_IPL",
+      "TPJ_SMA_functional_connectivity",
+      "TPJ_IPL_functional_connectivity"
+    ],
+    "physiology": [
+      "TPJ_BOLD_amplitude_agency_task",
+      "TPJ_BOLD_peak_latency_agency_task",
+      "TPJ_heart_rate_variability_during_agency_task",
+      "TPJ_pupil_dilation_during_agency_task"
+    ],
+    "behavior": [
+      "agency_task_accuracy",
+      "agency_task_reaction_time",
+      "agency_discrepancy_detection_accuracy",
+      "agency_judgment_reaction_time"
+    ],
+    "self_report": [
+      "sense_of_agency_scale_score",
+      "ownership_experience_scale_score",
+      "agency_control_experience_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 3.5
+}

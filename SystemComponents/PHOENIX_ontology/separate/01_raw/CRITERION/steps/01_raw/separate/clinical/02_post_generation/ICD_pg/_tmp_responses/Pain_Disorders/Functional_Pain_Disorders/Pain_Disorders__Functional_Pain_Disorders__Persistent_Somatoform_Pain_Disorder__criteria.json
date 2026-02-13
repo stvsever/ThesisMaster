@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "PAIN_OUT_OF_PROPORTION_TO_FINDINGS"
+    },
+    {
+      "criterium": "EXCESSIVE_PAIN_THOUGHTS"
+    },
+    {
+      "criterium": "HEALTH_ANXIETY_ABOUT_PAIN"
+    },
+    {
+      "criterium": "EXTENSIVE_TIME_ENERGY_DEVOTED_TO_PAIN"
+    },
+    {
+      "criterium": "MULTIPLE_PAIN_SITES"
+    },
+    {
+      "criterium": "PAIN_IMPAIRMENT_WORK"
+    },
+    {
+      "criterium": "PAIN_IMPAIRMENT_SOCIAL_FUNCTIONING"
+    },
+    {
+      "criterium": "REPEATED_MEDICAL_VISITS_FOR_PAIN"
+    },
+    {
+      "criterium": "PAIN_SLEEP_DISTURBANCE"
+    },
+    {
+      "criterium": "PAIN_BEHAVIORAL_ADAPTATIONS"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

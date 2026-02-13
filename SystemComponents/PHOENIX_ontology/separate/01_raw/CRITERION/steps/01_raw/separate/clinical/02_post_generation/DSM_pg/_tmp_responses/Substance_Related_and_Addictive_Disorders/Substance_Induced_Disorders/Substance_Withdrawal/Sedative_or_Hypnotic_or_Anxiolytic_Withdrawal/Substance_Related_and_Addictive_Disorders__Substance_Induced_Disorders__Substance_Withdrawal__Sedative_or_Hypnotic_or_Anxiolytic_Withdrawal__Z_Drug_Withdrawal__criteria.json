@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rebound_insomnia"
+    },
+    {
+      "criterium": "increased_anxiety"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "nausea_or_gastrointestinal_discomfort"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "muscle_pain_or_myalgia"
+    },
+    {
+      "criterium": "dizziness_or_lightheadedness"
+    },
+    {
+      "criterium": "nightmares_or_recurrent_dreams"
+    },
+    {
+      "criterium": "sensory_hyperarousal"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "reduced_attention"
+    },
+    {
+      "criterium": "disturbance_of_awareness"
+    },
+    {
+      "criterium": "disorientation_time"
+    },
+    {
+      "criterium": "disorientation_place"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "tactile_hallucinations"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "perceptual_distortions"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

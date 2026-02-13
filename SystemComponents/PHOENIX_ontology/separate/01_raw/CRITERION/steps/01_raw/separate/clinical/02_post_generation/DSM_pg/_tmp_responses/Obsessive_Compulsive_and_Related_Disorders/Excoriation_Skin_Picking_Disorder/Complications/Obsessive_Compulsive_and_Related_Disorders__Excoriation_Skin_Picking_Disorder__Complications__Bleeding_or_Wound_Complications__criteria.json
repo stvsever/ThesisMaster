@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "active_bleeding_from_excoriation_wound"
+    },
+    {
+      "criterium": "purulent_exudate_at_excoriation_wound"
+    },
+    {
+      "criterium": "cellulitis_at_excoriation_site"
+    },
+    {
+      "criterium": "delayed_wound_healing_at_excoriation_site"
+    },
+    {
+      "criterium": "scarring_at_excoriation_site"
+    },
+    {
+      "criterium": "keloid_or_hypertrophic_scar_at_excoriation_site"
+    },
+    {
+      "criterium": "postinflammatory_hyperpigmentation_at_excoriation_site"
+    },
+    {
+      "criterium": "ulceration_at_excoriation_site"
+    },
+    {
+      "criterium": "necrosis_at_excoriation_wound"
+    },
+    {
+      "criterium": "wound_dehiscence_at_excoriation_site"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sudden_compelling_urge_to_void"
+    },
+    {
+      "criterium": "urine_loss_following_urge"
+    },
+    {
+      "criterium": "daytime_voiding_frequency_increased"
+    },
+    {
+      "criterium": "nocturnal_urination_with_urgency"
+    },
+    {
+      "criterium": "urge_sensation_during_bladder_filling"
+    },
+    {
+      "criterium": "leakage_occurring_before_toilet_access"
+    },
+    {
+      "criterium": "urgency_induced_incontinence_at_rest"
+    },
+    {
+      "criterium": "urine_loss_in_context_of_stress_absent"
+    },
+    {
+      "criterium": "urgent_voiding_response_to_triggers"
+    }
+  ],
+  "estimated_prevalence_percent": 12.0
+}

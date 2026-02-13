@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "introital_pain_on_initial_penetration"
+    },
+    {
+      "criterium": "introital_burning_pain_on_entry"
+    },
+    {
+      "criterium": "introital_sharp_pain_during_penetration_attempt"
+    },
+    {
+      "criterium": "pelvic_floor_guarding_during_penetration_attempt"
+    },
+    {
+      "criterium": "anticipatory_pain_before_penetration_attempt"
+    },
+    {
+      "criterium": "pain_quality_described_as_stabbing_or_burning_by_patient"
+    },
+    {
+      "criterium": "pain_reproducible_with_small_diameter_insertion_device"
+    },
+    {
+      "criterium": "introital_region_tenderness_on_exam"
+    },
+    {
+      "criterium": "hyperalgesia_to_pressure_at_introital_region"
+    }
+  ],
+  "estimated_prevalence_percent": 3.2
+}

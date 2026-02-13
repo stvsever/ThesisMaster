@@ -1,0 +1,20 @@
+{
+  "domain_path": "SOCIAL / Socioeconomic_and_Material_Resource_Solutions",
+  "domain_root_path": [
+    "SOCIAL",
+    "Socioeconomic_and_Material_Resource_Solutions"
+  ],
+  "leaf_count": 55,
+  "total_edges_in_subtree": 68,
+  "evaluated_pairs": 68,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "6be7362720c662b1ac479e74fe51632ebeb81a73",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 36.126
+}

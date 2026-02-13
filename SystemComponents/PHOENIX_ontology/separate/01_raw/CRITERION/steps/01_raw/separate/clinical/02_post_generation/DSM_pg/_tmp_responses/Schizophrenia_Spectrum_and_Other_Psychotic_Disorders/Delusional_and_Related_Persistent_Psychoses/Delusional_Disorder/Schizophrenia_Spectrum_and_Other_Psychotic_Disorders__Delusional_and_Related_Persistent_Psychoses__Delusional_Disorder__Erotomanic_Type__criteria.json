@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "erotomanic_delusion_present"
+    },
+    {
+      "criterium": "erotomanic_target_famous_or_high_status"
+    },
+    {
+      "criterium": "conviction_of_reciprocal_love_by_target"
+    },
+    {
+      "criterium": "misinterpretation_of_target_affection_signs"
+    },
+    {
+      "criterium": "persistent_target_contact_attempts"
+    },
+    {
+      "criterium": "stalking_or_intrusive_following_behaviors"
+    },
+    {
+      "criterium": "surveillance_of_target_by_patient"
+    },
+    {
+      "criterium": "multimodal_contact_with_target"
+    },
+    {
+      "criterium": "belief_in_public_affection_from_target"
+    },
+    {
+      "criterium": "preoccupation_with_target_to_exclusion_of_other_relations"
+    },
+    {
+      "criterium": "heightened_reactivity_to_target_rejection_threats"
+    },
+    {
+      "criterium": "impairment_in_social_and_occupational_functioning_due_to_delusion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

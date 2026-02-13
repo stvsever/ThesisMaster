@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_decline"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "visuospatial_processing_deficit"
+    },
+    {
+      "criterium": "aphasia"
+    },
+    {
+      "criterium": "ideomotor_apraxia"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "disinhibition"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "behavioral_disinhibition"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "loss_of_empathy"
+    },
+    {
+      "criterium": "compulsive_repetitive_behaviors"
+    },
+    {
+      "criterium": "hyperorality_food_preferences_changes"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "anomia"
+    },
+    {
+      "criterium": "apraxia_of_speech"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "parkinsonian_features"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

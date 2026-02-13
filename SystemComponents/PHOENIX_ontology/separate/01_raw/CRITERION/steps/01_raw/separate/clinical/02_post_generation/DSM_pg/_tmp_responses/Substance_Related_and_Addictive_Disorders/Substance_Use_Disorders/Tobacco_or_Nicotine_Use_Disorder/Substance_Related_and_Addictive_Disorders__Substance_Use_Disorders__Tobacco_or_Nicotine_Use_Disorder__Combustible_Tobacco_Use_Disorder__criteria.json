@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_tobacco"
+    },
+    {
+      "criterium": "tolerance_to_nicotine_via_combustible_tobacco"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_cessation_or_reduce_use"
+    },
+    {
+      "criterium": "use_in_larger_amounts_or_longer_than_intended"
+    },
+    {
+      "criterium": "persistent_desire_or_failed_efforts_to_cut_down_or_quit_tobacco"
+    },
+    {
+      "criterium": "significant_time_spent_obtaining_using_or_recovering_from_tobacco"
+    },
+    {
+      "criterium": "social_or_occupational_impairment_due_to_tobacco_use"
+    },
+    {
+      "criterium": "continued_tobacco_use_despite_health_harm"
+    },
+    {
+      "criterium": "tobacco_use_in_hazardous_settings_or_activities"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

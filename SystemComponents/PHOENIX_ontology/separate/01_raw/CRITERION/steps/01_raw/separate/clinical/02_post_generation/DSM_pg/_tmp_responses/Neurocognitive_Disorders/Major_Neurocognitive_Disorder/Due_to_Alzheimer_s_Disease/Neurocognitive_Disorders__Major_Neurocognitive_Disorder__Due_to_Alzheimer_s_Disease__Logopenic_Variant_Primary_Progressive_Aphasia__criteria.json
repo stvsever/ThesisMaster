@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Anomia"
+    },
+    {
+      "criterium": "Phonemic_paraphasias"
+    },
+    {
+      "criterium": "Verbal_repetition_deficit"
+    },
+    {
+      "criterium": "Nonword_repetition_deficit"
+    },
+    {
+      "criterium": "Verbal_working_memory_deficit"
+    },
+    {
+      "criterium": "Apraxia_of_Speech"
+    },
+    {
+      "criterium": "Slow_speech_rate"
+    },
+    {
+      "criterium": "Reduced_speech_fluency"
+    },
+    {
+      "criterium": "Circumlocution"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

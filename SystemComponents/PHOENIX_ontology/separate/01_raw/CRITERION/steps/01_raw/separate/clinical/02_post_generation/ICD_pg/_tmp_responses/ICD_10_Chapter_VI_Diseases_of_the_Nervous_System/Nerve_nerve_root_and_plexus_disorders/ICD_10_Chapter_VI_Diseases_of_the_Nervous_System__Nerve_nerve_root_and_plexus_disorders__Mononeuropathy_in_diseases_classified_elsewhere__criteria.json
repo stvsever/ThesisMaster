@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "focal_motor_weakness_in_affected_nerve_distribution"
+    },
+    {
+      "criterium": "muscle_atrophy_in_innervated_muscle_group_of_affected_nerve"
+    },
+    {
+      "criterium": "sensory_hypoesthesia_in_affected_nerve_distribution"
+    },
+    {
+      "criterium": "paresthesias_in_affected_nerve_distribution"
+    },
+    {
+      "criterium": "neuralgiform_pain_in_affected_nerve_distribution"
+    },
+    {
+      "criterium": "hyporeflexia_in_affected_nerve_segment"
+    },
+    {
+      "criterium": "vasomotor_changes_in_affected_nerve_distribution"
+    },
+    {
+      "criterium": "proprioception_reduction_in_affected_nerve_distribution"
+    },
+    {
+      "criterium": "vibration_sense_reduction_in_affected_nerve_distribution"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

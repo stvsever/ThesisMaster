@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "oromotor_strength_reduction"
+    },
+    {
+      "criterium": "oromotor_coordination_impairment"
+    },
+    {
+      "criterium": "pharyngeal_swallow_deficit"
+    },
+    {
+      "criterium": "cough_during_feeding"
+    },
+    {
+      "criterium": "nasal_regurgitation_during_feeding"
+    },
+    {
+      "criterium": "texture_aversion"
+    },
+    {
+      "criterium": "limited_food_acceptance_variety"
+    },
+    {
+      "criterium": "inadequate_caloric_intake_for_age"
+    },
+    {
+      "criterium": "growth_velocity_deceleration"
+    },
+    {
+      "criterium": "prolonged_mealtimes"
+    },
+    {
+      "criterium": "refusal_to_consume_entire_meal"
+    },
+    {
+      "criterium": "sensory_overload_during_feeding"
+    }
+  ],
+  "estimated_prevalence_percent": 2.8
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_recollections_of_deceased"
+    },
+    {
+      "criterium": "recurrent_distressing_dreams_about_deceased"
+    },
+    {
+      "criterium": "avoidance_of_thoughts_about_deceased"
+    },
+    {
+      "criterium": "avoidance_of_reminders_of_deceased"
+    },
+    {
+      "criterium": "persistent_beliefs_of_guilt_or_blame_related_to_death"
+    },
+    {
+      "criterium": "difficulty_accepting_death"
+    },
+    {
+      "criterium": "emotional_numbing_or_detachment_from_others"
+    },
+    {
+      "criterium": "preoccupation_with_deceased_or_death"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_loss"
+    },
+    {
+      "criterium": "hyperarousal_or_startle_hypervigilance"
+    },
+    {
+      "criterium": "heightened_reactivity_to_cues_related_to_death"
+    },
+    {
+      "criterium": "functional_impairment_in_social_or_work_domains_due_to_grief"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

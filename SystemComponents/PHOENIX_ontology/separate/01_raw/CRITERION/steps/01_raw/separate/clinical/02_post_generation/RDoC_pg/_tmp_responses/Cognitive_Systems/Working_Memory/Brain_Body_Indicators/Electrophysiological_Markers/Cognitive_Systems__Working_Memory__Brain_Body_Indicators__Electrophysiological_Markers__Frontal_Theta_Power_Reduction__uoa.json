@@ -1,0 +1,28 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "frontal_theta_power",
+      "dorsolateral_prefrontal_theta_power",
+      "anterior_cingulate_theta_power",
+      "fronto_parietal_network_theta_power"
+    ],
+    "physiology": [
+      "frontal_theta_band_power_Fz",
+      "frontal_theta_band_power_F3",
+      "frontal_theta_band_power_F4",
+      "theta_power_task_vs_rest",
+      "theta_power_reduction_magnitude"
+    ],
+    "behavior": [
+      "working_memory_accuracy_percent",
+      "working_memory_reaction_time_ms",
+      "n_back_performance_accuracy",
+      "n_back_reaction_time_ms"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 0.0
+}

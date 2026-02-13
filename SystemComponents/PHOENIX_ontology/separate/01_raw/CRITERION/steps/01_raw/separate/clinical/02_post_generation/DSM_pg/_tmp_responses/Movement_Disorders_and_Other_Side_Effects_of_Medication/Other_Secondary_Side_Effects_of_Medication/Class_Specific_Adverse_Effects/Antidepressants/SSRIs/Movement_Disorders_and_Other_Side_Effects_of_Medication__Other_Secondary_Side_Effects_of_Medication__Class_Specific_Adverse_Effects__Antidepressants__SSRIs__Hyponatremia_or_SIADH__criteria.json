@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "serum_sodium_below_135_mEq_per_L"
+    },
+    {
+      "criterium": "serum_osmolality_below_275_mOsm_per_kg"
+    },
+    {
+      "criterium": "urine_osmolality_exceeds_serum_osmolality"
+    },
+    {
+      "criterium": "urine_sodium_excretion_exceeds_40_mEq_per_L"
+    },
+    {
+      "criterium": "serum_uric_acid_below_normal"
+    },
+    {
+      "criterium": "euvolemic_clinical_status"
+    },
+    {
+      "criterium": "headache_present"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "confusion_present"
+    },
+    {
+      "criterium": "lethargy_present"
+    },
+    {
+      "criterium": "ataxia_present"
+    },
+    {
+      "criterium": "seizure_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

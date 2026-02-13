@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "urge_to_move_limbs_at_rest"
+    },
+    {
+      "criterium": "uncomfortable_leg_sensations_described_as_creeping_crawling_tingling_aching"
+    },
+    {
+      "criterium": "symptoms_worse_with_inactivity_rest"
+    },
+    {
+      "criterium": "symptoms_worse_in_evening_or_night"
+    },
+    {
+      "criterium": "symptoms_relieved_by_movement"
+    },
+    {
+      "criterium": "periodic_leg_movements_during_sleep_present"
+    },
+    {
+      "criterium": "daytime_fatigue_or_sleepiness_due_to_RLS"
+    },
+    {
+      "criterium": "impaired_concentration_or_performance_due_to_sleep_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 7.5
+}

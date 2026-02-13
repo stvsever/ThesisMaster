@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "complex_attention_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "processing_speed_deficit"
+    },
+    {
+      "criterium": "visuospatial_skill_deficit"
+    },
+    {
+      "criterium": "language_production_impairment"
+    },
+    {
+      "criterium": "perceptual_motor_deficit"
+    },
+    {
+      "criterium": "orientation_disorientation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

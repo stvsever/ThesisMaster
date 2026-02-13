@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "language_processing_deficit"
+    },
+    {
+      "criterium": "dissociative_experiences"
+    },
+    {
+      "criterium": "perceptual_disturbance"
+    },
+    {
+      "criterium": "delusional_thought_content"
+    },
+    {
+      "criterium": "hallucinatory_experiences"
+    },
+    {
+      "criterium": "nystagmus_present"
+    },
+    {
+      "criterium": "ataxia_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

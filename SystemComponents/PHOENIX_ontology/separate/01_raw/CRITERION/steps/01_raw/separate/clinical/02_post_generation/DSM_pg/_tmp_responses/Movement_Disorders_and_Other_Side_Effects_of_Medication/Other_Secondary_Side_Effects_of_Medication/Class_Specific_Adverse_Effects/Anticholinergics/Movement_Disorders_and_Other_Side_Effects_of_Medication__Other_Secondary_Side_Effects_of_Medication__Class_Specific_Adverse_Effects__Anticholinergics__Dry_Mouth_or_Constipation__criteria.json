@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "xerostomia_present"
+    },
+    {
+      "criterium": "salivary_flow_reduced"
+    },
+    {
+      "criterium": "oral_mucosa_drying"
+    },
+    {
+      "criterium": "dysgeusia_present"
+    },
+    {
+      "criterium": "throat_dryness"
+    },
+    {
+      "criterium": "decreased_bowel_frequency"
+    },
+    {
+      "criterium": "hard_stool_present"
+    },
+    {
+      "criterium": "defecation_straining_present"
+    },
+    {
+      "criterium": "sensation_of_incomplete_defecation_present"
+    },
+    {
+      "criterium": "abdominal_bloating_present"
+    },
+    {
+      "criterium": "abdominal_pain_present_related_to_constipation"
+    },
+    {
+      "criterium": "rectal_discomfort_present"
+    }
+  ],
+  "estimated_prevalence_percent": 12.0
+}

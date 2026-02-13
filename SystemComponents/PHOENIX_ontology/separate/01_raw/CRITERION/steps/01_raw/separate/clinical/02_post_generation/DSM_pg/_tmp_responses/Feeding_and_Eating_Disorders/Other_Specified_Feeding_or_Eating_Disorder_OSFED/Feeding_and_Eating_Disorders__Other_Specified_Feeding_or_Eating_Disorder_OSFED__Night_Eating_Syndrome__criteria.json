@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "evening_hyperphagia_post_dinner"
+    },
+    {
+      "criterium": "nocturnal_eating_episodes"
+    },
+    {
+      "criterium": "nocturnal_awakening_with_food_intake"
+    },
+    {
+      "criterium": "reduced_morning_appetite"
+    },
+    {
+      "criterium": "insomnia_related_to_night_eating"
+    },
+    {
+      "criterium": "nighttime_food_craving"
+    },
+    {
+      "criterium": "distress_or_impairment_from_night_eating"
+    },
+    {
+      "criterium": "awareness_of_night_eating_episodes"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

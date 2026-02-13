@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "scalp_exoriation_frequency"
+    },
+    {
+      "criterium": "scalp_exoriation_duration_per_episode"
+    },
+    {
+      "criterium": "scalp_exoriation_urge_intensity"
+    },
+    {
+      "criterium": "scalp_lesion_presence"
+    },
+    {
+      "criterium": "scalp_bleeding_present"
+    },
+    {
+      "criterium": "scalp_scarring_present"
+    },
+    {
+      "criterium": "scalp_hair_loss_at_picking_sites"
+    },
+    {
+      "criterium": "scalp_discoloration_post_picking"
+    },
+    {
+      "criterium": "scalp_inflammatory_signs_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusion_persecution"
+    },
+    {
+      "criterium": "delusion_nihilistic"
+    },
+    {
+      "criterium": "delusion_grandiose_incongruent"
+    },
+    {
+      "criterium": "delusion_thought_broadcasting"
+    },
+    {
+      "criterium": "delusion_thought_insertion"
+    },
+    {
+      "criterium": "delusion_thought_withdrawal"
+    },
+    {
+      "criterium": "auditory_hallucinations_commanding_voice"
+    },
+    {
+      "criterium": "auditory_hallucinations_commentary_voice"
+    },
+    {
+      "criterium": "visual_hallucinations_scene"
+    },
+    {
+      "criterium": "delusion_referential_incongruent"
+    },
+    {
+      "criterium": "delusion_bizarre_content"
+    },
+    {
+      "criterium": "delusion_control_of_thoughts_incongruent"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

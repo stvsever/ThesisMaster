@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "dysmetria"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "spasticity"
+    },
+    {
+      "criterium": "hyporeflexia"
+    },
+    {
+      "criterium": "paresthesias"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "seizure"
+    },
+    {
+      "criterium": "dysphagia"
+    },
+    {
+      "criterium": "memory_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

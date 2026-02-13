@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acute_anxiety_response_to_snake_visual_stimulus"
+    },
+    {
+      "criterium": "panic_symptoms_upon_snake_proximity"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_snake_exposure"
+    },
+    {
+      "criterium": "catastrophic_thoughts_about_snakes"
+    },
+    {
+      "criterium": "physiological_arousal_in_snake_presence"
+    },
+    {
+      "criterium": "startle_response_to_snake_visual_stimuli"
+    },
+    {
+      "criterium": "avoidance_of_snakes_or_snake_related_items"
+    },
+    {
+      "criterium": "escape_or_withdrawal_behavior_on_snake_exposure"
+    },
+    {
+      "criterium": "safety_behaviors_maintained_due_to_snake_fear"
+    },
+    {
+      "criterium": "functional_impairment_in_snake_related_activities"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

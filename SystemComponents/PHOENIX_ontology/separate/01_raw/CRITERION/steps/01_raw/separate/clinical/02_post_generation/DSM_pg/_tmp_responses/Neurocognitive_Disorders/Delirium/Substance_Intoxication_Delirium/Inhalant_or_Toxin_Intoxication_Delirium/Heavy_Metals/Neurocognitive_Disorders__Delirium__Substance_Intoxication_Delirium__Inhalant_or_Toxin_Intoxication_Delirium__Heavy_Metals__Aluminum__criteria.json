@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "attentional_deficit"
+    },
+    {
+      "criterium": "disorientation_time_place_person"
+    },
+    {
+      "criterium": "fluctuating_arousal"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "perceptual_misperceptions"
+    },
+    {
+      "criterium": "language_impairment"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "tachycardia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

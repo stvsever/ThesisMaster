@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_vomiting_episodes"
+    },
+    {
+      "criterium": "emesis_triggered_by_psychological_stress"
+    },
+    {
+      "criterium": "vomiting_with_normal_abdominal_examination"
+    },
+    {
+      "criterium": "normal_abdominal_imaging_when_performed"
+    },
+    {
+      "criterium": "normal_biochemical_panels"
+    },
+    {
+      "criterium": "absence_of_alternative_organic_pathology_after_workup"
+    },
+    {
+      "criterium": "emesis_not_altered_by_meals_or_food_intake"
+    },
+    {
+      "criterium": "psychological_distress_history_concurrent_with_vomiting"
+    },
+    {
+      "criterium": "episodic_vomiting_without_weight_loss_or_dehydration_signs"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

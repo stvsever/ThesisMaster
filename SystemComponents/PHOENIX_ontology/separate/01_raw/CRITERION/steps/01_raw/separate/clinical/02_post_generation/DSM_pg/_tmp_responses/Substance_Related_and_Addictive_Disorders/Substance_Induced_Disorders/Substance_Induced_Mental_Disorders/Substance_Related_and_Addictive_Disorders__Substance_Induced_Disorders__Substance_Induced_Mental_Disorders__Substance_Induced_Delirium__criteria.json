@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "disorientation_time_place"
+    },
+    {
+      "criterium": "memory_impairment_short_term"
+    },
+    {
+      "criterium": "language_disturbance"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "altered_arousal_level"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "psychomotor_disturbance"
+    },
+    {
+      "criterium": "autonomic_instability_signs"
+    },
+    {
+      "criterium": "onset_with_substance_exposure"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

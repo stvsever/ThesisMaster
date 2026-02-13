@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_mood"
+    },
+    {
+      "criterium": "increased_psychomotor_activity"
+    },
+    {
+      "criterium": "decreased_sleep_need"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "racing_thoughts"
+    },
+    {
+      "criterium": "distractibility"
+    },
+    {
+      "criterium": "grandiosity"
+    },
+    {
+      "criterium": "impulsivity"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "heat_intolerance"
+    },
+    {
+      "criterium": "weight_loss"
+    },
+    {
+      "criterium": "sweating"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

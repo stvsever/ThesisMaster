@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_amnesia_post_dose"
+    },
+    {
+      "criterium": "sleep_related_complex_behaviors"
+    },
+    {
+      "criterium": "daytime_sedation_post_dose"
+    },
+    {
+      "criterium": "delirium_like_fluctuating_attention_or_orientation"
+    },
+    {
+      "criterium": "daytime_cognitive_slowing_or_attention_impairment"
+    },
+    {
+      "criterium": "rebound_insomnia_on_discontinuation"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_discontinuation"
+    },
+    {
+      "criterium": "craving_for_z_drug_present"
+    },
+    {
+      "criterium": "non_prescribed_dose_adjustment_or_acquisition_from_alternate_sources"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

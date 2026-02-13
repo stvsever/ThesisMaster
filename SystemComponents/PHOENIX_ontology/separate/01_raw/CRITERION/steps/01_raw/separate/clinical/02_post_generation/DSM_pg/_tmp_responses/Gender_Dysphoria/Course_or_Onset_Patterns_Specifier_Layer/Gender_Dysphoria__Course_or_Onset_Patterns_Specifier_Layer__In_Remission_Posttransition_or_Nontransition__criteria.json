@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "absent_gd_distress"
+    },
+    {
+      "criterium": "absent_gd_impairment_in_functioning"
+    },
+    {
+      "criterium": "stable_gender_congruence_perception"
+    },
+    {
+      "criterium": "body_congruence_with_gender_identity"
+    },
+    {
+      "criterium": "absent_gd_intrusive_thoughts"
+    },
+    {
+      "criterium": "absence_of_wish_to_transition"
+    },
+    {
+      "criterium": "absent_gd_related_suicidal_ideation"
+    },
+    {
+      "criterium": "stable_social_functioning_across_roles"
+    },
+    {
+      "criterium": "no_gd_related_social_conflicts"
+    },
+    {
+      "criterium": "no_body_dysphoria_focus_on_secondary_sex_traits"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

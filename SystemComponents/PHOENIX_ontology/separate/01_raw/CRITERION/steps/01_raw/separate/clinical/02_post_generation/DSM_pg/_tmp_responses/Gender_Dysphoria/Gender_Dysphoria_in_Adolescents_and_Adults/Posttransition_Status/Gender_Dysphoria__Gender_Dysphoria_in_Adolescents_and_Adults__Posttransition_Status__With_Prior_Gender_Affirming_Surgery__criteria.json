@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "body_image_congruence_post_transition"
+    },
+    {
+      "criterium": "residual_gender_dysphoria_intensity_post_transition"
+    },
+    {
+      "criterium": "anxiety_symptoms_post_transition_present"
+    },
+    {
+      "criterium": "depressive_symptoms_post_transition_present"
+    },
+    {
+      "criterium": "sleep_disturbance_post_transition_present"
+    },
+    {
+      "criterium": "social_functioning_impairment_post_transition_present"
+    },
+    {
+      "criterium": "interpersonal_relationship_satisfaction_post_transition"
+    },
+    {
+      "criterium": "self_esteem_post_transition_level"
+    },
+    {
+      "criterium": "intrusive_body_related_thoughts_post_transition_present"
+    },
+    {
+      "criterium": "scar_pain_post_transition_present"
+    },
+    {
+      "criterium": "scar_visibility_concern_post_transition_present"
+    },
+    {
+      "criterium": "sexual_function_post_transition_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

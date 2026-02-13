@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fever_present"
+    },
+    {
+      "criterium": "severe_headache_present"
+    },
+    {
+      "criterium": "neck_rigidity_present"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "altered_mental_status_present"
+    },
+    {
+      "criterium": "seizures_present"
+    },
+    {
+      "criterium": "focal_neurological_deficit_present"
+    },
+    {
+      "criterium": "cranial_nerve_palsy_present"
+    },
+    {
+      "criterium": "vomiting_present"
+    },
+    {
+      "criterium": "papilledema_present"
+    },
+    {
+      "criterium": "ataxia_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

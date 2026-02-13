@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265",
+      "SLC6A4_promoter_SNP",
+      "OXTR_rs53576",
+      "COMT_val158_met",
+      "DRD2_TaqIA",
+      "CRHR1_rs878437"
+    ],
+    "molecules": [
+      "Cortisol",
+      "Oxytocin",
+      "BDNF",
+      "CRH",
+      "IL6",
+      "Dopamine",
+      "Norepinephrine"
+    ],
+    "cells": [
+      "pyramidal_neuron_density_PFC",
+      "GABAergic_internueron_density_amygdala",
+      "microglial_density_prefrontal_cortex",
+      "oligodendrocyte_density_subcortical_white_matter",
+      "synapse_density_hippocampus"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_connectivity",
+      "default_mode_network_social_processing",
+      "salience_network_social_stimulus",
+      "social_brain_network_activation",
+      "insula_cingulate_coactivation_social_processing"
+    ],
+    "physiology": [
+      "heart_rate_variability",
+      "skin_conductance_level",
+      "respiratory_rate",
+      "pupil_dilation",
+      "salivary_cortisol"
+    ],
+    "behavior": [
+      "social_approach_latency",
+      "social_interaction_duration",
+      "eye_contact_duration_with_others",
+      "social_avoidance_frequency",
+      "verbal_initiation_rate_in_social_interaction"
+    ],
+    "self_report": [
+      "Social_withdrawal_self_report_score",
+      "Loneliness_scale_total_score",
+      "Sociability_subscale_score",
+      "Social_contact_preference_score"
+    ]
+  },
+  "estimated_prevalence_percent": 6.2
+}

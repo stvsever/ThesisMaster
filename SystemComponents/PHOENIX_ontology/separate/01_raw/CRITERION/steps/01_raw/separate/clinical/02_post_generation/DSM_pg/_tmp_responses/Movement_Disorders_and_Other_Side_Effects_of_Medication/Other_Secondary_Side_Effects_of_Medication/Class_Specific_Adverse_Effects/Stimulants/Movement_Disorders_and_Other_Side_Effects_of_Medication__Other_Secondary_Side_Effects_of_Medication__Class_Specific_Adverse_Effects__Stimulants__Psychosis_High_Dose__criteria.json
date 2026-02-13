@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "criterium": "TACTILE_HALLUCINATIONS"
+    },
+    {
+      "criterium": "PERSECUTORY_DELUSIONS"
+    },
+    {
+      "criterium": "GRANDIOSE_DELUSIONS"
+    },
+    {
+      "criterium": "REFERENTIAL_DELUSIONS"
+    },
+    {
+      "criterium": "THOUGHT_INSERTION"
+    },
+    {
+      "criterium": "THOUGHT_BROADCASTING"
+    },
+    {
+      "criterium": "DISORGANIZED_SPEECH"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

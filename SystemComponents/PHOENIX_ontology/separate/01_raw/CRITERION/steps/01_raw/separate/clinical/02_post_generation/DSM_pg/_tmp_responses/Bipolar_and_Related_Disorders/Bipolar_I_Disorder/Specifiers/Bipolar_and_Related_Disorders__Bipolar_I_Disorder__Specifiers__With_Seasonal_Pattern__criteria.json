@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "seasonal_recurrence_of_mood_episodes"
+    },
+    {
+      "criterium": "winter_onset_of_major_depressive_episodes"
+    },
+    {
+      "criterium": "spring_onset_of_manic_or_hypomanic_episodes"
+    },
+    {
+      "criterium": "seasonal_pattern_consistent_across_episodes"
+    },
+    {
+      "criterium": "winter_depressive_hypersomnia"
+    },
+    {
+      "criterium": "winter_depressive_weight_gain"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

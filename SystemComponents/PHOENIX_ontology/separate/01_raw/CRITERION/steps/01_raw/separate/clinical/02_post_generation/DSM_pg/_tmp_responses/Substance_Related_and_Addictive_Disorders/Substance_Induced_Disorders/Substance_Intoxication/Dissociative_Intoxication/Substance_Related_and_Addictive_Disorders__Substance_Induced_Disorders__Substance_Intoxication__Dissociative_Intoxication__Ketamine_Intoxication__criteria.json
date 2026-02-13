@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "dissociative_state"
+    },
+    {
+      "criterium": "depersonalization"
+    },
+    {
+      "criterium": "derealization"
+    },
+    {
+      "criterium": "nystagmus_present"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "slurred_speech"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "anterograde_amnesia"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "increased_salivation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

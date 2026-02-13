@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_daytime_somnolence_present"
+    },
+    {
+      "criterium": "sleep_attacks_present"
+    },
+    {
+      "criterium": "cataplexy_episodes_present"
+    },
+    {
+      "criterium": "hypnagogic_hallucinations_present"
+    },
+    {
+      "criterium": "hypnopompic_hallucinations_present"
+    },
+    {
+      "criterium": "sleep_paralysis_present"
+    },
+    {
+      "criterium": "REM_intrusions_into_wakefulness_present"
+    },
+    {
+      "criterium": "fragmented_nocturnal_sleep_present"
+    },
+    {
+      "criterium": "automatic_behaviors_in_wakefulness_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.03
+}

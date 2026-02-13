@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "restless_legs_sensation_at_rest"
+    },
+    {
+      "criterium": "urge_to_move_limbs_relieved_by_movement"
+    },
+    {
+      "criterium": "symptoms_worse_in_evening_or_night"
+    },
+    {
+      "criterium": "periodic_leg_movements_during_sleep"
+    },
+    {
+      "criterium": "onset_following_antidepressant_initiation"
+    },
+    {
+      "criterium": "augmentation_earlier_daytime_onset"
+    },
+    {
+      "criterium": "augmentation_increased_symptom_intensity"
+    },
+    {
+      "criterium": "augmentation_spread_to_upper_extremities"
+    },
+    {
+      "criterium": "sleep_disruption_due_to_leg_movements"
+    },
+    {
+      "criterium": "symptom_exacerbation_with_antidepressant_dose_increase"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

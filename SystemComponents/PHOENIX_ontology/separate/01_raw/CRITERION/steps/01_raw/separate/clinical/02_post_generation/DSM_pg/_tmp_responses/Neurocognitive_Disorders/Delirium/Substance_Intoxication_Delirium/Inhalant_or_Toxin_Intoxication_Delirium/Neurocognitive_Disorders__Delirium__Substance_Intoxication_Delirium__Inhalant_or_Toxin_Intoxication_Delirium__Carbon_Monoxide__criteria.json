@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cephalalgia"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "acute_confusion"
+    },
+    {
+      "criterium": "delirium_fluctuation"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "somnolence"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "emesis"
+    },
+    {
+      "criterium": "dyspnea"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "visual_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "generalized_musculoskeletal_pain"
+    },
+    {
+      "criterium": "diffuse_limb_muscle_pain"
+    },
+    {
+      "criterium": "muscle_pain_worsened_by_movement"
+    },
+    {
+      "criterium": "muscle_tenderness_on_palpation"
+    },
+    {
+      "criterium": "muscle_cramps"
+    },
+    {
+      "criterium": "muscle_spasms"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "pacing_behavior"
+    },
+    {
+      "criterium": "fidgeting_behavior"
+    },
+    {
+      "criterium": "subjective_urge_to_move"
+    },
+    {
+      "criterium": "restlessness_at_rest"
+    },
+    {
+      "criterium": "increased_motor_activity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_rs1800497_allele",
+      "DRD4_VNTR_7R_allele",
+      "COMT_val158_met_allele",
+      "SLC6A3_VNTR_9R_allele",
+      "MAOA_rs1137070_allele",
+      "BDNF_rs6265_allele"
+    ],
+    "molecules": [
+      "DA_concentration_NAcc",
+      "D2_receptor_density_PFC",
+      "BDNF_level_PFC",
+      "anandamide_level_brain"
+    ],
+    "cells": [
+      "D2_MSN_density_NAcc",
+      "PFC_pyramidal_neuron_density",
+      "GAD67_expression_PFC_interneurons",
+      "astrocyte_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "functional_connectivity_NAcc_PFC",
+      "activation_pattern_VTA_NAcc_during_risk",
+      "vmPFC_value_encoding_activation",
+      "dorsal_striatal_activity_during_risk_decision",
+      "VTA_DA_pathway_synchrony"
+    ],
+    "physiology": [
+      "heart_rate_variability_risk_task",
+      "pupil_dilation_risk_task",
+      "skin_conductance_response_risk_task",
+      "salivary_cortisol_level_post_risk_task"
+    ],
+    "behavior": [
+      "risk_taking_rate",
+      "loss_aversion_index",
+      "probability_weighting_index",
+      "delay_discounting_rate"
+    ],
+    "self_report": [
+      "risk_tolerance_scale",
+      "loss_aversion_scale",
+      "risk_preference_questionnaire_score",
+      "delay_discounting_questionnaire_score"
+    ]
+  },
+  "estimated_prevalence_percent": 4.2
+}

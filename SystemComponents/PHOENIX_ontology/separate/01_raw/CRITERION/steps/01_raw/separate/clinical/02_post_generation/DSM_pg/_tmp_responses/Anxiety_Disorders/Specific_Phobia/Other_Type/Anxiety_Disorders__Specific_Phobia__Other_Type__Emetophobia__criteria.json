@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "INTENSE_VOMIT_FEAR"
+    },
+    {
+      "criterium": "ANTICIPATORY_ANXIETY_BEFORE_MEALS"
+    },
+    {
+      "criterium": "MEAL_AVOIDANCE_DUE_TO_VOMIT_RISK"
+    },
+    {
+      "criterium": "TRAVEL_AVOIDANCE_DUE_TO_VOMIT_RISK"
+    },
+    {
+      "criterium": "AVOIDANCE_OF_VOMIT_TRIGGER_ENVIRONMENTS"
+    },
+    {
+      "criterium": "FEAR_OF_OTHERS_VOMITING"
+    },
+    {
+      "criterium": "PHYSIOLOGICAL_AROUSAL_TO_VOMIT_CUES"
+    },
+    {
+      "criterium": "DISTRESS_UPON_VOMIT_CUES"
+    },
+    {
+      "criterium": "REPETITIVE_VOMIT_CUE_MONITORING"
+    },
+    {
+      "criterium": "FOOD_AVERSION_DUE_TO_VOMIT_RISK"
+    },
+    {
+      "criterium": "SOCIAL_ACTIVITY_REDUCTION_DUE_TO_VOMIT_FEAR"
+    },
+    {
+      "criterium": "SLEEP_DISTURBANCE_DUE_TO_VOMIT_ANXIETY"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

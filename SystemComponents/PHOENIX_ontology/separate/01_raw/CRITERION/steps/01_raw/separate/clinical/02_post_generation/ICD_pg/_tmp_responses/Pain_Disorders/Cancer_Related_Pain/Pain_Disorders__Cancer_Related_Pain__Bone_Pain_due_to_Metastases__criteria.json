@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pain_intensity_0to10"
+    },
+    {
+      "criterium": "pain_worsened_by_weight_bearing"
+    },
+    {
+      "criterium": "nocturnal_pain_present"
+    },
+    {
+      "criterium": "pain_quality_deep_boring"
+    },
+    {
+      "criterium": "multisite_skeletal_pain_involvement"
+    },
+    {
+      "criterium": "pathologic_fracture_present"
+    },
+    {
+      "criterium": "bone_tenderness_over_metastatic_site"
+    },
+    {
+      "criterium": "elevated_serum_alkaline_phosphatase"
+    },
+    {
+      "criterium": "radiographic_osteolytic_lesions_detected"
+    },
+    {
+      "criterium": "bone_scan_hot_spots_detected"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

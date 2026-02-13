@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inducible_clonus"
+    },
+    {
+      "criterium": "spontaneous_clonus"
+    },
+    {
+      "criterium": "hyperreflexia"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "rigidity"
+    },
+    {
+      "criterium": "ataxia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

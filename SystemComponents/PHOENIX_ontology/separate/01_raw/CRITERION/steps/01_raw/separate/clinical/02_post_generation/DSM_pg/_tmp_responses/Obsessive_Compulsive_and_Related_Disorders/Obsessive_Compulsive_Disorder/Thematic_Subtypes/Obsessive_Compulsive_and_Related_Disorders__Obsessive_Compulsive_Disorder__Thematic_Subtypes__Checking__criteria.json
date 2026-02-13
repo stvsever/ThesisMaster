@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "door_lock_verification_repetition"
+    },
+    {
+      "criterium": "window_closure_verification_repetition"
+    },
+    {
+      "criterium": "stove_off_verification_repetition"
+    },
+    {
+      "criterium": "heater_off_verification_repetition"
+    },
+    {
+      "criterium": "electrical_appliance_off_verification_repetition"
+    },
+    {
+      "criterium": "home_security_status_check_repetition"
+    },
+    {
+      "criterium": "keys_position_recheck_repetition"
+    },
+    {
+      "criterium": "memory_recall_verification"
+    },
+    {
+      "criterium": "post_action_safety_recheck"
+    },
+    {
+      "criterium": "harm_threat_reassessment_verification"
+    },
+    {
+      "criterium": "reassurance_seeking_verification"
+    },
+    {
+      "criterium": "counting_checks_verification"
+    }
+  ],
+  "estimated_prevalence_percent": 1.3
+}

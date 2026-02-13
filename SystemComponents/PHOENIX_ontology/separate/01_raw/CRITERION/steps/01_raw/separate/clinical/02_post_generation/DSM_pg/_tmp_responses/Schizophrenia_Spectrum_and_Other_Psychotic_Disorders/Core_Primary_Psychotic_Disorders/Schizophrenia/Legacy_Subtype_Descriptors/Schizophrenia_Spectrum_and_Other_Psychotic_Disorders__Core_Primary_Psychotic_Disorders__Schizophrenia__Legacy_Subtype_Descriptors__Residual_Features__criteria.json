@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AFFECTIVE_FLATTENING"
+    },
+    {
+      "criterium": "ALOGIA"
+    },
+    {
+      "criterium": "AVOLITION"
+    },
+    {
+      "criterium": "ANHEDONIA"
+    },
+    {
+      "criterium": "ASOCIALITY"
+    },
+    {
+      "criterium": "PSYCHOMOTOR_RETARDATION"
+    },
+    {
+      "criterium": "IMPAIRED_ATTENTION"
+    },
+    {
+      "criterium": "IMPAIRED_WORKING_MEMORY"
+    },
+    {
+      "criterium": "IMPAIRED_EXECUTIVE_FUNCTION"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

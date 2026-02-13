@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "psychiatric_symptoms"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "orofacial_dyskinesias"
+    },
+    {
+      "criterium": "autonomic_dysfunction"
+    },
+    {
+      "criterium": "altered_mental_status"
+    },
+    {
+      "criterium": "MRI_limbic_system_hyperintensities"
+    },
+    {
+      "criterium": "CSF_pleocytosis"
+    },
+    {
+      "criterium": "AMPA_R_antibody_presence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0005
+}

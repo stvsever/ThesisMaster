@@ -1,0 +1,41 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "CLOCK_gene_expression",
+      "PER2_gene_expression",
+      "BMAL1_gene_expression",
+      "CRY1_gene_expression"
+    ],
+    "molecules": [
+      "melatonin_plasma_concentration",
+      "cortisol_plasma_concentration",
+      "melatonin_release_rate"
+    ],
+    "cells": [
+      "SCN_neuron_firing_rate",
+      "ipRGC_activity"
+    ],
+    "circuits": [
+      "SCN_hypothalamic_circuit_synchrony"
+    ],
+    "physiology": [
+      "core_body_temperature_amplitude",
+      "core_body_temperature_mesor",
+      "core_body_temperature_acrophase",
+      "diurnal_core_body_temperature_variation",
+      "sleep_related_temperature_change_rate"
+    ],
+    "behavior": [
+      "delayed_sleep_onset_time",
+      "increased_sleep_latency",
+      "irregular_sleep_schedule",
+      "nighttime_wake_episodes"
+    ],
+    "self_report": [
+      "sleep_quality_score",
+      "morningness_eveningness_score",
+      "daytime_sleepiness_score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.0
+}

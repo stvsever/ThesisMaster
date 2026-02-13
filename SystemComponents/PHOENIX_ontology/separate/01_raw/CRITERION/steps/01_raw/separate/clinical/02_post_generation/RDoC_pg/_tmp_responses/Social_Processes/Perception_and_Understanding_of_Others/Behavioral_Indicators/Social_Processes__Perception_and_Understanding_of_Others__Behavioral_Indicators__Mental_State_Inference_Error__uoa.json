@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR",
+      "CD38",
+      "AVPR1A",
+      "BDNF"
+    ],
+    "molecules": [
+      "OXT",
+      "AVP",
+      "Dopamine",
+      "Serotonin"
+    ],
+    "cells": [
+      "Pyramidal_neurons_mPFC",
+      "Pyramidal_neurons_TPJ",
+      "PV_interneurons_mPFC",
+      "Mirror_neuron_population_IFG"
+    ],
+    "circuits": [
+      "mPFC_activation",
+      "TPJ_activation",
+      "pSTS_activation",
+      "mPFC_TPJ_connectivity",
+      "TPJ_pSTS_connectivity"
+    ],
+    "physiology": [
+      "pupil_dilation_mentalizing",
+      "SCR_mentalizing",
+      "HRV_social_task",
+      "cortisol_social_task"
+    ],
+    "behavior": [
+      "false_belief_task_accuracy",
+      "false_belief_task_reaction_time",
+      "reading_mind_in_the_eyes_accuracy",
+      "intention_attribution_error_rate",
+      "perspective_taking_task_performance"
+    ],
+    "self_report": [
+      "IRI_Perspective_Taking",
+      "IRI_Empathic_Concern",
+      "EQ_Total_Score"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

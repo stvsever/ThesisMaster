@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pleurothotonus_trunk_lateral_flexion_present"
+    },
+    {
+      "criterium": "axial_dystonia_trunk_rotation_present"
+    },
+    {
+      "criterium": "cervical_torsion_present"
+    },
+    {
+      "criterium": "head_tilt_to_ipsilateral_side_present"
+    },
+    {
+      "criterium": "head_rotation_to_ipsilateral_side_present"
+    },
+    {
+      "criterium": "gait_postural_imbalance_present"
+    },
+    {
+      "criterium": "asymmetric_shoulder_posture_present"
+    },
+    {
+      "criterium": "pelvic_tilt_or_hip_asymmetry_present"
+    },
+    {
+      "criterium": "postural_change_when_supine_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

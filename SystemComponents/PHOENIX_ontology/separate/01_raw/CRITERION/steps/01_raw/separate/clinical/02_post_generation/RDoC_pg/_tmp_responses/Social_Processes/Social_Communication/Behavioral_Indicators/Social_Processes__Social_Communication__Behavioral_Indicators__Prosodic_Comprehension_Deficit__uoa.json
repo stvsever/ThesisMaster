@@ -1,0 +1,32 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "pSTS_prosody_BOLD",
+      "IFG_prosody_BOLD",
+      "STG_auditory_prosody_BOLD",
+      "prosody_network_connectivity_STS_IFG_BOLD"
+    ],
+    "physiology": [
+      "ERP_N100_prosody_amplitude",
+      "ERP_N400_prosody_amplitude",
+      "pupil_dilation_prosody_task_percent_change",
+      "HRV_prosody_task"
+    ],
+    "behavior": [
+      "prosodic_comprehension_accuracy",
+      "prosodic_processing_reaction_time_ms",
+      "prosody_discrimination_error_rate",
+      "emotional_prosody_identification_accuracy"
+    ],
+    "self_report": [
+      "self_report_prosody_comprehension_difficulty",
+      "self_report_prosody_perception_efficiency",
+      "self_report_emotional_prosody_recognition_difficulty",
+      "self_report_prosody_attention_difficulty"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

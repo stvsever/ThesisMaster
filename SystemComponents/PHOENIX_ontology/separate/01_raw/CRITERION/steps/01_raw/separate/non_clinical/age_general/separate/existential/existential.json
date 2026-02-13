@@ -1,0 +1,428 @@
+{
+  "EXISTENTIAL": {
+    "LifeSatisfaction": {
+      "ContentmentWithLife": {
+        "PositiveLifeEvaluation": {
+          "OverallHappiness": {},
+          "LifeSatisfactionIndex": {},
+          "EmotionalWellBeing": {},
+          "SubjectiveWellBeing": {}
+        },
+        "SatisfactionInVariousLifeDomains": {
+          "CareerSatisfaction": {},
+          "RelationshipSatisfaction": {},
+          "HealthSatisfaction": {},
+          "FinancialSatisfaction": {}
+        },
+        "FulfillmentOfNeeds": {
+          "PhysiologicalNeeds": {},
+          "SafetyNeeds": {},
+          "SocialNeeds": {},
+          "EsteemNeeds": {}
+        },
+        "GratitudeForLife": {
+          "DailyGratitudePractice": {},
+          "AppreciationOfSmallThings": {},
+          "ThankfulnessExpressions": {},
+          "GratitudeReflection": {}
+        }
+      },
+      "Fulfillment": {
+        "AchievingPersonalGoals": {
+          "GoalSetting": {},
+          "GoalAchievement": {},
+          "MilestoneCelebration": {},
+          "ProgressTracking": {}
+        },
+        "SelfRealization": {
+          "UnderstandingSelf": {},
+          "PersonalGrowth": {},
+          "SelfActualization": {},
+          "AuthenticLiving": {}
+        },
+        "SenseOfAccomplishment": {
+          "TaskCompletion": {},
+          "ProjectSuccess": {},
+          "AchievementRecognition": {},
+          "PersonalAchievements": {}
+        },
+        "PersonalSuccess": {
+          "CareerSuccess": {},
+          "AcademicSuccess": {},
+          "CreativeSuccess": {},
+          "SocialSuccess": {}
+        }
+      },
+      "PositiveEvaluationOfLife": {
+        "LifeBalance": {
+          "WorkLifeBalance": {},
+          "PersonalLifeBalance": {},
+          "EmotionalBalance": {},
+          "TimeManagement": {}
+        },
+        "HarmonyAmongLifeAreas": {
+          "IntegratingRoles": {},
+          "Coordinating Responsibilities": {},
+          "Maintaining Relationships": {},
+          "Balanced Priorities": {}
+        },
+        "AcceptanceOfLifeChoices": {
+          "DecisionSatisfaction": {},
+          "Non-RegretfulLiving": {},
+          "ContentmentWithPastChoices": {},
+          "FuturePlanning": {}
+        },
+        "WellBeingAssessment": {
+          "SelfAssessment": {},
+          "ExternalFeedback": {},
+          "WellBeingMetrics": {},
+          "ContinuousEvaluation": {}
+        }
+      },
+      "AcceptanceOfCircumstances": {
+        "AdaptationToLifeEvents": {
+          "CopingWithChange": {},
+          "ResilienceBuilding": {},
+          "FlexibilityInMindset": {},
+          "EmotionalAdjustment": {}
+        },
+        "EmbracingLifesJourney": {
+          "MindfulLiving": {},
+          "PresenceInNow": {},
+          "AcceptanceOfFlow": {},
+          "AppreciationOfJourney": {}
+        },
+        "PeaceWithThePast": {
+          "Forgiveness": {},
+          "LettingGo": {},
+          "HealingFromPast": {},
+          "MovingForward": {}
+        },
+        "Resilience": {
+          "EmotionalStrength": {},
+          "Persistence": {},
+          "RecoverySkills": {},
+          "StressTolerance": {}
+        }
+      }
+    },
+    "Authenticity": {
+      "TrueToSelf": {
+        "SelfDiscovery": {
+          "ExploringPersonalValues": {},
+          "IdentifyingStrengths": {},
+          "UnderstandingWeaknesses": {},
+          "PersonalReflection": {}
+        },
+        "LivingAuthentically": {
+          "AligningActionsWithValues": {},
+          "ExpressingTrueSelf": {},
+          "HonoringPersonalBeliefs": {},
+          "AuthenticRelationships": {}
+        },
+        "ExpressingTrueIdentity": {
+          "SelfExpression": {},
+          "IdentityAffirmation": {},
+          "PersonalPresentation": {},
+          "CulturalIdentity": {}
+        },
+        "InnerAlignment": {
+          "MentalConsistency": {},
+          "EmotionalHarmony": {},
+          "Spiritual Alignment": {},
+          "BehavioralConsistency": {}
+        }
+      },
+      "Genuineness": {
+        "HonestInteractions": {
+          "Truthfulness": {},
+          "Transparency": {},
+          "OpenCommunication": {},
+          "SincereExpressions": {}
+        },
+        "Sincerity": {
+          "AuthenticFeelings": {},
+          "GenuineIntentions": {},
+          "SincereActions": {},
+          "HonestRelationships": {}
+        },
+        "Transparency": {
+          "OpennessInCommunication": {},
+          "ClearIntentions": {},
+          "VisibleProcesses": {},
+          "HonestFeedback": {}
+        },
+        "BeingUnpretentious": {
+          "Humility": {},
+          "Modesty": {},
+          "Down-to-EarthAttitude": {},
+          "AuthenticPresence": {}
+        }
+      },
+      "SelfDiscovery": {
+        "ExploringPersonalValues": {
+          "ValueIdentification": {},
+          "ValuePrioritization": {},
+          "ValueIntegration": {},
+          "ValueReevaluation": {}
+        },
+        "UnderstandingDesires": {
+          "IdentifyingPassions": {},
+          "RecognizingNeeds": {},
+          "DesireFulfillment": {},
+          "GoalAlignment": {}
+        },
+        "PersonalReflection": {
+          "Journaling": {},
+          "Meditation": {},
+          "SelfAssessment": {},
+          "MindfulnessPractices": {}
+        },
+        "LifeExploration": {
+          "TryingNewThings": {},
+          "ExploringInterests": {},
+          "ExpandingHorizons": {},
+          "ContinuousLearning": {}
+        }
+      },
+      "PersonalIntegrity": {
+        "ConsistencyInActionsAndBeliefs": {
+          "BehavioralAlignment": {},
+          "Value-BasedActions": {},
+          "IntegrityInDecisionMaking": {},
+          "HonoringCommitments": {}
+        },
+        "MoralUprightness": {
+          "EthicalBehavior": {},
+          "MoralCourage": {},
+          "PrincipledLiving": {},
+          "VirtuousConduct": {}
+        },
+        "EthicalConsistency": {
+          "AdheringToEthicalStandards": {},
+          "MaintainingMoralValues": {},
+          "ConsistentEthicalChoices": {},
+          "IntegrityInAllAreas": {}
+        },
+        "ValueCongruence": {
+          "AligningValuesWithActions": {},
+          "ConsistencyInBeliefsAndBehavior": {},
+          "Value-DrivenLiving": {},
+          "HarmoniousValues": {}
+        }
+      }
+    },
+    "Adaptability": {
+      "Flexibility": {
+        "AdjustingToChange": {
+          "EmbracingNewSituations": {},
+          "ChangingPlans": {},
+          "AdaptingMindset": {},
+          "LearningNewSkills": {}
+        },
+        "OpenToNewExperiences": {
+          "WillingnessToExplore": {},
+          "TryingNewActivities": {},
+          "CulturalOpenness": {},
+          "ExperienceSeeking": {}
+        },
+        "Versatility": {
+          "Multi-Skill Proficiency": {},
+          "RoleFlexibility": {},
+          "TaskAdaptation": {},
+          "Resourcefulness": {}
+        },
+        "EmbracingUncertainty": {
+          "ComfortWithAmbiguity": {},
+          "Risk-Taking": {},
+          "UncertaintyTolerance": {},
+          "PositiveOutlookOnChange": {}
+        }
+      },
+      "AcceptanceOfChange": {
+        "LettingGoOfControl": {
+          "TrustingProcesses": {},
+          "ReleasingAttachment": {},
+          "FlexibilityInPlans": {},
+          "EmbracingFlow": {}
+        },
+        "MovingForward": {
+          "ProgressiveMindset": {},
+          "FutureFocus": {},
+          "ContinuousGrowth": {},
+          "Goal-OrientedAction": {}
+        },
+        "LearningFromChange": {
+          "ReflectiveLearning": {},
+          "ExperienceUtilization": {},
+          "AdaptiveLearning": {},
+          "KnowledgeGrowth": {}
+        },
+        "Resilience": {
+          "EmotionalStrength": {},
+          "Persistence": {},
+          "RecoverySkills": {},
+          "StressTolerance": {}
+        }
+      },
+      "Resilience": {
+        "OvercomingAdversity": {
+          "FacingChallenges": {},
+          "EmbracingDifficulties": {},
+          "ProblemSolvingInAdversity": {},
+          "StrengthBuilding": {}
+        },
+        "Persistence": {
+          "Determination": {},
+          "Tenacity": {},
+          "Endurance": {},
+          "Long-TermCommitment": {}
+        },
+        "CopingSkills": {
+          "HealthyCopingMechanisms": {},
+          "StressManagementTechniques": {},
+          "EmotionalRegulation": {},
+          "SupportSeeking": {}
+        },
+        "StressTolerance": {
+          "ManagingStress": {},
+          "BuildingStressResilience": {},
+          "Stress Reduction Practices": {},
+          "MaintainingCalmness": {}
+        }
+      },
+      "AbilityToCope": {
+        "EmotionalRegulation": {
+          "ManagingEmotions": {},
+          "EmotionalAwareness": {},
+          "ExpressingEmotionsHealthily": {},
+          "BalancingEmotions": {}
+        },
+        "ProblemSolving": {
+          "IdentifyingSolutions": {},
+          "CreativeProblemSolving": {},
+          "AnalyticalThinking": {},
+          "DecisionMaking": {}
+        },
+        "SeekingSupport": {
+          "BuildingSupportNetworks": {},
+          "UtilizingResources": {},
+          "AskingForHelp": {},
+          "CommunitySupport": {}
+        },
+        "SelfCarePractices": {
+          "PhysicalSelfCare": {},
+          "MentalSelfCare": {},
+          "EmotionalSelfCare": {},
+          "SpiritualSelfCare": {}
+        }
+      }
+    },
+    "ExistentialSecurity": {
+      "FreedomFromExistentialAnxiety": {
+        "AcceptanceOfMortality": {
+          "PeaceWithLife’sFiniteNature": {},
+          "LegacyPlanning": {},
+          "LivingFully": {},
+          "SpiritualBeliefsAboutAfterlife": {}
+        },
+        "ComfortWithUncertainty": {
+          "EmbracingUnknown": {},
+          "BuildingConfidence": {},
+          "DevelopingTrust": {},
+          "PositiveOutlook": {}
+        },
+        "ExistentialUnderstanding": {
+          "PhilosophicalKnowledge": {},
+          "LifeMeaningExploration": {},
+          "PurposeDiscovery": {},
+          "Self-ConceptClarity": {}
+        },
+        "MeaningMaking": {
+          "CreatingPersonalMeaning": {},
+          "NarrativeConstruction": {},
+          "PurposefulLiving": {},
+          "MeaningfulEngagements": {}
+        }
+      },
+      "AcceptanceOfMortality": {
+        "PeaceWithLife’sFiniteNature": {
+          "MindfulLiving": {},
+          "AppreciationOfLife": {},
+          "EmbracingImpermanence": {},
+          "LegacyBuilding": {}
+        },
+        "LegacyPlanning": {
+          "EstatePlanning": {},
+          "Mentorship": {},
+          "KnowledgeSharing": {},
+          "ValueTransmission": {}
+        },
+        "LivingFully": {
+          "MaximizingLifeExperiences": {},
+          "PursuingPassions": {},
+          "SeizingOpportunities": {},
+          "BalancedLiving": {}
+        },
+        "SpiritualBeliefsAboutAfterlife": {
+          "ReligiousAfterlifeBeliefs": {},
+          "SpiritualContinuity": {},
+          "ReincarnationBeliefs": {},
+          "LegacyOfImpact": {}
+        }
+      },
+      "SenseOfCoherence": {
+        "UnderstandingLife’sPatterns": {
+          "RecognizingLifeCycles": {},
+          "IdentifyingLifeRhythms": {},
+          "PatternRecognition": {},
+          "LifeNarrativeUnderstanding": {}
+        },
+        "FindingOrderInChaos": {
+          "StructureCreation": {},
+          "PredictabilityEstablishment": {},
+          "StabilizingProcesses": {},
+          "ManagingComplexity": {}
+        },
+        "PurposefulLiving": {
+          "GoalAlignment": {},
+          "MeaningfulActivities": {},
+          "IntentionalActions": {},
+          "LifeDirection": {}
+        },
+        "ExistentialMeaning": {
+          "PersonalMeaning": {},
+          "SharedMeaning": {},
+          "CollectivePurpose": {},
+          "MeaningfulConnections": {}
+        }
+      },
+      "ExistentialCourage": {
+        "FacingFears": {
+          "ConfrontingPhobias": {},
+          "OvercomingAnxiety": {},
+          "BraveryInChallenges": {},
+          "FearlessLiving": {}
+        },
+        "AuthenticLiving": {
+          "LivingTrueToValues": {},
+          "ExpressingAuthenticity": {},
+          "TransparentLiving": {},
+          "ConsistentSelf-Presentation": {}
+        },
+        "EmbracingVulnerability": {
+          "OpenExpression": {},
+          "EmotionalHonesty": {},
+          "Risk-Taking": {},
+          "BuildingTrust": {}
+        },
+        "StrengthInAdversity": {
+          "ResilientMindset": {},
+          "EmpowermentThroughChallenges": {},
+          "GrowthFromAdversity": {},
+          "TransformativeStrength": {}
+        }
+      }
+    }
+  }
+}

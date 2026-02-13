@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "attention_fluctuation"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "delusions"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "IQ_20_34_RANGE"
+    },
+    {
+      "criterium": "ADAPTIVE_CONCEPTUAL_DEFICIT"
+    },
+    {
+      "criterium": "ADAPTIVE_SOCIAL_DEFICIT"
+    },
+    {
+      "criterium": "ADAPTIVE_PRAC_DEFICIT"
+    },
+    {
+      "criterium": "LIMITED_VERBAL_COMMUNICATION"
+    },
+    {
+      "criterium": "RECEPTIVE_LANGUAGE_DEFICIT"
+    },
+    {
+      "criterium": "EXPRESSIVE_LANGUAGE_DEFICIT"
+    },
+    {
+      "criterium": "MOTOR_SKILL_DELAY"
+    },
+    {
+      "criterium": "SEIZURES_PRESENT"
+    },
+    {
+      "criterium": "SELF_FEEDING_DIFFICULTY"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

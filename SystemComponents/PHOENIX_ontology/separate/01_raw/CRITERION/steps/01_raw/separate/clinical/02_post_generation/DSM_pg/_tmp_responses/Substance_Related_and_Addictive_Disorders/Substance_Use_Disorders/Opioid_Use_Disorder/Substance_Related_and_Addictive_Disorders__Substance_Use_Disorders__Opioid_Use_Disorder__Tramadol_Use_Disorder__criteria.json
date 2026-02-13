@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_tramadol"
+    },
+    {
+      "criterium": "tolerance_tramadol"
+    },
+    {
+      "criterium": "withdrawal_tramadol_symptoms"
+    },
+    {
+      "criterium": "unsuccessful_cutdown_tramadol"
+    },
+    {
+      "criterium": "time_spent_tramadol_related_activities"
+    },
+    {
+      "criterium": "increased_tramadol_intake_to_achieve_effect"
+    },
+    {
+      "criterium": "daily_or_nearly_daily_tramadol_use"
+    },
+    {
+      "criterium": "work_impairment_due_to_tramadol"
+    },
+    {
+      "criterium": "social_impairment_due_to_tramadol"
+    },
+    {
+      "criterium": "hazardous_use_tramadol"
+    },
+    {
+      "criterium": "continued_use_despite_harm_from_tramadol"
+    },
+    {
+      "criterium": "spending_resources_on_tramadol"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

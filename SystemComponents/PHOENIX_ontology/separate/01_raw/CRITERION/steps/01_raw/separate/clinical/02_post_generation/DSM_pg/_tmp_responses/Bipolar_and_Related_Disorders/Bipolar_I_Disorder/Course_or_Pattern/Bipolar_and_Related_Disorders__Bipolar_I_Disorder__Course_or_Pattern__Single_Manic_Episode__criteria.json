@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_mood"
+    },
+    {
+      "criterium": "decreased_sleep_need"
+    },
+    {
+      "criterium": "increased_energy_or_activity"
+    },
+    {
+      "criterium": "increased_goal_directed_activity"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "distractibility"
+    },
+    {
+      "criterium": "grandiosity"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "engagement_in_risky_activities"
+    },
+    {
+      "criterium": "delusions"
+    },
+    {
+      "criterium": "hallucinations"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sudden_arousal_from_SWS_with_fear"
+    },
+    {
+      "criterium": "screaming_or_vocalizations_during_arousal"
+    },
+    {
+      "criterium": "motor_activity_or_thrashing_during_arousal"
+    },
+    {
+      "criterium": "amnesia_for_episode"
+    },
+    {
+      "criterium": "non_responsiveness_to_reassurance_during_episode"
+    },
+    {
+      "criterium": "disorientation_upon_waking"
+    },
+    {
+      "criterium": "tachycardia_during_episode"
+    },
+    {
+      "criterium": "sweating_during_episode"
+    },
+    {
+      "criterium": "occurs_during_first_third_of_sleep"
+    },
+    {
+      "criterium": "episode_duration_minutes"
+    },
+    {
+      "criterium": "no_recall_of_sleep_content"
+    },
+    {
+      "criterium": "episodes_recurrent_across_nights"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "history_of_lobar_intracerebral_hemorrhage"
+    },
+    {
+      "criterium": "recurrent_lobar_intracerebral_hemorrhage"
+    },
+    {
+      "criterium": "cortical_superficial_siderosis"
+    },
+    {
+      "criterium": "lobar_predominant_cerebral_microbleeds"
+    },
+    {
+      "criterium": "transient_focal_neurological_episodes"
+    },
+    {
+      "criterium": "seizures_epileptiform_activity"
+    },
+    {
+      "criterium": "vascular_pattern_cognitive_decline"
+    },
+    {
+      "criterium": "white_matter_hyperintensities_subcortical_predominance"
+    },
+    {
+      "criterium": "MRI_detected_lacunar_infarcts"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

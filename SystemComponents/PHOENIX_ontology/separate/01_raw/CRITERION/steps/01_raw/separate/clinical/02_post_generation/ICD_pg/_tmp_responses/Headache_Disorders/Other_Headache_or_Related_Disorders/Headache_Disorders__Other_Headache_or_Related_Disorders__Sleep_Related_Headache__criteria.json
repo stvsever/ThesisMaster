@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "onset_during_sleep"
+    },
+    {
+      "criterium": "awakening_headache"
+    },
+    {
+      "criterium": "headache_location_bilateral"
+    },
+    {
+      "criterium": "headache_quality_pulsatile"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "phonophobia_present"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "normal_neurological_exam"
+    },
+    {
+      "criterium": "no_focal_neurological_deficits"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

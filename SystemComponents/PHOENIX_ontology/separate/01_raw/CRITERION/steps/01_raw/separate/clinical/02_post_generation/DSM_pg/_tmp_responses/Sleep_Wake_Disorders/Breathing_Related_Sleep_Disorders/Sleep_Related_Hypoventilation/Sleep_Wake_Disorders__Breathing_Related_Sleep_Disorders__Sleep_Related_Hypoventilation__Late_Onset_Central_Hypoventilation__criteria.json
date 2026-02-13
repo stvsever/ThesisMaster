@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_hypercapnia"
+    },
+    {
+      "criterium": "daytime_hypercapnia"
+    },
+    {
+      "criterium": "nocturnal_hypoxemia"
+    },
+    {
+      "criterium": "awake_hypoventilation"
+    },
+    {
+      "criterium": "reduced_sleep_minute_ventilation"
+    },
+    {
+      "criterium": "reduced_sleep_tidal_volume"
+    },
+    {
+      "criterium": "blunted_hypercapnic_ventilatory_response"
+    },
+    {
+      "criterium": "morning_headache"
+    },
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

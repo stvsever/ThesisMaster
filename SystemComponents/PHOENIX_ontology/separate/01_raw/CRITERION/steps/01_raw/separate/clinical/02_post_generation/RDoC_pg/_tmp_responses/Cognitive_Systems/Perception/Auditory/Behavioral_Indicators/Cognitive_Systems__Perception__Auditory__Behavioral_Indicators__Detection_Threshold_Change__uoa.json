@@ -1,0 +1,62 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF",
+      "COMT",
+      "KCNQ4",
+      "OTOF",
+      "GJB2",
+      "SLC26A4",
+      "MYO7A",
+      "STRC"
+    ],
+    "molecules": [
+      "GABA",
+      "Glutamate",
+      "BDNF_protein",
+      "NMDA_receptor",
+      "AMPA_receptor",
+      "Acetylcholine"
+    ],
+    "cells": [
+      "inner_hair_cells",
+      "outer_hair_cells",
+      "spiral_ganglion_neurons",
+      "cochlear_nucleus_neurons",
+      "inferior_colliculus_neurons",
+      "primary_auditory_cortex_pyramidal_cells"
+    ],
+    "circuits": [
+      "cochlear_nerve",
+      "cochlear_nucleus",
+      "superior_olivary_complex",
+      "lateral_lemniscus",
+      "inferior_colliculus",
+      "medial_geniculate_nucleus",
+      "primary_auditory_cortex"
+    ],
+    "physiology": [
+      "pure_tone_threshold_dBHL",
+      "speech_detection_threshold_dB",
+      "temporal_acuity_ms",
+      "neural_phase_locking_index",
+      "auditory_evoked_potential_amplitude_muV",
+      "latency_N1_ms"
+    ],
+    "behavior": [
+      "tonal_detection_threshold_db",
+      "signal_detection_dprime",
+      "hit_rate_percent",
+      "false_alarm_rate_percent",
+      "reaction_time_ms",
+      "temporal_discrimination_threshold_ms"
+    ],
+    "self_report": [
+      "auditory_sensitivity_scale",
+      "sound_hypersensitivity_score",
+      "hearing_quality_self_report",
+      "tinnitus_distress_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 4.0
+}

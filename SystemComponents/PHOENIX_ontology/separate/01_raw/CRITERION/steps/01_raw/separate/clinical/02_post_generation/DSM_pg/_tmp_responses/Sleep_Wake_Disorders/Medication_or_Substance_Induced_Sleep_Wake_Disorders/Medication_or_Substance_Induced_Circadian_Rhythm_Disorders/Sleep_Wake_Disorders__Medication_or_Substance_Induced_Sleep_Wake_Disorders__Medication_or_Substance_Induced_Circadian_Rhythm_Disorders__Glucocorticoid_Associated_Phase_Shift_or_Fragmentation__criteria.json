@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_onset_latency_prolonged"
+    },
+    {
+      "criterium": "wake_after_sleep_onset_increased"
+    },
+    {
+      "criterium": "total_sleep_time_reduction"
+    },
+    {
+      "criterium": "sleep_efficiency_reduction"
+    },
+    {
+      "criterium": "nocturnal_awakenings_increased"
+    },
+    {
+      "criterium": "circadian_phase_delay"
+    },
+    {
+      "criterium": "circadian_phase_advance"
+    },
+    {
+      "criterium": "melatonin_onset_shifted"
+    },
+    {
+      "criterium": "REM_sleep_latency_prolonged"
+    },
+    {
+      "criterium": "slow_wave_sleep_reduction"
+    },
+    {
+      "criterium": "evening_salivary_cortisol_elevation"
+    },
+    {
+      "criterium": "diurnal_napping_increased"
+    },
+    {
+      "criterium": "early_morning_awakenings_increased"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

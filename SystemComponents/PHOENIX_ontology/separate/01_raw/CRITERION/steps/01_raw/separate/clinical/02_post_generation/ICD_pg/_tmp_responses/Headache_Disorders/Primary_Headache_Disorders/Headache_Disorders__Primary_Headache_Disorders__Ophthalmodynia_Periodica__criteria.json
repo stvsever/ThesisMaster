@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_periorbital_pain"
+    },
+    {
+      "criterium": "conjunctival_injection_on_affected_side"
+    },
+    {
+      "criterium": "lacrimation_on_affected_side"
+    },
+    {
+      "criterium": "ptosis_on_affected_side"
+    },
+    {
+      "criterium": "miosis_on_affected_side"
+    },
+    {
+      "criterium": "nasal_congestion_on_affected_side"
+    },
+    {
+      "criterium": "normal_neurological_examination_between_attacks"
+    },
+    {
+      "criterium": "pain_quality_sharp_or_stabbing"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

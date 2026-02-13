@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF",
+      "COMT_V158M",
+      "OPRM1_A118G",
+      "SCN9A",
+      "FAAH",
+      "CRH"
+    ],
+    "molecules": [
+      "Noradrenaline",
+      "Dopamine",
+      "Cortisol",
+      "Beta_endorphin",
+      "Oxytocin",
+      "Anandamide"
+    ],
+    "cells": [
+      "insula_pyramidal_neuron_density",
+      "insula_interneuron_density",
+      "glial_cell_density_insula"
+    ],
+    "circuits": [
+      "insula_amygdala_fc",
+      "insula_dACC_fc",
+      "insula_thalamus_fc",
+      "insula_prefrontal_fc"
+    ],
+    "physiology": [
+      "heart_rate",
+      "HRV_RMSSD",
+      "skin_conductance_response",
+      "respiratory_rate",
+      "pupil_dilation_index"
+    ],
+    "behavior": [
+      "heartbeat_detection_accuracy",
+      "heartbeat_counting_task_accuracy",
+      "breath_hold_duration"
+    ],
+    "self_report": [
+      "interoceptive_awareness_score",
+      "body_awareness_scale_score",
+      "interoceptive_hypervigilance_score",
+      "anxiety_interoceptive_distress_score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

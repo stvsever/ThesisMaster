@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "executive_function_decline"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "attention_concentration_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "language_impairment"
+    },
+    {
+      "criterium": "peripheral_sensorimotor_neuropathy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

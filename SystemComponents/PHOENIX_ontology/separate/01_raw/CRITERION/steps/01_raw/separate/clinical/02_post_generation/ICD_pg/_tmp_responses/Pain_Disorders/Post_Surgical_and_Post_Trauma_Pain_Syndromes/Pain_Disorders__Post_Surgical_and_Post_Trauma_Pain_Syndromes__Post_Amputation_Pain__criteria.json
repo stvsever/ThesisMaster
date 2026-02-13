@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "phantom_pain_presence"
+    },
+    {
+      "criterium": "phantom_pain_intensity"
+    },
+    {
+      "criterium": "residual_limb_pain_presence"
+    },
+    {
+      "criterium": "neuroma_pain_presence"
+    },
+    {
+      "criterium": "allodynia_in_residual_limb"
+    },
+    {
+      "criterium": "hyperalgesia_in_residual_limb"
+    },
+    {
+      "criterium": "movement_induced_pain_in_residual_limb"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_pain"
+    },
+    {
+      "criterium": "pain_related_anxiety"
+    },
+    {
+      "criterium": "pain_catastrophizing"
+    },
+    {
+      "criterium": "depressive_symptoms_pain_related"
+    },
+    {
+      "criterium": "functional_impairment_due_to_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

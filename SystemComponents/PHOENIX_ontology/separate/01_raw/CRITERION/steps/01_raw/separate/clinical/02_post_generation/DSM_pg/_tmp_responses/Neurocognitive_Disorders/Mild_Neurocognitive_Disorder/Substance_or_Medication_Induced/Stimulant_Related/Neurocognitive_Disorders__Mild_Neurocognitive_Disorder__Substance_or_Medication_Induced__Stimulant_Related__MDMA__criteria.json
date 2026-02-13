@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_working_memory"
+    },
+    {
+      "criterium": "impaired_delayed_recall"
+    },
+    {
+      "criterium": "reduced_processing_speed"
+    },
+    {
+      "criterium": "impaired_sustained_attention"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "impaired_verbal_fluency"
+    },
+    {
+      "criterium": "impaired_visual_spatial_construction"
+    },
+    {
+      "criterium": "impaired_learning_of_new_information"
+    },
+    {
+      "criterium": "impaired_prospective_memory"
+    },
+    {
+      "criterium": "impaired_social_cognition"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

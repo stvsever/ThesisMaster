@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_buprenorphine_intensity"
+    },
+    {
+      "criterium": "buprenorphine_tolerance_development_with_increased_dose_requirement"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_buprenorphine_cessation"
+    },
+    {
+      "criterium": "buprenorphine_use_without_prescription_or_authorization"
+    },
+    {
+      "criterium": "recurrent_failed_cut_down_attempts_to_reduce_buprenorphine_use"
+    },
+    {
+      "criterium": "time_spent_obtaining_and_using_buprenorphine"
+    },
+    {
+      "criterium": "use_of_buprenorphine_in_dangerous_settings_or_illicit_contexts"
+    },
+    {
+      "criterium": "continued_buprenorphine_use_despite_adverse_health_effects"
+    },
+    {
+      "criterium": "impaired_social_functioning_due_to_buprenorphine_use"
+    },
+    {
+      "criterium": "impaired_occupational_functioning_due_to_buprenorphine_use"
+    },
+    {
+      "criterium": "interpersonal_conflicts_over_buprenorphine_use"
+    }
+  ],
+  "estimated_prevalence_percent": 0.12
+}

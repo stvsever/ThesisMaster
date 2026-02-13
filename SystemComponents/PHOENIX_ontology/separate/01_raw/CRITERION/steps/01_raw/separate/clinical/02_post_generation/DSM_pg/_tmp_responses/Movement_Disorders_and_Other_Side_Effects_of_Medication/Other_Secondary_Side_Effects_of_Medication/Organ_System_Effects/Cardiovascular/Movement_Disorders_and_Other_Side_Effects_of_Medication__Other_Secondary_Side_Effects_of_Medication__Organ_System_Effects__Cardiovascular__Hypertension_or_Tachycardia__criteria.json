@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SBP_GE_140"
+    },
+    {
+      "criterium": "DBP_GE_90"
+    },
+    {
+      "criterium": "HR_REST_GT_100"
+    },
+    {
+      "criterium": "PULSE_PRESSURE_GE_60"
+    },
+    {
+      "criterium": "RETINOPATHY_PRESENT"
+    },
+    {
+      "criterium": "LVH_ECG_PRESENT"
+    },
+    {
+      "criterium": "PROTEINURIA_PRESENT"
+    },
+    {
+      "criterium": "ECG_ST_T_WAVE_ABNORMALITIES"
+    },
+    {
+      "criterium": "ARRHYTHMIA_DETECTED_ON_ECG"
+    }
+  ],
+  "estimated_prevalence_percent": 34.0
+}

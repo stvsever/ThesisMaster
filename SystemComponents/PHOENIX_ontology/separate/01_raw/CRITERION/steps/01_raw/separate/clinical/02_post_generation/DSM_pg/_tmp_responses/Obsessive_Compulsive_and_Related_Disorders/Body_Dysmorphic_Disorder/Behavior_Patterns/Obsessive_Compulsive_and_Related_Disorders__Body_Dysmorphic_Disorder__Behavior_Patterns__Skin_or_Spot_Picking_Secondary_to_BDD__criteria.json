@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "REPETITIVE_SKIN_PICKING"
+    },
+    {
+      "criterium": "PICKING_USING_FINGERTIPS_OR_TOOLS"
+    },
+    {
+      "criterium": "EXCORIATIONS_PRESENT"
+    },
+    {
+      "criterium": "MIRROR_INSPECTION_FOR_DEFECTS"
+    },
+    {
+      "criterium": "PREOCCUPATION_WITH_PERCEIVED_SKIN_DEFECT"
+    },
+    {
+      "criterium": "COMPULSIVE_URGE_TO_PICK"
+    },
+    {
+      "criterium": "TEMPORARY_RELIEF_AFTER_PICKING"
+    },
+    {
+      "criterium": "SOCIAL_WITHDRAWAL_DUE_TO_APPEARANCE_CONCERNS"
+    },
+    {
+      "criterium": "MAKEUP_CONCEALMENT_OF_DEFECTS"
+    },
+    {
+      "criterium": "VISIBLE_SCARS_OR_PIGMENTARY_MARKS_FROM_PICKING"
+    },
+    {
+      "criterium": "ANXIETY_BEFORE_PICKING"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

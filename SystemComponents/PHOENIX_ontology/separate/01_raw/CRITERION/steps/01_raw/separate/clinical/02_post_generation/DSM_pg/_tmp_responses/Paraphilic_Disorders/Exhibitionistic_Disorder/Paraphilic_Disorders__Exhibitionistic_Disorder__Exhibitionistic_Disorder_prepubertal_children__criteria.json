@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_exposure_of_genitalia_to_nonconsenting_individuals"
+    },
+    {
+      "criterium": "exposure_of_genitalia_in_public_settings"
+    },
+    {
+      "criterium": "exposure_of_genitalia_in_school_settings"
+    },
+    {
+      "criterium": "exhibitionistic_urges_or_fantasies_present"
+    },
+    {
+      "criterium": "repeated_exhibitionistic_incidents_across_settings"
+    },
+    {
+      "criterium": "distress_or_impairment_in_social_or_school_functioning_due_to_exhibitionistic_behaviors"
+    },
+    {
+      "criterium": "diminished_inhibitory_control_over_exhibitionistic_actions"
+    },
+    {
+      "criterium": "lack_of_remorse_or_concern_after_exhibitionistic_incidents"
+    },
+    {
+      "criterium": "interference_with_peer_relationships_due_to_exhibitionistic_behaviors"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

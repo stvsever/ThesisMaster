@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_worry"
+    },
+    {
+      "criterium": "restlessness"
+    },
+    {
+      "criterium": "depressed_mood_present"
+    },
+    {
+      "criterium": "anhedonia_present"
+    },
+    {
+      "criterium": "sleep_disturbance_present"
+    },
+    {
+      "criterium": "fatigue_present"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "guilt_feelings_present"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "functional_impairment_in_social_or_work_domains"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

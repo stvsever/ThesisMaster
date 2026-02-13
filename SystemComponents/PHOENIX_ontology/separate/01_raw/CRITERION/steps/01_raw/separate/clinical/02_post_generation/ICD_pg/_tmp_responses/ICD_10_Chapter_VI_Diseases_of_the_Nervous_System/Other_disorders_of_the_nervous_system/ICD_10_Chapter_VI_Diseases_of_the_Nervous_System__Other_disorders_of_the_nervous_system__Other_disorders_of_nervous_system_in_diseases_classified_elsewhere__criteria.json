@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "short_term_memory_deficit"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "aphasia"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "apraxia"
+    },
+    {
+      "criterium": "disorientation_time_place"
+    },
+    {
+      "criterium": "cognitive_fatigue"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "processing_speed_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

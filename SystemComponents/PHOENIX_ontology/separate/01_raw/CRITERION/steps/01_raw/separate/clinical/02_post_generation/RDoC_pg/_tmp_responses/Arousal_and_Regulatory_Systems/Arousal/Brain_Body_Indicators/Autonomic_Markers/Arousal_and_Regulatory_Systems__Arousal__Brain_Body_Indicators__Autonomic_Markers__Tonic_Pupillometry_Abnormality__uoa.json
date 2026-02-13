@@ -1,0 +1,39 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DBH_genotype",
+      "ADRA1A_genotype",
+      "ADRA2A_genotype",
+      "SLC6A2_genotype"
+    ],
+    "molecules": [
+      "norepinephrine_plasma_concentration",
+      "epinephrine_plasma_concentration",
+      "acetylcholine_plasma_concentration",
+      "cortisol_plasma_concentration",
+      "dopamine_plasma_concentration"
+    ],
+    "cells": [
+      "locus_coeruleus_noradrenergic_neuron_density",
+      "iris_dilator_smooth_muscle_cell_density",
+      "superior_cervical_ganglion_neuron_density"
+    ],
+    "circuits": [
+      "locus_coeruleus_firing_rate_spikes_per_second",
+      "superior_cervical_ganglion_output_tonic_activity",
+      "iris_dilator_muscle_adrenergic_innervation_strength",
+      "pupillary_control_network_connectivity_strength"
+    ],
+    "physiology": [
+      "baseline_pupil_diameter_mm",
+      "tonic_pupil_diameter_mm",
+      "pupil_diameter_variability_coefficient_of_variation",
+      "pupil_diameter_sd_mm",
+      "resting_pupil_dilation_rate_mm_per_min",
+      "pupil_size_stability_index"
+    ],
+    "behavior": null,
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 2.0
+}

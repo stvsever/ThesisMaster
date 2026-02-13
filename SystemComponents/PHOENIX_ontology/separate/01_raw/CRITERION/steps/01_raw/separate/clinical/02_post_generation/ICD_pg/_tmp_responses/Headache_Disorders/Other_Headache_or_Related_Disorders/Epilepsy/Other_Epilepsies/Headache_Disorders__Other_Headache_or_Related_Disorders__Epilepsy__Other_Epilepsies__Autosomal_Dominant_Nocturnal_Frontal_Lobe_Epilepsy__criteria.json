@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_focal_motor_ictus_frontal_origin"
+    },
+    {
+      "criterium": "hyperkinetic_nocturnal_movements"
+    },
+    {
+      "criterium": "nocturnal_vocalisations"
+    },
+    {
+      "criterium": "autonomic_signs_during_nocturnal_seizures"
+    },
+    {
+      "criterium": "postictal_amnesia_for_nocturnal_events"
+    },
+    {
+      "criterium": "automatisms_during_sleep_seizures"
+    },
+    {
+      "criterium": "family_history_ADNFLE_in_first_degree_relatives"
+    },
+    {
+      "criterium": "interictal_frontal_lobe_epileptiform_discharges_on_EEG"
+    },
+    {
+      "criterium": "ictal_frontal_seizure_signature_on_EEG"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

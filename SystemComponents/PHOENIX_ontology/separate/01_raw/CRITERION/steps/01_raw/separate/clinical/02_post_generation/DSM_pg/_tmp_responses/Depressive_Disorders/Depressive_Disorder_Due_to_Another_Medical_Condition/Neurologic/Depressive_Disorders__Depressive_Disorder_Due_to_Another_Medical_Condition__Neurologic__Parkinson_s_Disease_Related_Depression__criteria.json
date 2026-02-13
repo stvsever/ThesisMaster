@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "PERSISTENT_DEPRESSED_MOOD"
+    },
+    {
+      "criterium": "ANHEDONIA"
+    },
+    {
+      "criterium": "PSYCHOMOTOR_SLOWING"
+    },
+    {
+      "criterium": "FATIGUE_OR_LOW_ENERGY"
+    },
+    {
+      "criterium": "INSOMNIA_OR_SLEEP_DISTURBANCE"
+    },
+    {
+      "criterium": "POOR_CONCENTRATION"
+    },
+    {
+      "criterium": "FEELINGS_OF_WORTHLESSNESS_OR_GUILT"
+    },
+    {
+      "criterium": "APPETITE_CHANGE"
+    },
+    {
+      "criterium": "WEIGHT_CHANGE"
+    },
+    {
+      "criterium": "SUICIDAL_IDEATION"
+    },
+    {
+      "criterium": "IRRITABILITY"
+    },
+    {
+      "criterium": "SOCIAL_WITHDRAWAL"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

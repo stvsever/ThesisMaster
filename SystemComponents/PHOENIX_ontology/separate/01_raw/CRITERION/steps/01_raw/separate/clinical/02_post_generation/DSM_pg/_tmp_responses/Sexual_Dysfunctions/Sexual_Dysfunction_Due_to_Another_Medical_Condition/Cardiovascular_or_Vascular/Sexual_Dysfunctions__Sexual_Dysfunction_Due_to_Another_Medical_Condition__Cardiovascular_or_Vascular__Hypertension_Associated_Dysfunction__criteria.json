@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "erectile_dysfunction"
+    },
+    {
+      "criterium": "reduced_penile_rigidity"
+    },
+    {
+      "criterium": "decreased_nocturnal_penile_tumescence"
+    },
+    {
+      "criterium": "delayed_erection_onset"
+    },
+    {
+      "criterium": "reduced_libido"
+    },
+    {
+      "criterium": "orgasmic_dysfunction"
+    },
+    {
+      "criterium": "decreased_coital_satisfaction"
+    }
+  ],
+  "estimated_prevalence_percent": 8.5
+}

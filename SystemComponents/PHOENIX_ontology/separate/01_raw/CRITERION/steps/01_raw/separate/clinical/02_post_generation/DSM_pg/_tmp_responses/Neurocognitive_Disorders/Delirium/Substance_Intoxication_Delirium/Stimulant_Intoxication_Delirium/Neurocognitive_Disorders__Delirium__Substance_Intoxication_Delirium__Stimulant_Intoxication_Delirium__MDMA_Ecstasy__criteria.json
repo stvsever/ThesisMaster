@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "altered_level_of_consciousness"
+    },
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "disorientation_time_place"
+    },
+    {
+      "criterium": "disorganized_thought_process"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "language_disturbance"
+    },
+    {
+      "criterium": "autonomic_dysregulation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "generalized_maculopapular_rash"
+    },
+    {
+      "criterium": "facial_edema"
+    },
+    {
+      "criterium": "fever"
+    },
+    {
+      "criterium": "eosinophilia"
+    },
+    {
+      "criterium": "atypical_lymphocytosis"
+    },
+    {
+      "criterium": "lymphadenopathy"
+    },
+    {
+      "criterium": "ALT_elevation"
+    },
+    {
+      "criterium": "AST_elevation"
+    },
+    {
+      "criterium": "bilirubin_elevation"
+    },
+    {
+      "criterium": "renal_impairment"
+    },
+    {
+      "criterium": "pulmonary_involvement"
+    },
+    {
+      "criterium": "myocarditis"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

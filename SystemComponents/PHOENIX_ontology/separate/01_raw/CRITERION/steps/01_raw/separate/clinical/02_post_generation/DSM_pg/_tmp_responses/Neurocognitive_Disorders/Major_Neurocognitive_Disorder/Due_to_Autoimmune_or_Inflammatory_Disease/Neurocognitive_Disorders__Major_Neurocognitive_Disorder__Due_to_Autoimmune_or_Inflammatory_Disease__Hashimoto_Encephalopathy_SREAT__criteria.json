@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "memory_deficits"
+    },
+    {
+      "criterium": "delirium"
+    },
+    {
+      "criterium": "seizures"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "ataxia_gait_disturbance"
+    },
+    {
+      "criterium": "aphasia_or_dysarthria"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "psychosis_present"
+    },
+    {
+      "criterium": "focal_neurological_signs"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0002
+}

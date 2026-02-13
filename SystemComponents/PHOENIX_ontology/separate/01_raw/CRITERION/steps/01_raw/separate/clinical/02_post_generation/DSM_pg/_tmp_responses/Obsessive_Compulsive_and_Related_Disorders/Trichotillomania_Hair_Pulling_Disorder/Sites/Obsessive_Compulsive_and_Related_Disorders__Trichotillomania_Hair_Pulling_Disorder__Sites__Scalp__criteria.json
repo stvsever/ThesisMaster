@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "scalp_hair_pulling_behavior"
+    },
+    {
+      "criterium": "scalp_hair_pulling_frequency_per_day"
+    },
+    {
+      "criterium": "scalp_patchy_hair_loss_present"
+    },
+    {
+      "criterium": "scalp_hair_breakage_lengths_varied"
+    },
+    {
+      "criterium": "scalp_hair_fragments_detectable_on_pillow_or_clothing"
+    },
+    {
+      "criterium": "scalp_erythema_at_pulling_sites"
+    },
+    {
+      "criterium": "scalp_excoriations_at_pulling_sites"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

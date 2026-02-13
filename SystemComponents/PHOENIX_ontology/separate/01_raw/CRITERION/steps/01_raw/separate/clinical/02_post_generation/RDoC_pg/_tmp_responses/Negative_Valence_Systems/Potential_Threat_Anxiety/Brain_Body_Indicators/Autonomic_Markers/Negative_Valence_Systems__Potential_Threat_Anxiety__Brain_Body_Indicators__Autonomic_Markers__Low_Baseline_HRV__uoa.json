@@ -1,0 +1,34 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": [
+      "plasma_norepinephrine",
+      "plasma_epinephrine",
+      "plasma_cortisol",
+      "plasma_acetylcholine"
+    ],
+    "cells": null,
+    "circuits": [
+      "rsfc_amygdala_prefrontal",
+      "rsfc_insula_anterior_cingulate",
+      "brainstem_vagal_control_connectivity"
+    ],
+    "physiology": [
+      "resting_heart_rate_bpm",
+      "resting_rmssd_ms",
+      "resting_sdnn_ms",
+      "resting_hf_power_ms2",
+      "resting_lf_power_ms2",
+      "resting_lf_hf_ratio",
+      "respiratory_rate_rest_bpm"
+    ],
+    "behavior": null,
+    "self_report": [
+      "state_anxiety_score",
+      "trait_anxiety_score",
+      "perceived_stress_scale_score",
+      "gad7_score"
+    ]
+  },
+  "estimated_prevalence_percent": 12.5
+}

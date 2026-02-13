@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_hypercapnia_paCO2_elevated"
+    },
+    {
+      "criterium": "nocturnal_hypoxemia_spO2_nadir"
+    },
+    {
+      "criterium": "reduced_nocturnal_minute_ventilation"
+    },
+    {
+      "criterium": "reduced_nocturnal_tidal_volume"
+    },
+    {
+      "criterium": "daytime_hypercapnia_paCO2_elevated"
+    },
+    {
+      "criterium": "metabolic_compensation_hco3_elevated"
+    },
+    {
+      "criterium": "reduced_vital_capacity_percent_predicted"
+    },
+    {
+      "criterium": "reduced_max_inspiratory_pressure_percent_predicted"
+    },
+    {
+      "criterium": "decreased_peak_cough_flow"
+    },
+    {
+      "criterium": "diaphragmatic_weakness"
+    },
+    {
+      "criterium": "decreased_chest_wall_compliance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

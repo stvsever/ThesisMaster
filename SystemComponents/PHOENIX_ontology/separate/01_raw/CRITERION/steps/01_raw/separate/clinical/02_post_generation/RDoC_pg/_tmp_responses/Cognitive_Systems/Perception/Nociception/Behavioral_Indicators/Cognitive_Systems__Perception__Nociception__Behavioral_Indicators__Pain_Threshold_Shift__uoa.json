@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "SCN9A_genotype",
+      "SCN9A_expression_level",
+      "TRPV1_genotype",
+      "TRPV1_expression_level",
+      "OPRM1_genotype",
+      "COMT_val158_met_genotype",
+      "BDNF_rs6265_genotype"
+    ],
+    "molecules": [
+      "endorphin_concentration",
+      "substance_P_concentration",
+      "glutamate_concentration",
+      "BDNF_concentration",
+      "NGF_concentration",
+      "prostaglandin_E2_concentration"
+    ],
+    "cells": [
+      "C_fiber_density",
+      "A_delta_fiber_density",
+      "CGRP_positive_neuron_count",
+      "satellite_glial_cell_activation_level"
+    ],
+    "circuits": [
+      "spinothalamic_pathway_activation",
+      "insula_activation_magnitude",
+      "anterior_cingulate_activation",
+      "prefrontal_cortex_activation",
+      "PAG_activation",
+      "S1_activation"
+    ],
+    "physiology": [
+      "heat_pain_threshold_degC",
+      "mechanical_pain_threshold_mN",
+      "cold_pain_threshold_degC",
+      "pain_stimulus_evoked_heart_rate_change_bpm",
+      "skin_conductance_response_microSiemens"
+    ],
+    "behavior": [
+      "withdrawal_latency_to_heat_pain_ms",
+      "pinch_withdrawal_reaction_time_ms",
+      "facial_pain_expression_score",
+      "guarding_behavior_occurrence",
+      "vocal_pain_limb_discomfort_duration_ms"
+    ],
+    "self_report": [
+      "pain_threshold_estimate_scale",
+      "pain_intensity_rating_0_100",
+      "pain_anticipation_rating",
+      "pain_discomfort_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 6.5
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "receptive_language_impairment"
+    },
+    {
+      "criterium": "expressive_language_impairment"
+    },
+    {
+      "criterium": "pragmatic_language_deficit"
+    },
+    {
+      "criterium": "social_interaction_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "sustained_attention_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "gross_motor_skill_deficit"
+    },
+    {
+      "criterium": "fine_motor_skill_deficit"
+    },
+    {
+      "criterium": "motor_coordination_impairment"
+    },
+    {
+      "criterium": "adaptive_behavior_deficit"
+    },
+    {
+      "criterium": "sensory_processing_anomalies"
+    }
+  ],
+  "estimated_prevalence_percent": 1.8
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unprovoked_seizure_occurrence"
+    },
+    {
+      "criterium": "focal_motor_seizure_event"
+    },
+    {
+      "criterium": "focal_impaired_awareness_seizure_event"
+    },
+    {
+      "criterium": "generalized_tonic_clonic_seizure_event"
+    },
+    {
+      "criterium": "myoclonic_seizure_event"
+    },
+    {
+      "criterium": "absence_seizure_event"
+    },
+    {
+      "criterium": "ictal_aura_reported"
+    },
+    {
+      "criterium": "postictal_confusion"
+    },
+    {
+      "criterium": "epileptiform_discharges_on_eeg"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

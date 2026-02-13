@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acute_dystonia_present"
+    },
+    {
+      "criterium": "oculogyric_crisis_present"
+    },
+    {
+      "criterium": "blepharospasm_present"
+    },
+    {
+      "criterium": "oromandibular_dyskinesia_present"
+    },
+    {
+      "criterium": "tongue_protrusion_present"
+    },
+    {
+      "criterium": "lip_smacking_present"
+    },
+    {
+      "criterium": "facial_dyskinesia_present"
+    },
+    {
+      "criterium": "akathisia_present"
+    },
+    {
+      "criterium": "parkinsonism_rest_tremor_present"
+    },
+    {
+      "criterium": "parkinsonism_rigidity_present"
+    },
+    {
+      "criterium": "parkinsonism_bradykinesia_present"
+    },
+    {
+      "criterium": "tardive_dyskinesia_present"
+    },
+    {
+      "criterium": "limb_chorea_present"
+    },
+    {
+      "criterium": "axial_dyskinesia_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

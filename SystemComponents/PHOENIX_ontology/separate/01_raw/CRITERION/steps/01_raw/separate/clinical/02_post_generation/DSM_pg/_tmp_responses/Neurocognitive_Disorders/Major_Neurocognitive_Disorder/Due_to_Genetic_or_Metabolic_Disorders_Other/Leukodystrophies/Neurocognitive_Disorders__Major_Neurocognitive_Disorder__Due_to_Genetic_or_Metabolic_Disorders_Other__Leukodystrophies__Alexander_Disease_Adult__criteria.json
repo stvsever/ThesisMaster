@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "spastic_paraparesis"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "dysphagia"
+    },
+    {
+      "criterium": "frontal_executive_dysfunction"
+    },
+    {
+      "criterium": "frontal_behavioral_changes"
+    },
+    {
+      "criterium": "progressive_cognitive_decline"
+    },
+    {
+      "criterium": "seizures"
+    },
+    {
+      "criterium": "bulbar_signs"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0001
+}

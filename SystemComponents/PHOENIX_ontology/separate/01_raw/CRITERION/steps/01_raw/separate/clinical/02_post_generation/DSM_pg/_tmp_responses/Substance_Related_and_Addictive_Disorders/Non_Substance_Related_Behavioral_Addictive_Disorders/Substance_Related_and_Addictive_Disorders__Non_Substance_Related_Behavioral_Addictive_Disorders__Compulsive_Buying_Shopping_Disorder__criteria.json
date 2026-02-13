@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_compulsive_buying_urge"
+    },
+    {
+      "criterium": "preoccupation_with_shopping"
+    },
+    {
+      "criterium": "excessive_time_spent_on_shopping"
+    },
+    {
+      "criterium": "loss_of_purchase_control"
+    },
+    {
+      "criterium": "purchases_despite_adverse_consequences"
+    },
+    {
+      "criterium": "debt_accumulation_due_to_shopping"
+    },
+    {
+      "criterium": "secretive_or_disguised_shopping_behaviors"
+    },
+    {
+      "criterium": "purchasing_of_unneeded_items"
+    },
+    {
+      "criterium": "interference_with_work_or_social_functioning_due_to_shopping"
+    },
+    {
+      "criterium": "mood_driven_purchasing"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

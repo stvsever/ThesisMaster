@@ -1,0 +1,60 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "IL6_gene_expression",
+      "TNFA_gene_expression",
+      "IL1B_gene_expression",
+      "NFKB1_gene_variant_rs28362491",
+      "CRP_gene_variant_rs1205",
+      "IL10_gene_variant_rs1800896"
+    ],
+    "molecules": [
+      "IL6_protein_concentration_pg_per_mL",
+      "TNFA_protein_concentration_pg_per_mL",
+      "IL1B_protein_concentration_pg_per_mL",
+      "CRP_protein_concentration_mg_per_L",
+      "IL10_protein_concentration_pg_per_mL",
+      "IFNG_protein_concentration_pg_per_mL",
+      "serum_cortisol_concentration_ng_per_mL",
+      "DHEA_S_concentration_ng_per_mL"
+    ],
+    "cells": [
+      "CD14_positive_monocyte_count_per_uL",
+      "CD16_positive_NK_cell_count_per_uL",
+      "neutrophil_count_per_uL",
+      "lymphocyte_count_per_uL",
+      "CD4_Tcell_CD69_expression_level",
+      "monocyte_TLR4_expression_level"
+    ],
+    "circuits": [
+      "amygdala_reactivity_to_threat_stimuli",
+      "prefrontal_amygdala_connectivity_during_stress",
+      "insula_activation_to_inflammatory_cues",
+      "HPA_axis_regulatory_network_activation"
+    ],
+    "physiology": [
+      "serum_cortisol_concentration_ng_per_mL",
+      "salivary_cortisol_concentration_nmol_per_L",
+      "resting_heart_rate_bpm",
+      "mean_arterial_pressure_mmHg",
+      "skin_conductance_microSiemens",
+      "core_body_temperature_C",
+      "HRV_SDNN_ms",
+      "HRV_RMSSD_ms"
+    ],
+    "behavior": [
+      "reduced_physical_activity_level",
+      "sleep_disturbance_observed",
+      "social_withdrawal_observable",
+      "psychomotor_retardation_observed"
+    ],
+    "self_report": [
+      "fatigue_severity_scale",
+      "sleep_disturbance_severity_scale",
+      "anhedonia_score",
+      "malaise_severity_scale",
+      "pain_severity_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 15.0
+}

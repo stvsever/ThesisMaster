@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bradyphrenia"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "visuospatial_impairment"
+    },
+    {
+      "criterium": "visuomotor_integration_deficit"
+    },
+    {
+      "criterium": "memory_encoding_deficit"
+    },
+    {
+      "criterium": "memory_retrieval_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "phonemic_fluency_deficit"
+    },
+    {
+      "criterium": "semantic_fluency_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

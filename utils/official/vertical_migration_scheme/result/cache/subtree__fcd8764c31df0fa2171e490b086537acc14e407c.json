@@ -1,0 +1,21 @@
+{
+  "domain_path": "PSYCHO / Foundations_and_Common_Factors / Case_Formulation_and_Treatment_Planning",
+  "domain_root_path": [
+    "PSYCHO",
+    "Foundations_and_Common_Factors",
+    "Case_Formulation_and_Treatment_Planning"
+  ],
+  "leaf_count": 29,
+  "total_edges_in_subtree": 29,
+  "evaluated_pairs": 29,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "fcd8764c31df0fa2171e490b086537acc14e407c",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 11.831
+}

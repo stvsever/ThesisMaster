@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "physical_aggression_outbursts"
+    },
+    {
+      "criterium": "property_damage"
+    },
+    {
+      "criterium": "theft_of_money_or_items"
+    },
+    {
+      "criterium": "deceptive_or_fraudulent_behaviors"
+    },
+    {
+      "criterium": "noncompliance_with_rules_or_norms"
+    },
+    {
+      "criterium": "impulsive_actions_without_planning"
+    },
+    {
+      "criterium": "rapid_anger_outbursts"
+    },
+    {
+      "criterium": "verbal_hostility_or_bullying"
+    },
+    {
+      "criterium": "recurrent_rule_breaking_across_settings"
+    },
+    {
+      "criterium": "low_frustration_tolerance"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

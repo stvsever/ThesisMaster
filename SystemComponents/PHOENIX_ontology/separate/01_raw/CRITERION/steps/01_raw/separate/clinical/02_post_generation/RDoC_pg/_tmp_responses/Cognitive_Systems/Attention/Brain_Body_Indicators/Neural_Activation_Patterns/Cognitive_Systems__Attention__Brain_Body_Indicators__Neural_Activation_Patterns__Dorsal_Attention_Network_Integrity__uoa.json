@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_val66met",
+      "DRD4_VNTR_7R_allele",
+      "COMT_rs4680_val158met",
+      "SLC6A3_VNTR_9R_allele"
+    ],
+    "molecules": [
+      "BDNF_protein_IPS_FEF",
+      "NMDA_NR2B_density_IPS",
+      "AMPA_GluA1_density_FEF_IPS",
+      "Dopamine_D1_receptor_density_PFC"
+    ],
+    "cells": [
+      "Pyramidal_cell_density_IPS",
+      "PV_interneuron_density_IPS",
+      "Astrocyte_density_IPS",
+      "Microglia_density_IPS"
+    ],
+    "circuits": [
+      "DAN_functional_connectivity_FEF_IPS",
+      "DAN_resting_state_network_strength",
+      "DAN_task_evoked_activation_peak_FEF_latency",
+      "DAN_theta_synchrony_FEF_IPS"
+    ],
+    "physiology": [
+      "BOLD_coherence_DAN_resting_state",
+      "DAN_task_evoked_BOLD_amplitude",
+      "EEG_theta_power_over_DAN",
+      "Pupil_dilation_DAN_task"
+    ],
+    "behavior": [
+      "Posner_task_reaction_time_ms",
+      "Visual_search_accuracy_percent",
+      "Saccade_latency_ms",
+      "Attentional_blink_rate_per_min",
+      "Inhibition_of_return_latency_ms"
+    ],
+    "self_report": [
+      "Attention_Control_Scale_score",
+      "ACS_total_score",
+      "CAARS_inattention_subscale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

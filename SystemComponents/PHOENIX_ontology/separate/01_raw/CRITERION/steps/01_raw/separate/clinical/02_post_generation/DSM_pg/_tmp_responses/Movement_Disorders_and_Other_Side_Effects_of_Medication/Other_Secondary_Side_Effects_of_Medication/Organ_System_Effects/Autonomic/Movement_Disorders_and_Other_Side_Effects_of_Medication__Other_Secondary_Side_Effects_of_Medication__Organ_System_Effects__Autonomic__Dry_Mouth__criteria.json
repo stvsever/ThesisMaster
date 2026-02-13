@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "subjective_xerostomia"
+    },
+    {
+      "criterium": "reduced_unstimulated_salivary_flow"
+    },
+    {
+      "criterium": "reduced_stimulated_salivary_flow"
+    },
+    {
+      "criterium": "increased_saliva_viscosity"
+    },
+    {
+      "criterium": "oral_mucosa_dryness_signs"
+    },
+    {
+      "criterium": "tongue_fissuring"
+    },
+    {
+      "criterium": "angular_cheilitis"
+    },
+    {
+      "criterium": "halitosis_present"
+    },
+    {
+      "criterium": "taste_disturbance_dysgeusia"
+    },
+    {
+      "criterium": "dysphagia_due_to_xerostomia"
+    },
+    {
+      "criterium": "increased_caries_incidence"
+    },
+    {
+      "criterium": "denture_discomfort_related_to_dry_mouth"
+    }
+  ],
+  "estimated_prevalence_percent": 15.0
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "circadian_misalignment"
+    },
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "daytime_sleep_onset_latency_increased"
+    },
+    {
+      "criterium": "daytime_sleep_duration_reduced"
+    },
+    {
+      "criterium": "daytime_napping_frequency_increased"
+    },
+    {
+      "criterium": "cognitive_performance_impairment_during_night_shift"
+    },
+    {
+      "criterium": "mood_irritability_or_lability"
+    },
+    {
+      "criterium": "sleep_fragmentation_of_daytime_sleep"
+    },
+    {
+      "criterium": "functional_impairment_due_to_shift_schedule"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

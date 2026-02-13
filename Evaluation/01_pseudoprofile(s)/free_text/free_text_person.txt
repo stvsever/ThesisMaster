@@ -1,0 +1,557 @@
+SUMMARY
+- 100 free-text, person-descriptive snippets written in a “real app intake + self-description” style.
+- Mix of {intake} mini-blocks and unstructured narratives; intentionally varied spelling, tone, and detail density.
+- Many entries include subtle cues that require inference (e.g., partner terms, pronoun usage, language switching, job/life context, disclosure levels).
+- Coverage spans demographics, SOGI, language, migration, education/work, SES, housing, religion/worldview, accessibility, digital access, and healthcare access/preferences.
+
+pseudoprofile_person_ID001
+{intake}
+Age: 29-ish (born 1996).
+I live with my husband and our dog in a small apartment near the station. Dutch is my default but I work in English all day.
+Work: software/dev-ish, mostly remote, lots of calls.
+I don’t really “come out” at work unless it comes up; with friends it’s normal.
+I’m the one who schedules everything and then complains I’m tired.
+
+pseudoprofile_person_ID002
+{intake}
+Age: 34. Pronouns: she/her. Language: Spanish at home, English at work.
+Moved here for a master’s and just… stayed. Paperwork still stresses me out.
+Married (to a man), one toddler.
+I’m usually upbeat, but I’m also the kind of person who will Google a symptom at 2am and convince myself it’s serious.
+
+pseudoprofile_person_ID003
+I don’t love labels. Most people call me “they” and I’m fine with that. I’m in a long-term relationship but we don’t live together (by choice, not drama). I do freelance illustration so money is “feast or famine.” I’m not out to my parents because it’s easier to keep it vague and avoid the questions. I’m basically good with tech, but I hate phone calls and I will postpone any appointment until it becomes urgent.
+
+pseudoprofile_person_ID004
+{intake}
+Age: 52. Pronouns: he/him. Preferred language: French; can manage Dutch “in survival mode.”
+Job: forklift operator, rotating shifts.
+Housing: renting, crowded (3 adults + 2 kids in a small place).
+I don’t really talk about feelings. My wife handles the forms; I just answer what she asks.
+I’m here because my sleep and stress are messing with my patience at home.
+
+pseudoprofile_person_ID005
+I’m 71 and retired. Since my wife died two years ago I’ve been living alone in the same house and honestly it’s too big now. I still drive but only in daylight. My hearing isn’t great so I avoid group conversations because I can’t follow and it’s embarrassing. I’m Catholic but not “every Sunday” anymore. I’m not very phone/app savvy—my niece set this up and I mostly just press the big buttons.
+
+pseudoprofile_person_ID006
+{intake}
+Age: 17. Pronouns: they/them at school, “she” at home because it’s simpler.
+Still in secondary school, exams coming up. I’m on my phone a lot, like… a lot.
+I live with my mom and little brother. Dad is around sometimes but not really.
+I’m not sure what my “orientation” is. I just know I don’t fit the expected script.
+
+pseudoprofile_person_ID007
+Single mom, 26, doing night shifts in a care home. I rent a studio with my kid and it’s always messy no matter what I do. I speak Dutch but my family talks mostly Arabic at home, so sometimes I mix words without noticing. I’m super practical—pay bills, survive the week—but I’m also exhausted and I keep forgetting appointments unless there’s a reminder.
+
+pseudoprofile_person_ID008
+{intake}
+Hearing: uses hearing aid (one side). Prefers written instructions.
+Work: self-employed electrician, lots of driving.
+Married (wife), two school-age kids.
+I’m “fine” most days, just overloaded, and I’m not big on therapy talk. I like straightforward steps.
+
+pseudoprofile_person_ID009
+I was born with a variation in sex characteristics (I don’t really want to go into details). Most official forms forced me into a box that never quite fit. Nowadays I identify as nonbinary and I use they/them. I live with two roommates and a cat; I’m on a temporary contract at a museum. I’m okay with sharing data for research if it’s anonymous, but I’m not comfortable with anything that feels like tracking.
+
+pseudoprofile_person_ID010
+{intake}
+Age: 38. Refugee background; arrived ~7 years ago.
+Language: prefers Arabic; can read some French; needs an interpreter for medical stuff.
+Housing: social housing, neighborhood feels unsafe at night.
+Work: currently unemployed; doing occasional cash jobs.
+I don’t trust institutions easily because of past experiences, but my caseworker encouraged me to try this.
+
+pseudoprofile_person_ID011
+I’m on a student visa and my whole life is a calendar reminder. I’m 24, in university, living in a shared house where nobody cleans the kitchen. I’m from Poland originally, and I can speak Dutch but it gets shaky when I’m anxious. I date men, mostly, but I keep it private because I don’t want my family group chat exploding. I’m generally high-functioning… until deadlines hit.
+
+pseudoprofile_person_ID012
+{intake}
+Age: 45.
+Work: gig work (delivery + cleaning). No stable contract.
+Housing: couch-surfing between friends and my sister. No private space.
+Device: old smartphone, intermittent data.
+I’m embarrassed by how “unstable” my situation looks on paper, but this is real life right now.
+
+pseudoprofile_person_ID013
+I’m a trans guy (he/him). I pass most days, but paperwork still trips me up. I’m 30, work in retail, and I’m saving up for top surgery while also paying off debt. I don’t talk to my dad anymore; my mom tries but doesn’t really get it. My partner is a woman and she’s supportive, but I hate feeling like a “project” that needs managing.
+
+pseudoprofile_person_ID014
+{intake}
+Age: 48. Pronouns: she/her.
+Perimenopause vibes (hot flashes, sleep is weird).
+Work: project manager, hybrid schedule.
+Married (husband), older teen at home.
+I’m the organized one in the family, but inside I feel like I’m constantly about to snap.
+
+pseudoprofile_person_ID015
+Wheelchair user since an accident in my 20s. I’m 36 now. I live alone, which I like, but it also means if something goes wrong it’s just me and Google. I do remote customer support, not because I love it but because it’s stable. I’m bisexual (I guess) but I don’t date much—mostly because accessibility + energy + apps is a lot.
+
+pseudoprofile_person_ID016
+{intake}
+Age: 60.
+Digital: no smartphone (I refuse), only a basic phone. This app is on my daughter’s tablet.
+Retired mechanic. Lives with spouse.
+I want help that doesn’t assume I’m online 24/7. I prefer in-person care.
+Also: I’m stubborn, so yeah, that’s part of the “profile.”
+
+pseudoprofile_person_ID017
+I’m 27, practicing Muslim, and my community is a big part of my week. I wear hijab. Most people are respectful, but sometimes in public I get comments and it sticks with me longer than I want. I work as a pharmacy tech. I’m engaged and we’re doing things “the traditional way,” so there’s pressure from both families and I’m trying not to lose myself in it.
+
+pseudoprofile_person_ID018
+{intake}
+Age: 33.
+No religion, but I’m weirdly into astrology because it’s comforting.
+Work: bartender + art on the side.
+Housing: shared housing, lots of noise.
+I’m not sure if I’m “depressed” or just living in a world that feels like constant chaos.
+I’m openly queer with friends, not with family.
+
+pseudoprofile_person_ID019
+I’m 40 and Orthodox Jewish. My week has structure because of it—Sabbath, community, routines. That structure helps, but it can also feel like I’m trapped in expectations. I have five kids, yes, five. I’m tired. I don’t use a lot of apps normally, but my sister-in-law told me this could help me track stress without making it a whole drama.
+
+pseudoprofile_person_ID020
+{intake}
+Age: 58. Pronouns: he/him.
+Buddhist (Zen-ish). Meditation daily when I’m not traveling.
+Job: consultant, frequent travel. Relationship: divorced, dating.
+I look calm from the outside, but my brain can be very critical and competitive.
+I prefer self-directed exercises over long phone calls.
+
+pseudoprofile_person_ID021
+I’m 22, first in my family to go to university. It’s a big deal, but it also means I can’t mess up. I live with my parents because rent is insane. I’m not out about being into women—my mom would cry for a week and then blame herself. I speak Dutch and Turkish at home and sometimes I feel like I’m a different person in each language.
+
+pseudoprofile_person_ID022
+{intake}
+Age: 63. Widowed.
+Lives alone, social contact limited. Prefers telephone over video.
+Vision: low vision (big fonts help). Uses screen reader sometimes.
+I’m not “sad all the time,” I’m just… shrinking my world because everything feels harder.
+
+pseudoprofile_person_ID023
+I’m 31 and married to my wife. People assume I’m straight until I mention her, and then it’s that little pause. I work as a teacher, so my day is basically noise and emotions all day. At home I’m quiet. I’m very competent at work, but my personal life is messy (bills late, laundry piles). I’m trying to understand why I can manage 25 kids but not my own inbox.
+
+pseudoprofile_person_ID024
+{intake}
+Age: 28.
+Relationship: open relationship (consensual). Not everyone understands that.
+Work: startup marketing, long hours.
+I’m “out” in some circles and invisible in others. Family thinks I’m just “single and picky.”
+I want privacy—no social sharing, no pushy notifications.
+
+pseudoprofile_person_ID025
+I’m 54 and I run a small family restaurant. My whole life is work, family, work again. I grew up in Italy, moved here decades ago, and I still think in Italian when I’m stressed. My wife says I’m “always tense.” I don’t like filling in forms, I prefer talking face to face, but I also don’t want the whole town to know my business.
+
+pseudoprofile_person_ID026
+{intake}
+Age: 19.
+Student, first year. Lives in dorm. Money: very tight.
+Uses social media constantly; sleeps with phone under pillow.
+I’m very shy in person and loud online. In real life I’m basically invisible unless someone speaks to me first.
+
+pseudoprofile_person_ID027
+I’m 47, divorced, co-parenting. Two kids, shared custody, which means my weeks alternate between chaos and silence. I’m a nurse (day shifts), and I’m the person people dump their problems on. I don’t mind helping, but lately I’ve been feeling resentful and then guilty about being resentful. I’m straight, I think, but dating feels like a job interview and I don’t have the energy.
+
+pseudoprofile_person_ID028
+{intake}
+Age: 35.
+Employment: unemployed (recent job loss). Housing: renting, at risk if I miss payments.
+I used to be “the provider.” Now my partner pays most things and I hate how that feels.
+I don’t want motivational quotes; I want something practical that doesn’t feel patronizing.
+
+pseudoprofile_person_ID029
+I’m 25, second-generation Moroccan-Belgian. Dutch is easy, but with my grandma it’s all Darija, and I switch without thinking. I’m engaged to a guy my parents approve of, but I’m also… not sure I’m 100% into guys only. I’ve never said that out loud. I’m good at school/work stuff, but I feel like my personal identity is stuck in “draft mode.”
+
+pseudoprofile_person_ID030
+{intake}
+Age: 73.
+Retired, lives with spouse. Moderate mobility limitations (needs cane outdoors).
+Prefers postal mail, but granddaughter insisted on “the app.”
+I’m skeptical about all this, but I also don’t want to be a burden on my family.
+
+pseudoprofile_person_ID031
+I’m 32, grew up in foster care. I’m independent to the point where it’s a problem. I have a stable job now (admin in a hospital), but I still feel like I’m pretending to be an adult. I date casually, men and women, but I keep emotional distance. People call me “strong,” which is code for “nobody checks on you.”
+
+pseudoprofile_person_ID032
+{intake}
+Age: 44.
+Religion: “spiritual but not religious.” Yoga, meditation apps, crystals… yes, I know.
+Work: HR, which means I’m always managing conflict.
+I’m married, but we’re more like roommates lately.
+I want tools that help me stop overanalyzing every conversation.
+
+pseudoprofile_person_ID033
+I’m a 39-year-old man, married to a man, and we have an “easy” life on paper. Stable jobs, nice place, friends. I still feel like I’m always scanning for rejection, like I’m 16 again. I’m out now, but my dad still pretends my husband is “my friend.” I laugh it off in public but it sits heavy later.
+
+pseudoprofile_person_ID034
+{intake}
+Age: 23.
+Student + part-time barista.
+Moved cities recently; social network is tiny here.
+I’m very online, but also lonely. I can talk for hours in comments but freeze in real conversations.
+
+pseudoprofile_person_ID035
+I’m 50, I own my home, and I should feel secure, but I’m constantly worried about money anyway. I grew up poor and it never left my nervous system. I’m married (husband), kids are adults now. Politically I’m pretty left-leaning and I get angry about inequality, but then I feel powerless and doomscroll. I’m good at spreadsheets, bad at resting.
+
+pseudoprofile_person_ID036
+{intake}
+Age: 27.
+Work: tattoo artist, self-employed. Income: variable.
+Relationship: polyamorous (two partners). Lives with one partner.
+I’m not “dramatic,” I just feel things intensely. Also I hate bureaucracy and will avoid it until it bites me.
+
+pseudoprofile_person_ID037
+I’m 62 and I still work because I can’t afford to stop. Cleaning jobs, cash in hand sometimes. My Dutch is okay but I’m embarrassed by my spelling so I keep sentences short. I live with my sister. We fight, then we make tea like nothing happened. I don’t really have hobbies. It’s just work, home, sleep, repeat.
+
+pseudoprofile_person_ID038
+{intake}
+Age: 31.
+Autism diagnosis as adult. Sensory sensitivity (noise, bright lights).
+Work: IT support, on-site. Lives alone.
+I don’t want phone calls; written step-by-step works. I’m not rude, I’m just direct.
+Dating is confusing. I’m attracted to women but I miss cues constantly.
+
+pseudoprofile_person_ID039
+I’m 28 and pregnant (second trimester). My first pregnancy ended early and I don’t talk about it much. Now everyone is excited and I’m pretending to be excited too, but inside I’m cautious and superstitious, like if I say “I’m happy” I’ll jinx it. I’m married to my wife, and most people are nice but some still ask “who is the real mom?” which makes my skin crawl.
+
+pseudoprofile_person_ID040
+{intake}
+Age: 46. Pronouns: he/him.
+Work: police dispatch (high stress, night shifts). Trust in institutions: complicated, ironically.
+Relationship: separated, living alone.
+I’m not anti-therapy, I just don’t want to be judged. I want something that feels confidential and practical.
+
+pseudoprofile_person_ID041
+I’m 20, I grew up in a strict religious household and I’m slowly stepping away. I don’t want to say which religion because I’m still scared of someone finding out. I live in a dorm, studying engineering. I’m attracted to men, but my family expects me to marry a woman. I’m basically living two lives: one online, one at home, and it’s exhausting.
+
+pseudoprofile_person_ID042
+{intake}
+Age: 57.
+Hearing: hard of hearing; prefers captions on video.
+Employment: part-time (reduced hours). Caregiving: for an elderly parent.
+I’m practical and organized, but I’m also emotionally “full.” There’s no room left.
+
+pseudoprofile_person_ID043
+I’m 35 and I’m from the UK originally. I’ve been here 10 years and still sometimes get the “where are you really from?” stuff. I’m married (husband), no kids by choice, which apparently is controversial. I work in finance and I’m good at it. People think I’m confident because I can present numbers, but socially I’m awkward and I replay everything I said.
+
+pseudoprofile_person_ID044
+{intake}
+Age: 29. Pronouns: she/her.
+Employment: hospitality, irregular schedule. Lives with roommates.
+I’m “straight on paper” but I’ve had crushes on women and I don’t know what to call it.
+My friends are open-minded; my family isn’t. I’m tired of hiding but also tired of explaining.
+
+pseudoprofile_person_ID045
+I’m 68, retired teacher. My husband is alive but his memory isn’t what it used to be, so I’ve become the manager of everything. I don’t call myself a “caregiver,” I’m just doing what needs doing. I have a strong friend group but I don’t want to scare them with how tired I am. Also I hate asking for help. Hate it.
+
+pseudoprofile_person_ID046
+{intake}
+Age: 33. Pronouns: he/him.
+Background: grew up rural, moved to city for work. Feels like an outsider still.
+Work: construction foreman. Physical job.
+I’m not “into feelings,” but I’m noticing I’m more reactive lately and it’s affecting my crew.
+I’d rather text than talk. Weird, I know.
+
+pseudoprofile_person_ID047
+I’m 24, nonbinary, and I change my look a lot—some days very feminine, some days not. People comment constantly (“what are you?”) and I pretend it doesn’t bother me. I’m in an open relationship, and I’m bisexual. My parents are supportive in theory, but they still use my old name when they’re angry. I work in a café and I’m saving to go back to school.
+
+pseudoprofile_person_ID048
+{intake}
+Age: 41.
+Migrant, first generation. Language: Portuguese + functional French. Dutch is hard.
+Work: domestic work; no contract. Housing: shared with extended family.
+I don’t like answering questions about income because it makes me feel judged.
+I want help that respects my culture and doesn’t assume I can “just take time off.”
+
+pseudoprofile_person_ID049
+I’m 30 and I’m basically a “high achiever” stereotype. Master’s degree, good job, gym, meal prep. People think I’m disciplined, but it’s more like fear of losing control. I date men, but I’m picky because I don’t trust easily. Politically I’m moderate, but I get anxious when people fight online so I avoid news. I want to feel less tense without becoming “lazy.”
+
+pseudoprofile_person_ID050
+{intake}
+Age: 55. Pronouns: he/him.
+Work: truck driver, long-haul. Mostly alone. Sleep: irregular.
+Relationship: partnered but not living together. Kids: adults.
+I’m not good with apps; I use it like a tool.
+I don’t drink much anymore because it messes with driving tests, but I miss “switching off.”
+
+pseudoprofile_person_ID051
+I’m 23 and my mom is the one who pushed me to fill this in because she says I’m “in my room too much.” She’s not wrong. I’m at university but I’m always behind. I don’t want to say my gender in a box. Some days I feel like a guy, some days I don’t. I haven’t told anyone in real life. Online it’s easier.
+
+pseudoprofile_person_ID052
+{intake}
+Age: 49.
+Employment: public sector, stable contract. Housing: owner.
+Religion: atheist. Community: volunteers at animal shelter.
+I look put-together, but I’m running on caffeine and resentment.
+I prefer structured plans and progress tracking (yes, I’m that person).
+
+pseudoprofile_person_ID053
+I’m 37, Syrian background, moved here as a kid (so… second generation?). I speak Dutch like a local but my name gets me “randomly selected” at the airport. I’m married (wife), two kids. I’m a social worker and people assume I have it all handled. I don’t. I absorb everyone’s stories and then I bring that heaviness home.
+
+pseudoprofile_person_ID054
+{intake}
+Age: 65. Pronouns: he/him.
+Vision: uses glasses + needs large text. Mild tremor (hands).
+Employment: retired. Lives with partner. Social network: small.
+I’m a private person. I don’t want my children worrying, so I keep things short and “fine.”
+But I also don’t want to drift into isolation.
+
+pseudoprofile_person_ID055
+I’m 28 and I live in a tiny studio that’s technically “temporary accommodation” but it’s been two years. My benefits paperwork is a nightmare and every letter feels like a threat. I don’t have family support. My phone is old and cracks everywhere, but it’s my lifeline. I’m queer; my ex was nonbinary. I don’t really “come out” anymore—I just exist, and if people don’t like it, that’s their problem.
+
+pseudoprofile_person_ID056
+{intake}
+Age: 32.
+Work: chef, late nights. Substance: caffeine heavy, occasional nicotine.
+Relationship: dating, not exclusive. Housing: shared, noisy.
+I’m not into politics but I’m stressed about cost of living and rent.
+I want coping ideas that work at 1am after a shift, not only “morning routines.”
+
+pseudoprofile_person_ID057
+I’m 59, I grew up in a very conservative area, and I only came out as gay in my late 40s. My family is… cordial now, but it’s not warm. I’m married to my husband and he’s my best friend, but sometimes I still feel shame pop up for no reason. I work in a warehouse, nothing fancy. I don’t want therapy jargon; I want language that feels human.
+
+pseudoprofile_person_ID058
+{intake}
+Age: 26. Pronouns: she/her.
+Chronic migraine (diagnosed). Sometimes can’t look at screens.
+Work: PhD student (biomed). High literacy, low patience for vague advice.
+Relationship: partnered. Lives with partner.
+I need accommodations sometimes but I hate asking because I worry they’ll think I’m exaggerating.
+
+pseudoprofile_person_ID059
+I’m 43, I don’t identify with any religion, but my parents are very religious and it still shapes family gatherings. I’m divorced and living with my teenage daughter. She’s the one who taught me about pronouns and now I’m learning because I want to be supportive. I work as a bus driver. I’m friendly at work, but after my shift I’m drained and I avoid everyone, even friends.
+
+pseudoprofile_person_ID060
+{intake}
+Age: 35.
+Disability: Type 1 diabetes (since childhood). Tech: uses sensors, very engaged.
+Work: sales, lots of travel. Relationship: engaged to a woman.
+I’m “high control” about food and routines because I have to be, but people think I’m obsessive.
+I want support that understands health stuff is not just “lifestyle choice.”
+
+pseudoprofile_person_ID061
+I’m 21, I have dyslexia and forms make me panic. I can speak fine, but writing feels like walking through mud. I’m in vocational training, not university, and people act like that’s “less.” I live with my boyfriend; he helps me with admin. When I’m stressed I switch to voice notes because it’s faster. I’m not sure what I want from an app, but I know I need help organizing life.
+
+pseudoprofile_person_ID062
+{intake}
+Age: 74.
+Living situation: living with adult child (after a fall). Mobility: uses walker.
+Language: Dutch. Digital literacy: low, needs help.
+I used to be independent. Now I hate asking for help and I get snappy.
+I want dignity. That’s the big thing.
+
+pseudoprofile_person_ID063
+I’m 28 and I work in nightlife (DJ + events). My sleep schedule is upside down. My relationship is “complicated” because I’m not monogamous and not everyone is okay with that. I’m attracted to multiple genders, and I don’t like picking a label because people use it to make assumptions. Politically I’m very “privacy first” and I don’t want location tracking, period.
+
+pseudoprofile_person_ID064
+{intake}
+Age: 39. Pronouns: she/her.
+Religion: Catholic-ish, mostly for family. Community: not strong.
+Work: accountant, stable. Housing: owner.
+I’m financially okay now, but childhood was chaotic and I still hoard savings “just in case.”
+I’m calm on the outside and tense on the inside. Classic.
+
+pseudoprofile_person_ID065
+I’m 34, born in Ukraine, moved here after 2022. I speak Ukrainian and Russian, and I’m learning Dutch but slowly. My husband stayed behind at first; now he’s here, but he’s not the same person. I’m working in a job below my qualifications because my credentials aren’t recognized yet. I keep saying “it’s temporary,” but it’s been long enough that it’s starting to feel like my life.
+
+pseudoprofile_person_ID066
+{intake}
+Age: 23.
+Currently in rehab (substance). Respondent: self, but staff helped set up the phone.
+I’m not proud of my past, but I’m trying to do different.
+I don’t want my family contacted. I want control over who sees what.
+I like short check-ins, not long essays.
+
+pseudoprofile_person_ID067
+I’m 48 and I’m a caregiver for my autistic son (12). My whole day is routines and advocacy and fighting with systems. My partner works full time and tries, but I’m the default parent for everything. I don’t have time for “self care” the way people post about it. I need practical support that fits into five-minute gaps and doesn’t judge me when I miss things.
+
+pseudoprofile_person_ID068
+{intake}
+Age: 31. Pronouns: she/her.
+Migration: second generation. Language: Dutch + Arabic (family).
+Employment: public administration, stable.
+Relationship: married (husband), living with extended family temporarily.
+I present as confident, but I’m sensitive to criticism and I overthink for days.
+I’m okay sharing for research if it’s for mental health improvements.
+
+pseudoprofile_person_ID069
+I’m 27, asexual (or at least on that spectrum). People think it’s a phase or trauma or “you haven’t met the right person.” I’m tired of defending it. I’m in a romantic relationship, yes, and it’s loving, and it’s not the same as what people expect. I work in graphic design, mostly remote. I’m comfortable with text-based support and I hate video calls.
+
+pseudoprofile_person_ID070
+{intake}
+Age: 58. Pronouns: he/him.
+Work: recently retired from military (non-combat role). Structure is my default.
+Relationship: married (wife), adult children.
+I don’t talk about emotions easily. I respect privacy and I don’t like “sharing circles.”
+I want something that feels disciplined, not fluffy.
+
+pseudoprofile_person_ID071
+I’m 19 and my parents still control a lot (phone plan, money, where I live). I’m in university but I feel like a child. I use she/they with friends. I’m dating a girl and my family thinks she’s “just a friend.” I’m not ready for the fight yet. I’m good at schoolwork but terrible at asking for help, so I just… drown quietly.
+
+pseudoprofile_person_ID072
+{intake}
+Age: 42.
+Work: librarian. Quiet job, loud brain.
+Housing: private renter, stable. Relationship: single.
+I’m not out everywhere. I pick my battles.
+I prefer written communication and I’ll ghost if something feels invasive.
+
+pseudoprofile_person_ID073
+I’m 66, I moved here from rural Spain in my 30s. My heart is still “back home” sometimes. Spanish is my comfort language. I live with my wife and we’re close, but I don’t have many friends here and I get lonely. I also have chronic pain in my knees and it makes me grumpy, which makes me feel guilty, which makes me more grumpy. It’s a loop.
+
+pseudoprofile_person_ID074
+{intake}
+Age: 30. Pronouns: she/her.
+Work: corporate law. High income, high pressure.
+Relationship: engaged (fiancé). Cohabitation: living together.
+I’m “successful” but I’m not happy. I’m very perfectionistic.
+I want something evidence-based, not vibes. Also: I will overuse tracking tools if you let me.
+
+pseudoprofile_person_ID075
+I’m 52 and I’m a gay man who’s not “scene” at all. I’m married, quiet life, garden, coffee, early bedtime. I still get anxious in healthcare settings because when I was younger it wasn’t safe to be honest. My doctor is fine, but my body still braces. I’m politically pretty progressive and I volunteer sometimes, but I’m also tired and I don’t want activism to become another obligation.
+
+pseudoprofile_person_ID076
+{intake}
+Age: 37.
+Neuro: epilepsy (controlled). Needs regular sleep, but job doesn’t always respect that.
+Work: warehouse supervisor, rotating shifts.
+Relationship: dating women, not serious. Lives alone.
+I want reminders that are not annoying. I will delete the app if it nags me.
+
+pseudoprofile_person_ID077
+I’m 28, I grew up in a strict household, and I’m the “rebel” now. Tattoos, piercings, the whole thing. I’m bisexual and open about it, but sometimes I wonder if I’m just trying to prove I’m free. I do gig work and I’m always broke, but I refuse to move back home. I’d rather struggle than go back to being controlled.
+
+pseudoprofile_person_ID078
+{intake}
+Age: 64.
+Caregiving: husband with chronic illness. Informal support: limited.
+Housing: owner, but maintenance is getting hard.
+Religion: “no label,” but prays sometimes.
+I’m not depressed, I’m just tired and isolated.
+I want help that respects I can’t just “take a weekend off.”
+
+pseudoprofile_person_ID079
+I’m 33, trans woman, she/her. I’m out to friends, not fully out at work because I’m tired of being “the topic.” I speak English at work and Dutch socially. I’m in a relationship with a guy who’s supportive but private. My family relationship is complicated; some are kind, some pretend I don’t exist. I’m good with tech and I like apps, but I’m cautious about data privacy.
+
+pseudoprofile_person_ID080
+{intake}
+Age: 25.
+Immigration: temporary resident (work visa). Worried about renewal.
+Work: hospitality, long hours, inconsistent pay.
+Housing: shared, overcrowded.
+I’m friendly and outgoing on shift, but outside work I crash.
+I don’t have a GP because I don’t know how to navigate the system here.
+
+pseudoprofile_person_ID081
+I’m 46, married to a woman, and I’m the stay-at-home parent right now because her job pays more. People still treat it like I’m “helping” instead of parenting. I’m a man (he/him), and yeah, it messes with my ego sometimes. I’m not super social; my friends are mostly online. I don’t want to be judged for feeling lost when my life is objectively okay.
+
+pseudoprofile_person_ID082
+{intake}
+Age: 59. Pronouns: they/them (late in life coming-out).
+Relationship: divorced, dating. Lives alone.
+Work: civil service, stable.
+I’m still adjusting to being “seen” differently. Some people are supportive, some make jokes.
+I’m not fragile, but I’m tired.
+
+pseudoprofile_person_ID083
+I’m 18, just finished school, and everyone keeps asking “what next?” like it’s a simple question. I live with my parents and I feel stuck. I’m a girl (I guess) but I hate being treated like a “young lady.” My boyfriend is sweet but clingy. I’m on my phone all night. I want to move out, but money is a joke. I keep saying “I’ll figure it out” and then I don’t.
+
+pseudoprofile_person_ID084
+{intake}
+Age: 38. Pronouns: she/her.
+Language: Dutch + French; can read English well.
+Work: teacher (primary). Emotional labor high.
+Political: very pro climate action, but feels powerless.
+I’m approachable for everyone else, but I don’t know how to ask for support myself.
+I prefer guidance that’s gentle, not strict.
+
+pseudoprofile_person_ID085
+I’m 72, I’m a man, and I’m living in supported housing after a stroke. My speech is mostly okay but I get tired quickly. I can’t drive anymore and it makes me feel like I lost my identity. I’m widowed. I don’t have many visitors. I’m not suicidal, I just sometimes wonder what the point is when every day is the same. I like routines. I like when people talk to me like an adult.
+
+pseudoprofile_person_ID086
+{intake}
+Age: 27. Pronouns: she/her.
+Migrant: first generation, from Iran. Languages: Persian + English. Dutch beginner.
+Work: PhD student. Feels “in-between” cultures.
+Relationship: partnered (man), long-distance.
+I’m private online because of family/community pressure back home.
+I prefer confidentiality and I’m cautious with political questions.
+
+pseudoprofile_person_ID087
+I’m 35 and I work as a social media manager, which means my job is basically “internet conflict.” I’m queer, not sure which label fits, and my partner is nonbinary. We’re not married but we live together. I’m very online and it affects my mood more than I’d like to admit. I’m also the “fun friend” in groups, but I feel empty when I’m alone. I want tools that don’t feel like another app trying to sell me something.
+
+pseudoprofile_person_ID088
+{intake}
+Age: 62. Pronouns: she/her.
+Vision: cataracts pending surgery. Needs big fonts.
+Work: retired. Lives with sister. Financial: tight but manageable.
+I’m a bit embarrassed that I need help with basic tech.
+I like phone calls more than typing.
+
+pseudoprofile_person_ID089
+I’m 29, born here, but my parents are from Congo. People comment on my hair like it’s public property. I’m a woman, she/her. Dating is complicated because I’m tired of educating men about racism and feminism. I work in a bank, stable job, but I feel like I’m always “performing” professionalism. Politically I’m left, but I avoid debates because they drain me.
+
+pseudoprofile_person_ID090
+{intake}
+Age: 41. Pronouns: he/him.
+Employment: manager. Sector: private. Work mode: onsite.
+Relationship: married (wife), one child with special needs.
+I’m the fixer. I’m the planner. I’m the one who holds it together.
+I don’t feel like I’m allowed to fall apart.
+
+pseudoprofile_person_ID091
+I’m 23 and I don’t drink, not because I’m “healthy” but because alcoholism runs in my family and I’m scared. I’m a guy, he/him. My girlfriend thinks it’s admirable; my friends think it’s boring. I’m in trades training and I’m proud of it. I live with roommates. I’m practical and I like clear goals. I don’t want to overthink my feelings, but sometimes I feel like they control me anyway.
+
+pseudoprofile_person_ID092
+{intake}
+Age: 36. Pronouns: she/her.
+Relationship: married (husband). Pregnancy: recently postpartum.
+Work: currently on leave; worries about returning.
+Support: moderate, but she feels guilty asking.
+I’m not a “baby person” stereotype. I love my child, but I miss my old identity.
+I want reassurance without being told “it’s normal, don’t worry.”
+
+pseudoprofile_person_ID093
+I’m 51, I’m a gay woman, and I live in a small town where everyone knows everyone. My wife and I keep our life quiet because it’s easier. I run my own small business. I’m confident in business, but socially I’m cautious. I grew up Catholic and even though I left, the guilt voice still shows up. I’m not into labels for mental health either, but I know I’m not thriving.
+
+pseudoprofile_person_ID094
+{intake}
+Age: 28. Pronouns: he/him.
+Migration: undocumented. Avoids official systems. Trust: low.
+Work: informal (construction). Housing: crowded, unstable.
+Device: shared phone. Internet: intermittent.
+I’m doing this because someone at a community center said it could help, but I need it to be discreet.
+
+pseudoprofile_person_ID095
+I’m 44 and I have a master’s degree, but I’m currently on disability benefits because my body just doesn’t cooperate (chronic fatigue + pain). I look “fine” so people doubt me. I’m married to my husband and he’s supportive, but I hate feeling dependent. I’m politically engaged (I write emails to representatives, sign petitions) because it gives me some sense of control, but it also burns me out.
+
+pseudoprofile_person_ID096
+{intake}
+Age: 16. Respondent: caregiver (mother).
+My son doesn’t like forms. He’s smart but he shuts down with too many questions.
+He spends most time gaming. He says he’s “fine” and then explodes over small things.
+He doesn’t want me to write his pronouns, but he asked me to say he hates being called “a little boy.”
+We want help without making him feel broken.
+
+pseudoprofile_person_ID097
+I’m 33, I’m a woman, and I’m in a leadership role. People see “confidence,” but it’s mostly practiced. I’m married to a man who is very extroverted, and he thinks my quietness is sadness. We argue about it. I’m the oldest daughter in my family and I’ve been the responsible one since forever. I’m also the one who secretly feels like she can’t breathe when everyone needs something.
+
+pseudoprofile_person_ID098
+{intake}
+Age: 58. Pronouns: he/him.
+Religion: atheist. Politics: skeptical of government, big on privacy and “leave me alone.”
+Work: self-employed (small repairs). Income: variable.
+Housing: private renter. Debt: moderate.
+I’m not interested in group therapy or sharing personal stuff with strangers.
+I want something I can do quietly that actually works.
+
+pseudoprofile_person_ID099
+I’m 26 and I’ve never really felt “at home” in my body. Some days I bind my chest, some days I don’t. I use they/them online and whatever people assume in public. I date a guy right now, but I’ve dated women too. My family thinks it’s a phase. I work in a call center and I mask my voice a lot—cheerful tone, script voice—then I get home and I’m empty.
+
+pseudoprofile_person_ID100
+{intake}
+Age: 69. Pronouns: she/her.
+Lives with partner (woman). Not legally married (older generation reasons).
+Languages: Dutch + some French. Digital literacy: basic.
+Healthcare: has regular GP, but distrust after a bad experience years ago.
+I’m independent, stubborn, and I don’t like being told what to do.
+I want support that respects my autonomy and doesn’t assume everyone’s life looks the same.

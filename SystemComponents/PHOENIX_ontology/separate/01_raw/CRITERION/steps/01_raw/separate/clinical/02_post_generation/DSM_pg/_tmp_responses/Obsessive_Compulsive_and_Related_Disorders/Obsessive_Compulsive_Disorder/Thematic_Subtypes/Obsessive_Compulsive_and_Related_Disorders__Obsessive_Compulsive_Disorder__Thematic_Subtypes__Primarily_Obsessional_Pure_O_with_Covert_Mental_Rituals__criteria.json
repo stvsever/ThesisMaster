@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_obsessions_present"
+    },
+    {
+      "criterium": "covert_mental_rituals_present"
+    },
+    {
+      "criterium": "mental_neutralization_compulsions_present"
+    },
+    {
+      "criterium": "absence_of_overt_compulsions_present"
+    },
+    {
+      "criterium": "obsessional_content_theme_morality_guilt_present"
+    },
+    {
+      "criterium": "obsessional_theme_harm_thoughts_present"
+    },
+    {
+      "criterium": "anxiety_reactivity_to_obsessions_present"
+    },
+    {
+      "criterium": "avoidance_of_obsessional_triggers_present"
+    },
+    {
+      "criterium": "poor_insight_for_obsessions_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

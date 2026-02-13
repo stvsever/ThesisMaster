@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "compulsive_tanning_urge"
+    },
+    {
+      "criterium": "tanning_session_frequency_excessive"
+    },
+    {
+      "criterium": "preoccupation_with_tanning_thoughts"
+    },
+    {
+      "criterium": "inability_to_reduce_tanning_frequency"
+    },
+    {
+      "criterium": "secretive_tanning_practices"
+    },
+    {
+      "criterium": "time_spent_on_tanning_related_activities"
+    },
+    {
+      "criterium": "continued_tanning_despite_adverse_effects"
+    },
+    {
+      "criterium": "tolerance_to_uv_exposure_with_increased_exposure_need"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_attempted_cessation"
+    },
+    {
+      "criterium": "interference_with_social_or_professional_activities_due_to_tanning"
+    },
+    {
+      "criterium": "craving_tanning_in_response_to_stress_or_boredom"
+    },
+    {
+      "criterium": "obsessive_planning_of_tanning_events"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

@@ -1,0 +1,30 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M",
+      "COMT_V158M"
+    ],
+    "molecules": [
+      "cortisol_plasma",
+      "norepinephrine_plasma",
+      "glutamate_plasma",
+      "GABA_plasma"
+    ],
+    "cells": null,
+    "circuits": [
+      "amygdala_activation",
+      "PnC_activation",
+      "prefrontal_cortex_inhibitory_control"
+    ],
+    "physiology": [
+      "startle_emg_amplitude",
+      "startle_emg_latency_ms"
+    ],
+    "behavior": [
+      "startle_response_rate",
+      "startle_blink_count_per_trial"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 4.2
+}

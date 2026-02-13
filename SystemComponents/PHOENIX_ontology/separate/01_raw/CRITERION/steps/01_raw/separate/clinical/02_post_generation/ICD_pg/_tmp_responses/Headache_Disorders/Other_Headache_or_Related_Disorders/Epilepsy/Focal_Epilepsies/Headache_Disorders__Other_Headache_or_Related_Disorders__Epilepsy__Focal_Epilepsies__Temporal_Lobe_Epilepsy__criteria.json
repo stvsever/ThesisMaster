@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "epigastric_aura"
+    },
+    {
+      "criterium": "olfactory_hallucination"
+    },
+    {
+      "criterium": "gustatory_hallucination"
+    },
+    {
+      "criterium": "deja_vu_aura"
+    },
+    {
+      "criterium": "jamais_vu_experience"
+    },
+    {
+      "criterium": "epileptic_fear_aura"
+    },
+    {
+      "criterium": "lip_smacking_automatism"
+    },
+    {
+      "criterium": "manual_fidget_automatism"
+    },
+    {
+      "criterium": "impaired_awareness_during_seizure"
+    },
+    {
+      "criterium": "postictal_amnesia"
+    },
+    {
+      "criterium": "temporal_lobe_epileptiform_discharges"
+    },
+    {
+      "criterium": "mesial_temporal_sclerosis_on_MRI"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

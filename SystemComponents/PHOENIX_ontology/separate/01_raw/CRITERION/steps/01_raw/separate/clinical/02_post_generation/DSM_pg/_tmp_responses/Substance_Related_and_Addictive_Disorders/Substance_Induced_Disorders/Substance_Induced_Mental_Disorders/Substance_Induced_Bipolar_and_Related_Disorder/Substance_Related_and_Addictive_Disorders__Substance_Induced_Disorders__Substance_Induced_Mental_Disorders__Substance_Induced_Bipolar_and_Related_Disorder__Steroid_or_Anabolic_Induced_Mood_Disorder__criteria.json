@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_mood"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "mood_lability"
+    },
+    {
+      "criterium": "grandiose_ideation"
+    },
+    {
+      "criterium": "racing_thoughts"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "aggression"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "psychotic_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

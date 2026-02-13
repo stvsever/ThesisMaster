@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_depressed_mood"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "fatigue_exhaustion"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "somatic_pain_symptoms"
+    },
+    {
+      "criterium": "weight_or_appetite_change"
+    },
+    {
+      "criterium": "social_withdrawal"
+    },
+    {
+      "criterium": "functional_impairment_in_multiple_domains"
+    },
+    {
+      "criterium": "guilt_or_worthlessness_feelings"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

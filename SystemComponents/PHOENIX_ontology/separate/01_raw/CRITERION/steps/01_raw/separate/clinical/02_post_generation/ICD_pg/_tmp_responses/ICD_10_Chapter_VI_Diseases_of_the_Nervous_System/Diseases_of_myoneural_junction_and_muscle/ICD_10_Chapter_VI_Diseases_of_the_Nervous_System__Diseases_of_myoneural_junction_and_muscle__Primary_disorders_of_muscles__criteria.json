@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "proximal_limb_girdle_weakness"
+    },
+    {
+      "criterium": "gowers_sign"
+    },
+    {
+      "criterium": "calf_pseudohypertrophy"
+    },
+    {
+      "criterium": "facial_weakness"
+    },
+    {
+      "criterium": "ptosis"
+    },
+    {
+      "criterium": "neck_flexor_weakness"
+    },
+    {
+      "criterium": "elevated_serum_ck"
+    },
+    {
+      "criterium": "exercise_induced_fatigue"
+    },
+    {
+      "criterium": "cognitive_function_deficit"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "processing_speed_slow"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "learning_disability"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

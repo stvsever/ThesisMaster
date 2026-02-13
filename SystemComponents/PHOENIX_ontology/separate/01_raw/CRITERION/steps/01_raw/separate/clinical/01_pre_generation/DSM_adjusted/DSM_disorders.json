@@ -1,0 +1,2406 @@
+{
+  "Anxiety Disorders": {
+    "Separation Anxiety Disorder": {
+      "Childhood Onset": {},
+      "Adult Onset": {}
+    },
+    "Selective Mutism": {
+      "With Speech Capability in Other Contexts": {},
+      "With Severe Speech Avoidance": {}
+    },
+    "Specific Phobia": {
+      "Animal Type": {
+        "Arachnophobia": {},
+        "Cynophobia": {},
+        "Ophidiophobia": {},
+        "Entomophobia": {},
+        "Ornithophobia": {},
+        "Musophobia": {},
+        "Apiphobia": {}
+      },
+      "Natural Environment Type": {
+        "Acrophobia": {},
+        "Astraphobia": {},
+        "Aquaphobia": {},
+        "Nyctophobia": {},
+        "Seismophobia": {},
+        "Lilapsophobia": {}
+      },
+      "Blood-Injection-Injury Type": {
+        "Hemophobia": {},
+        "Trypanophobia": {},
+        "Iatrophobia": {},
+        "Dentophobia": {},
+        "Traumatophobia": {}
+      },
+      "Situational Type": {
+        "Aviophobia": {},
+        "Claustrophobia": {},
+        "Elevator Phobia": {},
+        "Driving Phobia": {},
+        "Gephyrophobia": {}
+      },
+      "Other Type": {
+        "Emetophobia": {},
+        "Pseudodysphagia": {},
+        "Phonophobia": {},
+        "Coulrophobia": {},
+        "Nosophobia": {},
+        "Basophobia": {}
+      }
+    },
+    "Social Anxiety Disorder": {
+      "Performance Only": {},
+      "Generalized": {
+        "Fear of Negative Evaluation": {},
+        "Fear of Eating or Drinking in Public": {},
+        "Fear of Using Public Restrooms": {},
+        "Fear of Public Speaking": {}
+      }
+    },
+    "Panic Disorder": {
+      "With Agoraphobia": {},
+      "Without Agoraphobia": {},
+      "Nocturnal Panic Attacks": {},
+      "Situationally Predisposed Panic Attacks": {}
+    },
+    "Agoraphobia": {
+      "Fear of Public Transportation": {},
+      "Fear of Open Spaces": {},
+      "Fear of Enclosed Places": {},
+      "Fear of Standing in Line or Crowds": {},
+      "Fear of Being Outside Alone": {}
+    },
+    "Generalized Anxiety Disorder": {
+      "With Predominant Somatic Symptoms": {},
+      "With Cognitive Rumination": {},
+      "With Sleep Disturbance": {},
+      "With Autonomic Hyperarousal": {}
+    }
+  },
+  "Schizophrenia Spectrum and Other Psychotic Disorders": {
+    "Core Primary Psychotic Disorders": {
+      "Schizophrenia": {
+        "First Episode": {
+          "Currently in Acute Episode": {},
+          "In Partial Remission": {},
+          "In Full Remission": {}
+        },
+        "Multiple Episodes": {
+          "Currently in Acute Episode": {},
+          "In Partial Remission": {},
+          "In Full Remission": {}
+        },
+        "Continuous Course": {},
+        "With Catatonia": {},
+        "Legacy Subtype Descriptors": {
+          "Paranoid Features": {},
+          "Disorganized or  Hebephrenic Features": {},
+          "Catatonic Features": {},
+          "Undifferentiated Features": {},
+          "Residual Features": {}
+        }
+      },
+      "Schizophreniform Disorder": {
+        "With Good Prognostic Features": {},
+        "Without Good Prognostic Features": {},
+        "With Catatonia": {}
+      },
+      "Schizoaffective Disorder": {
+        "Depressive Type": {},
+        "Bipolar Type": {},
+        "With Catatonia": {}
+      }
+    },
+    "Delusional and Related Persistent Psychoses": {
+      "Delusional Disorder": {
+        "Persecutory Type": {},
+        "Grandiose Type": {},
+        "Erotomanic Type": {},
+        "Jealous Type": {},
+        "Somatic Type": {},
+        "Mixed Type": {},
+        "Unspecified Type": {},
+        "With Bizarre Content": {}
+      },
+      "Shared Psychotic Disorder (Folie à Deux or Folie à Famille)": {}
+    },
+    "Acute and Brief Psychotic Disorders": {
+      "Brief Psychotic Disorder": {
+        "With Marked Stressor(s)": {},
+        "Without Marked Stressor(s)": {},
+        "With Postpartum Onset": {},
+        "With Catatonia": {}
+      },
+      "Acute and Transient Psychotic Disorder": {
+        "Acute Polymorphic Psychosis": {},
+        "Acute Schizophrenia-like Psychosis": {}
+      }
+    },
+    "Attenuated or Clinical High-Risk States": {
+      "Attenuated Psychosis Syndrome": {},
+      "Brief Limited Intermittent Psychotic Symptoms (BLIPS)": {},
+      "Genetic Risk with Functional Deterioration": {}
+    },
+    "Catatonia (Syndromic)": {
+      "Catatonia Associated with Another Mental Disorder": {},
+      "Catatonic Disorder Due to Another Medical Condition": {},
+      "Unspecified Catatonia": {}
+    },
+    "Substance or Medication-Induced Psychotic Disorders": {
+      "Alcohol-Induced Psychotic Disorder": {},
+      "Cannabis-Induced Psychotic Disorder": {},
+      "Stimulant-Induced Psychotic Disorder": {
+        "Cocaine-Induced Psychotic Disorder": {},
+        "Amphetamine or Methamphetamine-Induced Psychotic Disorder": {},
+        "Synthetic Cathinone-Induced Psychotic Disorder": {}
+      },
+      "Hallucinogen-Induced Psychotic Disorder": {
+        "LSD-Induced Psychotic Disorder": {},
+        "Psilocybin-Induced Psychotic Disorder": {},
+        "Mescaline or Phenethylamine-Induced Psychotic Disorder": {},
+        "NBOMe or 2C-Series–Induced Psychotic Disorder": {}
+      },
+      "Dissociative-Induced Psychotic Disorder": {
+        "PCP-Induced Psychotic Disorder": {},
+        "Ketamine-Induced Psychotic Disorder": {},
+        "Dextromethorphan-Induced Psychotic Disorder": {}
+      },
+      "Synthetic Cannabinoid (Spice or K2)–Induced Psychotic Disorder": {},
+      "Opioid-Induced Psychotic Disorder": {},
+      "Sedative or Hypnotic or Anxiolytic-Induced Psychotic Disorder": {
+        "Benzodiazepine-Related": {},
+        "Barbiturate-Related": {},
+        "Z-Drug–Related": {}
+      },
+      "Anticholinergic or Deliriant-Induced Psychotic Disorder": {},
+      "Steroid or Anabolic Agent–Induced Psychotic Disorder": {},
+      "Other Medication-Induced Psychotic Disorder": {}
+    },
+    "Psychotic Disorder Due to Another Medical Condition": {
+      "Neurologic": {
+        "Temporal Lobe Epilepsy–Related Psychosis": {},
+        "Postictal Psychosis": {},
+        "Traumatic Brain Injury–Related Psychosis": {},
+        "Demyelinating Disease–Related Psychosis": {},
+        "Huntington Disease–Related Psychosis": {},
+        "Parkinson Disease–Related Psychosis": {},
+        "Wilson Disease–Related Psychosis": {},
+        "Prion Disease–Related Psychosis": {}
+      },
+      "Autoimmune or Inflammatory": {
+        "Autoimmune Encephalitis–Related Psychosis (e.g., NMDA-R)": {},
+        "Systemic Lupus–Related Psychosis": {}
+      },
+      "Endocrine or Metabolic": {
+        "Thyroid Disorder–Related Psychosis": {},
+        "Adrenal Disorder–Related Psychosis": {},
+        "Porphyria-Related Psychosis": {},
+        "Electrolyte Disturbance–Related Psychosis": {},
+        "Vitamin Deficiency–Related Psychosis": {}
+      },
+      "Infectious": {
+        "Neurosyphilis-Related Psychosis": {},
+        "HIV-Associated Psychosis": {},
+        "Other CNS Infection–Related Psychosis": {}
+      }
+    },
+    "Other and Unspecified Psychotic Disorders": {
+      "Other Specified Schizophrenia Spectrum and Other Psychotic Disorder": {
+        "Persistent Auditory Hallucinations without Other Features": {},
+        "Delusions with Significant Overlap with OCD or Body Dysmorphic Beliefs": {},
+        "Attenuated Delusional Beliefs without Full Criteria": {},
+        "Postpartum Psychosis Not Otherwise Specified": {}
+      },
+      "Unspecified Schizophrenia Spectrum and Other Psychotic Disorder": {}
+    },
+    "Spectrum-Adjacent Personality Condition": {
+      "Schizotypal Personality Disorder": {}
+    }
+  },
+  "Bipolar and Related Disorders": {
+    "Bipolar I Disorder": {
+      "Current or Most Recent Episode": {
+        "Manic": {
+          "Severity": {
+            "Mild": {},
+            "Moderate": {},
+            "Severe": {}
+          },
+          "With Psychotic Features": {
+            "Mood-Congruent": {},
+            "Mood-Incongruent": {},
+            "Unspecified Mood-Congruency": {}
+          },
+          "With Catatonia": {}
+        },
+        "Depressed": {
+          "With Psychotic Features": {
+            "Mood-Congruent": {},
+            "Mood-Incongruent": {},
+            "Unspecified Mood-Congruency": {}
+          },
+          "With Melancholic Features": {},
+          "With Atypical Features": {},
+          "With Catatonia": {}
+        },
+        "Hypomanic": {},
+        "With Mixed Features": {}
+      },
+      "Course or Pattern": {
+        "Single Manic Episode": {},
+        "Multiple Episodes": {
+          "Most Recent Episode Manic": {},
+          "Most Recent Episode Depressed": {},
+          "Most Recent Episode Hypomanic": {}
+        },
+        "Remission Status": {
+          "In Partial Remission": {},
+          "In Full Remission": {}
+        }
+      },
+      "Specifiers": {
+        "With Anxious Distress": {},
+        "With Mixed Features": {},
+        "With Rapid Cycling (≥4 Episodes or Year)": {},
+        "With Seasonal Pattern": {},
+        "With Peripartum Onset": {},
+        "With Catatonia": {},
+        "With Melancholic Features": {},
+        "With Atypical Features": {},
+        "With Mood-Congruent Psychotic Features": {},
+        "With Mood-Incongruent Psychotic Features": {},
+        "With Psychotic Features — Unspecified Mood-Congruency": {}
+      }
+    },
+    "Bipolar II Disorder": {
+      "Required Episode Types": {
+        "Hypomanic Episode": {},
+        "Major Depressive Episode": {}
+      },
+      "Current or Most Recent Episode": {
+        "Hypomanic": {},
+        "Depressed": {
+          "With Psychotic Features (Depressive Episodes Only)": {
+            "Mood-Congruent": {},
+            "Mood-Incongruent": {},
+            "Unspecified Mood-Congruency": {}
+          },
+          "With Melancholic Features": {},
+          "With Atypical Features": {},
+          "With Catatonia": {}
+        },
+        "With Mixed Features": {}
+      },
+      "Course or Remission": {
+        "Episodic Course": {},
+        "In Partial Remission": {},
+        "In Full Remission": {}
+      },
+      "Specifiers": {
+        "With Anxious Distress": {},
+        "With Mixed Features": {},
+        "With Rapid Cycling (≥4 Episodes or Year)": {},
+        "With Seasonal Pattern": {},
+        "With Peripartum Onset": {},
+        "With Catatonia": {},
+        "With Melancholic Features (Depressive Episodes)": {},
+        "With Atypical Features (Depressive Episodes)": {},
+        "With Psychotic Features (Depressive Episodes)": {}
+      }
+    },
+    "Cyclothymic Disorder": {
+      "Onset": {
+        "Childhood or Adolescent Onset": {},
+        "Adult Onset": {}
+      },
+      "Course": {
+        "Persistent (≥24 Months; ≥12 Months in Youth)": {},
+        "Intermittent Symptom-Free Periods (<2 Months)": {}
+      },
+      "Specifiers": {
+        "With Anxious Distress": {},
+        "With Mixed Features": {},
+        "With Seasonal Pattern": {}
+      }
+    },
+    "Substance or Medication-Induced Bipolar and Related Disorder": {
+      "Substances or Agents": {
+        "Antidepressants": {},
+        "Stimulants (e.g., Amphetamines, Methylphenidate, Cocaine)": {},
+        "Dopaminergic Agents (e.g., L-DOPA, Pramipexole)": {},
+        "Steroids or Glucocorticoids": {},
+        "Thyroid Hormone Excess": {},
+        "Anabolic-Androgenic Steroids": {},
+        "Other Medications or Substances": {}
+      },
+      "Timing": {
+        "Onset During Intoxication or Use": {},
+        "Onset During Withdrawal": {},
+        "Onset After Medication Exposure": {}
+      },
+      "Specifiers": {
+        "With Psychotic Features": {},
+        "With Mixed Features": {},
+        "With Catatonia": {}
+      }
+    },
+    "Bipolar and Related Disorder Due to Another Medical Condition": {
+      "Neurologic": {
+        "Traumatic Brain Injury–Related": {},
+        "Multiple Sclerosis–Related": {},
+        "Temporal Lobe Epilepsy–Related": {},
+        "Stroke or Cerebrovascular Disease–Related": {},
+        "Huntington Disease–Related": {}
+      },
+      "Endocrine or Metabolic": {
+        "Hyperthyroidism-Related": {},
+        "Cushing Syndrome–Related": {},
+        "Other Endocrine or Metabolic Causes": {}
+      },
+      "Autoimmune or Inflammatory": {
+        "Systemic Lupus–Related": {},
+        "Autoimmune Encephalitis–Related": {}
+      },
+      "Infectious": {
+        "HIV-Related": {},
+        "Neurosyphilis-Related": {},
+        "Other CNS Infection–Related": {}
+      },
+      "Other Medical Conditions": {}
+    },
+    "Other Specified Bipolar and Related Disorder": {
+      "Short-Duration Hypomanic Episodes (2–3 Days) with Major Depressive Episodes": {},
+      "Hypomanic Episodes with Insufficient Symptoms and Major Depressive Episodes": {},
+      "Hypomanic Episode without Prior Major Depressive Episode": {},
+      "Short-Duration Cyclothymic Symptoms (<24 Months)": {},
+      "Antidepressant-Emergent Hypomania or Mania (Persisting Beyond Physiologic Effect)": {},
+      "Recurrent Brief Hypomania": {}
+    },
+    "Unspecified Bipolar and Related Disorder": {}
+  },
+  "Depressive Disorders": {
+    "Major Depressive Disorder (Unipolar Depression)": {
+      "Single Episode": {
+        "Melancholic Type": {},
+        "Atypical Type": {},
+        "Psychotic Type": {
+          "Mood-Congruent": {},
+          "Mood-Incongruent": {}
+        },
+        "Anxious Distress Type": {},
+        "Catatonic Type": {},
+        "Seasonal Pattern": {
+          "Winter-Onset": {},
+          "Summer-Onset": {}
+        },
+        "Peripartum Onset Type": {
+          "Antenatal (During Pregnancy)": {},
+          "Postpartum (Within 12 Months)": {}
+        },
+        "Agitated Depression": {}
+      },
+      "Recurrent Episode": {
+        "Melancholic Type": {},
+        "Atypical Type": {},
+        "Psychotic Type": {
+          "Mood-Congruent": {},
+          "Mood-Incongruent": {}
+        },
+        "Anxious Distress Type": {},
+        "Catatonic Type": {},
+        "Seasonal Pattern": {
+          "Winter-Onset": {},
+          "Summer-Onset": {}
+        },
+        "Peripartum Onset Type": {
+          "Antenatal (During Pregnancy)": {},
+          "Postpartum (Within 12 Months)": {}
+        },
+        "Rapid Relapse Pattern": {}
+      }
+    },
+    "Psychotic Depression (Severe Depressive Episode with Psychosis)": {
+      "Mood-Congruent Psychotic Depression": {},
+      "Mood-Incongruent Psychotic Depression": {},
+      "Postpartum Psychotic Depression": {}
+    },
+    "Persistent Depressive Disorder (Dysthymia)": {
+      "Early Onset (<21 Years)": {},
+      "Late Onset (≥21 Years)": {},
+      "With Pure Dysthymic Syndrome": {},
+      "With Intermittent Major Depressive Episodes": {
+        "With Current Major Depressive Episode": {},
+        "Without Current Major Depressive Episode": {}
+      },
+      "With Persistent Major Depressive Episode (Double Depression)": {}
+    },
+    "Premenstrual Dysphoric Disorder": {},
+    "Reproductive Hormone–Related Depressive Disorders": {
+      "Peripartum (Antenatal or Postpartum) Depression": {},
+      "Perimenopausal Depression": {}
+    },
+    "Seasonal Affective (Seasonal) Depressive Disorder": {
+      "Winter-Onset (Fall or Winter Pattern)": {},
+      "Summer-Onset (Spring or Summer Pattern)": {}
+    },
+    "Atypical Depression": {
+      "Mood Reactivity Present": {},
+      "Leaden Paralysis Prominent": {}
+    },
+    "Melancholic Depression": {},
+    "Catatonic Depression": {},
+    "Disruptive Mood Dysregulation Disorder": {},
+    "Substance or Medication-Induced Depressive Disorder": {
+      "Alcohol-Induced Depressive Disorder": {},
+      "Sedative or Hypnotic-Related Depressive Disorder": {},
+      "Opioid-Induced Depressive Disorder": {},
+      "Cannabis-Related Depressive Disorder": {},
+      "Stimulant-Related Depressive Disorder (Crash or Anergic)": {},
+      "Glucocorticoid or Steroid-Induced Depressive Disorder": {},
+      "Interferon-α–Related Depressive Disorder": {},
+      "Isotretinoin-Related Depressive Disorder": {},
+      "Hormonal Agent–Related Depressive Disorder": {},
+      "Antihypertensive-Related Depressive Disorder (e.g., Beta-Blockers)": {},
+      "Other Medication-Induced Depressive Disorder": {}
+    },
+    "Depressive Disorder Due to Another Medical Condition": {
+      "Neurologic": {
+        "Poststroke Depression": {},
+        "Parkinson’s Disease–Related Depression": {},
+        "Traumatic Brain Injury–Related Depression": {},
+        "Multiple Sclerosis–Related Depression": {},
+        "Epilepsy-Associated Depression": {},
+        "Huntington’s Disease–Related Depression": {}
+      },
+      "Endocrine or Metabolic": {
+        "Hypothyroidism-Related Depression": {},
+        "Cushing Syndrome–Related Depression": {},
+        "Diabetes-Related Depression": {}
+      },
+      "Autoimmune or Inflammatory": {
+        "Systemic Lupus Erythematosus–Related Depression": {}
+      },
+      "Infectious": {
+        "HIV-Related Depression": {},
+        "Hepatitis C–Related Depression": {}
+      },
+      "Sleep or Breathing Disorders": {
+        "Obstructive Sleep Apnea–Related Depression": {}
+      },
+      "Chronic Pain or Oncologic": {
+        "Chronic Pain–Associated Depression": {},
+        "Cancer-Associated Depression": {}
+      }
+    },
+    "Other Specified Depressive Disorder": {
+      "Short-Duration Depressive Episode (4–13 Days)": {},
+      "Depressive Episode with Insufficient Symptoms": {},
+      "Recurrent Brief Depression": {},
+      "Depressive Episode with Peripartum Onset (Subthreshold)": {}
+    },
+    "Unspecified Depressive Disorder": {}
+  },
+  "Obsessive-Compulsive and Related Disorders": {
+    "Obsessive-Compulsive Disorder": {
+      "Thematic Subtypes": {
+        "Contamination or Washing": {},
+        "Checking": {},
+        "Symmetry or Ordering or Arranging": {},
+        "Just-Right or Incompleteness": {},
+        "Harm Obsessions (Self or Others) with Mental or Behavioral Rituals": {},
+        "Sexual Obsessions (e.g., SO-OCD, Paedophilia-Themed)": {},
+        "Religious or Scrupulosity": {},
+        "Relationship Obsessions (ROCD)": {},
+        "Somatic or Health Obsessions (Sensorimotor or Body-Focus)": {},
+        "Existential or Philosophical Obsessions": {},
+        "Primarily Obsessional (Pure-O) with Covert Mental Rituals": {},
+        "Saving or Accumulating (OCD Hoarding Dimension)": {}
+      },
+      "Contextual or Clinical Variants": {
+        "Perinatal or Postpartum OCD": {},
+        "Pediatric Acute-Onset OCD or Tics (PANS or PANDAS)": {},
+        "Tic-Related OCD": {},
+        "Comorbid Autism-Spectrum–Related OCD": {}
+      },
+      "Insight or Belief Forms": {
+        "With Good or Fair Insight": {},
+        "With Poor Insight": {},
+        "With Absent Insight or Delusional Beliefs": {}
+      }
+    },
+    "Body Dysmorphic Disorder": {
+      "Focus Areas": {
+        "Face or Skin or Hair": {},
+        "Nose or Jaw or Teeth": {},
+        "Breasts or Chest or Genitals": {},
+        "Overall Body Build or Asymmetry": {}
+      },
+      "Subtypes": {
+        "Muscle Dysmorphia": {},
+        "Body Dysmorphic Disorder by Proxy (Concern about Another’s Appearance)": {}
+      },
+      "Behavior Patterns": {
+        "Camouflaging or Comparing or Seeking Reassurance": {},
+        "Mirror Checking or Avoidance": {},
+        "Skin or Spot Picking Secondary to BDD": {},
+        "Repeated Cosmetic Procedures–Seeking": {}
+      },
+      "Insight Specifiers": {
+        "Good or Fair Insight": {},
+        "Poor Insight": {},
+        "Absent Insight or Delusional Beliefs": {}
+      }
+    },
+    "Hoarding Disorder": {
+      "Acquisition Patterns": {
+        "With Excessive Acquisition": {},
+        "Without Excessive Acquisition": {}
+      },
+      "Content Subtypes": {
+        "General Possessions (Paper or Clothes or Tools)": {},
+        "Unsanitary or Trash Hoarding": {},
+        "Animal Hoarding": {},
+        "Digital Hoarding (Files or Emails or Media)": {}
+      },
+      "Insight Specifiers": {
+        "Good or Fair Insight": {},
+        "Poor Insight": {},
+        "Absent Insight or Delusional Beliefs": {}
+      }
+    },
+    "Trichotillomania (Hair-Pulling Disorder)": {
+      "Pulling Styles": {
+        "Focused (Tension or Urge-Driven)": {},
+        "Automatic (Outside Awareness)": {},
+        "Mixed": {}
+      },
+      "Sites": {
+        "Scalp": {},
+        "Eyebrows or Eyelashes": {},
+        "Beard or Moustache": {},
+        "Body Hair (Arms or Legs or Axillae or Pubic)": {}
+      },
+      "Complications": {
+        "Trichophagia or Trichobezoar": {},
+        "Alopecia or Scarring": {}
+      }
+    },
+    "Excoriation (Skin-Picking) Disorder": {
+      "Picking Styles": {
+        "Focused": {},
+        "Automatic": {},
+        "Mixed": {}
+      },
+      "Targets": {
+        "Face": {},
+        "Arms or Hands": {},
+        "Back or Chest": {},
+        "Scalp": {}
+      },
+      "Complications": {
+        "Infection": {},
+        "Scarring or Disfigurement": {},
+        "Bleeding or Wound Complications": {}
+      }
+    },
+    "Body-Focused Repetitive Behavior Disorder (Other BFRBs)": {
+      "Onychophagia (Nail-Biting)": {},
+      "Onychotillomania (Nail-Picking)": {},
+      "Dermatophagia (Skin Biting or Chewing)": {},
+      "Cheek or Lip or Tongue Biting (Morsicatio Buccarum or Labiorum or Linguae)": {},
+      "Nasal Picking (Rhinotillexomania)": {},
+      "Biting of Inside of Mouth or Oral BFRBs": {}
+    },
+    "Olfactory Reference Syndrome": {
+      "Primary Concerns": {
+        "Halitosis (Breath Odor) Preoccupation": {},
+        "General Body Odor Preoccupation": {}
+      },
+      "Behavior Patterns": {
+        "Checking or Smelling or Seeking Reassurance": {},
+        "Camouflaging (Scent or Overwashing)": {},
+        "Social Avoidance": {}
+      },
+      "Insight Specifiers": {
+        "Good or Fair Insight": {},
+        "Poor Insight": {},
+        "Absent Insight or Delusional Beliefs": {}
+      }
+    },
+    "Body Integrity Dysphoria": {
+      "Desired State": {
+        "Amputation of Specific Limb(s)": {},
+        "Paralysis or Anesthesia of Limb(s)": {},
+        "Loss of Vision or Hearing Desire": {}
+      },
+      "Focus": {
+        "Limb Ownership Disturbance (Xenomelia)": {},
+        "Laterality-Specific Desire (Left or Right Preference)": {}
+      }
+    },
+    "Other Specified Obsessive-Compulsive and Related Disorder": {
+      "Subthreshold OCD (Duration or Number of Symptoms)": {},
+      "BFRB–Like Repetitive Behaviors Not Meeting Full Criteria": {},
+      "Hoarding with Limited Functional Impact": {},
+      "Reassurance-Seeking or Checking Dominant without Full OCD": {},
+      "Misophonia (Sound-Triggered Rage or Distress)": {},
+      "Culture-Related OCRD Presentations": {
+        "Jikoshu-Kyofu (Body Odor Concern)": {},
+        "Taijin Kyofusho–Related OCRD Presentations": {}
+      }
+    },
+    "Unspecified Obsessive-Compulsive and Related Disorder": {},
+    "Spectrum or Associated Conditions (for differential linkage)": {
+      "Tourette Syndrome or Tic Disorders (OCD-Tic Related)": {},
+      "Perinatal or Postpartum Intrusive Thoughts without Full OCD": {}
+    },
+    "Primarily Obsessional OCD (Explicit Listing)": {
+      "Pure Obsessions (Harm or Sexual or Religious or Contamination) with Mental Rituals": {},
+      "Rumination or Neutralizing or Covert Checking": {}
+    }
+  },
+  "Neurodevelopmental Disorders": {
+    "Intellectual Disabilities": {
+      "Intellectual Disability (Intellectual Developmental Disorder)": {
+        "Mild": {},
+        "Moderate": {},
+        "Severe": {},
+        "Profound": {}
+      },
+      "Global Developmental Delay": {},
+      "Unspecified Intellectual Disability": {}
+    },
+    "Communication Disorders": {
+      "Language Disorder (Developmental Language Disorder)": {
+        "Expressive Impairment": {},
+        "Receptive Impairment": {},
+        "Mixed Receptive-Expressive": {}
+      },
+      "Speech Sound Disorder": {
+        "Phonological Disorder": {},
+        "Articulation Disorder": {},
+        "Childhood Apraxia of Speech (Developmental Verbal Dyspraxia)": {},
+        "Developmental Dysarthria": {}
+      },
+      "Childhood-Onset Fluency Disorder (Stuttering)": {
+        "Persistent Developmental Stuttering": {},
+        "Cluttering": {}
+      },
+      "Social (Pragmatic) Communication Disorder": {},
+      "Other Specified Communication Disorder": {},
+      "Unspecified Communication Disorder": {}
+    },
+    "Autism Spectrum Disorder": {
+      "With Intellectual Impairment": {},
+      "Without Intellectual Impairment": {},
+      "With Language Impairment": {},
+      "Without Language Impairment": {},
+      "With Catatonia": {}
+    },
+    "Attention-Deficit or Hyperactivity Disorder (ADHD)": {
+      "Combined Presentation": {},
+      "Predominantly Inattentive Presentation": {},
+      "Predominantly Hyperactive or Impulsive Presentation": {},
+      "Other Specified ADHD": {},
+      "Unspecified ADHD": {}
+    },
+    "Specific Learning Disorder": {
+      "With Impairment in Reading (Dyslexia)": {
+        "Word Reading Accuracy": {},
+        "Reading Rate or Fluency": {},
+        "Reading Comprehension": {}
+      },
+      "With Impairment in Written Expression (Dysgraphia)": {
+        "Spelling Accuracy": {},
+        "Grammar and Punctuation Accuracy": {},
+        "Clarity or Organization of Written Expression": {}
+      },
+      "With Impairment in Mathematics (Dyscalculia)": {
+        "Number Sense": {},
+        "Memorization of Arithmetic Facts": {},
+        "Accurate or Fluent Calculation": {},
+        "Accurate Math Reasoning": {}
+      },
+      "Other Specified Specific Learning Disorder": {},
+      "Unspecified Specific Learning Disorder": {}
+    },
+    "Motor Disorders": {
+      "Developmental Coordination Disorder (Dyspraxia)": {},
+      "Stereotypic Movement Disorder": {
+        "With Self-Injurious Behavior": {},
+        "Without Self-Injurious Behavior": {},
+        "Associated with Known Medical or Genetic Condition": {}
+      },
+      "Other Specified Motor Disorder": {},
+      "Unspecified Motor Disorder": {}
+    },
+    "Tic Disorders": {
+      "Tourette's Disorder": {},
+      "Persistent (Chronic) Motor or Vocal Tic Disorder": {
+        "Motor Tics Only": {},
+        "Vocal Tics Only": {}
+      },
+      "Provisional Tic Disorder": {},
+      "Other Specified Tic Disorder": {},
+      "Unspecified Tic Disorder": {}
+    },
+    "Other Neurodevelopmental Disorders": {
+      "Neurodevelopmental Disorder Associated with Prenatal Alcohol Exposure (ND-PAE)": {},
+      "Nonverbal Learning Disorder (NVLD)": {},
+      "Sensory Processing Disorder": {},
+      "Auditory Processing Disorder": {},
+      "Other Specified Neurodevelopmental Disorder": {},
+      "Unspecified Neurodevelopmental Disorder": {}
+    }
+  },
+  "Trauma- and Stressor-Related Disorders": {
+    "Attachment Disorders of Early Childhood": {
+      "Reactive Attachment Disorder": {},
+      "Disinhibited Social Engagement Disorder": {}
+    },
+    "Posttraumatic Stress Spectrum": {
+      "Posttraumatic Stress Disorder": {
+        "Adult or Adolescent PTSD": {},
+        "Preschool PTSD (≤6 Years)": {},
+        "Dissociative Subtype": {},
+        "With Delayed Expression": {},
+        "By Precipitating Trauma": {
+          "Combat-Related": {},
+          "Sexual Violence–Related": {},
+          "Interpersonal Violence or Domestic Abuse": {},
+          "Childhood Abuse or Neglect": {},
+          "Refugee Trauma or Torture": {},
+          "Human Trafficking or Kidnapping": {},
+          "Terrorism or War or Political Violence": {},
+          "Natural Disaster": {},
+          "Technological or Industrial Disaster": {},
+          "Accident-Related (e.g., Motor Vehicle)": {},
+          "Medical or Procedural Trauma (e.g., ICU, Surgery)": {},
+          "Peripartum or Childbirth-Related": {},
+          "Community Violence": {},
+          "Bullying or Cyberbullying": {}
+        }
+      },
+      "Complex Posttraumatic Stress Disorder": {}
+    },
+    "Acute Stress Responses": {
+      "Acute Stress Disorder": {},
+      "Acute Stress Reaction": {}
+    },
+    "Adjustment Disorders": {
+      "With Depressed Mood": {},
+      "With Anxiety": {},
+      "With Mixed Anxiety and Depressed Mood": {},
+      "With Disturbance of Conduct": {},
+      "With Mixed Disturbance of Emotions and Conduct": {},
+      "With Somatic Symptoms": {},
+      "Persistent (Chronic) Adjustment Disorder": {},
+      "Unspecified Adjustment Disorder": {}
+    },
+    "Grief-Related Disorders": {
+      "Prolonged Grief Disorder": {},
+      "Persistent Complex Bereavement Disorder": {},
+      "Traumatic Grief": {}
+    },
+    "Other Specified Trauma- and Stressor-Related Disorders": {
+      "Subthreshold PTSD Presentation": {},
+      "Adjustment-like Disorder with Delayed Onset": {},
+      "Adjustment-like Disorder with Prolonged Duration without Ongoing Stressor": {},
+      "Secondary Traumatic Stress (Vicarious Trauma)": {},
+      "Moral Injury": {},
+      "Cultural Trauma-Related Syndromes": {
+        "Ataque de Nervios": {},
+        "Amok": {},
+        "Khyal Attacks": {},
+        "Susto": {}
+      }
+    },
+    "Unspecified Trauma- and Stressor-Related Disorder": {},
+    "Proposed or Research Diagnoses": {
+      "Post-Traumatic Embitterment Disorder": {}
+    }
+  },
+  "Dissociative Disorders": {
+    "Dissociative Identity Disorder": {},
+    "Dissociative Amnesia": {
+      "With Dissociative Fugue": {},
+      "Without Dissociative Fugue": {}
+    },
+    "Depersonalization AndOr Derealization Disorder": {},
+    "Ganser Syndrome": {},
+    "Dissociative Neurological Symptom Disorder": {},
+    "Dissociative Trance": {},
+    "Acute Dissociation due to Stressful Events": {}
+  },
+  "Somatic Symptom and Related Disorders": {
+    "Somatic Symptom Disorder": {},
+    "Illness Anxiety Disorder (Hypochondriasis)": {},
+    "Conversion Disorder": {
+      "Conversion Disorder − No Subtypes": {},
+      "Conversion Disorder − With weakness or paralysis": {},
+      "Conversion Disorder − With speech symptoms": {},
+      "Conversion Disorder − With abnormal movement": {},
+      "Conversion Disorder − With attacks or seizures": {},
+      "Covnersion Disorder - With anesthesia or sensory loss": {},
+      "Conversion Disorder - With special sensory symptom": {},
+      "Conversion Disorder - With mixed symptoms": {}
+    },
+    "Factitious Disorder": {
+      "Factitious Disorder Imposed on Self": {},
+      "Factitious Disorder Imposed on Another": {}
+    },
+    "Cyberchondria": {},
+    "Somatization Disorder": {},
+    "Pseudocyesis": {}
+  },
+  "Feeding and Eating Disorders": {
+    "Pica": {
+      "Pica of Infancy or Childhood": {},
+      "Pica of Pregnancy": {},
+      "Pica of Adulthood (Non-Pregnant)": {}
+    },
+    "Avoidant or Restrictive Food Intake Disorder (ARFID)": {
+      "Sensory Sensitivity Subtype": {},
+      "Fear of Aversive Consequences (e.g., Choking or Vomiting) Subtype": {},
+      "Apparent Lack of Interest or Low Appetite Subtype": {},
+      "ARFID with Significant Weight Loss or Failure to Grow": {},
+      "ARFID with Nutritional Deficiency": {},
+      "ARFID Requiring Enteral Feeding or Oral Supplements": {}
+    },
+    "Anorexia Nervosa": {
+      "Restricting Type": {},
+      "Binge-Eating or Purging Type": {},
+      "Atypical Anorexia Nervosa (Normal Weight)": {},
+      "Anorexia Athletica (Exercise-Driven; proposed)": {}
+    },
+    "Bulimia Nervosa": {
+      "Purging Pattern (Vomiting or Laxatives or Diuretics)": {},
+      "Non-Purging Pattern (Fasting or Excessive Exercise)": {}
+    },
+    "Binge-Eating Disorder": {
+      "With Marked Distress over Binge Eating": {},
+      "Night Eating Variant (Binge-Focused)": {}
+    },
+    "Purging Disorder": {},
+    "Night Eating Syndrome": {},
+    "Orthorexia Nervosa (Health or “Clean-Eating” Fixation)": {},
+    "Diabulimia (Insulin Restriction or Manipulation)": {},
+    "Chewing-and-Spitting Disorder": {},
+    "Grazing Disorder (Recurrent Unplanned Nibbling or Eating)": {},
+    "Feeding or Eating Disorder Due to Another Medical Condition": {
+      "Pediatric Feeding Disorder (Multidomain)": {},
+      "Post–Bariatric Surgery Eating Disturbance": {},
+      "Neurologic or Structural Swallowing-Related Feeding Disorder": {}
+    },
+    "Food-Related Addictive Eating (Proposed)": {
+      "Food Addiction (Ultra-Processed Emphasis)": {},
+      "Sugar-Focused Addictive Eating": {},
+      "Saturated-Fat–Focused Addictive Eating": {}
+    },
+    "Other Specified Feeding or Eating Disorder (OSFED)": {
+      "Atypical Anorexia Nervosa": {},
+      "Bulimia Nervosa of Low Frequency and or or Limited Duration": {},
+      "Binge-Eating Disorder of Low Frequency and or or Limited Duration": {},
+      "Purging Disorder": {},
+      "Night Eating Syndrome": {},
+      "Sleep-Related Eating Disorder": {},
+      "Mixed or Other Subthreshold Presentations": {}
+    },
+    "Unspecified Feeding or Eating Disorder (UFED)": {}
+  },
+  "Elimination Disorders": {
+    "Enuresis": {
+      "Nocturnal Enuresis (Nighttime)": {
+        "Monosymptomatic (No Daytime LUTS)": {},
+        "Nonmonosymptomatic (With Daytime LUTS)": {},
+        "Primary (Never Dry ≥6 Months)": {},
+        "Secondary (Relapse After ≥6 Months Dryness)": {},
+        "Pathophysiologic Variants": {
+          "Nocturnal Polyuria": {},
+          "Reduced Functional Bladder Capacity or Detrusor Overactivity": {},
+          "Arousal Dysfunction (High Arousal Threshold)": {}
+        }
+      },
+      "Diurnal Enuresis (Daytime Urinary Incontinence)": {
+        "Urge Incontinence (Overactive Bladder)": {},
+        "Voiding Postponement (Habitual Holding)": {},
+        "Dysfunctional Voiding (Sphincter–Detrusor Dyssynergia)": {},
+        "Giggle Incontinence": {},
+        "Stress Incontinence": {},
+        "Extraordinary Daytime Urinary Frequency (Pollakiuria)": {}
+      },
+      "Combined Enuresis (Nocturnal and Diurnal)": {}
+    },
+    "Encopresis (Fecal Incontinence)": {
+      "With Constipation and Overflow Incontinence (Retentive Encopresis)": {},
+      "Without Constipation and Overflow (Nonretentive Encopresis)": {},
+      "With Stool Withholding": {},
+      "With Stool Toileting Refusal": {},
+      "Primary (No Prior Continence)": {},
+      "Secondary (After Achieved Continence)": {}
+    },
+    "Mixed Elimination Disorder (Enuresis with Encopresis)": {},
+    "Other Specified Elimination Disorder": {
+      "Subthreshold Enuresis Frequency or Duration": {},
+      "Functional Urinary Incontinence, Not Elsewhere Classified": {},
+      "Functional Nonretentive Fecal Incontinence (Below Full Criteria)": {},
+      "Toilet Training Refusal without Encopresis": {}
+    },
+    "Unspecified Elimination Disorder": {}
+  },
+  "Sleep-Wake Disorders": {
+    "Insomnia Disorders": {
+      "Chronic Insomnia Disorder": {
+        "Sleep-Onset Insomnia": {},
+        "Sleep-Maintenance Insomnia": {},
+        "Early-Morning Awakening Insomnia": {},
+        "Mixed Pattern": {}
+      },
+      "Short-Term (Acute) Insomnia Disorder": {},
+      "Other Specified Insomnia Disorder": {
+        "Paradoxical Insomnia (Sleep State Misperception)": {},
+        "Psychophysiological (Conditioned) Insomnia": {},
+        "Comorbid-Associated Insomnia (Medical or Psychiatric)": {}
+      },
+      "Behavioral Insomnia of Childhood": {
+        "Sleep-Onset Association Type": {},
+        "Limit-Setting Type": {},
+        "Combined Type": {}
+      },
+      "Unspecified Insomnia Disorder": {}
+    },
+    "Central Disorders of Hypersomnolence": {
+      "Narcolepsy": {
+        "Narcolepsy Type 1 (with Cataplexy or Hypocretin Deficiency)": {},
+        "Narcolepsy Type 2 (without Cataplexy)": {},
+        "Narcolepsy Due to Another Medical Condition": {},
+        "Medication or Substance-Related Narcolepsy-Like Disorder": {}
+      },
+      "Idiopathic Hypersomnia": {
+        "With Long Sleep Time": {},
+        "Without Long Sleep Time": {}
+      },
+      "Kleine–Levin Syndrome": {},
+      "Hypersomnia Associated with a Medical Disorder": {},
+      "Hypersomnia Associated with a Medication or Substance": {},
+      "Insufficient Sleep Syndrome (Behaviorally Induced)": {},
+      "Unspecified Hypersomnolence Disorder": {}
+    },
+    "Breathing-Related Sleep Disorders": {
+      "Obstructive Sleep Apnea": {
+        "Adult Obstructive Sleep Apnea": {},
+        "Pediatric Obstructive Sleep Apnea": {},
+        "Upper Airway Resistance Syndrome (UARS)": {}
+      },
+      "Central Sleep Apnea": {
+        "Primary (Idiopathic) Central Sleep Apnea": {},
+        "Cheyne–Stokes Breathing": {},
+        "High-Altitude Periodic Breathing": {},
+        "Central Sleep Apnea Due to a Medical Disorder": {},
+        "Central Sleep Apnea Due to Medication or Substance": {}
+      },
+      "Sleep-Related Hypoventilation": {
+        "Obesity Hypoventilation Syndrome": {},
+        "Congenital Central Alveolar Hypoventilation": {},
+        "Late-Onset Central Hypoventilation": {},
+        "Hypoventilation Due to Medical Disorder (Neuromuscular or Chest Wall)": {},
+        "Medication or Substance-Induced Hypoventilation": {}
+      },
+      "Sleep-Related Hypoxemia": {},
+      "Unspecified Breathing-Related Sleep Disorder": {}
+    },
+    "Circadian Rhythm Sleep–Wake Disorders": {
+      "Delayed Sleep–Wake Phase Disorder": {},
+      "Advanced Sleep–Wake Phase Disorder": {
+        "Familial Advanced Sleep Phase Variant": {}
+      },
+      "Irregular Sleep–Wake Rhythm Disorder": {},
+      "Non-24-Hour Sleep–Wake Rhythm Disorder": {
+        "In Individuals with Visual Impairment": {},
+        "In Sighted Individuals": {}
+      },
+      "Shift Work Disorder": {
+        "Permanent Night Shift": {},
+        "Rotating Shifts": {}
+      },
+      "Jet Lag Disorder": {
+        "Eastward Travel": {},
+        "Westward Travel": {}
+      },
+      "Circadian Disorder Due to a Medical Disorder": {},
+      "Circadian Disorder Due to a Medication or Substance": {},
+      "Other Specified Circadian Rhythm Sleep–Wake Disorder": {},
+      "Unspecified Circadian Rhythm Sleep–Wake Disorder": {}
+    },
+    "Parasomnias": {
+      "Non–Rapid Eye Movement (NREM) Arousal Disorders": {
+        "Confusional Arousals": {},
+        "Sleepwalking (Somnambulism)": {},
+        "Sleep Terrors": {},
+        "Sleep-Related Eating Disorder": {},
+        "Sleep-Related Sexual Behavior (Sexsomnia)": {}
+      },
+      "Rapid Eye Movement (REM)–Related Parasomnias": {
+        "REM Sleep Behavior Disorder": {
+          "Idiopathic": {},
+          "Medication or Substance-Associated": {},
+          "Associated with Neurodegenerative Disease": {}
+        },
+        "Nightmare Disorder": {},
+        "Recurrent Isolated Sleep Paralysis": {}
+      },
+      "Other Parasomnias": {
+        "Exploding Head Syndrome": {},
+        "Sleep-Related Hallucinations": {
+          "Hypnagogic Hallucinations": {},
+          "Hypnopompic Hallucinations": {}
+        },
+        "Parasomnia Overlap Disorder (NREM + REM Features)": {},
+        "Sleep-Related Dissociative Disorder": {},
+        "Enuresis (Sleep Enuresis)": {},
+        "Somniloquy (Sleep Talking)": {},
+        "Confusional Arousals (Chronic or Recurrent)": {}
+      },
+      "Unspecified Parasomnia": {}
+    },
+    "Sleep-Related Movement Disorders": {
+      "Restless Legs Syndrome (RLS)": {},
+      "Periodic Limb Movement Disorder (PLMD)": {},
+      "Sleep-Related Bruxism": {},
+      "Sleep-Related Rhythmic Movement Disorder": {
+        "Head Banging (Jactatio Capitis Nocturna)": {},
+        "Body Rocking": {}
+      },
+      "Sleep-Related Leg Cramps": {},
+      "Propriospinal Myoclonus at Sleep Onset": {},
+      "Benign Sleep Myoclonus of Infancy": {},
+      "Hypnic Jerks (Sleep Starts)": {},
+      "Excessive Fragmentary Myoclonus": {},
+      "Alternating Leg Muscle Activation (ALMA)": {},
+      "Hypnagogic Foot Tremor": {},
+      "Sleep-Related Scratching": {},
+      "Other Specified Sleep-Related Movement Disorder": {},
+      "Unspecified Sleep-Related Movement Disorder": {}
+    },
+    "Medication or Substance-Induced Sleep-Wake Disorders": {
+      "Medication or Substance-Induced Insomnia": {
+        "Caffeine-Induced Insomnia": {},
+        "Stimulant-Induced Insomnia (Amphetamine or Methylphenidate or Cocaine)": {},
+        "Glucocorticoid-Induced Insomnia": {},
+        "Thyroid Hormone–Induced Insomnia": {},
+        "Decongestant-Induced Insomnia (Pseudoephedrine or Phenylephrine)": {},
+        "SSRI or SNRI-Associated Insomnia": {},
+        "Beta-Agonist–Associated Insomnia (e.g., Albuterol)": {},
+        "Alcohol-Related Insomnia (Post-Use or Rebound)": {}
+      },
+      "Medication or Substance-Induced Hypersomnolence": {
+        "Antihistamine-Induced Hypersomnolence (H1 First-Generation)": {},
+        "Antipsychotic-Associated Hypersomnolence": {},
+        "Opioid-Associated Daytime Sleepiness": {},
+        "Benzodiazepine or Z-Drug Residual Sleepiness": {},
+        "Gabapentinoid-Associated Hypersomnolence": {},
+        "Dopamine Agonist–Associated Sleep Attacks (e.g., Pramipexole or Ropinirole)": {},
+        "Alcohol-Related Residual Hypersomnolence": {}
+      },
+      "Medication or Substance-Induced Breathing-Related Sleep Disorders": {
+        "Opioid-Induced Central Sleep Apnea": {},
+        "Opioid-Induced Sleep-Related Hypoventilation": {},
+        "Sedative or Hypnotic–Associated Central Apnea or Hypoventilation": {},
+        "Alcohol-Exacerbated Obstructive Sleep Apnea": {}
+      },
+      "Medication or Substance-Induced Circadian Rhythm Disorders": {
+        "Caffeine-Associated Phase Delay": {},
+        "Glucocorticoid-Associated Phase Shift or Fragmentation": {},
+        "Beta-Blocker–Associated Sleep Disturbance or Nightmares": {},
+        "Melatonin Agonist or Antagonist–Related Circadian Disturbance": {}
+      },
+      "Medication or Substance-Induced Parasomnias": {
+        "Z-Drug–Induced Complex Sleep Behaviors (Sleep-Driving or Eating)": {},
+        "Benzodiazepine-Associated Parasomnias": {},
+        "Antidepressant-Associated REM Sleep Behavior Disorder": {},
+        "Alcohol-Associated Parasomnias (Sleepwalking or Terrors)": {},
+        "Medication-Associated Nightmare Disorder": {}
+      },
+      "Medication or Substance-Induced Movement Disorders During Sleep": {
+        "Antidepressant-Associated Restless Legs Syndrome or Augmentation": {},
+        "Antipsychotic-Associated Restless Legs Syndrome": {},
+        "Stimulant-Associated Sleep-Related Bruxism": {},
+        "SSRI or SNRI-Associated Sleep-Related Bruxism": {}
+      },
+      "Other Specified Medication or Substance-Induced Sleep-Wake Disorder": {},
+      "Unspecified Medication or Substance-Induced Sleep-Wake Disorder": {}
+    },
+    "Other Sleep Disorders": {
+      "Other Specified Sleep–Wake Disorder": {},
+      "Unspecified Sleep–Wake Disorder": {}
+    }
+  },
+  "Sexual Dysfunctions": {
+    "Desire or Interest Disorders": {
+      "Male Hypoactive Sexual Desire Disorder": {
+        "Lifelong": {},
+        "Acquired": {},
+        "Generalized": {},
+        "Situational": {}
+      },
+      "Female Sexual Interest or Arousal Disorder": {
+        "Lifelong": {},
+        "Acquired": {},
+        "Generalized": {},
+        "Situational": {},
+        "Arousal Subtypes": {
+          "Subjective Arousal Deficit": {},
+          "Genital Arousal Deficit": {},
+          "Combined Arousal Deficit": {}
+        }
+      },
+      "Sexual Aversion Disorder (legacy category)": {}
+    },
+    "Arousal Disorders": {
+      "Erectile Disorder": {
+        "Lifelong": {},
+        "Acquired": {},
+        "Generalized": {},
+        "Situational": {},
+        "Predominantly Psychogenic": {},
+        "Predominantly Organic": {
+          "Vascular": {},
+          "Neurogenic": {},
+          "Endocrine or Hormonal": {},
+          "Anatomical (e.g., Peyronie-related)": {},
+          "Medication or Substance-Related": {}
+        }
+      },
+      "Persistent Genital Arousal Disorder": {}
+    },
+    "Orgasmic or Ejaculatory Disorders": {
+      "Female Orgasmic Disorder": {
+        "Lifelong (Primary Anorgasmia)": {},
+        "Acquired (Secondary Anorgasmia)": {},
+        "Generalized": {},
+        "Situational": {}
+      },
+      "Delayed Ejaculation": {
+        "Lifelong": {},
+        "Acquired": {},
+        "Generalized": {},
+        "Situational": {}
+      },
+      "Premature (Early) Ejaculation": {
+        "Lifelong": {},
+        "Acquired": {},
+        "Generalized": {},
+        "Situational": {}
+      },
+      "Anejaculation": {},
+      "Retrograde Ejaculation": {},
+      "Post-Orgasmic Illness Syndrome": {}
+    },
+    "Genito-Pelvic Pain or Penetration Disorders": {
+      "Genito-Pelvic Pain or Penetration Disorder": {
+        "With Vaginal Penetration Fear or Avoidance": {},
+        "With Marked Pelvic Floor Muscle Tension": {},
+        "With Marked Anticipatory Anxiety": {}
+      },
+      "Vaginismus (legacy constituent)": {},
+      "Dyspareunia": {
+        "Superficial Penetration Pain": {},
+        "Deep Penetration Pain": {},
+        "Male Genital Pain with Intercourse": {}
+      },
+      "Vulvodynia": {
+        "Provoked Vestibulodynia": {},
+        "Generalized Vulvodynia": {}
+      }
+    },
+    "Substance or Medication-Induced Sexual Dysfunction": {
+      "Antidepressant-Related (e.g., SSRI or SNRI)": {
+        "Decreased Desire": {},
+        "Arousal Difficulties": {},
+        "Delayed Orgasm or Anorgasmia": {},
+        "Erectile Difficulties": {}
+      },
+      "Antipsychotic-Related": {
+        "Hyperprolactinemia-Associated Dysfunction": {},
+        "Decreased Desire or Arousal": {},
+        "Orgasmic Dysfunction": {}
+      },
+      "Antihypertensive-Related": {
+        "Beta-Blocker–Associated Dysfunction": {},
+        "Diuretic-Associated Dysfunction": {}
+      },
+      "5-Alpha-Reductase Inhibitor–Related": {
+        "Finasteride or Dutasteride-Associated Dysfunction": {}
+      },
+      "Opioid-Related": {
+        "Decreased Desire": {},
+        "Erectile Dysfunction": {},
+        "Orgasmic Dysfunction": {}
+      },
+      "Alcohol-Related": {
+        "Acute Intoxication–Related Dysfunction": {},
+        "Chronic Use–Related Dysfunction": {}
+      },
+      "Recreational Stimulant-Related": {
+        "Cocaine or Amphetamine-Associated Erectile or Orgasmic Dysfunction": {}
+      },
+      "Other Medication or Substance-Related": {
+        "Hormonal Agents (e.g., Antiandrogens or GnRH analogs)": {},
+        "Anticonvulsants (e.g., Topiramate)": {},
+        "Benzodiazepines or Z-Drugs": {},
+        "Cannabis-Associated Dysfunction": {}
+      }
+    },
+    "Sexual Dysfunction Due to Another Medical Condition": {
+      "Endocrine": {
+        "Hypogonadism": {},
+        "Hyperprolactinemia": {},
+        "Thyroid Disorders": {},
+        "Diabetes-Related Sexual Dysfunction": {}
+      },
+      "Cardiovascular or Vascular": {
+        "Atherosclerotic Erectile Dysfunction": {},
+        "Hypertension-Associated Dysfunction": {}
+      },
+      "Neurologic": {
+        "Spinal Cord Injury–Related Dysfunction": {},
+        "Multiple Sclerosis–Related Dysfunction": {},
+        "Peripheral Neuropathy–Related Dysfunction": {}
+      },
+      "Urologic or Gynecologic or Pelvic": {
+        "Peyronie’s Disease–Related Dysfunction": {},
+        "Chronic Prostatitis or Chronic Pelvic Pain Syndrome–Related": {},
+        "Endometriosis-Associated Dyspareunia": {},
+        "Genitourinary Syndrome of Menopause–Associated Dysfunction": {}
+      },
+      "Post-Surgical": {
+        "Post-Prostatectomy Sexual Dysfunction": {},
+        "Post-Pelvic Surgery Sexual Dysfunction": {}
+      }
+    },
+    "Other Specified Sexual Dysfunction": {},
+    "Unspecified Sexual Dysfunction": {}
+  },
+  "Gender Dysphoria": {
+    "Gender Dysphoria in Children": {
+      "Prepubertal Onset": {},
+      "Early Pubertal Onset": {},
+      "With Difference of Sex Development (DSD)": {},
+      "With Partial Social Transition": {},
+      "With Full Social Transition": {},
+      "Other Specified Childhood Gender Dysphoria": {},
+      "Unspecified Childhood Gender Dysphoria": {}
+    },
+    "Gender Dysphoria in Adolescents and Adults": {
+      "Transmasculine Gender Dysphoria": {},
+      "Transfeminine Gender Dysphoria": {},
+      "Nonbinary Gender Dysphoria": {
+        "Agender Presentation": {},
+        "Bigender Presentation": {},
+        "Genderfluid Presentation": {},
+        "Other Nonbinary Presentation": {}
+      },
+      "With Difference of Sex Development (DSD)": {},
+      "Posttransition Status": {
+        "With Ongoing Hormone Therapy": {},
+        "With Prior Gender-Affirming Surgery": {},
+        "With Social Transition Only": {}
+      },
+      "Other Specified Adolescent or Adult Gender Dysphoria": {},
+      "Unspecified Adolescent or Adult Gender Dysphoria": {}
+    },
+    "Course or Onset Patterns (Specifier Layer)": {
+      "Early-Onset (Childhood) Persistent into Adolescence or Adulthood": {},
+      "Late-Onset (Adolescence or Adulthood)": {},
+      "Chronic or Persistent Course": {},
+      "Episodic or Fluctuating Course": {},
+      "In Remission (Posttransition or Nontransition)": {}
+    }
+  },
+  "Disruptive, Impulse-Control, and Conduct Disorders": {
+    "Disruptive Behavior Disorders": {
+      "Oppositional Defiant Disorder": {
+        "Presentation Pattern": {
+          "Predominantly Angry or Irritable": {},
+          "Predominantly Argumentative or Defiant": {},
+          "Predominantly Vindictive": {},
+          "Mixed Presentation": {}
+        },
+        "Severity (By Settings Impacted)": {
+          "Mild (One Setting)": {},
+          "Moderate (Two Settings)": {},
+          "Severe (Three or More Settings)": {}
+        },
+        "Course": {
+          "Childhood-Onset": {},
+          "Adolescent-Onset": {},
+          "Adult Persistence": {}
+        }
+      },
+      "Conduct Disorder": {
+        "Onset Subtype": {
+          "Childhood-Onset Type": {},
+          "Adolescent-Onset Type": {},
+          "Unspecified Onset": {}
+        },
+        "Specifiers": {
+          "With Limited Prosocial Emotions (Callous–Unemotional Traits)": {},
+          "Without Limited Prosocial Emotions": {}
+        },
+        "Severity": {
+          "Mild": {},
+          "Moderate": {},
+          "Severe": {}
+        },
+        "Contextual Subtypes": {
+          "Confined to Family Context": {},
+          "Socialized Conduct Disorder": {},
+          "Unsocialized Conduct Disorder": {}
+        },
+        "Predominant Symptom Clusters": {
+          "Aggression to People and Animals": {},
+          "Destruction of Property": {},
+          "Deceitfulness or Theft": {},
+          "Serious Violations of Rules": {}
+        }
+      }
+    },
+    "Anger or Aggression Outburst Disorders": {
+      "Intermittent Explosive Disorder": {
+        "Outburst Pattern": {
+          "Frequent Low-Intensity Outbursts": {},
+          "Infrequent High-Intensity Outbursts": {}
+        },
+        "Harm Profile": {
+          "With Physical Injury": {},
+          "With Property Destruction": {},
+          "Without Injury or Property Destruction": {}
+        },
+        "Course": {
+          "Episodic Course": {},
+          "Chronic Course": {}
+        }
+      },
+      "Disruptive Mood Dysregulation Disorder": {
+        "With Predominant Irritability": {},
+        "With Severe Temper Outbursts": {},
+        "Combined Presentation": {}
+      }
+    },
+    "Impulse-Control Disorders": {
+      "Kleptomania": {
+        "With Theft Limited to Retail or Theft from Stores": {},
+        "With Theft Across Multiple Contexts": {}
+      },
+      "Pyromania": {
+        "With Recurrent Deliberate Fire-Setting": {},
+        "With Fire-Setting in Multiple Settings": {}
+      },
+      "Mythomania (Pathological Lying)": {
+        "Compulsive Fabrication": {},
+        "Pseudologia Fantastica": {}
+      },
+      "Other Specified Impulse-Control Disorder": {
+        "Recurrent Non-Suicidal Aggression Not Meeting IED Criteria": {},
+        "Compulsive Property Destruction or Vandalism": {},
+        "Compulsive Non-Monetary Rule-Breaking": {}
+      }
+    },
+    "Cross-Cutting or Developmental Course (for any of the above)": {
+      "Episodic": {},
+      "Chronic or Persistent": {},
+      "In Remission (Partial)": {},
+      "In Remission (Full)": {}
+    },
+    "Other and Unspecified": {
+      "Other Specified Disruptive, Impulse-Control, and Conduct Disorder": {},
+      "Unspecified Disruptive, Impulse-Control, and Conduct Disorder": {}
+    }
+  },
+  "Substance-Related and Addictive Disorders": {
+    "Substance Use Disorders": {
+      "Alcohol Use Disorder": {},
+      "Cannabis Use Disorder": {
+        "Plant-Derived Cannabinoids": {},
+        "Synthetic Cannabinoids (Spice or K2)": {}
+      },
+      "Opioid Use Disorder": {
+        "Heroin Use Disorder": {},
+        "Morphine Use Disorder": {},
+        "Codeine Use Disorder": {},
+        "Oxycodone Use Disorder": {},
+        "Hydrocodone Use Disorder": {},
+        "Hydromorphone Use Disorder": {},
+        "Fentanyl Use Disorder": {},
+        "Tramadol Use Disorder": {},
+        "Buprenorphine Use Disorder": {},
+        "Methadone Use Disorder": {},
+        "Novel Synthetic Opioids (Nitazenes or U-series)": {}
+      },
+      "Stimulant Use Disorder": {
+        "Cocaine Use Disorder": {},
+        "Amphetamine Use Disorder": {
+          "Dextroamphetamine Use Disorder": {},
+          "Lisdexamfetamine Use Disorder": {}
+        },
+        "Methamphetamine Use Disorder": {},
+        "Methylphenidate Use Disorder": {},
+        "Synthetic Cathinones Use Disorder (Mephedrone or Methylone or α-PVP)": {},
+        "Khat or Cathinone Use Disorder": {},
+        "Caffeine Use Disorder": {}
+      },
+      "Sedative, Hypnotic, or Anxiolytic Use Disorder": {
+        "Benzodiazepine Use Disorder": {},
+        "Z-Drug Use Disorder (Zolpidem or Zopiclone or Eszopiclone)": {},
+        "Barbiturate Use Disorder": {},
+        "Carbamate Use Disorder (Meprobamate)": {},
+        "Gabapentinoid Misuse Disorder (Pregabalin or Gabapentin)": {},
+        "Carisoprodol or Muscle-Relaxant Use Disorder": {}
+      },
+      "Tobacco or Nicotine Use Disorder": {
+        "Combustible Tobacco Use Disorder": {},
+        "Smokeless Tobacco Use Disorder": {},
+        "Vaping or E-Cigarette Nicotine Use Disorder": {},
+        "Nicotine Pouch Use Disorder": {}
+      },
+      "Hallucinogen Use Disorder": {
+        "LSD Use Disorder": {},
+        "Psilocybin Use Disorder": {},
+        "Mescaline or Peyote Use Disorder": {},
+        "DMT or Ayahuasca Use Disorder": {},
+        "NBOMe or 2C-Series Use Disorder": {},
+        "Salvia divinorum Use Disorder": {}
+      },
+      "Dissociative Use Disorder": {
+        "Phencyclidine (PCP) Use Disorder": {},
+        "Ketamine Use Disorder": {},
+        "Dextromethorphan Use Disorder": {}
+      },
+      "Inhalant Use Disorder": {
+        "Volatile Solvents (Toluene, etc.) Use Disorder": {},
+        "Aerosols or Propellants Use Disorder": {},
+        "Gases (Nitrous Oxide) Use Disorder": {},
+        "Nitrites (Poppers) Use Disorder": {}
+      },
+      "Other Substance Use Disorders": {
+        "Kratom (Mitragynine) Use Disorder": {},
+        "Kava Use Disorder": {},
+        "Anabolic-Androgenic Steroid Use Disorder": {},
+        "Betel Nut (Areca) Use Disorder": {},
+        "Unknown or Other Substance Use Disorder": {}
+      },
+      "Polysubstance Use Disorder": {}
+    },
+    "Substance-Induced Disorders": {
+      "Substance Intoxication": {
+        "Alcohol Intoxication": {
+          "Uncomplicated": {},
+          "With Perceptual Disturbances": {},
+          "With Delirium": {}
+        },
+        "Cannabis Intoxication": {
+          "Uncomplicated": {},
+          "With Perceptual Disturbances": {}
+        },
+        "Opioid Intoxication": {
+          "Uncomplicated": {},
+          "With Respiratory Depression": {}
+        },
+        "Sedative or Hypnotic or Anxiolytic Intoxication": {
+          "Benzodiazepine Intoxication": {},
+          "Z-Drug Intoxication": {},
+          "Barbiturate Intoxication": {}
+        },
+        "Stimulant Intoxication": {
+          "Cocaine Intoxication": {
+            "Without Psychosis": {},
+            "With Psychosis or Perceptual Disturbances": {}
+          },
+          "Amphetamine or Methamphetamine Intoxication": {
+            "Without Psychosis": {},
+            "With Psychosis or Perceptual Disturbances": {}
+          },
+          "Methylphenidate Intoxication": {},
+          "Synthetic Cathinone Intoxication": {},
+          "Caffeine Intoxication": {}
+        },
+        "Hallucinogen Intoxication": {
+          "LSD Intoxication": {},
+          "Psilocybin Intoxication": {},
+          "Mescaline Intoxication": {},
+          "NBOMe or 2C-Series Intoxication": {}
+        },
+        "Dissociative Intoxication": {
+          "PCP Intoxication": {
+            "Without Delirium": {},
+            "With Delirium": {}
+          },
+          "Ketamine Intoxication": {},
+          "Dextromethorphan Intoxication": {}
+        },
+        "Inhalant Intoxication": {
+          "Volatile Solvent Intoxication": {},
+          "Aerosol Intoxication": {},
+          "Gas (Nitrous Oxide) Intoxication": {},
+          "Nitrite Intoxication": {}
+        }
+      },
+      "Substance Withdrawal": {
+        "Alcohol Withdrawal": {
+          "Uncomplicated Alcohol Withdrawal (Mild–Moderate)": {},
+          "Alcohol Withdrawal with Perceptual Disturbances (Alcoholic Hallucinosis)": {},
+          "Alcohol Withdrawal with Seizures": {},
+          "Alcohol Withdrawal Delirium (Delirium Tremens)": {},
+          "Protracted or Post-Acute Alcohol Withdrawal Syndrome (PAWS)": {}
+        },
+        "Opioid Withdrawal": {
+          "Short-Acting Opioid Withdrawal (e.g., Heroin)": {},
+          "Long-Acting Opioid Withdrawal (e.g., Methadone or Buprenorphine)": {},
+          "Neonatal Opioid Withdrawal Syndrome": {}
+        },
+        "Sedative or Hypnotic or Anxiolytic Withdrawal": {
+          "Benzodiazepine Withdrawal (Short-Acting)": {},
+          "Benzodiazepine Withdrawal (Long-Acting)": {},
+          "Protracted Benzodiazepine Withdrawal Syndrome": {},
+          "Barbiturate Withdrawal": {},
+          "Z-Drug Withdrawal": {},
+          "With Seizures or Delirium": {}
+        },
+        "Stimulant Withdrawal": {
+          "Cocaine Withdrawal (Crash or Anergic Dysphoria)": {},
+          "Amphetamine or Methamphetamine Withdrawal": {},
+          "Methylphenidate Withdrawal": {},
+          "Synthetic Cathinone Withdrawal": {},
+          "Protracted Stimulant Withdrawal": {}
+        },
+        "Cannabis Withdrawal": {},
+        "Tobacco or Nicotine Withdrawal": {
+          "Combustible Tobacco Withdrawal": {},
+          "Vaping or E-Cigarette Nicotine Withdrawal": {}
+        },
+        "Caffeine Withdrawal": {},
+        "Inhalant Withdrawal": {}
+      },
+      "Substance-Induced Mental Disorders": {
+        "Substance-Induced Psychotic Disorder": {
+          "Alcohol-Induced Psychotic Disorder": {},
+          "Cannabis-Induced Psychotic Disorder": {},
+          "Stimulant-Induced Psychotic Disorder": {},
+          "Hallucinogen-Induced Psychotic Disorder": {},
+          "PCP or Ketamine-Induced Psychotic Disorder": {},
+          "Opioid-Induced Psychotic Disorder": {},
+          "Sedative or Hypnotic-Induced Psychotic Disorder": {},
+          "Inhalant-Induced Psychotic Disorder": {}
+        },
+        "Substance-Induced Bipolar and Related Disorder": {
+          "Stimulant-Induced Mania or Hypomania": {},
+          "Steroid or Anabolic-Induced Mood Disorder": {},
+          "Other Substance-Induced Bipolar Disorder": {}
+        },
+        "Substance-Induced Depressive Disorder": {
+          "Alcohol-Induced Depressive Disorder": {},
+          "Stimulant-Induced Depressive Disorder (Withdrawal or Crash)": {},
+          "Opioid-Induced Depressive Disorder": {},
+          "Cannabis-Induced Depressive Disorder": {},
+          "Sedative or Hypnotic-Induced Depressive Disorder": {}
+        },
+        "Substance-Induced Anxiety Disorder": {
+          "Cannabis-Induced Anxiety Disorder": {},
+          "Stimulant-Induced Anxiety Disorder": {},
+          "Caffeine-Induced Anxiety Disorder": {},
+          "Alcohol-Induced Anxiety Disorder (Post-Cessation)": {},
+          "Sedative or Hypnotic-Induced Anxiety Disorder (Withdrawal)": {}
+        },
+        "Substance-Induced Obsessive-Compulsive and Related Disorder": {},
+        "Substance-Induced Sleep Disorder": {
+          "Alcohol-Induced Sleep Disorder": {},
+          "Stimulant-Induced Sleep Disorder": {},
+          "Sedative or Hypnotic-Induced Sleep Disorder": {},
+          "Cannabis-Induced Sleep Disorder": {},
+          "Caffeine-Induced Sleep Disorder": {}
+        },
+        "Substance-Induced Sexual Dysfunction": {
+          "Alcohol-Induced Sexual Dysfunction": {},
+          "SSRI or SNRI-Related Sexual Dysfunction (Substance-Medication)": {},
+          "Opioid-Induced Sexual Dysfunction": {},
+          "Stimulant-Induced Sexual Dysfunction": {}
+        },
+        "Substance-Induced Delirium": {},
+        "Substance-Induced Neurocognitive Disorder": {
+          "Alcohol-Related Neurocognitive Disorder": {},
+          "Inhalant-Related Neurocognitive Disorder": {},
+          "Sedative or Hypnotic-Related Neurocognitive Disorder": {},
+          "Stimulant-Related Neurocognitive Disorder": {},
+          "Opioid-Related Neurocognitive Disorder": {}
+        },
+        "Substance-Induced Dissociative Disorder": {},
+        "Substance-Induced Catatonia": {},
+        "Hallucinogen Persisting Perception Disorder": {}
+      }
+    },
+    "Non-Substance-Related (Behavioral) Addictive Disorders": {
+      "Gambling Disorder": {
+        "Casino or Slot Machine Gambling": {},
+        "Sports Betting": {},
+        "Online Gambling": {},
+        "Lottery or Scratch Cards": {},
+        "Speculative Trading (e.g., Day Trading or Crypto)": {}
+      },
+      "Gaming Disorder": {
+        "Online Gaming Disorder": {},
+        "Offline Gaming Disorder": {}
+      },
+      "Digital Media Use Disorders": {
+        "Internet Use Disorder": {},
+        "Social Media Addiction": {},
+        "Short-Form Video or Streaming Addiction": {},
+        "Smartphone Addiction": {}
+      },
+      "Compulsive Sexual Behavior Disorders": {
+        "Pornography Use Disorder": {
+          "Online Pornography Use Disorder": {},
+          "Offline Pornography Use Disorder": {}
+        },
+        "Compulsive Sexual Behavior (Non-Pornography Focus)": {}
+      },
+      "Compulsive Buying–Shopping Disorder": {},
+      "Exercise Addiction": {},
+      "Work Addiction (Workaholism)": {},
+      "Food-Related Addictive Behavior": {
+        "Ultra-Processed Food Addiction": {},
+        "Sugar or Fast-Food Addiction": {}
+      },
+      "Other Behavioral Addictions": {
+        "Tanning Addiction": {},
+        "Cosmetic Procedure–Seeking Addiction": {}
+      }
+    }
+  },
+  "Neurocognitive Disorders": {
+    "Delirium": {
+      "Due to Another Medical Condition": {},
+      "Postoperative Delirium": {},
+      "ICU Delirium": {},
+      "Substance Intoxication Delirium": {
+        "Alcohol Intoxication Delirium": {},
+        "Sedative-Hypnotic or Anxiolytic Intoxication Delirium": {
+          "Benzodiazepines": {},
+          "Barbiturates": {},
+          "Z-Drugs": {}
+        },
+        "Stimulant Intoxication Delirium": {
+          "Amphetamine or Methamphetamine": {},
+          "Methylphenidate": {},
+          "Cocaine": {},
+          "MDMA (Ecstasy)": {},
+          "Synthetic Cathinones (Bath Salts: Mephedrone or Methylone or α-PVP)": {},
+          "Khat (Cathinone)": {},
+          "Caffeine (Severe Intoxication)": {}
+        },
+        "Opioid Intoxication Delirium": {},
+        "Cannabis Intoxication Delirium": {
+          "Plant-Derived": {},
+          "Synthetic Cannabinoids": {}
+        },
+        "Hallucinogen Intoxication Delirium": {
+          "LSD": {},
+          "Psilocybin": {},
+          "Mescaline": {}
+        },
+        "Dissociative Intoxication Delirium": {
+          "PCP": {},
+          "Ketamine": {},
+          "Dextromethorphan (DXM)": {}
+        },
+        "Anticholinergic Intoxication Delirium": {
+          "Antihistamines": {},
+          "Tricyclic Antidepressants": {},
+          "Antiparkinsonian Anticholinergics": {}
+        },
+        "Inhalant or Toxin Intoxication Delirium": {
+          "Toluene or Solvents": {},
+          "Nitrous Oxide": {},
+          "Gasoline": {},
+          "Carbon Monoxide": {},
+          "Organophosphates": {},
+          "Cyanide": {},
+          "Heavy Metals": {
+            "Lead": {},
+            "Mercury": {},
+            "Arsenic": {},
+            "Manganese": {},
+            "Aluminum": {}
+          }
+        },
+        "Other or Multiple Substances Intoxication Delirium": {}
+      },
+      "Substance Withdrawal Delirium": {
+        "Alcohol Withdrawal Delirium": {},
+        "Sedative-Hypnotic Withdrawal Delirium": {},
+        "Opioid Withdrawal Delirium": {},
+        "Stimulant Withdrawal Delirium": {}
+      },
+      "Delirium Due to Multiple Etiologies": {},
+      "Unspecified Delirium": {}
+    },
+    "Major Neurocognitive Disorder": {
+      "Due to Alzheimer's Disease": {
+        "Typical Amnestic AD": {},
+        "Posterior Cortical Atrophy": {},
+        "Logopenic Variant Primary Progressive Aphasia": {},
+        "Frontal or Executive Variant AD": {},
+        "Down Syndrome–Associated AD": {}
+      },
+      "Due to Vascular Disease": {
+        "Multi-Infarct (Cortical)": {},
+        "Subcortical Ischemic (Small Vessel or Binswanger)": {},
+        "Strategic Infarct": {},
+        "Hemorrhagic": {},
+        "Cerebral Amyloid Angiopathy (CAA)": {},
+        "Hereditary Small Vessel": {
+          "CADASIL": {},
+          "CARASIL": {},
+          "COL4A1 or COL4A2-Related Arteriopathy": {}
+        },
+        "Moyamoya-Related": {},
+        "Sickle Cell Disease–Related Vasculopathy": {}
+      },
+      "Due to Lewy Body Disease (DLB)": {},
+      "Due to Parkinson's Disease (PDD)": {},
+      "Due to Multiple System Atrophy (MSA)": {},
+      "Due to Frontotemporal Lobar Degeneration": {
+        "Behavioral Variant FTD (bvFTD)": {},
+        "Semantic Variant PPA (svPPA)": {},
+        "Nonfluent or Agrammatic PPA (nfvPPA)": {},
+        "Logopenic Variant PPA (lvPPA)": {},
+        "FTD with Motor Neuron Disease or ALS": {},
+        "Corticobasal Degeneration (CBD)": {},
+        "Progressive Supranuclear Palsy (PSP)": {},
+        "Genetic Subtypes": {
+          "MAPT": {},
+          "GRN": {},
+          "C9orf72": {}
+        }
+      },
+      "Due to Traumatic Brain Injury": {
+        "Single Moderate or Severe TBI": {},
+        "Repeated Mild TBIs": {},
+        "Chronic Traumatic Encephalopathy (CTE)": {}
+      },
+      "Substance or Medication-Induced": {
+        "Alcohol-Related Persistent NCD": {
+          "Korsakoff Syndrome": {}
+        },
+        "Sedative-Hypnotic or Anxiolytic-Related": {
+          "Benzodiazepines": {},
+          "Barbiturates": {},
+          "Z-Drugs": {}
+        },
+        "Stimulant-Related": {
+          "Amphetamine or Methamphetamine": {},
+          "Methylphenidate": {},
+          "Cocaine": {},
+          "MDMA (Ecstasy)": {},
+          "Synthetic Cathinones (Mephedrone or Methylone or α-PVP)": {}
+        },
+        "Dissociative-Related": {
+          "PCP": {},
+          "Ketamine": {},
+          "Dextromethorphan (DXM)": {}
+        },
+        "Hallucinogen-Related": {
+          "LSD": {},
+          "Psilocybin": {},
+          "Mescaline": {}
+        },
+        "Cannabis-Related": {
+          "Plant-Derived": {},
+          "Synthetic Cannabinoids": {}
+        },
+        "Opioid-Related": {},
+        "Anticholinergic-Related": {
+          "Antihistamines": {},
+          "Tricyclic Antidepressants": {},
+          "Antiparkinsonian Anticholinergics": {}
+        },
+        "Anticonvulsant-Related": {
+          "Topiramate": {},
+          "Valproate": {},
+          "Phenytoin": {},
+          "Carbamazepine": {}
+        },
+        "Antipsychotic-Related": {},
+        "Antidepressant-Related": {},
+        "Oncologic or Radiation Therapy–Related (CTRCI)": {
+          "High-Dose or Systemic Methotrexate": {},
+          "Ifosfamide": {},
+          "Cytarabine": {},
+          "Whole-Brain Radiation Therapy": {},
+          "Immune Checkpoint Inhibitors": {}
+        },
+        "Other or Multiple Substances": {}
+      },
+      "Due to HIV Infection": {},
+      "Due to Other Infectious Diseases": {
+        "Neurosyphilis": {},
+        "Lyme Neuroborreliosis": {},
+        "Cryptococcal Meningitis": {},
+        "Tuberculous Meningitis": {},
+        "Progressive Multifocal Leukoencephalopathy (PML)": {},
+        "Subacute Sclerosing Panencephalitis (SSPE)": {},
+        "Whipple Disease": {},
+        "Herpesvirus Encephalitis (HSV or VZV or CMV)": {},
+        "Post–COVID-19 Neurocognitive Disorder": {}
+      },
+      "Due to Autoimmune or Inflammatory Disease": {
+        "Autoimmune Encephalitis": {
+          "Anti–NMDA Receptor": {},
+          "LGI1": {},
+          "CASPR2": {},
+          "GABA-B": {},
+          "AMPA": {},
+          "IgLON5": {},
+          "GFAP": {}
+        },
+        "Paraneoplastic Limbic Encephalitis": {
+          "Anti-Hu (ANNA-1)": {},
+          "Ma2": {},
+          "CV2 or CRMP5": {},
+          "Amphiphysin": {}
+        },
+        "Systemic Lupus Erythematosus (Neuropsychiatric SLE)": {},
+        "Primary CNS Vasculitis": {},
+        "Neurosarcoidosis": {},
+        "Hashimoto Encephalopathy (SREAT)": {},
+        "NMOSD or MOGAD-Related Cognitive Disorder": {}
+      },
+      "Due to Endocrine or Metabolic Disease": {
+        "Thyroid Disease (Hypo or Hyper)": {},
+        "Parathyroid or Calcium Disorders (Hypo or Hypercalcemia)": {},
+        "Adrenal Disorders (Cushing or Addison)": {},
+        "Diabetes-Related (Hypo or Hyperglycemic Injury)": {},
+        "Hepatic Encephalopathy": {},
+        "Uremic Encephalopathy": {},
+        "Electrolyte Disturbances (Hypo or Hypernatremia)": {},
+        "Vitamin Deficiencies": {
+          "Vitamin B12 Deficiency": {},
+          "Thiamine Deficiency (Nonalcoholic)": {},
+          "Folate Deficiency": {},
+          "Niacin Deficiency (Pellagra)": {},
+          "Vitamin E Deficiency": {}
+        },
+        "Copper Disorders": {
+          "Wilson Disease": {},
+          "Copper Deficiency": {}
+        },
+        "Porphyria": {},
+        "Hemochromatosis": {},
+        "Mitochondrial Disorders": {
+          "MELAS": {},
+          "MERRF": {},
+          "Leigh Syndrome": {}
+        }
+      },
+      "Due to Toxic Exposure": {
+        "Heavy Metals": {
+          "Lead": {},
+          "Mercury": {},
+          "Arsenic": {},
+          "Manganese": {},
+          "Aluminum": {}
+        },
+        "Carbon Monoxide": {},
+        "Cyanide": {},
+        "Organic Solvents": {
+          "Toluene": {},
+          "Benzene": {},
+          "Xylene": {}
+        },
+        "Pesticides": {
+          "Organophosphates": {},
+          "Organochlorines": {},
+          "Carbamates": {},
+          "Pyrethroids": {}
+        },
+        "Radiation": {}
+      },
+      "Due to Neurologic or Structural Disease": {
+        "Normal-Pressure Hydrocephalus (NPH)": {},
+        "Chronic Subdural Hematoma": {},
+        "Brain Tumor (Meningioma or Glioma or Metastases)": {},
+        "Temporal Lobe Epilepsy–Related": {},
+        "Hippocampal Sclerosis": {},
+        "Cerebral Amyloid Angiopathy–Related Inflammation (CAA-ri)": {}
+      },
+      "Due to Genetic or Metabolic Disorders (Other)": {
+        "Leukodystrophies": {
+          "ALSP (CSF1R)": {},
+          "Adrenoleukodystrophy (ALD)": {},
+          "Metachromatic Leukodystrophy (MLD)": {},
+          "Alexander Disease (Adult)": {}
+        },
+        "Niemann–Pick Disease Type C": {},
+        "Fragile X–Associated Tremor or Ataxia (FXTAS)": {},
+        "Spinocerebellar Ataxias": {
+          "SCA2": {},
+          "SCA17": {}
+        },
+        "Adult-Onset GM2 (Tay–Sachs or Sandhoff)": {},
+        "Fabry Disease": {},
+        "Huntington-Like 2": {}
+      },
+      "Due to Multiple Etiologies": {},
+      "Unspecified Major Neurocognitive Disorder": {}
+    },
+    "Mild Neurocognitive Disorder": {
+      "Due to Alzheimer's Disease": {
+        "Amnestic MCI due to AD": {},
+        "Nonamnestic MCI due to AD": {},
+        "Down Syndrome–Associated Prodromal AD": {}
+      },
+      "Due to Vascular Disease": {
+        "Subcortical Ischemic Vascular Cognitive Impairment": {},
+        "Multi-Infarct Cognitive Impairment": {},
+        "Cerebral Amyloid Angiopathy (CAA)": {},
+        "Hereditary Small Vessel (CADASIL or CARASIL or COL4A1 or 2)": {}
+      },
+      "Due to Lewy Body Disease": {},
+      "Due to Parkinson's Disease": {},
+      "Due to Multiple System Atrophy (MSA)": {},
+      "Due to Frontotemporal Lobar Degeneration": {
+        "Prodromal bvFTD": {},
+        "Prodromal PPA (svPPA or nfvPPA or lvPPA)": {},
+        "Genetic (MAPT or GRN or C9orf72)": {}
+      },
+      "Due to Traumatic Brain Injury": {
+        "Single Moderate or Severe TBI": {},
+        "Repetitive Mild TBI": {},
+        "Early CTE": {}
+      },
+      "Substance or Medication-Induced": {
+        "Alcohol-Related": {},
+        "Sedative-Hypnotic or Anxiolytic-Related": {
+          "Benzodiazepines": {},
+          "Barbiturates": {},
+          "Z-Drugs": {}
+        },
+        "Stimulant-Related": {
+          "Amphetamine or Methamphetamine": {},
+          "Methylphenidate": {},
+          "Cocaine": {},
+          "MDMA": {},
+          "Synthetic Cathinones": {}
+        },
+        "Dissociative-Related (PCP or Ketamine or DXM)": {},
+        "Hallucinogen-Related (LSD or Psilocybin or Mescaline)": {},
+        "Cannabis-Related (Plant or Synthetic)": {},
+        "Opioid-Related": {},
+        "Anticholinergic-Related": {},
+        "Anticonvulsant-Related (Topiramate or Valproate or Phenytoin or Carbamazepine)": {},
+        "Antipsychotic-Related": {},
+        "Antidepressant-Related": {},
+        "Oncologic or Radiation Therapy–Related": {}
+      },
+      "Due to HIV Infection": {},
+      "Due to Prion Disease (Early)": {},
+      "Due to Other Infectious Diseases": {},
+      "Due to Autoimmune or Inflammatory Disease": {},
+      "Due to Endocrine or Metabolic Disease": {},
+      "Due to Toxic Exposure": {},
+      "Due to Neurologic or Structural Disease": {},
+      "Due to Genetic or Metabolic Disorders (Other)": {},
+      "Due to Multiple Etiologies": {},
+      "Unspecified Mild Neurocognitive Disorder": {}
+    },
+    "Amnestic Disorder": {
+      "Due to a General Medical Condition": {
+        "Thiamine Deficiency (Korsakoff Syndrome)": {},
+        "Anoxic-Ischemic Injury": {},
+        "Autoimmune Limbic Encephalitis": {},
+        "Herpes Simplex Encephalitis": {},
+        "Bilateral Hippocampal or Temporal Lesions": {},
+        "Fornix or Thalamic Injury": {},
+        "Temporal Lobe Epilepsy or Surgery": {},
+        "Post–Electroconvulsive Therapy (Transient)": {}
+      },
+      "Substance-Induced Persisting Amnestic Disorder": {
+        "Alcohol": {},
+        "Sedative-Hypnotic": {
+          "Benzodiazepines": {},
+          "Barbiturates": {}
+        },
+        "Inhalants (Toluene or Nitrous Oxide)": {},
+        "Anticholinergics": {},
+        "Dissociatives (Ketamine or PCP or DXM)": {}
+      },
+      "Unspecified Amnestic Disorder": {}
+    }
+  },
+  "Personality Disorders": {
+    "Cluster A (Odd, Eccentric)": {
+      "Paranoid Personality Disorder": {},
+      "Schizoid Personality Disorder": {},
+      "Schizotypal Personality Disorder": {}
+    },
+    "Cluster B (Dramatic, Emotional, Erratic)": {
+      "Antisocial Personality Disorder": {},
+      "Borderline Personality Disorder": {},
+      "Histrionic Personality Disorder": {},
+      "Narcissistic Personality Disorder": {}
+    },
+    "Cluster C (Anxious, Fearful)": {
+      "Avoidant Personality Disorder": {},
+      "Dependent Personality Disorder": {},
+      "Obsessive-Compulsive Personality Disorder": {}
+    },
+    "Other Personality Disorders": {
+      "General Personality Disorder": {},
+      "Passive–Aggressive Personality Disorder": {},
+      "Depressive Personality Disorder": {},
+      "Sadistic Personality Disorder": {},
+      "Self-Defeating Personality Disorder": {}
+    }
+  },
+  "Paraphilic Disorders": {
+    "Voyeuristic Disorder": {},
+    "Exhibitionistic Disorder": {
+      "Exhibitionistic Disorder − prepubertal children": {},
+      "Exhibitionistic Disorder − physically mature individuals": {}
+    },
+    "Frotteuristic Disorder": {},
+    "Sexual Masochism Disorder": {
+      "Sexual Masochism Disorder − With asphyxiophilia": {}
+    },
+    "Sexual Sadism Disorder": {},
+    "Pedophilic Disorder": {},
+    "Fetishistic Disorder": {},
+    "Transvestic Disorder": {
+      "Transvestic Disorder − With fetishism": {},
+      "Transvestic Disorder − With autogynephilia": {}
+    },
+    "Other Specified Paraphilic Disorder": {
+      "telephone scatologia": {},
+      "necrophilia": {},
+      "zoophilia": {},
+      "coprophilia": {},
+      "klismaphilia": {},
+      "urophilia": {},
+      "partialism": {},
+      "acrotomophilia": {},
+      "apotemnophilia": {},
+      "biastophilia": {},
+      "hypoxyphilia": {}
+    },
+    "Compulsive Sexual Behavior Disorder": {}
+  },
+  "Movement Disorders and Other Side Effects of Medication": {
+    "Medication-Induced Movement Disorders": {
+      "Acute Extrapyramidal Syndromes": {
+        "Acute Dystonia": {
+          "Oculogyric Crisis": {},
+          "Torticollis": {},
+          "Opisthotonus": {},
+          "Laryngospasm": {}
+        },
+        "Acute Akathisia": {},
+        "Drug-Induced Parkinsonism": {
+          "Bradykinesia": {},
+          "Rigidity": {},
+          "Resting Tremor": {}
+        },
+        "Medication-Induced Tremor": {
+          "Postural or Action Tremor": {},
+          "Enhanced Physiologic Tremor": {}
+        },
+        "Drug-Induced Myoclonus": {}
+      },
+      "Tardive (Late-Onset) Syndromes": {
+        "Tardive Dyskinesia": {
+          "Orobuccolingual": {},
+          "Limb or Trunk": {},
+          "Respiratory": {}
+        },
+        "Tardive Dystonia": {},
+        "Tardive Akathisia": {},
+        "Tardive Tremor": {},
+        "Rabbit Syndrome (Perioral Tremor)": {},
+        "Pisa Syndrome (Pleurothotonus)": {}
+      },
+      "Hyperkinetic Disorders": {
+        "Drug-Induced Chorea or Athetosis": {},
+        "Ballism": {
+          "Hemiballismus": {}
+        },
+        "Drug-Induced Tics": {}
+      },
+      "Hypokinetic Disorders": {
+        "Drug-Induced Bradykinesia": {},
+        "Drug-Induced Rigidity": {}
+      },
+      "Life-Threatening Neurotoxic Syndromes": {
+        "Neuroleptic Malignant Syndrome": {
+          "Severe Rigidity": {},
+          "Autonomic Instability": {},
+          "Altered Mental Status": {},
+          "Hyperthermia": {}
+        },
+        "Serotonin Syndrome": {
+          "Neuromuscular Hyperactivity": {},
+          "Autonomic Instability": {},
+          "Mental Status Changes": {}
+        },
+        "Malignant Hyperthermia (Anesthetic or Drug-Triggered)": {}
+      },
+      "Other Movement Syndromes": {
+        "Medication-Induced Restless Legs Syndrome": {},
+        "Medication-Induced Ataxia": {}
+      }
+    },
+    "Other (Secondary) Side Effects of Medication": {
+      "Organ-System Effects": {
+        "Autonomic": {
+          "Orthostatic Hypotension": {},
+          "Urinary Retention": {},
+          "Dry Mouth": {}
+        },
+        "Endocrine or Metabolic": {
+          "Weight Gain": {},
+          "Metabolic Syndrome": {},
+          "Hyperglycemia or Diabetes": {},
+          "Dyslipidemia": {},
+          "Hyperprolactinemia": {}
+        },
+        "Cardiovascular": {
+          "QTc Prolongation": {},
+          "Hypertension or Tachycardia": {},
+          "Arrhythmias or Conduction Abnormalities": {}
+        },
+        "Hematologic": {
+          "Agranulocytosis or Neutropenia": {},
+          "Thrombocytopenia": {},
+          "Anemia": {}
+        },
+        "Hepatic": {
+          "Transaminitis": {},
+          "Drug-Induced Liver Injury": {},
+          "Pancreatitis": {}
+        },
+        "Renal": {
+          "Nephrogenic Diabetes Insipidus": {},
+          "Chronic Kidney Disease": {}
+        },
+        "Respiratory": {
+          "Respiratory Depression": {},
+          "Sleep-Disordered Breathing Worsening": {}
+        },
+        "Gastrointestinal": {
+          "Nausea or Vomiting": {},
+          "Constipation": {},
+          "Diarrhea": {}
+        },
+        "Dermatologic": {
+          "Drug Rash": {},
+          "Stevens-Johnson Syndrome or TEN": {},
+          "Photosensitivity": {}
+        },
+        "Ophthalmologic": {
+          "Blurred Vision or Accommodation Disturbance": {},
+          "Angle-Closure Glaucoma Risk": {}
+        },
+        "Musculoskeletal": {
+          "Osteoporosis (Long-Term Enzyme Inducers)": {},
+          "Myalgias": {}
+        },
+        "Neurologic (Non-Movement)": {
+          "Cognitive Impairment": {},
+          "Headache": {},
+          "Seizures": {},
+          "Peripheral Neuropathy": {}
+        },
+        "Sexual or Reproductive": {
+          "Decreased Libido": {},
+          "Erectile Dysfunction": {},
+          "Anorgasmia": {},
+          "Menstrual Irregularities or Galactorrhea": {}
+        },
+        "Psychiatric or Behavioral": {
+          "Emotional Blunting": {},
+          "Activation or Anxiety or Insomnia": {},
+          "Mania or Hypomania Switch": {},
+          "Suicidality Risk (Age-Dependent)": {},
+          "Paradoxical Agitation or Disinhibition": {}
+        }
+      },
+      "Class-Specific Adverse Effects": {
+        "Antipsychotics": {
+          "First-Generation (Typical)": {
+            "High EPS or Tardive Risk": {},
+            "Hyperprolactinemia": {},
+            "Neuroleptic Malignant Syndrome": {},
+            "QTc Prolongation": {}
+          },
+          "Second-Generation (Atypical)": {
+            "Metabolic Syndrome or Weight Gain": {},
+            "Diabetes or Dyslipidemia": {},
+            "Hyperprolactinemia (Agent-Dependent)": {},
+            "Agranulocytosis (Clozapine)": {},
+            "Myocarditis or Seizure Risk (Clozapine)": {},
+            "QTc Prolongation (Agent-Dependent)": {}
+          }
+        },
+        "Antidepressants": {
+          "SSRIs": {
+            "GI Upset": {},
+            "Sexual Dysfunction": {},
+            "Hyponatremia or SIADH": {},
+            "Bleeding Risk (Platelet)": {},
+            "QTc Prolongation (Agent-Dependent)": {},
+            "Discontinuation Syndrome": {},
+            "Serotonin Syndrome (Interactions or Overdose)": {}
+          },
+          "SNRIs": {
+            "Hypertension or Tachycardia": {},
+            "GI Upset": {},
+            "Sexual Dysfunction": {},
+            "Discontinuation Syndrome": {}
+          },
+          "TCAs": {
+            "Anticholinergic Effects": {},
+            "Orthostatic Hypotension": {},
+            "Cardiac Conduction Toxicity or Overdose Risk": {},
+            "Weight Gain or Sedation": {}
+          },
+          "MAOIs": {
+            "Hypertensive Crisis (Tyramine or Interactions)": {},
+            "Orthostatic Hypotension": {},
+            "Weight Gain": {},
+            "Serotonin Syndrome (Contraindicated Combos)": {}
+          },
+          "Bupropion": {
+            "Insomnia or Activation": {},
+            "Lowered Seizure Threshold": {},
+            "Weight Loss": {}
+          },
+          "Mirtazapine": {
+            "Weight Gain or Increased Appetite": {},
+            "Sedation": {}
+          }
+        },
+        "Mood Stabilizers": {
+          "Lithium": {
+            "Postural Tremor": {},
+            "Hypothyroidism": {},
+            "Hyperparathyroidism or Hypercalcemia": {},
+            "Nephrogenic Diabetes Insipidus or CKD": {},
+            "Weight Gain": {},
+            "Teratogenicity": {},
+            "Toxicity (GI or Ataxia or Arrhythmia)": {}
+          },
+          "Valproate": {
+            "Weight Gain": {},
+            "Tremor": {},
+            "Thrombocytopenia": {},
+            "Hepatotoxicity": {},
+            "Pancreatitis": {},
+            "Hyperammonemia": {},
+            "Teratogenicity": {}
+          },
+          "Carbamazepine or Oxcarbazepine": {
+            "Hyponatremia or SIADH": {},
+            "Leukopenia or Aplastic Anemia": {},
+            "Hepatic Enzyme Induction or Interactions": {},
+            "Rash or SJS-TEN (Genetic Risk)": {}
+          },
+          "Lamotrigine": {
+            "Rash or SJS-TEN": {},
+            "Dizziness or Ataxia": {}
+          }
+        },
+        "Anxiolytics or Sedatives": {
+          "Benzodiazepines": {
+            "Sedation or Respiratory Depression": {},
+            "Cognitive Impairment or Amnesia": {},
+            "Falls (Elderly)": {},
+            "Dependence or Withdrawal (Seizure Risk)": {},
+            "Paradoxical Disinhibition": {}
+          },
+          "Z-Drugs": {
+            "Complex Sleep Behaviors": {},
+            "Next-Day Impairment": {},
+            "Dependence or Withdrawal": {}
+          }
+        },
+        "Stimulants": {
+          "Hypertension or Tachycardia": {},
+          "Appetite Suppression or Weight Loss": {},
+          "Insomnia or Anxiety": {},
+          "Tics Exacerbation": {},
+          "Psychosis (High Dose)": {},
+          "Rare Cardiomyopathy": {}
+        },
+        "Anticholinergics": {
+          "Dry Mouth or Constipation": {},
+          "Urinary Retention": {},
+          "Blurred Vision": {},
+          "Confusion or Delirium or Hyperthermia (Toxicity)": {}
+        },
+        "Anticonvulsants (Non–Mood Stabilizer Use)": {
+          "Ataxia or Diplopia or Sedation": {},
+          "Osteoporosis (Long-Term Inducers)": {},
+          "Peripheral Neuropathy (Agent-Dependent)": {},
+          "Gingival Hyperplasia (Phenytoin)": {}
+        },
+        "Opioids": {
+          "Respiratory Depression": {},
+          "Constipation": {},
+          "Pruritus or Urinary Retention": {},
+          "Hypogonadism or Sexual Dysfunction": {},
+          "Dependence or Hyperalgesia or Withdrawal": {}
+        },
+        "Antihypertensives": {
+          "Orthostatic Hypotension": {},
+          "Bradycardia or Fatigue (Beta-Blockers)": {},
+          "Depressive Symptoms (Agent-Dependent)": {}
+        },
+        "Corticosteroids": {
+          "Weight Gain or Hyperglycemia": {},
+          "Hypertension": {},
+          "Osteoporosis": {},
+          "Psychiatric Effects (Euphoria or Depression or Psychosis)": {}
+        }
+      },
+      "Discontinuation or Withdrawal Syndromes": {
+        "SSRI or SNRI Discontinuation": {
+          "Dizziness": {},
+          "Electric-Shock Sensations": {},
+          "Flu-Like Symptoms": {},
+          "Insomnia or Anxiety": {}
+        },
+        "Benzodiazepine Withdrawal": {
+          "Rebound Anxiety or Insomnia": {},
+          "Tremor": {},
+          "Seizures": {},
+          "Psychosis": {},
+          "Sleep Disturbances": {}
+        },
+        "Antipsychotic Discontinuation": {
+          "Rebound Cholinergic Symptoms": {},
+          "Withdrawal Dyskinesia": {}
+        },
+        "Opioid Withdrawal": {
+          "Rhinorrhea or Lacrimation": {},
+          "GI Cramping or Diarrhea": {},
+          "Myalgias or Restlessness": {}
+        }
+      },
+      "Serious Idiosyncratic Reactions": {
+        "Stevens-Johnson Syndrome or TEN": {},
+        "Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)": {},
+        "Agranulocytosis": {},
+        "Fulminant Hepatic Failure": {},
+        "Hypertensive Crisis (MAOI + Tyramine or Interactions)": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "slowed_processing_speed"
+    },
+    {
+      "criterium": "impaired_sustained_attention"
+    },
+    {
+      "criterium": "impaired_working_memory"
+    },
+    {
+      "criterium": "impaired_verbal_learning_encoding"
+    },
+    {
+      "criterium": "impaired_visual_memory_encoding"
+    },
+    {
+      "criterium": "impaired_memory_retrieval"
+    },
+    {
+      "criterium": "executive_planning_and_organization_deficit"
+    },
+    {
+      "criterium": "executive_cognitive_flexibility_deficit"
+    },
+    {
+      "criterium": "reduced_verbal_fluency"
+    },
+    {
+      "criterium": "impaired_visuospatial_constructional_ability"
+    },
+    {
+      "criterium": "psychomotor_speed_impairment"
+    },
+    {
+      "criterium": "motor_coordination_impairment"
+    },
+    {
+      "criterium": "gait_abnormality"
+    },
+    {
+      "criterium": "postural_stability_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

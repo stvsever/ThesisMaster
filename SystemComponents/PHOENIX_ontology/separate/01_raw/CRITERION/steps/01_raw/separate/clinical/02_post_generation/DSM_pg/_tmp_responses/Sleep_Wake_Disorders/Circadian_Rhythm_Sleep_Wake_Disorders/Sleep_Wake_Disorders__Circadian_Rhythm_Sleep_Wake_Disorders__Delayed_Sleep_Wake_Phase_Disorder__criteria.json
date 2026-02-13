@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delayed_sleep_onset_time"
+    },
+    {
+      "criterium": "delayed_wake_time"
+    },
+    {
+      "criterium": "prolonged_sleep_onset_latency"
+    },
+    {
+      "criterium": "evening_chronotype_preference"
+    },
+    {
+      "criterium": "morning_daytime_sleepiness"
+    },
+    {
+      "criterium": "weekend_weekday_sleep_time_discrepancy"
+    },
+    {
+      "criterium": "alarm_clock_responsiveness_inadequate"
+    },
+    {
+      "criterium": "subjective_nonrestorative_sleep"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

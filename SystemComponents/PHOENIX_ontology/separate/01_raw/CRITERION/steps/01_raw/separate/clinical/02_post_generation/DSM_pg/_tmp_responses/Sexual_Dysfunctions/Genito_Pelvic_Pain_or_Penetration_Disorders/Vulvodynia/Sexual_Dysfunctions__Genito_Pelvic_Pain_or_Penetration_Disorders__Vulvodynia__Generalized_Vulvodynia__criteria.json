@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "diffuse_vulvar_pain_on_palpation"
+    },
+    {
+      "criterium": "spontaneous_vulvar_pain"
+    },
+    {
+      "criterium": "allodynia_to_light_vulvar_touch"
+    },
+    {
+      "criterium": "hyperalgesia_to_vulvar_pressure"
+    },
+    {
+      "criterium": "burning_pain_quality"
+    },
+    {
+      "criterium": "stinging_pain_quality"
+    },
+    {
+      "criterium": "paresthesias_in_vulvar_region"
+    },
+    {
+      "criterium": "labial_clitoral_pain_component"
+    },
+    {
+      "criterium": "pain_provoked_by_clothing_pressure_on_vulva"
+    },
+    {
+      "criterium": "dyspareunia_present"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

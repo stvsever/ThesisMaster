@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_decline"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "visuospatial_processing_deficit"
+    },
+    {
+      "criterium": "psychomotor_fatigue"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "emotional_lability"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

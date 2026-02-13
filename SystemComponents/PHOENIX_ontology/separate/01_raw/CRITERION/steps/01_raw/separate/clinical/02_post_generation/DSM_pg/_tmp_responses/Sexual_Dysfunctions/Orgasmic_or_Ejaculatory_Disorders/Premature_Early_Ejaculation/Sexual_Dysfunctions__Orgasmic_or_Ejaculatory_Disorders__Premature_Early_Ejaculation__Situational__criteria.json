@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intravaginal_ejaculation_latency_in_specific_contexts"
+    },
+    {
+      "criterium": "perceived_lack_of_ejaculatory_control_in_specific_contexts"
+    },
+    {
+      "criterium": "ejaculation_occurs_during_penetrative_sex_in_specific_contexts"
+    },
+    {
+      "criterium": "ejaculation_occurs_during_non_penetrative_stimulation_in_specific_contexts"
+    },
+    {
+      "criterium": "subjective_distress_related_to_ejaculation_in_specific_contexts"
+    },
+    {
+      "criterium": "partner_report_of_reduced_satisfaction_in_specific_contexts"
+    },
+    {
+      "criterium": "increased_performance_anxiety_in_specific_contexts"
+    },
+    {
+      "criterium": "interpersonal_conflict_in_sexual_relationships_in_specific_contexts"
+    }
+  ],
+  "estimated_prevalence_percent": 7.5
+}

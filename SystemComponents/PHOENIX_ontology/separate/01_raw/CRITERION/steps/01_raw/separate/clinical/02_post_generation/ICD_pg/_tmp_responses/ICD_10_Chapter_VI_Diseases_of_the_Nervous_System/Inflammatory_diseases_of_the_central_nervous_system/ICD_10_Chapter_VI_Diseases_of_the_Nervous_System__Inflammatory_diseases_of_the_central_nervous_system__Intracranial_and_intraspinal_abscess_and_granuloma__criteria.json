@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fever"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "altered_mental_status"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "memory_deficit"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "focal_neurological_deficit"
+    },
+    {
+      "criterium": "aphasia"
+    },
+    {
+      "criterium": "nuchal_rigidity"
+    },
+    {
+      "criterium": "papilledema"
+    },
+    {
+      "criterium": "radiculopathy"
+    },
+    {
+      "criterium": "ataxia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

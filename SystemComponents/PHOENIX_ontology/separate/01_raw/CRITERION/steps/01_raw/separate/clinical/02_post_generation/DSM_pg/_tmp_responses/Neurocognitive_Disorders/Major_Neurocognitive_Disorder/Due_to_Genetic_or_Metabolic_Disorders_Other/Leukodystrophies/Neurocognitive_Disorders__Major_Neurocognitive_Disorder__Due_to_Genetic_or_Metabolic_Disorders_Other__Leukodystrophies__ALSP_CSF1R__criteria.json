@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "disinhibition"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "urinary_incontinence"
+    },
+    {
+      "criterium": "apraxia"
+    },
+    {
+      "criterium": "aphasia"
+    },
+    {
+      "criterium": "frontoparietal_white_matter_T2_hyperintensity"
+    },
+    {
+      "criterium": "corpus_callosum_thinning"
+    },
+    {
+      "criterium": "diffusion_restricted_white_matter_lesions"
+    },
+    {
+      "criterium": "asymmetric_white_matter_leukoencephalopathy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0015
+}

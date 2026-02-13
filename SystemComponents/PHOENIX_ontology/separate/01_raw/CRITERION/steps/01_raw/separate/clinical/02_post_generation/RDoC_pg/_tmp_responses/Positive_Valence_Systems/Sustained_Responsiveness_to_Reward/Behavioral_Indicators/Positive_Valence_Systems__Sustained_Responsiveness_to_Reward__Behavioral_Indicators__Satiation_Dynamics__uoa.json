@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_rs1800497_A1_allele",
+      "OPRM1_rs1799971_A_allele",
+      "COMT_rs4680_Val158Met_allele",
+      "BDNF_rs6265_Val66Met_allele"
+    ],
+    "molecules": [
+      "dopamine_plasma_concentration",
+      "endocannabinoid_anandamide_plasma_concentration",
+      "ghrelin_plasma_concentration",
+      "leptin_plasma_concentration",
+      "insulin_plasma_concentration"
+    ],
+    "cells": [
+      "VTA_dopaminergic_neuron_firing_rate",
+      "nucleus_accumbens_D1_MSN_activity_level",
+      "prefrontal_cortex_pyramidal_neuron_firing_rate",
+      "insular_cortex_neuron_firing_rate"
+    ],
+    "circuits": [
+      "VTA_to_NAcc_reward_pathway_activity",
+      "PFC_reward_value_integration_connectivity_strength",
+      "orbitofrontal_cortex_reward_signaling_connectivity",
+      "insula_to_basal_ganglia_reward_network_synchrony"
+    ],
+    "physiology": [
+      "postprandial_blood_glucose_level",
+      "postprandial_insulin_level",
+      "postprandial_ghrelin_level",
+      "postprandial_leptin_level",
+      "gastric_emptying_rate"
+    ],
+    "behavior": [
+      "meal_caloric_intake",
+      "eating_rate_per_min",
+      "time_to_satiation_point",
+      "number_of_reloads_meal",
+      "snack_frequency_post_meal"
+    ],
+    "self_report": [
+      "perceived_satiation_rate",
+      "urge_to_continue_eating_score",
+      "meal_satisfaction_score",
+      "post_meal_hunger_score"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

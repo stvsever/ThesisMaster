@@ -1,0 +1,29 @@
+{
+  "domain_path": "PSYCHO / Third_Wave_and_Contextual_Therapies / DBT_Skills_Based_Therapy",
+  "domain_root_path": [
+    "PSYCHO",
+    "Third_Wave_and_Contextual_Therapies",
+    "DBT_Skills_Based_Therapy"
+  ],
+  "leaf_count": 142,
+  "total_edges_in_subtree": 170,
+  "evaluated_pairs": 170,
+  "violations_count": 1,
+  "violation_rate": 0.0058823529411764705,
+  "llm_calls": 2,
+  "violations": [
+    "Distress_Tolerance_Skills > Turning_The_Mind_Practice"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Distress_Tolerance_Skills > Turning_The_Mind_Practice",
+      "parent_path": "PSYCHO / Third_Wave_and_Contextual_Therapies / DBT_Skills_Based_Therapy / Distress_Tolerance_Skills",
+      "child_path": "PSYCHO / Third_Wave_and_Contextual_Therapies / DBT_Skills_Based_Therapy / Distress_Tolerance_Skills / Turning_The_Mind_Practice"
+    }
+  ],
+  "cache_key": "bf44937686f92e0fbb589b9915e8b58bba943833",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 68.35
+}

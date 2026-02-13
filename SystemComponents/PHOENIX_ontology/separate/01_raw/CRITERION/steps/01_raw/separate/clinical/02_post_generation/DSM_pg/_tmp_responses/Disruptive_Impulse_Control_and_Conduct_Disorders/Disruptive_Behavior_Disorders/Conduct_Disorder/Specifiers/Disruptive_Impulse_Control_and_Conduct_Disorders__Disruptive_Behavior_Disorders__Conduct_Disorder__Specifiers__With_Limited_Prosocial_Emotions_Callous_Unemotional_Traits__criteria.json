@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "LACK_OF_REMORSE_OR_GUILT"
+    },
+    {
+      "criterium": "LACK_OF_EMPATHY"
+    },
+    {
+      "criterium": "SHALLOW_OR_DEFICIENT_AFFECT"
+    },
+    {
+      "criterium": "LACK_OF_CONCERN_FOR_PERFORMANCE"
+    },
+    {
+      "criterium": "LACK_OF_CONCERN_FOR_OTHERS_FEELINGS"
+    },
+    {
+      "criterium": "FLAT_AFFECTIVITY_IN_SOCIAL_INTERACTIONS"
+    },
+    {
+      "criterium": "INDIFFERENCE_TO_HARM_TO_OTHERS"
+    },
+    {
+      "criterium": "LIMITED_REGARD_FOR_SOCIAL_REWARDS_OR_APPROVAL"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

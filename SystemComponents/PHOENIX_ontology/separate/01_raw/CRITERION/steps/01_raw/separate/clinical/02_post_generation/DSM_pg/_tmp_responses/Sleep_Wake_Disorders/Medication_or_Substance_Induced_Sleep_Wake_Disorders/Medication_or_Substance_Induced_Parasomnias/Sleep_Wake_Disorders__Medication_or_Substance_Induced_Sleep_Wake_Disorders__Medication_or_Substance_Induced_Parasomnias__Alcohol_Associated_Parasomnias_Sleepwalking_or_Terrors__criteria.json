@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "somnambulism_post_alcohol"
+    },
+    {
+      "criterium": "sleep_terror_post_alcohol"
+    },
+    {
+      "criterium": "amnesia_for_sleep_episodes_post_alcohol"
+    },
+    {
+      "criterium": "confusional_arousal_during_post_alcohol_episodes"
+    },
+    {
+      "criterium": "nocturnal_vocalizations_during_post_alcohol_episodes"
+    },
+    {
+      "criterium": "complex_motor_behaviors_during_post_alcohol_sleep_episodes"
+    },
+    {
+      "criterium": "injury_or_risk_of_injury_during_post_alcohol_sleep_episodes"
+    },
+    {
+      "criterium": "episodes_increased_after_binge_alcohol_intake"
+    },
+    {
+      "criterium": "episodes_reduced_with_alcohol_abstinence"
+    },
+    {
+      "criterium": "episodes_occurring_in_first_half_of_sleep_post_alcohol"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

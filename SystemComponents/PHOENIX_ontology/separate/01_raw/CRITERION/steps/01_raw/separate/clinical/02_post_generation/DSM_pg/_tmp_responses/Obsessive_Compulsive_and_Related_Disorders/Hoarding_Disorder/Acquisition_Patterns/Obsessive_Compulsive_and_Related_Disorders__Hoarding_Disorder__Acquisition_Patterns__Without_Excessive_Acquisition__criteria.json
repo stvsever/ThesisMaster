@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acquisition_frequency_normal"
+    },
+    {
+      "criterium": "absence_of_compulsive_purchasing"
+    },
+    {
+      "criterium": "absence_of_purchase_sprees"
+    },
+    {
+      "criterium": "functional_items_only"
+    },
+    {
+      "criterium": "purchases_planned_deliberate"
+    },
+    {
+      "criterium": "purchasing_urge_control_present"
+    },
+    {
+      "criterium": "emotional_triggers_absent_for_purchases"
+    },
+    {
+      "criterium": "budget_consideration_in_purchases"
+    },
+    {
+      "criterium": "need_based_acquisition"
+    },
+    {
+      "criterium": "acquired_items_quantity_not_excessive"
+    },
+    {
+      "criterium": "acquisition_preoccupation_minimal"
+    },
+    {
+      "criterium": "acquisition_distress_absent"
+    }
+  ],
+  "estimated_prevalence_percent": 1.8
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "decreased_intrinsic_sexual_desire"
+    },
+    {
+      "criterium": "decreased_expressed_interest_in_sex"
+    },
+    {
+      "criterium": "reduced_frequency_of_sexual_thoughts"
+    },
+    {
+      "criterium": "delayed_initiation_of_sexual_activity"
+    },
+    {
+      "criterium": "reduced_frequency_of_sexual_intercourse"
+    },
+    {
+      "criterium": "increased_distress_related_to_sexual_desire_loss"
+    },
+    {
+      "criterium": "decreased_satisfaction_with_sexual_life"
+    },
+    {
+      "criterium": "decreased_anticipation_before_sex"
+    },
+    {
+      "criterium": "avoidance_of_sexual_encounters"
+    }
+  ],
+  "estimated_prevalence_percent": 8.5
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "insight_doubt_present"
+    },
+    {
+      "criterium": "insight_acknowledges_possible_inaccuracy"
+    },
+    {
+      "criterium": "evidence_search_for_odor_belief"
+    },
+    {
+      "criterium": "counterevidence_considered"
+    },
+    {
+      "criterium": "accepts_alternative_explanations_for_odor_belief"
+    },
+    {
+      "criterium": "reassurance_seeking_present"
+    },
+    {
+      "criterium": "professional_opinion_requested_on_odor_belief"
+    },
+    {
+      "criterium": "distress_due_to_odor_belief_present"
+    },
+    {
+      "criterium": "reality_testing_attempted_odor_belief"
+    },
+    {
+      "criterium": "odor_belief_avoidance_of_social_situations"
+    },
+    {
+      "criterium": "odor_belief_impairs_social_functioning_observed"
+    },
+    {
+      "criterium": "odor_belief_impairs_occupational_functioning_observed"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

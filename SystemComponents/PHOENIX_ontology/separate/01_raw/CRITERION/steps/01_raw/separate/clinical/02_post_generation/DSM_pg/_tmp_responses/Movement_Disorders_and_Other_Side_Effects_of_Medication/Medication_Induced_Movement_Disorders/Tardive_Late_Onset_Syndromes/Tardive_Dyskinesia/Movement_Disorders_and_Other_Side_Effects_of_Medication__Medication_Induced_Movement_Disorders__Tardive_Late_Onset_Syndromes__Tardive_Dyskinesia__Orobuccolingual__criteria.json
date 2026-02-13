@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tongue_protrusion_movements"
+    },
+    {
+      "criterium": "lip_smacking_movements"
+    },
+    {
+      "criterium": "masticatory_jaw_movements"
+    },
+    {
+      "criterium": "perioral_grimacing_movements"
+    },
+    {
+      "criterium": "tongue_writhing_movements"
+    },
+    {
+      "criterium": "lip_pursing_movements"
+    },
+    {
+      "criterium": "buccal_cheek_movements"
+    },
+    {
+      "criterium": "jaw_rhythmic_movements"
+    },
+    {
+      "criterium": "tongue_darting_movements"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

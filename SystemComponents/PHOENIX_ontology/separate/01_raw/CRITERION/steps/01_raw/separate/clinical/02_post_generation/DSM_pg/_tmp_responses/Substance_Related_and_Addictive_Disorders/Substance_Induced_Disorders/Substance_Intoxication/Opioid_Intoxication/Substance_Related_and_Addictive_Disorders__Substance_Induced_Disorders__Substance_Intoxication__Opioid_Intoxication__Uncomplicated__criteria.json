@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pupillary_miosis"
+    },
+    {
+      "criterium": "hypoventilation"
+    },
+    {
+      "criterium": "decreased_level_of_consciousness"
+    },
+    {
+      "criterium": "slurred_speech"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "drowsiness"
+    },
+    {
+      "criterium": "impaired_attention"
+    },
+    {
+      "criterium": "impaired_memory"
+    },
+    {
+      "criterium": "bradycardia"
+    },
+    {
+      "criterium": "hypotension"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

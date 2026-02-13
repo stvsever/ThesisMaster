@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "post_concussive_headache"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "cognitive_fatigue"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "verbal_fluency_decline"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "distal_symmetrical_paresthesias"
+    },
+    {
+      "criterium": "burning_pain_distal_extremities"
+    },
+    {
+      "criterium": "electric_shock_like_pains"
+    },
+    {
+      "criterium": "allodynia_to_light_touch"
+    },
+    {
+      "criterium": "hyperalgesia_to_pinch"
+    },
+    {
+      "criterium": "hypoesthesia_to_pinprick"
+    },
+    {
+      "criterium": "loss_of_vibration_sense_ankle"
+    },
+    {
+      "criterium": "reduced_ankle_reflexes"
+    },
+    {
+      "criterium": "stocking_glove_sensory_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

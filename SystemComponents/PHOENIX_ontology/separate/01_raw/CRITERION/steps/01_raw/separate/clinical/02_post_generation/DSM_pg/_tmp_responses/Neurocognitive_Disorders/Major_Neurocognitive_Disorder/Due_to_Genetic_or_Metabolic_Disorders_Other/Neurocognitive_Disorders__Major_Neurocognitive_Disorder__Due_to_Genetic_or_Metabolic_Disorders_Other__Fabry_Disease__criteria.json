@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acroparesthesias"
+    },
+    {
+      "criterium": "angiokeratomas"
+    },
+    {
+      "criterium": "corneal_verticillata"
+    },
+    {
+      "criterium": "hypohidrosis"
+    },
+    {
+      "criterium": "proteinuria"
+    },
+    {
+      "criterium": "renal_insufficiency"
+    },
+    {
+      "criterium": "left_ventricular_hypertrophy"
+    },
+    {
+      "criterium": "cardiomyopathy"
+    },
+    {
+      "criterium": "ischemic_stroke"
+    },
+    {
+      "criterium": "cerebral_white_matter_lesions"
+    },
+    {
+      "criterium": "tinnitus"
+    },
+    {
+      "criterium": "episodic_abdominal_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0025
+}

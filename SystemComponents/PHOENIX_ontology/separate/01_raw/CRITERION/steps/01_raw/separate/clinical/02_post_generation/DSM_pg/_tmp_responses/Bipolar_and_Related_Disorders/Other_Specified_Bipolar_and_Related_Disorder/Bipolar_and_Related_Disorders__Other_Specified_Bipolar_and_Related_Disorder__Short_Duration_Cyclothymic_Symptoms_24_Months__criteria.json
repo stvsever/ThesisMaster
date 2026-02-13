@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_mood"
+    },
+    {
+      "criterium": "irritable_mood"
+    },
+    {
+      "criterium": "increased_goal_directed_activity_or_energy"
+    },
+    {
+      "criterium": "decreased_sleep_need"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "racing_thoughts"
+    },
+    {
+      "criterium": "grandiosity"
+    },
+    {
+      "criterium": "impulsive_or_risky_behaviors"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "fatigue_or_low_energy"
+    },
+    {
+      "criterium": "psychomotor_agitation_or_retardation"
+    },
+    {
+      "criterium": "worthlessness_or_excessive_guilt"
+    },
+    {
+      "criterium": "diminished_concentration_or_indecisiveness"
+    },
+    {
+      "criterium": "insomnia_or_hypersomnia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

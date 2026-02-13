@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "macrocytosis_mcv_gt_100_fL"
+    },
+    {
+      "criterium": "hypersegmented_neutrophils"
+    },
+    {
+      "criterium": "serum_b12_concentration_below_200_pg_per_mL"
+    },
+    {
+      "criterium": "mma_elevated"
+    },
+    {
+      "criterium": "homocysteine_elevated"
+    },
+    {
+      "criterium": "paresthesias"
+    },
+    {
+      "criterium": "dorsal_column_proprioception_loss"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "psychiatric_symptoms_depression_or_psychosis"
+    },
+    {
+      "criterium": "glossitis"
+    },
+    {
+      "criterium": "pallor_signs_of_anemia"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

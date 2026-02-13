@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistentDepressedMood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "hypersomnia"
+    },
+    {
+      "criterium": "poorAppetite"
+    },
+    {
+      "criterium": "overeating"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "concentrationImpairment"
+    },
+    {
+      "criterium": "lowSelfEsteem"
+    },
+    {
+      "criterium": "hopelessness"
+    },
+    {
+      "criterium": "psychomotorRetardation"
+    },
+    {
+      "criterium": "psychomotorAgitation"
+    },
+    {
+      "criterium": "socialWithdrawal"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

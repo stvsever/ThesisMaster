@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "VSGP"
+    },
+    {
+      "criterium": "Gait_ataxia"
+    },
+    {
+      "criterium": "Dysarthria"
+    },
+    {
+      "criterium": "Dystonia"
+    },
+    {
+      "criterium": "Dysphagia"
+    },
+    {
+      "criterium": "Hepatosplenomegaly"
+    },
+    {
+      "criterium": "Seizures"
+    },
+    {
+      "criterium": "Cognitive_decline"
+    },
+    {
+      "criterium": "Choreoathetosis"
+    },
+    {
+      "criterium": "Tremor"
+    },
+    {
+      "criterium": "Gelastic_cataplexy"
+    },
+    {
+      "criterium": "Dysmetria"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

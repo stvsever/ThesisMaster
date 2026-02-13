@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Aphasia_present"
+    },
+    {
+      "criterium": "Anterograde_memory_deficit_present"
+    },
+    {
+      "criterium": "Ideomotor_apraxia_present"
+    },
+    {
+      "criterium": "Visuospatial_deficit_present"
+    },
+    {
+      "criterium": "Constructional_apraxia_present"
+    },
+    {
+      "criterium": "Executive_dysfunction_present"
+    },
+    {
+      "criterium": "Hemispatial_neglect_present"
+    },
+    {
+      "criterium": "Disproportionate_memory_deficit_present_relative_to_other_domains"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

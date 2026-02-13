@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_deficit"
+    },
+    {
+      "criterium": "episodic_memory_encoding_deficit"
+    },
+    {
+      "criterium": "short_term_memory_span_reduction"
+    },
+    {
+      "criterium": "increased_memory_recall_latency"
+    },
+    {
+      "criterium": "impaired_free_recall"
+    },
+    {
+      "criterium": "impaired_cued_recall"
+    },
+    {
+      "criterium": "autobiographical_memory_impaired"
+    },
+    {
+      "criterium": "confabulation_frequency_increase"
+    },
+    {
+      "criterium": "prospective_memory_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ptsd_reexperiencing_intrusions"
+    },
+    {
+      "criterium": "ptsd_avoidance_thoughts_feelings"
+    },
+    {
+      "criterium": "ptsd_avoidance_reminders_external"
+    },
+    {
+      "criterium": "ptsd_hyperarousal_irritability_outbursts"
+    },
+    {
+      "criterium": "ptsd_hypervigilance"
+    },
+    {
+      "criterium": "dso_affect_dysregulation"
+    },
+    {
+      "criterium": "dso_negative_self_concept"
+    },
+    {
+      "criterium": "dso_disturbances_in_relationships"
+    },
+    {
+      "criterium": "dissociative_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

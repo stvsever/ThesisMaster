@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "polyuria"
+    },
+    {
+      "criterium": "polydipsia"
+    },
+    {
+      "criterium": "low_urine_osmolality"
+    },
+    {
+      "criterium": "desmopressin_non_responsiveness"
+    },
+    {
+      "criterium": "vasopressin_resistance"
+    },
+    {
+      "criterium": "hypernatremia"
+    },
+    {
+      "criterium": "elevated_serum_osmolality"
+    },
+    {
+      "criterium": "reduced_eGFR"
+    },
+    {
+      "criterium": "proteinuria"
+    },
+    {
+      "criterium": "hypertension"
+    }
+  ],
+  "estimated_prevalence_percent": 0.04
+}

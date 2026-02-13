@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "orthostatic_sbp_drop_ge_20_mmHg_within_3_min_of_standing"
+    },
+    {
+      "criterium": "orthostatic_dbp_drop_ge_10_mmHg_within_3_min_of_standing"
+    },
+    {
+      "criterium": "dizziness_on_standing"
+    },
+    {
+      "criterium": "lightheadedness_on_standing"
+    },
+    {
+      "criterium": "syncope_on_standing"
+    },
+    {
+      "criterium": "near_syncope_on_standing"
+    },
+    {
+      "criterium": "blurry_vision_on_standing"
+    },
+    {
+      "criterium": "fatigue_on_standing"
+    },
+    {
+      "criterium": "pallor_on_standing"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

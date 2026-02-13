@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "altered_level_of_consciousness"
+    },
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "disorganized_thought"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "delusions"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hyperthermia"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "anhidrosis"
+    },
+    {
+      "criterium": "dry_mucous_membranes"
+    },
+    {
+      "criterium": "urinary_retention"
+    },
+    {
+      "criterium": "constipation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

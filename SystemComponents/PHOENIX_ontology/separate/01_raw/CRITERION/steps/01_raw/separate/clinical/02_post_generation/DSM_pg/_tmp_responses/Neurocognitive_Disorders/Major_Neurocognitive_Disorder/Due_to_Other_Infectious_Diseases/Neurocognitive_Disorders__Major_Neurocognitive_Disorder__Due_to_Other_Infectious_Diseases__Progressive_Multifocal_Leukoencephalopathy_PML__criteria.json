@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hemiparesis"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "homonymous_visual_field_deficit"
+    },
+    {
+      "criterium": "aphasia"
+    },
+    {
+      "criterium": "anomia"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "short_term_memory_decline"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "sensory_deficit"
+    },
+    {
+      "criterium": "gait_instability"
+    },
+    {
+      "criterium": "ideomotor_apraxia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0003
+}

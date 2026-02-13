@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_online_gaming"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_not_gaming"
+    },
+    {
+      "criterium": "tolerance_increase_in_time_spent_gaming"
+    },
+    {
+      "criterium": "failed_attempts_to_reduce_or_control_gaming"
+    },
+    {
+      "criterium": "loss_of_interest_in_other_activities"
+    },
+    {
+      "criterium": "continued_or_increasing_gaming_in_spite_of_psychosocial_problems"
+    },
+    {
+      "criterium": "deception_or_concealment_of_gaming_activity"
+    },
+    {
+      "criterium": "gaming_as_escape_or_mood_modulation"
+    },
+    {
+      "criterium": "impairment_of_work_or_school_performance_due_to_gaming"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_gaming"
+    },
+    {
+      "criterium": "neglect_of_personal_health_or_self_care_due_to_gaming"
+    },
+    {
+      "criterium": "interpersonal_conflicts_or_social_relationship_impairment_due_to_gaming"
+    }
+  ],
+  "estimated_prevalence_percent": 2.3
+}

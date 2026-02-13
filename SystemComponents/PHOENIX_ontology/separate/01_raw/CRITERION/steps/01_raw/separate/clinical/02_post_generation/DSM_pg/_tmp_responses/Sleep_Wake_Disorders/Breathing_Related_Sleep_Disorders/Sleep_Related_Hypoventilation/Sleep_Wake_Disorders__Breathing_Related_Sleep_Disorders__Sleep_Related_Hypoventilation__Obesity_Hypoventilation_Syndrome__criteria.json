@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bmi_ge_30_kg_m2"
+    },
+    {
+      "criterium": "awake_paCO2_gt_45_mmHg"
+    },
+    {
+      "criterium": "resting_spO2_lt_90_percent"
+    },
+    {
+      "criterium": "serum_bicarbonate_elevated_gt_26_mEq_L"
+    },
+    {
+      "criterium": "nocturnal_paCO2_elevation_during_sleep"
+    },
+    {
+      "criterium": "nocturnal_spO2_lt_90_percent"
+    },
+    {
+      "criterium": "morning_headache_history"
+    },
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "psg_hypoventilation_during_sleep"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

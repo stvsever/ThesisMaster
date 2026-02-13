@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rest_tremor_present"
+    },
+    {
+      "criterium": "postural_tremor_present"
+    },
+    {
+      "criterium": "kinetic_tremor_present"
+    },
+    {
+      "criterium": "intention_tremor_present"
+    },
+    {
+      "criterium": "pill_roll_tremor_present"
+    },
+    {
+      "criterium": "bilateral_hand_tremor_present"
+    },
+    {
+      "criterium": "writing_tremor_present"
+    },
+    {
+      "criterium": "neck_tremor_present"
+    },
+    {
+      "criterium": "jaw_tremor_present"
+    },
+    {
+      "criterium": "proximal_arm_tremor_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

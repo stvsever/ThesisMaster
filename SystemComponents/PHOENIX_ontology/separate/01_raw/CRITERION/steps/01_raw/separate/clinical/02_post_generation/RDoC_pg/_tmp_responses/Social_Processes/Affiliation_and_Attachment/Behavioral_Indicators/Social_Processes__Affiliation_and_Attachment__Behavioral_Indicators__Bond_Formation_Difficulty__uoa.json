@@ -1,0 +1,56 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_rs53576_genotype",
+      "OXTR_rs2254298_genotype",
+      "OXTR_expression_level",
+      "CD38_expression_level",
+      "AVPR1A_RS3_genotype",
+      "AVPR1A_RS1_genotype"
+    ],
+    "molecules": [
+      "oxytocin_plasma_concentration",
+      "vasopressin_plasma_concentration",
+      "oxytocin_receptor_density",
+      "CD38_enzyme_activity",
+      "OXTR_mRNA_expression_level",
+      "AVPR1A_mRNA_expression_level"
+    ],
+    "cells": [
+      "PBMC_OXTR_positive_cell_count",
+      "PBMC_AVPR1A_positive_cell_count",
+      "CD38_positive_cell_count_in_blood"
+    ],
+    "circuits": [
+      "amygdala_activation_to_social_stimuli",
+      "nucleus_accumbens_activation_to_affiliative_cues",
+      "mPFC_activation_during_social_bonding_tasks",
+      "TPJ_connectivity_with_mPFC_during_social_tasks",
+      "anterior_cingulate_activation_social_bonding",
+      "ventral_striatum_activation_to_attachment_stimuli"
+    ],
+    "physiology": [
+      "heart_rate_variability_during_social_interaction",
+      "skin_conductance_response_to_social_stimuli",
+      "pupil_dilation_to_social_affiliative_stimuli",
+      "cortisol_level_change_after_social_interaction",
+      "respiration_rate_change_during_social_interaction"
+    ],
+    "behavior": [
+      "latency_to_initiate_affiliative_behavior",
+      "rate_of_initiation_to_social_proximity",
+      "duration_of_initial_social_interactions",
+      "reciprocity_rate_in_social_sessions",
+      "persistence_in_social_engagement",
+      "number_of_affiliative_gestures_per_session"
+    ],
+    "self_report": [
+      "attachment_anxiety_scale",
+      "attachment_avoidance_scale",
+      "romantic_attachment_style_score",
+      "perceived_attachment_security_scale",
+      "loneliness_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 8.7
+}

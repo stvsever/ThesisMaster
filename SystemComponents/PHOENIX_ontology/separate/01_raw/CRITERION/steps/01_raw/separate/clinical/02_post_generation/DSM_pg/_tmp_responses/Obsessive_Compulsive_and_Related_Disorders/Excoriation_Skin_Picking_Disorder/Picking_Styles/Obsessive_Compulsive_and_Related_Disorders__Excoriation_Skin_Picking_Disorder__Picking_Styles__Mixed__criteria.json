@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "picking_style_mixed"
+    },
+    {
+      "criterium": "automatic_picking_episodes"
+    },
+    {
+      "criterium": "focused_picking_episodes"
+    },
+    {
+      "criterium": "multi_site_picking"
+    },
+    {
+      "criterium": "visible_excoriations"
+    },
+    {
+      "criterium": "skin_scarring_or_hypopigmentation"
+    },
+    {
+      "criterium": "pre_picking_urge_or_tension"
+    },
+    {
+      "criterium": "post_picking_relief_or_mood_improvement"
+    },
+    {
+      "criterium": "impairment_in_social_or_occupational_functioning"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

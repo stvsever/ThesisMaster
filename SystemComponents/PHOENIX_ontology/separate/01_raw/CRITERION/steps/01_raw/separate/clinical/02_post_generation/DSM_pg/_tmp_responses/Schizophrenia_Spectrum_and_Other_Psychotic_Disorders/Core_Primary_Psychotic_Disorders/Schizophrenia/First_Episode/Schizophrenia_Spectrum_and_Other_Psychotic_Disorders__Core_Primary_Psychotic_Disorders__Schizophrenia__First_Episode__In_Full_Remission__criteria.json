@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS_ABSENT"
+    },
+    {
+      "criterium": "VISUAL_HALLUCINATIONS_ABSENT"
+    },
+    {
+      "criterium": "DELUSIONS_ABSENT"
+    },
+    {
+      "criterium": "THOUGHT_DISORGANIZATION_ABSENT"
+    },
+    {
+      "criterium": "DISORGANIZED_BEHAVIOR_ABSENT"
+    },
+    {
+      "criterium": "AVOLITION_ABSENT"
+    },
+    {
+      "criterium": "FLAT_AFFECT_ABSENT"
+    },
+    {
+      "criterium": "SOCIAL_FUNCTIONING_NORMALIZED"
+    },
+    {
+      "criterium": "EMPLOYMENT_OR_EDUCATION_STATUS_NORMAL"
+    },
+    {
+      "criterium": "INDEPENDENT_ADL_FUNCTIONING"
+    },
+    {
+      "criterium": "COGNITIVE_FUNCTIONING_NORMAL"
+    },
+    {
+      "criterium": "MOOD_SYMPTOMS_NOT_ELEVATED"
+    },
+    {
+      "criterium": "INSIGHT_WITHIN_NORMAL_RANGE"
+    },
+    {
+      "criterium": "JUDGMENT_WITHIN_NORMAL_RANGE"
+    },
+    {
+      "criterium": "SLEEP_PATTERN_WITHIN_NORMAL_RANGE"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

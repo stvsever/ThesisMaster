@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_cross_gender_identity"
+    },
+    {
+      "criterium": "distress_with_assigned_gender_characteristics"
+    },
+    {
+      "criterium": "desire_to_live_as_other_gender"
+    },
+    {
+      "criterium": "desire_to_change_primary_or_secondary_sex_characteristics"
+    },
+    {
+      "criterium": "preoccupation_with_other_gender_presentation"
+    },
+    {
+      "criterium": "cross_gender_expression_across_settings"
+    },
+    {
+      "criterium": "impairment_in_social_or_school_functioning_due_to_gender_expression"
+    },
+    {
+      "criterium": "explicit_self_identification_as_other_gender"
+    },
+    {
+      "criterium": "preference_for_cross_gender_appearance_or_presentation"
+    },
+    {
+      "criterium": "rejection_of_assigned_gender_stereotypes_in_play_or_activities"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

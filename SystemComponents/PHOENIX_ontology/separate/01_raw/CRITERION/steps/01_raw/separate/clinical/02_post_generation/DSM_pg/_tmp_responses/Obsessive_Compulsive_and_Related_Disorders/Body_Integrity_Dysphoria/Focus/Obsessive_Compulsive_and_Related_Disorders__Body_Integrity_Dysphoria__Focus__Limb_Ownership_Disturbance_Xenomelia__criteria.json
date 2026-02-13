@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "desire_amputation_of_affected_limb"
+    },
+    {
+      "criterium": "perceived_limb_foreignness"
+    },
+    {
+      "criterium": "ownership_discrepancy_between_body_schema_and_affected_limb"
+    },
+    {
+      "criterium": "distress_due_to_limb_disownership"
+    },
+    {
+      "criterium": "avoidance_of_using_affected_limb_in_daily_tasks"
+    },
+    {
+      "criterium": "intrusive_thoughts_about_affected_limb_amputation"
+    },
+    {
+      "criterium": "preoccupation_with_affected_limb"
+    },
+    {
+      "criterium": "urge_to_seek_surgical_amputation_of_affected_limb"
+    },
+    {
+      "criterium": "emotional_distress_in_presence_of_affected_limb"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

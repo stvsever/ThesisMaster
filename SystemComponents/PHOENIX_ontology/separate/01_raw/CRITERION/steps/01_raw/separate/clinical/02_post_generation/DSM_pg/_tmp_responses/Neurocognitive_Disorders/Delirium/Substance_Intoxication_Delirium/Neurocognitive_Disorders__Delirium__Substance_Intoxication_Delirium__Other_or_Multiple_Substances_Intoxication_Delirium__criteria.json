@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "perceptual_disturbance"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "pupillary_dilation"
+    },
+    {
+      "criterium": "consciousness_fluctuation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

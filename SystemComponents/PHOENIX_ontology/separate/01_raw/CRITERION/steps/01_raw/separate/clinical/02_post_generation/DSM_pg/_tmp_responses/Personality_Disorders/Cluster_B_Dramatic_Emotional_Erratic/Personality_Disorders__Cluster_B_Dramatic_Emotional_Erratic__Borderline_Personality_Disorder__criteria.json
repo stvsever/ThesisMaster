@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "affective_instability"
+    },
+    {
+      "criterium": "impulsivity"
+    },
+    {
+      "criterium": "unstable_interpersonal_relationships"
+    },
+    {
+      "criterium": "frantic_avoidance_of_abandonment"
+    },
+    {
+      "criterium": "identity_disturbance"
+    },
+    {
+      "criterium": "self_mutilation_behaviors"
+    },
+    {
+      "criterium": "recurrent_suicidal_behaviors"
+    },
+    {
+      "criterium": "intense_anger_reactions"
+    },
+    {
+      "criterium": "transient_stress_related_paranoia"
+    },
+    {
+      "criterium": "transient_dissociative_symptoms"
+    },
+    {
+      "criterium": "chronic_feeling_of_emptyness"
+    }
+  ],
+  "estimated_prevalence_percent": 1.6
+}

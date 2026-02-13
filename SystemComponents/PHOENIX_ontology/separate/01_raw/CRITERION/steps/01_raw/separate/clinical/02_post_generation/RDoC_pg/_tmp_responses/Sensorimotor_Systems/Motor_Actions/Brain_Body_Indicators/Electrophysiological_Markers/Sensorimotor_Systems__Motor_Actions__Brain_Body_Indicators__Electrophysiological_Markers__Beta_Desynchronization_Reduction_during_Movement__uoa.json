@@ -1,0 +1,40 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M",
+      "COMT_V158M",
+      "DRD2_rs1800497"
+    ],
+    "molecules": [
+      "GABA_concentration",
+      "Glutamate_concentration",
+      "Dopamine_level",
+      "Acetylcholine_level"
+    ],
+    "cells": [
+      "M1_pyramidal_neuron_density",
+      "GABAergic_interneuron_density",
+      "Oligodendrocyte_density"
+    ],
+    "circuits": [
+      "sensorimotor_cortex_beta_power",
+      "SMA_beta_power",
+      "thalamo_cortical_beta_synchrony"
+    ],
+    "physiology": [
+      "beta_ERD_percent_change_during_movement",
+      "beta_power_in_movement_epoch",
+      "MEP_amplitude_microvolts",
+      "beta_band_spectral_density_sensorimotor",
+      "beta_peak_frequency_in_beta_band"
+    ],
+    "behavior": [
+      "reach_reaction_time_ms",
+      "reach_peak_velocity_mm_per_s",
+      "trajectory_error_mm",
+      "grip_force_N"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 0.3
+}

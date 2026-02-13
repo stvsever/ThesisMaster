@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "limb_ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "dysdiadochokinesia"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "decreased_vibration_sense"
+    },
+    {
+      "criterium": "decreased_proprioception"
+    },
+    {
+      "criterium": "hyporeflexia"
+    },
+    {
+      "criterium": "positive_romberg_sign"
+    },
+    {
+      "criterium": "paresthesias"
+    },
+    {
+      "criterium": "proximal_muscle_weakness"
+    },
+    {
+      "criterium": "retinopathy_like_changes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

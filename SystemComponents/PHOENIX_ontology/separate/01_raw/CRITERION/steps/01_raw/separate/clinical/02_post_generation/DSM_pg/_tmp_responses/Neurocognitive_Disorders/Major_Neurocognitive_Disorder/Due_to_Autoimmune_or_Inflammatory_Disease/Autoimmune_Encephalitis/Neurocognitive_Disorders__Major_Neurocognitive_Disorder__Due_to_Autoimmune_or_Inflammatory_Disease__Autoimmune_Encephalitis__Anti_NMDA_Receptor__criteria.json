@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusions"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "orofacial_dyskinesia"
+    },
+    {
+      "criterium": "limb_dyskinesia"
+    },
+    {
+      "criterium": "seizures"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "mutism"
+    },
+    {
+      "criterium": "autonomic_dysregulation"
+    },
+    {
+      "criterium": "hyponatremia"
+    },
+    {
+      "criterium": "decreased_alertness"
+    },
+    {
+      "criterium": "catatonia"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "tremor"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0003
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "abdominal_cramping_present"
+    },
+    {
+      "criterium": "cramp_intensity_high"
+    },
+    {
+      "criterium": "diarrhea_present"
+    },
+    {
+      "criterium": "diarrhea_frequency_per_day"
+    },
+    {
+      "criterium": "stool_watery_consistency_present"
+    },
+    {
+      "criterium": "fecal_urgency_present"
+    },
+    {
+      "criterium": "tenesmus_present"
+    },
+    {
+      "criterium": "nocturnal_diarrhea_present"
+    },
+    {
+      "criterium": "stool_mucus_presence"
+    },
+    {
+      "criterium": "abdominal_bloating_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

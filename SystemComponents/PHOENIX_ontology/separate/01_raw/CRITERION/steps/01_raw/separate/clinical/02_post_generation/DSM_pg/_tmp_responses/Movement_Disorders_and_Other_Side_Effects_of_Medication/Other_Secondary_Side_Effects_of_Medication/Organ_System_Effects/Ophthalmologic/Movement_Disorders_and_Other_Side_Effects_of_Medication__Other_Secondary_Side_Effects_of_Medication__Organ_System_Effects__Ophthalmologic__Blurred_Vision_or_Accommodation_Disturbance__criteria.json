@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "blurry_vision_present"
+    },
+    {
+      "criterium": "visual_acuity_decrement"
+    },
+    {
+      "criterium": "diplopia_present"
+    },
+    {
+      "criterium": "oscillopsia_present"
+    },
+    {
+      "criterium": "accommodation_impairment"
+    },
+    {
+      "criterium": "near_vision_difficulty"
+    },
+    {
+      "criterium": "distance_vision_difficulty"
+    },
+    {
+      "criterium": "intermittent_vision_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

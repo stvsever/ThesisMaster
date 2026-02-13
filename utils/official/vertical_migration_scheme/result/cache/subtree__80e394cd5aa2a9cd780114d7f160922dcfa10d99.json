@@ -1,0 +1,41 @@
+{
+  "domain_path": "PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions",
+  "domain_root_path": [
+    "PSYCHO",
+    "Cognitive_Behavioral_Therapies",
+    "Perseverative_Cognition_Interventions"
+  ],
+  "leaf_count": 24,
+  "total_edges_in_subtree": 34,
+  "evaluated_pairs": 34,
+  "violations_count": 3,
+  "violation_rate": 0.08823529411764706,
+  "llm_calls": 1,
+  "violations": [
+    "Perseverative_Cognition_Interventions > Metacognitive_Beliefs",
+    "Perseverative_Cognition_Interventions > Tolerance_of_Uncertainty",
+    "Tolerance_of_Uncertainty > Cognitive_and_Behavioral"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Perseverative_Cognition_Interventions > Metacognitive_Beliefs",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions / Metacognitive_Beliefs"
+    },
+    {
+      "pair": "Perseverative_Cognition_Interventions > Tolerance_of_Uncertainty",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions / Tolerance_of_Uncertainty"
+    },
+    {
+      "pair": "Tolerance_of_Uncertainty > Cognitive_and_Behavioral",
+      "parent_path": "PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions / Tolerance_of_Uncertainty",
+      "child_path": "PSYCHO / Cognitive_Behavioral_Therapies / Perseverative_Cognition_Interventions / Tolerance_of_Uncertainty / Cognitive_and_Behavioral"
+    }
+  ],
+  "cache_key": "80e394cd5aa2a9cd780114d7f160922dcfa10d99",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 36.815
+}

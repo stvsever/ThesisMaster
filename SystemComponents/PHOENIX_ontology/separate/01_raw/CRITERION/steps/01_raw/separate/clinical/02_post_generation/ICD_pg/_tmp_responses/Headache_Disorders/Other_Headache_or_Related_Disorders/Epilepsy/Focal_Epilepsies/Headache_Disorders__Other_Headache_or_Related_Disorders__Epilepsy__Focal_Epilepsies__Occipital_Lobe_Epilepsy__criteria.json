@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "scintillating_scotoma"
+    },
+    {
+      "criterium": "teichopsia"
+    },
+    {
+      "criterium": "geometric_visual_patterns"
+    },
+    {
+      "criterium": "formed_visual_hallucinations"
+    },
+    {
+      "criterium": "palinopsia"
+    },
+    {
+      "criterium": "photopsia"
+    },
+    {
+      "criterium": "transient_hemianopia_during_ictal"
+    },
+    {
+      "criterium": "ictal_nystagmus"
+    },
+    {
+      "criterium": "visual_field_deficit_during_ictal"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

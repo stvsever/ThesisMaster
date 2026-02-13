@@ -1,0 +1,18 @@
+generated_utc: 2026-01-14T19:04:26Z
+leaf_count: 1994
+node_count: 2458
+max_depth: 6
+avg_leaf_depth: 4.23
+median_leaf_depth: 4.0
+sha256_minified_json: 3ec7a474db1b9768d5382d860b80276dd5e23f87b573f8951fb8fcfd06aea71a
+
+leaf_count_by_primary_node:
+  - Nutrition_Hydration_and_Metabolic_Health: 410
+  - Pharmacology_and_Biomedical_Treatments: 312
+  - Movement_Physical_Function_and_Somatic_Care: 230
+  - Cognitive_Capacity_and_Brain_Health: 217
+  - Sleep_Circadian_and_Restoration: 193
+  - Medical_Assessment_and_Physiology_Testing: 182
+  - Personalization_Monitoring_and_Data_Feedback: 177
+  - Environmental_Exposures_and_Built_Environment_Optimization: 168
+  - Somatic_and_Interventional_Care_Pathways: 105

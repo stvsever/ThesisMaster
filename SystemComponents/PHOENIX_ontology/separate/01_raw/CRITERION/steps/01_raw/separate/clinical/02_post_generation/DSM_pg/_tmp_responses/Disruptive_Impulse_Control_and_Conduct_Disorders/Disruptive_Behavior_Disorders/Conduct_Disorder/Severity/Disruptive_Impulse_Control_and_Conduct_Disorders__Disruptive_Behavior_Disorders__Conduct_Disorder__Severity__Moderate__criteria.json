@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bullying_threatening_others"
+    },
+    {
+      "criterium": "initiates_physical_fights"
+    },
+    {
+      "criterium": "uses_weapon_serious_harm"
+    },
+    {
+      "criterium": "physically_cruel_to_people"
+    },
+    {
+      "criterium": "physically_cruel_to_animals"
+    },
+    {
+      "criterium": "theft_confronting_victim"
+    },
+    {
+      "criterium": "fire_setting_with_damage_potential"
+    },
+    {
+      "criterium": "destruction_of_property"
+    },
+    {
+      "criterium": "lies_to_obtain_goods_or_favors"
+    },
+    {
+      "criterium": "theft_without_confronting_victim"
+    },
+    {
+      "criterium": "truancy_from_school"
+    },
+    {
+      "criterium": "runs_away_overnight_twice"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

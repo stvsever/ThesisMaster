@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "deliberate_fire_setting_events_count"
+    },
+    {
+      "criterium": "pre_fire_tension_arousal"
+    },
+    {
+      "criterium": "fire_fascination_with_flames"
+    },
+    {
+      "criterium": "pleasure_or_relief_after_fire_setting"
+    },
+    {
+      "criterium": "intrusive_fire_related_fantasies_or_urges"
+    },
+    {
+      "criterium": "recurrent_fire_setting_across_various_settings"
+    },
+    {
+      "criterium": "intentional_ignition_source_access_and_selection"
+    },
+    {
+      "criterium": "fire_setting_property_damage_occurrence"
+    },
+    {
+      "criterium": "social_or_impairment_related_consequences_due_to_fire_setting"
+    }
+  ],
+  "estimated_prevalence_percent": 0.03
+}

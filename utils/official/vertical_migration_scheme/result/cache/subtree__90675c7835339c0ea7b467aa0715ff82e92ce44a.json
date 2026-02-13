@@ -1,0 +1,46 @@
+{
+  "domain_path": "SOCIAL / Care_Navigation_Access_and_Coordination",
+  "domain_root_path": [
+    "SOCIAL",
+    "Care_Navigation_Access_and_Coordination"
+  ],
+  "leaf_count": 113,
+  "total_edges_in_subtree": 127,
+  "evaluated_pairs": 127,
+  "violations_count": 4,
+  "violation_rate": 0.031496062992125984,
+  "llm_calls": 2,
+  "violations": [
+    "Access_Barrier_Reduction_Solutions > Cultural_Context_and_Safety",
+    "Access_Barrier_Reduction_Solutions > Trust_Stigma_and_Engagement",
+    "Care_Navigation_Access_and_Coordination > Care_Navigation_and_Access",
+    "Care_Navigation_and_Access > Advocacy_and_Representation"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Care_Navigation_Access_and_Coordination > Care_Navigation_and_Access",
+      "parent_path": "SOCIAL / Care_Navigation_Access_and_Coordination",
+      "child_path": "SOCIAL / Care_Navigation_Access_and_Coordination / Care_Navigation_and_Access"
+    },
+    {
+      "pair": "Access_Barrier_Reduction_Solutions > Cultural_Context_and_Safety",
+      "parent_path": "SOCIAL / Care_Navigation_Access_and_Coordination / Access_Barrier_Reduction_Solutions",
+      "child_path": "SOCIAL / Care_Navigation_Access_and_Coordination / Access_Barrier_Reduction_Solutions / Cultural_Context_and_Safety"
+    },
+    {
+      "pair": "Access_Barrier_Reduction_Solutions > Trust_Stigma_and_Engagement",
+      "parent_path": "SOCIAL / Care_Navigation_Access_and_Coordination / Access_Barrier_Reduction_Solutions",
+      "child_path": "SOCIAL / Care_Navigation_Access_and_Coordination / Access_Barrier_Reduction_Solutions / Trust_Stigma_and_Engagement"
+    },
+    {
+      "pair": "Care_Navigation_and_Access > Advocacy_and_Representation",
+      "parent_path": "SOCIAL / Care_Navigation_Access_and_Coordination / Care_Navigation_and_Access",
+      "child_path": "SOCIAL / Care_Navigation_Access_and_Coordination / Care_Navigation_and_Access / Advocacy_and_Representation"
+    }
+  ],
+  "cache_key": "90675c7835339c0ea7b467aa0715ff82e92ce44a",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 73.006
+}

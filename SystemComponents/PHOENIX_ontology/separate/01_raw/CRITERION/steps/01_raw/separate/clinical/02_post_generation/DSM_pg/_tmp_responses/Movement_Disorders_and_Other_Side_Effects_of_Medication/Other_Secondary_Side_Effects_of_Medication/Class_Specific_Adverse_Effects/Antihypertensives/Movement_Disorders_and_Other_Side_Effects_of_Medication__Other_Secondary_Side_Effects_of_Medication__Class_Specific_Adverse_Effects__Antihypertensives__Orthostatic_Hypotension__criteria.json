@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bp_drop_systolic_on_standing"
+    },
+    {
+      "criterium": "bp_drop_diastolic_on_standing"
+    },
+    {
+      "criterium": "dizziness_on_standing"
+    },
+    {
+      "criterium": "presyncope_on_standing"
+    },
+    {
+      "criterium": "syncope_on_standing"
+    },
+    {
+      "criterium": "orthostatic_tachycardia"
+    },
+    {
+      "criterium": "blurred_vision_on_standing"
+    },
+    {
+      "criterium": "nausea_on_standing"
+    },
+    {
+      "criterium": "diaphoresis_on_standing"
+    },
+    {
+      "criterium": "pallor_on_standing"
+    },
+    {
+      "criterium": "fatigue_on_standing"
+    },
+    {
+      "criterium": "cognitive_impairment_on_standing"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

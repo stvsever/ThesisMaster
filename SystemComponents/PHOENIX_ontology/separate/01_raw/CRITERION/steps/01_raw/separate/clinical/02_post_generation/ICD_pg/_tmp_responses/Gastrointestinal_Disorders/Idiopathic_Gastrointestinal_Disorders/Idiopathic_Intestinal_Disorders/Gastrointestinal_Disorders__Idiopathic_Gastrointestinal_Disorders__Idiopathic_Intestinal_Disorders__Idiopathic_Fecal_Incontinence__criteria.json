@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "urge_fecal_incontinence"
+    },
+    {
+      "criterium": "passive_fecal_incontinence"
+    },
+    {
+      "criterium": "incontinence_liquid_stool"
+    },
+    {
+      "criterium": "incontinence_solid_stool"
+    },
+    {
+      "criterium": "incontinence_gas"
+    },
+    {
+      "criterium": "reduced_rectal_sensation"
+    },
+    {
+      "criterium": "low_anal_sphincter_rest_pressure"
+    },
+    {
+      "criterium": "stress_induced_fecal_incontinence"
+    },
+    {
+      "criterium": "fecal_incontinence_worsened_by_diarrhea"
+    },
+    {
+      "criterium": "nocturnal_fecal_incontinence"
+    },
+    {
+      "criterium": "anxiety_related_to_incontinence"
+    },
+    {
+      "criterium": "avoidance_of_social_activities_due_to_incontinence"
+    },
+    {
+      "criterium": "depression_symptoms_related_to_incontinence"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

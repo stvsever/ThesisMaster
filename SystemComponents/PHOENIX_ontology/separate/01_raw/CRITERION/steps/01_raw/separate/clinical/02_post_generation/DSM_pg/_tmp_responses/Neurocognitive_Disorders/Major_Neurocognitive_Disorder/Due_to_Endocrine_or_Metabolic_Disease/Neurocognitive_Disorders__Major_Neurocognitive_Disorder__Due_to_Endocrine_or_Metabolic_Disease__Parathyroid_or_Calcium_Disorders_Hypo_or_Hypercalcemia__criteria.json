@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "serum_calcium_decreased"
+    },
+    {
+      "criterium": "serum_calcium_increased"
+    },
+    {
+      "criterium": "paresthesias_perioral"
+    },
+    {
+      "criterium": "carpopedal_spasms"
+    },
+    {
+      "criterium": "positive_chvostek_sign"
+    },
+    {
+      "criterium": "positive_trousseau_sign"
+    },
+    {
+      "criterium": "seizures"
+    },
+    {
+      "criterium": "delirium"
+    },
+    {
+      "criterium": "memory_impairment_short_term"
+    },
+    {
+      "criterium": "polyuria"
+    },
+    {
+      "criterium": "polydipsia"
+    },
+    {
+      "criterium": "constipation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ahi_increase"
+    },
+    {
+      "criterium": "odi_increase"
+    },
+    {
+      "criterium": "nadir_spo2_below_88_percent"
+    },
+    {
+      "criterium": "mean_spo2_decrease"
+    },
+    {
+      "criterium": "sleep_efficiency_decrease"
+    },
+    {
+      "criterium": "sleep_onset_latency_increase"
+    },
+    {
+      "criterium": "waso_increase"
+    },
+    {
+      "criterium": "arousal_index_increase"
+    },
+    {
+      "criterium": "snoring_severity_increase"
+    },
+    {
+      "criterium": "ess_score_increase"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

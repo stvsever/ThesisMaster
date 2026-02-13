@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_mood"
+    },
+    {
+      "criterium": "grandiosity"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "decreased_need_for_sleep"
+    },
+    {
+      "criterium": "increased_goal_directed_activity"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "risky_or_impulsive_behaviors"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "insomnia_or_hypersomnia"
+    },
+    {
+      "criterium": "mood_temporal_association_with_medical_condition"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

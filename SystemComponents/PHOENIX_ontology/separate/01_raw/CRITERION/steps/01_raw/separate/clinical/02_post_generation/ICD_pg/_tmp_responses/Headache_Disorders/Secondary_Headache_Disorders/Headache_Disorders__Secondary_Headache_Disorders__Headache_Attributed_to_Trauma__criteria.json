@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "headache_post_trauma_present"
+    },
+    {
+      "criterium": "headache_location_unilateral"
+    },
+    {
+      "criterium": "headache_quality_throbbing"
+    },
+    {
+      "criterium": "headache_quality_pressure_like"
+    },
+    {
+      "criterium": "headache_severity_moderate_to_severe"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "phonophobia_present"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "vomiting_present"
+    },
+    {
+      "criterium": "headache_exacerbated_by_physical_activity"
+    },
+    {
+      "criterium": "headache_worsened_by_head_movement_or_bending"
+    },
+    {
+      "criterium": "neurologic_examination_normal"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

@@ -1,0 +1,57 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_rs1800497_A1",
+      "COMT_rs4680_Val158Met",
+      "DRD4_VNTR_7R",
+      "BDNF_rs6265_V66M",
+      "SLC6A3_DAT1_VNTR_9R"
+    ],
+    "molecules": [
+      "dopamine_concentration",
+      "dopamine_D2_receptor_density",
+      "norepinephrine_concentration",
+      "serotonin_concentration",
+      "endocannabinoid_anandamide_concentration"
+    ],
+    "cells": [
+      "D2_MSN_density_NAcc",
+      "D1_MSN_density_NAcc",
+      "vmPFC_pyramidal_neuron_density",
+      "dlPFC_pyramidal_neuron_density",
+      "insula_pyramidal_neuron_density"
+    ],
+    "circuits": [
+      "vmPFC_activation_during_probability_weighting",
+      "ventral_striatum_activation_during_probability_weighting",
+      "insula_activation_during_probability_weighting",
+      "dlPFC_activation_during_probability_weighting",
+      "ACC_activation_during_probability_weighting",
+      "amygdala_activation_during_risk_weighting"
+    ],
+    "physiology": [
+      "pupil_dilation_magnitude_probability_weighting",
+      "heart_rate_variability_during_risk_choice",
+      "skin_conductance_response_during_probability_weighting",
+      "respiration_rate_change_probability_weighting",
+      "cortisol_response_during_decision_under_risk",
+      "blood_pressure_change_during_risk_weighting"
+    ],
+    "behavior": [
+      "probability_weighting_task_choice_count",
+      "probability_weighting_task_reaction_time_ms",
+      "certainty_equivalent_value_in_weighting_task",
+      "high_probability_choice_frequency_in_weighting_task",
+      "low_probability_choice_frequency_in_weighting_task",
+      "risk_preferring_choice_rate_in_weighting_task"
+    ],
+    "self_report": [
+      "probability_weighting_index_self_report",
+      "risk_aversion_scale_score",
+      "loss_aversion_scale_score",
+      "probability_weighting_under_uncertainty_scale",
+      "ambiguity_aversion_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.3
+}

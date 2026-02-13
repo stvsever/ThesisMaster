@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "POSTPRANDIAL_FULLNESS"
+    },
+    {
+      "criterium": "EARLY_SATIETY"
+    },
+    {
+      "criterium": "EPIGASTRIC_PAIN"
+    },
+    {
+      "criterium": "EPIGASTRIC_BURNING"
+    },
+    {
+      "criterium": "NAUSEA"
+    },
+    {
+      "criterium": "ERUCTATION"
+    },
+    {
+      "criterium": "BLOATING"
+    },
+    {
+      "criterium": "DELAYED_GASTRIC_EMPTYING"
+    },
+    {
+      "criterium": "IMPAIRED_GASTRIC_ACCOMMODATION"
+    },
+    {
+      "criterium": "GASTRIC_HYPERSENSITIVITY"
+    }
+  ],
+  "estimated_prevalence_percent": 9.5
+}

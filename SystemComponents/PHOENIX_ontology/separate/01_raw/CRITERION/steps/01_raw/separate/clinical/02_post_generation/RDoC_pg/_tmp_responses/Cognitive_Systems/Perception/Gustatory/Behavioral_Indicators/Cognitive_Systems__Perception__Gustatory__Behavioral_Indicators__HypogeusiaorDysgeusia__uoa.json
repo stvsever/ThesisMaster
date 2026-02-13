@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "TAS2R38_gene_variant",
+      "TAS1R2_gene_variant",
+      "TAS1R3_gene_variant",
+      "GNAT3_gene_variant",
+      "PLCB2_gene_variant",
+      "PKD2L1_gene_variant"
+    ],
+    "molecules": [
+      "GNAT3_protein_level",
+      "PLCB2_protein_level",
+      "TRPM5_protein_level",
+      "IP3_concentration",
+      "Ca2+_signal_intensity",
+      "Taste_receptor_ligand_binding_affinity_kd"
+    ],
+    "cells": [
+      "typeII_taste_cell_count",
+      "typeIII_taste_cell_count",
+      "taste_bud_density_per_mm2",
+      "gustatory_nerve_fiber_density",
+      "typeI_taste_support_cell_density"
+    ],
+    "circuits": [
+      "NST_neural_activity",
+      "Gustatory_cortex_neural_activity",
+      "Insular_cortex_gustatory_area_activity",
+      "Orbitofrontal_cortex_neural_activity",
+      "Afferent_taste_pathway_activation"
+    ],
+    "physiology": [
+      "gustatory_threshold_sucrose_molar",
+      "gustatory_threshold_salt_molar",
+      "gustatory_threshold_bitter_molar",
+      "taste_discrimination_latency_ms",
+      "gustatory_receptor_potentials_amplitude"
+    ],
+    "behavior": [
+      "taste_identification_accuracy_percent",
+      "taste_discrimination_accuracy_percent",
+      "taste_intensity_rating_scale_score",
+      "taste_consistency_score",
+      "taste_response_time_ms"
+    ],
+    "self_report": [
+      "self_report_hypogeusia_presence",
+      "self_report_dysgeusia_severity_scale",
+      "self_report_taste_loss_frequency_per_week",
+      "self_report_taste_quality_change_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 6.0
+}

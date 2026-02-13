@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "erectile_dysfunction_during_stimulant_use"
+    },
+    {
+      "criterium": "delayed_erection_onset_during_stimulant_use"
+    },
+    {
+      "criterium": "reduced_erectal_rigidity_during_stimulant_use"
+    },
+    {
+      "criterium": "decreased_libido_during_stimulant_use"
+    },
+    {
+      "criterium": "delayed_orgasm_during_stimulant_use"
+    },
+    {
+      "criterium": "anorgasmia_during_stimulant_use"
+    },
+    {
+      "criterium": "reduced_orgasm_intensity_during_stimulant_use"
+    },
+    {
+      "criterium": "decreased_sexual_sensation_during_stimulant_use"
+    },
+    {
+      "criterium": "reduced_genital_sensation_during_stimulant_use"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

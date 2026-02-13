@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "libido_reduction"
+    },
+    {
+      "criterium": "reduced_spontaneous_sexual_interest"
+    },
+    {
+      "criterium": "decreased_desire_to_initiate_sex"
+    },
+    {
+      "criterium": "diminished_erotic_thoughts_or_fantasies"
+    },
+    {
+      "criterium": "decreased_subjective_arousal"
+    },
+    {
+      "criterium": "genital_arousal_response_reduction"
+    },
+    {
+      "criterium": "reduced_genital_sensation"
+    },
+    {
+      "criterium": "decreased_response_to_sexual_stimulation"
+    },
+    {
+      "criterium": "reduced_frequency_of_sexual_activity"
+    },
+    {
+      "criterium": "anhedonia_in_sexual_domain"
+    }
+  ],
+  "estimated_prevalence_percent": 8.5
+}

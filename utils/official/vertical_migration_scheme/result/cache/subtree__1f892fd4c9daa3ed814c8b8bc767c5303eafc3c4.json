@@ -1,0 +1,21 @@
+{
+  "domain_path": "BIO / Pharmacology_and_Biomedical_Treatments / Pain_and_Somatic_Symptom_Therapeutics",
+  "domain_root_path": [
+    "BIO",
+    "Pharmacology_and_Biomedical_Treatments",
+    "Pain_and_Somatic_Symptom_Therapeutics"
+  ],
+  "leaf_count": 49,
+  "total_edges_in_subtree": 67,
+  "evaluated_pairs": 67,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 1,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "1f892fd4c9daa3ed814c8b8bc767c5303eafc3c4",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 19.511
+}

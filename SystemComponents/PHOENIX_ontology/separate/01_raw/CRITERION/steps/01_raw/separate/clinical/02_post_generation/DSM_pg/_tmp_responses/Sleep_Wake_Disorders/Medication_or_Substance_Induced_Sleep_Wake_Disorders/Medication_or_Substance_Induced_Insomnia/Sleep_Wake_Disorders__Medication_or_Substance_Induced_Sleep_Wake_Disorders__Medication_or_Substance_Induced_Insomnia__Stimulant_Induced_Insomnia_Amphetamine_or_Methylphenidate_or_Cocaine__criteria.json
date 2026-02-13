@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "increased_sleep_latency"
+    },
+    {
+      "criterium": "reduced_sleep_efficiency"
+    },
+    {
+      "criterium": "decreased_total_sleep_time"
+    },
+    {
+      "criterium": "sleep_fragmentation"
+    },
+    {
+      "criterium": "nocturnal_awakenings"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "increased_wake_after_sleep_onset"
+    },
+    {
+      "criterium": "reduced_sleep_quality"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

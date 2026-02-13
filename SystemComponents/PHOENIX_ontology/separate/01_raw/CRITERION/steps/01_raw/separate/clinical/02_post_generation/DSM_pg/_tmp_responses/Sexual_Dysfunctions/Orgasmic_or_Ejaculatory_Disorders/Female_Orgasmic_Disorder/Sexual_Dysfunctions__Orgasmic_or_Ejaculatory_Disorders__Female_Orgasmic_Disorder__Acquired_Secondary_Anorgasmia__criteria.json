@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inability_to_achieve_orgasm_during_clitoral_stimulation"
+    },
+    {
+      "criterium": "inability_to_achieve_orgasm_during_vaginal_stimulation"
+    },
+    {
+      "criterium": "inability_to_achieve_orgasm_during_masturbation"
+    },
+    {
+      "criterium": "history_of_orgasmic_ability_present_before_onset"
+    },
+    {
+      "criterium": "distress_or_anxiety_related_to_inability_to_orgasm"
+    },
+    {
+      "criterium": "preserved_sexual_desire_and_arousal"
+    },
+    {
+      "criterium": "normal_pelvic_arousal_signs_in_response_to_stimulation"
+    },
+    {
+      "criterium": "genital_sensations_present_without_climax"
+    },
+    {
+      "criterium": "elevated_orgasmic_threshold"
+    }
+  ],
+  "estimated_prevalence_percent": 4.8
+}

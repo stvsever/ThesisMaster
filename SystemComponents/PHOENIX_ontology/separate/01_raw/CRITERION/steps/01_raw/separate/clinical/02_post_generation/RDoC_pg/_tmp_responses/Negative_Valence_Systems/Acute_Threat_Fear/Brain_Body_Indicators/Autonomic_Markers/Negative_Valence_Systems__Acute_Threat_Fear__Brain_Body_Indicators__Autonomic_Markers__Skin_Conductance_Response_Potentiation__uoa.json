@@ -1,0 +1,45 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "CHRM3",
+      "GNB3",
+      "ADRA2A"
+    ],
+    "molecules": [
+      "acetylcholine",
+      "IP3",
+      "Ca2_plus",
+      "cAMP"
+    ],
+    "cells": [
+      "eccrine_sweat_gland_cells",
+      "secretory_coil_cells",
+      "sudomotor_neurons",
+      "sympathetic_cholinergic_neurons"
+    ],
+    "circuits": [
+      "insula_amygdala_connectivity_strength",
+      "prefrontal_limbic_network_activity",
+      "hypothalamic_brainstem_pathway",
+      "spinal_sympathetic_outflow_to_skin"
+    ],
+    "physiology": [
+      "SCR_amplitude_microSiemens",
+      "SCR_latency_ms",
+      "SCR_potentiation_index",
+      "skin_conductance_level_baseline_microSiemens",
+      "sweat_gland_secretion_rate"
+    ],
+    "behavior": [
+      "fear_potentiated_startle_amplitude",
+      "conditioned_fear_response_latency",
+      "fear_response_time_ms"
+    ],
+    "self_report": [
+      "fear_intensity_rating_scale",
+      "state_anxiety_inventory_score",
+      "anxiety_level_visual_analog_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 6.0
+}

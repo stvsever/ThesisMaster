@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cue_triggered_panic_attack_occurrence"
+    },
+    {
+      "criterium": "tachycardia_during_attack"
+    },
+    {
+      "criterium": "sweating_during_attack"
+    },
+    {
+      "criterium": "tremors_or_shaking_during_attack"
+    },
+    {
+      "criterium": "dyspnea_or_breathlessness_during_attack"
+    },
+    {
+      "criterium": "chest_discomfort_or_pain_during_attack"
+    },
+    {
+      "criterium": "dizziness_or_lightheadedness_during_attack"
+    },
+    {
+      "criterium": "derealization_or_depersonalization_during_attack"
+    },
+    {
+      "criterium": "nausea_or_gastrointestinal_distress_during_attack"
+    },
+    {
+      "criterium": "fear_of_loss_of_control_during_attack"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

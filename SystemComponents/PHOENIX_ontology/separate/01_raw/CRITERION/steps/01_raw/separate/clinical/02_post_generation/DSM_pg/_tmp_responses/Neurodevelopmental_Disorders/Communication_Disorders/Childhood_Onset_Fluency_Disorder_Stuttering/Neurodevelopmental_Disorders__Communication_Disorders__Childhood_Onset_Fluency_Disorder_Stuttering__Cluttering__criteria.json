@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rapid_speech_rate"
+    },
+    {
+      "criterium": "articulatory_imprecision"
+    },
+    {
+      "criterium": "irregular_prosody"
+    },
+    {
+      "criterium": "self_repair_within_utterances"
+    },
+    {
+      "criterium": "inconsistent_disfluency_patterns"
+    },
+    {
+      "criterium": "reduced_speech_intelligibility"
+    },
+    {
+      "criterium": "poor_error_awareness"
+    },
+    {
+      "criterium": "phoneme_substitutions_within_words"
+    },
+    {
+      "criterium": "oromotor_coordination_difficulty"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

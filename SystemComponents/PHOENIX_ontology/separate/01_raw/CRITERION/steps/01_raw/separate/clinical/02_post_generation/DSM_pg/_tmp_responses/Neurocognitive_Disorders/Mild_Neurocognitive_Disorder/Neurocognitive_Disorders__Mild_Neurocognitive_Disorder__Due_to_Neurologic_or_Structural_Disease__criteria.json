@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_deficit"
+    },
+    {
+      "criterium": "expressive_language_dysfunction"
+    },
+    {
+      "criterium": "receptive_language_dysfunction"
+    },
+    {
+      "criterium": "anomia"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_decline"
+    },
+    {
+      "criterium": "visuospatial_disorientation"
+    },
+    {
+      "criterium": "apraxia"
+    },
+    {
+      "criterium": "agnosia"
+    },
+    {
+      "criterium": "time_orientation_deficit"
+    },
+    {
+      "criterium": "semantic_fluency_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

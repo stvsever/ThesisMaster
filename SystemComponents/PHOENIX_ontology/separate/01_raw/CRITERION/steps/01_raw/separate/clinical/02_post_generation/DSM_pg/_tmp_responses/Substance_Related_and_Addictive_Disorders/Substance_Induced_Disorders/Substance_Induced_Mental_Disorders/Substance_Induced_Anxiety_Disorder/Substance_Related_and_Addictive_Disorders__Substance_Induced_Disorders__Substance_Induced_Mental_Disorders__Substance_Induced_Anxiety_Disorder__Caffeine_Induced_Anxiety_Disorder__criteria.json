@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "nervousness"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "shortness_of_breath"
+    },
+    {
+      "criterium": "muscle_tension"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

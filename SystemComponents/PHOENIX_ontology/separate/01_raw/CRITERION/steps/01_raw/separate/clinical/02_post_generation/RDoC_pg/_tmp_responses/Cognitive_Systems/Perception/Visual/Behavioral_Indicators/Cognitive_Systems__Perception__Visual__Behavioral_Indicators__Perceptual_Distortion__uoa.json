@@ -1,0 +1,57 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "GRIN2A",
+      "GRIN2B",
+      "DISC1",
+      "NRG1",
+      "BDNF",
+      "CACNA1C",
+      "COMT",
+      "AKT1"
+    ],
+    "molecules": [
+      "NMDA_receptor_activity",
+      "GABA_A_receptor_inhibition",
+      "Dopamine_D2_receptor_occupancy",
+      "Glutamate_concentration_V1",
+      "BDNF_protein_level",
+      "Serotonin_5HT2A_binding"
+    ],
+    "cells": [
+      "Pyramidal_neuron_density_V1",
+      "Parvalbumin_interneuron_density_V1",
+      "Astrocyte_density_V1",
+      "Microglial_activation_density_V1"
+    ],
+    "circuits": [
+      "V1_V2_recurrent_connectivity",
+      "V1_V4_feedforward_connectivity",
+      "LGN_to_V1_thalamocortical_projection_strength",
+      "V1_to_Temporal_visual_area_connectivity"
+    ],
+    "physiology": [
+      "P100_latency_ms",
+      "P100_amplitude_microvolts",
+      "Contrast_sensitivity_threshold",
+      "Grating_response_amplitude",
+      "Saccadic_latency_ms"
+    ],
+    "behavior": [
+      "Visual_hallucination_frequency",
+      "Pareidolia_frequency",
+      "Geometric_illusion_episodes_per_hour",
+      "Object_distortion_recognition_errors_per_task",
+      "Illusion_report_count_per_session",
+      "Visual_distortion_occurrence_rate_during_tasks"
+    ],
+    "self_report": [
+      "Perceptual_distortion_frequency",
+      "Visual_hallucination_distress",
+      "Illusion_susceptibility_score",
+      "Pareidolia_questionnaire_score",
+      "Visual_distortion_severity"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

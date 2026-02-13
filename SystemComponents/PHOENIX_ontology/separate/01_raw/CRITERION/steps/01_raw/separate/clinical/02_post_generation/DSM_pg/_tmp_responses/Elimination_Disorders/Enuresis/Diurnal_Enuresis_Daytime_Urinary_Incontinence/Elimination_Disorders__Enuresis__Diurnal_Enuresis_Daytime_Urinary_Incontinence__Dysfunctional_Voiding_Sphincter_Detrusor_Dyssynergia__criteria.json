@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "detrusor_sphincter_dyssynergia_urodynamics"
+    },
+    {
+      "criterium": "paradoxical_urethral_sphincter_contraction_during_voiding"
+    },
+    {
+      "criterium": "intermittent_uroflow_pattern"
+    },
+    {
+      "criterium": "reduced_Qmax"
+    },
+    {
+      "criterium": "prolonged_micturition_time"
+    },
+    {
+      "criterium": "elevated_post_void_residual"
+    },
+    {
+      "criterium": "increased_external_urethral_sphincter_EMG"
+    },
+    {
+      "criterium": "pelvic_floor_overactivity_during_voiding"
+    },
+    {
+      "criterium": "abdominal_straining_during_voiding"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

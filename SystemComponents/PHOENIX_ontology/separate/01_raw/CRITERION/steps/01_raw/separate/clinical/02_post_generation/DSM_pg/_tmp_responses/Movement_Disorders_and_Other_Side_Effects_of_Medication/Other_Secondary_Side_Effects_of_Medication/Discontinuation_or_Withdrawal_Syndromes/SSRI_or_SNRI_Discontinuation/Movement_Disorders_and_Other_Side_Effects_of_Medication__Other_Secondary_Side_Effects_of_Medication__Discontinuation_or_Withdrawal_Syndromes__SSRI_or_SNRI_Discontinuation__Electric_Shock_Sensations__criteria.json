@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "brain_zaps"
+    },
+    {
+      "criterium": "limb_electric_shocks"
+    },
+    {
+      "criterium": "facial_electric_shocks"
+    },
+    {
+      "criterium": "scalp_electric_shocks"
+    },
+    {
+      "criterium": "neck_shoulder_electric_shocks"
+    },
+    {
+      "criterium": "trunk_electric_shocks"
+    },
+    {
+      "criterium": "diffuse_electrical_paresthesias"
+    },
+    {
+      "criterium": "movement_triggered_electric_shocks"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0
+}

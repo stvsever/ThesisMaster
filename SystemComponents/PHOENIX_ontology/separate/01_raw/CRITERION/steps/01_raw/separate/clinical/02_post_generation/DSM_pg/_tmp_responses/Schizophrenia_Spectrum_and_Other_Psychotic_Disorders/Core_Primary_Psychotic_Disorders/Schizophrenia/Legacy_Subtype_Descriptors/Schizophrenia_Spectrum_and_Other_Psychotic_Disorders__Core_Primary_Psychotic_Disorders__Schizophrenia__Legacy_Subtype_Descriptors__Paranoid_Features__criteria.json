@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "referential_delusions"
+    },
+    {
+      "criterium": "paranoid_auditory_hallucinations"
+    },
+    {
+      "criterium": "paranoid_thought_content"
+    },
+    {
+      "criterium": "hypervigilance"
+    },
+    {
+      "criterium": "suspiciousness"
+    },
+    {
+      "criterium": "mistrust_of_others"
+    },
+    {
+      "criterium": "social_withdrawal"
+    },
+    {
+      "criterium": "guarded_interactions"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

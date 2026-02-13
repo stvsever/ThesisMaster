@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_Val66Met_genotype",
+      "COMT_rs4680_genotype",
+      "SLC6A4_5HTTLPR_genotype",
+      "FKBP5_rs1360780_genotype",
+      "CACNA1C_rs1006737_genotype"
+    ],
+    "molecules": [
+      "cortisol_serum_level",
+      "salivary_cortisol_level",
+      "plasma_norepinephrine_level",
+      "BDNF_plasma_level",
+      "CRF_level",
+      "glutamate_plasma_level"
+    ],
+    "cells": [
+      "parvalbumin_positive_interneuron_density_prefrontal_cortex",
+      "GABA_A_receptor_subunit_GABRA1_expression_prefrontal_cortex",
+      "glutamatergic_pyramidal_neuron_density_prefrontal_cortex",
+      "microglial_activation_markers_expression_prefrontal_cortex",
+      "dendritic_spine_density_prefrontal_cortex",
+      "astrocyte_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_connectivity",
+      "amygdala_insula_connectivity",
+      "prefrontal_cortex_dorsolateral_activation_to_uncertainty",
+      "anterior_cingulate_activation_to_uncertainty",
+      "ventromedial_prefrontal_cortex_uncertainty_value_encoding",
+      "insula_prefrontal_connectivity"
+    ],
+    "physiology": [
+      "heart_rate_variability",
+      "skin_conductance_level",
+      "pupil_dilation_response_to_uncertainty",
+      "respiratory_rate",
+      "salivary_alpha_amylase_level"
+    ],
+    "behavior": [
+      "uncertainty_avoidance_rate",
+      "ambiguity_aversion_index",
+      "uncertainty_task_reaction_time",
+      "uncertainty_task_completion_time",
+      "uncertainty_based_decision_bias"
+    ],
+    "self_report": [
+      "IUS_total",
+      "IUS_prospective_uncertainty",
+      "IUS_inhibitory_uncertainty"
+    ]
+  },
+  "estimated_prevalence_percent": 12.5
+}

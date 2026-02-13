@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_explosion_perception"
+    },
+    {
+      "criterium": "visual_flash_or_light_perception_during_event"
+    },
+    {
+      "criterium": "head_or_neck_sensation_of_pressure_or_tension_at_event"
+    },
+    {
+      "criterium": "onset_occurs_during_sleep_transition_hypnagogic_or_hypnopompic"
+    },
+    {
+      "criterium": "accompanied_by_fear_or_startle_response"
+    },
+    {
+      "criterium": "consciousness_preserved_during_event"
+    },
+    {
+      "criterium": "memory_of_event_partial_or_none"
+    },
+    {
+      "criterium": "episodes_recur_across_nights"
+    },
+    {
+      "criterium": "no_associated_dream_content_reported_with_event"
+    },
+    {
+      "criterium": "no_focal_neurological_deficits_between_events"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

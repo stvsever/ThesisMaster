@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "somnolence"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "anterograde_amnesia"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "respiratory_depression"
+    },
+    {
+      "criterium": "bradypnea"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "sleep_driving"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

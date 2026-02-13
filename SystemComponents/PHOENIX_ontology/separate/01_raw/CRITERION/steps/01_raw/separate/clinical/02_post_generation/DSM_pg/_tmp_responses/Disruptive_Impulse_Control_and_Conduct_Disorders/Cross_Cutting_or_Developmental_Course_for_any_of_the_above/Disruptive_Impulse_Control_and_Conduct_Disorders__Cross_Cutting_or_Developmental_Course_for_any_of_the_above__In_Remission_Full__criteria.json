@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "absent_phys_aggression_outbursts"
+    },
+    {
+      "criterium": "absent_impulsive_actions_without_warning"
+    },
+    {
+      "criterium": "absent_deliberate_rule_violations"
+    },
+    {
+      "criterium": "normal_peer_interactions"
+    },
+    {
+      "criterium": "normal_family_interactions"
+    },
+    {
+      "criterium": "adequate_academic_performance"
+    },
+    {
+      "criterium": "adequate_work_performance"
+    },
+    {
+      "criterium": "adequate_emotional_regulation"
+    },
+    {
+      "criterium": "stable_behavior_across_settings"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

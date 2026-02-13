@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "abdominal_obesity"
+    },
+    {
+      "criterium": "waist_to_hip_ratio_elevated"
+    },
+    {
+      "criterium": "triglycerides_elevated"
+    },
+    {
+      "criterium": "hdl_cholesterol_reduced"
+    },
+    {
+      "criterium": "systolic_bp_elevated"
+    },
+    {
+      "criterium": "diastolic_bp_elevated"
+    },
+    {
+      "criterium": "fasting_plasma_glucose_elevated"
+    },
+    {
+      "criterium": "bmi_elevated"
+    },
+    {
+      "criterium": "weight_gain_significant"
+    },
+    {
+      "criterium": "acanthosis_nigricans_present"
+    }
+  ],
+  "estimated_prevalence_percent": 25.0
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "QTc_interval_prolongation_ECG"
+    },
+    {
+      "criterium": "QTc_value_exceeds_500ms_ECG"
+    },
+    {
+      "criterium": "Torsades_de_Pointes_occurrence"
+    },
+    {
+      "criterium": "Palpitations_present"
+    },
+    {
+      "criterium": "Dizziness_present"
+    },
+    {
+      "criterium": "Syncope_event"
+    },
+    {
+      "criterium": "Non_sustained_VT_ECG"
+    },
+    {
+      "criterium": "Sustained_VT_ECG"
+    },
+    {
+      "criterium": "Ventricular_Ectopy_ECG"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

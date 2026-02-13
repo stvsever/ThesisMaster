@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nicotine_tolerance_development"
+    },
+    {
+      "criterium": "nicotine_withdrawal_symptoms_on_abstinence"
+    },
+    {
+      "criterium": "craving_intensity_on_abstinence"
+    },
+    {
+      "criterium": "loss_of_control_over_vaping"
+    },
+    {
+      "criterium": "persistent_desire_to_cut_down_vaping"
+    },
+    {
+      "criterium": "recurrent_unsuccessful_attempts_to_cut_down_vaping"
+    },
+    {
+      "criterium": "time_spent_using_e_cigarettes"
+    },
+    {
+      "criterium": "preoccupation_with_e_cigarette_use"
+    },
+    {
+      "criterium": "functional_impairment_due_to_vaping"
+    },
+    {
+      "criterium": "continued_vaping_despite_adverse_health_consequences"
+    }
+  ],
+  "estimated_prevalence_percent": 1.9
+}

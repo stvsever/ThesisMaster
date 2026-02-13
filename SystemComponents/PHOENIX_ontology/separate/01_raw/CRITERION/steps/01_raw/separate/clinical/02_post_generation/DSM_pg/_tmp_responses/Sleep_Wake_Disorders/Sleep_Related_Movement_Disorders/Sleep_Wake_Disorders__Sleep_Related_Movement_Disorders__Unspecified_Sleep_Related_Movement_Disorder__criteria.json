@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "plms_during_sleep"
+    },
+    {
+      "criterium": "plms_rate_elevated"
+    },
+    {
+      "criterium": "nocturnal_jerky_limb_movements"
+    },
+    {
+      "criterium": "rhythmic_motor_movements_in_sleep"
+    },
+    {
+      "criterium": "sleep_arousals_following_movements"
+    },
+    {
+      "criterium": "sleep_fragmentation_due_to_movements"
+    },
+    {
+      "criterium": "bruxism_during_sleep"
+    },
+    {
+      "criterium": "complex_sleep_motor_behaviors"
+    },
+    {
+      "criterium": "head_neck_muscle_movements_during_sleep"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

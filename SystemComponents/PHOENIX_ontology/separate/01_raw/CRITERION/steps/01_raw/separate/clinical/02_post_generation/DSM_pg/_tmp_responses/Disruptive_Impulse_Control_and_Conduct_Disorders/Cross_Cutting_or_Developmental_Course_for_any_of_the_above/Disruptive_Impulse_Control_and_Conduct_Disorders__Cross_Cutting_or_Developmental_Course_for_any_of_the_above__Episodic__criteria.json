@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episode_aggressive_outbursts"
+    },
+    {
+      "criterium": "episode_impulsive_actions"
+    },
+    {
+      "criterium": "episode_rule_breaking_or_destructive_behaviors"
+    },
+    {
+      "criterium": "episode_verbal_aggression"
+    },
+    {
+      "criterium": "episode_emotional_lability"
+    },
+    {
+      "criterium": "episode_social_impairment"
+    },
+    {
+      "criterium": "inter_episode_normal_functioning"
+    },
+    {
+      "criterium": "episode_risk_taking_behavior"
+    },
+    {
+      "criterium": "episode_defiance_of_authority_or_rules"
+    }
+  ],
+  "estimated_prevalence_percent": 4.2
+}

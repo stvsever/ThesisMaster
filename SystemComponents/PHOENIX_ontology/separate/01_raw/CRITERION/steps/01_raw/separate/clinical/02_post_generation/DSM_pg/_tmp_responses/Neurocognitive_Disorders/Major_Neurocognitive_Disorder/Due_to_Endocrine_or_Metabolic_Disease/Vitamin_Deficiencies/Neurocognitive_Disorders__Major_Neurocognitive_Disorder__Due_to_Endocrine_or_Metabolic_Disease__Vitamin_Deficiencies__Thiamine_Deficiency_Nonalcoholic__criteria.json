@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_amnesia"
+    },
+    {
+      "criterium": "retrograde_amnesia"
+    },
+    {
+      "criterium": "confabulation"
+    },
+    {
+      "criterium": "ophthalmoplegia"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "disorientation_to_time"
+    },
+    {
+      "criterium": "disorientation_to_place"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

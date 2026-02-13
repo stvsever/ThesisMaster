@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "articulatory_imprecision"
+    },
+    {
+      "criterium": "nasal_emission"
+    },
+    {
+      "criterium": "hypernasality"
+    },
+    {
+      "criterium": "reduced_diadochokinetic_rate"
+    },
+    {
+      "criterium": "slow_speech_rate"
+    },
+    {
+      "criterium": "monopitch"
+    },
+    {
+      "criterium": "monoloudness"
+    },
+    {
+      "criterium": "orofacial_mmuscle_weakness"
+    },
+    {
+      "criterium": "breathy_voice_quality"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

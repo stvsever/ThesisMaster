@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "QTc_Bazett_ms_gt_450_male"
+    },
+    {
+      "criterium": "QTc_Bazett_ms_gt_470_female"
+    },
+    {
+      "criterium": "QTc_Fridericia_ms_gt_440"
+    },
+    {
+      "criterium": "QTc_delta_from_baseline_ms_gt_60"
+    },
+    {
+      "criterium": "T_wave_abnormalities_ECG_present"
+    },
+    {
+      "criterium": "Torsades_de_Pointes_occurrence"
+    },
+    {
+      "criterium": "Ventricular_arrhythmia_occurrence"
+    },
+    {
+      "criterium": "Palpitations_subjective_symptom"
+    },
+    {
+      "criterium": "Syncope_or_presyncope_with_arrhythmia"
+    },
+    {
+      "criterium": "QTc_measured_in_12_lead_ECG_documented"
+    },
+    {
+      "criterium": "QTc_tracking_rate_of_change_over_time_present"
+    },
+    {
+      "criterium": "QTc_prolongation_confirmed_by_ECG"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

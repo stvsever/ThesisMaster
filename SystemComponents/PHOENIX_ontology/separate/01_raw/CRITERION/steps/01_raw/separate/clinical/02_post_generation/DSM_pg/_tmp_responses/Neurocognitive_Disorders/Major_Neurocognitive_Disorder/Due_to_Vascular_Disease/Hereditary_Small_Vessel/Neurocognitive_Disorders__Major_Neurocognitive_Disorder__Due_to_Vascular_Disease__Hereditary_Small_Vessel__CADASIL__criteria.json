@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "migraine_with_aura"
+    },
+    {
+      "criterium": "recurrent_subcortical_strokes"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "processing_speed_decline"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "focal_neurological_deficits_on_exam"
+    }
+  ],
+  "estimated_prevalence_percent": 0.003
+}

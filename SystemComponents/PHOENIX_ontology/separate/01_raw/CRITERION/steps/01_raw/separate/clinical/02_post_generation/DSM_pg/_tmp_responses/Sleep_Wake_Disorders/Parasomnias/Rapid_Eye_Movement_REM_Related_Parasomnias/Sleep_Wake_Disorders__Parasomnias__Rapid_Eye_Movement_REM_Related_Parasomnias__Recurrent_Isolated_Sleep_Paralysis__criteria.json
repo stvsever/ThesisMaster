@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "paralysis_at_sleep_wake_transition"
+    },
+    {
+      "criterium": "consciousness_preserved_during_paralysis"
+    },
+    {
+      "criterium": "inability_to_move_or_speak_during_paralysis"
+    },
+    {
+      "criterium": "visual_hallucinations_during_paralysis"
+    },
+    {
+      "criterium": "auditory_hallucinations_during_paralysis"
+    },
+    {
+      "criterium": "tactile_hallucinations_during_paralysis"
+    },
+    {
+      "criterium": "fear_or_terror_during_paralysis"
+    },
+    {
+      "criterium": "chest_pressure_or_sensation_of_suffocation_during_paralysis"
+    },
+    {
+      "criterium": "memory_recall_of_paralysis_post_episode"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

@@ -1,0 +1,53 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M_genotype",
+      "APOE_E4_carrier",
+      "COMT_VAL158MET_genotype",
+      "KIBRA_rs17070145_genotype",
+      "DISC1_rs821597_variant"
+    ],
+    "molecules": [
+      "BDNF_protein_level",
+      "NMDA_NR2B_subunit_expression",
+      "CREB_phosphorylated_fraction",
+      "CaMKII_activity_level",
+      "ZIF268_expression_level",
+      "GRIA1_surface_expression"
+    ],
+    "cells": [
+      "CA1_pyramidal_neuron_density",
+      "Dentate_gyrus_granule_cell_density",
+      "Synapse_density_CA1_pyramidal",
+      "Dendritic_spine_density_CA1_pyramidal"
+    ],
+    "circuits": [
+      "hippocampus_to_pfc_theta_synchrony",
+      "hippocampus_prefrontal_connectivity_strength",
+      "entorhinal_hippocampal_connectivity",
+      "dlPFC_encoding_related_activity_level",
+      "parietal_region_encoding_network_activation"
+    ],
+    "physiology": [
+      "EEG_theta_power_during_encoding",
+      "fMRI_hippocampal_BOLD_during_encoding",
+      "pupil_dilation_during_encoding_task",
+      "skin_conductance_during_encoding",
+      "heart_rate_variability_during_encoding"
+    ],
+    "behavior": [
+      "encoding_task_accuracy_percent",
+      "immediate_recall_score",
+      "delayed_recall_score",
+      "recognition_accuracy_percent",
+      "encoding_rate_per_minute",
+      "encoding_latency_ms"
+    ],
+    "self_report": [
+      "subjective_encoding_difficulty_rating",
+      "subjective_memory_encoding_decline_report",
+      "encoding_effort_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

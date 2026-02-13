@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "FEAR_DOG_PRESENCE"
+    },
+    {
+      "criterium": "ANTICIPATORY_ANXIETY_BEFORE_DOG_CONTACT"
+    },
+    {
+      "criterium": "AVOIDANCE_DOG_ENVIRONMENTS"
+    },
+    {
+      "criterium": "PHYSIOLOGICAL_AROUSAL_UPON_DOG_CUES"
+    },
+    {
+      "criterium": "PANIC_LIKE_REACTIONS_DURING_DOG_EXPOSURE"
+    },
+    {
+      "criterium": "DISTRESSING_THOUGHTS_OF_DOG_BITE_OR_HARM"
+    },
+    {
+      "criterium": "HYPERVIGILANCE_FOR_DOGS"
+    },
+    {
+      "criterium": "IMPAIRED_FUNCTIONING_DUE_TO_DOG_PHOBIA"
+    },
+    {
+      "criterium": "RUMINATION_ABOUT_DOG_THREATS"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pinpoint_pupils"
+    },
+    {
+      "criterium": "bradypnea"
+    },
+    {
+      "criterium": "hypoventilation"
+    },
+    {
+      "criterium": "hypoxemia"
+    },
+    {
+      "criterium": "hypercapnia"
+    },
+    {
+      "criterium": "decreased_level_of_consciousness"
+    },
+    {
+      "criterium": "slurred_speech"
+    },
+    {
+      "criterium": "cyanosis"
+    },
+    {
+      "criterium": "bradycardia"
+    },
+    {
+      "criterium": "hypotension"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

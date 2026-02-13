@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "stepwise_cognitive_decline"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "focal_neurological_signs_present"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "urinary_incontinence"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "IADL_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

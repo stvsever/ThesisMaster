@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "facial_plethora"
+    },
+    {
+      "criterium": "moon_facies"
+    },
+    {
+      "criterium": "central_obesity"
+    },
+    {
+      "criterium": "dorsocervical_fat_pad"
+    },
+    {
+      "criterium": "skin_thinning"
+    },
+    {
+      "criterium": "easy_bruising"
+    },
+    {
+      "criterium": "purple_striae_abdomen"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "hyperglycemia"
+    },
+    {
+      "criterium": "osteoporosis"
+    },
+    {
+      "criterium": "proximal_muscle_weakness"
+    },
+    {
+      "criterium": "hirsutism"
+    },
+    {
+      "criterium": "menstrual_irregularities"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.004
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "desire_amputation_target_limb"
+    },
+    {
+      "criterium": "intent_surgical_amputation"
+    },
+    {
+      "criterium": "intrusive_amputation_fantasies"
+    },
+    {
+      "criterium": "cognitive_preoccupation_amputation"
+    },
+    {
+      "criterium": "distress_due_to_unamputated_limb_presence"
+    },
+    {
+      "criterium": "body_identity_discrepancy_target_limb"
+    },
+    {
+      "criterium": "emotional_distress_body_integrity_mismatch"
+    },
+    {
+      "criterium": "preoccupation_with_amputation_sensations"
+    },
+    {
+      "criterium": "visualization_of_amputation_scenarios"
+    },
+    {
+      "criterium": "urges_to_actuate_amputation"
+    },
+    {
+      "criterium": "avoidance_of_target_limb_social_interaction"
+    },
+    {
+      "criterium": "perceived_loss_of_control_over_target_limb"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

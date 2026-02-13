@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "behavioral_disinhibition"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "loss_of_empathy"
+    },
+    {
+      "criterium": "perseverative_behaviors"
+    },
+    {
+      "criterium": "nonfluent_aphasia"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "apraxia_of_speech"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "parkinsonian_motor_signs"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

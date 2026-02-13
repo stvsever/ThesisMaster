@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pruritus_nrs_score"
+    },
+    {
+      "criterium": "pruritus_night_occurrence_present"
+    },
+    {
+      "criterium": "pruritus_generalized_distribution_present"
+    },
+    {
+      "criterium": "pruritus_excoriation_count"
+    },
+    {
+      "criterium": "pruritus_scratching_behavior_present"
+    },
+    {
+      "criterium": "postvoid_residual_volume_ml"
+    },
+    {
+      "criterium": "bladder_distension_palpable_present"
+    },
+    {
+      "criterium": "urinary_outflow_peak_flow_rate_ml_per_s"
+    },
+    {
+      "criterium": "urinary_retention_signs_present"
+    },
+    {
+      "criterium": "voiding_hesitancy_present"
+    },
+    {
+      "criterium": "voiding_straining_present"
+    },
+    {
+      "criterium": "suprapubic_tenderness_present"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nonverbal_or_near_nonverbal_speech"
+    },
+    {
+      "criterium": "profound_global_cognitive_impairment"
+    },
+    {
+      "criterium": "deficits_in_adaptive_behaviour_across_conceptual_social_practical_domains"
+    },
+    {
+      "criterium": "extensive_support_needed_for_all_activities_of_daily_living"
+    },
+    {
+      "criterium": "limited_expressive_language_capability"
+    },
+    {
+      "criterium": "limited_receptive_language_capability"
+    },
+    {
+      "criterium": "gross_and_fine_motor_impairments_with_poor_coordination"
+    },
+    {
+      "criterium": "needs_supervision_for_personal_hygiene_and_dressing"
+    },
+    {
+      "criterium": "epilepsy_present"
+    },
+    {
+      "criterium": "sensory_processing_differences_hyper_or_hypo_sensitivity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

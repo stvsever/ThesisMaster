@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2",
+      "COMT",
+      "BDNF",
+      "DISC1",
+      "NRG1"
+    ],
+    "molecules": [
+      "dopamine",
+      "glutamate",
+      "GABA",
+      "acetylcholine",
+      "oxytocin"
+    ],
+    "cells": [
+      "cortical_pyramidal_neurons",
+      "gabaergic_interneurons",
+      "striatal_medium_spiny_neurons",
+      "cerebellar_purkinje_cells",
+      "astrocytes"
+    ],
+    "circuits": [
+      "preSMA_caudate_circuit",
+      "parietal_premotor_network",
+      "anterior_cingulate_network",
+      "insula_self_referential_network",
+      "dlPFC_parietotemporal_network"
+    ],
+    "physiology": [
+      "heart_rate_variability",
+      "skin_conductance_response",
+      "pupil_dilation",
+      "respiratory_rate",
+      "body_temperature"
+    ],
+    "behavior": [
+      "action_initiation_latency",
+      "external_attribution_of_actions_frequency",
+      "delusions_of_control_frequency",
+      "passivity_experience_frequency",
+      "action_inhibition_errors_rate"
+    ],
+    "self_report": [
+      "sense_of_agency_scale",
+      "ownership_of_actions_scale",
+      "external_attribution_beliefs_scale",
+      "agency_coherence_scale",
+      "intentionality_experience_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 0.6
+}

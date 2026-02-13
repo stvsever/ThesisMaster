@@ -1,0 +1,35 @@
+{
+  "domain_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Respiratory_and_Autonomic_Physiology_Tools",
+  "domain_root_path": [
+    "BIO",
+    "Movement_Physical_Function_and_Somatic_Care",
+    "Respiratory_and_Autonomic_Physiology_Tools"
+  ],
+  "leaf_count": 17,
+  "total_edges_in_subtree": 20,
+  "evaluated_pairs": 20,
+  "violations_count": 2,
+  "violation_rate": 0.1,
+  "llm_calls": 1,
+  "violations": [
+    "Airway_and_Nasal_Supports > Allergic_Rhinitis_Care_Framework",
+    "Airway_and_Nasal_Supports > Mouth_Taping_Risk_Check_Framework"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Airway_and_Nasal_Supports > Allergic_Rhinitis_Care_Framework",
+      "parent_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Respiratory_and_Autonomic_Physiology_Tools / Airway_and_Nasal_Supports",
+      "child_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Respiratory_and_Autonomic_Physiology_Tools / Airway_and_Nasal_Supports / Allergic_Rhinitis_Care_Framework"
+    },
+    {
+      "pair": "Airway_and_Nasal_Supports > Mouth_Taping_Risk_Check_Framework",
+      "parent_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Respiratory_and_Autonomic_Physiology_Tools / Airway_and_Nasal_Supports",
+      "child_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Respiratory_and_Autonomic_Physiology_Tools / Airway_and_Nasal_Supports / Mouth_Taping_Risk_Check_Framework"
+    }
+  ],
+  "cache_key": "4e2bc255e6bfde9e01ef20466b6f83f52732ae51",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 28.429
+}

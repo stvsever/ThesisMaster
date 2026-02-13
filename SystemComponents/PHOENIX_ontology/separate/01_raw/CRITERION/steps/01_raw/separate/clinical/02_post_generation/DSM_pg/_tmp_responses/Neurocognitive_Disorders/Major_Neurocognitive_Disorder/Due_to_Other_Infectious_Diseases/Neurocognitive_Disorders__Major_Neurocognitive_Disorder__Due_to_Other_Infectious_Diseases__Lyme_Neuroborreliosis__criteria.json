@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "processing_speed_slow"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "verbal_fluency_deficit"
+    },
+    {
+      "criterium": "visuospatial_construction_deficit"
+    },
+    {
+      "criterium": "ideomotor_apraxia"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "facial_palsy"
+    },
+    {
+      "criterium": "radicular_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

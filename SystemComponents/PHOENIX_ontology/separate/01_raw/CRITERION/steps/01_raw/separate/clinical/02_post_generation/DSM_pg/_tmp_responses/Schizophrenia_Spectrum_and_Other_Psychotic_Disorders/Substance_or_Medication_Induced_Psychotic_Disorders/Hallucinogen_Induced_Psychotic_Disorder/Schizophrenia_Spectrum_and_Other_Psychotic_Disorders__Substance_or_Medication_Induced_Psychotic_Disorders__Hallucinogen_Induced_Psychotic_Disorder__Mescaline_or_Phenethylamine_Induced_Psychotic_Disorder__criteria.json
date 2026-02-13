@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "visual_hallucinations_present"
+    },
+    {
+      "criterium": "auditory_hallucinations_present"
+    },
+    {
+      "criterium": "tactile_hallucinations_present"
+    },
+    {
+      "criterium": "olfactory_gustatory_hallucinations_present"
+    },
+    {
+      "criterium": "persecutory_delusions_present"
+    },
+    {
+      "criterium": "ideas_of_reference_present"
+    },
+    {
+      "criterium": "delusions_of_grandeur_present"
+    },
+    {
+      "criterium": "disorganized_thought_content_present"
+    },
+    {
+      "criterium": "gross_disorganization_of_behavior_present"
+    },
+    {
+      "criterium": "time_perception_distortion_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

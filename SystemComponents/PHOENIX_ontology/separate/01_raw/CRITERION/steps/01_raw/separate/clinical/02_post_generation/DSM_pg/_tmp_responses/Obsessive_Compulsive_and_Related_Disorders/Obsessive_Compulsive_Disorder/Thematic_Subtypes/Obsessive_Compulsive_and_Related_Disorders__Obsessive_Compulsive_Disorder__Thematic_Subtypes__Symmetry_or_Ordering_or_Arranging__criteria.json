@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_symmetry_obsessions"
+    },
+    {
+      "criterium": "ordering_compulsions"
+    },
+    {
+      "criterium": "arranging_compulsions"
+    },
+    {
+      "criterium": "repetitive_repositioning_for_symmetry"
+    },
+    {
+      "criterium": "ritualized_checking_for_symmetry_consistency"
+    },
+    {
+      "criterium": "time_spent_on_symmetry_related_routines"
+    },
+    {
+      "criterium": "need_for_perfect_spacing_between_items"
+    },
+    {
+      "criterium": "distress_when_symmetry_disrupted"
+    },
+    {
+      "criterium": "visual_inspection_for_symmetry_accuracy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

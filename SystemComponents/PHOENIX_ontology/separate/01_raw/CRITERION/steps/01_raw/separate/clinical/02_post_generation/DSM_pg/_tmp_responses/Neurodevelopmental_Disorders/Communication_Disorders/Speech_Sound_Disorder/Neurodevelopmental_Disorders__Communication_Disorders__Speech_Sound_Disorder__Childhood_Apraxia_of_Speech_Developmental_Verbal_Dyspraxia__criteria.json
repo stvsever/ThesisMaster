@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inconsistent_phoneme_production"
+    },
+    {
+      "criterium": "phoneme_substitution_errors"
+    },
+    {
+      "criterium": "phoneme_omission_errors"
+    },
+    {
+      "criterium": "phoneme_distortion_errors"
+    },
+    {
+      "criterium": "nonword_repetition_difficulty"
+    },
+    {
+      "criterium": "coarticulatory_transition_disruption"
+    },
+    {
+      "criterium": "articulatory_groping_behavior"
+    },
+    {
+      "criterium": "prosodic_abnormalities_relative_to_age"
+    },
+    {
+      "criterium": "impaired_syllable_timing"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

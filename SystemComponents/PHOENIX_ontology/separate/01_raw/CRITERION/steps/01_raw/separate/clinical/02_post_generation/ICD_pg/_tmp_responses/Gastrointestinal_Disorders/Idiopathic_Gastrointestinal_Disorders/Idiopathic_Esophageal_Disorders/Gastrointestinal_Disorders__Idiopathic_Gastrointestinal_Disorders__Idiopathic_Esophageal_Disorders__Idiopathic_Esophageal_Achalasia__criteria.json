@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "dysphagia_related_anxiety"
+    },
+    {
+      "criterium": "eating_avoidance_due_to_dysphagia"
+    },
+    {
+      "criterium": "illness_anxiety_about_achalasia"
+    },
+    {
+      "criterium": "catastrophizing_swallowing_difficulty"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_dysphagia"
+    },
+    {
+      "criterium": "social_function_impairment_from_dysphagia"
+    },
+    {
+      "criterium": "depressive_symptoms_related_to_chronic_symptom_burden"
+    },
+    {
+      "criterium": "somatic_symptom_burden_elevated"
+    },
+    {
+      "criterium": "rumination_about_dysphagia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

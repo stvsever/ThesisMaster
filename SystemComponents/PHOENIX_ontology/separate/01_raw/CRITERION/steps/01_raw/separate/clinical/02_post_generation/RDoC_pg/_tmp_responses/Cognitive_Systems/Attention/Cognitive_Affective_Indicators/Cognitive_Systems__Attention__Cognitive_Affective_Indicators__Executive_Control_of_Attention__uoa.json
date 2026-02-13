@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "COMT_rs4680",
+      "DRD2_rs1800497",
+      "BDNF_rs6265",
+      "SLC6A3_VNTR_9R",
+      "SLC6A4_rs25531",
+      "CACNA1C_rs1006737"
+    ],
+    "molecules": [
+      "dopamine",
+      "norepinephrine",
+      "acetylcholine",
+      "cortisol",
+      "BDNF",
+      "glutamate",
+      "GABA"
+    ],
+    "cells": [
+      "dlPFC_pyramidal_cells",
+      "pv_interneurons_dlPFC",
+      "somatostatin_inhibitory_interneurons",
+      "astrocytes_dlPFC"
+    ],
+    "circuits": [
+      "frontoparietal_network",
+      "dorsal_attention_network",
+      "cingulo_opercular_network"
+    ],
+    "physiology": [
+      "pupil_dilation_index",
+      "heart_rate_variability",
+      "skin_conductance_level",
+      "frontal_theta_power"
+    ],
+    "behavior": [
+      "stroop_incongruent_accuracy",
+      "stroop_incongruent_reaction_time",
+      "flanker_interference_reaction_time",
+      "anti_saccade_error_rate",
+      "go_nogo_commission_rate",
+      "nback_accuracy"
+    ],
+    "self_report": [
+      "ACS_total_score",
+      "ACS_focus_subscale",
+      "ACS_shifting_subscale",
+      "MAAS_score",
+      "MWQ_score"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

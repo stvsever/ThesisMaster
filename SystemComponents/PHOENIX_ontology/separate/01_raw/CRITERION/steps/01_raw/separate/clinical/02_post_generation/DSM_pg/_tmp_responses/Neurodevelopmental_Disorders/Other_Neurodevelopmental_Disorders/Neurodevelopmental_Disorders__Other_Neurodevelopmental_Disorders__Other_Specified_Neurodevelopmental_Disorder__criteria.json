@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delayed_speech_development"
+    },
+    {
+      "criterium": "impaired_pragmatic_language_use"
+    },
+    {
+      "criterium": "deficits_in_joint_attention"
+    },
+    {
+      "criterium": "reduced_reciprocal_social_interactions"
+    },
+    {
+      "criterium": "restricted_and_repetitive_behaviors"
+    },
+    {
+      "criterium": "sensory_processing_dysregulation"
+    },
+    {
+      "criterium": "gross_motor_coordination_difficulty"
+    },
+    {
+      "criterium": "fine_motor_coordination_difficulty"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "inhibitory_control_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

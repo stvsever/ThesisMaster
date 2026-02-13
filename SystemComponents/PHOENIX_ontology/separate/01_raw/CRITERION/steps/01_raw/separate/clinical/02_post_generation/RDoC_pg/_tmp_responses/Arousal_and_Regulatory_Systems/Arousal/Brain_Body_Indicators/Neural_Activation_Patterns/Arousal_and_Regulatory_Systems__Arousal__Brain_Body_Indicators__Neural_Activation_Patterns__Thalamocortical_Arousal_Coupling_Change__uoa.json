@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF",
+      "DRD2",
+      "SLC6A3",
+      "ADORA2A",
+      "GRIN2A",
+      "TH"
+    ],
+    "molecules": [
+      "Norepinephrine_Level",
+      "Acetylcholine_Level",
+      "Dopamine_Level",
+      "Adenosine_Level",
+      "Glutamate_Level",
+      "GABA_Level"
+    ],
+    "cells": [
+      "Thalamic_Relay_Neuron_Firing_Rate",
+      "Cortical_Pyramidal_Neuron_Firing_Rate",
+      "Cortical_GABAergic_Interneuron_Firing_Rate"
+    ],
+    "circuits": [
+      "Thalamus_Cortex_Functional_Connectivity",
+      "Thalamocortical_Synchrony",
+      "Reticular_Thalamus_Modulation"
+    ],
+    "physiology": [
+      "EEG_Gamma_Power",
+      "EEG_Beta_Power",
+      "Pupil_Dilation_Magnitude",
+      "Heart_Rate_Variability",
+      "Respiratory_Rate_Variability"
+    ],
+    "behavior": [
+      "Reaction_Time_To_Alerting_Stimulus",
+      "Go_NoGo_Performance",
+      "Startle_Response_Amplitude",
+      "Sustained_Attention_Task_Performance"
+    ],
+    "self_report": [
+      "Self_Report_Arousal_Level_VAS",
+      "Self_Report_Energy_Level_VAS"
+    ]
+  },
+  "estimated_prevalence_percent": 9.5
+}

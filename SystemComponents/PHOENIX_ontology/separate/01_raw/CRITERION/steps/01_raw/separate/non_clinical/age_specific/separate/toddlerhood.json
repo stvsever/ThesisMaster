@@ -1,0 +1,494 @@
+{
+  "TODDLERHOOD": {
+    "social_development": {
+      "interaction": {
+        "eye_contact": {
+          "consistent_eye_contact": {},
+          "responsive_eye_contact": {},
+          "initiated_eye_contact": {},
+          "sustained_eye_contact": {}
+        },
+        "social_smiling": {
+          "spontaneous_smiling": {},
+          "reciprocal_smiling": {},
+          "contextually_appropriate_smiling": {},
+          "smile_variation": {}
+        },
+        "recognition": {
+          "familiar_people_recognition": {
+            "primary_caregiver_recognition": {},
+            "extended_family_recognition": {},
+            "peer_recognition": {}
+          },
+          "stranger_recognition": {
+            "acquaintance_recognition": {},
+            "new_person_recognition": {},
+            "familiar_stranger_recognition": {}
+          },
+          "peer_recognition": {
+            "friend_recognition": {},
+            "playmate_recognition": {},
+            "classmate_recognition": {}
+          },
+          "social_engagement": {
+            "interactive_play": {},
+            "turn_taking": {},
+            "cooperative_play": {},
+            "sharing_behaviors": {}
+          }
+        },
+        "communication": {
+          "verbal_communication": {
+            "vocabulary_growth": {},
+            "simple_sentences": {},
+            "question_asking": {},
+            "directive_language": {}
+          },
+          "non_verbal_communication": {
+            "gestures": {
+              "pointing": {},
+              "waving": {},
+              "clapping": {}
+            },
+            "facial_expressions": {
+              "frowning": {},
+              "grinning": {},
+              "surprised_expression": {}
+            },
+            "responsive_gaze": {
+              "following_commands": {},
+              "joint_attention": {},
+              "eye_gaze_following": {},
+              "gaze_aversion": {}
+            },
+            "body_language": {
+              "posture_changes": {},
+              "hand_movements": {},
+              "body_tilt": {}
+            }
+          }
+        }
+      },
+      "peer_interaction": {
+        "sibling_interaction": {
+          "initiation_behaviors": {},
+          "reciprocal_behaviors": {},
+          "play_interactions": {},
+          "conflict_resolution": {}
+        },
+        "peer_play": {
+          "parallel_play": {},
+          "associative_play": {},
+          "cooperative_play": {},
+          "imaginative_play": {}
+        },
+        "group_interaction": {
+          "responding_to_multiple_people": {},
+          "attention_distribution": {},
+          "interaction_preference": {},
+          "group_activity_participation": {}
+        },
+        "social_play": {
+          "imaginative_play_signs": {},
+          "physical_play_signs": {},
+          "symbolic_play_signs": {},
+          "role_playing": {}
+        }
+      }
+    },
+    "physical_development": {
+      "motor_skills": {
+        "gross_motor_skills": {
+          "walking_independently": {},
+          "running": {},
+          "climbing": {},
+          "jumping": {}
+        },
+        "fine_motor_skills": {
+          "pincer_grip": {},
+          "stacking_blocks": {},
+          "drawing_simple_shapes": {},
+          "self_feeding_skills": {}
+        },
+        "coordination": {
+          "hand_eye_cooperation": {},
+          "balance_control": {},
+          "agility": {},
+          "dexterity": {}
+        },
+        "reflexes": {
+          "reflex_diminution": {},
+          "none_present": {},
+          "startle_reflex": {},
+          "grasp_reflex": {}
+        }
+      },
+      "growth_metrics": {
+        "weight_gain": {
+          "consistent_weight_gain": {},
+          "weight_percentile": {},
+          "growth_trends": {},
+          "nutrition_balance": {}
+        },
+        "height_growth": {
+          "linear_growth": {},
+          "height_percentile": {},
+          "growth_patterns": {},
+          "posture_development": {}
+        },
+        "head_circumference": {
+          "head_growth_stabilization": {},
+          "head_shape_normalization": {},
+          "percentile_tracking": {},
+          "brain_growth_correlations": {}
+        },
+        "chest_circumference": {
+          "chest_growth": {},
+          "respiratory_development": {},
+          "posture_influences": {},
+          "percentile_tracking": {}
+        }
+      },
+      "sensory_development": {
+        "vision": {
+          "depth_perception": {},
+          "color_recognition": {},
+          "visual_tracking": {},
+          "hand_eye_cooperation": {}
+        },
+        "hearing": {
+          "sound_discrimination": {},
+          "voice_recognition": {},
+          "auditory_attention": {},
+          "music_response": {}
+        },
+        "touch": {
+          "tactile_sensitivity": {},
+          "texture_preference": {},
+          "pain_response": {},
+          "proprioception": {}
+        },
+        "taste": {
+          "taste_preferences": {},
+          "flavor_exploration": {},
+          "oral_motor_skills": {},
+          "texture_tolerance": {}
+        },
+        "olfaction": {
+          "odor_discrimination": {},
+          "smell_memory": {},
+          "odor_preference": {},
+          "odor_aversion": {}
+        }
+      },
+      "sleep_patterns": {
+        "sleep_duration": {
+          "nighttime_sleep": {},
+          "napping_patterns": {},
+          "total_sleep_hours": {},
+          "sleep_schedule_consistency": {}
+        },
+        "sleep_cycles": {
+          "REM_sleep": {},
+          "non_REM_sleep": {},
+          "sleep_transition": {},
+          "nap_cycles": {}
+        },
+        "sleep_quality": {
+          "restful_sleep": {},
+          "night_waking": {},
+          "nap_quality": {},
+          "sleep_efficiency": {}
+        },
+        "sleep_positions": {
+          "preferred_sleep_position": {},
+          "sleep_movement": {},
+          "transition_sleep_positions": {},
+          "sleep_position_preference": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "comfort_seeking": {
+        "soothing_behaviors": {
+          "holding": {},
+          "cuddling": {},
+          "rocking": {},
+          "seeking_parent": {}
+        },
+        "calming_methods": {
+          "favorite_blanket": {},
+          "pacifier_use": {},
+          "lullabies": {},
+          "gentle_talk": {}
+        },
+        "attachment": {
+          "secure_attachment": {},
+          "selective_attachment": {},
+          "stranger_avoidance": {},
+          "separation_anxiety": {}
+        },
+        "self_soothing": {
+          "thumb_sucking": {},
+          "holding_toy": {},
+          "rocking_self": {},
+          "repetitive_movement": {}
+        }
+      },
+      "emotional_expressions": {
+        "crying_patterns": {
+          "need_based_crying": {},
+          "frustration_crying": {},
+          "pain_crying": {},
+          "tired_crying": {}
+        },
+        "contentment_signs": {
+          "smiling": {},
+          "relaxed_posture": {},
+          "cooing_when_content": {},
+          "quiet_playing": {}
+        },
+        "distress_signs": {
+          "tantrums": {},
+          "irritability": {},
+          "clinging_behavior": {},
+          "aggressive_behavior": {}
+        },
+        "positive_emotions": {
+          "joy_expressions": {},
+          "excitement_expressions": {},
+          "pride_expressions": {},
+          "interest_expressions": {}
+        }
+      },
+      "temperament": {
+        "calmness": {
+          "easy_temperament": {},
+          "moderate_temperament": {},
+          "difficult_temperament": {},
+          "adaptable_temperament": {}
+        },
+        "activity_level": {
+          "high_activity": {},
+          "moderate_activity": {},
+          "low_activity": {},
+          "fluctuating_activity": {}
+        },
+        "adaptability": {
+          "flexible_adaptation": {},
+          "moderate_adaptation": {},
+          "rigid_adaptation": {},
+          "slow_adaptation": {}
+        },
+        "mood_regulation": {
+          "consistent_mood": {},
+          "variable_mood": {},
+          "irritable_mood": {},
+          "calm_mood": {}
+        }
+      },
+      "stress_response": {
+        "cortisol_levels": {
+          "normal_levels": {},
+          "elevated_levels": {},
+          "decreased_levels": {},
+          "fluctuating_levels": {}
+        },
+        "heart_rate_variability": {
+          "normal_variability": {},
+          "increased_variability": {},
+          "decreased_variability": {},
+          "irregular_variability": {}
+        },
+        "behavioral_responses": {
+          "seeking_attention": {},
+          "withdrawing": {},
+          "aggressive_behavior": {},
+          "self_soothing_behavior": {}
+        },
+        "physiological_responses": {
+          "increased_heart_rate": {},
+          "sweating": {},
+          "muscle_tension": {},
+          "changes_in_breathing": {}
+        },
+        "coping_mechanisms": {
+          "distraction": {},
+          "seeking_comfort": {},
+          "repetitive_behavior": {},
+          "exploration": {}
+        }
+      }
+    },
+    "cognitive_development": {
+      "sensory_perception": {
+        "vision": {
+          "depth_perception": {},
+          "color_recognition": {},
+          "visual_tracking": {},
+          "hand_eye_cooperation": {}
+        },
+        "hearing": {
+          "sound_discrimination": {},
+          "voice_recognition": {},
+          "auditory_attention": {},
+          "music_response": {}
+        },
+        "touch": {
+          "tactile_sensitivity": {},
+          "texture_preference": {},
+          "pain_response": {},
+          "proprioception": {}
+        },
+        "taste": {
+          "taste_preferences": {},
+          "flavor_exploration": {},
+          "oral_motor_skills": {},
+          "texture_tolerance": {}
+        },
+        "olfaction": {
+          "odor_discrimination": {},
+          "smell_memory": {},
+          "odor_preference": {},
+          "odor_aversion": {}
+        }
+      },
+      "attention_and_awareness": {
+        "attention_span": {
+          "sustained_attention": {},
+          "focused_attention": {},
+          "selective_attention": {},
+          "divided_attention": {}
+        },
+        "startle_response": {
+          "auditory_startle": {},
+          "visual_startle": {},
+          "tactile_startle": {},
+          "multi_sensory_startle": {}
+        },
+        "environmental_awareness": {
+          "object_presence_detection": {},
+          "movement_detection": {},
+          "light_response": {},
+          "sound_response": {}
+        },
+        "alertness_levels": {
+          "high_alertness": {},
+          "low_alertness": {},
+          "fluctuating_alertness": {},
+          "consistent_alertness": {}
+        }
+      },
+      "memory": {
+        "recognition_memory": {
+          "familiar_people_recognition": {},
+          "familiar_places_recognition": {},
+          "familiar_objects_recognition": {},
+          "familiar_sounds_recognition": {}
+        },
+        "anticipatory_memory": {
+          "routine_following": {},
+          "sequence_understanding": {},
+          "daily_schedule_memory": {},
+          "event_sequence_memory": {}
+        },
+        "pattern_memory": {
+          "visual_patterns": {},
+          "sound_patterns": {},
+          "tactile_patterns": {},
+          "temporal_patterns": {}
+        },
+        "procedural_memory": {
+          "routine_tasks": {},
+          "habit_formation": {},
+          "motor_routines": {},
+          "language_routines": {}
+        }
+      },
+      "problem_solving": {
+        "object_manipulation": {
+          "stacking_blocks": {},
+          "sorting_shapes": {},
+          "simple_puzzles": {},
+          "cause_effect_understanding": {}
+        },
+        "symbolic_play": {
+          "pretend_play": {},
+          "role_playing": {},
+          "imaginative_play": {},
+          "use_of_symbols": {}
+        },
+        "categorization": {
+          "object_categorization": {},
+          "color_categorization": {},
+          "shape_categorization": {},
+          "size_categorization": {}
+        },
+        "tool_use": {
+          "using_spoons": {},
+          "simple_tools_use": {},
+          "opening_containers": {},
+          "basic_construction": {}
+        }
+      },
+      "language_processing": {
+        "vocabulary_growth": {
+          "word_spoken_count": {},
+          "noun_use": {},
+          "verb_use": {},
+          "adjective_use": {}
+        },
+        "sentence_structure": {
+          "simple_sentences": {},
+          "compound_sentences": {},
+          "question_sentences": {},
+          "negative_sentences": {}
+        },
+        "comprehension": {
+          "following_commands": {},
+          "understanding_questions": {},
+          "responding_to_questions": {},
+          "language_association": {}
+        },
+        "speech_production": {
+          "articulation": {},
+          "fluency": {},
+          "expressiveness": {},
+          "pronunciation": {}
+        }
+      },
+      "executive_functions": {
+        "attention_control": {
+          "sustained_attention": {},
+          "selective_attention": {},
+          "focus_shifting": {},
+          "inhibitory_control": {}
+        },
+        "impulse_control": {
+          "delaying_gratification": {},
+          "resisting_distractions": {},
+          "emotional_impulse_control": {},
+          "behavioral_impulse_control": {}
+        },
+        "working_memory": {
+          "holding_information_temporarily": {},
+          "simple_problem_solving": {},
+          "following_instructions": {},
+          "information_recall": {}
+        },
+        "cognitive_flexibility": {
+          "task_switching": {},
+          "adapting_to_change": {},
+          "flexible_thinking": {},
+          "problem_restructuring": {}
+        },
+        "planning": {
+          "simple_planning": {},
+          "sequence_planning": {},
+          "goal_setting": {},
+          "task_prioritization": {}
+        }
+      }
+    }
+  }
+}

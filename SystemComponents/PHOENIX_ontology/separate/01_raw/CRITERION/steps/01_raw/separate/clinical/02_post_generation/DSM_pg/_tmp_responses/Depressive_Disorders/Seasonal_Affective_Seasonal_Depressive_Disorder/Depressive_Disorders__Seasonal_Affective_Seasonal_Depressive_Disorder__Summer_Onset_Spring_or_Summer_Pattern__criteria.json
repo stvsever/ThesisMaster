@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood_summer_onset"
+    },
+    {
+      "criterium": "anhedonia_summer_onset"
+    },
+    {
+      "criterium": "insomnia_summer_pattern"
+    },
+    {
+      "criterium": "weight_loss_summer_pattern"
+    },
+    {
+      "criterium": "loss_of_appetite_summer_pattern"
+    },
+    {
+      "criterium": "fatigue_or_low_energy_summer"
+    },
+    {
+      "criterium": "psychomotor_agitation_summer"
+    },
+    {
+      "criterium": "irritability_summer"
+    },
+    {
+      "criterium": "concentration_difficulties_summer"
+    },
+    {
+      "criterium": "functional_impairment_summer_onset"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

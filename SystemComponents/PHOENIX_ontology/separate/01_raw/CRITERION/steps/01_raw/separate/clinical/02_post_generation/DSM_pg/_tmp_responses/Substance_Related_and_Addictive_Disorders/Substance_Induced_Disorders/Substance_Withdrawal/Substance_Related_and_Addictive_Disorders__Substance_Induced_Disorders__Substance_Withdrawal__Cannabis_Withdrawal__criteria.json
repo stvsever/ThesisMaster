@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "irritability_aggression"
+    },
+    {
+      "criterium": "anxiety_nervousness"
+    },
+    {
+      "criterium": "insomnia_sleep_difficulty"
+    },
+    {
+      "criterium": "appetite_weight_loss"
+    },
+    {
+      "criterium": "restlessness"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "disturbing_dreams"
+    },
+    {
+      "criterium": "abdominal_pain"
+    },
+    {
+      "criterium": "tremor_shakiness"
+    },
+    {
+      "criterium": "sweating"
+    },
+    {
+      "criterium": "fever_or_chills"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "cannabis_craving"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

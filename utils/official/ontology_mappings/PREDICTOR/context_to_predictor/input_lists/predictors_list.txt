@@ -1,0 +1,184 @@
+[BIO]
+└─ Environment_and_Exposure
+  └─ Air_Quality (ID:0)
+  └─ Chemical_Exposure (ID:1)
+  └─ Sensory_Environment (ID:2)
+  └─ Water_Quality (ID:3)
+└─ Medical_Physiology_and_Testing
+  └─ Laboratory_Tests (ID:4)
+  └─ Physiology_and_Somatic_Optimization_Tools (ID:5)
+└─ Movement_and_Bodywork
+  └─ Aerobic_Movement_Modalities (ID:6)
+  └─ Balance_and_Coordination_Modalities (ID:7)
+  └─ Bodywork_and_Physical_Therapies (ID:8)
+  └─ Digital_and_Remote_Therapy_Formats (ID:9)
+  └─ Ergonomics_and_Posture_Tools (ID:10)
+  └─ Mobility_MindBody_and_Somatic_Modalities (ID:11)
+  └─ Strength_and_Resistance_Modalities (ID:12)
+└─ Neuromodulation_and_Neurostimulation
+  └─ Biofeedback_and_Neurofeedback (ID:13)
+  └─ Convulsive_and_Seizure_Based_Therapies (ID:14)
+  └─ Digital_and_Immersive_Neuromodulation (ID:15)
+  └─ Emerging_and_Experimental_Approaches (ID:16)
+  └─ Implantable_Central_Neuromodulation (ID:17)
+  └─ Light_and_Photo_Neuromodulation (ID:18)
+  └─ Peripheral_Neuromodulation_Family (ID:19)
+  └─ Sensory_and_Network_Modulation (ID:20)
+  └─ Transcranial_Electrical_Stimulation_Family (ID:21)
+  └─ Transcranial_Electrical_Stimulation_Montages (ID:22)
+  └─ Transcranial_Magnetic_Stimulation_Family (ID:23)
+  └─ Transcranial_Magnetic_Stimulation_Targets (ID:24)
+  └─ Ultrasound_and_Mechanical_Neuromodulation (ID:25)
+└─ Nutrition_and_Metabolism
+  └─ Dietary_Patterns (ID:26)
+  └─ Food_Library (ID:27)
+  └─ Hydration_and_Beverage_Tools (ID:28)
+  └─ Meal_Planning_and_Structure (ID:29)
+  └─ Meal_Templates (ID:30)
+  └─ Medical_Nutrition_Therapy_Tools (ID:31)
+  └─ Microbiome_Interventions (ID:32)
+  └─ Micronutrient_Supplement_Forms (ID:33)
+  └─ Supplement_and_Nutraceutical_Library (ID:34)
+└─ Personalization_and_Monitoring
+  └─ Genetics_and_Pharmacogenomics_Tests (ID:35)
+  └─ Self_Assessment_Instruments (ID:36)
+  └─ Wearables_and_Home_Monitoring (ID:37)
+└─ Pharmacology_and_Biomedical_Treatments
+  └─ AntiInflammatory_and_Immunomodulatory_Pharmacotherapy_Classes (ID:38)
+  └─ Endocrine_and_Metabolic_Pharmacotherapy_Classes (ID:39)
+  └─ Medication_Formulations_and_Routes (ID:40)
+  └─ Medication_Safety_and_Personalization_Tools (ID:41)
+  └─ Pain_and_Somatic_Pharmacotherapy_Classes (ID:42)
+  └─ Psychiatric_Pharmacotherapy_Classes (ID:43)
+  └─ Sleep_Related_Pharmacotherapy_Classes (ID:44)
+  └─ Substance_Use_Treatment_Pharmacotherapy_Classes (ID:45)
+└─ Sleep_and_Circadian
+  └─ Circadian_Entrainment (ID:46)
+  └─ Sleep_Devices_and_Technologies (ID:47)
+  └─ Sleep_Environment (ID:48)
+  └─ Sleep_Pharmacotherapy_Classes (ID:49)
+  └─ Sleep_Routines_and_Practices (ID:50)
+  └─ Sleep_Supplements (ID:51)
+└─ Somatic_and_Interventional
+  └─ Adjunctive_Medical_and_Physiologic_Interventions (ID:52)
+  └─ Brain_Stimulation_Therapies (ID:53)
+  └─ Care_Pathway_and_Safety_Infrastructure (ID:54)
+  └─ RapidActing_and_Anesthesia_Assisted_Therapies (ID:55)
+
+[PSYCHO]
+└─ Brief_and_Motivational_Approaches
+  └─ Coaching_and_Behavior_Change_Support (ID:56)
+  └─ Motivational_Interviewing_Approach (ID:57)
+  └─ Solution_Focused_Brief_Therapy (ID:58)
+└─ Cognitive_Behavioral_Therapies
+  └─ Behavior_Change_and_Activation (ID:59)
+  └─ Behavioral_Experiments_and_Learning (ID:60)
+  └─ CBT_Skills_Training_Libraries (ID:61)
+  └─ Cognitive_Bias_and_Attention_Modification (ID:62)
+  └─ Cognitive_Restructuring (ID:63)
+  └─ Exposure_and_Inhibitory_Learning (ID:64)
+  └─ Perseverative_Cognition_Interventions (ID:65)
+  └─ Problem_Solving_Training (ID:66)
+  └─ Schema_Focused_CBT_Derivatives (ID:67)
+  └─ Transdiagnostic_CBT_Frameworks (ID:68)
+└─ Cognitive_and_Metacognitive_Interventions
+  └─ Cognitive_Remediation_and_Rehabilitation (ID:69)
+  └─ Metacognitive_and_Attention_Based_Interventions (ID:70)
+└─ Digital_and_Tech_Enabled_Solutions
+  └─ Care_Delivery_Formats (ID:71)
+  └─ Digital_Tools_and_Supports (ID:72)
+└─ Foundations_and_Common_Factors
+  └─ Case_Formulation_and_Treatment_Planning (ID:73)
+  └─ Goals_Values_and_Maintenance_Planning (ID:74)
+  └─ Psychoeducation_Modules (ID:75)
+  └─ Therapeutic_Relationship_and_Context (ID:76)
+└─ Humanistic_and_Experiential_Therapies
+  └─ Emotion_Focused_Therapy (ID:77)
+  └─ Existential_and_Meaning_Centered_Interventions (ID:78)
+  └─ Gestalt_and_Experiential_Therapy (ID:79)
+  └─ Person_Centered_Therapy (ID:80)
+└─ Insight_Oriented_Therapies
+  └─ Mentalization_Based_Interventions (ID:81)
+  └─ Psychodynamic_Therapy_Family (ID:82)
+└─ Integrative_Creative_and_Body_Oriented_Interventions
+  └─ Creative_and_Expressive_Interventions (ID:83)
+  └─ Hypnosis_and_Suggestion_Based_Interventions (ID:84)
+  └─ Somatic_and_Body_Oriented_Psychotherapies (ID:85)
+└─ Interpersonal_and_Attachment_Therapies
+  └─ Attachment_Informed_Interventions (ID:86)
+  └─ Interpersonal_Therapy_Family (ID:87)
+└─ Measurement_Based_Care_and_Feedback
+  └─ Measurement_and_Feedback_Systems (ID:88)
+└─ Skills_Libraries
+  └─ Emotion_Regulation_and_Affect_Skills (ID:89)
+  └─ Interpersonal_and_Communication_Skills (ID:90)
+  └─ Self_Compassion_and_Self_Relating (ID:91)
+  └─ Stress_Management_and_Relaxation (ID:92)
+└─ Systemic_Couple_Family_Parenting
+  └─ Couple_Based_Interventions (ID:93)
+  └─ Family_Systems_Interventions (ID:94)
+  └─ Parenting_And_Caregiver_Interventions (ID:95)
+└─ Third_Wave_and_Contextual_Therapies
+  └─ ACT_Contextual_Behavioral_Therapy (ID:96)
+  └─ Compassion_Focused_Interventions (ID:97)
+  └─ DBT_Skills_Based_Therapy (ID:98)
+  └─ Functional_Analytic_Behavior_Therapy (ID:99)
+  └─ Mindfulness_Based_Interventions (ID:100)
+  └─ Radically_Open_Skills_Based_Therapy (ID:101)
+  └─ Stress_Inoculation_and_Coping_Skills (ID:102)
+└─ Trauma_Memory_Imagery_and_Narrative_Work
+  └─ Cognitive_Trauma_Processing (ID:103)
+  └─ EMDR_Informed_Interventions (ID:104)
+  └─ Exposure_Based_Trauma_Processing (ID:105)
+  └─ Imagery_and_Rescripting_Interventions (ID:106)
+  └─ Narrative_and_Writing_Based_Interventions (ID:107)
+  └─ Stabilization_and_Resourcing (ID:108)
+  └─ Trauma_Focused_CBT_Components (ID:109)
+
+[SOCIAL]
+└─ Care_Navigation_Access_and_Coordination
+  └─ Access_Barrier_Reduction_Solutions (ID:110)
+  └─ Care_Navigation_and_Access (ID:111)
+└─ Community_Participation_and_Social_Prescribing
+  └─ Community_Participation_Library (ID:112)
+  └─ Social_Prescribing_and_Community_Linkage (ID:113)
+└─ Culture_Identity_and_Social_Inclusion
+  └─ Advocacy_Rights_and_Inclusion_Support (ID:114)
+  └─ Community_Connection_and_Affirming_Spaces (ID:115)
+  └─ Identity_and_Belonging_Assessment_and_Planning (ID:116)
+  └─ Therapeutic_and_Coaching_Interventions (ID:117)
+└─ Digital_Social_Environment
+  └─ Digital_Life_Assessment_and_Guardrails (ID:118)
+  └─ Digital_Wellbeing_and_Skills (ID:119)
+  └─ Feed_Curation_and_Content_Health (ID:120)
+  └─ Safety_Privacy_and_Online_Conflict_Support (ID:121)
+└─ Family_Parenting_and_Household_Systems
+  └─ Caregiving_and_Respite_Solutions (ID:122)
+  └─ Family_and_Household_Services (ID:123)
+  └─ Parenting_and_Caregiver_Support (ID:124)
+└─ Interpersonal_Therapeutic_Solutions
+  └─ Assessment_and_Goal_Setting (ID:125)
+  └─ Conflict_and_Relationship_Repair (ID:126)
+  └─ Contextual_and_Practical_Supports (ID:127)
+  └─ Skill_Building_and_Psychoeducation (ID:128)
+  └─ Therapy_and_Support_Formats (ID:129)
+└─ Legal_Safety_and_Rights_Support
+  └─ Legal_and_Rights_Support (ID:130)
+  └─ Safety_and_Protection_Solutions (ID:131)
+└─ Romantic_Intimacy_and_Relationships
+  └─ Relational_Therapeutic_Services (ID:132)
+  └─ Relationship_Safety_and_Protection (ID:133)
+  └─ Romantic_Relationship_Skills_and_Support (ID:134)
+  └─ Sexual_Health_Access_and_Support (ID:135)
+└─ Social_Support_and_Belonging
+  └─ Network_Building_And_Maintenance (ID:136)
+  └─ Support_Network_Development (ID:137)
+└─ Socioeconomic_and_Material_Resource_Solutions
+  └─ Financial_and_Benefits_Support (ID:138)
+  └─ Food_Transport_and_Childcare_Support (ID:139)
+  └─ Housing_and_Neighborhood_Solutions (ID:140)
+└─ Work_Education_and_Role_Functioning
+  └─ Education_and_Training_Context_Solutions (ID:141)
+  └─ Role_Transitions_and_Life_Changes (ID:142)
+  └─ Work_and_Occupational_Solutions (ID:143)
+

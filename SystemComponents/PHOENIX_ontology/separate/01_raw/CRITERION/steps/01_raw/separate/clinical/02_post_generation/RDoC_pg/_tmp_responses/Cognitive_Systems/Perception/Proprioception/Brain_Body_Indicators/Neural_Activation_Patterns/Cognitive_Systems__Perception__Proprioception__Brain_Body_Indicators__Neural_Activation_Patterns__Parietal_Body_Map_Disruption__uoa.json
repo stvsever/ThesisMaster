@@ -1,0 +1,57 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_mRNA_parietal_cortex",
+      "NPAS4_mRNA_parietal_cortex",
+      "CAMK2A_mRNA_parietal_cortex",
+      "GRIN2A_mRNA_parietal_cortex",
+      "GRIN2B_mRNA_parietal_cortex",
+      "RORB_mRNA_parietal_cortex"
+    ],
+    "molecules": [
+      "BDNF_protein_parietal_cortex",
+      "NMDA_NR2A_density_parietal_cortex",
+      "NMDA_NR2B_density_parietal_cortex",
+      "GABA_A_receptor_density_parietal_cortex",
+      "Glutamate_concentration_parietal_cortex_ECF",
+      "Acetylcholine_level_parietal_cortex"
+    ],
+    "cells": [
+      "Pyramidal_neuron_density_parietal_cortex",
+      "Parvalbumin_interneuron_density_parietal_cortex",
+      "Layer5_6_pyramidal_neuron_density_parietal_cortex",
+      "Layer2_3_pyramidal_neuron_density_parietal_cortex",
+      "Interneuron_to_pyramidal_ratio_parietal_cortex"
+    ],
+    "circuits": [
+      "parietal_body_map_network_activation_proprioception_task",
+      "functional_connectivity_S1_IPS_proprioception",
+      "S1_IPS_network_coherence_proprioception",
+      "postcentral_gyrus_IPS_proprioceptive_network_synchrony",
+      "dorsal_commissural_connectivity_proprioception",
+      "parietal_lobe_proprioception_network_efficiency"
+    ],
+    "physiology": [
+      "somatosensory_evoked_potential_amplitude_parietal",
+      "somatosensory_evoked_potential_latency_parietal",
+      "parietal_beta_band_power_EEG_during_proprioception",
+      "parietal_beta_band_power_ME G_during_proprioception",
+      "fNIRS_parietal_oxygenated_hemoglobin_change_during_proprioception",
+      "parietal_BOLD_amplitude_during_proprioception_task"
+    ],
+    "behavior": [
+      "joint_position_matching_accuracy_percent",
+      "angle_reproduction_error_deg",
+      "proprioceptive_threshold_angle_deg",
+      "two_point_discrimination_accuracy_percent_on_limbs",
+      "rubber_hand_illusion_strength_score"
+    ],
+    "self_report": [
+      "body_awareness_self_report_score",
+      "proprioceptive_deficit_self_report_score",
+      "body_schema_disruption_self_report_score",
+      "proprioception_disruption_frequency_score"
+    ]
+  },
+  "estimated_prevalence_percent": 0.5
+}

@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF",
+      "HCRTR1",
+      "HCRTR2",
+      "CLOCK"
+    ],
+    "molecules": [
+      "ACh_concentration",
+      "NE_concentration",
+      "5HT_concentration",
+      "GABA_concentration",
+      "Glutamate_concentration"
+    ],
+    "cells": [
+      "PPT_LDT_cholinergic_firing_rate",
+      "Locus_coeruleus_noradrenergic_firing_rate",
+      "Raphe_serotonergic_neuron_firing_rate",
+      "Hippocampal_interneurons_firing_rate"
+    ],
+    "circuits": [
+      "pontine_rem_circuit",
+      "locus_coeruleus_rem_inhibition_circuit",
+      "raphe_rem_inhibition_circuit",
+      "thalamocortical_rem_transition_circuit"
+    ],
+    "physiology": [
+      "REM_density_per_minute",
+      "REM_density_coefficient_of_variation",
+      "REM_sleep_latency_to_first_REM_minutes",
+      "Total_REM_fraction_of_sleep"
+    ],
+    "behavior": [
+      "dream_recall_frequency",
+      "dream_vividness_rating",
+      "dream_intensity_rating",
+      "nighttime_restlessness_events"
+    ],
+    "self_report": [
+      "sleep_quality_rating",
+      "daytime_sleepiness_rating",
+      "perceived_restfulness_score",
+      "subjective_REM_density_change_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 3.5
+}

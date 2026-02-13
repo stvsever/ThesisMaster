@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_sexual_thoughts"
+    },
+    {
+      "criterium": "compulsive_sexual_behavior_engagement"
+    },
+    {
+      "criterium": "inability_to_resist_sexual_impulses"
+    },
+    {
+      "criterium": "excess_time_spent_on_sexual_behavior"
+    },
+    {
+      "criterium": "neglect_of_work_or_school_due_to_sexual_behavior"
+    },
+    {
+      "criterium": "repeated_failure_to_cut_or_control_sexual_behavior"
+    },
+    {
+      "criterium": "distress_or_guilt_related_to_sexual_behavior"
+    },
+    {
+      "criterium": "interpersonal_conflict_due_to_sexual_behavior"
+    },
+    {
+      "criterium": "engagement_in_sexual_acts_in_risky_or_illicit_contexts"
+    }
+  ],
+  "estimated_prevalence_percent": 4.0
+}

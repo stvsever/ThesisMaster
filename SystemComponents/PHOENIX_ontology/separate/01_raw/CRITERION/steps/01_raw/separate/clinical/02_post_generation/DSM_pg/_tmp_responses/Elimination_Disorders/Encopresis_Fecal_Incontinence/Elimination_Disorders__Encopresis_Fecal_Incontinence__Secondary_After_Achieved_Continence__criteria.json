@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "post_continence_fecal_incontinence"
+    },
+    {
+      "criterium": "stool_soiling_underwear"
+    },
+    {
+      "criterium": "defecation_in_inappropriate_locations"
+    },
+    {
+      "criterium": "nocturnal_fecal_incontinence"
+    },
+    {
+      "criterium": "daytime_fecal_incontinence"
+    },
+    {
+      "criterium": "stool_withholding_behavior"
+    },
+    {
+      "criterium": "constipation_signs_present"
+    },
+    {
+      "criterium": "abdominal_pain_associated_with_defecation"
+    },
+    {
+      "criterium": "fecal_impaction_signs_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

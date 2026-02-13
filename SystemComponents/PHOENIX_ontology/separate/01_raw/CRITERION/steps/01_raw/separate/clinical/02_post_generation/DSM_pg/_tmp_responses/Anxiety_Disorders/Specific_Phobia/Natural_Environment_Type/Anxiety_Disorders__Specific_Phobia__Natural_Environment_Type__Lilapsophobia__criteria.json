@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ANTICIPATORY_ANXIETY_TO_STORM_FORECAST"
+    },
+    {
+      "criterium": "PANIC_SYMPTOMS_DURING_STORM_ALERTS"
+    },
+    {
+      "criterium": "TACHYCARDIA_DURING_STORM_ALERTS"
+    },
+    {
+      "criterium": "PALPITATIONS_DURING_STORM_ALERTS"
+    },
+    {
+      "criterium": "TREMOR_DURING_STORM_ALERTS"
+    },
+    {
+      "criterium": "DYSPNEA_DURING_STORM_ALERTS"
+    },
+    {
+      "criterium": "AVOIDANCE_OF_OUTDOOR_ACTIVITY_DURING_SEVERE_WEATHER"
+    },
+    {
+      "criterium": "ATTENTIONAL_BIAS_TOWARD_STORM_CUES"
+    },
+    {
+      "criterium": "INTRUSIVE_STORM_THOUGHTS"
+    },
+    {
+      "criterium": "NIGHTMARES_INVOLVING_STORMS"
+    },
+    {
+      "criterium": "HYPERVIGILANCE_FOR_WEATHER_CUES"
+    },
+    {
+      "criterium": "FEAR_RESPONSES_TO_STORM_MEDIA"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

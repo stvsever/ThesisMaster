@@ -1,0 +1,68 @@
+# ------------------------------
+# OS / filesystem noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+# Tooling caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.ipynb_checkpoints/
+# Test / coverage artifacts
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+# Build / packaging artifacts
+build/
+dist/
+site/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+# IDE / editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+SystemComponents/**/tmp/
+Evaluation/**/visuals/
+Evaluation/**/runs/
+Evaluation/04_initial_observation_analysis/
+utils/official/cluster_criterions/results/02_embeddings_db/
+utils/**/results/
+*.npy
+*.npz
+*.sqlite
+*.png
+*.owl
+utils/official/cluster_criterions/results/02_embeddings_db/embeddings.npy
+utils/official/cluster_criterions/results/02_embeddings_db/cache.sqlite
+SystemComponents/Agentic_Framework/01_OperationalizationMentalHealthProblem/tmp/CRITERION_leaf_embeddings.npy
+SystemComponents/Agentic_Framework/02_ConstructionInitialObservationModel/utils/helpers/embeddings/CRITERIONS/CRITERION_leaf_embeddings.npy

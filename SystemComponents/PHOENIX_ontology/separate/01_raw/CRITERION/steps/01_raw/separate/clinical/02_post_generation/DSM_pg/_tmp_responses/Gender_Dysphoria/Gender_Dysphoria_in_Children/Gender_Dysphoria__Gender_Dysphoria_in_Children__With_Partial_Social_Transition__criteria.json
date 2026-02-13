@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_cross_gender_identity"
+    },
+    {
+      "criterium": "distress_related_to_puberty_or_secondary_sex_characteristics"
+    },
+    {
+      "criterium": "preferred_name_change_to_target_gender"
+    },
+    {
+      "criterium": "pronoun_preference_target_gender"
+    },
+    {
+      "criterium": "uses_target_gender_pronouns_in_at_least_one_setting"
+    },
+    {
+      "criterium": "uses_target_gender_name_in_at_least_one_setting"
+    },
+    {
+      "criterium": "adopts_target_gender_presentation_in_at_least_one_setting"
+    },
+    {
+      "criterium": "partial_social_transition_present_in_one_or_more_contexts"
+    },
+    {
+      "criterium": "seeks_support_for_target_gender_social_presentation_from_adults_or_peers"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

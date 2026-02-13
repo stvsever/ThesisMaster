@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "waist_circumference_abnormal"
+    },
+    {
+      "criterium": "waist_hip_ratio_elevated"
+    },
+    {
+      "criterium": "fasting_plasma_glucose_ge_100_mg_per_dl"
+    },
+    {
+      "criterium": "triglycerides_ge_150_mg_per_dl"
+    },
+    {
+      "criterium": "hdl_cholesterol_below_threshold"
+    },
+    {
+      "criterium": "blood_pressure_ge_130_over_85_mmHg"
+    },
+    {
+      "criterium": "bmi_elevated"
+    },
+    {
+      "criterium": "fasting_insulin_elevated"
+    }
+  ],
+  "estimated_prevalence_percent": 25.0
+}

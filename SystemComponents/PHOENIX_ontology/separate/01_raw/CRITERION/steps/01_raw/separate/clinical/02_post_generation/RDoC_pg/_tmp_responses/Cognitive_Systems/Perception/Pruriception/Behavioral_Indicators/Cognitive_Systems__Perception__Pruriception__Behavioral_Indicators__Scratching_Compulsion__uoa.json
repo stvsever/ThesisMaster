@@ -1,0 +1,62 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "IL31RA",
+      "NPPB",
+      "OSMR",
+      "TRPV1",
+      "MRGPRX1",
+      "TRPA1",
+      "SCN9A"
+    ],
+    "molecules": [
+      "IL-31",
+      "Histamine",
+      "Serotonin",
+      "Substance_P",
+      "PGE2",
+      "NGF",
+      "Endothelin-1"
+    ],
+    "cells": [
+      "Mast_cells",
+      "Keratinocytes",
+      "Pruriceptive_C_fibers",
+      "Dorsal_root_ganglion_neurons",
+      "Spinothalamic_neurons",
+      "Glial_cells"
+    ],
+    "circuits": [
+      "CSTC_loop",
+      "Spinothalamic_pathway",
+      "DLPFC_network",
+      "ACC_network",
+      "Insular_cortex_network",
+      "Nucleus_accumbens_circuit",
+      "VTA_network"
+    ],
+    "physiology": [
+      "Skin_sweat_gland_activity",
+      "Heart_rate",
+      "Heart_rate_variability",
+      "Skin_conductance_response",
+      "Pupil_dilation",
+      "Cortisol_level",
+      "Skin_temperature"
+    ],
+    "behavior": [
+      "Scratching_bouts_per_session",
+      "Scratching_duration_seconds",
+      "Scratching_rate_per_min",
+      "Scratching_latency_seconds"
+    ],
+    "self_report": [
+      "Itch_Intensity_VAS",
+      "Itch_Urgency_Score",
+      "Scratching_Urge_Scale",
+      "Itch_Discomfort_Score",
+      "Compulsive_Scratching_Questionnaire_Score"
+    ]
+  },
+  "estimated_prevalence_percent": 1.5
+}

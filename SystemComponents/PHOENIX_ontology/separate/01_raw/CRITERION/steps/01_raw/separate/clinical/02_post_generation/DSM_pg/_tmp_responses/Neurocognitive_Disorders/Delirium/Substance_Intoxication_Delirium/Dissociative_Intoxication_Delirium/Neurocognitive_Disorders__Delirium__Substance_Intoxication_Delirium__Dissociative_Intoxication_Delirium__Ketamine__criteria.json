@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depersonalization_experience"
+    },
+    {
+      "criterium": "derealization_experience"
+    },
+    {
+      "criterium": "dissociative_out_of_body_experience"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "thought_disorganization"
+    },
+    {
+      "criterium": "attentional_disruption"
+    },
+    {
+      "criterium": "amnesia_for_recent_events"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "aggression"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

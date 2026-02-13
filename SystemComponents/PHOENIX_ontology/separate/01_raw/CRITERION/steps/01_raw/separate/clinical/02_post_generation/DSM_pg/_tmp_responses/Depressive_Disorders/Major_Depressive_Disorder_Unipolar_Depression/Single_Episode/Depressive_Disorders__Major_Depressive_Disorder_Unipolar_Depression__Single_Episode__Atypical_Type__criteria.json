@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "mood_reactivity"
+    },
+    {
+      "criterium": "hypersomnia"
+    },
+    {
+      "criterium": "hyperphagia"
+    },
+    {
+      "criterium": "weight_gain"
+    },
+    {
+      "criterium": "leaden_paralysis"
+    },
+    {
+      "criterium": "interpersonal_rejection_sensitivity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

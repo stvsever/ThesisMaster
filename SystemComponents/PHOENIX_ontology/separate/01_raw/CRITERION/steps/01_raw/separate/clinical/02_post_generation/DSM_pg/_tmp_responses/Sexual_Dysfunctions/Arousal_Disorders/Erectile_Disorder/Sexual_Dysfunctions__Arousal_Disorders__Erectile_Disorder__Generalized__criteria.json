@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inadequate_erectile_rigidity"
+    },
+    {
+      "criterium": "inability_to_maintain_erectile_rigidity_during_sexual_activity"
+    },
+    {
+      "criterium": "difficulty_obtaining_erection"
+    },
+    {
+      "criterium": "partial_erectile_tumescence_during_sexual_arousal"
+    },
+    {
+      "criterium": "absence_of_nocturnal_erections"
+    },
+    {
+      "criterium": "reduced_response_to_sexual_stimulation"
+    }
+  ],
+  "estimated_prevalence_percent": 9.5
+}

@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "gene_TMC1_variant_present",
+      "gene_SLC26A4_variant_present",
+      "gene_PCDH15_variant_present",
+      "gene_OTOF_variant_present",
+      "gene_GNAT2_variant_present"
+    ],
+    "molecules": [
+      "molecule_GABA_A_receptor_density",
+      "molecule_GABA_B_receptor_density",
+      "molecule_NMDA_receptor_density",
+      "molecule_BDNF_level_in_cerebellum",
+      "molecule_Acetylcholine_level_in_vestibular_synapses"
+    ],
+    "cells": [
+      "cell_Vestibular_hair_cell_density",
+      "cell_Scarpa_ganglion_neuron_count",
+      "cell_Vestibular_nucleus_neuron_count",
+      "cell_Cerebellar_purkinje_cell_density",
+      "cell_Vestibular_glial_cell_density"
+    ],
+    "circuits": [
+      "circuit_Vestibulo_spinal_projection_activity",
+      "circuit_Vestibulo_ocular_reflex_pathway_activity",
+      "circuit_Vestibulo_thalamo_cortical_pathway_activity",
+      "circuit_Vestibulo_cerebellar_loop_activity",
+      "circuit_Cerebello_thalamo_cortical_integration"
+    ],
+    "physiology": [
+      "physiology_center_of_pressure_path_length",
+      "physiology_center_of_pressure_area",
+      "physiology_VOR_gain",
+      "physiology_postural_stability_index",
+      "physiology_sway_velocity",
+      "physiology_head_tilt_angle_during_balance_task"
+    ],
+    "behavior": [
+      "behavior_one_leg_stance_duration_seconds",
+      "behavior_tandem_walk_distance_meters",
+      "behavior_gait_speed_meters_per_second",
+      "behavior_postural_reaction_time_seconds",
+      "behavior_stance_on_foam_surface_duration_seconds",
+      "behavior_sway_path_length_during_eyes_closed_task"
+    ],
+    "self_report": [
+      "self_report_dizziness_handicap_scale_score",
+      "self_report_balance_problems_scale_score",
+      "self_report_vestibular_disability_quality_of_life_score"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pagophagia"
+    },
+    {
+      "criterium": "geophagia"
+    },
+    {
+      "criterium": "amylophagia"
+    },
+    {
+      "criterium": " lithophagia"
+    },
+    {
+      "criterium": "calciphagia"
+    },
+    {
+      "criterium": "metallophagia"
+    },
+    {
+      "criterium": "trichophagia"
+    },
+    {
+      "criterium": "plasterphagia"
+    },
+    {
+      "criterium": "paperphagia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "lobar_intracerebral_hemorrhage_present"
+    },
+    {
+      "criterium": "recurrent_lobar_intracerebral_hemorrhages_present"
+    },
+    {
+      "criterium": "cortical_superficial_siderosis_present"
+    },
+    {
+      "criterium": "cortical_microbleeds_present"
+    },
+    {
+      "criterium": "cerebral_microinfarcts_present"
+    },
+    {
+      "criterium": "seizure_activity_present"
+    },
+    {
+      "criterium": "rapid_cognitive_decline_present"
+    },
+    {
+      "criterium": "executive_function_deficits_present"
+    },
+    {
+      "criterium": "gait_disturbance_present"
+    },
+    {
+      "criterium": "headache_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

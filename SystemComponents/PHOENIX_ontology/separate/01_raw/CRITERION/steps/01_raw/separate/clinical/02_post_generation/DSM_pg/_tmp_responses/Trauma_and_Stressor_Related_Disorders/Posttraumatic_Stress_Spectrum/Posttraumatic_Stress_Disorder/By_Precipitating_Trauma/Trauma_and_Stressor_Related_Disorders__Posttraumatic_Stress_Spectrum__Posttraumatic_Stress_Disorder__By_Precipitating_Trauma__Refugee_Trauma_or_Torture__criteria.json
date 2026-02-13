@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_reexperiencing_of_traumatic_events"
+    },
+    {
+      "criterium": "distressing_trauma_related_nightmares"
+    },
+    {
+      "criterium": "recurrent_intrusive_flashbacks"
+    },
+    {
+      "criterium": "avoidance_of_trauma_reminders"
+    },
+    {
+      "criterium": "persistent_negative_mood_or_cognitions"
+    },
+    {
+      "criterium": "emotional_numbness_or_detachment"
+    },
+    {
+      "criterium": "exaggerated_startle_response"
+    },
+    {
+      "criterium": "hypervigilance"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "irritability_or_anger_outbursts"
+    },
+    {
+      "criterium": "reckless_or_self_destructive_behaviors"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

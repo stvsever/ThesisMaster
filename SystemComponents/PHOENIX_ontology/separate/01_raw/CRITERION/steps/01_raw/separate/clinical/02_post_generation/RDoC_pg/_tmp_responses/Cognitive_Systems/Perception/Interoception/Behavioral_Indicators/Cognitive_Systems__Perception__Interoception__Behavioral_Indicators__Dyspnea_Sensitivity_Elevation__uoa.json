@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OPRM1_rs1799971_A118G_genotype",
+      "BDNF_expression_level",
+      "COMT_V158M_rs4680_genotype",
+      "ADRB2_expression_level",
+      "SCN10A_expression_level",
+      "GRIN2B_expression_level"
+    ],
+    "molecules": [
+      "beta_endorphin_level",
+      "substance_P_level",
+      "glutamate_level_insular_cortex",
+      "noradrenaline_level",
+      "serotonin_level",
+      "BDNF_concentration"
+    ],
+    "cells": [
+      "glutamatergic_neurons_insula_density",
+      "microglial_activation_insula_marker_CD68_density",
+      "pERK_positive_neurons_insula_density",
+      "dendritic_spine_density_in_insula_neurons"
+    ],
+    "circuits": [
+      "insula_ACC_functional_connectivity",
+      "amygdala_insula_functional_connectivity",
+      "preBötzinger_complex_respiratory_neuronal_activity",
+      "pontine_respiratory_group_activity"
+    ],
+    "physiology": [
+      "tidal_volume_ml",
+      "respiratory_rate_bpm",
+      "airway_resistance_Pa_s",
+      "end_tidal_CO2_mmHg",
+      "breath_hold_time_seconds"
+    ],
+    "behavior": [
+      "exertional_breathlessness_frequency",
+      "breathlessness_avoidance_behavior_frequency",
+      "breathlessness_related_exercise_limitation_frequency",
+      "pacing_behavior_during_exercise_frequency",
+      "cough_frequency_in_response_to_breathlessness"
+    ],
+    "self_report": [
+      "Dyspnea_Sensitivity_Scale",
+      "Borg_Dyspnea_Scale_score",
+      "Interoceptive_Sensitivity_Index",
+      "Dyspnea_Anxiety_Score",
+      "Breathlessness_Catastrophizing_Score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.5
+}

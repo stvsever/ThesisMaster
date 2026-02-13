@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations_present"
+    },
+    {
+      "criterium": "auditory_hallucinations_command_or_commentary_content_present"
+    },
+    {
+      "criterium": "intact_consciousness"
+    },
+    {
+      "criterium": "orientation_preserved"
+    },
+    {
+      "criterium": "memory_intact"
+    },
+    {
+      "criterium": "visual_hallucinations_absent"
+    },
+    {
+      "criterium": "tactile_hallucinations_absent"
+    },
+    {
+      "criterium": "delirium_features_absent"
+    },
+    {
+      "criterium": "motor_activity_stable"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

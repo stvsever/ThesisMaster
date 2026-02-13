@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_ep_memory_encoding"
+    },
+    {
+      "criterium": "impaired_ep_memory_retrieval"
+    },
+    {
+      "criterium": "reduced_working_memory_capacity"
+    },
+    {
+      "criterium": "slowed_processing_speed"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "attentional_deficit"
+    },
+    {
+      "criterium": "verbal_fluency_decline"
+    },
+    {
+      "criterium": "visuospatial_processing_deficit"
+    },
+    {
+      "criterium": "orientation_deficit"
+    },
+    {
+      "criterium": "apathy_symptom"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

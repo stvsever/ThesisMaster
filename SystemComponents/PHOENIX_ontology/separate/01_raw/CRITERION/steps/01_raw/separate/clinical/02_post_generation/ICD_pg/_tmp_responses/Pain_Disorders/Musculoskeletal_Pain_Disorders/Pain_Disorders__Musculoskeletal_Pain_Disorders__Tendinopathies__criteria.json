@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tendon_tenderness_on_palpation_at_insertion_site"
+    },
+    {
+      "criterium": "tendon_thickening_at_pathway_or_insertion"
+    },
+    {
+      "criterium": "pain_on_resisted_contraction_of_involved_muscle_group"
+    },
+    {
+      "criterium": "pain_on_passive_stretch_of_involved_muscle_tendon_unit"
+    },
+    {
+      "criterium": "pain_worsened_by_eccentric_tendon_loading"
+    },
+    {
+      "criterium": "crepitus_or_grating_over_tendon_with_motion"
+    },
+    {
+      "criterium": "localization_of_pain_to_tendon_site"
+    },
+    {
+      "criterium": "night_pain_at_tendon_site"
+    },
+    {
+      "criterium": "activity_related_pain_limitation_in_tasks_relying_on_affected_tendon"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

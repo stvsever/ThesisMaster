@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "euphoric_mood"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "psychotic_delusions"
+    },
+    {
+      "criterium": "hallucinations_auditory"
+    },
+    {
+      "criterium": "hallucinations_visual"
+    },
+    {
+      "criterium": "grandiose_delusions"
+    },
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "disorganized_thought"
+    },
+    {
+      "criterium": "mood_lability"
+    },
+    {
+      "criterium": "delirium"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

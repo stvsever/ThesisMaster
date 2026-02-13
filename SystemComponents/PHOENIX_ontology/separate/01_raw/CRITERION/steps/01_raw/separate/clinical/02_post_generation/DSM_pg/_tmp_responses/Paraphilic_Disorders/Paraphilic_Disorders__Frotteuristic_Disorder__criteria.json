@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sexual_arousal_from_nonconsenting_contact"
+    },
+    {
+      "criterium": "recurrent_urge_to_rub_genitals_against_nonconsenting_person"
+    },
+    {
+      "criterium": "acted_on_urges_by_rubbing_genitals_against_nonconsenting_person"
+    },
+    {
+      "criterium": "rubbing_genitals_against_nonconsenting_person_in_public_or_crowded_places"
+    },
+    {
+      "criterium": "ejaculation_or_orgasm_in_context_of_rubbing_against_nonconsenting_person"
+    },
+    {
+      "criterium": "fantasies_or_urges_involving_rubbing_against_nonconsenting_person"
+    },
+    {
+      "criterium": "clinically_significant_distress_or_impairment_due_to_frotteuristic_symptoms"
+    },
+    {
+      "criterium": "urge_control_difficulties_in_frotteuristic_urges"
+    },
+    {
+      "criterium": "increased_frequency_of_frotteuristic_behavior_in_stressful_contexts"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

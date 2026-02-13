@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "outburst_proportion_excessive_to_stressor"
+    },
+    {
+      "criterium": "verbal_aggression_during_outbursts"
+    },
+    {
+      "criterium": "physical_aggression_during_outbursts"
+    },
+    {
+      "criterium": "destructive_or_property_damage_during_outbursts"
+    },
+    {
+      "criterium": "mood_between_outbursts_irritability_or_anger_persistent"
+    },
+    {
+      "criterium": "outburst_frequency_per_week_high"
+    },
+    {
+      "criterium": "outburst_trigger_by_minimal_provocation"
+    },
+    {
+      "criterium": "impaired_family_relationships_due_to_outbursts"
+    },
+    {
+      "criterium": "impaired_peer_relationships_due_to_outbursts"
+    },
+    {
+      "criterium": "impaired_school_or_work_performance_due_to_outbursts"
+    },
+    {
+      "criterium": "caregiver_report_of_distress_related_to_outbursts"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

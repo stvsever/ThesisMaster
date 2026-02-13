@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "DELUSION_GUILT_WORTHLESSNESS"
+    },
+    {
+      "criterium": "DELUSION_PUNISHMENT"
+    },
+    {
+      "criterium": "DELUSION_DEATH_OR_SUICIDE_IMMINENCE"
+    },
+    {
+      "criterium": "DELUSION_NIHILISTIC_BODILY_DECAY"
+    },
+    {
+      "criterium": "HALLUCINATION_AUDITORY_DEPRESSIVE_CONTENT"
+    },
+    {
+      "criterium": "HALLUCINATION_VISUAL_DEPRESSIVE_CONTENT"
+    },
+    {
+      "criterium": "THOUGHT_CONTENT_RUMINATION_GUILT"
+    },
+    {
+      "criterium": "INSIGHT_PSYCHOTIC_CONTENT_POOR"
+    },
+    {
+      "criterium": "DISORGANIZED_THOUGHT_FORM"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

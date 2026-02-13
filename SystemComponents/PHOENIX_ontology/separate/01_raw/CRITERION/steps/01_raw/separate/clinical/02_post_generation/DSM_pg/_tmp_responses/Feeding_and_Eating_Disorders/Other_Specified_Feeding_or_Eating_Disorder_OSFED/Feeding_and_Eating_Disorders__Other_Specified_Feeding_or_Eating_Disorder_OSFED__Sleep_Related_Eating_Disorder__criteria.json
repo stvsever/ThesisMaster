@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "NocturnalEatingDuringSleepArousal"
+    },
+    {
+      "criterium": "SomnambulisticEatingBehavior"
+    },
+    {
+      "criterium": "AmnesiaOrPartialRecallOfEpisodes"
+    },
+    {
+      "criterium": "IngestionDuringSleepState"
+    },
+    {
+      "criterium": "HighCalorieSugaryFoodPreferenceDuringEpisodes"
+    },
+    {
+      "criterium": "KitchensOrBedsideFoodAccessDuringEpisodes"
+    },
+    {
+      "criterium": "EpisodesCooccurWithSleepWalking"
+    },
+    {
+      "criterium": "NonFoodSubstanceIngestionDuringEpisodes"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

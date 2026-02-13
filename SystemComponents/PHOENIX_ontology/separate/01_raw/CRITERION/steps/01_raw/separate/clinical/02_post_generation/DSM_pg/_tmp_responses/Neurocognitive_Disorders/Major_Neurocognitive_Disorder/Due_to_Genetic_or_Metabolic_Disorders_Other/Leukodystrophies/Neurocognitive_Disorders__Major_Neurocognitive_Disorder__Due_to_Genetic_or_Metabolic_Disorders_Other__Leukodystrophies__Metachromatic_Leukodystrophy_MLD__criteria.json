@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "developmental_delay"
+    },
+    {
+      "criterium": "developmental_regression"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "spastic_paraparesis"
+    },
+    {
+      "criterium": "hypotonia_infants"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "cognitive_decline"
+    },
+    {
+      "criterium": "hyperreflexia"
+    },
+    {
+      "criterium": "peripheral_sensorimotor_neuropathy"
+    },
+    {
+      "criterium": "optic_atrophy"
+    },
+    {
+      "criterium": "seizures"
+    },
+    {
+      "criterium": "periventricular_white_matter_demyelination"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0025
+}

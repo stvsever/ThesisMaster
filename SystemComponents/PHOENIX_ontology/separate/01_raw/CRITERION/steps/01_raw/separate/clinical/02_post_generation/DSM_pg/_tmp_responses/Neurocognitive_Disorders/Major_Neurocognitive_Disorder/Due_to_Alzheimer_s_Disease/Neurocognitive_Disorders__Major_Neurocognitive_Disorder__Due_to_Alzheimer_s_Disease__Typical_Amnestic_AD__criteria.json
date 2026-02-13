@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "retrograde_memory_impairment"
+    },
+    {
+      "criterium": "naming_deficit"
+    },
+    {
+      "criterium": "word_retrieval_difficulty"
+    },
+    {
+      "criterium": "visuospatial_construction_deficit"
+    },
+    {
+      "criterium": "topographical_disorientation"
+    },
+    {
+      "criterium": "episodic_memory_poor_encoding"
+    },
+    {
+      "criterium": "semantic_memory_decline"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "impaired_learning_new_material"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

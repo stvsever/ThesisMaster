@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "morphine_craving_intensity"
+    },
+    {
+      "criterium": "morphine_compulsive_use_frequency"
+    },
+    {
+      "criterium": "morphine_tolerance_development"
+    },
+    {
+      "criterium": "morphine_withdrawal_symptoms_present"
+    },
+    {
+      "criterium": "time_spent_morphine_related_activities"
+    },
+    {
+      "criterium": "unsuccessful_morphine_quit_attempts"
+    },
+    {
+      "criterium": "morphine_use_in_dangerous_settings"
+    },
+    {
+      "criterium": "morphine_social_or_occupational_impairment"
+    },
+    {
+      "criterium": "morphine_loss_of_interest_in_other_activities"
+    },
+    {
+      "criterium": "morphine_dose_escalation_pattern"
+    },
+    {
+      "criterium": "morphine_preoccupation_with_obtaining_use"
+    },
+    {
+      "criterium": "morphine_use_to_avoid_withdrawal_frequency"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

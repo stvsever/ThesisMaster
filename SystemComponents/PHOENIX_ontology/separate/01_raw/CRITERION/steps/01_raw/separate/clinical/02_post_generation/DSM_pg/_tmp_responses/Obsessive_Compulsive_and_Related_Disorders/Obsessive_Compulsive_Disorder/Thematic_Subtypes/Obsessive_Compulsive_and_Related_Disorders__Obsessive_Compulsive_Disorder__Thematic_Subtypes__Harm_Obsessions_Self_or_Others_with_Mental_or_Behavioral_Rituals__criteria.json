@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_harm_obsessions_self_or_others"
+    },
+    {
+      "criterium": "mental_neutralization_rituals"
+    },
+    {
+      "criterium": "checking_behaviors_for_harm_prevention"
+    },
+    {
+      "criterium": "reassurance_seeking_about_harm_risk"
+    },
+    {
+      "criterium": "avoidance_of_people_places_or_objects_due_to_harm_concerns"
+    },
+    {
+      "criterium": "washing_or_cleaning_in_response_to_harm_concerns"
+    },
+    {
+      "criterium": "counting_or_symmetry_rituals_related_to_harm_obsessions"
+    },
+    {
+      "criterium": "mental_rehearsal_of_safety_plans_for_potential_harm_events"
+    },
+    {
+      "criterium": "distress_when_harm_obsessions_are_unchecked"
+    },
+    {
+      "criterium": "impaired_social_or_professional_functioning_due_to_harm_obsessions_and_rituals"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

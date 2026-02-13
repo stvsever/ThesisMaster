@@ -1,0 +1,13 @@
+generated_utc: 2026-01-12T14:25:17Z
+leaf_count: 1305
+node_count: 1712
+max_depth: 5
+avg_leaf_depth: 4.92
+median_leaf_depth: 5
+sha256_minified_json: af680bc9476f624641987ad6d0fb1a4922c32b8d568d9001f4118f8f6bf53f6f
+
+leaf_count_by_primary_node:
+  - BARRIERS: 527
+  - COPING_STRATEGIES: 508
+  - Volition_Phase: 161
+  - Motivation_Phase: 109

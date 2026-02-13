@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "disorganized_thinking"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "fluctuating_consciousness"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "hyperthermia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

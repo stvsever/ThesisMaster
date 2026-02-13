@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "desire_to_live_as_other_gender"
+    },
+    {
+      "criterium": "persistent_gender_identity_discrepancy"
+    },
+    {
+      "criterium": "distress_related_to_gender_incongruence"
+    },
+    {
+      "criterium": "preoccupation_with_gender_dysphoria"
+    },
+    {
+      "criterium": "dissatisfaction_with_primary_or_secondary_sex_characteristics"
+    },
+    {
+      "criterium": "desire_for_characteristics_of_other_gender"
+    },
+    {
+      "criterium": "pronoun_changes_in_social_context"
+    },
+    {
+      "criterium": "name_changes_in_social_context"
+    },
+    {
+      "criterium": "cross_gender_style_presentation_behaviors_present"
+    },
+    {
+      "criterium": "body_exposure_avoidance_related_to_dysphoria"
+    },
+    {
+      "criterium": "social_functioning_impairment_due_to_dysphoria"
+    },
+    {
+      "criterium": "anxiety_or_depressive_symptoms_exacerbated_by_gender_dysphoria"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

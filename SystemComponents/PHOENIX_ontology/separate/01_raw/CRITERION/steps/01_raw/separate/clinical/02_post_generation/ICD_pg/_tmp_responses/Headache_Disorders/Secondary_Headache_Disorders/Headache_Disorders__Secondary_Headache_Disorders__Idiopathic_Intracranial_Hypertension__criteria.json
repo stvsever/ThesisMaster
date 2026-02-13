@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "papilledema"
+    },
+    {
+      "criterium": "transient_visual_obscurations"
+    },
+    {
+      "criterium": "cranial_nerve_VI_palsy"
+    },
+    {
+      "criterium": "pulsatile_tinnitus"
+    },
+    {
+      "criterium": "visual_acuity_reduction"
+    },
+    {
+      "criterium": "visual_field_defect"
+    },
+    {
+      "criterium": "elevated_opening_pressure_lumbar_puncture"
+    },
+    {
+      "criterium": "empty_sella_on_MRI"
+    },
+    {
+      "criterium": "venous_sinus_stenosis_on_MRV"
+    },
+    {
+      "criterium": "obesity_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.002
+}

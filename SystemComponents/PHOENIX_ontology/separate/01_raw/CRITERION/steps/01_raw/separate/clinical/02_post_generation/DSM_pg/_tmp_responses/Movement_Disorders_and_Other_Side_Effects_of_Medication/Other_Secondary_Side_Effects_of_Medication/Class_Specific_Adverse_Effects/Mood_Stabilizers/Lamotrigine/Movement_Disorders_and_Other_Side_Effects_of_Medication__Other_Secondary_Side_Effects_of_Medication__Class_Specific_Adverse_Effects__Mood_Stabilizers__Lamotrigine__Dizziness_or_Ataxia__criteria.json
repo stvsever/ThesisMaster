@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "vertigo"
+    },
+    {
+      "criterium": "disequilibrium"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "limb_ataxia"
+    },
+    {
+      "criterium": "dysmetria"
+    },
+    {
+      "criterium": "dysdiadochokinesia"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "truncal_ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "romberg_sign_positive"
+    },
+    {
+      "criterium": "broad_based_gait"
+    },
+    {
+      "criterium": "postural_instability"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

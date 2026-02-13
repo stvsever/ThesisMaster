@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "attention_seeking_behavior"
+    },
+    {
+      "criterium": "theatrical_emotional_expression"
+    },
+    {
+      "criterium": "sexually_provocative_behavior"
+    },
+    {
+      "criterium": "impressionistic_speech"
+    },
+    {
+      "criterium": "shallow_emotional_expression"
+    },
+    {
+      "criterium": "affect_lability"
+    },
+    {
+      "criterium": "easily_influenced_by_others"
+    },
+    {
+      "criterium": "overestimation_of_relationship_intimacy"
+    },
+    {
+      "criterium": "appearance_focus_to_draw_attention"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

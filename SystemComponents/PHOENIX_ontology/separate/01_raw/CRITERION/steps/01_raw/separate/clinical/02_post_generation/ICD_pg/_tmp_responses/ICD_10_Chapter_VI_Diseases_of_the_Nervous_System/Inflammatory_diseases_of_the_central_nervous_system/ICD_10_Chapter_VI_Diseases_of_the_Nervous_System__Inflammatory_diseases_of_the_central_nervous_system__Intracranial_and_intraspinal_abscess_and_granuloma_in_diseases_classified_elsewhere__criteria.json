@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "headache_present"
+    },
+    {
+      "criterium": "fever_present"
+    },
+    {
+      "criterium": "altered_mental_status"
+    },
+    {
+      "criterium": "delirium_present"
+    },
+    {
+      "criterium": "confusion_present"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "seizure_occurrence"
+    },
+    {
+      "criterium": "hemiparesis"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "papilledema_present"
+    },
+    {
+      "criterium": "nuchal_rigidity"
+    },
+    {
+      "criterium": "cranial_nerve_palsy"
+    },
+    {
+      "criterium": "urinary_dysfunction"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

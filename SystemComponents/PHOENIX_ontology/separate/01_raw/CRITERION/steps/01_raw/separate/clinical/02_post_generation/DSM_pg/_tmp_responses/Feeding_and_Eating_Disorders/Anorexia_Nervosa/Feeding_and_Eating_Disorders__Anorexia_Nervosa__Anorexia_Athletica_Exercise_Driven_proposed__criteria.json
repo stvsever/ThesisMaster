@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "compulsive_exercise_behavior"
+    },
+    {
+      "criterium": "excessive_exercise_duration_per_day"
+    },
+    {
+      "criterium": "rigid_exercise_schedule"
+    },
+    {
+      "criterium": "low_body_weight_percent_of_expected"
+    },
+    {
+      "criterium": "significant_weight_loss"
+    },
+    {
+      "criterium": "amenorrhea_present"
+    },
+    {
+      "criterium": "bradycardia"
+    },
+    {
+      "criterium": "hypotension"
+    },
+    {
+      "criterium": "lanugo_present"
+    },
+    {
+      "criterium": "reduced_bone_density"
+    },
+    {
+      "criterium": "electrolyte_disturbance"
+    },
+    {
+      "criterium": "body_image_disturbance_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

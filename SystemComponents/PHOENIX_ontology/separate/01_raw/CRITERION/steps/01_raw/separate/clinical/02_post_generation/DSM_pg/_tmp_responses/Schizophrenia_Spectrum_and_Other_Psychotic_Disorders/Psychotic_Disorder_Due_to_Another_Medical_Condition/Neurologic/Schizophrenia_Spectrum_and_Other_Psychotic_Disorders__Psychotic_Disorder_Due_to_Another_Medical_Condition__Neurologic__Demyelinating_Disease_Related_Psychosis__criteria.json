@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusions_present"
+    },
+    {
+      "criterium": "auditory_hallucinations_present"
+    },
+    {
+      "criterium": "visual_hallucinations_present"
+    },
+    {
+      "criterium": "olfactory_hallucinations_present"
+    },
+    {
+      "criterium": "disorganized_thought_content_present"
+    },
+    {
+      "criterium": "disorganized_speech_present"
+    },
+    {
+      "criterium": "neologisms_present"
+    },
+    {
+      "criterium": "bizarre_or_fantastical_delusions_present"
+    },
+    {
+      "criterium": "catatonia_features_present"
+    },
+    {
+      "criterium": "cognitive_impairment_present"
+    },
+    {
+      "criterium": "focal_neurological_deficits_present_during_psychosis"
+    },
+    {
+      "criterium": "temporal_association_with_demyelinating_activity_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ataxia_gait_disturbance"
+    },
+    {
+      "criterium": "limb_ataxia_dysmetria"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "ocular_motor_abnormalities"
+    },
+    {
+      "criterium": "dysdiadochokinesia"
+    },
+    {
+      "criterium": "intention_tremor"
+    },
+    {
+      "criterium": "dystonia"
+    },
+    {
+      "criterium": "bradykinesia"
+    },
+    {
+      "criterium": "rigidity"
+    },
+    {
+      "criterium": "executive_function_deficits"
+    },
+    {
+      "criterium": "depression_symptoms"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "necrophilic_arousal_fantasy_present"
+    },
+    {
+      "criterium": "recurrent_necrophilic_urges_present"
+    },
+    {
+      "criterium": "necrophilic_behavior_with_corpse_present"
+    },
+    {
+      "criterium": "access_to_dead_body_attempts_present"
+    },
+    {
+      "criterium": "corpse_handling_or_ritual_interaction_present"
+    },
+    {
+      "criterium": "persistent_interest_in_deceased_subjects_present"
+    },
+    {
+      "criterium": "lack_of_empathy_or_remorse_related_to_necrophilia_present"
+    },
+    {
+      "criterium": "social_or_occupational_functioning_impairment_due_to_necrophilia_present"
+    },
+    {
+      "criterium": "legal_or_social_consequences_imposed_due_to_necrophilic_behaviors_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

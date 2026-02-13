@@ -1,0 +1,52 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "PER1_expression_in_SCN",
+      "PER2_expression_in_SCN",
+      "CLOCK_gene_variant",
+      "BHLHE41_variant",
+      "DEC2_variant"
+    ],
+    "molecules": [
+      "melatonin_plasma_level",
+      "adenosine_cs_fluid_concentration",
+      "orexin_A_neuropeptide_levels",
+      "gaba_A_receptor_density_preoptic_area",
+      "glutamate_concentration_preoptic_area"
+    ],
+    "cells": [
+      "VLPO_GABA_neuron_density",
+      "SCN_neuron_firing_rate",
+      "orexin_neuron_density",
+      "preoptic_area_neuron_marker_expression",
+      "hypothalamic_GABAergic_neuron_density"
+    ],
+    "circuits": [
+      "VLPO_preoptic_circuit_activation",
+      "orexin_to_arousal_projection_activity",
+      "TMN_histaminergic_projection_activity",
+      "SCN_sleep_wake_network_coherence"
+    ],
+    "physiology": [
+      "sleep_onset_latency_minutes",
+      "core_body_temperature_bedtime_degC",
+      "melatonin_onset_time_minutes_after_dusk",
+      "HRV_during_sleep_onset_ms",
+      "respiration_rate_during_sleep_onset_bpm"
+    ],
+    "behavior": [
+      "time_to_fall_asleep_minutes",
+      "bedtime_routine_duration_minutes",
+      "pre_sleep_media_exposure_minutes_before_bedtime",
+      "bedtime_procrastination_events_per_week"
+    ],
+    "self_report": [
+      "ISI_sleep_onset_difficulty_item_score",
+      "PSQI_sleep_latency_component_score",
+      "PROMIS_sleep_latency_score",
+      "PSQI_global_score",
+      "ISI_total_score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

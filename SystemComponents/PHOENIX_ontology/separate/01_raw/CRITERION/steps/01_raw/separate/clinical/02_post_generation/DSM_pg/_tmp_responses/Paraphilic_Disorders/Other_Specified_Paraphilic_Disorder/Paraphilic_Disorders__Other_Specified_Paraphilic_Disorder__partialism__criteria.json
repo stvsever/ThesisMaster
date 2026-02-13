@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "TARGET_BODY_PART_AROUSAL_DOMINANCE"
+    },
+    {
+      "criterium": "EXCLUSIVE_AROUSAL_TO_TARGET_BODY_PART"
+    },
+    {
+      "criterium": "FANTASY_CENTERED_ON_TARGET_BODY_PART"
+    },
+    {
+      "criterium": "REPETITIVE_RITUALISTIC_TOUCH_INVOLVING_TARGET_BODY_PART"
+    },
+    {
+      "criterium": "COMPULSIVE_CONTACT_WITH_TARGET_BODY_PART_FOR_AROUSAL"
+    },
+    {
+      "criterium": "PREFERRING_TARGET_PART_STIMULI_OVER_GENITAL_STIMULI"
+    },
+    {
+      "criterium": "MASTURBATION_SCENARIOS_CENTERED_ON_TARGET_BODY_PART"
+    },
+    {
+      "criterium": "VISUAL_STIMULATION_EVOKING_AROUSAL_FROM_TARGET_BODY_PART"
+    },
+    {
+      "criterium": "TACTILE_STIMULATION_EVOKING_AROUSAL_FROM_TARGET_BODY_PART"
+    },
+    {
+      "criterium": "PREOCCUPATION_WITH_TARGET_BODY_PART_FANTASIES"
+    },
+    {
+      "criterium": "SOCIAL_IMPAIRMENT_ASSOCIATED_WITH_TARGET_PART_FOCUS"
+    },
+    {
+      "criterium": "AFFECTIVE_DISTRESS_DUE_TO_TARGET_PART_INTEREST"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

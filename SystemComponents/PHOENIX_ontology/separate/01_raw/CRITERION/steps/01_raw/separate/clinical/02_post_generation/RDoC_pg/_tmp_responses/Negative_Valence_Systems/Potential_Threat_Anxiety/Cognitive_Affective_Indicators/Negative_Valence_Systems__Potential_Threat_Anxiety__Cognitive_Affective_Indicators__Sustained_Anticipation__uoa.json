@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_Val66Met",
+      "COMT_rs4680_Val158Met",
+      "CACNA1C_rs1006737",
+      "NR3C1_rs41423247",
+      "FKBP5_rs1360780",
+      "SLC6A4_rs25531"
+    ],
+    "molecules": [
+      "Cortisol",
+      "CRH",
+      "Norepinephrine",
+      "Dopamine",
+      "Glutamate",
+      "GABA"
+    ],
+    "cells": [
+      "amygdala_pyramidal_neurons",
+      "prefrontal_cortex_pyramidal_neurons",
+      "basolateral_amygdala_GABAergic_interneurons",
+      "BNST_neurons",
+      "hippocampal_pyramidal_neurons"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_connectivity",
+      "amygdala_BNST_connectivity",
+      "insula_anterior_cingulate_network_connectivity",
+      "hippocampus_prefrontal_connectivity",
+      "cingulate_amygdala_pathways"
+    ],
+    "physiology": [
+      "heart_rate_reactivity",
+      "heart_rate_variability",
+      "skin_conductance_level",
+      "pupil_dilation",
+      "respiratory_rate",
+      "cortisol_reactivity"
+    ],
+    "behavior": [
+      "avoidance_behavior",
+      "restlessness",
+      "fidgeting",
+      "increased_reaction_time_to_threat_cues"
+    ],
+    "self_report": [
+      "anticipatory_anxiety_rating",
+      "worry_intensity",
+      "perceived_threat_level",
+      "sleep_disturbance_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "consciousness_fluctuation"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "expressive_aphasia"
+    },
+    {
+      "criterium": "receptive_aphasia"
+    },
+    {
+      "criterium": "visuospatial_disorientation"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "limb_weakness_paresis"
+    },
+    {
+      "criterium": "focal_seizure_activity"
+    },
+    {
+      "criterium": "tremor_present"
+    },
+    {
+      "criterium": "affective_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

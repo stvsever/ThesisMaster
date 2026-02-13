@@ -1,0 +1,66 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "drd2",
+      "comt",
+      "bdnf",
+      "grin2b",
+      "snap25",
+      "dlg4",
+      "slc6a3",
+      "maoa"
+    ],
+    "molecules": [
+      "dopamine",
+      "drd1_receptor",
+      "drd2_receptor",
+      "bdnf",
+      "grin2b_nmda_subunit",
+      "ampa_receptor",
+      "creb_phosphorylation",
+      "camp"
+    ],
+    "cells": [
+      "pyramidal_neurons_prefrontal_cortex_layer_5",
+      "pyramidal_neurons_prefrontal_cortex_layer_2_3",
+      "medium_spiny_neurons_nucleus_accumbens_d1",
+      "medium_spiny_neurons_nucleus_accumbens_d2",
+      "dopaminergic_neurons_ventral_teg mental_area",
+      "interneurons_prefrontal_cortex"
+    ],
+    "circuits": [
+      "dlpfc_dorsomedial_striatum_loop",
+      "ofc_ventral_striatum_loop",
+      "vta_prefrontal_cortex_projection",
+      "pfc_nucleus_accumbens_projection",
+      "pfc_amygdala_projection",
+      "vta_nucleus_accumbens_projection"
+    ],
+    "physiology": [
+      "heart_rate_variability",
+      "skin_conductance_level",
+      "pupil_dilation",
+      "prefrontal_cortex_cerebral_blood_flow",
+      "cortisol_serum",
+      "eeg_theta_power_prefrontal",
+      "eeg_gamma_power_prefrontal"
+    ],
+    "behavior": [
+      "model_based_choice_rate",
+      "model_based_planning_latency",
+      "reward_prediction_error_sensitivity",
+      "transition_learning_rate",
+      "planning_accuracy",
+      "exploration_rate_model_based"
+    ],
+    "self_report": [
+      "model_based_strategy_use_score",
+      "planning_confidence_score",
+      "cognitive_control_effort_score",
+      "reward_learning_awareness_score",
+      "decision_confidence_score",
+      "goal_adjustment_sensitivity_score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

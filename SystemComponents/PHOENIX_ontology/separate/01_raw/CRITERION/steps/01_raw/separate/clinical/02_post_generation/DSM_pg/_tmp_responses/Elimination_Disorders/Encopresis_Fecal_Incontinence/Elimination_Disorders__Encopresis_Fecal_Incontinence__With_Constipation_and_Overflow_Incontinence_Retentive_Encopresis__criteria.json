@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fecal_impaction_present"
+    },
+    {
+      "criterium": "overflow_incontinence_present"
+    },
+    {
+      "criterium": "chronic_constipation_present"
+    },
+    {
+      "criterium": "stool_withholding_behavior_present"
+    },
+    {
+      "criterium": "abdominal_distension_present"
+    },
+    {
+      "criterium": "abdominal_pain_present"
+    },
+    {
+      "criterium": "fecal_soiling_underwear_present"
+    },
+    {
+      "criterium": "palpable_rectal_fecal_mass_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.8
+}

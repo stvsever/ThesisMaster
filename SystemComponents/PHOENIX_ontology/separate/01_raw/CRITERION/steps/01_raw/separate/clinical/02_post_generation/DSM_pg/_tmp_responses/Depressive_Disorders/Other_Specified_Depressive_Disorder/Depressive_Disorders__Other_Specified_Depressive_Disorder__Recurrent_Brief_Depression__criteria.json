@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood_present"
+    },
+    {
+      "criterium": "anhedonia_present"
+    },
+    {
+      "criterium": "fatigue_present"
+    },
+    {
+      "criterium": "psychomotor_disturbance_present"
+    },
+    {
+      "criterium": "sleep_disturbance_present"
+    },
+    {
+      "criterium": "appetite_change_present"
+    },
+    {
+      "criterium": "concentration_difficulty_present"
+    },
+    {
+      "criterium": "guilt_present"
+    },
+    {
+      "criterium": "suicidal_ideation_present"
+    },
+    {
+      "criterium": "functional_impairment_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

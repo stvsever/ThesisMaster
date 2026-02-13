@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "criterium": "OLFACTORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "DELUSIONAL_PERSECUTION"
+    },
+    {
+      "criterium": "DELUSIONAL_REFERENCE"
+    },
+    {
+      "criterium": "THOUGHT_INSERTION"
+    },
+    {
+      "criterium": "THOUGHT_BROADCASTING"
+    },
+    {
+      "criterium": "THOUGHT_CONTROL_BELIEFS"
+    },
+    {
+      "criterium": "IDEAS_OF_REFERENCE"
+    },
+    {
+      "criterium": "DISORGANIZED_SPEECH"
+    },
+    {
+      "criterium": "DISORGANIZED_BEHAVIOR"
+    },
+    {
+      "criterium": "FLAT_AFFECT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_mRNA_expression",
+      "DRD1_mRNA_expression",
+      "COMT_V158M_genotype",
+      "CACNA1A_mRNA_expression",
+      "SNAP25_mRNA_expression",
+      "SLC6A3_mRNA_expression"
+    ],
+    "molecules": [
+      "dopamine_concentration",
+      "acetylcholine_concentration",
+      "GABA_concentration",
+      "glutamate_concentration",
+      "norepinephrine_concentration",
+      "BDNF_level"
+    ],
+    "cells": [
+      "superior_colliculus_pyramidal_neurons",
+      "frontal_eye_field_neurons",
+      "retinal_ganglion_cells",
+      "cerebellar_purkinje_cells",
+      "oculomotor_cortex_neurons"
+    ],
+    "circuits": [
+      "frontal_eye_field_to_superior_colliculus_projection",
+      "superior_colliculus_to_oculomotor_nucleus_projection",
+      "cerebellar_eyemovement_network",
+      "brainstem_oculomotor_neurons_pathway"
+    ],
+    "physiology": [
+      "microsaccade_rate_per_min",
+      "microsaccade_amplitude_deg",
+      "microsaccade_latency_ms",
+      "fixation_dwell_time_ms",
+      "pupil_dilation_peak_magnitude"
+    ],
+    "behavior": [
+      "microsaccade_rate_during_fixation_task",
+      "fixation_stability_index",
+      "visual_search_accuracy_percent",
+      "oculomotor_reaction_time_ms",
+      "saccade_initiation_latency_ms",
+      "gaze_precision_percent"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 3.2
+}

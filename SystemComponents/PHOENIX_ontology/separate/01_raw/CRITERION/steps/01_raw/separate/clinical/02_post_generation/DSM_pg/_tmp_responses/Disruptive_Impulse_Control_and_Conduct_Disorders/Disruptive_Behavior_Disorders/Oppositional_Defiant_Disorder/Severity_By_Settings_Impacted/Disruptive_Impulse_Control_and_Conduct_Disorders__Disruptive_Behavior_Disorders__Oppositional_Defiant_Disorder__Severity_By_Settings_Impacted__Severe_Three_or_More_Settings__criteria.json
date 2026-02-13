@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "FREQUENT_TEMPER_TANTRUMS"
+    },
+    {
+      "criterium": "ARGUMENTATIVE_WITH_AUTHORITY_FIGURES"
+    },
+    {
+      "criterium": "DELIBERATE_NONCOMPLIANCE_WITH_REQUESTS_OR_RULES"
+    },
+    {
+      "criterium": "DELIBERATE_ANNOYANCE_OF_PEERS_OR_ADULTS"
+    },
+    {
+      "criterium": "BLAMING_OTHERS_FOR_MISTAKES_OR_MISBEHAVIOR"
+    },
+    {
+      "criterium": "SPITEFUL_OR_VINDICTIVE_BEHAVIOR"
+    },
+    {
+      "criterium": "TOUCHY_OR_EASILY_PROVOKED"
+    },
+    {
+      "criterium": "HOSTILE_INTERPERSONAL_PROVOCATIVE_BEHAVIOR"
+    },
+    {
+      "criterium": "NONCOMPLIANCE_WITH_RULES_ACROSS_MULTIPLE_SETTINGS"
+    }
+  ],
+  "estimated_prevalence_percent": 2.3
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "verbal_aggression_outbursts"
+    },
+    {
+      "criterium": "physical_aggression_outbursts"
+    },
+    {
+      "criterium": "property_damage_during_outbursts"
+    },
+    {
+      "criterium": "impulsive_onset_of_outbursts"
+    },
+    {
+      "criterium": "outbursts_triggered_by_minor_stressors"
+    },
+    {
+      "criterium": "outbursts_out_of_proportion_to_stressor"
+    },
+    {
+      "criterium": "outbursts_across_multiple_settings"
+    },
+    {
+      "criterium": "lack_of_premeditation_before_outbursts"
+    },
+    {
+      "criterium": "distress_or_impairment_following_outbursts"
+    },
+    {
+      "criterium": "non_suicidal_character_of_outbursts"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "disorganized_thought_content"
+    },
+    {
+      "criterium": "disorientation_time_place"
+    },
+    {
+      "criterium": "perceptual_disturbance_hallucination"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "nystagmus"
+    },
+    {
+      "criterium": "delusional_thought_content"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

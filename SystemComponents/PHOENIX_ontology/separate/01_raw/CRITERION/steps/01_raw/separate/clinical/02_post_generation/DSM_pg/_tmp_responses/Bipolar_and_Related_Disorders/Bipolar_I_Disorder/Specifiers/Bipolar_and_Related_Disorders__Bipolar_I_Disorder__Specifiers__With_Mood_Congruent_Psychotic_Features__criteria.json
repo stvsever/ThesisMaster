@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusions_grandeur_present"
+    },
+    {
+      "criterium": "delusions_religious_or_spiritual_mission_present"
+    },
+    {
+      "criterium": "delusions_of_influence_present"
+    },
+    {
+      "criterium": "auditory_hallucinations_present"
+    },
+    {
+      "criterium": "visual_hallucinations_present"
+    },
+    {
+      "criterium": "disorganized_thought_content_present"
+    },
+    {
+      "criterium": "disorganized_speech_present"
+    },
+    {
+      "criterium": "flight_of_ideas_present"
+    },
+    {
+      "criterium": "derailment_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

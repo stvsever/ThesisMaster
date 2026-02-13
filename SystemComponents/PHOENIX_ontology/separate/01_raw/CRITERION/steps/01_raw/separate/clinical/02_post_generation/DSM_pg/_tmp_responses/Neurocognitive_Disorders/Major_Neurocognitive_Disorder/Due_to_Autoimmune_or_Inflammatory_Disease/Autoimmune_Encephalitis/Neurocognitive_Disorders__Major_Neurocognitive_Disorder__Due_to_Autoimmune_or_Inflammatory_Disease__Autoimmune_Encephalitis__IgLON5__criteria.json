@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rem_sleep_behavior_disorder_present"
+    },
+    {
+      "criterium": "sleep_apnea_present"
+    },
+    {
+      "criterium": "myoclonus_present"
+    },
+    {
+      "criterium": "axial_dystonia_present"
+    },
+    {
+      "criterium": "gait_ataxia_present"
+    },
+    {
+      "criterium": "dysarthria_present"
+    },
+    {
+      "criterium": "dysphagia_present"
+    },
+    {
+      "criterium": "sialorrhea_present"
+    },
+    {
+      "criterium": "autonomic_dysfunction_present"
+    },
+    {
+      "criterium": "memory_impairment_present"
+    },
+    {
+      "criterium": "executive_dysfunction_present"
+    },
+    {
+      "criterium": "parkinsonism_features_present"
+    },
+    {
+      "criterium": "cerebellar_signs_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0002
+}

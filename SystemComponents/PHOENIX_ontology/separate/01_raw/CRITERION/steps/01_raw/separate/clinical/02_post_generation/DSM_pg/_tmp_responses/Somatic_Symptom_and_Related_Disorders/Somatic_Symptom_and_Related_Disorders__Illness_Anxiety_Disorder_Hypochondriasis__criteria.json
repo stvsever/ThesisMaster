@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_serious_illness"
+    },
+    {
+      "criterium": "misinterpretation_of_bodily_sensations"
+    },
+    {
+      "criterium": "excessive_health_anxiety"
+    },
+    {
+      "criterium": "reassurance_seeking_behavior"
+    },
+    {
+      "criterium": "frequent_medical_visits_or_tests"
+    },
+    {
+      "criterium": "avoidance_of_medical_procedures_or_doctors_due_to_anxiety"
+    },
+    {
+      "criterium": "alarm_response_to_normal_bodily_signs"
+    },
+    {
+      "criterium": "hypervigilance_to_physiological_cues"
+    },
+    {
+      "criterium": "functional_impairment_due_to_health_anxiety"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

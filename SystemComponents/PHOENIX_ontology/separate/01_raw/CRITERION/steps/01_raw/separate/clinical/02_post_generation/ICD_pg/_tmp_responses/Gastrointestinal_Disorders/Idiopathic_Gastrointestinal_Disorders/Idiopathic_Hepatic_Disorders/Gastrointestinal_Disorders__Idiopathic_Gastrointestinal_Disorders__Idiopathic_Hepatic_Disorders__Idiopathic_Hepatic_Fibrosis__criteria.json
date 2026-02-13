@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ASTERIXIS_PRESENT"
+    },
+    {
+      "criterium": "SLEEP_WAKE_CYCLE_REVERSED"
+    },
+    {
+      "criterium": "CONFUSIONAL_STATE_PRESENT"
+    },
+    {
+      "criterium": "DISORIENTATION_TO_TIME"
+    },
+    {
+      "criterium": "DISORIENTATION_TO_PLACE"
+    },
+    {
+      "criterium": "IMPAIRED_ATTENTION"
+    },
+    {
+      "criterium": "IMPAIRED_CONCENTRATION"
+    },
+    {
+      "criterium": "SLOWED_PROCESSING_SPEED"
+    },
+    {
+      "criterium": "IMPAIRED_WORKING_MEMORY"
+    },
+    {
+      "criterium": "MOOD_LABILITY"
+    },
+    {
+      "criterium": "CONSTRUCTIONAL_APRAXIA_PRESENT"
+    },
+    {
+      "criterium": "HAND_TREMOR_PRESENT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

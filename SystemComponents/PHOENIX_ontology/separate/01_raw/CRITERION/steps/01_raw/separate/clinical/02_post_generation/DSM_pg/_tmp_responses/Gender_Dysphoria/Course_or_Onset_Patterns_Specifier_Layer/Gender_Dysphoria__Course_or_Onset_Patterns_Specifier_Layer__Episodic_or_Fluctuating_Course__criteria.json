@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fluctuating_dysphoria_severity"
+    },
+    {
+      "criterium": "episodic_gender_identity_preoccupation"
+    },
+    {
+      "criterium": "intermittent_body_discrepancy_distress"
+    },
+    {
+      "criterium": "variable_social_role_congruence_experience"
+    },
+    {
+      "criterium": "intermittent_ruminative_thoughts_about_gender_identity"
+    },
+    {
+      "criterium": "intermittent_desire_for_social_gender_presentation_change"
+    },
+    {
+      "criterium": "fluctuating_affective_response_to_gender_cues"
+    },
+    {
+      "criterium": "intermittent_social_withdrawal_due_to_gender_discomfort"
+    },
+    {
+      "criterium": "episodic_sense_of_inauthenticity_in_specific_contexts"
+    },
+    {
+      "criterium": "variable_focus_on_gender_identity_in_daily_routine"
+    },
+    {
+      "criterium": "episodic_preoccupation_with_body_features_incongruent_with_identity"
+    },
+    {
+      "criterium": "periodic_reactivity_to_social_feedback_related_to_gender_identity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "infantile_spasms_present"
+    },
+    {
+      "criterium": "spasms_cluster_presentation_present"
+    },
+    {
+      "criterium": "spasms_bilateral_symmetric_presentation_present"
+    },
+    {
+      "criterium": "hypsarrhythmia_EEG_present"
+    },
+    {
+      "criterium": "developmental_delay_observed"
+    },
+    {
+      "criterium": "neurodevelopmental_regression_observed"
+    },
+    {
+      "criterium": "microcephaly_present"
+    },
+    {
+      "criterium": "hypotonia_present"
+    },
+    {
+      "criterium": "structural_brain_abnormality_on_MRI_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

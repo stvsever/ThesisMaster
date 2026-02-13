@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "criterium": "TACTILE_HALLUCINATIONS"
+    },
+    {
+      "criterium": "DELUSIONAL_PARANOID_CONTENT"
+    },
+    {
+      "criterium": "IDEAS_OF_REFERENCE"
+    },
+    {
+      "criterium": "THOUGHT_INSERTION"
+    },
+    {
+      "criterium": "THOUGHT_DELETION"
+    },
+    {
+      "criterium": "THOUGHT_BLOCKING"
+    },
+    {
+      "criterium": "DISORGANIZED_THOUGHT_PROCESS"
+    },
+    {
+      "criterium": "DEPERSONALIZATION"
+    },
+    {
+      "criterium": "DEREALIZATION"
+    },
+    {
+      "criterium": "DISORIENTATION"
+    },
+    {
+      "criterium": "AGITATION"
+    },
+    {
+      "criterium": "BIZARRE_BEHAVIOR"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

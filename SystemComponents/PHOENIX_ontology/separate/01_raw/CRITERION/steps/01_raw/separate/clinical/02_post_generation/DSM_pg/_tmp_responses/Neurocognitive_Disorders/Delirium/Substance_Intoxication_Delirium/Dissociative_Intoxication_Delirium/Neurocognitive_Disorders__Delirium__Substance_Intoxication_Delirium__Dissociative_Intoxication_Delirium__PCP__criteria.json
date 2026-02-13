@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "vertical_nystagmus"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "hypoalgesia"
+    },
+    {
+      "criterium": "dissociative_experiences"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "aggressive_behavior"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "disorientation"
+    },
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "ataxia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

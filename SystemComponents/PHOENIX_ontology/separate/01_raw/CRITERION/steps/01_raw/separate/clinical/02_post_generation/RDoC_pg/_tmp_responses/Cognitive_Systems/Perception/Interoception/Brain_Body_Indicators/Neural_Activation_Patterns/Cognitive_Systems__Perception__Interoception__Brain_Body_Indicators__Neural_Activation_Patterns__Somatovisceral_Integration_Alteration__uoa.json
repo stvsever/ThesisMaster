@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_rs53576_genotype",
+      "BDNF_val66met_genotype",
+      "SCN2A_variant",
+      "GABRB2_insular_expression",
+      "GRIN2B_expression",
+      "COMT_val158_met_genotype"
+    ],
+    "molecules": [
+      "plasma_cortisol",
+      "plasma_oxytocin",
+      "plasma_avp",
+      "glutamate_plasma",
+      "GABA_plasma",
+      "anandamide_plasma"
+    ],
+    "cells": [
+      "insula_pyramidal_neuron_density",
+      "insula_interneuron_density",
+      "vagal_afferent_ganglion_neuron_density",
+      "astrocyte_density_insula"
+    ],
+    "circuits": [
+      "insula_anterior_cingulate_connectivity_strength",
+      "insula_dorsal_mid_insula_activation_pattern",
+      "prefrontal_insula_network_synchrony",
+      "amygdala_insula_connectivity_strength",
+      "brainstem_insula_pathway_activation_pattern"
+    ],
+    "physiology": [
+      "heart_rate_variability",
+      "skin_conductance_level",
+      "respiratory_rate_variability",
+      "pupil_dilation_index",
+      "core_body_temperature_variation",
+      "baroreflex_sensitivity"
+    ],
+    "behavior": [
+      "heartbeat_perception_accuracy",
+      "interoceptive_task_reaction_time",
+      "interoceptive_task_error_rate",
+      "visceral_sensitivity_threshold",
+      "interoceptive_decision_bias"
+    ],
+    "self_report": [
+      "BPQ_body_perception_score",
+      "MAIA_total_score",
+      "IAS_interoceptive_awareness_score"
+    ]
+  },
+  "estimated_prevalence_percent": 9.4
+}

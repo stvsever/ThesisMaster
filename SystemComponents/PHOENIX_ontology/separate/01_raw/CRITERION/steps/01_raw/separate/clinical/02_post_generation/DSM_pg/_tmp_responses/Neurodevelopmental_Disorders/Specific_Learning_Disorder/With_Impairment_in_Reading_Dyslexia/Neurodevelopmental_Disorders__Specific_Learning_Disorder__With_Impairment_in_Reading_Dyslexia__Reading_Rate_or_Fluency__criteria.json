@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "oral_reading_rate_below_age_norms"
+    },
+    {
+      "criterium": "oral_reading_fluency_dysfluencies_present"
+    },
+    {
+      "criterium": "excessive_reading_pauses"
+    },
+    {
+      "criterium": "self_corrections_in_reading"
+    },
+    {
+      "criterium": "word_substitution_during_reading"
+    },
+    {
+      "criterium": "word_omission_during_reading"
+    },
+    {
+      "criterium": "monotone_or_flat_reading_prosody"
+    },
+    {
+      "criterium": "silent_reading_rate_below_age_norms"
+    },
+    {
+      "criterium": "word_reading_accuracy_deficit"
+    },
+    {
+      "criterium": "inconsistent_reading_rate_across_texts"
+    }
+  ],
+  "estimated_prevalence_percent": 7.5
+}

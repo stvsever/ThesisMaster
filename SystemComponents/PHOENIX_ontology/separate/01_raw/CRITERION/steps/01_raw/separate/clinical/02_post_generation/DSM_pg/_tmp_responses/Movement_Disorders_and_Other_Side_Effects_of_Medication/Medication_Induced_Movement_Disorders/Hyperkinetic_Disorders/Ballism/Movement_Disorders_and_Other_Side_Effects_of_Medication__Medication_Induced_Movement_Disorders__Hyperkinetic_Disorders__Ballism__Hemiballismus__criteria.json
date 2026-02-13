@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unilateral_ballistic_movements"
+    },
+    {
+      "criterium": "proximal_limb_fling_movements"
+    },
+    {
+      "criterium": "arm_flings"
+    },
+    {
+      "criterium": "leg_flings"
+    },
+    {
+      "criterium": "truncal_flailing_movements"
+    },
+    {
+      "criterium": "non_rhythmic_flailing"
+    },
+    {
+      "criterium": "large_amplitude_movements"
+    },
+    {
+      "criterium": "contralateral_limb_involuntary_movements"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

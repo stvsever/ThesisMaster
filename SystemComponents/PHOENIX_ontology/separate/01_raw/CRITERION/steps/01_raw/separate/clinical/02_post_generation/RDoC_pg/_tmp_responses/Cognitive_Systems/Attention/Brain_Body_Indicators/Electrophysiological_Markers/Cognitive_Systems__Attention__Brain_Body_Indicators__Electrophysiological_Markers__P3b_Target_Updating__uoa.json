@@ -1,0 +1,39 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M",
+      "COMT_V158M",
+      "DRD4_VNTR_7R",
+      "DRD2_rs1800497_Taq1A",
+      "GRIN2B_SNP"
+    ],
+    "molecules": [
+      "BDNF",
+      "DOPAMINE",
+      "NOREPINEPHRINE",
+      "GLUTAMATE",
+      "GABA"
+    ],
+    "cells": [
+      "Pyramidal_neurons",
+      "GABAergic_interneurons"
+    ],
+    "circuits": [
+      "Frontal-Parietal_network",
+      "DLPFC-Parietal_connectivity"
+    ],
+    "physiology": [
+      "P3b_amplitude_parietal_electrodes",
+      "P3b_latency_parietal_electrodes",
+      "P3b_topography_score"
+    ],
+    "behavior": [
+      "target_detection_accuracy",
+      "target_reaction_time",
+      "update_task_accuracy",
+      "update_task_reaction_time"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 3.0
+}

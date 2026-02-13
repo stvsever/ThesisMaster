@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "levator_ani_hypertonicity_at_rest"
+    },
+    {
+      "criterium": "pubococcygeus_spasm_on_palpation"
+    },
+    {
+      "criterium": "iliococcygeus_tension_on_palpation"
+    },
+    {
+      "criterium": "intravaginal_pelvic_floor_tone_elevation_during_exam"
+    },
+    {
+      "criterium": "pelvic_floor_co_contraction_during_palpation"
+    },
+    {
+      "criterium": "involuntary_pelvic_floor_contraction_in_response_to_touch"
+    },
+    {
+      "criterium": "pelvic_floor_muscle_tender_points_present_on_exam"
+    },
+    {
+      "criterium": "pelvic_floor_guarding_during_examination"
+    },
+    {
+      "criterium": "emg_elevated_pelvic_floor_resting_activity"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

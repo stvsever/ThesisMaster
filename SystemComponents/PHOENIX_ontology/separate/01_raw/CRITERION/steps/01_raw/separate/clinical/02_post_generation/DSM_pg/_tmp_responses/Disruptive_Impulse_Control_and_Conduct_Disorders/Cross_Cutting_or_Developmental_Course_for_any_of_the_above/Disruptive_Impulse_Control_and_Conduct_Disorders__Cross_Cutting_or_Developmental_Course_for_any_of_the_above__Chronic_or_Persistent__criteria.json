@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_physical_aggression"
+    },
+    {
+      "criterium": "destruction_of_property"
+    },
+    {
+      "criterium": "deceitful_behavior"
+    },
+    {
+      "criterium": "theft_behavior"
+    },
+    {
+      "criterium": "serious_rule_violation"
+    },
+    {
+      "criterium": "noncompliance_with_authority_figures"
+    },
+    {
+      "criterium": "impulsivity_and_risk_taking_behavior"
+    },
+    {
+      "criterium": "persistent_irritability_or_hot_temper"
+    },
+    {
+      "criterium": "interpersonal_conflicts_with_peers"
+    },
+    {
+      "criterium": "interpersonal_conflicts_with_family"
+    },
+    {
+      "criterium": "lack_of_remorse_after_harm"
+    },
+    {
+      "criterium": "poor_school_performance_due_to_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

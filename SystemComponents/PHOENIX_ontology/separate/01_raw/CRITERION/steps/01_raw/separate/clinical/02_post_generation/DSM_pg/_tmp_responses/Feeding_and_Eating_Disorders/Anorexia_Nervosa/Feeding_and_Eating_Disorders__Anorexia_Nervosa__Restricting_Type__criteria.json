@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "BMI_LT_18_5_KG_M2"
+    },
+    {
+      "criterium": "CALORIC_RESTRICTION_FOR_WEIGHT_LOSS"
+    },
+    {
+      "criterium": "EXCESSIVE_EXERCISE_FOR_WEIGHT_LOSS"
+    },
+    {
+      "criterium": "FOOD_TYPE_RESTRICTION"
+    },
+    {
+      "criterium": "RIGID_MEAL_PATTERNS"
+    },
+    {
+      "criterium": "FOOD_PREOCCUPATION"
+    },
+    {
+      "criterium": "BODY_IMAGE_DISTORTION"
+    },
+    {
+      "criterium": "FEAR_OF_GAINING_WEIGHT"
+    },
+    {
+      "criterium": "SELF_EVALUATION_BASED_ON_WEIGHT"
+    },
+    {
+      "criterium": "NO_RECURRENT_BINGE_OR_PURGING_BEHAVIOR"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

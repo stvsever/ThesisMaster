@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ALMA_ALTERNATING_BILATERAL_LEG_MUSCLE_BURSTS"
+    },
+    {
+      "criterium": "ALMA_EMG_DETECTED_TIBIALIS_ANTERIOR_BURSTS"
+    },
+    {
+      "criterium": "ALMA_EMG_DETECTED_GASTROCNEMIUS_BURSTS"
+    },
+    {
+      "criterium": "ALMA_BURST_SEQUENCE_ALTERNATES_SIDES"
+    },
+    {
+      "criterium": "ALMA_POLYSOMNOGRAPHY_DETECTED_LEG_MUSCLE_ACTIVATION"
+    },
+    {
+      "criterium": "ALMA_MUSCLE_ACTIVATION_BURSTS_OCCUR_DURING_SLEEP_STATE"
+    }
+  ],
+  "estimated_prevalence_percent": 2.8
+}

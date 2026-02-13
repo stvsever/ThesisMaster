@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "central_apnea_events_during_sleep_with_sedative_use"
+    },
+    {
+      "criterium": "hypoventilation_events_during_sleep_with_sedative_use"
+    },
+    {
+      "criterium": "nocturnal_hypercapnia_during_sleep_with_sedative_use"
+    },
+    {
+      "criterium": "nocturnal_hypoxemia_during_sleep_with_sedative_use"
+    },
+    {
+      "criterium": "reduced_respiratory_effort_during_sleep_with_sedative_use"
+    },
+    {
+      "criterium": "prolonged_central_apnea_duration_during_sleep_with_sedative_use"
+    },
+    {
+      "criterium": "increased_central_apnea_index_during_sleep_with_sedative_use"
+    },
+    {
+      "criterium": "desaturation_cycles_during_central_apnea_events_with_sedative_use"
+    },
+    {
+      "criterium": "arousal_events_associated_with_central_apneas_during_sleep_with_sedative_use"
+    },
+    {
+      "criterium": "desaturation_events_without_obstructive_features_during_sleep_with_sedative_use"
+    },
+    {
+      "criterium": "daytime_sleepiness_correlated_with_nighttime_central_apneas_and_sedative_use"
+    },
+    {
+      "criterium": "nocturnal_respiratory_effort_decline_during_sleep_with_sedative_use"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

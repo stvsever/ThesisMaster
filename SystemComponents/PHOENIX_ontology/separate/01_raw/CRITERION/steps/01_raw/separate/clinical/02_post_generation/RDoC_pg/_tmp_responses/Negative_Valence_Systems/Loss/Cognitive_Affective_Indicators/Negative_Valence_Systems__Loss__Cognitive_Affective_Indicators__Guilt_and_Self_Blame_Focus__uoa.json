@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "SLC6A4_5HTTLPR",
+      "COMT_Val158Met",
+      "BDNF_Val66Met",
+      "OXTR_rs53576",
+      "FKBP5_rs1360780"
+    ],
+    "molecules": [
+      "CORTISOL_serum_concentration",
+      "OXT_plasma_concentration",
+      "IL6_plasma_concentration",
+      "TNF_alpha_plasma_concentration",
+      "CRP_plasma_concentration",
+      "DHEA_plasma_concentration"
+    ],
+    "cells": [
+      "Pyramidal_neuron_density_prefrontal_cortex",
+      "GABAergic_interneuron_density_prefrontal_cortex",
+      "Astrocyte_density_prefrontal_cortex",
+      "Microglial_density_medial_prefrontal_cortex"
+    ],
+    "circuits": [
+      "vmPFC_activation_guilt",
+      "ACC_activation_self_blame",
+      "DLPFC_self_referential_connectivity",
+      "PCC_prefrontal_self_referential_activity",
+      "Amygdala_prefrontal_circuit_guilt_modulation",
+      "Default_Mode_Network_self_referential_connectivity"
+    ],
+    "physiology": [
+      "heart_rate_variability",
+      "skin_conductance_response",
+      "respiratory_rate",
+      "blood_pressure_variability",
+      "pupil_dilation_peak",
+      "facial_temperature_change"
+    ],
+    "behavior": [
+      "rumination_duration_minutes",
+      "self_punishment_frequency_per_day",
+      "self_blame_in_social_interactions_frequency",
+      "guilt_triggered_withdrawal_behavior_count",
+      "avoidance_behavior_frequency_due_to_guilt"
+    ],
+    "self_report": [
+      "Guilt_SelfBlame_Scale_Score",
+      "Shame_Prone_Reactive_Scale_Score",
+      "SelfBlame_Tendency_Questionnaire_Score",
+      "Cognitive_Affective_Guilt_Index"
+    ]
+  },
+  "estimated_prevalence_percent": 6.0
+}

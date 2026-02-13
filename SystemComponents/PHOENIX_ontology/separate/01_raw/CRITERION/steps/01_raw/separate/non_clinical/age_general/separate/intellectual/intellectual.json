@@ -1,0 +1,534 @@
+{
+  "INTELLECTUAL": {
+    "CognitiveStimulation": {
+      "EngagingInLearning": {
+        "FormalEducation": {
+          "PrimaryEducation": {},
+          "SecondaryEducation": {},
+          "HigherEducation": {},
+          "VocationalTraining": {}
+        },
+        "OnlineCourses": {
+          "MassiveOpenOnlineCourses": {},
+          "Webinars": {},
+          "CertificationPrograms": {},
+          "SelfPacedLearning": {}
+        },
+        "WorkshopsAndSeminars": {
+          "ProfessionalWorkshops": {},
+          "SkillDevelopmentSeminars": {},
+          "IndustryConferences": {},
+          "HandsOnTrainingSessions": {}
+        },
+        "SelfDirectedLearning": {
+          "IndependentStudy": {},
+          "ResearchProjects": {},
+          "OnlineResearch": {},
+          "PersonalLearningPlans": {}
+        }
+      },
+      "MentalChallenges": {
+        "PuzzlesAndGames": {
+          "CrosswordPuzzles": {},
+          "Sudoku": {},
+          "StrategyGames": {},
+          "BrainTeasers": {}
+        },
+        "StrategicThinking": {
+          "LongTermPlanning": {},
+          "ResourceManagement": {},
+          "ScenarioAnalysis": {},
+          "TacticalDecisionMaking": {}
+        },
+        "MathematicalProblems": {
+          "Algebra": {},
+          "Geometry": {},
+          "Calculus": {},
+          "Statistics": {}
+        },
+        "ScientificInquiry": {
+          "ExperimentalResearch": {},
+          "DataAnalysis": {},
+          "HypothesisTesting": {},
+          "TheoreticalExploration": {}
+        }
+      },
+      "CreativeActivities": {
+        "Writing": {
+          "CreativeWriting": {},
+          "TechnicalWriting": {},
+          "Journalism": {},
+          "ScriptWriting": {}
+        },
+        "ArtisticExpression": {
+          "Painting": {},
+          "Drawing": {},
+          "Sculpture": {},
+          "DigitalArt": {}
+        },
+        "Music": {
+          "InstrumentPlaying": {},
+          "VocalPerformance": {},
+          "MusicComposition": {},
+          "MusicProduction": {}
+        },
+        "InnovationProjects": {
+          "ProductDevelopment": {},
+          "ProcessImprovement": {},
+          "TechnologyInnovation": {},
+          "SocialInnovation": {}
+        }
+      },
+      "ProblemSolving": {
+        "CriticalThinking": {
+          "LogicalAnalysis": {},
+          "ArgumentEvaluation": {},
+          "BiasRecognition": {},
+          "EvidenceAssessment": {}
+        },
+        "AnalyticalSkills": {
+          "DataInterpretation": {},
+          "TrendAnalysis": {},
+          "QuantitativeAnalysis": {},
+          "QualitativeAnalysis": {}
+        },
+        "DecisionMaking": {
+          "ChoiceEvaluation": {},
+          "RiskAssessment": {},
+          "Prioritization": {},
+          "OutcomePrediction": {}
+        },
+        "DesignThinking": {
+          "EmpathyBuilding": {},
+          "Ideation": {},
+          "Prototyping": {},
+          "UserTesting": {}
+        }
+      }
+    },
+    "OpenMindedness": {
+      "AppreciationOfNewIdeas": {
+        "ExploringConcepts": {
+          "PhilosophicalIdeas": {},
+          "ScientificTheories": {},
+          "CulturalConcepts": {},
+          "TechnologicalInnovations": {}
+        },
+        "ReadingDiverseLiterature": {
+          "Fiction": {},
+          "NonFiction": {},
+          "Biographies": {},
+          "AcademicJournals": {}
+        },
+        "AttendingLectures": {
+          "PublicLectures": {},
+          "AcademicSeminars": {},
+          "GuestSpeakerEvents": {},
+          "OnlineWebinars": {}
+        },
+        "CulturalExploration": {
+          "Traveling": {},
+          "CulturalFestivals": {},
+          "LanguageLearning": {},
+          "CulturalWorkshops": {}
+        }
+      },
+      "CriticalThinking": {
+        "QuestioningAssumptions": {
+          "IdentifyingBiases": {},
+          "Challenging Norms": {},
+          "Exploring Alternatives": {},
+          "ReflectiveThinking": {}
+        },
+        "LogicalReasoning": {
+          "DeductiveReasoning": {},
+          "InductiveReasoning": {},
+          "AbductiveReasoning": {},
+          "SyllogisticReasoning": {}
+        },
+        "EvaluatingEvidence": {
+          "SourceCredibility": {},
+          "EvidenceValidity": {},
+          "DataVerification": {},
+          "FactChecking": {}
+        },
+        "DebateAndDiscussion": {
+          "ConstructiveDebate": {},
+          "PublicSpeaking": {},
+          "ArgumentationSkills": {},
+          "ActiveListening": {}
+        }
+      },
+      "Adaptability": {
+        "EmbracingChange": {
+          "ChangeManagement": {},
+          "FlexibilityInRoles": {},
+          "OpennessToNewMethods": {},
+          "PositiveAttitudeTowardsChange": {}
+        },
+        "FlexibilityInThinking": {
+          "AlternativePerspectiveAdoption": {},
+          "CreativeProblemSolving": {},
+          "CognitiveRestructuring": {},
+          "MentalAgility": {}
+        },
+        "LearningFromMistakes": {
+          "ErrorAnalysis": {},
+          "ContinuousImprovement": {},
+          "ResilienceBuilding": {},
+          "FeedbackUtilization": {}
+        },
+        "Resilience": {
+          "StressManagement": {},
+          "EmotionalStrength": {},
+          "RecoverySkills": {},
+          "Persistence": {}
+        }
+      },
+      "Curiosity": {
+        "AskingQuestions": {
+          "InquirySkills": {},
+          "SocraticMethod": {},
+          "ExploratoryQuestioning": {},
+          "DeepDiving": {}
+        },
+        "SeekingKnowledge": {
+          "InformationSeekingBehavior": {},
+          "KnowledgeAcquisition": {},
+          "ResearchSkills": {},
+          "LearningStrategies": {}
+        },
+        "Exploration": {
+          "ScientificExploration": {},
+          "GeographicalExploration": {},
+          "IntellectualExploration": {},
+          "CreativeExploration": {}
+        },
+        "Wonderment": {
+          "AestheticAppreciation": {},
+          "PhilosophicalWonder": {},
+          "ScientificMarvels": {},
+          "Creative Awe": {}
+        }
+      }
+    },
+    "LifelongLearning": {
+      "ContinuedEducation": {
+        "AdvancedDegrees": {
+          "MasterPrograms": {},
+          "DoctoralPrograms": {},
+          "ProfessionalDoctorates": {},
+          "PostdoctoralStudies": {}
+        },
+        "CertificationPrograms": {
+          "IndustryCertifications": {},
+          "Skill-BasedCertifications": {},
+          "OnlineCertifications": {},
+          "VendorSpecificCertifications": {}
+        },
+        "AdultEducationClasses": {
+          "CommunityCollegeCourses": {},
+          "ContinuingEducationUnits": {},
+          "EveningClasses": {},
+          "WeekendWorkshops": {}
+        },
+        "DistanceLearning": {
+          "OnlineDegreePrograms": {},
+          "VirtualClassrooms": {},
+          "E-LearningPlatforms": {},
+          "CorrespondenceCourses": {}
+        }
+      },
+      "SkillDevelopment": {
+        "LanguageLearning": {
+          "ForeignLanguages": {},
+          "SignLanguage": {},
+          "ProgrammingLanguages": {},
+          "ConstructedLanguages": {}
+        },
+        "TechnicalSkills": {
+          "ITSkills": {},
+          "EngineeringSkills": {},
+          "ScientificSkills": {},
+          "MathematicalSkills": {}
+        },
+        "ArtisticSkills": {
+          "VisualArts": {},
+          "PerformingArts": {},
+          "CreativeWritingSkills": {},
+          "DesignSkills": {}
+        },
+        "ProfessionalTraining": {
+          "LeadershipTraining": {},
+          "ProjectManagement": {},
+          "CommunicationSkills": {},
+          "CustomerServiceTraining": {}
+        }
+      },
+      "KnowledgeExpansion": {
+        "Reading": {
+          "Books": {},
+          "Magazines": {},
+          "AcademicPapers": {},
+          "Blogs": {}
+        },
+        "Documentaries": {
+          "HistoricalDocumentaries": {},
+          "ScientificDocumentaries": {},
+          "CulturalDocumentaries": {},
+          "EnvironmentalDocumentaries": {}
+        },
+        "Podcasts": {
+          "EducationalPodcasts": {},
+          "InterviewPodcasts": {},
+          "StorytellingPodcasts": {},
+          "NewsPodcasts": {}
+        },
+        "Research": {
+          "AcademicResearch": {},
+          "MarketResearch": {},
+          "ActionResearch": {},
+          "AppliedResearch": {}
+        }
+      },
+      "PersonalEnrichment": {
+        "Hobbies": {
+          "Gardening": {},
+          "Cooking": {},
+          "PhotographyHobbies": {},
+          "Collecting": {}
+        },
+        "TravelExperiences": {
+          "CulturalTravel": {},
+          "AdventureTravel": {},
+          "EducationalTravel": {},
+          "LeisureTravel": {}
+        },
+        "CulturalActivities": {
+          "TheaterParticipation": {},
+          "MuseumVisits": {},
+          "CulturalWorkshops": {},
+          "CulturalFestivals": {}
+        },
+        "Workshops": {
+          "CreativeWorkshops": {},
+          "TechnicalWorkshops": {},
+          "ProfessionalDevelopmentWorkshops": {},
+          "PersonalGrowthWorkshops": {}
+        }
+      }
+    },
+    "MentalAgility": {
+      "CognitiveFlexibility": {
+        "Multitasking": {
+          "TaskSwitching": {},
+          "SimultaneousTaskHandling": {},
+          "TimeManagementForMultitasking": {},
+          "PrioritizationSkills": {}
+        },
+        "SwitchingPerspectives": {
+          "RoleTaking": {},
+          "PerspectiveTakingExercises": {},
+          "EmpathyBuildingActivities": {},
+          "ViewpointAnalysis": {}
+        },
+        "AdaptingStrategies": {
+          "StrategyModification": {},
+          "AdaptivePlanning": {},
+          "FlexibleApproaches": {},
+          "ContingencyPlanning": {}
+        },
+        "LearningNewSkills": {
+          "SkillAcquisition": {},
+          "SkillTransfer": {},
+          "ContinuousSkillDevelopment": {},
+          "CrossDisciplinaryLearning": {}
+        }
+      },
+      "QuickThinking": {
+        "RapidDecisionMaking": {
+          "TimePressuredDecisions": {},
+          "IntuitiveDecisionMaking": {},
+          "Decisiveness": {},
+          "EfficientEvaluation": {}
+        },
+        "RespondingUnderPressure": {
+          "StressManagementTechniques": {},
+          "CalmnessMaintenance": {},
+          "FocusRetention": {},
+          "PerformanceOptimizationUnderStress": {}
+        },
+        "MentalSharpness": {
+          "AttentionToDetail": {},
+          "MentalAlertness": {},
+          "QuickRecall": {},
+          "CognitiveProcessingSpeed": {}
+        },
+        "Alertness": {
+          "Vigilance": {},
+          "Awareness": {},
+          "Mindfulness": {},
+          "SituationalAwareness": {}
+        }
+      },
+      "MemoryFunction": {
+        "MemoryExercises": {
+          "Mnemonics": {},
+          "MemoryPalaces": {},
+          "RepetitionTechniques": {},
+          "AssociationMethods": {}
+        },
+        "RecallAbilities": {
+          "FreeRecall": {},
+          "CuedRecall": {},
+          "SerialRecall": {},
+          "SpatialRecall": {}
+        },
+        "InformationRetention": {
+          "LongTermRetention": {},
+          "ShortTermRetention": {},
+          "RetentionStrategies": {},
+          "KnowledgeRetention": {}
+        },
+        "MnemonicTechniques": {
+          "Acronyms": {},
+          "RhymesAndSongs": {},
+          "Visualization": {},
+          "Chunking": {}
+        }
+      },
+      "Concentration": {
+        "FocusedAttention": {
+          "SingleTasking": {},
+          "DistractionElimination": {},
+          "SustainedAttention": {},
+          "SelectiveAttention": {}
+        },
+        "MindfulnessPractices": {
+          "Meditation": {},
+          "BreathingExercises": {},
+          "MindfulAwareness": {},
+          "BodyScanTechniques": {}
+        },
+        "MinimizingDistractions": {
+          "EnvironmentControl": {},
+          "TimeBlocking": {},
+          "TechnologyManagement": {},
+          "TaskPrioritization": {}
+        },
+        "TaskEngagement": {
+          "DeepWork": {},
+          "FlowState": {},
+          "EngagingTasks": {},
+          "MotivationalTechniques": {}
+        }
+      }
+    },
+    "Creativity": {
+      "ArtisticExpression": {
+        "PaintingAndDrawing": {
+          "AcrylicPainting": {},
+          "WatercolorPainting": {},
+          "Sketching": {},
+          "DigitalDrawing": {}
+        },
+        "Sculpture": {
+          "ClaySculpting": {},
+          "MetalSculpting": {},
+          "WoodCarving": {},
+          "MixedMediaSculpture": {}
+        },
+        "Photography": {
+          "PortraitPhotography": {},
+          "LandscapePhotography": {},
+          "StreetPhotography": {},
+          "MacroPhotography": {}
+        },
+        "Crafts": {
+          "Knitting": {},
+          "Pottery": {},
+          "JewelryMaking": {},
+          "PaperCrafts": {}
+        }
+      },
+      "Innovation": {
+        "Entrepreneurship": {
+          "StartUpCreation": {},
+          "BusinessModelInnovation": {},
+          "MarketDisruption": {},
+          "EntrepreneurialMindset": {}
+        },
+        "Inventing": {
+          "ProductInvention": {},
+          "ProcessInvention": {},
+          "TechnologicalInvention": {},
+          "CreativeInvention": {}
+        },
+        "DesignThinking": {
+          "UserCentricDesign": {},
+          "PrototypeDevelopment": {},
+          "IterativeDesign": {},
+          "SolutionTesting": {}
+        },
+        "CreativeProblemSolving": {
+          "Brainstorming": {},
+          "LateralThinking": {},
+          "ProblemReframing": {},
+          "SolutionSynthesis": {}
+        }
+      },
+      "Imagination": {
+        "Storytelling": {
+          "NarrativeDevelopment": {},
+          "CharacterCreation": {},
+          "PlotStructuring": {},
+          "WorldBuilding": {}
+        },
+        "CreativeWriting": {
+          "Poetry": {},
+          "FictionWriting": {},
+          "NonFictionWriting": {},
+          "ScriptWriting": {}
+        },
+        "FantasyExploration": {
+          "MythologyCreation": {},
+          "FantasyWorlds": {},
+          "ImaginaryScenarios": {},
+          "SpeculativeFiction": {}
+        },
+        "Visualization": {
+          "MentalImagery": {},
+          "ConceptVisualization": {},
+          "VisualizationTechniques": {},
+          "CreativeVisualization": {}
+        }
+      },
+      "OriginalThinking": {
+        "UniquePerspectives": {
+          "DiverseViewpoints": {},
+          "InterdisciplinaryThinking": {},
+          "NonTraditionalApproaches": {},
+          "InnovativeMindsets": {}
+        },
+        "IdeaGeneration": {
+          "BrainstormingTechniques": {},
+          "IdeaMapping": {},
+          "CreativePrompts": {},
+          "IdeaDevelopment": {}
+        },
+        "BreakingConventions": {
+          "ChallengingNorms": {},
+          "DisruptiveIdeas": {},
+          "NonConformity": {},
+          "AvantGardeApproaches": {}
+        },
+        "InspirationalThinking": {
+          "VisionaryIdeas": {},
+          "MotivationalThoughts": {},
+          "AspirationSetting": {},
+          "PositiveThinking": {}
+        }
+      }
+    }
+  }
+}

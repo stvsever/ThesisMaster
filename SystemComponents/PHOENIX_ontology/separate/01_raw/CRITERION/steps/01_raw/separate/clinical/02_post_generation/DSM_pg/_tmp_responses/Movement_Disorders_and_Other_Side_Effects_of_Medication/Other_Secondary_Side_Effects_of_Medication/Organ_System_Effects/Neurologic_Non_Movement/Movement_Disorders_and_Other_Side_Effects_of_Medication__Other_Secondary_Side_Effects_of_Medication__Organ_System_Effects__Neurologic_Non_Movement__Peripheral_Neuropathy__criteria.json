@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "paresthesias_distal_limbs"
+    },
+    {
+      "criterium": "numbness_distal_limbs"
+    },
+    {
+      "criterium": "dysesthesias_distal_limbs"
+    },
+    {
+      "criterium": "allodynia_distal_pain"
+    },
+    {
+      "criterium": "reduced_pinprick_sensation_distal"
+    },
+    {
+      "criterium": "decreased_vibration_sense_distal"
+    },
+    {
+      "criterium": "decreased_proprioception_distal"
+    },
+    {
+      "criterium": "distal_muscle_weakness"
+    },
+    {
+      "criterium": "foot_drop"
+    },
+    {
+      "criterium": "absent_ankle_jerk_reflex"
+    }
+  ],
+  "estimated_prevalence_percent": 2.4
+}

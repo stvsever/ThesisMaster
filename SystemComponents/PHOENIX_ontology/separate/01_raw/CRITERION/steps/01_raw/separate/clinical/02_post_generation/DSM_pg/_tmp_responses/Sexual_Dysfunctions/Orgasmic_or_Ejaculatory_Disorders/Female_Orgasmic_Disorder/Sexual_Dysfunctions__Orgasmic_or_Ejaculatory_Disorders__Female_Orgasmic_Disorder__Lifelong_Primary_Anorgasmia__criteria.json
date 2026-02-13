@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inability_to_orgasm_with_clitoral_stimulation"
+    },
+    {
+      "criterium": "inability_to_orgasm_with_vaginal_stimulation"
+    },
+    {
+      "criterium": "inability_to_orgasm_with_combined_stimulation"
+    },
+    {
+      "criterium": "genital_arousal_present_without_orgasm"
+    },
+    {
+      "criterium": "sexual_desire_present"
+    },
+    {
+      "criterium": "distress_related_to_orgasmic_difficulty"
+    },
+    {
+      "criterium": "interpersonal_relationship_impairment_related_to_sexual_dysfunction"
+    },
+    {
+      "criterium": "no_orgasm_during_multiple_stimulation_attempts_across_modalities"
+    },
+    {
+      "criterium": "absence_of_orgasmic_sensation_when_stimulated"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

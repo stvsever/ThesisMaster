@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "low_ejaculate_volume_below_normal_threshold"
+    },
+    {
+      "criterium": "dry_orgasm"
+    },
+    {
+      "criterium": "postorgasmic_urine_sperm_presence"
+    },
+    {
+      "criterium": "urine_sperm_microscopy_positive_postorgasm"
+    },
+    {
+      "criterium": "normal_erectile_function"
+    },
+    {
+      "criterium": "orgasmic_sensation_intact"
+    },
+    {
+      "criterium": "no_pain_during_or_after_ejaculation"
+    },
+    {
+      "criterium": "no_dysuria_or_urinary_symptoms_postorgasm"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tardive_dyskinesia_movements"
+    },
+    {
+      "criterium": "oromandibular_dyskinesia"
+    },
+    {
+      "criterium": "blepharospasm"
+    },
+    {
+      "criterium": "cervical_dystonia"
+    },
+    {
+      "criterium": "generalized_dystonia"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "chorea"
+    },
+    {
+      "criterium": "athetosis"
+    },
+    {
+      "criterium": "parkinsonism_rigidity"
+    },
+    {
+      "criterium": "bradykinesia"
+    },
+    {
+      "criterium": "rest_tremor"
+    },
+    {
+      "criterium": "akathisia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

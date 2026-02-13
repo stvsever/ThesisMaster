@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "delusions"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "disorganized_behavior"
+    },
+    {
+      "criterium": "catatonic_features"
+    },
+    {
+      "criterium": "blunted_affect"
+    },
+    {
+      "criterium": "avolition"
+    },
+    {
+      "criterium": "anhedonia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

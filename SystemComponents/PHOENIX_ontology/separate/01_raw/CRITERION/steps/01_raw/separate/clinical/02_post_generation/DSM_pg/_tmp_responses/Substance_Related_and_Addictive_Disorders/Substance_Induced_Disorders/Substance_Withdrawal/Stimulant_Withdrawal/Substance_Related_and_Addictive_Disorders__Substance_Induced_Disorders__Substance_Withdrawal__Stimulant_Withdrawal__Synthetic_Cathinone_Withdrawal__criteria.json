@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anxiety_level"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "craving_intensity"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "cognitive_concentration_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

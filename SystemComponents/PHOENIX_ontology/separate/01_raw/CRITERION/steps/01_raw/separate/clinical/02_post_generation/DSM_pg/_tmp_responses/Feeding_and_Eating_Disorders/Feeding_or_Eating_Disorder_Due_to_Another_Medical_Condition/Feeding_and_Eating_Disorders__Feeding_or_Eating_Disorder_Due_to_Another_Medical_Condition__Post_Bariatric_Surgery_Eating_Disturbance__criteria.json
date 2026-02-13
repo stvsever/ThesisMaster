@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pouch_capacity_limitations"
+    },
+    {
+      "criterium": "early_satiation_after_small_meal"
+    },
+    {
+      "criterium": "postprandial_hypoglycemia_symptoms"
+    },
+    {
+      "criterium": "dumping_syndrome_symptoms_post_meal"
+    },
+    {
+      "criterium": "grazing_pattern_post_surgery"
+    },
+    {
+      "criterium": "binge_like_eating_episodes_post_surgery"
+    },
+    {
+      "criterium": "self_induced_vomiting_post_meals"
+    },
+    {
+      "criterium": "laxative_abuse_post_meals"
+    },
+    {
+      "criterium": "protein_intake_reduction_due_to_discomfort"
+    },
+    {
+      "criterium": "sugar_fat_food_intolerance_post_surgery"
+    },
+    {
+      "criterium": "meal_portion_control_preoccupation_post_surgery"
+    },
+    {
+      "criterium": "gastrointestinal_distress_after_meals"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

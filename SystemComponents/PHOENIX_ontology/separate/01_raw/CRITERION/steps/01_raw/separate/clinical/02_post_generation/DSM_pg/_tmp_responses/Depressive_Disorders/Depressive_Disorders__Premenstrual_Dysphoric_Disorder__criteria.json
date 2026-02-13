@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "affective_lability"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "anger_outbursts"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "increased_appetite"
+    },
+    {
+      "criterium": "decreased_appetite"
+    },
+    {
+      "criterium": "breast_tenderness"
+    },
+    {
+      "criterium": "bloating"
+    },
+    {
+      "criterium": "headache"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

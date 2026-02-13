@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "sleep_latency_gt_30_min"
+    },
+    {
+      "criterium": "sleep_maintenance_difficulty"
+    },
+    {
+      "criterium": "total_sleep_time_lt_6_hours"
+    },
+    {
+      "criterium": "sleep_efficiency_lt_85_percent"
+    },
+    {
+      "criterium": "nocturnal_awakenings_per_night_gt_2"
+    },
+    {
+      "criterium": "snoring_present"
+    },
+    {
+      "criterium": "apnea_hypopnea_index_gt_5_per_hour"
+    },
+    {
+      "criterium": "periodic_limb_movements_in_sleep_present"
+    },
+    {
+      "criterium": "parasomnia_episodes_present"
+    }
+  ],
+  "estimated_prevalence_percent": 22.5
+}

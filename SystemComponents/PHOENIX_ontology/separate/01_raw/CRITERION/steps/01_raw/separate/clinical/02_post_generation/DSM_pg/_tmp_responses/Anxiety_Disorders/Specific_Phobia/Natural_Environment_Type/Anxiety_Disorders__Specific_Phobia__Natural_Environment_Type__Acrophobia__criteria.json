@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "height_induced_anxiety"
+    },
+    {
+      "criterium": "height_exposure_avoidance"
+    },
+    {
+      "criterium": "panic_symptoms_on_height_exposure"
+    },
+    {
+      "criterium": "tachycardia_on_height_exposure"
+    },
+    {
+      "criterium": "sweating_on_height_exposure"
+    },
+    {
+      "criterium": "tremor_on_height_exposure"
+    },
+    {
+      "criterium": "dizziness_on_height_exposure"
+    },
+    {
+      "criterium": "shortness_of_breath_on_height_exposure"
+    },
+    {
+      "criterium": "nausea_gastro_symptoms_on_height_exposure"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_height_exposure"
+    },
+    {
+      "criterium": "height_related_catastrophic_thoughts"
+    },
+    {
+      "criterium": "functional_impairment_due_to_height_phobia"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

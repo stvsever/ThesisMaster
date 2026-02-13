@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "decreased_sexual_desire"
+    },
+    {
+      "criterium": "delayed_arousal_onset"
+    },
+    {
+      "criterium": "reduced_genital_blood_flow_during_stimulation"
+    },
+    {
+      "criterium": "decreased_vaginal_lubrication_during_stimulation"
+    },
+    {
+      "criterium": "reduced_penis_erectile_turgidity_in_response_to_stimulation"
+    },
+    {
+      "criterium": "reduced_genital_sensation_during_arousal"
+    },
+    {
+      "criterium": "blunted_autonomic_arousal_response"
+    },
+    {
+      "criterium": "increased_latency_to_subjective_arousal"
+    },
+    {
+      "criterium": "inhibited_responsiveness_to_erotic_stimulation"
+    },
+    {
+      "criterium": "absent_physical_arousal_response_to_stimulation"
+    }
+  ],
+  "estimated_prevalence_percent": 6.0
+}

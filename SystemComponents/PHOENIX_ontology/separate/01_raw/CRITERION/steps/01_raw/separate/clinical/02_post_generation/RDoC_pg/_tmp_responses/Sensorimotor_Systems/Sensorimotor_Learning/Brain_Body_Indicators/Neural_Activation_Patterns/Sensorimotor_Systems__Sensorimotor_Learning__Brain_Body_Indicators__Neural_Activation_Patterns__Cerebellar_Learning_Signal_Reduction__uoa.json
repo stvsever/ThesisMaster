@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "GRM1_mRNA_level",
+      "ITPR1_mRNA_level",
+      "CACNA1A_mRNA_level",
+      "GRIA1_mRNA_level",
+      "SLC1A6_mRNA_level"
+    ],
+    "molecules": [
+      "glutamate_concentration",
+      "GABA_concentration",
+      "Ca2_concentration",
+      "IP3_level",
+      "DAG_level",
+      "PKA_activity"
+    ],
+    "cells": [
+      "Purkinje_cell_firing_rate",
+      "Granule_cell_firing_rate",
+      "Purkinje_dendritic_spine_density",
+      "Deep_nuclear_neuron_firing_rate"
+    ],
+    "circuits": [
+      "cerebellar_purkinje_to_deep_nuclei_inhibitory_output_strength",
+      "cerebellar_thalamo_motor_loop_connectivity_strength",
+      "cerebellar_cerebrocerebellar_loop_connectivity_strength"
+    ],
+    "physiology": [
+      "cerebellar_CBF",
+      "cerebellar_BOLD_amplitude",
+      "MEP_latency",
+      "EMG_amplitude_during_task"
+    ],
+    "behavior": [
+      "eyeblink_conditioned_response_rate",
+      "eyeblink_conditioned_response_timing",
+      "reach_adaptation_rate",
+      "saccade_latency_variability"
+    ],
+    "self_report": [
+      "self_report_motor_coordination_ability",
+      "self_report_fine_motor_skill",
+      "self_report_motor_learning_efficiency"
+    ]
+  },
+  "estimated_prevalence_percent": 2.0
+}

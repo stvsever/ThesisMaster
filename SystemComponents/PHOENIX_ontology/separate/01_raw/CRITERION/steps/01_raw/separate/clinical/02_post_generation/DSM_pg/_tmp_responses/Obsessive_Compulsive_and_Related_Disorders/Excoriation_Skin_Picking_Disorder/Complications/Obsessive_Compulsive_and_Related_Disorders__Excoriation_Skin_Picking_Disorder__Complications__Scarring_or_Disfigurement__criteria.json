@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "active_excoriation_lesion_count"
+    },
+    {
+      "criterium": "healed_scar_count"
+    },
+    {
+      "criterium": "scar_area_percent_bsa"
+    },
+    {
+      "criterium": "postinflammatory_hyperpigmentation_presence"
+    },
+    {
+      "criterium": "postinflammatory_hypopigmentation_presence"
+    },
+    {
+      "criterium": "scar_type_atrophic_presence"
+    },
+    {
+      "criterium": "scar_type_hypertrophic_or_keloid_presence"
+    },
+    {
+      "criterium": "visible_scar_disfigurement_extent"
+    },
+    {
+      "criterium": "linear_excoriation_scar_pattern_presence"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

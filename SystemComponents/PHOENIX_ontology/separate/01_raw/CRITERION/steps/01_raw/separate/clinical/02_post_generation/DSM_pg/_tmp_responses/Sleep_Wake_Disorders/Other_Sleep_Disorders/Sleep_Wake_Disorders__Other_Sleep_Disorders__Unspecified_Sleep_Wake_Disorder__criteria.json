@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "prolonged_sleep_latency"
+    },
+    {
+      "criterium": "sleep_maintenance_difficulty"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "nonrestorative_sleep"
+    },
+    {
+      "criterium": "reduced_sleep_efficiency"
+    },
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "irregular_sleep_schedule"
+    },
+    {
+      "criterium": "circadian_rhythm_disruption"
+    },
+    {
+      "criterium": "nocturnal_awakenings_increase_frequency"
+    },
+    {
+      "criterium": "short_total_sleep_time"
+    },
+    {
+      "criterium": "sleep_fragmentation"
+    },
+    {
+      "criterium": "abnormal_sleep_pattern_variability"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "morbilliform_rash_present"
+    },
+    {
+      "criterium": "mucosal_involvement_present"
+    },
+    {
+      "criterium": "epidermal_detachment_present"
+    },
+    {
+      "criterium": "bullae_present"
+    },
+    {
+      "criterium": "Nikolsky_sign_positive"
+    },
+    {
+      "criterium": "conjunctival_involvement_present"
+    },
+    {
+      "criterium": "oral_mucosal_ulcers_present"
+    },
+    {
+      "criterium": "fever_present"
+    },
+    {
+      "criterium": "facial_edema_present"
+    },
+    {
+      "criterium": "eye_pain_present"
+    },
+    {
+      "criterium": "HLA_B1502_positive"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

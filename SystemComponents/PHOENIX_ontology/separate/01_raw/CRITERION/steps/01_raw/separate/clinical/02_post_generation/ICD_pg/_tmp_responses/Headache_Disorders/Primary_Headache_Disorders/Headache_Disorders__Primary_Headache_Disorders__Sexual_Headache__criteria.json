@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "onset_during_sexual_activity"
+    },
+    {
+      "criterium": "onset_at_orgasm"
+    },
+    {
+      "criterium": "headache_onset_sudden_thunderclap"
+    },
+    {
+      "criterium": "headache_location_occipital"
+    },
+    {
+      "criterium": "headache_location_bilateral"
+    },
+    {
+      "criterium": "headache_intensity_severe"
+    },
+    {
+      "criterium": "associated_nausea_present"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "neck_pain_present"
+    },
+    {
+      "criterium": "recurs_with_sexual_activity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

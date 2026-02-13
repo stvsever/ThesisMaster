@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "low_subjective_arousal_intensity"
+    },
+    {
+      "criterium": "delayed_subjective_arousal_onset"
+    },
+    {
+      "criterium": "reduced_subjective_arousal_to_sexual_stimuli"
+    },
+    {
+      "criterium": "subjective_vs_physio_arousal_discrepancy"
+    },
+    {
+      "criterium": "distress_or_impairment_due_to_lack_of_subjective_arousal"
+    },
+    {
+      "criterium": "reduced_subjective_arousal_during_partner_interaction"
+    },
+    {
+      "criterium": "diminished_subjective_arousal_to_erotic_fantasy_or_imagery"
+    },
+    {
+      "criterium": "low_spontaneous_subjective_arousal"
+    },
+    {
+      "criterium": "preserved_genital_arousal_with_low_subjective_arousal"
+    }
+  ],
+  "estimated_prevalence_percent": 6.0
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "difficulty_sleep_onset"
+    },
+    {
+      "criterium": "frequent_nocturnal_awakenings"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "nonrestorative_sleep"
+    },
+    {
+      "criterium": "excessive_daytime_sleepiness"
+    },
+    {
+      "criterium": "attention_concentration_difficulty"
+    },
+    {
+      "criterium": "irritability_or_mood_lability"
+    },
+    {
+      "criterium": "reduced_sleep_efficiency"
+    },
+    {
+      "criterium": "pain_disrupted_sleep"
+    }
+  ],
+  "estimated_prevalence_percent": 8.5
+}

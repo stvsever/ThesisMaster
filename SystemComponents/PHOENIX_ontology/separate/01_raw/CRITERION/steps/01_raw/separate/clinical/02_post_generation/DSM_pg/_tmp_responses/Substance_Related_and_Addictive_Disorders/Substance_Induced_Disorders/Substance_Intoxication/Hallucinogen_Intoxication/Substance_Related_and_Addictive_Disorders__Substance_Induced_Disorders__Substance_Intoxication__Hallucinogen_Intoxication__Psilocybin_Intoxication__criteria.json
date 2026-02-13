@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "geometric_visual_distortions"
+    },
+    {
+      "criterium": "synesthesia_experience"
+    },
+    {
+      "criterium": "time_distortion"
+    },
+    {
+      "criterium": "depersonalization"
+    },
+    {
+      "criterium": "derealization"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "paranoid_ideation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "pupillary_dilation"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "dizziness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

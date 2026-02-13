@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persistent_cross_gender_identification"
+    },
+    {
+      "criterium": "insistence_being_other_gender"
+    },
+    {
+      "criterium": "desire_to_wear_clothes_of_other_gender"
+    },
+    {
+      "criterium": "preference_for_other_gender_play_and_roles"
+    },
+    {
+      "criterium": "preference_for_toys_games_activities_typically_associated_with_other_gender"
+    },
+    {
+      "criterium": "rejection_of_toys_games_or_roles_typically_associated_with_assigned_gender"
+    },
+    {
+      "criterium": "desire_to_be_treated_as_other_gender"
+    },
+    {
+      "criterium": "distress_with_assigned_sex_characteristics_or_identity"
+    },
+    {
+      "criterium": "conviction_of_identity_as_other_gender"
+    },
+    {
+      "criterium": "internal_experience_of_other_gender_identity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

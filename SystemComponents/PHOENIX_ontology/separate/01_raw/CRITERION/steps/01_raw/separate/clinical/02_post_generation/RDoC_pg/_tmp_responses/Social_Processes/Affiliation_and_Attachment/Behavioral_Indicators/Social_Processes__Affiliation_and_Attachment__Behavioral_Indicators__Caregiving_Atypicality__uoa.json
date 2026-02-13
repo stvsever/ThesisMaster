@@ -1,0 +1,46 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_gene_expression",
+      "CD38_gene_expression",
+      "AVPR1A_gene_expression",
+      "DRD2_gene_expression",
+      "BDNF_gene_expression",
+      "SLC6A4_gene_expression"
+    ],
+    "molecules": [
+      "plasma_oxytocin_level",
+      "vasopressin_level",
+      "BDNF_plasma_level",
+      "cortisol_level"
+    ],
+    "cells": [
+      "OTR_immunoreactive_cell_count",
+      "CD38_immunoreactive_cell_count"
+    ],
+    "circuits": [
+      "amygdala_activation_to_social_stimuli",
+      "ventral_striatum_activation_to_social_reward",
+      "mPFC_social_processing_connectivity"
+    ],
+    "physiology": [
+      "heart_rate_variability",
+      "cortisol_reactivity_to_social_stress",
+      "skin_conductance_response_to_social_stimuli",
+      "respiratory_rate_variability"
+    ],
+    "behavior": [
+      "unpredictable_responsiveness_to_child",
+      "intrusive_excessive_caregiving",
+      "poor_parent_child_emotional_synchrony",
+      "caregiver_withdrawal_behavior"
+    ],
+    "self_report": [
+      "caregiver_burden_score",
+      "caregiver_sensitivity_self_rating",
+      "perceived_child_attachment_quality",
+      "caregiver_anxiety_symptom_score"
+    ]
+  },
+  "estimated_prevalence_percent": 3.2
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "irritable_mood_between_outbursts"
+    },
+    {
+      "criterium": "verbal_aggression_outbursts"
+    },
+    {
+      "criterium": "physical_aggression_outbursts"
+    },
+    {
+      "criterium": "outbursts_provoked_by_minimal_stressor"
+    },
+    {
+      "criterium": "outbursts_occurring_in_multiple_settings"
+    },
+    {
+      "criterium": "irritable_or_angry_mood_persistent_across_social_contexts"
+    },
+    {
+      "criterium": "emotional_lability_with_rapid_mood_changes"
+    },
+    {
+      "criterium": "impaired_functioning_during_irritability_periods"
+    },
+    {
+      "criterium": "reduced_frustration_tolerance"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

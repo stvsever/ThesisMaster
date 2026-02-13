@@ -1,0 +1,33 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "PIEZO2_genotype",
+      "PIEZO2_copy_number_variation"
+    ],
+    "molecules": [
+      "PIEZO2_protein_level",
+      "PIEZO2_mRNA_expression"
+    ],
+    "cells": [
+      "muscle_spindle_Aβ_afferent_neuron",
+      "dorsal_root_ganglion_proprioceptive_neuron"
+    ],
+    "circuits": [
+      "spinal_proprioceptive_reflex_arc",
+      "cerebellar_proprioceptive_network",
+      "primary_somatosensory_cortex_proprioceptive_circuit"
+    ],
+    "physiology": [
+      "joint_angle_error_deg",
+      "kinesthetic_threshold_deg",
+      "proprioceptive_precision_index"
+    ],
+    "behavior": [
+      "joint_position_reproduction_error_deg",
+      "joint_reproduction_latency_ms",
+      "joint_angle_discrimination_threshold_deg"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 3.0
+}

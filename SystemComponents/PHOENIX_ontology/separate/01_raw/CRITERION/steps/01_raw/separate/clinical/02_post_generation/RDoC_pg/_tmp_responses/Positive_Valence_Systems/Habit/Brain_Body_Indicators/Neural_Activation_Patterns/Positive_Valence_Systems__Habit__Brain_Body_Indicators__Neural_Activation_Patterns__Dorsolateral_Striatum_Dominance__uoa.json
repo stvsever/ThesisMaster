@@ -1,0 +1,53 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD1_mRNA_level_DLS",
+      "DRD2_mRNA_level_DLS",
+      "DARPP32_protein_level_DLS",
+      "BDNF_mRNA_level_DLS",
+      "GRIN2B_mRNA_level_DLS"
+    ],
+    "molecules": [
+      "Dopamine_concentration_DLS",
+      "D1_receptor_density_DLS",
+      "D2_receptor_density_DLS",
+      "Glutamate_NMDA_GluN2B_density_DLS",
+      "DARPP32_phosphorylation_state_DLS",
+      "Synaptotagmin_level_DLS"
+    ],
+    "cells": [
+      "DLS_D1_MSN_density",
+      "DLS_D2_MSN_density",
+      "DLS_cholinergic_interneuron_density",
+      "DLS_GABAergic_interneuron_density"
+    ],
+    "circuits": [
+      "DLS_evoked_BOLD_peak_zscore",
+      "DLS_evoked_BOLD_percent_change",
+      "DLS_functional_connectivity_with_motor_cortex",
+      "DLS_connectivity_with_putamen",
+      "DLS_connectivity_with_globus_pallidus_external"
+    ],
+    "physiology": [
+      "DLS_skin_conductance_response_magnitude_during_habit_task",
+      "DLS_pupil_dilation_during_habit_task",
+      "DLS_heart_rate_mean_during_habit_task",
+      "DLS_cortisol_level_during_habit_task"
+    ],
+    "behavior": [
+      "Habit_execution_frequency_per_session",
+      "Response_time_variability_during_habit_blocks",
+      "Perseverative_errors_in_habit_switch_task",
+      "Overlearned_action_automaticity_index",
+      "Repetition_rate_per_minute_in_habit_task"
+    ],
+    "self_report": [
+      "Self_report_habit_strength_scale_score",
+      "Self_report_compulsivity_scale_score",
+      "Self_report_routine_driven_behavior_score",
+      "Self_report_action_control_scale_score",
+      "Self_report_impulsivity_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 2.7
+}

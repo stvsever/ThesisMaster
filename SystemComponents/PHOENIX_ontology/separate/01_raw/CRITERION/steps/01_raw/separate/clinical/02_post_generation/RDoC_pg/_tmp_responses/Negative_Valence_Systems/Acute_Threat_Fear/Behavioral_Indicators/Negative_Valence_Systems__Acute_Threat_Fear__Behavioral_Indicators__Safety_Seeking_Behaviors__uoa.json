@@ -1,0 +1,52 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_Val66Met",
+      "FKBP5_rs1360780",
+      "COMT_rs4680_Val158Met",
+      "SLC6A4_promoter_VNTR_5HTTLPR"
+    ],
+    "molecules": [
+      "cortisol_plasma",
+      "norepinephrine_plasma",
+      "glutamate_synaptic_concentration",
+      "GABA_synaptic_concentration",
+      "CRH_plasma"
+    ],
+    "cells": [
+      "amygdala_neuron_activity",
+      "prefrontal_cortex_neuron_activity",
+      "hippocampus_neuron_activity",
+      "gabaergic_interneuron_density_pfc"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_connectivity",
+      "amygdala_hippocampus_connectivity",
+      "insula_anterior_cingulate_connectivity",
+      "prefrontal_striatal_pathways_activation",
+      "thalamus_amygdala_relay_efficiency"
+    ],
+    "physiology": [
+      "skin_conductance_response",
+      "heart_rate_increase",
+      "respiratory_rate_increase",
+      "pupillary_dilation",
+      "startle_reflex_amplitude"
+    ],
+    "behavior": [
+      "avoidance_frequency",
+      "safety_check_frequency",
+      "escape_attempts_count",
+      "avoidance_duration_seconds",
+      "reassurance_request_count"
+    ],
+    "self_report": [
+      "safety_behavior_scale_total_score",
+      "state_fear_questionnaire_score",
+      "trait_anxiety_scale_score",
+      "avoidance_questionnaire_score",
+      "perceived_threat_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 12.0
+}

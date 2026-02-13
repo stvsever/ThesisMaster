@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "receptive_vocab_deficit"
+    },
+    {
+      "criterium": "simple_sentence_comprehension_deficit"
+    },
+    {
+      "criterium": "complex_sentence_comprehension_deficit"
+    },
+    {
+      "criterium": "multi_step_instruction_following_deficit"
+    },
+    {
+      "criterium": "pronoun_resolution_deficit"
+    },
+    {
+      "criterium": "figurative_language_understanding_deficit"
+    },
+    {
+      "criterium": "narrative_comprehension_deficit"
+    },
+    {
+      "criterium": "semantic_relationship_inference_deficit"
+    },
+    {
+      "criterium": "phonological_processing_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

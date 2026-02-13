@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "post_laminectomy_pain_present"
+    },
+    {
+      "criterium": "radicular_leg_pain_present"
+    },
+    {
+      "criterium": "allodynia_present"
+    },
+    {
+      "criterium": "hyperalgesia_present"
+    },
+    {
+      "criterium": "burning_pain_present"
+    },
+    {
+      "criterium": "electric_shock_pain_present"
+    },
+    {
+      "criterium": "paresthesias_present"
+    },
+    {
+      "criterium": "sensory_hypoesthesia_dermatomal_present"
+    },
+    {
+      "criterium": "motor_weakness_lower_extremities_present"
+    },
+    {
+      "criterium": "hyporeflexia_lower_extremities_present"
+    },
+    {
+      "criterium": "functional_adl_impairment_present"
+    },
+    {
+      "criterium": "sleep_disturbance_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

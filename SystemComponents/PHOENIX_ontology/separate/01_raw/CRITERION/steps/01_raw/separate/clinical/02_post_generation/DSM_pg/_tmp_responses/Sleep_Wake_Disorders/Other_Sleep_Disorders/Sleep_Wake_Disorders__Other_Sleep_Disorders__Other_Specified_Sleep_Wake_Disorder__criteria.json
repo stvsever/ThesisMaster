@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_onset_difficulty"
+    },
+    {
+      "criterium": "sleep_maintenance_difficulty"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "nonrestorative_sleep"
+    },
+    {
+      "criterium": "circadian_rhythm_discrepancy"
+    },
+    {
+      "criterium": "sleep_schedule_variability"
+    },
+    {
+      "criterium": "nocturnal_awakening_frequency"
+    },
+    {
+      "criterium": "daytime_sleepiness"
+    },
+    {
+      "criterium": "daytime_napping_excessive"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

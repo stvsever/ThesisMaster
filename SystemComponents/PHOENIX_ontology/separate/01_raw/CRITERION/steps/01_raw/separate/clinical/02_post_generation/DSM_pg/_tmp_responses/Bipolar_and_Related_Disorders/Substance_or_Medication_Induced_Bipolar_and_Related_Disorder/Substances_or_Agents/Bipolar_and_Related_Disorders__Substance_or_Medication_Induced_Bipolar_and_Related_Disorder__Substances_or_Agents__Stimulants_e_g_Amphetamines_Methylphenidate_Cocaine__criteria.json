@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "euphoric_mood"
+    },
+    {
+      "criterium": "irritable_mood"
+    },
+    {
+      "criterium": "grandiosity"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "decreased_need_for_sleep"
+    },
+    {
+      "criterium": "increased_psychomotor_activity"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "pupillary_dilation"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "formication_hallucinations"
+    },
+    {
+      "criterium": "paranoid_delusions"
+    },
+    {
+      "criterium": "weight_loss"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

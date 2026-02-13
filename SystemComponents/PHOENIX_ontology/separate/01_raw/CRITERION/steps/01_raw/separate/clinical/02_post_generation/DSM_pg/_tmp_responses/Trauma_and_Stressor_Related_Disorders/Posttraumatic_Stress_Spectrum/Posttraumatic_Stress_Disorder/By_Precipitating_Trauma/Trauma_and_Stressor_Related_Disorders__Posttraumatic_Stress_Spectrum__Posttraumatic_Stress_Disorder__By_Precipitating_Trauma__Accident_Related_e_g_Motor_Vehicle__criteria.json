@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_reexperiencing_of_accident"
+    },
+    {
+      "criterium": "distressing_traumatic_dreams_about_accident"
+    },
+    {
+      "criterium": "involuntary_memories_of_accident"
+    },
+    {
+      "criterium": "hypervigilance_to_traffic_signals"
+    },
+    {
+      "criterium": "exaggerated_startle_response_to_traffic_cues"
+    },
+    {
+      "criterium": "driving_or_vehicle_avoidance_due_to_accident_reminders"
+    },
+    {
+      "criterium": "avoidance_of_thoughts_related_to_accident"
+    },
+    {
+      "criterium": "avoidance_of_feelings_related_to_accident"
+    },
+    {
+      "criterium": "persistent_negative_beliefs_about_self_related_to_accident"
+    },
+    {
+      "criterium": "emotional_numbing"
+    },
+    {
+      "criterium": "diminished_interest_or_pleasurable_engagement_in_activities"
+    },
+    {
+      "criterium": "sleep_disturbance_including_insomnia_or_nightmares_related_to_accident"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

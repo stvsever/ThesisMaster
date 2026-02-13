@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "multidomain_developmental_delay"
+    },
+    {
+      "criterium": "delayed_gross_motor_milestones"
+    },
+    {
+      "criterium": "delayed_fine_motor_skill_development"
+    },
+    {
+      "criterium": "receptive_language_delay"
+    },
+    {
+      "criterium": "expressive_language_delay"
+    },
+    {
+      "criterium": "global_cognitive_delay"
+    },
+    {
+      "criterium": "adaptive_behavior_deficits"
+    },
+    {
+      "criterium": "social_communication_deficits"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

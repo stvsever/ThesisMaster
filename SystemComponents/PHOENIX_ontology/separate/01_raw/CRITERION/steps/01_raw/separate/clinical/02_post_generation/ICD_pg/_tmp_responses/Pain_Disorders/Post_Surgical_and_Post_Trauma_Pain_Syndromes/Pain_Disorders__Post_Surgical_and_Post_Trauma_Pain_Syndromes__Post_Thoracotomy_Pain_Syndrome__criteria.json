@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intercostal_neuropathic_pain_present"
+    },
+    {
+      "criterium": "chest_wall_allodynia_light_touch_present"
+    },
+    {
+      "criterium": "thoracic_dermatomal_hyperalgesia_to_punctate_stimuli_present"
+    },
+    {
+      "criterium": "thoracic_dermatomal_paresthesias_present"
+    },
+    {
+      "criterium": "spontaneous_thoracic_pain_paroxysms_present"
+    },
+    {
+      "criterium": "pain_exacerbation_by_coughing_or_deep_breathing_present"
+    },
+    {
+      "criterium": "pain_exacerbation_by_trunk_movement_present"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_pain_present"
+    },
+    {
+      "criterium": "mood_disturbance_related_to_pain_present"
+    },
+    {
+      "criterium": "fatigue_related_to_chronic_pain_present"
+    },
+    {
+      "criterium": "functional_impairment_in_daily_activities_present"
+    },
+    {
+      "criterium": "thoracic_wall_tenderness_on_exam_present"
+    },
+    {
+      "criterium": "sensory_hypoesthesia_thoracic_dermatomes_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

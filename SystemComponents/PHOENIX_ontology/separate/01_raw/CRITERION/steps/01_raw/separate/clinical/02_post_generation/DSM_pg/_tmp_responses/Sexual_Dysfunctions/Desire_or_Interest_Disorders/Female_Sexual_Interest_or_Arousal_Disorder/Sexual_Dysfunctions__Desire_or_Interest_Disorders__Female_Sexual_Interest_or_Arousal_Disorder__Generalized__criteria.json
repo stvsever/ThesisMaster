@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "decreased_intrinsic_sexual_desire"
+    },
+    {
+      "criterium": "decreased_sexual_thoughts"
+    },
+    {
+      "criterium": "decreased_sexual_fantasies"
+    },
+    {
+      "criterium": "reduced_initiation_of_sexual_activity"
+    },
+    {
+      "criterium": "reduced_responsiveness_to_partner_sexual_advances"
+    },
+    {
+      "criterium": "inadequate_genital_lubrication_in_response_to_stimulation"
+    },
+    {
+      "criterium": "reduced_genital_pudendal_engorgement_in_response_to_stimulation"
+    },
+    {
+      "criterium": "decreased_subjective_arousal_in_response_to_sexual_stimulation"
+    },
+    {
+      "criterium": "decreased_sensory_erotic_response_to_touch"
+    },
+    {
+      "criterium": "decreased_sexual_responsiveness_across_multiple_contexts"
+    }
+  ],
+  "estimated_prevalence_percent": 6.5
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "caloric_restriction_behavior"
+    },
+    {
+      "criterium": "intense_fear_of_weight_gain"
+    },
+    {
+      "criterium": "distorted_body_image"
+    },
+    {
+      "criterium": "preoccupation_with_food_and_weight"
+    },
+    {
+      "criterium": "significant_weight_loss_history"
+    },
+    {
+      "criterium": "recurrent_excessive_exercise"
+    },
+    {
+      "criterium": "self_induced_vomiting_behavior"
+    },
+    {
+      "criterium": "laxative_or_diuretic_abuse"
+    },
+    {
+      "criterium": "recurrent_binge_eating_episodes"
+    },
+    {
+      "criterium": "bradycardia"
+    },
+    {
+      "criterium": "hypotension"
+    },
+    {
+      "criterium": "lanugo_hair_presence"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

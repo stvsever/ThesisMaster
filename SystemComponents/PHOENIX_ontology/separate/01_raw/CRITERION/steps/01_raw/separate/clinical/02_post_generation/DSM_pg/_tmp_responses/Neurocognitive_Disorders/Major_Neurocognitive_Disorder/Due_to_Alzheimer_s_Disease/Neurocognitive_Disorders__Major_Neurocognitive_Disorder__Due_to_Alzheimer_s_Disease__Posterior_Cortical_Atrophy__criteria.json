@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "simultanagnosia"
+    },
+    {
+      "criterium": "optic_ataxia"
+    },
+    {
+      "criterium": "oculomotor_apraxia"
+    },
+    {
+      "criterium": "constructional_apraxia"
+    },
+    {
+      "criterium": "alexia"
+    },
+    {
+      "criterium": "visual_object_agnosia"
+    },
+    {
+      "criterium": "prosopagnosia"
+    },
+    {
+      "criterium": "visuospatial_processing_deficit"
+    },
+    {
+      "criterium": "topographic_disorientation"
+    },
+    {
+      "criterium": "dorsal_stream_dysfunction"
+    },
+    {
+      "criterium": "depth_perception_deficit"
+    },
+    {
+      "criterium": "visuomotor_coordination_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

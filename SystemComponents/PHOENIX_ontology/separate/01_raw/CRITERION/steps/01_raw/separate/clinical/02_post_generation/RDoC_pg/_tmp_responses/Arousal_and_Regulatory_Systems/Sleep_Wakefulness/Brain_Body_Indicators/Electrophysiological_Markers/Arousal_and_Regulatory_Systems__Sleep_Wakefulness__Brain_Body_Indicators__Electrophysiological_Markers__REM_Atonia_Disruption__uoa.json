@@ -1,0 +1,57 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DBH",
+      "GABRA1",
+      "GLRA1",
+      "SLC6A4",
+      "MAOA"
+    ],
+    "molecules": [
+      "GABA",
+      "glycine",
+      "glutamate",
+      "norepinephrine",
+      "serotonin",
+      "acetylcholine"
+    ],
+    "cells": [
+      "Locus_coeruleus_noradrenergic_neurons",
+      "Raphe_serotonin_neurons",
+      "SLD_glutamatergic_neurons",
+      "LDT_cholinergic_neurons",
+      "PPT_cholinergic_neurons",
+      "Medullary_glycinergic_neurons"
+    ],
+    "circuits": [
+      "SLD_REM_on_circuit",
+      "Locus_coeruleus_REM_off_circuit",
+      "Raphe_REM_off_circuit",
+      "LDT_PPT_REM_on_off_network",
+      "Ventral_medulla_atonia_pathway",
+      "Pontine_rem_atonia_modulation_network"
+    ],
+    "physiology": [
+      "chin_EMG_tone_during_REM",
+      "chin_EMG_burst_frequency_during_REM",
+      "eye_movement_density_during_REM",
+      "heart_rate_during_REM",
+      "heart_rate_variability_during_REM",
+      "respiratory_rate_during_REM",
+      "skin_conductance_during_REM"
+    ],
+    "behavior": [
+      "dream_enactment_movements_during_REM",
+      "arm_movement_bursts_during_REM",
+      "leg_movement_bursts_during_REM",
+      "vocalization_during_REM"
+    ],
+    "self_report": [
+      "dream_recall_frequency",
+      "dream_enactment_perception",
+      "subjective_motor_activity_during_REM",
+      "RBDSQ_total_score"
+    ]
+  },
+  "estimated_prevalence_percent": 0.5
+}

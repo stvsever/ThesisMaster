@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "focal_neurologic_deficit"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "seizure_activity"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "neuropsychiatric_symptoms"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "visual_disturbance"
+    },
+    {
+      "criterium": "papilledema"
+    },
+    {
+      "criterium": "meningeal_signs"
+    },
+    {
+      "criterium": "speech_language_impairment"
+    },
+    {
+      "criterium": "stroke_like_event"
+    },
+    {
+      "criterium": "nystagmus"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0003
+}

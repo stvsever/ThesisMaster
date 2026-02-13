@@ -1,0 +1,89 @@
+{
+  "domain_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction",
+  "domain_root_path": [
+    "BIO",
+    "Cognitive_Capacity_and_Brain_Health",
+    "Neurotoxin_and_Exposure_Risk_Reduction"
+  ],
+  "leaf_count": 9,
+  "total_edges_in_subtree": 11,
+  "evaluated_pairs": 11,
+  "violations_count": 11,
+  "violation_rate": 1.0,
+  "llm_calls": 1,
+  "violations": [
+    "Heavy_Metals_and_Environmental_Toxins > Air_Quality_Monitor",
+    "Heavy_Metals_and_Environmental_Toxins > HEPA_Air_Purification",
+    "Heavy_Metals_and_Environmental_Toxins > Heavy_Metal_Screen",
+    "Heavy_Metals_and_Environmental_Toxins > Lead_Exposure_Risk_Assessment_Framework",
+    "Heavy_Metals_and_Environmental_Toxins > Pesticide_Exposure_Reduction",
+    "Heavy_Metals_and_Environmental_Toxins > Solvent_Exposure_Reduction",
+    "Neurotoxin_and_Exposure_Risk_Reduction > Heavy_Metals_and_Environmental_Toxins",
+    "Neurotoxin_and_Exposure_Risk_Reduction > Sleep_Disordered_Breathing_and_Hypoxia_Risk",
+    "Sleep_Disordered_Breathing_and_Hypoxia_Risk > Home_Sleep_Testing_Referral",
+    "Sleep_Disordered_Breathing_and_Hypoxia_Risk > Polysomnography_Referral",
+    "Sleep_Disordered_Breathing_and_Hypoxia_Risk > Pulse_Oximeter"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Neurotoxin_and_Exposure_Risk_Reduction > Heavy_Metals_and_Environmental_Toxins",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins"
+    },
+    {
+      "pair": "Neurotoxin_and_Exposure_Risk_Reduction > Sleep_Disordered_Breathing_and_Hypoxia_Risk",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk"
+    },
+    {
+      "pair": "Heavy_Metals_and_Environmental_Toxins > Air_Quality_Monitor",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins / Air_Quality_Monitor"
+    },
+    {
+      "pair": "Heavy_Metals_and_Environmental_Toxins > HEPA_Air_Purification",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins / HEPA_Air_Purification"
+    },
+    {
+      "pair": "Heavy_Metals_and_Environmental_Toxins > Heavy_Metal_Screen",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins / Heavy_Metal_Screen"
+    },
+    {
+      "pair": "Heavy_Metals_and_Environmental_Toxins > Lead_Exposure_Risk_Assessment_Framework",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins / Lead_Exposure_Risk_Assessment_Framework"
+    },
+    {
+      "pair": "Heavy_Metals_and_Environmental_Toxins > Pesticide_Exposure_Reduction",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins / Pesticide_Exposure_Reduction"
+    },
+    {
+      "pair": "Heavy_Metals_and_Environmental_Toxins > Solvent_Exposure_Reduction",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Heavy_Metals_and_Environmental_Toxins / Solvent_Exposure_Reduction"
+    },
+    {
+      "pair": "Sleep_Disordered_Breathing_and_Hypoxia_Risk > Home_Sleep_Testing_Referral",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk / Home_Sleep_Testing_Referral"
+    },
+    {
+      "pair": "Sleep_Disordered_Breathing_and_Hypoxia_Risk > Polysomnography_Referral",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk / Polysomnography_Referral"
+    },
+    {
+      "pair": "Sleep_Disordered_Breathing_and_Hypoxia_Risk > Pulse_Oximeter",
+      "parent_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk",
+      "child_path": "BIO / Cognitive_Capacity_and_Brain_Health / Neurotoxin_and_Exposure_Risk_Reduction / Sleep_Disordered_Breathing_and_Hypoxia_Risk / Pulse_Oximeter"
+    }
+  ],
+  "cache_key": "d9ad33c92c4ed47ba82740a83e8a14a121e4e8b3",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 34.176
+}

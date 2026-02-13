@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "increased_impulsivity"
+    },
+    {
+      "criterium": "unprovoked_aggression"
+    },
+    {
+      "criterium": "disinhibited_social_behaviors"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "risk_taking_behaviors"
+    },
+    {
+      "criterium": "impaired_judgment"
+    },
+    {
+      "criterium": "disinhibited_sexual_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

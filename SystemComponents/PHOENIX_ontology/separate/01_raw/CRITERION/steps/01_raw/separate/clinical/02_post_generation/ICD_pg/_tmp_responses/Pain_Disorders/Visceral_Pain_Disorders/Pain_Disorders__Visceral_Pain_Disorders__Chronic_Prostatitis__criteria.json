@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pelvic_perineal_pain_presence"
+    },
+    {
+      "criterium": "sitting_provoked_pelvic_pain"
+    },
+    {
+      "criterium": "ejaculatory_pain_or_discomfort"
+    },
+    {
+      "criterium": "dysuria"
+    },
+    {
+      "criterium": "urinary_frequency"
+    },
+    {
+      "criterium": "urinary_urgency"
+    },
+    {
+      "criterium": "nocturia"
+    },
+    {
+      "criterium": "testicular_pain"
+    },
+    {
+      "criterium": "penile_pain"
+    },
+    {
+      "criterium": "prostate_tenderness_on_DRE"
+    },
+    {
+      "criterium": "pain_related_anxiety"
+    },
+    {
+      "criterium": "sleep_disturbance_from_pelvic_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

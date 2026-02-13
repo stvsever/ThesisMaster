@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nonnutritive_substance_ingestion"
+    },
+    {
+      "criterium": "soil_or_dirt_ingestion"
+    },
+    {
+      "criterium": "paper_ingestion"
+    },
+    {
+      "criterium": "fabric_or_cloth_ingestion"
+    },
+    {
+      "criterium": "hair_ingestion"
+    },
+    {
+      "criterium": "metal_object_ingestion"
+    },
+    {
+      "criterium": "plastic_material_ingestion"
+    },
+    {
+      "criterium": "stone_or_pebble_ingestion"
+    },
+    {
+      "criterium": "chalk_or_paint_ingestion"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

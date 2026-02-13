@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_expansive_mood"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "grandiosity"
+    },
+    {
+      "criterium": "increased_goal_directed_activity"
+    },
+    {
+      "criterium": "decreased_need_for_sleep"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "distractibility"
+    },
+    {
+      "criterium": "reckless_or_impulsive_behaviors"
+    },
+    {
+      "criterium": "psychotic_features"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

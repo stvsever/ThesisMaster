@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inability_to_achieve_erection"
+    },
+    {
+      "criterium": "inability_to_maintain_erection"
+    },
+    {
+      "criterium": "insufficient_penile_rigidity_to_stimulation"
+    },
+    {
+      "criterium": "absence_of_spontaneous_morning_erections"
+    },
+    {
+      "criterium": "recurrent_erectile_dysfunction_during_intercourse_attempts"
+    },
+    {
+      "criterium": "decreased_penile_turgidity_response_to_arousal"
+    },
+    {
+      "criterium": "rapid_loss_of_erection_after_arousal"
+    },
+    {
+      "criterium": "diminished_sensation_to_erogenous_stimulation"
+    },
+    {
+      "criterium": "absence_of_nocturnal_erections"
+    },
+    {
+      "criterium": "erectile_dysfunction_during_psychogenic_arousal"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

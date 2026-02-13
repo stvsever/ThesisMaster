@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "iq_lt_70_confirmed"
+    },
+    {
+      "criterium": "adaptive_functioning_below_expected"
+    },
+    {
+      "criterium": "language_acquisition_delay"
+    },
+    {
+      "criterium": "social_reciprocity_deficits"
+    },
+    {
+      "criterium": "joint_attention_deficit"
+    },
+    {
+      "criterium": "restricted_repetitive_behaviors_present"
+    },
+    {
+      "criterium": "sensory_processing_differences"
+    },
+    {
+      "criterium": "motor_development_delay"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

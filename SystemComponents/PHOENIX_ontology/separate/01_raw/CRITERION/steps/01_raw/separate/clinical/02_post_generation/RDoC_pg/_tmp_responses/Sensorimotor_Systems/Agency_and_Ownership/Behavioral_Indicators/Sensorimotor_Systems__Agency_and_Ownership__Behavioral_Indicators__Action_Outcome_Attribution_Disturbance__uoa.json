@@ -1,0 +1,45 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_rs1800497_genotype",
+      "COMT_V158M_genotype",
+      "BDNF_V66M_genotype"
+    ],
+    "molecules": [
+      "dopamine_tone_in_reward_circuit",
+      "glutamate_concentration_prefrontal_cortex",
+      "GABA_concentration_prefrontal_cortex",
+      "oxytocin_plasma_concentration"
+    ],
+    "cells": [
+      "pyramidal_neuron_count_in_dorsolateral_prefrontal_cortex",
+      "parvalbumin_interneuron_count_in_prefrontal_cortex",
+      "microglial_density_in_prefrontal_cortex"
+    ],
+    "circuits": [
+      "OFC_to_VS_connectivity_strength",
+      "OFC_to_DLPFC_connectivity_strength",
+      "ACC_to_PFC_connectivity_strength",
+      "frontostriatal_connectivity_strength"
+    ],
+    "physiology": [
+      "pupil_dilation_rate_during_outcome_feedback",
+      "skin_conductance_response_to_outcome_feedback",
+      "heart_rate_variability_during_action_feedback",
+      "ERN_amplitude_during_outcome_feedback"
+    ],
+    "behavior": [
+      "contingency_estimation_error_rate",
+      "self_agency_attribution_rate",
+      "external_agency_attribution_rate",
+      "causal_attribution_error_rate"
+    ],
+    "self_report": [
+      "perceived_action_control_disruption",
+      "ownership_sense_disruption",
+      "intentionality_attribution_tendency",
+      "agency_attribution_bias_score"
+    ]
+  },
+  "estimated_prevalence_percent": 1.2
+}

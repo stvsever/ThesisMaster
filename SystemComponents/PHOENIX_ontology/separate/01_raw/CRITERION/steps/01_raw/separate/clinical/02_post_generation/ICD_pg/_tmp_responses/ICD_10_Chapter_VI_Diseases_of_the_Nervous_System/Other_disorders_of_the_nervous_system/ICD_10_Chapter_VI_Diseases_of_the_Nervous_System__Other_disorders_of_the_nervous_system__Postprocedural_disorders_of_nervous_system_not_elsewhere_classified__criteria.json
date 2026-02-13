@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "postproc_delirium_presence"
+    },
+    {
+      "criterium": "postproc_anterograde_memory_impairment"
+    },
+    {
+      "criterium": "postproc_retrograde_memory_impairment"
+    },
+    {
+      "criterium": "postproc_attention_deficit"
+    },
+    {
+      "criterium": "postproc_executive_function_dysfunction"
+    },
+    {
+      "criterium": "postproc_language_impairment"
+    },
+    {
+      "criterium": "postproc_visuospatial_deficit"
+    },
+    {
+      "criterium": "postproc_apraxia"
+    },
+    {
+      "criterium": "postproc_seizure_event"
+    },
+    {
+      "criterium": "postproc_headache"
+    },
+    {
+      "criterium": "postproc_neuropathic_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

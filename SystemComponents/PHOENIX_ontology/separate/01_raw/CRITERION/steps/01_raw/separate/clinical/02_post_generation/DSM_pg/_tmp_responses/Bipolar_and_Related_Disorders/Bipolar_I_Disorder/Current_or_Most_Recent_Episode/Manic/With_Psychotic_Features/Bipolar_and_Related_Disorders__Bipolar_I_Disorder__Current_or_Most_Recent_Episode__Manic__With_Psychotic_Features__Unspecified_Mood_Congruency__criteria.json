@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_mood"
+    },
+    {
+      "criterium": "increased_energy_goal_directed_activity"
+    },
+    {
+      "criterium": "decreased_need_for_sleep"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "grandiose_delusions"
+    },
+    {
+      "criterium": "delusions_of_omnipotence"
+    },
+    {
+      "criterium": "delusions_of_special_powers"
+    },
+    {
+      "criterium": "auditory_hallucinations_mood_congruent"
+    },
+    {
+      "criterium": "visual_hallucinations_mood_congruent"
+    },
+    {
+      "criterium": "reckless_or_risk_taking_behaviors"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

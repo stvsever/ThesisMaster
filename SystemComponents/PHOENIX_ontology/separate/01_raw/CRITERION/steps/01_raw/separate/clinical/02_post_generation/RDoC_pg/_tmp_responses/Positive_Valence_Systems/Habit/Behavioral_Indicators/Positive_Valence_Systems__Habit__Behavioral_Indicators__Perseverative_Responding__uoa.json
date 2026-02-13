@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2",
+      "SLC6A3",
+      "COMT",
+      "BDNF",
+      "PPP1R1B"
+    ],
+    "molecules": [
+      "Dopamine",
+      "Dopamine_D2_Receptor_Protein",
+      "BDNF_Protein",
+      "Glutamate_NMDA_Receptor_NR2B_Protein",
+      "DARPP32_Phosphorylated"
+    ],
+    "cells": [
+      "Medium_Spiny_Neuron_Count_Dorsolateral_Striatum",
+      "Medium_Spiny_Neuron_Count_Ventral_Striatum",
+      "Interneuron_Count_Prefrontal_Cortex",
+      "Dopaminergic_Neuron_Density_Substantia_Nigra",
+      "GABAergic_Interneuron_Count_Prefrontal_Cortex"
+    ],
+    "circuits": [
+      "DLS_PFC_Connectivity_Strength",
+      "NAcc_PFC_Connectivity_Strength",
+      "Cortico_Basal_Ganglia_Thalamo_Circuit_Efficiency",
+      "OFC_Striatum_Circuit_Connectivity",
+      "STN_GPi_Pathway_Activity"
+    ],
+    "physiology": [
+      "Heart_Rate_Variability",
+      "Pupil_Dilation_Index",
+      "Skin_Conductance_Response",
+      "Cortisol_Level",
+      "Blood_Pressure"
+    ],
+    "behavior": [
+      "WCST_Perseverative_Errors",
+      "Probabilistic_Reversal_Learning_Perseveration_Errors",
+      "Perseveration_RT",
+      "Repeated_Response_Rate",
+      "Habitual_Response_Tendency",
+      "Contingency_Shift_Error_Rate"
+    ],
+    "self_report": [
+      "Self_Report_Habit_Score",
+      "Self_Report_Compulsivity_Score",
+      "Self_Report_Impulsivity_Score",
+      "Self_Report_Rigidity_Score"
+    ]
+  },
+  "estimated_prevalence_percent": 3.0
+}

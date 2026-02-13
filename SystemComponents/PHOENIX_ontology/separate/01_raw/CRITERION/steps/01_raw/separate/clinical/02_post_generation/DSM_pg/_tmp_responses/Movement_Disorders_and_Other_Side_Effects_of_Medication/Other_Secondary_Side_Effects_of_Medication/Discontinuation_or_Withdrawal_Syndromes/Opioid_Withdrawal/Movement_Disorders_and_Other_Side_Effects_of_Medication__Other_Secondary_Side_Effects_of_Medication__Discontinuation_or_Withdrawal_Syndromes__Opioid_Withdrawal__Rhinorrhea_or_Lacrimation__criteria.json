@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rhinorrhea_presence"
+    },
+    {
+      "criterium": "rhinorrhea_frequency_per_hour"
+    },
+    {
+      "criterium": "rhinorrhea_volume_ml_per_hour"
+    },
+    {
+      "criterium": "rhinorrhea_discharge_quality_watery"
+    },
+    {
+      "criterium": "rhinorrhea_discharge_color_clear"
+    },
+    {
+      "criterium": "rhinorrhea_bilateral_symptoms"
+    },
+    {
+      "criterium": "lacrimation_presence"
+    },
+    {
+      "criterium": "lacrimation_frequency_per_hour"
+    },
+    {
+      "criterium": "lacrimation_intensity_severe"
+    },
+    {
+      "criterium": "lacrimation_bilateral_symptoms"
+    },
+    {
+      "criterium": "lacrimation_discharge_quality_watery"
+    },
+    {
+      "criterium": "lacrimation_conjunctival_irritation_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

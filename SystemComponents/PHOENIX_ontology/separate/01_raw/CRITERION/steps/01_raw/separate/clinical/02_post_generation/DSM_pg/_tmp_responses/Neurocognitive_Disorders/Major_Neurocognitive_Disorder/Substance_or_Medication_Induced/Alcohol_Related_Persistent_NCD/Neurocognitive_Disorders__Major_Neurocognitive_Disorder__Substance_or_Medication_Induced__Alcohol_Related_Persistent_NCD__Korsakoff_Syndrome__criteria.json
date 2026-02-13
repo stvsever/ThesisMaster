@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "confabulation_present"
+    },
+    {
+      "criterium": "retrograde_memory_deficit"
+    },
+    {
+      "criterium": "declarative_memory_deficit"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "procedural_memory_preserved"
+    },
+    {
+      "criterium": "rapid_forgetting_rate"
+    },
+    {
+      "criterium": "disorientation_to_time_or_place"
+    },
+    {
+      "criterium": "apathy_or_reduced_drive"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "anosognosia_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

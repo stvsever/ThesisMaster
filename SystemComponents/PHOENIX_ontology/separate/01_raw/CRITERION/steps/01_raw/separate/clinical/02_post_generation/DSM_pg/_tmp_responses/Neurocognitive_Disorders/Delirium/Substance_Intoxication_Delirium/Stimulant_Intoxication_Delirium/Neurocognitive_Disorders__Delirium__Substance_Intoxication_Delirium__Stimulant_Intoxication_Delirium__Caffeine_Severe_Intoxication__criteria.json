@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "disturbance_in_attention"
+    },
+    {
+      "criterium": "disturbance_in_awareness"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "restlessness"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bradykinesia"
+    },
+    {
+      "criterium": "tremor_resting"
+    },
+    {
+      "criterium": "tremor_postural"
+    },
+    {
+      "criterium": "rigidity"
+    },
+    {
+      "criterium": "gait_disturbance"
+    },
+    {
+      "criterium": "postural_instability"
+    },
+    {
+      "criterium": "chorea"
+    },
+    {
+      "criterium": "dystonia"
+    },
+    {
+      "criterium": "athetosis"
+    },
+    {
+      "criterium": "ballism"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "tardive_dyskinesia"
+    },
+    {
+      "criterium": "akathisia"
+    },
+    {
+      "criterium": "tics"
+    },
+    {
+      "criterium": "dysarthria"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

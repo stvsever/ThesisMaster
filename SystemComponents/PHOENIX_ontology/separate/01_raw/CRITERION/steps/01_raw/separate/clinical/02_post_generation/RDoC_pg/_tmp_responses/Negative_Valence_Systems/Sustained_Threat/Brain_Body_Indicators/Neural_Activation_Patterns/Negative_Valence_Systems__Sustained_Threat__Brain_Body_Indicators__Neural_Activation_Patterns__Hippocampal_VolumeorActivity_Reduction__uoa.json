@@ -1,0 +1,43 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_V_variant",
+      "APOE_e4_carrier_status",
+      "FKBP5_promoter_methylation_level",
+      "NR3C1_promoter_methylation_level"
+    ],
+    "molecules": [
+      "BDNF_protein_level",
+      "Cortisol_plasma_concentration",
+      "Glucocorticoid_receptor_mRNA_level",
+      "NMDA_NR2B_subunit_expression"
+    ],
+    "cells": [
+      "CA1_pyramidal_cell_density",
+      "dentate_gyrus_neurogenesis_marker_density",
+      "astrocyte_density_in_hippocampus"
+    ],
+    "circuits": [
+      "hippocampus_BOLD_signal_reduction",
+      "hippocampus_amygdala_functional_connectivity_reduction",
+      "prefrontal_hippocampal_connectivity_reduction",
+      "medial_temporal_network_efficiency_reduction"
+    ],
+    "physiology": [
+      "hippocampal_volume_mm3",
+      "hippocampal_CBF_ml_per_100g_per_min",
+      "hippocampal_T2_signal_intensity"
+    ],
+    "behavior": [
+      "contextual_memory_recall_accuracy",
+      "spatial_navigation_error_rate",
+      "fear_conditioning_discrimination_performance"
+    ],
+    "self_report": [
+      "subjective_memory_decline_score",
+      "perceived_hippocampal_function_score",
+      "episodic_memory_complaint_score"
+    ]
+  },
+  "estimated_prevalence_percent": 4.5
+}

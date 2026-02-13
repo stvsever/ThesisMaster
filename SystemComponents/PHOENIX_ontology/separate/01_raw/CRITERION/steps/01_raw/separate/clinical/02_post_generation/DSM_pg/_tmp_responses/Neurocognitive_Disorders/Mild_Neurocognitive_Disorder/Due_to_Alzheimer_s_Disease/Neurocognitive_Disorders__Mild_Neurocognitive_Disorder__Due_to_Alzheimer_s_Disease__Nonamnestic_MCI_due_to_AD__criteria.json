@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "confrontation_naming_decline"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "phonemic_fluency_decline"
+    },
+    {
+      "criterium": "semantic_fluency_decline"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "set_shifting_deficit"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "visuospatial_construction_deficit"
+    },
+    {
+      "criterium": "visuospatial_perception_deficit"
+    },
+    {
+      "criterium": "ideomotor_apraxia"
+    },
+    {
+      "criterium": "constructional_apraxia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "automatic_pulling_occurrence"
+    },
+    {
+      "criterium": "focused_pulling_occurrence"
+    },
+    {
+      "criterium": "mixed_style_coexistence_across_contexts"
+    },
+    {
+      "criterium": "scalp_pulling_present"
+    },
+    {
+      "criterium": "eyebrow_pulling_present"
+    },
+    {
+      "criterium": "eyelash_pulling_present"
+    },
+    {
+      "criterium": "other_body_site_pulling_present"
+    },
+    {
+      "criterium": "premonitory_urge_present_before_pulling"
+    },
+    {
+      "criterium": "relief_after_pulling_observed"
+    },
+    {
+      "criterium": "repetitive_pulling_movements"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

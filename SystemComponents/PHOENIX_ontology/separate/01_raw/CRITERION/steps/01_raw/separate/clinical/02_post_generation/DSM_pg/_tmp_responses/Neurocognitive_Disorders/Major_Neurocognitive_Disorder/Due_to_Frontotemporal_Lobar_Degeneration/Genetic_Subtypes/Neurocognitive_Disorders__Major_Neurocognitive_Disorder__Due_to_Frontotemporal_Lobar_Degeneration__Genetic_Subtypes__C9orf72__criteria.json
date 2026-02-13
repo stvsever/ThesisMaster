@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "behavioral_disinhibition"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "loss_of_empathy"
+    },
+    {
+      "criterium": "repetitive_stereotypic_behaviors"
+    },
+    {
+      "criterium": "hyperorality"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "language_dysfunction"
+    },
+    {
+      "criterium": "fasciculations"
+    },
+    {
+      "criterium": "hyperreflexia"
+    },
+    {
+      "criterium": "spastic_weakness"
+    },
+    {
+      "criterium": "muscle_atrophy"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

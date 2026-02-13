@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acute_onset"
+    },
+    {
+      "criterium": "fluctuating_course"
+    },
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "reduced_level_of_awareness"
+    },
+    {
+      "criterium": "disorientation_time"
+    },
+    {
+      "criterium": "disorientation_place"
+    },
+    {
+      "criterium": "disorientation_person"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "language_disturbance"
+    },
+    {
+      "criterium": "visuospatial_disturbance"
+    },
+    {
+      "criterium": "perceptual_disturbance_hallucinations"
+    },
+    {
+      "criterium": "sleep_wake_cycle_disturbance"
+    },
+    {
+      "criterium": "psychomotor_changes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

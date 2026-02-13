@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rebound_headache_phenomenon"
+    },
+    {
+      "criterium": "headache_quality_throbbing"
+    },
+    {
+      "criterium": "headache_location_bilateral"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "phonophobia_present"
+    },
+    {
+      "criterium": "headache_intensity_moderate_to_severe"
+    },
+    {
+      "criterium": "migraine_like_characteristics_present"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

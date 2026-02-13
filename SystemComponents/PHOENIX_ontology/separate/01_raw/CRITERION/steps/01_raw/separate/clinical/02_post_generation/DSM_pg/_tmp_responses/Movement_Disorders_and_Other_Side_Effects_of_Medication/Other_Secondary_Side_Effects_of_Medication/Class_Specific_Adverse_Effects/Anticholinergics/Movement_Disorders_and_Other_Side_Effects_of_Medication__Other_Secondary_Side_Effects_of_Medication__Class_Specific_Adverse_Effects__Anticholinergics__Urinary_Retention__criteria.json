@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "PVR_mL_gt_200"
+    },
+    {
+      "criterium": "Qmax_ml_per_s_lt_15"
+    },
+    {
+      "criterium": "detrusor_contractility_reduced"
+    },
+    {
+      "criterium": "incomplete_urinary_emptying"
+    },
+    {
+      "criterium": "straining_to_void"
+    },
+    {
+      "criterium": "weak_urinary_stream"
+    },
+    {
+      "criterium": "nocturia_due_to_retention"
+    },
+    {
+      "criterium": "overflow_incontinence_present"
+    },
+    {
+      "criterium": "bladder_overdistention_on_ultrasound"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

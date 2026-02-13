@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SOL_prolongation"
+    },
+    {
+      "criterium": "WASO_increase"
+    },
+    {
+      "criterium": "TST_reduction"
+    },
+    {
+      "criterium": "Sleep_efficiency_reduction"
+    },
+    {
+      "criterium": "Early_morning_awakening"
+    },
+    {
+      "criterium": "Nocturnal_awakenings_increase"
+    },
+    {
+      "criterium": "REM_latency_prolongation"
+    },
+    {
+      "criterium": "REM_sleep_suppression"
+    },
+    {
+      "criterium": "Vivid_dreams"
+    },
+    {
+      "criterium": "Nightmares"
+    },
+    {
+      "criterium": "Daytime_fatigue"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_related_hypoventilation"
+    },
+    {
+      "criterium": "nocturnal_hypercapnia"
+    },
+    {
+      "criterium": "nocturnal_hypoxemia"
+    },
+    {
+      "criterium": "awake_hypoventilation"
+    },
+    {
+      "criterium": "reduced_CO2_stimulated_ventilation"
+    },
+    {
+      "criterium": "impaired_hypoxic_ventilatory_drive"
+    },
+    {
+      "criterium": "low_sleep_minute_ventilation"
+    },
+    {
+      "criterium": "low_sleep_tidal_volume"
+    },
+    {
+      "criterium": "need_nighttime_respiratory_support"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0005
+}

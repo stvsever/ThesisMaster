@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "apparent_lack_of_interest_in_eating"
+    },
+    {
+      "criterium": "low_appetite"
+    },
+    {
+      "criterium": "inadequate_daily_food_intake_relative_to_age_growth_expectations"
+    },
+    {
+      "criterium": "limited_food_variety_across_meals"
+    },
+    {
+      "criterium": "selective_food_acceptance_restricted_to_few_items"
+    },
+    {
+      "criterium": "mealtime_resistance_or_avoidance"
+    },
+    {
+      "criterium": "dependence_on_food_supplements_or_caloric_beverages"
+    },
+    {
+      "criterium": "weight_loss_or_poor_weight_gain_present"
+    },
+    {
+      "criterium": "low_weight_percentile_for_age"
+    },
+    {
+      "criterium": "social_functioning_impairment_in_eating_contexts"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

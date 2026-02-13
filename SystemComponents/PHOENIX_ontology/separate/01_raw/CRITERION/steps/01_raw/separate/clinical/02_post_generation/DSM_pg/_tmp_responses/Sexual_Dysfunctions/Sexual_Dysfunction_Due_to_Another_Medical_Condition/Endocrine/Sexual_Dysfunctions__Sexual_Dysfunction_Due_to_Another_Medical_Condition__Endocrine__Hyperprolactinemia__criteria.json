@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SERUM_PROLACTIN_LEVEL_ELEVATED"
+    },
+    {
+      "criterium": "GALACTORRHEA_PRESENT"
+    },
+    {
+      "criterium": "AMENORRHEA_PRESENT"
+    },
+    {
+      "criterium": "OLIGOANOVULATION_PRESENT"
+    },
+    {
+      "criterium": "DECREASED_LIBIDO_PRESENT"
+    },
+    {
+      "criterium": "ERECTILE_DYSFUNCTION_PRESENT"
+    },
+    {
+      "criterium": "HEADACHE_PRESENT"
+    },
+    {
+      "criterium": "VISUAL_FIELD_DEFECT_PRESENT"
+    },
+    {
+      "criterium": "MENSTRUAL_IRREGULARITY_PRESENT"
+    },
+    {
+      "criterium": "INFERTILITY_PRESENT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

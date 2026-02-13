@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "wbc_count_below_lower_limit"
+    },
+    {
+      "criterium": "neutrophil_count_below_lower_limit"
+    },
+    {
+      "criterium": "hemoglobin_below_lower_limit"
+    },
+    {
+      "criterium": "hematocrit_below_lower_limit"
+    },
+    {
+      "criterium": "platelet_count_below_lower_limit"
+    },
+    {
+      "criterium": "reticulocyte_count_below_lower_limit"
+    },
+    {
+      "criterium": "bone_marrow_hypoplasia_confirmed"
+    },
+    {
+      "criterium": "erythroid_precursors_reduced"
+    },
+    {
+      "criterium": "megakaryopoiesis_decreased"
+    },
+    {
+      "criterium": "pallor_visible"
+    },
+    {
+      "criterium": "fatigue_reported"
+    },
+    {
+      "criterium": "mucosal_bleeding_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

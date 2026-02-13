@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "word_reading_accuracy_impairment"
+    },
+    {
+      "criterium": "reading_fluency_deficit"
+    },
+    {
+      "criterium": "reading_comprehension_deficit"
+    },
+    {
+      "criterium": "spelling_accuracy_deficit"
+    },
+    {
+      "criterium": "written_expression_deficit"
+    },
+    {
+      "criterium": "math_calculation_difficulty"
+    },
+    {
+      "criterium": "math_problem_solving_difficulty"
+    },
+    {
+      "criterium": "phonological_processing_deficit"
+    },
+    {
+      "criterium": "math_fact_retrieval_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit_during_academic_tasks"
+    }
+  ],
+  "estimated_prevalence_percent": 7.1
+}

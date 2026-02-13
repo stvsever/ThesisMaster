@@ -1,0 +1,57 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD4_VNTR_7R",
+      "SLC6A3_3prime_UTR_9R",
+      "COMT_rs4680_V158M",
+      "DRD2_rs1800497_A1",
+      "BDNF_rs6265_Met"
+    ],
+    "molecules": [
+      "DOPAMINE",
+      "NOREPINEPHRINE",
+      "ACETYLCHOLINE",
+      "GLUTAMATE",
+      "GABA",
+      "BDNF"
+    ],
+    "cells": [
+      "PYRAMIDAL_NEURONS_L2_3_CORTEX",
+      "PYRAMIDAL_NEURONS_L5_CORTEX",
+      "GABAERGIC_INTERNEURONS_PV",
+      "ASTROCYTES",
+      "OLIGODENDROCYTES"
+    ],
+    "circuits": [
+      "Dorsal_Attention_Network",
+      "Frontoparietal_Control_Network",
+      "Ventral_Attention_Network",
+      "Salience_Network",
+      "Default_Mode_Network"
+    ],
+    "physiology": [
+      "Pupil_Dilation_During_Attention",
+      "Heart_Rate_Variability_During_Task",
+      "Skin_Conductance_Response_To_Distractors",
+      "Cortisol_Level_During_Task",
+      "Respiration_Rate_During_Attention"
+    ],
+    "behavior": [
+      "Dichotic_Filtering_Accuracy",
+      "Stroop_Interference_RT",
+      "Flanker_Interference_Errors",
+      "Target_Detection_Accuracy_With_Distractors",
+      "Sustained_Attention_Hits",
+      "Distractor_Related_Reaction_Time_Increase"
+    ],
+    "self_report": [
+      "ASRS_Attention_Symptoms_Score",
+      "CAARS_Inattention_Score",
+      "BRIEF_A_Inattention_Score",
+      "Conners_Adult_Self_Report_Inattention_Score",
+      "ADHD_Rating_Scale_Inattention_Subscale",
+      "Attention_Problems_Self_Report_Score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

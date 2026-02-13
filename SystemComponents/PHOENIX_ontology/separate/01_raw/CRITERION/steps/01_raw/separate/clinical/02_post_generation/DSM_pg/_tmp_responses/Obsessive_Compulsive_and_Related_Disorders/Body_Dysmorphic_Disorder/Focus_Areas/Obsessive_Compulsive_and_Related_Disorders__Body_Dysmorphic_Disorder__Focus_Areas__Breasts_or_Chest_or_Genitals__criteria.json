@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_breasts_chest_genital_appearance"
+    },
+    {
+      "criterium": "intrusive_thoughts_breasts_chest_genital_appearance"
+    },
+    {
+      "criterium": "repetitive_mirror_checking_breasts_chest_genital"
+    },
+    {
+      "criterium": "camouflaging_behavior_to_hide_breasts_chest_genital_features"
+    },
+    {
+      "criterium": "reassurance_seeking_breasts_chest_genital_appearance"
+    },
+    {
+      "criterium": "avoidance_of_social_interactions_due_to_breasts_chest_genital_appearance"
+    },
+    {
+      "criterium": "avoidance_of_body_exposure_situations_due_to_breasts_chest_genital_appearance"
+    },
+    {
+      "criterium": "self_imaging_and_photo_review_of_breasts_chest_genital_area"
+    },
+    {
+      "criterium": "consideration_of_reconstructive_or_cosmetic_options_due_to_breasts_chest_genital_appearance"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

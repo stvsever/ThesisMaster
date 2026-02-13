@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Unilateral_limb_paresis"
+    },
+    {
+      "criterium": "Spastic_tone_in_affected_side_limbs"
+    },
+    {
+      "criterium": "Hyperreflexia_on_afflicted_side"
+    },
+    {
+      "criterium": "Positive_Babinski_sign_on_afflicted_side"
+    },
+    {
+      "criterium": "Ankle_clonus_on_afflicted_side"
+    },
+    {
+      "criterium": "Oral_motor_weakness"
+    },
+    {
+      "criterium": "Gait_pattern_consistent_with_hemiplegia"
+    },
+    {
+      "criterium": "Impaired_fine_motor_control_of_affected_hand"
+    },
+    {
+      "criterium": "Proprioceptive_deficit_on_affected_side"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

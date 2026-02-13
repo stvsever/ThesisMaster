@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_free_recall"
+    },
+    {
+      "criterium": "impaired_delayed_recall"
+    },
+    {
+      "criterium": "impaired_working_memory"
+    },
+    {
+      "criterium": "reduced_processing_speed"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "verbal_fluency_decline"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "attentional_fluctuation"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "perseverative_responses_on_tasks"
+    },
+    {
+      "criterium": "reduced_complex_task_performance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

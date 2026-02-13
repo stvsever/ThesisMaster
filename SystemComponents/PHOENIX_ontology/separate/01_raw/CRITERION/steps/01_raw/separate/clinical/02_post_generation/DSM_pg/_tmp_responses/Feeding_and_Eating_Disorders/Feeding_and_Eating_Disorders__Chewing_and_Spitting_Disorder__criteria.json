@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "CHEW_SPIT_EPISODES_FREQUENCY"
+    },
+    {
+      "criterium": "NO_SWALLOWING_DURING_CHEW"
+    },
+    {
+      "criterium": "SPITTING_AFTER_CHEWING"
+    },
+    {
+      "criterium": "FOOD_CHEWED_BUT_SPIT_OUT"
+    },
+    {
+      "criterium": "SELF_REPORTED_RELIEF_AFTER_SPIT"
+    },
+    {
+      "criterium": "GUSTATORY_AVERSION_DURING_CHEW"
+    },
+    {
+      "criterium": "SPIT_BEHAVIOR_OUTSIDE_MEALS"
+    },
+    {
+      "criterium": "MOUTH_MOTOR_ACTIVITY_DURING_CHEW_SPIT"
+    },
+    {
+      "criterium": "SOCIAL_WITHDRAWAL_DUE_TO_CHEW_SPIT_BEHAVIOR"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "text_coherence_deficit"
+    },
+    {
+      "criterium": "idea_sequence_disorganization"
+    },
+    {
+      "criterium": "paragraph_structure_inconsistency"
+    },
+    {
+      "criterium": "sentence_structure_incompleteness"
+    },
+    {
+      "criterium": "handwriting_legibility_reduction"
+    },
+    {
+      "criterium": "spelling_error_rate_elevated"
+    },
+    {
+      "criterium": "grammar_syntax_error_rate_elevated"
+    },
+    {
+      "criterium": "punctuation_usage_inconsistency"
+    },
+    {
+      "criterium": "lexical_precision_deficit"
+    },
+    {
+      "criterium": "text_planning_outline_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 7.0
+}

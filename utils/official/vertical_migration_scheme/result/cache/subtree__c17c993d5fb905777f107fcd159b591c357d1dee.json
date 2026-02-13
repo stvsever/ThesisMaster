@@ -1,0 +1,29 @@
+{
+  "domain_path": "BIO / Pharmacology_and_Biomedical_Treatments / Sleep_Related_Pharmacotherapy",
+  "domain_root_path": [
+    "BIO",
+    "Pharmacology_and_Biomedical_Treatments",
+    "Sleep_Related_Pharmacotherapy"
+  ],
+  "leaf_count": 27,
+  "total_edges_in_subtree": 39,
+  "evaluated_pairs": 39,
+  "violations_count": 1,
+  "violation_rate": 0.02564102564102564,
+  "llm_calls": 1,
+  "violations": [
+    "Melatonin_Receptor_Agonists > Melatonin"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Melatonin_Receptor_Agonists > Melatonin",
+      "parent_path": "BIO / Pharmacology_and_Biomedical_Treatments / Sleep_Related_Pharmacotherapy / Melatonin_Pathway_Modulators / Melatonin_Receptor_Agonists",
+      "child_path": "BIO / Pharmacology_and_Biomedical_Treatments / Sleep_Related_Pharmacotherapy / Melatonin_Pathway_Modulators / Melatonin_Receptor_Agonists / Melatonin"
+    }
+  ],
+  "cache_key": "c17c993d5fb905777f107fcd159b591c357d1dee",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 28.786
+}

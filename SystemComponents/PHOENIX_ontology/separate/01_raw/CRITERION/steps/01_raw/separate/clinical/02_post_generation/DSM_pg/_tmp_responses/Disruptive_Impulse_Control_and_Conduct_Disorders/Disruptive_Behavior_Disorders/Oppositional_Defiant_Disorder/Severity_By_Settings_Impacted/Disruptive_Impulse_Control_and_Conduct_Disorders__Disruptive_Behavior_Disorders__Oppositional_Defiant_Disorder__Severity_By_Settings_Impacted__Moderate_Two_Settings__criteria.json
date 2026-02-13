@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "frequent_loses_temper"
+    },
+    {
+      "criterium": "argues_with_authority_figures"
+    },
+    {
+      "criterium": "deliberate_disobedience_to_rules"
+    },
+    {
+      "criterium": "deliberate_provocation_of_others"
+    },
+    {
+      "criterium": "blames_others_for_mistakes"
+    },
+    {
+      "criterium": "spiteful_vindictive_behavior"
+    },
+    {
+      "criterium": "irritable_mood_observed"
+    },
+    {
+      "criterium": "resentful_attitude_observed"
+    },
+    {
+      "criterium": "temper_tantrums_in_interactions"
+    }
+  ],
+  "estimated_prevalence_percent": 3.3
+}

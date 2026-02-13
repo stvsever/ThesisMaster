@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pain_catastrophizing"
+    },
+    {
+      "criterium": "pain_hypervigilance"
+    },
+    {
+      "criterium": "anxiety_about_pain"
+    },
+    {
+      "criterium": "depressed_mood_related_to_pain"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_pain"
+    },
+    {
+      "criterium": "fatigue_exacerbated_by_pain"
+    },
+    {
+      "criterium": "pain_related_rumination"
+    },
+    {
+      "criterium": "avoidance_of_activity_due_to_pain"
+    },
+    {
+      "criterium": "pain_related_concentration_difficulty"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 0.75
+}

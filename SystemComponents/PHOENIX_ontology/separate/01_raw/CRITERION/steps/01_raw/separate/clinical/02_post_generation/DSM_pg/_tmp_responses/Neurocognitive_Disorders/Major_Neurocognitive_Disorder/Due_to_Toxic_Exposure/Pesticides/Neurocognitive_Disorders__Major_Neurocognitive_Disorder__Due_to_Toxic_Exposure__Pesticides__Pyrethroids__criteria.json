@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "visuospatial_orientation_deficit"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "tremor_presence"
+    },
+    {
+      "criterium": "peripheral_neuropathy_paresthesias"
+    },
+    {
+      "criterium": "olfactory_dysfunction"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

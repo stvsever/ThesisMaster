@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_paper_acquisition"
+    },
+    {
+      "criterium": "excessive_clothing_acquisition"
+    },
+    {
+      "criterium": "excessive_tools_acquisition"
+    },
+    {
+      "criterium": "difficulty_discarding_papers"
+    },
+    {
+      "criterium": "difficulty_discarding_clothes"
+    },
+    {
+      "criterium": "difficulty_discarding_tools"
+    },
+    {
+      "criterium": "cluttered_residence_due_to_papers"
+    },
+    {
+      "criterium": "cluttered_residence_due_to_clothes"
+    },
+    {
+      "criterium": "cluttered_residence_due_to_tools"
+    },
+    {
+      "criterium": "safety_hazards_from_hoarded_items"
+    },
+    {
+      "criterium": "distress_related_to_discarding_items"
+    },
+    {
+      "criterium": "impaired_functioning_due_to_hoarding"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

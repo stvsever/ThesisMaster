@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delayed_movement_onset"
+    },
+    {
+      "criterium": "slowed_finger_tapping_speed"
+    },
+    {
+      "criterium": "reduced_finger_tapping_amplitude"
+    },
+    {
+      "criterium": "impaired_diadochokinesia"
+    },
+    {
+      "criterium": "micrographia"
+    },
+    {
+      "criterium": "hypomimia"
+    },
+    {
+      "criterium": "reduced_blink_rate"
+    },
+    {
+      "criterium": "hypophonia"
+    },
+    {
+      "criterium": "reduced_arm_swing_during_gait"
+    },
+    {
+      "criterium": "festination_of_gait"
+    },
+    {
+      "criterium": "shortened_stride_length"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "amnesia_sleep_events"
+    },
+    {
+      "criterium": "depersonalization_sleep"
+    },
+    {
+      "criterium": "derealization_sleep"
+    },
+    {
+      "criterium": "sleep_automatism_no_control"
+    },
+    {
+      "criterium": "somniloquy_dissociative_content"
+    },
+    {
+      "criterium": "sleepwalking_dissociative_features"
+    },
+    {
+      "criterium": "out_of_body_experiences_sleep"
+    },
+    {
+      "criterium": "perceptual_distortions_sleep_awakening"
+    },
+    {
+      "criterium": "impaired_reality_testing_sleep"
+    },
+    {
+      "criterium": "confusional_awakening_with_dissociation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_rs53576_allele",
+      "BDNF_rs6265_allele",
+      "CRHR1_rs110402_variant"
+    ],
+    "molecules": [
+      "cortisol_level",
+      "oxytocin_level",
+      "CRH_level",
+      "ACTH_level",
+      "vasopressin_level"
+    ],
+    "cells": [
+      "amygdala_pyramidal_neuron_firing_rate",
+      "prefrontal_cortex_pyramidal_neuron_firing_rate",
+      "hippocampus_pyramidal_neuron_firing_rate",
+      "amygdala_gabaergic_interneuron_density"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_connectivity",
+      "amygdala_BNST_connectivity",
+      "hippocampus_amygdala_connectivity",
+      "hypothalamus_pituitary_adrenal_axis_sync"
+    ],
+    "physiology": [
+      "heart_rate",
+      "heart_rate_variability",
+      "skin_conductance_response",
+      "respiratory_rate",
+      "pupil_dilation",
+      "body_temperature_variation"
+    ],
+    "behavior": [
+      "separation_crying",
+      "cling_to_caregiver",
+      "sleep_disturbance_with_separation",
+      "refusal_to_be_left_alone",
+      "searching_for_attachment_figure"
+    ],
+    "self_report": [
+      "separation_anxiety_scale_score",
+      "fear_of_being_abandoned_score",
+      "distress_on_separation_score",
+      "avoidance_of_aloneness_score"
+    ]
+  },
+  "estimated_prevalence_percent": 4.0
+}

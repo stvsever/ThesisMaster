@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bradypnea"
+    },
+    {
+      "criterium": "hypoventilation"
+    },
+    {
+      "criterium": "hypoxemia_spo2_lt_90"
+    },
+    {
+      "criterium": "paCO2_elevated"
+    },
+    {
+      "criterium": "apneic_events"
+    },
+    {
+      "criterium": "somnolence"
+    },
+    {
+      "criterium": "cyanosis_present"
+    },
+    {
+      "criterium": "intercostal_retractions"
+    },
+    {
+      "criterium": "use_of_accessory_muscles"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

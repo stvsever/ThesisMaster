@@ -1,0 +1,51 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "GAD1",
+      "GAD2",
+      "PVALB",
+      "SLC6A1",
+      "GABRA1",
+      "GABRB2",
+      "SCN1A"
+    ],
+    "molecules": [
+      "GABA",
+      "Glutamate",
+      "GRIN2A",
+      "GRIA2",
+      "GABRA1",
+      "SLC6A1"
+    ],
+    "cells": [
+      "PV_interneuron_density",
+      "SST_interneuron_density",
+      "Pyramidal_neuron_excitability",
+      "Inhibitory_synapse_density"
+    ],
+    "circuits": [
+      "A1_intracortical_inhibition_strength",
+      "A1_intracortical_excitation_strength",
+      "A1_to_MGB_thalamocortical_connectivity",
+      "A1_gamma_band_synchrony",
+      "A1_spontaneous_firing_rate"
+    ],
+    "physiology": [
+      "Cortical_excitability_index",
+      "Auditory_evoked_potential_amplitude",
+      "Gamma_band_power_A1",
+      "IPSC_amplitude_A1"
+    ],
+    "behavior": [
+      "Acoustic_startle_response_amplitude",
+      "Sound_intolerance_behavior_frequency",
+      "Auditory_discomfort_behavioral_score"
+    ],
+    "self_report": [
+      "Hyperacusis_severity",
+      "Auditory_hypersensitivity_scale",
+      "Sound_sensitivity_daily_activity_impact"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

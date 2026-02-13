@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "self_induced_vomiting_post_meal"
+    },
+    {
+      "criterium": "laxative_abuse_recurrent"
+    },
+    {
+      "criterium": "diuretic_abuse_recurrent"
+    },
+    {
+      "criterium": "excessive_exercise_as_purging_compensation"
+    },
+    {
+      "criterium": "dental_enamel_erosion_due_to_vomiting"
+    },
+    {
+      "criterium": "parotid_gland_enlargement_or_pain"
+    },
+    {
+      "criterium": "calluses_on_dorsal_hand_from_vomiting"
+    },
+    {
+      "criterium": "BMI_within_normal_weight_range"
+    },
+    {
+      "criterium": "body_shape_weight_concerns_dominate_self_evaluation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "new_weakness_in_previously_affected_muscles"
+    },
+    {
+      "criterium": "increased_fatigue_with_exertion"
+    },
+    {
+      "criterium": "decreased_exertional_endurance"
+    },
+    {
+      "criterium": "muscle_wasting_in_polio_affected_muscle_groups"
+    },
+    {
+      "criterium": "myalgia"
+    },
+    {
+      "criterium": "arthralgia"
+    },
+    {
+      "criterium": "muscle_cramps"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_fatigue"
+    },
+    {
+      "criterium": "dyspnea_on_exertion_due_to_respiratory_muscle_weakness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

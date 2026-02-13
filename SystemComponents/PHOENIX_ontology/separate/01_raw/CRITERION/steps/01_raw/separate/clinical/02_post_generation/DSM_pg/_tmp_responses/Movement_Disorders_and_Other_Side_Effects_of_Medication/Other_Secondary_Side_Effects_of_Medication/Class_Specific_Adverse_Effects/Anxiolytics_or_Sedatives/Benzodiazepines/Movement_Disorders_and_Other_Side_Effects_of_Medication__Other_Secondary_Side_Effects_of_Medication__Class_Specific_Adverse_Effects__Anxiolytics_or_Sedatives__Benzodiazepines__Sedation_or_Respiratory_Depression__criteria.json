@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_somnolence"
+    },
+    {
+      "criterium": "decreased_level_of_consciousness"
+    },
+    {
+      "criterium": "decreased_respiratory_rate"
+    },
+    {
+      "criterium": "hypoventilation"
+    },
+    {
+      "criterium": "hypoxemia"
+    },
+    {
+      "criterium": "apnea_events"
+    },
+    {
+      "criterium": "hypercapnia"
+    },
+    {
+      "criterium": "slurred_speech"
+    },
+    {
+      "criterium": "gait_ataxia"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

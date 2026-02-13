@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "epidermal_detachment_present"
+    },
+    {
+      "criterium": "blistering_cutaneous_eruption_present"
+    },
+    {
+      "criterium": "targetoid_lesions_present"
+    },
+    {
+      "criterium": "positive_nikolsky_sign_present"
+    },
+    {
+      "criterium": "oral_mucosal_erosions_present"
+    },
+    {
+      "criterium": "ocular_mucosal_involvement_present"
+    },
+    {
+      "criterium": "genital_mucosal_ulceration_present"
+    },
+    {
+      "criterium": "fever_present"
+    },
+    {
+      "criterium": "conjunctival_inflammation_present"
+    },
+    {
+      "criterium": "skin_pain_present"
+    },
+    {
+      "criterium": "extensive_cutaneous_erythema_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0005
+}

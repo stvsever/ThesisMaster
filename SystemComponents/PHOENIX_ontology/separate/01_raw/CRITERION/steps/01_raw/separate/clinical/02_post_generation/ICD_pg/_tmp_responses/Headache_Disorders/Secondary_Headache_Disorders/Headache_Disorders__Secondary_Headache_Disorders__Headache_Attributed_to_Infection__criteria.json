@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "fever_present"
+    },
+    {
+      "criterium": "malaise_present"
+    },
+    {
+      "criterium": "myalgia_present"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "phonophobia_present"
+    },
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "headache_onset_coincident_with_infection_symptoms"
+    },
+    {
+      "criterium": "headache_worsens_during_fever"
+    },
+    {
+      "criterium": "headache_resolves_with_infection_resolution"
+    },
+    {
+      "criterium": "leukocytosis_present"
+    },
+    {
+      "criterium": "CRP_elevated"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

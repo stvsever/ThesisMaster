@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "increased_sleep_latency"
+    },
+    {
+      "criterium": "decreased_total_sleep_time"
+    },
+    {
+      "criterium": "sleep_fragmentation"
+    },
+    {
+      "criterium": "decreased_sleep_efficiency"
+    },
+    {
+      "criterium": "increased_wake_time_after_sleep_onset"
+    },
+    {
+      "criterium": "increased_REM_latency"
+    },
+    {
+      "criterium": "reduced_REM_sleep_percentage"
+    },
+    {
+      "criterium": "reduced_SWS_sleep_percentage"
+    },
+    {
+      "criterium": "delayed_bedtime"
+    },
+    {
+      "criterium": "circadian_rhythm_disruption"
+    },
+    {
+      "criterium": "daytime_fatigue_or_sleepiness"
+    },
+    {
+      "criterium": "nocturnal_arousal_events"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

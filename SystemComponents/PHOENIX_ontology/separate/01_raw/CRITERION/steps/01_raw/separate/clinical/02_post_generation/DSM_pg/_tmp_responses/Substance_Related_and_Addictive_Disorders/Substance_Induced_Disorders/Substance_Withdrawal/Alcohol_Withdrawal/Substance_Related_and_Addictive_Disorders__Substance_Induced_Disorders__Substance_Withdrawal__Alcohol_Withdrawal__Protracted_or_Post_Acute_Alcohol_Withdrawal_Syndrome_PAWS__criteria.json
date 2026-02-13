@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "generalized_anxiety"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "headaches"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "night_sweats"
+    },
+    {
+      "criterium": "alcohol_craving"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

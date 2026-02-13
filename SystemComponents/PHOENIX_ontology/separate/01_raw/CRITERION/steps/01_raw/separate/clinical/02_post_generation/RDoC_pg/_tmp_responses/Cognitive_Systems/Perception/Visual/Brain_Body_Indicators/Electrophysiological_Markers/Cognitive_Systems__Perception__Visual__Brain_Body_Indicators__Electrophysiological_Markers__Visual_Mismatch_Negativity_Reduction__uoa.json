@@ -1,0 +1,45 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "GRIN2B_genotype",
+      "BDNF_val66met_genotype",
+      "COMT_val158_met_genotype",
+      "GAD1_genotype",
+      "CACNA1C_genotype"
+    ],
+    "molecules": [
+      "NR2B_protein_concentration",
+      "GABA_concentration",
+      "Glutamate_concentration",
+      "BDNF_level",
+      "NR1_protein_concentration"
+    ],
+    "cells": [
+      "PV_inhibitory_interneuron_density_visual_cortex",
+      "Pyramidal_neuron_density_visual_cortex",
+      "GABAergic_synapse_density_visual_cortex",
+      "Oligodendrocyte_density_visual_pathway"
+    ],
+    "circuits": [
+      "V1_V4_connectivity",
+      "V4_LO_connectivity",
+      "Visual_cortex_prefrontal_connectivity",
+      "MT_V5_connectivity",
+      "Occipitotemporal_connectivity"
+    ],
+    "physiology": [
+      "VMMN_amplitude",
+      "VMMN_latency",
+      "ERP_signal_to_noise_ratio",
+      "Deviant_stimulus_response_amplitude"
+    ],
+    "behavior": [
+      "Visual_change_detection_accuracy",
+      "Visual_change_detection_reaction_time",
+      "Oddball_task_accuracy",
+      "Deviant_stimulus_reaction_time"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 3.8
+}

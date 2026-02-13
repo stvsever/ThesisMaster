@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "polyuria"
+    },
+    {
+      "criterium": "polydipsia"
+    },
+    {
+      "criterium": "unexplained_weight_loss"
+    },
+    {
+      "criterium": "blurred_vision"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "recurrent_infections"
+    },
+    {
+      "criterium": "glycosuria"
+    },
+    {
+      "criterium": "ketonuria"
+    },
+    {
+      "criterium": "nocturia"
+    },
+    {
+      "criterium": "delayed_wound_healing"
+    },
+    {
+      "criterium": "polyphagia"
+    },
+    {
+      "criterium": "dehydration_signs"
+    }
+  ],
+  "estimated_prevalence_percent": 9.3
+}

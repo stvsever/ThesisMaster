@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "earthquake_triggered_panic_attacks"
+    },
+    {
+      "criterium": "avoidance_of_earthquake_prone_situations"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_earthquakes"
+    },
+    {
+      "criterium": "heightened_autonomic_arousal_to_seismic_sounds"
+    },
+    {
+      "criterium": "catastrophizing_of_earthquake_threat"
+    },
+    {
+      "criterium": "intrusive_earthquake_related_ruminations"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_earthquake_fear"
+    },
+    {
+      "criterium": "nightmares_about_earthquakes"
+    },
+    {
+      "criterium": "social_or_professional_impairment_due_to_earthquake_anxiety"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

@@ -1,0 +1,46 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_V66M",
+      "COMT_rs4680_V158M",
+      "DRD2_rs1800497_A1",
+      "DRD4_VNTR_7R"
+    ],
+    "molecules": [
+      "Dopamine_D1_receptor_density",
+      "Dopamine_D2_receptor_density",
+      "Acetylcholine_M1_receptor_density",
+      "Norepinephrine_transporter_density"
+    ],
+    "cells": [
+      "Pyramidal_neuron_density_IPS",
+      "Inhibitory_interneuron_density_IPS"
+    ],
+    "circuits": [
+      "Dorsal_Attention_Network_IPS_FEF_connectivity",
+      "Frontal_Eye_Field_BOLD_orientation_magnitude",
+      "TPJ_VAN_activation_latency",
+      "Pulvinar_BOLD_orientation_selectivity"
+    ],
+    "physiology": [
+      "Pupillometry_pupil_dilation_peak_magnitude",
+      "Pupillometry_pupil_dilation_latency_ms",
+      "Skin_conductance_response_micro_siemens",
+      "HRV_RMSSD_ms"
+    ],
+    "behavior": [
+      "Saccade_latency_ms",
+      "Cue_validity_reaction_time_ms",
+      "Orientation_accuracy_percent",
+      "Fixation_duration_ms",
+      "Gaze_shift_velocity_deg_per_s"
+    ],
+    "self_report": [
+      "Perceived_orienting_efficiency_score",
+      "Attentional_Control_Scale_total_score",
+      "ANT_orienting_network_subscale_score",
+      "Subjective_cue_responsivity_score"
+    ]
+  },
+  "estimated_prevalence_percent": 4.7
+}

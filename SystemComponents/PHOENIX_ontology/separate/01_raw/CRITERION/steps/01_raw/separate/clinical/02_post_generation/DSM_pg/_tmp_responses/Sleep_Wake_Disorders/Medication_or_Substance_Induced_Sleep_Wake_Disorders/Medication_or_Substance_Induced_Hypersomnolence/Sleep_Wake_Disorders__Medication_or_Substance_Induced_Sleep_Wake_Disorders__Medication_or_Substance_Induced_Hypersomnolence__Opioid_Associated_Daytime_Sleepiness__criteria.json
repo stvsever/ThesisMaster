@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "daytime_sleepiness_excess"
+    },
+    {
+      "criterium": "unintentional_napping_daytime"
+    },
+    {
+      "criterium": "microsleep_events"
+    },
+    {
+      "criterium": "impaired_sustained_attention"
+    },
+    {
+      "criterium": "slowed_reaction_time"
+    },
+    {
+      "criterium": "yawning_frequency_daytime"
+    },
+    {
+      "criterium": "decreased_psychomotor_vigilance"
+    },
+    {
+      "criterium": "attentional_lapses_in_monotonous_tasks"
+    },
+    {
+      "criterium": "drowsy_driving_incidents"
+    },
+    {
+      "criterium": "mood_lability_or_irritability_with_sleepiness"
+    },
+    {
+      "criterium": "cognitive_fog_or_brain_fog_symptom"
+    },
+    {
+      "criterium": "decreased_work_or_academic_performance_due_to_sleepiness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

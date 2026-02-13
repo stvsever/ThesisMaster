@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gait_abnormality"
+    },
+    {
+      "criterium": "dystonic_postures"
+    },
+    {
+      "criterium": "choreiform_movements"
+    },
+    {
+      "criterium": "myoclonic_jerks"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "stereotyped_movements"
+    },
+    {
+      "criterium": "oromandibular_dyskinesia"
+    },
+    {
+      "criterium": "oral_motor_impairment"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "hyperkinetic_movements"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

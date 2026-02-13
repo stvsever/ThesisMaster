@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "sweating"
+    },
+    {
+      "criterium": "dyspnea"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "chest_tightness"
+    },
+    {
+      "criterium": "panic_attack"
+    },
+    {
+      "criterium": "paranoid_ideation"
+    },
+    {
+      "criterium": "derealization"
+    },
+    {
+      "criterium": "depersonalization"
+    },
+    {
+      "criterium": "hypervigilance"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "racing_thoughts"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

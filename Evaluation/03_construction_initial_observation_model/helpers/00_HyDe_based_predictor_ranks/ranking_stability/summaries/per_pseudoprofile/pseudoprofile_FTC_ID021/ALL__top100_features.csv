@@ -1,0 +1,101 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / stimulating_content_avoidance,BIO,5,1.0,1.6,1.2,0.28125733,0.017190984
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / morning_stabilization / morning_daylight_exposure,BIO,5,1.0,2.0,0.6324555,0.27893397,0.012708935
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / morning_stabilization / gentle_mobility_on_waking,BIO,5,1.0,5.0,2.529822,0.26754445,0.015673518
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / night_awakenings_support / return_to_bed_settling_routine,BIO,5,1.0,7.2,4.5343137,0.26596883,0.01639539
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / low_stimulation_evening_activities,BIO,5,1.0,7.6,3.006659,0.2613516,0.015336328
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / bedroom_device_free_policy,BIO,5,1.0,8.8,3.9191837,0.26111668,0.015646642
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / lifestyle_performance_and_wellbeing_integration / sleep_protection_and_recovery_routine,PSYCHO,5,1.0,10.2,4.874423,0.25894862,0.014045399
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / sleep_medicine_and_circadian_care / therapy_and_device_pathways / sleep_wake_stabilization_care_plan_coordination,BIO,5,1.0,11.0,5.7619443,0.2578469,0.019164229
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / morning_stabilization / hydration_on_waking,BIO,5,1.0,11.4,7.0028567,0.25636712,0.018623237
+PSYCHO / cognitive_behavioral_therapies / sleep_related_cognitive_behavioral_interventions / conditioning_and_associations / relearning / reduce_time_checking_behavior,PSYCHO,5,1.0,14.8,8.61162,0.25411958,0.010448003
+PSYCHO / change_process_and_therapeutic_phases / behavior_change_theories_and_modern_protocol_arcs / modern_clinical_protocol_arcs_solutions / cbti_sleep_maintenance_plan_implementation,PSYCHO,5,1.0,15.6,8.452219,0.25396827,0.020825299
+BIO / sleep_circadian_and_restoration / circadian_entrainment / light_cues / morning_bright_light_exposure,BIO,5,1.0,16.4,12.939861,0.25260532,0.01132316
+BIO / sleep_circadian_and_restoration / circadian_entrainment / light_cues / daylight_exposure_planning,BIO,5,1.0,16.6,4.9638696,0.25186163,0.009469596
+PSYCHO / cognitive_behavioral_therapies / sleep_related_cognitive_behavioral_interventions / presleep_mental_skills / detachment_and_unloading / presleep_detachment_routine_design_psychological,PSYCHO,5,1.0,16.8,3.3105893,0.25059256,0.012514643
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / morning_stabilization / morning_breathing_reset,BIO,5,1.0,16.8,11.46124,0.25293896,0.015438223
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / morning_stabilization / morning_outdoor_step,BIO,5,1.0,17.0,10.954452,0.25191742,0.013434917
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / night_awakenings_support / nonengagement_with_clock_checking,BIO,5,1.0,18.0,7.071068,0.24936526,0.01420321
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / nonsleep_deep_rest_audio,BIO,5,1.0,19.4,6.406247,0.24856302,0.017651455
+PSYCHO / change_process_and_therapeutic_phases / skill_acquisition / foundational_self_regulation_skills / sleep_protection_basics_implementation,PSYCHO,5,1.0,21.2,5.268776,0.24766354,0.015763389
+PSYCHO / change_process_and_therapeutic_phases / behavior_change_theories_and_modern_protocol_arcs / modern_clinical_protocol_arcs_solutions / cbti_sleep_restriction_implementation,PSYCHO,5,1.0,22.2,4.6647615,0.24618724,0.015535136
+BIO / sleep_circadian_and_restoration / circadian_entrainment / light_cues / consistent_morning_anchor_routine,BIO,5,1.0,22.6,9.971961,0.24620096,0.010562307
+PSYCHO / cognitive_behavioral_therapies / sleep_related_cognitive_behavioral_interventions / cognitive_work / sleep_appraisals / paradoxical_intention_sleep_principle,PSYCHO,5,1.0,23.2,10.107423,0.24675146,0.017330574
+BIO / cognitive_capacity_and_brain_health / sleep_circadian_and_glymphatic_support / circadian_photo_biology_tools / bright_light_therapy_box,BIO,5,1.0,24.6,8.912911,0.24527326,0.01089863
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / cognitive_unloading_journaling,BIO,5,1.0,24.8,6.7646136,0.24562243,0.017572535
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / bedroom_declutter,BIO,5,1.0,25.4,5.9866524,0.24380898,0.015308638
+PSYCHO / cognitive_behavioral_therapies / sleep_related_cognitive_behavioral_interventions / cognitive_work / sleep_appraisals / cognitive_reframe_sleep_threat_appraisals,PSYCHO,5,1.0,25.8,13.151425,0.24427505,0.016831804
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / attention_on_neutral_sensations,BIO,5,1.0,27.6,3.9293766,0.24342549,0.014542955
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / body_scan_meditation,BIO,5,1.0,30.0,9.570788,0.24139504,0.01552178
+PSYCHO / change_process_and_therapeutic_phases / readiness_and_engagement / wellbeing_optimization_entry_path / lifestyle_stability_check_sleep_stress_support,PSYCHO,5,1.0,33.0,8.6487,0.23941986,0.017452294
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / audiobook_low_arousal,BIO,5,1.0,34.4,4.758151,0.23808102,0.015470192
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / paradoxical_intention_sleep_rationale,BIO,5,1.0,34.8,10.684568,0.23851645,0.016597835
+PSYCHO / foundations_and_common_factors / psychoeducation_modules / sleep_and_restoration_psychoeducation / sleep_cognition_loops / psychoeducation_insomnia_as_learned_arousal_lay_model,PSYCHO,5,1.0,36.2,13.013839,0.23792851,0.017975021
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / guided_meditation,BIO,5,1.0,38.2,12.056534,0.23654675,0.0153094325
+PSYCHO / cognitive_behavioral_therapies / sleep_related_cognitive_behavioral_interventions / conditioning_and_associations / relearning / stimulus_control_bed_association_relearning,PSYCHO,5,1.0,38.2,18.389128,0.24003284,0.021067666
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / sleep_medicine_and_circadian_care / therapy_and_device_pathways / sleep_device_therapy_evaluation_pathway,BIO,5,1.0,38.4,12.224565,0.2363718,0.01853097
+PSYCHO / change_process_and_therapeutic_phases / behavior_change_theories_and_modern_protocol_arcs / modern_clinical_protocol_arcs_solutions / cbti_sleep_cognition_update_implementation,PSYCHO,5,1.0,38.6,9.687105,0.23609081,0.01700359
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / night_awakenings_support / brief_breath_reset,BIO,5,1.0,39.2,6.273755,0.23608008,0.0111672515
+BIO / sleep_circadian_and_restoration / circadian_entrainment / light_cues / late_evening_screen_reduction,BIO,5,1.0,41.2,19.322527,0.23803155,0.021839444
+PSYCHO / foundations_and_common_factors / psychoeducation_modules / sleep_and_restoration_psychoeducation / sleep_cognition_loops / psychoeducation_presleep_hyperarousal_loop,PSYCHO,5,1.0,41.4,10.051866,0.23458092,0.016845213
+PSYCHO / cognitive_behavioral_therapies / sleep_related_cognitive_behavioral_interventions / conditioning_and_associations / relearning / conditioned_arousal_deconditioning_framework,PSYCHO,5,1.0,41.4,17.658993,0.23698263,0.015935076
+PSYCHO / cognitive_behavioral_therapies / sleep_related_cognitive_behavioral_interventions / presleep_mental_skills / detachment_and_unloading / constructive_worry_before_bed_worksheet,PSYCHO,5,1.0,41.6,18.445597,0.23692179,0.015096453
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / evening_conversation_boundary,BIO,5,1.0,43.8,5.418487,0.23335126,0.01261025
+PSYCHO / cognitive_behavioral_therapies / sleep_related_cognitive_behavioral_interventions / cognitive_work / sleep_appraisals / sleep_related_worry_defusion,PSYCHO,5,1.0,44.0,23.2723,0.23655143,0.017246861
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / acceptance_of_wakefulness_practice,BIO,5,1.0,44.8,13.013839,0.23339577,0.012223093
+BIO / cognitive_capacity_and_brain_health / neurotoxin_and_exposure_risk_reduction / sleep_disordered_breathing_and_hypoxia_risk / home_sleep_testing_referral,BIO,5,1.0,46.0,8.694826,0.23262164,0.0121341115
+PSYCHO / foundations_and_common_factors / psychoeducation_modules / sleep_and_restoration_psychoeducation / sleep_cognition_loops / psychoeducation_safety_behaviors_around_sleep,PSYCHO,5,1.0,49.6,13.690873,0.23100507,0.017455606
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / aromatherapy_lavender,BIO,5,1.0,50.2,10.419213,0.23014002,0.014471383
+BIO / sleep_circadian_and_restoration / circadian_entrainment / context_shift_plans / weekend_social_shift_mitigation,BIO,5,1.0,52.4,18.553705,0.23040573,0.012910655
+PSYCHO / foundations_and_common_factors / psychoeducation_modules / sleep_and_restoration_psychoeducation / sleep_cognition_loops / psychoeducation_sleep_worry_cycle_psychological,PSYCHO,5,1.0,53.0,16.480291,0.23093602,0.016765486
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / breathwork_relaxation,BIO,5,1.0,55.6,21.2,0.22927074,0.013373151
+SOCIAL / romantic_intimacy_and_relationships / romantic_relationship_skills_and_support / communication_and_connection / stress_and_coregulation / sleep_fatigue_and_irritability_risk_mitigation_plan,SOCIAL,5,1.0,57.2,14.945234,0.22804065,0.013046128
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / wind_down_routine,BIO,5,1.0,57.6,25.29506,0.22940862,0.011356784
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / paper_book_reading,BIO,5,1.0,58.8,9.495262,0.22700897,0.014695298
+BIO / sleep_circadian_and_restoration / circadian_entrainment / activity_and_meal_cues / caffeine_timing_adjustment,BIO,5,1.0,58.8,9.6208105,0.22745676,0.013633773
+PSYCHO / change_process_and_therapeutic_phases / phase_management_and_sequencing / stabilization_and_safety_crosscutting / sleep_stability_firstline_plan_when_appropriate,PSYCHO,5,1.0,61.2,10.609429,0.22661117,0.013464779
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / clock_face_cover,BIO,5,1.0,61.8,7.110555,0.22619298,0.013277333
+BIO / cognitive_capacity_and_brain_health / sleep_circadian_and_glymphatic_support / circadian_photo_biology_tools / smart_circadian_lighting_system,BIO,5,1.0,61.8,7.1944423,0.2260145,0.012498465
+BIO / cognitive_capacity_and_brain_health / sleep_circadian_and_glymphatic_support / circadian_photo_biology_tools / dawn_simulation_device,BIO,5,1.0,63.2,11.923087,0.22586009,0.010870661
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / sleep_medicine_and_circadian_care / therapy_and_device_pathways / nightmare_targeted_sleep_specialty_referral,BIO,5,1.0,63.2,16.509392,0.2269022,0.018192302
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / relaxation_scan_head_to_toe,BIO,5,1.0,63.6,13.558761,0.22546077,0.012382497
+BIO / sleep_circadian_and_restoration / circadian_entrainment / activity_and_meal_cues / social_rhythm_stabilization,BIO,5,1.0,64.8,24.44913,0.22605157,0.0135671245
+BIO / sleep_circadian_and_restoration / sleep_environment / air_allergen_and_irritant_control / bedroom_co2_monitor,BIO,5,1.0,66.4,15.818975,0.22527075,0.018132582
+PSYCHO / foundations_and_common_factors / psychoeducation_modules / sleep_and_restoration_psychoeducation / sleep_cognition_loops / psychoeducation_paradoxical_intention_rationale,PSYCHO,5,1.0,67.0,14.21267,0.22487369,0.016421985
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / progressive_muscle_relaxation,BIO,5,1.0,68.6,19.022093,0.22457281,0.016841887
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / comfort_scan_adjustment,BIO,5,1.0,70.0,8.124039,0.22343054,0.0151616605
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / sleep_medicine_and_circadian_care / referral_and_diagnostics / medication_and_substance_sleep_impact_review,BIO,5,1.0,70.8,14.076932,0.22345766,0.017253483
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / sleep_medicine_and_circadian_care / therapy_and_device_pathways / circadian_entrainment_therapy_referral_pathway,BIO,5,1.0,72.4,21.331667,0.2233418,0.016402023
+BIO / cognitive_capacity_and_brain_health / sleep_circadian_and_glymphatic_support / circadian_photo_biology_tools / dusk_simulation_lighting_system,BIO,5,1.0,73.6,9.134549,0.22150218,0.0095915
+BIO / cognitive_capacity_and_brain_health / cerebrovascular_and_oxygenation_support / vascular_risk_optimization_frameworks / sleep_apnea_risk_evaluation_referral,BIO,5,1.0,74.4,24.743484,0.22317143,0.01650882
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / todo_list_offloading,BIO,5,1.0,74.6,17.141762,0.22218819,0.01665199
+BIO / personalization_monitoring_and_data_feedback / wearables_and_home_monitoring / physiology / sleep_and_circadian / circadian_exposure_monitoring / daylight_exposure_tracker,BIO,5,1.0,81.2,14.076932,0.21931016,0.008828974
+BIO / sleep_circadian_and_restoration / sleep_environment / light_and_display_control / low_lux_bedroom_lighting,BIO,5,1.0,81.4,16.499697,0.22031541,0.014853071
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / night_awakenings_support / neutral_content_audio_option,BIO,5,1.0,82.2,32.810974,0.2216365,0.015929136
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / light_and_circadian_environment / blackout_window_treatments,BIO,5,1.0,82.4,22.023624,0.21986885,0.014014894
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / warm_shower_or_bath,BIO,5,1.0,82.6,16.511814,0.22034292,0.013708652
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / flexible_skill_selection_in_context / early_warning_signs_to_action_routine,PSYCHO,5,1.0,84.0,35.116947,0.21981466,0.0101877
+BIO / cognitive_capacity_and_brain_health / sleep_circadian_and_glymphatic_support / sleep_support_nutraceuticals / melatonin,BIO,5,1.0,86.2,36.733635,0.22086811,0.017890906
+BIO / sleep_circadian_and_restoration / circadian_entrainment / light_cues / dawn_simulation_alarm,BIO,5,1.0,86.4,5.885576,0.2174099,0.01087082
+BIO / cognitive_capacity_and_brain_health / neurotoxin_and_exposure_risk_reduction / sleep_disordered_breathing_and_hypoxia_risk / polysomnography_referral,BIO,5,1.0,87.2,19.671299,0.21824782,0.01281841
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / gentle_stretching,BIO,5,1.0,87.4,23.996668,0.21934518,0.0130969435
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / herbal_tea_routine,BIO,5,1.0,93.6,21.152777,0.2172019,0.014069771
+BIO / cognitive_capacity_and_brain_health / sleep_circadian_and_glymphatic_support / sleep_support_nutraceuticals / lavender_extract,BIO,5,1.0,94.4,30.010666,0.21760032,0.0141989365
+BIO / sleep_circadian_and_restoration / sleep_pharmacotherapy_classes / nonbzd_hypnotic_classes,BIO,5,1.0,95.0,19.183327,0.2174089,0.015925482
+BIO / medical_assessment_and_physiology_testing / sleep_and_respiratory_testing / circadian_and_sleep_tracking / sleep_diary,BIO,5,1.0,95.2,37.578716,0.21851853,0.017964128
+BIO / cognitive_capacity_and_brain_health / neurotoxin_and_exposure_risk_reduction / sleep_disordered_breathing_and_hypoxia_risk / pulse_oximeter,BIO,5,1.0,96.8,19.363884,0.21581689,0.011126798
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / sleep_medicine_and_circadian_care / referral_and_diagnostics / restless_legs_and_movement_in_sleep_evaluation_pathway,BIO,5,1.0,97.0,15.671631,0.216446,0.015718848
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / soothing_music_playlist,BIO,5,1.0,97.2,13.847744,0.2165422,0.0149621265
+BIO / sleep_circadian_and_restoration / sleep_environment / light_and_display_control / outdoor_daylight_access_at_home,BIO,5,1.0,98.0,13.579396,0.21484494,0.009115284
+BIO / sleep_circadian_and_restoration / circadian_entrainment / light_cues / outdoor_morning_walk,BIO,5,1.0,99.4,32.22794,0.21544068,0.007323233
+BIO / sleep_circadian_and_restoration / circadian_entrainment / activity_and_meal_cues / exercise_timing_circadian_cue,BIO,5,1.0,103.8,30.95416,0.21448962,0.010256586
+BIO / cognitive_capacity_and_brain_health / sleep_circadian_and_glymphatic_support / circadian_photo_biology_tools / blue_light_filter_glasses,BIO,5,1.0,105.0,12.759311,0.2132942,0.010108303
+BIO / sleep_circadian_and_restoration / circadian_entrainment / activity_and_meal_cues / meal_timing_circadian_cue,BIO,5,1.0,105.4,28.032837,0.2142278,0.013084396
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / light_and_circadian_environment / blue_light_reduction_evening,BIO,5,1.0,105.8,35.085037,0.21381477,0.014667553
+BIO / sleep_circadian_and_restoration / circadian_entrainment / light_cues / evening_light_dimming,BIO,5,1.0,106.0,23.194826,0.21317759,0.0124346735
+BIO / sleep_circadian_and_restoration / sleep_environment / air_allergen_and_irritant_control / low_dust_bedroom_declutter,BIO,5,1.0,106.6,10.781466,0.212894,0.012741177
+BIO / cognitive_capacity_and_brain_health / neurodegeneration_risk_modifiers_and_longevity_neurohealth / screening_and_referrals / sleep_clinic_evaluation_referral,BIO,5,1.0,108.2,30.60327,0.21375775,0.015638562
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / foot_bath_routine,BIO,5,1.0,108.4,26.904274,0.21395358,0.013714117
+BIO / personalization_monitoring_and_data_feedback / wearables_and_home_monitoring / physiology / sleep_and_circadian / circadian_exposure_monitoring / light_exposure_dosimeter,BIO,5,1.0,110.4,14.051334,0.21214072,0.008422735
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / night_awakenings_support / low_light_bathroom_path,BIO,5,1.0,115.4,22.570778,0.21168432,0.011068657
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / yoga_nidra,BIO,5,1.0,115.4,29.179445,0.21186812,0.013661171

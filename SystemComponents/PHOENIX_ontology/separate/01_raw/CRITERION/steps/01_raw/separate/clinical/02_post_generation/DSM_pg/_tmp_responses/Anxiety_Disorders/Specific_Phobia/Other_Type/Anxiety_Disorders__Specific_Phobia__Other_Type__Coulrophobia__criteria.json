@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "FEAR_REACTION_TO_CLOWN_VISUAL"
+    },
+    {
+      "criterium": "ANTICIPATORY_ANXIETY_BEFORE_CLOWN_EXPOSURE"
+    },
+    {
+      "criterium": "PHYSIOLOGICAL_AROUSAL_TO_CLOWN_STIMULI"
+    },
+    {
+      "criterium": "PANIC_ATTACKS_DURING_CLOWN_EXPOSURE"
+    },
+    {
+      "criterium": "AVOIDANCE_OF_CLOWN_EVENTS"
+    },
+    {
+      "criterium": "STARTLE_REACTION_TO_CLOWN_APPEARANCE"
+    },
+    {
+      "criterium": "HYPERVIGILANCE_TO_CLOWN_CUES"
+    },
+    {
+      "criterium": "TREMOR_OR_SWEATING_ON_CLOWN_VISUALS"
+    },
+    {
+      "criterium": "IMPAIRMENT_OF_FUNCTIONING_DUE_TO_CLOWN_FEAR"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

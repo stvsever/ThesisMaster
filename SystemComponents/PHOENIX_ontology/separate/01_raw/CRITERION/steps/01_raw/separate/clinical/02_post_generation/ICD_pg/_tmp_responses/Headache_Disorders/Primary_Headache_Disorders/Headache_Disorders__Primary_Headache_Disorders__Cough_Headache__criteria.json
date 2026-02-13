@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "headache_triggered_by_cough"
+    },
+    {
+      "criterium": "headache_triggered_by_valsalva_maneuver"
+    },
+    {
+      "criterium": "headache_triggered_by_bending_forward"
+    },
+    {
+      "criterium": "headache_onset_immediately_after_trigger"
+    },
+    {
+      "criterium": "headache_location_occipital_region"
+    },
+    {
+      "criterium": "headache_recurrence_with_same_trigger"
+    },
+    {
+      "criterium": "neurological_examination_normal"
+    },
+    {
+      "criterium": "neuroimaging_no_secondary_pathology_when_indicated"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

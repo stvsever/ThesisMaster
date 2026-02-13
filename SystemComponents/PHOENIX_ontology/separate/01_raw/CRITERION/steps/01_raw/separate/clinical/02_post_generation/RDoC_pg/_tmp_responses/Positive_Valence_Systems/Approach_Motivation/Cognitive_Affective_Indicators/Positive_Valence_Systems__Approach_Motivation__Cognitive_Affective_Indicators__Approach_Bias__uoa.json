@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2_rs1800497",
+      "DRD4_VNTR_7R",
+      "COMT_rs4680",
+      "SLC6A3_3pUTR_VNTR_9R"
+    ],
+    "molecules": [
+      "Dopamine_release_NAcc",
+      "Dopamine_receptor_density_NAcc",
+      "BDNF_plasma_level",
+      "Glutamate_concentration_PFC",
+      "Endocannabinoid_AEA_plasma"
+    ],
+    "cells": [
+      "TH_positive_neuron_density_VTA",
+      "D1_MSN_density_striatum",
+      "D2_MSN_density_striatum",
+      "GABAergic_interneuron_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "vmPFC_NAcc_functional_connectivity",
+      "amygdala_prefrontal_functional_connectivity",
+      "VTA_NAcc_fMRI_coactivation",
+      "DLPFC_NAcc_effective_connectivity",
+      "OFC_reward_network_strength"
+    ],
+    "physiology": [
+      "Heart_rate_response_to_reward_cues",
+      "Skin_conductance_response_to_reward_cues",
+      "Pupil_dilation_to_reward_cues",
+      "Respiratory_rate_change_to_reward_cues"
+    ],
+    "behavior": [
+      "Approach_RT_to_reward_cues",
+      "Approach_movement_speed_reward_vs_neutral",
+      "Approach_selection_rate_reward_stimuli",
+      "Approach_error_rate_reward_tasks",
+      "IAT_reward_bias_score"
+    ],
+    "self_report": [
+      "BAS_Drive_score",
+      "BAS_Reward_Responsivity_score",
+      "BAS_Fun_Seeking_score"
+    ]
+  },
+  "estimated_prevalence_percent": 6.2
+}

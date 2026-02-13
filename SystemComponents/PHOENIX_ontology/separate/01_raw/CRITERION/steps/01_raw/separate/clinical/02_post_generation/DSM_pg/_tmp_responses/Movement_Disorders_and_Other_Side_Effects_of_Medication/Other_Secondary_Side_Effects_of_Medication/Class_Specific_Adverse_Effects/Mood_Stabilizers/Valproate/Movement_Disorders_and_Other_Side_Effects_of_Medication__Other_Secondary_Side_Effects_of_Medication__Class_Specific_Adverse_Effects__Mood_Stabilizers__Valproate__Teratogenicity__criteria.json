@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "neural_tube_defect_in_fetus"
+    },
+    {
+      "criterium": "craniofacial_dysmorphism_in_fetus"
+    },
+    {
+      "criterium": "congenital_cardiac_anomaly"
+    },
+    {
+      "criterium": "congenital_limb_anomaly"
+    },
+    {
+      "criterium": "hypospadias_in_newborn"
+    },
+    {
+      "criterium": "intrauterine_growth_restriction"
+    },
+    {
+      "criterium": "microcephaly_at_birth"
+    },
+    {
+      "criterium": "neonatal_hypotonia"
+    },
+    {
+      "criterium": "neurodevelopmental_delay_in_child"
+    }
+  ],
+  "estimated_prevalence_percent": 9.0
+}

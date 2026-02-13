@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "difficulty_initiating_sleep"
+    },
+    {
+      "criterium": "difficulty_maintaining_sleep"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "nonrestorative_sleep"
+    },
+    {
+      "criterium": "daytime_sleepiness"
+    },
+    {
+      "criterium": "tachycardia_palpitations"
+    },
+    {
+      "criterium": "tremor_psychomotor_restlessness"
+    },
+    {
+      "criterium": "muscle_tension"
+    },
+    {
+      "criterium": "nocturnal_worried_ruminations"
+    },
+    {
+      "criterium": "panic_like_anxiety_spikes"
+    },
+    {
+      "criterium": "irritability_or_mood_lability"
+    },
+    {
+      "criterium": "hypervigilance_to_stimuli"
+    }
+  ],
+  "estimated_prevalence_percent": 8.5
+}

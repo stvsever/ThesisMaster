@@ -1,0 +1,4481 @@
+{
+  "EARLY_ADOLESCENCE": {
+    "social_development": {
+      "peer_relationships": {
+        "friendships": {
+          "forming_close_friendships": {},
+          "maintaining_friendships": {},
+          "peer_pressure_management": {},
+          "social_cliques": {}
+        },
+        "social_networks": {
+          "expanding_social_circle": {},
+          "online_friendships": {},
+          "community_involvement": {},
+          "extracurricular_groups": {}
+        },
+        "teamwork_and_collaboration": {
+          "group_projects": {},
+          "team_sports": {},
+          "collaborative_tasks": {},
+          "leadership_roles": {}
+        },
+        "conflict_resolution": {
+          "negotiation_skills": {},
+          "mediation_skills": {},
+          "compromise_skills": {},
+          "assertive_communication": {}
+        }
+      },
+      "family_relationships": {
+        "parent_interactions": {
+          "communication_with_parents": {},
+          "independence_from_parents": {},
+          "parental_guidance": {},
+          "family_time": {}
+        },
+        "sibling_relationships": {
+          "supportive_relationships": {},
+          "shared_responsibilities": {},
+          "conflict_management": {},
+          "cooperative_play": {}
+        },
+        "extended_family_interactions": {
+          "grandparent_relationships": {},
+          "aunt_uncle_relationships": {},
+          "cousin_relationships": {},
+          "family_event_participation": {}
+        },
+        "role_models_and_influences": {
+          "identifying_role_models": {},
+          "observational_learning": {},
+          "mimicking_behaviors": {},
+          "mentor_relationships": {}
+        }
+      },
+      "social_skills": {
+        "communication_skills": {
+          "verbal_communication": {},
+          "non_verbal_communication": {},
+          "active_listening": {},
+          "expressive_speaking": {}
+        },
+        "empathy_and_compassion": {
+          "understanding_others_feelings": {},
+          "helping_behaviors": {},
+          "comforting_peers": {},
+          "expressing_empathy": {}
+        },
+        "respect_and_responsibility": {
+          "respecting_personal_space": {},
+          "following_social_norms": {},
+          "taking_responsibility": {},
+          "polite_interactions": {}
+        },
+        "leadership_and_followership": {
+          "leadership_skills": {},
+          "following_directions": {},
+          "team_leadership": {},
+          "group_following": {}
+        }
+      },
+      "group_participation": {
+        "school_activities": {
+          "class_participation": {},
+          "group_projects": {},
+          "student_governance": {},
+          "extracurricular_activities": {}
+        },
+        "community_involvement": {
+          "volunteering": {},
+          "community_events": {},
+          "social_responsibility_projects": {},
+          "civic_participation": {}
+        },
+        "sports_and_recreation": {
+          "team_sports": {},
+          "individual_sports": {},
+          "recreational_games": {},
+          "physical_competitions": {}
+        },
+        "cultural_participation": {
+          "cultural_events": {},
+          "tradition_participation": {},
+          "cultural_exchange": {},
+          "arts_and_crafts": {}
+        }
+      }
+    },
+    "physical_development": {
+      "motor_skills": {
+        "gross_motor_skills": {
+          "running": {},
+          "jumping": {},
+          "climbing": {},
+          "balancing": {},
+          "throwing_and_catching": {}
+        },
+        "fine_motor_skills": {
+          "drawing": {},
+          "writing": {},
+          "cutting_with_scissors": {},
+          "manipulating_small_objects": {},
+          "buttoning_and_zipping": {}
+        },
+        "coordination": {
+          "hand_eye_cooperation": {},
+          "spatial_awareness": {},
+          "timing_and_rhythm": {},
+          "bilateral_coordination": {}
+        },
+        "reflexes": {
+          "reflex_diminution": {},
+          "startle_reflex": {},
+          "grasp_reflex": {},
+          "balance_reflex": {}
+        }
+      },
+      "growth_metrics": {
+        "height_growth": {
+          "linear_growth": {},
+          "height_percentile": {},
+          "growth_patterns": {},
+          "posture_development": {}
+        },
+        "weight_growth": {
+          "consistent_weight_gain": {},
+          "weight_percentile": {},
+          "growth_trends": {},
+          "nutrition_balance": {}
+        },
+        "body_proportion_changes": {
+          "limb_lengthening": {},
+          "torso_growth": {},
+          "head_to_body_ratio": {},
+          "muscle_development": {}
+        },
+        "physical_fitness": {
+          "endurance": {},
+          "strength": {},
+          "flexibility": {},
+          "agility": {}
+        }
+      },
+      "health_and_wellness": {
+        "nutrition": {
+          "balanced_diet": {},
+          "healthy_eating_habits": {},
+          "vitamin_intake": {},
+          "hydration": {}
+        },
+        "hygiene_habits": {
+          "hand_washing": {},
+          "tooth_brushing": {},
+          "personal_cleanliness": {},
+          "bathroom_habits": {}
+        },
+        "physical_activity": {
+          "daily_exercise": {},
+          "active_play": {},
+          "organized_sports": {},
+          "outdoor_activities": {}
+        },
+        "sleep_patterns": {
+          "consistent_sleep_schedule": {},
+          "nap_times": {},
+          "sleep_quality": {},
+          "bedtime_routines": {}
+        }
+      },
+      "coordination": {
+        "hand_eye_coordination": {
+          "throwing": {},
+          "catching": {},
+          "drawing_precision": {},
+          "writing_accuracy": {}
+        },
+        "spatial_awareness": {
+          "navigating_spaces": {},
+          "understanding_distances": {},
+          "object_orientation": {},
+          "map_reading_basics": {}
+        },
+        "timing_and_rhythm": {
+          "dancing": {},
+          "clapping_to_rhythm": {},
+          "timed_movements": {},
+          "music_participation": {}
+        },
+        "agility": {
+          "quick_movements": {},
+          "changing_directions": {},
+          "balance_control": {},
+          "coordination_under_pressure": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "emotional_regulation": {
+        "managing_frustration": {},
+        "expressing_emotions_appropriately": {},
+        "recognizing_emotions_self": {},
+        "recognizing_emotions_others": {}
+      },
+      "self_esteem": {
+        "confidence_building": {},
+        "independence": {},
+        "resilience": {},
+        "sense_of_competence": {}
+      },
+      "empathy_and_compassion": {
+        "understanding_others_feelings": {},
+        "helping_behaviors": {},
+        "sharing_emotions": {},
+        "comforting_others": {}
+      },
+      "attachment_and_relationships": {
+        "secure_attachments": {},
+        "friendships": {},
+        "trust_building": {},
+        "conflict_management": {}
+      },
+      "identity_development": {
+        "self_concept": {},
+        "personal_values": {},
+        "cultural_identity": {},
+        "gender_identity": {}
+      },
+      "stress_management": {
+        "coping_strategies": {},
+        "time_management": {},
+        "emotional_support_systems": {},
+        "mindfulness_practices": {}
+      }
+    },
+    "cognitive_development": {
+      "language_skills": {
+        "vocabulary_growth": {
+          "word_expansion": {},
+          "new_word_learning": {},
+          "contextual_usage": {},
+          "language_diversity": {}
+        },
+        "sentence_structure": {
+          "complex_sentences": {},
+          "question_asking": {},
+          "expressive_speech": {},
+          "sentence_variation": {}
+        },
+        "storytelling": {
+          "narrative_skills": {},
+          "sequencing_events": {},
+          "imaginative_telling": {},
+          "creative_story_creation": {}
+        },
+        "following_directions": {
+          "multi_step_commands": {},
+          "instruction_following": {},
+          "comprehension_skills": {},
+          "executing_tasks": {}
+        }
+      },
+      "thinking_and_reasoning": {
+        "problem_solving": {
+          "logical_thinking": {},
+          "identifying_patterns": {},
+          "reasoning_skills": {},
+          "creative_solutions": {}
+        },
+        "memory_skills": {
+          "short_term_memory": {},
+          "long_term_memory": {},
+          "recall_abilities": {},
+          "memory_retrieval": {}
+        },
+        "attention_span": {
+          "sustained_attention": {},
+          "selective_attention": {},
+          "divided_attention": {},
+          "focused_attention": {}
+        },
+        "critical_thinking": {
+          "analyzing_information": {},
+          "evaluating_scenarios": {},
+          "decision_making": {},
+          "questioning_assumptions": {}
+        }
+      },
+      "creativity_and_imagination": {
+        "pretend_play": {
+          "role_playing": {},
+          "imaginative_scenarios": {},
+          "story_creation": {},
+          "fantasy_world_building": {}
+        },
+        "artistic_expression": {
+          "drawing": {},
+          "painting": {},
+          "crafting": {},
+          "sculpting": {}
+        },
+        "inventive_thinking": {
+          "idea_generation": {},
+          "creative_solutions": {},
+          "innovative_play": {},
+          "designing_projects": {}
+        },
+        "exploration": {
+          "curiosity_driven_learning": {},
+          "experimental_play": {},
+          "discovering_new_things": {},
+          "scientific_inquiry": {}
+        }
+      },
+      "academic_skills": {
+        "basic_literacy": {
+          "letter_recognition": {},
+          "phonics": {},
+          "early_reading": {},
+          "reading_comprehension": {}
+        },
+        "basic_numeracy": {
+          "number_recognition": {},
+          "counting_skills": {},
+          "simple_addition": {},
+          "basic_subtraction": {}
+        },
+        "understanding_concepts": {
+          "size_concepts": {},
+          "color_concepts": {},
+          "shape_concepts": {},
+          "time_concepts": {}
+        },
+        "learning_strategies": {
+          "memorization": {},
+          "repetition": {},
+          "interactive_learning": {},
+          "organizational_skills": {}
+        },
+        "science_and_technology": {
+          "basic_scientific_concepts": {},
+          "technology_usage": {},
+          "experimenting": {},
+          "logical_reasoning": {}
+        },
+        "mathematical_reasoning": {
+          "problem_solving": {},
+          "pattern_recognition": {},
+          "logical_thinking": {},
+          "mathematical_operations": {}
+        }
+      },
+      "executive_functions": {
+        "attention_control": {
+          "sustained_attention": {},
+          "selective_attention": {},
+          "focus_shifting": {},
+          "inhibitory_control": {}
+        },
+        "impulse_control": {
+          "delaying_gratification": {},
+          "resisting_distractions": {},
+          "emotional_impulse_control": {},
+          "behavioral_impulse_control": {}
+        },
+        "working_memory": {
+          "holding_information_temporarily": {},
+          "simple_problem_solving": {},
+          "following_instructions": {},
+          "information_recall": {}
+        },
+        "cognitive_flexibility": {
+          "task_switching": {},
+          "adapting_to_change": {},
+          "flexible_thinking": {},
+          "problem_restructuring": {}
+        },
+        "planning_and_organization": {
+          "simple_planning": {},
+          "sequence_planning": {},
+          "goal_setting": {},
+          "task_prioritization": {}
+        },
+        "decision_making": {
+          "evaluating_options": {},
+          "risk_assessment": {},
+          "outcome_prediction": {},
+          "responsible_choices": {}
+        }
+      }
+    }
+  },
+  "EARLY_ADULTHOOD": {
+    "social_development": {
+      "career_networking": {
+        "professional_networking_strategies": {
+          "industry_specific_networking": {},
+          "mentorship_cultivation": {},
+          "alumni_engagement": {}
+        },
+        "workplace_dynamics": {
+          "colleague_conflict_mediation": {},
+          "cross_department_collaboration": {},
+          "hierarchical_navigation": {}
+        },
+        "digital_social_presence": {
+          "linkedin_optimization": {},
+          "professional_boundary_maintenance": {},
+          "virtual_team_building": {}
+        }
+      },
+      "family_formation": {
+        "partnership_development": {
+          "cohabitation_compromise": {},
+          "shared_financial_goals": {},
+          "in_law_relationship_management": {}
+        },
+        "parenting_preparation": {
+          "career_parenting_balance": {},
+          "generational_value_transmission": {},
+          "childcare_networking": {}
+        },
+        "intergenerational_bonds": {
+          "aging_parent_support": {},
+          "family_tradition_revitalization": {},
+          "multigenerational_living_adaptation": {}
+        }
+      },
+      "community_integration": {
+        "local_engagement": {
+          "neighborhood_associations": {},
+          "volunteer_leadership": {},
+          "civic_committee_participation": {}
+        },
+        "identity_based_groups": {
+          "cultural_heritage_preservation": {},
+          "professional_affinity_groups": {},
+          "hobby_based_communities": {}
+        },
+        "global_citizenship": {
+          "sustainable_lifestyle_advocacy": {},
+          "cross_cultural_exchange": {},
+          "digital_global_networking": {}
+        }
+      },
+      "leisure_socialization": {
+        "adult_friendship_maintenance": {
+          "geographically_dispersed_friendships": {},
+          "life_stage_synchronization": {},
+          "hobby_shared_investment": {}
+        },
+        "recreational_skill_building": {
+          "adult_sports_leagues": {},
+          "creative_arts_collectives": {},
+          "gastronomy_exploration_groups": {}
+        },
+        "digital_social_etiquette": {
+          "hybrid_event_participation": {},
+          "screen_time_social_balance": {},
+          "memetic_culture_navigation": {}
+        }
+      }
+    },
+    "physical_development": {
+      "lifestyle_optimization": {
+        "metabolic_adaptation": {
+          "basal_metrate_management": {},
+          "nutritional_supplement_strategies": {},
+          "circadian_rhythm_optimization": {}
+        },
+        "preventative_maintenance": {
+          "desk_job_countermeasures": {},
+          "ergonomic_lifestyle_design": {},
+          "health_screening_routines": {}
+        },
+        "age_related_changes": {
+          "muscle_mass_preservation": {},
+          "skin_elasticity_management": {},
+          "joint_mobility_practices": {}
+        }
+      },
+      "fitness_evolution": {
+        "goal_reorientation": {
+          "functional_fitness_prioritization": {},
+          "injury_prevention_focus": {},
+          "lifespan_sport_transition": {}
+        },
+        "community_fitness": {
+          "corporate_wellness_programs": {},
+          "parent_child_activities": {},
+          "outdoor_adventure_groups": {}
+        },
+        "technology_integration": {
+          "wearable_metric_analysis": {},
+          "virtual_trainer_utilization": {},
+          "biometric_feedback_application": {}
+        }
+      },
+      "sexual_health": {
+        "reproductive_planning": {
+          "fertility_preservation_decisions": {},
+          "contemporary_contraception_choices": {},
+          "postpartum_recovery_strategies": {}
+        },
+        "intimacy_mechanics": {
+          "sexual_function_optimization": {},
+          "kink_communication_skills": {},
+          "long_term_partnership_novelty": {}
+        },
+        "preventative_measures": {
+          "STI_prevention_education": {},
+          "consent_culture_advocacy": {},
+          "sexual_health_routine_maintenance": {}
+        }
+      },
+      "appearance_management": {
+        "professional_presentation": {
+          "age_appropriate_styling": {},
+          "workplace_grooming_standards": {},
+          "nonverbal_authority_signaling": {}
+        },
+        "body_autonomy": {
+          "tattoo_piercing_choices": {},
+          "cosmetic_procedure_considerations": {},
+          "gender_expression_experimentation": {}
+        },
+        "aging_perception": {
+          "gray_hair_embracement": {},
+          "fashion_trend_adaptation": {},
+          "generational_style_reconciliation": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "identity_consolidation": {
+        "value_prioritization": {
+          "career_vs_personal_life": {},
+          "materialism_vs_experientialism": {},
+          "tradition_vs_innovation": {}
+        },
+        "role_integration": {
+          "professional_identity_assimilation": {},
+          "parental_role_acceptance": {},
+          "community_leader_identification": {}
+        },
+        "narrative_construction": {
+          "life_story_curation": {},
+          "failure_reinterpretation": {},
+          "future_self_projection": {}
+        }
+      },
+      "resilience_architecture": {
+        "disappointment_processing": {
+          "promotion_overlook_coping": {},
+          "friendship_attrition_acceptance": {},
+          "parental_expectation_reconciliation": {}
+        },
+        "uncertainty_tolerance": {
+          "career_pivot_adaptability": {},
+          "economic_instability_management": {},
+          "relationship_ambiguity_navigation": {}
+        },
+        "trauma_integration": {
+          "childhood_pattern_renegotiation": {},
+          "generational_trauma_interruption": {},
+          "adult-onset_adversity_processing": {}
+        }
+      },
+      "relational_depth": {
+        "vulnerability_calibration": {
+          "professional_boundary_negotiation": {},
+          "romantic_transparency_balance": {},
+          "intergenerational_emotional_exchange": {}
+        },
+        "attachment_evolution": {
+          "anxious_attachment_mitigation": {},
+          "avoidant_pattern_reconfiguration": {},
+          "secure_base_establishment": {}
+        },
+        "empathy_scaling": {
+          "organizational_empathy_development": {},
+          "societal_inequality_comprehension": {},
+          "global_crisis_emotional_response": {}
+        }
+      },
+      "existential_navigation": {
+        "legacy_considerations": {
+          "professional_impact_analysis": {},
+          "family_lineage_reflection": {},
+          "creative_legacy_planning": {}
+        },
+        "mortality_awareness": {
+          "health_scare_integration": {},
+          "peer_loss_processing": {},
+          "preventative_aging_strategies": {}
+        },
+        "purpose_reassessment": {
+          "midlife_meaning_exploration": {},
+          "altruism_vs_ambition": {},
+          "spiritual_framework_renovation": {}
+        }
+      }
+    },
+    "cognitive_development": {
+      "professional_mastery": {
+        "industry_specialization": {
+          "nicque_expertise_cultivation": {},
+          "automation_resistant_skills": {},
+          "cross_disciplinary_synthesis": {}
+        },
+        "decision_architecture": {
+          "strategic_compromise_calculation": {},
+          "ethical_leadership_frameworks": {},
+          "organizational_politics_navigation": {}
+        },
+        "innovation_capacity": {
+          "creative_problem_solving": {},
+          "disruptive_technology_adoption": {},
+          "legacy_system_modernization": {}
+        }
+      },
+      "financial_sophistication": {
+        "wealth_engineering": {
+          "tax_optimization_strategies": {},
+          "real_estate_portfolio_development": {},
+          "retirement_vehicle_selection": {}
+        },
+        "risk_management": {
+          "insurance_literacy": {},
+          "recession_preparedness": {},
+          "generational_wealth_preservation": {}
+        },
+        "consumption_philosophy": {
+          "minimalism_vs_conspicuous_consumption": {},
+          "experiential_investment_prioritization": {},
+          "sustainable_purchasing_ethics": {}
+        }
+      },
+      "temporal_orientation": {
+        "long-term_planning": {
+          "decadal_goal_framing": {},
+          "legacy_project_incubation": {},
+          "intergenerational_impact_forecasting": {}
+        },
+        "present_moment_optimization": {
+          "attention_economy_resistance": {},
+          "mindful_productivity": {},
+          "leisure_quality_maximization": {}
+        },
+        "nostalgia_utilization": {
+          "cultural_archive_engagement": {},
+          "tradition_modernization": {},
+          "personal_history_leverage": {}
+        }
+      },
+      "paradigm_flexibility": {
+        "belief_revision": {
+          "ideological_updating": {},
+          "expertise_humility": {},
+          "cognitive_dissonance_resolution": {}
+        },
+        "perspective_pluralism": {
+          "multidisciplinary_thinking": {},
+          "cultural_frame_integration": {},
+          "generational_worldview_synthesis": {}
+        },
+        "uncertainty_harnessing": {
+          "ambiguity_fluency": {},
+          "black_swan_preparedness": {},
+          "complex_system_visualization": {}
+        }
+      }
+    }
+  },
+  "EARLY_CHILDHOOD": {
+    "social_development": {
+      "peer_interaction": {
+        "cooperative_play": {
+          "team_games": {},
+          "shared_projects": {},
+          "role_assignments": {}
+        },
+        "sharing": {
+          "toy_sharing": {},
+          "resource_sharing": {},
+          "information_sharing": {}
+        },
+        "conflict_resolution": {
+          "negotiation_skills": {},
+          "mediation_skills": {},
+          "compromise_skills": {}
+        },
+        "empathy_development": {
+          "understanding_emotions": {},
+          "helping_behaviors": {},
+          "comforting_peers": {}
+        }
+      },
+      "family_interaction": {
+        "sibling_relationships": {
+          "playing_together": {},
+          "sharing_responsibilities": {},
+          "conflict_management": {}
+        },
+        "parent_interaction": {
+          "quality_time": {},
+          "communication_skills": {},
+          "guidance_and_support": {}
+        },
+        "extended_family_relationships": {
+          "cousin_interactions": {},
+          "grandparent_interactions": {},
+          "aunt_uncle_relationships": {}
+        },
+        "role_models": {
+          "influential_figures": {},
+          "observational_learning": {},
+          "mimicking_behaviors": {}
+        }
+      },
+      "social_skills": {
+        "taking_turns": {
+          "waiting_patience": {},
+          "participation_order": {},
+          "game_turns": {}
+        },
+        "following_rules": {
+          "classroom_rules": {},
+          "game_rules": {},
+          "social_norms": {}
+        },
+        "negotiation": {
+          "expressing_needs": {},
+          "compromising": {},
+          "problem_solving": {}
+        },
+        "respecting_others": {
+          "personal_space": {},
+          "active_listening": {},
+          "polite_interactions": {}
+        }
+      },
+      "group_participation": {
+        "team_activities": {
+          "sports_participation": {},
+          "group_performances": {},
+          "collaborative_projects": {}
+        },
+        "class_participation": {
+          "active_engagement": {},
+          "participating_in_discussions": {},
+          "group_work": {}
+        },
+        "group_projects": {
+          "collaborative_tasks": {},
+          "shared_goals": {},
+          "joint_efforts": {}
+        },
+        "community_involvement": {
+          "volunteering": {},
+          "community_events": {},
+          "social_responsibility": {}
+        }
+      }
+    },
+    "physical_development": {
+      "motor_skills": {
+        "gross_motor_skills": {
+          "running": {},
+          "jumping": {},
+          "climbing": {},
+          "balancing": {}
+        },
+        "fine_motor_skills": {
+          "drawing": {},
+          "writing": {},
+          "cutting": {},
+          "manipulating_small_objects": {}
+        },
+        "coordination": {
+          "hand_eye_cooperation": {},
+          "spatial_awareness": {},
+          "timing_and_rhythm": {}
+        },
+        "reflexes": {
+          "reflex_diminution": {},
+          "startle_reflex": {},
+          "grasp_reflex": {}
+        }
+      },
+      "growth_metrics": {
+        "height_growth": {
+          "linear_growth": {},
+          "height_percentile": {},
+          "growth_patterns": {}
+        },
+        "weight_growth": {
+          "consistent_weight_gain": {},
+          "weight_percentile": {},
+          "growth_trends": {}
+        },
+        "body_proportion_changes": {
+          "limb_lengthening": {},
+          "torso_growth": {},
+          "head_to_body_ratio": {}
+        },
+        "physical_fitness": {
+          "endurance": {},
+          "strength": {},
+          "flexibility": {}
+        }
+      },
+      "health_and_wellness": {
+        "nutrition": {
+          "balanced_diet": {},
+          "healthy_eating_habits": {},
+          "vitamin_intake": {}
+        },
+        "hygiene_habits": {
+          "hand_washing": {},
+          "tooth_brushing": {},
+          "personal_cleanliness": {}
+        },
+        "physical_activity": {
+          "daily_exercise": {},
+          "active_play": {},
+          "organized_sports": {}
+        },
+        "sleep_patterns": {
+          "consistent_sleep_schedule": {},
+          "nap_times": {},
+          "sleep_quality": {}
+        }
+      },
+      "coordination": {
+        "hand_eye_coordination": {
+          "throwing": {},
+          "catching": {},
+          "drawing_precision": {}
+        },
+        "spatial_awareness": {
+          "navigating_spaces": {},
+          "understanding_distances": {},
+          "object_orientation": {}
+        },
+        "timing_and_rhythm": {
+          "dancing": {},
+          "clapping_to_rhythm": {},
+          "timed_movements": {}
+        },
+        "agility": {
+          "quick_movements": {},
+          "changing_directions": {},
+          "balance_control": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "emotional_regulation": {
+        "managing_frustration": {},
+        "expressing_emotions_appropriately": {},
+        "recognizing_emotions_self": {},
+        "recognizing_emotions_others": {}
+      },
+      "self_esteem": {
+        "confidence_building": {},
+        "independence": {},
+        "resilience": {},
+        "sense_of_competence": {}
+      },
+      "empathy_and_compassion": {
+        "understanding_others_feelings": {},
+        "helping_behaviors": {},
+        "sharing_emotions": {},
+        "comforting_others": {}
+      },
+      "attachment_and_relationships": {
+        "secure_attachments": {},
+        "friendships": {},
+        "trust_building": {},
+        "conflict_management": {}
+      }
+    },
+    "cognitive_development": {
+      "language_skills": {
+        "vocabulary_growth": {
+          "word_expansion": {},
+          "new_word_learning": {},
+          "contextual_usage": {}
+        },
+        "sentence_structure": {
+          "complex_sentences": {},
+          "question_asking": {},
+          "expressive_speech": {}
+        },
+        "storytelling": {
+          "narrative_skills": {},
+          "sequencing_events": {},
+          "imaginative_telling": {}
+        },
+        "following_directions": {
+          "multi_step_commands": {},
+          "instruction_following": {},
+          "comprehension_skills": {}
+        }
+      },
+      "thinking_and_reasoning": {
+        "problem_solving": {
+          "logical_thinking": {},
+          "identifying_patterns": {},
+          "reasoning_skills": {}
+        },
+        "memory_skills": {
+          "short_term_memory": {},
+          "long_term_memory": {},
+          "recall_abilities": {}
+        },
+        "attention_span": {
+          "sustained_attention": {},
+          "selective_attention": {},
+          "divided_attention": {}
+        },
+        "critical_thinking": {
+          "analyzing_information": {},
+          "evaluating_scenarios": {},
+          "decision_making": {}
+        }
+      },
+      "creativity_and_imagination": {
+        "pretend_play": {
+          "role_playing": {},
+          "imaginative_scenarios": {},
+          "story_creation": {}
+        },
+        "artistic_expression": {
+          "drawing": {},
+          "painting": {},
+          "crafting": {}
+        },
+        "inventive_thinking": {
+          "idea_generation": {},
+          "creative_solutions": {},
+          "innovative_play": {}
+        },
+        "exploration": {
+          "curiosity_driven_learning": {},
+          "experimental_play": {},
+          "discovering_new_things": {}
+        }
+      },
+      "academic_skills": {
+        "basic_literacy": {
+          "letter_recognition": {},
+          "phonics": {},
+          "early_reading": {}
+        },
+        "basic_numeracy": {
+          "number_recognition": {},
+          "counting_skills": {},
+          "simple_addition": {}
+        },
+        "understanding_concepts": {
+          "size_concepts": {},
+          "color_concepts": {},
+          "shape_concepts": {}
+        },
+        "learning_strategies": {
+          "memorization": {},
+          "repetition": {},
+          "interactive_learning": {}
+        }
+      }
+    }
+  },
+  "END_OF_LIFE": {
+    "social_development": {
+      "final_relationship_architecture": {
+        "reconciliation_protocols": {
+          "unfinished_business_resolution": {},
+          "symbolic_closure_rituals": {},
+          "silent_understanding_cultivation": {}
+        },
+        "farewell_choreography": {
+          "last_words_curation": {},
+          "presence_prioritization_hierarchy": {},
+          "nonverbal_exit_strategies": {}
+        },
+        "intimacy_calibration": {
+          "touch_communication_optimization": {},
+          "eye_contact_significance_amplification": {},
+          "vulnerability_etiquette_negotiation": {}
+        }
+      },
+      "legacy_transmission": {
+        "epistolary_legacy": {
+          "final_letter_composition": {},
+          "digital_memorial_blueprinting": {},
+          "ethical_will_refinement": {}
+        },
+        "object_meaning_encoding": {
+          "keepsake_activation": {},
+          "heirloom_charge_ceremonies": {},
+          "everyday_artifact_resignification": {}
+        },
+        "oral_impression_sealing": {
+          "catchphrase_crystallization": {},
+          "story_essence_distillation": {},
+          "laughter_legacy_preservation": {}
+        }
+      },
+      "social_exit_strategy": {
+        "role_sunsetting": {
+          "title_relinquishment_rituals": {},
+          "community_position_handoff": {},
+          "membership_status_transmutation": {}
+        },
+        "presence_tapering": {
+          "social_media_fade_sequence": {},
+          "event_absence_normalization": {},
+          "conversation_closure_signaling": {}
+        },
+        "posthumous_interface": {
+          "memorial_social_account_planning": {},
+          "avatarized_identity_options": {},
+          "biometric_legacy_access": {}
+        }
+      },
+      "postmortem_presence": {
+        "memorial_customization": {
+          "obituary_self_authoring": {},
+          "funeral_directive_creation": {},
+          "grave_marker_symbolism": {}
+        },
+        "continuing_bonds": {
+          "signs_and_omens_agreements": {},
+          "anniversary_ritual_codesign": {},
+          "dream_visit_invitations": {}
+        },
+        "cultural_immortality": {
+          "family_lore_embedding": {},
+          "community_space_dedication": {},
+          "artistic_representation_commissioning": {}
+        }
+      }
+    },
+    "physical_development": {
+      "comfort_optimization": {
+        "pain_navigation": {
+          "sensation_reframing_techniques": {},
+          "medication_meaning_rituals": {},
+          "pressure_point_communication": {}
+        },
+        "breath_management": {
+          "respiratory_awareness_meditation": {},
+          "air_quality_symbolism": {},
+          "last_breath_preparation": {}
+        },
+        "positional_symbolism": {
+          "directional_orientation_meaning": {},
+          "light_exposure_curation": {},
+          "texture_threshold_optimization": {}
+        }
+      },
+      "sensory_adaptation": {
+        "input_filtering": {
+          "soundscape_curation": {},
+          "tactile_selectivity": {},
+          "visual_focus_narrowing": {}
+        },
+        "threshold_transmutation": {
+          "pain_pleasure_recalibration": {},
+          "temperature_symbolism": {},
+          "scent_time_travel": {}
+        },
+        "synesthetic_enhancement": {
+          "color_as_sound": {},
+          "touch_as_memory": {},
+          "taste_as_emotion": {}
+        }
+      },
+      "bodily_reconciliation": {
+        "organ_dialogue": {
+          "gratitude_meditation": {},
+          "disease_story_reframing": {},
+          "cellular_legacy_acknowledgment": {}
+        },
+        "function_release": {
+          "continence_closure_rituals": {},
+          "mobility_surrender_ceremonies": {},
+          "appetite_transcendence": {}
+        },
+        "decay_meaning": {
+          "wrinkle_wisdom_mapping": {},
+          "scar_story_amplification": {},
+          "gray_hair_crown_acceptance": {}
+        }
+      },
+      "transition_readiness": {
+        "threshold_rituals": {
+          "final_meal_symbolism": {},
+          "last_outfit_curation": {},
+          "boundary_object_selection": {}
+        },
+        "energy_redistribution": {
+          "possession_detachment": {},
+          "emotional_charge_transfer": {},
+          "attention_economy_sunsetting": {}
+        },
+        "elemental_return": {
+          "earth_connection_rituals": {},
+          "air_release_practices": {},
+          "fire_transformation_visualization": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "existential_resolution": {
+        "mortality_acceptance": {
+          "panic_sublimation": {},
+          "uncertainty_embracement": {},
+          "cosmic_belonging_cultivation": {}
+        },
+        "meaning_consolidation": {
+          "suffering_recontextualization": {},
+          "joy_archive_curation": {},
+          "legacy_impact_projection": {}
+        },
+        "time_reconciliation": {
+          "unlived_lives_release": {},
+          "eternal_now_immersion": {},
+          "generational_continuity_visualization": {}
+        }
+      },
+      "emotional_legacy": {
+        "forgiveness_completion": {
+          "self_absolution_rituals": {},
+          "relationship_balance_sheets": {},
+          "ancestral_karma_clearing": {}
+        },
+        "gratitude_saturation": {
+          "micro_appreciation_amplification": {},
+          "benefactor_acknowledgment": {},
+          "cosmic_thankfulness": {}
+        },
+        "love_crystallization": {
+          "attachment_transmutation": {},
+          "unconditional_acceptance": {},
+          "emotional_essence_distillation": {}
+        }
+      },
+      "final_affective_states": {
+        "emotional_prioritization": {
+          "resentment_sunsetting": {},
+          "wonder_amplification": {},
+          "nostalgia_dosage_management": {}
+        },
+        "affective_alchemy": {
+          "fear_to_curiosity_transmutation": {},
+          "regret_to_wisdom_conversion": {},
+          "grief_to_love_channeling": {}
+        },
+        "presence_maximization": {
+          "sensory_amplification_rituals": {},
+          "interpersonal_charge_optimization": {},
+          "beauty_intake_curation": {}
+        }
+      },
+      "transcendent_connection": {
+        "ancestral_convergence": {
+          "lineage_dialogue_imagery": {},
+          "genetic_pattern_release": {},
+          "spiritual_reunion_anticipation": {}
+        },
+        "cosmic_belonging": {
+          "star_matter_awareness": {},
+          "universal_cycle_synchronization": {},
+          "quantum_entanglement_visualization": {}
+        },
+        "mystical_preparation": {
+          "near_death_language_study": {},
+          "archetype_identification": {},
+          "consciousness_expansion_rituals": {}
+        }
+      }
+    },
+    "cognitive_development": {
+      "meaning_synthesis": {
+        "life_narrative_closure": {
+          "chapter_delimitation": {},
+          "theme_extraction": {},
+          "hero_journey_reconciliation": {}
+        },
+        "paradox_integration": {
+          "failure_success_recalibration": {},
+          "suffering_growth_acknowledgment": {},
+          "control_surrender_synthesis": {}
+        },
+        "wisdom_compression": {
+          "maxim_creation": {},
+          "metaphor_crystallization": {},
+          "koan_legacy_design": {}
+        }
+      },
+      "reality_orientation": {
+        "dimensional_awareness": {
+          "dream_reality_fluidity": {},
+          "hallucination_meaning_negotiation": {},
+          "timeline_blur_management": {}
+        },
+        "threshold_consciousness": {
+          "veil_thinning_rituals": {},
+          "ancestor_communication_protocols": {},
+          "borderland_navigation": {}
+        },
+        "perceptual_alchemy": {
+          "medical_equipment_resymbolization": {},
+          "hospital_soundscape_recontextualization": {},
+          "clinical_space_sacralization": {}
+        }
+      },
+      "transitional_cognition": {
+        "memory_reconfiguration": {
+          "autobiographical_editing": {},
+          "trauma_neutralization": {},
+          "joy_amplification_loops": {}
+        },
+        "language_simplification": {
+          "core_vocabulary_curation": {},
+          "silence_communication_mastery": {},
+          "gestural_language_optimization": {}
+        },
+        "time_perception": {
+          "life_review_compression": {},
+          "moment_eternity_oscillation": {},
+          "post_self_projection": {}
+        }
+      },
+      "cosmic_integration": {
+        "consciousness_mapping": {
+          "energy_body_awareness": {},
+          "past_life_reconciliation": {},
+          "quantum_self_visualization": {}
+        },
+        "existential_patterns": {
+          "karmic_equation_balance": {},
+          "soul_contract_review": {},
+          "archetypal_closure": {}
+        },
+        "transcendent_learning": {
+          "dying_awareness_documentation": {},
+          "mortality_literacy_transmission": {},
+          "threshold_wisdom_encoding": {}
+        }
+      }
+    }
+  },
+  "INFANCY": {
+    "social_development": {
+      "interaction": {
+        "eye_contact": {
+          "consistent_eye_contact": {},
+          "responsive_eye_contact": {},
+          "sustained_eye_contact": {},
+          "initiated_eye_contact": {}
+        },
+        "social_smiling": {
+          "spontaneous_smiling": {},
+          "responsive_smiling": {},
+          "social_reciprocity_smiling": {},
+          "smile_duration_variation": {}
+        },
+        "recognition": {
+          "familiar_faces": {
+            "primary_caregiver_recognition": {},
+            "extended_family_recognition": {},
+            "familiar_people_recognition": {}
+          },
+          "familiar_voices": {
+            "parent_voice_recognition": {},
+            "sibling_voice_recognition": {},
+            "familiar_voice_discrimination": {}
+          },
+          "familiar_sounds": {
+            "environmental_sounds_recognition": {},
+            "routine_sounds_recognition": {},
+            "music_sounds_recognition": {}
+          }
+        },
+        "social_engagement": {
+          "interactive_gazing": {},
+          "turn_taking_behaviors": {},
+          "mimicking_faces": {},
+          "gestural_communication": {}
+        }
+      },
+      "communication": {
+        "vocalizations": {
+          "babbling": {
+            "consonant_vowels_babbling": {},
+            "reduplicated_babbling": {},
+            "variegated_babbling": {}
+          },
+          "cooing": {
+            "frequency_cooing": {},
+            "duration_cooing": {},
+            "context_cooing": {}
+          },
+          "laughing": {
+            "spontaneous_laughing": {},
+            "responsive_laughing": {},
+            "social_laughing": {}
+          }
+        },
+        "gestures": {
+          "pointing": {
+            "pointing_accuracy": {},
+            "pointing_frequency": {},
+            "intentional_pointing": {}
+          },
+          "waving": {
+            "spontaneous_waving": {},
+            "responsive_waving": {},
+            "social_waving": {}
+          },
+          "clapping": {
+            "spontaneous_clapping": {},
+            "imitative_clapping": {},
+            "rhythmic_clapping": {}
+          },
+          "shrugging": {
+            "spontaneous_shrugging": {},
+            "responsive_shrugging": {},
+            "contextual_shrugging": {}
+          }
+        },
+        "responsive_gaze": {
+          "following_objects": {
+            "tracking_moving_objects": {},
+            "predictive_tracking": {},
+            "object_identification": {}
+          },
+          "shift_attention": {
+            "auditory_attention_shift": {},
+            "visual_attention_shift": {},
+            "multisensory_attention_shift": {}
+          },
+          "gaze_aversion": {
+            "temporary_aversion": {},
+            "contextual_aversion": {},
+            "social_aversion": {}
+          },
+          "joint_attention": {
+            "shared_attention": {},
+            "coordinated_attention": {},
+            "intentional_joint_attention": {}
+          }
+        }
+      },
+      "peer_interaction": {
+        "sibling_interaction": {
+          "initiation_behaviors": {},
+          "reciprocal_behaviors": {},
+          "play_interactions": {}
+        },
+        "peer_play": {
+          "parallel_play": {},
+          "associative_play": {},
+          "cooperative_play": {}
+        },
+        "group_interaction": {
+          "responding_to_multiple_people": {},
+          "attention_distribution": {},
+          "interaction_preference": {}
+        },
+        "social_play": {
+          "imaginative_play_signs": {},
+          "physical_play_signs": {},
+          "symbolic_play_signs": {}
+        }
+      }
+    },
+    "physical_development": {
+      "motor_skills": {
+        "gross_motor_skills": {
+          "crawling": {},
+          "sitting_up": {},
+          "standing_support": {},
+          "cruising": {}
+        },
+        "fine_motor_skills": {
+          "pincer_grip": {},
+          "finger_flexion": {},
+          "thumb_movement": {},
+          "hand_manipulation": {}
+        },
+        "coordination": {
+          "hand_eye_coordination": {},
+          "body_coordination": {},
+          "limb_synchronization": {},
+          "balance_control": {}
+        },
+        "reflexes": {
+          "rooting_reflex": {},
+          "sucking_reflex": {},
+          "grasping_reflex": {},
+          "startle_reflex": {}
+        }
+      },
+      "growth_metrics": {
+        "weight_gain": {
+          "monthly_gain": {},
+          "weekly_gain": {},
+          "growth_pattern": {},
+          "percentile_tracking": {}
+        },
+        "length_growth": {
+          "monthly_growth": {},
+          "weekly_growth": {},
+          "growth_curve": {},
+          "percentile_tracking": {}
+        },
+        "head_circumference": {
+          "monthly_growth": {},
+          "weekly_growth": {},
+          "growth_percentile": {},
+          "head_shape_changes": {}
+        },
+        "chest_circumference": {
+          "monthly_growth": {},
+          "weekly_growth": {},
+          "growth_percentile": {},
+          "chest_expansion": {}
+        }
+      },
+      "sensory_development": {
+        "vision": {
+          "depth_perception": {},
+          "color_discrimination": {},
+          "visual_tracking": {},
+          "light_sensitivity": {}
+        },
+        "hearing": {
+          "sound_localization": {},
+          "voice_identification": {},
+          "sound_discrimination": {},
+          "volume_tolerance": {}
+        },
+        "touch": {
+          "tactile_sensitivity": {},
+          "texture_preference": {},
+          "temperature_recognition": {},
+          "pressure_sensitivity": {}
+        },
+        "taste": {
+          "taste_discrimination": {},
+          "flavor_preference": {},
+          "taste_memory": {},
+          "oral_motor_skills": {}
+        },
+        "olfaction": {
+          "odor_discrimination": {},
+          "smell_memory": {},
+          "odor_preference": {},
+          "odor_aversion": {}
+        }
+      },
+      "sleep_patterns": {
+        "sleep_duration": {
+          "daily_sleep_hours": {},
+          "night_sleep_hours": {},
+          "day_sleep_hours": {},
+          "nap_patterns": {}
+        },
+        "sleep_cycles": {
+          "REM_sleep": {},
+          "non_REM_sleep": {},
+          "sleep_transition": {},
+          "sleep_stage_progression": {}
+        },
+        "sleep_quality": {
+          "restful_sleep": {},
+          "disturbed_sleep": {},
+          "awake_during_sleep": {},
+          "sleep_efficiency": {}
+        },
+        "sleep_positions": {
+          "supine_position": {},
+          "prone_position": {},
+          "side_position": {},
+          "position_preference": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "comfort_seeking": {
+        "soothing_behaviors": {
+          "holding": {},
+          "cuddling": {},
+          "rocking": {},
+          "swaddling": {}
+        },
+        "calming_methods": {
+          "rhythmic_sounds": {},
+          "gentle_motion": {},
+          "soft_voice": {},
+          "white_noise": {}
+        },
+        "attachment": {
+          "primary_caregiver_attachment": {
+            "secure_attachment": {},
+            "insecure_attachment": {},
+            "avoidant_attachment": {}
+          },
+          "stranger_recognition": {},
+          "separation_reaction": {}
+        },
+        "self_soothing": {
+          "hand_sucking": {},
+          "thumb_sucking": {},
+          "body_sucking": {},
+          "comfort_object_use": {}
+        }
+      },
+      "emotional_expressions": {
+        "crying_patterns": {
+          "hunger_cry": {},
+          "discomfort_cry": {},
+          "pain_cry": {},
+          "tired_cry": {}
+        },
+        "contentment_signs": {
+          "relaxed_posture": {},
+          "quiet_alertness": {},
+          "smiling": {},
+          "calm_movement": {}
+        },
+        "distress_signs": {
+          "fussing": {},
+          "irritability": {},
+          "tense_body": {},
+          "agitation": {}
+        },
+        "positive_emotions": {
+          "joy_expressions": {},
+          "interest_expressions": {},
+          "surprise_expressions": {},
+          "pleasure_responses": {}
+        }
+      },
+      "temperament": {
+        "calmness": {
+          "easy_temperament": {},
+          "moderate_temperament": {},
+          "difficult_temperament": {},
+          "variable_temperament": {}
+        },
+        "activity_level": {
+          "high_activity": {},
+          "medium_activity": {},
+          "low_activity": {},
+          "fluctuating_activity": {}
+        },
+        "adaptability": {
+          "flexible_adaptation": {},
+          "moderate_adaptation": {},
+          "rigid_adaptation": {},
+          "slow_adaptation": {}
+        },
+        "mood_regulation": {
+          "consistent_mood": {},
+          "variable_mood": {},
+          "irritable_mood": {},
+          "calm_mood": {}
+        }
+      },
+      "stress_response": {
+        "cortisol_levels": {},
+        "heart_rate_variability": {},
+        "behavioral_responses": {},
+        "physiological_responses": {},
+        "coping_mechanisms": {}
+      }
+    },
+    "cognitive_development": {
+      "sensory_perception": {
+        "vision": {
+          "depth_perception": {},
+          "color_discrimination": {},
+          "visual_tracking": {},
+          "light_sensitivity": {}
+        },
+        "hearing": {
+          "sound_localization": {},
+          "voice_identification": {},
+          "sound_discrimination": {},
+          "volume_tolerance": {}
+        },
+        "touch": {
+          "texture_discrimination": {},
+          "temperature_recognition": {},
+          "pressure_sensitivity": {},
+          "vibration_sensitivity": {}
+        },
+        "taste": {
+          "taste_discrimination": {},
+          "flavor_preference": {},
+          "taste_memory": {},
+          "oral_motor_skills": {}
+        },
+        "olfaction": {
+          "odor_discrimination": {},
+          "smell_memory": {},
+          "odor_preference": {},
+          "odor_aversion": {}
+        }
+      },
+      "attention_and_awareness": {
+        "attention_span": {
+          "short_attention": {},
+          "moderate_attention": {},
+          "focused_attention": {},
+          "sustained_attention": {}
+        },
+        "startle_response": {
+          "auditory_startle": {},
+          "visual_startle": {},
+          "tactile_startle": {},
+          "multi_sensory_startle": {}
+        },
+        "environmental_awareness": {
+          "movement_detection": {},
+          "light_response": {},
+          "sound_response": {},
+          "object_presence_detection": {}
+        },
+        "alertness_levels": {
+          "high_alertness": {},
+          "low_alertness": {},
+          "fluctuating_alertness": {},
+          "consistent_alertness": {}
+        }
+      },
+      "memory": {
+        "recognition_memory": {
+          "familiar_faces_recognition": {},
+          "familiar_sounds_recognition": {},
+          "familiar_objects_recognition": {},
+          "familiar_places_recognition": {}
+        },
+        "anticipatory_memory": {
+          "feeding_times": {},
+          "sleep_times": {},
+          "interaction_times": {},
+          "bath_times": {}
+        },
+        "pattern_memory": {
+          "visual_patterns": {},
+          "sound_patterns": {},
+          "tactile_patterns": {},
+          "temporal_patterns": {}
+        },
+        "procedural_memory": {
+          "routine_sequence": {},
+          "habit_formation": {},
+          "motor_routines": {},
+          "feeding_routines": {}
+        }
+      },
+      "problem_solving": {
+        "cause_effect_understanding": {},
+        "object_manipulation": {},
+        "goal_directed_behavior": {},
+        "exploratory_play": {}
+      },
+      "language_processing": {
+        "phonemic_recognition": {},
+        "prosody_recognition": {},
+        "vocalization_response": {},
+        "language_association": {},
+        "word_anticipation": {}
+      },
+      "executive_functions": {
+        "attention_control": {},
+        "impulse_control": {},
+        "working_memory": {},
+        "cognitive_flexibility": {},
+        "task_switching": {}
+      }
+    }
+  },
+  "LATE_ADOLESCENCE": {
+    "social_development": {
+      "peer_relationships": {
+        "friendships": {
+          "deepening_friendships": {},
+          "long_term_friendship_maintenance": {},
+          "peer_pressure_resistance": {},
+          "diverse_social_connections": {}
+        },
+        "romantic_relationships": {
+          "dating_experience": {},
+          "relationship_commitment": {},
+          "emotional_intimacy": {},
+          "relationship_conflict_resolution": {}
+        },
+        "social_networks": {
+          "professional_connections": {},
+          "online_and_virtual_relationships": {},
+          "college_and_workplace_friendships": {},
+          "expanding_social_circles": {}
+        },
+        "conflict_resolution": {
+          "negotiation_skills": {},
+          "assertive_communication": {},
+          "managing_relationship_boundaries": {},
+          "emotional_intelligence_in_conflicts": {}
+        }
+      },
+      "family_relationships": {
+        "parent_interactions": {
+          "navigating_independence": {},
+          "changing_dynamics_with_parents": {},
+          "financial_discussions": {},
+          "maintaining_family_bonds": {}
+        },
+        "sibling_relationships": {
+          "adult_sibling_interactions": {},
+          "sharing_family_responsibilities": {},
+          "emotional_support_between_siblings": {},
+          "independent_lifestyles": {}
+        },
+        "extended_family_interactions": {
+          "cousin_relationships": {},
+          "intergenerational_relationships": {},
+          "cultural_and_family_traditions": {},
+          "holiday_and_event_participation": {}
+        },
+        "mentorship_and_role_models": {
+          "finding_professional_mentors": {},
+          "learning_from_experienced_adults": {},
+          "role_model_identification": {},
+          "networking_for_career_guidance": {}
+        }
+      },
+      "social_skills": {
+        "communication_skills": {
+          "public_speaking": {},
+          "persuasive_communication": {},
+          "non_verbal_cues": {},
+          "confident_conversations": {}
+        },
+        "empathy_and_understanding": {
+          "perspective_taking": {},
+          "supportive_listening": {},
+          "helping_others_through_crisis": {},
+          "social_responsibility": {}
+        },
+        "respect_and_social_norms": {
+          "adapting_to_professional_settings": {},
+          "understanding_diverse_cultures": {},
+          "building_trust_in_relationships": {},
+          "handling_social_rejection": {}
+        },
+        "leadership_and_teamwork": {
+          "group_collaboration": {},
+          "mentoring_younger_peers": {},
+          "taking_leadership_in_projects": {},
+          "delegating_responsibilities": {}
+        }
+      },
+      "group_participation": {
+        "academic_and_workplace_participation": {
+          "engaging_in_college_discussions": {},
+          "collaborative_work_projects": {},
+          "internship_and_job_experience": {},
+          "entrepreneurial_networking": {}
+        },
+        "community_engagement": {
+          "volunteering_for_social_causes": {},
+          "political_and_civic_participation": {},
+          "community_service_initiatives": {},
+          "advocacy_and_campaigning": {}
+        },
+        "cultural_and_recreational_involvement": {
+          "attending_cultural_events": {},
+          "engaging_in_artistic_activities": {},
+          "travel_and_exploration": {},
+          "joining_hobby_groups": {}
+        },
+        "professional_socialization": {
+          "networking_events": {},
+          "workplace_dynamics": {},
+          "career_development_mentorship": {},
+          "building_professional_reputation": {}
+        }
+      }
+    },
+    "physical_development": {
+      "motor_skills_and_fitness": {
+        "strength_and_endurance": {
+          "muscle_development": {},
+          "cardiovascular_fitness": {},
+          "stamina_and_resistance": {},
+          "physical_performance_goals": {}
+        },
+        "coordination_and_agility": {
+          "hand_eye_coordination": {},
+          "spatial_awareness": {},
+          "refining_fine_motor_skills": {},
+          "precision_and_balance": {}
+        },
+        "athletic_capability": {
+          "sports_specialization": {},
+          "competitive_fitness": {},
+          "weight_training": {},
+          "yoga_and_flexibility_practices": {}
+        },
+        "recreational_physical_activity": {
+          "outdoor_adventures": {},
+          "dance_and_movement": {},
+          "team_sports_engagement": {},
+          "independent_workouts": {}
+        }
+      },
+      "growth_and_body_changes": {
+        "final_height_development": {},
+        "metabolic_changes": {},
+        "muscle_to_fat_ratio_adjustments": {},
+        "bone_density_strengthening": {}
+      },
+      "health_and_wellness": {
+        "nutrition_and_diet": {
+          "meal_planning": {},
+          "understanding_macronutrients": {},
+          "food_sensitivities": {},
+          "dietary_autonomy": {}
+        },
+        "personal_hygiene": {
+          "advanced_grooming_habits": {},
+          "skin_care_routines": {},
+          "oral_hygiene_practices": {},
+          "self_care_regimens": {}
+        },
+        "sleep_patterns_and_recovery": {
+          "consistent_sleep_schedule": {},
+          "managing_sleep_deprivation": {},
+          "impact_of_caffeine_and_stimulants": {},
+          "balancing_work_and_rest": {}
+        },
+        "health_risk_management": {
+          "understanding_substance_use_effects": {},
+          "safe_sexual_practices": {},
+          "mental_health_awareness": {},
+          "preventative_medical_care": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "self_regulation_and_emotional_control": {
+        "managing_stress_and_anxiety": {},
+        "handling_failure_and_rejection": {},
+        "impulse_control_in_decision_making": {},
+        "emotional_resilience": {}
+      },
+      "self_identity_and_personal_values": {
+        "forming_personal_beliefs": {},
+        "political_and_social_views": {},
+        "establishing_individual_goals": {},
+        "understanding_personal_boundaries": {}
+      },
+      "self_confidence_and_independence": {
+        "decision_making_autonomy": {},
+        "financial_responsibility": {},
+        "independent_living_skills": {},
+        "personal_resilience": {}
+      },
+      "relationship_and_emotional_intelligence": {
+        "building_trust_in_relationships": {},
+        "recognizing_emotional_needs": {},
+        "expressing_affection_and_support": {},
+        "balancing_social_and_emotional_needs": {}
+      },
+      "mental_wellness_and_coping": {
+        "seeking_professional_support": {},
+        "developing_healthy_coping_mechanisms": {},
+        "mindfulness_and_meditation": {},
+        "understanding_psychological_triggers": {}
+      }
+    },
+    "cognitive_development": {
+      "advanced_reasoning_and_decision_making": {
+        "long_term_planning": {},
+        "evaluating_risks_and_consequences": {},
+        "weighing_multiple_perspectives": {},
+        "abstract_thinking_and_analysis": {}
+      },
+      "academic_and_professional_growth": {
+        "thinking_about_future_path": {},
+        "career_path_exploration": {},
+        "work_ethic_and_time_management": {},
+        "self_discipline_in_study_habits": {}
+      },
+      "creativity_and_problem_solving": {
+        "innovative_thinking": {},
+        "entrepreneurial_mindset": {},
+        "design_and_artistic_skills": {},
+        "multidisciplinary_problem_solving": {}
+      },
+      "executive_functioning_and_cognitive_control": {
+        "goal_setting_and_prioritization": {},
+        "task_switching_abilities": {},
+        "memory_retrieval_and_application": {},
+        "strategic_planning_and_organization": {}
+      },
+      "technological_and_media_literacy": {
+        "evaluating_digital_information": {},
+        "understanding_social_media_influence": {},
+        "cybersecurity_awareness": {},
+        "using_technology_for_learning": {}
+      }
+    }
+  },
+  "LATE_ADULTHOOD": {
+    "social_development": {
+      "legacy_transmission": {
+        "family_historical_stewardship": {
+          "oral_history_documentation": {},
+          "heirloom_curation": {},
+          "genealogy_preservation": {}
+        },
+        "community_mentorship": {
+          "tribal_elder_roles": {},
+          "craftsmanship_apprenticeship": {},
+          "cultural_ritual_instruction": {}
+        },
+        "ethical_wisdom_sharing": {
+          "life_lesson_podcasting": {},
+          "intergenerational_story_circles": {},
+          "values_based_autobiography": {}
+        }
+      },
+      "elder_community_dynamics": {
+        "senior_social_architecture": {
+          "retirement_community_leadership": {},
+          "widowhood_support_networks": {},
+          "age_segregated_activity_coordination": {}
+        },
+        "intergenerational_bridging": {
+          "grandparent_tech_mediation": {},
+          "youth_culture_translation": {},
+          "family_reunion_orchestration": {}
+        },
+        "digital_afterlife_preparation": {
+          "social_media_legacy_planning": {},
+          "memorialization_strategies": {},
+          "online_identity_curation": {}
+        }
+      },
+      "role_reconfiguration": {
+        "post_retirement_identity": {
+          "emeritus_status_navigation": {},
+          "volunteer_identity_crafting": {},
+          "leisure_as_vocation": {}
+        },
+        "dependency_negotiation": {
+          "care_receiver_etiquette": {},
+          "autonomy_advocacy": {},
+          "transportation_dependence_adaptation": {}
+        },
+        "spiritual_community_roles": {
+          "faith_elder_counsel": {},
+          "end_of_life_ritual_planning": {},
+          "transcendence_discussion_groups": {}
+        }
+      },
+      "cultural_preservation": {
+        "living_history_roles": {
+          "historical_event_witness_testimony": {},
+          "traditional_skill_reactivation": {},
+          "language_preservation_initiatives": {}
+        },
+        "age_activism": {
+          "ageism_counter_narratives": {},
+          "senior_policy_advocacy": {},
+          "longevity_celebration_rituals": {}
+        },
+        "memoir_culture": {
+          "legacy_letter_composition": {},
+          "photo_archive_annotation": {},
+          "life_highlight_curation": {}
+        }
+      }
+    },
+    "physical_development": {
+      "mobility_preservation": {
+        "fall_prevention_strategies": {
+          "home_environment_adaptation": {},
+          "balance_training_routines": {},
+          "assistive_device_aesthetics": {}
+        },
+        "pain_management": {
+          "weather_sensitivity_adaptation": {},
+          "non_pharmacological_interventions": {},
+          "movement_ritual_development": {}
+        },
+        "adaptive_exercise": {
+          "chair_based_fitness": {},
+          "aquatic_therapy_routines": {},
+          "breath_work_integration": {}
+        }
+      },
+      "sensory_adaptation": {
+        "low_vision_compensation": {
+          "high_contrast_living_spaces": {},
+          "tactile_navigation_skills": {},
+          "audiobook_dependency": {}
+        },
+        "hearing_loss_innovation": {
+          "lip_reading_enhancement": {},
+          "vibration_awareness_training": {},
+          "assistive_tech_stigma_navigation": {}
+        },
+        "taste_sensory_enhancement": {
+          "flavor_intensity_optimization": {},
+          "texture_based_meal_planning": {},
+          "olfactory_memory_activation": {}
+        }
+      },
+      "longevity_practices": {
+        "cellular_aging_mitigation": {
+          "caloric_restriction_adaptation": {},
+          "sleep_cycle_optimization": {},
+          "stress_resilience_rituals": {}
+        },
+        "organ_health_prioritization": {
+          "kidney_function_preservation": {},
+          "cognitive_vascular_care": {},
+          "digestive_efficiency_management": {}
+        },
+        "appearance_reconciliation": {
+          "age_spot_acceptance": {},
+          "posture_embracement": {},
+          "wrinkle_as_identity_marker": {}
+        }
+      },
+      "end_of_life_autonomy": {
+        "advance_directive_management": {
+          "medical_proxy_education": {},
+          "hospice_preference_articulation": {},
+          "digital_asset_bequests": {}
+        },
+        "dignity_preservation": {
+          "continence_strategies": {},
+          "feeding_assistance_etiquette": {},
+          "privacy_maintenance_rituals": {}
+        },
+        "terminal_adaptation": {
+          "pain_meaning_reframing": {},
+          "legacy_completion_rituals": {},
+          "farewell_tour_planning": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "life_review_integration": {
+        "autobiographical_synthesis": {
+          "memory_fragment_reconciliation": {},
+          "narrative_coherence_creation": {},
+          "generational_pattern_analysis": {}
+        },
+        "regret_alchemy": {
+          "unfulfilled_dream_reframing": {},
+          "parenting_reappraisal": {},
+          "forgiveness_completion": {}
+        },
+        "achievement_recontextualization": {
+          "success_hierarchy_reordering": {},
+          "fame_versus_impact_assessment": {},
+          "material_legacy_detachment": {}
+        }
+      },
+      "mortality_communion": {
+        "death_preparation_rituals": {
+          "funeral_self_planning": {},
+          "digital_afterlife_preparation": {},
+          "spiritual_transition_rehearsal": {}
+        },
+        "bereavement_adaptation": {
+          "peer_loss_normalization": {},
+          "grief_technology_interface": {},
+          "memorialization_innovation": {}
+        },
+        "existential_solace": {
+          "cosmic_perspective_adoption": {},
+          "ancestral_reconnection_imagery": {},
+          "impermanence_embracement": {}
+        }
+      },
+      "emotional_legacy_crafting": {
+        "relational_closure": {
+          "estranged_relationship_peacemaking": {},
+          "final_acknowledgment_letters": {},
+          "symbolic_debt_repayment": {}
+        },
+        "gratitude_cultivation": {
+          "daily_wonder_rituals": {},
+          "benefactor_acknowledgment": {},
+          "intergenerational_thankfulness": {}
+        },
+        "identity_distillation": {
+          "essential_self_extraction": {},
+          "role_shedding_ceremonies": {},
+          "wisdom_essence_articulation": {}
+        }
+      },
+      "transcendence_orientation": {
+        "spiritual_synthesis": {
+          "multi_faith_exploration": {},
+          "mystical_experience_integration": {},
+          "ancestral_wisdom_reconnection": {}
+        },
+        "cosmic_identification": {
+          "ecosystem_interconnectedness": {},
+          "universal_cycle_awareness": {},
+          "astrological_meaning_projection": {}
+        },
+        "artistic_legacy": {
+          "final_creative_expression": {},
+          "aesthetic_philosophy_transmission": {},
+          "memorial_art_commissioning": {}
+        }
+      }
+    },
+    "cognitive_development": {
+      "wisdom_application": {
+        "crisis_interpretation": {
+          "historical_pattern_recognition": {},
+          "intergenerational_trauma_analysis": {},
+          "long_view_perspective_taking": {}
+        },
+        "ethical_arbitration": {
+          "family_conflict_mediation": {},
+          "community_dispute_resolution": {},
+          "moral_dilemma_consultation": {}
+        },
+        "intuitive_synthesis": {
+          "pattern_recognition_mastery": {},
+          "holistic_decision_making": {},
+          "subconscious_knowledge_mining": {}
+        }
+      },
+      "memory_curation": {
+        "reminiscence_engineering": {
+          "sensory_trigger_design": {},
+          "nostalgia_dosage_management": {},
+          "autobiographical_editing": {}
+        },
+        "prospective_adaptation": {
+          "appointment_ritualization": {},
+          "medication_management_systems": {},
+          "future_self_continuity": {}
+        },
+        "mnemonic_legacy": {
+          "family_story_preservation": {},
+          "recipe_oral_transmission": {},
+          "life_advice_encapsulation": {}
+        }
+      },
+      "cognitive_preservation": {
+        "neuroplasticity_stimulation": {
+          "novelty_seeking_routines": {},
+          "intergenerational_learning": {},
+          "puzzle_ritual_maintenance": {}
+        },
+        "attention_economy_resistance": {
+          "information_filtering_strategies": {},
+          "deep_focus_rituals": {},
+          "digital_distraction_mitigation": {}
+        },
+        "age_related_compensation": {
+          "external_memory_systems": {},
+          "habit_stack_optimization": {},
+          "cognitive_load_management": {}
+        }
+      },
+      "existential_cognition": {
+        "time_perception_alteration": {
+          "life_compression_reflection": {},
+          "generational_cycle_awareness": {},
+          "present_moment_expansion": {}
+        },
+        "cosmic_sense-making": {
+          "anthropocene_contextualization": {},
+          "civilizational_arc_analysis": {},
+          "personal_legacy_projection": {}
+        },
+        "transcendent_learning": {
+          "near_death_experience_integration": {},
+          "ancestral_communication_rituals": {},
+          "postmaterial_philosophy_study": {}
+        }
+      }
+    }
+  },
+  "UNSPECIFIED_STAGE": {
+    "social_development": {
+      "peer_relationships": {
+        "friendships": {
+          "forming_close_friendships": {},
+          "maintaining_friendships": {},
+          "peer_pressure_management": {},
+          "social_cliques": {}
+        },
+        "romantic_relationships": {
+          "early_romantic_interest": {},
+          "dating_skills": {},
+          "emotional_intimacy": {},
+          "relationship_boundaries": {}
+        },
+        "social_networks": {
+          "expanding_social_circle": {},
+          "online_friendships": {},
+          "community_involvement": {},
+          "extracurricular_groups": {}
+        },
+        "conflict_resolution": {
+          "negotiation_skills": {},
+          "mediation_skills": {},
+          "compromise_skills": {},
+          "assertive_communication": {}
+        }
+      },
+      "family_relationships": {
+        "parent_interactions": {
+          "communication_with_parents": {},
+          "independence_from_parents": {},
+          "parental_guidance": {},
+          "family_time": {}
+        },
+        "sibling_relationships": {
+          "supportive_relationships": {},
+          "shared_responsibilities": {},
+          "conflict_management": {},
+          "cooperative_play": {}
+        },
+        "extended_family_interactions": {
+          "grandparent_relationships": {},
+          "aunt_uncle_relationships": {},
+          "cousin_relationships": {},
+          "family_event_participation": {}
+        },
+        "role_models_and_influences": {
+          "identifying_role_models": {},
+          "observational_learning": {},
+          "mimicking_behaviors": {},
+          "mentor_relationships": {}
+        }
+      },
+      "social_skills": {
+        "communication_skills": {
+          "verbal_communication": {},
+          "non_verbal_communication": {},
+          "active_listening": {},
+          "expressive_speaking": {}
+        },
+        "empathy_and_compassion": {
+          "understanding_others_feelings": {},
+          "helping_behaviors": {},
+          "comforting_peers": {},
+          "expressing_empathy": {}
+        },
+        "respect_and_responsibility": {
+          "respecting_personal_space": {},
+          "following_social_norms": {},
+          "taking_responsibility": {},
+          "polite_interactions": {}
+        },
+        "leadership_and_followership": {
+          "leadership_skills": {},
+          "following_directions": {},
+          "team_leadership": {},
+          "group_following": {}
+        }
+      },
+      "group_participation": {
+        "school_activities": {
+          "class_participation": {},
+          "group_projects": {},
+          "student_governance": {},
+          "extracurricular_activities": {}
+        },
+        "community_involvement": {
+          "volunteering": {},
+          "community_events": {},
+          "social_responsibility_projects": {},
+          "civic_participation": {}
+        },
+        "sports_and_recreation": {
+          "team_sports": {},
+          "individual_sports": {},
+          "recreational_games": {},
+          "physical_competitions": {}
+        },
+        "cultural_participation": {
+          "cultural_events": {},
+          "tradition_participation": {},
+          "cultural_exchange": {},
+          "arts_and_crafts": {}
+        }
+      }
+    },
+    "physical_development": {
+      "motor_skills": {
+        "gross_motor_skills": {
+          "running": {},
+          "jumping": {},
+          "climbing": {},
+          "balancing": {},
+          "throwing_and_catching": {}
+        },
+        "fine_motor_skills": {
+          "drawing": {},
+          "writing": {},
+          "cutting_with_scissors": {},
+          "manipulating_small_objects": {},
+          "buttoning_and_zipping": {}
+        },
+        "coordination": {
+          "hand_eye_cooperation": {},
+          "spatial_awareness": {},
+          "timing_and_rhythm": {},
+          "bilateral_coordination": {}
+        },
+        "reflexes": {
+          "reflex_diminution": {},
+          "startle_reflex": {},
+          "grasp_reflex": {},
+          "balance_reflex": {}
+        }
+      },
+      "growth_metrics": {
+        "height_growth": {
+          "linear_growth": {},
+          "height_percentile": {},
+          "growth_patterns": {},
+          "posture_development": {}
+        },
+        "weight_growth": {
+          "consistent_weight_gain": {},
+          "weight_percentile": {},
+          "growth_trends": {},
+          "nutrition_balance": {}
+        },
+        "body_proportion_changes": {
+          "limb_lengthening": {},
+          "torso_growth": {},
+          "head_to_body_ratio": {},
+          "muscle_development": {}
+        },
+        "physical_fitness": {
+          "endurance": {},
+          "strength": {},
+          "flexibility": {},
+          "agility": {}
+        }
+      },
+      "health_and_wellness": {
+        "nutrition": {
+          "balanced_diet": {},
+          "healthy_eating_habits": {},
+          "vitamin_intake": {},
+          "hydration": {}
+        },
+        "hygiene_habits": {
+          "hand_washing": {},
+          "tooth_brushing": {},
+          "personal_cleanliness": {},
+          "bathroom_habits": {}
+        },
+        "physical_activity": {
+          "daily_exercise": {},
+          "active_play": {},
+          "organized_sports": {},
+          "outdoor_activities": {}
+        },
+        "sleep_patterns": {
+          "consistent_sleep_schedule": {},
+          "nap_times": {},
+          "sleep_quality": {},
+          "bedtime_routines": {}
+        }
+      },
+      "coordination": {
+        "hand_eye_coordination": {
+          "throwing": {},
+          "catching": {},
+          "drawing_precision": {},
+          "writing_accuracy": {}
+        },
+        "spatial_awareness": {
+          "navigating_spaces": {},
+          "understanding_distances": {},
+          "object_orientation": {},
+          "map_reading_basics": {}
+        },
+        "timing_and_rhythm": {
+          "dancing": {},
+          "clapping_to_rhythm": {},
+          "timed_movements": {},
+          "music_participation": {}
+        },
+        "agility": {
+          "quick_movements": {},
+          "changing_directions": {},
+          "balance_control": {},
+          "coordination_under_pressure": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "emotional_regulation": {
+        "managing_frustration": {},
+        "expressing_emotions_appropriately": {},
+        "recognizing_emotions_self": {},
+        "recognizing_emotions_others": {}
+      },
+      "self_esteem": {
+        "confidence_building": {},
+        "independence": {},
+        "resilience": {},
+        "sense_of_competence": {}
+      },
+      "empathy_and_compassion": {
+        "understanding_others_feelings": {},
+        "helping_behaviors": {},
+        "sharing_emotions": {},
+        "comforting_others": {}
+      },
+      "attachment_and_relationships": {
+        "secure_attachments": {},
+        "friendships": {},
+        "trust_building": {},
+        "conflict_management": {}
+      },
+      "identity_development": {
+        "self_concept": {},
+        "personal_values": {},
+        "cultural_identity": {},
+        "gender_identity": {}
+      },
+      "stress_management": {
+        "coping_strategies": {},
+        "time_management": {},
+        "emotional_support_systems": {},
+        "mindfulness_practices": {}
+      }
+    },
+    "cognitive_development": {
+      "language_skills": {
+        "vocabulary_growth": {
+          "word_expansion": {},
+          "new_word_learning": {},
+          "contextual_usage": {},
+          "language_diversity": {}
+        },
+        "sentence_structure": {
+          "complex_sentences": {},
+          "question_asking": {},
+          "expressive_speech": {},
+          "sentence_variation": {}
+        },
+        "storytelling": {
+          "narrative_skills": {},
+          "sequencing_events": {},
+          "imaginative_telling": {},
+          "creative_story_creation": {}
+        },
+        "following_directions": {
+          "multi_step_commands": {},
+          "instruction_following": {},
+          "comprehension_skills": {},
+          "executing_tasks": {}
+        }
+      },
+      "thinking_and_reasoning": {
+        "problem_solving": {
+          "logical_thinking": {},
+          "identifying_patterns": {},
+          "reasoning_skills": {},
+          "creative_solutions": {}
+        },
+        "memory_skills": {
+          "short_term_memory": {},
+          "long_term_memory": {},
+          "recall_abilities": {},
+          "memory_retrieval": {}
+        },
+        "attention_span": {
+          "sustained_attention": {},
+          "selective_attention": {},
+          "divided_attention": {},
+          "focused_attention": {}
+        },
+        "critical_thinking": {
+          "analyzing_information": {},
+          "evaluating_scenarios": {},
+          "decision_making": {},
+          "questioning_assumptions": {}
+        }
+      },
+      "creativity_and_imagination": {
+        "pretend_play": {
+          "role_playing": {},
+          "imaginative_scenarios": {},
+          "story_creation": {},
+          "fantasy_world_building": {}
+        },
+        "artistic_expression": {
+          "drawing": {},
+          "painting": {},
+          "crafting": {},
+          "sculpting": {}
+        },
+        "inventive_thinking": {
+          "idea_generation": {},
+          "creative_solutions": {},
+          "innovative_play": {},
+          "designing_projects": {}
+        },
+        "exploration": {
+          "curiosity_driven_learning": {},
+          "experimental_play": {},
+          "discovering_new_things": {},
+          "scientific_inquiry": {}
+        }
+      },
+      "academic_skills": {
+        "basic_literacy": {
+          "letter_recognition": {},
+          "phonics": {},
+          "early_reading": {},
+          "reading_comprehension": {}
+        },
+        "basic_numeracy": {
+          "number_recognition": {},
+          "counting_skills": {},
+          "simple_addition": {},
+          "basic_subtraction": {}
+        },
+        "understanding_concepts": {
+          "size_concepts": {},
+          "color_concepts": {},
+          "shape_concepts": {},
+          "time_concepts": {}
+        },
+        "learning_strategies": {
+          "memorization": {},
+          "repetition": {},
+          "interactive_learning": {},
+          "organizational_skills": {}
+        },
+        "science_and_technology": {
+          "basic_scientific_concepts": {},
+          "technology_usage": {},
+          "experimenting": {},
+          "logical_reasoning": {}
+        },
+        "mathematical_reasoning": {
+          "problem_solving": {},
+          "pattern_recognition": {},
+          "logical_thinking": {},
+          "mathematical_operations": {}
+        }
+      },
+      "executive_development": {
+        "attention_control": {
+          "sustained_attention": {},
+          "selective_attention": {},
+          "focus_shifting": {},
+          "inhibitory_control": {}
+        },
+        "impulse_control": {
+          "delaying_gratification": {},
+          "resisting_distractions": {},
+          "emotional_impulse_control": {},
+          "behavioral_impulse_control": {}
+        },
+        "working_memory": {
+          "holding_information_temporarily": {},
+          "simple_problem_solving": {},
+          "following_instructions": {},
+          "information_recall": {}
+        },
+        "cognitive_flexibility": {
+          "task_switching": {},
+          "adapting_to_change": {},
+          "flexible_thinking": {},
+          "problem_restructuring": {}
+        },
+        "planning_and_organization": {
+          "simple_planning": {},
+          "sequence_planning": {},
+          "goal_setting": {},
+          "task_prioritization": {}
+        },
+        "decision_making": {
+          "evaluating_options": {},
+          "risk_assessment": {},
+          "outcome_prediction": {},
+          "responsible_choices": {}
+        }
+      }
+    }
+  },
+  "MIDDLE_ADULTHOOD": {
+    "social_development": {
+      "career_legacy_establishment": {
+        "executive_mentorship": {
+          "corporate_mentorship_programs": {},
+          "industry_thought_leadership": {},
+          "succession_planning_strategies": {}
+        },
+        "professional_redefinition": {
+          "late_career_pivoting": {},
+          "semi_retirement_transition": {},
+          "board_membership_preparation": {}
+        },
+        "industry_impact": {
+          "standard_setting_initiatives": {},
+          "professional_association_leadership": {},
+          "ethical_legacy_considerations": {}
+        }
+      },
+      "intergenerational_dynamics": {
+        "elder_care_coordination": {
+          "multigenerational_housing_logistics": {},
+          "medical_advocacy_roles": {},
+          "inheritance_conversations": {}
+        },
+        "grandparenting_roles": {
+          "digital_age_grandparenting": {},
+          "cultural_transmission_rituals": {},
+          "long_distance_grandchild_bonds": {}
+        },
+        "knowledge_transfer": {
+          "oral_history_preservation": {},
+          "craftsmanship_apprenticeship": {},
+          "family_business_transition": {}
+        }
+      },
+      "community_leadership": {
+        "civic_authority": {
+          "local_government_engagement": {},
+          "neighborhood_revitalization": {},
+          "historical_preservation_efforts": {}
+        },
+        "philanthropic_direction": {
+          "donor_advised_fund_management": {},
+          "nonprofit_board_governance": {},
+          "volunteer_recruitment_strategies": {}
+        },
+        "cultural_stewardship": {
+          "religious_community_leadership": {},
+          "ethnic_tradition_curation": {},
+          "arts_patronage_networks": {}
+        }
+      },
+      "social_role_transition": {
+        "empty_nest_reconfiguration": {
+          "marital_reconnection_strategies": {},
+          "solo_travel_cultural_immersion": {},
+          "adult_child_boundary_negotiation": {}
+        },
+        "retirement_identity": {
+          "pre_retirement_social_circles": {},
+          "legacy_project_collaborations": {},
+          "alumni_network_reengagement": {}
+        },
+        "late_divorce_adaptation": {
+          "dating_profile_reinvention": {},
+          "singlehood_rediscovery": {},
+          "blended_family_complexities": {}
+        }
+      }
+    },
+    "physical_development": {
+      "metabolic_adaptation": {
+        "hormonal_transition_management": {
+          "perimenopause_symptom_mitigation": {},
+          "andropause_awareness": {},
+          "thyroid_function_optimization": {}
+        },
+        "nutritional_recalibration": {
+          "bone_density_diets": {},
+          "inflammation_reduction_regimens": {},
+          "age_appropriate_supplementation": {}
+        },
+        "chronological_resilience": {
+          "injury_recovery_adaptation": {},
+          "cellular_aging_countermeasures": {},
+          "organ_function_preservation": {}
+        }
+      },
+      "age_related_maintenance": {
+        "sensory_preservation": {
+          "presbyopia_compensation": {},
+          "hearing_loss_accommodation": {},
+          "taste_sensation_preservation": {}
+        },
+        "mobility_optimization": {
+          "arthritis_management_routines": {},
+          "postural_realignment_practices": {},
+          "low_impact_fitness_regimens": {}
+        },
+        "appearance_reconciliation": {
+          "age_appropriate_cosmetic_choices": {},
+          "hair_loss_acceptance_strategies": {},
+          "body_contour_adaptation": {}
+        }
+      },
+      "chronic_condition_navigation": {
+        "preventative_monitoring": {
+          "cancer_screening_routines": {},
+          "cardiovascular_risk_management": {},
+          "autoimmune_flare_prevention": {}
+        },
+        "pain_management": {
+          "non_opioid_interventions": {},
+          "alternative_therapy_exploration": {},
+          "chronic_discomfort_normalization": {}
+        },
+        "medical_advocacy": {
+          "specialist_coordination": {},
+          "healthcare_system_navigation": {},
+          "second_opinion_culture": {}
+        }
+      },
+      "sexual_health_evolution": {
+        "menopausal_transition": {
+          "vaginal_atrophy_management": {},
+          "libido_fluctuation_adaptation": {},
+          "hormone_replacement_decisions": {}
+        },
+        "andropausal_adaptation": {
+          "testosterone_optimization": {},
+          "erectile_function_maintenance": {},
+          "male_body_image_reassessment": {}
+        },
+        "intimacy_reinvention": {
+          "sensuality_rediscovery": {},
+          "emotional_intimacy_prioritization": {},
+          "long_term_partnership_revitalization": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "existential_reassessment": {
+        "mortality_integration": {
+          "health_decline_acceptance": {},
+          "end_of_life_preparation": {},
+          "peer_loss_normalization": {}
+        },
+        "legacy_anxiety": {
+          "unfulfilled_goal_reconciliation": {},
+          "reputation_preservation_concerns": {},
+          "digital_footprint_curation": {}
+        },
+        "regret_processing": {
+          "career_choice_reappraisal": {},
+          "parenting_retrospection": {},
+          "relationship_road_not_taken": {}
+        }
+      },
+      "identity_reformation": {
+        "role_transition": {
+          "from_provider_to_advisor": {},
+          "caregiver_role_acceptance": {},
+          "community_elder_recognition": {}
+        },
+        "aging_self_perception": {
+          "cultural_aging_stereotype_defiance": {},
+          "midlife_achievement_inventory": {},
+          "wisdom_versus_relevance_tension": {}
+        },
+        "unlived_lives": {
+          "alternate_identity_exploration": {},
+          "creative_expression_renaissance": {},
+          "latent_skill_activation": {}
+        }
+      },
+      "emotional_legacy": {
+        "wisdom_transmission": {
+          "life_lesson_packaging": {},
+          "intergenerational_storytelling": {},
+          "ethical_will_creation": {}
+        },
+        "forgiveness_work": {
+          "parental_reassessment": {},
+          "self_compassion_cultivation": {},
+          "marital_grievance_release": {}
+        },
+        "relational_closure": {
+          "friendship_reconciliation_efforts": {},
+          "professional_rivalry_release": {},
+          "family_estrangement_navigation": {}
+        }
+      },
+      "resilience_optimization": {
+        "midlife_crisis_navigation": {
+          "status_symbol_reassessment": {},
+          "youthful_impulse_management": {},
+          "radical_life_change_analysis": {}
+        },
+        "prolonged_stress": {
+          "caregiver_burnout_prevention": {},
+          "financial_pressure_coping": {},
+          "chronic_worry_containment": {}
+        },
+        "trauma_reactivation": {
+          "childhood_memory_reprocessing": {},
+          "generational_pattern_interruption": {},
+          "age_related_vulnerability_triggers": {}
+        }
+      }
+    },
+    "cognitive_development": {
+      "expertise_utilization": {
+        "knowledge_transfer": {
+          "corporate_mentorship_frameworks": {},
+          "institutional_memory_preservation": {},
+          "industry_white_paper_authoring": {}
+        },
+        "strategic_consulting": {
+          "crisis_management_consultation": {},
+          "startup_advisory_roles": {},
+          "policy_analysis_contributions": {}
+        },
+        "adaptive_innovation": {
+          "experience_based_problem_solving": {},
+          "legacy_system_modernization": {},
+          "intergenerational_team_leadership": {}
+        }
+      },
+      "financial_consolidation": {
+        "wealth_transfer": {
+          "estate_planning_strategies": {},
+          "philanthropic_vehicle_selection": {},
+          "inheritance_tax_navigation": {}
+        },
+        "retirement_preparation": {
+          "pension_maximization": {},
+          "long_term_care_insurance": {},
+          "post_employment_income_streams": {}
+        },
+        "legacy_investment": {
+          "family_business_succession": {},
+          "real_asset_preservation": {},
+          "values_aligned_portfolios": {}
+        }
+      },
+      "cognitive_preservation": {
+        "neuroplasticity_maintenance": {
+          "second_language_acquisition": {},
+          "musical_instrument_rediscovery": {},
+          "preventative_brain_training": {}
+        },
+        "memory_optimization": {
+          "mnemonic_strategy_development": {},
+          "digital_memory_augmentation": {},
+          "selective_recall_curation": {}
+        },
+        "technology_adoption": {
+          "AI_tool_assimilation": {},
+          "digital_detox_balance": {},
+          "cybersecurity_vigilance": {}
+        }
+      },
+      "perspective_synthesis": {
+        "life_review": {
+          "autobiographical_curation": {},
+          "decision_pattern_analysis": {},
+          "narrative_coherence_creation": {}
+        },
+        "wisdom_integration": {
+          "certainty_tolerance_development": {},
+          "paradox_embracement": {},
+          "cultural_relativism_mastery": {}
+        },
+        "temporal_orientation": {
+          "remaining_time_perception": {},
+          "generational_cycle_awareness": {},
+          "historical_contextualization": {}
+        }
+      }
+    }
+  },
+  "MIDDLE_CHILDHOOD": {
+    "social_development": {
+      "peer_interaction": {
+        "friendships": {
+          "forming_friendships": {},
+          "maintaining_friendships": {},
+          "ending_friendships": {},
+          "quality_of_friendships": {}
+        },
+        "teamwork": {
+          "collaborative_projects": {},
+          "team_games": {},
+          "group_tasks": {},
+          "role_assignments": {}
+        },
+        "sharing_and_turning": {
+          "toy_sharing": {},
+          "resource_sharing": {},
+          "taking_turns": {},
+          "waiting_patience": {}
+        },
+        "conflict_resolution": {
+          "negotiation_skills": {},
+          "mediation_skills": {},
+          "compromise_skills": {},
+          "problem_solving_skills": {}
+        }
+      },
+      "family_interaction": {
+        "parent_relationships": {
+          "communication_with_parents": {},
+          "quality_time_with_parents": {},
+          "parental_guidance": {},
+          "parental_support": {}
+        },
+        "sibling_relationships": {
+          "playing_together": {},
+          "sharing_responsibilities": {},
+          "conflict_management": {},
+          "emotional_support": {}
+        },
+        "extended_family_relationships": {
+          "grandparent_interactions": {},
+          "aunt_uncle_relationships": {},
+          "cousin_interactions": {},
+          "family_event_participation": {}
+        },
+        "role_models": {
+          "influential_figures": {},
+          "observational_learning": {},
+          "mimicking_behaviors": {},
+          "mentor_relationships": {}
+        }
+      },
+      "social_skills": {
+        "communication_skills": {
+          "verbal_communication": {},
+          "non_verbal_communication": {},
+          "active_listening": {},
+          "expressive_speaking": {}
+        },
+        "empathy_and_compassion": {
+          "understanding_others_feelings": {},
+          "helping_behaviors": {},
+          "comforting_peers": {},
+          "expressing_empathy": {}
+        },
+        "respect_and_responsibility": {
+          "respecting_personal_space": {},
+          "following_social_norms": {},
+          "taking_responsibility": {},
+          "polite_interactions": {}
+        },
+        "leadership_and_followership": {
+          "leadership_skills": {},
+          "following_directions": {},
+          "team_leadership": {},
+          "group_following": {}
+        }
+      },
+      "group_participation": {
+        "school_activities": {
+          "class_participation": {},
+          "group_projects": {},
+          "student_governance": {},
+          "extracurricular_activities": {}
+        },
+        "community_involvement": {
+          "volunteering": {},
+          "community_events": {},
+          "social_responsibility_projects": {},
+          "civic_participation": {}
+        },
+        "sports_and_recreation": {
+          "team_sports": {},
+          "individual_sports": {},
+          "recreational_games": {},
+          "physical_competitions": {}
+        },
+        "cultural_participation": {
+          "cultural_events": {},
+          "tradition_participation": {},
+          "cultural_exchange": {},
+          "arts_and_crafts": {}
+        }
+      }
+    },
+    "physical_development": {
+      "motor_skills": {
+        "gross_motor_skills": {
+          "running": {},
+          "jumping": {},
+          "climbing": {},
+          "balancing": {},
+          "throwing_and_catching": {}
+        },
+        "fine_motor_skills": {
+          "drawing": {},
+          "writing": {},
+          "cutting_with_scissors": {},
+          "manipulating_small_objects": {},
+          "buttoning_and_zipping": {}
+        },
+        "coordination": {
+          "hand_eye_cooperation": {},
+          "spatial_awareness": {},
+          "timing_and_rhythm": {},
+          "bilateral_coordination": {}
+        },
+        "reflexes": {
+          "reflex_diminution": {},
+          "startle_reflex": {},
+          "grasp_reflex": {},
+          "balance_reflex": {}
+        }
+      },
+      "growth_metrics": {
+        "height_growth": {
+          "linear_growth": {},
+          "height_percentile": {},
+          "growth_patterns": {},
+          "posture_development": {}
+        },
+        "weight_growth": {
+          "consistent_weight_gain": {},
+          "weight_percentile": {},
+          "growth_trends": {},
+          "nutrition_balance": {}
+        },
+        "body_proportion_changes": {
+          "limb_lengthening": {},
+          "torso_growth": {},
+          "head_to_body_ratio": {},
+          "muscle_development": {}
+        },
+        "physical_fitness": {
+          "endurance": {},
+          "strength": {},
+          "flexibility": {},
+          "agility": {}
+        }
+      },
+      "health_and_wellness": {
+        "nutrition": {
+          "balanced_diet": {},
+          "healthy_eating_habits": {},
+          "vitamin_intake": {},
+          "hydration": {}
+        },
+        "hygiene_habits": {
+          "hand_washing": {},
+          "tooth_brushing": {},
+          "personal_cleanliness": {},
+          "bathroom_habits": {}
+        },
+        "physical_activity": {
+          "daily_exercise": {},
+          "active_play": {},
+          "organized_sports": {},
+          "outdoor_activities": {}
+        },
+        "sleep_patterns": {
+          "consistent_sleep_schedule": {},
+          "nap_times": {},
+          "sleep_quality": {},
+          "bedtime_routines": {}
+        }
+      },
+      "coordination": {
+        "hand_eye_coordination": {
+          "throwing": {},
+          "catching": {},
+          "drawing_precision": {},
+          "writing_accuracy": {}
+        },
+        "spatial_awareness": {
+          "navigating_spaces": {},
+          "understanding_distances": {},
+          "object_orientation": {},
+          "map_reading_basics": {}
+        },
+        "timing_and_rhythm": {
+          "dancing": {},
+          "clapping_to_rhythm": {},
+          "timed_movements": {},
+          "music_participation": {}
+        },
+        "agility": {
+          "quick_movements": {},
+          "changing_directions": {},
+          "balance_control": {},
+          "coordination_under_pressure": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "emotional_regulation": {
+        "managing_frustration": {},
+        "expressing_emotions_appropriately": {},
+        "recognizing_emotions_self": {},
+        "recognizing_emotions_others": {}
+      },
+      "self_esteem": {
+        "confidence_building": {},
+        "independence": {},
+        "resilience": {},
+        "sense_of_competence": {}
+      },
+      "empathy_and_compassion": {
+        "understanding_others_feelings": {},
+        "helping_behaviors": {},
+        "sharing_emotions": {},
+        "comforting_others": {}
+      },
+      "attachment_and_relationships": {
+        "secure_attachments": {},
+        "friendships": {},
+        "trust_building": {},
+        "conflict_management": {}
+      }
+    },
+    "cognitive_development": {
+      "language_skills": {
+        "vocabulary_growth": {
+          "word_expansion": {},
+          "new_word_learning": {},
+          "contextual_usage": {},
+          "language_diversity": {}
+        },
+        "sentence_structure": {
+          "complex_sentences": {},
+          "question_asking": {},
+          "expressive_speech": {},
+          "sentence_variation": {}
+        },
+        "storytelling": {
+          "narrative_skills": {},
+          "sequencing_events": {},
+          "imaginative_telling": {},
+          "creative_story_creation": {}
+        },
+        "following_directions": {
+          "multi_step_commands": {},
+          "instruction_following": {},
+          "comprehension_skills": {},
+          "executing_tasks": {}
+        }
+      },
+      "thinking_and_reasoning": {
+        "problem_solving": {
+          "logical_thinking": {},
+          "identifying_patterns": {},
+          "reasoning_skills": {},
+          "creative_solutions": {}
+        },
+        "memory_skills": {
+          "short_term_memory": {},
+          "long_term_memory": {},
+          "recall_abilities": {},
+          "memory_retrieval": {}
+        },
+        "attention_span": {
+          "sustained_attention": {},
+          "selective_attention": {},
+          "divided_attention": {},
+          "focused_attention": {}
+        },
+        "critical_thinking": {
+          "analyzing_information": {},
+          "evaluating_scenarios": {},
+          "decision_making": {},
+          "questioning_assumptions": {}
+        }
+      },
+      "creativity_and_imagination": {
+        "pretend_play": {
+          "role_playing": {},
+          "imaginative_scenarios": {},
+          "story_creation": {},
+          "fantasy_world_building": {}
+        },
+        "artistic_expression": {
+          "drawing": {},
+          "painting": {},
+          "crafting": {},
+          "sculpting": {}
+        },
+        "inventive_thinking": {
+          "idea_generation": {},
+          "creative_solutions": {},
+          "innovative_play": {},
+          "designing_projects": {}
+        },
+        "exploration": {
+          "curiosity_driven_learning": {},
+          "experimental_play": {},
+          "discovering_new_things": {},
+          "scientific_inquiry": {}
+        }
+      },
+      "academic_skills": {
+        "basic_literacy": {
+          "letter_recognition": {},
+          "phonics": {},
+          "early_reading": {},
+          "reading_comprehension": {}
+        },
+        "basic_numeracy": {
+          "number_recognition": {},
+          "counting_skills": {},
+          "simple_addition": {},
+          "basic_subtraction": {}
+        },
+        "understanding_concepts": {
+          "size_concepts": {},
+          "color_concepts": {},
+          "shape_concepts": {},
+          "time_concepts": {}
+        },
+        "learning_strategies": {
+          "memorization": {},
+          "repetition": {},
+          "interactive_learning": {},
+          "organizational_skills": {}
+        }
+      },
+      "executive_functions": {
+        "attention_control": {
+          "sustained_attention": {},
+          "selective_attention": {},
+          "focus_shifting": {},
+          "inhibitory_control": {}
+        },
+        "impulse_control": {
+          "delaying_gratification": {},
+          "resisting_distractions": {},
+          "emotional_impulse_control": {},
+          "behavioral_impulse_control": {}
+        },
+        "working_memory": {
+          "holding_information_temporarily": {},
+          "simple_problem_solving": {},
+          "following_instructions": {},
+          "information_recall": {}
+        },
+        "cognitive_flexibility": {
+          "task_switching": {},
+          "adapting_to_change": {},
+          "flexible_thinking": {},
+          "problem_restructuring": {}
+        },
+        "planning_and_organization": {
+          "simple_planning": {},
+          "sequence_planning": {},
+          "goal_setting": {},
+          "task_prioritization": {}
+        }
+      }
+    }
+  },
+  "NEONATAL": {
+    "social_development": {
+      "interaction": {
+        "eye_contact": {
+          "brief_eye_contact": {},
+          "sustained_eye_contact": {},
+          "mutual_gaze": {},
+          "tracking_with_eyes": {}
+        },
+        "social_smiling": {
+          "reflexive_smile": {},
+          "responsive_smile": {},
+          "social_reciprocity": {},
+          "smile_duration_variation": {}
+        },
+        "recognition": {
+          "familiar_faces": {
+            "primary_caregiver_recognition": {},
+            "sibling_recognition": {},
+            "visitor_recognition": {}
+          },
+          "familiar_voices": {
+            "parent_voice_recognition": {},
+            "sibling_voice_recognition": {},
+            "environmental_voice_recognition": {}
+          },
+          "familiar_sounds": {
+            "environmental_sounds_recognition": {},
+            "routine_sounds_recognition": {},
+            "music_recognition": {}
+          }
+        },
+        "social_engagement": {
+          "cooing_responses": {},
+          "interactive_gazing": {},
+          "turn_taking_behaviors": {},
+          "mimicking_faces": {}
+        }
+      },
+      "communication": {
+        "vocalizations": {
+          "cooing": {
+            "frequency_cooing": {},
+            "duration_cooing": {},
+            "context_cooing": {}
+          },
+          "gurgling": {
+            "types_gurgling": {},
+            "intensity_gurgling": {},
+            "frequency_gurgling": {}
+          },
+          "whimpering": {
+            "trigger_whimpering": {},
+            "duration_whimpering": {},
+            "intensity_whimpering": {}
+          }
+        },
+        "gestures": {
+          "hand_movements": {
+            "open_hands": {},
+            "fist_clenching": {},
+            "grasp_reflexes": {}
+          },
+          "arm_movements": {
+            "kicking_limbs": {},
+            "flexing_arms": {},
+            "extension_movements": {}
+          },
+          "body_movements": {
+            "twisting_body": {},
+            "arching_back": {},
+            "rocking_motion": {}
+          },
+          "facial_expressions": {
+            "frowning": {},
+            "grimacing": {},
+            "smiling": {}
+          }
+        },
+        "responsive_gaze": {
+          "following_objects": {
+            "slow_moving_objects": {},
+            "fast_moving_objects": {},
+            "object_tracking": {}
+          },
+          "tracking_movement": {
+            "horizontal_tracking": {},
+            "vertical_tracking": {},
+            "circular_tracking": {}
+          },
+          "shifting_attention": {
+            "auditory_attention_shift": {},
+            "visual_attention_shift": {},
+            "multisensory_attention_shift": {}
+          },
+          "gaze_aversion": {
+            "temporary_aversion": {},
+            "prolonged_aversion": {},
+            "contextual_aversion": {}
+          }
+        }
+      }
+    },
+    "physical_development": {
+      "motor_skills": {
+        "reflexes": {
+          "rooting_reflex": {
+            "response_time": {},
+            "directional_accuracy": {},
+            "trigger_intensity": {}
+          },
+          "sucking_reflex": {
+            "sucking_strength": {},
+            "sucking_frequency": {},
+            "sucking_duration": {}
+          },
+          "grasping_reflex": {
+            "grip_strength": {},
+            "grip_duration": {},
+            "grip_response": {}
+          },
+          "startle_reflex": {
+            "auditory_startle": {},
+            "visual_startle": {},
+            "tactile_startle": {}
+          }
+        },
+        "voluntary_movements": {
+          "arm_reaching": {
+            "reach_accuracy": {},
+            "reach_frequency": {},
+            "reach_timing": {}
+          },
+          "leg_kicking": {
+            "kick_strength": {},
+            "kick_frequency": {},
+            "kick_range": {}
+          },
+          "head_turning": {
+            "head_turn_range": {},
+            "head_turn_speed": {},
+            "head_turn_control": {}
+          },
+          "body_rolls": {
+            "roll_direction": {},
+            "roll_frequency": {},
+            "roll_control": {}
+          }
+        },
+        "coordination": {
+          "hand_eye_coordination": {
+            "hand_eye_timing": {},
+            "hand_eye_accuracy": {},
+            "hand_eye_sync": {}
+          },
+          "body_coordination": {
+            "trunk_control": {},
+            "limb_synchronization": {},
+            "balance_control": {}
+          },
+          "limb_synchronization": {
+            "arm_leg_sync": {},
+            "cross_limbs_sync": {},
+            "symmetrical_movements": {}
+          },
+          "fine_motor_skills": {
+            "finger_flexion": {},
+            "thumb_movement": {},
+            "finger_isolation": {}
+          }
+        }
+      },
+      "growth_metrics": {
+        "weight_gain": {
+          "weekly_gain": {},
+          "daily_gain": {},
+          "total_gain": {},
+          "growth_pattern": {}
+        },
+        "length_growth": {
+          "monthly_growth": {},
+          "weekly_growth": {},
+          "daily_growth": {},
+          "growth_curve": {}
+        },
+        "head_circumference": {
+          "monthly_growth": {},
+          "weekly_growth": {},
+          "daily_growth": {},
+          "growth_percentile": {}
+        },
+        "chest_circumference": {
+          "monthly_growth": {},
+          "weekly_growth": {},
+          "daily_growth": {},
+          "growth_percentile": {}
+        }
+      },
+      "sensory_development": {
+        "vision": {
+          "focus_distance": {},
+          "color_preference": {},
+          "contrast_preference": {},
+          "visual_tracking": {}
+        },
+        "hearing": {
+          "sound_recognition": {},
+          "volume_preference": {},
+          "pitch_preference": {},
+          "directional_hearing": {}
+        },
+        "touch": {
+          "tactile_sensitivity": {},
+          "texture_preference": {},
+          "temperature_preference": {},
+          "pressure_sensitivity": {}
+        },
+        "taste": {
+          "sweet_taste_preference": {},
+          "bitter_taste_aversion": {},
+          "sour_taste_response": {}
+        },
+        "olfaction": {
+          "smell_recognition": {},
+          "odor_preference": {},
+          "odor_aversion": {}
+        }
+      },
+      "sleep_patterns": {
+        "sleep_duration": {
+          "daily_sleep_hours": {},
+          "night_sleep_hours": {},
+          "day_sleep_hours": {}
+        },
+        "sleep_cycles": {
+          "REM_sleep": {},
+          "non_REM_sleep": {},
+          "sleep_transition": {}
+        },
+        "sleep_quality": {
+          "restful_sleep": {},
+          "disturbed_sleep": {},
+          "awake_during_sleep": {}
+        },
+        "sleep_positions": {
+          "supine_position": {},
+          "prone_position": {},
+          "side_position": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "comfort_seeking": {
+        "soothing_behaviors": {
+          "holding": {},
+          "cuddling": {},
+          "rocking": {},
+          "swaddling": {}
+        },
+        "calming_methods": {
+          "rhythmic_sounds": {},
+          "gentle_motion": {},
+          "soft_voice": {},
+          "white_noise": {}
+        },
+        "attachment": {
+          "primary_caregiver_attachment": {
+            "secure_attachment": {},
+            "insecure_attachment": {},
+            "avoidant_attachment": {}
+          },
+          "stranger_recognition": {},
+          "separation_reaction": {}
+        },
+        "self_soothing": {
+          "hand_sucking": {},
+          "thumb_sucking": {},
+          "body_sucking": {}
+        }
+      },
+      "emotional_expressions": {
+        "crying_patterns": {
+          "hunger_cry": {},
+          "discomfort_cry": {},
+          "pain_cry": {},
+          "tired_cry": {}
+        },
+        "contentment_signs": {
+          "relaxed_posture": {},
+          "quiet_alertness": {},
+          "smiling": {},
+          "calm_movement": {}
+        },
+        "distress_signs": {
+          "fussing": {},
+          "irritability": {},
+          "tense_body": {},
+          "agitation": {}
+        },
+        "positive_emotions": {
+          "joy_expressions": {},
+          "interest_expressions": {},
+          "surprise_expressions": {}
+        }
+      },
+      "temperament": {
+        "calmness": {
+          "easy_temperament": {},
+          "moderate_temperament": {},
+          "difficult_temperament": {},
+          "variable_temperament": {}
+        },
+        "activity_level": {
+          "high_activity": {},
+          "medium_activity": {},
+          "low_activity": {},
+          "fluctuating_activity": {}
+        },
+        "adaptability": {
+          "flexible_adaptation": {},
+          "moderate_adaptation": {},
+          "rigid_adaptation": {},
+          "slow_adaptation": {}
+        },
+        "mood_regulation": {
+          "consistent_mood": {},
+          "variable_mood": {},
+          "irritable_mood": {}
+        }
+      },
+      "stress_response": {
+        "cortisol_levels": {},
+        "heart_rate_variability": {},
+        "behavioral_responses": {},
+        "physiological_responses": {}
+      }
+    },
+    "cognitive_development": {
+      "sensory_perception": {
+        "vision": {
+          "face_tracking": {},
+          "pattern_recognition": {},
+          "color_discrimination": {},
+          "light_sensitivity": {}
+        },
+        "hearing": {
+          "sound_localization": {},
+          "voice_identification": {},
+          "sound_discrimination": {},
+          "volume_tolerance": {}
+        },
+        "touch": {
+          "texture_discrimination": {},
+          "temperature_recognition": {},
+          "pressure_sensitivity": {},
+          "vibration_sensitivity": {}
+        },
+        "taste": {
+          "taste_discrimination": {},
+          "flavor_preference": {},
+          "taste_memory": {}
+        },
+        "olfaction": {
+          "odor_discrimination": {},
+          "smell_memory": {},
+          "odor_preference": {}
+        }
+      },
+      "attention_and_awareness": {
+        "attention_span": {
+          "short_attention": {},
+          "moderate_attention": {},
+          "variable_attention": {},
+          "focused_attention": {}
+        },
+        "startle_response": {
+          "auditory_startle": {},
+          "visual_startle": {},
+          "tactile_startle": {},
+          "multi_sensory_startle": {}
+        },
+        "environmental_awareness": {
+          "movement_detection": {},
+          "light_response": {},
+          "sound_response": {},
+          "object_presence_detection": {}
+        },
+        "alertness_levels": {}
+      },
+      "memory": {
+        "recognition_memory": {
+          "familiar_faces_recognition": {},
+          "familiar_sounds_recognition": {},
+          "familiar_objects_recognition": {},
+          "familiar_tastes_recognition": {}
+        },
+        "anticipatory_memory": {
+          "feeding_times": {},
+          "sleep_times": {},
+          "interaction_times": {},
+          "bath_times": {}
+        },
+        "pattern_memory": {
+          "visual_patterns": {},
+          "sound_patterns": {},
+          "tactile_patterns": {},
+          "temporal_patterns": {}
+        }
+      }
+    }
+  },
+  "TODDLERHOOD": {
+    "social_development": {
+      "interaction": {
+        "eye_contact": {
+          "consistent_eye_contact": {},
+          "responsive_eye_contact": {},
+          "initiated_eye_contact": {},
+          "sustained_eye_contact": {}
+        },
+        "social_smiling": {
+          "spontaneous_smiling": {},
+          "reciprocal_smiling": {},
+          "contextually_appropriate_smiling": {},
+          "smile_variation": {}
+        },
+        "recognition": {
+          "familiar_people_recognition": {
+            "primary_caregiver_recognition": {},
+            "extended_family_recognition": {},
+            "peer_recognition": {}
+          },
+          "stranger_recognition": {
+            "acquaintance_recognition": {},
+            "new_person_recognition": {},
+            "familiar_stranger_recognition": {}
+          },
+          "peer_recognition": {
+            "friend_recognition": {},
+            "playmate_recognition": {},
+            "classmate_recognition": {}
+          },
+          "social_engagement": {
+            "interactive_play": {},
+            "turn_taking": {},
+            "cooperative_play": {},
+            "sharing_behaviors": {}
+          }
+        },
+        "communication": {
+          "verbal_communication": {
+            "vocabulary_growth": {},
+            "simple_sentences": {},
+            "question_asking": {},
+            "directive_language": {}
+          },
+          "non_verbal_communication": {
+            "gestures": {
+              "pointing": {},
+              "waving": {},
+              "clapping": {}
+            },
+            "facial_expressions": {
+              "frowning": {},
+              "grinning": {},
+              "surprised_expression": {}
+            },
+            "responsive_gaze": {
+              "following_commands": {},
+              "joint_attention": {},
+              "eye_gaze_following": {},
+              "gaze_aversion": {}
+            },
+            "body_language": {
+              "posture_changes": {},
+              "hand_movements": {},
+              "body_tilt": {}
+            }
+          }
+        }
+      },
+      "peer_interaction": {
+        "sibling_interaction": {
+          "initiation_behaviors": {},
+          "reciprocal_behaviors": {},
+          "play_interactions": {},
+          "conflict_resolution": {}
+        },
+        "peer_play": {
+          "parallel_play": {},
+          "associative_play": {},
+          "cooperative_play": {},
+          "imaginative_play": {}
+        },
+        "group_interaction": {
+          "responding_to_multiple_people": {},
+          "attention_distribution": {},
+          "interaction_preference": {},
+          "group_activity_participation": {}
+        },
+        "social_play": {
+          "imaginative_play_signs": {},
+          "physical_play_signs": {},
+          "symbolic_play_signs": {},
+          "role_playing": {}
+        }
+      }
+    },
+    "physical_development": {
+      "motor_skills": {
+        "gross_motor_skills": {
+          "walking_independently": {},
+          "running": {},
+          "climbing": {},
+          "jumping": {}
+        },
+        "fine_motor_skills": {
+          "pincer_grip": {},
+          "stacking_blocks": {},
+          "drawing_simple_shapes": {},
+          "self_feeding_skills": {}
+        },
+        "coordination": {
+          "hand_eye_cooperation": {},
+          "balance_control": {},
+          "agility": {},
+          "dexterity": {}
+        },
+        "reflexes": {
+          "reflex_diminution": {},
+          "none_present": {},
+          "startle_reflex": {},
+          "grasp_reflex": {}
+        }
+      },
+      "growth_metrics": {
+        "weight_gain": {
+          "consistent_weight_gain": {},
+          "weight_percentile": {},
+          "growth_trends": {},
+          "nutrition_balance": {}
+        },
+        "height_growth": {
+          "linear_growth": {},
+          "height_percentile": {},
+          "growth_patterns": {},
+          "posture_development": {}
+        },
+        "head_circumference": {
+          "head_growth_stabilization": {},
+          "head_shape_normalization": {},
+          "percentile_tracking": {},
+          "brain_growth_correlations": {}
+        },
+        "chest_circumference": {
+          "chest_growth": {},
+          "respiratory_development": {},
+          "posture_influences": {},
+          "percentile_tracking": {}
+        }
+      },
+      "sensory_development": {
+        "vision": {
+          "depth_perception": {},
+          "color_recognition": {},
+          "visual_tracking": {},
+          "hand_eye_cooperation": {}
+        },
+        "hearing": {
+          "sound_discrimination": {},
+          "voice_recognition": {},
+          "auditory_attention": {},
+          "music_response": {}
+        },
+        "touch": {
+          "tactile_sensitivity": {},
+          "texture_preference": {},
+          "pain_response": {},
+          "proprioception": {}
+        },
+        "taste": {
+          "taste_preferences": {},
+          "flavor_exploration": {},
+          "oral_motor_skills": {},
+          "texture_tolerance": {}
+        },
+        "olfaction": {
+          "odor_discrimination": {},
+          "smell_memory": {},
+          "odor_preference": {},
+          "odor_aversion": {}
+        }
+      },
+      "sleep_patterns": {
+        "sleep_duration": {
+          "nighttime_sleep": {},
+          "napping_patterns": {},
+          "total_sleep_hours": {},
+          "sleep_schedule_consistency": {}
+        },
+        "sleep_cycles": {
+          "REM_sleep": {},
+          "non_REM_sleep": {},
+          "sleep_transition": {},
+          "nap_cycles": {}
+        },
+        "sleep_quality": {
+          "restful_sleep": {},
+          "night_waking": {},
+          "nap_quality": {},
+          "sleep_efficiency": {}
+        },
+        "sleep_positions": {
+          "preferred_sleep_position": {},
+          "sleep_movement": {},
+          "transition_sleep_positions": {},
+          "sleep_position_preference": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "comfort_seeking": {
+        "soothing_behaviors": {
+          "holding": {},
+          "cuddling": {},
+          "rocking": {},
+          "seeking_parent": {}
+        },
+        "calming_methods": {
+          "favorite_blanket": {},
+          "pacifier_use": {},
+          "lullabies": {},
+          "gentle_talk": {}
+        },
+        "attachment": {
+          "secure_attachment": {},
+          "selective_attachment": {},
+          "stranger_avoidance": {},
+          "separation_anxiety": {}
+        },
+        "self_soothing": {
+          "thumb_sucking": {},
+          "holding_toy": {},
+          "rocking_self": {},
+          "repetitive_movement": {}
+        }
+      },
+      "emotional_expressions": {
+        "crying_patterns": {
+          "need_based_crying": {},
+          "frustration_crying": {},
+          "pain_crying": {},
+          "tired_crying": {}
+        },
+        "contentment_signs": {
+          "smiling": {},
+          "relaxed_posture": {},
+          "cooing_when_content": {},
+          "quiet_playing": {}
+        },
+        "distress_signs": {
+          "tantrums": {},
+          "irritability": {},
+          "clinging_behavior": {},
+          "aggressive_behavior": {}
+        },
+        "positive_emotions": {
+          "joy_expressions": {},
+          "excitement_expressions": {},
+          "pride_expressions": {},
+          "interest_expressions": {}
+        }
+      },
+      "temperament": {
+        "calmness": {
+          "easy_temperament": {},
+          "moderate_temperament": {},
+          "difficult_temperament": {},
+          "adaptable_temperament": {}
+        },
+        "activity_level": {
+          "high_activity": {},
+          "moderate_activity": {},
+          "low_activity": {},
+          "fluctuating_activity": {}
+        },
+        "adaptability": {
+          "flexible_adaptation": {},
+          "moderate_adaptation": {},
+          "rigid_adaptation": {},
+          "slow_adaptation": {}
+        },
+        "mood_regulation": {
+          "consistent_mood": {},
+          "variable_mood": {},
+          "irritable_mood": {},
+          "calm_mood": {}
+        }
+      },
+      "stress_response": {
+        "cortisol_levels": {
+          "normal_levels": {},
+          "elevated_levels": {},
+          "decreased_levels": {},
+          "fluctuating_levels": {}
+        },
+        "heart_rate_variability": {
+          "normal_variability": {},
+          "increased_variability": {},
+          "decreased_variability": {},
+          "irregular_variability": {}
+        },
+        "behavioral_responses": {
+          "seeking_attention": {},
+          "withdrawing": {},
+          "aggressive_behavior": {},
+          "self_soothing_behavior": {}
+        },
+        "physiological_responses": {
+          "increased_heart_rate": {},
+          "sweating": {},
+          "muscle_tension": {},
+          "changes_in_breathing": {}
+        },
+        "coping_mechanisms": {
+          "distraction": {},
+          "seeking_comfort": {},
+          "repetitive_behavior": {},
+          "exploration": {}
+        }
+      }
+    },
+    "cognitive_development": {
+      "sensory_perception": {
+        "vision": {
+          "depth_perception": {},
+          "color_recognition": {},
+          "visual_tracking": {},
+          "hand_eye_cooperation": {}
+        },
+        "hearing": {
+          "sound_discrimination": {},
+          "voice_recognition": {},
+          "auditory_attention": {},
+          "music_response": {}
+        },
+        "touch": {
+          "tactile_sensitivity": {},
+          "texture_preference": {},
+          "pain_response": {},
+          "proprioception": {}
+        },
+        "taste": {
+          "taste_preferences": {},
+          "flavor_exploration": {},
+          "oral_motor_skills": {},
+          "texture_tolerance": {}
+        },
+        "olfaction": {
+          "odor_discrimination": {},
+          "smell_memory": {},
+          "odor_preference": {},
+          "odor_aversion": {}
+        }
+      },
+      "attention_and_awareness": {
+        "attention_span": {
+          "sustained_attention": {},
+          "focused_attention": {},
+          "selective_attention": {},
+          "divided_attention": {}
+        },
+        "startle_response": {
+          "auditory_startle": {},
+          "visual_startle": {},
+          "tactile_startle": {},
+          "multi_sensory_startle": {}
+        },
+        "environmental_awareness": {
+          "object_presence_detection": {},
+          "movement_detection": {},
+          "light_response": {},
+          "sound_response": {}
+        },
+        "alertness_levels": {
+          "high_alertness": {},
+          "low_alertness": {},
+          "fluctuating_alertness": {},
+          "consistent_alertness": {}
+        }
+      },
+      "memory": {
+        "recognition_memory": {
+          "familiar_people_recognition": {},
+          "familiar_places_recognition": {},
+          "familiar_objects_recognition": {},
+          "familiar_sounds_recognition": {}
+        },
+        "anticipatory_memory": {
+          "routine_following": {},
+          "sequence_understanding": {},
+          "daily_schedule_memory": {},
+          "event_sequence_memory": {}
+        },
+        "pattern_memory": {
+          "visual_patterns": {},
+          "sound_patterns": {},
+          "tactile_patterns": {},
+          "temporal_patterns": {}
+        },
+        "procedural_memory": {
+          "routine_tasks": {},
+          "habit_formation": {},
+          "motor_routines": {},
+          "language_routines": {}
+        }
+      },
+      "problem_solving": {
+        "object_manipulation": {
+          "stacking_blocks": {},
+          "sorting_shapes": {},
+          "simple_puzzles": {},
+          "cause_effect_understanding": {}
+        },
+        "symbolic_play": {
+          "pretend_play": {},
+          "role_playing": {},
+          "imaginative_play": {},
+          "use_of_symbols": {}
+        },
+        "categorization": {
+          "object_categorization": {},
+          "color_categorization": {},
+          "shape_categorization": {},
+          "size_categorization": {}
+        },
+        "tool_use": {
+          "using_spoons": {},
+          "simple_tools_use": {},
+          "opening_containers": {},
+          "basic_construction": {}
+        }
+      },
+      "language_processing": {
+        "vocabulary_growth": {
+          "word_spoken_count": {},
+          "noun_use": {},
+          "verb_use": {},
+          "adjective_use": {}
+        },
+        "sentence_structure": {
+          "simple_sentences": {},
+          "compound_sentences": {},
+          "question_sentences": {},
+          "negative_sentences": {}
+        },
+        "comprehension": {
+          "following_commands": {},
+          "understanding_questions": {},
+          "responding_to_questions": {},
+          "language_association": {}
+        },
+        "speech_production": {
+          "articulation": {},
+          "fluency": {},
+          "expressiveness": {},
+          "pronunciation": {}
+        }
+      },
+      "executive_functions": {
+        "attention_control": {
+          "sustained_attention": {},
+          "selective_attention": {},
+          "focus_shifting": {},
+          "inhibitory_control": {}
+        },
+        "impulse_control": {
+          "delaying_gratification": {},
+          "resisting_distractions": {},
+          "emotional_impulse_control": {},
+          "behavioral_impulse_control": {}
+        },
+        "working_memory": {
+          "holding_information_temporarily": {},
+          "simple_problem_solving": {},
+          "following_instructions": {},
+          "information_recall": {}
+        },
+        "cognitive_flexibility": {
+          "task_switching": {},
+          "adapting_to_change": {},
+          "flexible_thinking": {},
+          "problem_restructuring": {}
+        },
+        "planning": {
+          "simple_planning": {},
+          "sequence_planning": {},
+          "goal_setting": {},
+          "task_prioritization": {}
+        }
+      }
+    }
+  },
+  "VERY_OLD": {
+    "social_development": {
+      "intergenerational_legacy": {
+        "family_storytelling": {
+          "oral_history_transmission": {},
+          "generational_pattern_analysis": {},
+          "family_lore_curation": {}
+        },
+        "wisdom_exchange": {
+          "grandparent_grandchild_rituals": {},
+          "life_lesson_podcasting": {},
+          "community_elder_counsel": {}
+        },
+        "symbolic_gifting": {
+          "heirloom_activation": {},
+          "keepsake_meaning_encoding": {},
+          "ethical_will_creation": {}
+        }
+      },
+      "community_anchoring": {
+        "senior_leadership": {
+          "retirement_community_mentorship": {},
+          "historical_preservation_advocacy": {},
+          "cultural_tradition_stewardship": {}
+        },
+        "digital_engagement": {
+          "virtual_grandparenting": {},
+          "online_memory_sharing": {},
+          "social_media_legacy_curation": {}
+        },
+        "ritual_participation": {
+          "holiday_tradition_upholding": {},
+          "life_celebration_ceremonies": {},
+          "intergenerational_event_coordination": {}
+        }
+      },
+      "role_redefinition": {
+        "dependency_navigation": {
+          "care_receiver_etiquette": {},
+          "autonomy_advocacy": {},
+          "assistance_acceptance_rituals": {}
+        },
+        "post_retirement_identity": {
+          "emeritus_status_embracement": {},
+          "volunteer_role_crafting": {},
+          "leisure_as_legacy": {}
+        },
+        "spiritual_mentorship": {
+          "faith_elder_counsel": {},
+          "end_of_life_ritual_guidance": {},
+          "transcendence_discussion_facilitation": {}
+        }
+      },
+      "social_legacy": {
+        "memoir_culture": {
+          "life_story_archiving": {},
+          "photo_album_annotation": {},
+          "autobiographical_podcasting": {}
+        },
+        "age_activism": {
+          "ageism_counter_narratives": {},
+          "longevity_celebration_rituals": {},
+          "senior_policy_advocacy": {}
+        },
+        "digital_afterlife": {
+          "social_media_memorialization": {},
+          "online_identity_curation": {},
+          "virtual_legacy_planning": {}
+        }
+      }
+    },
+    "physical_development": {
+      "mobility_adaptation": {
+        "fall_prevention": {
+          "home_environment_optimization": {},
+          "assistive_device_aesthetics": {},
+          "balance_training_rituals": {}
+        },
+        "pain_management": {
+          "non_pharmacological_interventions": {},
+          "movement_ritual_development": {},
+          "weather_sensitivity_adaptation": {}
+        },
+        "adaptive_exercise": {
+          "chair_based_fitness": {},
+          "aquatic_therapy_routines": {},
+          "breath_work_integration": {}
+        }
+      },
+      "sensory_optimization": {
+        "low_vision_compensation": {
+          "high_contrast_living_spaces": {},
+          "tactile_navigation_skills": {},
+          "audiobook_dependency": {}
+        },
+        "hearing_loss_innovation": {
+          "lip_reading_enhancement": {},
+          "vibration_awareness_training": {},
+          "assistive_tech_stigma_navigation": {}
+        },
+        "taste_sensory_enhancement": {
+          "flavor_intensity_optimization": {},
+          "texture_based_meal_planning": {},
+          "olfactory_memory_activation": {}
+        }
+      },
+      "longevity_practices": {
+        "cellular_aging_mitigation": {
+          "caloric_restriction_adaptation": {},
+          "sleep_cycle_optimization": {},
+          "stress_resilience_rituals": {}
+        },
+        "organ_health_prioritization": {
+          "kidney_function_preservation": {},
+          "cognitive_vascular_care": {},
+          "digestive_efficiency_management": {}
+        },
+        "appearance_reconciliation": {
+          "age_spot_acceptance": {},
+          "posture_embracement": {},
+          "wrinkle_as_identity_marker": {}
+        }
+      },
+      "end_of_life_autonomy": {
+        "advance_directive_management": {
+          "medical_proxy_education": {},
+          "hospice_preference_articulation": {},
+          "digital_asset_bequests": {}
+        },
+        "dignity_preservation": {
+          "continence_strategies": {},
+          "feeding_assistance_etiquette": {},
+          "privacy_maintenance_rituals": {}
+        },
+        "terminal_adaptation": {
+          "pain_meaning_reframing": {},
+          "legacy_completion_rituals": {},
+          "farewell_tour_planning": {}
+        }
+      }
+    },
+    "emotional_development": {
+      "life_review_integration": {
+        "autobiographical_synthesis": {
+          "memory_fragment_reconciliation": {},
+          "narrative_coherence_creation": {},
+          "generational_pattern_analysis": {}
+        },
+        "regret_alchemy": {
+          "unfulfilled_dream_reframing": {},
+          "parenting_reappraisal": {},
+          "forgiveness_completion": {}
+        },
+        "achievement_recontextualization": {
+          "success_hierarchy_reordering": {},
+          "fame_versus_impact_assessment": {},
+          "material_legacy_detachment": {}
+        }
+      },
+      "mortality_communion": {
+        "death_preparation_rituals": {
+          "funeral_self_planning": {},
+          "digital_afterlife_preparation": {},
+          "spiritual_transition_rehearsal": {}
+        },
+        "bereavement_adaptation": {
+          "peer_loss_normalization": {},
+          "grief_technology_interface": {},
+          "memorialization_innovation": {}
+        },
+        "existential_solace": {
+          "cosmic_perspective_adoption": {},
+          "ancestral_reconnection_imagery": {},
+          "impermanence_embracement": {}
+        }
+      },
+      "emotional_legacy_crafting": {
+        "relational_closure": {
+          "estranged_relationship_peacemaking": {},
+          "final_acknowledgment_letters": {},
+          "symbolic_debt_repayment": {}
+        },
+        "gratitude_cultivation": {
+          "daily_wonder_rituals": {},
+          "benefactor_acknowledgment": {},
+          "intergenerational_thankfulness": {}
+        },
+        "identity_distillation": {
+          "essential_self_extraction": {},
+          "role_shedding_ceremonies": {},
+          "wisdom_essence_articulation": {}
+        }
+      },
+      "transcendence_orientation": {
+        "spiritual_synthesis": {
+          "multi_faith_exploration": {},
+          "mystical_experience_integration": {},
+          "ancestral_wisdom_reconnection": {}
+        },
+        "cosmic_identification": {
+          "ecosystem_interconnectedness": {},
+          "universal_cycle_awareness": {},
+          "astrological_meaning_projection": {}
+        },
+        "artistic_legacy": {
+          "final_creative_expression": {},
+          "aesthetic_philosophy_transmission": {},
+          "memorial_art_commissioning": {}
+        }
+      }
+    },
+    "cognitive_development": {
+      "wisdom_application": {
+        "crisis_interpretation": {
+          "historical_pattern_recognition": {},
+          "intergenerational_trauma_analysis": {},
+          "long_view_perspective_taking": {}
+        },
+        "ethical_arbitration": {
+          "family_conflict_mediation": {},
+          "community_dispute_resolution": {},
+          "moral_dilemma_consultation": {}
+        },
+        "intuitive_synthesis": {
+          "pattern_recognition_mastery": {},
+          "holistic_decision_making": {},
+          "subconscious_knowledge_mining": {}
+        }
+      },
+      "memory_curation": {
+        "reminiscence_engineering": {
+          "sensory_trigger_design": {},
+          "nostalgia_dosage_management": {},
+          "autobiographical_editing": {}
+        },
+        "prospective_adaptation": {
+          "appointment_ritualization": {},
+          "medication_management_systems": {},
+          "future_self_continuity": {}
+        },
+        "mnemonic_legacy": {
+          "family_story_preservation": {},
+          "recipe_oral_transmission": {},
+          "life_advice_encapsulation": {}
+        }
+      },
+      "cognitive_preservation": {
+        "neuroplasticity_stimulation": {
+          "novelty_seeking_routines": {},
+          "intergenerational_learning": {},
+          "puzzle_ritual_maintenance": {}
+        },
+        "attention_economy_resistance": {
+          "information_filtering_strategies": {},
+          "deep_focus_rituals": {},
+          "digital_distraction_mitigation": {}
+        },
+        "age_related_compensation": {
+          "external_memory_systems": {},
+          "habit_stack_optimization": {},
+          "cognitive_load_management": {}
+        }
+      },
+      "existential_cognition": {
+        "time_perception_alteration": {
+          "life_compression_reflection": {},
+          "generational_cycle_awareness": {},
+          "present_moment_expansion": {}
+        },
+        "cosmic_sense-making": {
+          "anthropocene_contextualization": {},
+          "civilizational_arc_analysis": {},
+          "personal_legacy_projection": {}
+        },
+        "transcendent_learning": {
+          "near_death_experience_integration": {},
+          "ancestral_communication_rituals": {},
+          "postmaterial_philosophy_study": {}
+        }
+      }
+    }
+  }
+}

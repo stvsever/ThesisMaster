@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tolerance_khat"
+    },
+    {
+      "criterium": "withdrawal_khat_symptoms"
+    },
+    {
+      "criterium": "craving_khat"
+    },
+    {
+      "criterium": "loss_of_control_khat_use"
+    },
+    {
+      "criterium": "hazardous_khat_use"
+    },
+    {
+      "criterium": "social_or_professional_impairment_khat"
+    },
+    {
+      "criterium": "persistent_khat_use_despite_psychosocial_problems"
+    },
+    {
+      "criterium": "recurrent_cessation_attempts_fail_khat"
+    },
+    {
+      "criterium": "preoccupation_with_khat"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

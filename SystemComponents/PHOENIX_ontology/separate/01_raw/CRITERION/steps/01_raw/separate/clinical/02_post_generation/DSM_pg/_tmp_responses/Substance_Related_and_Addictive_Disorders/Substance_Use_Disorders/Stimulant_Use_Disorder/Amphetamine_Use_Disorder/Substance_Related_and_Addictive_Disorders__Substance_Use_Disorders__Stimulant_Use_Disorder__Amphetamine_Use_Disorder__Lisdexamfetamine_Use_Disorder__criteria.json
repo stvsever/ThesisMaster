@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_lisdexamfetamine"
+    },
+    {
+      "criterium": "tolerance_lisdexamfetamine"
+    },
+    {
+      "criterium": "withdrawal_lisdexamfetamine"
+    },
+    {
+      "criterium": "escalation_lisdexamfetamine_use"
+    },
+    {
+      "criterium": "loss_of_control_lisdexamfetamine_use"
+    },
+    {
+      "criterium": "time_obtaining_lisdexamfetamine"
+    },
+    {
+      "criterium": "time_using_lisdexamfetamine"
+    },
+    {
+      "criterium": "time_recovering_from_lisdexamfetamine"
+    },
+    {
+      "criterium": "neglect_of_activities_due_to_lisdexamfetamine"
+    },
+    {
+      "criterium": "social_problems_from_lisdexamfetamine"
+    },
+    {
+      "criterium": "use_in_dangerous_contexts_due_to_lisdexamfetamine"
+    },
+    {
+      "criterium": "work_or_school_impairment_from_lisdexamfetamine"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M_genotype",
+      "COMT_V158M_genotype",
+      "SLC6A4_5HTTLPR_genotype",
+      "FKBP5_rs1360780_genotype",
+      "NPY_rs16147_promoter_genotype"
+    ],
+    "molecules": [
+      "BDNF_serum_protein_level",
+      "Cortisol_plasma_concentration",
+      "CRH_plasma_concentration",
+      "NPY_serum_concentration"
+    ],
+    "cells": [
+      "Basolateral_amygdala_neuron_density",
+      "Prefrontal_cortex_pyramidal_neuron_density",
+      "Parvalbumin_inhibitory_neuron_density_PFC",
+      "Hippocampal_CA1_pyramidal_neuron_density"
+    ],
+    "circuits": [
+      "Amygdala_Prefrontal_Connectivity_Strength",
+      "Amygdala_Hippocampus_Connectivity_Strength",
+      "Ventromedial_Prefrontal_Cortex_Amygdala_Downregulation_Strength",
+      "Dorsolateral_Prefrontal_Cortex_Amygdala_Inhibitory_Control_Strength"
+    ],
+    "physiology": [
+      "Skin_Conductance_Response_to_Generalized_Threat",
+      "Heart_Rate_Variability_to_Generalized_Threat",
+      "Pupil_Dilation_to_Generalized_Threat",
+      "Startle_Reflex_Magnitude_to_Generalized_Threat"
+    ],
+    "behavior": [
+      "Threat_Generalization_Task_Bias_Score",
+      "Generalized_Threat_Stimulus_Reaction_Time",
+      "Avoidance_Latency_Generalized_Threat_Cues",
+      "Generalization_Bias_Behavioral_Score"
+    ],
+    "self_report": [
+      "Generalization_of_Threat_Self_Report_Score",
+      "STAI_Trait_Score",
+      "STAI_State_Score",
+      "Anxiety_Sensitivity_Index_Score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.0
+}

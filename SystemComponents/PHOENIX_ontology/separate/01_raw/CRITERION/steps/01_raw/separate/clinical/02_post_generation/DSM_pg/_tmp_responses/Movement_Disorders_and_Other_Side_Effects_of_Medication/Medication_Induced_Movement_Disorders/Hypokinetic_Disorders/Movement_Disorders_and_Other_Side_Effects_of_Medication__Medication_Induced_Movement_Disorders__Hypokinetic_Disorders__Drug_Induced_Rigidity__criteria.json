@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "limb_rigidity"
+    },
+    {
+      "criterium": "cogwheel_rigidity"
+    },
+    {
+      "criterium": "lead_pipe_rigidity"
+    },
+    {
+      "criterium": "bradykinesia"
+    },
+    {
+      "criterium": "akinesia"
+    },
+    {
+      "criterium": "hypomimia"
+    },
+    {
+      "criterium": "micrographia"
+    },
+    {
+      "criterium": "rest_tremor"
+    },
+    {
+      "criterium": "shuffling_gait"
+    },
+    {
+      "criterium": "reduced_armswing"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "stooped_posture"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "morsicatio_buccarum_present"
+    },
+    {
+      "criterium": "morsicatio_labiorum_present"
+    },
+    {
+      "criterium": "morsicatio_linguae_present"
+    },
+    {
+      "criterium": "white_corrugated_patches_buccal_mucosa"
+    },
+    {
+      "criterium": "white_corrugated_patches_labial_mucosa"
+    },
+    {
+      "criterium": "white_corrugated_patches_tongue_dorsum"
+    },
+    {
+      "criterium": "frayed_edges_at_biting_sites_buccal_mucosa"
+    },
+    {
+      "criterium": "bilateral_symmetry_of_biting_lesions"
+    },
+    {
+      "criterium": "linear_mucosal_striations_at_biting_sites"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "resting_hr_bpm_lt_60"
+    },
+    {
+      "criterium": "bradycardia_on_ecg"
+    },
+    {
+      "criterium": "blunted_chronotropic_response_to_exercise"
+    },
+    {
+      "criterium": "decreased_submaximal_exercise_capacity"
+    },
+    {
+      "criterium": "decreased_maximal_exercise_capacity"
+    },
+    {
+      "criterium": "postural_dizziness_on_standing"
+    },
+    {
+      "criterium": "orthostatic_hypotension"
+    },
+    {
+      "criterium": "patient_report_of_fatigue"
+    },
+    {
+      "criterium": "daytime_sleepiness"
+    },
+    {
+      "criterium": "syncope_or_near_syncope_events"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

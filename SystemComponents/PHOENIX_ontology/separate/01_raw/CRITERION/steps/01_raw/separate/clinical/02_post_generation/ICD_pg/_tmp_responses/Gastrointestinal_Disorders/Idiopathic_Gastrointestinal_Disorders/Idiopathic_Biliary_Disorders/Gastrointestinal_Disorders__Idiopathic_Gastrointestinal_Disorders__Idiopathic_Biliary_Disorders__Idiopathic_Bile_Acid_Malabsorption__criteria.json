@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "stool_diarrhea_daily_frequency"
+    },
+    {
+      "criterium": "stool_consistency_watery"
+    },
+    {
+      "criterium": "steatorrhea_presence"
+    },
+    {
+      "criterium": "stool_urgency"
+    },
+    {
+      "criterium": "stool_fecal_incontinence"
+    },
+    {
+      "criterium": "abdominal_bloating"
+    },
+    {
+      "criterium": "postprandial_abdominal_pain"
+    },
+    {
+      "criterium": "unintentional_weight_loss"
+    },
+    {
+      "criterium": "fatigue_subjective"
+    },
+    {
+      "criterium": "cognitive_fog"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

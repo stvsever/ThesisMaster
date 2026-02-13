@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anhedonia_persistent"
+    },
+    {
+      "criterium": "mood_worsening_morning"
+    },
+    {
+      "criterium": "mood_nonreactive"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "weight_loss_significant"
+    },
+    {
+      "criterium": "early_morning_awakening"
+    },
+    {
+      "criterium": "excessive_guilt"
+    },
+    {
+      "criterium": "fatigue_persistent"
+    },
+    {
+      "criterium": "diurnal_mood_variation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "somnolence"
+    },
+    {
+      "criterium": "daytime_fatigue"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "impaired_attention"
+    },
+    {
+      "criterium": "impaired_concentration"
+    },
+    {
+      "criterium": "slowed_reaction_time"
+    },
+    {
+      "criterium": "decreased_alertness"
+    },
+    {
+      "criterium": "gait_unsteadiness"
+    },
+    {
+      "criterium": "subjective_drowsiness"
+    },
+    {
+      "criterium": "hypovigilance"
+    }
+  ],
+  "estimated_prevalence_percent": 9.0
+}

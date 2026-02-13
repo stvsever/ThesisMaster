@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "central_obesity"
+    },
+    {
+      "criterium": "moon_facies"
+    },
+    {
+      "criterium": "buffalo_hump"
+    },
+    {
+      "criterium": "purple_abdominal_striae"
+    },
+    {
+      "criterium": "proximal_muscle_weakness"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "hyperglycemia"
+    },
+    {
+      "criterium": "edema"
+    },
+    {
+      "criterium": "skin_hyperpigmentation"
+    },
+    {
+      "criterium": "weight_loss"
+    },
+    {
+      "criterium": "hyponatremia"
+    },
+    {
+      "criterium": "hyperkalemia"
+    },
+    {
+      "criterium": "orthostatic_hypotension"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

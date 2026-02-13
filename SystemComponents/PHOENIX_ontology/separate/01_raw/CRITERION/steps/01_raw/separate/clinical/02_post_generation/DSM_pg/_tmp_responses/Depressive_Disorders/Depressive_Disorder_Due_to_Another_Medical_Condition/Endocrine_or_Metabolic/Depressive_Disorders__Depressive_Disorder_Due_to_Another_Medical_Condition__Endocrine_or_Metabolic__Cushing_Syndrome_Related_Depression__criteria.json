@@ -1,0 +1,50 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    },
+    {
+      "criterium": "concentration_impairment"
+    },
+    {
+      "criterium": "guilt_worthlessness"
+    },
+    {
+      "criterium": "suicidal_ideation"
+    },
+    {
+      "criterium": "proximal_muscle_weakness"
+    },
+    {
+      "criterium": "central_obesity"
+    },
+    {
+      "criterium": "moon_facies"
+    },
+    {
+      "criterium": "dorsocervical_fat_pad"
+    },
+    {
+      "criterium": "purple_striae"
+    },
+    {
+      "criterium": "glucose_intolerance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.005
+}

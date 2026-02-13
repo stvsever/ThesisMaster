@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_religious_obsessions"
+    },
+    {
+      "criterium": "religious_compulsions_prayer_rituals"
+    },
+    {
+      "criterium": "moral_scrupulosity_ruminations"
+    },
+    {
+      "criterium": "reassurance_seeking_religious_authorities"
+    },
+    {
+      "criterium": "avoidance_of_religious_settings"
+    },
+    {
+      "criterium": "excessive_guilt_related_to_sin"
+    },
+    {
+      "criterium": "mental_acts_of_sin_thoughts"
+    },
+    {
+      "criterium": "checking_behaviors_for_sin_certainty"
+    },
+    {
+      "criterium": "ritualization_to_prevent_blasphemy"
+    },
+    {
+      "criterium": "confession_related_scrupulousness"
+    },
+    {
+      "criterium": "contamination_fear_of_sacred_objects"
+    },
+    {
+      "criterium": "religious_observance_perfectionism"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

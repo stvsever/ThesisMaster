@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M_polymorphism",
+      "COMT_V158M_polymorphism",
+      "DRD2_rs1800497_A1",
+      "CREB1_polymorphism",
+      "APOE_e4_carrier",
+      "KIBRA_rs17070145"
+    ],
+    "molecules": [
+      "BDNF_protein_level",
+      "Dopamine_metabolite_HVA",
+      "Glutamate_concentration",
+      "GABA_concentration",
+      "NMDA_receptor_NR2B_subunit_expression",
+      "Dopamine_D1_receptor_density"
+    ],
+    "cells": [
+      "CA1_pyramidal_neuron_density",
+      "CA3_pyramidal_neuron_density",
+      "hippocampal_interneuron_GABAergic_cell_count",
+      "dentate_gyrus_neurogenesis_rate",
+      "microglia_activation_in_hippocampus"
+    ],
+    "circuits": [
+      "hippocampus_ventral_striatum_connectivity_strength",
+      "hippocampus_dopaminergic_midbrain_connectivity",
+      "CA3_CA1_synchrony",
+      "hippocampus_prefrontal_cortex_connectivity",
+      "hippocampus_entorhinal_network_coherence"
+    ],
+    "physiology": [
+      "hippocampal_BOLD_amplitude_during_context_reward_binding",
+      "pupil_dilation_during_reward_binding_task",
+      "skin_conductance_response_during_context_binding",
+      "heart_rate_variability_during_reward_learning",
+      "respiratory_rate_during_task"
+    ],
+    "behavior": [
+      "reward_learning_rate",
+      "context_binding_task_accuracy",
+      "context_recollection_accuracy",
+      "reward_prediction_error_sensitivity",
+      "reaction_time_to_reward_cue",
+      "contextual_binding_precision"
+    ],
+    "self_report": [
+      "subjective_reward_valuation_rating",
+      "anhedonia_scale_score",
+      "subjective_reward_expectation_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 8.4
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "arousal_from_physical_suffering_of_another"
+    },
+    {
+      "criterium": "arousal_from_psychological_suffering_of_another"
+    },
+    {
+      "criterium": "recurrent_fantasies_of_cruelty_toward_nonconsenting_individuals"
+    },
+    {
+      "criterium": "recurrent_urges_to_inflict_physical_suffering_on_nonconsenting_individuals"
+    },
+    {
+      "criterium": "recurrent_urges_to_inflict_psychological_distress_on_nonconsenting_individuals"
+    },
+    {
+      "criterium": "sexual_behaviors_involving_nonconsenting_individuals"
+    },
+    {
+      "criterium": "coercive_domination_in_sexual_context"
+    },
+    {
+      "criterium": "targeting_of_vulnerable_or_immobile_individuals_in_sexual_context"
+    },
+    {
+      "criterium": "distress_or_impairment_related_to_sexual_sadistic_impulses"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

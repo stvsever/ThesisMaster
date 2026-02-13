@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "disinhibition"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "loss_of_empathy"
+    },
+    {
+      "criterium": "compulsive_behaviors"
+    },
+    {
+      "criterium": "hyperorality"
+    },
+    {
+      "criterium": "perseverative_behaviors"
+    },
+    {
+      "criterium": "social_inappropriateness"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "poor_personal_hygiene"
+    },
+    {
+      "criterium": "emotional_blunting"
+    },
+    {
+      "criterium": "anosognosia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

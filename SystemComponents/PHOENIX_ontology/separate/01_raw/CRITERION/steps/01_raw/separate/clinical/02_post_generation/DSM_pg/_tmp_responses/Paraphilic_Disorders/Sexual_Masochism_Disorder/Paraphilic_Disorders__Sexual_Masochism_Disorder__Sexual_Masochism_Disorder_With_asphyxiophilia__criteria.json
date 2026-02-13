@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "asphyxiophilic_arousal_during_breath_restriction"
+    },
+    {
+      "criterium": "self_initiated_asphyxiation_during_sexual_activity"
+    },
+    {
+      "criterium": "autoerotic_asphyxiation_occurrence"
+    },
+    {
+      "criterium": "arousal_from_pain_in_sexual_context"
+    },
+    {
+      "criterium": "arousal_from_breath_restriction_sensation"
+    },
+    {
+      "criterium": "fantasy_content_involving_asphyxiation"
+    },
+    {
+      "criterium": "recurrent_engagement_in_asphyxiophilic_behaviors"
+    },
+    {
+      "criterium": "use_of_breath_restriction_devices_or_methods"
+    },
+    {
+      "criterium": "risk_behaviors_with_breath_restriction"
+    },
+    {
+      "criterium": "impairment_or_distress_related_to_paraphilic_interest"
+    },
+    {
+      "criterium": "increased_frequency_of_asphyxiophilic_events"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

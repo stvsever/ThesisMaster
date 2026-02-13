@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "substance_induced_insomnia"
+    },
+    {
+      "criterium": "substance_induced_hypersomnia"
+    },
+    {
+      "criterium": "substance_induced_sleep_onset_latency_increase"
+    },
+    {
+      "criterium": "substance_induced_sleep_maintenance_difficulty"
+    },
+    {
+      "criterium": "substance_induced_early_morning_awakening"
+    },
+    {
+      "criterium": "substance_induced_sleep_efficacy_reduction"
+    },
+    {
+      "criterium": "substance_induced_circadian_rhythm_disruption"
+    },
+    {
+      "criterium": "withdrawal_related_insomnia"
+    },
+    {
+      "criterium": "intoxication_related_sleep_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "insomnia_falling_asleep_substance_induced"
+    },
+    {
+      "criterium": "insomnia_maintaining_sleep_substance_induced"
+    },
+    {
+      "criterium": "insomnia_early_morning_awakening_substance_induced"
+    },
+    {
+      "criterium": "daytime_sleepiness_substance_induced"
+    },
+    {
+      "criterium": "circadian_rhythm_disruption_substance_induced"
+    },
+    {
+      "criterium": "sleep_fragmentation_substance_induced"
+    },
+    {
+      "criterium": "parasomnia_substance_induced_episodes"
+    },
+    {
+      "criterium": "REM_sleep_activity_substance_induced"
+    },
+    {
+      "criterium": "dream_content_change_substance_induced"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

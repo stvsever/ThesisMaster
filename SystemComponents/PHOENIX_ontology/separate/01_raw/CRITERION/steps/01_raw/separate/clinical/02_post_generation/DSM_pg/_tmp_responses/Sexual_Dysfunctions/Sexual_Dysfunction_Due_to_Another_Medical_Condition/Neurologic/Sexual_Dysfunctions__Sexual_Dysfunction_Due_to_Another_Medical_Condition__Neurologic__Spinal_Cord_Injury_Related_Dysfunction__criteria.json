@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "erectile_dysfunction"
+    },
+    {
+      "criterium": "ejaculatory_dysfunction"
+    },
+    {
+      "criterium": "orgasmic_dysfunction"
+    },
+    {
+      "criterium": "genital_sensation_below_injury_reduced"
+    },
+    {
+      "criterium": "reflexogenic_erection_present"
+    },
+    {
+      "criterium": "psychogenic_erection_present"
+    },
+    {
+      "criterium": "vaginal_lubrication_insufficiency"
+    },
+    {
+      "criterium": "libido_decrease"
+    },
+    {
+      "criterium": "dyspareunia_present"
+    },
+    {
+      "criterium": "nocturnal_penile_tumescence_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

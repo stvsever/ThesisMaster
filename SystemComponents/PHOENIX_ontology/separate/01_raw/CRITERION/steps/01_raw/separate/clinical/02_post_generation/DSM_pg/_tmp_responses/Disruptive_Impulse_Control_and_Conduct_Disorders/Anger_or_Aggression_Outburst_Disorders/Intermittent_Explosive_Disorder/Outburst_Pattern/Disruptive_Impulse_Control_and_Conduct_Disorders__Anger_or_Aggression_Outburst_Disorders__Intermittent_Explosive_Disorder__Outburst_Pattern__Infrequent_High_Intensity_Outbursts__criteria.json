@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sudden_high_intensity_verbal_outburst"
+    },
+    {
+      "criterium": "sudden_high_intensity_physical_outburst"
+    },
+    {
+      "criterium": "outburst_disproportionate_to_stressor"
+    },
+    {
+      "criterium": "outburst_resulting_in_damage_to_property_or_injury"
+    },
+    {
+      "criterium": "no_premeditation_of_outburst"
+    },
+    {
+      "criterium": "loss_of_control_during_outburst"
+    },
+    {
+      "criterium": "rapid_emotional_recovery_post_outburst"
+    },
+    {
+      "criterium": "distress_or_impairment_post_outburst"
+    },
+    {
+      "criterium": "urge_to_express_anger_prior_to_outburst"
+    },
+    {
+      "criterium": "post_outburst_guilt_or_regret"
+    },
+    {
+      "criterium": "pre_outburst_physiological_arousal_increase"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

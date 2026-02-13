@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "diabetes_related_erectile_dysfunction"
+    },
+    {
+      "criterium": "diabetes_related_decreased_libido"
+    },
+    {
+      "criterium": "diabetes_related_delayed_ejaculation"
+    },
+    {
+      "criterium": "diabetes_related_anorgasmia"
+    },
+    {
+      "criterium": "diabetes_related_vaginal_lubrication_deficit"
+    },
+    {
+      "criterium": "diabetes_related_genital_sensory_loss"
+    },
+    {
+      "criterium": "diabetes_related_pain_with_intercourse"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

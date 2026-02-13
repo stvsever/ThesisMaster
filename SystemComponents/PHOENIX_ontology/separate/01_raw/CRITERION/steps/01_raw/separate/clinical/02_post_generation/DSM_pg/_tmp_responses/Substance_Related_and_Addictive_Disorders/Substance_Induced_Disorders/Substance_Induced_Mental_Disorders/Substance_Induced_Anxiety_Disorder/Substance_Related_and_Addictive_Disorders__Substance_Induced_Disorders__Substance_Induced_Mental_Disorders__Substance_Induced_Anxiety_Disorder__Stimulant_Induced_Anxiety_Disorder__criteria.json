@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "dyspnea"
+    },
+    {
+      "criterium": "chest_pain"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "panic_attacks"
+    },
+    {
+      "criterium": "excessive_worry"
+    },
+    {
+      "criterium": "derealization"
+    },
+    {
+      "criterium": "paranoia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

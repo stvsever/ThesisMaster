@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypotonia"
+    },
+    {
+      "criterium": "gross_motor_coordination_impairment"
+    },
+    {
+      "criterium": "fine_motor_skill_impairment"
+    },
+    {
+      "criterium": "dyspraxia"
+    },
+    {
+      "criterium": "ataxia_of_limb_movements"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "dysmetria"
+    },
+    {
+      "criterium": "tremor_action"
+    },
+    {
+      "criterium": "myoclonus"
+    },
+    {
+      "criterium": "choreoathetoid_movements"
+    }
+  ],
+  "estimated_prevalence_percent": 2.3
+}

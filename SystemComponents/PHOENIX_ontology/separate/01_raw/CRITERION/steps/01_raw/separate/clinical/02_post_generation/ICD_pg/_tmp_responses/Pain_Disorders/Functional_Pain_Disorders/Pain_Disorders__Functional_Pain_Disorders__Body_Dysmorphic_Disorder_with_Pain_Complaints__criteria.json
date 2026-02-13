@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_perceived_body_flaw"
+    },
+    {
+      "criterium": "repetitive_visual_inspection_of_area_of_perceived_flaw"
+    },
+    {
+      "criterium": "repetitive_grooming_or_masking_behavior_targeting_perceived_flaw"
+    },
+    {
+      "criterium": "excessive_appearance_related_rumination"
+    },
+    {
+      "criterium": "recurrent_assurance_seeking_about_appearance"
+    },
+    {
+      "criterium": "pain_experiences_located_in_or_referred_to_perceived_flaw_area"
+    },
+    {
+      "criterium": "pain_exaggeration_or_catastrophizing_about_pain_in_flawed_area"
+    },
+    {
+      "criterium": "pain_without_medical_explanation_persisting"
+    },
+    {
+      "criterium": "appearance_pain_related_distress_impairing_social_or_work_function"
+    },
+    {
+      "criterium": "increased_healthcare_visits_for_pain_and_appearance_concerns"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "bilateral_location"
+    },
+    {
+      "criterium": "pressing_tightening_quality"
+    },
+    {
+      "criterium": "non_pulsating_quality"
+    },
+    {
+      "criterium": "mild_to_moderate_intensity"
+    },
+    {
+      "criterium": "not_aggravated_by_routine_physical_activity"
+    },
+    {
+      "criterium": "episode_duration_30_min_to_7_days"
+    },
+    {
+      "criterium": "absence_of_nausea"
+    },
+    {
+      "criterium": "absence_of_vomiting"
+    },
+    {
+      "criterium": "photophobia_present"
+    },
+    {
+      "criterium": "phonophobia_present"
+    },
+    {
+      "criterium": "pericranial_mmuscle_tenderness_present"
+    },
+    {
+      "criterium": "neck_stiffness_present"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

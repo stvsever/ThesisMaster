@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "contralateral_pain_distribution"
+    },
+    {
+      "criterium": "spontaneous_pain_presence"
+    },
+    {
+      "criterium": "paroxysmal_pain_attacks"
+    },
+    {
+      "criterium": "burning_pain_quality"
+    },
+    {
+      "criterium": "dysesthesia_paresthesia"
+    },
+    {
+      "criterium": "allodynia_to_light_touch"
+    },
+    {
+      "criterium": "hyperalgesia_to_pinprick"
+    },
+    {
+      "criterium": "thermal_allodynia"
+    },
+    {
+      "criterium": "contralateral_sensory_deficit_in_pain_area"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

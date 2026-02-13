@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "cardiac_arrhythmia"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "muscle_twitching"
+    },
+    {
+      "criterium": "restlessness"
+    },
+    {
+      "criterium": "nervousness"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "flushed_face"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "GI_disturbance"
+    },
+    {
+      "criterium": "polyuria"
+    },
+    {
+      "criterium": "rambling_flow_of_thoughts"
+    },
+    {
+      "criterium": "pressured_speech"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

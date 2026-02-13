@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "partial_insight_present"
+    },
+    {
+      "criterium": "belief_exaggeration_acknowledged"
+    },
+    {
+      "criterium": "belief_not_absolute_certainty"
+    },
+    {
+      "criterium": "recognizes_belief_may_be_false"
+    },
+    {
+      "criterium": "considers_alternative_explanations"
+    },
+    {
+      "criterium": "disconfirming_evidence_accepted"
+    },
+    {
+      "criterium": "reality_testing_preserved"
+    },
+    {
+      "criterium": "external_evidence_considered"
+    },
+    {
+      "criterium": "discrepancies_between_belief_and_evidence_observed"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

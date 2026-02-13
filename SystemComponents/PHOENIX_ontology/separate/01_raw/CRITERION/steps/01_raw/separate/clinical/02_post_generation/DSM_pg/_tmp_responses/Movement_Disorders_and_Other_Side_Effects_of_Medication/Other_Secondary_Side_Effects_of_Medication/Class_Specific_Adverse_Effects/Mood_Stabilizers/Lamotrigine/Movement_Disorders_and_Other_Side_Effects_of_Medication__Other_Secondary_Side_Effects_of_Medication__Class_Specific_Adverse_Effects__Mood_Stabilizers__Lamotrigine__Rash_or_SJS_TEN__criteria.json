@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "maculopapular_rash"
+    },
+    {
+      "criterium": "mucosal_involvement"
+    },
+    {
+      "criterium": "oral_mucosal_ulcers"
+    },
+    {
+      "criterium": "conjunctival_inflammation"
+    },
+    {
+      "criterium": "lip_edema"
+    },
+    {
+      "criterium": "epidermal_detachment"
+    },
+    {
+      "criterium": "bullous_lesions"
+    },
+    {
+      "criterium": "positive_nikolsky_sign"
+    },
+    {
+      "criterium": "fever_present"
+    },
+    {
+      "criterium": "purpuric_macules"
+    },
+    {
+      "criterium": "facial_edema"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

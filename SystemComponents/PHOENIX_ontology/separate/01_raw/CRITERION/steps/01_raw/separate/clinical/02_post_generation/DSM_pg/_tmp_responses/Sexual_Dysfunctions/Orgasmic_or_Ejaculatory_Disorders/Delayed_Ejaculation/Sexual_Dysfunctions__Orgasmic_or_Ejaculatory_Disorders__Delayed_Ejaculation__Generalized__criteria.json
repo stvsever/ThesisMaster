@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inability_to_ejaculate_in_response_to_sexual_stimulation"
+    },
+    {
+      "criterium": "inability_to_ejaculate_with_masturbation"
+    },
+    {
+      "criterium": "preserved_erectile_function"
+    },
+    {
+      "criterium": "normal_sexual_desire"
+    },
+    {
+      "criterium": "no_pain_during_sexual_stimulation"
+    },
+    {
+      "criterium": "subjective_distress_related_to_ejaculatory_difficulty"
+    },
+    {
+      "criterium": "partner_report_of_recurrent_difficulty_to_ejaculate"
+    },
+    {
+      "criterium": "no_substance_or_medication_related_contributors_to_ejaculatory_dysfunction"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

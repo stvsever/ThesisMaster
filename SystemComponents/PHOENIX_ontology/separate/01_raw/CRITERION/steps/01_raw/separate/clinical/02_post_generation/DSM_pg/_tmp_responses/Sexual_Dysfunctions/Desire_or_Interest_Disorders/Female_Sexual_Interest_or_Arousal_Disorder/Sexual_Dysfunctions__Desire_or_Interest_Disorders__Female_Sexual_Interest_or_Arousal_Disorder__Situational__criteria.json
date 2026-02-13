@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "decreased_desire_in_specific_contexts"
+    },
+    {
+      "criterium": "reduced_arousal_in_presence_of_partner_in_specific_contexts"
+    },
+    {
+      "criterium": "reduced_vaginal_lubrication_in_specific_contexts"
+    },
+    {
+      "criterium": "decreased_genital_sensation_in_specific_contexts"
+    },
+    {
+      "criterium": "difficulty_in_initiating_sex_in_specific_contexts"
+    },
+    {
+      "criterium": "avoidance_of_sex_in_specific_contexts"
+    },
+    {
+      "criterium": "reduced_thoughts_about_sex_in_specific_contexts"
+    },
+    {
+      "criterium": "reduced_frequency_of_sexual_activity_in_specific_contexts"
+    },
+    {
+      "criterium": "increased_distress_related_to_sexual_dysfunction_in_specific_contexts"
+    }
+  ],
+  "estimated_prevalence_percent": 6.0
+}

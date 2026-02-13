@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "Nocturnal_enuresis_presence"
+    },
+    {
+      "criterium": "Nocturnal_enuresis_events_count"
+    },
+    {
+      "criterium": "Diurnal_enuresis_presence"
+    },
+    {
+      "criterium": "Diurnal_enuresis_events_count"
+    },
+    {
+      "criterium": "Bedwetting_confirmed_bedtime_event"
+    },
+    {
+      "criterium": "Daytime_incontinence_confirmed_by_observation"
+    },
+    {
+      "criterium": "Sleep_disturbance_associated_with_enuresis_present"
+    },
+    {
+      "criterium": "Social_function_impairment_due_to_enuresis_present"
+    },
+    {
+      "criterium": "Behavioral_avoidance_due_to_enuresis_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_enuresis_present"
+    },
+    {
+      "criterium": "daytime_urinary_incontinence_absent"
+    },
+    {
+      "criterium": "monosymptomatic_nocturnal_enuresis"
+    },
+    {
+      "criterium": "nocturnal_enuresis_frequency_per_night"
+    },
+    {
+      "criterium": "nocturnal_polyuria_suspected"
+    },
+    {
+      "criterium": "reduced_nighttime_bladder_capacity_suspected"
+    },
+    {
+      "criterium": "family_history_enuresis_positive"
+    },
+    {
+      "criterium": "arousal_latency_to_enuresis_high"
+    },
+    {
+      "criterium": "sleep_quality_impact_by_enuresis_present"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

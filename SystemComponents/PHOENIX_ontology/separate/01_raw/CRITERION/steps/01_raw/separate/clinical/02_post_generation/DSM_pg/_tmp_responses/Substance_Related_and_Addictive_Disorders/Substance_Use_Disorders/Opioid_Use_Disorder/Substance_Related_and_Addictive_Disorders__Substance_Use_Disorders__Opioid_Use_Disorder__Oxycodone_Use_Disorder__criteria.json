@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_intense"
+    },
+    {
+      "criterium": "dose_escalation_over_time"
+    },
+    {
+      "criterium": "loss_of_control_over_use"
+    },
+    {
+      "criterium": "time_spent_obtaining_using_recovering"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_cessation"
+    },
+    {
+      "criterium": "continued_use_despite_adverse_health_consequences"
+    },
+    {
+      "criterium": "use_in_hazardous_situations"
+    },
+    {
+      "criterium": "social_occupational_impairment_due_to_use"
+    },
+    {
+      "criterium": "legal_problems_due_to_use"
+    },
+    {
+      "criterium": "preoccupation_with_oxycodone"
+    },
+    {
+      "criterium": "failure_to_cut_down_or_stop_use"
+    },
+    {
+      "criterium": "tolerance_development_evident"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

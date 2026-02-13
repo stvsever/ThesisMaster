@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "visual_hallucination"
+    },
+    {
+      "criterium": "auditory_hallucination"
+    },
+    {
+      "criterium": "olfactory_hallucination"
+    },
+    {
+      "criterium": "gustatory_hallination"
+    },
+    {
+      "criterium": "tactile_hallucination"
+    },
+    {
+      "criterium": "illusion"
+    },
+    {
+      "criterium": "derealization"
+    },
+    {
+      "criterium": "depersonalization"
+    },
+    {
+      "criterium": "time_distortion"
+    },
+    {
+      "criterium": "visual_distortion"
+    },
+    {
+      "criterium": "enhanced_sensory_perception"
+    },
+    {
+      "criterium": "metamorphopsia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

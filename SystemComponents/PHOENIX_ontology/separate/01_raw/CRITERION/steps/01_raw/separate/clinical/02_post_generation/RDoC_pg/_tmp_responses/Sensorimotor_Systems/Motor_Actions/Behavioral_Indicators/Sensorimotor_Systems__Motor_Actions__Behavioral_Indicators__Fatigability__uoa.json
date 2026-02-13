@@ -1,0 +1,58 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "PPARGC1A_expression",
+      "IL6_expression",
+      "TNF_expression",
+      "BDNF_expression",
+      "CKM_expression",
+      "SOD2_expression"
+    ],
+    "molecules": [
+      "lactate_concentration",
+      "PCr_concentration",
+      "ATP_concentration",
+      "ADP_concentration",
+      "pH_level",
+      "IL6_level"
+    ],
+    "cells": [
+      "type_II_muscle_fiber_percentage",
+      "type_I_muscle_fiber_percentage",
+      "mitochondrial_density_per_muscle_fiber",
+      "capillary_density_per_muscle_fiber",
+      "neuromuscular_junction_density"
+    ],
+    "circuits": [
+      "TMS_MEP_amplitude",
+      "fMRI_motor_cortex_BOLD_change",
+      "EEG_M1_beta_power",
+      "cerebellar_motor_connectivity_strength"
+    ],
+    "physiology": [
+      "VO2_submax_during_task",
+      "heart_rate_peak_during_task",
+      "blood_lactate_concentration",
+      "core_temperature_change",
+      "respiratory_rate_during_task",
+      "blood_pressure_systolic_during_task"
+    ],
+    "behavior": [
+      "time_to_task_failure_seconds",
+      "task_completion_time_seconds",
+      "grip_strength_decline_rate",
+      "movement_velocity_decline_rate",
+      "error_rate_repeated_task",
+      "endurance_duration_minutes"
+    ],
+    "self_report": [
+      "RPE_10_point_score",
+      "Fatigue_Severity_Scale_score",
+      "Mental_fatigue_score",
+      "Perceived_effort_score",
+      "Fatigability_questionnaire_score",
+      "Activity_interference_score"
+    ]
+  },
+  "estimated_prevalence_percent": 12.5
+}

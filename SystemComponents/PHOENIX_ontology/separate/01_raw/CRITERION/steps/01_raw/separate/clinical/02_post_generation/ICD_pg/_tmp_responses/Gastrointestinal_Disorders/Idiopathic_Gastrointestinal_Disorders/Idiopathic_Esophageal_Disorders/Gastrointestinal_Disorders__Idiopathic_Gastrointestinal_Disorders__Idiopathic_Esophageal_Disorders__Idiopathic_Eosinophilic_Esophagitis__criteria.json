@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "esophageal_eosinophils_ge_15_per_hpf"
+    },
+    {
+      "criterium": "dysphagia_solids"
+    },
+    {
+      "criterium": "food_impaction_history"
+    },
+    {
+      "criterium": "odynophagia_present"
+    },
+    {
+      "criterium": "endoscopy_linear_furrows_present"
+    },
+    {
+      "criterium": "endoscopy_mucosal_rings_present"
+    },
+    {
+      "criterium": "endoscopy_white_exudates_present"
+    },
+    {
+      "criterium": "endoscopy_mucosal_edema_present"
+    },
+    {
+      "criterium": "atopy_history_present"
+    },
+    {
+      "criterium": "peripheral_eosinophilia_present"
+    },
+    {
+      "criterium": "avoidant_eating_behavior_present"
+    },
+    {
+      "criterium": "meal_related_anxiety_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.08
+}

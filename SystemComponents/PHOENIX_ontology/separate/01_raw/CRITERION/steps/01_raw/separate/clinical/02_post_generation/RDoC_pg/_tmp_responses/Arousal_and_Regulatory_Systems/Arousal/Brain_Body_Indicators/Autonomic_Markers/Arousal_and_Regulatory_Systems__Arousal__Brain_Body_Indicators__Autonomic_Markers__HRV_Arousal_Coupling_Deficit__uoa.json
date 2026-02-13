@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "GNB3_rs5443_C825T",
+      "ADRA2A_rs1800544",
+      "ADRB1_rs1801253",
+      "BDNF_rs6265"
+    ],
+    "molecules": [
+      "norepinephrine_plasma",
+      "epinephrine_plasma",
+      "acetylcholine_plasma",
+      "cortisol_plasma",
+      "neuropeptide_Y_plasma"
+    ],
+    "cells": [
+      "intrinsic_cardiac_neuron_density",
+      "vagal_cholinergic_neuron_firing_rate",
+      "sympathetic_postganglionic_neuron_activity",
+      "central_noradrenergic_neuron_density"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_connectivity",
+      "insula_anterior_cingulate_connectivity",
+      "brainstem_vagal_system_connectivity",
+      "hypothalamus_brainstem_pathway_connectivity"
+    ],
+    "physiology": [
+      "RMSSD_ms",
+      "HF_power_ms2",
+      "LF_power_ms2",
+      "LF_HF_ratio",
+      "resting_heart_rate_bpm"
+    ],
+    "behavior": [
+      "startle_response_amplitude",
+      "reaction_time_arousal_probe_ms",
+      "arousal_task_accuracy_percent",
+      "sustained_attention_score"
+    ],
+    "self_report": [
+      "state_arousal_rating",
+      "stress_perception_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 5.4
+}

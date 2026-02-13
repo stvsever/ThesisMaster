@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "derives_pleasure_from_others_suffering"
+    },
+    {
+      "criterium": "deliberate_infliction_of_pain_to_achieve_domination"
+    },
+    {
+      "criterium": "cruelty_to_animals"
+    },
+    {
+      "criterium": "lack_of_remorse_after_harm"
+    },
+    {
+      "criterium": "emotional_manipulation_for_personal_satisfaction"
+    },
+    {
+      "criterium": "coercive_or_intimidating_behaviors_to_control_others"
+    },
+    {
+      "criterium": "exploitation_of_vulnerable_individuals_for_personal_gain"
+    },
+    {
+      "criterium": "empathy_deficit_in_interpersonal_context"
+    },
+    {
+      "criterium": "callous_disregard_for_safety_of_others"
+    },
+    {
+      "criterium": "consistently_subjugates_others_to_maintain_power"
+    },
+    {
+      "criterium": "gratification_from_domination_in_social_interactions"
+    },
+    {
+      "criterium": "persistent_interpersonal_boundary_violation_for_cruelty"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tolerance_to_carisoprodol"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_cessation_carisoprodol"
+    },
+    {
+      "criterium": "craving_or_compulsion_to_use_carisoprodol"
+    },
+    {
+      "criterium": "increased_dose_or_frequency_of_carisoprodol_use"
+    },
+    {
+      "criterium": "uncontrolled_use_despite_adverse_effects_of_carisoprodol"
+    },
+    {
+      "criterium": "repeated_failed_attempts_to_cut_down_or_stop_carisoprodol_use"
+    },
+    {
+      "criterium": "significant_time_spent_acquiring_using_or_recovering_from_carisoprodol"
+    },
+    {
+      "criterium": "preoccupation_with_carisoprodol_use"
+    },
+    {
+      "criterium": "failure_to_fulfill_major_role_obligations_due_to_carisoprodol_use"
+    },
+    {
+      "criterium": "social_or_interpersonal_problems_due_to_carisoprodol_use"
+    },
+    {
+      "criterium": "use_in_dangerous_or_risky_situations_due_to_carisoprodol_use"
+    },
+    {
+      "criterium": "continued_use_across_physical_or_psychological_harm_or_risk"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

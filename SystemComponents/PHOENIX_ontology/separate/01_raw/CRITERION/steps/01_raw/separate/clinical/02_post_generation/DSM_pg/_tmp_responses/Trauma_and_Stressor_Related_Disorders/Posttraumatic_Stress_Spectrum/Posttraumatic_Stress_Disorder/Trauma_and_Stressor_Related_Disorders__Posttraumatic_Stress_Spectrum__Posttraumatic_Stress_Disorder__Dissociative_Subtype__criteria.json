@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depersonalization_present"
+    },
+    {
+      "criterium": "derealization_present"
+    },
+    {
+      "criterium": "dissociative_amnesia_traumatic_events_present"
+    },
+    {
+      "criterium": "memory_fragmentation_during_intrusive_reexperiencing_present"
+    },
+    {
+      "criterium": "time_distortion_during_intrusive_reexperiencing_present"
+    },
+    {
+      "criterium": "out_of_body_experience_during_intrusions_present"
+    },
+    {
+      "criterium": "dissociative_reaction_to_trauma_memory_present"
+    },
+    {
+      "criterium": "traumatic_memory_gap_present"
+    },
+    {
+      "criterium": "traumatic_details_amnesia_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

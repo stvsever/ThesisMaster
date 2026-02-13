@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_salvia_divinorum"
+    },
+    {
+      "criterium": "tolerance_salvia_divinorum"
+    },
+    {
+      "criterium": "withdrawal_salvia_divinorum"
+    },
+    {
+      "criterium": "loss_of_control_salvia_divinorum"
+    },
+    {
+      "criterium": "failed_reduction_attempt_salvia_divinorum"
+    },
+    {
+      "criterium": "time_spent_salvia_divinorum_related_activities"
+    },
+    {
+      "criterium": "continued_use_despite_psychological_harm_salvia_divinorum"
+    },
+    {
+      "criterium": "use_in_hazardous_contexts_salvia_divinorum"
+    },
+    {
+      "criterium": "social_occupational_impairment_salvia_divinorum"
+    },
+    {
+      "criterium": "dissociative_experiences_salvia_divinorum"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusions_mood_incongruent_content"
+    },
+    {
+      "criterium": "delusions_grandiose_theme"
+    },
+    {
+      "criterium": "delusions_nihilistic_theme"
+    },
+    {
+      "criterium": "delusions_persecutory_theme"
+    },
+    {
+      "criterium": "hallucinations_auditory_commanding"
+    },
+    {
+      "criterium": "hallucinations_visual_complex_form"
+    },
+    {
+      "criterium": "thought_disorganization"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "disorganized_behavior"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "affect_incongruence_with_depressed_mood"
+    },
+    {
+      "criterium": "affect_flat_or_restricted"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

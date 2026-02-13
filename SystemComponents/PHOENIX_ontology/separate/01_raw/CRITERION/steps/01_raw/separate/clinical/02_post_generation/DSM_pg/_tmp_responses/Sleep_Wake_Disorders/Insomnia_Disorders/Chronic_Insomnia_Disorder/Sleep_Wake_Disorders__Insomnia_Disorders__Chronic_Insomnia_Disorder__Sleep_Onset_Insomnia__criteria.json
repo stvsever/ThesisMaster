@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_onset_latency_minutes"
+    },
+    {
+      "criterium": "subjective_sleep_onset_latency_report"
+    },
+    {
+      "criterium": "cognitive_arousal_at_bedtime"
+    },
+    {
+      "criterium": "bedtime_anxiety_present"
+    },
+    {
+      "criterium": "physiological_arousal_at_bedtime"
+    },
+    {
+      "criterium": "sleep_effort_excessive"
+    },
+    {
+      "criterium": "sleep_onset_latency_misperception"
+    },
+    {
+      "criterium": "pre_sleep_rumination_frequency"
+    }
+  ],
+  "estimated_prevalence_percent": 6.5
+}

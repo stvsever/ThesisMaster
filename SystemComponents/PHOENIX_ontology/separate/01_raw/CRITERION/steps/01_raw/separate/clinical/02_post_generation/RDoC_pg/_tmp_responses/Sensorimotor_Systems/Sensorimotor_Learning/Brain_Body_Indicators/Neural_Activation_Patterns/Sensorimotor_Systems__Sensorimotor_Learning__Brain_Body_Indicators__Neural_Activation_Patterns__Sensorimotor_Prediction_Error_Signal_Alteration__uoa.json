@@ -1,0 +1,51 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF",
+      "DRD2",
+      "COMT",
+      "GRIN2B"
+    ],
+    "molecules": [
+      "dopamine",
+      "glutamate",
+      "GABA",
+      "BDNF",
+      "calcium_ion",
+      "NMDA_receptor",
+      "AMPA_receptor"
+    ],
+    "cells": [
+      "cerebellar_purkinje_cells",
+      "cerebellar_nuclear_neurons",
+      "cortical_pyramidal_neurons_M1",
+      "premotor_cortex_neurons",
+      "basal_ganglia_medium_spiny_neurons"
+    ],
+    "circuits": [
+      "cerebellum_M1_connectivity",
+      "cerebellum_SMA_connectivity",
+      "basal_ganglia_thalamo_cortical_loop",
+      "parietal_premotor_connectivity",
+      "cortico_pontocerebellar_loop",
+      "cerebellothalamocortical_loop"
+    ],
+    "physiology": [
+      "error_related_potential_amplitude",
+      "beta_event_related_desynchronization",
+      "mu_event_related_desynchronization",
+      "cerebral_blood_flow_change",
+      "pupil_dilation_change"
+    ],
+    "behavior": [
+      "endpoint_error_magnitude",
+      "trajectory_adjustment_latency",
+      "movement_time",
+      "visuomotor_adaptation_rate",
+      "reaching_accuracy_improvement_rate",
+      "trial_to_trial_error_correction_speed"
+    ],
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 6.5
+}

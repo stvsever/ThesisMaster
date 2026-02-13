@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "DENIAL_OF_HOARDING_IMPAIRMENT"
+    },
+    {
+      "criterium": "DISREGARD_OF_CLINICIAN_FEEDBACK"
+    },
+    {
+      "criterium": "OVERVALUATION_OF_POSSESSIONS"
+    },
+    {
+      "criterium": "INSISTENCE_POSSESSIONS_ARE_NECESSARY"
+    },
+    {
+      "criterium": "MINIMIZATION_OF_HOARDING_CONSEQUENCES"
+    },
+    {
+      "criterium": "UNREALISTIC_RISK_PERCEPTION"
+    },
+    {
+      "criterium": "RESISTANCE_TO_DISCARDING_ITEMS"
+    },
+    {
+      "criterium": "IGNORANCE_OF_HOARDING_CONSEQUENCES"
+    },
+    {
+      "criterium": "BELIEF_POSSESSIONS_HAVE_MEMORY_VALUE"
+    },
+    {
+      "criterium": "RELUCTANCE_TO_SEEK_TREATMENT_FOR_HOARDING"
+    },
+    {
+      "criterium": "LACK_OF_REALISTIC_SPACE_PERCEPTION"
+    },
+    {
+      "criterium": "LACK_OF_CONCERN_FOR_HOARDING_ISSUES"
+    }
+  ],
+  "estimated_prevalence_percent": 1.2
+}

@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M_variant",
+      "COMT_VAL158MET_variant",
+      "APOE_E4_allele",
+      "WWC1_rs17070145_T_allele",
+      "CREB1_rs255294_variant"
+    ],
+    "molecules": [
+      "BDNF_protein_concentration",
+      "NMDA_NR2B_subunit_phosphorylation",
+      "CREB_S133_phosphorylation",
+      "CaMKII_activity",
+      "cAMP_levels"
+    ],
+    "cells": [
+      "CA1_pyramidal_neuron_firing_rate",
+      "CA3_pyramidal_neuron_firing_rate",
+      "DG_granule_cell_firing_rate",
+      "hippocampal_interneuron_firing_rate"
+    ],
+    "circuits": [
+      "hippocampus_entorhinal_connectivity_strength",
+      "hippocampus_prefrontal_connectivity_strength",
+      "hippocampal_theta_band_power",
+      "hippocampal_subfield_synchrony"
+    ],
+    "physiology": [
+      "hippocampal_BOLD_encoding_signal_magnitude",
+      "hippocampal_BOLD_encoding_signal_time_to_peak",
+      "hippocampal_neurovascular_coupling_efficiency",
+      "pupil_dilation_during_encoding"
+    ],
+    "behavior": [
+      "encoding_task_free_recall_score",
+      "encoding_task_recognition_accuracy",
+      "delayed_recall_score",
+      "serial_position_encoding_performance",
+      "intrusion_rate_during_encoding"
+    ],
+    "self_report": [
+      "subjective_memory_decline_score",
+      "perceived_encoding_efficiency",
+      "memory_error_frequency"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

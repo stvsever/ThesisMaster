@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "diaphragmatic_spasms"
+    },
+    {
+      "criterium": "intercostal_muscle_dyskinesia"
+    },
+    {
+      "criterium": "chest_wall_tremor"
+    },
+    {
+      "criterium": "laryngeal_dystonia"
+    },
+    {
+      "criterium": "inspiratory_stridor"
+    },
+    {
+      "criterium": "expiratory_grunting"
+    },
+    {
+      "criterium": "breathing_irregularity"
+    },
+    {
+      "criterium": "paradoxical_thoracoabdominal_motion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

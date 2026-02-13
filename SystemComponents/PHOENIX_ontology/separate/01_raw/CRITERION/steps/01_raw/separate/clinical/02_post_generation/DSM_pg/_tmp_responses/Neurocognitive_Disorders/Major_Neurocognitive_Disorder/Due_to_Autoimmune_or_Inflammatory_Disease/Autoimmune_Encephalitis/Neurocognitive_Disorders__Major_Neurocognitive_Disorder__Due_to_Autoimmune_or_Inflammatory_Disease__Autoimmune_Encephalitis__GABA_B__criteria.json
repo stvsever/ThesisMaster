@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_memory_impairment"
+    },
+    {
+      "criterium": "multidomain_cognitive_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "aphasia_present"
+    },
+    {
+      "criterium": "disorientation_present"
+    },
+    {
+      "criterium": "new_onset_seizures"
+    },
+    {
+      "criterium": "delusions_present"
+    },
+    {
+      "criterium": "hallucinations_present"
+    },
+    {
+      "criterium": "hyponatremia_present"
+    },
+    {
+      "criterium": "autonomic_dysfunction_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0005
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "malaise"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "myalgia"
+    },
+    {
+      "criterium": "arthralgia"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "chills"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "myoclonus"
+    }
+  ],
+  "estimated_prevalence_percent": 0.9
+}

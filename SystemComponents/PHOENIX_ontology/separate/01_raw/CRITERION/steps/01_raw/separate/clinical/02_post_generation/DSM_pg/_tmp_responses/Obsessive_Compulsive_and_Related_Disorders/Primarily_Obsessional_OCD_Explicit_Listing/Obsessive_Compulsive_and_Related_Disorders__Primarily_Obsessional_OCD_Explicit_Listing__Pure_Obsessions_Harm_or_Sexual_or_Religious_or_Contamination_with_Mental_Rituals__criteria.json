@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusive_harm_obsessions"
+    },
+    {
+      "criterium": "intrusive_sexual_obsessions"
+    },
+    {
+      "criterium": "intrusive_religious_obsessions"
+    },
+    {
+      "criterium": "intrusive_contamination_obsessions"
+    },
+    {
+      "criterium": "mental_neutralization_rituals"
+    },
+    {
+      "criterium": "subvocal_counting_or_repetition_rituals"
+    },
+    {
+      "criterium": "internal_scripting_or_imaginal_rehearsal"
+    },
+    {
+      "criterium": "avoidance_due_to_obsessions"
+    },
+    {
+      "criterium": "cognitive_insight_into_obsession_content"
+    },
+    {
+      "criterium": "functional_impairment_due_to_obsessions"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

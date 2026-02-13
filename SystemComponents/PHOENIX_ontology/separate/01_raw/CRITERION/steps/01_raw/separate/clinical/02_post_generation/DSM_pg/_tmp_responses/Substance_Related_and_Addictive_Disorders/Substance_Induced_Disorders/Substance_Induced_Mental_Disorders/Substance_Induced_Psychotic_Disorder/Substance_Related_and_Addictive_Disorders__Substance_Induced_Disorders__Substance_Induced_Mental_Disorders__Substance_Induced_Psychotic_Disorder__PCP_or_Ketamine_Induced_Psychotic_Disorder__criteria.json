@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "disorganized_thought_content"
+    },
+    {
+      "criterium": "disorganized_behavior"
+    },
+    {
+      "criterium": "catatonic_features"
+    },
+    {
+      "criterium": "depersonalization_derealization"
+    },
+    {
+      "criterium": "time_perception_distortion"
+    },
+    {
+      "criterium": "vertical_nystagmus"
+    },
+    {
+      "criterium": "amnesia_for_events"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

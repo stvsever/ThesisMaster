@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusions_of_guilt"
+    },
+    {
+      "criterium": "delusions_of_worthlessness"
+    },
+    {
+      "criterium": "delusions_of_punishment"
+    },
+    {
+      "criterium": "nihilistic_delusions"
+    },
+    {
+      "criterium": "auditory_hallucinations_mood_congruent"
+    },
+    {
+      "criterium": "suicidal_ideation"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "social_withdrawal"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sound_trigger_hyperreactivity"
+    },
+    {
+      "criterium": "anger_rage_response_to_trigger_sounds"
+    },
+    {
+      "criterium": "distress_anxiety_response_to_trigger_sounds"
+    },
+    {
+      "criterium": "urge_to_escape_trigger_sounds"
+    },
+    {
+      "criterium": "avoidance_of_trigger_situations"
+    },
+    {
+      "criterium": "physiological_arousal_to_trigger_sounds"
+    },
+    {
+      "criterium": "disgust_reaction_to_trigger_sounds"
+    },
+    {
+      "criterium": "intrusive_cognition_about_trigger_sounds"
+    },
+    {
+      "criterium": "startle_response_to_trigger_sounds"
+    },
+    {
+      "criterium": "attention_hypervigilance_to_trigger_sounds"
+    },
+    {
+      "criterium": "functional_impairment_from_trigger_sounds"
+    }
+  ],
+  "estimated_prevalence_percent": 12.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acute_somatic_arousal_to_mice"
+    },
+    {
+      "criterium": "avoidance_of_mice_exposure"
+    },
+    {
+      "criterium": "panic_like_reactivity_to_mice"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_potential_mice_contact"
+    },
+    {
+      "criterium": "safety_behaviors_to_avoid_mice_contact"
+    },
+    {
+      "criterium": "hypervigilance_in_mice_related_situations"
+    },
+    {
+      "criterium": "cognitive_distortions_of_threat_from_mice"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_fear_of_mice"
+    },
+    {
+      "criterium": "functional_impairment_due_to_fear_of_mice"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

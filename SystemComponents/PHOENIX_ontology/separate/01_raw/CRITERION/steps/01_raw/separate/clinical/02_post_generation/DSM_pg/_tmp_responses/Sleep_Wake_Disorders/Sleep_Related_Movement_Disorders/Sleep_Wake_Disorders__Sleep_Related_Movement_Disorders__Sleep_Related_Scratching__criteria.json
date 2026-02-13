@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_scratching_events"
+    },
+    {
+      "criterium": "scratching_bouts_per_night"
+    },
+    {
+      "criterium": "scratching_duration_per_episode"
+    },
+    {
+      "criterium": "scratching_intensity_peak"
+    },
+    {
+      "criterium": "scratching_site_face"
+    },
+    {
+      "criterium": "scratching_site_neck"
+    },
+    {
+      "criterium": "scratching_site_upper_extremities"
+    },
+    {
+      "criterium": "dermal_excoriations_present"
+    },
+    {
+      "criterium": "sleep_awakenings_due_to_scratching"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

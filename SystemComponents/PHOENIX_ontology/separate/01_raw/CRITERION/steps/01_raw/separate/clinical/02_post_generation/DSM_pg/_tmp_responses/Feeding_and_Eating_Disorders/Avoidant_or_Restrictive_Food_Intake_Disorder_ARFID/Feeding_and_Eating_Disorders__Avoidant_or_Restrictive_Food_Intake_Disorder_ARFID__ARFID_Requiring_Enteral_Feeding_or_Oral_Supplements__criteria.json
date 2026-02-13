@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "exclusive_enteral_nutrition"
+    },
+    {
+      "criterium": "gastrostomy_tube_dependence"
+    },
+    {
+      "criterium": "nasogastric_tube_feedings"
+    },
+    {
+      "criterium": "oral_nutritional_supplement_dependence"
+    },
+    {
+      "criterium": "limited_food_variety"
+    },
+    {
+      "criterium": "sensory_textural_aversion_to_food"
+    },
+    {
+      "criterium": "caloric_intake_inadequate_to_meet_requirements"
+    },
+    {
+      "criterium": "weight_for_age_below_5th_percentile"
+    },
+    {
+      "criterium": "bmi_for_age_below_3rd_percentile"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

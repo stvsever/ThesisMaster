@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "situational_avoidance_public_transport"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_public_transport_use"
+    },
+    {
+      "criterium": "panic_attack_experienced_on_public_transport"
+    },
+    {
+      "criterium": "palpitations_on_public_transport"
+    },
+    {
+      "criterium": "dizziness_or_lightheadedness_on_public_transport"
+    },
+    {
+      "criterium": "shortness_of_breath_on_public_transport"
+    },
+    {
+      "criterium": "tremors_or_shaking_on_public_transport"
+    },
+    {
+      "criterium": "sweating_on_public_transport"
+    },
+    {
+      "criterium": "nausea_or_gastrointestinal_distress_on_public_transport"
+    },
+    {
+      "criterium": "fear_of_entrapment_or_loss_of_control_in_public_transport"
+    },
+    {
+      "criterium": "safety_or_escape_behaviors_in_public_transport"
+    },
+    {
+      "criterium": "impairment_in_functioning_due_to_public_transport_fear"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "angry_irritable_mood_present"
+    },
+    {
+      "criterium": "argumentativeness_with_authority_figures"
+    },
+    {
+      "criterium": "defiant_resistance_to_directives"
+    },
+    {
+      "criterium": "deliberate_provocation_of_others"
+    },
+    {
+      "criterium": "blaming_others_for_personal_errors"
+    },
+    {
+      "criterium": "spiteful_or_vindictive_behaviour"
+    },
+    {
+      "criterium": "temper_outbursts_or_rage_events"
+    },
+    {
+      "criterium": "recurrent_interpersonal_conflicts"
+    },
+    {
+      "criterium": "hostility_or_antagonistic_attitude_toward_others"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_sentence_repetition"
+    },
+    {
+      "criterium": "phonological_paraphasias"
+    },
+    {
+      "criterium": "auditory_verbal_working_memory_deficit"
+    },
+    {
+      "criterium": "confrontation_naming_difficulty"
+    },
+    {
+      "criterium": "word_finding_difficulty_in_spontaneous_speech"
+    },
+    {
+      "criterium": "halting_speech"
+    },
+    {
+      "criterium": "speech_rate_reduction"
+    },
+    {
+      "criterium": "apraxia_of_speech_presence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.002
+}

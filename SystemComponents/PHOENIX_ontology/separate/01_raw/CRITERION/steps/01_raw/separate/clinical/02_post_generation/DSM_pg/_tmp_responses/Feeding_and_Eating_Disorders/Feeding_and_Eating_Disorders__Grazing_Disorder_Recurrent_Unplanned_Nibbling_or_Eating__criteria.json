@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_unplanned_nibbling"
+    },
+    {
+      "criterium": "grazing_episodes_outside_meal_context"
+    },
+    {
+      "criterium": "consumption_of_multiple_small_bites_instead_of_meal_sequences"
+    },
+    {
+      "criterium": "varied_food_items_in_grazing_without_rhythmic_structure"
+    },
+    {
+      "criterium": "urge_to_nibble_reported_or_observed"
+    },
+    {
+      "criterium": "grazing_behavior_present_in_multiple_settings"
+    },
+    {
+      "criterium": "grazing_episodes_not_hunger_cue_driven"
+    },
+    {
+      "criterium": "grazing_behavior_maintained_in_presence_of_food_availability"
+    },
+    {
+      "criterium": "grazing_persistence_across_settings_free_of_alternate_dietary_rules"
+    }
+  ],
+  "estimated_prevalence_percent": 2.3
+}

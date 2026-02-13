@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "olfactory_aura"
+    },
+    {
+      "criterium": "gustatory_aura"
+    },
+    {
+      "criterium": "epigastric_rising_aura"
+    },
+    {
+      "criterium": "deja_vu_experiences"
+    },
+    {
+      "criterium": "jamais_vu_experiences"
+    },
+    {
+      "criterium": "lip_smacking_automatism"
+    },
+    {
+      "criterium": "hand_automatism"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "hyperreligiosity"
+    },
+    {
+      "criterium": "hypergraphia"
+    },
+    {
+      "criterium": "memory_fragmentation"
+    },
+    {
+      "criterium": "postictal_confusion"
+    },
+    {
+      "criterium": "interictal_mood_swings"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

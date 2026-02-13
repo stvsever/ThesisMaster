@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "central_apnea_present"
+    },
+    {
+      "criterium": "absent_respiratory_effort_during_apneas"
+    },
+    {
+      "criterium": "crescendo_inspiratory_amplitude"
+    },
+    {
+      "criterium": "decrescendo_inspiratory_amplitude"
+    },
+    {
+      "criterium": "oxygen_desaturation_associated_with_apneas"
+    },
+    {
+      "criterium": "arousals_triggered_by_apneas"
+    },
+    {
+      "criterium": "periodic_breathing_pattern_on_polysomnography"
+    },
+    {
+      "criterium": "post_apneic_resumption_of_respiratory_effort"
+    },
+    {
+      "criterium": "cycle_to_cycle_repetition_of_apnea_events"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

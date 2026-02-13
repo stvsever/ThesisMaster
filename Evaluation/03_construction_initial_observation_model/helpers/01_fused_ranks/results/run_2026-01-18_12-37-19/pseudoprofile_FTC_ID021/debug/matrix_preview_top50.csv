@@ -1,0 +1,24 @@
+predictor_path,sleep-wake disorders / insomnia disorders / chronic insomnia disorder / early-morning awakening insomnia / *inability_to_resleep_after_premature_wake,sleep-wake disorders / insomnia disorders / chronic insomnia disorder / early-morning awakening insomnia / *intrusive_rumination_post_awakening,sleep-wake disorders / insomnia disorders / unspecified insomnia disorder / *impaired_daytime_functioning,substance-related and addictive disorders / non-substance-related (behavioral) addictive disorders / digital media use disorders / social media addiction / *sleep_disruption_due_to_social_media_use
+'[BIO] > Sleep_and_Circadian > Circadian_Entrainment',880.0,900.0,900.0,900.0
+'[BIO] > Sleep_and_Circadian > Sleep_Devices_and_Technologies',,860.0,880.0,860.0
+'[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback',860.0,,,
+'[BIO] > Sleep_and_Circadian > Sleep_Environment',800.0,880.0,860.0,880.0
+'[BIO] > Sleep_and_Circadian > Sleep_Routines_and_Practices',850.0,820.0,760.0,920.0
+'[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Family',820.0,,,
+'[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages',800.0,,,
+'[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Magnetic_Stimulation_Family',790.0,,,
+'[BIO] > Sleep_and_Circadian > Sleep_Pharmacotherapy_Classes',,800.0,780.0,
+'[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation',780.0,,,
+'[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Magnetic_Stimulation_Targets',780.0,,,
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes',790.0,780.0,750.0,
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Psychiatric_Pharmacotherapy_Classes',,760.0,,
+'[BIO] > Movement_and_Bodywork > Aerobic_Movement_Modalities',,750.0,,
+'[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails',,,,750.0
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Pain_and_Somatic_Pharmacotherapy_Classes',,740.0,,
+'[BIO] > Sleep_and_Circadian > Sleep_Supplements',,,740.0,
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Substance_Use_Treatment_Pharmacotherapy_Classes',,720.0,,
+'[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring',,,,700.0
+'[PSYCHO] > Digital_and_Tech_Enabled_Solutions > Care_Delivery_Formats',,,,700.0
+'[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills',,,,700.0
+'[PSYCHO] > Digital_and_Tech_Enabled_Solutions > Digital_Tools_and_Supports',,,,680.0
+'[BIO] > Personalization_and_Monitoring > Self_Assessment_Instruments',,,,650.0

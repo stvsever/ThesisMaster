@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pupillary_dilation"
+    },
+    {
+      "criterium": "lacrimation"
+    },
+    {
+      "criterium": "rhinorrhea"
+    },
+    {
+      "criterium": "yawning"
+    },
+    {
+      "criterium": "piloerection"
+    },
+    {
+      "criterium": "sweating"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "myalgia"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "vomiting"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "keyed_up_tense"
+    },
+    {
+      "criterium": "restless_on_edge"
+    },
+    {
+      "criterium": "cognitive_concentration_difficulty_due_to_worry"
+    },
+    {
+      "criterium": "fear_something_awful_may_happen"
+    },
+    {
+      "criterium": "fear_of_losing_control"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "muscle_tension"
+    },
+    {
+      "criterium": "palpitations"
+    },
+    {
+      "criterium": "sweating"
+    },
+    {
+      "criterium": "shortness_of_breath"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

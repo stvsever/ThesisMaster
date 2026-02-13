@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "olfactory_hallucinations"
+    },
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "delusions_of_reference"
+    },
+    {
+      "criterium": "delusions_of_grandeur"
+    },
+    {
+      "criterium": "disorganized_thought_form"
+    },
+    {
+      "criterium": "loose_associations"
+    },
+    {
+      "criterium": "disorganized_behavior"
+    },
+    {
+      "criterium": "flat_affect"
+    },
+    {
+      "criterium": "inappropriate_affect"
+    },
+    {
+      "criterium": "catatonic_features"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

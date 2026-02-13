@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusion_free"
+    },
+    {
+      "criterium": "hallucination_free"
+    },
+    {
+      "criterium": "thought_disorganization_absent"
+    },
+    {
+      "criterium": "disorganized_speech_absent"
+    },
+    {
+      "criterium": "catatonia_absent"
+    },
+    {
+      "criterium": "avolition_absent"
+    },
+    {
+      "criterium": "alogia_absent"
+    },
+    {
+      "criterium": "anhedonia_absent"
+    },
+    {
+      "criterium": "affective_flattening_absent"
+    },
+    {
+      "criterium": "global_functioning_normal"
+    },
+    {
+      "criterium": "social_function_normal"
+    },
+    {
+      "criterium": "insight_intact"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "COLD_TRIGGER_FACE_SCALP"
+    },
+    {
+      "criterium": "ONSET_WITHIN_SECONDS_AFTER_COLD_EXPOSURE"
+    },
+    {
+      "criterium": "PAIN_QUALITY_PRESSING_TIGHT"
+    },
+    {
+      "criterium": "PAIN_LOCATION_FRONTOTEMPORAL_REGION"
+    },
+    {
+      "criterium": "PAIN_INTENSITY_MODERATE"
+    },
+    {
+      "criterium": "REPRODUCIBLE_WITH_EACH_COLD_EXPOSURE"
+    },
+    {
+      "criterium": "NO_AURA_PRESENT"
+    },
+    {
+      "criterium": "NO_NAUSEA_VOMITING"
+    },
+    {
+      "criterium": "NO_PHOTOPHOBIA"
+    },
+    {
+      "criterium": "NO_CONJUNCTIVAL_SYMPTOMS"
+    }
+  ],
+  "estimated_prevalence_percent": 20.0
+}

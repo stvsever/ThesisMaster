@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "tactile_hallucinations"
+    },
+    {
+      "criterium": "olfactory_hallucinations"
+    },
+    {
+      "criterium": "gustatory_hallucinations"
+    },
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "referential_delusions"
+    },
+    {
+      "criterium": "grandiose_delusions"
+    },
+    {
+      "criterium": "delusions_of_thought_control"
+    },
+    {
+      "criterium": "delusions_of_thought_broadcasting"
+    },
+    {
+      "criterium": "misidentification_syndrome"
+    },
+    {
+      "criterium": "illusions"
+    }
+  ],
+  "estimated_prevalence_percent": 0.09
+}

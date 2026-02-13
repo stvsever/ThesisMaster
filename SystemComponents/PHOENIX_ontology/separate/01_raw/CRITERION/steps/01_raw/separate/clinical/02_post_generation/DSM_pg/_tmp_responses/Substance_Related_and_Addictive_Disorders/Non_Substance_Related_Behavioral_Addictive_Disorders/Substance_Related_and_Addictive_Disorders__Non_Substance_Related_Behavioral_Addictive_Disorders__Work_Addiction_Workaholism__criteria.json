@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "work_preoccupation_intensity"
+    },
+    {
+      "criterium": "time_spent_on_work_thoughts"
+    },
+    {
+      "criterium": "inability_to_detach_from_work"
+    },
+    {
+      "criterium": "excessive_work_hours_persisting_outside_expectations"
+    },
+    {
+      "criterium": "persistence_of_work_behaviors_despite_negative_consequences"
+    },
+    {
+      "criterium": "interpersonal_impairment_due_to_work_obsession"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_work_schedule"
+    },
+    {
+      "criterium": "work_related_anxiety_when_confined_from_work"
+    },
+    {
+      "criterium": "compulsive_work_behaviors_frequency"
+    }
+  ],
+  "estimated_prevalence_percent": 4.0
+}

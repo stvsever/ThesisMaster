@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_mRNA_amygdala",
+      "OXTR_mRNA_amygdala",
+      "CRHR1_mRNA_amygdala",
+      "SLC6A4_mRNA_amygdala",
+      "AVPR1A_mRNA_amygdala"
+    ],
+    "molecules": [
+      "Cortisol_plasma_concentration",
+      "Norepinephrine_plasma_concentration",
+      "GABA_amygdala_concentration",
+      "Glutamate_amygdala_concentration"
+    ],
+    "cells": [
+      "cFos_immunoreactive_neurons_amygdala",
+      "PV_interneuron_density_amygdala",
+      "Glutamatergic_neuron_density_amygdala",
+      "GABAergic_interneuron_density_amygdala"
+    ],
+    "circuits": [
+      "amygdala_vmPFC_connectivity_strength",
+      "amygdala_dLPFC_connectivity_strength",
+      "amygdala_ACC_connectivity_strength",
+      "amygdala_insula_connectivity_strength",
+      "amygdala_default_mode_network_connectivity_strength"
+    ],
+    "physiology": [
+      "heart_rate_change_to_attachment_cues",
+      "skin_conductance_change_to_attachment_cues",
+      "pupil_dilation_to_attachment_cues",
+      "salivary_cortisol_change_post_attachment_cue_exposure"
+    ],
+    "behavior": [
+      "gaze_fixation_duration_to_attachment_stimuli",
+      "reaction_time_to_attachment_cue_presentation",
+      "approach_avoidance_bias_attachment_cues",
+      "emotional_expression_intensity_to_attachment_stimuli"
+    ],
+    "self_report": [
+      "self_report_arousal_to_attachment_cues",
+      "self_report_anxiety_to_attachment_stimuli",
+      "self_report_distress_to_attachment_stimuli",
+      "self_report_avoidance_tendency_to_attachment_cues"
+    ]
+  },
+  "estimated_prevalence_percent": 4.7
+}

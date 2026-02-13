@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "high_confidence_in_odor_belief"
+    },
+    {
+      "criterium": "unwavering_belief_in_odor_source_realness"
+    },
+    {
+      "criterium": "resistance_to_counterevidence_for_odor_belief"
+    },
+    {
+      "criterium": "limited_doubt_about_odor_belief"
+    },
+    {
+      "criterium": "preoccupation_with_odor_belief"
+    },
+    {
+      "criterium": "repetitive_verification_of_odor_source"
+    },
+    {
+      "criterium": "social_or_occupational_impairment_due_to_odor_belief"
+    },
+    {
+      "criterium": "avoidance_of_social_interaction_due_to_odor_belief"
+    },
+    {
+      "criterium": "recurrent_medical_consultations_for_odor_belief"
+    },
+    {
+      "criterium": "reliance_on_odor_related_routines_or_tests"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

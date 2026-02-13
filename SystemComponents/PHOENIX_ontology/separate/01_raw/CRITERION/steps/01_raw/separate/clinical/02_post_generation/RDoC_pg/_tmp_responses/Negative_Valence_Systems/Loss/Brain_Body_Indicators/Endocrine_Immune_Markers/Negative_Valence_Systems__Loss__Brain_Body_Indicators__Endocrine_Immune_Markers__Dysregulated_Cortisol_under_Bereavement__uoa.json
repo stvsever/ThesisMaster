@@ -1,0 +1,59 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "NR3C1",
+      "FKBP5",
+      "CRHR1",
+      "CRH",
+      "HSD11B1",
+      "HSD11B2",
+      "AVP"
+    ],
+    "molecules": [
+      "cortisol",
+      "ACTH",
+      "CRH",
+      "IL-6",
+      "TNF-alpha",
+      "CRP",
+      "DHEA-S"
+    ],
+    "cells": [
+      "adrenal_cortical_cells",
+      "pituitary_corticotroph_cells",
+      "hypothalamic_CRH_neurons",
+      "peripheral_monocytes",
+      "lymphocytes",
+      "neutrophils"
+    ],
+    "circuits": [
+      "amygdala",
+      "medial_prefrontal_cortex",
+      "hippocampus",
+      "paraventricular_nucleus",
+      "bed_nucleus_of_stria_terminalis"
+    ],
+    "physiology": [
+      "basal_cortisol",
+      "cortisol_diurnal_rhythm",
+      "cortisol_awakening_response",
+      "cortisol_reactivity_to_stressor",
+      "ACTH_level"
+    ],
+    "behavior": [
+      "sleep_disturbance",
+      "fatigue",
+      "appetite_change",
+      "social_withdrawal",
+      "irritability"
+    ],
+    "self_report": [
+      "grief_distress_score",
+      "perceived_stress_score",
+      "sleep_quality_score",
+      "fatigue_severity_score",
+      "rumination_score"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "somnambulism_episodes"
+    },
+    {
+      "criterium": "somniloquy_present"
+    },
+    {
+      "criterium": "dream_enactment_behaviors"
+    },
+    {
+      "criterium": "complex_sleep_behaviors"
+    },
+    {
+      "criterium": "confusional_arousals"
+    },
+    {
+      "criterium": "amnesia_for_episode_events"
+    },
+    {
+      "criterium": "autonomic_activation_during_sleep_episodes"
+    },
+    {
+      "criterium": "involuntary_movements_during_sleep"
+    },
+    {
+      "criterium": "unresponsiveness_during_sleep_episodes"
+    },
+    {
+      "criterium": "sleep_related_injury_incidents"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

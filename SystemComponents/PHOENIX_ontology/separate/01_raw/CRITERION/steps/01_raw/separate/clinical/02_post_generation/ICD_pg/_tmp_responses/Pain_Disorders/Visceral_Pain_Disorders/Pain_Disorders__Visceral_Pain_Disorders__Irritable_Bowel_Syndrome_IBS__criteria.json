@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "abdominal_pain"
+    },
+    {
+      "criterium": "pain_relieved_by_defecation"
+    },
+    {
+      "criterium": "abdominal_bloating_distension"
+    },
+    {
+      "criterium": "mucus_in_stool"
+    },
+    {
+      "criterium": "altered_stool_frequency"
+    },
+    {
+      "criterium": "stool_form_change"
+    },
+    {
+      "criterium": "urge_to_defecate"
+    },
+    {
+      "criterium": "incomplete_defecation"
+    },
+    {
+      "criterium": "excess_gas_flatulence"
+    }
+  ],
+  "estimated_prevalence_percent": 11.2
+}

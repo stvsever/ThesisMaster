@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "delusions_persecutory"
+    },
+    {
+      "criterium": "delusions_bizarre"
+    },
+    {
+      "criterium": "delusions_referential"
+    },
+    {
+      "criterium": "thought_disorganization"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "disorganized_behavior"
+    },
+    {
+      "criterium": "catatonia_features"
+    },
+    {
+      "criterium": "flat_affect"
+    },
+    {
+      "criterium": "incongruent_affect"
+    },
+    {
+      "criterium": "insight_impairment"
+    },
+    {
+      "criterium": "agitation_excitement"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

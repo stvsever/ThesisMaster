@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "barbiturate_related_anterograde_memory_impairment"
+    },
+    {
+      "criterium": "barbiturate_related_retrograde_memory_impairment"
+    },
+    {
+      "criterium": "barbiturate_related_sustained_attention_deficit"
+    },
+    {
+      "criterium": "barbiturate_related_working_memory_deficit"
+    },
+    {
+      "criterium": "barbiturate_related_processing_speed_slow"
+    },
+    {
+      "criterium": "barbiturate_related_executive_function_deficit"
+    },
+    {
+      "criterium": "barbiturate_related_visuospatial_navigation_impairment"
+    },
+    {
+      "criterium": "barbiturate_related_language_fluency_decline"
+    },
+    {
+      "criterium": "barbiturate_related_psychomotor_slowing"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

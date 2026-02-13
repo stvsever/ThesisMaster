@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_rs53576_genotype",
+      "OXTR_mRNA_expression_brain",
+      "OXT_gene_expression_brain",
+      "OXTR_promoter_methylation_level"
+    ],
+    "molecules": [
+      "oxytocin_peptide_concentration_plasma",
+      "oxytocin_peptide_concentration_csf",
+      "oxytocin_receptor_density_tissue",
+      "oxytocin_receptor_binding_affinity"
+    ],
+    "cells": [
+      "OXTR_positive_neuron_density_amygdala",
+      "OXTR_positive_neuron_density_prefrontal_cortex"
+    ],
+    "circuits": [
+      "amygdala_oxytocin_signaling_activity",
+      "prefrontal_cortex_oxytocin_modulation_of_social_decision",
+      "nucleus_accumbens_reward_response_to_OT",
+      "hippocampus_oxytocin_modulated_memory_strength",
+      "anterior_cingulate_oxytocin_sensitivity"
+    ],
+    "physiology": [
+      "plasma_oxytocin_concentration",
+      "csf_oxytocin_concentration",
+      "oxytocin_release_pulse_frequency",
+      "oxytocin_clearance_rate",
+      "oxytocin_synthesis_rate_hypothalamus"
+    ],
+    "behavior": [
+      "trust_game_trust_rate",
+      "prosocial_behavior_frequency",
+      "affiliative_interaction_duration",
+      "social_attention_rate",
+      "empathy_response_rate"
+    ],
+    "self_report": [
+      "perceived_social_closeness_score",
+      "attachment_anxiety_score",
+      "attachment_avoidance_score",
+      "trust_susceptibility_scale",
+      "prosociality_self_report_score"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

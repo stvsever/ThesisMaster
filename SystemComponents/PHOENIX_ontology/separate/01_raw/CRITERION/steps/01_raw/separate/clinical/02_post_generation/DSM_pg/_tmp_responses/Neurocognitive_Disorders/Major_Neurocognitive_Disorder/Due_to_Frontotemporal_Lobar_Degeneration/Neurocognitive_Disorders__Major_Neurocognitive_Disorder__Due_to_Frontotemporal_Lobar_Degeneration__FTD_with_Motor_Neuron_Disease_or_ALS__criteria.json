@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "behavioral_disinhibition"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "loss_of_empathy"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "semantic_deficit"
+    },
+    {
+      "criterium": "nonfluent_aphasia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "dysphagia"
+    },
+    {
+      "criterium": "fasciculations"
+    },
+    {
+      "criterium": "muscle_atrophy"
+    },
+    {
+      "criterium": "muscle_weakness"
+    },
+    {
+      "criterium": "hyperreflexia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0015
+}

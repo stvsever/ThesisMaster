@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "zolpidem_sleep_walking"
+    },
+    {
+      "criterium": "zolpidem_sleep_eating"
+    },
+    {
+      "criterium": "zolpidem_sleep_driving"
+    },
+    {
+      "criterium": "zolpidem_sleep_sexual_activity"
+    },
+    {
+      "criterium": "zolpidem_somniloquy"
+    },
+    {
+      "criterium": "amnesic_automatism"
+    },
+    {
+      "criterium": "post_episode_amnesia"
+    },
+    {
+      "criterium": "sleep_related_injury"
+    },
+    {
+      "criterium": "sleep_episode_disorientation_on_waking"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nausea_present"
+    },
+    {
+      "criterium": "vomiting_present"
+    },
+    {
+      "criterium": "nausea_intensity_grade"
+    },
+    {
+      "criterium": "vomiting_frequency_per_day"
+    },
+    {
+      "criterium": "retching_present"
+    },
+    {
+      "criterium": "nausea_worsened_by_meals"
+    },
+    {
+      "criterium": "nausea_nocturnal_present"
+    },
+    {
+      "criterium": "hypersalivation_present"
+    },
+    {
+      "criterium": "anorexia_related_to_nausea"
+    }
+  ],
+  "estimated_prevalence_percent": 7.2
+}

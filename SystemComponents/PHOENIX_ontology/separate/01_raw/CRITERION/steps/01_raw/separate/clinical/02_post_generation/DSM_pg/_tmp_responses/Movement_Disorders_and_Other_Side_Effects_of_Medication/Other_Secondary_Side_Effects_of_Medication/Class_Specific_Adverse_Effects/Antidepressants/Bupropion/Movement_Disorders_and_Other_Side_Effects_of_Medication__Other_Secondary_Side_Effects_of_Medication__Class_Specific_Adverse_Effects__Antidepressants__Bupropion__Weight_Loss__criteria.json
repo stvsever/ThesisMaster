@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "unintentional_weight_loss"
+    },
+    {
+      "criterium": "decreased_appetite"
+    },
+    {
+      "criterium": "reduced_food_intake"
+    },
+    {
+      "criterium": "BMI_decrease"
+    },
+    {
+      "criterium": "BMI_below_18_5"
+    },
+    {
+      "criterium": "early_satiety"
+    },
+    {
+      "criterium": "caloric_intake_reduction"
+    },
+    {
+      "criterium": "lean_body_mass_loss"
+    },
+    {
+      "criterium": "fat_mass_loss"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

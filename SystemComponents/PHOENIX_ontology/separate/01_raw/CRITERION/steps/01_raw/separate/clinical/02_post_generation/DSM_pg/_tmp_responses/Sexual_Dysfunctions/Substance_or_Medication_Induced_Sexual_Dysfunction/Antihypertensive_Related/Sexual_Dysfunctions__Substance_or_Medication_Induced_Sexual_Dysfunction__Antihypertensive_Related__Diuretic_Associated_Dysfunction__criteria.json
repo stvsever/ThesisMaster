@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "libido_reduction_during_diuretic_therapy"
+    },
+    {
+      "criterium": "erectile_dysfunction_during_diuretic_therapy"
+    },
+    {
+      "criterium": "delayed_orgasm_during_diuretic_use"
+    },
+    {
+      "criterium": "anorgasmia_during_diuretic_use"
+    },
+    {
+      "criterium": "decreased_genital_sensation_during_sex_with_diuretic_use"
+    },
+    {
+      "criterium": "decreased_vaginal_lubrication_with_diuretic_use"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

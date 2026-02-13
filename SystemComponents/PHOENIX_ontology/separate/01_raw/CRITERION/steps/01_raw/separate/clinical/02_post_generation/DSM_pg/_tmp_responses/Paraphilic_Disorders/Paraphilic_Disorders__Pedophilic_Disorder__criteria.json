@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pedophilic_fantasy_presence"
+    },
+    {
+      "criterium": "pedophilic_urges_frequency"
+    },
+    {
+      "criterium": "pedophilic_arousal_to_minor_stimuli"
+    },
+    {
+      "criterium": "intrusive_pedophilic_thoughts_frequency"
+    },
+    {
+      "criterium": "distress_or_impairment_from_pedophilic_interest"
+    },
+    {
+      "criterium": "impaired_impulse_control_over_pedophilic_urges"
+    },
+    {
+      "criterium": "preoccupation_with_pedophilic_interest"
+    },
+    {
+      "criterium": "psychophysiological_arousal_to_minor_stimuli"
+    },
+    {
+      "criterium": "avoidance_of_pedophilic_stimuli"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

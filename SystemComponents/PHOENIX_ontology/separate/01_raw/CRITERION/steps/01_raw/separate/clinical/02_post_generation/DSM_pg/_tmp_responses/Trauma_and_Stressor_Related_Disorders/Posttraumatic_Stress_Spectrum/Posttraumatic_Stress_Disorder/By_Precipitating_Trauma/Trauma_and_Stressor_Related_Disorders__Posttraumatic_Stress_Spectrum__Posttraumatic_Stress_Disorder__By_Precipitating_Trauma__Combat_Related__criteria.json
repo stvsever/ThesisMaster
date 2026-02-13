@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "intrusions_combat_memories"
+    },
+    {
+      "criterium": "combat_nightmares"
+    },
+    {
+      "criterium": "combat_flashbacks"
+    },
+    {
+      "criterium": "avoidance_thoughts_or_memories_related_to_combat"
+    },
+    {
+      "criterium": "avoidance_of_combat_reminders_in_external_environment"
+    },
+    {
+      "criterium": "negative_beliefs_about_self_or_world_due_to_combat"
+    },
+    {
+      "criterium": "distorted_blame_of_self_or_others_related_to_combat_events"
+    },
+    {
+      "criterium": "inability_to_experience_positive_emotions"
+    },
+    {
+      "criterium": "emotional_detachment_or_social_withdrawal_due_to_combat"
+    },
+    {
+      "criterium": "irritability_or_anger_outbursts"
+    },
+    {
+      "criterium": "hypervigilance_to_cues_related_to_combat"
+    },
+    {
+      "criterium": "exaggerated_startle_response"
+    },
+    {
+      "criterium": "sleep_disturbance_or_insomnia_related_to_combat"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

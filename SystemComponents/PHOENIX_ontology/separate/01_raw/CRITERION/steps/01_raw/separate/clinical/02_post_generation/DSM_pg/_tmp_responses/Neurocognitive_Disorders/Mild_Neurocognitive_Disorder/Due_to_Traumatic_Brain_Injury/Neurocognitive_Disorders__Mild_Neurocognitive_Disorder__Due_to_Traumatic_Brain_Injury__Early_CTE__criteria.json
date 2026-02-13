@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_decline"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "processing_speed_slowing"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "verbal_fluency_decline"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "social_withdrawal"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "urine_arousal_to_urine_stimuli"
+    },
+    {
+      "criterium": "urine_fantasy_focus_on_urine"
+    },
+    {
+      "criterium": "urine_related_sexual_behaviors_present"
+    },
+    {
+      "criterium": "arousal_to_urine_scent"
+    },
+    {
+      "criterium": "arousal_to_urine_visual_cues"
+    },
+    {
+      "criterium": "urine_as_sexual_lubricant_usage"
+    },
+    {
+      "criterium": "urine_paraphernalia_in_sexual_context"
+    },
+    {
+      "criterium": "urine_exposure_seek_behavior"
+    },
+    {
+      "criterium": "impairment_or_distress_due_to_urine_fetish"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

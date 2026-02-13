@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "self_induced_vomiting_frequency"
+    },
+    {
+      "criterium": "laxative_use_frequency"
+    },
+    {
+      "criterium": "diuretic_use_frequency"
+    },
+    {
+      "criterium": "post_meal_purge_frequency"
+    },
+    {
+      "criterium": "purge_behaviors_secretive_or_hidden"
+    },
+    {
+      "criterium": "russells_sign_present"
+    },
+    {
+      "criterium": "dental_enamel_wear_signs"
+    },
+    {
+      "criterium": "parotid_gland_enlargement_present"
+    },
+    {
+      "criterium": "electrolyte_disturbance_symptoms_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

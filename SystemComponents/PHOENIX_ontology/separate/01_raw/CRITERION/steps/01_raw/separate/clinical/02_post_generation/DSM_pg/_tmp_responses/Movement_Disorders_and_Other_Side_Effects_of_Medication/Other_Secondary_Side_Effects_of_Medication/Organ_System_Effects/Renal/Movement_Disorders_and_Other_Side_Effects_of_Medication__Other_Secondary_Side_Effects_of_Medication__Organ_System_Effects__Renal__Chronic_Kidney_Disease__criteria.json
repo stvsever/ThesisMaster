@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "egfr_lt_60_mL_min_per_1_73m2"
+    },
+    {
+      "criterium": "acr_gt_30_mg_per_g"
+    },
+    {
+      "criterium": "serum_creatinine_elevated"
+    },
+    {
+      "criterium": "serum_bicarbonate_low"
+    },
+    {
+      "criterium": "serum_phosphate_elevated"
+    },
+    {
+      "criterium": "serum_calcium_low"
+    },
+    {
+      "criterium": "ipth_elevated"
+    },
+    {
+      "criterium": "hemoglobin_below_age_adjusted_threshold"
+    },
+    {
+      "criterium": "hypertension_present"
+    },
+    {
+      "criterium": "peripheral_edema_present"
+    }
+  ],
+  "estimated_prevalence_percent": 9.5
+}

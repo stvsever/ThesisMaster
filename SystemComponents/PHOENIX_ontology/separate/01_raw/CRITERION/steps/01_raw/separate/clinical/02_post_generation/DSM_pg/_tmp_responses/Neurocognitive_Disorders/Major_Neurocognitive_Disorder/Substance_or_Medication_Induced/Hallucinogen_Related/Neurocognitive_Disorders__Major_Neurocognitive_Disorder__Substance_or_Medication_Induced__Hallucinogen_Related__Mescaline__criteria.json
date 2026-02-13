@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_recent_memory"
+    },
+    {
+      "criterium": "impaired_executive_function"
+    },
+    {
+      "criterium": "impaired_attention"
+    },
+    {
+      "criterium": "impaired_language_processing"
+    },
+    {
+      "criterium": "impaired_visuospatial_ability"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "perceptual_distortions"
+    },
+    {
+      "criterium": "delusional_thought_content"
+    },
+    {
+      "criterium": "disorientation_to_time_and_place"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

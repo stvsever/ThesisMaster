@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "increased_defecation_frequency"
+    },
+    {
+      "criterium": "loose_stool_consistency"
+    },
+    {
+      "criterium": "stool_urgency"
+    },
+    {
+      "criterium": "fecal_incontinence"
+    },
+    {
+      "criterium": "nocturnal_defecation"
+    },
+    {
+      "criterium": "hematochezia_present"
+    },
+    {
+      "criterium": "mucus_in_stool"
+    },
+    {
+      "criterium": "cramping_abdominal_pain"
+    },
+    {
+      "criterium": "nausea"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

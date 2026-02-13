@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_reduction"
+    },
+    {
+      "criterium": "verbal_fluency_impairment"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "focal_motor_weakness"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "sensory_deficit"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "post_inflammatory_epilepsy"
+    },
+    {
+      "criterium": "chronic_fatigue"
+    }
+  ],
+  "estimated_prevalence_percent": 0.04
+}

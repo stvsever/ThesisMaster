@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "physical_aggression_toward_people"
+    },
+    {
+      "criterium": "aggression_toward_animals"
+    },
+    {
+      "criterium": "destruction_of_property"
+    },
+    {
+      "criterium": "deceitfulness"
+    },
+    {
+      "criterium": "theft_of_money_or_items"
+    },
+    {
+      "criterium": "truancy_from_school"
+    },
+    {
+      "criterium": "running_away_from_home"
+    },
+    {
+      "criterium": "persistent_disobedience_to_authorities"
+    },
+    {
+      "criterium": "peer_bullying"
+    },
+    {
+      "criterium": "peer_intimidation"
+    },
+    {
+      "criterium": "lack_of_guilt_or_remorse_after_aggression_or_destruction"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "MYOCLONIC_EPISODES"
+    },
+    {
+      "criterium": "GENERALIZED_SEIZURES"
+    },
+    {
+      "criterium": "CEREBELLAR_ATAXIA"
+    },
+    {
+      "criterium": "PROXIMAL_MUSCLE_WEAKNESS"
+    },
+    {
+      "criterium": "SENSORINEURAL_HEARING_LOSS"
+    },
+    {
+      "criterium": "PTOSIS"
+    },
+    {
+      "criterium": "EXERCISE_INTOLERANCE"
+    },
+    {
+      "criterium": "LACTATE_ELEVATION"
+    },
+    {
+      "criterium": "PERIPHERAL_NEUROPATHY"
+    },
+    {
+      "criterium": "MEMORY_IMPAIRMENT"
+    },
+    {
+      "criterium": "RAGGED_RED_FIBERS_MUSCLE_BIOPSY"
+    }
+  ],
+  "estimated_prevalence_percent": 0.002
+}

@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "decreased_level_of_consciousness"
+    },
+    {
+      "criterium": "slurred_speech"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "respiratory_depression"
+    },
+    {
+      "criterium": "hypotension"
+    },
+    {
+      "criterium": "hyporeflexia"
+    },
+    {
+      "criterium": "bradycardia"
+    },
+    {
+      "criterium": "hypothermia"
+    },
+    {
+      "criterium": "drowsiness"
+    },
+    {
+      "criterium": "psychomotor_slowing"
+    },
+    {
+      "criterium": "anterograde_amnesia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

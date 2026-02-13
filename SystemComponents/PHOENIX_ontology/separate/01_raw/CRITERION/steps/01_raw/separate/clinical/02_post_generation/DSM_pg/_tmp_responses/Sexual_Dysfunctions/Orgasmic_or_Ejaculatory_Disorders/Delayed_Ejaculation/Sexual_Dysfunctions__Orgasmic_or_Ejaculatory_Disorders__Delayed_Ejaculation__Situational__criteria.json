@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "latency_penile_intercourse_prolonged"
+    },
+    {
+      "criterium": "latency_masturbation_normal"
+    },
+    {
+      "criterium": "latency_oral_sex_prolonged"
+    },
+    {
+      "criterium": "partner_related_situational_dependency_present"
+    },
+    {
+      "criterium": "contextual_variability_of_ejaculatory_latency"
+    },
+    {
+      "criterium": "distress_or_impairment_due_to_delayed_ejaculation_in_partnered_context"
+    },
+    {
+      "criterium": "absence_of_delayed_ejaculation_during_masturbation"
+    },
+    {
+      "criterium": "performance_anxiety_increases_coital_latency"
+    },
+    {
+      "criterium": "reduced_coital_satisfaction_due_to_delayed_ejaculation"
+    },
+    {
+      "criterium": "latency_variation_across_partners_settings"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "amaurosis_fugax"
+    },
+    {
+      "criterium": "unilateral_motor_weakness"
+    },
+    {
+      "criterium": "facial_droop"
+    },
+    {
+      "criterium": "aphasia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "sensory_disturbance"
+    },
+    {
+      "criterium": "visual_field_deficit"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "vertigo"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

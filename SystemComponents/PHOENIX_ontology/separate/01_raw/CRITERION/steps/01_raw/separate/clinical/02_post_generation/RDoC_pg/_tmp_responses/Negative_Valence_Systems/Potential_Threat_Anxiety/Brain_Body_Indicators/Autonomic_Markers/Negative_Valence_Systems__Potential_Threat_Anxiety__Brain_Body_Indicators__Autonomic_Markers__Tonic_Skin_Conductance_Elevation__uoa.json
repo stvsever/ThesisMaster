@@ -1,0 +1,40 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "ADRA2A",
+      "CHRM3",
+      "GNB3",
+      "COMT"
+    ],
+    "molecules": [
+      "acetylcholine",
+      "muscarinic_M3_receptor",
+      "epinephrine",
+      "norepinephrine",
+      "nitric_oxide"
+    ],
+    "cells": [
+      "eccrine_sweat_gland_secretory_cells",
+      "sweat_gland_epithelial_cells",
+      "sympathetic_cholinergic_neurons",
+      "myoepithelial_cells_of_sweat_glands"
+    ],
+    "circuits": [
+      "amygdala_activation",
+      "insula_activation",
+      "hypothalamus_activation",
+      "prefrontal_cortex_activation",
+      "locus_coeruleus_activation"
+    ],
+    "physiology": [
+      "tonic_skin_conductance_level",
+      "skin_conductance_level_slope",
+      "skin_conductance_level_variability",
+      "electrodermal_activity_index",
+      "sudomotor_outflow_rate"
+    ],
+    "behavior": null,
+    "self_report": null
+  },
+  "estimated_prevalence_percent": 7.5
+}

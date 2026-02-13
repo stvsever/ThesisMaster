@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "stroke_like_episodes"
+    },
+    {
+      "criterium": "proximal_muscle_weakness"
+    },
+    {
+      "criterium": "lactic_acid_elevation"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "myoclonic_seizures"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "ptosis"
+    },
+    {
+      "criterium": "ophthalmoplegia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "foot_drop_unilateral"
+    },
+    {
+      "criterium": "dorsiflexion_weakness_unilateral"
+    },
+    {
+      "criterium": "toe_extension_weakness_unilateral"
+    },
+    {
+      "criterium": "ankle_eversion_weakness_unilateral"
+    },
+    {
+      "criterium": "lateral_leg_sensory_deficit_unilateral"
+    },
+    {
+      "criterium": "dorsal_foot_sensory_deficit_unilateral"
+    },
+    {
+      "criterium": "paresthesias_dorsum_foot_unilateral"
+    },
+    {
+      "criterium": "pain_around_fibular_head_unilateral"
+    },
+    {
+      "criterium": "tinel_sign_fibular_head_positive"
+    },
+    {
+      "criterium": "distal_leg_muscle_atrophy_unilateral"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

@@ -1,0 +1,534 @@
+{
+  "ENVIRONMENTAL": {
+    "ConnectionWithNature": {
+      "AccessToGreenSpaces": {
+        "ParksAndRecreation": {
+          "PublicParks": {},
+          "BotanicalGardens": {},
+          "UrbanGreenSpaces": {},
+          "NatureReserves": {}
+        },
+        "Gardening": {
+          "HomeGardening": {},
+          "CommunityGardens": {},
+          "OrganicGardening": {},
+          "HydroponicGardening": {}
+        },
+        "NatureWalks": {
+          "GuidedNatureWalks": {},
+          "Self-GuidedWalks": {},
+          "EducationalNatureWalks": {},
+          "TherapeuticNatureWalks": {}
+        },
+        "OutdoorActivities": {
+          "Picnicking": {},
+          "BirdWatching": {},
+          "Photography": {},
+          "MeditationInNature": {}
+        }
+      },
+      "NatureAppreciation": {
+        "EnvironmentalAwareness": {
+          "ClimateChangeEducation": {},
+          "BiodiversityAwareness": {},
+          "SustainableLivingEducation": {},
+          "ConservationEducation": {}
+        },
+        "WildlifeObservation": {
+          "BirdWatching": {},
+          "WildlifePhotography": {},
+          "Ecotourism": {},
+          "HabitatObservation": {}
+        },
+        "SustainabilityPractices": {
+          "RenewableEnergyUse": {},
+          "Water Conservation": {},
+          "SustainableTransportation": {},
+          "Eco-FriendlyProducts": {}
+        },
+        "EcoTourism": {
+          "ResponsibleTravel": {},
+          "WildlifeSafaris": {},
+          "CulturalEcoTours": {},
+          "AdventureEcoTourism": {}
+        }
+      },
+      "OutdoorActivities": {
+        "Hiking": {
+          "TrailHiking": {},
+          "MountainClimbing": {},
+          "NatureHiking": {},
+          "UrbanHiking": {}
+        },
+        "Camping": {
+          "TentCamping": {},
+          "RVCamping": {},
+          "Backpacking": {},
+          "Glamping": {}
+        },
+        "WaterSports": {
+          "Kayaking": {},
+          "Canoeing": {},
+          "Sailing": {},
+          "Fishing": {}
+        },
+        "AdventureSports": {
+          "RockClimbing": {},
+          "MountainBiking": {},
+          "TrailRunning": {},
+          "Paragliding": {}
+        }
+      },
+      "EnvironmentalStewardship": {
+        "ConservationEfforts": {
+          "HabitatProtection": {},
+          "EndangeredSpeciesProtection": {},
+          "ForestConservation": {},
+          "MarineConservation": {}
+        },
+        "Recycling": {
+          "WasteSorting": {},
+          "RecyclingPrograms": {},
+          "Composting": {},
+          "ElectronicWasteRecycling": {}
+        },
+        "EnvironmentalAdvocacy": {
+          "PolicyAdvocacy": {},
+          "PublicCampaigns": {},
+          "GrassrootsMovements": {},
+          "Lobbying": {}
+        },
+        "CommunityCleanUps": {
+          "ParkCleanUps": {},
+          "BeachCleanUps": {},
+          "NeighborhoodCleanUps": {},
+          "RiverCleanUps": {}
+        }
+      }
+    },
+    "SustainableLiving": {
+      "EnvironmentalResponsibility": {
+        "ReducingCarbonFootprint": {
+          "EnergyEfficiency": {},
+          "RenewableEnergyAdoption": {},
+          "CarbonOffsetting": {},
+          "LowCarbonTransportation": {}
+        },
+        "EnergyConservation": {
+          "SmartHomeTechnology": {},
+          "Energy-EfficientAppliances": {},
+          "InsulationImprovement": {},
+          "LEDLighting": {}
+        },
+        "SustainableConsumption": {
+          "Minimalism": {},
+          "EthicalShopping": {},
+          "LocalProductSupport": {},
+          "SustainableFashion": {}
+        },
+        "WasteReduction": {
+          "SingleUsePlasticReduction": {},
+          "ReusableProducts": {},
+          "WasteMinimizationStrategies": {},
+          "ZeroWasteLifestyle": {}
+        }
+      },
+      "EcoFriendlyPractices": {
+        "UsingRenewableResources": {
+          "SolarEnergyUse": {},
+          "WindEnergyUse": {},
+          "HydroelectricEnergyUse": {},
+          "BiomassEnergyUse": {}
+        },
+        "GreenTransportation": {
+          "ElectricVehicles": {},
+          "PublicTransportationUse": {},
+          "Cycling": {},
+          "Carpooling": {}
+        },
+        "SupportingSustainableBrands": {
+          "EcoCertifiedProducts": {},
+          "FairTradeProducts": {},
+          "LocalArtisanSupport": {},
+          "SustainableBusinessPractices": {}
+        },
+        "OrganicLiving": {
+          "OrganicFoodConsumption": {},
+          "OrganicGardening": {},
+          "Chemical-FreeLiving": {},
+          "NaturalPersonalCareProducts": {}
+        }
+      },
+      "ConservationEfforts": {
+        "ProtectingWildlife": {
+          "AntiPoachingInitiatives": {},
+          "WildlifeSanctuaries": {},
+          "BreedingPrograms": {},
+          "WildlifeCorridors": {}
+        },
+        "HabitatRestoration": {
+          "Reforestation": {},
+          "WetlandRestoration": {},
+          "CoralReefRestoration": {},
+          "SoilRehabilitation": {}
+        },
+        "WaterConservation": {
+          "RainwaterHarvesting": {},
+          "Water-EfficientFixtures": {},
+          "GreywaterSystems": {},
+          "WaterWiseGardening": {}
+        },
+        "SustainableAgriculture": {
+          "Permaculture": {},
+          "OrganicFarming": {},
+          "Agroforestry": {},
+          "Hydroponics": {}
+        }
+      },
+      "MinimalWaste": {
+        "ZeroWasteLifestyle": {
+          "BulkBuying": {},
+          "RefillingContainers": {},
+          "Composting": {},
+          "Waste-FreePackaging": {}
+        },
+        "Composting": {
+          "HomeComposting": {},
+          "CommunityComposting": {},
+          "Vermicomposting": {},
+          "IndustrialComposting": {}
+        },
+        "ReusingAndRepurposing": {
+          "Upcycling": {},
+          "SecondHandShopping": {},
+          "RepurposingHouseholdItems": {},
+          "CreativeReuses": {}
+        },
+        "AvoidingSingleUsePlastics": {
+          "ReusableBags": {},
+          "ReusableStraws": {},
+          "ReusableWaterBottles": {},
+          "Plastic-FreeProducts": {}
+        }
+      }
+    },
+    "ComfortableEnvironment": {
+      "SafeHousing": {
+        "StructuralSafety": {
+          "BuildingCodeCompliance": {},
+          "RegularMaintenance": {},
+          "Disaster-ResilientConstruction": {},
+          "SafetyInspections": {}
+        },
+        "SecurityMeasures": {
+          "HomeSecuritySystems": {},
+          "NeighborhoodWatchPrograms": {},
+          "SafeEntrySystems": {},
+          "PersonalSafetyDevices": {}
+        },
+        "ComfortableLivingSpace": {
+          "ErgonomicFurniture": {},
+          "ClimateControl": {},
+          "InteriorDesign": {},
+          "AdequateLighting": {}
+        },
+        "AccessibleHousing": {
+          "UniversalDesign": {},
+          "AccessibleEntrances": {},
+          "AdaptiveEquipment": {},
+          "Barrier-FreeLiving": {}
+        }
+      },
+      "PleasantNeighborhood": {
+        "CommunityRelations": {
+          "NeighborlyInteractions": {},
+          "CommunityEvents": {},
+          "LocalCommittees": {},
+          "Neighborhood Associations": {}
+        },
+        "Aesthetics": {
+          "UrbanBeautification": {},
+          "PublicArt": {},
+          "Landscaping": {},
+          "Cleanliness": {}
+        },
+        "AmenitiesAccess": {
+          "LocalShopsAndServices": {},
+          "PublicFacilities": {},
+          "RecreationalFacilities": {},
+          "HealthcareAccess": {}
+        },
+        "NoiseControl": {
+          "Noise Ordinances": {},
+          "Soundproofing": {},
+          "Quiet Zones": {},
+          "Community Noise Management": {}
+        }
+      },
+      "PollutionManagement": {
+        "AirQuality": {
+          "AirPurificationSystems": {},
+          "EmissionReductions": {},
+          "MonitoringAirQuality": {},
+          "GreenSpacesContribution": {}
+        },
+        "WaterQuality": {
+          "WaterFiltration": {},
+          "PollutionControlMeasures": {},
+          "Water QualityMonitoring": {},
+          "CleanWaterInitiatives": {}
+        },
+        "WasteManagement": {
+          "EfficientWasteCollection": {},
+          "RecyclingPrograms": {},
+          "Waste-to-Energy": {},
+          "HazardousWasteHandling": {}
+        },
+        "NoisePollutionReduction": {
+          "Sound Barriers": {},
+          "RegulatingNoise Levels": {},
+          "Community Noise Policies": {},
+          "Noise Reduction Technologies": {}
+        }
+      },
+      "ClimateComfort": {
+        "TemperatureRegulation": {
+          "HeatingSystems": {},
+          "CoolingSystems": {},
+          "Insulation": {},
+          "Thermal Comfort": {}
+        },
+        "Ventilation": {
+          "Airflow Management": {},
+          "NaturalVentilation": {},
+          "MechanicalVentilation": {},
+          "Ventilation Maintenance": {}
+        },
+        "LightingConditions": {
+          "NaturalLighting": {},
+          "ArtificialLighting": {},
+          "Lighting Design": {},
+          "Energy-EfficientLighting": {}
+        },
+        "HumidityControl": {
+          "Dehumidifiers": {},
+          "Humidifiers": {},
+          "Ventilation forHumidityControl": {},
+          "Humidity Monitoring": {}
+        }
+      }
+    },
+    "DigitalWellBeing": {
+      "HealthyTechnologyUse": {
+        "ScreenTimeManagement": {
+          "TimeTrackingApps": {},
+          "Scheduled Breaks": {},
+          "Usage Limits": {},
+          "ParentalControls": {}
+        },
+        "Technology-FreeTime": {
+          "Digital DetoxDays": {},
+          "Device-Free Zones": {},
+          "Scheduled Offline Periods": {},
+          "Mindfulness Without Devices": {}
+        },
+        "PurposefulUseOfDevices": {
+          "Goal-OrientedTechnologyUse": {},
+          "ProductiveApplications": {},
+          "EducationalTechnology": {},
+          "CreativeTechnologyUse": {}
+        },
+        "MindfulConsumptionOfMedia": {
+          "SelectiveMediaConsumption": {},
+          "Critical Media Evaluation": {},
+          "BalancedMediaDiet": {},
+          "MindfulViewing Practices": {}
+        }
+      },
+      "PositiveOnlineInteractions": {
+        "OnlineEtiquette": {
+          "RespectfulCommunication": {},
+          "ProperNetiquette": {},
+          "ConstructiveFeedback": {},
+          "Positive Engagement": {}
+        },
+        "CyberbullyingAwareness": {
+          "RecognizingCyberbullying": {},
+          "Preventive Measures": {},
+          "Support Systems": {},
+          "Educational Programs": {}
+        },
+        "DigitalCommunicationSkills": {
+          "EffectiveOnlineCommunication": {},
+          "Emotional Intelligence Online": {},
+          "ClearDigital Expression": {},
+          "ActiveListening Online": {}
+        },
+        "BuildingOnlineCommunities": {
+          "Positive Community Guidelines": {},
+          "Inclusive Online Spaces": {},
+          "Engaging Community Activities": {},
+          "Moderation Practices": {}
+        }
+      },
+      "DigitalDetox": {
+        "UnpluggingRegularly": {
+          "Scheduled Offline Times": {},
+          "Digital Sabbaths": {},
+          "Device-Free Activities": {},
+          "Mindfulness Practices Without Devices": {}
+        },
+        "DigitalBoundaries": {
+          "SettingUsage Limits": {},
+          "Defining Personal Space Online": {},
+          "Managing Notifications": {},
+          "Prioritizing In-Person Interactions": {}
+        },
+        "MindfulnessPractices": {
+          "Meditation": {},
+          "Deep Breathing": {},
+          "Yoga": {},
+          "Mindful Walking": {}
+        },
+        "AlternativeActivities": {
+          "EngagingHobbies": {},
+          "PhysicalActivities": {},
+          "SocialInteractions": {},
+          "CreativeProjects": {}
+        }
+      },
+      "Cybersecurity": {
+        "ProtectingPersonalData": {
+          "DataEncryption": {},
+          "SecurePassword Practices": {},
+          "Two-Factor Authentication": {},
+          "Privacy Settings Management": {}
+        },
+        "SafeInternetPractices": {
+          "AvoidingPhishingScams": {},
+          "SecureBrowsing Habits": {},
+          "ResponsibleSharing": {},
+          "SafeOnlineTransactions": {}
+        },
+        "AwarenessOfOnlineRisks": {
+          "UnderstandingCyberThreats": {},
+          "RecognizingMalware": {},
+          "ProtectingAgainstIdentityTheft": {},
+          "EducatingAboutOnline Privacy": {}
+        },
+        "UseOfSecurityTools": {
+          "AntivirusSoftware": {},
+          "Firewalls": {},
+          "VirtualPrivateNetworks (VPNs)": {},
+          "SecureBackup Solutions": {}
+        }
+      }
+    },
+    "WorkLifeEnvironment": {
+      "ErgonomicWorkspaces": {
+        "ProperEquipment": {
+          "ErgonomicDesks": {},
+          "AdjustableChairs": {},
+          "MonitorStands": {},
+          "KeyboardAndMouse": {}
+        },
+        "ComfortableSeating": {
+          "LumbarSupport": {},
+          "Seat Cushioning": {},
+          "Adjustable Seating": {},
+          "PostureCorrecting Chairs": {}
+        },
+        "WorkspaceOrganization": {
+          "Clutter-Free Workspaces": {},
+          "EfficientStorage Solutions": {},
+          "Cable Management": {},
+          "Personalized Workspace": {}
+        },
+        "PostureAwareness": {
+          "PostureTraining": {},
+          "Regular Stretching": {},
+          "Ergonomic Assessments": {},
+          "Posture Monitoring Devices": {}
+        }
+      },
+      "HealthyWorkConditions": {
+        "SafeWorkplace": {
+          "Workplace Safety Protocols": {},
+          "Emergency Preparedness": {},
+          "Health and Safety Training": {},
+          "Hazard Prevention": {}
+        },
+        "HealthyAirQuality": {
+          "Air Purification Systems": {},
+          "Ventilation Improvements": {},
+          "Pollution Control Measures": {},
+          "Indoor Air Quality Monitoring": {}
+        },
+        "AppropriateLighting": {
+          "NaturalLighting Utilization": {},
+          "Energy-Efficient Lighting": {},
+          "Adjustable Lighting Systems": {},
+          "Glare Reduction": {}
+        },
+        "NoiseControl": {
+          "Soundproofing": {},
+          "Noise-Canceling Technologies": {},
+          "Quiet Zones": {},
+          "Noise Level Monitoring": {}
+        }
+      },
+      "LeisureSpaces": {
+        "RecreationalAreas": {
+          "Break Rooms": {},
+          "Lounge Areas": {},
+          "Outdoor Recreation Areas": {},
+          "Fitness Centers": {}
+        },
+        "RestSpaces": {
+          "Quiet Rooms": {},
+          "Nap Pods": {},
+          "Meditation Rooms": {},
+          "Relaxation Areas": {}
+        },
+        "SocialAreas": {
+          "Common Areas": {},
+          "Social Hubs": {},
+          "Team Collaboration Spaces": {},
+          "Interactive Zones": {}
+        },
+        "AccessToAmenities": {
+          "On-Site Amenities": {},
+          "Nearby Facilities": {},
+          "Employee Benefits Areas": {},
+          "Convenient Access Services": {}
+        }
+      },
+      "UrbanNatureBalance": {
+        "GreenUrbanPlanning": {
+          "Integrated Green Spaces": {},
+          "Sustainable City Design": {},
+          "Urban Forestry": {},
+          "Green Building Standards": {}
+        },
+        "AccessToParks": {
+          "Local Parks": {},
+          "Regional Parks": {},
+          "Urban Greenways": {},
+          "Community Gardens": {}
+        },
+        "SustainableCityDesign": {
+          "Eco-Friendly Infrastructure": {},
+          "Smart City Technologies": {},
+          "Public Transportation Systems": {},
+          "Mixed-Use Developments": {}
+        },
+        "UrbanFarming": {
+          "RooftopGardens": {},
+          "VerticalFarming": {},
+          "CommunityFarms": {},
+          "UrbanAgriculture Programs": {}
+        }
+      }
+    }
+  }
+}

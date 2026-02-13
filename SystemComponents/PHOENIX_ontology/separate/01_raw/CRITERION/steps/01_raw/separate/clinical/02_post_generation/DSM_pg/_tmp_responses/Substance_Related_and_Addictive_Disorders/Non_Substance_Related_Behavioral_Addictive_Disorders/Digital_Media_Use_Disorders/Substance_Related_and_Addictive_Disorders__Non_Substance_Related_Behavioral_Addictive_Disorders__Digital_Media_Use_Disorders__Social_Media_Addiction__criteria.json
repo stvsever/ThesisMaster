@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "preoccupation_with_social_media"
+    },
+    {
+      "criterium": "urge_to_check_social_media"
+    },
+    {
+      "criterium": "increasing_time_spent_on_social_media_to_achieve_satisfaction"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_social_media_disengagement"
+    },
+    {
+      "criterium": "impaired_control_over_social_media_use"
+    },
+    {
+      "criterium": "functional_impairment_due_to_social_media_use"
+    },
+    {
+      "criterium": "continued_use_despite_negatives"
+    },
+    {
+      "criterium": "cue_reactivity_to_social_media_notifications"
+    },
+    {
+      "criterium": "sleep_disruption_due_to_social_media_use"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "craving_LSD"
+    },
+    {
+      "criterium": "tolerance_LSD"
+    },
+    {
+      "criterium": "withdrawal_LSD"
+    },
+    {
+      "criterium": "impaired_control_over_LSD_use"
+    },
+    {
+      "criterium": "time_spent_obtaining_or_using_LSD"
+    },
+    {
+      "criterium": "unsuccessful_cutdown_or_cessation_attempts_LSD"
+    },
+    {
+      "criterium": "persistent_use_despite_psychological_problems_from_LSD"
+    },
+    {
+      "criterium": "persistent_use_despite_physical_problems_from_LSD"
+    },
+    {
+      "criterium": "hazardous_use_of_LSD"
+    },
+    {
+      "criterium": "occupational_impairment_due_to_LSD"
+    },
+    {
+      "criterium": "academic_impairment_due_to_LSD"
+    },
+    {
+      "criterium": "social_relationship_impairment_due_to_LSD"
+    },
+    {
+      "criterium": "dose_or_frequency_escalation_of_LSD"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

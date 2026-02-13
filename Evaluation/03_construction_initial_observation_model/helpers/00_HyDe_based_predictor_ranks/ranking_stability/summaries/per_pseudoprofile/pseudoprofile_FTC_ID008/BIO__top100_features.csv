@@ -1,0 +1,24 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+BIO / personalization_monitoring_and_data_feedback / wearables_and_home_monitoring / physiology / neurophysiology_and_stress_proxies / muscle_tension / jaw_clench_bruxism_sensor,BIO,5,1.0,6.0,3.1622777,0.2362371,0.012623883
+BIO / sleep_circadian_and_restoration / sleep_devices_and_technologies / bruxism_and_muscle_support / jaw_relaxation_tool,BIO,5,1.0,14.8,9.019979,0.22508664,0.012012027
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / progressive_muscle_relaxation,BIO,5,1.0,19.8,7.386474,0.21893267,0.007863442
+BIO / personalization_monitoring_and_data_feedback / wearables_and_home_monitoring / physiology / neurophysiology_and_stress_proxies / muscle_tension / emg_biofeedback_device_consumer,BIO,5,1.0,61.2,37.509468,0.20736495,0.013067459
+BIO / sleep_circadian_and_restoration / sleep_devices_and_technologies / bruxism_and_muscle_support / warm_compress_jaw,BIO,5,1.0,88.2,42.775696,0.20137756,0.010610829
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / low_stimulation_evening_activities,BIO,4,0.8,118.75,47.235447,0.19526932,0.001955951
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / relaxation_scan_head_to_toe,BIO,4,0.8,122.25,38.32346,0.19509749,0.008606847
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / morning_stabilization / gentle_mobility_on_waking,BIO,3,0.6,83.333336,26.599916,0.19739495,0.0064362567
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_somatic_and_physiological_perception / ema_body_tension,BIO,3,0.6,132.0,14.165687,0.19481647,0.0069571724
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / attention_on_neutral_sensations,BIO,3,0.6,157.0,16.51262,0.18711181,0.0013709414
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / rehabilitation_and_functional_restoration / somatic_symptom_and_stress_physiology_interfaces / post_illness_functional_restoration_pathway,BIO,2,0.4,84.0,32.0,0.1970815,0.007390961
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / rehabilitation_and_functional_restoration / somatic_symptom_and_stress_physiology_interfaces / return_to_activity_clearance_and_coordination_pathway,BIO,2,0.4,88.5,9.5,0.19598468,0.0038061887
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / breathwork_relaxation,BIO,2,0.4,101.0,19.0,0.19951749,0.0038799793
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / rehabilitation_and_functional_restoration / somatic_symptom_and_stress_physiology_interfaces / breathing_pattern_disorder_evaluation_referral_pathway,BIO,2,0.4,135.0,28.0,0.19068864,0.0003548786
+BIO / movement_physical_function_and_somatic_care / mobility_flexibility_and_joint_health / mindbody_mobility_systems / somatic_body_awareness_practice,BIO,1,0.2,111.0,0.0,0.19032453,0.0
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / body_scan_meditation,BIO,1,0.2,113.0,0.0,0.19022316,0.0
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / rehabilitation_and_functional_restoration / somatic_symptom_and_stress_physiology_interfaces / exercise_intolerance_evaluation_referral_pathway,BIO,1,0.2,132.0,0.0,0.19276135,0.0
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / gentle_stretching,BIO,1,0.2,143.0,0.0,0.18667953,0.0
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / stimulating_content_avoidance,BIO,1,0.2,143.0,0.0,0.18600334,0.0
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_affect_and_stress / ema_calmness_safety_signal,BIO,1,0.2,162.0,0.0,0.18531142,0.0
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / rehabilitation_and_functional_restoration / somatic_symptom_and_stress_physiology_interfaces / autonomic_function_assessment_referral_pathway,BIO,1,0.2,178.0,0.0,0.18915531,0.0
+BIO / movement_physical_function_and_somatic_care / mobility_flexibility_and_joint_health / mindbody_mobility_systems / relaxation_movement_flow,BIO,1,0.2,180.0,0.0,0.18309854,0.0
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / sleep_medicine_and_circadian_care / therapy_and_device_pathways / sleep_wake_stabilization_care_plan_coordination,BIO,1,0.2,183.0,0.0,0.18852924,0.0

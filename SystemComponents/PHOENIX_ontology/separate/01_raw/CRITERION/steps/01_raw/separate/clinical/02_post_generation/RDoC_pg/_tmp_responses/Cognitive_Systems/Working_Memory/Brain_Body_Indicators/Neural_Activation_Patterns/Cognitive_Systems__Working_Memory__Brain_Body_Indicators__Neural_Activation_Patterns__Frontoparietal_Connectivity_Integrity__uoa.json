@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M_polymorphism",
+      "COMT_V158M_polymorphism",
+      "NRG1_rs35753505_polymorphism",
+      "CNTNAP2_rs7794745_polymorphism",
+      "DISC1_rs821_polymorphism",
+      "SHANK3_gene_variants"
+    ],
+    "molecules": [
+      "BDNF_plasma_concentration",
+      "DOPAMINE_PFC_levels",
+      "GLUTAMATE_concentration_PFC_MRS",
+      "GABA_concentration_PFC_MRS"
+    ],
+    "cells": [
+      "Pyramidal_neuron_density_DLPFC",
+      "GABAergic_interneuron_density_PFC",
+      "Dendritic_spine_density_PFC"
+    ],
+    "circuits": [
+      "frontoparietal_network_functional_connectivity_strength",
+      "DLPFC_IPS_effective_connectivity",
+      "PFC_PPC_task_related_connectivity_strength",
+      "frontoparietal_network_resting_state_connectivity_strength"
+    ],
+    "physiology": [
+      "frontal_theta_power_EEG_frontoparietal_tasks",
+      "PFC_bold_response_amplitude_working_memory_fMRI",
+      "P300_amplitude_working_memory_task",
+      "parietal_alpha_power_frontoparietal_EEG"
+    ],
+    "behavior": [
+      "n_back_accuracy_percent",
+      "n_back_reaction_time_ms",
+      "operation_span_score",
+      "digit_span_score"
+    ],
+    "self_report": [
+      "CFQ_total_score",
+      "Working_memory_subscale_score",
+      "subjective_working_memory_difficulty"
+    ]
+  },
+  "estimated_prevalence_percent": 3.5
+}

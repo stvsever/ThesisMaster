@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "functional_motor_paralysis_weakness_of_one_or_more_limbs"
+    },
+    {
+      "criterium": "functional_sensory_deficit_or_numbness_not_following_neurological_dermatomes"
+    },
+    {
+      "criterium": "functional_non_epileptic_seizures"
+    },
+    {
+      "criterium": "functional_aphonia_or_dysphonia"
+    },
+    {
+      "criterium": "functional_gait_disturbance_or_incoordination"
+    },
+    {
+      "criterium": "functional_vision_loss_or_blindness_not_explained_by_ocular_pathology"
+    },
+    {
+      "criterium": "functional_dysphagia_or_oropharyngeal_symptom_not_explained_by_medical_condition"
+    },
+    {
+      "criterium": "inconsistent_neurological_examination_findings_across_assessments"
+    },
+    {
+      "criterium": "symptom_variability_over_time"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

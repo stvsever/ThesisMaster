@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "post_exertional_malaise"
+    },
+    {
+      "criterium": "unrefreshing_sleep"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "persistent_fatigue_not_relieved_by_rest"
+    },
+    {
+      "criterium": "orthostatic_intolerance"
+    },
+    {
+      "criterium": "myalgia"
+    },
+    {
+      "criterium": "arthralgia"
+    },
+    {
+      "criterium": "sore_throat"
+    },
+    {
+      "criterium": "tender_lymph_nodes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

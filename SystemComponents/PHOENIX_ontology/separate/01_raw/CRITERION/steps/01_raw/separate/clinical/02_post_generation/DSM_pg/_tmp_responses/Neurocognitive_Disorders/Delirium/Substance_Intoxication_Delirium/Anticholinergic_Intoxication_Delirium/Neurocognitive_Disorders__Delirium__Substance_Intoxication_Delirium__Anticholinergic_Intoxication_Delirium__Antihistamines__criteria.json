@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "attentional_deficit"
+    },
+    {
+      "criterium": "disorientation_time"
+    },
+    {
+      "criterium": "disorientation_place"
+    },
+    {
+      "criterium": "disorientation_person"
+    },
+    {
+      "criterium": "perceptual_disturbance"
+    },
+    {
+      "criterium": "visual_hallucination"
+    },
+    {
+      "criterium": "auditory_hallucination"
+    },
+    {
+      "criterium": "delusional_thought_content"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "psychomotor_retardation"
+    },
+    {
+      "criterium": "anterograde_amnesia"
+    },
+    {
+      "criterium": "tachycardia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

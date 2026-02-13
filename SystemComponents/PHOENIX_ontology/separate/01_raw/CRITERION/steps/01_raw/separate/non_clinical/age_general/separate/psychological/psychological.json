@@ -1,0 +1,763 @@
+{
+  "PSYCHOLOGICAL": {
+    "Self-Acceptance": {
+      "Positive Self-Image": {
+        "Confidence in Appearance": {
+          "Body Confidence": {},
+          "Self-Perceived Attractiveness": {},
+          "Comfort with Physical Appearance": {}
+        },
+        "Acceptance of Physical Attributes": {
+          "Embracing Physical Traits": {},
+          "Body Neutrality": {},
+          "Unconditional Physical Acceptance": {}
+        },
+        "Body Positivity": {
+          "Positive Body Image": {},
+          "Celebrating Body Diversity": {},
+          "Rejecting Body Stereotypes": {}
+        },
+        "Self-Love": {
+          "Loving Oneself": {},
+          "Self-Care Practices": {},
+          "Self-Appreciation": {}
+        }
+      },
+      "Acceptance of Strengths and Weaknesses": {
+        "Recognizing Personal Strengths": {
+          "Identifying Strengths": {},
+          "Utilizing Strengths": {},
+          "Celebrating Strengths": {}
+        },
+        "Acknowledging Limitations": {
+          "Understanding Weaknesses": {},
+          "Embracing Imperfections": {},
+          "Self-Awareness of Limitations": {}
+        },
+        "Balanced Self-View": {
+          "Equilibrium of Strengths and Weaknesses": {},
+          "Maintaining Self-Balance": {},
+          "Holistic Self-Perception": {}
+        },
+        "Self-Honesty": {
+          "Authentic Self-Assessment": {},
+          "Truthfulness with Self": {},
+          "Genuine Self-Reflection": {}
+        }
+      },
+      "Self-Esteem": {
+        "Belief in Self-Worth": {
+          "Intrinsic Self-Worth": {},
+          "Self-Value Recognition": {},
+          "Internal Validation": {}
+        },
+        "Feeling Valued": {
+          "Sense of Being Valued": {},
+          "Recognition by Others": {},
+          "Perceived Social Value": {}
+        },
+        "Self-Respect": {
+          "Maintaining Personal Integrity": {},
+          "Upholding Personal Values": {},
+          "Respecting Own Boundaries": {}
+        },
+        "Pride in Achievements": {
+          "Acknowledging Achievements": {},
+          "Celebrating Successes": {},
+          "Pride in Personal Milestones": {}
+        }
+      },
+      "Self-Respect": {
+        "Setting Personal Boundaries": {
+          "Defining Limits": {},
+          "Enforcing Boundaries": {},
+          "Respecting Own Needs": {}
+        },
+        "Refusing Harmful Behaviors": {
+          "Rejecting Negative Influences": {},
+          "Avoiding Self-Harm": {},
+          "Preventing Destructive Habits": {}
+        },
+        "Demanding Respect from Others": {
+          "Assertive Communication": {},
+          "Expecting Respect": {},
+          "Maintaining Mutual Respect": {}
+        },
+        "Living According to Values": {
+          "Aligning Actions with Values": {},
+          "Ethical Living": {},
+          "Value-Based Decision Making": {}
+        }
+      }
+    },
+    "Personal Growth": {
+      "Desire to Grow": {
+        "Goal Setting": {
+          "Creating Personal Goals": {},
+          "Establishing Achievable Objectives": {},
+          "Tracking Progress": {}
+        },
+        "Seeking Challenges": {
+          "Embracing Difficult Tasks": {},
+          "Pursuing Growth Opportunities": {},
+          "Overcoming Obstacles": {}
+        },
+        "Ambition": {
+          "High Aspirations": {},
+          "Drive for Success": {},
+          "Long-Term Vision": {}
+        },
+        "Motivation for Improvement": {
+          "Internal Motivation": {},
+          "Continuous Self-Enhancement": {},
+          "Commitment to Growth": {}
+        }
+      },
+      "Openness to Experience": {
+        "Trying New Things": {
+          "Experimenting with Activities": {},
+          "Exploring New Interests": {},
+          "Adopting Novel Habits": {}
+        },
+        "Receptiveness to Change": {
+          "Embracing Change": {},
+          "Adaptability": {},
+          "Flexibility in Thinking": {}
+        },
+        "Curiosity": {
+          "Intellectual Curiosity": {},
+          "Exploratory Behavior": {},
+          "Inquisitive Mindset": {}
+        },
+        "Embracing Uncertainty": {
+          "Comfort with Ambiguity": {},
+          "Risk-Taking": {},
+          "Thriving in Unpredictable Situations": {}
+        }
+      },
+      "Realizing Potential": {
+        "Utilizing Talents": {
+          "Leveraging Strengths": {},
+          "Maximizing Skills": {},
+          "Talent Development": {}
+        },
+        "Skill Development": {
+          "Acquiring New Skills": {},
+          "Enhancing Existing Skills": {},
+          "Continuous Learning": {}
+        },
+        "Achievement of Goals": {
+          "Goal Fulfillment": {},
+          "Milestone Attainment": {},
+          "Success Realization": {}
+        },
+        "Self-Actualization": {
+          "Personal Fulfillment": {},
+          "Reaching Full Potential": {},
+          "Living Authentically": {}
+        }
+      },
+      "Continuous Learning": {
+        "Education Pursuits": {
+          "Formal Education": {},
+          "Self-Directed Learning": {},
+          "Educational Achievement": {}
+        },
+        "Reading and Research": {
+          "Engaging with Literature": {},
+          "Conducting Personal Research": {},
+          "Expanding Knowledge Base": {}
+        },
+        "Attending Workshops": {
+          "Participating in Training Sessions": {},
+          "Skill-Building Workshops": {},
+          "Professional Development Workshops": {}
+        },
+        "Learning from Others": {
+          "Mentorship": {},
+          "Collaborative Learning": {},
+          "Observational Learning": {}
+        }
+      }
+    },
+    "Purpose in Life": {
+      "Sense of Meaning": {
+        "Life Philosophy": {
+          "Personal Beliefs": {},
+          "Worldview": {},
+          "Existential Understanding": {}
+        },
+        "Spiritual Beliefs": {
+          "Spiritual Practices": {},
+          "Faith-Based Beliefs": {},
+          "Transcendental Beliefs": {}
+        },
+        "Understanding Life’s Purpose": {
+          "Personal Mission": {},
+          "Purpose-Driven Goals": {},
+          "Meaningful Engagement": {}
+        },
+        "Existential Awareness": {
+          "Awareness of Existence": {},
+          "Reflecting on Life's Meaning": {},
+          "Philosophical Inquiry": {}
+        }
+      },
+      "Goal Directedness": {
+        "Career Goals": {
+          "Professional Objectives": {},
+          "Career Advancement": {},
+          "Job Satisfaction": {}
+        },
+        "Personal Objectives": {
+          "Personal Milestones": {},
+          "Family Goals": {},
+          "Relationship Objectives": {}
+        },
+        "Vision for Future": {
+          "Long-Term Vision": {},
+          "Future Planning": {},
+          "Dream Realization": {}
+        },
+        "Strategic Planning": {
+          "Planning Techniques": {},
+          "Strategic Goal Setting": {},
+          "Implementation Strategies": {}
+        }
+      },
+      "Future Orientation": {
+        "Optimism About Future": {
+          "Positive Future Expectations": {},
+          "Hope for Tomorrow": {},
+          "Confidence in Future Outcomes": {}
+        },
+        "Anticipation of Events": {
+          "Looking Forward to Events": {},
+          "Event Planning": {},
+          "Excitement for Upcoming Activities": {}
+        },
+        "Planning Ahead": {
+          "Future Planning": {},
+          "Setting Future Goals": {},
+          "Proactive Planning": {}
+        },
+        "Hopefulness": {
+          "Hope for Positive Outcomes": {},
+          "Faith in Future Success": {},
+          "Positive Future Beliefs": {}
+        }
+      },
+      "Motivation": {
+        "Drive to Achieve": {
+          "Internal Drive": {},
+          "Achievement Drive": {},
+          "Success Motivation": {}
+        },
+        "Energy Towards Goals": {
+          "Goal-Directed Energy": {},
+          "Sustained Effort": {},
+          "Vigor in Pursuing Goals": {}
+        },
+        "Perseverance": {
+          "Persistence in Goals": {},
+          "Endurance in Challenges": {},
+          "Determination to Succeed": {}
+        },
+        "Enthusiasm": {
+          "Passionate Engagement": {},
+          "Excitement for Activities": {},
+          "Positive Energy": {}
+        },
+        "Inspiration": {
+            "Motivational Influence": {},
+            "Encouraging Others": {},
+            "Fostering Positive Energy": {},
+            "Inspirational Leadership": {},
+            "Motivational Speaking": {},
+            "Inspiring Change": {},
+            "Empowering Others": {},
+            "Encouraging Growth": {},
+            "Uplifting Others": {},
+            "Fostering Hope": {},
+            "Creating Positive Impact": {},
+            "Building Confidence": {},
+            "Encouraging Action": {}
+        },
+        "Empowerment": {
+          "Enabling Others": {},
+          "Fostering Independence": {},
+          "Encouraging Self-Efficacy": {},
+            "Supporting Personal Growth": {}
+          }
+        },
+        "Encouragement": {
+          "Positive Reinforcement": {},
+          "Supportive Feedback": {},
+          "Motivational Support": {}
+        },
+        "Supportive Environment": {
+          "Creating Positive Spaces": {},
+          "Encouraging Atmosphere": {},
+          "Fostering Supportive Relationships": {}
+        },
+        "Positive Reinforcement": {
+          "Rewarding Achievements": {},
+          "Acknowledging Efforts": {},
+          "Celebrating Successes": {},
+            "Recognizing Contributions": {},
+            "Appreciating Efforts": {},
+            "Validating Achievements": {}
+        }
+    },
+    "Autonomy": {
+      "Self-Determination": {
+        "Making Own Choices": {
+          "Decision Making Independence": {},
+          "Personal Choice Making": {},
+          "Autonomous Decision Making": {}
+        },
+        "Self-Governance": {
+          "Self-Management": {},
+          "Regulating Own Behavior": {},
+          "Independent Regulation": {}
+        },
+        "Independence": {
+          "Financial Independence": {},
+          "Emotional Independence": {},
+          "Physical Independence": {}
+        },
+        "Personal Agency": {
+          "Influence Over Own Life": {},
+          "Empowerment": {},
+          "Proactive Behavior": {}
+        }
+      },
+      "Personal Responsibility": {
+        "Accountability": {
+          "Owning Actions": {},
+          "Taking Responsibility": {},
+          "Being Accountable": {}
+        },
+        "Owning Actions": {
+          "Acknowledging Mistakes": {},
+          "Learning from Actions": {},
+          "Responsibility for Outcomes": {}
+        },
+        "Ethical Conduct": {
+          "Moral Responsibility": {},
+          "Integrity in Actions": {},
+          "Ethical Decision Making": {}
+        },
+        "Reliability": {
+          "Dependability": {},
+          "Consistency in Behavior": {},
+          "Trustworthiness": {}
+        }
+      },
+      "Decision-Making": {
+        "Critical Thinking": {
+          "Analytical Skills": {},
+          "Evaluative Thinking": {},
+          "Logical Reasoning": {}
+        },
+        "Weighing Options": {
+          "Assessing Alternatives": {},
+          "Pros and Cons Analysis": {},
+          "Option Evaluation": {}
+        },
+        "Confidence in Decisions": {
+          "Decision Assurance": {},
+          "Trust in Choices": {},
+          "Decisiveness": {}
+        },
+        "Problem Solving": {
+          "Identifying Problems": {},
+          "Developing Solutions": {},
+          "Implementing Solutions": {}
+        }
+      },
+      "Boundary Setting": {
+        "Saying No When Necessary": {
+          "Assertive Refusal": {},
+          "Setting Limits": {},
+          "Protecting Personal Time": {}
+        },
+        "Protecting Personal Time": {
+          "Time Management": {},
+          "Prioritizing Activities": {},
+          "Avoiding Overcommitment": {}
+        },
+        "Emotional Boundaries": {
+          "Protecting Emotional Space": {},
+          "Managing Emotional Exposure": {},
+          "Setting Emotional Limits": {}
+        },
+        "Establishing Limits": {
+          "Defining Personal Limits": {},
+          "Maintaining Boundaries": {},
+          "Enforcing Limits": {}
+        }
+      }
+    },
+    "Environmental Mastery": {
+      "Competence": {
+        "Skillfulness in Activities": {
+          "Mastery of Skills": {},
+          "Proficiency in Tasks": {},
+          "Expertise Development": {}
+        },
+        "Effective Performance": {
+          "Performance Efficiency": {},
+          "Achieving High Standards": {},
+          "Optimal Functioning": {}
+        },
+        "Adaptability": {
+          "Adjusting to New Situations": {},
+          "Flexibility in Tasks": {},
+          "Resourceful Adaptation": {}
+        },
+        "Resourcefulness": {
+          "Utilizing Available Resources": {},
+          "Creative Resource Management": {},
+          "Problem-Solving with Resources": {}
+        }
+      },
+      "Ability to Manage Environment": {
+        "Organizational Skills": {
+          "Task Organization": {},
+          "Time Management": {},
+          "Space Management": {}
+        },
+        "Time Management": {
+          "Scheduling": {},
+          "Prioritizing Tasks": {},
+          "Meeting Deadlines": {}
+        },
+        "Navigating Systems": {
+          "Understanding Systems": {},
+          "System Navigation Skills": {},
+          "Efficient System Use": {}
+        },
+        "Utilizing Resources": {
+          "Resource Allocation": {},
+          "Maximizing Resource Use": {},
+          "Accessing Necessary Resources": {}
+        }
+      },
+      "Control Over Life": {
+        "Influencing Outcomes": {
+          "Shaping Personal Outcomes": {},
+          "Impacting Life Events": {},
+          "Controlling Personal Destiny": {}
+        },
+        "Self-Efficacy": {
+          "Belief in Own Abilities": {},
+          "Confidence in Skills": {},
+          "Self-Assurance": {}
+        },
+        "Assertiveness": {
+          "Expressing Needs Assertively": {},
+          "Standing Up for Self": {},
+          "Communicating Assertively": {}
+        },
+        "Leadership Skills": {
+          "Leading Others": {},
+          "Guiding Teams": {},
+          "Inspiring Leadership": {}
+        }
+      },
+      "Adaptability": {
+        "Coping with Change": {
+          "Adjusting to New Circumstances": {},
+          "Managing Transitional Periods": {},
+          "Resilience in Change": {}
+        },
+        "Flexibility in Plans": {
+          "Adjusting Plans as Needed": {},
+          "Embracing Plan Modifications": {},
+          "Adaptive Planning": {}
+        },
+        "Resilience": {
+          "Bouncing Back from Setbacks": {},
+          "Maintaining Stability": {},
+          "Emotional Resilience": {}
+        },
+        "Learning from Setbacks": {
+          "Gaining Insights from Failures": {},
+          "Using Setbacks for Growth": {},
+          "Overcoming Challenges": {}
+        }
+      }
+    },
+    "Positive Thinking": {
+      "Optimism": {
+        "Expecting Positive Outcomes": {
+          "Positive Outcome Expectancy": {},
+          "Belief in Favorable Results": {},
+          "Hope for Success": {}
+        },
+        "Hopefulness": {
+          "Belief in Better Future": {},
+          "Faith in Possibilities": {},
+          "Inspiration": {}
+        },
+        "Positive Expectations": {
+          "Anticipating Good Results": {},
+          "Maintaining Positive Outlook": {},
+          "Positive Future Beliefs": {}
+        },
+        "Silver Lining Perspective": {
+          "Finding Positives in Negatives": {},
+          "Reframing Challenges": {},
+          "Emphasizing Positive Aspects": {}
+        }
+      },
+      "Hopefulness": {
+        "Belief in Better Future": {
+          "Faith in Future Success": {},
+          "Confidence in Positive Change": {},
+          "Hope for Improvement": {}
+        },
+        "Faith in Possibilities": {
+          "Trusting in Potential Outcomes": {},
+          "Believing in Opportunities": {},
+          "Confidence in Future Potential": {}
+        },
+        "Inspiration": {
+          "Motivating Ideas": {},
+          "Inspirational Influences": {},
+          "Encouraging Beliefs": {}
+        },
+        "Encouragement": {
+          "Self-Encouragement": {},
+          "Encouraging Others": {},
+          "Fostering Positive Reinforcement": {}
+        }
+      },
+      "Positive Outlook": {
+        "Focusing on Positives": {
+          "Emphasizing Strengths": {},
+          "Highlighting Achievements": {},
+          "Maintaining Positive Focus": {}
+        },
+        "Glass Half Full Attitude": {
+          "Optimistic Interpretation": {},
+          "Positive Framing": {},
+          "Hopeful Perspective": {}
+        },
+        "Constructive Thinking": {
+          "Solution-Oriented Thinking": {},
+          "Positive Problem Solving": {},
+          "Building on Strengths": {}
+        },
+        "Avoiding Negativity": {
+          "Minimizing Negative Thoughts": {},
+          "Rejecting Pessimism": {},
+          "Cultivating Positive Thought Patterns": {}
+        }
+      },
+      "Reframing Negative Thoughts": {
+        "Cognitive Restructuring": {
+          "Changing Thought Patterns": {},
+          "Challenging Negative Beliefs": {},
+          "Reframing Perspectives": {}
+        },
+        "Challenging Negative Beliefs": {
+          "Questioning Negative Thoughts": {},
+          "Debunking Pessimistic Views": {},
+          "Replacing Negative Beliefs": {}
+        },
+        "Positive Affirmations": {
+          "Using Affirmative Statements": {},
+          "Self-affirmation Practices": {},
+          "Reinforcing Positive Self-Talk": {}
+        },
+        "Mindset Shift": {
+          "Adopting Growth Mindset": {},
+          "Changing Attitudinal Focus": {},
+          "Embracing Positive Mindset": {}
+        }
+      }
+    },
+    "Self-Efficacy": {
+      "Belief in Own Abilities": {
+        "Confidence in Skills": {
+          "Skill Competence": {},
+          "Mastery of Abilities": {},
+          "Confidence in Performing Tasks": {}
+        },
+        "Trust in Capabilities": {
+          "Reliance on Own Skills": {},
+          "Self-Reliance": {},
+          "Dependence on Personal Abilities": {}
+        },
+        "Self-Assurance": {
+          "Firm Belief in Self": {},
+          "Unwavering Confidence": {},
+          "Secure Self-Belief": {}
+        },
+        "Positive Self-Perception": {
+          "Healthy Self-View": {},
+          "Constructive Self-Image": {},
+          "Balanced Self-Assessment": {}
+        }
+      },
+      "Handling Tasks": {
+        "Task Management": {
+          "Organizing Tasks": {},
+          "Prioritizing Responsibilities": {},
+          "Efficient Task Completion": {}
+        },
+        "Problem Solving": {
+          "Identifying Solutions": {},
+          "Developing Strategies": {},
+          "Implementing Solutions": {}
+        },
+        "Overcoming Obstacles": {
+          "Navigating Challenges": {},
+          "Persisting Through Difficulties": {},
+          "Resilient Behavior": {}
+        },
+        "Goal Achievement": {
+          "Reaching Goals": {},
+          "Achieving Objectives": {},
+          "Success in Goal Pursuit": {}
+        }
+      },
+      "Perseverance": {
+        "Persistence": {
+          "Sustained Effort": {},
+          "Determination to Continue": {},
+          "Unyielding Commitment": {}
+        },
+        "Determination": {
+          "Firm Resolve": {},
+          "Strong Willpower": {},
+          "Resolute Behavior": {}
+        },
+        "Endurance": {
+          "Long-Term Effort": {},
+          "Stamina in Tasks": {},
+          "Withstanding Challenges": {}
+        },
+        "Not Giving Up": {
+          "Resilience in Adversity": {},
+          "Continued Effort Despite Failures": {},
+          "Persistent Pursuit of Goals": {}
+        }
+      },
+      "Achievement Motivation": {
+        "Drive to Succeed": {
+          "Ambition for Success": {},
+          "Motivational Drive": {},
+          "Goal-Oriented Behavior": {}
+        },
+        "Ambition": {
+          "High Aspirations": {},
+          "Desire for Advancement": {},
+          "Striving for Excellence": {}
+        },
+        "Competitive Spirit": {
+          "Desire to Compete": {},
+          "Enjoying Competition": {},
+          "Motivation Through Competition": {}
+        },
+        "Striving for Excellence": {
+          "Pursuit of High Standards": {},
+          "Commitment to Quality": {},
+          "Excellence-Oriented Goals": {}
+        }
+      }
+    },
+    "Temporal Perspective": {
+      "Past Orientation": {
+        "Acceptance of Past": {
+          "Letting Go of Past": {},
+          "Forgiving Past Mistakes": {},
+          "Embracing Past Experiences": {}
+        },
+        "Learning from Experiences": {
+          "Gaining Insights from Past": {},
+          "Applying Past Lessons": {},
+          "Reflecting on Past Events": {}
+        },
+        "Forgiveness": {
+          "Forgiving Others": {},
+          "Self-Forgiveness": {},
+          "Releasing Grudges": {}
+        },
+        "Gratitude for Past Events": {
+          "Appreciating Past Moments": {},
+          "Thankfulness for Past Experiences": {},
+          "Acknowledging Past Joys": {}
+        }
+      },
+      "Present Orientation": {
+        "Mindfulness": {
+          "Being Present": {},
+          "Mindful Observation": {},
+          "Focused Attention": {}
+        },
+        "Being in the Moment": {
+          "Living in the Now": {},
+          "Embracing Current Experiences": {},
+          "Immediate Awareness": {}
+        },
+        "Savoring Experiences": {
+          "Enjoying Current Activities": {},
+          "Relishing Present Moments": {},
+          "Mindful Enjoyment": {}
+        },
+        "Immediate Awareness": {
+          "Conscious Awareness": {},
+          "Heightened Present Awareness": {},
+          "Focused Presence": {}
+        }
+      },
+      "Future Orientation": {
+        "Goal Planning": {
+          "Setting Future Goals": {},
+          "Strategic Future Planning": {},
+          "Long-Term Objective Setting": {}
+        },
+        "Anticipation": {
+          "Looking Forward": {},
+          "Excitement for Future Events": {},
+          "Expectation of Future Success": {}
+        },
+        "Future Goals": {
+          "Establishing Long-Term Goals": {},
+          "Visionary Goal Setting": {},
+          "Purpose-Driven Future Goals": {}
+        },
+        "Preparedness": {
+          "Planning for Future Events": {},
+          "Being Ready for Future Challenges": {},
+          "Proactive Future Preparation": {}
+        }
+      },
+      "Time Management": {
+        "Prioritizing Tasks": {
+          "Determining Task Importance": {},
+          "Organizing Task Order": {},
+          "Focusing on High-Priority Tasks": {}
+        },
+        "Scheduling": {
+          "Creating Schedules": {},
+          "Allocating Time Efficiently": {},
+          "Time Blocking": {}
+        },
+        "Balancing Commitments": {
+          "Managing Multiple Responsibilities": {},
+          "Achieving Work-Life Balance": {},
+          "Balancing Personal and Professional Life": {}
+        },
+        "Meeting Deadlines": {
+          "Timely Task Completion": {},
+          "Adhering to Deadlines": {},
+          "Ensuring Promptness": {}
+        }
+      }
+    }
+  }
+}

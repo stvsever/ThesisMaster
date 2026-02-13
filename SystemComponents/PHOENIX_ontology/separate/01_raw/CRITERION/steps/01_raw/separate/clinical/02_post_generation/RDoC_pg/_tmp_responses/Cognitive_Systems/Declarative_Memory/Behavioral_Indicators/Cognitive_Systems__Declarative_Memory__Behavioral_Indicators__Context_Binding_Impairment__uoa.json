@@ -1,0 +1,34 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "hippocampus_prefrontal_cortex_connectivity_strength",
+      "entorhinal_hippocampal_network_coherence",
+      "parietal_hippocampal_network_coherence",
+      "default_mode_network_resting_state_coherence"
+    ],
+    "physiology": [
+      "EEG_theta_power_during_context_binding_task",
+      "heart_rate_variability_index",
+      "skin_conductance_response_amplitude",
+      "pupil_dilation_index_during_binding_task"
+    ],
+    "behavior": [
+      "context_binding_source_memory_accuracy",
+      "context_binding_false_recognition_rate",
+      "context_binding_error_rate",
+      "context_binding_recall_latency_mean",
+      "object_location_binding_error_rate",
+      "pattern_completion_latency_mean"
+    ],
+    "self_report": [
+      "subjective_context_binding_difficulty_scale",
+      "memory_for_context_events_frequency",
+      "daily_context_binding_failures_scale",
+      "memory_confidence_context_binding_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 4.2
+}

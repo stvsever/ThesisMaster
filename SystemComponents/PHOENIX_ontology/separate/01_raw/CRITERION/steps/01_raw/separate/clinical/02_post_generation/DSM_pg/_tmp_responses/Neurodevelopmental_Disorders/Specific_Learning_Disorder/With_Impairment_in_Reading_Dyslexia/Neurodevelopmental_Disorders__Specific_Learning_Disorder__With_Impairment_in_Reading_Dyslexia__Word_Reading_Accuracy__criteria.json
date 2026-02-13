@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "word_reading_accuracy_below_age_norms"
+    },
+    {
+      "criterium": "nonword_reading_accuracy_deficit"
+    },
+    {
+      "criterium": "high_frequency_word_reading_accuracy_below_norms"
+    },
+    {
+      "criterium": "pseudoword_decoding_error_rate_elevated"
+    },
+    {
+      "criterium": "letter_sound_mapping_accuracy_below_norms"
+    },
+    {
+      "criterium": "phoneme_grapheme_conversion_deficit"
+    },
+    {
+      "criterium": "phonological_processing_deficit_on_tasks"
+    },
+    {
+      "criterium": "rapid_naming_speed_below_norms"
+    },
+    {
+      "criterium": "reading_rate_below_norms_on_word_lists"
+    }
+  ],
+  "estimated_prevalence_percent": 7.0
+}

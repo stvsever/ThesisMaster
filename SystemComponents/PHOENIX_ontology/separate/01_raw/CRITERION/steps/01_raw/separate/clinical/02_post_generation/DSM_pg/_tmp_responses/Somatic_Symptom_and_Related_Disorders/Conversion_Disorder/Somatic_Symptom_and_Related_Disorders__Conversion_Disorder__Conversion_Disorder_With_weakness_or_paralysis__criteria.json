@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inconsistent_paresis_across_tasks"
+    },
+    {
+      "criterium": "give_way_phenomenon_present"
+    },
+    {
+      "criterium": "hoover_sign_positive"
+    },
+    {
+      "criterium": "non_anatomic_weakness_pattern"
+    },
+    {
+      "criterium": "paralysis_with_preserved_pain_sensation"
+    },
+    {
+      "criterium": "non_dermatomal_sensory_deficits"
+    },
+    {
+      "criterium": "normal_muscle_tone_in_affected_limbs"
+    },
+    {
+      "criterium": "weakness_reversibility_with_attention_diversion"
+    },
+    {
+      "criterium": "rapid_deficit_variability_across_assessments"
+    },
+    {
+      "criterium": "absence_of_fasciculations_in_affected_limbs"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

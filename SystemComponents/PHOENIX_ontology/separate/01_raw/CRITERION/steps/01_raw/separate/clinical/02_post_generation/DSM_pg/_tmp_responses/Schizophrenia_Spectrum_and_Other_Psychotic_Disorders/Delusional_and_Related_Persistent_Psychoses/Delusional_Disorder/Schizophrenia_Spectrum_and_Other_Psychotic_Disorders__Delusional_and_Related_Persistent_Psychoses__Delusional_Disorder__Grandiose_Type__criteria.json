@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "grandiose_identity_claim"
+    },
+    {
+      "criterium": "belief_in_special_dignitary_status"
+    },
+    {
+      "criterium": "belief_in_divine_or_supernatural_endorsement"
+    },
+    {
+      "criterium": "belief_in_mission_to_change_world"
+    },
+    {
+      "criterium": "belief_in_affiliation_with_prominent_figures"
+    },
+    {
+      "criterium": "belief_in_influence_over_global_events"
+    },
+    {
+      "criterium": "belief_in_superhuman_abilities_or_infallibility"
+    },
+    {
+      "criterium": "belief_in_immortality_or_extreme_health_resilience"
+    },
+    {
+      "criterium": "belief_in_exclusive_secret_knowledge_or_insight"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

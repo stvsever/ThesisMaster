@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cocaine_tolerance"
+    },
+    {
+      "criterium": "cocaine_craving"
+    },
+    {
+      "criterium": "compulsive_cocaine_use"
+    },
+    {
+      "criterium": "time_spent_obtaining_using_recovering_cocaine"
+    },
+    {
+      "criterium": "social_impairment_from_cocaine"
+    },
+    {
+      "criterium": "interpersonal_problems_due_to_cocaine"
+    },
+    {
+      "criterium": "activities_reduction_due_to_cocaine"
+    },
+    {
+      "criterium": "hazardous_use_of_cocaine"
+    },
+    {
+      "criterium": "continued_use_despite_health_consequences"
+    },
+    {
+      "criterium": "withdrawal_symptoms_after_cessation"
+    },
+    {
+      "criterium": "failed_cut_down_attempts_for_cocaine"
+    },
+    {
+      "criterium": "continued_use_despite_psychological_problems_from_cocaine"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

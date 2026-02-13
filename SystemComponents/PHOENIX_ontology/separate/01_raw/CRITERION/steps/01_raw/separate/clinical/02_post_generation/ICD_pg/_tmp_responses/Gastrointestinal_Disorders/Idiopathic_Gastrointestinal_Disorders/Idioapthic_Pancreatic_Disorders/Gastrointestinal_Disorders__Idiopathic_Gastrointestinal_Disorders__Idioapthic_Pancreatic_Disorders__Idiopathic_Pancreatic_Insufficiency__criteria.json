@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cognitive_slowness"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "working_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "verbal_fluency_decline"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    },
+    {
+      "criterium": "fatigue_persistent"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "peripheral_neuropathy"
+    },
+    {
+      "criterium": "low_fat_sol_vitamin_levels"
+    },
+    {
+      "criterium": "steatorrhea_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

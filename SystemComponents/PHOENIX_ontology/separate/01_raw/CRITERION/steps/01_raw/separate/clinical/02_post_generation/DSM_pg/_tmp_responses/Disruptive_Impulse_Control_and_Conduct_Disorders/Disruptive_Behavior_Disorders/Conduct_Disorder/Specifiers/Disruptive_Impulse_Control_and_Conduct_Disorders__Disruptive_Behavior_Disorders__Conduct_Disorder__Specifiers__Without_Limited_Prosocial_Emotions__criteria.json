@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "aggressive_behavior_toward_people_or_animals"
+    },
+    {
+      "criterium": "deliberate_property_damage"
+    },
+    {
+      "criterium": "deceit_theft_of_valuables"
+    },
+    {
+      "criterium": "serious_rule_violation"
+    },
+    {
+      "criterium": "cruelty_to_animals"
+    },
+    {
+      "criterium": "fire_setting"
+    },
+    {
+      "criterium": "truancy_school_disruptions"
+    },
+    {
+      "criterium": "bullying_threatening_behavior"
+    },
+    {
+      "criterium": "impulsivity_with_poor_planning"
+    },
+    {
+      "criterium": "defiant_behavior_against_authority"
+    },
+    {
+      "criterium": "empathic_responsivity_present"
+    },
+    {
+      "criterium": "remorse_present_after_aggression"
+    }
+  ],
+  "estimated_prevalence_percent": 3.5
+}

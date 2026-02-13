@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "galactorrhea"
+    },
+    {
+      "criterium": "amenorrhea"
+    },
+    {
+      "criterium": "oligomenorrhea"
+    },
+    {
+      "criterium": "polymenorrhea"
+    },
+    {
+      "criterium": "metrorrhagia"
+    },
+    {
+      "criterium": "menorrhagia"
+    },
+    {
+      "criterium": "dysmenorrhea"
+    },
+    {
+      "criterium": "cycle_length_variability"
+    },
+    {
+      "criterium": "breast_tenderness"
+    },
+    {
+      "criterium": "hyperprolactinemia"
+    },
+    {
+      "criterium": "reduced_fertility"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "COGNITIVE_FLUCTUATION"
+    },
+    {
+      "criterium": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "criterium": "PARKINSONIAN_SIGNS"
+    },
+    {
+      "criterium": "REM_SLEEP_BEHAVIOR_DISORDER"
+    },
+    {
+      "criterium": "AUTONOMIC_DYSFUNCTION"
+    },
+    {
+      "criterium": "OLFACTORY_IMPAIRMENT"
+    },
+    {
+      "criterium": "VISUOSPATIAL_IMPAIRMENT"
+    },
+    {
+      "criterium": "DELUSIONAL_CONTENT"
+    },
+    {
+      "criterium": "AFFECTIVE_LABILITY"
+    },
+    {
+      "criterium": "NEUROLEPTIC_SENSITIVITY"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

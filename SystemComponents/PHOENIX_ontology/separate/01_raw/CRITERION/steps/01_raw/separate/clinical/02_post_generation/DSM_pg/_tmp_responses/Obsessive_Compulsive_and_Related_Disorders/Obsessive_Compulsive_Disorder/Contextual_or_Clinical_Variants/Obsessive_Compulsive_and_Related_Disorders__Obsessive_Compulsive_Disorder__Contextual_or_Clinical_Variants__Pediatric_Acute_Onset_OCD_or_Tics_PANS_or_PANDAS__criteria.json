@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acute_onset_OC_Symptoms"
+    },
+    {
+      "criterium": "acute_onset_food_restriction"
+    },
+    {
+      "criterium": "new_onset_tics"
+    },
+    {
+      "criterium": "emotional_lability"
+    },
+    {
+      "criterium": "aggression_present"
+    },
+    {
+      "criterium": "increased_anxiety"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "sensory_processing_dysregulation"
+    },
+    {
+      "criterium": "decline_in_school_performance"
+    },
+    {
+      "criterium": "attention_deficits"
+    },
+    {
+      "criterium": "handwriting_decline"
+    },
+    {
+      "criterium": "behavioral_regression_across_settings"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

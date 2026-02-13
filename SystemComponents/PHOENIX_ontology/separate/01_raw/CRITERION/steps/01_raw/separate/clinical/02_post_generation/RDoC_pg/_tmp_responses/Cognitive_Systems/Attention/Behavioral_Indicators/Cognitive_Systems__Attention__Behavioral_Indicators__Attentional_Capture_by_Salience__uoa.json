@@ -1,0 +1,53 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD4",
+      "DRD2",
+      "SLC6A3",
+      "BDNF",
+      "COMT",
+      "ANKK1"
+    ],
+    "molecules": [
+      "dopamine",
+      "norepinephrine",
+      "acetylcholine",
+      "glutamate",
+      "GABA",
+      "BDNF"
+    ],
+    "cells": [
+      "locus_coeruleus_neurons",
+      "pyramidal_neurons_prefrontal_cortex",
+      "parvalbumin_interneurons",
+      "cholinergic_basal_forebrain_neurons"
+    ],
+    "circuits": [
+      "ventral_attention_network_circuit",
+      "dorsal_attention_network_circuit",
+      "anterior_insula_dACC_salience_circuit",
+      "locus_coeruleus_prefrontal_cortex_circuit",
+      "parietal_premotor_network_circuit"
+    ],
+    "physiology": [
+      "pupil_diameter_change",
+      "saccade_latency_to_salient_stimulus",
+      "heart_rate_change_to_salient_stimulus",
+      "skin_conductance_response_to_salient_stimulus",
+      "respiratory_rate_change_to_salient_stimulus"
+    ],
+    "behavior": [
+      "reaction_time_to_salient_stimulus",
+      "first_fixation_latency_to_salient_stimulus",
+      "fixation_duration_on_salient_stimulus",
+      "saccade_amplitude_to_salient_stimuli",
+      "errors_due_to_salient_distractors"
+    ],
+    "self_report": [
+      "self_report_distraction_proneness_scale",
+      "self_report_salience_sensitivity_scale",
+      "self_report_attention_control_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 5.0
+}

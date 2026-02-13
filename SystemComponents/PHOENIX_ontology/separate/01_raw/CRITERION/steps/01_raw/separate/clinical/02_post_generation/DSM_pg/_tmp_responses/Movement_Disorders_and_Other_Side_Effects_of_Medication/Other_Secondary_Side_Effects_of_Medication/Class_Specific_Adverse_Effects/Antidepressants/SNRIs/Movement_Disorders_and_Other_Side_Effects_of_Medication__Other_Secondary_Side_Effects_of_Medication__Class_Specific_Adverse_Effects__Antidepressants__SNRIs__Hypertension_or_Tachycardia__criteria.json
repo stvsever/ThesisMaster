@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia_resting"
+    },
+    {
+      "criterium": "tachycardia_exertional"
+    },
+    {
+      "criterium": "systolic_bp_elevated"
+    },
+    {
+      "criterium": "diastolic_bp_elevated"
+    },
+    {
+      "criterium": "pulse_pressure_widening"
+    },
+    {
+      "criterium": "palpitations_reported"
+    },
+    {
+      "criterium": "headache_present"
+    },
+    {
+      "criterium": "dizziness_present"
+    },
+    {
+      "criterium": "dyspnea_present"
+    }
+  ],
+  "estimated_prevalence_percent": 32.0
+}

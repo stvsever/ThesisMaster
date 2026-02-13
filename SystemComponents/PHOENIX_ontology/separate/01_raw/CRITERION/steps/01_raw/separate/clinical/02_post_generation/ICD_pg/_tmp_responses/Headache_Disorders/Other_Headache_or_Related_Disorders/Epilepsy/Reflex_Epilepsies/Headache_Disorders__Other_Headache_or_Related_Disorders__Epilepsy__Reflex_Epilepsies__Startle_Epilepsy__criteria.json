@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "startle_triggered_seizure_occurrence"
+    },
+    {
+      "criterium": "generalized_tonic_clonic_seizure_after_startle"
+    },
+    {
+      "criterium": "focal_impaired_awareness_seizure_after_startle"
+    },
+    {
+      "criterium": "myoclonic_blasts_initiated_by_startle"
+    },
+    {
+      "criterium": "autonomic_symptoms_during_startle_seizure"
+    },
+    {
+      "criterium": "postictal_confusion_after_startle_seizure"
+    },
+    {
+      "criterium": "postictal_fatigue_after_startle_seizure"
+    },
+    {
+      "criterium": "EEG_onset_coincides_with_startle_stimulus"
+    },
+    {
+      "criterium": "interictal_epileptiform_activity_between_startle_seizures"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

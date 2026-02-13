@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "gross_motor_coordination_impairment"
+    },
+    {
+      "criterium": "fine_motor_coordination_deficit"
+    },
+    {
+      "criterium": "handwriting_dysgraphia_present"
+    },
+    {
+      "criterium": "manual_dexterity_deficit"
+    },
+    {
+      "criterium": "ball_skill_deficit_catching"
+    },
+    {
+      "criterium": "ball_skill_deficit_throwing"
+    },
+    {
+      "criterium": "bilateral_coordination_difficulty"
+    },
+    {
+      "criterium": "balance_postural_control_difficulty"
+    },
+    {
+      "criterium": "praxis_deficit"
+    },
+    {
+      "criterium": "eye_hand_coordination_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "excessive_daytime_somnolence_post_alcohol"
+    },
+    {
+      "criterium": "impaired_sustained_attention"
+    },
+    {
+      "criterium": "slowed_psychomotor_speed"
+    },
+    {
+      "criterium": "micro_sleep_events_during_wakefulness"
+    },
+    {
+      "criterium": "decreased_working_memory_performance"
+    },
+    {
+      "criterium": "decreased_subjective_alertness"
+    },
+    {
+      "criterium": "increased_yawning_frequency"
+    },
+    {
+      "criterium": "reduced_reaction_time"
+    },
+    {
+      "criterium": "daytime_fatigue_intensity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

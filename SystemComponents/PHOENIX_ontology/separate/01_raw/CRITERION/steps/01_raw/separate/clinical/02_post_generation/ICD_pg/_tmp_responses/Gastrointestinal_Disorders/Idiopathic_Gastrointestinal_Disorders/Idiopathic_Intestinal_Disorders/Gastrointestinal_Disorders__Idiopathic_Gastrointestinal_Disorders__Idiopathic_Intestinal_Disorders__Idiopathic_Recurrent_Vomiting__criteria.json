@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurrent_vomiting_episodes"
+    },
+    {
+      "criterium": "inter_episode_asymptomatic_periods"
+    },
+    {
+      "criterium": "pre_emetic_nausea_present"
+    },
+    {
+      "criterium": "stress_or_anxiety_trigger_emesis"
+    },
+    {
+      "criterium": "normal_growth_parameters_between_episodes"
+    },
+    {
+      "criterium": "normal_lab_results_between_episodes"
+    },
+    {
+      "criterium": "normal_endoscopy_findings_when_performed"
+    },
+    {
+      "criterium": "no_weight_loss_between_episodes"
+    },
+    {
+      "criterium": "family_history_of_recurrent_vomiting"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

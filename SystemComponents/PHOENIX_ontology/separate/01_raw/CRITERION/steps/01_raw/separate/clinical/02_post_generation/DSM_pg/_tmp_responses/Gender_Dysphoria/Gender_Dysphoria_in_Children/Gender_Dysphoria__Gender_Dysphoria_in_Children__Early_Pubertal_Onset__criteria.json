@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "BREAST_DEV_PREPUBERTAL"
+    },
+    {
+      "criterium": "TESTICULAR_ENLARGEMENT_PREPUBERTAL"
+    },
+    {
+      "criterium": "PUBARCHE_PREPUBERTAL"
+    },
+    {
+      "criterium": "GROWTH_VELOCITY_ACCELERATION"
+    },
+    {
+      "criterium": "BONEAGE_ADVANCED_RELATIVE"
+    },
+    {
+      "criterium": "BASELINE_LH_ELEVATION"
+    },
+    {
+      "criterium": "BASELINE_FSH_ELEVATION"
+    },
+    {
+      "criterium": "GNRH_STIMULATED_LH_PEAK_ABOVE_THRESHOLD"
+    },
+    {
+      "criterium": "ESTRADIOL_ELEVATION"
+    },
+    {
+      "criterium": "TESTOSTERONE_ELEVATION"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

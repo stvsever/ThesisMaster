@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pronoun_pref_consistent_with_expressed_gender"
+    },
+    {
+      "criterium": "name_change_across_social_networks"
+    },
+    {
+      "criterium": "wardrobe_and_grooming_consistent_with_expressed_gender"
+    },
+    {
+      "criterium": "social_role_assignment_consistent_with_expressed_gender"
+    },
+    {
+      "criterium": "social_media_profile_appearance_consistent_with_expressed_gender"
+    },
+    {
+      "criterium": "public_communication_style_consistent_with_expressed_gender"
+    },
+    {
+      "criterium": "participation_in_gender_affirming_activities"
+    },
+    {
+      "criterium": "responses_to_misgendering_in_social_settings_present"
+    },
+    {
+      "criterium": "self_advocacy_in_social_settings_for_expressed_gender"
+    }
+  ],
+  "estimated_prevalence_percent": 0.25
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "loss_of_consciousness_at_onset"
+    },
+    {
+      "criterium": "bilateral_tonic_phase_present"
+    },
+    {
+      "criterium": "bilateral_clonic_phase_present"
+    },
+    {
+      "criterium": "tongue_biting_present"
+    },
+    {
+      "criterium": "urinary_incontinence_present"
+    },
+    {
+      "criterium": "postictal_confusion_present"
+    },
+    {
+      "criterium": "postictal_drowsiness_present"
+    },
+    {
+      "criterium": "postictal_amnesia_present"
+    },
+    {
+      "criterium": "postictal_emotional_lability_present"
+    },
+    {
+      "criterium": "postictal_fatigue_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

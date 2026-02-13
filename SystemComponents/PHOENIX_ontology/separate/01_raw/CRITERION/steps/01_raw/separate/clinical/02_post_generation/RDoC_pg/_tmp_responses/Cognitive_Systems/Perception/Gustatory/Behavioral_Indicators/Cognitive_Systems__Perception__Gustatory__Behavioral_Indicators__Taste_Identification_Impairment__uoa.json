@@ -1,0 +1,53 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "TAS2R38_variant",
+      "TAS1R2_variant",
+      "TAS1R3_variant",
+      "GNAT3_variant",
+      "PLCB2_variant",
+      "TRPM5_variant",
+      "SCNN1A_variant"
+    ],
+    "molecules": [
+      "IP3",
+      "DAG",
+      "calcium_ion",
+      "PLCB2_protein",
+      "GNAT3_protein",
+      "TRPM5_protein",
+      "TAS2R38_protein"
+    ],
+    "cells": [
+      "taste_bud_cell_type_I",
+      "taste_bud_cell_type_II",
+      "taste_bud_cell_type_III",
+      "gustatory_neuron_in_taste_pathway"
+    ],
+    "circuits": [
+      "solitary_nucleus_activation",
+      "ventral_posterior_medial_thalamus_activation",
+      "insula_cortex_activation",
+      "orbitofrontal_cortex_activation",
+      "gustatory_cortex_activation"
+    ],
+    "physiology": [
+      "gustatory_threshold_concentration_M",
+      "gustatory_evoked_potentials_latency_ms",
+      "gustatory_evoked_potentials_amplitude_uV",
+      "saliva_pH_level"
+    ],
+    "behavior": [
+      "taste_identification_accuracy_percent",
+      "taste_identification_reaction_time_ms",
+      "number_of_correct_identifications",
+      "errors_in_taste_identification"
+    ],
+    "self_report": [
+      "subjective_taste_identification_difficulty",
+      "subjective_taste_identification_confidence",
+      "perceived_taste_identification_impairment_frequency"
+    ]
+  },
+  "estimated_prevalence_percent": 6.0
+}

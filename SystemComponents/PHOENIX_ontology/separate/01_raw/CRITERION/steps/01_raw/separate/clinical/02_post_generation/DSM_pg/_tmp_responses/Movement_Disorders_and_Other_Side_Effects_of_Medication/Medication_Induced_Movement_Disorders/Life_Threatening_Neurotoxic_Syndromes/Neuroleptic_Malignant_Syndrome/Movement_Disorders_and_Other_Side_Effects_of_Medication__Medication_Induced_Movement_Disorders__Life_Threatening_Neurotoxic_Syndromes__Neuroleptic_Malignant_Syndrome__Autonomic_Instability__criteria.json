@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "TACHYCARDIA"
+    },
+    {
+      "criterium": "HYPERTHERMIA"
+    },
+    {
+      "criterium": "DIAPHORESIS"
+    },
+    {
+      "criterium": "LABILE_BLOOD_PRESSURE"
+    },
+    {
+      "criterium": "TACHYPNEA"
+    },
+    {
+      "criterium": "LEAD_PIPE_RIGIDITY"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

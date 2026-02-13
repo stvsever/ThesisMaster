@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "loss_of_control_over_UPF_intake"
+    },
+    {
+      "criterium": "craving_for_UPF"
+    },
+    {
+      "criterium": "increased_tolerance_to_UPF"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_UPF_cessation"
+    },
+    {
+      "criterium": "preoccupation_with_UPF"
+    },
+    {
+      "criterium": "repeated_failed_attempts_to_reduce_UPF_intake"
+    },
+    {
+      "criterium": "continued_UPF_use_despite_adverse_consequences"
+    },
+    {
+      "criterium": "time_spent_on_UPF_related_thoughts"
+    },
+    {
+      "criterium": "impairment_in_social_or_occupational_function_due_to_UPF_use"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

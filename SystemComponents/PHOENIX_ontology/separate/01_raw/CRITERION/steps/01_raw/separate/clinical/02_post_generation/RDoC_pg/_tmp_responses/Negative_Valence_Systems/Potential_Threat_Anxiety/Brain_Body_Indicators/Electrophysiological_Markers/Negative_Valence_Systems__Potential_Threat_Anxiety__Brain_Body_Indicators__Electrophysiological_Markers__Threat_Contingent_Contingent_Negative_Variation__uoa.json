@@ -1,0 +1,46 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M",
+      "COMT_V158M",
+      "FKBP5_rs1360780",
+      "CACNA1C_rs1006737",
+      "SLC6A4_HTTLPR"
+    ],
+    "molecules": [
+      "CORTISOL",
+      "NOREPINEPHRINE",
+      "DOPAMINE",
+      "GLUTAMATE",
+      "GABA"
+    ],
+    "cells": [
+      "PFC_pyramidal_neuron_density",
+      "ACC_pyramidal_neuron_density",
+      "GABAergic_interneuron_density",
+      "SMA_neuron_density"
+    ],
+    "circuits": [
+      "DLPFC_SMA_connectivity",
+      "DLPFC_Amygdala_connectivity",
+      "ACC_SMA_connectivity",
+      "Frontoparietal_network_connectivity",
+      "Cortico_subcortical_thalamo_connectivity"
+    ],
+    "physiology": [
+      "CNV_AMPLITUDE_MICROV",
+      "CNV_LATENCY_MS"
+    ],
+    "behavior": [
+      "REACTION_TIME_MS",
+      "ANTICIPATORY_MOTOR_RESPONSE_LATENCY_MS",
+      "MOTOR_PREPARATION_ONSET_MS"
+    ],
+    "self_report": [
+      "STATE_ANXIETY_SCORE",
+      "THREAT_EXPECTANCY_RATING",
+      "STAI_STATE_SCORE"
+    ]
+  },
+  "estimated_prevalence_percent": 8.4
+}

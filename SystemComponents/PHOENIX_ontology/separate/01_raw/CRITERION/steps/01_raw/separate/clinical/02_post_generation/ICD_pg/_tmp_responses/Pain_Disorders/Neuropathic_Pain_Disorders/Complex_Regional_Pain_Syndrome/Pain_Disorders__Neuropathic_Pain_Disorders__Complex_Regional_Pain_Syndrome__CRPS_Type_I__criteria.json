@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "spontaneous_pain_in_affected_extremity"
+    },
+    {
+      "criterium": "allodynia_in_affected_extremity"
+    },
+    {
+      "criterium": "hyperalgesia_in_affected_extremity"
+    },
+    {
+      "criterium": "edema_in_affected_extremity"
+    },
+    {
+      "criterium": "temperature_asymmetry_in_affected_extremity"
+    },
+    {
+      "criterium": "skin_color_change_in_affected_extremity"
+    },
+    {
+      "criterium": "sweating_abnormality_in_affected_extremity"
+    },
+    {
+      "criterium": "nail_changes_in_affected_extremity"
+    },
+    {
+      "criterium": "hair_changes_in_affected_extremity"
+    },
+    {
+      "criterium": "decreased_rom_in_affected_extremity"
+    },
+    {
+      "criterium": "muscle_wasting_in_affected_extremity"
+    },
+    {
+      "criterium": "dystonia_in_affected_extremity"
+    },
+    {
+      "criterium": "tremor_in_affected_extremity"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

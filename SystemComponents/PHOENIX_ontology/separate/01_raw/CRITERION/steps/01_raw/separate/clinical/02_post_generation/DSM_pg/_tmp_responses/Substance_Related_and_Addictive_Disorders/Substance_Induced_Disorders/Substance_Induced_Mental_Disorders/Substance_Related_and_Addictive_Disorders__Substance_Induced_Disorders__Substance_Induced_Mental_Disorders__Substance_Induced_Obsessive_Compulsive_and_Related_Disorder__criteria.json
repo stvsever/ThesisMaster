@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "contamination_obsessions"
+    },
+    {
+      "criterium": "washing_compulsions"
+    },
+    {
+      "criterium": "checking_compulsions"
+    },
+    {
+      "criterium": "symmetry_ordering_obsessions"
+    },
+    {
+      "criterium": "ordering_compulsions"
+    },
+    {
+      "criterium": "intrusive_aggressive_or_sexual_thoughts_obsessions"
+    },
+    {
+      "criterium": "mental_compulsions"
+    },
+    {
+      "criterium": "counting_compulsions"
+    },
+    {
+      "criterium": "reassurance_seeking_compulsions"
+    },
+    {
+      "criterium": "skin_picking_compulsions"
+    },
+    {
+      "criterium": "hair_pulling_behaviours"
+    },
+    {
+      "criterium": "hoarding_behaviors"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

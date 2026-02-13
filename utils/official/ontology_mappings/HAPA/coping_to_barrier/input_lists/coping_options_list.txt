@@ -1,0 +1,64 @@
+[COPING_STRATEGIES]
+└─ Assessment_and_Formulation
+  └─ Functional_Analysis (ID:0)
+  └─ Self_Insight_Prompts (ID:1)
+  └─ Monitoring_and_Tracking (ID:2)
+  └─ Risk_and_Safety_Assessment (ID:3)
+  └─ Clarification_and_Summary (ID:4)
+└─ Planning_and_Implementation
+  └─ Goal_Setting_and_Prioritization (ID:5)
+  └─ Action_Planning (ID:6)
+  └─ Coping_Planning (ID:7)
+  └─ Precommitment_and_Commitment (ID:8)
+  └─ Care_Coordination_and_Navigation (ID:9)
+└─ Environment_and_Context_Engineering
+  └─ Stimulus_Control (ID:10)
+  └─ Context_Selection (ID:11)
+  └─ Digital_Environment_Design (ID:12)
+  └─ Social_Environment_Engineering (ID:13)
+  └─ Accessibility_and_Accommodations (ID:14)
+└─ Action_Initiation_and_Activation
+  └─ Starting_Skills (ID:15)
+  └─ Procrastination_and_Avoidance_Tools (ID:16)
+  └─ Behavioral_Activation (ID:17)
+  └─ Exposure_and_Approach (ID:18)
+  └─ Energy_and_Fatigue_Support (ID:19)
+└─ Self_Regulation_and_Action_Control
+  └─ Self_Monitoring (ID:20)
+  └─ Standards_and_Goals (ID:21)
+  └─ Inhibition_and_Urges (ID:22)
+  └─ Attention_and_Focus (ID:23)
+  └─ Decision_Support (ID:24)
+  └─ Error_Correction_and_Adjustment (ID:25)
+└─ Cognitive_Strategies
+  └─ Reappraisal_and_Reframing (ID:26)
+  └─ Self_Talk_and_Identity (ID:27)
+  └─ Prospection_and_Visualization (ID:28)
+  └─ Defusion_and_Metacognition (ID:29)
+  └─ Problem_Solving_and_Cognitive_Skills (ID:30)
+└─ Emotion_Regulation_and_Distress_Tolerance
+  └─ Downregulation_Skills (ID:31)
+  └─ Distress_Tolerance_DBT_Tools (ID:32)
+  └─ Self_Compassion_and_Shame (ID:33)
+  └─ Upregulation_and_Positive_Affect (ID:34)
+  └─ Sleep_and_Stress_Physiology (ID:35)
+└─ Social_Support_and_Communication
+  └─ Support_Activation (ID:36)
+  └─ Boundaries_and_Pressure (ID:37)
+  └─ Interpersonal_Effectiveness_Skills (ID:38)
+  └─ Disclosure_and_Stigma_Management (ID:39)
+└─ Reinforcement_and_Enjoyment
+  └─ Reward_Design (ID:40)
+  └─ Enjoyment_and_Novelty (ID:41)
+  └─ Habit_and_Routine (ID:42)
+  └─ Meaning_and_Values_Connection (ID:43)
+└─ Recovery_and_Relapse_Prevention
+  └─ Restart_and_Repair (ID:44)
+  └─ Learning_From_Slips (ID:45)
+  └─ Relapse_Prevention_Structures (ID:46)
+  └─ Self_Compassionate_Accountability (ID:47)
+└─ Crisis_and_Overwhelm_Support
+  └─ Safety_and_Stabilization (ID:48)
+  └─ Acute_Deescalation_Tools (ID:49)
+  └─ Care_Navigation (ID:50)
+  └─ Post_Crisis_Stabilization (ID:51)

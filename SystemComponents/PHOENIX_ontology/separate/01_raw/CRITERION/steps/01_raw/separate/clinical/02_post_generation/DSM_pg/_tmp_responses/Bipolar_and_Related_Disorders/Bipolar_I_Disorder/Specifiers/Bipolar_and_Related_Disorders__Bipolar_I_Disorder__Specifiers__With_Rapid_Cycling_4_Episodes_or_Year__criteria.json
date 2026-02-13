@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "rapid_mood_switching_between_manic_hypomanic_and_depressive_states"
+    },
+    {
+      "criterium": "high_frequency_of_mood_episodes"
+    },
+    {
+      "criterium": "manic_or_hypomanic_episodes_present"
+    },
+    {
+      "criterium": "major_depressive_episodes_present"
+    },
+    {
+      "criterium": "psychotic_symptoms_during_episodes"
+    },
+    {
+      "criterium": "antidepressant_induced_cycling_present"
+    },
+    {
+      "criterium": "irritability_or_agitation_during_episodes"
+    },
+    {
+      "criterium": "pressured_speech_or_racing_thoughts_during_episodes"
+    },
+    {
+      "criterium": "impulsivity_or_risky_behaviors_during_episodes"
+    },
+    {
+      "criterium": "suicidal_ideation_or_attempts_during_episodes"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

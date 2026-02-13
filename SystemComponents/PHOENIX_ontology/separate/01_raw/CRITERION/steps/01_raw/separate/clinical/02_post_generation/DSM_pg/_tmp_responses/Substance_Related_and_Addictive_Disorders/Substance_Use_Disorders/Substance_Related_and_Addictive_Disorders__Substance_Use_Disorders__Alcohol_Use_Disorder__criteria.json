@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "LARGER_AMOUNT_THAN_INTENDED"
+    },
+    {
+      "criterium": "UNSUCCESSFUL_CUT_DOWN_ATTEMPTS"
+    },
+    {
+      "criterium": "TIME_SPENT_OBTAINING_USING_RECOVERING"
+    },
+    {
+      "criterium": "CRAVING_URGE_TO_USE_ALCOHOL"
+    },
+    {
+      "criterium": "FAILURE_TO_FULFILL_MAJOR_ROLE_OBLIGATIONS"
+    },
+    {
+      "criterium": "SOCIAL_INTERPERSONAL_PROBLEMS_CAUSED_BY_ALCOHOL"
+    },
+    {
+      "criterium": "RELINQUISHMENT_OF_RECREATIONAL_ACTIVITIES"
+    },
+    {
+      "criterium": "ALCOHOL_USE_IN_HAZARDOUS_SITUATIONS"
+    },
+    {
+      "criterium": "CONTINUED_USE_DESPITE_HEALTH_PROBLEMS"
+    },
+    {
+      "criterium": "TOLERANCE_DEVELOPMENT"
+    },
+    {
+      "criterium": "ALCOHOL_WITHDRAWAL_SYMPTOMS"
+    },
+    {
+      "criterium": "DRINKING_TO_RELIEVE_WITHDRAWAL"
+    }
+  ],
+  "estimated_prevalence_percent": 5.1
+}

@@ -1,0 +1,60 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD1",
+      "DRD2",
+      "DRD3",
+      "SLC6A3",
+      "COMT",
+      "BDNF"
+    ],
+    "molecules": [
+      "Dopamine",
+      "Glutamate",
+      "GABA",
+      "BDNF",
+      "cAMP",
+      "D1_receptor_binding",
+      "D2_receptor_binding"
+    ],
+    "cells": [
+      "D1_MSN",
+      "D2_MSN",
+      "PFC_pyramidal_neuron",
+      "NAcc_MSN_D1",
+      "NAcc_MSN_D2",
+      "Striatal_cholinergic_interneurons"
+    ],
+    "circuits": [
+      "Frontostriatal_circuit",
+      "DLPFC_NAcc_connectivity",
+      "VTA_NAcc_dopaminergic_projection",
+      "OFC_DLPFC_interaction",
+      "Prefrontal_striatal_projection",
+      "Striatal_direct_pathway_loop"
+    ],
+    "physiology": [
+      "BOLD_activation_frontostriatal",
+      "Dopamine_release_in_striatum",
+      "Heart_rate_variability_reward_task",
+      "Pupil_dilation_reward_anticipation",
+      "Skin_conductance_response_reward",
+      "Respiration_rate_change_reward"
+    ],
+    "behavior": [
+      "mean_reaction_time_reward_trials",
+      "reward_task_accuracy",
+      "number_of_rewards_collected_in_task",
+      "task_completion_rate_reward_state",
+      "inter_trial_reaction_time_variability",
+      "response_bias_to_reward"
+    ],
+    "self_report": [
+      "Reward_reactivity_scale",
+      "Motivation_to_reward_scale",
+      "Pleasure_sensitivity_scale",
+      "Reward_value_assessment_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

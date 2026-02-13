@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "REM_MOTOR_ACTIVATION_DURING_REM_SLEEP"
+    },
+    {
+      "criterium": "DREAM_ENACTMENT_BEHAVIOR_DURING_REM_SLEEP"
+    },
+    {
+      "criterium": "PUNCHING_MOVEMENTS_DURING_REM_SLEEP"
+    },
+    {
+      "criterium": "KICKING_MOVEMENTS_DURING_REM_SLEEP"
+    },
+    {
+      "criterium": "GRABBING_MOVEMENTS_DURING_REM_SLEEP"
+    },
+    {
+      "criterium": "FIGHTING_MOVEMENTS_DURING_REM_SLEEP"
+    },
+    {
+      "criterium": "SLEEP_VOCALIZATIONS_DURING_REM_SLEEP"
+    },
+    {
+      "criterium": "INJURY_TO_SELF_OR_BED_PARTNER_DURING_SLEEP"
+    },
+    {
+      "criterium": "ONSET_TIMING_ASSOCIATED_WITH_ANTIDEPRESSANT_USE"
+    },
+    {
+      "criterium": "REM_ATONIA_REDUCTION_DETECTED_ON_POLYSOMNOGRAPHY"
+    },
+    {
+      "criterium": "INCREASED_EPISODES_WITH_DOSE_CHANGE_OF_ANTIDEPRESSANT"
+    },
+    {
+      "criterium": "ANTIDEPRESSANT_ASSOCIATED_REM_SLEEP_EPISODE_PRESENT"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

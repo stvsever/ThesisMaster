@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_abdominal_pain"
+    },
+    {
+      "criterium": "nausea_vomiting"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "hyponatremia_signs"
+    },
+    {
+      "criterium": "proximal_motor_paresis"
+    },
+    {
+      "criterium": "peripheral_neuropathy"
+    },
+    {
+      "criterium": "autonomic_dysfunction"
+    },
+    {
+      "criterium": "delirium_state"
+    },
+    {
+      "criterium": "psychosis_manifestation"
+    },
+    {
+      "criterium": "seizures"
+    },
+    {
+      "criterium": "dark_urine_color"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.001
+}

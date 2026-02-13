@@ -1,0 +1,21 @@
+{
+  "domain_path": "PSYCHO / Foundations_and_Common_Factors / Psychoeducation_Modules",
+  "domain_root_path": [
+    "PSYCHO",
+    "Foundations_and_Common_Factors",
+    "Psychoeducation_Modules"
+  ],
+  "leaf_count": 128,
+  "total_edges_in_subtree": 159,
+  "evaluated_pairs": 159,
+  "violations_count": 0,
+  "violation_rate": 0.0,
+  "llm_calls": 2,
+  "violations": [],
+  "violations_with_paths": [],
+  "cache_key": "a3d184dbdabc0853c22469b3062e73aa8160a950",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 42.007
+}

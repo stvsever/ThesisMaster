@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "erectile_rigidity_reduction_in_partnered_performance_context"
+    },
+    {
+      "criterium": "adequate_erection_with_masturbation_or_non_coital_stimulation"
+    },
+    {
+      "criterium": "preserved_sleep_related_erections"
+    },
+    {
+      "criterium": "erectile_dysfunction_exclusively_in_partnered_performance_contexts"
+    },
+    {
+      "criterium": "rapid_loss_of_erection_after_penetrative_attempt_in_specific_contexts"
+    },
+    {
+      "criterium": "delayed_onset_of_erection_in_partnered_contexts"
+    },
+    {
+      "criterium": "inconsistent_erection_quality_across_situations"
+    }
+  ],
+  "estimated_prevalence_percent": 5.4
+}

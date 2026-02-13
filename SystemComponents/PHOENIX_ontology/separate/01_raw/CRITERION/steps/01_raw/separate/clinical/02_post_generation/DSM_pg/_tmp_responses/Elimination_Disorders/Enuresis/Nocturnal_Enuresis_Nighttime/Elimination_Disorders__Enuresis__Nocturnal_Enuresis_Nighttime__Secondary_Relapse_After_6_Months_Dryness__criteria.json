@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_enuresis_present"
+    },
+    {
+      "criterium": "nocturnal_enuresis_episodes_per_week"
+    },
+    {
+      "criterium": "nocturnal_enuresis_episodes_per_night"
+    },
+    {
+      "criterium": "enuresis_during_sleep_without_awakening"
+    },
+    {
+      "criterium": "dream_related_enuresis_occurrence"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_enuresis"
+    },
+    {
+      "criterium": "enuresis_emotional_distress_related_to_relapse"
+    },
+    {
+      "criterium": "family_or_social_impairment_due_to_enuresis"
+    },
+    {
+      "criterium": "enuresis_related_anxiety_or_embarrassment"
+    },
+    {
+      "criterium": "school_or_work_performance_impairment_due_to_enuresis"
+    }
+  ],
+  "estimated_prevalence_percent": 1.8
+}

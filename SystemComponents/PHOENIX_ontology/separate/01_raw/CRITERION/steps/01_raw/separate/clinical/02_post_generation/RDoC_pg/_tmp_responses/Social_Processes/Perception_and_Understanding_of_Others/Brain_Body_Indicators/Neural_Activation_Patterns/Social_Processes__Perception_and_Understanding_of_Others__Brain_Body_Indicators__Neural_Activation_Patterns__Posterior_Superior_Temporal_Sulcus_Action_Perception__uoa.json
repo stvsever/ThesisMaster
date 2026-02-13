@@ -1,0 +1,27 @@
+{
+  "units_of_analysis": {
+    "genes": null,
+    "molecules": null,
+    "cells": null,
+    "circuits": [
+      "pSTS_BOLD_activation_to_action_stimuli",
+      "pSTS_BOLD_time_to_peak_action_stimuli",
+      "pSTS_functional_connectivity_with_mirror_neuron_network",
+      "STS_network_interhemispheric_connectivity_during_action_perception"
+    ],
+    "physiology": [
+      "heart_rate_reactivity_during_action_perception",
+      "skin_conductance_reactivity_during_action_perception"
+    ],
+    "behavior": [
+      "action_perception_accuracy",
+      "reaction_time_action_perception_task",
+      "action_intention_inference_accuracy"
+    ],
+    "self_report": [
+      "self_report_social_action_perception_ability",
+      "self_report_confidence_in_action_identification"
+    ]
+  },
+  "estimated_prevalence_percent": 2.8
+}

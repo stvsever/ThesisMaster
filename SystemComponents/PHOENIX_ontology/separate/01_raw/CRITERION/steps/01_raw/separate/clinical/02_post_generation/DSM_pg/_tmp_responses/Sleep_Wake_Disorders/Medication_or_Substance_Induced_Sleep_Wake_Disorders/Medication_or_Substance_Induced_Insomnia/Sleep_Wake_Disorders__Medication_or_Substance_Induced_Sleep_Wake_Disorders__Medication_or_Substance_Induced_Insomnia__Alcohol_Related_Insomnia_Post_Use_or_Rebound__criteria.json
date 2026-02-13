@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delayed_sleep_onset_latency_post_alcohol"
+    },
+    {
+      "criterium": "reduced_sleep_efficiency_post_alcohol"
+    },
+    {
+      "criterium": "increased_wake_after_sleep_onset_post_alcohol"
+    },
+    {
+      "criterium": "increased_nighttime_awakings_post_alcohol"
+    },
+    {
+      "criterium": "early_morning_awakening_post_alcohol"
+    },
+    {
+      "criterium": "decreased_total_sleep_time_post_alcohol"
+    },
+    {
+      "criterium": "REM_sleep_rebound_post_alcohol"
+    },
+    {
+      "criterium": "sleep_fragmentation_post_alcohol"
+    },
+    {
+      "criterium": "increased_daytime_sleepiness_post_alcohol"
+    },
+    {
+      "criterium": "nocturnal_anxiety_post_alcohol"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

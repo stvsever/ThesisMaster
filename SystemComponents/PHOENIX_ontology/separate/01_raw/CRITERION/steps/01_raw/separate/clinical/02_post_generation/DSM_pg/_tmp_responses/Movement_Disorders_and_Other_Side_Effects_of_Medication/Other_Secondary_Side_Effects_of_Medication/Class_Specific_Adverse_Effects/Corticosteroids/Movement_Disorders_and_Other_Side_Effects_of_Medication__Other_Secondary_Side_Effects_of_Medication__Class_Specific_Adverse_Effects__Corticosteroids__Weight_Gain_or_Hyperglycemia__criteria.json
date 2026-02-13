@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "weight_gain_kg"
+    },
+    {
+      "criterium": "bmi_increase_from_baseline"
+    },
+    {
+      "criterium": "waist_circumference_increase_cm"
+    },
+    {
+      "criterium": "moon_facies_presence"
+    },
+    {
+      "criterium": "buffalo_hump_presence"
+    },
+    {
+      "criterium": "central_obesity_presence"
+    },
+    {
+      "criterium": "increased_appetite_presence"
+    },
+    {
+      "criterium": "fasting_plasma_glucose_mg_per_dl"
+    },
+    {
+      "criterium": "fasting_plasma_glucose_ge_126_mg_per_dl"
+    },
+    {
+      "criterium": "random_plasma_glucose_ge_200_mg_per_dl"
+    },
+    {
+      "criterium": "hba1c_percent_ge_6_5"
+    },
+    {
+      "criterium": "glycosuria_presence"
+    },
+    {
+      "criterium": "peripheral_edema_presence"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

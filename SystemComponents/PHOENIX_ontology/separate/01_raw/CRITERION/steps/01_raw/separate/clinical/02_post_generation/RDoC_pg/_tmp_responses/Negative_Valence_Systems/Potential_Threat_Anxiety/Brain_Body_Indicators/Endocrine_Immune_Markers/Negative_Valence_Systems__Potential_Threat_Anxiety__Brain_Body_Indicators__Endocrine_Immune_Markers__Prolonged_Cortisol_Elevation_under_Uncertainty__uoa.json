@@ -1,0 +1,59 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "NR3C1",
+      "FKBP5",
+      "CRH",
+      "CRHR1",
+      "HSD11B1",
+      "CRHR2"
+    ],
+    "molecules": [
+      "cortisol",
+      "ACTH",
+      "CRH",
+      "IL6",
+      "CRP",
+      "TNF_alpha",
+      "DHEA_S"
+    ],
+    "cells": [
+      "PBMCs",
+      "lymphocytes",
+      "monocytes",
+      "neutrophils",
+      "nk_cells"
+    ],
+    "circuits": [
+      "amygdala",
+      "hippocampus",
+      "dorsolateral_prefrontal_cortex",
+      "ventromedial_prefrontal_cortex",
+      "bed_nucleus_of_stria_terminalis",
+      "paraventricular_nucleus_of_hypothalamus"
+    ],
+    "physiology": [
+      "basal_serum_cortisol",
+      "salivary_cortisol",
+      "diurnal_cortisol_slope",
+      "cortisol_reactivity_to_stressor",
+      "ACTH_serum",
+      "DHEA_S_serum"
+    ],
+    "behavior": [
+      "startle_response_amplitude",
+      "avoidance_behavior_frequency",
+      "hypervigilance_frequency",
+      "sleep_disturbance_frequency",
+      "somatic_symptom_expression_frequency"
+    ],
+    "self_report": [
+      "state_anxiety_rating",
+      "perceived_threat_uncertainty_rating",
+      "sleep_quality_rating",
+      "somatic_symptom_report",
+      "overall_wellbeing_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 8.0
+}

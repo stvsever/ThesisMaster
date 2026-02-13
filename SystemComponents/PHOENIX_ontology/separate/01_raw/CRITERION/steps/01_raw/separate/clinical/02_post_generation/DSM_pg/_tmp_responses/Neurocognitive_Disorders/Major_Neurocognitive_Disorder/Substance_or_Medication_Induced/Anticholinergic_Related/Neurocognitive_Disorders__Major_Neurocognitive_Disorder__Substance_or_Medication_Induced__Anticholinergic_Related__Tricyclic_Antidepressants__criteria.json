@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delirium"
+    },
+    {
+      "criterium": "attention_impairment"
+    },
+    {
+      "criterium": "short_term_memory_impairment"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "visuospatial_disorientation"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "delusions"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

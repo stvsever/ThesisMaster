@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "persecutory_delusions"
+    },
+    {
+      "criterium": "delusions_of_reference"
+    },
+    {
+      "criterium": "delusions_of_grandeur"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "disorganized_thought_content"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "catatonic_features"
+    },
+    {
+      "criterium": "agitation"
+    },
+    {
+      "criterium": "bizarre_behaviors"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0015
+}

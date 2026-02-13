@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "low_serum_copper"
+    },
+    {
+      "criterium": "low_ceruloplasmin"
+    },
+    {
+      "criterium": "neutropenia"
+    },
+    {
+      "criterium": "anemia_present"
+    },
+    {
+      "criterium": "sensory_neuropathy"
+    },
+    {
+      "criterium": "motor_neuropathy"
+    },
+    {
+      "criterium": "spastic_gait"
+    },
+    {
+      "criterium": "gait_ataxia"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "mood_disturbance"
+    }
+  ],
+  "estimated_prevalence_percent": 0.005
+}

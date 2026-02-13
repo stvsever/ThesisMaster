@@ -1,0 +1,29 @@
+{
+  "domain_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Recovery_and_Regeneration_Supports",
+  "domain_root_path": [
+    "BIO",
+    "Movement_Physical_Function_and_Somatic_Care",
+    "Recovery_and_Regeneration_Supports"
+  ],
+  "leaf_count": 7,
+  "total_edges_in_subtree": 9,
+  "evaluated_pairs": 9,
+  "violations_count": 1,
+  "violation_rate": 0.1111111111111111,
+  "llm_calls": 1,
+  "violations": [
+    "Hydration_and_Electrolytes_For_Recovery > Tart_Cherry_Extract"
+  ],
+  "violations_with_paths": [
+    {
+      "pair": "Hydration_and_Electrolytes_For_Recovery > Tart_Cherry_Extract",
+      "parent_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Recovery_and_Regeneration_Supports / Hydration_and_Electrolytes_For_Recovery",
+      "child_path": "BIO / Movement_Physical_Function_and_Somatic_Care / Recovery_and_Regeneration_Supports / Hydration_and_Electrolytes_For_Recovery / Tart_Cherry_Extract"
+    }
+  ],
+  "cache_key": "f34d23581a4d07fe3bd5bbd3b1237f37e8a8d6d0",
+  "config_fingerprint": "3f452adcb43fce12d15de6288dd057c7d6dc55a6",
+  "status": "ok",
+  "source": "computed",
+  "elapsed_s": 23.902
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "resting_tremor_upper_extremities"
+    },
+    {
+      "criterium": "postural_tremor_upper_extremities"
+    },
+    {
+      "criterium": "kinetic_tremor_hand_finger_movements"
+    },
+    {
+      "criterium": "oromandibular_tremor"
+    },
+    {
+      "criterium": "axial_tremor_neck_trunk"
+    },
+    {
+      "criterium": "distal_limb_tremor"
+    },
+    {
+      "criterium": "asymmetric_tremor_distribution"
+    },
+    {
+      "criterium": "tremor_frequency_3_6_Hz"
+    },
+    {
+      "criterium": "irregular_tremor_amplitude"
+    },
+    {
+      "criterium": "stress_exacerbation_of_tremor"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

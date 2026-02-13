@@ -1,0 +1,55 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "FOXP2_expression_LIFG",
+      "CNTNAP2_variant_rs7794745",
+      "DCDC2_variant_rs2456802",
+      "KIAA0319_variant_rs450045",
+      "ROBO1_variant_rs126803"
+    ],
+    "molecules": [
+      "GABA_LIFG_level",
+      "Glutamate_LIFG_level",
+      "BDNF_LIFG_level",
+      "Dopamine_LIFG_level",
+      "Acetylcholine_LIFG_level"
+    ],
+    "cells": [
+      "Pyramidal_neuron_density_LIFG",
+      "Inhibitory_interneuron_density_LIFG",
+      "Astrocyte_density_LIFG",
+      "Oligodendrocyte_proportion_LIFG",
+      "Synapse_density_LIFG_pyramidal"
+    ],
+    "circuits": [
+      "functional_connectivity_LIFG_Wernicke_Broca_network",
+      "LIFG_SMA_connectivity_production_task",
+      "LIFG_temporal_parietal_connectivity_production",
+      "LIFG_right_hemisphere_inhibition_index",
+      "beta_band_synchrony_LIFG_production_task"
+    ],
+    "physiology": [
+      "BOLD_change_LIFG_production_task",
+      "fNIRS_oxygenation_LIFG_production",
+      "EEG_beta_power_LIFG_production",
+      "MEG_gamma_power_LIFG_production",
+      "cerebral_blood_flow_LIFG_production"
+    ],
+    "behavior": [
+      "speech_latency_ms",
+      "articulatory_rate_wpm",
+      "speech_error_rate",
+      "phoneme_production_accuracy",
+      "word_fluency_score",
+      "pauses_per_phrase"
+    ],
+    "self_report": [
+      "word_finding_difficulty_scale",
+      "articulatory_effort_scale",
+      "speech_fluency_scale",
+      "naming_speed_scale",
+      "production_effort_scale"
+    ]
+  },
+  "estimated_prevalence_percent": 3.5
+}

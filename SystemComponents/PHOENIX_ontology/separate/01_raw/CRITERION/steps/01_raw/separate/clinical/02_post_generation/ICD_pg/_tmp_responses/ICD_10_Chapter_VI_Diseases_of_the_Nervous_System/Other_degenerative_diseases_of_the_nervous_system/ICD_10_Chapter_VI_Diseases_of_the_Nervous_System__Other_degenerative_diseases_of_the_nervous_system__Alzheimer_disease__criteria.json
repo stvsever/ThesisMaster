@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "word_finding_difficulty"
+    },
+    {
+      "criterium": "executive_function_impairment"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "disorientation_time_place"
+    },
+    {
+      "criterium": "ideomotor_apraxia"
+    },
+    {
+      "criterium": "aphasia"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    },
+    {
+      "criterium": "delusions"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "emotional_lability"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

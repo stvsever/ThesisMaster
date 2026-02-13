@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "FEAR_UPON_INSECT_VISUALIZATION"
+    },
+    {
+      "criterium": "ANXIETY_REACTION_TO_INSECT_SOUNDS"
+    },
+    {
+      "criterium": "PHYSIOLOGICAL_AROUSAL_DURING_INSECT_PRESENCE"
+    },
+    {
+      "criterium": "AVOIDANCE_BEHAVIOR_DUE_TO_INSECT_PRESENCE"
+    },
+    {
+      "criterium": "DISTRESS_WITH_THOUGHTS_OF_INSECT"
+    },
+    {
+      "criterium": "IMPAIRMENT_IN_ROUTINE_ACTIVITIES_DUE_TO_INSECT_FEARS"
+    },
+    {
+      "criterium": "SOCIAL_OR_OCCUPATIONAL_WITHDRAWAL_DUE_TO_INSECT_FEARS"
+    },
+    {
+      "criterium": "GENERALIZATION_TO_SIMILAR_INVERTEBRATES"
+    },
+    {
+      "criterium": "SUDDEN_PANIC_ATTACK_ON_INSECT_VISUALIZATION"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

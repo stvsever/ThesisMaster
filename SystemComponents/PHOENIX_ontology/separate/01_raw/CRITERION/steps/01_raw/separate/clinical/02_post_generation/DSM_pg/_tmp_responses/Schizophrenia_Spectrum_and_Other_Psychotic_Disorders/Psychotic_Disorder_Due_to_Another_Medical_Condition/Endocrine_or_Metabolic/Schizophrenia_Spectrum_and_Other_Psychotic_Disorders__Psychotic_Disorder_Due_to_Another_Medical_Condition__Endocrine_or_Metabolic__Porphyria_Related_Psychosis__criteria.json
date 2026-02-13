@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations_present"
+    },
+    {
+      "criterium": "visual_hallucinations_present"
+    },
+    {
+      "criterium": "delusions_of_persecution_present"
+    },
+    {
+      "criterium": "disorganized_thoughts_present"
+    },
+    {
+      "criterium": "disorganized_behavior_present"
+    },
+    {
+      "criterium": "catatonic_features_present"
+    },
+    {
+      "criterium": "cognitive_impairment_present"
+    },
+    {
+      "criterium": "tachycardia_present"
+    },
+    {
+      "criterium": "hypertension_present"
+    },
+    {
+      "criterium": "abdominal_pain_present"
+    },
+    {
+      "criterium": "hyponatremia_present"
+    },
+    {
+      "criterium": "urinary_porphyrin_precursor_elevations_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

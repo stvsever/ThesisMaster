@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tearfulness"
+    },
+    {
+      "criterium": "excessive_worry_or_anxiety"
+    },
+    {
+      "criterium": "irritability_or_aggression"
+    },
+    {
+      "criterium": "depressed_mood"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "fatigue_or_low_energy"
+    },
+    {
+      "criterium": "concentration_difficulty"
+    },
+    {
+      "criterium": "appetite_or_weight_change"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "gastrointestinal_symptoms"
+    },
+    {
+      "criterium": "social_or_professional_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

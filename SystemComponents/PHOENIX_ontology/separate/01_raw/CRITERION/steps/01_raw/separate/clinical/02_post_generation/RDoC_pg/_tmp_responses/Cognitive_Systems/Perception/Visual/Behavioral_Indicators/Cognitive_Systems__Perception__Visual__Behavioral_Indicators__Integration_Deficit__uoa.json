@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_expression_V1",
+      "GRIN2B_expression_V1",
+      "CACNA1A_expression_V1",
+      "CNTNAP2_expression_V1",
+      "OPHN1_expression_V1"
+    ],
+    "molecules": [
+      "glutamate_concentration_V1",
+      "GABA_concentration_V1",
+      "DOPAMINE_level_V1",
+      "NMDA_receptor_density_V1",
+      "acetylcholine_level_V1"
+    ],
+    "cells": [
+      "PV_interneuron_density_V1",
+      "pyramidal_neuron_density_V1",
+      "astrocyte_density_V1",
+      "oligodendrocyte_density_V1"
+    ],
+    "circuits": [
+      "V1_V4_connectivity_strength",
+      "occipito_parietal_network_synchrony",
+      "binding_network_efficiency"
+    ],
+    "physiology": [
+      "visual_gamma_power_V1",
+      "erp_P1_amplitude_V1",
+      "erp_N170_amplitude_V1",
+      "theta_coherence_V1_V2"
+    ],
+    "behavior": [
+      "gestalt_perception_accuracy",
+      "feature_binding_task_accuracy",
+      "change_detection_accuracy_visual",
+      "figure_ground_discrimination_accuracy"
+    ],
+    "self_report": [
+      "visual_integration_difficulty_scale",
+      "binding_difficulty_self_report",
+      "visual_integration_efficiency_self_report"
+    ]
+  },
+  "estimated_prevalence_percent": 4.2
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "basophobia_fear_response_to_fall"
+    },
+    {
+      "criterium": "basophobia_avoidance_of_fall_risk_situations"
+    },
+    {
+      "criterium": "basophobia_anticipatory_anxiety_before_height_or_balance_threat"
+    },
+    {
+      "criterium": "basophobia_physiological_arousal_in_fall_contexts"
+    },
+    {
+      "criterium": "basophobia_panic_like_symptoms_in_fall_scenarios"
+    },
+    {
+      "criterium": "basophobia_safety_behaviors_in_fall_contexts"
+    },
+    {
+      "criterium": "basophobia_catastrophic_misinterpretation_of_fall_consequences"
+    },
+    {
+      "criterium": "basophobia_hypervigilance_to_balance_instability"
+    },
+    {
+      "criterium": "basophobia_impairment_in_social_or_work_functioning_due_to_fall_anxiety"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

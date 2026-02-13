@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nasal_congestion_severity"
+    },
+    {
+      "criterium": "rhinorrhea_presence"
+    },
+    {
+      "criterium": "nasal_pruritus_presence"
+    },
+    {
+      "criterium": "sneezing_frequency"
+    },
+    {
+      "criterium": "facial_pain_maxillary_sinus_tenderness"
+    },
+    {
+      "criterium": "facial_pain_frontal_sinus_tenderness"
+    },
+    {
+      "criterium": "headache_quality_pressing_or_bandlike"
+    },
+    {
+      "criterium": "headache_location_frontal_region"
+    },
+    {
+      "criterium": "nasal_mucosa_edema_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.75
+}

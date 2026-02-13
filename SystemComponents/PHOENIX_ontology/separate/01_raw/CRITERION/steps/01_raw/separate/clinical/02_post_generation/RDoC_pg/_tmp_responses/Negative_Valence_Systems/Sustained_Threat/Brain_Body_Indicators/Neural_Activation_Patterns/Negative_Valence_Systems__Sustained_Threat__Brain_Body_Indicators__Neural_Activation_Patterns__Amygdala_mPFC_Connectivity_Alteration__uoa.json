@@ -1,0 +1,49 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_rs6265_Val66Met",
+      "COMT_rs4680_Val158Met",
+      "FKBP5_rs1360780",
+      "SLC6A4_promoter_5HTTLPR_LS"
+    ],
+    "molecules": [
+      "glutamate_concentration_vmPFC",
+      "GABA_A_receptor_density_amygdala",
+      "BDNF_protein_vmPFC",
+      "CRF_plasma_level"
+    ],
+    "cells": [
+      "vmPFC_pyramidal_neuron_density",
+      "amygdala_intercalated_cell_density",
+      "PV_interneuron_density_vmPFC",
+      "GABAergic_neuron_density_amygdala"
+    ],
+    "circuits": [
+      "amygdala_to_vmPFC_functional_connectivity_strength",
+      "vmPFC_to_amygdala_functional_connectivity_strength",
+      "amygdala_to_vmPFC_effective_connectivity_GCA",
+      "resting_state_amygdala_vmPFC_coupling_zscore"
+    ],
+    "physiology": [
+      "resting_heart_rate",
+      "heart_rate_variability_SDNN",
+      "skin_conductance_response_threat",
+      "pupil_dilation_threat_cue",
+      "salivary_cortisol_concentration",
+      "respiratory_rate_threat_task"
+    ],
+    "behavior": [
+      "threat_related_reaction_time",
+      "startle_response_magnitude_threat",
+      "threat_avoidance_latency",
+      "emotional_reactivity_rating_threat_stimuli"
+    ],
+    "self_report": [
+      "STAI_State",
+      "STAI_Trait",
+      "Beck_Anxiety_Inventory_total",
+      "Fear_of_Threats_Scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.5
+}

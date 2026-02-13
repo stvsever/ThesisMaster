@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood_present"
+    },
+    {
+      "criterium": "irritability_present"
+    },
+    {
+      "criterium": "anhedonia_present"
+    },
+    {
+      "criterium": "apathy_present"
+    },
+    {
+      "criterium": "anxiety_present"
+    },
+    {
+      "criterium": "mood_lability_present"
+    },
+    {
+      "criterium": "psychomotor_changes_present"
+    },
+    {
+      "criterium": "psychotic_symptoms_present"
+    },
+    {
+      "criterium": "manic_features_present"
+    },
+    {
+      "criterium": "executive_function_impairment_present"
+    },
+    {
+      "criterium": "memory_impairment_present"
+    },
+    {
+      "criterium": "chorea_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

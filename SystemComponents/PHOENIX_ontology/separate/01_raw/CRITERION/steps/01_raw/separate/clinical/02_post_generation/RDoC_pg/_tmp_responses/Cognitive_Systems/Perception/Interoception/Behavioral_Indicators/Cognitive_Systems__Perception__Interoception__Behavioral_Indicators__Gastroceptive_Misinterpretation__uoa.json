@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_mRNA_in_gut_afferent_neurons",
+      "BDNF_V66M_genotype",
+      "SLC6A4_5HTTLPR_genotype"
+    ],
+    "molecules": [
+      "ghrelin_serum_concentration",
+      "leptin_serum_concentration",
+      "CRF_plasma_level",
+      "serotonin_serum_level",
+      "IL6_serum_level"
+    ],
+    "cells": [
+      "enteric_neuron_density_submucosal_ganglia",
+      "vagal_afferent_fiber_density",
+      "intrinsic_enteric_neuron_count_submucosa",
+      "visceral_afferent_neuron_density"
+    ],
+    "circuits": [
+      "insula_activation_to_gastric_distension",
+      "ACC_activation_to_gastric_distension",
+      "S1_activation_to_gastric_distension",
+      "insula_ACC_functional_connectivity_to_gastric_inputs"
+    ],
+    "physiology": [
+      "EGG_amplitude",
+      "HRV_response_to_gastric_distension",
+      "skin_conductance_response_to_gastric_distension",
+      "pupil_dilation_to_gastric_distension"
+    ],
+    "behavior": [
+      "overinterpretation_of_gastric_cues",
+      "hypervigilance_to_bodily_signals",
+      "gastric_sensation_misattribution_behavior",
+      "exaggerated_gastric_sensation_discomfort_behavior"
+    ],
+    "self_report": [
+      "gastroceptive_anxiety_scale_score",
+      "interoceptive_hypervigilance_scale_score",
+      "interoceptive_accuracy_questionnaire_score",
+      "gastric_symptom_misattribution_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 7.2
+}

@@ -1,0 +1,50 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "OXTR_gene_expression",
+      "CD38_gene_expression",
+      "OXTR_rs53576_genotype",
+      "AVPR1A_gene_expression",
+      "COMT_val158_met_genotype"
+    ],
+    "molecules": [
+      "oxytocin_plasma_concentration",
+      "vasopressin_plasma_concentration",
+      "cortisol_plasma_concentration",
+      "testosterone_plasma_concentration",
+      "endorphin_plasma_concentration"
+    ],
+    "cells": null,
+    "circuits": [
+      "amygdala_activation",
+      "anterior_insula_activation",
+      "anterior_cingulate_activation",
+      "temporoparietal_junction_activation",
+      "medial_prefrontal_cortex_activation",
+      "mirror_neuron_system_activation"
+    ],
+    "physiology": [
+      "heart_rate_response_to_emotional_stimuli",
+      "skin_conductance_response_to_emotional_stimuli",
+      "pupil_dilation_to_social_emotion_stimuli",
+      "respiratory_rate_change_during_empathic_stimuli",
+      "heart_rate_variability_high_frequency"
+    ],
+    "behavior": [
+      "empathic_accuracy_percent",
+      "emotional_resonance_score",
+      "face_mimicry_rate_per_min",
+      "emotional_synchrony_index",
+      "perspective_taking_latency_ms",
+      "empathy_task_reaction_time_ms"
+    ],
+    "self_report": [
+      "self_report_empathic_responsivity_loss_rating",
+      "self_report_empathy_sensitivity_rating",
+      "self_report_perspective_taking_rating",
+      "self_report_emotional_resonance_rating",
+      "self_report_empathic_concern_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

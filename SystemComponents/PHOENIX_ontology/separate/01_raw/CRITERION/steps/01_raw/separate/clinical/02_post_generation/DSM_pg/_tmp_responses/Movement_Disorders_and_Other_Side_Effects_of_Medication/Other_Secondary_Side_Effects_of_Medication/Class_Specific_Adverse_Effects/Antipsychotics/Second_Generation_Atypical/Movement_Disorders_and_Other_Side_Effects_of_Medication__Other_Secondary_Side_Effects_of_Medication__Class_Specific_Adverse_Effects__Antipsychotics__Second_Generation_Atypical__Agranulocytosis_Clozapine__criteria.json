@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ANC_lt_0p5x10_9_per_L"
+    },
+    {
+      "criterium": "WBC_lt_3p5x10_9_per_L"
+    },
+    {
+      "criterium": "Fever_ge_38C"
+    },
+    {
+      "criterium": "Sore_throat_present"
+    },
+    {
+      "criterium": "Oropharyngeal_ulcers_present"
+    },
+    {
+      "criterium": "Fatigue_present"
+    },
+    {
+      "criterium": "Malaise_present"
+    },
+    {
+      "criterium": "Chills_present"
+    },
+    {
+      "criterium": "Oral_candidiasis_present"
+    },
+    {
+      "criterium": "Lymphadenopathy_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.7
+}

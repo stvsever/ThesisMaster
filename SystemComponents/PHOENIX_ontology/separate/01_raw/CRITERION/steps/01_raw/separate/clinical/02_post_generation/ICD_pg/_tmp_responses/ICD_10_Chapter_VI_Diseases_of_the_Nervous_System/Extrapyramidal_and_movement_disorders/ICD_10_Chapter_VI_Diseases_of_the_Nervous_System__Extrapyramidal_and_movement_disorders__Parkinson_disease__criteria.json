@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "resting_tremor"
+    },
+    {
+      "criterium": "bradykinesia"
+    },
+    {
+      "criterium": "rigidity"
+    },
+    {
+      "criterium": "postural_instability"
+    },
+    {
+      "criterium": "shuffling_gait"
+    },
+    {
+      "criterium": "facial_masking"
+    },
+    {
+      "criterium": "micrographia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "bradyphrenia"
+    },
+    {
+      "criterium": "executive_dysfunction"
+    },
+    {
+      "criterium": "visuospatial_deficit"
+    },
+    {
+      "criterium": "depression_symptoms"
+    },
+    {
+      "criterium": "REM_sleep_behavior_disorder"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

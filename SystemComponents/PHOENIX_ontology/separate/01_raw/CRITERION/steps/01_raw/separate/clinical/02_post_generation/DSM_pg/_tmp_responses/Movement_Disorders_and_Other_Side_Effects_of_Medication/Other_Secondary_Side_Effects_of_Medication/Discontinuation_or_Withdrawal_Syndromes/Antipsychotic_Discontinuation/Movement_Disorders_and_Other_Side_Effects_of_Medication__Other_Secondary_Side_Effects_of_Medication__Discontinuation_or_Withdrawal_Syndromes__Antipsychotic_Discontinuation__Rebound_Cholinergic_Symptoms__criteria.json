@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "lacrimation"
+    },
+    {
+      "criterium": "sialorrhea"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "miosis"
+    },
+    {
+      "criterium": "bradycardia"
+    },
+    {
+      "criterium": "abdominal_cramps"
+    },
+    {
+      "criterium": "diarrhea"
+    },
+    {
+      "criterium": "increased_gi_peristalsis"
+    },
+    {
+      "criterium": "urinary_urgency"
+    },
+    {
+      "criterium": "urinary_frequency"
+    },
+    {
+      "criterium": "bronchorrhea"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

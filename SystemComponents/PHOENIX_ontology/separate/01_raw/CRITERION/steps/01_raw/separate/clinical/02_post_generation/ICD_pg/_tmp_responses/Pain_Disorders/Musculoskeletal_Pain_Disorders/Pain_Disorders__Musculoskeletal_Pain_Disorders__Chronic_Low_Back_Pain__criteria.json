@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "catastrophizing_about_back_pain"
+    },
+    {
+      "criterium": "kinesiophobia_back_pain"
+    },
+    {
+      "criterium": "depressive_symptoms_present"
+    },
+    {
+      "criterium": "anxiety_symptoms_present"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_back_pain"
+    },
+    {
+      "criterium": "fatigue_persistent_related_to_pain"
+    },
+    {
+      "criterium": "attention_concentration_difficulty_related_to_back_pain"
+    },
+    {
+      "criterium": "pain_related_activity_avoidance"
+    },
+    {
+      "criterium": "occupational_impairment_due_to_back_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 6.0
+}

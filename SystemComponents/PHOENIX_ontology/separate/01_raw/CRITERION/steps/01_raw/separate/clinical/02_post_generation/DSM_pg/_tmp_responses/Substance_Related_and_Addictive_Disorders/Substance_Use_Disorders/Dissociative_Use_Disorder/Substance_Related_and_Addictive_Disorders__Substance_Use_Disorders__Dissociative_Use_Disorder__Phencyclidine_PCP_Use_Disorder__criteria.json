@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pcp_craving_intensity"
+    },
+    {
+      "criterium": "pcp_loss_of_control"
+    },
+    {
+      "criterium": "pcp_tolerance_increase"
+    },
+    {
+      "criterium": "pcp_withdrawal_symptoms"
+    },
+    {
+      "criterium": "pcp_hazardous_use"
+    },
+    {
+      "criterium": "pcp_social_relationship_impairment"
+    },
+    {
+      "criterium": "pcp_occupational_impairment"
+    },
+    {
+      "criterium": "pcp_time_spent_using"
+    },
+    {
+      "criterium": "pcp_persistent_use_despite_adverse_effects"
+    },
+    {
+      "criterium": "pcp_persistent_nystagmus"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

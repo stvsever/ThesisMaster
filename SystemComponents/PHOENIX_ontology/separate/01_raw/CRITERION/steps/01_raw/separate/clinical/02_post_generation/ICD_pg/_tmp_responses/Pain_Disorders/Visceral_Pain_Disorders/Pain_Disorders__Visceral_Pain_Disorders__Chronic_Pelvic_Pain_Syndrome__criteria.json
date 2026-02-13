@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "pelvic_pain_intensity_nrs"
+    },
+    {
+      "criterium": "pelvic_floor_muscle_tone_hypertonicity"
+    },
+    {
+      "criterium": "pelvic_floor_tenderness_on_examination"
+    },
+    {
+      "criterium": "dyspareunia_pain_with_intercourse"
+    },
+    {
+      "criterium": "pain_on_urination"
+    },
+    {
+      "criterium": "urinary_frequency"
+    },
+    {
+      "criterium": "urinary_urgency"
+    },
+    {
+      "criterium": "defecatory_pain_during_bowel_movements"
+    },
+    {
+      "criterium": "pelvic_region_allodynia_to_light_touch"
+    },
+    {
+      "criterium": "sleep_disturbance_related_to_pelvic_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 7.5
+}

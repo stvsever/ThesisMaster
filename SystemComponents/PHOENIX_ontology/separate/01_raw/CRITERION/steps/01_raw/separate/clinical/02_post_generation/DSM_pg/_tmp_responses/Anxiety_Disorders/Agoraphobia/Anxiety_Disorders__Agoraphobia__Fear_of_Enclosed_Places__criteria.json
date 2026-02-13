@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "enclosed_space_avoidance_behavior"
+    },
+    {
+      "criterium": "panic_symptoms_in_enclosed_spaces"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_enclosed_space_exposure"
+    },
+    {
+      "criterium": "urge_to_escape_in_enclosed_spaces"
+    },
+    {
+      "criterium": "tachycardia_in_enclosed_spaces"
+    },
+    {
+      "criterium": "sweating_in_enclosed_spaces"
+    },
+    {
+      "criterium": "shortness_of_breath_in_enclosed_spaces"
+    },
+    {
+      "criterium": "dizziness_or_lightheadedness_in_enclosed_spaces"
+    },
+    {
+      "criterium": "nausea_or_gastrointestinal_distress_in_enclosed_spaces"
+    },
+    {
+      "criterium": "tremors_in_enclosed_spaces"
+    },
+    {
+      "criterium": "hyperventilation_in_enclosed_spaces"
+    },
+    {
+      "criterium": "interference_with_daily_activity_due_to_enclosed_space_fear"
+    }
+  ],
+  "estimated_prevalence_percent": 3.2
+}

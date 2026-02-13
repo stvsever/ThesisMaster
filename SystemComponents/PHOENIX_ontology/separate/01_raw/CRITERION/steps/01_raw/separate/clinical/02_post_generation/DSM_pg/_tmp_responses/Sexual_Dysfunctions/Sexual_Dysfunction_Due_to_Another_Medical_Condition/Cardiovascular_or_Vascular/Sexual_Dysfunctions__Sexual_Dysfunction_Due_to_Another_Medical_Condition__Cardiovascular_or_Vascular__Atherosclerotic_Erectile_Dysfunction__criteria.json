@@ -1,0 +1,26 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "reduced_penile_peak_systolic_velocity"
+    },
+    {
+      "criterium": "increased_penile_end_diastolic_velocity"
+    },
+    {
+      "criterium": "elevated_penile_resistive_index"
+    },
+    {
+      "criterium": "absent_or_reduced_nocturnal_penile_tumescence"
+    },
+    {
+      "criterium": "diminished_erectile_rigidity_on_stimulation"
+    },
+    {
+      "criterium": "impaired_corporal_vasodilation_on_testing"
+    },
+    {
+      "criterium": "penile_ultrasound_abnormal_flow_pattern"
+    }
+  ],
+  "estimated_prevalence_percent": 6.5
+}

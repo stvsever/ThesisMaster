@@ -1,0 +1,47 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "blood_pressure_lability"
+    },
+    {
+      "criterium": "hyperthermia"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "tachypnea"
+    },
+    {
+      "criterium": "flushing"
+    },
+    {
+      "criterium": "pallor"
+    },
+    {
+      "criterium": "piloerection"
+    },
+    {
+      "criterium": "diarrhea"
+    },
+    {
+      "criterium": "vomiting"
+    },
+    {
+      "criterium": "nausea"
+    },
+    {
+      "criterium": "urinary_incontinence"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

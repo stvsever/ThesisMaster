@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "erectile_dysfunction"
+    },
+    {
+      "criterium": "hypoactive_sexual_desire"
+    },
+    {
+      "criterium": "delayed_orgasm"
+    },
+    {
+      "criterium": "anorgasmia"
+    },
+    {
+      "criterium": "decreased_genital_sensation"
+    },
+    {
+      "criterium": "reduced_sexual_satisfaction"
+    },
+    {
+      "criterium": "decreased_subjective_arousal"
+    },
+    {
+      "criterium": "intercourse_avoidance_behavior"
+    }
+  ],
+  "estimated_prevalence_percent": 2.4
+}

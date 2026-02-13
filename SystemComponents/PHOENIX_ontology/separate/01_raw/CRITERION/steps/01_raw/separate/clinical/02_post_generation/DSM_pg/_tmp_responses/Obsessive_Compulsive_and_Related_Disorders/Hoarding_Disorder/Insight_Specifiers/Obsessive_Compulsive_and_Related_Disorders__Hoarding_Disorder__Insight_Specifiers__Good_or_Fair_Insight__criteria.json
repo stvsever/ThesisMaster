@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "insight_present_hoarding_problem"
+    },
+    {
+      "criterium": "awareness_clutter_impairs_functional_space"
+    },
+    {
+      "criterium": "recognition_some_items_unneeded"
+    },
+    {
+      "criterium": "ability_articulate_saving_reasons"
+    },
+    {
+      "criterium": "acknowledgment_discarding_possible_with_support"
+    },
+    {
+      "criterium": "recognition_of_social_or_health_impacts_of_hoarding"
+    },
+    {
+      "criterium": "belief_hoarding_necessary_for_safety_or_sentiment"
+    },
+    {
+      "criterium": "willingness_to_discuss_discarding_with_clinician"
+    },
+    {
+      "criterium": "partial_insight_with_residual_justifications_for_saving"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "stool_frequency_increase"
+    },
+    {
+      "criterium": "stool_watery_consistency"
+    },
+    {
+      "criterium": "stool_urgency_present"
+    },
+    {
+      "criterium": "nocturnal_defecation_present"
+    },
+    {
+      "criterium": "fecal_incontinence_present"
+    },
+    {
+      "criterium": "abdominal_pain_present"
+    },
+    {
+      "criterium": "hypervigilance_to_gi_symptoms_present"
+    },
+    {
+      "criterium": "health_anxiety_about_bowel_symptoms_present"
+    },
+    {
+      "criterium": "catastrophizing_bowel_symptoms_present"
+    },
+    {
+      "criterium": "social_work_impairment_due_to_diarrhea_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

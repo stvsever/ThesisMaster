@@ -1,0 +1,47 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "CLOCK_genotype_variant",
+      "PER3_VNTR_allele",
+      "ARNTL_variant",
+      "NPAS2_genotype_variant",
+      "CRY1_genotype_variant",
+      "CRY2_genotype_variant"
+    ],
+    "molecules": [
+      "melatonin_saliva_concentration",
+      "cortisol_serum_concentration",
+      "melatonin_synthesis_rate",
+      "cortisol_morning_peak_concentration"
+    ],
+    "cells": [
+      "SCN_neuron_firing_rate",
+      "SCN_GABAergic_neuron_density",
+      "ipRGC_melanopsin_expression",
+      "SCN_clock_protein_expression"
+    ],
+    "circuits": [
+      "SCN_pacemaker_network_activity",
+      "retinohypothalamic_pathway_strength",
+      "pineal_gland_melatonin_release_rate"
+    ],
+    "physiology": [
+      "core_body_temperature_minimum_time",
+      "core_body_temperature_amplitude",
+      "heart_rate_variability_circadian_index",
+      "sleep_latency_minutes"
+    ],
+    "behavior": [
+      "sleep_onset_time_shift_minutes",
+      "sleep_offset_time_shift_minutes",
+      "sleep_midpoint_shift_hours",
+      "daytime_napping_frequency_per_week"
+    ],
+    "self_report": [
+      "morningness_eveningness_score",
+      "sleep_schedule_consistency_score",
+      "chronotype_self_report_score"
+    ]
+  },
+  "estimated_prevalence_percent": 0.5
+}

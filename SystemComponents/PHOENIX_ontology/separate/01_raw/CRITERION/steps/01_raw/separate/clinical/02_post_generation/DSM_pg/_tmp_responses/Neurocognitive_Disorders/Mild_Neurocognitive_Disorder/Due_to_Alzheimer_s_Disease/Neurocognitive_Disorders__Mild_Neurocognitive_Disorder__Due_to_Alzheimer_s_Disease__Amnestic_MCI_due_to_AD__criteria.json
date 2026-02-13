@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "impaired_episodic_memory_encoding"
+    },
+    {
+      "criterium": "impaired_ep isodic_memory_delayed_recall"
+    },
+    {
+      "criterium": "impaired_verbal_list_learning_performance"
+    },
+    {
+      "criterium": "subjective_memory_complaint_reported"
+    },
+    {
+      "criterium": "preserved_language_function"
+    },
+    {
+      "criterium": "preserved_executive_function"
+    },
+    {
+      "criterium": "intact_instrumental_ADLs"
+    },
+    {
+      "criterium": "hippocampal_atrophy_on_MRI"
+    },
+    {
+      "criterium": "medial_temporal_hypometabolism_on_FDG_PET"
+    }
+  ],
+  "estimated_prevalence_percent": 6.5
+}

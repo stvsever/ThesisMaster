@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypnagogic_visual_hallucination"
+    },
+    {
+      "criterium": "hypnagogic_auditory_hallucination"
+    },
+    {
+      "criterium": "hypnagogic_tactile_hallucination"
+    },
+    {
+      "criterium": "hypnagogic_presence_of_entity"
+    },
+    {
+      "criterium": "hypnagogic_dreamlike_scene_visualization"
+    },
+    {
+      "criterium": "hypnagogic_misperception_of_surroundings"
+    },
+    {
+      "criterium": "hypnagogic_kinesthetic_hallucination"
+    },
+    {
+      "criterium": "hypnagogic_time_distortion"
+    }
+  ],
+  "estimated_prevalence_percent": 4.0
+}

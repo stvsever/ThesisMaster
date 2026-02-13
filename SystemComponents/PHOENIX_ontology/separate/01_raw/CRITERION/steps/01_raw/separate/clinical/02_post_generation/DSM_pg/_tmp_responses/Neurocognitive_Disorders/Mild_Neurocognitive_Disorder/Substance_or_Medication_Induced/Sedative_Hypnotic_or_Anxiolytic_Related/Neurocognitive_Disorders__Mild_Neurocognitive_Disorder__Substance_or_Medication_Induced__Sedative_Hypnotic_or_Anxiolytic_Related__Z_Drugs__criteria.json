@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "anterograde_amnesia"
+    },
+    {
+      "criterium": "sleep_related_complex_behaviors"
+    },
+    {
+      "criterium": "daytime_sedation"
+    },
+    {
+      "criterium": "daytime_fatigue"
+    },
+    {
+      "criterium": "impaired_new_learning"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "ataxia"
+    },
+    {
+      "criterium": "dizziness"
+    },
+    {
+      "criterium": "confusion_on_waking"
+    },
+    {
+      "criterium": "rebound_insomnia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

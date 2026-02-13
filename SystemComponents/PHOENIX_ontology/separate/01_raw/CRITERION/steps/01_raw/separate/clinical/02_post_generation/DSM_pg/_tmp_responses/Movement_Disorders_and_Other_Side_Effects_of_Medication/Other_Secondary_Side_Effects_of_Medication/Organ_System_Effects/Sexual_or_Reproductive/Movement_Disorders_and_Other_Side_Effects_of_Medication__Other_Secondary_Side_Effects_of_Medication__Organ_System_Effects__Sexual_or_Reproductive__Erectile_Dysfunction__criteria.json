@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inability_to_achieve_adequate_erection"
+    },
+    {
+      "criterium": "inability_to_maintain_erection_for_penetration"
+    },
+    {
+      "criterium": "reduced_erection_rigidity_during_arousal"
+    },
+    {
+      "criterium": "absence_of_morning_erections"
+    },
+    {
+      "criterium": "absence_of_nocturnal_penile_tumescence"
+    },
+    {
+      "criterium": "delayed_onset_of_erection_in_response_to_sexual_stimulation"
+    },
+    {
+      "criterium": "inconsistent_or_fluctuating_erection_quality_across_attempts"
+    },
+    {
+      "criterium": "short_duration_of_erections_during_attempts"
+    }
+  ],
+  "estimated_prevalence_percent": 10.0
+}

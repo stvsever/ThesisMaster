@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusion_thyroid_related_content"
+    },
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "disorganized_thought_form"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "grossly_disorganized_behavior"
+    },
+    {
+      "criterium": "catatonia_features"
+    },
+    {
+      "criterium": "neologisms_present"
+    },
+    {
+      "criterium": "clang_associative_speech"
+    },
+    {
+      "criterium": "persecutory_delusions"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

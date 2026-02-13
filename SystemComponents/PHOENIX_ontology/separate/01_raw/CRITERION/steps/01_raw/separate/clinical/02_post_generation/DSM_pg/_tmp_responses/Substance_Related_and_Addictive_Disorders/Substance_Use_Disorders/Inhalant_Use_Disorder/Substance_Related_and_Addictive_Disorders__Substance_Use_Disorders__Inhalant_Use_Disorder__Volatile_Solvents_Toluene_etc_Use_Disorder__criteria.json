@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "increase_in_quantity_despite_intent"
+    },
+    {
+      "criterium": "failed_cessation_attempts"
+    },
+    {
+      "criterium": "time_spent_obtaining_using_recovering_from_use"
+    },
+    {
+      "criterium": "intense_craving_for_volatiles"
+    },
+    {
+      "criterium": "occupational_educational_impairment_due_to_use"
+    },
+    {
+      "criterium": "interpersonal_conflict_due_to_use"
+    },
+    {
+      "criterium": "reduction_of_recreational_activities_due_to_use"
+    },
+    {
+      "criterium": "use_in_physically_hazardous_settings"
+    },
+    {
+      "criterium": "continued_use_despite_physical_or_psychological_harm"
+    },
+    {
+      "criterium": "solvent_tolerance_development"
+    },
+    {
+      "criterium": "withdrawal_symptoms_on_cessation"
+    },
+    {
+      "criterium": "compulsive_acquisition_and_use_of_volatiles"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

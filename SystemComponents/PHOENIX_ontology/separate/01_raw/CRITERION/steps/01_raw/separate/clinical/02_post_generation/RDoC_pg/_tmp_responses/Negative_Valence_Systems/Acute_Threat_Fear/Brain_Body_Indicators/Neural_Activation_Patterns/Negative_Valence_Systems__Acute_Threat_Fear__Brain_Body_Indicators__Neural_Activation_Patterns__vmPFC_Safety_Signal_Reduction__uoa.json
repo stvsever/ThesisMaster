@@ -1,0 +1,48 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M_genotype",
+      "COMT_V158M_genotype",
+      "FKBP5_rs1360780_genotype",
+      "NR3C1_rs6195_genotype",
+      "CACNA1C_rs1006737_genotype"
+    ],
+    "molecules": [
+      "cortisol_serum_concentration",
+      "glutamate_concentration_vmPFC",
+      "GABA_concentration_vmPFC",
+      "norepinephrine_serum_concentration",
+      "dopamine_metabolite_HVA_concentration"
+    ],
+    "cells": [
+      "vmPFC_pyramidal_neuron_density",
+      "vmPFC_inhibitory_interneuron_density",
+      "vmPFC_astrocyte_density",
+      "vmPFC_oligodendrocyte_density"
+    ],
+    "circuits": [
+      "vmPFC_BOLD_safety_signal_change",
+      "vmPFC_amygdala_functional_connectivity_strength",
+      "vmPFC_hippocampus_functional_connectivity_strength",
+      "vmPFC_dlpfc_functional_connectivity_strength",
+      "vmPFC_subgenual_cingulate_connectivity_strength"
+    ],
+    "physiology": [
+      "heart_rate_variability_during_safety_cues",
+      "skin_conductance_response_to_safety_cues",
+      "pupil_dilation_to_safety_cues",
+      "respiratory_rate_during_safety_cues"
+    ],
+    "behavior": [
+      "reaction_time_to_safety_cue",
+      "startle_response_latency_to_safety_signal",
+      "safety_behavior_avoidance_rate"
+    ],
+    "self_report": [
+      "perceived_safety_rating_during_task",
+      "fear_safety_expectation_score",
+      "safety_signal_sensitivity_index"
+    ]
+  },
+  "estimated_prevalence_percent": 12.4
+}

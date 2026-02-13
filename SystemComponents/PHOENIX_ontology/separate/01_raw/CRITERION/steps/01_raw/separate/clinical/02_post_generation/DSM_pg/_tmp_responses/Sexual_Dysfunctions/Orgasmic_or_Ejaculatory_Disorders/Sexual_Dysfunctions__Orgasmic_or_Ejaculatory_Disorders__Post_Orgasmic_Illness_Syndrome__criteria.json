@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nasal_congestion"
+    },
+    {
+      "criterium": "rhinorrhea"
+    },
+    {
+      "criterium": "conjunctival_injection"
+    },
+    {
+      "criterium": "feverish_sensation"
+    },
+    {
+      "criterium": "fatigue"
+    },
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "memory_impairment"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "myalgia"
+    },
+    {
+      "criterium": "arthralgia"
+    },
+    {
+      "criterium": "mood_lability"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

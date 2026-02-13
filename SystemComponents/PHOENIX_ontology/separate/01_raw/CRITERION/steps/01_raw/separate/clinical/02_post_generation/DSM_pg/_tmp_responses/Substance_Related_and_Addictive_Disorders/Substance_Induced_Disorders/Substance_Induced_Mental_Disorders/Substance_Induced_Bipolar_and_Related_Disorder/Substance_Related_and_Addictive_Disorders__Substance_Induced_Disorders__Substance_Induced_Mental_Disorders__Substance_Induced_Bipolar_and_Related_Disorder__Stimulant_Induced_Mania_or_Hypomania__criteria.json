@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "euphoric_expansive_mood"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "grandiosity"
+    },
+    {
+      "criterium": "decreased_sleep_need"
+    },
+    {
+      "criterium": "distractibility"
+    },
+    {
+      "criterium": "increased_goal_directed_activity"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "risk_taking_behaviors"
+    },
+    {
+      "criterium": "irritability"
+    },
+    {
+      "criterium": "aggression"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

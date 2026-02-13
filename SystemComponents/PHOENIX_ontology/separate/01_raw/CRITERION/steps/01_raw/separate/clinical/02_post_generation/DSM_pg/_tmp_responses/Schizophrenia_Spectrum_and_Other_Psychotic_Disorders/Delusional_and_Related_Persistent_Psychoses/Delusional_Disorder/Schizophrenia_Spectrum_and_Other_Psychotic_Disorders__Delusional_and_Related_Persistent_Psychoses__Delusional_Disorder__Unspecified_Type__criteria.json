@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusion_presence"
+    },
+    {
+      "criterium": "delusion_fixity"
+    },
+    {
+      "criterium": "delusion_systematization"
+    },
+    {
+      "criterium": "preoccupation_with_delusion"
+    },
+    {
+      "criterium": "hallucinations_present"
+    },
+    {
+      "criterium": "disorganized_thought_present"
+    },
+    {
+      "criterium": "disorganized_behavior_present"
+    },
+    {
+      "criterium": "catatonia_present"
+    },
+    {
+      "criterium": "mood_symptoms_minimal"
+    },
+    {
+      "criterium": "insight_level_low"
+    },
+    {
+      "criterium": "functional_impairment_related_to_delusion"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

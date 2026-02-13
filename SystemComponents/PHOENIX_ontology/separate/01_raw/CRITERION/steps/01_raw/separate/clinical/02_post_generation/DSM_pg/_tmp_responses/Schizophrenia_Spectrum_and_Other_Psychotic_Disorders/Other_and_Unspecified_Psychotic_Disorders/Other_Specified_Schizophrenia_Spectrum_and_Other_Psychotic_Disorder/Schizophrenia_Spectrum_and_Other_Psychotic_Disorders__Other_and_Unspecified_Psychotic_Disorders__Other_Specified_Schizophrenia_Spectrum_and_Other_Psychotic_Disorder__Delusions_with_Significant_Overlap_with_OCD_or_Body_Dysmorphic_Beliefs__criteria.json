@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "delusional_body_defect_belief"
+    },
+    {
+      "criterium": "fixed_bodily_defect_conviction"
+    },
+    {
+      "criterium": "appearance_rumination"
+    },
+    {
+      "criterium": "mirror_checking_appearance"
+    },
+    {
+      "criterium": "camouflaging_behavior"
+    },
+    {
+      "criterium": "reassurance_seeking_appearance"
+    },
+    {
+      "criterium": "social_withdrawal_due_to_appearance_belief"
+    },
+    {
+      "criterium": "cosmetic_procedure_consideration_due_to_appearance"
+    },
+    {
+      "criterium": "excessive_grooming_for_appearance"
+    },
+    {
+      "criterium": "appearance_related_hypervigilance"
+    },
+    {
+      "criterium": "avoidance_of_social_interactions_due_to_appearance"
+    },
+    {
+      "criterium": "distress_in_response_to_appearance_belief"
+    }
+  ],
+  "estimated_prevalence_percent": 0.4
+}

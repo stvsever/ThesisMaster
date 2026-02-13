@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "elevated_expansive_mood"
+    },
+    {
+      "criterium": "increased_energy_or_psychomotor_activity"
+    },
+    {
+      "criterium": "decreased_sleep_need"
+    },
+    {
+      "criterium": "pressured_speech"
+    },
+    {
+      "criterium": "flight_of_ideas"
+    },
+    {
+      "criterium": "grandiose_beliefs"
+    },
+    {
+      "criterium": "impulsive_risky_behaviors"
+    },
+    {
+      "criterium": "irritability_or_agitation"
+    },
+    {
+      "criterium": "psychotic_symptoms_present"
+    },
+    {
+      "criterium": "anhedonia"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

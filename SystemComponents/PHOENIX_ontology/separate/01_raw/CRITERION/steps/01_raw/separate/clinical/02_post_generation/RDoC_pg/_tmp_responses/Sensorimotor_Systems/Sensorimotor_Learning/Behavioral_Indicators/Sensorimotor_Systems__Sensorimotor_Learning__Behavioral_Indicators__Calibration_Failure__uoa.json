@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "BDNF_V66M",
+      "COMT_V158M",
+      "DRD2_Taq1A",
+      "SNAP25_variant",
+      "GRIN2A_variant"
+    ],
+    "molecules": [
+      "BDNF_protein_level",
+      "DOPAMINE_tissue_concentration",
+      "GLUTAMATE_synaptic_concentration",
+      "GABA_tone",
+      "NMDAR_phosphorylation_status"
+    ],
+    "cells": [
+      "Purkinje_cells_firing_rate",
+      "Corticospinal_neurons_firing_rate",
+      "Spinal_interneurons_firing_rate",
+      "M1_pyramidal_neurons_firing_rate"
+    ],
+    "circuits": [
+      "Cerebellar_thalamo_cortical_coherence",
+      "Basal_ganglia_cortical_loop_activity",
+      "Motor_cortex_beta_band_power",
+      "Cerebellar_cortical_loop_phase_locking",
+      "Dorsal_striatum_activity"
+    ],
+    "physiology": [
+      "Movement_accuracy_deviation_deg",
+      "Endpoint_error_mm",
+      "Reaction_time_ms",
+      "Movement_velocity_profile_slope",
+      "Proprioceptive_threshold_deg"
+    ],
+    "behavior": [
+      "target_reach_endpoint_error_deg",
+      "reach_latency_ms",
+      "trajectory_length_mm",
+      "trajectory_curvature_index",
+      "movement_time_to_target_ms",
+      "endpoint_error_rate"
+    ],
+    "self_report": [
+      "Proprioceptive_confidence_rating",
+      "Motor_learning_difficulty_rating",
+      "Sensorimotor_calibration_alertness_rating",
+      "Kinesthetic_sense_accuracy_rating",
+      "Movement_error_perception_rating"
+    ]
+  },
+  "estimated_prevalence_percent": 2.5
+}

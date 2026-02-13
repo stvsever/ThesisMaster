@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "visual_hallucinations"
+    },
+    {
+      "criterium": "geometric_visual_patterns"
+    },
+    {
+      "criterium": "altered_time_perception"
+    },
+    {
+      "criterium": "synesthetic_perception"
+    },
+    {
+      "criterium": "derealization"
+    },
+    {
+      "criterium": "depersonalization"
+    },
+    {
+      "criterium": "pupil_dilation"
+    },
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "diaphoresis"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

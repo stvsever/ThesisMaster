@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "hypothyroid_depressed_mood"
+    },
+    {
+      "criterium": "hypothyroid_psychomotor_slowing"
+    },
+    {
+      "criterium": "hypothyroid_fatigue"
+    },
+    {
+      "criterium": "hyperthyroid_anxiety_irritability"
+    },
+    {
+      "criterium": "hyperthyroid_insomnia"
+    },
+    {
+      "criterium": "hypercortisolism_mood_lability"
+    },
+    {
+      "criterium": "adrenal_insufficiency_fatigue"
+    },
+    {
+      "criterium": "hypoglycemia_mood_swings"
+    },
+    {
+      "criterium": "hyponatremia_mood_change"
+    }
+  ],
+  "estimated_prevalence_percent": 0.1
+}

@@ -1,0 +1,2962 @@
+{
+  "PERSON": {
+    "Administrative_and_Data_Context": {
+      "Identifiers": {
+        "Person_Record_ID": {},
+        "Study_Participant_ID": {},
+        "Pseudonymous_ID": {},
+        "Record_Linkage_Key": {},
+        "External_System_ID": {},
+        "Family_Unit_ID": {},
+        "Household_ID": {}
+      },
+      "Data_Source": {
+        "Primary_Data_Source": {},
+        "Secondary_Data_Sources": {},
+        "Collection_Context": {},
+        "Collection_Mode": {},
+        "Data_Collection_Timestamp": {}
+      },
+      "Collection_Mode": {
+        "Self_Report": {},
+        "Clinician_Reported": {},
+        "Caregiver_Reported": {},
+        "Administrative_Registry": {},
+        "Sensor_or_Device_Derived": {},
+        "Derived_From_Record_Linkage": {},
+        "Other": {},
+        "Unknown": {}
+      },
+      "Consent": {
+        "Consent_Decision": {
+          "Granted": {},
+          "Declined": {},
+          "Withdrawn": {},
+          "Unknown": {}
+        },
+        "Consent_Scope": {
+          "Care_Only": {},
+          "Research_Only": {},
+          "Care_And_Research": {},
+          "Future_Contact_Allowed": {},
+          "Future_Contact_Not_Allowed": {},
+          "Data_Sharing_Allowed": {},
+          "Data_Sharing_Not_Allowed": {},
+          "Genomics_Allowed": {},
+          "Biobanking_Allowed": {},
+          "Unknown": {}
+        }
+      },
+      "Communication_Preferences": {
+        "Preferred_Channel": {
+          "In_Person": {},
+          "Telephone": {},
+          "Video_Call": {},
+          "Email": {},
+          "Messaging_App": {},
+          "SMS": {},
+          "Postal_Mail": {},
+          "Unknown": {}
+        },
+        "Preferred_Language": {
+          "Dutch": {},
+          "French": {},
+          "German": {},
+          "English": {},
+          "Spanish": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Respondent": {
+        "Self": {},
+        "Caregiver": {},
+        "Clinician": {},
+        "Administrative_Staff": {},
+        "Other_Proxy": {},
+        "Unknown": {}
+      },
+      "Data_Quality": {
+        "Verification": {
+          "Unverified": {},
+          "Partially_Verified": {},
+          "Verified": {},
+          "Unknown": {}
+        },
+        "Completeness": {
+          "Complete": {},
+          "Mostly_Complete": {},
+          "Partially_Complete": {},
+          "Sparse": {},
+          "Unknown": {}
+        },
+        "Consistency": {
+          "Consistent": {},
+          "Inconsistent": {},
+          "Needs_Review": {},
+          "Unknown": {}
+        }
+      }
+    },
+    "Demographics_and_Identity": {
+      "Vital_Status": {
+        "Status": {
+          "Alive": {},
+          "Deceased": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Death_Details": {
+          "Date_Of_Death": {},
+          "Year_Of_Death": {},
+          "Place_Of_Death": {}
+        }
+      },
+      "Political_Profile": { "Ideological_Dimensions_Two_Axis_Model": { "Economic_Left_Right": { "Redistribution_and_Inequality": {}, "Welfare_State_Support": {}, "Market_Deregulation": {}, "Public_Sector_Role": {}, "Labor_and_Union_Support": {}, "Taxation_Progressivity": {} }, "Socio_Cultural_Liberal_Conservative": { "Tradition_vs_Progress": {}, "Religious_and_Moral_Traditionalism": {}, "Gender_and_Sexuality_Liberalism": {}, "Cultural_Openness": {}, "Lifestyle_Permissiveness": {} } }, "Libertarian_Authoritarian_Dimension_Model": { "Libertarianism": { "Civil_Liberties_Support": {}, "Anti_Censorship_Orientation": {}, "Privacy_and_Anti_Surveillance": {}, "Skepticism_of_State_Control": {} }, "Authoritarianism": { "Law_and_Order_Preference": {}, "Support_for_Obedience_and_Conformity": {}, "Acceptance_of_Coercive_Social_Control": {}, "Punitive_Attitudes": {} } }, "GAL_TAN_Model": { "Green_Alternative_Libertarian": { "Environmental_Protection_Orientation": {}, "Pluralism_and_Diversity_Support": {}, "Participatory_Democracy_Preference": {}, "Civil_Liberties_Orientation": {} }, "Traditional_Authoritarian_Nationalist": { "Cultural_Traditionalism": {}, "National_Order_and_Unity_Preference": {}, "Restrictionist_Outgroup_Policy_Preference": {}, "Strong_Leader_Preference": {} } }, "Moral_Foundations_Theory": { "Care_Harm": { "Compassion": {}, "Harm_Avoidance": {} }, "Fairness_Cheating": { "Equality": {}, "Reciprocity": {} }, "Loyalty_Betrayal": { "Ingroup_Loyalty": {}, "Patriotism": {} }, "Authority_Subversion": { "Respect_for_Tradition_and_Rank": {}, "Deference_to_Legitimate_Authority": {} }, "Sanctity_Degradation": { "Purity_Concerns": {}, "Disgust_Sensitivity_in_Moral_Judgment": {} }, "Liberty_Oppression": { "Anti_Domination": {}, "Resistance_to_Bullying_and_Tyranny": {} } }, "Right_Wing_Authoritarianism_Model": { "Authoritarian_Submission": {}, "Authoritarian_Aggression": {}, "Conventionalism": {} }, "Social_Dominance_Orientation_Model": { "Group_Based_Dominance": {}, "Anti_Egalitarianism": {} }, "System_Justification_Theory": { "General_System_Justification": {}, "Economic_System_Justification": {}, "Political_System_Justification": {}, "Gender_System_Justification": {} }, "Dual_Process_Motivational_Model": { "Dangerous_Worldview": {}, "Competitive_Jungle_Worldview": {}, "Threat_Sensitivity": {}, "Hierarchy_Preference": {} }, "Populist_Attitudes_Model": { "Anti_Elitism": {}, "People_Centrism": {}, "Popular_Sovereignty": {}, "Manichean_Worldview": {} }, "Nationalism_and_Cosmopolitanism_Model": { "Civic_Nationalism": {}, "Ethnic_Nationalism": {}, "National_Superiority_Beliefs": {}, "National_Identification": {}, "Cosmopolitan_Orientation": {}, "Global_Identity": {} }, "Political_Efficacy_Model": { "Internal_Political_Efficacy": {}, "External_Political_Efficacy": {} }, "Political_Trust_and_Legitimacy_Model": { "Trust_in_Government": {}, "Trust_in_Parliament_or_Legislature": {}, "Trust_in_Judiciary": {}, "Trust_in_Police": {}, "Trust_in_Science_and_Experts": {}, "Perceived_Institutional_Legitimacy": {} }, "Collective_Narcissism_Model": { "Collective_Narcissism": {}, "Ingroup_Entitlement": {}, "Need_for_External_Recognition": {} }, "Issue_Position_Taxonomy": { "Macroeconomic_and_Fiscal_Policy": { "Taxation_Progressivity_Support": {}, "Flat_Tax_Support": {}, "Wealth_Tax_Support": {}, "Capital_Gains_Taxation_Support": {}, "Corporate_Taxation_Support": {}, "Consumption_Tax_VAT_Support": {}, "Public_Spending_Expansion_Support": {}, "Public_Spending_Reduction_Support": {}, "Deficit_Spending_Acceptance": {}, "Debt_Reduction_Priority": {}, "Inflation_Control_Priority": {}, "Unemployment_Reduction_Priority": {}, "Central_Bank_Independence_Support": {}, "Price_Controls_Support": {} }, "Welfare_and_Social_Protection": { "Universalism_in_Benefits_Support": {}, "Means_Testing_Support": {}, "Unemployment_Benefit_Generosity_Support": {}, "Disability_Benefit_Support": {}, "Old_Age_Pension_Generosity_Support": {}, "Child_Benefits_Support": {}, "Social_Housing_Support": {}, "Minimum_Income_Guarantee_Support": {}, "Universal_Basic_Income_Support": {}, "Work_Requirements_for_Benefits_Support": {}, "Social_Insurance_Expansion_Support": {} }, "Labor_and_Employment": { "Minimum_Wage_Increase_Support": {}, "Collective_Bargaining_Support": {}, "Union_Power_Support": {}, "Worker_Protections_Support": {}, "At_Will_Employment_Support": {}, "Gig_Economy_Regulation_Support": {}, "Working_Time_Reduction_Support": {}, "Paid_Leave_Mandates_Support": {}, "Workplace_Safety_Regulation_Support": {}, "Public_Employment_Programs_Support": {}, "Immigration_for_Labor_Shortages_Support": {} }, "Healthcare_and_Public_Health": { "Universal_Healthcare_Coverage_Support": {}, "Single_Payer_Healthcare_Support": {}, "Multi_Payer_Public_Private_Mix_Support": {}, "Private_Insurance_Expansion_Support": {}, "Price_Regulation_for_Medicines_Support": {}, "Public_Healthcare_Spending_Increase_Support": {}, "Preventive_Health_Investment_Support": {}, "Mental_Health_Parity_Support": {}, "Public_Health_Mandates_Acceptance": {}, "Harm_Reduction_Policy_Support": {}, "Health_Data_Sharing_for_Research_Support": {} }, "Education_and_Human_Capital": { "Public_Education_Investment_Support": {}, "Teacher_Pay_Increase_Support": {}, "School_Choice_Voucher_Support": {}, "Higher_Education_Tuition_Free_Support": {}, "Student_Loan_Forgiveness_Support": {}, "Vocational_Training_Expansion_Support": {}, "Early_Childhood_Education_Support": {}, "Standardized_Testing_Emphasis_Support": {}, "Civics_Education_Expansion_Support": {}, "Academic_Freedom_Protection_Support": {} }, "Housing_and_Urban_Policy": { "Rent_Control_Support": {}, "Tenant_Protections_Support": {}, "Eviction_Moratorium_Support": {}, "Zoning_Liberalization_Support": {}, "Green_Belt_Expansion_Support": {}, "Public_Housing_Construction_Support": {}, "Housing_Subsidies_Support": {}, "Homelessness_Housing_First_Support": {}, "Short_Term_Rental_Regulation_Support": {}, "Property_Tax_Increase_Support": {}, "Mortgage_Interest_Deduction_Support": {} }, "Business_Industry_and_Regulation": { "Deregulation_Support": {}, "Consumer_Protection_Regulation_Support": {}, "Occupational_Licensing_Expansion_Support": {}, "Antitrust_Enforcement_Support": {}, "Corporate_Governance_Reform_Support": {}, "Industrial_Policy_and_Subsidies_Support": {}, "Small_Business_Support": {}, "Financial_Sector_Regulation_Support": {}, "Privatization_Support": {}, "Public_Ownership_Nationalization_Support": {} }, "Trade_and_Globalization": { "Free_Trade_Support": {}, "Tariffs_and_Protectionism_Support": {}, "Trade_Agreements_Support": {}, "Fair_Trade_Labor_Standards_Support": {}, "Offshoring_Restrictions_Support": {}, "Supply_Chain_Resilience_Priority": {}, "Foreign_Investment_Screening_Support": {}, "Economic_Sanctions_Support": {}, "Globalization_Benefits_Belief": {}, "Globalization_Harms_Belief": {} }, "Immigration_and_Citizenship": { "Immigration_Level_Increase_Support": {}, "Immigration_Level_Decrease_Support": {}, "Refugee_Acceptance_Support": {}, "Asylum_Process_Expansion_Support": {}, "Border_Enforcement_Expansion_Support": {}, "Pathway_to_Citizenship_Support": {}, "Temporary_Work_Visas_Expansion_Support": {}, "Family_Reunification_Support": {}, "Multiculturalism_Support": {}, "Assimilationism_Support": {}, "Language_Integration_Requirements_Support": {}, "Deportation_Enforcement_Support": {} }, "Social_and_Cultural_Policy": { "Gender_Equality_Policy_Support": {}, "LGBTQ_Rights_Support": {}, "Anti_Discrimination_Protections_Support": {}, "Reproductive_Rights_Support": {}, "Abortion_Restrictions_Support": {}, "Euthanasia_or_Assisted_Dying_Support": {}, "Drug_Decriminalization_Support": {}, "Drug_Punitive_Enforcement_Support": {}, "Sex_Work_Decriminalization_Support": {}, "Religion_in_Public_Life_Support": {}, "Secularism_in_Public_Institutions_Support": {}, "Cultural_Heritage_Protection_Priority": {} }, "Civil_Rights_and_Civil_Liberties": { "Freedom_of_Speech_Absolutism": {}, "Hate_Speech_Regulation_Support": {}, "Freedom_of_Assembly_Protection_Support": {}, "Religious_Freedom_Protection_Support": {}, "Privacy_Rights_Protection_Support": {}, "Surveillance_Limits_Support": {}, "Encryption_Protection_Support": {}, "Censorship_Acceptance_for_Security": {}, "Whistleblower_Protections_Support": {}, "Due_Process_Protections_Support": {} }, "Law_Safety_and_Justice": { "Punitive_Justice_Support": {}, "Rehabilitative_Justice_Support": {}, "Sentencing_Harsening_Support": {}, "Prison_Reform_Support": {}, "Abolition_or_Reduction_of_Cash_Bail_Support": {}, "Police_Funding_Increase_Support": {}, "Police_Accountability_Reforms_Support": {}, "Stop_and_Search_Powers_Support": {}, "Gun_Control_Support": {}, "Gun_Rights_Expansion_Support": {}, "Counterterrorism_Powers_Expansion_Support": {} }, "Environment_Climate_and_Energy": { "Climate_Action_Support": {}, "Net_Zero_Targets_Support": {}, "Carbon_Tax_Support": {}, "Cap_and_Trade_Support": {}, "Renewable_Energy_Transition_Support": {}, "Nuclear_Energy_Support": {}, "Fossil_Fuel_Expansion_Support": {}, "Fossil_Fuel_Phaseout_Support": {}, "Environmental_Regulation_Support": {}, "Biodiversity_Protection_Support": {}, "Climate_Adaptation_Investment_Support": {}, "Environmental_Justice_Priority": {} }, "Technology_and_Digital_Governance": { "Data_Privacy_Regulation_Support": {}, "Platform_Regulation_Support": {}, "Net_Neutrality_Support": {}, "Online_Anonymity_Protection_Support": {}, "Digital_ID_Systems_Support": {}, "AI_Regulation_Support": {}, "AI_Acceleration_and_Investment_Priority": {}, "Algorithmic_Transparency_Requirements_Support": {}, "Cybersecurity_Regulation_Support": {}, "Digital_Surveillance_Acceptance": {}, "Content_Moderation_Strictness_Support": {}, "Open_Source_and_Open_Standards_Support": {} }, "Transportation_and_Infrastructure": { "Public_Transport_Investment_Support": {}, "Road_Building_Expansion_Support": {}, "High_Speed_Rail_Investment_Support": {}, "Urban_Cycling_Infrastructure_Support": {}, "EV_Transition_Incentives_Support": {}, "Fuel_Tax_Increase_Support": {}, "Aviation_Taxation_Support": {}, "Airport_Expansion_Support": {}, "Infrastructure_Privatization_Support": {}, "Universal_Broadband_Investment_Support": {} }, "Agriculture_Food_and_Animal_Welfare": { "Farm_Subsidies_Support": {}, "Organic_Agriculture_Support": {}, "GM_Crop_Acceptance": {}, "Pesticide_Regulation_Strengthening_Support": {}, "Animal_Welfare_Regulation_Support": {}, "Meat_Consumption_Reduction_Policies_Support": {}, "Food_Security_Investment_Support": {}, "Local_Food_Systems_Support": {}, "Rural_Development_Investment_Support": {}, "Water_Use_Regulation_in_Agriculture_Support": {} }, "Governance_and_Democratic_Reform": { "Electoral_Reform_Proportionality_Support": {}, "Majoritarian_Electoral_System_Support": {}, "Compulsory_Voting_Support": {}, "Decentralization_Federalism_Support": {}, "Centralization_Support": {}, "Anti_Corruption_Enforcement_Support": {}, "Government_Transparency_FOI_Support": {}, "Judicial_Independence_Protection_Support": {}, "Term_Limits_Support": {}, "Citizen_Assemblies_and_Deliberative_Democracy_Support": {}, "Direct_Democracy_Referendums_Support": {} }, "Foreign_Policy_and_Geopolitics": { "Multilateralism_Support": {}, "Unilateralism_Preference": {}, "International_Cooperation_Support": {}, "Non_Interventionism_Support": {}, "Humanitarian_Intervention_Support": {}, "Sanctions_Use_Support": {}, "Diplomacy_First_Preference": {}, "Trade_Diplomacy_Priority": {}, "International_Law_Compliance_Priority": {}, "Migration_Cooperation_Priority": {} }, "Defense_and_National_Security": { "Defense_Spending_Increase_Support": {}, "Defense_Spending_Decrease_Support": {}, "Alliance_Commitment_Support": {}, "Strategic_Autonomy_Support": {}, "Conscription_Support": {}, "Arms_Exports_Permissiveness_Support": {}, "Intelligence_Oversight_Strengthening_Support": {}, "Domestic_Security_Powers_Expansion_Support": {}, "Border_Security_Militarization_Support": {}, "Nuclear_Deterrence_Support": {} }, "International_Development_and_Human_Rights": { "Foreign_Aid_Spending_Increase_Support": {}, "Foreign_Aid_Spending_Decrease_Support": {}, "Human_Rights_Conditionality_on_Aid_Support": {}, "Climate_Finance_Contributions_Support": {}, "Debt_Relief_for_Low_Income_Countries_Support": {}, "Refugee_Aid_Funding_Support": {}, "International_Criminal_Justice_Support": {}, "Democracy_Promotion_Support": {}, "Non_Interference_Principle_Support": {} }, "Supranational_and_Regional_Integration": { "Supranational_Integration_Support": {}, "National_Sovereignty_Priority": {}, "Shared_Regulatory_Standards_Support": {}, "Shared_Fiscal_Capacity_Support": {}, "Cross_Border_Freedom_of_Movement_Support": {}, "Border_Controls_within_Region_Support": {} } }, "Political_Participation_Taxonomy": { "Electoral_Participation": { "Voting_Participation": {}, "Voter_Registration_Engagement": {}, "Party_Membership": {}, "Campaign_Volunteering": {}, "Candidate_Support_Activities": {}, "Running_for_Office": {} }, "Institutional_Participation": { "Contacting_Representatives": {}, "Petition_Signing": {}, "Town_Hall_or_Public_Meeting_Attendance": {}, "Consultation_Submission_Participation": {}, "Jury_or_Civic_Duty_Participation": {} }, "Collective_Action": { "Protest_Participation": {}, "Strike_Participation": {}, "Boycott_Participation": {}, "Buycott_Ethical_Consumption": {}, "Grassroots_Organizing": {} }, "Civic_and_Information_Behavior": { "Political_Discussion_Engagement": {}, "News_Seeking": {}, "Fact_Checking_Behavior": {}, "Political_Content_Creation": {}, "Online_Activism": {}, "Political_Donations": {} }, "Community_and_Civil_Society": { "Community_Organizing": {}, "NGO_or_Association_Membership": {}, "Mutual_Aid_Participation": {}, "Civic_Volunteering": {} } } },
+      "Personality": { "Big_Five": { "Neuroticism": { "Anxiety": {}, "Anger_Hostility": {}, "Depression": {}, "Self_Consciousness": {}, "Impulsiveness": {}, "Stress_Vulnerability": {} }, "Extraversion": { "Warmth": {}, "Gregariousness": {}, "Assertiveness": {}, "Activity_Level": {}, "Excitement_Seeking": {}, "Positive_Emotions": {} }, "Openness_to_Experience": { "Fantasy": {}, "Aesthetics": {}, "Feelings": {}, "Actions": {}, "Ideas": {}, "Values": {} }, "Agreeableness": { "Trust": {}, "Straightforwardness": {}, "Altruism": {}, "Compliance": {}, "Modesty": {}, "Tender_Mindedness": {} }, "Conscientiousness": { "Competence": {}, "Order": {}, "Dutifulness": {}, "Achievement_Striving": {}, "Self_Discipline": {}, "Deliberation": {} } }, "HEXACO": { "Honesty_Humility": { "Sincerity": {}, "Fairness": {}, "Greed_Avoidance": {}, "Modesty": {} }, "Emotionality": { "Fearfulness": {}, "Anxiety": {}, "Dependence": {}, "Sentimentality": {} }, "Extraversion": { "Social_Self_Esteem": {}, "Social_Boldness": {}, "Sociability": {}, "Liveliness": {} }, "Agreeableness": { "Forgiveness": {}, "Gentleness": {}, "Flexibility": {}, "Patience": {} }, "Conscientiousness": { "Organization": {}, "Diligence": {}, "Perfectionism": {}, "Prudence": {} }, "Openness_to_Experience": { "Aesthetic_Appreciation": {}, "Inquisitiveness": {}, "Creativity": {}, "Unconventionality": {} } }, "Eysenck_PEN_Model": { "Psychoticism": { "Aggressiveness": {}, "Impulsivity": {}, "Coldness": {}, "Egocentricity": {} }, "Extraversion": { "Sociability": {}, "Activity": {}, "Assertiveness": {}, "Sensation_Seeking": {} }, "Neuroticism": { "Emotional_Instability": {}, "Anxiety": {}, "Depressiveness": {}, "Low_Stress_Tolerance": {} } }, "Hexad_User_Types_Model": { "Philanthropist": { "Purpose": {}, "Meaning": {}, "Altruism": {}, "Care_Taking": {}, "Knowledge_Sharing": {}, "Mentoring": {}, "Prosocial_Contribution": {} }, "Socialiser": { "Relatedness": {}, "Belonging": {}, "Social_Status": {}, "Social_Interaction": {}, "Group_Participation": {}, "Relationship_Building": {}, "Social_Comparison": {} }, "Free_Spirit": { "Autonomy": {}, "Exploration": {}, "Self_Expression": {}, "Creativity": {}, "Experimentation": {}, "Customization": {}, "Discovery": {} }, "Achiever": { "Mastery": {}, "Competence": {}, "Progression": {}, "Challenge_Seeking": {}, "Skill_Development": {}, "Goal_Completion": {}, "Performance_Optimization": {} }, "Player": { "Reward": {}, "Extrinsic_Incentive": {}, "Status_Gain": {}, "Point_Accumulation": {}, "Achievement_Collection": {}, "Leaderboard_Climbing": {}, "Reward_Maximization": {} }, "Disruptor": { "Change": {}, "System_Impact": {}, "Autonomy": {}, "Rule_Challenging": {}, "System_Manipulation": {}, "Innovation_Pressure": {}, "Norm_Disruption": {} } } },
+      "Age": {
+        "Chronological_Age": {
+          "Age_Years": {},
+          "Age_Months": {},
+          "Age_Days": {},
+          "Date_Of_Birth": {},
+          "Year_Of_Birth": {}
+        },
+        "Perinatal_and_Corrected_Age": {
+          "Gestational_Age_At_Birth": {},
+          "Corrected_Age_For_Prematurity": {},
+          "Postmenstrual_Age": {}
+        },
+        "Age_Bands": {
+          "Clinical_Pediatric": {
+            "Prenatal": {},
+            "Perinatal": {},
+            "Neonate_Early": {},
+            "Neonate_Late": {},
+            "Infant_Early": {},
+            "Infant_Late": {},
+            "Toddler": {},
+            "Preschool": {},
+            "School_Age_Child": {},
+            "Early_Adolescent": {},
+            "Mid_Adolescent": {},
+            "Late_Adolescent": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Clinical_Adult": {
+            "Emerging_Adult": {},
+            "Young_Adult": {},
+            "Early_Midlife": {},
+            "Late_Midlife": {},
+            "Older_Adult_Young_Old": {},
+            "Older_Adult_Old_Old": {},
+            "Oldest_Old": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Geriatric_Risk_Grouping": {
+            "Pre_Geriatric": {},
+            "Geriatric": {},
+            "Advanced_Geriatric": {},
+            "Extreme_Longevity": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Public_Health_Grouping": {
+            "Child": {},
+            "Adolescent": {},
+            "Youth": {},
+            "Adult": {},
+            "Older_Adult": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Legal_Social_Stage": {
+            "Minor": {},
+            "Working_Age": {},
+            "Retirement_Age": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          }
+        },
+        "Developmental_Stage": {
+          "Erikson_Psychosocial": {
+            "Trust_vs_Mistrust": {},
+            "Autonomy_vs_Shame_and_Doubt": {},
+            "Initiative_vs_Guilt": {},
+            "Industry_vs_Inferiority": {},
+            "Identity_vs_Role_Confusion": {},
+            "Intimacy_vs_Isolation": {},
+            "Generativity_vs_Stagnation": {},
+            "Integrity_vs_Despair": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Piaget_Cognitive": {
+            "Sensorimotor": {},
+            "Preoperational": {},
+            "Concrete_Operational": {},
+            "Formal_Operational": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Kohlberg_Moral": {
+            "Preconventional_Obedience_and_Punishment": {},
+            "Preconventional_Individualism_and_Exchange": {},
+            "Conventional_Good_Interpersonal_Relationships": {},
+            "Conventional_Maintaining_Social_Order": {},
+            "Postconventional_Social_Contract_and_Individual_Rights": {},
+            "Postconventional_Universal_Ethical_Principles": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Freud_Psychosexual": {
+            "Oral": {},
+            "Anal": {},
+            "Phallic": {},
+            "Latency": {},
+            "Genital": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Havighurst_Developmental_Period": {
+            "Infancy_and_Early_Childhood": {},
+            "Middle_Childhood": {},
+            "Adolescence": {},
+            "Early_Adulthood": {},
+            "Middle_Age": {},
+            "Later_Maturity": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Marcia_Identity_Status": {
+            "Identity_Diffusion": {},
+            "Identity_Foreclosure": {},
+            "Identity_Moratorium": {},
+            "Identity_Achievement": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Schaie_Adult_Cognitive_Stage": {
+            "Acquisitive": {},
+            "Achieving": {},
+            "Responsible": {},
+            "Executive": {},
+            "Reintegrative": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Infant_Attachment_Pattern_Ainsworth": {
+            "Secure": {},
+            "Avoidant": {},
+            "Resistant_Ambivalent": {},
+            "Disorganized": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Adult_Attachment_Style_Bartholomew": {
+            "Secure": {},
+            "Anxious_Preoccupied": {},
+            "Dismissive_Avoidant": {},
+            "Fearful_Avoidant": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Life_Course_Generic": {
+            "Early_Life": {},
+            "School_Years": {},
+            "Transition_to_Adulthood": {},
+            "Reproductive_Years": {},
+            "Midlife": {},
+            "Later_Life": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          }
+        },
+        "Puberty_and_Maturation": {
+          "Pubertal_Status": {
+            "Prepubertal": {},
+            "In_Puberty": {},
+            "Postpubertal": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Tanner_Stage": {
+            "Stage_I": {},
+            "Stage_II": {},
+            "Stage_III": {},
+            "Stage_IV": {},
+            "Stage_V": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Puberty_Timing": {
+            "Early_Timing": {},
+            "On_Time": {},
+            "Late_Timing": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Menarche_Status": {
+            "Not_Started": {},
+            "Started": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Voice_Change_Status": {
+            "Not_Started": {},
+            "In_Progress": {},
+            "Completed": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          }
+        },
+        "Biological_Age_and_Frailty": {
+          "Frailty_Status": {
+            "Robust": {},
+            "Prefrail": {},
+            "Frail": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Clinical_Frailty_Scale_Category": {
+            "Very_Fit": {},
+            "Well": {},
+            "Managing_Well": {},
+            "Vulnerable": {},
+            "Mildly_Frail": {},
+            "Moderately_Frail": {},
+            "Severely_Frail": {},
+            "Very_Severely_Frail": {},
+            "Terminally_Ill": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Biological_Age_Metrics_Raw": {
+            "Epigenetic_Age": {},
+            "Phenotypic_Age": {},
+            "Telomere_Length": {},
+            "Allostatic_Load_Score": {}
+          }
+        }
+      },
+      "Reproductive_and_Family_Planning": {
+        "Pregnancy_Status": {
+          "Not_Pregnant": {},
+          "Pregnant": {},
+          "Postpartum": {},
+          "Recently_Postpartum": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Lactation_Status": {
+          "Not_Lactating": {},
+          "Lactating": {},
+          "Recently_Stopped_Lactating": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Menstrual_Status": {
+          "Regular_Cycles": {},
+          "Irregular_Cycles": {},
+          "Amenorrhea": {},
+          "Oligomenorrhea": {},
+          "Not_Menstruating": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Reproductive_Aging_Stage": {
+          "Pre_Menarche": {},
+          "Early_Reproductive": {},
+          "Peak_Reproductive": {},
+          "Late_Reproductive": {},
+          "Early_Menopausal_Transition": {},
+          "Late_Menopausal_Transition": {},
+          "Early_Postmenopause": {},
+          "Late_Postmenopause": {},
+          "Surgical_Menopause": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Contraception_Status": {
+          "No_Contraception": {},
+          "Barrier_Method": {},
+          "Hormonal_Method": {},
+          "Intrauterine_Device": {},
+          "Sterilization": {},
+          "Fertility_Awareness": {},
+          "Emergency_Contraception_Use": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Fertility_Intentions": {
+          "Wants_Children": {},
+          "Does_Not_Want_Children": {},
+          "Undecided": {},
+          "Currently_Trying_To_Conceive": {},
+          "Fertility_Preservation_Interest": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Reproductive_History_Raw": {
+          "Gravida_Count": {},
+          "Para_Count": {},
+          "Live_Births_Count": {},
+          "Pregnancy_Loss_Count": {},
+          "Age_At_Menarche_Raw": {},
+          "Age_At_Menopause_Raw": {}
+        }
+      },
+      "Sex_Assigned_At_Birth": {
+        "Female": {},
+        "Male": {},
+        "Intersex": {},
+        "Another_Sex_Assignment": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Legal_Sex_Marker": {
+        "Female": {},
+        "Male": {},
+        "Nonbinary_or_X": {},
+        "Not_Recorded": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Sex_Characteristics": {
+        "Chromosomal_Pattern": {
+          "XX": {},
+          "XY": {},
+          "XXY": {},
+          "X0": {},
+          "XXX": {},
+          "XYY": {},
+          "Mosaic_or_Chimeric": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Gonadal_Tissue": {
+          "Ovarian": {},
+          "Testicular": {},
+          "Ovotesticular": {},
+          "Dysgenetic_or_Undifferentiated": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Reproductive_Anatomy": {
+          "Typically_Female": {},
+          "Typically_Male": {},
+          "Variation_in_Sex_Characteristics": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Gender_Identity": {
+        "Woman_Identities": {
+          "Woman": {},
+          "Cis_Woman": {},
+          "Trans_Woman": {},
+          "Transfeminine": {},
+          "Other_Woman_Identity": {}
+        },
+        "Man_Identities": {
+          "Man": {},
+          "Cis_Man": {},
+          "Trans_Man": {},
+          "Transmasculine": {},
+          "Other_Man_Identity": {}
+        },
+        "Nonbinary_and_Gender_Diverse": {
+          "Nonbinary": {},
+          "Genderqueer": {},
+          "Agender": {},
+          "Genderfluid": {},
+          "Two_Spirit": {},
+          "Demigender": {},
+          "Third_Gender": {},
+          "Gender_Nonconforming": {},
+          "Other_Gender_Diverse_Identity": {}
+        },
+        "Questioning": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Gender_Modality": {
+        "Cisgender": {},
+        "Transgender": {},
+        "Nonbinary_or_Gender_Diverse": {},
+        "Questioning": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Gender_Expression": {
+        "Feminine": {},
+        "Masculine": {},
+        "Androgynous": {},
+        "Varies_By_Context": {},
+        "Gender_Nonconforming": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Pronouns": {
+        "He_Him": {},
+        "She_Her": {},
+        "They_Them": {},
+        "He_They": {},
+        "She_They": {},
+        "Any_Pronouns": {},
+        "No_Pronouns": {},
+        "Use_My_Name": {},
+        "Other_Pronouns": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "SOGI_Disclosure_Level": {
+        "Not_Disclosed": {},
+        "Disclosed_To_Close_Others": {},
+        "Disclosed_In_Many_Contexts": {},
+        "Disclosed_In_Most_Contexts": {},
+        "Disclosed_Publicly": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Sexual_Orientation": {
+        "Identity": {
+          "Heterosexual": {},
+          "Gay": {},
+          "Lesbian": {},
+          "Bisexual": {},
+          "Pansexual": {},
+          "Asexual": {},
+          "Demisexual": {},
+          "Queer": {},
+          "Questioning": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Attraction": {
+          "Attracted_To_Women": {},
+          "Attracted_To_Men": {},
+          "Attracted_To_Multiple_Genders": {},
+          "Attracted_To_None": {},
+          "Attraction_Is_Fluid": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Behavior": {
+          "Sex_With_Women": {},
+          "Sex_With_Men": {},
+          "Sex_With_Multiple_Genders": {},
+          "No_Sexual_Behavior": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Temporal_Pattern": {
+          "Stable": {},
+          "Some_Fluidity": {},
+          "Highly_Fluid": {},
+          "Questioning": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Kinsey_Scale_Category": {
+          "Exclusively_Heterosexual": {},
+          "Predominantly_Heterosexual_Incidental_Homosexual": {},
+          "Predominantly_Heterosexual_More_Than_Incidental_Homosexual": {},
+          "Bisexual_Equal": {},
+          "Predominantly_Homosexual_More_Than_Incidental_Heterosexual": {},
+          "Predominantly_Homosexual_Incidental_Heterosexual": {},
+          "Exclusively_Homosexual": {},
+          "No_Sociosexual_Contacts": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Asexual_Spectrum": {
+          "Not_Asexual": {},
+          "Gray_Asexual": {},
+          "Demisexual": {},
+          "Asexual": {},
+          "Questioning": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Romantic_Orientation": {
+        "Heteroromantic": {},
+        "Homoromantic": {},
+        "Biromantic": {},
+        "Panromantic": {},
+        "Aromantic": {},
+        "Demiromantic": {},
+        "Questioning": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Relationship_Status": {
+        "Single": {},
+        "Dating": {},
+        "Partnered": {},
+        "Married": {},
+        "Separated": {},
+        "Divorced": {},
+        "Widowed": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Relationship_Structure": {
+        "Monogamous": {},
+        "Non_Monogamous": {},
+        "Polyamorous": {},
+        "Open_Relationship": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Cohabitation": {
+        "Living_Alone": {},
+        "Living_With_Partner": {},
+        "Living_With_Family": {},
+        "Shared_Housing": {},
+        "Institutional_Living": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Relationship_Legal_Recognition": {
+        "Legally_Recognized": {},
+        "Not_Legally_Recognized": {},
+        "Partially_Recognized": {},
+        "Not_Applicable": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Ethnocultural_Background": {
+        "Self_Identified": {
+          "African_Descent": {},
+          "East_Asian_Descent": {},
+          "South_Asian_Descent": {},
+          "Southeast_Asian_Descent": {},
+          "Middle_Eastern_Descent": {},
+          "European_Descent": {},
+          "Latinx_Descent": {},
+          "Indigenous_Descent": {},
+          "Pacific_Islander_Descent": {},
+          "Mixed_Background": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Perceived_By_Others": {
+          "Often_Matches_Self_Identification": {},
+          "Sometimes_Matches_Self_Identification": {},
+          "Often_Does_Not_Match_Self_Identification": {},
+          "Not_Applicable": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Ancestry_Raw": {
+          "Ancestry_Text": {},
+          "Grandparental_Origins_Text": {}
+        }
+      },
+      "Citizenship_Status": {
+        "Citizen": {},
+        "Dual_Citizen": {},
+        "Permanent_Resident": {},
+        "Temporary_Resident": {},
+        "Stateless": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Country_Of_Birth": {
+        "Known": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Marital_History": {
+        "Never_Married": {},
+        "Currently_Married": {},
+        "Previously_Married": {},
+        "Multiple_Marriages": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Anthropometrics_Raw": {
+        "Height": {},
+        "Weight": {},
+        "Body_Mass_Index": {},
+        "Waist_Circumference": {},
+        "Hip_Circumference": {}
+      }
+    },
+    "Language_and_Communication": {
+      "Primary_Language": {
+        "Dutch": {},
+        "French": {},
+        "German": {},
+        "English": {},
+        "Spanish": {},
+        "Portuguese": {},
+        "Italian": {},
+        "Arabic": {},
+        "Hebrew": {},
+        "Turkish": {},
+        "Persian": {},
+        "Urdu": {},
+        "Hindi": {},
+        "Bengali": {},
+        "Mandarin_Chinese": {},
+        "Cantonese_Chinese": {},
+        "Japanese": {},
+        "Korean": {},
+        "Russian": {},
+        "Ukrainian": {},
+        "Polish": {},
+        "Romanian": {},
+        "Greek": {},
+        "Swedish": {},
+        "Norwegian": {},
+        "Danish": {},
+        "Finnish": {},
+        "Basque": {},
+        "Catalan": {},
+        "Galician": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Additional_Languages": {
+        "Count_Category": {
+          "None": {},
+          "One": {},
+          "Two": {},
+          "Three": {},
+          "Four_Or_More": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Proficiency": {
+        "Speaking": {
+          "None": {},
+          "Basic": {},
+          "Conversational": {},
+          "Professional": {},
+          "Native": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Reading": {
+          "None": {},
+          "Basic": {},
+          "Functional": {},
+          "Proficient": {},
+          "Advanced": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Writing": {
+          "None": {},
+          "Basic": {},
+          "Functional": {},
+          "Proficient": {},
+          "Advanced": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Health_Literacy": {
+        "Limited": {},
+        "Basic": {},
+        "Adequate": {},
+        "Advanced": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Numeracy": {
+        "Limited": {},
+        "Basic": {},
+        "Adequate": {},
+        "Advanced": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Interpreter_Need": {
+        "Needed": {},
+        "Not_Needed": {},
+        "Sometimes_Needed": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Communication_Access": {
+        "Hearing": {
+          "No_Restriction": {},
+          "Hard_Of_Hearing": {},
+          "Deaf": {},
+          "Uses_Hearing_Aid": {},
+          "Uses_Cochlear_Implant": {},
+          "Uses_Sign_Language": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Vision": {
+          "No_Restriction": {},
+          "Low_Vision": {},
+          "Blind": {},
+          "Uses_Corrective_Lenses": {},
+          "Uses_Screen_Reader": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Preferred_Communication_Mode": {
+        "Spoken_Language": {},
+        "Written_Text": {},
+        "Sign_Language": {},
+        "AAC_Assistive_Communication": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      }
+    },
+    "Religion_Spirituality_and_Worldview": {
+      "Affiliation": {
+        "Christianity": {},
+        "Islam": {},
+        "Judaism": {},
+        "Hinduism": {},
+        "Buddhism": {},
+        "Sikhism": {},
+        "Jainism": {},
+        "Bahai": {},
+        "Shinto": {},
+        "Taoism": {},
+        "Confucianism": {},
+        "Zoroastrianism": {},
+        "Indigenous_Traditional_Religion": {},
+        "New_Religious_Movement": {},
+        "Spiritual_But_Not_Religious": {},
+        "Agnostic": {},
+        "Atheist": {},
+        "No_Religion": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Christianity": {
+        "Catholicism": {
+          "Roman_Catholic": {},
+          "Eastern_Catholic": {},
+          "Other_Catholic": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Orthodoxy": {
+          "Eastern_Orthodox": {},
+          "Oriental_Orthodox": {},
+          "Assyrian_Church_of_the_East": {},
+          "Other_Orthodox": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Protestantism": {
+          "Mainline": {
+            "Anglican_Episcopal": {},
+            "Lutheran": {},
+            "Reformed": {},
+            "Presbyterian": {},
+            "Methodist": {},
+            "Baptist": {},
+            "Congregational": {},
+            "Other_Mainline_Protestant": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Evangelical_and_Pentecostal": {
+            "Evangelical": {},
+            "Pentecostal": {},
+            "Charismatic": {},
+            "Non_Denominational": {},
+            "Other_Evangelical_or_Pentecostal": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          }
+        },
+        "Restorationist_and_Other": {
+          "Seventh_day_Adventist": {},
+          "Jehovahs_Witnesses": {},
+          "Latter_day_Saints": {},
+          "Other_Christian": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Islam": {
+        "Tradition": {
+          "Sunni": {},
+          "Shia": {},
+          "Ibadi": {},
+          "Ahmadiyya": {},
+          "Sufi": {},
+          "Other_Islam": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Judaism": {
+        "Tradition": {
+          "Orthodox": {},
+          "Conservative": {},
+          "Reform": {},
+          "Reconstructionist": {},
+          "Renewal": {},
+          "Secular_Cultural_Jewish": {},
+          "Other_Judaism": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Buddhism": {
+        "Tradition": {
+          "Theravada": {},
+          "Mahayana": {},
+          "Vajrayana": {},
+          "Zen": {},
+          "Pure_Land": {},
+          "Other_Buddhism": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Hinduism": {
+        "Tradition": {
+          "Vaishnavism": {},
+          "Shaivism": {},
+          "Shaktism": {},
+          "Smartism": {},
+          "Other_Hinduism": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Practice_Engagement": {
+        "Not_Practicing": {},
+        "Occasional_Practice": {},
+        "Regular_Practice": {},
+        "Highly_Observant": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Community_Connection": {
+        "Not_Connected": {},
+        "Loosely_Connected": {},
+        "Connected": {},
+        "Central_Community_Role": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      }
+    },
+    "Household_and_Family": {
+      "Household_Composition": {
+        "Living_Alone": {},
+        "Living_With_Partner": {},
+        "Living_With_Parents": {},
+        "Living_With_Children": {},
+        "Living_With_Extended_Family": {},
+        "Shared_Housing": {},
+        "Supported_Housing": {},
+        "Institutional_Living": {},
+        "Homeless_or_No_Fixed_Address": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Household_Size": {
+        "One": {},
+        "Two": {},
+        "Three": {},
+        "Four": {},
+        "Five_Or_More": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Children_Present": {
+        "Yes": {},
+        "No": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Children_Age_Groups": {
+        "No_Children": {},
+        "Infant_Child": {},
+        "School_Age_Child": {},
+        "Adolescent_Child": {},
+        "Adult_Child": {},
+        "Multiple_Age_Groups": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Parenting_Role": {
+        "Primary_Caregiver": {},
+        "Co_Parent": {},
+        "Shared_Custody": {},
+        "Non_Custodial_Parent": {},
+        "Guardian": {},
+        "Step_Parent": {},
+        "Foster_Parent": {},
+        "Other": {},
+        "Not_Applicable": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Caregiving_Role": {
+        "None": {},
+        "Caregiver_For_Child": {},
+        "Caregiver_For_Adult": {},
+        "Caregiver_For_Disabled_Person": {},
+        "Caregiver_For_Elder": {},
+        "Multiple_Caregiving_Roles": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Informal_Support_Availability": {
+        "None": {},
+        "Limited": {},
+        "Moderate": {},
+        "Strong": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      }
+    },
+    "Education_and_Skills": {
+      "Highest_Education": {
+        "No_Formal_Education": {},
+        "Primary": {},
+        "Lower_Secondary": {},
+        "Upper_Secondary": {},
+        "Post_Secondary_Non_Tertiary": {},
+        "Short_Cycle_Tertiary": {},
+        "Bachelors": {},
+        "Masters": {},
+        "Doctoral": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Current_Enrollment": {
+        "Not_Enrolled": {},
+        "School": {},
+        "Vocational_Training": {},
+        "University": {},
+        "Adult_Education": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Field_of_Study": {
+        "Broad_Domain": {
+          "Arts_and_Humanities": {},
+          "Social_Sciences": {},
+          "Business_and_Law": {},
+          "Science": {},
+          "Technology": {},
+          "Engineering": {},
+          "Mathematics": {},
+          "Health_and_Medicine": {},
+          "Education": {},
+          "Agriculture_and_Veterinary": {},
+          "Services_and_Hospitality": {},
+          "Other": {},
+          "Not_Applicable": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Training_and_Certification": {
+        "No_Certifications": {},
+        "Trade_Certification": {},
+        "Professional_License": {},
+        "Language_Certification": {},
+        "Technical_Certification": {},
+        "Healthcare_Credential": {},
+        "Other_Certification": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Educational_Trajectory": {
+        "Continuous": {},
+        "Interrupted": {},
+        "Nonlinear": {},
+        "Restarted_After_Break": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Digital_Literacy": {
+        "Low": {},
+        "Basic": {},
+        "Proficient": {},
+        "Advanced": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "General_Literacy": {
+        "Low": {},
+        "Basic": {},
+        "Functional": {},
+        "Proficient": {},
+        "Advanced": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      }
+    },
+    "Employment_and_Work": {
+      "Employment_Status": {
+        "Employed": {},
+        "Unemployed": {},
+        "Student": {},
+        "Retired": {},
+        "Homemaker": {},
+        "Unable_To_Work": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Employment_Arrangement": {
+        "Full_Time": {},
+        "Part_Time": {},
+        "Temporary_Contract": {},
+        "Permanent_Contract": {},
+        "Self_Employed": {},
+        "Gig_Work": {},
+        "Informal_Work": {},
+        "Multiple_Jobs": {},
+        "Not_Applicable": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Work_Mode": {
+        "Onsite": {},
+        "Remote": {},
+        "Hybrid": {},
+        "Not_Applicable": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Work_Schedule_Type": {
+        "Standard_Daytime": {},
+        "Shift_Work": {},
+        "Night_Work": {},
+        "Rotating_Shifts": {},
+        "On_Call": {},
+        "Irregular": {},
+        "Not_Applicable": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Occupation": {
+        "Major_Group": {
+          "Managers": {},
+          "Professionals": {},
+          "Technicians_and_Associate_Professionals": {},
+          "Clerical_Support_Workers": {},
+          "Service_and_Sales_Workers": {},
+          "Skilled_Agricultural_Forestry_and_Fishery_Workers": {},
+          "Craft_and_Related_Trades_Workers": {},
+          "Plant_and_Machine_Operators_and_Assemblers": {},
+          "Elementary_Occupations": {},
+          "Armed_Forces_Occupations": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Sector": {
+        "Public": {},
+        "Private": {},
+        "Nonprofit": {},
+        "Informal": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Job_Security": {
+        "Secure": {},
+        "Somewhat_Secure": {},
+        "Insecure": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Workplace_Support": {
+        "Low": {},
+        "Moderate": {},
+        "High": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Workplace_Discrimination_Experience": {
+        "None": {},
+        "Suspected": {},
+        "Confirmed": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      }
+    },
+    "Socioeconomic_and_Resources": {
+      "Socioeconomic_Position": {
+        "Measurement_Timeframe": {
+          "Current": {},
+          "Childhood": {},
+          "Lifetime_or_Typical": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Income": {
+          "Household_Income_Category": {
+            "Very_Low": {},
+            "Low": {},
+            "Lower_Middle": {},
+            "Middle": {},
+            "Upper_Middle": {},
+            "High": {},
+            "Very_High": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Personal_Income_Category": {
+            "Very_Low": {},
+            "Low": {},
+            "Lower_Middle": {},
+            "Middle": {},
+            "Upper_Middle": {},
+            "High": {},
+            "Very_High": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Income_Raw": {
+            "Household_Income_Amount": {},
+            "Personal_Income_Amount": {},
+            "Income_Currency": {},
+            "Income_Reference_Period": {}
+          },
+          "Income_Stability": {
+            "Stable": {},
+            "Variable": {},
+            "Seasonal": {},
+            "Unpredictable": {},
+            "No_Income": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          }
+        },
+        "Wealth_and_Assets": {
+          "Wealth_Category": {
+            "No_Assets": {},
+            "Limited_Assets": {},
+            "Moderate_Assets": {},
+            "Substantial_Assets": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Savings_Buffer": {
+            "None": {},
+            "Short_Term": {},
+            "Moderate": {},
+            "Robust": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Debt_Burden": {
+            "None": {},
+            "Low": {},
+            "Moderate": {},
+            "High": {},
+            "Severe": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          }
+        },
+        "Subjective_Status": {
+          "Subjective_SES_Category": {
+            "Very_Low": {},
+            "Low": {},
+            "Middle": {},
+            "High": {},
+            "Very_High": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "MacArthur_Ladder_Raw": {
+            "MacArthur_Ladder_Rung": {},
+            "MacArthur_Ladder_Context": {}
+          }
+        },
+        "Childhood_SES": {
+          "Childhood_SES_Category": {
+            "Very_Low": {},
+            "Low": {},
+            "Middle": {},
+            "High": {},
+            "Very_High": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Parental_Education": {
+            "No_Formal_Education": {},
+            "Primary": {},
+            "Secondary": {},
+            "Tertiary": {},
+            "Postgraduate": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          }
+        },
+        "Social_Class": {
+          "Class_Self_Identification": {
+            "Working_Class": {},
+            "Lower_Middle_Class": {},
+            "Middle_Class": {},
+            "Upper_Middle_Class": {},
+            "Upper_Class": {},
+            "Other": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Bourdieu_Capitals": {
+            "Economic_Capital_Low": {},
+            "Economic_Capital_Moderate": {},
+            "Economic_Capital_High": {},
+            "Cultural_Capital_Low": {},
+            "Cultural_Capital_Moderate": {},
+            "Cultural_Capital_High": {},
+            "Social_Capital_Low": {},
+            "Social_Capital_Moderate": {},
+            "Social_Capital_High": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          }
+        },
+        "Intergenerational_Mobility": {
+          "Upward_Mobility": {},
+          "Stable": {},
+          "Downward_Mobility": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Material_Deprivation": {
+        "Core_Needs": {
+          "Unable_To_Pay_Bills": {},
+          "Unable_To_Keep_Home_Warm": {},
+          "Unable_To_Afford_Protein_Regularly": {},
+          "Unable_To_Afford_Medications": {},
+          "Unable_To_Afford_Healthcare_Visits": {},
+          "Missed_Rent_or_Mortgage": {},
+          "Missed_Utility_Payments": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Transportation_Deprivation": {
+          "No_Public_Transport_Access": {},
+          "Cannot_Afford_Transport": {},
+          "Mobility_Constraints": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Digital_Deprivation": {
+          "No_Internet_Access": {},
+          "No_Device_Access": {},
+          "Insufficient_Data_Plan": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Financial_Strain": {
+        "Difficulty_Making_Ends_Meet": {
+          "Very_Difficult": {},
+          "Difficult": {},
+          "Manageable": {},
+          "Comfortable": {},
+          "Very_Comfortable": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Unexpected_Expense_Capacity": {
+          "Cannot_Cover": {},
+          "Can_Cover_With_Difficulty": {},
+          "Can_Cover": {},
+          "Can_Easily_Cover": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Financial_Inclusion": {
+          "Banked": {},
+          "Underbanked": {},
+          "Unbanked": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Food_Access": {
+        "Secure": {},
+        "Occasionally_Insecure": {},
+        "Insecure": {},
+        "Severely_Insecure": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Benefits_And_Social_Protection": {
+        "None": {},
+        "Means_Tested_Benefits": {},
+        "Disability_Benefits": {},
+        "Unemployment_Benefits": {},
+        "Family_Benefits": {},
+        "Housing_Benefits": {},
+        "Old_Age_Pension": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Transportation_Access": {
+        "Reliable": {},
+        "Mostly_Reliable": {},
+        "Limited": {},
+        "No_Access": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Housing_Cost_Burden": {
+        "Not_Burdened": {},
+        "Moderately_Burdened": {},
+        "Severely_Burdened": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Neighborhood_SES": {
+        "Area_Deprivation_Level": {
+          "Low_Deprivation": {},
+          "Moderate_Deprivation": {},
+          "High_Deprivation": {},
+          "Very_High_Deprivation": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Index_Raw": {
+          "Neighborhood_Deprivation_Index_Value": {},
+          "Neighborhood_Deprivation_Index_Name": {}
+        },
+        "Local_Resource_Access": {
+          "High_Access": {},
+          "Moderate_Access": {},
+          "Low_Access": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      }
+    },
+    "Housing_and_Neighborhood": {
+      "Housing_Tenure": {
+        "Owner": {},
+        "Private_Renter": {},
+        "Social_Renter": {},
+        "Living_With_Family_No_Rent": {},
+        "Employer_Provided": {},
+        "Temporary_Accommodation": {},
+        "Shelter": {},
+        "Street_Homelessness": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Housing_Stability": {
+        "Stable": {},
+        "Somewhat_Stable": {},
+        "Unstable": {},
+        "At_Risk_Of_Loss": {},
+        "No_Fixed_Address": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Crowding": {
+        "Not_Crowded": {},
+        "Mildly_Crowded": {},
+        "Crowded": {},
+        "Severely_Crowded": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Housing_Quality": {
+        "Good": {},
+        "Adequate": {},
+        "Substandard": {},
+        "Hazardous": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Environmental_Hazards_At_Home": {
+        "None_Noted": {},
+        "Damp_Or_Mold": {},
+        "Pests": {},
+        "Unsafe_Structure": {},
+        "Poor_Ventilation": {},
+        "Extreme_Temperatures": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Neighborhood_Safety": {
+        "Safe": {},
+        "Mostly_Safe": {},
+        "Unsafe": {},
+        "Very_Unsafe": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Neighborhood_Context": {
+        "High_Social_Cohesion": {},
+        "Moderate_Social_Cohesion": {},
+        "Low_Social_Cohesion": {},
+        "High_Disorder": {},
+        "Moderate_Disorder": {},
+        "Low_Disorder": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Local_Service_Access": {
+        "Good_Access": {},
+        "Moderate_Access": {},
+        "Poor_Access": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      }
+    },
+    "Migration_and_Residency": {
+      "Migration_Position": {
+        "Non_Migrant": {},
+        "First_Generation_Migrant": {},
+        "Second_Generation": {},
+        "Multiple_Generation_Diaspora": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Residency_Status": {
+        "Citizen": {},
+        "Permanent_Resident": {},
+        "Temporary_Resident": {},
+        "Student_Visa": {},
+        "Work_Visa": {},
+        "Family_Reunification": {},
+        "Refugee": {},
+        "Asylum_Seeker": {},
+        "Undocumented": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Migration_Motivation": {
+        "Work": {},
+        "Study": {},
+        "Family": {},
+        "Safety_Or_Asylum": {},
+        "Economic_Necessity": {},
+        "Health_Related": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Acculturation_Orientation": {
+        "Integration": {},
+        "Assimilation": {},
+        "Separation": {},
+        "Marginalization": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Host_Society_Belonging": {
+        "Low": {},
+        "Moderate": {},
+        "High": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Length_Of_Stay_Category": {
+        "Recently_Arrived": {},
+        "Short_Term": {},
+        "Medium_Term": {},
+        "Long_Term": {},
+        "Lifelong": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Length_Of_Stay_Raw": {
+        "Years_In_Host_Country": {},
+        "Age_At_Migration": {}
+      },
+      "Credential_Recognition": {
+        "Not_Applicable": {},
+        "Recognized": {},
+        "Partially_Recognized": {},
+        "Not_Recognized": {},
+        "In_Process": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      }
+    },
+    "Geography_and_Location": {
+      "Residence_Context": {
+        "Current_Residence": {},
+        "Primary_Residence": {},
+        "Secondary_Residence": {},
+        "Prior_Residence": {},
+        "Work_Location": {},
+        "Study_Location": {}
+      },
+      "Broad_Region": {
+        "Continent": {
+          "Africa": {},
+          "Asia": {},
+          "Europe": {},
+          "North_America": {},
+          "South_America": {},
+          "Oceania": {},
+          "Antarctica": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Europe_Subregion": {
+          "Western_Europe": {},
+          "Northern_Europe": {},
+          "Southern_Europe": {},
+          "Eastern_Europe": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Africa_Subregion": {
+          "North_Africa": {},
+          "West_Africa": {},
+          "Central_Africa": {},
+          "East_Africa": {},
+          "Southern_Africa": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Asia_Subregion": {
+          "West_Asia": {},
+          "Central_Asia": {},
+          "South_Asia": {},
+          "East_Asia": {},
+          "Southeast_Asia": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Urbanicity": {
+        "Urban_Core": {},
+        "Suburban": {},
+        "PeriUrban": {},
+        "Rural": {},
+        "Remote_Rural": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Mobility_Pattern": {
+        "Mostly_Home_Based": {},
+        "Local_Mobility": {},
+        "Regional_Mobility": {},
+        "Frequent_Travel": {},
+        "Highly_Mobile": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Administrative_Units_Raw": {
+        "Country_Code": {},
+        "Region_Code": {},
+        "Province_Code": {},
+        "City_Code": {},
+        "Neighborhood_Code": {},
+        "Postal_Code": {},
+        "Service_Catchment_Code": {}
+      }
+    },
+    "Social_and_Community": {
+      "Social_Network_Size": {
+        "Very_Small": {},
+        "Small": {},
+        "Moderate": {},
+        "Large": {},
+        "Very_Large": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Close_Support_Availability": {
+        "None": {},
+        "Limited": {},
+        "Moderate": {},
+        "Strong": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Loneliness": {
+        "Low": {},
+        "Moderate": {},
+        "High": {},
+        "Very_High": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Community_Participation": {
+        "None": {},
+        "Occasional": {},
+        "Regular": {},
+        "Highly_Engaged": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Civic_Engagement": {
+        "None": {},
+        "Occasional": {},
+        "Active": {},
+        "Leadership": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Discrimination_Exposure": {
+        "Context": {
+          "None_Noted": {},
+          "Workplace": {},
+          "Education": {},
+          "Healthcare": {},
+          "Housing": {},
+          "Public_Space": {},
+          "Online": {},
+          "Multiple_Contexts": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Basis": {
+          "Race_Ethnicity": {},
+          "Nationality": {},
+          "Religion": {},
+          "Gender": {},
+          "Sexual_Orientation": {},
+          "Disability": {},
+          "Socioeconomic_Position": {},
+          "Age": {},
+          "Language": {},
+          "Migration_Status": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Social_Capital": {
+        "Bridging": {
+          "Low": {},
+          "Moderate": {},
+          "High": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Bonding": {
+          "Low": {},
+          "Moderate": {},
+          "High": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      }
+    },
+    "Safety_and_Legal": {
+      "Perceived_Safety": {
+        "Overall": {
+          "Safe": {},
+          "Mostly_Safe": {},
+          "Unsafe": {},
+          "Very_Unsafe": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Context": {
+          "Home": {},
+          "Neighborhood": {},
+          "Workplace": {},
+          "School_or_Training": {},
+          "Healthcare_Settings": {},
+          "Public_Transport": {},
+          "Public_Spaces": {},
+          "Online": {},
+          "Multiple_Contexts": {},
+          "Not_Applicable": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Timeframe": {
+          "Current": {},
+          "Past_Year": {},
+          "Earlier_Life": {},
+          "Multiple_Timeframes": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Violence_and_Threat_Exposure": {
+        "Exposure_Status": {
+          "None_Noted": {},
+          "Possible": {},
+          "Confirmed": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Role_or_Position": {
+          "Victim_Survivor": {},
+          "Witness": {},
+          "Both_Victim_and_Witness": {},
+          "Not_Applicable": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Context": {
+          "Domestic_or_Intimate_Partner": {},
+          "Family_NonPartner": {},
+          "Community": {},
+          "Workplace": {},
+          "School_or_Training": {},
+          "Institutional_or_Care_Setting": {},
+          "Hate_Motivated": {},
+          "Law_Enforcement_or_Security": {},
+          "Online": {},
+          "Other": {},
+          "Multiple_Contexts": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Type": {
+          "Physical_Violence": {},
+          "Sexual_Violence": {},
+          "Psychological_or_Emotional_Abuse": {},
+          "Coercive_Control": {},
+          "Stalking": {},
+          "Harassment_or_Threats": {},
+          "Robbery_or_Assault": {},
+          "Weapon_Related_Threat": {},
+          "Neglect": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Frequency_Pattern": {
+          "Single_Incident": {},
+          "Occasional": {},
+          "Repeated": {},
+          "Chronic_or_Ongoing": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Recency": {
+          "Past_Week": {},
+          "Past_Month": {},
+          "Past_Year": {},
+          "More_Than_One_Year_Ago": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Severity_Impact": {
+          "Low_Impact": {},
+          "Moderate_Impact": {},
+          "High_Impact": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Medical_Attention_Required": {
+          "No": {},
+          "Yes": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Legal_Support_and_Resources": {
+        "Access_Level": {
+          "No_Access": {},
+          "Limited_Access": {},
+          "Adequate_Access": {},
+          "Strong_Access": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Barriers": {
+          "Cost": {},
+          "Language": {},
+          "Transport_or_Distance": {},
+          "Documentation": {},
+          "Fear_of_Retaliation": {},
+          "Fear_of_Deportation_or_Immigration_Consequences": {},
+          "Low_Trust_in_System": {},
+          "Prior_Negative_Experience": {},
+          "Stigma": {},
+          "Complexity_or_Bureaucracy": {},
+          "Time_Constraints": {},
+          "Other": {},
+          "Multiple_Barriers": {},
+          "None_Noted": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Support_Types_Available": {
+          "Legal_Aid_or_Public_Defender": {},
+          "Private_Attorney": {},
+          "Advocacy_or_Caseworker": {},
+          "Victim_Services": {},
+          "Shelter_or_Protection_Services": {},
+          "Immigration_Legal_Support": {},
+          "Workplace_or_Union_Support": {},
+          "Other": {},
+          "None": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Protection_Orders": {
+          "Not_Applicable": {},
+          "Never_Sought": {},
+          "Sought_Not_Granted": {},
+          "Granted_Active": {},
+          "Granted_Expired": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Justice_System_Contact": {
+        "Contact_Status": {
+          "None": {},
+          "Any_Contact": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Role_or_Context": {
+          "Victim_Contact": {},
+          "Witness_Contact": {},
+          "Accused_or_Suspected": {},
+          "Charged": {},
+          "Convicted": {},
+          "Probation_or_Parole": {},
+          "Prior_Incarceration": {},
+          "Civil_or_Family_Court": {},
+          "Immigration_Proceedings": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Timeframe": {
+          "Current_or_Ongoing": {},
+          "Past_Year": {},
+          "Earlier_Life": {},
+          "Multiple_Timeframes": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Frequency": {
+          "Single": {},
+          "Occasional": {},
+          "Repeated": {},
+          "Chronic_or_Recurrent": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Criminal_Record": {
+        "Record_Status": {
+          "No_Known_Record": {},
+          "Record_Present": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Record_Detail_Level": {
+          "Arrest_or_Detention_Only": {},
+          "Charge_Only": {},
+          "Conviction": {},
+          "Diversion_or_Deferred_Prosecution": {},
+          "Expunged_or_Sealed_Record": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Supervision_or_Custody_History": {
+          "None": {},
+          "Probation_History": {},
+          "Parole_History": {},
+          "Pretrial_Supervision": {},
+          "Incarceration_History": {},
+          "Detention_or_Remand": {},
+          "Electronic_Monitoring": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Offense_Category": {
+          "Violent": {
+            "Assault_or_Battery": {},
+            "Robbery": {},
+            "Homicide_Related": {},
+            "Weapon_Related": {},
+            "Domestic_Violence_Offense": {},
+            "Sexual_Violence_Offense": {},
+            "Other_Violent": {},
+            "Not_Applicable": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Nonviolent_Property": {
+            "Theft_or_Larceny": {},
+            "Burglary": {},
+            "Fraud_or_Financial_Crime": {},
+            "Property_Damage": {},
+            "Other_Nonviolent_Property": {},
+            "Not_Applicable": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Substance_Related": {
+            "Possession": {},
+            "Distribution_or_Trafficking": {},
+            "DUI_or_Impaired_Driving": {},
+            "Other_Substance_Related": {},
+            "Not_Applicable": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Public_Order_or_Administrative": {
+            "Disorderly_Conduct": {},
+            "Trespass": {},
+            "Protest_or_Assembly_Related": {},
+            "Immigration_or_Documentation_Offense": {},
+            "Other_Public_Order": {},
+            "Not_Applicable": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Traffic_or_Motor_Vehicle": {
+            "Traffic_Violation_Serious": {},
+            "DUI_or_Impaired_Driving": {},
+            "Driving_While_Suspended": {},
+            "Other_Traffic_or_Motor_Vehicle": {},
+            "Not_Applicable": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          }
+        },
+        "Recency": {
+          "Current_or_Past_Year": {},
+          "One_to_Five_Years_Ago": {},
+          "More_Than_Five_Years_Ago": {},
+          "Multiple_Timeframes": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Legal_Consequences": {
+          "None_or_Unknown": {},
+          "Fines_or_Fees": {},
+          "Community_Service": {},
+          "Mandated_Treatment_or_Programs": {},
+          "Restraining_or_NoContact_Order": {},
+          "License_Suspension": {},
+          "Employment_or_Licensing_Restrictions": {},
+          "Housing_Restrictions": {},
+          "Immigration_Consequences": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Record_Metadata_Raw": {
+          "Jurisdiction_Text": {},
+          "Record_Source": {},
+          "Record_Last_Updated": {}
+        }
+      }
+    },
+    "Digital_and_Technology": {
+      "Internet_Access": {
+        "No_Access": {},
+        "Intermittent_Access": {},
+        "Reliable_Access": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Device_Access": {
+        "No_Device": {},
+        "Shared_Device": {},
+        "Owns_Smartphone": {},
+        "Owns_Computer": {},
+        "Owns_Tablet": {},
+        "Multiple_Devices": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Private_Digital_Space": {
+        "No_Private_Space": {},
+        "Limited_Private_Space": {},
+        "Private_Space_Available": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Digital_Confidence": {
+        "Low": {},
+        "Moderate": {},
+        "High": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Digital_Risks": {
+        "Online_Harassment_Exposure": {
+          "None": {},
+          "Occasional": {},
+          "Frequent": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      }
+    },
+    "Function_and_Accessibility": {
+      "Mobility": {
+        "No_Limitations": {},
+        "Mild_Limitations": {},
+        "Moderate_Limitations": {},
+        "Severe_Limitations": {},
+        "Uses_Mobility_Aid": {},
+        "Wheelchair_User": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Self_Care_Function": {
+        "Independent": {},
+        "Needs_Some_Assistance": {},
+        "Needs_Substantial_Assistance": {},
+        "Dependent": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Daily_Living_Function": {
+        "Independent": {},
+        "Needs_Some_Assistance": {},
+        "Needs_Substantial_Assistance": {},
+        "Dependent": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Cognitive_Communication_Function": {
+        "No_Difficulties": {},
+        "Mild_Difficulties": {},
+        "Moderate_Difficulties": {},
+        "Severe_Difficulties": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Accessibility_Accommodations": {
+        "None": {},
+        "Physical_Access": {},
+        "Communication_Access": {},
+        "Sensory_Access": {},
+        "Learning_Access": {},
+        "Workplace_Accommodations": {},
+        "Multiple_Accommodations": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      }
+    },
+    "Goals_and_Values_Alignment": {
+    "Goals": {
+      "Goal_Orientation": {
+        "Approach_vs_Avoidance": {
+          "Approach_Goals": {},
+          "Avoidance_Goals": {},
+          "Mixed_or_Contextual": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Temporal_Horizon": {
+          "Immediate": {},
+          "Short_Term": {},
+          "Medium_Term": {},
+          "Long_Term": {},
+          "Lifelong": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Specificity_Level": {
+          "Concrete_Behavioral": {},
+          "Outcome_Focused": {},
+          "Identity_Based": {},
+          "Abstract_Aspirational": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Commitment_Level": {
+          "High_Commitment": {},
+          "Moderate_Commitment": {},
+          "Low_Commitment": {},
+          "Ambivalent": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Goal_Conflict_Profile": {
+          "No_Conflict_Noted": {},
+          "Intra_Goal_Conflict": {},
+          "Inter_Goal_Conflict": {},
+          "Value_Goal_Conflict": {},
+          "Resource_Constraint_Conflict": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+
+      "Mental_Health_and_Wellbeing_Goals": {
+        "Symptom_Targets": {
+          "Anxiety_Reduction": {},
+          "Depression_Reduction": {},
+          "Stress_Reduction": {},
+          "Panic_Reduction": {},
+          "Trauma_Symptom_Reduction": {},
+          "Obsessions_Compulsions_Reduction": {},
+          "Mood_Stabilization": {},
+          "Irritability_Reduction": {},
+          "Somatic_Symptom_Management": {},
+          "Pain_Related_Distress_Reduction": {},
+          "Burnout_Risk_Reduction": {},
+          "Addictive_Urges_Reduction": {},
+          "Eating_Related_Distress_Reduction": {},
+          "Sleep_Disturbance_Reduction": {},
+          "Other_Symptom_Target": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Functional_Recovery": {
+          "Return_to_Work_or_Study_Functioning": {},
+          "Increase_Daily_Living_Functioning": {},
+          "Increase_Social_Functioning": {},
+          "Increase_Parenting_Functioning": {},
+          "Increase_Executive_Functioning": {},
+          "Reduce_Avoidance_and_Safety_Behaviors": {},
+          "Increase_Routine_Stability": {},
+          "Other_Functional_Target": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Positive_Psychological_Wellbeing": {
+          "Increase_Positive_Affect": {},
+          "Increase_Life_Satisfaction": {},
+          "Increase_Psychological_Flexibility": {},
+          "Increase_Self_Compassion": {},
+          "Increase_Resilience": {},
+          "Increase_Meaning_and_Purpose": {},
+          "Increase_Gratitude": {},
+          "Increase_Hope_and_Optimism": {},
+          "Other_Wellbeing_Target": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+
+      "Skill_and_Capacity_Building_Goals": {
+        "Emotion_Regulation": {
+          "Increase_Emotion_Labeling": {},
+          "Increase_Distress_Tolerance": {},
+          "Reduce_Rumination": {},
+          "Reduce_Worry": {},
+          "Increase_Affective_Modulation": {},
+          "Increase_Relaxation_Skills": {},
+          "Increase_Reappraisal_Skills": {},
+          "Other_Emotion_Regulation_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Cognitive_and_Attentional": {
+          "Increase_Focus": {},
+          "Reduce_Distraction": {},
+          "Increase_Mindfulness_Skills": {},
+          "Increase_Meta_Cognitive_Awareness": {},
+          "Increase_Problem_Solving_Skills": {},
+          "Increase_Decision_Making_Clarity": {},
+          "Other_Cognitive_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Behavior_Change_and_Habits": {
+          "Build_Healthy_Routines": {},
+          "Increase_Activity_Level": {},
+          "Reduce_Avoidant_Behaviors": {},
+          "Increase_Exposure_Practice": {},
+          "Improve_Time_Management": {},
+          "Increase_Consistency_and_Follow_Through": {},
+          "Other_Behavior_Change_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Interpersonal_and_Communication": {
+          "Improve_Assertiveness": {},
+          "Improve_Boundary_Setting": {},
+          "Improve_Conflict_Resolution": {},
+          "Increase_Social_Connection": {},
+          "Reduce_Social_Anxiety_Behaviors": {},
+          "Increase_Compassionate_Communication": {},
+          "Other_Interpersonal_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+
+      "Lifestyle_and_Biopsychosocial_Goals": {
+        "Sleep": {
+          "Improve_Sleep_Regularity": {},
+          "Improve_Sleep_Duration": {},
+          "Improve_Sleep_Quality": {},
+          "Reduce_Insomnia_Behaviors": {},
+          "Other_Sleep_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Physical_Activity": {
+          "Increase_Exercise_Frequency": {},
+          "Increase_Non_Exercise_Activity": {},
+          "Improve_Fitness": {},
+          "Reduce_Sedentary_Time": {},
+          "Other_Physical_Activity_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Nutrition": {
+          "Improve_Diet_Quality": {},
+          "Regularize_Meals": {},
+          "Reduce_Emotional_Eating": {},
+          "Improve_Hydration": {},
+          "Other_Nutrition_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Substance_Use": {
+          "Reduce_Alcohol_Use": {},
+          "Reduce_Nicotine_Use": {},
+          "Reduce_Cannabis_Use": {},
+          "Reduce_Other_Substance_Use": {},
+          "Maintain_Abstinence": {},
+          "Harm_Reduction_Strategies": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Stress_Recovery_and_Rest": {
+          "Increase_Restorative_Breaks": {},
+          "Improve_Work_Life_Boundaries": {},
+          "Increase_Leisure_and_Play": {},
+          "Reduce_Overcommitment": {},
+          "Other_Recovery_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+
+      "Clinical_Care_and_Safety_Goals": {
+        "Treatment_Engagement": {
+          "Start_Therapy": {},
+          "Maintain_Therapy_Attendance": {},
+          "Complete_Assigned_Home_Practice": {},
+          "Medication_Adherence": {},
+          "Clarify_Diagnosis_or_Formulation": {},
+          "Coordinate_Multi_Provider_Care": {},
+          "Other_Treatment_Engagement_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Relapse_Prevention": {
+          "Identify_Early_Warning_Signs": {},
+          "Maintain_Protective_Routines": {},
+          "Develop_Crisis_Plan": {},
+          "Strengthen_Support_Network": {},
+          "Reduce_Risk_Triggers": {},
+          "Other_Relapse_Prevention_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Safety_and_Risk_Management": {
+          "Reduce_Self_Harm_Risk": {},
+          "Reduce_Suicidality_Risk": {},
+          "Reduce_Violence_Risk": {},
+          "Increase_Sense_of_Safety": {},
+          "Enhance_Crisis_Resources_Access": {},
+          "Other_Safety_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+
+      "Identity_Meaning_and_Life_Direction_Goals": {
+        "Self_Concept_and_Identity": {
+          "Clarify_Personal_Identity": {},
+          "Increase_Self_Esteem": {},
+          "Reduce_Self_Criticism": {},
+          "Strengthen_Authenticity": {},
+          "Other_Identity_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Purpose_and_Meaning": {
+          "Increase_Sense_of_Purpose": {},
+          "Align_Life_Direction": {},
+          "Increase_Spiritual_or_Existential_Connection": {},
+          "Other_Meaning_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Values_Consistent_Living": {
+          "Increase_Values_Clarity": {},
+          "Increase_Values_Based_Action": {},
+          "Reduce_Value_Incongruence": {},
+          "Other_Values_Consistent_Living_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+
+      "Relationship_and_Social_Goals": {
+        "Close_Relationships": {
+          "Improve_Partner_Relationship": {},
+          "Improve_Family_Relationships": {},
+          "Strengthen_Friendships": {},
+          "Repair_Ruptures": {},
+          "Other_Close_Relationship_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Community_and_Belonging": {
+          "Increase_Community_Engagement": {},
+          "Increase_Sense_of_Belonging": {},
+          "Reduce_Loneliness": {},
+          "Other_Community_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+
+      "Work_Study_and_Performance_Goals": {
+        "Academic_or_Work_Functioning": {
+          "Improve_Productivity": {},
+          "Reduce_Procrastination": {},
+          "Improve_Concentration_for_Work_or_Study": {},
+          "Manage_Performance_Anxiety": {},
+          "Prevent_Burnout": {},
+          "Other_Work_Study_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Career_Development": {
+          "Clarify_Career_Path": {},
+          "Skill_Development_for_Career": {},
+          "Job_Seeking_or_Transition": {},
+          "Other_Career_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+
+      "App_Specific_Goals": {
+        "Engagement_and_Adherence": {
+          "Complete_Daily_Checkins": {},
+          "Maintain_Streak": {},
+          "Use_Reminders_and_Notifications": {},
+          "Increase_Module_Completion": {},
+          "Increase_Exercise_Practice_Frequency": {},
+          "Other_Engagement_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Self_Monitoring_and_Insight": {
+          "Track_Mood_and_Affect": {},
+          "Track_Sleep": {},
+          "Track_Stress_and_Triggers": {},
+          "Track_Symptoms": {},
+          "Identify_Patterns_and_Correlates": {},
+          "Other_Self_Monitoring_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Personalization_and_Control": {
+          "Customize_Goals_and_Plans": {},
+          "Choose_Preferred_Interventions": {},
+          "Set_Privacy_and_Data_Sharing_Preferences": {},
+          "Tune_Intervention_Intensity": {},
+          "Other_Personalization_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Just_in_Time_Support": {
+          "Access_Crisis_Support_Quickly": {},
+          "Use_In_The_Moment_Coping_Tools": {},
+          "Use_Guided_Breathing_or_Relaxation": {},
+          "Use_Grounding_Techniques": {},
+          "Other_JITAI_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Knowledge_and_Psychoeducation": {
+          "Learn_About_Symptoms_and_Mechanisms": {},
+          "Learn_CBT_ACT_DBT_Skills": {},
+          "Learn_Relapse_Prevention_Skills": {},
+          "Other_Psychoeducation_Goal": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+
+      "Goal_Metadata": {
+        "Priority_Level": {
+          "High": {},
+          "Medium": {},
+          "Low": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Target_Metric_and_Success_Criteria": {
+          "Metric_Type": {
+            "Symptom_Scale": {},
+            "Behavior_Frequency": {},
+            "Duration_or_Time": {},
+            "Subjective_Rating": {},
+            "Functional_Outcome": {},
+            "Physiological_Metric": {},
+            "Other": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Success_Criterion_Text": {},
+          "Baseline_Value": {},
+          "Target_Value": {},
+          "Measurement_Frequency": {}
+        },
+        "Progress_Status": {
+          "Not_Started": {},
+          "In_Progress": {},
+          "Partially_Achieved": {},
+          "Achieved": {},
+          "Paused": {},
+          "Abandoned": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Barriers_and_Facilitators": {
+          "Common_Barriers": {
+            "Low_Motivation": {},
+            "Low_Energy_or_Fatigue": {},
+            "Time_Constraints": {},
+            "Stressful_Life_Events": {},
+            "Cognitive_Load": {},
+            "Environmental_Constraints": {},
+            "Social_Constraints": {},
+            "Financial_Constraints": {},
+            "Health_Constraints": {},
+            "Stigma_or_Shame": {},
+            "Skill_Deficits": {},
+            "Other": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          },
+          "Common_Facilitators": {
+            "Social_Support": {},
+            "Accountability_Structures": {},
+            "High_Self_Efficacy": {},
+            "Access_to_Resources": {},
+            "Stable_Routine": {},
+            "Supportive_Environment": {},
+            "Therapeutic_Alliance": {},
+            "Other": {},
+            "Unknown": {},
+            "Prefer_Not_To_Say": {}
+          }
+        }
+      }
+    },
+    "Values": {
+      "Value_Orientation": {
+        "Importance_Level": {
+          "Very_High": {},
+          "High": {},
+          "Moderate": {},
+          "Low": {},
+          "Very_Low": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Stability": {
+          "Stable": {},
+          "Evolving": {},
+          "Context_Dependent": {},
+          "Unclear": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Value_Conflict_Profile": {
+          "No_Conflict_Noted": {},
+          "Internal_Conflict": {},
+          "Interpersonal_Conflict": {},
+          "Cultural_or_Societal_Conflict": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+
+      "Core_Value_Domains": {
+        "Self_Direction_and_Autonomy": {
+          "Independence": {},
+          "Freedom_of_Choice": {},
+          "Creativity": {},
+          "Curiosity": {},
+          "Personal_Growth": {},
+          "Authenticity": {},
+          "Self_Responsibility": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Competence_and_Achievement": {
+          "Mastery": {},
+          "Excellence": {},
+          "Skill_Development": {},
+          "Persistence": {},
+          "Discipline": {},
+          "Personal_Efficacy": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Security_and_Stability": {
+          "Safety": {},
+          "Predictability": {},
+          "Health_Security": {},
+          "Financial_Security": {},
+          "Order": {},
+          "Risk_Aversion": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Care_and_Compassion": {
+          "Kindness": {},
+          "Empathy": {},
+          "Helping_Others": {},
+          "Nonharm": {},
+          "Nurturance": {},
+          "Self_Compassion": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Justice_and_Fairness": {
+          "Equity": {},
+          "Honesty": {},
+          "Integrity": {},
+          "Responsibility": {},
+          "Accountability": {},
+          "Respect_for_Rules": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Connection_and_Belonging": {
+          "Close_Relationships": {},
+          "Community": {},
+          "Cooperation": {},
+          "Loyalty": {},
+          "Trust": {},
+          "Love_and_Affection": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Meaning_and_Spirituality": {
+          "Purpose": {},
+          "Transcendence": {},
+          "Spiritual_Practice": {},
+          "Existential_Clarity": {},
+          "Gratitude": {},
+          "Reverence": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Pleasure_and_Enjoyment": {
+          "Joy": {},
+          "Playfulness": {},
+          "Comfort": {},
+          "Aesthetic_Appreciation": {},
+          "Sensory_Enjoyment": {},
+          "Humor": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Health_and_Wellbeing": {
+          "Physical_Health": {},
+          "Mental_Wellbeing": {},
+          "Balance": {},
+          "Vitality": {},
+          "Rest_and_Recovery": {},
+          "Sustainable_Habits": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Growth_and_Openness": {
+          "Learning": {},
+          "Open_Mindedness": {},
+          "Exploration": {},
+          "Adaptability": {},
+          "Courage": {},
+          "Humility": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Tradition_and_Conformity": {
+          "Respect_for_Tradition": {},
+          "Humility_in_Social_Roles": {},
+          "Duty": {},
+          "Conformity": {},
+          "Obedience": {},
+          "Preserve_Customs": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Power_and_Status": {
+          "Influence": {},
+          "Leadership": {},
+          "Recognition": {},
+          "Prestige": {},
+          "Control": {},
+          "Ambition": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Environmental_and_Global_Concern": {
+          "Sustainability": {},
+          "Stewardship": {},
+          "Intergenerational_Responsibility": {},
+          "Global_Justice": {},
+          "Care_for_Nature": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+
+      "Values_in_Action": {
+        "Behavioral_Expressions": {
+          "Daily_Routine_Choices": {},
+          "Relationship_Choices": {},
+          "Work_Study_Choices": {},
+          "Health_Behavior_Choices": {},
+          "Leisure_Choices": {},
+          "Civic_and_Community_Choices": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Sacrifices_and_Tradeoffs": {
+          "Willingness_to_Endure_Discomfort_for_Values": {},
+          "Willingness_to_Give_Time_or_Money": {},
+          "Willingness_to_Say_No_to_Competing_Demands": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+
+      "Value_Assessment_Metadata": {
+        "Source": {
+          "Self_Report": {},
+          "Clinician_Assessed": {},
+          "Inferred_From_Behavior": {},
+          "Inferred_From_Text_or_Language": {},
+          "Other": {},
+          "Unknown": {}
+        },
+        "Measurement_Frame": {
+          "Trait_Like": {},
+          "Current_State": {},
+          "Context_Specific": {},
+          "Unknown": {}
+        }
+      }
+    },
+
+    "Alignment": {
+      "Values_Goals_Congruence": {
+        "Overall_Congruence": {
+          "High": {},
+          "Moderate": {},
+          "Low": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Congruence_By_Domain": {
+          "Mental_Health_and_Wellbeing": {},
+          "Work_Study_and_Performance": {},
+          "Relationships_and_Community": {},
+          "Health_and_Lifestyle": {},
+          "Meaning_and_Identity": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Implementation_Gap": {
+        "Gap_Level": {
+          "No_Gap": {},
+          "Small_Gap": {},
+          "Moderate_Gap": {},
+          "Large_Gap": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Primary_Gap_Drivers": {
+          "Skill_Deficit": {},
+          "Environmental_Constraints": {},
+          "Competing_Demands": {},
+          "Low_Energy_or_Fatigue": {},
+          "Emotional_Avoidance": {},
+          "Low_Self_Efficacy": {},
+          "Low_Clarity_of_Values_or_Goals": {},
+          "Clinical_Symptom_Burden": {},
+          "Other": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Readiness_and_Stage": {
+        "Stage_of_Change": {
+          "Precontemplation": {},
+          "Contemplation": {},
+          "Preparation": {},
+          "Action": {},
+          "Maintenance": {},
+          "Relapse_or_Recycle": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      },
+      "Motivational_Profile": {
+        "Motivation_Type": {
+          "Intrinsic": {},
+          "Identified": {},
+          "Introjected": {},
+          "External": {},
+          "Amotivated": {},
+          "Mixed": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        },
+        "Autonomy_Support_Need": {
+          "Low": {},
+          "Moderate": {},
+          "High": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      }
+    }
+  },
+    "Healthcare_Access_and_Preferences": {
+      "Primary_Care_Access": {
+        "No_Regular_Provider": {},
+        "Has_Regular_Provider": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Care_Access_Barriers": {
+        "None_Noted": {},
+        "Cost": {},
+        "Transportation": {},
+        "Language": {},
+        "Time_Constraints": {},
+        "Stigma": {},
+        "Documentation": {},
+        "Long_Wait": {},
+        "Other": {},
+        "Multiple_Barriers": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Insurance_Coverage": {
+        "None": {},
+        "Public": {},
+        "Private": {},
+        "Mixed": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Care_Mode_Preference": {
+        "In_Person": {},
+        "Telehealth": {},
+        "Hybrid": {},
+        "No_Preference": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Trust_in_Healthcare_System": {
+        "Low": {},
+        "Moderate": {},
+        "High": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Care_Preferences": {
+        "Shared_Decision_Making_Preference": {
+          "Clinician_Led": {},
+          "Shared": {},
+          "Patient_Led": {},
+          "Unknown": {},
+          "Prefer_Not_To_Say": {}
+        }
+      }
+    },
+    "Life_Course_and_Background": {
+      "Family_of_Origin_Context": {
+        "Raised_By_Both_Parents": {},
+        "Raised_By_Single_Parent": {},
+        "Raised_By_Extended_Family": {},
+        "Foster_Care_History": {},
+        "Institutional_Care_History": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Educational_Environment_History": {
+        "Mainstream_Schooling": {},
+        "Special_Education_Support": {},
+        "Home_Schooling": {},
+        "Interrupted_Schooling": {},
+        "Other": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Major_Life_Transitions": {
+        "Recent_Relocation": {},
+        "Recent_Job_Change": {},
+        "Recent_Education_Change": {},
+        "Recent_Relationship_Change": {},
+        "Recent_Bereavement": {},
+        "None_Noted": {},
+        "Multiple_Transitions": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      },
+      "Adverse_Experiences_Exposure": {
+        "None_Noted": {},
+        "Possible": {},
+        "Confirmed": {},
+        "Unknown": {},
+        "Prefer_Not_To_Say": {}
+      }
+    }
+  }
+}

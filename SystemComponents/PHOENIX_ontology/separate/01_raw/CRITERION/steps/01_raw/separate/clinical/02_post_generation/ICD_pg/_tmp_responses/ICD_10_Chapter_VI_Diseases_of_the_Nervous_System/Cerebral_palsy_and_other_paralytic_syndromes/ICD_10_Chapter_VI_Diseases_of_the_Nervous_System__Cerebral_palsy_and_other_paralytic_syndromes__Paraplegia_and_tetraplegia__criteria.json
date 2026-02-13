@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cognitive_impairment"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "memory_deficit"
+    },
+    {
+      "criterium": "language_processing_impairment"
+    },
+    {
+      "criterium": "verbal_fluency_impairment"
+    },
+    {
+      "criterium": "emotional_dysregulation"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    },
+    {
+      "criterium": "apathy"
+    },
+    {
+      "criterium": "sleep_disturbance"
+    },
+    {
+      "criterium": "fatigue"
+    }
+  ],
+  "estimated_prevalence_percent": 0.09
+}

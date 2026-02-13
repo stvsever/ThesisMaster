@@ -1,0 +1,23 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "absent_nocturnal_penile_tumescence"
+    },
+    {
+      "criterium": "absent_bulbocavernosus_reflex"
+    },
+    {
+      "criterium": "diminished_penile_sensation"
+    },
+    {
+      "criterium": "diminished_pudendal_nerve_conduction"
+    },
+    {
+      "criterium": "reduced_reflexogenic_erectile_response_to_perineal_stimulation"
+    },
+    {
+      "criterium": "abnormal_intracavernosal_pressure_response_to_stimulation"
+    }
+  ],
+  "estimated_prevalence_percent": 2.8
+}

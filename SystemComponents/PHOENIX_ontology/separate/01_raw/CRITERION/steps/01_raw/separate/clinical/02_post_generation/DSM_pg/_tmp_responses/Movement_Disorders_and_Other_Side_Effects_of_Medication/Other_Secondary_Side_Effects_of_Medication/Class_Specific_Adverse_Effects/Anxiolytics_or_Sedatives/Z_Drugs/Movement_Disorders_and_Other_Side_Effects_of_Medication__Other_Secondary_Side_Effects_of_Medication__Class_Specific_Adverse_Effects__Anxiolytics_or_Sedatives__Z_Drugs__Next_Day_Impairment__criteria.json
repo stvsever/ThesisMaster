@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "next_day_psychomotor_slowing"
+    },
+    {
+      "criterium": "next_day_reaction_time_prolongation"
+    },
+    {
+      "criterium": "next_day_attention_deficit"
+    },
+    {
+      "criterium": "next_day_executive_function_deficit"
+    },
+    {
+      "criterium": "next_day_working_memory_decline"
+    },
+    {
+      "criterium": "next_day_anterograde_memory_impairment"
+    },
+    {
+      "criterium": "next_day_gait_unsteadiness"
+    },
+    {
+      "criterium": "next_day_dizziness"
+    },
+    {
+      "criterium": "next_day_headache"
+    },
+    {
+      "criterium": "next_day_nausea"
+    },
+    {
+      "criterium": "next_day_somnolence"
+    },
+    {
+      "criterium": "next_day_orientation_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 4.8
+}

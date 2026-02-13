@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "auditory_hallucinations"
+    },
+    {
+      "criterium": "delusions_present"
+    },
+    {
+      "criterium": "disorganized_speech"
+    },
+    {
+      "criterium": "gross_disorganized_behavior"
+    },
+    {
+      "criterium": "affective_flattening"
+    },
+    {
+      "criterium": "avolition"
+    },
+    {
+      "criterium": "alogia"
+    },
+    {
+      "criterium": "anhedonia"
+    },
+    {
+      "criterium": "delusions_of_reference"
+    },
+    {
+      "criterium": "delusions_of_persecution"
+    },
+    {
+      "criterium": "thought_blocking"
+    },
+    {
+      "criterium": "thought_insertions"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

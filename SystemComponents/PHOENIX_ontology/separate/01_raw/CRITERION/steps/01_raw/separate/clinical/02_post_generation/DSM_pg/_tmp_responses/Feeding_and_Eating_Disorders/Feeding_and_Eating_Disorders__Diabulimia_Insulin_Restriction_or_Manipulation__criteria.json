@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "insulin_restriction_for_weight_control"
+    },
+    {
+      "criterium": "intentional_insulin_dose_reduction_without_medical_instruction"
+    },
+    {
+      "criterium": "withholding_of_insulin_administration"
+    },
+    {
+      "criterium": "secretive_insulin_adjustments_to_healthcare_providers"
+    },
+    {
+      "criterium": "recurrent_hyperglycemia_due_to_insulin_restriction"
+    },
+    {
+      "criterium": "increased_risk_of_diabetic_ketoacidosis_due_to_insulin_restriction"
+    },
+    {
+      "criterium": "weight_loss_exceeding_expected_with_diabetes_management"
+    },
+    {
+      "criterium": "nonadherence_to_prescribed_insulin_regimen"
+    },
+    {
+      "criterium": "excessive_body_weight_concern_in_diabetes_context"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

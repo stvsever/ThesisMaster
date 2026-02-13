@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "urge_to_achieve_just_right"
+    },
+    {
+      "criterium": "repetitive_object_alignment_ritual"
+    },
+    {
+      "criterium": "symmetry_preoccupation"
+    },
+    {
+      "criterium": "distress_from_incomplete_arrangement"
+    },
+    {
+      "criterium": "precise_flaw_detection"
+    },
+    {
+      "criterium": "repeated_reordering_to_satisfaction"
+    },
+    {
+      "criterium": "explicit_orientation_verification"
+    },
+    {
+      "criterium": "counting_to_just_right_threshold"
+    },
+    {
+      "criterium": "visual_inspection_for_minor_flaws"
+    },
+    {
+      "criterium": "resistance_to_discarding_imperfect_items"
+    }
+  ],
+  "estimated_prevalence_percent": 0.6
+}

@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "cervical_muscle_spasm"
+    },
+    {
+      "criterium": "head_posture_tilt_to_side"
+    },
+    {
+      "criterium": "head_posture_rotation_to_side"
+    },
+    {
+      "criterium": "anterocollis"
+    },
+    {
+      "criterium": "retrocollis"
+    },
+    {
+      "criterium": "neck_pain"
+    },
+    {
+      "criterium": "shoulder_elevation"
+    },
+    {
+      "criterium": "facial_grimacing"
+    },
+    {
+      "criterium": "neck_dystonic_tremor"
+    }
+  ],
+  "estimated_prevalence_percent": 0.03
+}

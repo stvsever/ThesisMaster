@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "sleep_schedule_irregularity"
+    },
+    {
+      "criterium": "sleep_onset_latency_variability"
+    },
+    {
+      "criterium": "sleep_offset_time_variability"
+    },
+    {
+      "criterium": "sleep_fragmentation"
+    },
+    {
+      "criterium": "naps_inconsistently_timed"
+    },
+    {
+      "criterium": "daytime_sleepiness_fatigue"
+    },
+    {
+      "criterium": "reduced_sleep_efficiency"
+    },
+    {
+      "criterium": "inconsistent_bedtime_routine"
+    },
+    {
+      "criterium": "awakenings_during_sleep"
+    },
+    {
+      "criterium": "misalignment_with_social_schedule"
+    },
+    {
+      "criterium": "variable_sleep_duration"
+    },
+    {
+      "criterium": "circadian_phase_preference_fluctuation"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

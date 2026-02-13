@@ -1,0 +1,54 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "DRD2",
+      "COMT",
+      "BDNF",
+      "SLC6A4",
+      "NR3C1"
+    ],
+    "molecules": [
+      "Dopamine",
+      "Norepinephrine",
+      "Cortisol",
+      "BDNF",
+      "Glutamate",
+      "GABA"
+    ],
+    "cells": [
+      "amygdala_pyramidal_neurons",
+      "prefrontal_cortex_pyramidal_neurons",
+      "parvalbumin_interneurons",
+      "astrocytes"
+    ],
+    "circuits": [
+      "amygdala_prefrontal_connectivity",
+      "amygdala_insula_connectivity",
+      "dorsolateral_prefrontal_cortex_connectivity"
+    ],
+    "physiology": [
+      "heart_rate",
+      "heart_rate_variability",
+      "skin_conductance_response",
+      "pupil_dilation",
+      "startle_amplitude",
+      "respiratory_rate"
+    ],
+    "behavior": [
+      "threat_probability_overestimation_rate",
+      "risk_assessment_error_rate",
+      "decision_latency_to_threat_cues",
+      "avoidance_response_frequency",
+      "threat_cue_gaze_duration",
+      "startle_response_occurrence_rate"
+    ],
+    "self_report": [
+      "perceived_threat_probability_rating",
+      "fear_intensity_rating",
+      "state_anxiety_rating",
+      "intolerance_of_uncertainty_score",
+      "threat_sensitivity_questionnaire_score"
+    ]
+  },
+  "estimated_prevalence_percent": 8.5
+}

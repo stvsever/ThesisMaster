@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depressed_mood_summer_onset"
+    },
+    {
+      "criterium": "anhedonia_summer_onset"
+    },
+    {
+      "criterium": "insomnia_summer_onset"
+    },
+    {
+      "criterium": "fatigue_summer_onset"
+    },
+    {
+      "criterium": "psychomotor_agitation_summer_onset"
+    },
+    {
+      "criterium": "psychomotor_retardation_summer_onset"
+    },
+    {
+      "criterium": "concentration_difficulty_summer_onset"
+    },
+    {
+      "criterium": "guilt_summer_onset"
+    },
+    {
+      "criterium": "appetite_change_summer_onset"
+    },
+    {
+      "criterium": "suicidal_ideation_summer_onset"
+    },
+    {
+      "criterium": "functional_impairment_summer_onset"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

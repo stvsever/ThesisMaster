@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "ptosis"
+    },
+    {
+      "criterium": "diplopia"
+    },
+    {
+      "criterium": "ophthalmoplegia"
+    },
+    {
+      "criterium": "fatigable_weakness"
+    },
+    {
+      "criterium": "diurnal_variation_in_strength"
+    },
+    {
+      "criterium": "bulbar_weakness"
+    },
+    {
+      "criterium": "dysphagia"
+    },
+    {
+      "criterium": "dysarthria"
+    },
+    {
+      "criterium": "proximal_limb_weakness"
+    },
+    {
+      "criterium": "respiratory_weakness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

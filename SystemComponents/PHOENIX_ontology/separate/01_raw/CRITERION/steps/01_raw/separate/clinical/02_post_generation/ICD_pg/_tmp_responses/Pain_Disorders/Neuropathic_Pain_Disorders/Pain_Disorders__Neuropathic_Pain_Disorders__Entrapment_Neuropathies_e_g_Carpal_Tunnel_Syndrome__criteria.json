@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "paresthesias_median_distribution_digits_1_3"
+    },
+    {
+      "criterium": "numbness_median_distribution_digits_1_3"
+    },
+    {
+      "criterium": "pain_median_distribution_digits_1_3"
+    },
+    {
+      "criterium": "thumb_opposition_weakness"
+    },
+    {
+      "criterium": "thenar_eminence_atrophy"
+    },
+    {
+      "criterium": "decreased_pinch_grip_strength"
+    },
+    {
+      "criterium": "positive_tinel_sign_wrist"
+    },
+    {
+      "criterium": "positive_phalen_sign"
+    },
+    {
+      "criterium": "nocturnal_pain_in_hand"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_hand_pain"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

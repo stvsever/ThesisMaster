@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "resting_pain_intensity"
+    },
+    {
+      "criterium": "pain_with_activity_exertion"
+    },
+    {
+      "criterium": "joint_tenderness_on_examination"
+    },
+    {
+      "criterium": "crepitus_present"
+    },
+    {
+      "criterium": "range_of_motion_limitation_due_to_pain"
+    },
+    {
+      "criterium": "morning_stiffness_present"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_pain"
+    },
+    {
+      "criterium": "fatigue_level_related_to_pain"
+    },
+    {
+      "criterium": "mood_disturbance_associated_with_pain"
+    },
+    {
+      "criterium": "pain_interferes_with_cognitive_tasks"
+    }
+  ],
+  "estimated_prevalence_percent": 8.5
+}

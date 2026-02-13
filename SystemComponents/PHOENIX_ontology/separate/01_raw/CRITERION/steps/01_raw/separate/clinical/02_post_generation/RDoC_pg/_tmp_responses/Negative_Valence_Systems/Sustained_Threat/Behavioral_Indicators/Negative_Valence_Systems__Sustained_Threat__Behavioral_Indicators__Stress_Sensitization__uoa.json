@@ -1,0 +1,61 @@
+{
+  "units_of_analysis": {
+    "genes": [
+      "FKBP5_rs1360780",
+      "NR3C1_promoter_methylation_CpG",
+      "BDNF_rs6265",
+      "CRH_gene_expression",
+      "CRHR1_gene_expression",
+      "AVP_gene_expression"
+    ],
+    "molecules": [
+      "cortisol_plasma",
+      "CRH_plasma",
+      "ACTH_plasma",
+      "IL6_plasma",
+      "TNF_alpha_plasma",
+      "BDNF_plasma",
+      "CRP_plasma"
+    ],
+    "cells": [
+      "amygdala_neuron_count",
+      "hippocampus_pyramidal_neuron_count",
+      "microglial_CD68_positive_cell_count",
+      "glucocorticoid_receptor_positive_cell_count"
+    ],
+    "circuits": [
+      "amygdala_BOLD_stress_response",
+      "PFC_BOLD_stress_response",
+      "amygdala_prefrontal_connectivity_stress",
+      "hippocampus_BOLD_stress_response",
+      "insula_BOLD_stress_response",
+      "ACC_amygdala_connectivity_stress"
+    ],
+    "physiology": [
+      "resting_heart_rate",
+      "HRV_SDNN",
+      "skin_conductance_response_magnitude",
+      "systolic_blood_pressure_reactivity",
+      "respiration_rate",
+      "pupil_dilation_response"
+    ],
+    "behavior": [
+      "startle_response_magnitude",
+      "avoidance_behavior_frequency",
+      "vigilance_to_stimulus_reaction_time",
+      "sleep_fragmentation_events",
+      "social_withdrawal_frequency",
+      "irritability_and_agitation_frequency"
+    ],
+    "self_report": [
+      "perceived_stress_scale_score",
+      "general_anxiety_questionnaire_score",
+      "PTSD_checklist_score",
+      "sleep_quality_index_score",
+      "hyperarousal_symptom_score",
+      "negative_affectivity_scale_score",
+      "irritability_scale_score"
+    ]
+  },
+  "estimated_prevalence_percent": 12.0
+}

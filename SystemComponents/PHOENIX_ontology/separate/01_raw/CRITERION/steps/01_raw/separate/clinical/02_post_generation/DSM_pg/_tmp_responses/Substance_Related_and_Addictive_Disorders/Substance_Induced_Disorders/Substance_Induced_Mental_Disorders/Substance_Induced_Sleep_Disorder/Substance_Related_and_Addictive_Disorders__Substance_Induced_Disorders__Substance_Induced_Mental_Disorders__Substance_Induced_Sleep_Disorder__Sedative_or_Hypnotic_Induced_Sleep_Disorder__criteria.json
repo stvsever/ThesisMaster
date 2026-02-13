@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "SLEEP_ONSET_LATENCY_PROLONGATION"
+    },
+    {
+      "criterium": "SLEEP_MAINTENANCE_DIFFICULTY"
+    },
+    {
+      "criterium": "EARLY_MORNING_AWAKENINGS"
+    },
+    {
+      "criterium": "NON_RESTORATIVE_SLEEP"
+    },
+    {
+      "criterium": "REDUCED_TOTAL_SLEEP_TIME"
+    },
+    {
+      "criterium": "DECREASED_SLEEP_EFFICIENCY"
+    },
+    {
+      "criterium": "DAYTIME_SOMNOLENCE"
+    },
+    {
+      "criterium": "SLEEP_FRAGMENTATION"
+    },
+    {
+      "criterium": "REBOUND_INSOMNIA_WITHDRAWAL"
+    },
+    {
+      "criterium": "REM_SLEEP_DISTURBANCE"
+    }
+  ],
+  "estimated_prevalence_percent": 0.3
+}

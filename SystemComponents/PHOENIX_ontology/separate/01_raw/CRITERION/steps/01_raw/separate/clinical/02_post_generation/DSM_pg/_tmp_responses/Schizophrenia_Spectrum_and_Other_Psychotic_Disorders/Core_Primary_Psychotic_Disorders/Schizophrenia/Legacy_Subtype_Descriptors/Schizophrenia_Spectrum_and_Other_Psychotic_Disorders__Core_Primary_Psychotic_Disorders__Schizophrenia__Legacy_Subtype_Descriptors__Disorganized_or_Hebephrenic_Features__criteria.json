@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "loosening_of_associations"
+    },
+    {
+      "criterium": "tangential_speech"
+    },
+    {
+      "criterium": "derailment"
+    },
+    {
+      "criterium": "incoherent_speech"
+    },
+    {
+      "criterium": "neologisms"
+    },
+    {
+      "criterium": "clang_associations"
+    },
+    {
+      "criterium": "word_salad"
+    },
+    {
+      "criterium": "perseveration"
+    },
+    {
+      "criterium": "disorganized_behaviour"
+    },
+    {
+      "criterium": "inappropriate_affect"
+    }
+  ],
+  "estimated_prevalence_percent": 0.15
+}

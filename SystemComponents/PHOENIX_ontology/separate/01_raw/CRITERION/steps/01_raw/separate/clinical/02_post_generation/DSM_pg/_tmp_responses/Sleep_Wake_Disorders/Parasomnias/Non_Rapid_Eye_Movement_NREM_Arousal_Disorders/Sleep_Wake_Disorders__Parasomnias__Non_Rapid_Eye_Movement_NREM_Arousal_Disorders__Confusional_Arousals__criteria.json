@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "disorientation_on_awakening"
+    },
+    {
+      "criterium": "blank_stare_or_dazed_appearance_on_arousal"
+    },
+    {
+      "criterium": "slowed_or_inappropriate_verbal_responses_on_arousal"
+    },
+    {
+      "criterium": "incoherent_speech_or_muttering_on_arousal"
+    },
+    {
+      "criterium": "repetitive_questions_or_muttering_during_arousal"
+    },
+    {
+      "criterium": "nonpurposeful_complex_motor_behaviors_during_arousal"
+    },
+    {
+      "criterium": "amnesia_for_episode"
+    },
+    {
+      "criterium": "impaired_awareness_of_environment_during_arousal"
+    },
+    {
+      "criterium": "wandering_or_searching_movements_during_arousal"
+    },
+    {
+      "criterium": "autonomic_activation_during_arousal"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

@@ -1,0 +1,29 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "decreased_sexual_desire_frequency"
+    },
+    {
+      "criterium": "decreased_sexual_desire_intensity"
+    },
+    {
+      "criterium": "reduced_sexual_thoughts_or_fantasies"
+    },
+    {
+      "criterium": "decreased_initiation_of_sexual_activity_with_partner"
+    },
+    {
+      "criterium": "reduced_planning_of_sexual_intercourse"
+    },
+    {
+      "criterium": "increased_avoidance_of_sexual_proposals_or_situations"
+    },
+    {
+      "criterium": "decreased_responsiveness_to_partner_proposals_of_sex"
+    },
+    {
+      "criterium": "decreased_sexual_interest_in_sexual_activity_within_relationship"
+    }
+  ],
+  "estimated_prevalence_percent": 4.5
+}

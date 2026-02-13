@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "nocturnal_head_banging_present"
+    },
+    {
+      "criterium": "head_banging_episode_frequency"
+    },
+    {
+      "criterium": "head_contact_surface_during_banging"
+    },
+    {
+      "criterium": "rhythmic_head_banging_motion"
+    },
+    {
+      "criterium": "head_banging_surface_contact_site_pillow_or_bed"
+    },
+    {
+      "criterium": "audible_noise_generated_by_head_banging"
+    },
+    {
+      "criterium": "jaw_clenching_during_sleep"
+    },
+    {
+      "criterium": "teeth_grinding_during_sleep"
+    },
+    {
+      "criterium": "neck_muscle_tension_during_head_banging"
+    },
+    {
+      "criterium": "sleep_fragmentation_or_arousal_associated_with_banging"
+    },
+    {
+      "criterium": "caregiver_report_of_head_banging_events"
+    }
+  ],
+  "estimated_prevalence_percent": 2.0
+}

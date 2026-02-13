@@ -1,0 +1,38 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "widespread_pain"
+    },
+    {
+      "criterium": "persistent_fatigue"
+    },
+    {
+      "criterium": "nonrestorative_sleep"
+    },
+    {
+      "criterium": "cognitive_dysfunction"
+    },
+    {
+      "criterium": "morning_stiffness"
+    },
+    {
+      "criterium": "headache"
+    },
+    {
+      "criterium": "myofascial_tenderness"
+    },
+    {
+      "criterium": "somatic_hypersensitivity"
+    },
+    {
+      "criterium": "irritable_bowel_syndrome_symptoms"
+    },
+    {
+      "criterium": "anxiety_symptoms"
+    },
+    {
+      "criterium": "depressive_symptoms"
+    }
+  ],
+  "estimated_prevalence_percent": 2.9
+}

@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "inattention"
+    },
+    {
+      "criterium": "distractibility"
+    },
+    {
+      "criterium": "forgetfulness"
+    },
+    {
+      "criterium": "disorganization"
+    },
+    {
+      "criterium": "careless_errors_in_tasks"
+    },
+    {
+      "criterium": "initiation_difficulty"
+    },
+    {
+      "criterium": "follow_through_difficulty"
+    },
+    {
+      "criterium": "sustained_attention_deficit"
+    },
+    {
+      "criterium": "fidgeting"
+    },
+    {
+      "criterium": "restlessness"
+    },
+    {
+      "criterium": "excessive_talking"
+    },
+    {
+      "criterium": "impulsivity_interrupts_others"
+    },
+    {
+      "criterium": "impatience_waiting_turn"
+    }
+  ],
+  "estimated_prevalence_percent": 5.0
+}

@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "NYSTAGMUS_PCP"
+    },
+    {
+      "criterium": "PSYCHOMOTOR_AGITATION"
+    },
+    {
+      "criterium": "AGGRESSIVE_BEHAVIOR"
+    },
+    {
+      "criterium": "VISUAL_HALLUCINATIONS"
+    },
+    {
+      "criterium": "AUDITORY_HALLUCINATIONS"
+    },
+    {
+      "criterium": "PERCEPTUAL_TIME_DISTORTION"
+    },
+    {
+      "criterium": "DEPERSONALIZATION_DEREALIZATION"
+    },
+    {
+      "criterium": "ATAXIA"
+    },
+    {
+      "criterium": "TACHYCARDIA"
+    },
+    {
+      "criterium": "HYPERTENSION"
+    },
+    {
+      "criterium": "ORIENTATION_PRESERVED"
+    },
+    {
+      "criterium": "PUPILLARY_DILATION"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

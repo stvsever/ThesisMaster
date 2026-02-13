@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "tachycardia"
+    },
+    {
+      "criterium": "hypertension"
+    },
+    {
+      "criterium": "diaphoresis"
+    },
+    {
+      "criterium": "mydriasis"
+    },
+    {
+      "criterium": "tremor"
+    },
+    {
+      "criterium": "psychomotor_agitation"
+    },
+    {
+      "criterium": "euphoria"
+    },
+    {
+      "criterium": "anxiety"
+    },
+    {
+      "criterium": "paranoia"
+    },
+    {
+      "criterium": "insomnia"
+    },
+    {
+      "criterium": "tachypnea"
+    },
+    {
+      "criterium": "seizure"
+    }
+  ],
+  "estimated_prevalence_percent": 0.02
+}

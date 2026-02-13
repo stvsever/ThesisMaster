@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "episodic_memory_impairment"
+    },
+    {
+      "criterium": "working_memory_deficit"
+    },
+    {
+      "criterium": "attention_deficit"
+    },
+    {
+      "criterium": "processing_speed_deficit"
+    },
+    {
+      "criterium": "executive_function_deficit"
+    },
+    {
+      "criterium": "visuospatial_ability_impairment"
+    },
+    {
+      "criterium": "language_fluency_decline"
+    },
+    {
+      "criterium": "learning_new_information_deficit"
+    },
+    {
+      "criterium": "prospective_memory_impairment"
+    }
+  ],
+  "estimated_prevalence_percent": 0.5
+}

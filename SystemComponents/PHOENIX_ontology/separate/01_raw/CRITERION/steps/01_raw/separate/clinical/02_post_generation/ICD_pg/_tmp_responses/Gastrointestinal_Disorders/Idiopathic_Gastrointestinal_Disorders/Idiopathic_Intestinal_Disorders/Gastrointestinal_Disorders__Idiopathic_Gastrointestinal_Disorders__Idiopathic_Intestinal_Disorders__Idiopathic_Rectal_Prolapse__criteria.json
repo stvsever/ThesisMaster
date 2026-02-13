@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "external_rectal_prolapse_protrusion_during_straining"
+    },
+    {
+      "criterium": "prolapse_reducible_by_manual_reduction"
+    },
+    {
+      "criterium": "rectal_mucous_discharge_associated_with_prolapse"
+    },
+    {
+      "criterium": "fecal_incontinence_present_with_prolapse"
+    },
+    {
+      "criterium": "rectal_bleeding_occurring_with_prolapse_events"
+    },
+    {
+      "criterium": "pelvic_floor_weakness_signs_on_exam"
+    },
+    {
+      "criterium": "perineal_sensation_of_pressure_with_prolapse"
+    },
+    {
+      "criterium": "defecatory_difficulty_cooccurring_with_prolapse"
+    },
+    {
+      "criterium": "anal_sphincter_tone_altered_by_prolapse"
+    }
+  ],
+  "estimated_prevalence_percent": 0.2
+}

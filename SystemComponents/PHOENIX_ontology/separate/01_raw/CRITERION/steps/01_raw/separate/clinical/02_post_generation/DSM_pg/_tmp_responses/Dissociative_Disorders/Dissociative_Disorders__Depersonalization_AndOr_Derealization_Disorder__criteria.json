@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "depersonalization_detachment_from_self"
+    },
+    {
+      "criterium": "depersonalization_observer_perspective_of_thoughts"
+    },
+    {
+      "criterium": "derealization_environment_unreality"
+    },
+    {
+      "criterium": "derealization_visual_distortions"
+    },
+    {
+      "criterium": "altered_time_perception_during_dpdr"
+    },
+    {
+      "criterium": "emotional_numbing_or_reduced_affect"
+    },
+    {
+      "criterium": "intact_reality_testing_during_dpdr_episodes"
+    },
+    {
+      "criterium": "anxiety_or_distress_cooccurring_with_dpdr_episodes"
+    },
+    {
+      "criterium": "functional_impairment_in_social_or_occupational_domains_due_to_dpdr"
+    },
+    {
+      "criterium": "dpdr_episode_frequency"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

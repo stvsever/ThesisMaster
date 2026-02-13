@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "recurring_distressing_nightmares"
+    },
+    {
+      "criterium": "awakening_due_to_nightmare"
+    },
+    {
+      "criterium": "dream_content_recalled_upon_awakening"
+    },
+    {
+      "criterium": "nightmares_occurring_during_rem_sleep"
+    },
+    {
+      "criterium": "nightmare_induced_sleep_fragmentation"
+    },
+    {
+      "criterium": "elevated_autonomic_arousal_during_nightmare"
+    },
+    {
+      "criterium": "daytime_fatigue_or_sleepiness_following_nightmares"
+    },
+    {
+      "criterium": "anxiety_or_anticipatory_fear_before_sleep_due_to_nightmares"
+    },
+    {
+      "criterium": "avoidance_of_sleep_due_to_nightmares"
+    },
+    {
+      "criterium": "distress_or_impairment_in_psychosocial_functioning_due_to_nightmares"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

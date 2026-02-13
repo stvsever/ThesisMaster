@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "proximal_muscle_weakness"
+    },
+    {
+      "criterium": "neck_flexor_weakness"
+    },
+    {
+      "criterium": "facial_weakness"
+    },
+    {
+      "criterium": "fatigable_exertional_weakness"
+    },
+    {
+      "criterium": "persistent_muscle_wasting"
+    },
+    {
+      "criterium": "myalgia"
+    },
+    {
+      "criterium": "elevated_serum_creatine_kinase"
+    },
+    {
+      "criterium": "myopathic_EMG_pattern"
+    },
+    {
+      "criterium": "muscle_biopsy_fiber_size_variation"
+    },
+    {
+      "criterium": "muscle_biopsy_central_nuclei"
+    },
+    {
+      "criterium": "diaphragmatic_weakness"
+    },
+    {
+      "criterium": "dysphagia_due_to_pharyngeal_muscle_weakness"
+    }
+  ],
+  "estimated_prevalence_percent": 0.05
+}

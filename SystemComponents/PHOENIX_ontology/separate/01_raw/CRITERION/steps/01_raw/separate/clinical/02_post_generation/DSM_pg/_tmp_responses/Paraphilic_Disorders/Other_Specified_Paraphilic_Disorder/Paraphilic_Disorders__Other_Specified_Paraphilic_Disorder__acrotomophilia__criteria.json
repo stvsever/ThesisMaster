@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "erotic_arousal_to_amputated_limbs"
+    },
+    {
+      "criterium": "erotic_arousal_to_prosthetic_devices"
+    },
+    {
+      "criterium": "fantasy_content_amputation_or_prosthetics"
+    },
+    {
+      "criterium": "preoccupation_with_amputation_related_stimuli"
+    },
+    {
+      "criterium": "attraction_to_amputee_individuals"
+    },
+    {
+      "criterium": "attraction_to_prosthetic_limbs_or_devices"
+    },
+    {
+      "criterium": "consumption_of_amputation_related_pornography_or_fetish_media"
+    },
+    {
+      "criterium": "recurrent_intrusive_fantasies_about_amputation"
+    },
+    {
+      "criterium": "distress_or_impairment_due_to_paraphilic_interest"
+    }
+  ],
+  "estimated_prevalence_percent": 0.01
+}

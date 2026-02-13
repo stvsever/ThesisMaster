@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "chronic_pelvic_pain_intensity"
+    },
+    {
+      "criterium": "dysmenorrhea_severity"
+    },
+    {
+      "criterium": "dyspareunia_severity"
+    },
+    {
+      "criterium": "noncyclic_pelvic_pain_frequency_per_month"
+    },
+    {
+      "criterium": "pain_on_defecation"
+    },
+    {
+      "criterium": "pelvic_floor_muscle_tone_hypertonicity"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_pain"
+    },
+    {
+      "criterium": "fatigue_level"
+    },
+    {
+      "criterium": "anxiety_symptoms_pain_related"
+    },
+    {
+      "criterium": "depressive_symptoms_pain_related"
+    }
+  ],
+  "estimated_prevalence_percent": 1.0
+}

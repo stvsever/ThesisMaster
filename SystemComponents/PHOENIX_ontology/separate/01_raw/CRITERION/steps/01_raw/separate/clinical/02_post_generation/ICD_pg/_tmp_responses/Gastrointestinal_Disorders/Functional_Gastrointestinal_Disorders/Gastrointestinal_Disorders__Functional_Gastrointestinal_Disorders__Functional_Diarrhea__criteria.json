@@ -1,0 +1,32 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "stool_consistency_loose_watery"
+    },
+    {
+      "criterium": "stool_frequency_ge_3_per_day"
+    },
+    {
+      "criterium": "urgent_defecation"
+    },
+    {
+      "criterium": "fecal_incontinence"
+    },
+    {
+      "criterium": "stool_mucus_presence"
+    },
+    {
+      "criterium": "abdominal_bloating"
+    },
+    {
+      "criterium": "nocturnal_stool_events_absent"
+    },
+    {
+      "criterium": "stool_pain_absent_or_mild"
+    },
+    {
+      "criterium": "stool_form_bristol_scale_6_7"
+    }
+  ],
+  "estimated_prevalence_percent": 2.5
+}

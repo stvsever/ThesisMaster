@@ -1,0 +1,41 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "receptive_language_deficit"
+    },
+    {
+      "criterium": "expressive_language_deficit"
+    },
+    {
+      "criterium": "receptive_syntax_deficit"
+    },
+    {
+      "criterium": "expressive_syntax_deficit"
+    },
+    {
+      "criterium": "receptive_semantics_deficit"
+    },
+    {
+      "criterium": "expressive_semantics_deficit"
+    },
+    {
+      "criterium": "word_retrieval_difficulty"
+    },
+    {
+      "criterium": "difficulty_following_multi_step_instructions"
+    },
+    {
+      "criterium": "pragmatic_language_deficit"
+    },
+    {
+      "criterium": "nonliteral_language_understanding_deficit"
+    },
+    {
+      "criterium": "narrative_coherence_deficit"
+    },
+    {
+      "criterium": "verbal_fluency_deficit"
+    }
+  ],
+  "estimated_prevalence_percent": 3.0
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "binge_eating_episode_presence"
+    },
+    {
+      "criterium": "loss_of_control_during_binge"
+    },
+    {
+      "criterium": "large_quantities_consumed_in_single_session"
+    },
+    {
+      "criterium": "eating_in_absence_of_physical_hunger"
+    },
+    {
+      "criterium": "eating_alone_or_secretive_binge_behaviors"
+    },
+    {
+      "criterium": "distress_or_guilt_after_binge"
+    },
+    {
+      "criterium": "preoccupation_with_food"
+    },
+    {
+      "criterium": "overvaluation_of_weight_and_shape"
+    },
+    {
+      "criterium": "emotional_stress_related_to_binge_eating"
+    },
+    {
+      "criterium": "impairment_in_social_or_occupational_functioning_related_to_binge_eating"
+    }
+  ],
+  "estimated_prevalence_percent": 0.8
+}

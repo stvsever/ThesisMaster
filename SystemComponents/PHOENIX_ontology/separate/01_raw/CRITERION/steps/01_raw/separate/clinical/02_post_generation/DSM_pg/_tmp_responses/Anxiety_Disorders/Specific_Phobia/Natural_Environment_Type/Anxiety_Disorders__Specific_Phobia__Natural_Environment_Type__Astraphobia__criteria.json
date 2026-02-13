@@ -1,0 +1,35 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "acute_startle_response_to_thunder"
+    },
+    {
+      "criterium": "tachycardia_to_thunder_claps"
+    },
+    {
+      "criterium": "sweating_to_thunder_claps"
+    },
+    {
+      "criterium": "shortness_of_breath_to_thunder_claps"
+    },
+    {
+      "criterium": "panic_attack_during_thunder_event"
+    },
+    {
+      "criterium": "anticipatory_anxiety_before_thunderstorms"
+    },
+    {
+      "criterium": "avoidance_of_outdoor_activities_during_storms"
+    },
+    {
+      "criterium": "avoidance_of_open_or_exposed_locations_during_storms"
+    },
+    {
+      "criterium": "intrusive_thoughts_about_thunderstorms"
+    },
+    {
+      "criterium": "sleep_disturbance_due_to_thunder_sounds"
+    }
+  ],
+  "estimated_prevalence_percent": 1.5
+}

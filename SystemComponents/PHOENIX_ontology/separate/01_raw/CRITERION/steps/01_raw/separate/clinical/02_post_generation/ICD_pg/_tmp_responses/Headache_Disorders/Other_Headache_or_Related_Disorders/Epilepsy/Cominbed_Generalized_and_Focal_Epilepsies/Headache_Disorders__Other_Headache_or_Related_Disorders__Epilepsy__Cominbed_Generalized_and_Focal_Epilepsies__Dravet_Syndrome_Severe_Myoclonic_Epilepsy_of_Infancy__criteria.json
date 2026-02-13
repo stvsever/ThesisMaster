@@ -1,0 +1,44 @@
+{
+  "clinical_expression": [
+    {
+      "criterium": "infant_onset_febrile_seizures"
+    },
+    {
+      "criterium": "prolonged_febrile_seizures"
+    },
+    {
+      "criterium": "clustered_febrile_seizures"
+    },
+    {
+      "criterium": "myoclonic_seizures_in_infancy"
+    },
+    {
+      "criterium": "generalized_seizures_present"
+    },
+    {
+      "criterium": "focal_seizures_present"
+    },
+    {
+      "criterium": "multiple_seizure_types_present"
+    },
+    {
+      "criterium": "neurodevelopmental_delay_present"
+    },
+    {
+      "criterium": "language_delay_present"
+    },
+    {
+      "criterium": "intellectual_disability_present"
+    },
+    {
+      "criterium": "ataxia_or_gait_imbalance_present"
+    },
+    {
+      "criterium": "hypotonia_in_infant_present"
+    },
+    {
+      "criterium": "autistic_like_social_deficits_present"
+    }
+  ],
+  "estimated_prevalence_percent": 0.0035
+}
