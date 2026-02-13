@@ -1,0 +1,47 @@
+name: PHOENIX Smoke Pipeline
+
+on:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: requirements-dev.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-dev.txt
+
+      - name: Run single-profile smoke pipeline
+        env:
+          MPLBACKEND: "Agg"
+          PYTEST_DISABLE_PLUGIN_AUTOLOAD: "1"
+        run: |
+          python Evaluation/00_pipeline_orchestration/run_pipeline.py \
+            --mode synthetic_v1 \
+            --pattern pseudoprofile_FTC_ID002 \
+            --max-profiles 1 \
+            --network-boot 3 \
+            --network-block-len 10 \
+            --network-jobs 1 \
+            --run-id ci_smoke_pipeline
+
+      - name: Upload smoke reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: phoenix-smoke-report
+          path: |
+            Evaluation/05_integrated_pipeline_runs/ci_smoke_pipeline/pipeline_summary.json
+            Evaluation/05_integrated_pipeline_runs/ci_smoke_pipeline/05_research_reports/run_report.md
+            Evaluation/05_integrated_pipeline_runs/ci_smoke_pipeline/05_research_reports/run_report.json

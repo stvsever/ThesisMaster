@@ -42,10 +42,16 @@ import matplotlib.pyplot as plt
 # =============================================================================
 # Configuration defaults
 # =============================================================================
-DEFAULT_ROOT_PSEUDODATA = Path(
-    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/Evaluation/"
-    "01_pseudoprofile(s)/time_series_data/pseudodata"
-)
+def _find_repo_root() -> Path:
+    here = Path(__file__).resolve()
+    for candidate in [here, *here.parents]:
+        if (candidate / "Evaluation").exists() and (candidate / "README.md").exists():
+            return candidate
+    raise RuntimeError("Could not locate repository root from visualize_time_series.py")
+
+
+REPO_ROOT = _find_repo_root()
+DEFAULT_ROOT_PSEUDODATA = REPO_ROOT / "Evaluation/01_pseudoprofile(s)/time_series_data/pseudodata"
 
 WIDE_NAME = "pseudodata_wide.csv"
 META_NAME = "variables_metadata.csv"

@@ -66,14 +66,22 @@ import pandas as pd
 # =============================================================================
 # Defaults (your paths)
 # =============================================================================
-DEFAULT_RUNS_ROOT = Path(
-    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/Evaluation/"
-    "03_construction_initial_observation_model/constructed_PC_models/runs"
+def _find_repo_root() -> Path:
+    here = Path(__file__).resolve()
+    for candidate in [here, *here.parents]:
+        if (candidate / "Evaluation").exists() and (candidate / "README.md").exists():
+            return candidate
+    raise RuntimeError("Could not locate repository root from create_pseudodata.py")
+
+
+REPO_ROOT = _find_repo_root()
+
+DEFAULT_RUNS_ROOT = (
+    REPO_ROOT / "Evaluation/03_construction_initial_observation_model/constructed_PC_models/runs"
 )
 
-DEFAULT_OUT_ROOT = Path(
-    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/Evaluation/"
-    "01_pseudoprofile(s)/time_series_data/pseudodata"
+DEFAULT_OUT_ROOT = (
+    REPO_ROOT / "Evaluation/01_pseudoprofile(s)/time_series_data/pseudodata"
 )
 
 # IMPORTANT FIX: use a glob that still matches the exact filename
