@@ -69,7 +69,7 @@ import json
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Any, Dict, List, Tuple
 
 import numpy as np
 import pandas as pd
@@ -110,6 +110,20 @@ def log(msg: str) -> None:
 def ensure_dir(p: Path) -> Path:
     p.mkdir(parents=True, exist_ok=True)
     return p
+
+
+def _init_plot_style() -> None:
+    plt.rcParams.update(
+        {
+            "figure.dpi": 300,
+            "savefig.dpi": 300,
+            "font.size": 10,
+            "axes.titlesize": 11,
+            "axes.labelsize": 10,
+            "axes.grid": True,
+            "grid.alpha": 0.25,
+        }
+    )
 
 
 def safe_read_csv(path: Path) -> pd.DataFrame:
@@ -214,9 +228,30 @@ def build_network_tables(mat: pd.DataFrame) -> NetworkTables:
 # ---------------------------------------------------------------------
 # Plotting helpers
 # ---------------------------------------------------------------------
-def _savefig(fig: plt.Figure, out_path: Path, dpi: int = 300) -> None:
+def _savefig(fig: plt.Figure, out_path: Path, dpi: int = 300, metadata: Dict[str, Any] | None = None) -> None:
+    ensure_dir(out_path.parent)
+    svg_path = out_path.with_suffix(".svg")
+    pdf_path = out_path.with_suffix(".pdf")
     fig.savefig(out_path, dpi=dpi, bbox_inches="tight")
+    fig.savefig(svg_path, bbox_inches="tight")
+    fig.savefig(pdf_path, bbox_inches="tight")
     plt.close(fig)
+    figure_meta = dict(metadata or {})
+    figure_meta["generated_at"] = datetime.now().isoformat(timespec="seconds")
+    figure_meta["files"] = [str(out_path), str(svg_path), str(pdf_path)]
+    out_path.with_suffix(".figure.json").write_text(
+        json.dumps(figure_meta, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+
+
+def _safe_read_json(path: Path) -> Dict[str, Any]:
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
 
 
 def plot_heatmap(mat: pd.DataFrame, out_path: Path, title: str, dpi: int = 300) -> None:
@@ -269,6 +304,58 @@ def plot_heatmap_top(mat: pd.DataFrame, out_path: Path, title: str, top_n: int =
     cbar.ax.set_ylabel("Impact (edge_impact)", rotation=90, fontsize=9)
 
     _savefig(fig, out_path, dpi=dpi)
+
+
+def plot_readiness_diagnostics(readiness_payload: Dict[str, Any], out_path: Path, title: str, dpi: int = 300) -> None:
+    overall = readiness_payload.get("overall", {}) or {}
+    score = float(overall.get("readiness_score_0_100", 0.0) or 0.0)
+    label = str(overall.get("readiness_label") or "unknown")
+    variant = str(overall.get("tier3_variant") or "none")
+    tv_conf = bool(overall.get("tv_full_confidence", False))
+    components = ((overall.get("score_breakdown", {}) or {}).get("components", {}) or {})
+    names = ["sample_score", "missing_score", "variable_quality_score", "time_score", "assumptions_score"]
+    vals = [float(components.get(k, 0.0) or 0.0) for k in names]
+
+    fig = plt.figure(figsize=(10, 4.8))
+    ax1 = fig.add_subplot(121)
+    ax1.bar(["Readiness"], [score], color="#457b9d")
+    ax1.set_ylim(0, 100)
+    ax1.set_title(f"{title}\nlabel={label} variant={variant} tv_full_conf={tv_conf}")
+    ax1.set_ylabel("Score (0-100)")
+
+    ax2 = fig.add_subplot(122)
+    ax2.barh(names, vals, color="#2a9d8f")
+    ax2.set_xlim(0, 100)
+    ax2.set_title("Score Components")
+    _savefig(
+        fig,
+        out_path,
+        dpi=dpi,
+        metadata={"plot_type": "readiness_diagnostics_panel", "readiness_label": label, "tier3_variant": variant},
+    )
+
+
+def plot_network_execution_summary(comparison_payload: Dict[str, Any], out_path: Path, title: str, dpi: int = 300) -> None:
+    execution = comparison_payload.get("execution_plan", {}) or {}
+    status = comparison_payload.get("method_status", {}) or {}
+    labels = ["tv", "stationary", "corr"]
+    vals = [1.0 if str(status.get(k, "")).lower() == "executed" else 0.0 for k in labels]
+    fig = plt.figure(figsize=(8, 4.6))
+    ax = fig.add_subplot(111)
+    colors = ["#1b9e77" if v > 0.5 else "#e76f51" for v in vals]
+    ax.bar(labels, vals, color=colors)
+    ax.set_ylim(0, 1.15)
+    ax.set_yticks([0, 1])
+    ax.set_yticklabels(["skipped", "executed"])
+    ax.set_title(
+        f"{title}\nanalysis_set={execution.get('analysis_set')} tv_full_conf={execution.get('tv_full_confidence')}"
+    )
+    _savefig(
+        fig,
+        out_path,
+        dpi=dpi,
+        metadata={"plot_type": "network_method_execution_summary", "analysis_set": execution.get("analysis_set")},
+    )
 
 
 def _scaled_node_sizes(strength_prop: np.ndarray, min_size: float = 80.0, max_size: float = 900.0) -> np.ndarray:
@@ -593,14 +680,17 @@ def process_profile(profile_dir: Path, matrix_name: str, dpi: int, top_k_edges: 
         log(f"[SKIP] {profile_dir.name}: matrix has zero total mass (all zeros).")
         return "skipped"
 
+    profile_id = profile_dir.name
     visuals_dir = ensure_dir(profile_dir / "visuals")
+    run_root = profile_dir.parent.parent
+    readiness_payload = _safe_read_json(run_root / "00_readiness_check" / profile_id / "readiness_report.json")
+    comparison_payload = _safe_read_json(run_root / "01_time_series_analysis" / "network" / profile_id / "comparison_summary.json")
 
     # Save network tables
     tables.edges.to_csv(visuals_dir / "network_edges_proportion.csv", index=False)
     tables.nodes.to_csv(visuals_dir / "network_nodes_strength.csv", index=False)
 
     # Plot set
-    profile_id = profile_dir.name
 
     plot_heatmap(
         mat,
@@ -658,6 +748,21 @@ def process_profile(profile_dir: Path, matrix_name: str, dpi: int, top_k_edges: 
         dpi=dpi,
     )
 
+    if readiness_payload:
+        plot_readiness_diagnostics(
+            readiness_payload,
+            visuals_dir / "readiness_diagnostics_panel.png",
+            title=f"{profile_id} — Readiness Diagnostics",
+            dpi=dpi,
+        )
+    if comparison_payload:
+        plot_network_execution_summary(
+            comparison_payload,
+            visuals_dir / "network_method_execution_summary.png",
+            title=f"{profile_id} — Network Method Execution",
+            dpi=dpi,
+        )
+
     log(f"[OK] {profile_id} -> {visuals_dir}")
     return "ok"
 
@@ -679,6 +784,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     args = parse_args()
+    _init_plot_style()
     root = Path(args.root).expanduser()
 
     prof_dirs = list_profile_dirs(root, pattern=str(args.pattern or ""))

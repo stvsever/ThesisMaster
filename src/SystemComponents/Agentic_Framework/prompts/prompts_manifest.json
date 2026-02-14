@@ -1,0 +1,85 @@
+{
+  "contract_version": "1.0.0",
+  "prompts": {
+    "step02_initial_model_system.md": {
+      "stage": "step02",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step02_initial_model_user_template.md": {
+      "stage": "step02",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step02_initial_model_critic_system.md": {
+      "stage": "step02",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step02_initial_model_critic_user_template.md": {
+      "stage": "step02",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step03_target_selection_system.md": {
+      "stage": "step03",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step03_target_selection_user_template.md": {
+      "stage": "step03",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step03_target_selection_critic_system.md": {
+      "stage": "step03",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step03_target_selection_critic_user_template.md": {
+      "stage": "step03",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step04_observation_update_system.md": {
+      "stage": "step04",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step04_observation_update_user_template.md": {
+      "stage": "step04",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step04_observation_update_critic_system.md": {
+      "stage": "step04",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step04_observation_update_critic_user_template.md": {
+      "stage": "step04",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step05_hapa_intervention_system.md": {
+      "stage": "step05",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step05_hapa_intervention_user_template.md": {
+      "stage": "step05",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step05_hapa_intervention_critic_system.md": {
+      "stage": "step05",
+      "version": "1.0.0",
+      "active": true
+    },
+    "step05_hapa_intervention_critic_user_template.md": {
+      "stage": "step05",
+      "version": "1.0.0",
+      "active": true
+    }
+  }
+}

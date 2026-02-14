@@ -1,0 +1,40 @@
+PHOENIX Prompt Catalog
+======================
+
+Purpose
+-------
+This file is a single aggregated prompt index for the PHOENIX agentic runtime.
+It centralizes all active Step-02/03/04/05 actor and critic prompts in one place.
+
+Active prompt files
+-------------------
+- step02_initial_model_system.md
+- step02_initial_model_user_template.md
+- step02_initial_model_critic_system.md
+- step02_initial_model_critic_user_template.md
+- step03_target_selection_system.md
+- step03_target_selection_user_template.md
+- step03_target_selection_critic_system.md
+- step03_target_selection_critic_user_template.md
+- step04_observation_update_system.md
+- step04_observation_update_user_template.md
+- step04_observation_update_critic_system.md
+- step04_observation_update_critic_user_template.md
+- step05_hapa_intervention_system.md
+- step05_hapa_intervention_user_template.md
+- step05_hapa_intervention_critic_system.md
+- step05_hapa_intervention_critic_user_template.md
+
+Prompt contract policy
+----------------------
+1) Every prompt must explicitly state it is part of PHOENIX:
+   Personalized Hierarchical Optimization Engine for Navigating Insightful eXplorations.
+2) Actor prompts optimize outputs for stage goals.
+3) Critic prompts score outputs with weighted multi-composite quality metrics.
+4) Critic feedback must be actionable and consumed by actor revision loops (max 2 iterations).
+5) Schema compliance is mandatory for all structured outputs.
+
+Notes
+-----
+- Prompt activation and versioning is controlled by prompts_manifest.json.
+- Legacy inline prompts are tracked in full_engine_prompt_inventory.md.

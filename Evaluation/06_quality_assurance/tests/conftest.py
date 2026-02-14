@@ -33,7 +33,19 @@ def load_module_from_file(file_path: str, module_name: str) -> ModuleType:
 
 
 def repo_file(rel_path: str) -> Path:
-    return REPO_ROOT / rel_path
+    direct = REPO_ROOT / rel_path
+    if direct.exists():
+        return direct
+    rel = str(rel_path).lstrip("./")
+    if rel.startswith("SystemComponents/"):
+        mapped = REPO_ROOT / "src" / rel
+        if mapped.exists():
+            return mapped
+    if rel.startswith("utils/"):
+        mapped = REPO_ROOT / "src" / rel
+        if mapped.exists():
+            return mapped
+    return direct
 
 
 @pytest.fixture(scope="session")

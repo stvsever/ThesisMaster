@@ -10,8 +10,3 @@ This directory contains the implementation code for the thesis engine.
   - `PHOENIX_ontology/` (ontology content kept unchanged)
 - `utils/`
   - official utilities, ontology mappings, and exploratory helpers
-
-## Compatibility
-
-Root-level symlinks (`SystemComponents`, `utils`) are intentionally preserved so existing scripts and historical paths continue to work without function loss.
-

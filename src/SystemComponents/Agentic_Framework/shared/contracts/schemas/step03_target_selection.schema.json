@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "step03_target_selection",
+  "type": "object",
+  "required": ["contract_version", "profile_id", "ranked_predictors"],
+  "properties": {
+    "contract_version": { "type": "string", "minLength": 1 },
+    "profile_id": { "type": "string", "minLength": 1 },
+    "recommended_targets": { "type": "array" },
+    "ranked_predictors": { "type": "array" },
+    "summary": { "type": "string" },
+    "safety_considerations": { "type": "array" },
+    "data_limitations": { "type": "array" }
+  },
+  "additionalProperties": true
+}

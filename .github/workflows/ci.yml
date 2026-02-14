@@ -28,7 +28,13 @@ jobs:
 
       - name: Bytecode compile check
         run: |
-          python -m compileall -q Evaluation SystemComponents utils
+          python -m compileall -q Evaluation src
+
+      - name: Validate contract schemas
+        env:
+          PYTEST_DISABLE_PLUGIN_AUTOLOAD: "1"
+        run: |
+          python Evaluation/06_quality_assurance/validate_contract_schemas.py
 
       - name: Run unit tests
         env:

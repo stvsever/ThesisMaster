@@ -393,6 +393,8 @@ def build_execution_plan_from_readiness(readiness: Dict[str, Any], execution_pol
     tier = str(overall.get("recommended_tier", "Tier0_DescriptivesOnly"))
     variant_raw = overall.get("tier3_variant", None)
     variant = str(variant_raw) if variant_raw is not None else None
+    tv_full_confidence = bool(overall.get("tv_full_confidence", False))
+    why_not_tv = list(overall.get("why_not_time_varying", []) or [])
     plan_from_readiness = overall.get("analysis_execution_plan", {}) or {}
 
     if execution_policy == "all_methods":
@@ -407,6 +409,8 @@ def build_execution_plan_from_readiness(readiness: Dict[str, Any], execution_pol
             "run_descriptives_only": False,
             "can_compute_momentary_impact": True,
             "full_time_varying_ready": bool(variant == "TIME_VARYING_gVAR"),
+            "tv_full_confidence": tv_full_confidence,
+            "why_not_time_varying": why_not_tv,
             "notes": [
                 "Execution policy is all_methods: running all methods regardless of readiness recommendation.",
             ],
@@ -461,6 +465,8 @@ def build_execution_plan_from_readiness(readiness: Dict[str, Any], execution_pol
         "run_descriptives_only": run_desc,
         "can_compute_momentary_impact": bool(run_tv or run_stationary),
         "full_time_varying_ready": bool(run_tv),
+        "tv_full_confidence": tv_full_confidence,
+        "why_not_time_varying": why_not_tv,
         "notes": notes,
     }
 
@@ -2951,6 +2957,7 @@ def analyze_one_profile_from_readiness(
 
     # ---- summary
     summary = {
+        "contract_version": "1.0.0",
         "profile": profile_id,
         "base_outdir": str(prof_out),
         "n_rows": int(n),

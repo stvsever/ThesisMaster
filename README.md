@@ -1,85 +1,113 @@
-# PHOENIX Engine — MASTERPROEF
+# PHOENIX Engine 🔥🧠📈
 
-Professional research codebase for the **PHOENIX Engine** thesis project at **Ghent University**.
+Research-grade codebase for the **Ghent University master’s thesis** on personalized mental-health optimization.
 
 ## Academic Context
 
-- Institution: Ghent University
-- Author: Stijn Van Severen
+- Institution: Ghent University  
+- Author: Stijn Van Severen  
 - Supervisors: Geert Crombez, Annick De Paepe
 
-## Research Objective
+## Thesis Scope
 
-PHOENIX (Personalized Hierarchical Optimization Engine for Navigating Insightful eXplorations) models mental health as a hierarchical optimization process:
+PHOENIX (**P**ersonalized **H**ierarchical **O**ptimization **E**ngine for **N**avigating **I**nsightful e**X**plorations) models mental states as iterative, data-driven optimization problems:
 
-1. operationalize criterion space from user complaints,
-2. construct initial observation models,
-3. estimate readiness and run multivariate time-series analyses,
-4. quantify predictor momentary impact,
-5. prepare treatment-target handoff for agentic intervention logic.
+1. free-text operationalization of criterions,
+2. initial criterion-predictor observation model construction,
+3. readiness-aware time-series network analysis,
+4. momentary impact quantification,
+5. agentic treatment-target identification (BFS-guided),
+6. updated observation-model refinement with readiness-weighted nomothetic×idiographic fusion,
+7. HAPA-based digital intervention translation (barrier + coping + personalized message),
+8. visualization and research communication outputs.
 
-Current runs are based on **synthetic pseudodata**.  
-The codebase is explicitly designed for transition to real frontend/backend data pipelines.
+Current repository runs are based on **synthetic pseudodata**, with architecture prepared for future frontend/backend real-world deployment.
 
-## Clean Root Structure
+## Project Structure
 
 ```text
 MASTERPROEF/
-├── src/                          # Core engine code
-│   ├── SystemComponents/         # Thesis component architecture
-│   └── utils/                    # Support and exploratory tooling
-├── Evaluation/                   # Inputs, orchestration, QA, reports
-├── .github/workflows/            # CI + smoke workflows
-├── pyproject.toml                # Modern Python project metadata
-├── requirements.txt              # Runtime dependencies
-└── requirements-dev.txt          # QA/CI dependencies
+├── src/
+│   ├── SystemComponents/      # Core thesis components (Agentic, HUA, Ontology)
+│   └── utils/                 # Official and exploratory utilities
+├── Evaluation/                # Orchestration, QA, communication, synthetic datasets
+├── .github/workflows/         # CI and smoke workflows
+├── pyproject.toml             # Project metadata
+├── requirements.txt
+└── requirements-dev.txt
 ```
 
-Compatibility symlinks (`SystemComponents`, `utils`) are retained at root so existing scripts and paths keep working.
-
-## Current Execution
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-pip install -r requirements-dev.txt
-```
-
-Primary launcher (future-ready mode routing):
+## Pipeline Entry
 
 ```bash
 python Evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1
 ```
 
-This executes readiness → network analysis → impact quantification → treatment-target handoff preparation → visualizations → research report generation.
+Integrated synthetic run sequence:
+`readiness → network analysis → impact quantification → Step-03 target identification → Step-04 fused updated model → Step-05 HAPA intervention generation → visuals → research report`.
 
-## QA and CI
+Iterative mode (history-aware):
+
+```bash
+python Evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1 --cycles 2 --profile-memory-window 3
+```
+
+Guardrail + hard ontology mode:
+
+```bash
+python Evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1 \
+  --hard-ontology-constraint \
+  --handoff-critic-max-iterations 2 \
+  --intervention-critic-max-iterations 2
+```
+
+## Architecture Flow
+
+```mermaid
+flowchart LR
+    A["Free text + Pseudodata"] --> B["Step 01-02<br/>Readiness + Network Analysis"]
+    B --> C["Step 03<br/>Momentary Impact"]
+    C --> D["Step 04<br/>Target Selection + Updated Model"]
+    D --> E["Step 05<br/>HAPA Intervention"]
+    E --> F["Visuals + Research Report"]
+    F --> G["History Ledger<br/>JSONL + Parquet"]
+    G --> D
+```
+
+## Quality and CI
 
 ```bash
 make qa-unit
 make qa-integration
 ```
 
-CI workflows:
-- `.github/workflows/ci.yml` (unit + integration)
-- `.github/workflows/smoke_pipeline.yml` (manual smoke run)
+- CI: `.github/workflows/ci.yml`
+- Smoke pipeline: `.github/workflows/smoke_pipeline.yml`
+- Contract validation: `Evaluation/06_quality_assurance/validate_contract_schemas.py`
 
-## Near-Future Thesis Directions
+## Near-Term Roadmap
 
-The current repository is ready for extension toward full PHOENIX deployment:
-
-1. **Agentic Step 03 (full implementation):** treatment-target reasoning agent beyond handoff preparation.
-2. **Agentic Step 04:** translation to tailored intervention generation.
-3. **Agentic Step 05:** construction of updated observational models after intervention cycles.
-4. **Real-world evaluation:** study execution with healthcare professionals and non-expert participants (currently planned after synthetic validation).
-5. **UI integration:** migration from `run_pseudodata_to_impact.py` to full `run_pipeline.py` + future `main.py` web entrypoint.
+1. Strengthen closed-loop iterative updates toward full multi-cycle PHOENIX runs.
+2. Extend adaptive intervention delivery into UI-native execution (`run_pipeline.py --mode full_engine` target path).
+3. Integrate participant-facing frontend/backend data ingestion for real-world data streams.
+4. Execute expert and participant evaluation studies with thesis-aligned protocols.
 
 ## Security and Data Hygiene
 
-- `.env`, credentials, caches, and generated heavy artifacts are excluded by `.gitignore`.
-- Integrated run outputs are reproducible locally and intentionally not tracked by default.
+- `.env`, secrets, caches, and heavy generated artifacts are excluded via `.gitignore`.
+- Ontology structure is preserved; generated run artifacts are kept local by default.
+- Large generated files (e.g., visuals, run outputs, caches) are intentionally excluded from GitHub.
+
+## LLM Reliability and Fallbacks
+
+- Structured calls are routed through a shared runtime with retry + bounded repair.
+- Failure taxonomy is explicit: `provider_unavailable`, `schema_validation_failed`, `repair_exhausted`, `budget_exceeded`.
+- Step-03/04/05 now support actor-critic guardrail loops with weighted composite quality scoring and max 2 refinement rounds.
+- Parent-domain predictor feasibility evidence is injected into critic evaluations for stronger grounding.
+- `--hard-ontology-constraint` forces predictor/barrier/coping selections to PHOENIX ontology-matched nodes.
+- Fallback outputs remain schema-valid and include the explicit limitation:
+  - `Limitation recorded: LLM unavailable, so it’s impact-driven only.`
 
 ## License
 
-See `LICENSE`.
+`GPL-3.0` — see `LICENSE`.

@@ -954,6 +954,7 @@ def build_payload(
         .to_dict(orient="records")
     )
     return {
+        "contract_version": "1.0.0",
         "meta": {
             "profile_id": data.profile_id,
             "generated_at": datetime.now().isoformat(timespec="seconds"),

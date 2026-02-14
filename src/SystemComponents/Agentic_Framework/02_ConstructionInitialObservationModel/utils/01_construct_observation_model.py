@@ -102,6 +102,9 @@ Per-run directory:
         llm_observation_model_raw.json
         llm_observation_model_final.json
         validation_report.json
+        step02_guardrail_review.json
+        step02_guardrail_trace.json
+        step02_predictor_parent_feasibility_top30.json
         config.json
 
 Usage
@@ -122,6 +125,9 @@ Design knobs:
 Optional:
 - --auto_repair                (default on) repair multiple times if internal inconsistencies are detected
 - --deterministic_fix          (default on) enforce validator pass deterministically post-LLM
+- --hard_ontology_constraint   (default off) force criterion/predictor paths to known PHOENIX ontology paths
+- --critic_max_iterations 2    local actor-critic revision loop cap
+- --critic_pass_threshold 0.74 critic PASS threshold
 
 Environment
 -----------
@@ -141,6 +147,7 @@ import os
 import re
 import time
 import random
+import sys
 import traceback
 from dataclasses import dataclass
 from datetime import datetime
@@ -154,6 +161,30 @@ from openai import OpenAI
 
 from dotenv import load_dotenv
 load_dotenv()
+
+THIS_DIR = Path(__file__).resolve().parent
+if str(THIS_DIR) not in sys.path:
+    sys.path.insert(0, str(THIS_DIR))
+AGENTIC_ROOT = THIS_DIR.parents[1]
+if str(AGENTIC_ROOT) not in sys.path:
+    sys.path.insert(0, str(AGENTIC_ROOT))
+
+from shared import (
+    load_predictor_feasibility_table,
+    load_prompt,
+    normalize_path_text,
+    render_prompt,
+    top_parent_domains_for_bundle,
+)
+from helpers.step02_guardrail import (
+    Step02CriticReviewModel,
+    collect_allowed_predictor_paths as _collect_allowed_predictor_paths,
+    collect_allowed_criterion_paths as _collect_allowed_criterion_paths,
+    enforce_step02_hard_ontology as _enforce_step02_hard_ontology,
+    extract_model_predictor_paths as _extract_model_predictor_paths,
+    heuristic_step02_critic as _heuristic_step02_critic,
+    run_llm_step02_critic,
+)
 
 
 # ============================================================
@@ -196,7 +227,12 @@ DEFAULT_LLM_MAPPING_RANKS_PATH = str(
 )
 
 DEFAULT_HIGH_LEVEL_ONTOLOGY_PATH = str(
-    REPO_ROOT / "utils/official/ontology_mappings/CRITERION/predictor_to_criterion/input_lists/predictors_list.txt"
+    REPO_ROOT / "src/utils/official/ontology_mappings/CRITERION/predictor_to_criterion/input_lists/predictors_list.txt"
+)
+
+DEFAULT_PREDICTOR_FEASIBILITY_CSV = str(
+    REPO_ROOT
+    / "src/utils/official/multi_dimensional_feasibility_evaluation/PREDICTORS/results/summary/predictor_rankings.csv"
 )
 
 DEFAULT_RESULTS_DIR = str(
@@ -230,6 +266,9 @@ DEFAULT_MAX_REPAIR_ATTEMPTS = 3  # stronger default than 1
 # Deterministic postprocessing (guarantees validator pass)
 DEFAULT_DETERMINISTIC_FIX = True
 DEFAULT_MAX_FIX_PASSES = 5
+DEFAULT_CRITIC_MAX_ITERATIONS = 2
+DEFAULT_CRITIC_PASS_THRESHOLD = 0.74
+DEFAULT_PARENT_FEASIBILITY_TOP_K = 30
 
 # Profile sampling defaults (keeps your previous behavior, but fixes pseudoprofile_id edge-case)
 DEFAULT_SAMPLE_N = 3
@@ -295,7 +334,6 @@ class MappingRankItem:
     relevance_score: float
     primary_node: str
     secondary_node: str
-
 
 # ============================================================
 # Helpers
@@ -1199,6 +1237,8 @@ def build_llm_messages(
     *,
     n_criteria: str,
     n_predictors: str,
+    critic_feedback: Optional[List[str]] = None,
+    hard_ontology_constraint: bool = False,
 ) -> Tuple[str, List[Dict[str, Any]]]:
 
     criteria_payload: List[Dict[str, Any]] = []
@@ -1268,9 +1308,11 @@ def build_llm_messages(
             "n_predictors": str(n_predictors),
             "note": (
                 "If 'choice', choose an optimal number for gVAR feasibility while preserving coverage. "
+                "Prefer around 10 total nodes where feasible (typically ~4 criteria and ~6 predictors). "
                 "Hard cap: total nodes <= 18 (avoid dense grid truncation)."
             ),
         },
+        "hard_ontology_constraint": bool(hard_ontology_constraint),
         "measurement_principles": [
             "Prefer 1–9 Likert (anchored) for many constructs to increase variance.",
             "Avoid pure binary nodes; if needed, measure intensity 1–9 + optional event flag (not as node).",
@@ -1302,6 +1344,10 @@ def build_llm_messages(
     }
 
     user_content = {
+        "phoenix_engine_context": (
+            "You are one agent inside PHOENIX (Personalized Hierarchical Optimization Engine for Navigating Insightful eXplorations). "
+            "This step creates the initial observation model used for idiographic time-series analysis and later model updates."
+        ),
         "pseudoprofile_id": profile.pseudoprofile_id,
         "complaint_text": profile.complaint_text,
         "decomp_notes": profile.decomp_notes,
@@ -1314,9 +1360,12 @@ def build_llm_messages(
         },
         "guidance": guidance,
     }
+    if critic_feedback:
+        user_content["critic_feedback_for_revision"] = [str(item) for item in critic_feedback if str(item).strip()]
 
-    instructions = (
-        "You are an interdisciplinary health-engineering expert constructing an INITIAL gVAR-appropriate observation model.\n\n"
+    default_instructions = (
+        "You are an interdisciplinary health-engineering expert constructing an INITIAL gVAR-appropriate observation model "
+        "as part of the PHOENIX multi-agent system.\n\n"
         "Your task is NOT to diagnose. Your task is to construct an INITIAL observation model of:\n"
         "- criterion variables that represent operationalized fully preserved free-text description of (non-)clinical mental health state variables\n "
         "- AND plausbile predictor variables as candidate solutions) suitable for digital data collection and later gVAR analysis.\n\n"
@@ -1328,20 +1377,36 @@ def build_llm_messages(
         "- Sparse edges must copy the dense score exactly.\n"
         "- Keep total nodes <= 18.\n"
     )
+    if hard_ontology_constraint:
+        default_instructions += (
+            "- HARD ONTOLOGY CONSTRAINT: predictor ontology_path and criterion_path fields must match known PHOENIX ontology paths. "
+            "Do not invent unseen ontology paths.\n"
+        )
+    if critic_feedback:
+        default_instructions += "- Incorporate critic feedback and revise weak parts before returning the final JSON.\n"
 
-    messages = [
-        {
-            "role": "user",
-            "content": (
-                "Build the initial observation model from the payload below.\n\n"
-                "CASE_PAYLOAD_JSON:\n"
-                f"{json.dumps(user_content, ensure_ascii=False, indent=2)}"
-            ),
-        }
-    ]
+    payload_json = json.dumps(user_content, ensure_ascii=False, indent=2)
+    user_message = (
+        "Build the initial observation model from the payload below.\n\n"
+        "CASE_PAYLOAD_JSON:\n"
+        f"{payload_json}"
+    )
+    instructions = default_instructions
+    try:
+        system_template = load_prompt("step02_initial_model_system.md")
+        user_template = load_prompt("step02_initial_model_user_template.md")
+        instructions = render_prompt(
+            system_template,
+            {
+                "HARD_ONTOLOGY_CONSTRAINT": "true" if hard_ontology_constraint else "false",
+            },
+        )
+        user_message = render_prompt(user_template, {"CASE_PAYLOAD_JSON": payload_json})
+    except Exception:
+        pass
 
+    messages = [{"role": "user", "content": user_message}]
     return instructions, messages
-
 
 def call_llm_structured(
     client: OpenAI,
@@ -2592,6 +2657,9 @@ def _cache_paths_for_profile(profiles_dir: str, pseudoprofile_id: str) -> Dict[s
         "llm_raw": os.path.join(pdir, "llm_observation_model_raw.json"),
         "llm_final": os.path.join(pdir, "llm_observation_model_final.json"),
         "validation_report": os.path.join(pdir, "validation_report.json"),
+        "critic_review": os.path.join(pdir, "step02_guardrail_review.json"),
+        "critic_trace": os.path.join(pdir, "step02_guardrail_trace.json"),
+        "parent_feasibility": os.path.join(pdir, "step02_predictor_parent_feasibility_top30.json"),
         "config": os.path.join(pdir, "config.json"),
     }
 
@@ -2754,15 +2822,23 @@ def _append_cc_relevance_long_rows(rows: List[Dict[str, Any]], pseudoprofile_id:
         )
 
 
-def _append_validations_long_rows(rows: List[Dict[str, Any]], pseudoprofile_id: str, report: Dict[str, Any]) -> None:
+def _append_validations_long_rows(
+    rows: List[Dict[str, Any]],
+    pseudoprofile_id: str,
+    report: Dict[str, Any],
+    critic_review: Optional[Dict[str, Any]] = None,
+) -> None:
     stats = report.get("stats", {}) or {}
     errors = report.get("errors", []) or []
     warnings = report.get("warnings", []) or []
+    critic_review = critic_review or {}
     rows.append(
         {
             "pseudoprofile_id": pseudoprofile_id,
             "n_errors": len(errors),
             "n_warnings": len(warnings),
+            "critic_decision": critic_review.get("decision", ""),
+            "critic_score_0_1": critic_review.get("composite_score_0_1", ""),
             "errors_joined": " || ".join([str(x) for x in errors])[:5000],
             "warnings_joined": " || ".join([str(x) for x in warnings])[:5000],
             **{f"stat_{k}": v for k, v in stats.items()},
@@ -2831,6 +2907,13 @@ def process_one_pseudoprofile(
     max_repair_attempts: int,
     deterministic_fix: bool,
     max_fix_passes: int,
+    predictor_feasibility_csv: str,
+    critic_max_iterations: int,
+    critic_pass_threshold: float,
+    hard_ontology_constraint: bool,
+    prompt_budget_tokens: int,
+    parent_feasibility_top_k: int,
+    disable_critic_llm: bool,
 ) -> Dict[str, Any]:
     """
     Returns:
@@ -2864,6 +2947,13 @@ def process_one_pseudoprofile(
         "max_repair_attempts": int(max_repair_attempts),
         "deterministic_fix": bool(deterministic_fix),
         "max_fix_passes": int(max_fix_passes),
+        "predictor_feasibility_csv": str(predictor_feasibility_csv),
+        "critic_max_iterations": int(critic_max_iterations),
+        "critic_pass_threshold": float(critic_pass_threshold),
+        "hard_ontology_constraint": bool(hard_ontology_constraint),
+        "prompt_budget_tokens": int(prompt_budget_tokens),
+        "parent_feasibility_top_k": int(parent_feasibility_top_k),
+        "disable_critic_llm": bool(disable_critic_llm),
         "inputs": {
             "mapped_criterions_path": mapped_criterions_path,
             "hyde_dense_profiles_path": hyde_dense_profiles_path,
@@ -2874,10 +2964,47 @@ def process_one_pseudoprofile(
     _save_json(paths["config"], profile_cfg)
 
     try:
-        # Cache fast-path
+        # Load profile evidence once (also used by critic and constraints)
+        profile = load_profile_input(
+            mapped_criterions_path=mapped_criterions_path,
+            ontology_path=ontology_path,
+            pseudoprofile_id=pid,
+            max_ontology_chars=max_ontology_chars,
+        )
+        hyde = load_hyde_signals_for_profile(
+            hyde_dense_profiles_csv=hyde_dense_profiles_path,
+            pseudoprofile_id=pid,
+            top_n=int(prompt_top_hyde),
+        )
+        mapping = load_llm_mapping_ranks_for_profile(
+            mapping_ranks_csv=llm_mapping_ranks_path,
+            pseudoprofile_id=pid,
+            top_global=int(prompt_top_mapping_global),
+            top_per_criterion=int(prompt_top_mapping_per_criterion),
+        )
+        allowed_predictor_paths = _collect_allowed_predictor_paths(profile=profile, hyde=hyde, mapping=mapping)
+        allowed_criterion_paths = _collect_allowed_criterion_paths(profile=profile)
+        predictor_feasibility_df = load_predictor_feasibility_table(Path(predictor_feasibility_csv))
+        predictor_parent_feasibility = top_parent_domains_for_bundle(
+            predictor_paths=allowed_predictor_paths[: max(1, int(parent_feasibility_top_k))],
+            feasibility_frame=predictor_feasibility_df,
+            top_k=max(1, int(parent_feasibility_top_k)),
+            per_predictor_k=max(1, int(parent_feasibility_top_k)),
+            parent_levels=2,
+        )
+        _save_json(paths["parent_feasibility"], predictor_parent_feasibility)
+
         used_cache = False
         model: Optional[Dict[str, Any]] = None
         report: Optional[Dict[str, Any]] = None
+        critic_review: Optional[Step02CriticReviewModel] = None
+        critic_trace: Dict[str, Any] = {
+            "provider": "heuristic",
+            "reason": "not_run",
+            "actor_attempts": [],
+            "critic_attempts": [],
+        }
+        ontology_constraint_summary: Dict[str, Any] = {"applied": False}
 
         if use_cache:
             cached = _load_cached_observation_model(profiles_dir, pid)
@@ -2887,89 +3014,167 @@ def process_one_pseudoprofile(
                 report = _load_json(paths["validation_report"]) if os.path.exists(paths["validation_report"]) else None
                 if not isinstance(report, dict):
                     report = validate_observation_model(model)
-                    _save_json(paths["validation_report"], report)
 
         if model is None:
-            # Load inputs
-            profile = load_profile_input(
-                mapped_criterions_path=mapped_criterions_path,
-                ontology_path=ontology_path,
-                pseudoprofile_id=pid,
-                max_ontology_chars=max_ontology_chars,
-            )
-            hyde = load_hyde_signals_for_profile(
-                hyde_dense_profiles_csv=hyde_dense_profiles_path,
-                pseudoprofile_id=pid,
-                top_n=int(prompt_top_hyde),
-            )
-            mapping = load_llm_mapping_ranks_for_profile(
-                mapping_ranks_csv=llm_mapping_ranks_path,
-                pseudoprofile_id=pid,
-                top_global=int(prompt_top_mapping_global),
-                top_per_criterion=int(prompt_top_mapping_per_criterion),
-            )
-
-            instructions, messages = build_llm_messages(
-                profile=profile,
-                hyde=hyde,
-                mapping=mapping,
-                n_criteria=str(n_criteria),
-                n_predictors=str(n_predictors),
-            )
-
-            # Persist payload for reproducibility
-            payload = _extract_case_payload_from_messages(messages)
-            if payload is not None:
-                _save_json(paths["input_payload"], payload)
-            else:
-                # best-effort fallback
-                _save_json(paths["input_payload"], {"pseudoprofile_id": pid, "note": "payload extraction failed"})
-
-            # Create a per-worker client to avoid cross-thread surprises
             client = OpenAI()
+            feedback_for_revision: List[str] = []
+            max_actor_iterations = max(0, int(critic_max_iterations))
+            for actor_attempt in range(max_actor_iterations + 1):
+                instructions, messages = build_llm_messages(
+                    profile=profile,
+                    hyde=hyde,
+                    mapping=mapping,
+                    n_criteria=str(n_criteria),
+                    n_predictors=str(n_predictors),
+                    critic_feedback=feedback_for_revision,
+                    hard_ontology_constraint=bool(hard_ontology_constraint),
+                )
 
-            # Initial generation
-            raw_model = call_llm_structured(
-                client=client,
-                llm_model=llm_model,
-                instructions=instructions,
-                messages=messages,
-                pseudoprofile_id=pid,
-            )
-            _save_json(paths["llm_raw"], raw_model)
+                if actor_attempt == 0:
+                    payload = _extract_case_payload_from_messages(messages)
+                    if payload is not None:
+                        _save_json(paths["input_payload"], payload)
+                    else:
+                        _save_json(paths["input_payload"], {"pseudoprofile_id": pid, "note": "payload extraction failed"})
 
-            model = raw_model
-            report = validate_observation_model(model)
+                raw_model = call_llm_structured(
+                    client=client,
+                    llm_model=llm_model,
+                    instructions=instructions,
+                    messages=messages,
+                    pseudoprofile_id=pid,
+                )
+                _save_json(paths["llm_raw"], raw_model)
+                model = raw_model
+                report = validate_observation_model(model)
 
-            # Auto-repair loop (LLM)
-            if auto_repair and report.get("errors"):
-                for attempt in range(1, int(max_repair_attempts) + 1):
-                    _log(pid, f"Auto-repair: attempt {attempt}/{max_repair_attempts} | errors={len(report.get('errors', []) or [])}")
-                    rep_instructions, rep_messages = build_repair_messages(
-                        original_model=model,
-                        validation_report=report,
-                        pseudoprofile_id=pid,
+                if auto_repair and report.get("errors"):
+                    for repair_attempt in range(1, int(max_repair_attempts) + 1):
+                        _log(
+                            pid,
+                            f"Auto-repair: attempt {repair_attempt}/{max_repair_attempts} | "
+                            f"errors={len(report.get('errors', []) or [])}",
+                        )
+                        rep_instructions, rep_messages = build_repair_messages(
+                            original_model=model,
+                            validation_report=report,
+                            pseudoprofile_id=pid,
+                        )
+                        repaired = call_llm_structured(
+                            client=client,
+                            llm_model=llm_model,
+                            instructions=rep_instructions,
+                            messages=rep_messages,
+                            pseudoprofile_id=pid,
+                        )
+                        model = repaired
+                        report = validate_observation_model(model)
+                        if not (report.get("errors") or []):
+                            break
+
+                if deterministic_fix and isinstance(model, dict):
+                    for pass_i in range(1, int(max_fix_passes) + 1):
+                        model = deterministic_fix_model(model, pid=pid)
+                        report = validate_observation_model(model)
+                        if not (report.get("errors") or []):
+                            break
+                        _log(
+                            pid,
+                            f"Deterministic fix pass {pass_i}/{max_fix_passes} still has "
+                            f"errors={len(report.get('errors', []) or [])}",
+                        )
+
+                if bool(hard_ontology_constraint) and isinstance(model, dict):
+                    ontology_constraint_summary = _enforce_step02_hard_ontology(
+                        model=model,
+                        allowed_predictor_paths=allowed_predictor_paths,
+                        allowed_criterion_paths=allowed_criterion_paths,
                     )
-                    repaired = call_llm_structured(
-                        client=client,
-                        llm_model=llm_model,
-                        instructions=rep_instructions,
-                        messages=rep_messages,
-                        pseudoprofile_id=pid,
+                    report = validate_observation_model(model)
+
+                critic_evidence = {
+                    "profile_id": pid,
+                    "phoenix_context": (
+                        "PHOENIX (Personalized Hierarchical Optimization Engine for Navigating Insightful eXplorations): "
+                        "Step-02 initial observation model guardrail review."
+                    ),
+                    "critic_iteration": actor_attempt + 1,
+                    "hard_ontology_constraint": bool(hard_ontology_constraint),
+                    "validation_report": report or {},
+                    "predictor_parent_feasibility": predictor_parent_feasibility,
+                    "constraint_summary": ontology_constraint_summary,
+                    "model_snapshot": {
+                        "n_criteria": len((model or {}).get("criteria_variables", []) or []),
+                        "n_predictors": len((model or {}).get("predictor_variables", []) or []),
+                        "predictor_paths": _extract_model_predictor_paths(model or {}),
+                    },
+                }
+                if not bool(disable_critic_llm):
+                    critic_from_llm, critic_attempt_trace = run_llm_step02_critic(
+                        llm_model=str(llm_model),
+                        profile_id=pid,
+                        evidence_bundle=critic_evidence,
+                        prompt_budget_tokens=int(prompt_budget_tokens),
+                        timeout_seconds=90.0,
                     )
-                    model = repaired
+                else:
+                    critic_from_llm = None
+                    critic_attempt_trace = {"provider": "none", "reason": "disable_critic_llm=true"}
+                critic_trace["critic_attempts"].append(critic_attempt_trace)
+                if critic_from_llm is None:
+                    critic_review = _heuristic_step02_critic(
+                        model=model or {},
+                        validation_report=report or {},
+                        predictor_parent_feasibility=predictor_parent_feasibility,
+                        hard_ontology_constraint_applied=bool(hard_ontology_constraint),
+                        ontology_constraint_summary=ontology_constraint_summary,
+                        pass_threshold=float(critic_pass_threshold),
+                    )
+                else:
+                    critic_review = critic_from_llm
+
+                critic_trace["actor_attempts"].append(
+                    {
+                        "attempt_index": actor_attempt + 1,
+                        "decision": critic_review.decision,
+                        "composite_score_0_1": float(critic_review.composite_score_0_1),
+                        "n_errors": len((report or {}).get("errors", []) or []),
+                    }
+                )
+                if critic_review.decision == "PASS":
+                    break
+                feedback_for_revision = [str(item) for item in critic_review.actionable_feedback if str(item).strip()][:8]
+
+        # Cached-model path: still run deterministic checks and critic once.
+        if model is not None and report is not None and bool(used_cache):
+            if deterministic_fix:
+                for pass_i in range(1, int(max_fix_passes) + 1):
+                    model = deterministic_fix_model(model, pid=pid)
                     report = validate_observation_model(model)
                     if not (report.get("errors") or []):
                         break
-
-        # Deterministic fix layer (guarantee validator pass)
-        if deterministic_fix and isinstance(model, dict):
-            for pass_i in range(1, int(max_fix_passes) + 1):
-                model = deterministic_fix_model(model, pid=pid)
+            if bool(hard_ontology_constraint):
+                ontology_constraint_summary = _enforce_step02_hard_ontology(
+                    model=model,
+                    allowed_predictor_paths=allowed_predictor_paths,
+                    allowed_criterion_paths=allowed_criterion_paths,
+                )
                 report = validate_observation_model(model)
-                if not (report.get("errors") or []):
-                    break
-                _log(pid, f"Deterministic fix pass {pass_i}/{max_fix_passes} still has errors={len(report.get('errors', []) or [])}")
+            if critic_review is None:
+                critic_review = _heuristic_step02_critic(
+                    model=model,
+                    validation_report=report,
+                    predictor_parent_feasibility=predictor_parent_feasibility,
+                    hard_ontology_constraint_applied=bool(hard_ontology_constraint),
+                    ontology_constraint_summary=ontology_constraint_summary,
+                    pass_threshold=float(critic_pass_threshold),
+                )
+                critic_trace["provider"] = "heuristic_cached_review"
+
+        if isinstance(critic_review, Step02CriticReviewModel):
+            _save_json(paths["critic_review"], critic_review.model_dump(mode="json"))
+        if isinstance(critic_trace, dict):
+            _save_json(paths["critic_trace"], critic_trace)
 
         # Persist final artifacts
         if isinstance(model, dict):
@@ -2983,6 +3188,7 @@ def process_one_pseudoprofile(
             "used_cache": bool(used_cache),
             "model": model,
             "validation_report": report,
+            "critic_review": critic_review.model_dump(mode="json") if isinstance(critic_review, Step02CriticReviewModel) else None,
             "error_type": None,
             "error_message": None,
             "traceback": None,
@@ -3019,6 +3225,7 @@ def _parse_args() -> argparse.Namespace:
     p.add_argument("--hyde_dense_profiles_path", type=str, default=DEFAULT_HYDE_DENSE_PROFILES_PATH)
     p.add_argument("--llm_mapping_ranks_path", type=str, default=DEFAULT_LLM_MAPPING_RANKS_PATH)
     p.add_argument("--ontology_path", type=str, default=DEFAULT_HIGH_LEVEL_ONTOLOGY_PATH)
+    p.add_argument("--predictor_feasibility_csv", type=str, default=DEFAULT_PREDICTOR_FEASIBILITY_CSV)
     p.add_argument("--results_dir", type=str, default=DEFAULT_RESULTS_DIR)
 
     p.add_argument("--run_id", type=str, default="")
@@ -3051,6 +3258,12 @@ def _parse_args() -> argparse.Namespace:
     # Deterministic fix
     p.add_argument("--deterministic_fix", action=argparse.BooleanOptionalAction, default=DEFAULT_DETERMINISTIC_FIX)
     p.add_argument("--max_fix_passes", type=int, default=DEFAULT_MAX_FIX_PASSES)
+    p.add_argument("--critic_max_iterations", type=int, default=DEFAULT_CRITIC_MAX_ITERATIONS)
+    p.add_argument("--critic_pass_threshold", type=float, default=DEFAULT_CRITIC_PASS_THRESHOLD)
+    p.add_argument("--parent_feasibility_top_k", type=int, default=DEFAULT_PARENT_FEASIBILITY_TOP_K)
+    p.add_argument("--hard_ontology_constraint", action=argparse.BooleanOptionalAction, default=False)
+    p.add_argument("--prompt_budget_tokens", type=int, default=400000)
+    p.add_argument("--disable_critic_llm", action=argparse.BooleanOptionalAction, default=False)
 
     # Optional: print summaries
     p.add_argument("--print_summary", action=argparse.BooleanOptionalAction, default=False)
@@ -3079,6 +3292,7 @@ def main() -> None:
             "hyde_dense_profiles_path": args.hyde_dense_profiles_path,
             "llm_mapping_ranks_path": args.llm_mapping_ranks_path,
             "ontology_path": args.ontology_path,
+            "predictor_feasibility_csv": args.predictor_feasibility_csv,
             "results_dir": args.results_dir,
             "run_root": run_root,
             "profiles_dir": profiles_dir,
@@ -3100,6 +3314,12 @@ def main() -> None:
             "max_repair_attempts": args.max_repair_attempts,
             "deterministic_fix": args.deterministic_fix,
             "max_fix_passes": args.max_fix_passes,
+            "critic_max_iterations": args.critic_max_iterations,
+            "critic_pass_threshold": args.critic_pass_threshold,
+            "parent_feasibility_top_k": args.parent_feasibility_top_k,
+            "hard_ontology_constraint": args.hard_ontology_constraint,
+            "prompt_budget_tokens": args.prompt_budget_tokens,
+            "disable_critic_llm": args.disable_critic_llm,
             "print_summary": args.print_summary,
         },
     }
@@ -3120,7 +3340,11 @@ def main() -> None:
         else:
             pseudoprofile_ids = all_ids
 
-    _log("", f"Run {run_id} | profiles={len(pseudoprofile_ids)} | max_workers={args.max_workers} | model={args.llm_model}")
+    _log(
+        "",
+        f"Run {run_id} | profiles={len(pseudoprofile_ids)} | max_workers={args.max_workers} | "
+        f"model={args.llm_model} | hard_ontology_constraint={bool(args.hard_ontology_constraint)}",
+    )
 
     # Aggregation buffers
     models_ok: List[Dict[str, Any]] = []
@@ -3160,6 +3384,13 @@ def main() -> None:
                     max_repair_attempts=int(args.max_repair_attempts),
                     deterministic_fix=bool(args.deterministic_fix),
                     max_fix_passes=int(args.max_fix_passes),
+                    predictor_feasibility_csv=str(args.predictor_feasibility_csv),
+                    critic_max_iterations=int(args.critic_max_iterations),
+                    critic_pass_threshold=float(args.critic_pass_threshold),
+                    hard_ontology_constraint=bool(args.hard_ontology_constraint),
+                    prompt_budget_tokens=int(args.prompt_budget_tokens),
+                    parent_feasibility_top_k=int(args.parent_feasibility_top_k),
+                    disable_critic_llm=bool(args.disable_critic_llm),
                 )
             )
 
@@ -3186,7 +3417,12 @@ def main() -> None:
 
             models_ok.append(model)
 
-            _append_validations_long_rows(validations_rows, pid, report)
+            _append_validations_long_rows(
+                validations_rows,
+                pid,
+                report,
+                res.get("critic_review") if isinstance(res.get("critic_review"), dict) else None,
+            )
 
             _append_variables_long_rows(variables_long_rows, pid, model)
             _append_edges_pc_long_rows(edges_pc_long_rows, pid, model)
@@ -3197,7 +3433,14 @@ def main() -> None:
             _append_cc_relevance_long_rows(cc_rel_long_rows, pid, model)
 
             if args.print_summary:
-                _log(pid, f"USED_CACHE={res.get('used_cache', False)} | errors={len(report.get('errors', []) or [])} warnings={len(report.get('warnings', []) or [])}")
+                critic_decision = ""
+                if isinstance(res.get("critic_review"), dict):
+                    critic_decision = str(res["critic_review"].get("decision", ""))
+                _log(
+                    pid,
+                    f"USED_CACHE={res.get('used_cache', False)} | errors={len(report.get('errors', []) or [])} "
+                    f"warnings={len(report.get('warnings', []) or [])} | critic={critic_decision or 'n/a'}",
+                )
                 print_human_summary(model)
 
     # Write run-level outputs

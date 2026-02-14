@@ -36,6 +36,7 @@ flowchart TD
 - `01_time_series_analysis/network/` → network analysis outputs and metrics
 - `02_momentary_impact_coefficients/` → `predictor_composite.csv`, `momentary_impact.json`
 - `03_treatment_target_handoff/` → `top_treatment_target_candidates.csv` / `.json`
+- `03_treatment_target_handoff/` → includes `step03_guardrail_review.json`, `step04_guardrail_review.json`
 - `04_impact_visualizations/` → visualization summary + profile visuals index
 - `05_research_reports/` → `run_report.md`, `run_report.json`, component/profile CSV summaries
 - `logs/` → stage logs + `pipeline.jsonl`
@@ -54,6 +55,15 @@ python Evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1 
   --pattern pseudoprofile_FTC_ID002 \
   --max-profiles 1 \
   --network-boot 10
+```
+
+Run with guardrail critics and strict ontology constraints:
+
+```bash
+python Evaluation/00_pipeline_orchestration/run_pseudodata_to_impact.py \
+  --hard-ontology-constraint \
+  --handoff-critic-max-iterations 2 \
+  --intervention-critic-max-iterations 2
 ```
 
 Reuse existing outputs while skipping stages:

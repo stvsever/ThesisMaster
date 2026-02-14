@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "pipeline_summary",
+  "type": "object",
+  "required": ["contract_version", "status", "run_id", "run_root"],
+  "properties": {
+    "contract_version": { "type": "string", "minLength": 1 },
+    "status": { "type": "string" },
+    "run_id": { "type": "string" },
+    "run_root": { "type": "string" },
+    "profiles": { "type": "array" },
+    "impact_profiles": { "type": "array" },
+    "outputs": { "type": "object" },
+    "stage_results": { "type": "array" }
+  },
+  "additionalProperties": true
+}

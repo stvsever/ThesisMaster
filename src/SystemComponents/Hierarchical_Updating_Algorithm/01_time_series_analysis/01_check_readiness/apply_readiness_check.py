@@ -305,7 +305,7 @@ def _label_from_score(score: float) -> str:
         return "PartiallyReady_High"
     if score < 75:
         return "Ready_Low"
-    if score < 88:
+    if score < 90:
         return "Ready_High"
     return "FullyReady"
 
@@ -1626,6 +1626,12 @@ def analyze_profile(
             tier_gate_notes.append("Time-varying gVAR selected; data amount is near the lower feasibility boundary (consider collecting more).")
 
     readiness_label_raw = _label_from_score(readiness_score)
+    tv_high_confidence_90_pass = bool(
+        recommended_tier == "Tier3_LaggedDynamicNetwork"
+        and tier3_variant == "TIME_VARYING_gVAR"
+        and readiness_score >= 90.0
+    )
+    tv_full_confidence = tv_high_confidence_90_pass
     readiness_label, readiness_label_cap_note = _cap_readiness_label_for_analysis(
         readiness_label_raw,
         recommended_tier,
@@ -1738,11 +1744,31 @@ def analyze_profile(
         caveats.append("STATIC lagged gVAR typically expects approximate stationarity; trends/drifts may require preprocessing.")
     if recommended_tier == "Tier3_LaggedDynamicNetwork" and tier3_variant == "TIME_VARYING_gVAR":
         caveats.append("TIME-VARYING gVAR relaxes stationarity, but needs more data and requires choosing a smoothing/window strategy.")
+        if not tv_high_confidence_90_pass:
+            caveats.append("TIME-VARYING gVAR is feasible, but readiness score is below 90; treat results as lower-confidence and collect more data.")
+
+    why_not_time_varying: List[str] = []
+    if recommended_tier != "Tier3_LaggedDynamicNetwork":
+        why_not_time_varying.append(f"Recommended tier is {recommended_tier}, so Tier3 time-varying gVAR was not selected.")
+    elif tier3_variant != "TIME_VARYING_gVAR":
+        why_not_time_varying.append(f"Tier3 selected but variant is {tier3_variant}, not TIME_VARYING_gVAR.")
+    if not tier3_tv_ok:
+        why_not_time_varying.append(
+            f"Tier3 TIME_VARYING_gVAR feasibility failed: n_eff_q25_tv={n_eff_q25_tv}, required≈{tv_required_points}, regularity={reg}."
+        )
+    if tier3_tv_ok and readiness_score < 90.0:
+        why_not_time_varying.append(
+            f"TIME_VARYING_gVAR feasible but below full-confidence threshold: readiness_score={readiness_score:.1f} < 90."
+        )
+    if not why_not_time_varying and tv_full_confidence:
+        why_not_time_varying.append("TIME_VARYING_gVAR selected with full confidence (readiness >= 90).")
 
     why: List[str] = []
     why.append(f"Recommended tier: {recommended_tier}")
     if recommended_tier == "Tier3_LaggedDynamicNetwork":
         why.append(f"Tier3 variant: {tier3_variant} (stationarity_required={stationarity_required})")
+        if tier3_variant == "TIME_VARYING_gVAR":
+            why.append(f"TIME_VARYING_gVAR high-confidence gate (score>=90): {tv_high_confidence_90_pass}")
     why.append(f"Ready variables: {len(ready_vars)} / model candidates: {len(model_cols)}")
     why.append(f"Time regularity: {time_info.get('regularity')} (irregular_fraction={irr:.2f}, dup_fraction={dup_frac_val:.2f})")
     if recommended_tier == "Tier3_LaggedDynamicNetwork":
@@ -1767,6 +1793,7 @@ def analyze_profile(
     # Report object
     # -----------------------------
     report: Dict[str, Any] = {
+        "contract_version": "1.0.0",
         "meta": {
             "profile_id": profile_id,
             "input_file": str(csv_path),
@@ -1866,6 +1893,9 @@ def analyze_profile(
             "readiness_score_0_100": readiness_score,
             "readiness_label_score_based": readiness_label_raw,
             "readiness_label": readiness_label,
+            "tv_gvar_high_confidence_90_pass": tv_high_confidence_90_pass,
+            "tv_full_confidence": tv_full_confidence,
+            "why_not_time_varying": why_not_time_varying,
             "score_breakdown": {
                 "components": {
                     "sample_score": _score_clip(sample_score),

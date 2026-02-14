@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "step05_hapa_intervention",
+  "type": "object",
+  "required": ["contract_version", "profile_id", "intervention_title", "selected_treatment_targets"],
+  "properties": {
+    "contract_version": { "type": "string", "minLength": 1 },
+    "profile_id": { "type": "string", "minLength": 1 },
+    "intervention_title": { "type": "string" },
+    "selected_treatment_targets": { "type": "array" },
+    "selected_barriers": { "type": "array" },
+    "selected_coping_strategies": { "type": "array" },
+    "hapa_component_plan": { "type": "array" },
+    "phased_delivery_plan": { "type": "array" },
+    "monitoring_plan": { "type": "array" },
+    "safety_notes": { "type": "array" },
+    "limitations": { "type": "array" },
+    "confidence_0_1": { "type": "number" }
+  },
+  "additionalProperties": true
+}

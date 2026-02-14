@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "step04_updated_model",
+  "type": "object",
+  "required": ["contract_version", "profile_id", "recommended_next_observation_predictors"],
+  "properties": {
+    "contract_version": { "type": "string", "minLength": 1 },
+    "profile_id": { "type": "string", "minLength": 1 },
+    "retained_criteria_ids": { "type": "array" },
+    "refined_predictor_shortlist": { "type": "array" },
+    "recommended_next_observation_predictors": { "type": "array" },
+    "dropped_predictors": { "type": "array" },
+    "added_predictors": { "type": "array" },
+    "rationale": { "type": "string" }
+  },
+  "additionalProperties": true
+}
