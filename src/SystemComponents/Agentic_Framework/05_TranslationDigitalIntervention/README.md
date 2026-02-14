@@ -1,19 +1,21 @@
-# Step-05 Translation Digital Intervention
+# Step 05 — Translation to Digital Intervention
 
-This is the canonical Step-05 module in PHOENIX.
+Canonical module for HAPA-based intervention generation.
 
-## Purpose
-
-- Generate HAPA-based digital interventions from integrated evidence.
-- Use selected treatment targets, mapped barrier domains, and coping strategies.
-- Apply actor-critic guardrail checks with schema-validated outputs.
-
-## Main script
+## Main Script
 
 - `01_generate_hapa_digital_intervention.py`
 
-## Output highlights
+## Purpose
+
+- synthesize intervention recommendations from full prior-stage evidence,
+- rank plausible barrier domains and coping options,
+- generate structured, personalized intervention outputs,
+- apply guardrail critic validation and bounded revision loops.
+
+## Output Highlights
 
 - structured intervention JSON
-- barrier and coping rankings
+- barrier-domain rankings
+- coping-strategy rankings
 - guardrail review artifacts

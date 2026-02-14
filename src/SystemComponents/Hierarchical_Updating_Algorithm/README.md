@@ -1,28 +1,26 @@
 # Hierarchical Updating Algorithm
 
-This directory contains the quantitative analysis core for readiness estimation, network time-series analysis, and impact quantification.
+Quantitative core for PHOENIX readiness estimation, network analysis, and impact scoring.
 
 ## Modules
 
 - `01_time_series_analysis/01_check_readiness/`
-  - Readiness classification and diagnostics on pseudodata profiles.
+  - readiness classification and diagnostics.
 - `01_time_series_analysis/02_network_time_series_analysis/`
-  - Readiness-driven tv-gVAR, stationary baselines, and network metrics.
+  - readiness-aligned tv-gVAR, stationary gVAR, and baseline analyses.
 - `01_time_series_analysis/02_regular_time_series_analysis/`
-  - Non-network regular time-series analyses.
+  - regular non-network analyses.
 - `02_hierarchical_update_ranking/01_momentary_impact_quantification/`
-  - Edge-level and predictor-level impact coefficient computation.
+  - predictor-level impact coefficient construction.
 
-## Integrated Execution
+## Execution
 
-Use the integrated runner for consistent outputs, logs, and validation:
+Use orchestrated execution for reproducibility:
 
 ```bash
 python Evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1
 ```
 
-## Readiness-to-Analysis Consistency
+## Readiness Consistency
 
-- Readiness now exposes an explicit `analysis_execution_plan` in each `readiness_report.json`.
-- The network analysis stage follows this plan by default (`--execution-policy readiness_aligned`).
-- `FullyReady` is reserved for profiles where full time-varying gVAR is executable.
+`readiness_report.json` includes `analysis_execution_plan`, and downstream analysis follows this plan to keep method selection explicit and auditable.

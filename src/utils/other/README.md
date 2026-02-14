@@ -1,21 +1,15 @@
-# `utils/other`
+# `src/utils/other`
 
-This folder contains non-core utilities, exploratory scripts, and prototype tooling that support development outside the main thesis pipeline.
+Non-core utilities and exploratory tooling that support development outside the canonical PHOENIX pipeline.
 
 ## Subfolders
 
-- `exploratory/`  
-  General experimental utilities (ontology summarization, diagnostics, early tests).
+- `exploratory/`: experiments, diagnostics, and ad hoc analysis helpers.
+- `temporal_llm_experiments/`: temporal and LLM experimentation utilities.
+- `generate_criteria/`: auxiliary criterion-generation helpers.
 
-- `temporal_llm_experiments/`  
-  Open-source LLM and temporal experimentation scripts.
+## Compatibility Notes
 
-- `generate_criteria/`  
-  Auxiliary criteria-generation helpers.
-
-## Backward Compatibility
-
-Legacy aliases are kept so older script paths continue to work:
-
+Legacy aliases are preserved for backward compatibility:
 - `other -> exploratory`
 - `tempo -> temporal_llm_experiments`

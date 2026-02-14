@@ -1,16 +1,20 @@
-# PHOENIX Research Communication
+# Research Communication
 
-This folder standardizes communication artifacts for integrated pipeline runs.
+Utilities for generating publication-ready summaries from integrated PHOENIX runs.
 
 ## Script
 
 - `generate_pipeline_research_report.py`
-  - Input: one run folder (e.g. `Evaluation/05_integrated_pipeline_runs/<run_id>/`)
-  - Output:
-    - `run_report.md` (human-readable summary)
-    - `run_report.json` (machine-readable summary)
-    - `component_status.csv`
-    - `profile_overview.csv`
+
+## Inputs and Outputs
+
+Input: `Evaluation/05_integrated_pipeline_runs/<run_id>/`
+
+Outputs:
+- `run_report.md`
+- `run_report.json`
+- `component_status.csv`
+- `profile_overview.csv`
 
 ## Example
 
@@ -20,8 +24,6 @@ python Evaluation/07_research_communication/generate_pipeline_research_report.py
   --output-root "Evaluation/05_integrated_pipeline_runs/<run_id>/05_research_reports"
 ```
 
-## Scope Note
+## Scope
 
-Current reports summarize synthetic-data evaluation runs.  
-The schema is intentionally forward-compatible with future real-world frontend/backend data ingestion.
-
+Current reports cover synthetic-data runs, with schema compatibility for future real-world ingestion workflows.

@@ -1,23 +1,18 @@
-# Step-04 Construction Updated Observation Model
+# Step 04 — Updated Observation Model
 
-This is the canonical Step-04 module in PHOENIX.
+Canonical module for cycle-level updated observation-model persistence.
 
-## Purpose
-
-- Build and persist cycle-level updated observation model summaries.
-- Keep iterative lineage explicit across cycles.
-- Support history append events for resumable runs.
-
-## Main script
+## Main Script
 
 - `01_run_updated_model_cycle.py`
 
-## Utilities
+## Purpose
 
-- `utils/cycle_summary.py`
-- `utils/history_io.py`
+- consolidate Step-03/04/05 artifacts into a cycle summary,
+- maintain model lineage across cycles,
+- append profile-level history events for resumable iterative runs.
 
-## Inputs
+## Expected Inputs
 
 - `step03_treatment_target_selection.json`
 - `step04_updated_observation_model.json`

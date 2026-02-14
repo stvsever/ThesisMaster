@@ -1,22 +1,17 @@
-# Time-Series Analysis
+# Time-Series Analysis Layer
 
-Core analysis layer for profile-level readiness and network modeling.
+Profile-level readiness and network modeling modules.
 
 ## Submodules
 
-- `01_check_readiness/`
-  - Produces `readiness_report.json` + `readiness_summary.txt` per profile.
-- `02_network_time_series_analysis/`
-  - Produces tv-gVAR/stationary/correlation outputs plus network metrics.
-- `02_regular_time_series_analysis/`
-  - Produces regular non-network time-series analytics.
+- `01_check_readiness/`: generates readiness diagnostics and execution recommendations.
+- `02_network_time_series_analysis/`: executes network analyses according to readiness tier.
+- `02_regular_time_series_analysis/`: supports regular time-series alternatives.
 
-## Recommended Execution
+## Recommended Usage
 
-For end-to-end thesis workflow consistency, run through:
+Run via the integrated orchestrator to preserve standardized paths, logs, and contracts:
 
 ```bash
 python Evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1
 ```
-
-This keeps path management, logging, and stage validation centralized.
