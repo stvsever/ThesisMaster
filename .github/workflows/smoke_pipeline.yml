@@ -28,7 +28,7 @@ jobs:
           MPLBACKEND: "Agg"
           PYTEST_DISABLE_PLUGIN_AUTOLOAD: "1"
         run: |
-          python Evaluation/00_pipeline_orchestration/run_pipeline.py \
+          python evaluation/00_pipeline_orchestration/run_pipeline.py \
             --mode synthetic_v1 \
             --pattern pseudoprofile_FTC_ID002 \
             --max-profiles 1 \
@@ -42,6 +42,6 @@ jobs:
         with:
           name: phoenix-smoke-report
           path: |
-            Evaluation/05_integrated_pipeline_runs/ci_smoke_pipeline/pipeline_summary.json
-            Evaluation/05_integrated_pipeline_runs/ci_smoke_pipeline/05_research_reports/run_report.md
-            Evaluation/05_integrated_pipeline_runs/ci_smoke_pipeline/05_research_reports/run_report.json
+            evaluation/05_integrated_pipeline_runs/ci_smoke_pipeline/pipeline_summary.json
+            evaluation/05_integrated_pipeline_runs/ci_smoke_pipeline/05_research_reports/run_report.md
+            evaluation/05_integrated_pipeline_runs/ci_smoke_pipeline/05_research_reports/run_report.json

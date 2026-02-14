@@ -85,6 +85,7 @@ import math
 import os
 import re
 import textwrap
+from pathlib import Path
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Any, Dict, Iterable, List, Optional, Tuple
@@ -1326,13 +1327,17 @@ def _find_profile_jsons(run_dir: str) -> List[Tuple[str, str]]:
 # Main
 # -----------------------------
 def main() -> int:
+    default_runs_root = (
+        Path(__file__).resolve().parents[6]
+        / "evaluation/03_construction_initial_observation_model/constructed_PC_models/runs"
+    )
     parser = argparse.ArgumentParser(
         description="Create publication-oriented visuals per pseudoprofile (latest run by default)."
     )
 
     parser.add_argument(
         "--runs_root",
-        default="/Users/stijnvanseveren/PythonProjects/MASTERPROEF/Evaluation/03_construction_initial_observation_model/constructed_PC_models/runs",
+        default=str(default_runs_root),
         help="Root directory containing run folders. Latest run is selected by default.",
     )
     parser.add_argument(

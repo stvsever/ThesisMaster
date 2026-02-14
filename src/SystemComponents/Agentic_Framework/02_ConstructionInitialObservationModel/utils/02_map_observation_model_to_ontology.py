@@ -62,7 +62,8 @@ import numpy as np
 def _find_repo_root() -> Path:
     here = Path(__file__).resolve()
     for candidate in [here, *here.parents]:
-        if (candidate / "Evaluation").exists() and (candidate / "README.md").exists():
+        has_eval = (candidate / "evaluation").exists() or (candidate / "Evaluation").exists()
+        if has_eval and (candidate / "README.md").exists():
             return candidate
     raise RuntimeError("Could not locate repository root from 02_map_observation_model_to_ontology.py")
 
@@ -71,7 +72,7 @@ REPO_ROOT = _find_repo_root()
 
 # --- Observation model runs root (script will pick latest run dir by default) ---
 DEFAULT_RUNS_ROOT = str(
-    REPO_ROOT / "Evaluation/03_construction_initial_observation_model/constructed_PC_models/runs"
+    REPO_ROOT / "evaluation/03_construction_initial_observation_model/constructed_PC_models/runs"
 )
 
 # --- Input filename inside each pseudoprofile directory ---
@@ -84,12 +85,12 @@ OUT_MAPPED_TXT_FILENAME = "llm_observation_model_mapped.txt"
 # --- Embeddings cache directories (leaf nodes already embedded) ---
 DEFAULT_CRITERION_CACHE_DIR = (
     str(
-        REPO_ROOT / "SystemComponents/Agentic_Framework/02_ConstructionInitialObservationModel/utils/helpers/embeddings/CRITERIONS"
+        REPO_ROOT / "src/SystemComponents/Agentic_Framework/02_ConstructionInitialObservationModel/utils/helpers/embeddings/CRITERIONS"
     )
 )
 DEFAULT_PREDICTOR_CACHE_DIR = (
     str(
-        REPO_ROOT / "SystemComponents/Agentic_Framework/02_ConstructionInitialObservationModel/utils/helpers/embeddings/PREDICTORS"
+        REPO_ROOT / "src/SystemComponents/Agentic_Framework/02_ConstructionInitialObservationModel/utils/helpers/embeddings/PREDICTORS"
     )
 )
 

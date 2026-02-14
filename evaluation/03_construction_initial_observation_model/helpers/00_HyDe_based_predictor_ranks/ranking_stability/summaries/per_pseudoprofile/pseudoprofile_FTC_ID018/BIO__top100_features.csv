@@ -1,0 +1,58 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / low_stimulation_evening_activities,BIO,5,1.0,1.0,0.0,0.32140183,0.004793609
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / evening_conversation_boundary,BIO,5,1.0,10.4,12.354756,0.23828201,0.011695506
+BIO / sleep_circadian_and_restoration / circadian_entrainment / light_cues / late_evening_screen_reduction,BIO,5,1.0,16.6,24.25366,0.23910698,0.019972367
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / light_and_circadian_environment / blue_light_reduction_evening,BIO,5,1.0,17.0,27.011108,0.24015021,0.018307691
+BIO / sleep_circadian_and_restoration / circadian_entrainment / light_cues / evening_light_dimming,BIO,5,1.0,29.6,44.261044,0.23172827,0.020381372
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / light_and_circadian_environment / warm_dimmable_evening_lighting,BIO,5,1.0,41.0,62.070927,0.22519755,0.015804345
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / stimulating_content_avoidance,BIO,5,1.0,47.2,26.603758,0.20725377,0.0021185824
+BIO / sleep_circadian_and_restoration / circadian_entrainment / context_shift_plans / weekend_social_shift_mitigation,BIO,5,1.0,51.2,41.787083,0.20815086,0.005930026
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_perceived_coping_effectiveness,BIO,5,1.0,89.0,59.58859,0.2007964,0.013585134
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / night_awakenings_support / return_to_bed_settling_routine,BIO,5,1.0,98.8,30.973537,0.19648603,0.0036379984
+BIO / sleep_circadian_and_restoration / circadian_entrainment / activity_and_meal_cues / social_rhythm_stabilization,BIO,4,0.8,66.75,43.859863,0.20047657,0.010845759
+BIO / sleep_circadian_and_restoration / circadian_entrainment / light_cues / daylight_exposure_planning,BIO,4,0.8,74.0,45.90207,0.20004192,0.012337494
+BIO / environmental_exposures_and_built_environment_optimization / outdoor_environment_and_community_exposures / noise_and_light_community_exposures / nighttime_light_exposure_reduction_strategy,BIO,4,0.8,80.75,49.539757,0.19769232,0.00705638
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / morning_stabilization / morning_daylight_exposure,BIO,4,0.8,85.25,47.746075,0.19663571,0.0088724075
+BIO / sleep_circadian_and_restoration / sleep_environment / light_and_display_control / low_lux_bedroom_lighting,BIO,4,0.8,94.5,64.150215,0.19794476,0.00939967
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / night_awakenings_support / nonengagement_with_clock_checking,BIO,4,0.8,95.5,25.850533,0.19379419,0.0022336103
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / sleep_medicine_and_circadian_care / therapy_and_device_pathways / sleep_wake_stabilization_care_plan_coordination,BIO,4,0.8,120.25,43.45328,0.19081023,0.00598203
+BIO / cognitive_capacity_and_brain_health / sleep_circadian_and_glymphatic_support / circadian_photo_biology_tools / bright_light_therapy_box,BIO,4,0.8,137.25,31.530739,0.1885867,0.0040779575
+BIO / nutrition_hydration_and_metabolic_health / alcohol_and_other_intake_modulation / alcohol_free_social_plan,BIO,3,0.6,69.333336,23.012074,0.1994078,0.005309092
+BIO / nutrition_hydration_and_metabolic_health / caffeine_and_stimulant_intake_modulation / energy_drink_reduction_plan,BIO,3,0.6,84.0,5.354126,0.19641693,0.0031068132
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / light_and_circadian_environment / light_pollution_reduction,BIO,3,0.6,108.666664,45.50702,0.1909985,0.006972129
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_affect_and_stress / ema_mood_checkin,BIO,3,0.6,132.33333,18.92676,0.19342005,0.0062241293
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / acceptance_of_wakefulness_practice,BIO,3,0.6,147.33333,17.2498,0.19057132,0.008123249
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / morning_stabilization / gentle_mobility_on_waking,BIO,3,0.6,157.33333,19.189117,0.1855873,0.0037642731
+BIO / sleep_circadian_and_restoration / sleep_environment / air_allergen_and_irritant_control / low_dust_bedroom_declutter,BIO,2,0.4,56.5,7.5,0.19973096,0.0033238977
+BIO / sleep_circadian_and_restoration / circadian_entrainment / light_cues / consistent_morning_anchor_routine,BIO,2,0.4,61.0,34.0,0.20000902,0.0067337975
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / audiobook_low_arousal,BIO,2,0.4,74.0,24.0,0.1954557,0.002985999
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / affect_mood_and_stress_selfreports / mood_diary,BIO,2,0.4,92.0,3.0,0.20313895,0.0047996566
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / cognition_and_energy_selfreports / cognitive_effort_rating,BIO,2,0.4,105.0,22.0,0.20152661,0.001742594
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / night_awakenings_support / low_light_bathroom_path,BIO,2,0.4,112.0,2.0,0.18799365,0.00194294
+BIO / sleep_circadian_and_restoration / circadian_entrainment / activity_and_meal_cues / exercise_timing_circadian_cue,BIO,2,0.4,112.0,23.0,0.19311598,0.0012651458
+BIO / sleep_circadian_and_restoration / circadian_entrainment / activity_and_meal_cues / meal_timing_circadian_cue,BIO,2,0.4,115.5,40.5,0.19350547,0.0030635223
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / light_and_circadian_environment / blackout_window_treatments,BIO,2,0.4,126.5,8.5,0.18964131,1.6361475e-05
+BIO / sleep_circadian_and_restoration / circadian_entrainment / light_cues / morning_bright_light_exposure,BIO,2,0.4,126.5,50.5,0.19021766,0.0061834306
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / morning_stabilization / morning_outdoor_step,BIO,2,0.4,139.0,42.0,0.18954301,0.0031095818
+BIO / nutrition_hydration_and_metabolic_health / caffeine_and_stimulant_intake_modulation / caffeine_reduction_plan,BIO,2,0.4,141.0,28.0,0.18817028,0.0035419762
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / bedroom_declutter,BIO,2,0.4,150.0,13.0,0.1845407,0.00058573484
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / light_and_circadian_environment / daylight_access_optimization,BIO,2,0.4,152.0,12.0,0.18770868,8.702278e-05
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / bedroom_device_free_policy,BIO,2,0.4,153.0,20.0,0.18431579,3.1888485e-05
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / light_and_circadian_environment / circadian_lighting_system,BIO,2,0.4,157.0,11.0,0.18689534,0.0021701232
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / affect_mood_and_stress_selfreports / perceived_stress_level_rating,BIO,2,0.4,174.0,14.0,0.19432187,0.0060701147
+BIO / nutrition_hydration_and_metabolic_health / alcohol_and_other_intake_modulation / cessation_coaching_referral,BIO,2,0.4,175.5,8.5,0.1879521,0.0017767027
+BIO / sleep_circadian_and_restoration / sleep_environment / light_and_display_control / bedside_lamp_with_timer,BIO,2,0.4,182.5,0.5,0.18489102,0.0013523176
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / cognition_and_energy_selfreports / decision_fatigue_selfreport,BIO,1,0.2,93.0,0.0,0.19800529,0.0
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_cognition_and_energy / ema_mental_energy,BIO,1,0.2,101.0,0.0,0.19626005,0.0
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_coping_strategy_used,BIO,1,0.2,124.0,0.0,0.19309708,0.0
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_cognition_and_energy / ema_fatigue,BIO,1,0.2,128.0,0.0,0.19259493,0.0
+BIO / sleep_circadian_and_restoration / circadian_entrainment / activity_and_meal_cues / caffeine_timing_adjustment,BIO,1,0.2,130.0,0.0,0.19030373,0.0
+BIO / nutrition_hydration_and_metabolic_health / alcohol_and_other_intake_modulation / alcohol_intake_reduction_framework,BIO,1,0.2,132.0,0.0,0.18978828,0.0
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / morning_stabilization / hydration_on_waking,BIO,1,0.2,133.0,0.0,0.1897813,0.0
+BIO / sleep_circadian_and_restoration / sleep_environment / bedroom_safety_and_security / phone_outside_bed_reach,BIO,1,0.2,149.0,0.0,0.18614936,0.0
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_impulse_control,BIO,1,0.2,160.0,0.0,0.1903372,0.0
+BIO / movement_physical_function_and_somatic_care / aerobic_and_cardiorespiratory_movement / lifestyle_energy_expenditure / stair_use_preference_framework,BIO,1,0.2,162.0,0.0,0.18516685,0.0
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / sleep_medicine_and_circadian_care / therapy_and_device_pathways / circadian_entrainment_therapy_referral_pathway,BIO,1,0.2,168.0,0.0,0.18749708,0.0
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_cognition_and_energy / ema_motivation_level,BIO,1,0.2,174.0,0.0,0.18923707,0.0
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / sleep_medicine_and_circadian_care / therapy_and_device_pathways / sleep_device_therapy_evaluation_pathway,BIO,1,0.2,180.0,0.0,0.18649496,0.0
+BIO / sleep_circadian_and_restoration / circadian_entrainment / context_shift_plans / seasonal_light_adjustment,BIO,1,0.2,200.0,0.0,0.1848644,0.0

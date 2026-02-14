@@ -11,3 +11,4 @@ openai>=1.51
 python-dotenv>=1.0
 jsonschema>=4.22
 pyarrow>=16.1
+flask>=3.0

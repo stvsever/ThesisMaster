@@ -1,0 +1,8 @@
+mapping_predictor_path,mapping_predictor_path_canonical,n_matched_hyde_leaves,matched_hyde_leaves_joined
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes','[BIO] / Pharmacology_and_Biomedical_Treatments / Sleep_Related_Pharmacotherapy_Classes',0,
+'[BIO] > Sleep_and_Circadian > Circadian_Entrainment','[BIO] / Sleep_and_Circadian / Circadian_Entrainment',0,
+'[BIO] > Sleep_and_Circadian > Sleep_Devices_and_Technologies','[BIO] / Sleep_and_Circadian / Sleep_Devices_and_Technologies',0,
+'[BIO] > Sleep_and_Circadian > Sleep_Environment','[BIO] / Sleep_and_Circadian / Sleep_Environment',0,
+'[BIO] > Sleep_and_Circadian > Sleep_Pharmacotherapy_Classes','[BIO] / Sleep_and_Circadian / Sleep_Pharmacotherapy_Classes',0,
+'[BIO] > Sleep_and_Circadian > Sleep_Routines_and_Practices','[BIO] / Sleep_and_Circadian / Sleep_Routines_and_Practices',0,
+'[BIO] > Sleep_and_Circadian > Sleep_Supplements','[BIO] / Sleep_and_Circadian / Sleep_Supplements',0,

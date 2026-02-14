@@ -26,6 +26,7 @@ dependencies = [
   "python-dotenv>=1.0",
   "jsonschema>=4.22",
   "pyarrow>=16.1",
+  "flask>=3.0",
 ]
 
 [project.optional-dependencies]
@@ -34,7 +35,7 @@ dev = [
 ]
 
 [tool.pytest.ini_options]
-testpaths = ["Evaluation/06_quality_assurance/tests"]
+testpaths = ["evaluation/06_quality_assurance/tests"]
 markers = [
   "unit: fast unit-level tests for deterministic logic.",
   "integration: cross-component integration tests.",

@@ -14,21 +14,28 @@ import infer_cluster_ids as ici
 # -------------------------
 # Configuration defaults
 # -------------------------
+def _find_repo_root() -> Path:
+    here = Path(__file__).resolve()
+    for candidate in [here, *here.parents]:
+        has_eval = (candidate / "evaluation").exists() or (candidate / "Evaluation").exists()
+        if has_eval and (candidate / "README.md").exists():
+            return candidate
+    raise RuntimeError("Could not locate repository root from rank_best_predictors.py")
+
+
+REPO_ROOT = _find_repo_root()
 
 DEFAULT_MAPPED_CRITERIONS_CSV = (
-    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/Evaluation/"
-    "02_mental_health_issue_operationalization/mapped_criterions.csv"
+    str(REPO_ROOT / "evaluation/02_mental_health_issue_operationalization/mapped_criterions.csv")
 )
 
 DEFAULT_CLUSTER_JSON = (
-    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/official/"
-    "cluster_criterions/results/04_semantically_clustered_items.json"
+    str(REPO_ROOT / "src/utils/official/cluster_criterions/results/04_semantically_clustered_items.json")
 )
 
 # Single output CSV (ALL pseudoprofiles, ALL parts) will be written here by default
 DEFAULT_OUTPUT_DIR = (
-    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/Evaluation/"
-    "03_construction_initial_observation_model/helpers/00_LLM_based_mapping_based_predictor_ranks"
+    str(REPO_ROOT / "evaluation/03_construction_initial_observation_model/helpers/00_LLM_based_mapping_based_predictor_ranks")
 )
 DEFAULT_OUTPUT_CSV_NAME = "all_pseudoprofiles__predictor_ranks_dense.csv"
 
@@ -37,9 +44,10 @@ DEFAULT_TOP_K_AGGREGATE = 50          # 50 PRE-global + 50 POST-global
 DEFAULT_TOP_K_PER_CRITERION = 10      # 10 POST-per-criterion
 
 CRITERION_PREDICTOR_CSV = (
-    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/official/"
-    "ontology_mappings/CRITERION/predictor_to_criterion/results/gpt-5-nano/"
-    "predictor_to_criterion_edges_long.csv"
+    str(
+        REPO_ROOT
+        / "src/utils/official/ontology_mappings/CRITERION/predictor_to_criterion/results/gpt-5-nano/predictor_to_criterion_edges_long.csv"
+    )
 )
 
 # Optional: restrict to a specific set of predictor paths

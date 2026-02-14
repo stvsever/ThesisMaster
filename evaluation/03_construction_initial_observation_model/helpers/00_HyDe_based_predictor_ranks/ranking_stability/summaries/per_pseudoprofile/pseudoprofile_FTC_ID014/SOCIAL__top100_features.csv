@@ -1,0 +1,6 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+SOCIAL / interpersonal_therapeutic_solutions / interpersonal_therapeutic_and_coaching_services / clinical_specialization_focus / social_anxiety_and_avoidance_profile_support / post_interaction_rumination_reduction_coaching,SOCIAL,5,1.0,104.8,39.51405,0.2153229,0.0055438103
+SOCIAL / interpersonal_therapeutic_solutions / interpersonal_therapeutic_and_coaching_services / social_skills_training_and_coaching / individual_format / behavioral_rehearsal_with_feedback_service,SOCIAL,1,0.2,119.0,0.0,0.21935488,0.0
+SOCIAL / interpersonal_therapeutic_solutions / interpersonal_therapeutic_and_coaching_services / clinical_specialization_focus / social_anxiety_and_avoidance_profile_support / social_evaluation_fear_response_skills_coaching,SOCIAL,1,0.2,126.0,0.0,0.2049189,0.0
+SOCIAL / interpersonal_therapeutic_solutions / interpersonal_therapeutic_and_coaching_services / group_therapy_formats / process_oriented / therapeutic_process_group_with_feedback,SOCIAL,1,0.2,175.0,0.0,0.21530333,0.0
+SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / safety_and_trust_in_support / reduce_toxic_relationship_exposure_plan,SOCIAL,1,0.2,181.0,0.0,0.20448005,0.0

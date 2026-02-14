@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}PHOENIX Frontend · Sessions{% endblock %}
+
+{% block content %}
+<section class="panel">
+  {% if llm_globally_disabled %}
+    <div class="alert error">
+      LLM execution is globally disabled for this UI process (`PHOENIX_DISABLE_LLM=true`).
+    </div>
+  {% endif %}
+  <h1>Start a New PHOENIX Session</h1>
+  <p class="muted">
+    Create one profile session, run Step 01→02, inspect generated model artifacts, synthesize pseudodata,
+    and launch iterative PHOENIX analysis cycles with full logs.
+  </p>
+  {% if error %}
+    <div class="alert error">{{ error }}</div>
+  {% endif %}
+  <form method="post" action="{{ url_for('ui.create_session_from_form') }}" class="grid-form">
+    <label>
+      Complaint text (required)
+      <textarea name="complaint_text" rows="4" placeholder="Describe the complaint or mental-state issue..." required></textarea>
+    </label>
+    <label>
+      Person context (optional)
+      <textarea name="person_text" rows="3" placeholder="Optional person profile context (history, preferences, constraints)."></textarea>
+    </label>
+    <label>
+      Environmental context (optional)
+      <textarea name="context_text" rows="3" placeholder="Optional context such as time pressure, workload, social setting."></textarea>
+    </label>
+    <label>
+      Custom profile ID (optional)
+      <input type="text" name="profile_id" placeholder="pseudoprofile_FTC_ID777">
+    </label>
+    <div class="actions">
+      <button type="submit" class="btn primary">Create Session</button>
+    </div>
+  </form>
+</section>
+
+<section class="panel">
+  <h2>Recent Sessions</h2>
+  {% if sessions %}
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Session</th>
+            <th>Profile ID</th>
+            <th>Cycles</th>
+            <th>Updated</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in sessions %}
+            <tr>
+              <td><code>{{ row.session_id }}</code></td>
+              <td><code>{{ row.profile_id }}</code></td>
+              <td>{{ row.current_cycle }}</td>
+              <td>{{ row.updated_at }}</td>
+              <td>
+                <a class="btn ghost small" href="{{ url_for('ui.session_detail', session_id=row.session_id) }}">Open</a>
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% else %}
+    <p class="muted">No sessions yet.</p>
+  {% endif %}
+</section>
+{% endblock %}

@@ -78,6 +78,7 @@ import random
 import traceback
 from dataclasses import dataclass
 from datetime import datetime
+from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -93,18 +94,26 @@ load_dotenv()  # take environment variables from .env if available
 # -----------------------------
 # Defaults (as provided by you)
 # -----------------------------
+def _find_repo_root() -> Path:
+    here = Path(__file__).resolve()
+    for candidate in [here, *here.parents]:
+        has_eval = (candidate / "evaluation").exists() or (candidate / "Evaluation").exists()
+        if has_eval and (candidate / "README.md").exists():
+            return candidate
+    raise RuntimeError("Could not locate repository root from generate_HyDe_based_predictor_ranks.py")
+
+
+REPO_ROOT = _find_repo_root()
+
 DEFAULT_MAPPED_CRITERIONS_PATH = (
-    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/Evaluation/"
-    "02_mental_health_issue_operationalization/mapped_criterions.csv"
+    str(REPO_ROOT / "evaluation/02_mental_health_issue_operationalization/mapped_criterions.csv")
 )
 DEFAULT_HIGH_LEVEL_ONTOLOGY_PATH = (
-    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/utils/official/ontology_mappings/"
-    "CRITERION/predictor_to_criterion/input_lists/predictors_list.txt"
+    str(REPO_ROOT / "src/utils/official/ontology_mappings/CRITERION/predictor_to_criterion/input_lists/predictors_list.txt")
 )
 
 DEFAULT_PREDICTOR_EMBEDDINGS_DIR = (
-    "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/SystemComponents/Agentic_Framework/"
-    "02_ConstructionInitialObservationModel/utils/helpers/embeddings"
+    str(REPO_ROOT / "src/SystemComponents/Agentic_Framework/02_ConstructionInitialObservationModel/utils/helpers/embeddings")
 )
 
 LLM_MODEL_NAME = "gpt-5-nano"  # later use 'gpt-5' ; just for testing use 'nano' or 'mini'
@@ -1387,7 +1396,7 @@ def main() -> int:
 
     parser.add_argument(
         "--results_dir",
-        default="/Users/stijnvanseveren/PythonProjects/MASTERPROEF/Evaluation/03_construction_initial_observation_model/00_HyDe_based_predictor_ranks",
+        default=str(REPO_ROOT / "evaluation/03_construction_initial_observation_model/00_HyDe_based_predictor_ranks"),
         help="Base directory for results. A timestamped run directory will be created inside.",
     )
     parser.add_argument("--run_name", default=None, help="Optional run folder name. Default: timestamp.")

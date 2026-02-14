@@ -1,0 +1,434 @@
+{% extends "base.html" %}
+
+{% block title %}PHOENIX Session {{ snapshot.session.session_id }}{% endblock %}
+
+{% block content %}
+{% set session = snapshot.session %}
+<div id="session-app" data-session-id="{{ session.session_id }}"></div>
+
+{% if llm_globally_disabled %}
+<section class="panel">
+  <div class="alert error">
+    LLM execution is globally disabled for this UI process (`PHOENIX_DISABLE_LLM=true`). Deterministic fallbacks are enforced.
+  </div>
+</section>
+{% endif %}
+
+<button id="control-drawer-open" type="button" class="control-drawer-trigger" aria-label="Open control center">
+  ☰
+</button>
+<button id="logs-drawer-open" type="button" class="logs-drawer-trigger" aria-label="Open realtime logs">
+  ⌁
+</button>
+<div id="drawer-backdrop" class="drawer-backdrop" hidden></div>
+
+<section class="panel hero-panel">
+  <div class="panel-head">
+    <div>
+      <h1>PHOENIX Session <code>{{ session.session_id }}</code></h1>
+      <p class="muted compact">Personalized Hierarchical Optimization Engine runtime workspace.</p>
+    </div>
+    <span class="badge">Profile: <code>{{ session.profile_id }}</code></span>
+  </div>
+
+  <div class="meta-grid">
+    <div><strong>Current cycle:</strong> <span id="current-cycle">{{ session.current_cycle }}</span></div>
+    <div><strong>Created:</strong> {{ session.created_at }}</div>
+    <div><strong>Updated:</strong> <span id="session-updated">{{ session.updated_at }}</span></div>
+  </div>
+
+  <div class="runtime-strip">
+    <div class="runtime-item">
+      <span class="runtime-label">Current job</span>
+      <code id="active-job-id">none</code>
+    </div>
+    <div class="runtime-item">
+      <span class="runtime-label">Status</span>
+      <span id="active-job-status" class="badge status-chip status-idle">IDLE</span>
+    </div>
+    <div class="runtime-item">
+      <span class="runtime-label">Current component</span>
+      <span id="active-component" class="badge status-chip status-idle">idle</span>
+    </div>
+  </div>
+
+  <div class="global-actions">
+    <button id="run-next-phase-btn" type="button" class="btn primary">Run Next Phase</button>
+  </div>
+
+  <div id="job-error-banner" class="alert error hidden"></div>
+
+  <div class="stack">
+    <div>
+      <h3>Complaint</h3>
+      <p class="mono">{{ session.complaint_text or "—" }}</p>
+    </div>
+    <div>
+      <h3>Person Context</h3>
+      <p class="mono">{{ session.person_text or "—" }}</p>
+    </div>
+    <div>
+      <h3>Environment Context</h3>
+      <p class="mono">{{ session.context_text or "—" }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="panel collapsible-section" data-section-key="step01_02" data-default-open="true">
+  <div class="section-head">
+    <h2>Model Creation (Step 01→02)</h2>
+    <button type="button" class="btn ghost small toggle-section-btn">Collapse</button>
+  </div>
+  <div class="section-body">
+    <p class="muted">
+      Runs operationalization and constructs the initial observation model. Use this first after intake.
+    </p>
+    <div class="inline-form">
+      <label>
+        LLM model
+        <input id="initial-llm-model" type="text" value="gpt-5-nano" {% if llm_globally_disabled %}disabled{% endif %}>
+      </label>
+      <label>
+        Prompt budget
+        <input id="initial-prompt-budget" type="number" min="2000" step="1000" value="400000">
+      </label>
+      <label>
+        Max workers
+        <input id="initial-max-workers" type="number" min="1" max="64" value="12">
+      </label>
+      <label class="checkline">
+        <input id="initial-hard-ontology" type="checkbox">
+        Hard ontology constraint
+      </label>
+      <label class="checkline">
+        <input id="initial-disable-llm" type="checkbox" {% if llm_globally_disabled %}checked disabled{% endif %}>
+        Deterministic mode (disable LLM)
+      </label>
+      <button id="run-initial-model-btn" class="btn primary">Run Model Creation</button>
+    </div>
+    <p class="muted compact">Execution status is shown in the runtime strip and live logs.</p>
+  </div>
+</section>
+
+<section class="panel collapsible-section" data-section-key="model_visuals" data-default-open="true">
+  <div class="section-head">
+    <h2>Model and Visual Diagnostics</h2>
+    <button type="button" class="btn ghost small toggle-section-btn">Collapse</button>
+  </div>
+  <div class="section-body">
+    <div id="model-summary">
+      {% if snapshot.has_model %}
+        <div class="meta-grid">
+          <div><strong>Criteria:</strong> {{ snapshot.model_summary.criteria_count }}</div>
+          <div><strong>Predictors:</strong> {{ snapshot.model_summary.predictor_count }}</div>
+        </div>
+        <p>{{ snapshot.model_summary.model_summary }}</p>
+      {% else %}
+        <p class="muted">No model artifacts yet. Run model creation first.</p>
+      {% endif %}
+    </div>
+    <div id="visual-grid" class="visual-grid">
+      {% for item in snapshot.visuals %}
+        <a href="{{ url_for('api.serve_session_file', session_id=session.session_id, rel_path=item.relative_path) }}" target="_blank" class="visual-card">
+          {% if item.name.endswith('.png') or item.name.endswith('.svg') or item.name.endswith('.gif') %}
+            <img src="{{ url_for('api.serve_session_file', session_id=session.session_id, rel_path=item.relative_path) }}" alt="{{ item.name }}" class="visual-thumb">
+          {% endif %}
+          <span>{{ item.name }}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="panel collapsible-section" data-section-key="data_collection" data-default-open="true">
+  <div class="section-head">
+    <h2>Acquisition: Data Collection and Pseudodata</h2>
+    <button type="button" class="btn ghost small toggle-section-btn">Collapse</button>
+  </div>
+  <div class="section-body">
+    <p class="muted">
+      After model creation, collect data (synthetic/manual) before running analysis and intervention generation.
+    </p>
+    <div id="collection-summary" class="meta-grid">
+      <div><strong>Variables:</strong> {{ snapshot.collection_schema.variable_count or 0 }}</div>
+      <div><strong>Criteria:</strong> {{ snapshot.collection_schema.criteria_count or 0 }}</div>
+      <div><strong>Predictors:</strong> {{ snapshot.collection_schema.predictor_count or 0 }}</div>
+    </div>
+
+    <h3>Synthesize pseudodata</h3>
+    <div class="inline-form">
+      <label>
+        Number of time points
+        <input id="synth-points" type="number" min="10" max="365" value="84">
+      </label>
+      <label>
+        Missing rate (0-0.7)
+        <input id="synth-missing" type="number" step="0.01" min="0" max="0.7" value="0.10">
+      </label>
+      <label>
+        Seed
+        <input id="synth-seed" type="number" min="0" value="42">
+      </label>
+      <button id="synthesize-btn" class="btn primary">Synthesize Pseudodata</button>
+    </div>
+
+    <div class="table-wrap">
+      <table class="data-table" id="collection-table">
+        <thead>
+          <tr>
+            <th>Variable</th>
+            <th>Role</th>
+            <th>Question / signal</th>
+            <th>Scale</th>
+            <th>Baseline (0-1)</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in snapshot.collection_schema.variables or [] %}
+            <tr>
+              <td><code>{{ row.var_id }}</code><br>{{ row.label }}</td>
+              <td>{{ row.role }}</td>
+              <td>{{ row.question }}</td>
+              <td>{{ row.response_scale }}</td>
+              <td>
+                <input
+                  class="baseline-input"
+                  type="number"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value="{{ row.default_baseline_0_1 }}"
+                  data-var-id="{{ row.var_id }}"
+                >
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Manual data upload (CSV)</h3>
+    <textarea id="manual-csv" rows="6" placeholder="Paste CSV with t_index,date and variable columns (Pxx/Cxx)."></textarea>
+    <div class="actions">
+      <button id="manual-upload-btn" class="btn ghost">Save Manual Data</button>
+    </div>
+
+    <div id="pseudodata-summary">
+      {% if snapshot.pseudodata_summary %}
+        <h4>Current pseudodata summary</h4>
+        <pre class="json-view">{{ snapshot.pseudodata_summary | tojson(indent=2) }}</pre>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="panel collapsible-section" data-section-key="cycle" data-default-open="true">
+  <div class="section-head">
+    <h2>Analysis Execution</h2>
+    <button type="button" class="btn ghost small toggle-section-btn">Collapse</button>
+  </div>
+  <div class="section-body">
+    <p class="muted">
+      Runs readiness → network/impact analysis → target selection/update model, with optional intervention translation.
+    </p>
+    <div class="inline-form">
+      <label>
+        LLM model
+        <input id="cycle-llm-model" type="text" value="gpt-5-nano" {% if llm_globally_disabled %}disabled{% endif %}>
+      </label>
+      <label>
+        Memory window
+        <input id="cycle-memory-window" type="number" min="1" max="10" value="3">
+      </label>
+      <label class="checkline">
+        <input id="cycle-hard-ontology" type="checkbox">
+        Hard ontology constraint
+      </label>
+      <label class="checkline">
+        <input id="cycle-disable-llm" type="checkbox" {% if llm_globally_disabled %}checked disabled{% endif %}>
+        Deterministic mode (disable LLM)
+      </label>
+      <label class="checkline">
+        <input id="cycle-request-refinement" type="checkbox">
+        Request updated model for next iteration
+      </label>
+      <label class="checkline">
+        <input id="cycle-include-intervention" type="checkbox" checked>
+        Include intervention translation (Step 05)
+      </label>
+      <button id="run-cycle-btn" class="btn primary">Run Analysis</button>
+    </div>
+    <p class="muted compact">Use “Request updated model loop” to route next iteration back to acquisition.</p>
+    <div id="pipeline-summary"></div>
+    <details id="pipeline-summary-raw-wrap" class="hidden">
+      <summary>Show raw run JSON</summary>
+      <pre id="pipeline-summary-raw" class="json-view"></pre>
+    </details>
+  </div>
+</section>
+
+<section class="panel collapsible-section" data-section-key="dashboard" data-default-open="false">
+  <div class="section-head">
+    <h2>Comprehension Dashboard</h2>
+    <button type="button" class="btn ghost small toggle-section-btn">Collapse</button>
+  </div>
+  <div class="section-body">
+    <div class="dash-grid">
+      <article class="metric-card">
+        <span class="metric-title">Readiness Score</span>
+        <strong class="metric-value" id="metric-readiness-score">0</strong>
+        <span class="metric-sub" id="metric-readiness-label">unknown</span>
+      </article>
+      <article class="metric-card">
+        <span class="metric-title">Tier</span>
+        <strong class="metric-value" id="metric-tier">—</strong>
+        <span class="metric-sub" id="metric-variant">—</span>
+      </article>
+      <article class="metric-card">
+        <span class="metric-title">Top Predictor</span>
+        <strong class="metric-value" id="metric-top-predictor">—</strong>
+        <span class="metric-sub" id="metric-top-predictor-score">—</span>
+      </article>
+      <article class="metric-card">
+        <span class="metric-title">Barriers Selected</span>
+        <strong class="metric-value" id="metric-barrier-count">0</strong>
+        <span class="metric-sub">Step 05</span>
+      </article>
+    </div>
+    <div class="chart-grid">
+      <div class="chart-card">
+        <h3>Top Impact Predictors</h3>
+        <canvas id="chart-impact"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Selected Barriers</h3>
+        <canvas id="chart-barriers"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Coping Strategy Strength</h3>
+        <canvas id="chart-coping"></canvas>
+      </div>
+    </div>
+    <div class="dashboard-detail-grid">
+      <article class="detail-card">
+        <h3>Readiness Rationale</h3>
+        <ul id="dashboard-readiness-why" class="detail-list"></ul>
+      </article>
+      <article class="detail-card">
+        <h3>Network Notes</h3>
+        <ul id="dashboard-network-notes" class="detail-list"></ul>
+      </article>
+      <article class="detail-card">
+        <h3>Step 03 Targets</h3>
+        <ul id="dashboard-step03-targets" class="detail-list"></ul>
+      </article>
+      <article class="detail-card">
+        <h3>Step 04 Updated Model</h3>
+        <ul id="dashboard-step04-updated" class="detail-list"></ul>
+      </article>
+      <article class="detail-card">
+        <h3>Step 05 Intervention Summary</h3>
+        <p id="dashboard-step05-summary" class="muted">No intervention summary yet.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="panel collapsible-section" data-section-key="communication" data-default-open="false">
+  <div class="section-head">
+    <h2>Communication Agent</h2>
+    <button type="button" class="btn ghost small toggle-section-btn">Expand</button>
+  </div>
+  <div class="section-body is-collapsed">
+    <p class="muted">
+      LLM-based explanation layer (fallback to deterministic summary when LLM is disabled or unavailable).
+    </p>
+    <div id="communication-summary">
+      {% if snapshot.communication_summary and snapshot.communication_summary.payload %}
+        <h3>{{ snapshot.communication_summary.payload.summary.headline }}</h3>
+        <p>{{ snapshot.communication_summary.payload.summary.summary_markdown }}</p>
+        <div class="meta-grid">
+          <div><strong>LLM enabled:</strong> {{ snapshot.communication_summary.payload.llm_enabled }}</div>
+          <div><strong>Stage:</strong> {{ snapshot.communication_summary.payload.stage }}</div>
+        </div>
+        <pre class="json-view">{{ snapshot.communication_summary.payload | tojson(indent=2) }}</pre>
+      {% else %}
+        <p class="muted">No communication summary available yet.</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<aside id="control-drawer" class="control-drawer" aria-hidden="true">
+  <div class="control-drawer-head">
+    <div>
+      <h2>Workspace Control</h2>
+      <p class="muted compact">Toggle panels, inspect runtime signals, and navigate logs.</p>
+    </div>
+    <button id="control-drawer-close" type="button" class="btn ghost small">Close</button>
+  </div>
+
+  <section class="control-card">
+    <h3>View Controls</h3>
+    <div class="control-toggle-grid">
+      <label class="checkline"><input type="checkbox" class="section-visibility-toggle" data-section-target="step01_02" checked>Model Creation</label>
+      <label class="checkline"><input type="checkbox" class="section-visibility-toggle" data-section-target="model_visuals" checked>Model Diagnostics</label>
+      <label class="checkline"><input type="checkbox" class="section-visibility-toggle" data-section-target="data_collection" checked>Acquisition</label>
+      <label class="checkline"><input type="checkbox" class="section-visibility-toggle" data-section-target="cycle" checked>Analysis + Intervention</label>
+      <label class="checkline"><input type="checkbox" class="section-visibility-toggle" data-section-target="dashboard" checked>Comprehension Dashboard</label>
+      <label class="checkline"><input type="checkbox" class="section-visibility-toggle" data-section-target="communication" checked>Communication</label>
+    </div>
+    <div class="control-actions">
+      <button id="expand-all-btn" type="button" class="btn ghost small">Expand all sections</button>
+      <button id="collapse-all-btn" type="button" class="btn ghost small">Collapse all sections</button>
+    </div>
+  </section>
+
+  <section class="control-card">
+    <div class="control-card-head">
+      <h3>Runtime Components</h3>
+      <button id="open-logs-from-control" type="button" class="btn ghost small">Open Logs</button>
+    </div>
+    <div id="runtime-component-grid" class="runtime-component-grid"></div>
+  </section>
+
+  <section class="control-card">
+    <h3>Data Inspection</h3>
+    <div class="meta-grid">
+      <div><strong>Variables:</strong> <span id="inspect-variables-count">0</span></div>
+      <div><strong>Criteria:</strong> <span id="inspect-criteria-count">0</span></div>
+      <div><strong>Predictors:</strong> <span id="inspect-predictors-count">0</span></div>
+      <div><strong>Visuals:</strong> <span id="inspect-visuals-count">0</span></div>
+    </div>
+  </section>
+
+  <section class="control-card">
+    <h3>Communication Preview</h3>
+    <p id="control-communication-preview" class="muted">No communication summary available yet.</p>
+  </section>
+</aside>
+
+<aside id="logs-drawer" class="logs-drawer" aria-hidden="true">
+  <div class="logs-drawer-head">
+    <div>
+      <h2>Realtime Process Logs</h2>
+      <p class="muted compact">Live subprocess output and component execution telemetry.</p>
+    </div>
+    <button id="logs-drawer-close" type="button" class="btn ghost small">Close</button>
+  </div>
+  <div class="logs-drawer-status">
+    <span class="runtime-label">Current job</span>
+    <code id="drawer-active-job-id">none</code>
+    <span class="runtime-label">Status</span>
+    <span id="drawer-active-job-status" class="badge status-chip status-idle">IDLE</span>
+  </div>
+  <pre id="log-console" class="log-console"></pre>
+</aside>
+
+<script id="snapshot-json" type="application/json">{{ snapshot | tojson }}</script>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.5/dist/chart.umd.min.js"></script>
+<script src="{{ url_for('static', filename='js/session.js') }}"></script>
+{% endblock %}

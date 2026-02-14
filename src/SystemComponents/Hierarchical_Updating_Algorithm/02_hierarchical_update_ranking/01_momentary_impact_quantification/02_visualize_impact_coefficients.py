@@ -83,14 +83,15 @@ from matplotlib.patches import FancyArrowPatch
 def _find_repo_root() -> Path:
     here = Path(__file__).resolve()
     for candidate in [here, *here.parents]:
-        if (candidate / "Evaluation").exists() and (candidate / "README.md").exists():
+        has_eval = (candidate / "evaluation").exists() or (candidate / "Evaluation").exists()
+        if has_eval and (candidate / "README.md").exists():
             return candidate
     raise RuntimeError("Could not locate repository root from 02_visualize_impact_coefficients.py")
 
 
 REPO_ROOT = _find_repo_root()
 DEFAULT_ROOT = str(
-    REPO_ROOT / "Evaluation/04_initial_observation_analysis/02_momentary_impact_coefficients"
+    REPO_ROOT / "evaluation/04_initial_observation_analysis/02_momentary_impact_coefficients"
 )
 DEFAULT_PATTERN = "pseudoprofile_FTC_"
 DEFAULT_MATRIX_NAME = "impact_matrix.csv"

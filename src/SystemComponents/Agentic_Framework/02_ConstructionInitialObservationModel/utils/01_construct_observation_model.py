@@ -168,7 +168,22 @@ if str(THIS_DIR) not in sys.path:
 AGENTIC_ROOT = THIS_DIR.parents[1]
 if str(AGENTIC_ROOT) not in sys.path:
     sys.path.insert(0, str(AGENTIC_ROOT))
-REPO_ROOT_BOOTSTRAP = THIS_DIR.parents[5]
+
+
+def _bootstrap_repo_root(start_dir: Path) -> Path:
+    for candidate in [start_dir, *start_dir.parents]:
+        marker = candidate / "src" / "utils" / "agentic_core" / "shared" / "__init__.py"
+        if marker.exists():
+            return candidate
+    raise RuntimeError(
+        "Unable to locate repository root for agentic_core bootstrap "
+        f"(start={start_dir})."
+    )
+
+
+REPO_ROOT_BOOTSTRAP = _bootstrap_repo_root(THIS_DIR)
+if str(REPO_ROOT_BOOTSTRAP) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT_BOOTSTRAP))
 AGENTIC_CORE_ROOT = REPO_ROOT_BOOTSTRAP / "src" / "utils" / "agentic_core"
 if str(AGENTIC_CORE_ROOT) not in sys.path:
     sys.path.insert(0, str(AGENTIC_CORE_ROOT))
@@ -211,7 +226,8 @@ FRAMEWORK_CONTEXT = (
 def _find_repo_root() -> Path:
     here = Path(__file__).resolve()
     for candidate in [here, *here.parents]:
-        if (candidate / "Evaluation").exists() and (candidate / "README.md").exists():
+        has_eval = (candidate / "evaluation").exists() or (candidate / "Evaluation").exists()
+        if has_eval and (candidate / "README.md").exists():
             return candidate
     raise RuntimeError("Could not locate repository root from 01_construct_observation_model.py")
 
@@ -219,15 +235,15 @@ def _find_repo_root() -> Path:
 REPO_ROOT = _find_repo_root()
 
 DEFAULT_MAPPED_CRITERIONS_PATH = str(
-    REPO_ROOT / "Evaluation/02_mental_health_issue_operationalization/mapped_criterions.csv"
+    REPO_ROOT / "evaluation/02_mental_health_issue_operationalization/mapped_criterions.csv"
 )
 
 DEFAULT_HYDE_DENSE_PROFILES_PATH = str(
-    REPO_ROOT / "Evaluation/03_construction_initial_observation_model/helpers/00_HyDe_based_predictor_ranks/runs/2026-01-15_19-50-34/dense_profiles.csv"
+    REPO_ROOT / "evaluation/03_construction_initial_observation_model/helpers/00_HyDe_based_predictor_ranks/runs/2026-01-15_19-50-34/dense_profiles.csv"
 )
 
 DEFAULT_LLM_MAPPING_RANKS_PATH = str(
-    REPO_ROOT / "Evaluation/03_construction_initial_observation_model/helpers/00_LLM_based_mapping_based_predictor_ranks/all_pseudoprofiles__predictor_ranks_dense.csv"
+    REPO_ROOT / "evaluation/03_construction_initial_observation_model/helpers/00_LLM_based_mapping_based_predictor_ranks/all_pseudoprofiles__predictor_ranks_dense.csv"
 )
 
 DEFAULT_HIGH_LEVEL_ONTOLOGY_PATH = str(
@@ -240,7 +256,7 @@ DEFAULT_PREDICTOR_FEASIBILITY_CSV = str(
 )
 
 DEFAULT_RESULTS_DIR = str(
-    REPO_ROOT / "Evaluation/03_construction_initial_observation_model/constructed_PC_models"
+    REPO_ROOT / "evaluation/03_construction_initial_observation_model/constructed_PC_models"
 )
 
 # LLM model (per your request)
@@ -2850,6 +2866,21 @@ def _append_validations_long_rows(
     )
 
 
+def _derive_allowed_paths(
+    *,
+    profile: ProfileInput,
+    hyde: Optional[HydeProfileSignals],
+    mapping: Optional[Dict[str, Any]],
+) -> Tuple[List[str], List[str]]:
+    predictor_paths = _collect_allowed_predictor_paths(
+        complaint_unique_mapped_leaf_embed_paths=list(profile.complaint_unique_mapped_leaf_embed_paths or []),
+        hyde_global_top=list((hyde.global_top if hyde else []) or []),
+        mapping_payload=dict(mapping or {}),
+    )
+    criterion_paths = _collect_allowed_criterion_paths(criteria_rows=list(profile.criteria or []))
+    return predictor_paths, criterion_paths
+
+
 # ============================================================
 # Worker
 # ============================================================
@@ -2986,8 +3017,11 @@ def process_one_pseudoprofile(
             top_global=int(prompt_top_mapping_global),
             top_per_criterion=int(prompt_top_mapping_per_criterion),
         )
-        allowed_predictor_paths = _collect_allowed_predictor_paths(profile=profile, hyde=hyde, mapping=mapping)
-        allowed_criterion_paths = _collect_allowed_criterion_paths(profile=profile)
+        allowed_predictor_paths, allowed_criterion_paths = _derive_allowed_paths(
+            profile=profile,
+            hyde=hyde,
+            mapping=mapping,
+        )
         predictor_feasibility_df = load_predictor_feasibility_table(Path(predictor_feasibility_csv))
         predictor_parent_feasibility = top_parent_domains_for_bundle(
             predictor_paths=allowed_predictor_paths[: max(1, int(parent_feasibility_top_k))],

@@ -1,0 +1,101 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / study_skills_training,PSYCHO,5,1.0,1.8,0.7483315,0.247256,0.015202393
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / sustained_attention_practice,PSYCHO,5,1.0,1.8,0.97979593,0.24613449,0.007853462
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / attention_control_training,PSYCHO,5,1.0,3.4,1.0198039,0.2365056,0.00821875
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / refocusing_strategy_training,PSYCHO,5,1.0,5.0,1.264911,0.23205912,0.0069873896
+PSYCHO / cognitive_behavioral_therapies / behavior_change_and_activation / assessment_and_functional_analysis / monitoring / avoidance_reduction_plan,PSYCHO,5,1.0,7.6,3.382307,0.22993687,0.0065495437
+PSYCHO / foundations_and_common_factors / psychoeducation_modules / cognition_and_thinking / attention_and_control / psychoeducation_attention_is_trainable,PSYCHO,5,1.0,7.8,2.6381812,0.22745018,0.008358153
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / selective_attention_practice,PSYCHO,5,1.0,8.4,1.6248077,0.22660331,0.005377703
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / metacognitive_belief_modification,PSYCHO,5,1.0,9.4,2.7276363,0.22576852,0.006778058
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / reduce_multitasking_practice,PSYCHO,5,1.0,12.0,4.604346,0.22405264,0.010236641
+PSYCHO / third_wave_and_contextual_therapies / mindfulness_based_interventions / core_attentional_skills / concentration_refinement_practice,PSYCHO,5,1.0,15.0,4.472136,0.22212927,0.0056231194
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / goal_management_training,PSYCHO,5,1.0,17.0,4.427189,0.2207801,0.008275653
+PSYCHO / cognitive_capacity_enhancement_and_stimulation / cognitive_offloading_and_external_aids / attention_support_systems / reduce_distraction / environmental_stimulus_minimization_strategy,PSYCHO,5,1.0,19.6,5.6071386,0.2196004,0.007456443
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / inhibition_strategy_training,PSYCHO,5,1.0,22.4,13.893884,0.21959636,0.0072939093
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / task_switching_strategy_training,PSYCHO,5,1.0,22.6,11.128342,0.21894005,0.0085780835
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / prioritize_then_sequence_task_steps,PSYCHO,5,1.0,23.0,12.585706,0.2185537,0.0075340653
+PSYCHO / cognitive_capacity_enhancement_and_stimulation / program_setup_and_transfer / metacognitive_scaffolding / monitor_and_adjust / transfer_bridge_explicit_link_to_daily_tasks,PSYCHO,5,1.0,23.4,19.673332,0.2270381,0.018072305
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / practice_attention_flexibility_shifts,PSYCHO,5,1.0,24.2,13.377593,0.21920261,0.008402163
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / learning_strategy_training,PSYCHO,5,1.0,25.2,11.54816,0.21803916,0.0068406537
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / rumination_interrupt_routines,PSYCHO,5,1.0,25.8,18.988417,0.21930468,0.008978618
+PSYCHO / core_psychological_skills_toolkits / executive_function_and_self_management / attention_and_distraction / focus_protection / cognitive_offloading_system_design,PSYCHO,5,1.0,29.4,19.095549,0.21772859,0.009283186
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / reduce_threat_monitoring_practice,PSYCHO,5,1.0,30.0,16.552946,0.21719444,0.008292923
+PSYCHO / foundations_and_common_factors / psychoeducation_modules / cognition_and_thinking / attention_and_control / psychoeducation_attention_fatigue_and_reset,PSYCHO,5,1.0,30.6,8.380931,0.21617849,0.008982403
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / divided_attention_practice,PSYCHO,5,1.0,30.6,18.161497,0.21736827,0.0071768295
+PSYCHO / lifestyle_philosophies / attention_and_focus_philosophies / deep_work_and_cognitive_craft / deep_work_quality_and_concentration_link_belief,PSYCHO,5,1.0,33.0,37.80476,0.2212249,0.010923688
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / external_aids_use_training,PSYCHO,5,1.0,37.2,16.326666,0.21512279,0.007507346
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / cognitive_load_management,PSYCHO,5,1.0,37.4,12.483589,0.21515071,0.0095788
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / executive_function_planning_skills,PSYCHO,5,1.0,37.6,10.071742,0.21396849,0.0059785815
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / cognitive_confidence_recalibration,PSYCHO,5,1.0,40.2,9.785704,0.21392167,0.007312181
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / elaboration_strategy,PSYCHO,5,1.0,41.6,14.813507,0.21326475,0.005981409
+PSYCHO / substance_use_recovery_and_behavior_change / craving_and_urge_management / cognitive_skills / cognitive_reframe_craving_is_timelimited,PSYCHO,5,1.0,44.6,18.488916,0.21352477,0.008722452
+PSYCHO / cognitive_capacity_enhancement_and_stimulation / attention_systems_training / sustained_attention / vigilance_and_consistency / return_to_task_cueing_practice,PSYCHO,5,1.0,46.0,24.51938,0.21393928,0.010522617
+PSYCHO / change_process_and_therapeutic_phases / skill_acquisition / cognitive_and_attentional_skill_building / rumination_interruption_protocol,PSYCHO,5,1.0,46.4,17.973312,0.21262138,0.006460597
+PSYCHO / cognitive_capacity_enhancement_and_stimulation / attention_systems_training / sustained_attention / vigilance_and_consistency / vigilance_to_targets_practice,PSYCHO,5,1.0,48.6,26.33325,0.21336326,0.00863482
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / cognitive_flexibility_practice,PSYCHO,5,1.0,49.4,16.40244,0.2122339,0.008001157
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / lifestyle_performance_and_wellbeing_integration / digital_hygiene_and_attention_protection_plan,PSYCHO,5,1.0,49.8,19.1562,0.21206045,0.0054958006
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / metacognitive_awareness_training,PSYCHO,5,1.0,51.4,16.752314,0.21122698,0.00839533
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / attention_switching_practice,PSYCHO,5,1.0,51.8,24.595936,0.2123545,0.0076264655
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / stop_threat_monitoring_and_checking,PSYCHO,5,1.0,53.0,21.137644,0.21190056,0.0062743
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / modify_beliefs_about_thought_danger,PSYCHO,5,1.0,53.8,17.769638,0.21163337,0.008367402
+PSYCHO / cognitive_behavioral_therapies / perseverative_cognition_interventions / worry_management / contain_and_reorient / attention_refocusing_routine,PSYCHO,5,1.0,54.0,37.336308,0.21291485,0.0084219305
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / cognitive_bias_awareness_training,PSYCHO,5,1.0,54.2,10.514751,0.21135768,0.007199658
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / working_memory_strategy_training,PSYCHO,5,1.0,57.0,14.21267,0.21042407,0.008157506
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / distractor_management_strategy,PSYCHO,5,1.0,57.2,14.715979,0.21094148,0.0071793753
+PSYCHO / cognitive_behavioral_therapies / cognitive_restructuring / restructure_and_install / belief_strength_modulation / continuum_technique,PSYCHO,5,1.0,58.8,15.676735,0.21040869,0.005216555
+PSYCHO / third_wave_and_contextual_therapies / mindfulness_based_interventions / core_attentional_skills / sustained_attention_practice,PSYCHO,5,1.0,59.6,44.355835,0.21280237,0.007105056
+PSYCHO / cognitive_capacity_enhancement_and_stimulation / attention_systems_training / sustained_attention / vigilance_and_consistency / task_goal_reminder_self_cueing,PSYCHO,5,1.0,59.8,40.06195,0.21208146,0.008900353
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / attention_training_technique_framework,PSYCHO,5,1.0,63.0,16.852299,0.20987678,0.0066422573
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / implementation_and_routine_building / daily_routine_embedding_plan,PSYCHO,5,1.0,64.8,28.09555,0.20959064,0.0075457897
+PSYCHO / cognitive_capacity_enhancement_and_stimulation / attention_systems_training / sustained_attention / vigilance_and_consistency / sustained_attention_practice,PSYCHO,5,1.0,65.8,46.6579,0.2114383,0.0075815837
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / environmental_and_social_system_design / support_seeking_and_receiving_plan,PSYCHO,5,1.0,66.2,23.752054,0.20914152,0.002764657
+PSYCHO / cognitive_capacity_enhancement_and_stimulation / cognitive_offloading_and_external_aids / attention_support_systems / reduce_distraction / interruptions_handling_routine,PSYCHO,5,1.0,67.2,57.593052,0.21174803,0.0098733995
+PSYCHO / substance_use_recovery_and_behavior_change / affect_regulation_for_recovery / distress_tolerance / self_soothing_sensory_toolkit_for_recovery,PSYCHO,5,1.0,67.4,46.383617,0.21030593,0.008467711
+PSYCHO / cognitive_capacity_enhancement_and_stimulation / program_setup_and_transfer / metacognitive_scaffolding / monitor_and_adjust / reflect_on_what_worked_short_debrief,PSYCHO,5,1.0,69.4,50.618576,0.21122515,0.011868183
+PSYCHO / integrative_creative_and_body_oriented_interventions / parts_and_internal_systems_work / integrate_learned_protective_strategies,PSYCHO,5,1.0,70.2,51.704544,0.20969108,0.0057328492
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / single_task_focus_practice,PSYCHO,5,1.0,71.0,16.528763,0.20885305,0.0070953113
+PSYCHO / cognitive_behavioral_therapies / exposure_and_inhibitory_learning / response_prevention_and_urge_work / delay_and_alternatives / urge_triggered_ifthen_plan,PSYCHO,5,1.0,72.4,24.872475,0.20763381,0.0060242466
+PSYCHO / change_process_and_therapeutic_phases / skill_acquisition / foundational_self_regulation_skills / coping_plan_structure_noncrisis,PSYCHO,5,1.0,72.8,34.683716,0.20871925,0.009044047
+PSYCHO / cognitive_capacity_enhancement_and_stimulation / cognitive_offloading_and_external_aids / attention_support_systems / reduce_distraction / cue_control_for_attention_strategy,PSYCHO,5,1.0,73.8,38.73706,0.2098485,0.009284093
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / environmental_and_social_system_design / boundary_with_external_stressors_plan,PSYCHO,5,1.0,76.4,17.048166,0.20705812,0.0057098675
+PSYCHO / cognitive_behavioral_therapies / cognitive_bias_and_attention_modification / attention_training / disengagement_and_shift / threat_signal_disengagement_practice,PSYCHO,5,1.0,77.2,19.722069,0.20759635,0.0053528263
+PSYCHO / third_wave_and_contextual_therapies / dbt_skills_based_therapy / emotion_regulation_skills / problem_solving_for_emotion_drivers / problem_definition_and_targeting / prioritize_change_targets_practice,PSYCHO,5,1.0,77.8,28.79861,0.2074869,0.007217326
+PSYCHO / third_wave_and_contextual_therapies / dbt_skills_based_therapy / emotion_regulation_skills / reduce_vulnerability_and_increase_resilience / build_mastery_and_efficacy / graded_task_mastery_planning,PSYCHO,5,1.0,80.0,36.11094,0.20742133,0.008368909
+PSYCHO / trauma_memory_imagery_and_narrative_work / stabilization_and_resourcing / affect_modulation_skills,PSYCHO,5,1.0,80.6,51.07093,0.208371,0.009982827
+PSYCHO / cognitive_behavioral_therapies / exposure_and_inhibitory_learning / response_prevention_and_urge_work / response_prevention_core / response_prevention_planning,PSYCHO,5,1.0,81.6,44.66587,0.20748885,0.0050540427
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / postpone_analysis_and_ruminate_less,PSYCHO,5,1.0,83.2,43.947243,0.20840994,0.008126266
+PSYCHO / substance_use_recovery_and_behavior_change / cue_and_context_management / stimulus_control_principles / reduce_exposure_to_triggering_contexts_strategy,PSYCHO,5,1.0,83.4,60.911743,0.20922215,0.012027514
+PSYCHO / cognitive_capacity_enhancement_and_stimulation / attention_systems_training / sustained_attention / vigilance_and_consistency / consistency_monitoring_practice,PSYCHO,5,1.0,85.8,59.1351,0.2086275,0.0071931207
+PSYCHO / cognitive_behavioral_therapies / cognitive_restructuring / elicit_and_capture / monitoring_and_noticing / situation_specific_belief_elicitation,PSYCHO,5,1.0,86.4,27.55068,0.20597455,0.0045705633
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / evidence_weighting_practice,PSYCHO,5,1.0,86.8,37.743343,0.20756097,0.008114047
+PSYCHO / change_process_and_therapeutic_phases / skill_acquisition / foundational_self_regulation_skills / attention_reset_60_second_practice,PSYCHO,5,1.0,89.0,41.559597,0.20702489,0.007291427
+PSYCHO / cognitive_behavioral_therapies / cognitive_bias_and_attention_modification / attention_training / disengagement_and_shift / attention_switching_practice_cbt,PSYCHO,5,1.0,90.2,28.152443,0.20635457,0.00686528
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / perspective_shifting_metacognitive,PSYCHO,5,1.0,91.4,43.028362,0.20751648,0.007292008
+PSYCHO / cognitive_behavioral_therapies / cognitive_bias_and_attention_modification / attention_training / disengagement_and_shift / attention_bias_retraining_task,PSYCHO,5,1.0,93.0,27.72003,0.20595527,0.008312378
+PSYCHO / cognitive_behavioral_therapies / exposure_and_inhibitory_learning / safety_behavior_work / identify_and_remove / competing_response_prevention,PSYCHO,5,1.0,94.6,46.184845,0.20569518,0.0056520007
+PSYCHO / third_wave_and_contextual_therapies / dbt_skills_based_therapy / emotion_regulation_skills / reduce_vulnerability_and_increase_resilience / vulnerability_reduction_frameworks / stress_load_awareness_practice,PSYCHO,5,1.0,100.6,29.158876,0.20445628,0.006916548
+PSYCHO / third_wave_and_contextual_therapies / dbt_skills_based_therapy / emotion_regulation_skills / reduce_vulnerability_and_increase_resilience / build_mastery_and_efficacy / strengths_use_planning,PSYCHO,5,1.0,100.8,20.380383,0.20409627,0.0055528507
+PSYCHO / cognitive_behavioral_therapies / exposure_and_inhibitory_learning / safety_behavior_work / identify_and_remove / safety_behavior_drop_plan,PSYCHO,5,1.0,101.6,32.07865,0.20428734,0.0058025466
+PSYCHO / change_process_and_therapeutic_phases / behavior_change_theories_and_modern_protocol_arcs / modern_clinical_protocol_arcs_solutions / cbti_sleep_maintenance_plan_implementation,PSYCHO,5,1.0,102.8,45.91906,0.20503931,0.009322401
+PSYCHO / foundations_and_common_factors / psychoeducation_modules / cognition_and_thinking / attention_and_control / psychoeducation_attentional_bias_to_threat,PSYCHO,5,1.0,110.2,45.85804,0.20433521,0.010016778
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / processing_speed_strategy_training,PSYCHO,5,1.0,114.2,35.846336,0.20340255,0.0077731833
+PSYCHO / cognitive_capacity_enhancement_and_stimulation / program_setup_and_transfer / metacognitive_scaffolding / monitor_and_adjust / error_awareness_then_correction_routine,PSYCHO,5,1.0,116.4,38.902954,0.20338218,0.008994484
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / lifestyle_performance_and_wellbeing_integration / sleep_protection_and_recovery_routine,PSYCHO,5,1.0,118.0,39.537323,0.20299785,0.007905879
+PSYCHO / change_process_and_therapeutic_phases / behavior_change_theories_and_modern_protocol_arcs / social_cognitive_theory_solutions / sct_barrier_solving_and_skills_build,PSYCHO,5,1.0,118.8,35.92993,0.20286608,0.0038918143
+PSYCHO / cognitive_behavioral_therapies / cognitive_restructuring / restructure_and_install / belief_strength_modulation / reframe_control_as_influence,PSYCHO,5,1.0,120.6,40.3465,0.20332024,0.0073848967
+PSYCHO / foundations_and_common_factors / psychoeducation_modules / cognition_and_thinking / attention_and_control / psychoeducation_attention_and_worry,PSYCHO,5,1.0,122.0,30.82207,0.2029707,0.007244615
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / meta_awareness_of_mental_events,PSYCHO,5,1.0,124.6,51.527077,0.20311563,0.0060645007
+PSYCHO / cognitive_behavioral_therapies / cognitive_restructuring / restructure_and_install / belief_strength_modulation / cognitive_reframing_of_intentionality,PSYCHO,5,1.0,127.0,33.49627,0.2022396,0.0065095774
+PSYCHO / change_process_and_therapeutic_phases / skill_acquisition / model_orientation_and_psychoeducation / normalize_symptoms_and_setbacks_learning_frame,PSYCHO,5,1.0,127.0,38.189003,0.20217463,0.0066801105
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / flexible_skill_selection_in_context / early_warning_signs_to_action_routine,PSYCHO,5,1.0,127.4,46.735855,0.20295127,0.009727937
+PSYCHO / cognitive_and_metacognitive_interventions / cognitive_remediation_and_rehabilitation / mnemonic_strategy_training,PSYCHO,5,1.0,131.2,33.99647,0.20195222,0.00810498
+PSYCHO / third_wave_and_contextual_therapies / dbt_skills_based_therapy / emotion_regulation_skills / reduce_vulnerability_and_increase_resilience / vulnerability_reduction_frameworks / recovery_routine_design_practice,PSYCHO,5,1.0,139.2,44.133434,0.20142868,0.008313371
+PSYCHO / change_process_and_therapeutic_phases / behavioral_integration / environmental_and_social_system_design / social_support_mobilization_plan,PSYCHO,5,1.0,149.0,38.538292,0.20044188,0.0033058173
+PSYCHO / cognitive_capacity_enhancement_and_stimulation / program_setup_and_transfer / metacognitive_scaffolding / monitor_and_adjust / strategy_shift_when_stuck_routine,PSYCHO,5,1.0,153.8,46.743557,0.20060106,0.008865883
+PSYCHO / cognitive_behavioral_therapies / behavior_change_and_activation / assessment_and_functional_analysis / monitoring / approach_behavior_planning,PSYCHO,4,0.8,51.25,25.07364,0.20964321,0.006849514
+PSYCHO / cognitive_capacity_enhancement_and_stimulation / cognitive_enrichment_and_stimulation_formats / everyday_cognition_stimulation / realworld_activities / transfer_practice_into_daily_tasks_framework,PSYCHO,4,0.8,65.0,56.07584,0.21110582,0.014966028
+PSYCHO / cognitive_behavioral_therapies / problem_solving_training / implement_and_learn / action_and_review / contingency_planning_if_blockers,PSYCHO,4,0.8,68.25,28.73478,0.20782617,0.01082515
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / alternative_hypotheses_drill,PSYCHO,4,0.8,75.75,23.625992,0.20932858,0.0072688065
+PSYCHO / cognitive_and_metacognitive_interventions / metacognitive_and_attention_based_interventions / attributional_reframe_practice,PSYCHO,4,0.8,84.75,23.112497,0.20765704,0.008193547
+PSYCHO / cognitive_behavioral_therapies / problem_solving_training / implement_and_learn / action_and_review / stepwise_action_plan,PSYCHO,4,0.8,90.0,44.704586,0.20649019,0.013506707
+PSYCHO / change_process_and_therapeutic_phases / skill_acquisition / foundational_self_regulation_skills / self_soothing_sensory_toolkit_setup,PSYCHO,4,0.8,93.25,35.751747,0.2047768,0.0065883733

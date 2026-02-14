@@ -1,0 +1,5 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_affect_and_stress / ema_anxiety_arousal,BIO,2,0.4,135.0,61.0,0.20852503,0.00032334775
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / affect_mood_and_stress_selfreports / anxiety_arousal_rating,BIO,1,0.2,119.0,0.0,0.20478605,0.0
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_cognition_and_energy / ema_motivation_level,BIO,1,0.2,120.0,0.0,0.20455065,0.0
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / cognition_and_energy_selfreports / motivation_level_selfreport,BIO,1,0.2,174.0,0.0,0.20051356,0.0

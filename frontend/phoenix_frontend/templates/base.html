@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}PHOENIX Frontend{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="{{ url_for('ui.index') }}" class="brand">
+        <span class="brand-mark">PHOENIX</span>
+        <span class="brand-subtitle">Interactive Debug Frontend</span>
+      </a>
+      <div id="topbar-pipeline-strip" class="topbar-pipeline-inline hidden" aria-hidden="true">
+        <div id="topbar-pipeline-nodes" class="topbar-pipeline-nodes"></div>
+      </div>
+      <span class="topbar-context">Personalized Hierarchical Optimization Engine</span>
+    </div>
+  </header>
+
+  <main class="container page-content">
+    {% block content %}{% endblock %}
+  </main>
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>

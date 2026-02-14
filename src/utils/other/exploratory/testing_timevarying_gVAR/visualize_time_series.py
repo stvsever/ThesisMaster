@@ -44,13 +44,14 @@ import matplotlib.pyplot as plt
 def _find_repo_root() -> Path:
     here = Path(__file__).resolve()
     for candidate in [here, *here.parents]:
-        if (candidate / "Evaluation").exists() and (candidate / "README.md").exists():
+        has_eval = (candidate / "evaluation").exists() or (candidate / "Evaluation").exists()
+        if has_eval and (candidate / "README.md").exists():
             return candidate
     raise RuntimeError("Could not locate repository root from exploratory visualize_time_series.py")
 
 
 REPO_ROOT = _find_repo_root()
-ROOT_RESULTS = REPO_ROOT / "utils/other/exploratory/testing_timevarying_gVAR/results"
+ROOT_RESULTS = REPO_ROOT / "src/utils/other/exploratory/testing_timevarying_gVAR/results"
 
 SCENARIOS = [
     "scenario_scenario1_smooth",

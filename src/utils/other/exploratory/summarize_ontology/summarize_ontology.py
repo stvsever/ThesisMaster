@@ -77,15 +77,16 @@ from matplotlib.ticker import FuncFormatter
 def _find_repo_root() -> Path:
     here = Path(__file__).resolve()
     for candidate in [here, *here.parents]:
-        if (candidate / "Evaluation").exists() and (candidate / "README.md").exists():
+        has_eval = (candidate / "evaluation").exists() or (candidate / "Evaluation").exists()
+        if has_eval and (candidate / "README.md").exists():
             return candidate
     raise RuntimeError("Could not locate repository root from summarize_ontology.py")
 
 
 REPO_ROOT = _find_repo_root()
-DEFAULT_INPUT_JSON = str(REPO_ROOT / "SystemComponents/PHOENIX_ontology/aggretated/01_raw/ontology_aggregated.json")
-DEFAULT_PLOT_DIR = str(REPO_ROOT / "utils/other/exploratory/summarize_ontology/plots")
-DEFAULT_SUMMARY_DIR = str(REPO_ROOT / "utils/other/exploratory/summarize_ontology/summary")
+DEFAULT_INPUT_JSON = str(REPO_ROOT / "src/SystemComponents/PHOENIX_ontology/aggretated/01_raw/ontology_aggregated.json")
+DEFAULT_PLOT_DIR = str(REPO_ROOT / "src/utils/other/exploratory/summarize_ontology/plots")
+DEFAULT_SUMMARY_DIR = str(REPO_ROOT / "src/utils/other/exploratory/summarize_ontology/summary")
 
 
 # =========================

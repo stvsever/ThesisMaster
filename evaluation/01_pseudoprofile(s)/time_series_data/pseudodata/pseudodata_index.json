@@ -1,0 +1,12 @@
+{
+  "runs_root": "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/Evaluation/03_construction_initial_observation_model/constructed_PC_models/runs",
+  "run_dir": "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/Evaluation/03_construction_initial_observation_model/constructed_PC_models/runs/2026-01-18_20-59-06",
+  "mapped_pattern": "llm_observation_model_mapped*.txt",
+  "out_root": "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/Evaluation/01_pseudoprofile(s)/time_series_data/pseudodata",
+  "profiles_generated": [
+    "pseudoprofile_FTC_ID002",
+    "pseudoprofile_FTC_ID008",
+    "pseudoprofile_FTC_ID041",
+    "pseudoprofile_FTC_ID019"
+  ]
+}

@@ -1,0 +1,4 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_coping_strategy_used,BIO,2,0.4,135.5,7.5,0.20674413,0.0083929375
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_impulse_control,BIO,2,0.4,187.5,10.5,0.20157474,0.0067333207
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_perceived_coping_effectiveness,BIO,1,0.2,176.0,0.0,0.19485883,0.0

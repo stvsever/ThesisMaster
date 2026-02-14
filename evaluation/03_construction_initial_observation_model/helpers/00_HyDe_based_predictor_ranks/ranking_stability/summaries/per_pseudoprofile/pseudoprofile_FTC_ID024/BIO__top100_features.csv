@@ -1,0 +1,11 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+BIO / cognitive_capacity_and_brain_health / sensory_integrity_and_access_supports / hearing_and_auditory / noise_exposure_reduction_tools,BIO,5,1.0,23.4,29.241066,0.23959239,0.016907882
+BIO / environmental_exposures_and_built_environment_optimization / outdoor_environment_and_community_exposures / noise_and_light_community_exposures / urban_noise_exposure_reduction_strategy,BIO,3,0.6,13.333333,4.7842336,0.2350583,0.0029947537
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / noise_and_vibration / noise_reduction_measures,BIO,3,0.6,13.333333,12.498889,0.24318074,0.010109575
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / noise_and_vibration / door_window_sealing_for_noise,BIO,3,0.6,60.333332,44.153774,0.22459614,0.011832525
+BIO / environmental_exposures_and_built_environment_optimization / outdoor_environment_and_community_exposures / noise_and_light_community_exposures / nighttime_light_exposure_reduction_strategy,BIO,3,0.6,107.333336,22.866762,0.21363246,0.0023606683
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / noise_and_vibration / white_noise_device_use,BIO,2,0.4,34.5,12.5,0.22453892,0.0056112334
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / noise_and_vibration / hearing_protection,BIO,2,0.4,50.0,4.0,0.21883339,0.00024966896
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / noise_and_vibration / acoustic_panel_installation,BIO,2,0.4,125.5,29.5,0.21011698,0.0026155636
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / noise_and_vibration / noise_meter_device,BIO,1,0.2,93.0,0.0,0.21366988,0.0
+BIO / environmental_exposures_and_built_environment_optimization / sensory_environment_design / light_and_circadian_environment / light_pollution_reduction,BIO,1,0.2,141.0,0.0,0.20843019,0.0

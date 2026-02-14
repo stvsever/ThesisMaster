@@ -1,0 +1,5 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / rehabilitation_and_functional_restoration / somatic_symptom_and_stress_physiology_interfaces / post_illness_functional_restoration_pathway,BIO,2,0.4,126.5,40.5,0.20428526,0.0058896095
+BIO / medical_assessment_and_physiology_testing / physiology_and_somatic_optimization_tools / neurocognitive_and_functional_referrals / cognitive_clinic_evaluation_referral,BIO,1,0.2,114.0,0.0,0.2063983,0.0
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / rehabilitation_and_functional_restoration / physiatry_and_referral / functional_impairment_and_activity_limitation_assessment_pathway,BIO,1,0.2,140.0,0.0,0.20436314,0.0
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / sleep_medicine_and_circadian_care / referral_and_diagnostics / medication_and_substance_sleep_impact_review,BIO,1,0.2,147.0,0.0,0.20410725,0.0

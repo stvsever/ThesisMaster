@@ -13,4 +13,4 @@ This directory contains the PHOENIX implementation layers and supporting utiliti
 
 ## Usage Note
 
-For reproducible execution, run through `Evaluation/00_pipeline_orchestration/run_pipeline.py` rather than calling stage scripts ad hoc.
+For reproducible execution, run through `evaluation/00_pipeline_orchestration/run_pipeline.py` rather than calling stage scripts ad hoc.

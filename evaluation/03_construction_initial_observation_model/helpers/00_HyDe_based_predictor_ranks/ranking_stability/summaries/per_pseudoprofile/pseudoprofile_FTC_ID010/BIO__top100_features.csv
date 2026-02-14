@@ -1,0 +1,12 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / low_stimulation_evening_activities,BIO,5,1.0,34.0,33.268604,0.22671628,0.0033519196
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / stimulating_content_avoidance,BIO,5,1.0,115.4,42.05996,0.21112533,0.005208288
+BIO / sleep_circadian_and_restoration / circadian_entrainment / context_shift_plans / weekend_social_shift_mitigation,BIO,4,0.8,97.75,40.34461,0.21069969,0.00944437
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / mindful_labeling_of_thoughts,BIO,3,0.6,130.66667,5.1854496,0.20378076,0.0035379108
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / acceptance_of_wakefulness_practice,BIO,2,0.4,146.0,20.0,0.20382908,0.0032108724
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / night_awakenings_support / nonengagement_with_clock_checking,BIO,2,0.4,171.5,27.5,0.20651504,0.007756315
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_cognition_and_energy / ema_cognitive_load,BIO,1,0.2,88.0,0.0,0.21334843,0.0
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_impulse_control,BIO,1,0.2,117.0,0.0,0.21806334,0.0
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / morning_stabilization / morning_daylight_exposure,BIO,1,0.2,124.0,0.0,0.20066373,0.0
+BIO / pharmacology_and_biomedical_treatments / medication_safety_and_personalization_tools / adherence_and_tracking / shared_decision_making_medication_review_with_clinician,BIO,1,0.2,141.0,0.0,0.20104355,0.0
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / affect_mood_and_stress_selfreports / mood_diary,BIO,1,0.2,151.0,0.0,0.20052226,0.0

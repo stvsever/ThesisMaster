@@ -1,0 +1,4 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / mindful_labeling_of_thoughts,BIO,5,1.0,15.2,5.491812,0.23516402,0.010206611
+BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / inbed_settling / attention_on_neutral_sensations,BIO,3,0.6,157.66667,23.156473,0.18639803,0.0067668217
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / rehabilitation_and_functional_restoration / somatic_symptom_and_stress_physiology_interfaces / return_to_activity_clearance_and_coordination_pathway,BIO,1,0.2,190.0,0.0,0.17988679,0.0

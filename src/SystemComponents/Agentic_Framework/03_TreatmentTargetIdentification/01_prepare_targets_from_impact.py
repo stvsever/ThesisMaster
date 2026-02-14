@@ -38,7 +38,15 @@ except Exception:
     pass
 
 THIS_DIR = Path(__file__).resolve().parent
-REPO_ROOT = THIS_DIR.parents[3]
+def _bootstrap_repo_root(start_dir: Path) -> Path:
+    for candidate in [start_dir, *start_dir.parents]:
+        marker = candidate / "src" / "utils" / "agentic_core" / "shared" / "__init__.py"
+        if marker.exists():
+            return candidate
+    raise RuntimeError(f"Unable to locate repository root from {start_dir}")
+
+
+REPO_ROOT = _bootstrap_repo_root(THIS_DIR)
 AGENTIC_CORE_ROOT = REPO_ROOT / "src" / "utils" / "agentic_core"
 if str(AGENTIC_CORE_ROOT) not in sys.path:
     sys.path.insert(0, str(AGENTIC_CORE_ROOT))
@@ -1194,18 +1202,18 @@ def enforce_step04_range_policy(
 
 def parse_args() -> argparse.Namespace:
     repo_root = Path(__file__).resolve().parents[4]
-    default_impact_root = repo_root / "Evaluation/04_initial_observation_analysis/02_momentary_impact_coefficients"
-    default_output_root = repo_root / "Evaluation/05_treatment_target_handoff"
-    default_readiness_root = repo_root / "Evaluation/04_initial_observation_analysis/00_readiness_check"
-    default_network_root = repo_root / "Evaluation/04_initial_observation_analysis/01_time_series_analysis/network"
-    default_model_runs = repo_root / "Evaluation/03_construction_initial_observation_model/constructed_PC_models/runs"
-    default_free_text_root = repo_root / "Evaluation/01_pseudoprofile(s)/free_text"
+    default_impact_root = repo_root / "evaluation/04_initial_observation_analysis/02_momentary_impact_coefficients"
+    default_output_root = repo_root / "evaluation/05_treatment_target_handoff"
+    default_readiness_root = repo_root / "evaluation/04_initial_observation_analysis/00_readiness_check"
+    default_network_root = repo_root / "evaluation/04_initial_observation_analysis/01_time_series_analysis/network"
+    default_model_runs = repo_root / "evaluation/03_construction_initial_observation_model/constructed_PC_models/runs"
+    default_free_text_root = repo_root / "evaluation/01_pseudoprofile(s)/free_text"
     default_mapping_ranks = (
         repo_root
-        / "Evaluation/03_construction_initial_observation_model/helpers/00_LLM_based_mapping_based_predictor_ranks/all_pseudoprofiles__predictor_ranks_dense.csv"
+        / "evaluation/03_construction_initial_observation_model/helpers/00_LLM_based_mapping_based_predictor_ranks/all_pseudoprofiles__predictor_ranks_dense.csv"
     )
     default_hyde_runs_root = (
-        repo_root / "Evaluation/03_construction_initial_observation_model/helpers/00_HyDe_based_predictor_ranks/runs"
+        repo_root / "evaluation/03_construction_initial_observation_model/helpers/00_HyDe_based_predictor_ranks/runs"
     )
     default_predictor_leaf_paths = (
         repo_root

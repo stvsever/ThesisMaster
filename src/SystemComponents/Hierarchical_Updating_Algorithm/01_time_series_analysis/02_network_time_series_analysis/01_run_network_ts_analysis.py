@@ -156,7 +156,8 @@ except Exception:
 def _find_repo_root() -> Path:
     here = Path(__file__).resolve()
     for candidate in [here, *here.parents]:
-        if (candidate / "Evaluation").exists() and (candidate / "README.md").exists():
+        has_eval = (candidate / "evaluation").exists() or (candidate / "Evaluation").exists()
+        if has_eval and (candidate / "README.md").exists():
             return candidate
     raise RuntimeError("Could not locate repository root from 01_run_network_ts_analysis.py")
 
@@ -164,13 +165,13 @@ def _find_repo_root() -> Path:
 REPO_ROOT = _find_repo_root()
 
 DEFAULT_INPUT_ROOT = str(
-    REPO_ROOT / "Evaluation/01_pseudoprofile(s)/time_series_data/pseudodata"
+    REPO_ROOT / "evaluation/01_pseudoprofile(s)/time_series_data/pseudodata"
 )
 DEFAULT_READINESS_ROOT = str(
-    REPO_ROOT / "Evaluation/04_initial_observation_analysis/00_readiness_check"
+    REPO_ROOT / "evaluation/04_initial_observation_analysis/00_readiness_check"
 )
 DEFAULT_OUTPUT_ROOT = str(
-    REPO_ROOT / "Evaluation/04_initial_observation_analysis/01_time_series_analysis/network"
+    REPO_ROOT / "evaluation/04_initial_observation_analysis/01_time_series_analysis/network"
 )
 DEFAULT_DATA_FILENAME = "pseudodata_wide.csv"
 DEFAULT_META_FILENAME = "variables_metadata.csv"

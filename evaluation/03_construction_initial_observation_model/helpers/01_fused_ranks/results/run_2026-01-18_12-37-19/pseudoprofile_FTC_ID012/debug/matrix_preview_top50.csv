@@ -1,0 +1,25 @@
+predictor_path,feeding and eating disorders / binge-eating disorder / night eating variant (binge-focused) / *loss_of_control_during_night_eating,feeding and eating disorders / binge-eating disorder / with marked distress over binge eating / *guilt_or_disgust_after_binge_eating,feeding and eating disorders / bulimia nervosa / non-purging pattern (fasting or excessive exercise) / *rigid_calorie_restriction_despite_satiety,feeding and eating disorders / night eating syndrome / *craving_for_high_calorie_snacks_at_night,feeding and eating disorders / other specified feeding or eating disorder (osfed) / sleep-related eating disorder / *somnambulisticeatingbehavior
+'[PSYCHO] > Cognitive_Behavioral_Therapies > Exposure_and_Inhibitory_Learning',,,900.0,,
+'[PSYCHO] > Cognitive_Behavioral_Therapies > Behavior_Change_and_Activation',,900.0,880.0,,
+'[BIO] > Nutrition_and_Metabolism > Supplement_and_Nutraceutical_Library',,,870.0,,
+'[BIO] > Movement_and_Bodywork > Strength_and_Resistance_Modalities',,,860.0,,
+'[BIO] > Nutrition_and_Metabolism > Micronutrient_Supplement_Forms',,,860.0,,
+'[PSYCHO] > Third_Wave_and_Contextual_Therapies > Mindfulness_Based_Interventions',,850.0,,,
+'[BIO] > Nutrition_and_Metabolism > Meal_Planning_and_Structure',800.0,,950.0,780.0,800.0
+'[BIO] > Sleep_and_Circadian > Circadian_Entrainment',850.0,700.0,,880.0,850.0
+'[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools',760.0,,920.0,,760.0
+'[PSYCHO] > Skills_Libraries > Emotion_Regulation_and_Affect_Skills',,800.0,,,
+'[BIO] > Nutrition_and_Metabolism > Dietary_Patterns',780.0,,880.0,720.0,780.0
+'[BIO] > Nutrition_and_Metabolism > Meal_Templates',780.0,,900.0,700.0,780.0
+'[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions',720.0,,890.0,,720.0
+'[BIO] > Sleep_and_Circadian > Sleep_Routines_and_Practices',760.0,750.0,,820.0,760.0
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Psychiatric_Pharmacotherapy_Classes',,880.0,,620.0,
+'[BIO] > Nutrition_and_Metabolism > Food_Library',730.0,,,,730.0
+'[BIO] > Sleep_and_Circadian > Sleep_Devices_and_Technologies',820.0,,,480.0,820.0
+'[PSYCHO] > Foundations_and_Common_Factors > Case_Formulation_and_Treatment_Planning',,700.0,,,
+'[PSYCHO] > Skills_Libraries > Interpersonal_and_Communication_Skills',,700.0,,,
+'[BIO] > Sleep_and_Circadian > Sleep_Environment',740.0,,,520.0,740.0
+'[PSYCHO] > Measurement_Based_Care_and_Feedback > Measurement_and_Feedback_Systems',,650.0,,,
+'[SOCIAL] > Social_Support_and_Belonging > Network_Building_And_Maintenance',,650.0,,,
+'[BIO] > Sleep_and_Circadian > Sleep_Pharmacotherapy_Classes',,,,560.0,
+'[BIO] > Pharmacology_and_Biomedical_Treatments > Endocrine_and_Metabolic_Pharmacotherapy_Classes',,,,540.0,

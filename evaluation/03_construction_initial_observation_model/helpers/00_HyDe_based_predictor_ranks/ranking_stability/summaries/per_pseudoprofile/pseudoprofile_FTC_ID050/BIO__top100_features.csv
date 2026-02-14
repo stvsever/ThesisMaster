@@ -1,0 +1,2 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / rehabilitation_and_functional_restoration / physiatry_and_referral / speech_language_pathology_cognitive_communication_referral,BIO,3,0.6,117.333336,37.93269,0.20717548,0.009040667

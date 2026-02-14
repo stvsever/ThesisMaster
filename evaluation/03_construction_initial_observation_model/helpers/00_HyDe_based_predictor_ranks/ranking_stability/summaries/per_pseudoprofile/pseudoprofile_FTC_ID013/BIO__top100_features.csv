@@ -1,0 +1,17 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+BIO / nutrition_hydration_and_metabolic_health / alcohol_and_other_intake_modulation / alcohol_free_social_plan,BIO,5,1.0,14.2,16.630093,0.24997082,0.01730886
+BIO / nutrition_hydration_and_metabolic_health / alcohol_and_other_intake_modulation / cessation_coaching_referral,BIO,5,1.0,22.6,20.244505,0.24115844,0.014824654
+BIO / nutrition_hydration_and_metabolic_health / alcohol_and_other_intake_modulation / alcohol_intake_reduction_framework,BIO,5,1.0,33.6,36.05884,0.23876314,0.017474374
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_coping_strategy_used,BIO,5,1.0,85.8,22.256685,0.21948998,0.0061195185
+BIO / nutrition_hydration_and_metabolic_health / alcohol_and_other_intake_modulation / cannabis_intake_reduction_framework,BIO,4,0.8,61.5,34.989285,0.22562361,0.013811569
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_impulse_control,BIO,4,0.8,107.5,14.361406,0.21628058,0.0059920894
+BIO / nutrition_hydration_and_metabolic_health / alcohol_and_other_intake_modulation / nicotine_intake_reduction_framework,BIO,4,0.8,113.5,49.287422,0.2154638,0.010486131
+BIO / pharmacology_and_biomedical_treatments / substance_intake_support_pharmacotherapy / alcohol_craving_modulator_classes / acamprosate,BIO,4,0.8,130.75,61.981346,0.21436664,0.015970908
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_perceived_coping_effectiveness,BIO,3,0.6,147.66667,1.6996732,0.2098136,0.005594206
+BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / daily_and_retrospective_logs / caffeine_alcohol_intake_log,BIO,2,0.4,143.5,52.5,0.21431041,0.012840055
+BIO / pharmacology_and_biomedical_treatments / substance_intake_support_pharmacotherapy / alcohol_craving_modulator_classes / topiramate,BIO,1,0.2,101.0,0.0,0.22490542,0.0
+BIO / pharmacology_and_biomedical_treatments / substance_intake_support_pharmacotherapy / alcohol_craving_modulator_classes / naltrexone,BIO,1,0.2,113.0,0.0,0.22303355,0.0
+BIO / pharmacology_and_biomedical_treatments / substance_intake_support_pharmacotherapy / alcohol_aversive_agent_classes / disulfiram,BIO,1,0.2,114.0,0.0,0.22297816,0.0
+BIO / pharmacology_and_biomedical_treatments / substance_intake_support_pharmacotherapy / alcohol_craving_modulator_classes / nalmefene,BIO,1,0.2,121.0,0.0,0.22202195,0.0
+BIO / nutrition_hydration_and_metabolic_health / alcohol_and_other_intake_modulation / nicotine_replacement_therapy_classes,BIO,1,0.2,182.0,0.0,0.21350367,0.0
+BIO / nutrition_hydration_and_metabolic_health / caffeine_and_stimulant_intake_modulation / energy_drink_reduction_plan,BIO,1,0.2,197.0,0.0,0.2013911,0.0

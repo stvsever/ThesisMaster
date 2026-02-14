@@ -2,21 +2,43 @@ from __future__ import annotations
 
 import json
 import re
+import sys
+from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
 from pydantic import BaseModel, Field
 
-from shared import (
-    PromptSection,
-    StructuredLLMClient,
-    best_path_match,
-    decision_from_score,
-    normalize_path_text,
-    pack_prompt_sections,
-    load_prompt,
-    render_prompt,
-    weighted_composite,
-)
+try:
+    from shared import (
+        PromptSection,
+        StructuredLLMClient,
+        best_path_match,
+        decision_from_score,
+        normalize_path_text,
+        pack_prompt_sections,
+        load_prompt,
+        render_prompt,
+        weighted_composite,
+    )
+except ModuleNotFoundError:
+    _THIS_DIR = Path(__file__).resolve().parent
+    for _candidate in [_THIS_DIR, *_THIS_DIR.parents]:
+        _agentic_root = _candidate / "src" / "utils" / "agentic_core"
+        if (_agentic_root / "shared" / "__init__.py").exists():
+            if str(_agentic_root) not in sys.path:
+                sys.path.insert(0, str(_agentic_root))
+            break
+    from shared import (
+        PromptSection,
+        StructuredLLMClient,
+        best_path_match,
+        decision_from_score,
+        normalize_path_text,
+        pack_prompt_sections,
+        load_prompt,
+        render_prompt,
+        weighted_composite,
+    )
 
 
 class Step02CriticReviewModel(BaseModel):

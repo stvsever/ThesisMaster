@@ -13,5 +13,5 @@ Profile-level readiness and network modeling modules.
 Run via the integrated orchestrator to preserve standardized paths, logs, and contracts:
 
 ```bash
-python Evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1
+python evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1
 ```

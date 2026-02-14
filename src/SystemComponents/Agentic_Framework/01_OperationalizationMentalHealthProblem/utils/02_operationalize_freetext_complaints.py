@@ -80,7 +80,8 @@ _csv_lock = Lock()
 def _find_repo_root() -> Path:
     here = Path(__file__).resolve()
     for candidate in [here, *here.parents]:
-        if (candidate / "Evaluation").exists() and (candidate / "README.md").exists():
+        has_eval = (candidate / "evaluation").exists() or (candidate / "Evaluation").exists()
+        if has_eval and (candidate / "README.md").exists():
             return candidate
     raise RuntimeError("Could not locate repository root from 02_operationalize_freetext_complaints.py")
 
@@ -89,24 +90,24 @@ REPO_ROOT = _find_repo_root()
 
 # Input: the free-text complaints file (pseudoprofile blocks)
 DEFAULT_FREE_TEXT_PATH = str(
-    REPO_ROOT / "Evaluation/01_pseudoprofile(s)/free_text/free_text_complaints.txt"
+    REPO_ROOT / "evaluation/01_pseudoprofile(s)/free_text/free_text_complaints.txt"
 )
 
 # Output: the mapped CSV
 DEFAULT_OUTPUT_CSV = str(
-    REPO_ROOT / "Evaluation/02_mental_health_issue_operationalization/mapped_criterions.csv"
+    REPO_ROOT / "evaluation/02_mental_health_issue_operationalization/mapped_criterions.csv"
 )
 
 # Ontology input file is not required here (we use cached leaf text/embeddings),
 # but kept for parity / provenance logs.
 input_file = str(
-    REPO_ROOT / "SystemComponents/PHOENIX_ontology/separate/01_raw/CRITERION/steps/01_raw/aggregated/CRITERION_ontology.json"
+    REPO_ROOT / "src/SystemComponents/PHOENIX_ontology/separate/01_raw/CRITERION/steps/01_raw/aggregated/CRITERION_ontology.json"
 )
 
 # Cache directory containing outputs from embed_leaf_nodes.py
 # You can override via env var CRITERION_CACHE_DIR.
 DEFAULT_OUTPUT_DIR = str(
-    REPO_ROOT / "SystemComponents/Agentic_Framework/01_OperationalizationMentalHealthProblem/tmp"
+    REPO_ROOT / "src/SystemComponents/Agentic_Framework/01_OperationalizationMentalHealthProblem/tmp"
 )
 OUTPUT_DIR = os.environ.get("CRITERION_CACHE_DIR", DEFAULT_OUTPUT_DIR)
 os.makedirs(OUTPUT_DIR, exist_ok=True)

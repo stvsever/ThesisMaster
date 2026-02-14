@@ -1,0 +1,4 @@
+feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
+SOCIAL / digital_social_environment / digital_social_environment_solutions / boundaries_and_wellbeing / notification_and_attention_management_plan,SOCIAL,1,0.2,50.0,0.0,0.22924426,0.0
+SOCIAL / digital_social_environment / digital_social_environment_solutions / boundaries_and_wellbeing / digital_overload_recovery_plan,SOCIAL,1,0.2,119.0,0.0,0.21442395,0.0
+SOCIAL / community_participation_and_social_prescribing / social_prescribing_and_community_linkage / assessment_and_plan / stepwise_engagement_plan,SOCIAL,1,0.2,164.0,0.0,0.21040232,0.0

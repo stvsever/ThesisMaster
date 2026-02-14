@@ -18,7 +18,7 @@ Quantitative core for PHOENIX readiness estimation, network analysis, and impact
 Use orchestrated execution for reproducibility:
 
 ```bash
-python Evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1
+python evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1
 ```
 
 ## Readiness Consistency

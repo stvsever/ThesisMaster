@@ -28,5 +28,5 @@ This component contains the PHOENIX LLM-mediated stages for model construction, 
 Use the orchestrator for full-stage consistency:
 
 ```bash
-python Evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1
+python evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1
 ```
