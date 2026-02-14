@@ -838,8 +838,13 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     )
     intervention_script = (
         repo_root
-        / "src/SystemComponents/Agentic_Framework/04_TranslationDigitalIntervention/01_generate_hapa_digital_intervention.py"
+        / "src/SystemComponents/Agentic_Framework/05_TranslationDigitalIntervention/01_generate_hapa_digital_intervention.py"
     )
+    if not intervention_script.exists():
+        intervention_script = (
+            repo_root
+            / "src/SystemComponents/Agentic_Framework/04_TranslationDigitalIntervention/01_generate_hapa_digital_intervention.py"
+        )
     report_script = repo_root / "Evaluation/07_research_communication/generate_pipeline_research_report.py"
 
     for script_path in [readiness_script, network_script, impact_script, handoff_script, intervention_script, visualization_script]:

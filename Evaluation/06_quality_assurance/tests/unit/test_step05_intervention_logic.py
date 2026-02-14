@@ -9,7 +9,7 @@ def _mod(module_loader, repo_file_fn):
     return module_loader(
         str(
             repo_file_fn(
-                "src/SystemComponents/Agentic_Framework/04_TranslationDigitalIntervention/01_generate_hapa_digital_intervention.py"
+                "src/SystemComponents/Agentic_Framework/05_TranslationDigitalIntervention/01_generate_hapa_digital_intervention.py"
             )
         ),
         "phoenix_step05_intervention_module",

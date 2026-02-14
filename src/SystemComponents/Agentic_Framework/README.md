@@ -16,13 +16,15 @@ This directory contains the thesis agentic workflow components around problem op
   - Produces Step-04 updated observation-model suggestions with ontology-constrained candidate sets.
   - Enforces breadth-first domain coverage and outputs readiness-weighted nomothetic+idiographic fusion artifacts and visuals.
   - Includes optional actor-critic guardrail review loops and hard ontology constraints (`--hard-ontology-constraint`).
-- `04_TranslationDigitalIntervention/`
+- `04_ConstructionUpdatedObservationModel/` (canonical Step-04)
+  - Hosts iterative cycle-level updated-model orchestration.
+  - `01_run_updated_model_cycle.py` consolidates Step-03/04/05 artifacts into a lineage-aware cycle summary.
+- `05_TranslationDigitalIntervention/` (canonical Step-05)
   - Implements Step-05 HAPA-based digital intervention generation from integrated outputs.
   - Produces barrier-domain rankings, coping-strategy rankings, and a personalized intervention JSON plan.
   - Includes guardrail critic scoring, revision feedback loops, and ontology-constrained target/barrier/coping enforcement.
-- `05_ConstructionUpdatedObservationModel/`
-  - Hosts iterative cycle-level updated-model orchestration.
-  - `01_run_updated_model_cycle.py` consolidates Step-03/04/05 artifacts into a lineage-aware cycle summary.
+- `04_TranslationDigitalIntervention/` and `05_ConstructionUpdatedObservationModel/` (legacy compatibility)
+  - Kept as wrappers to preserve backward compatibility for older scripts.
 
 ## Integration
 

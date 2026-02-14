@@ -18,22 +18,22 @@ It is designed for research-grade transparency: every stage writes structured lo
 
 ```mermaid
 flowchart TD
-    A["Step 01: Operationalization Agent<br/>Free-text -> structured criteria"] --> B["Step 02: Initial Model Agent<br/>Criteria + predictors + dense/sparse relevance grids"]
-    B --> Bc["Step 02 Critic Agent<br/>Multi-domain feasibility + mapping + gVAR coherence"]
-    Bc -->|REVISE (max 2)| B
-    Bc -->|PASS| C["Readiness + Network Analysis"]
+    A["Step 01 Operationalization Agent"] --> B["Step 02 Initial Model Agent"]
+    B --> Bc["Step 02 Critic Agent"]
+    Bc -->|"REVISE max-2"| B
+    Bc -->|"PASS"| C["Readiness and Network Analysis"]
     C --> D["Momentary Impact Quantification"]
-    D --> E["Step 03 Actor<br/>Treatment target selection"]
-    E --> Ec["Step 03 Critic<br/>Grounding + BFS policy + feasibility"]
-    Ec -->|REVISE (max 2)| E
-    Ec -->|PASS| F["Step 04 Actor<br/>Updated observation model"]
-    F --> Fc["Step 04 Critic<br/>Fusion consistency + feasibility + continuity"]
-    Fc -->|REVISE (max 2)| F
-    Fc -->|PASS| G["Step 05 Actor<br/>HAPA intervention generation"]
-    G --> Gc["Step 05 Critic<br/>Safety + HAPA consistency + evidence grounding"]
-    Gc -->|REVISE (max 2)| G
-    Gc -->|PASS| H["Run artifacts<br/>JSON/CSV/figures/reports"]
-    H --> I["History ledger<br/>JSONL + Parquet"]
+    D --> E["Step 03 Treatment Target Actor"]
+    E --> Ec["Step 03 Critic"]
+    Ec -->|"REVISE max-2"| E
+    Ec -->|"PASS"| F["Step 04 Updated Model Actor"]
+    F --> Fc["Step 04 Critic"]
+    Fc -->|"REVISE max-2"| F
+    Fc -->|"PASS"| G["Step 05 HAPA Intervention Actor"]
+    G --> Gc["Step 05 Critic"]
+    Gc -->|"REVISE max-2"| G
+    Gc -->|"PASS"| H["Run Artifacts"]
+    H --> I["History Ledger"]
     I --> F
     I --> G
 ```
