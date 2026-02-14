@@ -1,5 +1,0 @@
-feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
-SOCIAL / community_participation_and_social_prescribing / social_prescribing_and_community_linkage / link_worker_and_followthrough_support / problem_solving_barriers_during_engagement,SOCIAL,1,0.2,146.0,0.0,0.18413453,0.0
-SOCIAL / community_participation_and_social_prescribing / social_prescribing_and_community_linkage / assessment_and_plan / stepwise_engagement_plan,SOCIAL,1,0.2,154.0,0.0,0.18292437,0.0
-SOCIAL / community_participation_and_social_prescribing / social_prescribing_and_community_linkage / assessment_and_plan / barriers_to_engagement_assessment,SOCIAL,1,0.2,156.0,0.0,0.18267527,0.0
-SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / loneliness_reduction_planning / meaningful_activity_with_others_planning,SOCIAL,1,0.2,195.0,0.0,0.17965664,0.0

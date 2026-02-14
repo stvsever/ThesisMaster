@@ -1,8 +1,0 @@
-feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
-SOCIAL / interpersonal_therapeutic_solutions / interpersonal_therapeutic_and_coaching_services / conflict_repair_and_mediation / anger_and_escalation / rage_trigger_and_repair_pathway_coaching,SOCIAL,5,1.0,20.4,11.429787,0.24095833,0.006960228
-SOCIAL / interpersonal_therapeutic_solutions / interpersonal_therapeutic_and_coaching_services / conflict_repair_and_mediation / anger_and_escalation / high_arousal_conversation_protocol_coaching,SOCIAL,5,1.0,115.2,37.042675,0.22095916,0.0068654744
-SOCIAL / interpersonal_therapeutic_solutions / interpersonal_therapeutic_and_coaching_services / core_interpersonal_skills / emotion_in_interaction / deescalation_skills_for_high_arousal_interactions,SOCIAL,2,0.4,116.5,18.5,0.22258112,0.00665085
-SOCIAL / social_support_and_belonging / belonging_isolation_and_meaning / safety_and_trust_in_support / reduce_toxic_relationship_exposure_plan,SOCIAL,1,0.2,107.0,0.0,0.21226788,0.0
-SOCIAL / interpersonal_therapeutic_solutions / interpersonal_therapeutic_and_coaching_services / group_therapy_formats / skills_oriented / emotion_regulation_in_relationships_skills_group,SOCIAL,1,0.2,190.0,0.0,0.21204786,0.0
-SOCIAL / interpersonal_therapeutic_solutions / interpersonal_therapeutic_and_coaching_services / conflict_repair_and_mediation / anger_and_escalation / conflict_deescalation_plan_development,SOCIAL,1,0.2,193.0,0.0,0.2073376,0.0
-SOCIAL / interpersonal_therapeutic_solutions / interpersonal_therapeutic_and_coaching_services / core_interpersonal_skills / emotion_in_interaction / emotion_regulation_in_conversation_coaching,SOCIAL,1,0.2,197.0,0.0,0.21170048,0.0

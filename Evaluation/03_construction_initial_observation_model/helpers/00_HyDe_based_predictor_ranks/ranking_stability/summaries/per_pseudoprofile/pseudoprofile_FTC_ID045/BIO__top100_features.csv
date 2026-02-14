@@ -1,9 +1,0 @@
-feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
-BIO / sleep_circadian_and_restoration / circadian_entrainment / context_shift_plans / shift_work_adaptation_plan,BIO,4,0.8,92.75,30.873735,0.21137176,0.008582715
-BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / cognition_and_energy_selfreports / decision_fatigue_selfreport,BIO,4,0.8,145.25,52.992332,0.20870204,0.0035668411
-BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_cognition_and_energy / ema_fatigue,BIO,2,0.4,137.0,25.0,0.20561318,0.0011522174
-BIO / sleep_circadian_and_restoration / circadian_entrainment / context_shift_plans / weekend_social_shift_mitigation,BIO,2,0.4,173.0,22.0,0.20109576,0.0018146113
-BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / cognition_and_energy_selfreports / fatigue_severity_selfreport,BIO,1,0.2,150.0,0.0,0.19961965,0.0
-BIO / nutrition_hydration_and_metabolic_health / caffeine_and_stimulant_intake_modulation / caffeine_reduction_plan,BIO,1,0.2,177.0,0.0,0.19652121,0.0
-BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / cognitive_unloading_journaling,BIO,1,0.2,187.0,0.0,0.20353733,0.0
-BIO / somatic_and_interventional_care_pathways / somatic_and_interventional_therapies / sleep_medicine_and_circadian_care / therapy_and_device_pathways / sleep_wake_stabilization_care_plan_coordination,BIO,1,0.2,200.0,0.0,0.20326173,0.0

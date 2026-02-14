@@ -1,8 +1,0 @@
-feature_path_full,domain,n_present_runs,presence_frequency,mean_rank_present,std_rank_present,mean_score_present,std_score_present
-BIO / sleep_circadian_and_restoration / circadian_entrainment / context_shift_plans / weekend_social_shift_mitigation,BIO,5,1.0,35.0,23.958298,0.21626994,0.009884303
-BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / stimulating_content_avoidance,BIO,2,0.4,72.5,10.5,0.20617759,0.0047239736
-BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / night_awakenings_support / nonengagement_with_clock_checking,BIO,2,0.4,120.5,35.5,0.20216908,0.0039833933
-BIO / sleep_circadian_and_restoration / circadian_entrainment / activity_and_meal_cues / social_rhythm_stabilization,BIO,2,0.4,137.5,41.5,0.20125592,0.004080467
-BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / evening_conversation_boundary,BIO,1,0.2,27.0,0.0,0.21047936,0.0
-BIO / sleep_circadian_and_restoration / sleep_routines_and_practices / presleep_downshift / low_stimulation_evening_activities,BIO,1,0.2,100.0,0.0,0.19681683,0.0
-BIO / personalization_monitoring_and_data_feedback / self_assessment_and_logs / ecological_momentary_assessment_ema / momentary_coping_and_response / ema_perceived_coping_effectiveness,BIO,1,0.2,113.0,0.0,0.19912568,0.0
