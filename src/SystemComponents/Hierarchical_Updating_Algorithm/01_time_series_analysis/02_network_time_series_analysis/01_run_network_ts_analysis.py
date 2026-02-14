@@ -1861,6 +1861,30 @@ def compute_vif(X: np.ndarray, ridge: float = 1e-3) -> Dict[str, float]:
 
 def multicollinearity_report(X: np.ndarray, labels: List[str], ridge: float = 1e-3, corr_thresholds: Tuple[float, ...] = (0.8, 0.9)) -> Dict[str, Any]:
     X = np.asarray(X, dtype=float)
+    if X.ndim == 1:
+        X = X.reshape(-1, 1)
+    if X.size == 0 or X.shape[1] == 0:
+        return {
+            "enabled": False,
+            "n": int(X.shape[0]) if X.ndim == 2 else 0,
+            "p": 0,
+            "notes": ["insufficient variables for multicollinearity diagnostics"],
+        }
+    if X.shape[1] == 1:
+        label = labels[0] if labels else "var_0"
+        return {
+            "enabled": True,
+            "n": int(X.shape[0]),
+            "p": 1,
+            "condition_number_corr": 1.0,
+            "eigenvalues_corr_desc": [1.0],
+            "avg_abs_corr_offdiag": 0.0,
+            "max_abs_corr_offdiag": 0.0,
+            "high_corr_pairs": {str(thr): [] for thr in corr_thresholds},
+            "vif_ridge": float(ridge),
+            "vif": {label: 1.0},
+            "notes": ["single-variable diagnostics only; pairwise correlation structure is not defined."],
+        }
     # correlation
     C = np.corrcoef(X, rowvar=False)
     # cond number

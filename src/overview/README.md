@@ -52,3 +52,5 @@ Each stage emits:
 - `stage_trace.json` (summary, timings, counts)
 
 Major artifacts are schema-validated to preserve backward-compatible contracts.
+
+Iterative runs now include cycle-specific pseudodata regeneration from prior Step-04/Step-05 outputs before re-entering readiness/network analysis.

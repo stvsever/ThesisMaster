@@ -34,6 +34,12 @@ from typing import Any, Dict, List, Optional, Sequence
 
 import pandas as pd
 
+THIS_DIR = Path(__file__).resolve().parent
+if str(THIS_DIR) not in sys.path:
+    sys.path.insert(0, str(THIS_DIR))
+
+from iterative_cycle_dataflow import build_iterative_cycle_input_root
+
 
 def _ts() -> str:
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -708,6 +714,14 @@ def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
         default=3,
         help="Max prior cycle windows to consider in memory metadata.",
     )
+    parser.add_argument("--iterative-history-points", type=int, default=84)
+    parser.add_argument("--iterative-new-points", type=int, default=14)
+    parser.add_argument("--iterative-noise-scale", type=float, default=0.04)
+    parser.add_argument("--iterative-improvement-strength", type=float, default=0.12)
+    parser.add_argument("--iterative-min-predictors", type=int, default=2)
+    parser.add_argument("--iterative-max-predictors", type=int, default=8)
+    parser.add_argument("--iterative-min-criteria", type=int, default=3)
+    parser.add_argument("--iterative-max-criteria", type=int, default=6)
 
     parser.add_argument("--skip-readiness", action="store_true")
     parser.add_argument("--skip-network", action="store_true")
@@ -778,12 +792,43 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     )
     contract_validator = _load_contract_validator(repo_root=repo_root)
 
-    if not pseudodata_root.exists():
-        logger.log("ERROR", "pipeline.input_missing", "Pseudodata root not found.", pseudodata_root=str(pseudodata_root))
+    iterative_input = build_iterative_cycle_input_root(
+        output_root=output_root,
+        run_id=run_id,
+        run_root=run_root,
+        cycle_index=cycle_index,
+        base_pseudodata_root=pseudodata_root,
+        data_filename=args.data_filename,
+        pattern=args.pattern.strip(),
+        max_profiles=int(args.max_profiles),
+        enable_iterative_memory=bool(args.enable_iterative_memory),
+        resume_from_run=str(args.resume_from_run).strip(),
+        preferred_predictor_count=int(args.handoff_preferred_predictor_count),
+        preferred_criterion_count=int(args.handoff_preferred_criterion_count),
+        iterative_min_predictors=int(args.iterative_min_predictors),
+        iterative_max_predictors=int(args.iterative_max_predictors),
+        iterative_min_criteria=int(args.iterative_min_criteria),
+        iterative_max_criteria=int(args.iterative_max_criteria),
+        iterative_history_points=int(args.iterative_history_points),
+        iterative_new_points=int(args.iterative_new_points),
+        iterative_noise_scale=float(args.iterative_noise_scale),
+        iterative_improvement_strength=float(args.iterative_improvement_strength),
+        logger=logger,
+    )
+    active_pseudodata_root = Path(iterative_input.active_pseudodata_root).expanduser().resolve()
+
+    if not active_pseudodata_root.exists():
+        logger.log(
+            "ERROR",
+            "pipeline.input_missing",
+            "Pseudodata root not found.",
+            base_pseudodata_root=str(pseudodata_root),
+            active_pseudodata_root=str(active_pseudodata_root),
+        )
         return 2
 
     profiles = discover_profiles(
-        pseudodata_root=pseudodata_root,
+        pseudodata_root=active_pseudodata_root,
         filename=args.data_filename,
         pattern=args.pattern.strip(),
         max_profiles=int(args.max_profiles),
@@ -793,7 +838,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             "ERROR",
             "pipeline.no_profiles",
             "No pseudodata profiles found for the provided pattern/filename.",
-            pseudodata_root=str(pseudodata_root),
+            pseudodata_root=str(active_pseudodata_root),
             filename=args.data_filename,
             pattern=args.pattern,
         )
@@ -804,13 +849,14 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         "INFO",
         "pipeline.stage_roots",
         "Resolved stage roots.",
+        active_pseudodata_root=str(active_pseudodata_root),
         readiness_runtime_root=str(readiness_runtime_root),
         network_runtime_root=str(network_runtime_root),
         impact_runtime_root=str(impact_runtime_root),
     )
 
     subset_root = materialize_profile_subset_root(
-        pseudodata_root=pseudodata_root,
+        pseudodata_root=active_pseudodata_root,
         selected_profiles=profiles,
         subset_root=run_root / "_input_subset",
         logger=logger,
@@ -1468,6 +1514,15 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             "run_root": str(run_root),
             "repo_root": str(repo_root),
             "pseudodata_root": str(pseudodata_root),
+            "active_pseudodata_root": str(active_pseudodata_root),
+            "iterative_dataflow": {
+                "mode": str(iterative_input.mode),
+                "used_previous_cycle": bool(iterative_input.used_previous_cycle),
+                "source_cycle_root": str(iterative_input.source_cycle_root),
+                "generated_profile_count": int(iterative_input.profile_count),
+                "generated_profiles": list(iterative_input.profiles),
+                "summary_json": str(iterative_input.summary_json),
+            },
             "iterative_memory": {
                 "enabled": bool(args.enable_iterative_memory),
                 "memory_policy": str(args.memory_policy),
@@ -1490,6 +1545,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                 "network_runtime_root": str(network_runtime_root),
                 "impact_runtime_root": str(impact_runtime_root),
                 "logs_root": str(logs_root),
+                "iterative_dataflow_summary_json": str(iterative_input.summary_json),
             },
             "stage_results": [asdict(result) for result in stage_results],
         }
@@ -1563,6 +1619,15 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         "run_root": str(run_root),
         "repo_root": str(repo_root),
         "pseudodata_root": str(pseudodata_root),
+        "active_pseudodata_root": str(active_pseudodata_root),
+        "iterative_dataflow": {
+            "mode": str(iterative_input.mode),
+            "used_previous_cycle": bool(iterative_input.used_previous_cycle),
+            "source_cycle_root": str(iterative_input.source_cycle_root),
+            "generated_profile_count": int(iterative_input.profile_count),
+            "generated_profiles": list(iterative_input.profiles),
+            "summary_json": str(iterative_input.summary_json),
+        },
         "iterative_memory": {
             "enabled": bool(args.enable_iterative_memory),
             "memory_policy": str(args.memory_policy),
@@ -1585,6 +1650,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             "network_runtime_root": str(network_runtime_root),
             "impact_runtime_root": str(impact_runtime_root),
             "logs_root": str(logs_root),
+            "iterative_dataflow_summary_json": str(iterative_input.summary_json),
         },
         "stage_results": [asdict(result) for result in stage_results],
     }

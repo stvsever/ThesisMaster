@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import numpy as np
 import pytest
 
 pytestmark = pytest.mark.unit
@@ -39,3 +40,12 @@ def test_execution_plan_all_methods_override(module_loader, repo_file_fn) -> Non
     assert plan["run_tv_gvar"] is True
     assert plan["run_stationary_gvar"] is True
     assert plan["run_correlation_baseline"] is True
+
+
+def test_multicollinearity_report_handles_single_variable(module_loader, repo_file_fn) -> None:
+    module = _mod(module_loader, repo_file_fn)
+    X = np.array([[1.0], [2.0], [3.0], [4.0]], dtype=float)
+    report = module.multicollinearity_report(X, labels=["P01"], ridge=1e-3, corr_thresholds=(0.8, 0.9))
+    assert report["enabled"] is True
+    assert report["p"] == 1
+    assert report["vif"]["P01"] == pytest.approx(1.0, abs=1e-9)

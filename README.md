@@ -60,6 +60,7 @@ python Evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1 
 ```
 
 In iterative mode, each cycle returns to the readiness/network-analysis stage using the updated observation model and persisted run history.
+The orchestrator now generates cycle-specific pseudodata windows from prior-cycle Step-04/Step-05 artifacts, so updated models directly influence the next analysis pass.
 
 Run with stricter ontology and guardrails:
 

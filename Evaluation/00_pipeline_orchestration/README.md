@@ -32,6 +32,15 @@ flowchart TD
 
 `FullyReady` is reserved for profiles where full tv-gVAR is executable.
 
+## Iterative Closed Loop
+
+When iterative memory is enabled (`--cycles > 1`), each new cycle builds `_iterative_cycle_input/` from prior-cycle outputs:
+- Step-04 updated predictor/criterion selection,
+- Step-05 selected treatment targets and linked criteria,
+- recent profile-level impact and ranking evidence.
+
+The next cycle then reruns readiness and network analysis on this updated cycle-specific dataset.
+
 ## Quick Commands
 
 ```bash
