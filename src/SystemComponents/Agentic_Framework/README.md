@@ -17,11 +17,11 @@ This component contains the PHOENIX LLM-mediated stages for model construction, 
 
 ## Shared Infrastructure
 
-- `shared/contracts/`: schema contracts and validators.
-- `shared/llm_runtime.py`: LLM execution, retry, repair, fallback.
-- `shared/guardrail.py`: critic scoring and pass/revise policy.
-- `shared/feasibility.py`: predictor feasibility aggregation and matching.
-- `prompts/`: centralized prompt registry and manifest.
+- `src/utils/agentic_core/shared/contracts/`: schema contracts and validators.
+- `src/utils/agentic_core/shared/llm_runtime.py`: LLM execution, retry, repair, fallback.
+- `src/utils/agentic_core/shared/guardrail.py`: critic scoring and pass/revise policy.
+- `src/utils/agentic_core/shared/feasibility.py`: predictor feasibility aggregation and matching.
+- `src/utils/agentic_core/prompts/`: centralized prompt registry and manifest.
 
 ## Integration Entry
 

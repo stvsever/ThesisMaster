@@ -421,9 +421,9 @@ def validate_root_outputs(
 
 
 def _load_contract_validator(repo_root: Path):
-    agentic_root = repo_root / "src/SystemComponents/Agentic_Framework"
-    if str(agentic_root) not in sys.path:
-        sys.path.insert(0, str(agentic_root))
+    agentic_core_root = repo_root / "src/utils/agentic_core"
+    if str(agentic_core_root) not in sys.path:
+        sys.path.insert(0, str(agentic_core_root))
     from shared import ContractValidator  # type: ignore
 
     return ContractValidator()

@@ -8,7 +8,7 @@ from pathlib import Path
 
 def main() -> int:
     repo_root = Path(__file__).resolve().parents[2]
-    contracts_root = repo_root / "src/SystemComponents/Agentic_Framework/shared/contracts"
+    contracts_root = repo_root / "src/utils/agentic_core/shared/contracts"
     schemas_root = contracts_root / "schemas"
     required = [
         "readiness_report",
@@ -20,7 +20,7 @@ def main() -> int:
         "pipeline_summary",
     ]
 
-    sys.path.insert(0, str((repo_root / "src/SystemComponents/Agentic_Framework").resolve()))
+    sys.path.insert(0, str((repo_root / "src/utils/agentic_core").resolve()))
     from shared import ContractValidator  # type: ignore
 
     validator = ContractValidator()

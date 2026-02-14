@@ -168,6 +168,10 @@ if str(THIS_DIR) not in sys.path:
 AGENTIC_ROOT = THIS_DIR.parents[1]
 if str(AGENTIC_ROOT) not in sys.path:
     sys.path.insert(0, str(AGENTIC_ROOT))
+REPO_ROOT_BOOTSTRAP = THIS_DIR.parents[5]
+AGENTIC_CORE_ROOT = REPO_ROOT_BOOTSTRAP / "src" / "utils" / "agentic_core"
+if str(AGENTIC_CORE_ROOT) not in sys.path:
+    sys.path.insert(0, str(AGENTIC_CORE_ROOT))
 
 from shared import (
     load_predictor_feasibility_table,

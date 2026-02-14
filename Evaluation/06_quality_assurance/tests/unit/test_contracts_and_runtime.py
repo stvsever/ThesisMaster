@@ -7,7 +7,7 @@ pytestmark = pytest.mark.unit
 
 def test_contract_validator_accepts_backward_compatible_payload(module_loader, repo_file_fn) -> None:
     module = module_loader(
-        str(repo_file_fn("src/SystemComponents/Agentic_Framework/shared/contracts/registry.py")),
+        str(repo_file_fn("src/utils/agentic_core/shared/contracts/registry.py")),
         "phoenix_contract_registry",
     )
     validator = module.ContractValidator()
@@ -19,7 +19,7 @@ def test_contract_validator_accepts_backward_compatible_payload(module_loader, r
 
 def test_prompt_manifest_contains_step_prompts(module_loader, repo_file_fn) -> None:
     module = module_loader(
-        str(repo_file_fn("src/SystemComponents/Agentic_Framework/shared/prompt_loader.py")),
+        str(repo_file_fn("src/utils/agentic_core/shared/prompt_loader.py")),
         "phoenix_prompt_loader_module",
     )
     manifest = module.load_prompts_manifest()
@@ -36,7 +36,7 @@ def test_prompt_manifest_contains_step_prompts(module_loader, repo_file_fn) -> N
 
 def test_llm_runtime_uses_provider_unavailable_taxonomy(module_loader, repo_file_fn, monkeypatch) -> None:
     module = module_loader(
-        str(repo_file_fn("src/SystemComponents/Agentic_Framework/shared/llm_runtime.py")),
+        str(repo_file_fn("src/utils/agentic_core/shared/llm_runtime.py")),
         "phoenix_llm_runtime_module",
     )
 
@@ -60,7 +60,7 @@ def test_llm_runtime_uses_provider_unavailable_taxonomy(module_loader, repo_file
 
 def test_guardrail_weighted_composite_scoring(module_loader, repo_file_fn) -> None:
     module = module_loader(
-        str(repo_file_fn("src/SystemComponents/Agentic_Framework/shared/__init__.py")),
+        str(repo_file_fn("src/utils/agentic_core/shared/__init__.py")),
         "phoenix_shared_runtime_module",
     )
     scored = module.weighted_composite(

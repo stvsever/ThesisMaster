@@ -10,7 +10,7 @@ pytestmark = pytest.mark.unit
 
 def _mod(module_loader, repo_file_fn):
     return module_loader(
-        str(repo_file_fn("src/SystemComponents/Agentic_Framework/shared/target_refinement.py")),
+        str(repo_file_fn("src/utils/agentic_core/shared/target_refinement.py")),
         "phoenix_target_refinement_module",
     )
 

@@ -28,5 +28,5 @@
 
 ## Technical Dependencies
 
-- shared prompt/runtime modules in `src/SystemComponents/Agentic_Framework/shared/`
-- prompt registry in `src/SystemComponents/Agentic_Framework/prompts/`
+- shared prompt/runtime modules in `src/utils/agentic_core/shared/`
+- prompt registry in `src/utils/agentic_core/prompts/`

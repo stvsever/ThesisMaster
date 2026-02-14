@@ -9,7 +9,7 @@ This directory contains the PHOENIX implementation layers and supporting utiliti
   - `Hierarchical_Updating_Algorithm/`: readiness, network analysis, and impact quantification.
   - `PHOENIX_ontology/`: ontology assets and mappings (kept structurally stable).
 - `overview/`: architecture-level documentation.
-- `utils/`: official utilities and non-core helper tooling.
+- `utils/`: official utilities, shared agentic runtime assets, and non-core helper tooling.
 
 ## Usage Note
 

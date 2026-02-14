@@ -32,8 +32,8 @@ flowchart TD
     Gc -->|"Revise max 2"| G
     Gc -->|"Pass"| H["Run Artifacts and Reports"]
     H --> I["History Ledger"]
-    I --> F
-    I --> G
+    I --> J["Step 03 Readiness and Network Analysis"]
+    J --> D
 ```
 
 ## Design Principles

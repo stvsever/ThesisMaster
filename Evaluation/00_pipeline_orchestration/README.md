@@ -18,7 +18,8 @@ flowchart TD
     E --> F["03b HAPA intervention"]
     F --> G["04 Visualizations"]
     G --> H["05 Research report"]
-    H --> I["Pipeline summary and logs"]
+    H --> I["Pipeline summary and history ledger"]
+    I --> B
 ```
 
 ## Readiness-Aligned Method Policy

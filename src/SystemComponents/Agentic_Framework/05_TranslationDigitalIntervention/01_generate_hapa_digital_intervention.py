@@ -29,9 +29,10 @@ except Exception:
     pass
 
 THIS_DIR = Path(__file__).resolve().parent
-AGENTIC_ROOT = THIS_DIR.parent
-if str(AGENTIC_ROOT) not in sys.path:
-    sys.path.insert(0, str(AGENTIC_ROOT))
+REPO_ROOT = THIS_DIR.parents[3]
+AGENTIC_CORE_ROOT = REPO_ROOT / "src" / "utils" / "agentic_core"
+if str(AGENTIC_CORE_ROOT) not in sys.path:
+    sys.path.insert(0, str(AGENTIC_CORE_ROOT))
 
 from shared import (  # noqa: E402
     PromptSection,

@@ -59,6 +59,8 @@ Run iterative cycles with memory:
 python Evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1 --cycles 2 --profile-memory-window 3
 ```
 
+In iterative mode, each cycle returns to the readiness/network-analysis stage using the updated observation model and persisted run history.
+
 Run with stricter ontology and guardrails:
 
 ```bash
@@ -72,13 +74,13 @@ python Evaluation/00_pipeline_orchestration/run_pipeline.py --mode synthetic_v1 
 
 ```mermaid
 flowchart LR
-    A["Free text and pseudodata"] --> B["Readiness and network analysis"]
+    A["Free text and pseudodata"] --> B["Step 03: Readiness and network analysis"]
     B --> C["Momentary impact quantification"]
-    C --> D["Target identification and updated model"]
-    D --> E["HAPA intervention generation"]
+    C --> D["Step 04: Target identification and updated model"]
+    D --> E["Step 05: HAPA intervention generation"]
     E --> F["Visualizations and run report"]
     F --> G["Run history ledger"]
-    G --> D
+    G --> B
 ```
 
 ## Quality Assurance
