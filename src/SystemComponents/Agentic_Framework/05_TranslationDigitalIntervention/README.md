@@ -17,7 +17,3 @@ This is the canonical Step-05 module in PHOENIX.
 - structured intervention JSON
 - barrier and coping rankings
 - guardrail review artifacts
-
-## Notes
-
-- Legacy path `04_TranslationDigitalIntervention/` is kept as a compatibility wrapper.

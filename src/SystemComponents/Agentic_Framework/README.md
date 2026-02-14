@@ -23,8 +23,6 @@ This directory contains the thesis agentic workflow components around problem op
   - Implements Step-05 HAPA-based digital intervention generation from integrated outputs.
   - Produces barrier-domain rankings, coping-strategy rankings, and a personalized intervention JSON plan.
   - Includes guardrail critic scoring, revision feedback loops, and ontology-constrained target/barrier/coping enforcement.
-- `04_TranslationDigitalIntervention/` and `05_ConstructionUpdatedObservationModel/` (legacy compatibility)
-  - Kept as wrappers to preserve backward compatibility for older scripts.
 
 ## Integration
 
