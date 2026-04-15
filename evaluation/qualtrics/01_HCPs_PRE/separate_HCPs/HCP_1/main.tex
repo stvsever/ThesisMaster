@@ -108,9 +108,6 @@
     font=\fontsize{6.5}{8}\selectfont\bfseries\color{ForestGreen},
     align=center,inner sep=3pt
   },
-  edgeS/.style={line width=1.6pt,draw=StrongRed!80,opacity=0.92},
-  edgeM/.style={line width=1.0pt,draw=PrimaryBlue!70,opacity=0.88},
-  edgeW/.style={line width=0.7pt,dashed,draw=gray!55,opacity=0.70},
 }
 
 \newcommand{\writeline}{\vspace{0.22em}\noindent\rule{\linewidth}{0.25pt}\vspace{0.42em}\par}
@@ -488,14 +485,15 @@ klinische prioriteit als behandeldoel.
 \item de mate waarin een predictor meerdere criteria kan beinvloeden.
 \end{itemize}
 
-\textbf{Visuele sleutel van het netwerk:}
+\textbf{Visuele sleutel van het netwerk:} \textit{predictoren links $\to$ criteria rechts}
 \begin{center}
 \begin{tikzpicture}[baseline=-0.5ex]
-\draw[line width=1.6pt,draw=StrongRed!80] (0,0) -- (1.0,0);
-\end{tikzpicture}~\textbf{Rood = sterke relatie}\qquad
+\draw[line width=2.0pt,draw=StrongRed!85,opacity=0.90] (0,0) -- (1.0,0);
+\end{tikzpicture}~\textbf{Rood = risicofactor} (predictor \emph{vergroot} criterium)\qquad
 \begin{tikzpicture}[baseline=-0.5ex]
-\draw[line width=1.0pt,draw=PrimaryBlue!70] (0,0) -- (1.0,0);
-\end{tikzpicture}~\textbf{Blauw = matige relatie}
+\draw[line width=2.0pt,draw=PrimaryBlue!80,opacity=0.90] (0,0) -- (1.0,0);
+\end{tikzpicture}~\textbf{Blauw = beschermend} (predictor \emph{verkleint} criterium)\\[4pt]
+\textit{Lijndikte is proportioneel aan de sterkte van de relatie ($|w|$, bereik 0--1).}
 \end{center}
 
 \textbf{Antwoordformat:} vul alle prioriteitslijnen in, van 1 tot en met 5.
@@ -516,23 +514,23 @@ klinische prioriteit als behandeldoel.
 
 \begin{center}
 \begin{tikzpicture}[node distance=0pt]
-  \node[crnode] (cr1) at (0, 1.65) {CR-1\\Inslaapproblemen};
-  \node[crnode] (cr2) at (0, 0.55) {CR-2\\Cognitieve hyperarousal};
-  \node[crnode] (cr3) at (0, -0.55) {CR-3\\Sociale anhedonie};
-  \node[crnode] (cr4) at (0, -1.65) {CR-4\\Stressgerelateerde spierspanning};
-  \node[prnode] (p1) at (9, 2.2) {P1\\Late avondschermtijd};
-  \node[prnode] (p2) at (9, 1.1) {P2\\Dagelijkse taakaccumulatie};
-  \node[prnode] (p3) at (9, 0.0) {P3\\Preslaap cognitieve offloading};
-  \node[prnode] (p4) at (9, -1.1) {P4\\Sociale participatie};
-  \node[prnode] (p5) at (9, -2.2) {P5\\Aerobe beweging};
-  \draw[edgeS] (cr1.east) -- (p1.west);
-  \draw[edgeS] (cr2.east) -- (p1.west);
-  \draw[edgeM] (cr2.east) -- (p2.west);
-  \draw[edgeS] (cr2.east) -- (p3.west);
-  \draw[edgeM] (cr1.east) -- (p3.west);
-  \draw[edgeS] (cr3.east) -- (p4.west);
-  \draw[edgeM] (cr1.east) -- (p5.west);
-  \draw[edgeM] (cr4.east) -- (p5.west);
+  \node[prnode] (p1) at (0, 2.2) {P1\\Late avondschermtijd};
+  \node[prnode] (p2) at (0, 1.1) {P2\\Dagelijkse taakaccumulatie};
+  \node[prnode] (p3) at (0, 0.0) {P3\\Preslaap cognitieve offloading};
+  \node[prnode] (p4) at (0, -1.1) {P4\\Sociale participatie};
+  \node[prnode] (p5) at (0, -2.2) {P5\\Aerobe beweging};
+  \node[crnode] (cr1) at (9, 1.65) {CR-1\\Inslaapproblemen};
+  \node[crnode] (cr2) at (9, 0.55) {CR-2\\Cognitieve hyperarousal};
+  \node[crnode] (cr3) at (9, -0.55) {CR-3\\Sociale anhedonie};
+  \node[crnode] (cr4) at (9, -1.65) {CR-4\\Stressgerelateerde spierspanning};
+  \draw[line width=2.05pt, draw=StrongRed!85, opacity=0.90] (p1.east) -- (cr1.west);
+  \draw[line width=1.95pt, draw=StrongRed!85, opacity=0.90] (p1.east) -- (cr2.west);
+  \draw[line width=1.38pt, draw=StrongRed!85, opacity=0.90] (p2.east) -- (cr2.west);
+  \draw[line width=1.9pt, draw=PrimaryBlue!80, opacity=0.90] (p3.east) -- (cr2.west);
+  \draw[line width=1.3pt, draw=PrimaryBlue!80, opacity=0.90] (p3.east) -- (cr1.west);
+  \draw[line width=2.05pt, draw=PrimaryBlue!80, opacity=0.90] (p4.east) -- (cr3.west);
+  \draw[line width=1.38pt, draw=PrimaryBlue!80, opacity=0.90] (p5.east) -- (cr1.west);
+  \draw[line width=1.55pt, draw=PrimaryBlue!80, opacity=0.90] (p5.east) -- (cr4.west);
 \end{tikzpicture}
 \end{center}
 
@@ -561,23 +559,23 @@ klinische prioriteit als behandeldoel.
 
 \begin{center}
 \begin{tikzpicture}[node distance=0pt]
-  \node[crnode] (cr1) at (0, 1.65) {CR-1\\Recidiverende paniekepisoden};
-  \node[crnode] (cr2) at (0, 0.55) {CR-2\\Anticipatieangst};
-  \node[crnode] (cr3) at (0, -0.55) {CR-3\\Situationele vermijding};
-  \node[crnode] (cr4) at (0, -1.65) {CR-4\\Beroepsmatige interferentie};
-  \node[prnode] (p1) at (9, 2.2) {P1\\Vermijdingsgedrag};
-  \node[prnode] (p2) at (9, 1.1) {P2\\Veiligheidsgedrag};
-  \node[prnode] (p3) at (9, 0.0) {P3\\Interoceptieve focus};
-  \node[prnode] (p4) at (9, -1.1) {P4\\Geplande exposure};
-  \node[prnode] (p5) at (9, -2.2) {P5\\Dagstructuur};
-  \draw[edgeS] (cr3.east) -- (p1.west);
-  \draw[edgeS] (cr2.east) -- (p1.west);
-  \draw[edgeS] (cr2.east) -- (p2.west);
-  \draw[edgeM] (cr1.east) -- (p2.west);
-  \draw[edgeS] (cr2.east) -- (p3.west);
-  \draw[edgeS] (cr1.east) -- (p3.west);
-  \draw[edgeS] (cr3.east) -- (p4.west);
-  \draw[edgeM] (cr4.east) -- (p5.west);
+  \node[prnode] (p1) at (0, 2.2) {P1\\Vermijdingsgedrag};
+  \node[prnode] (p2) at (0, 1.1) {P2\\Veiligheidsgedrag};
+  \node[prnode] (p3) at (0, 0.0) {P3\\Interoceptieve focus};
+  \node[prnode] (p4) at (0, -1.1) {P4\\Geplande exposure};
+  \node[prnode] (p5) at (0, -2.2) {P5\\Dagstructuur};
+  \node[crnode] (cr1) at (9, 1.65) {CR-1\\Recidiverende paniekepisoden};
+  \node[crnode] (cr2) at (9, 0.55) {CR-2\\Anticipatieangst};
+  \node[crnode] (cr3) at (9, -0.55) {CR-3\\Situationele vermijding};
+  \node[crnode] (cr4) at (9, -1.65) {CR-4\\Beroepsmatige interferentie};
+  \draw[line width=2.12pt, draw=StrongRed!85, opacity=0.90] (p1.east) -- (cr3.west);
+  \draw[line width=2.0pt, draw=StrongRed!85, opacity=0.90] (p1.east) -- (cr2.west);
+  \draw[line width=1.88pt, draw=StrongRed!85, opacity=0.90] (p2.east) -- (cr2.west);
+  \draw[line width=1.38pt, draw=StrongRed!85, opacity=0.90] (p2.east) -- (cr1.west);
+  \draw[line width=1.95pt, draw=StrongRed!85, opacity=0.90] (p3.east) -- (cr2.west);
+  \draw[line width=1.8pt, draw=StrongRed!85, opacity=0.90] (p3.east) -- (cr1.west);
+  \draw[line width=2.0pt, draw=PrimaryBlue!80, opacity=0.90] (p4.east) -- (cr3.west);
+  \draw[line width=1.3pt, draw=PrimaryBlue!80, opacity=0.90] (p5.east) -- (cr4.west);
 \end{tikzpicture}
 \end{center}
 

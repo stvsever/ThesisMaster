@@ -58,14 +58,14 @@ CASES: dict[str, dict] = {
             "Aerobe beweging",
         ],
         tikz_edges=[
-            ("cr1", "p1", "S"),
-            ("cr2", "p1", "S"),
-            ("cr2", "p2", "M"),
-            ("cr2", "p3", "S"),
-            ("cr1", "p3", "M"),
-            ("cr3", "p4", "S"),
-            ("cr1", "p5", "M"),
-            ("cr4", "p5", "M"),
+            ("p1", "cr1",  0.82),
+            ("p1", "cr2",  0.78),
+            ("p2", "cr2",  0.55),
+            ("p3", "cr2", -0.76),
+            ("p3", "cr1", -0.52),
+            ("p4", "cr3", -0.82),
+            ("p5", "cr1", -0.55),
+            ("p5", "cr4", -0.62),
         ],
         treatment_targets=[
             (
@@ -158,14 +158,14 @@ CASES: dict[str, dict] = {
             "Dagstructuur",
         ],
         tikz_edges=[
-            ("cr3", "p1", "S"),
-            ("cr2", "p1", "S"),
-            ("cr2", "p2", "S"),
-            ("cr1", "p2", "M"),
-            ("cr2", "p3", "S"),
-            ("cr1", "p3", "S"),
-            ("cr3", "p4", "S"),
-            ("cr4", "p5", "M"),
+            ("p1", "cr3",  0.85),
+            ("p1", "cr2",  0.80),
+            ("p2", "cr2",  0.75),
+            ("p2", "cr1",  0.55),
+            ("p3", "cr2",  0.78),
+            ("p3", "cr1",  0.72),
+            ("p4", "cr3", -0.80),
+            ("p5", "cr4", -0.52),
         ],
         treatment_targets=[
             (
@@ -255,15 +255,15 @@ CASES: dict[str, dict] = {
             "Slaapkwaliteit",
         ],
         tikz_edges=[
-            ("cr1", "p1", "S"),
-            ("cr2", "p1", "S"),
-            ("cr1", "p2", "S"),
-            ("cr3", "p2", "M"),
-            ("cr3", "p3", "S"),
-            ("cr2", "p4", "M"),
-            ("cr4", "p4", "M"),
-            ("cr1", "p5", "M"),
-            ("cr4", "p5", "M"),
+            ("p1", "cr1", -0.80),
+            ("p1", "cr2", -0.75),
+            ("p2", "cr1", -0.82),
+            ("p2", "cr3", -0.52),
+            ("p3", "cr3", -0.78),
+            ("p4", "cr2", -0.55),
+            ("p4", "cr4", -0.50),
+            ("p5", "cr1", -0.58),
+            ("p5", "cr4", -0.55),
         ],
         treatment_targets=[
             (
@@ -353,13 +353,13 @@ CASES: dict[str, dict] = {
             "Toekomstplanning",
         ],
         tikz_edges=[
-            ("cr1", "p1", "S"),
-            ("cr4", "p1", "S"),
-            ("cr2", "p2", "S"),
-            ("cr1", "p3", "M"),
-            ("cr3", "p3", "M"),
-            ("cr3", "p4", "S"),
-            ("cr4", "p5", "S"),
+            ("p1", "cr1", -0.78),
+            ("p1", "cr4", -0.82),
+            ("p2", "cr2", -0.80),
+            ("p3", "cr1", -0.50),
+            ("p3", "cr3", -0.55),
+            ("p4", "cr3", -0.75),
+            ("p5", "cr4", -0.80),
         ],
         treatment_targets=[
             (
@@ -448,14 +448,14 @@ CASES: dict[str, dict] = {
             "Geruststellingszoekend gedrag",
         ],
         tikz_edges=[
-            ("cr2", "p1", "S"),
-            ("cr4", "p1", "S"),
-            ("cr3", "p2", "S"),
-            ("cr1", "p3", "S"),
-            ("cr2", "p3", "S"),
-            ("cr1", "p4", "M"),
-            ("cr2", "p5", "S"),
-            ("cr4", "p5", "M"),
+            ("p1", "cr2", -0.82),
+            ("p1", "cr4", -0.78),
+            ("p2", "cr3", -0.80),
+            ("p3", "cr1", -0.75),
+            ("p3", "cr2", -0.80),
+            ("p4", "cr1", -0.52),
+            ("p5", "cr2",  0.78),
+            ("p5", "cr4",  0.55),
         ],
         treatment_targets=[
             (
@@ -544,13 +544,13 @@ CASES: dict[str, dict] = {
             "Vermijdingslogging",
         ],
         tikz_edges=[
-            ("cr1", "p1", "S"),
-            ("cr4", "p1", "S"),
-            ("cr2", "p2", "S"),
-            ("cr1", "p3", "M"),
-            ("cr2", "p3", "M"),
-            ("cr3", "p4", "S"),
-            ("cr4", "p5", "S"),
+            ("p1", "cr1", -0.80),
+            ("p1", "cr4", -0.82),
+            ("p2", "cr2", -0.78),
+            ("p3", "cr1",  0.58),
+            ("p3", "cr2",  0.55),
+            ("p4", "cr3",  0.82),
+            ("p5", "cr4", -0.72),
         ],
         treatment_targets=[
             (
@@ -637,14 +637,14 @@ CASES: dict[str, dict] = {
             "Cognitieve tegenspraak hopeloosheid",
         ],
         tikz_edges=[
-            ("cr1", "p1", "S"),
-            ("cr2", "p1", "S"),
-            ("cr3", "p2", "S"),
-            ("cr1", "p3", "M"),
-            ("cr2", "p3", "M"),
-            ("cr1", "p4", "S"),
-            ("cr4", "p4", "M"),
-            ("cr4", "p5", "S"),
+            ("p1", "cr1", -0.78),
+            ("p1", "cr2", -0.82),
+            ("p2", "cr3", -0.80),
+            ("p3", "cr1", -0.55),
+            ("p3", "cr2", -0.58),
+            ("p4", "cr1", -0.75),
+            ("p4", "cr4", -0.52),
+            ("p5", "cr4", -0.80),
         ],
         treatment_targets=[
             (
@@ -732,13 +732,13 @@ CASES: dict[str, dict] = {
             "Overgangsrituelen",
         ],
         tikz_edges=[
-            ("cr2", "p1", "S"),
-            ("cr1", "p1", "S"),
-            ("cr1", "p2", "M"),
-            ("cr3", "p3", "S"),
-            ("cr4", "p4", "S"),
-            ("cr2", "p4", "M"),
-            ("cr2", "p5", "S"),
+            ("p1", "cr2", -0.80),
+            ("p1", "cr1", -0.72),
+            ("p2", "cr1", -0.55),
+            ("p3", "cr3", -0.78),
+            ("p4", "cr4", -0.80),
+            ("p4", "cr2", -0.50),
+            ("p5", "cr2", -0.75),
         ],
         treatment_targets=[
             (
@@ -827,14 +827,14 @@ CASES: dict[str, dict] = {
             "Gedifferentieerde stemmingsmonitoring",
         ],
         tikz_edges=[
-            ("cr1", "p1", "S"),
-            ("cr2", "p1", "S"),
-            ("cr2", "p2", "S"),
-            ("cr4", "p2", "S"),
-            ("cr3", "p3", "S"),
-            ("cr4", "p4", "S"),
-            ("cr2", "p4", "M"),
-            ("cr1", "p5", "M"),
+            ("p1", "cr1", -0.82),
+            ("p1", "cr2", -0.75),
+            ("p2", "cr2", -0.80),
+            ("p2", "cr4", -0.75),
+            ("p3", "cr3", -0.82),
+            ("p4", "cr4", -0.78),
+            ("p4", "cr2", -0.52),
+            ("p5", "cr1", -0.55),
         ],
         treatment_targets=[
             (
@@ -922,15 +922,15 @@ CASES: dict[str, dict] = {
             "Nachtelijke cognitieve arousal",
         ],
         tikz_edges=[
-            ("cr2", "p1", "S"),
-            ("cr1", "p1", "S"),
-            ("cr4", "p2", "S"),
-            ("cr2", "p2", "S"),
-            ("cr1", "p3", "M"),
-            ("cr3", "p3", "S"),
-            ("cr1", "p4", "M"),
-            ("cr3", "p4", "M"),
-            ("cr2", "p5", "S"),
+            ("p1", "cr2", -0.80),
+            ("p1", "cr1", -0.72),
+            ("p2", "cr4",  0.85),
+            ("p2", "cr2",  0.78),
+            ("p3", "cr1", -0.58),
+            ("p3", "cr3", -0.72),
+            ("p4", "cr1", -0.52),
+            ("p4", "cr3", -0.55),
+            ("p5", "cr2",  0.82),
         ],
         treatment_targets=[
             (
@@ -1122,9 +1122,6 @@ PREAMBLE_TEMPLATE = r"""\documentclass[11pt,a4paper]{article}
     font=\fontsize{6.5}{8}\selectfont\bfseries\color{ForestGreen},
     align=center,inner sep=3pt
   },
-  edgeS/.style={line width=1.6pt,draw=StrongRed!80,opacity=0.92},
-  edgeM/.style={line width=1.0pt,draw=PrimaryBlue!70,opacity=0.88},
-  edgeW/.style={line width=0.7pt,dashed,draw=gray!55,opacity=0.70},
 }
 
 \newcommand{\writeline}{\vspace{0.22em}\noindent\rule{\linewidth}{0.25pt}\vspace{0.42em}\par}
@@ -1501,14 +1498,15 @@ klinische prioriteit als behandeldoel.
 \item de mate waarin een predictor meerdere criteria kan beinvloeden.
 \end{itemize}
 
-\textbf{Visuele sleutel van het netwerk:}
+\textbf{Visuele sleutel van het netwerk:} \textit{predictoren links $\to$ criteria rechts}
 \begin{center}
 \begin{tikzpicture}[baseline=-0.5ex]
-\draw[line width=1.6pt,draw=StrongRed!80] (0,0) -- (1.0,0);
-\end{tikzpicture}~\textbf{Rood = sterke relatie}\qquad
+\draw[line width=2.0pt,draw=StrongRed!85,opacity=0.90] (0,0) -- (1.0,0);
+\end{tikzpicture}~\textbf{Rood = risicofactor} (predictor \emph{vergroot} criterium)\qquad
 \begin{tikzpicture}[baseline=-0.5ex]
-\draw[line width=1.0pt,draw=PrimaryBlue!70] (0,0) -- (1.0,0);
-\end{tikzpicture}~\textbf{Blauw = matige relatie}
+\draw[line width=2.0pt,draw=PrimaryBlue!80,opacity=0.90] (0,0) -- (1.0,0);
+\end{tikzpicture}~\textbf{Blauw = beschermend} (predictor \emph{verkleint} criterium)\\[4pt]
+\textit{Lijndikte is proportioneel aan de sterkte van de relatie ($|w|$, bereik 0--1).}
 \end{center}
 
 \textbf{Antwoordformat:} vul alle prioriteitslijnen in, van 1 tot en met 5.
@@ -1523,24 +1521,29 @@ PR_Y = [2.20, 1.10, 0.00, -1.10, -2.20]
 
 
 def tikz_network(case: dict) -> str:
-    criteria_nodes = "\n  ".join(
-        rf"\node[crnode] (cr{idx}) at (0, {CR_Y[idx-1]}) {{CR-{idx}\\{label}}};"
-        for idx, label in enumerate(case["criteria"], start=1)
-    )
     predictor_nodes = "\n  ".join(
-        rf"\node[prnode] (p{idx}) at (9, {PR_Y[idx-1]}) {{P{idx}\\{label}}};"
+        rf"\node[prnode] (p{idx}) at (0, {PR_Y[idx-1]}) {{P{idx}\\{label}}};"
         for idx, label in enumerate(case["predictors"], start=1)
     )
-    edge_map = {"S": "edgeS", "M": "edgeM", "W": "edgeW"}
+    criteria_nodes = "\n  ".join(
+        rf"\node[crnode] (cr{idx}) at (9, {CR_Y[idx-1]}) {{CR-{idx}\\{label}}};"
+        for idx, label in enumerate(case["criteria"], start=1)
+    )
+
+    def edge_latex(src: str, dst: str, weight: float) -> str:
+        lw = round(abs(weight) * 2.5, 2)
+        color = "StrongRed!85" if weight > 0 else "PrimaryBlue!80"
+        return rf"\draw[line width={lw}pt, draw={color}, opacity=0.90] ({src}.east) -- ({dst}.west);"
+
     edges = "\n  ".join(
-        rf"\draw[{edge_map[weight]}] ({src}.east) -- ({dst}.west);"
+        edge_latex(src, dst, weight)
         for src, dst, weight in case["tikz_edges"]
     )
     return J(
         r"\begin{center}",
         r"\begin{tikzpicture}[node distance=0pt]",
-        "  " + criteria_nodes,
         "  " + predictor_nodes,
+        "  " + criteria_nodes,
         "  " + edges,
         r"\end{tikzpicture}",
         r"\end{center}",
@@ -2184,11 +2187,11 @@ def build_word_document(hcp_num: int) -> Document:
 
         # Network beschrijving als tekst
         net = doc.add_paragraph()
-        net.add_run("Bipartiet netwerk (zie PDF voor visuele weergave):").bold = True
+        net.add_run(
+            "Bipartiet netwerk — predictoren (links) \u2192 criteria (rechts)"
+            "  (zie PDF voor visuele weergave):"
+        ).bold = True
         net.runs[0].font.size = Pt(10)
-
-        strong_edges = [(s, d) for s, d, w in case["tikz_edges"] if w == "S"]
-        mod_edges = [(s, d) for s, d, w in case["tikz_edges"] if w == "M"]
 
         def edge_label(node: str) -> str:
             if node.startswith("cr"):
@@ -2198,18 +2201,31 @@ def build_word_document(hcp_num: int) -> Document:
                 idx = int(node[1:])
                 return f"P{idx} ({case['predictors'][idx-1]})"
 
-        if strong_edges:
+        pos_edges = [(s, d, w) for s, d, w in case["tikz_edges"] if w > 0]
+        neg_edges = [(s, d, w) for s, d, w in case["tikz_edges"] if w < 0]
+
+        if pos_edges:
             p = doc.add_paragraph()
-            p.add_run("  Sterke relaties (rood):  ").bold = True
+            p.add_run("  Risicofactoren (rood, positief gewicht):  ").bold = True
             p.runs[0].font.color.rgb = RGBColor(0xB9, 0x1C, 0x1C)
             p.runs[0].font.size = Pt(9)
-            p.add_run(",  ".join(f"{edge_label(s)} <-> {edge_label(d)}" for s, d in strong_edges)).font.size = Pt(9)
-        if mod_edges:
+            p.add_run(
+                ",  ".join(
+                    f"{edge_label(s)} \u2192 {edge_label(d)} (w={w:+.2f})"
+                    for s, d, w in pos_edges
+                )
+            ).font.size = Pt(9)
+        if neg_edges:
             p = doc.add_paragraph()
-            p.add_run("  Matige relaties (blauw):  ").bold = True
+            p.add_run("  Beschermende factoren (blauw, negatief gewicht):  ").bold = True
             p.runs[0].font.color.rgb = RGBColor(0x1D, 0x4E, 0xD8)
             p.runs[0].font.size = Pt(9)
-            p.add_run(",  ".join(f"{edge_label(s)} <-> {edge_label(d)}" for s, d in mod_edges)).font.size = Pt(9)
+            p.add_run(
+                ",  ".join(
+                    f"{edge_label(s)} \u2192 {edge_label(d)} (w={w:+.2f})"
+                    for s, d, w in neg_edges
+                )
+            ).font.size = Pt(9)
 
         predictor_list = ",  ".join(
             f"P{i}: {lbl}" for i, lbl in enumerate(case["predictors"], start=1)
@@ -2232,8 +2248,8 @@ def build_word_document(hcp_num: int) -> Document:
         doc,
         "Rangschik de 5 standaardpredictoren van hoogste naar laagste klinische prioriteit als "
         "behandeldoel. Gebruik hiervoor de 21-daagse monitoring en het bipartiet netwerk "
-        "(rood = sterke relatie, blauw = matige relatie). Zie de bijgevoegde PDF voor het "
-        "kleurrijke netwerkdiagram.",
+        "(rood = risicofactor, blauw = beschermend, lijndikte \u221d |gewicht|). "
+        "Zie de bijgevoegde PDF voor het visuele netwerkdiagram met predictoren links en criteria rechts.",
         shade_hex="FEF3C7",
     )
     _page_break(doc)
@@ -2406,8 +2422,41 @@ def write_word_document(hcp_num: int) -> None:
     print(f"[v] Word-document: HCP_{hcp_num}/main.docx")
 
 
+def save_edge_weights_json() -> None:
+    """Sla alle gewogen kanten op als JSON naast de HCP-mappen."""
+    import json
+
+    def node_label(node: str, case: dict) -> str:
+        if node.startswith("cr"):
+            idx = int(node[2:])
+            return f"CR-{idx} ({case['criteria'][idx - 1]})"
+        else:
+            idx = int(node[1:])
+            return f"P{idx} ({case['predictors'][idx - 1]})"
+
+    data: dict = {}
+    for case_id, case in CASES.items():
+        data[case_id] = {
+            "profile": case["profile"],
+            "edges": [
+                {
+                    "predictor": node_label(src, case),
+                    "criterion": node_label(dst, case),
+                    "weight": round(weight, 4),
+                    "direction": "risk" if weight > 0 else "protective",
+                }
+                for src, dst, weight in case["tikz_edges"]
+            ],
+        }
+
+    out_path = BASE.parent / "bipartite_edge_weights.json"
+    out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[v] Edge weights opgeslagen: {out_path}")
+
+
 if __name__ == "__main__":
     for idx in range(1, 6):
         write_and_compile(idx)
         write_word_document(idx)
+    save_edge_weights_json()
     print("\nAlle 5 HCP-bundels zijn gegenereerd (PDF + Word).")
