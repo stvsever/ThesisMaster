@@ -106,25 +106,25 @@ CASES: dict[str, dict] = {
         ),
         bfs_items=[
             "Cafeine-inname na 16.00 uur (aantal)",
-            "Smartphone-/tabletgebruik in bed na 22.00 uur (min)",
-            "Slaapduur afgelopen nacht (uren)",
-            "Nek- en schouderspanning in de avond (0--10)",
-            "Scherm als laatste activiteit voor het slapengaan (ja/nee)",
+            "Smartphone- of tabletgebruik na 22.00 uur (min)",
+            "Consistent slaaptijdstip aangehouden (ja/nee)",
+            "Korte stretching of ademhalingsoefening in avond uitgevoerd (min)",
+            "Schermvrij interval direct voor slapengaan (min)",
             "Werkuren vandaag (uren)",
-            "Ochtendlichtblootstelling (min)",
-            "Onafgewerkte taken opgeschreven voor het slapengaan (ja/nee)",
-            "Alcoholinname in de avond (aantal)",
-            "Piekeren over sociale contacten (0--10)",
-            "Kort dagboekmoment voor het slapengaan (min)",
+            "Ochtendlichtblootstelling of buitengaan in de ochtend (min)",
+            "Openstaande taken schriftelijk genoteerd voor het slapengaan (ja/nee)",
+            "Alcoholinname vanavond (eenheden)",
+            "Bewust sociaal contact opgezocht of beantwoord vandaag (ja/nee)",
+            "Tijdsduur preslaap-dagboek of takennotitie (min)",
             "Waterinname vandaag (glazen)",
-            "Concentratie overdag (0--10)",
+            "Schermvrije pauze tijdens werkdag genomen (min)",
             "Stappentelling overdag (stappen)",
-            "Sociaal contact vandaag geinitieerd (ja/nee)",
+            "Geplande sociale activiteit bijgewoond of geïnitieerd (ja/nee)",
             "Middagdutje genomen (ja/nee)",
-            "Duur matige tot intensieve sportactiviteit vandaag (min)",
-            "Spierspanning lage rug (0--10)",
-            "Inslaapduur gisteren (min)",
-            "Eetlust bij avondmaal (0--10)",
+            "Duur matige tot intensieve lichaamsbeweging vandaag (min)",
+            "Ontspanningsoefening gericht op spierspanning uitgevoerd (min)",
+            "Vast slaapritueel gevolgd voor het slapengaan (ja/nee)",
+            "Avondmaaltijd op vaste tijd genuttigd (ja/nee)",
         ],
         bfs_correct=[2, 5, 8, 11, 14, 17],
     ),
@@ -204,26 +204,26 @@ CASES: dict[str, dict] = {
             "Werk met een concrete exposurehiërarchie en een vooraf afgesproken copingzin per stap."
         ),
         bfs_items=[
-            "Exposurestap uit hierarchie uitgevoerd (ja/nee)",
+            "Geplande exposurestap bewust en volledig uitgevoerd vandaag (ja/nee)",
             "Cafeine-inname voor 12.00 uur (aantal)",
-            "Rusthartslag bij ontwaken (slagen/min)",
-            "Duur verblijf in vermeden situatie (min)",
-            "Spierspanning in schouders (0--10)",
-            "Sociale contacten vandaag (aantal)",
-            "Concrete veiligheidsactie bewust nagelaten (ja/nee)",
-            "Stress op het werk (0--10)",
-            "Inslaaptijd afgelopen nacht (min)",
-            "Aantal vermijdingshandelingen ingeperkt vandaag (aantal)",
+            "Consistent slaap- en waktijdstip aangehouden (ja/nee)",
+            "Duur verblijf in eerder vermeden of angststimulerende situatie (min)",
+            "Bewuste ontspanningsoefening of ademhaling bij spanning toegepast (min)",
+            "Sociale activiteit of contact bewust opgezocht vandaag (ja/nee)",
+            "Veiligheidsactie bewust nagelaten bij angstsituatie (ja/nee)",
+            "Werkstructuur of dagindeling bewust gevolgd vandaag (ja/nee)",
+            "Plezierige activiteit buiten werk gepland en uitgevoerd (ja/nee)",
+            "Aantal veiligheidsgedragingen bewust uitgesteld of vermeden vandaag (aantal)",
             "Waterinname vandaag (glazen)",
-            "Plezier in vrijetijdsactiviteit (0--10)",
-            "Lichamelijke sensaties bewust geobserveerd zonder te handelen (min)",
-            "Aantal dutjes overdag (min)",
-            "Eetlust vandaag (0--10)",
-            "Stemmingsval in de namiddag (0--10)",
-            "Aandacht bewust van lichaamssensaties afgeleid (ja/nee)",
-            "Stapelteller vandaag (aantal)",
-            "Concentratie tijdens administratie (0--10)",
-            "Alcoholinname vanavond (aantal)",
+            "Lichaamsbeweging of wandeling buiten uitgevoerd (min)",
+            "Interoceptieve exposureoefening bewust uitgevoerd (min)",
+            "Middagdutje genomen (ja/nee)",
+            "Maaltijd op vaste tijden genuttigd (ja/nee)",
+            "Middagpauze bewust weggestapt van werkplek of drukke omgeving (ja/nee)",
+            "Lichamelijke sensaties benoemd zonder vlucht- of veiligheidsreactie (ja/nee)",
+            "Stappentelling overdag (stappen)",
+            "Sociale steun of gezelschap bewust opgezocht vandaag (ja/nee)",
+            "Alcoholinname vanavond (eenheden)",
         ],
         bfs_correct=[1, 4, 7, 10, 13, 17],
     ),
@@ -302,26 +302,26 @@ CASES: dict[str, dict] = {
             "het einde van de werkdag start."
         ),
         bfs_items=[
-            "Aantal huishoudelijke taken voltooid (aantal)",
-            "Werkmail na 18.00 uur gecheckt (ja/nee)",
-            "Piekeren over leerlingen of klassen (0--10)",
-            "Werkgerelateerde gedachten bewust gestopt na werktijd (ja/nee)",
+            "Bewust sociaal contact geïnitieerd buiten werkverband (ja/nee)",
+            "Werkmail of -berichten bewust niet gecheckt na 18.00 uur (ja/nee)",
+            "Bewust contact met collega of leerling buiten leslokaal gezocht (ja/nee)",
+            "Werkgerelateerde gedachten actief afgesloten na werktijd via een vaste afsluiting (ja/nee)",
             "Cafeine-inname na 15.00 uur (aantal)",
-            "Eetlust bij avondmaal (0--10)",
-            "Ochtendspanning bij ontwaken (0--10)",
-            "Ontspanningsactiviteit buiten werk uitgevoerd (min)",
-            "Slaapkwaliteit bij ontwaken (0--10)",
-            "Administratieve achterstand (0--10)",
-            "Herstelactiviteit in agenda gepland (ja/nee)",
-            "Lichamelijke pijnklachten na het werk (0--10)",
-            "Reistijd woon-werk (min)",
-            "Moment van positieve lesprestatie genoteerd (ja/nee)",
-            "Schermtijd in de late avond (min)",
-            "Aantal nieuwschecks in de avond (aantal)",
-            "Professionele vaardigheid succesvol ingezet (0--10)",
-            "Aantal maaltijden overgeslagen (aantal)",
+            "Maaltijd als zelfzorgmoment bewust genuttigd op vaste tijd (ja/nee)",
+            "Ochtendactiviteit voor aanvang werk uitgevoerd (bijv. wandeling, yoga) (min)",
+            "Herstelactiviteit buiten het werk actief uitgevoerd (min)",
+            "Consistent slaaptijdstip aangehouden (ja/nee)",
+            "Bewuste stap gezet om werkachterstand te reduceren (ja/nee)",
+            "Herstelactiviteit ingepland voor de komende week (ja/nee)",
+            "Lichaamsbeweging als herstelactiviteit na werk uitgevoerd (min)",
+            "Alcoholinname vanavond (eenheden)",
+            "Moment van professionele positieve prestatie bewust opgemerkt en genoteerd (ja/nee)",
+            "Schermtijd in de late avond bewust beperkt (min)",
+            "Aantal nieuwschecks in de avond beperkt tot maximum (aantal)",
+            "Professionele vaardigheid of aanpak bewust en succesvol ingezet (ja/nee)",
+            "Waterinname vandaag (glazen)",
             "Aantal lesuren vandaag (uren)",
-            "Irritatie tegenover collega's (0--10)",
+            "Digitale ontgifting (schermvrij uur in de avond) toegepast (ja/nee)",
         ],
         bfs_correct=[2, 4, 8, 11, 14, 17],
     ),
@@ -399,26 +399,26 @@ CASES: dict[str, dict] = {
             "of een vast herinneringsmoment."
         ),
         bfs_items=[
-            "Wandeling buiten uitgevoerd (ja/nee)",
-            "App-berichten met familie verstuurd (aantal)",
+            "Wandeling of lichte beweging buiten uitgevoerd (min)",
+            "Familielid of vriend bewust gecontacteerd vandaag (ja/nee)",
             "Activiteit die een waarde of herinnering vertegenwoordigt uitgevoerd (ja/nee)",
             "Cafeine-inname na 17.00 uur (aantal)",
-            "Televisietijd in de avond (min)",
-            "Duur van een betekenisvolle bezigheid vandaag (min)",
-            "Maaltijdlust vandaag (0--10)",
-            "Opstaan op vast tijdstip (ja/nee)",
-            "Lichamelijke onrust in de avond (0--10)",
-            "Schermtijd na 21.00 uur (min)",
-            "Afwijking van gewone slaap- of wektijd (min)",
-            "Vermijden van herinneringsvoorwerpen (ja/nee)",
-            "Alcoholinname in de avond (aantal)",
-            "Zelfkritische gedachte bewust omgevormd (ja/nee)",
-            "Huishoudelijke taken voltooid (aantal)",
-            "Pijnintensiteit in gewrichten (0--10)",
-            "Zelfcompassie-oefening toegepast (min)",
-            "Ochtendenergie bij opstaan (0--10)",
+            "Schermtijd na 21.00 uur bewust beperkt (min)",
+            "Duur van betekenisvolle of waardegerichte bezigheid vandaag (min)",
+            "Maaltijd bereid en op vaste tijd bewust genuttigd (ja/nee)",
+            "Opstaan op vast waktijdstip aangehouden (ja/nee)",
+            "Ontspanningsoefening of rustige activiteit in de avond uitgevoerd (min)",
+            "Alcoholinname vanavond (eenheden)",
+            "Afwijking van gewone slaap- of waktijdstip (min)",
+            "Bewuste omgang met herinneringsvoorwerpen of -momenten (ja/nee)",
+            "Waterinname vandaag (glazen)",
+            "Zelfkritische gedachte bewust omgevormd naar mildere formulering (ja/nee)",
+            "Sociale activiteit buiten huis bewust bijgewoond (ja/nee)",
+            "Lichte lichaamsbeweging voor mobiliteit en welzijn (min)",
+            "Zelfcompassie-oefening of zelfondersteunende tekst bewust toegepast (min)",
+            "Consistent waktijdstip aangehouden 's ochtends (ja/nee)",
             "Middagdutje genomen (ja/nee)",
-            "Werk- of zorgtaken voor anderen (min)",
+            "Vrijwilligerswerk of helpende activiteit voor anderen (min)",
         ],
         bfs_correct=[3, 6, 8, 11, 14, 17],
     ),
@@ -494,26 +494,26 @@ CASES: dict[str, dict] = {
             "Gebruik een uitstelregel met een korte grondingsoefening als vast alternatief tijdens de eerste minuten."
         ),
         bfs_items=[
-            "Schermtijd na 22.00 uur (min)",
-            "Minuten gewacht voor uitvoeren van een compulsie (min)",
-            "Slaapduur afgelopen nacht (uren)",
-            "Compulsieve handeling volledig uitgesteld (ja/nee)",
-            "Spierspanning in de schouders (0--10)",
+            "Schermtijd na 22.00 uur bewust beperkt (min)",
+            "Minuten gewacht voor uitvoeren van een compulsieve handeling (min)",
+            "Slaaptijdstip consistent aangehouden (ja/nee)",
+            "Compulsieve handeling volledig uitgesteld tot later of niet uitgevoerd (ja/nee)",
+            "Ontspanningsoefening of grondingsoefening bewust uitgevoerd (min)",
             "Cafeine-inname na de middag (aantal)",
-            "Vermeden situatie betreden zonder compulsie (ja/nee)",
-            "Studie-uren vandaag (uren)",
-            "Somatische angstsensaties (0--10)",
+            "Vermeden situatie bewust betreden zonder uitvoering van compulsie (ja/nee)",
+            "Sociale activiteit bijgewoond of sociaal contact bewust gezocht (ja/nee)",
+            "Bewuste activiteit gekozen als alternatief voor obsessief piekeren (min)",
             "Duur verblijf in obsessie-activerende situatie zonder vermijden (min)",
-            "Maaltijdlust vandaag (0--10)",
+            "Geruststellingsvraag bewust nagelaten (aantal)",
             "Slaapritme consistent gevolgd (ja/nee)",
-            "Onzekerheid getolereerd zonder controlehandeling (min)",
-            "Geruststelling gevraagd (aantal)",
-            "Alcoholinname in de avond (aantal)",
-            "Onzekerheidstolerantieoefening bewust uitgevoerd (ja/nee)",
-            "Concentratie tijdens studeren (0--10)",
-            "Contact met vrienden vandaag (ja/nee)",
-            "Aantal sociale afspraken vandaag (aantal)",
-            "Lichamelijke activiteit vandaag (min)",
+            "Onzekerheid bewust getolereerd zonder controle- of compulsieve handeling (min)",
+            "Maaltijdmoment op vaste tijd aangehouden (ja/nee)",
+            "Alcoholinname vanavond (eenheden)",
+            "Onzekerheidstolerantieoefening bewust en gepland uitgevoerd (ja/nee)",
+            "Gefocuste studieoefening of pomodoro-blok bijgehouden (aantal)",
+            "Contact met vrienden of bekenden vandaag bewust gezocht (ja/nee)",
+            "Waterinname vandaag (glazen)",
+            "Lichaamsbeweging of sport vandaag (min)",
         ],
         bfs_correct=[2, 4, 7, 10, 13, 16],
     ),
@@ -589,26 +589,26 @@ CASES: dict[str, dict] = {
             "Gebruik een gedragsproef waarbij voorspelde prestatie expliciet wordt vergeleken met feitelijke feedback."
         ),
         bfs_items=[
-            "Slaapduur afgelopen nacht (uren)",
-            "Professionele situatie bewust opgezocht (ja/nee)",
-            "Aantal koffies voor een afspraak (aantal)",
-            "Lichamelijke spanning voor het werk (0--10)",
-            "Spreektijd in een vergadering of meeting (min)",
-            "Positieve feedback ontvangen (ja/nee)",
-            "Naverwerking van professionele prestatie in avond (min)",
-            "Werkuren vandaag (uren)",
-            "Middagpauze genomen (ja/nee)",
-            "Mentale replay van een situatie voor het slapengaan (ja/nee)",
+            "Consistent slaap- en waktijdstip aangehouden (ja/nee)",
+            "Professionele situatie bewust opgezocht of niet vermeden (ja/nee)",
+            "Cafeine-inname voor een professionele afspraak bewust beperkt (ja/nee)",
+            "Ontspanningsoefening voor een stressvolle werksituatie bewust uitgevoerd (min)",
+            "Spreektijd of actieve bijdrage in vergadering bewust geleverd (min)",
+            "Positieve professionele ervaring bewust genoteerd (ja/nee)",
+            "Tijd besteed aan naverwerking van professionele prestatie in avond (min)",
+            "Werkuren op kantoor of thuis vandaag (uren)",
+            "Middagpauze bewust en schermvrij genomen (ja/nee)",
+            "Mentale replay van professionele situatie voor slapengaan bewust gestopt (ja/nee)",
             "Schermtijd na 21.00 uur (min)",
-            "Zelfevaluatie vergeleken met externe feedback (ja/nee)",
-            "Gemiste professionele kans genoteerd (ja/nee)",
-            "Eetlust voor de lunch (0--10)",
-            "Aerobe beweging vandaag (min)",
-            "Vermijdingsepisode in logboek bijgehouden (ja/nee)",
-            "Irritatie naar collega's (0--10)",
-            "Ochtendmoeheid (0--10)",
-            "Aantal sociale berichten verstuurd (aantal)",
-            "Sociale steun gevraagd (ja/nee)",
+            "Zelfevaluatie vergeleken met ontvangen externe feedback (ja/nee)",
+            "Gemiste professionele kans of bewust uitwijking genoteerd (ja/nee)",
+            "Lunchpauze bewust genomen weg van het scherm (ja/nee)",
+            "Aerobe beweging of sport vandaag uitgevoerd (min)",
+            "Vermijdingsepisode (bewust afgeslagen kans) in logboek bijgehouden (ja/nee)",
+            "Assertieve of constructieve reactie bewust gekozen in werkconflict (ja/nee)",
+            "Ochtendactiviteit voor werk uitgevoerd als dagstarter (min)",
+            "Aantal sociale berichten verstuurd of reactie gegeven (aantal)",
+            "Sociale steun of begeleiding bewust gevraagd (ja/nee)",
         ],
         bfs_correct=[2, 5, 7, 10, 13, 16],
     ),
@@ -685,25 +685,25 @@ CASES: dict[str, dict] = {
         ),
         bfs_items=[
             "Cafeine-inname na 15.00 uur (aantal)",
-            "Geplande activiteit uit agenda uitgevoerd (ja/nee)",
-            "Eetlust in de ochtend (0--10)",
-            "Voltooiingsgraad van dagschema vandaag (0--10)",
-            "Werkgerelateerd piekeren in de avond (min)",
-            "Pijnklachten in de rug (0--10)",
-            "Opstaan op geplande wektijd (ja/nee)",
-            "Tijd op sociale media (min)",
-            "Verschil geplande versus werkelijke bedtijd (min)",
-            "Alcoholinname vanavond (aantal)",
+            "Geplande activiteit uit dagschema bewust uitgevoerd (ja/nee)",
+            "Ontbijt op vaste tijd bewust genuttigd (ja/nee)",
+            "Aantal geplande activiteiten daadwerkelijk uitgevoerd vandaag (aantal)",
+            "Werkgerelateerde gedachten bewust gestopt of beperkt in de avond (min)",
+            "Lichte lichaamsbeweging of stretching om energie te verhogen (min)",
+            "Opstaan op geplande wektijd aangehouden (ja/nee)",
+            "Schermtijd op sociale media bewust beperkt (min)",
+            "Afwijking van geplande bedtijd (min)",
+            "Alcoholinname vanavond (eenheden)",
             "Middagdutje genomen (ja/nee)",
-            "Concentratie tijdens administratie (0--10)",
-            "Zelf contact opgenomen met een bekende (ja/nee)",
-            "Plezierige activiteit voltooid (ja/nee)",
-            "Hopeloosheidsgedachten uitgedaagd (ja/nee)",
+            "Gestructureerde taaklijst opgesteld en bijgehouden (ja/nee)",
+            "Bewust contact opgenomen met een kennis of vriend (ja/nee)",
+            "Plezierige activiteit bewust gepland en voltooid (ja/nee)",
+            "Hopeloosheidsgedachten bewust uitgedaagd met een alternatief (ja/nee)",
             "Duur van sociaal contact op eigen initiatief (min)",
             "Waterinname vandaag (glazen)",
-            "Werkuren vandaag (uren)",
-            "Aantal maaltijden overgeslagen (aantal)",
-            "Ochtendspanning (0--10)",
+            "Bewuste stap tegen vermijding van moeilijke taak gezet (ja/nee)",
+            "Maaltijdmoment op vaste tijd aangehouden (ja/nee)",
+            "Ochtendbeweging of buitenlucht vóór aanvang van de dag (min)",
         ],
         bfs_correct=[2, 4, 7, 9, 13, 16],
     ),
@@ -780,25 +780,25 @@ CASES: dict[str, dict] = {
         ),
         bfs_items=[
             "Cafeine-inname voor de middag (aantal)",
-            "To-dolijst of digitale planner geraadpleegd (ja/nee)",
-            "Slaapduur afgelopen nacht (uren)",
-            "Nieuwe taken direct in het systeem ingevoerd (ja/nee)",
-            "Tijd op sociale media tijdens werk (min)",
-            "Spierspanning in de namiddag (0--10)",
-            "Actief luisteren bewust geoefend in gesprek (ja/nee)",
-            "Aantal onderbrekingen door notificaties (aantal)",
-            "Afleiding weggelegd tijdens een gesprek (ja/nee)",
-            "Emotionele kwetsbaarheid na kritiek (0--10)",
-            "Eetlust rond de lunch (0--10)",
-            "Afgesloten taak bewust positief erkend (ja/nee)",
-            "Alcoholinname in de avond (aantal)",
-            "Stemmingsschommeling vandaag (0--10)",
-            "Kleine beloning gegeven na taakvoltooiing (ja/nee)",
-            "Stapelteller vandaag (aantal)",
-            "Ochtendlichtblootstelling (min)",
+            "To-dolijst of digitale planner bewust geraadpleegd (ja/nee)",
+            "Consistent slaap- en waktijdstip aangehouden (ja/nee)",
+            "Nieuwe taken direct en volledig ingevoerd in het taakbeheersysteem (ja/nee)",
+            "Schermtijd voor sociale media tijdens werkuren bewust beperkt (min)",
+            "Korte beweeg- of rekpauze tijdens de werkdag bewust genomen (min)",
+            "Actief luisteren bewust geoefend tijdens een gesprek (ja/nee)",
+            "Notificaties bewust uitgeschakeld tijdens focusblokken (ja/nee)",
+            "Afleiding actief weggelegd of uitgeschakeld tijdens een gesprek (ja/nee)",
+            "Constructieve reactie bewust gekozen na ontvangen kritiek of feedback (ja/nee)",
+            "Lunchpauze bewust en schermvrij genomen (ja/nee)",
+            "Afgesloten taak bewust en expliciet positief erkend (ja/nee)",
+            "Alcoholinname vanavond (eenheden)",
+            "Plezierige activiteit of hobby buiten werk bewust uitgevoerd (min)",
+            "Kleine symbolische beloning gegeven na taakvoltooiing (ja/nee)",
+            "Stappentelling overdag (stappen)",
+            "Ochtendlichtblootstelling of buitengaan in de ochtend (min)",
             "Middagdutje genomen (ja/nee)",
-            "Plezier in vrijetijdsbesteding (0--10)",
-            "Aantal huishoudelijke taken gestart (aantal)",
+            "Geplande vrije activiteit actief bijgewoond of uitgevoerd (ja/nee)",
+            "Waterinname vandaag (glazen)",
         ],
         bfs_correct=[2, 4, 7, 9, 12, 15],
     ),
@@ -877,25 +877,25 @@ CASES: dict[str, dict] = {
         ),
         bfs_items=[
             "Cafeine-inname na 14.00 uur (aantal)",
-            "Emotieregulatietechniek bewust ingezet (ja/nee)",
-            "Slaapduur afgelopen nacht (uren)",
-            "Aantal keer emotieregulatie bewust ingezet vandaag (aantal)",
-            "Tijd op sociale media (min)",
-            "Eetlust bij avondmaal (0--10)",
-            "Impulsieve actie bewust uitgesteld (ja/nee)",
-            "Ochtendenergie bij ontwaken (0--10)",
-            "Alcoholinname vandaag (aantal)",
-            "Wachttijd voor een impulsieve beslissing (min)",
-            "Lichamelijke activiteit vandaag (min)",
-            "Stemmingsbereik vandaag (0--10)",
-            "Ervaren afwijzing cognitief herwaardeert (ja/nee)",
-            "Aantal onafgewerkte taken (aantal)",
-            "Concentratie tijdens administratie (0--10)",
-            "Alternatieve verklaring voor afwijzing gegeven (ja/nee)",
+            "Emotieregulatietechniek (bijv. grounding, ademhaling) bewust ingezet (ja/nee)",
+            "Consistent slaap- en waktijdstip aangehouden (ja/nee)",
+            "Aantal keer een bewuste emotieregulatievaardigheid ingezet vandaag (aantal)",
+            "Sociale media gebruik bewust beperkt of uitgesteld (min)",
+            "Maaltijdmoment op vaste tijd bewust aangehouden (ja/nee)",
+            "Impulsieve actie bewust uitgesteld of niet ondernomen (ja/nee)",
+            "Ontspanningsoefening of grondingsoefening uitgevoerd (min)",
+            "Alcoholinname vandaag (eenheden)",
+            "Wachttijd aangehouden voor impulsieve beslissing of actie (min)",
+            "Lichaamsbeweging of sport als spanningsafvoer vandaag (min)",
+            "Stemmingsdagboek of patroonnotitie bijgehouden voor zelfbewustzijn (ja/nee)",
+            "Ervaren afwijzing bewust herwaardeert via een alternatieve interpretatie (ja/nee)",
+            "Bewuste onderbreking van oplopende spanning via een vaste pauze (ja/nee)",
             "Middagdutje genomen (ja/nee)",
-            "Sociale media gebruik na werk (min)",
-            "Aantal conflicten op het werk (aantal)",
-            "Nekspanning in de namiddag (0--10)",
+            "Alternatieve verklaring voor een afwijzingssignaal bewust geformuleerd (ja/nee)",
+            "Sociale media gebruik na werk bewust begrensd (min)",
+            "Bewust gecommuniceerd over behoeften of grenzen in een relatie (ja/nee)",
+            "Bewuste keuze om een conflict niet te escaleren (ja/nee)",
+            "Waterinname vandaag (glazen)",
         ],
         bfs_correct=[2, 4, 7, 10, 13, 16],
     ),
@@ -972,26 +972,26 @@ CASES: dict[str, dict] = {
             "Vervang het bestaande gewoontepatroon door een vast, tijdsgebonden afbouwritueel dat elke avond op hetzelfde moment start."
         ),
         bfs_items=[
-            "Slaapduur afgelopen nacht (uren)",
-            "Werkapparaten uitgeschakeld voor slapengaan (ja/nee)",
-            "Ochtendvermoeidheid bij ontwaken (0--10)",
-            "Werkontkoppelingsritueel gevolgd na 21.00 uur (min)",
-            "Aantal vergaderuren vandaag (uren)",
-            "Hoofdpijnintensiteit namiddag (0--10)",
+            "Consistent slaap- en waktijdstip aangehouden (ja/nee)",
+            "Werkapparaten bewust uitgeschakeld voor slapengaan (ja/nee)",
+            "Ontspanningsoefening in avondroutine als overgang van werk naar slaap (min)",
+            "Werkontkoppelingsritueel consequent gevolgd na 21.00 uur (min)",
+            "Vergadertijd of werkbelasting bewust begrensd vandaag (ja/nee)",
+            "Bewuste pauze of stressreductie-activiteit in de namiddag genomen (min)",
             "Alcoholeenheden geconsumeerd na 19.00 uur (aantal)",
-            "Lichamelijke spierspanning in de ochtend (0--10)",
-            "Cafeine-inname na 16.00 uur (aantal)",
-            "Avond zonder alcoholinname (ja/nee)",
-            "Aerobe beweging vandaag (min)",
-            "Eetlust bij avondmaal (0--10)",
-            "Stressregulatietechniek ingezet overdag (ja/nee)",
-            "Contact met gezin vandaag (ja/nee)",
+            "Stretching of ontspanningsoefening in de ochtend uitgevoerd (min)",
+            "Cafeine-inname na 16.00 uur bewust beperkt (ja/nee)",
+            "Avond zonder alcoholinname bewust aangehouden (ja/nee)",
+            "Aerobe beweging of sport als weekactiviteit uitgevoerd (min)",
+            "Avondmaaltijd op vaste tijd en bewust bereid genuttigd (ja/nee)",
+            "Stressregulatietechniek (ademhaling, mindfulness) bewust ingezet overdag (ja/nee)",
+            "Bewust contact met gezin of vrienden gezocht als herstelmiddel (ja/nee)",
             "Middagdutje genomen (ja/nee)",
-            "Duur bewuste stressverlichtingsactiviteit overdag (min)",
-            "Werkgerelateerde gedachten na 20.00 uur (min)",
-            "Schermtijd voor ontspanning na 21.00 uur (min)",
-            "Ochtendstemming bij ontwaken (0--10)",
-            "Waterinname vandaag (glazen)",
+            "Duur bewuste stressverlichtende activiteit overdag (min)",
+            "Werkgerelateerde communicatie na 20.00 uur bewust uitgesteld of vermeden (ja/nee)",
+            "Schermtijd voor ontspanning na 21.00 uur bewust begrensd (min)",
+            "Dankbaarheidsnotitie of positieve dagstarter uitgevoerd (ja/nee)",
+            "Waterinname als dagelijks welzijnsgedrag (glazen)",
         ],
         bfs_correct=[2, 4, 7, 10, 13, 16],
     ),
@@ -1307,25 +1307,100 @@ INTRO = r"""
 % ── INSTRUCTIEPAGINA ─────────────────────────────────────────────────────────
 \section{Instructiepagina}
 
-\textbf{PHOENIX} is een multi-agentsysteem dat een vrije klachttekst omzet in een
-gestructureerde klinische redenering via vijf opeenvolgende stappen. In deze bundel
-voert u diezelfde vijf stappen onafhankelijk uit voor uw twee toegewezen casussen.
-Uw antwoorden vormen het menselijke referentiecorpus voor een latere dubbelblinde
-vergelijking met systeemoutput.
+\subsection*{Het PHOENIX-systeem en de context van deze studie}
+
+\textbf{PHOENIX} (Personalized Hierarchical Optimization Engine for Navigating
+Insightful eXplorations) is een multi-agentsysteem ontwikkeld als onderdeel van
+een masterproef in de psychologie aan de Universiteit Gent. Het systeem verwerkt
+een vrije klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen
+die de kern vormen van een gepersonaliseerde, longitudinale digitale interventie.
+
+Het theoretische kader van PHOENIX steunt op het \textbf{netwerk-analytisch model
+van psychopathologie} (Borsboom \& Cramer, 2013): psychische klachten worden niet
+als uitingen van een latente stoornis beschouwd, maar als een \emph{dynamisch
+netwerk van onderling samenhangende klachtcomponenten}. Een sleutelbegrip daarbinnen
+is het onderscheid tussen \textbf{criteria} (symptoomdimensies die de toestand van
+de persoon beschrijven) en \textbf{predictoren} (modificeerbare variabelen die de
+criteria causaal beinvloeden en als behandeldoel kunnen dienen).
 
 \vspace{0.4em}
-\begin{center}
-\renewcommand{\arraystretch}{1.32}
+\begin{instrbox}[title={Kerndefinities: criterium versus predictor}]
 \small
-\begin{tabular}{@{}>{\bfseries\color{PrimaryBlue}}p{0.05\textwidth}>{\bfseries}p{0.28\textwidth}p{0.37\textwidth}p{0.15\textwidth}@{}}
+\textbf{Criterium (CR):} een klinisch relevante, momentaan aanwezige
+\emph{klacht- of toestandsdimensie} van de persoon die herhaald meetbaar is via
+dagelijkse EMA. Criteria zijn de \emph{uitkomstvariabelen} in het netwerk -- ze
+beschrijven \emph{wat er mis gaat} (bijv.\ inslaapproblemen, paniekepisoden,
+sombere stemming). Criteria zijn geen gedragingen of interventies.
+
+\medskip
+\textbf{Predictor (P):} een \emph{modificeerbare gedrags- of procesvariabele}
+die plausibel causaal ingrijpt op een of meerdere criteria en dagelijks meetbaar
+is via een korte EMA-vraag. Predictoren zijn de \emph{ingreepvariabelen} in het
+netwerk -- ze beschrijven \emph{wat veranderbaar is} (bijv.\ avondschermtijd,
+geplande exposure, aerobe beweging). Een predictor is \emph{nooit een symptoom zelf},
+maar een gedrag, strategie of omgevingsfactor die het symptoom beinvloedt.
+
+\medskip\small
+\textit{Voorbeelden ter verduidelijking:}
+\begin{itemize}[topsep=1pt,itemsep=0pt]
+\item \textbf{Criterium:} inslaapproblemen, anticipatieangst, anergie, guilt-driven ruminatie.
+\item \textbf{Predictor:} avondschermtijd (min), geplande exposurestap (ja/nee),
+bewegingsfrequentie (min), preslaap-offloading (ja/nee).
+\item \textbf{Geen predictor, geen criterium:} eetlust bij avondmaal, rusthartslag,
+spierspanning -- dit zijn symptoom- of toestandsmaten, geen behandelbare predictoren.
+\end{itemize}
+\end{instrbox}
+
+\vspace{0.4em}
+\begin{instrbox}[title={Ecological Momentary Assessment (EMA) -- basisprincipes}]
+\small
+\textbf{EMA} is een methode waarbij personen meerdere keren per dag hun actuele
+toestand of gedrag rapporteren via een mobiele applicatie. In PHOENIX wordt EMA
+gebruikt om zowel criteria als predictoren dagelijks te monitoren over een periode
+van meerdere weken.
+
+Een goede EMA-variabele voldoet aan vier vereisten:
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{Dagelijks rapporteerbaar:} via een korte vraag op de smartphone (ja/nee, aantal, minuten of 0--10).
+\item \textbf{Dynamisch en veranderbaar:} geen vaste trek, diagnose of stabiel achtergrondkenmerk.
+\item \textbf{Klinisch relevant:} toont binnen-persoonsvariatie die therapeutisch informatief is.
+\item \textbf{Onderscheid criterium vs.\ predictor:} symptoomdimensies zijn criteria; modificeerbare gedragingen zijn predictoren.
+\end{itemize}
+\end{instrbox}
+
+\vspace{0.4em}
+\begin{instrbox}[title={Het bipartiet netwerk: structuur van het observatiemodel}]
+\small
+Na 21 dagen EMA-monitoring construeert PHOENIX een \textbf{bipartiet netwerk}:
+een graaf met twee kolommensets en gewogen verbindingen daartussen.
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{Linkse kolom -- Predictoren (P):} de modificeerbare variabelen.
+\item \textbf{Rechtse kolom -- Criteria (CR):} de klacht- en toestandsdimensies.
+\item \textbf{Kanten:} de richting loopt van predictor naar criterium (P $\rightarrow$ CR).
+Een \emph{blauwe} rand duidt op een positief verband (predictor vergroot het criterium),
+een \emph{rode} rand op een negatief verband (predictor verkleint het criterium).
+Lijndikte is proportioneel aan de sterkte van het empirische verband uit de monitoringdata.
+\end{itemize}
+In \textbf{Deel 3} rangschikt u de predictoren op behandelprioriteit op basis van
+dit netwerk en de monitoringsamenvatting.
+\end{instrbox}
+
+\vspace{0.5em}
+
+\subsection*{Overzicht van de vijf taken}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.36}
+\small
+\begin{tabular}{@{}>{\bfseries\color{PrimaryBlue}}p{0.05\textwidth}>{\bfseries}p{0.30\textwidth}p{0.38\textwidth}p{0.13\textwidth}@{}}
 \toprule
 Stap & Klinische taak & Wat u doet & Richttijd \\
 \midrule
-1 & Operationalisering & Noteer 2--6 criteriumlabels voor actuele probleemdimensies & $\approx$\,6 min \\
-2 & Initieel observatiemodel & Genereer 3--5 biopsychosociale predictorlabels (EMA-geschikt) & $\approx$\,6 min \\
-3 & Behandeldoelprioritering & Rangschik de 5 standaardpredictoren van hoog naar laag & $\approx$\,7 min \\
-4 & Verfijnd observatiemodel & Selecteer exact 6 EMA-items uit de lijst van 20 & $\approx$\,8 min \\
-5 & Mobiele coaching & Schrijf een korte patientgerichte boodschap voor de app & $\approx$\,8 min \\
+1 & Operationalisering & Identificeer 2--6 \textbf{criteriumlabels} (klachtdimensies) & $\approx$\,6 min \\
+2 & Initieel observatiemodel & Genereer 3--5 \textbf{predictorlabels} (modificeerbaar, EMA-geschikt) & $\approx$\,6 min \\
+3 & Behandeldoelprioritering & Rangschik alle 5 \textbf{predictoren} van hoog naar laag behandelprioriteit & $\approx$\,7 min \\
+4 & Verfijnd observatiemodel & Selecteer exact 6 \textbf{EMA-items} (2 per behandeldoel) uit de lijst van 20 & $\approx$\,8 min \\
+5 & Mobiele coaching & Schrijf een korte patient\-gerichte boodschap voor de app & $\approx$\,8 min \\
 \midrule
  & \textbf{Totaal (2 casussen)} & & \textbf{35--45 min} \\
 \bottomrule
@@ -1340,26 +1415,11 @@ Ga pas naar een volgend deel wanneer het huidige deel volledig is afgewerkt voor
 \item \textbf{Gebruik geen generatieve AI, schrijfhulpmiddelen, richtlijnen of collegaoverleg.}
 Extern gebruik ondermijnt de methodologische validiteit en de blind scoringswaarde van de studie.
 \item \textbf{Gebruik in latere delen uitsluitend de meegeleverde gestandaardiseerde context.}
-Die is bewust vastgezet zodat alle deelnemers op identieke input reageren.
+Die is bewust vastgezet zodat alle deelnemers op identieke input reageren en vergelijkbaar zijn.
 \item \textbf{Herwerk eerdere antwoorden niet retroactief} nadat u latere context hebt gezien.
 \item \textbf{Noteer of typ rechtstreeks in de voorziene antwoordzones.}
-Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blind beoordeling.
+Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blinde beoordeling.
 \end{enumerate}
-\end{instrbox}
-
-\vspace{0.4em}
-\begin{instrbox}[title={EMA-principes (relevant voor Deel 2 en Deel 4)}]
-\textbf{Ecological Momentary Assessment (EMA)} meet dagelijkse schommelingen via een mobiele
-app. Elke EMA-variabele moet aan vier vereisten voldoen:
-\begin{itemize}[topsep=2pt,itemsep=1pt]
-\item \textbf{Dagelijks rapporteerbaar} via een korte vraag op de smartphone.
-\item \textbf{Dynamisch en veranderbaar:} geen vaste diagnose, trait of achtergrondkenmerk.
-\item \textbf{Meetbaar in een eenvoudig format:} ja/nee, aantal, minuten of een 0--10 score.
-\item \textbf{Klinisch relevant voor opvolging:} toont binnen-persoonsvariatie die therapeutisch informatief is.
-\end{itemize}
-\smallskip
-In \textbf{Deel 2} genereert u zelf predictorlabels. In \textbf{Deel 4} zijn de 20 kandidaat-items
-reeds uitgewerkt als dagelijkse EMA-items; u selecteert de meest geschikte 5.
 \end{instrbox}
 
 \newpage
@@ -1367,23 +1427,33 @@ reeds uitgewerkt als dagelijkse EMA-items; u selecteert de meest geschikte 5.
 
 
 PART1_HEADER = r"""
-\section{Deel 1: Operationalisering van mentale gezondheidsproblemen}
+\section{Deel 1: Operationalisering van de mentale gezondheidstoestand}
 
 \begin{tcolorbox}[colback=blue!3,colframe=PrimaryBlue,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
 \textbf{\color{PrimaryBlue}Instructies Deel 1}
 
 \smallskip\small
-\textbf{Opdracht:} identificeer de belangrijkste actuele probleemdimensies in de klachttekst en noteer
-voor elke dimensie uitsluitend een \textbf{kort criteriumlabel}.
+\textbf{Opdracht:} identificeer de belangrijkste actuele klacht- en toestandsdimensies
+(\textbf{criteria}) in de klachttekst en noteer voor elke dimensie uitsluitend een
+\textbf{kort criteriumlabel}.
 
-\textbf{Wat telt als criterium?}
-Een klinisch relevante probleemdimensie die:
+\textbf{Wat is een criterium?}
+Een criterium is een \emph{symptoom- of klachtdimensie} die beschrijft \emph{wat er
+mis gaat} bij de persoon. Het is \emph{geen} behandeling, geen gedrag en geen oorzaak,
+maar een actuele toestandsbeschrijving:
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item momenteel aanwezig is in de casus,
-\item inhoudelijk apart te onderscheiden is van andere probleemdimensies,
-\item in principe herhaald meetbaar zou kunnen zijn.
+\item momenteel aanwezig bij de persoon (niet hypothetisch of anamnestisch),
+\item onderscheidbaar van andere klachtdimensies (niet overlappend),
+\item in principe herhaald meetbaar via dagelijkse zelfrapportage (EMA).
 \end{itemize}
+
+\textbf{Voorbeelden van goede criteriumlabels:}
+inslaapproblemen, paniekepisoden, anticipatieangst, sombere stemming, emotionele uitputting,
+anergie, interpersoonlijke instabiliteit, compulsief controleergedrag.
+
+\textbf{Let op:} gedragingen (bijv. ``avondschermtijd''), oorzaken (bijv. ``werkstress'')
+en behandelstrategieën zijn \emph{geen} criteria maar predictoren -- die horen in Deel 2.
 
 \textbf{Antwoordformat:} label van 2--5 woorden, zonder beschrijvende zin.
 Noteer per casus \textbf{2--6 criteria}. Laat ongebruikte velden leeg.
@@ -1430,23 +1500,35 @@ def part1(case_a: dict, case_b: dict) -> str:
 
 
 PART2_HEADER = r"""
-\section{Deel 2: Initieel observatiemodel}
+\section{Deel 2: Initieel observatiemodel (bipartiet netwerk)}
 
 \begin{tcolorbox}[colback=green!3,colframe=ForestGreen,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
 \textbf{\color{ForestGreen}Instructies Deel 2}
 
 \smallskip\small
-\textbf{Opdracht:} genereer \textbf{3--5 biopsychosociale predictorlabels} die een initieel observatiemodel
-vormen voor deze casus.
+\textbf{Opdracht:} genereer \textbf{3--5 predictorlabels} die samen het
+\textbf{initieel observatiemodel} voor deze casus vormen.
 
-\textbf{Wat telt als predictor?}
-Een veranderbare factor die:
+\textbf{Wat is een predictor in deze context?}
+Een predictor is een \emph{modificeerbare gedrags- of procesvariabele} die beschrijft
+\emph{wat de persoon kan veranderen}:
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item klinisch plausibel samenhangt met een of meerdere criteria,
-\item geschikt is voor \textbf{dagelijkse Ecological Momentary Assessment (EMA)},
-\item door de persoon zelf eenvoudig via een mobiele app kan worden gerapporteerd.
+\item \textbf{Modificeerbaar:} de persoon (of therapeut) kan er rechtstreeks op ingrijpen.
+\item \textbf{EMA-geschikt:} dagelijks meetbaar via een eenvoudige vraag op de smartphone
+(ja/nee, aantal, minuten of 0--10 schaal).
+\item \textbf{Causaal plausibel:} klinisch aannemelijk dat het predictor de criteria beinvloedt.
+\item \textbf{Geen criterium:} symptomen, klachtniveaus of diagnostische trekken zijn
+\emph{geen} predictoren.
 \end{itemize}
+
+\textbf{Voorbeelden van goede predictorlabels:}
+avondschermtijd, geplande exposure, aerobe beweging, preslaap-offloading,
+veiligheidsgedrag, werk-privegrens, herstelactiviteit, compulsie-uitstel.
+
+\textbf{Let op:} predictoren als ``eetlust'', ``spierspanning'' of ``moeheid'' zijn
+symptoomdimensies (criteria) -- geen predictoren. Kies variabelen die de persoon
+actief kan uitvoeren of aanpassen.
 
 \textbf{Antwoordformat:} enkel een label van 2--6 woorden, zonder meetdefinitie of toelichting.
 Laat ongebruikte velden leeg.
@@ -1494,24 +1576,42 @@ def part2(case_a: dict, case_b: dict) -> str:
 
 
 PART3_HEADER = r"""
-\section{Deel 3: Prioritering van behandeldoelen}
+\section{Deel 3: Behandeldoelprioritering via het bipartiet netwerk}
 
 \begin{tcolorbox}[colback=yellow!5,colframe=GoldAmber,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
 \textbf{\color{GoldAmber}Instructies Deel 3}
 
 \smallskip\small
-\textbf{Opdracht:} rangschik de \textbf{5 standaardpredictoren} van \textbf{hoogste} naar \textbf{laagste}
-klinische prioriteit als behandeldoel.
+\textbf{Opdracht:} rangschik de \textbf{5 standaardpredictoren} van \textbf{hoogste}
+naar \textbf{laagste} behandelprioriteit.
 
-\textbf{Gebruik voor uw rangschikking:}
+\textbf{Wat is een behandeldoel?}
+Een behandeldoel is de predictor die, als hij veranderd wordt, naar verwachting de sterkste
+vermindering van de criteria oplevert. U selecteert op basis van drie criteria:
+\begin{enumerate}[topsep=2pt,itemsep=1pt,label=\alph*)]
+\item \textbf{Bewijs uit monitoring:} is er in de monitoringdata aanleiding dat deze predictor
+actief bijdraagt aan de klacht (bijv.\ hoge frequentie van problematisch gedrag, of bijna
+afwezigheid van gewenst gedrag)?
+\item \textbf{Klinische modificeerbaarheid:} is de predictor realistisch veranderbaar voor
+deze persoon, gegeven profiel en context?
+\item \textbf{Netwerkimpact:} beïnvloedt de predictor meerdere criteria tegelijk (hogere
+return-on-intervention)?
+\end{enumerate}
+
+\textbf{Het bipartiet netwerk lezen:}
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item de 21-daagse monitoring,
-\item de bipartiete netwerkstructuur,
-\item de mate waarin een predictor meerdere criteria kan beinvloeden.
+\item Predictoren staan in de \textbf{linkerkolom (groen)}; criteria in de \textbf{rechterkolom (blauw)}.
+\item \textbf{Blauwe rand:} predictor heeft een positief verband met het criterium
+(hogere predictor $\rightarrow$ hoger criterium; bijv.\ meer veiligheidsgedrag $\rightarrow$ meer angst).
+\item \textbf{Rode rand:} predictor heeft een negatief verband met het criterium
+(hogere predictor $\rightarrow$ lager criterium; bijv.\ meer exposure $\rightarrow$ minder vermijding).
+\item \textbf{Lijndikte:} proportioneel aan de sterkte van het empirische verband
+(21-daagse EMA-data).
 \end{itemize}
 
-\textbf{Antwoordformat:} vul alle prioriteitslijnen in, van 1 tot en met 5.
+\textbf{Antwoordformat:} vul alle 5 prioriteitslijnen in, van rangorde 1 (hoogste prioriteit)
+tot en met 5 (laagste prioriteit).
 \end{tcolorbox}
 
 \vspace{0.5em}
@@ -1614,29 +1714,40 @@ def part3(case_a: dict, case_b: dict) -> str:
 
 
 PART4_HEADER = r"""
-\section{Deel 4: Verfijnd observatiemodel via breadth-first update-logica}
+\section{Deel 4: Verfijnd observatiemodel -- selectie van sub-predictoren}
 
 \begin{tcolorbox}[colback=purple!4,colframe=RichPurple,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
 \textbf{\color{RichPurple}Instructies Deel 4}
 
 \smallskip\small
-\textbf{Opdracht:} selecteer per casus \textbf{exact 6 EMA-items}: 2 sub-predictoren per behandeldoel (3 behandeldoelen $\times$ 2 = 6).
+\textbf{Opdracht:} selecteer per casus \textbf{exact 6 EMA-items}:
+\textbf{2 sub-predictoren per behandeldoel} (3 behandeldoelen $\times$ 2 = 6 items).
 
-\textbf{Wat bootst dit deel na?}
-PHOENIX verfijnt het observatiemodel via een \textbf{breadth-first update-logica}: vanuit de
-reeds geprioriteerde behandeldoelen wordt gezocht naar de meest geschikte, direct meetbare
-subpredictoren voor de volgende EMA-cyclus.
+\textbf{Wat zijn sub-predictoren?}
+Een behandeldoel uit Deel 3 (bijv.\ ``geplande exposure'') is een conceptueel label.
+In de volgende EMA-cyclus moet dit label vertaald worden naar \emph{concrete, dagelijks
+meetbare gedragsitems} -- de \textbf{sub-predictoren}. Elke sub-predictor is een
+specifieke operationalisering van het behandeldoel als dagelijkse EMA-vraag.
+
+\textbf{Voorbeeld:} behandeldoel = \textit{avondschermtijd}
+$\rightarrow$ sub-predictor 1: ``smartphone-gebruik na 22.00 uur (min)''
+$\rightarrow$ sub-predictor 2: ``schermvrij interval voor slapengaan (min)''
+
+\textbf{Belangrijk: alle 20 items in de lijst zijn predictor-type EMA-items}
+(modificeerbare gedragingen en strategieën -- \emph{geen} symptomen of
+klachtdimensies). Uw taak is te selecteren welke 6 items het best aansluiten bij
+de 3 gestandaardiseerde behandeldoelen, 2 per doel.
 
 \textbf{Selectieprincipe:}
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item start vanuit de standaardbehandeldoelen hieronder,
-\item kies per behandeldoel \textbf{2 dagelijkse EMA-items} (6 in totaal) die daar het best op aansluiten,
-\item verkies klinisch relevante breedte boven irrelevante of perifere items,
-\item noteer \textbf{geen} toelichting of extra commentaar.
+\item Kies per behandeldoel de 2 items die dat doel het meest direct en precies meten.
+\item Verkies items die samen een compleet beeld geven van het behandeldoel
+(bijv.\ frequentie \emph{en} duur, of twee complementaire gedragingen).
+\item Vermijd items die het behandeldoel slechts zijdelings raken.
 \end{itemize}
 
-\textbf{Antwoordformat:} vink \textbf{exact 6} items aan.
+\textbf{Antwoordformat:} vink \textbf{exact 6} items aan. Geen toelichting vereist.
 \end{tcolorbox}
 
 \vspace{0.5em}
@@ -1680,40 +1791,50 @@ def part4(case_a: dict, case_b: dict) -> str:
 
 
 PART5_HEADER = r"""
-\section{Deel 5: Mobiele coachingsboodschap}
+\section{Deel 5: Gepersonaliseerde mobiele coachingsboodschap (HAPA-kader)}
 
 \begin{tcolorbox}[colback=red!3,colframe=ForestGreen,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
 \textbf{\color{ForestGreen}Instructies Deel 5}
 
 \smallskip\small
-\textbf{Opdracht:} schrijf een korte, patientgerichte coachingsboodschap die rechtstreeks in de
-mobiele applicatie kan verschijnen.
+\textbf{Opdracht:} schrijf een korte, rechtstreeks tot de persoon gerichte
+coachingsboodschap die in de mobiele applicatie verschijnt.
 
-\textbf{Gebruik hiervoor:}
-\begin{itemize}[topsep=2pt,itemsep=2pt]
-\item het primaire probleem van de casus,
-\item het geselecteerde behandeldoel,
-\item de voornaamste barriere,
-\item de aangegeven copingstrategie.
+\textbf{Theoretisch kader -- HAPA:}
+PHOENIX gebruikt het \textbf{Health Action Process Approach (HAPA; Schwarzer, 1992)}
+om de boodschap af te stemmen op de motivationele fase van de persoon:
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{Pre-intentionele fase:} de persoon is nog niet gemotiveerd om te veranderen
+$\rightarrow$ focus op risicobewustzijn en uitkomstverwachting.
+\item \textbf{Intentionele fase:} de persoon wil veranderen maar heeft nog geen concreet plan
+$\rightarrow$ focus op doelstelling en actieplanning.
+\item \textbf{Actie-/onderhoudsfase:} de persoon probeert al te veranderen
+$\rightarrow$ focus op copingplanning en zelfeffectiviteitsondersteuning.
 \end{itemize}
+U hoeft de fase niet expliciet te benoemen; gebruik het kader om de toon en inhoud
+van uw boodschap te sturen.
 
-\textbf{De boodschap hoort:}
+\textbf{De boodschap voldoet aan:}
 \begin{itemize}[topsep=2pt,itemsep=2pt]
-\item compact genoeg te zijn voor een mobiel scherm,
-\item warm en professioneel te klinken,
-\item een concrete eerstvolgende stap te bevatten,
-\item rechtstreeks tot de persoon gericht te zijn.
+\item \textbf{Lengte:} 2--4 zinnen, compact genoeg voor een mobiel scherm.
+\item \textbf{Toon:} warm, direct, professioneel -- geen klinisch jargon of diagnostische labels.
+\item \textbf{Inhoud:} adresseert het primaire behandeldoel en de voornaamste barriere;
+bevat een concrete, eerstvolgende actie.
+\item \textbf{Perspectief:} tweede persoon (``jij'' of formeel ``u'').
 \end{itemize}
 
 \textbf{Werkvoorbeeld} (niet gerelateerd aan een studiecasus):
 \begin{tcolorbox}[colback=SoftBG,colframe=BorderGrey,boxrule=0.4pt,arc=1.5mm,
   left=7pt,right=7pt,top=5pt,bottom=5pt]
 \small
-\textbf{Context:} verpleegkundige met het doel om opnieuw korte beweegmomenten in te bouwen;
-barriere = vermoeidheid na de shift; coping = een vaste 10-minutenwandeling koppelen aan het thuiskomen.\\[0.3em]
+\textbf{Context:} verpleegkundige; behandeldoel = korte beweegmomenten inbouwen;
+barriere = vermoeidheid na de shift (lage zelfeffectiviteit); fase = intentioneel.\\[0.3em]
 \textbf{Voorbeeldboodschap:}\\
-\textit{``Na een zware shift voelt rust nemen logisch, maar net dat eerste kleine beweegmoment kan je avond helpen ontladen. Trek vanavond meteen na thuiskomst je schoenen aan en wandel 10 minuten buiten, zonder jezelf meer op te leggen dan dat ene blokje. Zo maak je de stap haalbaar en vergroot je de kans dat je lichaam later echt kan afschakelen.''}
+\textit{``Na een zware shift voelt rust nemen logisch, maar net dat eerste kleine
+beweegmoment kan je avond helpen ontladen. Trek vanavond meteen na thuiskomst je
+schoenen aan en wandel 10 minuten buiten -- niet meer dan dat ene blokje. Zo maak
+je de stap haalbaar en vergroot je de kans dat je lichaam later echt kan afschakelen.''}
 \end{tcolorbox}
 \end{tcolorbox}
 

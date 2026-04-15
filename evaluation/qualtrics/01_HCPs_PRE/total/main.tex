@@ -222,10 +222,29 @@ It contains the exact question text, case vignettes, standardised context, and r
 \section{Introduction and Participant Information}
 % ─────────────────────────────────────────────────────────────────────────────
 
-\subsection{Background: The PHOENIX System}
+\subsection{Background: The PHOENIX System and Its Conceptual Framework}
 
 PHOENIX (\textbf{P}ersonalized \textbf{H}ierarchical \textbf{O}ptimization \textbf{E}ngine for \textbf{N}avigating \textbf{I}nsightful e\textbf{X}plorations) is a multi-agent AI pipeline developed as part of a master's thesis in psychology at the Faculty of Psychology and Educational Sciences (FPPW) of Ghent University. The system is designed to support personalized longitudinal mental health interventions by processing a free-text complaint and producing a structured five-step clinical reasoning output.
 
+PHOENIX is grounded in the \textbf{network theory of psychopathology} (Borsboom \& Cramer, 2013): mental health complaints are modelled not as expressions of a latent disorder, but as a \emph{dynamic network of interacting symptom components}. Two fundamental concepts underpin every step of the pipeline:
+
+\begin{instrbox}[title=Key definitions: criterion vs.\ predictor]
+\small
+\textbf{Criterion (CR):} a clinically relevant, currently present \emph{symptom or complaint dimension} that can be repeatedly measured via daily EMA. Criteria are the \emph{outcome variables} of the network --- they describe \emph{what is going wrong} (e.g., sleep onset insomnia, panic episodes, depressed mood, guilt-based rumination). Criteria are \emph{not} behaviours, interventions, or causes.
+
+\medskip
+\textbf{Predictor (P):} a \emph{modifiable behavioural or process variable} that plausibly exerts a causal influence on one or more criteria and can be measured daily via a brief smartphone prompt. Predictors are the \emph{intervention variables} of the network --- they describe \emph{what can be changed} (e.g., evening screen time, planned exposure frequency, aerobic exercise, pre-sleep cognitive offloading). A predictor is \emph{never a symptom itself}, but a behaviour, strategy, or environmental factor that influences symptom levels.
+
+\medskip\small
+\textit{Clarifying examples:}
+\begin{itemize}[topsep=1pt,itemsep=0pt]
+\item \textbf{Criterion:} sleep onset insomnia, anticipatory anxiety, anergia, guilt-based rumination.
+\item \textbf{Predictor:} evening screen time (min), planned exposure step (yes/no), aerobic exercise (min), pre-sleep offloading (yes/no).
+\item \textbf{Neither criterion nor predictor:} appetite, resting heart rate, muscle tension --- these are state/symptom measures, not modifiable predictors.
+\end{itemize}
+\end{instrbox}
+
+\medskip
 The five stages of the PHOENIX pipeline mirror the core clinical reasoning tasks involved in formulation-driven digital intervention design:
 
 \begin{center}
@@ -393,15 +412,19 @@ C10 & Chronic work stress + sleep maintenance insomnia + somatic + alcohol copin
 \textbf{\color{PrimaryBlue}Part 1 Instructions}
 
 \smallskip
-\textbf{Task:} For each of your \textbf{two assigned case vignettes}, identify and operationalize the key mental health criteria present in the complaint. (This document shows all ten cases for researcher reference; Qualtrics Display Logic will show only your assigned two.)
+\textbf{Task:} For each of your \textbf{two assigned case vignettes}, identify and operationalize the key mental health \textbf{criteria} present in the complaint. (This document shows all ten cases for researcher reference; Qualtrics Display Logic will show only your assigned two.)
 
-\textbf{What we mean by ``operationalized criterion'':}
-A criterion is a distinct, currently present, changeable dimension of the person's mental state or functioning that (a) reflects a specific complaint aspect, (b) can in principle be measured repeatedly over time (e.g., via daily self-report), and (c) is not a demographic trait or static background factor.
+\textbf{Definition --- Criterion (CR):} A criterion is a \textbf{distinct, currently present, clinically meaningful dimension of the person's symptom profile or functional impairment} that: (a) reflects a specific complaint aspect, (b) is a symptom or complaint \emph{state} (not a cause, behaviour, or demographic factor), and (c) can in principle be measured repeatedly over time via daily self-report.
+
+\begin{itemize}[topsep=3pt,itemsep=2pt]
+\item \textbf{Examples of valid criteria:} sleep onset insomnia, cognitive hyperarousal at bedtime, situational avoidance, recurrent intrusive thoughts, social anhedonia, post-event rumination, persistent depressed mood.
+\item \textbf{Not criteria:} behavioural choices (``evening screen use''), presumed causes (``work stress''), physiological values (``resting heart rate''), or coping patterns (``alcohol use to relax'').
+\end{itemize}
 
 \textbf{Response format:} For each case, list \textbf{2--6 criteria}. For each criterion provide:
 \begin{itemize}
 \item A \textbf{short label} (2--5 words, e.g., ``Sleep onset insomnia'')
-\item A \textbf{brief description} (1--2 sentences: what it is and how it manifests here)
+\item A \textbf{brief description} (1--2 sentences: what it is and how it manifests in this case)
 \end{itemize}
 Use the structured template: \texttt{Label | Description} on one line per criterion. This allows direct automated comparison with machine outputs.
 
@@ -561,17 +584,24 @@ Use the structured template: \texttt{Label | Description} on one line per criter
 \textbf{\color{ForestGreen}Part 2 Instructions}
 
 \smallskip
-\textbf{Task:} For each case, propose a set of \textbf{modifiable predictor variables} that could be monitored over time (e.g., via daily self-report / EMA) to explain or predict the criteria identified in the standardised context below.
+\textbf{Task:} For each case, propose a set of \textbf{modifiable predictor variables} (P-nodes) that could be monitored via daily Ecological Momentary Assessment (EMA) to explain or predict the criteria identified in Part 1.
 
-\textbf{What is a modifiable predictor?} A predictor is a behavioural, cognitive, physiological, or environmental variable that (a) can change from day to day, (b) plausibly influences one or more of the criteria, and (c) can be measured by the person themselves with a simple daily rating or count.
+\textbf{Definition --- Predictor (P):} A predictor is a \textbf{modifiable behavioural or process variable} that: (a) can plausibly change the severity of one or more criteria, (b) can be measured by the person themselves with a simple daily rating, count, or yes/no, and (c) is itself a \emph{treatment option} --- not a symptom or an outcome.
 
-\textbf{Response format:} List \textbf{3--5 predictors} using this structured template (one per line):
+\begin{itemize}[topsep=3pt,itemsep=2pt]
+\item \textbf{Examples of valid predictors:} evening screen time (min), planned exposure attempts (yes/no), aerobic exercise session (min), pre-sleep cognitive offloading (yes/no), safety behaviour count (n).
+\item \textbf{Not predictors:} symptom dimensions (``appetite today 0--10'', ``muscle tension 0--10''), diagnostic labels, or static background factors. These are criteria or confounders, not intervention levers.
+\end{itemize}
+
+\textbf{EMA principles:} Each predictor must be (1) \emph{daily-reportable} (takes $<$30 seconds to rate), (2) \emph{dynamic} (can vary from day to day), (3) \emph{operationally defined} (specific enough to measure unambiguously), and (4) \emph{clinically plausible} as a causal influence on at least one criterion.
+
+The resulting predictor--criterion pairs form the edges of the \textbf{initial bipartite observational network} (Part 2), from which treatment targets are subsequently identified (Part 3).
+
+\textbf{Response format:} List \textbf{3--6 predictors} using this structured template (one per line):
 
 \begin{center}\small\ttfamily
 Label | 1-sentence measurement definition | CR connections (e.g.\ CR-1, CR-3)
 \end{center}
-
-This format allows direct automated comparison with machine outputs. Abbreviate freely; clinical precision is more important than length.
 
 \textbf{Context provided:} Standardised criteria (from Step 01 reference run) appear for each case.
 
@@ -810,11 +840,18 @@ This format allows direct automated comparison with machine outputs. Abbreviate 
 \textbf{\color{GoldAmber}Part 3 Instructions}
 
 \smallskip
-\textbf{Task:} For each case, \textbf{rank the top 2--4 treatment targets} from the bipartite network diagram provided.
+\textbf{Task:} For each case, \textbf{rank the top 2--4 treatment targets} using the bipartite observational network diagram below, informed by the accompanying 21-day EMA monitoring summary.
 
-\textbf{What is a treatment target?} A modifiable predictor (P-node) from the initial model that, if changed, is most likely to reduce the person's complaint criteria. Select based on: (a) monitoring data evidence, (b) clinical modifiability, and (c) downstream impact on multiple criteria.
+\textbf{Definition --- Treatment Target:} A \textbf{predictor node (P)} from the initial observational model that, if systematically modified, is most likely to reduce the severity of the complaint criteria. Treatment targets are selected based on: (a) monitoring evidence (frequency and deviation from normative levels), (b) clinical modifiability (patient capacity and readiness), and (c) \emph{downstream network impact} --- preferring predictors with strong edges to multiple criteria (high centrality/leverage in the network).
 
-\textbf{Visual key:} Each diagram shows \textbf{\color{PrimaryBlue}criteria nodes (blue, left)} and \textbf{\color{TealGreen}predictor nodes (teal, right)}. Edge weight reflects the monitoring-derived importance of the predictor--criterion relationship:
+\textbf{How to read the bipartite network diagram:}
+\begin{itemize}[topsep=3pt,itemsep=2pt]
+\item \textbf{Left column (blue nodes):} Criteria (CR) --- symptom/complaint dimensions; these are the \emph{outcome variables}.
+\item \textbf{Right column (teal nodes):} Predictors (P) --- modifiable behavioural/process variables; these are the \emph{intervention levers}.
+\item \textbf{Edges:} Each edge represents an empirically derived predictor--criterion relationship from the 21-day monitoring period. All edges shown here are positive (predictor activation is associated with criterion increase or perpetuation).
+\end{itemize}
+
+\textbf{Edge weight key:}
 \begin{center}\small
 \begin{tikzpicture}[baseline=-0.5ex]
 \draw[line width=1.6pt,draw=PrimaryBlue!75] (0,0) -- (1.0,0);
@@ -826,9 +863,10 @@ This format allows direct automated comparison with machine outputs. Abbreviate 
 \draw[line width=0.7pt,dashed,draw=gray!55] (0,0) -- (1.0,0);
 \end{tikzpicture}~\textbf{Weak}
 \end{center}
-\textbf{Fair comparison note:} The PHOENIX system processes the same numerical edge weights shown here. The visual is a human-readable representation of identical data. No additional information is presented to you vs.\ the machine.
 
-\textbf{Response format:} \textbf{Qualtrics Rank Order item.} Drag/rank the predictor labels from the network in order of treatment priority (1 = highest). Select only 2--4 items.
+\textbf{Fair comparison note:} The PHOENIX system processes the same numerical edge weights shown here. The diagram is a human-readable rendering of identical data; no additional information is available to you vs.\ the machine.
+
+\textbf{Response format:} \textbf{Qualtrics Rank Order item.} Drag/rank the predictor labels from the network in order of treatment priority (1 = highest). Select exactly \textbf{3 targets} (these become the input for Part 4 BFS sub-predictor selection).
 
 \textbf{Time:} Approximately 3.5 minutes per case ($\approx$7 minutes for your two cases).
 \end{tcolorbox}
@@ -1226,13 +1264,22 @@ This format allows direct automated comparison with machine outputs. Abbreviate 
 \textbf{\color{RichPurple}Part 4 Instructions}
 
 \smallskip
-\textbf{Task:} For each case, \textbf{select the 2--4 predictors to retain in the next monitoring cycle}, given the treatment targets identified in Part 3 and the monitoring data pattern.
+\textbf{Task:} For each case, \textbf{select exactly 6 sub-predictor items} from a list of 20 candidate EMA items, using a \textbf{Breadth-First Selection (BFS)} strategy: choose exactly \textbf{2 sub-predictors per treatment target}, for each of the 3 targets identified in Part 3.
 
-\textbf{Response format:} \textbf{Multiple Choice (select all that apply)} --- tick the predictors from the initial model that should be tracked next cycle. Optionally add a 1-sentence note per predictor if an operationalization change is needed.
+\textbf{Definition --- Sub-predictor:} A \textbf{specific, daily-measurable EMA operationalization} of a treatment target. Where a treatment target is a broad behavioural goal (e.g., ``evening screen time reduction''), the sub-predictors are the concrete daily items that capture it (e.g., \texttt{smartphone use after 22:00 (min)} + \texttt{screen-free interval before sleep (min)}).
 
-This structured format is directly comparable to the machine output, which produces a binary retain/drop decision per predictor plus an optional rationale string.
+\textbf{All 20 candidate items are predictor-type EMA items} --- modifiable behavioural or process variables. None are symptom dimensions or outcome measures. The list contains 6 correct sub-predictors (2 per target) embedded among 14 plausible distractors of similar clinical domain.
 
-\textbf{Context provided:} Standardised treatment targets from Step 03 reference run (shown per case).
+\textbf{Selection criteria for each sub-predictor pair:}
+\begin{itemize}[topsep=3pt,itemsep=2pt]
+\item \textbf{Specificity:} operationalizes the treatment target precisely and without ambiguity
+\item \textbf{EMA feasibility:} daily self-reportable in $<$30 seconds (yes/no, count, or minutes)
+\item \textbf{Complementarity:} the two selected items capture different facets of the same target (avoid selecting two items that measure the same behaviour)
+\end{itemize}
+
+\textbf{Response format:} \textbf{Multiple Choice, select exactly 6} items from the list of 20. The format allows direct comparison with the PHOENIX BFS algorithm output, which selects the same 6 items via a graph-theoretic breadth-first traversal of the bipartite network.
+
+\textbf{Context provided:} Standardised top-3 treatment targets (from Step 03 reference run) appear for each case.
 
 \textbf{Time:} Approximately 3 minutes per case ($\approx$6 minutes for your two cases).
 \end{tcolorbox}
@@ -1417,18 +1464,25 @@ This structured format is directly comparable to the machine output, which produ
 \textbf{\color{TealGreen}Part 5 Instructions}
 
 \smallskip
-\textbf{Task:} For each case, complete two items: (A) identify the \textbf{HAPA motivational phase} most relevant to this person, and (B) write a \textbf{brief personalized coaching message}.
+\textbf{Task:} For each case, complete two items: (A) classify the person's \textbf{HAPA motivational phase}, and (B) write a \textbf{brief personalized digital coaching message} targeting the top treatment target.
 
-\textbf{(A) HAPA phase classification:} Select the phase that best characterizes where this person currently is:
-\begin{itemize}[topsep=2pt,itemsep=1pt]
-\item \textbf{Pre-intentional} --- not yet motivated to change; needs motivational/risk communication
-\item \textbf{Intentional} --- motivated but not yet planning; needs goal-setting and planning support
-\item \textbf{Action/Maintenance} --- already attempting change; needs coping planning and self-efficacy support
+\textbf{(A) HAPA phase classification} (Health Action Process Approach; Schwarzer, 1992):
+\begin{itemize}[topsep=3pt,itemsep=2pt]
+\item \textbf{Pre-intentional} --- not yet motivated to change the target behaviour; lacks perceived risk or outcome expectancy. Message focus: risk awareness, outcome expectancy, motivational framing.
+\item \textbf{Intentional} --- motivated to change but has not yet formed a concrete action plan; intention--behaviour gap. Message focus: specific goal-setting, implementation intentions (``when--then'' planning), action planning.
+\item \textbf{Action/Maintenance} --- already attempting or sustaining behaviour change; vulnerable to lapse. Message focus: coping planning, recovery self-efficacy, relapse prevention, positive reinforcement.
 \end{itemize}
 
-\textbf{(B) Message format:} 2--3 sentences, second-person, warm and actionable. Address the top treatment target and the key coping strategy. No jargon; no diagnostic labels.
+\textbf{(B) Message requirements:}
+\begin{itemize}[topsep=3pt,itemsep=2pt]
+\item \textbf{Length:} 2--4 sentences
+\item \textbf{Person:} second person (``you / your'')
+\item \textbf{Tone:} warm, empathic, and professionally supportive --- neither clinical/distant nor colloquial
+\item \textbf{Content:} address the top treatment target explicitly; include a concrete, actionable step; match the HAPA phase (motivational, planning-oriented, or coping-oriented)
+\item \textbf{No jargon:} do not use diagnostic labels, clinical acronyms, or technical EMA/network terminology
+\end{itemize}
 
-\textbf{Response format:} Two Qualtrics items per case --- (A) multiple choice for phase, (B) Text Entry (Medium) for message.
+\textbf{Response format:} Two Qualtrics items per case: (A) multiple choice for HAPA phase, (B) Text Entry (Medium) for message.
 
 \textbf{Context provided:} Top treatment target, primary barrier type, and suggested coping strategy per case.
 

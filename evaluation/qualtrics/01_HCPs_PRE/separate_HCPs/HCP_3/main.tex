@@ -254,25 +254,100 @@ onderzoeker.
 % ── INSTRUCTIEPAGINA ─────────────────────────────────────────────────────────
 \section{Instructiepagina}
 
-\textbf{PHOENIX} is een multi-agentsysteem dat een vrije klachttekst omzet in een
-gestructureerde klinische redenering via vijf opeenvolgende stappen. In deze bundel
-voert u diezelfde vijf stappen onafhankelijk uit voor uw twee toegewezen casussen.
-Uw antwoorden vormen het menselijke referentiecorpus voor een latere dubbelblinde
-vergelijking met systeemoutput.
+\subsection*{Het PHOENIX-systeem en de context van deze studie}
+
+\textbf{PHOENIX} (Personalized Hierarchical Optimization Engine for Navigating
+Insightful eXplorations) is een multi-agentsysteem ontwikkeld als onderdeel van
+een masterproef in de psychologie aan de Universiteit Gent. Het systeem verwerkt
+een vrije klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen
+die de kern vormen van een gepersonaliseerde, longitudinale digitale interventie.
+
+Het theoretische kader van PHOENIX steunt op het \textbf{netwerk-analytisch model
+van psychopathologie} (Borsboom \& Cramer, 2013): psychische klachten worden niet
+als uitingen van een latente stoornis beschouwd, maar als een \emph{dynamisch
+netwerk van onderling samenhangende klachtcomponenten}. Een sleutelbegrip daarbinnen
+is het onderscheid tussen \textbf{criteria} (symptoomdimensies die de toestand van
+de persoon beschrijven) en \textbf{predictoren} (modificeerbare variabelen die de
+criteria causaal beinvloeden en als behandeldoel kunnen dienen).
 
 \vspace{0.4em}
-\begin{center}
-\renewcommand{\arraystretch}{1.32}
+\begin{instrbox}[title={Kerndefinities: criterium versus predictor}]
 \small
-\begin{tabular}{@{}>{\bfseries\color{PrimaryBlue}}p{0.05\textwidth}>{\bfseries}p{0.28\textwidth}p{0.37\textwidth}p{0.15\textwidth}@{}}
+\textbf{Criterium (CR):} een klinisch relevante, momentaan aanwezige
+\emph{klacht- of toestandsdimensie} van de persoon die herhaald meetbaar is via
+dagelijkse EMA. Criteria zijn de \emph{uitkomstvariabelen} in het netwerk -- ze
+beschrijven \emph{wat er mis gaat} (bijv.\ inslaapproblemen, paniekepisoden,
+sombere stemming). Criteria zijn geen gedragingen of interventies.
+
+\medskip
+\textbf{Predictor (P):} een \emph{modificeerbare gedrags- of procesvariabele}
+die plausibel causaal ingrijpt op een of meerdere criteria en dagelijks meetbaar
+is via een korte EMA-vraag. Predictoren zijn de \emph{ingreepvariabelen} in het
+netwerk -- ze beschrijven \emph{wat veranderbaar is} (bijv.\ avondschermtijd,
+geplande exposure, aerobe beweging). Een predictor is \emph{nooit een symptoom zelf},
+maar een gedrag, strategie of omgevingsfactor die het symptoom beinvloedt.
+
+\medskip\small
+\textit{Voorbeelden ter verduidelijking:}
+\begin{itemize}[topsep=1pt,itemsep=0pt]
+\item \textbf{Criterium:} inslaapproblemen, anticipatieangst, anergie, guilt-driven ruminatie.
+\item \textbf{Predictor:} avondschermtijd (min), geplande exposurestap (ja/nee),
+bewegingsfrequentie (min), preslaap-offloading (ja/nee).
+\item \textbf{Geen predictor, geen criterium:} eetlust bij avondmaal, rusthartslag,
+spierspanning -- dit zijn symptoom- of toestandsmaten, geen behandelbare predictoren.
+\end{itemize}
+\end{instrbox}
+
+\vspace{0.4em}
+\begin{instrbox}[title={Ecological Momentary Assessment (EMA) -- basisprincipes}]
+\small
+\textbf{EMA} is een methode waarbij personen meerdere keren per dag hun actuele
+toestand of gedrag rapporteren via een mobiele applicatie. In PHOENIX wordt EMA
+gebruikt om zowel criteria als predictoren dagelijks te monitoren over een periode
+van meerdere weken.
+
+Een goede EMA-variabele voldoet aan vier vereisten:
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{Dagelijks rapporteerbaar:} via een korte vraag op de smartphone (ja/nee, aantal, minuten of 0--10).
+\item \textbf{Dynamisch en veranderbaar:} geen vaste trek, diagnose of stabiel achtergrondkenmerk.
+\item \textbf{Klinisch relevant:} toont binnen-persoonsvariatie die therapeutisch informatief is.
+\item \textbf{Onderscheid criterium vs.\ predictor:} symptoomdimensies zijn criteria; modificeerbare gedragingen zijn predictoren.
+\end{itemize}
+\end{instrbox}
+
+\vspace{0.4em}
+\begin{instrbox}[title={Het bipartiet netwerk: structuur van het observatiemodel}]
+\small
+Na 21 dagen EMA-monitoring construeert PHOENIX een \textbf{bipartiet netwerk}:
+een graaf met twee kolommensets en gewogen verbindingen daartussen.
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{Linkse kolom -- Predictoren (P):} de modificeerbare variabelen.
+\item \textbf{Rechtse kolom -- Criteria (CR):} de klacht- en toestandsdimensies.
+\item \textbf{Kanten:} de richting loopt van predictor naar criterium (P $\rightarrow$ CR).
+Een \emph{blauwe} rand duidt op een positief verband (predictor vergroot het criterium),
+een \emph{rode} rand op een negatief verband (predictor verkleint het criterium).
+Lijndikte is proportioneel aan de sterkte van het empirische verband uit de monitoringdata.
+\end{itemize}
+In \textbf{Deel 3} rangschikt u de predictoren op behandelprioriteit op basis van
+dit netwerk en de monitoringsamenvatting.
+\end{instrbox}
+
+\vspace{0.5em}
+
+\subsection*{Overzicht van de vijf taken}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.36}
+\small
+\begin{tabular}{@{}>{\bfseries\color{PrimaryBlue}}p{0.05\textwidth}>{\bfseries}p{0.30\textwidth}p{0.38\textwidth}p{0.13\textwidth}@{}}
 \toprule
 Stap & Klinische taak & Wat u doet & Richttijd \\
 \midrule
-1 & Operationalisering & Noteer 2--6 criteriumlabels voor actuele probleemdimensies & $\approx$\,6 min \\
-2 & Initieel observatiemodel & Genereer 3--5 biopsychosociale predictorlabels (EMA-geschikt) & $\approx$\,6 min \\
-3 & Behandeldoelprioritering & Rangschik de 5 standaardpredictoren van hoog naar laag & $\approx$\,7 min \\
-4 & Verfijnd observatiemodel & Selecteer exact 6 EMA-items uit de lijst van 20 & $\approx$\,8 min \\
-5 & Mobiele coaching & Schrijf een korte patientgerichte boodschap voor de app & $\approx$\,8 min \\
+1 & Operationalisering & Identificeer 2--6 \textbf{criteriumlabels} (klachtdimensies) & $\approx$\,6 min \\
+2 & Initieel observatiemodel & Genereer 3--5 \textbf{predictorlabels} (modificeerbaar, EMA-geschikt) & $\approx$\,6 min \\
+3 & Behandeldoelprioritering & Rangschik alle 5 \textbf{predictoren} van hoog naar laag behandelprioriteit & $\approx$\,7 min \\
+4 & Verfijnd observatiemodel & Selecteer exact 6 \textbf{EMA-items} (2 per behandeldoel) uit de lijst van 20 & $\approx$\,8 min \\
+5 & Mobiele coaching & Schrijf een korte patient\-gerichte boodschap voor de app & $\approx$\,8 min \\
 \midrule
  & \textbf{Totaal (2 casussen)} & & \textbf{35--45 min} \\
 \bottomrule
@@ -287,48 +362,43 @@ Ga pas naar een volgend deel wanneer het huidige deel volledig is afgewerkt voor
 \item \textbf{Gebruik geen generatieve AI, schrijfhulpmiddelen, richtlijnen of collegaoverleg.}
 Extern gebruik ondermijnt de methodologische validiteit en de blind scoringswaarde van de studie.
 \item \textbf{Gebruik in latere delen uitsluitend de meegeleverde gestandaardiseerde context.}
-Die is bewust vastgezet zodat alle deelnemers op identieke input reageren.
+Die is bewust vastgezet zodat alle deelnemers op identieke input reageren en vergelijkbaar zijn.
 \item \textbf{Herwerk eerdere antwoorden niet retroactief} nadat u latere context hebt gezien.
 \item \textbf{Noteer of typ rechtstreeks in de voorziene antwoordzones.}
-Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blind beoordeling.
+Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blinde beoordeling.
 \end{enumerate}
-\end{instrbox}
-
-\vspace{0.4em}
-\begin{instrbox}[title={EMA-principes (relevant voor Deel 2 en Deel 4)}]
-\textbf{Ecological Momentary Assessment (EMA)} meet dagelijkse schommelingen via een mobiele
-app. Elke EMA-variabele moet aan vier vereisten voldoen:
-\begin{itemize}[topsep=2pt,itemsep=1pt]
-\item \textbf{Dagelijks rapporteerbaar} via een korte vraag op de smartphone.
-\item \textbf{Dynamisch en veranderbaar:} geen vaste diagnose, trait of achtergrondkenmerk.
-\item \textbf{Meetbaar in een eenvoudig format:} ja/nee, aantal, minuten of een 0--10 score.
-\item \textbf{Klinisch relevant voor opvolging:} toont binnen-persoonsvariatie die therapeutisch informatief is.
-\end{itemize}
-\smallskip
-In \textbf{Deel 2} genereert u zelf predictorlabels. In \textbf{Deel 4} zijn de 20 kandidaat-items
-reeds uitgewerkt als dagelijkse EMA-items; u selecteert de meest geschikte 5.
 \end{instrbox}
 
 \newpage
 
 
-\section{Deel 1: Operationalisering van mentale gezondheidsproblemen}
+\section{Deel 1: Operationalisering van de mentale gezondheidstoestand}
 
 \begin{tcolorbox}[colback=blue!3,colframe=PrimaryBlue,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
 \textbf{\color{PrimaryBlue}Instructies Deel 1}
 
 \smallskip\small
-\textbf{Opdracht:} identificeer de belangrijkste actuele probleemdimensies in de klachttekst en noteer
-voor elke dimensie uitsluitend een \textbf{kort criteriumlabel}.
+\textbf{Opdracht:} identificeer de belangrijkste actuele klacht- en toestandsdimensies
+(\textbf{criteria}) in de klachttekst en noteer voor elke dimensie uitsluitend een
+\textbf{kort criteriumlabel}.
 
-\textbf{Wat telt als criterium?}
-Een klinisch relevante probleemdimensie die:
+\textbf{Wat is een criterium?}
+Een criterium is een \emph{symptoom- of klachtdimensie} die beschrijft \emph{wat er
+mis gaat} bij de persoon. Het is \emph{geen} behandeling, geen gedrag en geen oorzaak,
+maar een actuele toestandsbeschrijving:
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item momenteel aanwezig is in de casus,
-\item inhoudelijk apart te onderscheiden is van andere probleemdimensies,
-\item in principe herhaald meetbaar zou kunnen zijn.
+\item momenteel aanwezig bij de persoon (niet hypothetisch of anamnestisch),
+\item onderscheidbaar van andere klachtdimensies (niet overlappend),
+\item in principe herhaald meetbaar via dagelijkse zelfrapportage (EMA).
 \end{itemize}
+
+\textbf{Voorbeelden van goede criteriumlabels:}
+inslaapproblemen, paniekepisoden, anticipatieangst, sombere stemming, emotionele uitputting,
+anergie, interpersoonlijke instabiliteit, compulsief controleergedrag.
+
+\textbf{Let op:} gedragingen (bijv. ``avondschermtijd''), oorzaken (bijv. ``werkstress'')
+en behandelstrategieën zijn \emph{geen} criteria maar predictoren -- die horen in Deel 2.
 
 \textbf{Antwoordformat:} label van 2--5 woorden, zonder beschrijvende zin.
 Noteer per casus \textbf{2--6 criteria}. Laat ongebruikte velden leeg.
@@ -383,23 +453,35 @@ Gebruik enkel korte labels; voeg geen beschrijving toe.
 \newpage
 
 
-\section{Deel 2: Initieel observatiemodel}
+\section{Deel 2: Initieel observatiemodel (bipartiet netwerk)}
 
 \begin{tcolorbox}[colback=green!3,colframe=ForestGreen,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
 \textbf{\color{ForestGreen}Instructies Deel 2}
 
 \smallskip\small
-\textbf{Opdracht:} genereer \textbf{3--5 biopsychosociale predictorlabels} die een initieel observatiemodel
-vormen voor deze casus.
+\textbf{Opdracht:} genereer \textbf{3--5 predictorlabels} die samen het
+\textbf{initieel observatiemodel} voor deze casus vormen.
 
-\textbf{Wat telt als predictor?}
-Een veranderbare factor die:
+\textbf{Wat is een predictor in deze context?}
+Een predictor is een \emph{modificeerbare gedrags- of procesvariabele} die beschrijft
+\emph{wat de persoon kan veranderen}:
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item klinisch plausibel samenhangt met een of meerdere criteria,
-\item geschikt is voor \textbf{dagelijkse Ecological Momentary Assessment (EMA)},
-\item door de persoon zelf eenvoudig via een mobiele app kan worden gerapporteerd.
+\item \textbf{Modificeerbaar:} de persoon (of therapeut) kan er rechtstreeks op ingrijpen.
+\item \textbf{EMA-geschikt:} dagelijks meetbaar via een eenvoudige vraag op de smartphone
+(ja/nee, aantal, minuten of 0--10 schaal).
+\item \textbf{Causaal plausibel:} klinisch aannemelijk dat het predictor de criteria beinvloedt.
+\item \textbf{Geen criterium:} symptomen, klachtniveaus of diagnostische trekken zijn
+\emph{geen} predictoren.
 \end{itemize}
+
+\textbf{Voorbeelden van goede predictorlabels:}
+avondschermtijd, geplande exposure, aerobe beweging, preslaap-offloading,
+veiligheidsgedrag, werk-privegrens, herstelactiviteit, compulsie-uitstel.
+
+\textbf{Let op:} predictoren als ``eetlust'', ``spierspanning'' of ``moeheid'' zijn
+symptoomdimensies (criteria) -- geen predictoren. Kies variabelen die de persoon
+actief kan uitvoeren of aanpassen.
 
 \textbf{Antwoordformat:} enkel een label van 2--6 woorden, zonder meetdefinitie of toelichting.
 Laat ongebruikte velden leeg.
@@ -468,24 +550,42 @@ Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaa
 \newpage
 
 
-\section{Deel 3: Prioritering van behandeldoelen}
+\section{Deel 3: Behandeldoelprioritering via het bipartiet netwerk}
 
 \begin{tcolorbox}[colback=yellow!5,colframe=GoldAmber,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
 \textbf{\color{GoldAmber}Instructies Deel 3}
 
 \smallskip\small
-\textbf{Opdracht:} rangschik de \textbf{5 standaardpredictoren} van \textbf{hoogste} naar \textbf{laagste}
-klinische prioriteit als behandeldoel.
+\textbf{Opdracht:} rangschik de \textbf{5 standaardpredictoren} van \textbf{hoogste}
+naar \textbf{laagste} behandelprioriteit.
 
-\textbf{Gebruik voor uw rangschikking:}
+\textbf{Wat is een behandeldoel?}
+Een behandeldoel is de predictor die, als hij veranderd wordt, naar verwachting de sterkste
+vermindering van de criteria oplevert. U selecteert op basis van drie criteria:
+\begin{enumerate}[topsep=2pt,itemsep=1pt,label=\alph*)]
+\item \textbf{Bewijs uit monitoring:} is er in de monitoringdata aanleiding dat deze predictor
+actief bijdraagt aan de klacht (bijv.\ hoge frequentie van problematisch gedrag, of bijna
+afwezigheid van gewenst gedrag)?
+\item \textbf{Klinische modificeerbaarheid:} is de predictor realistisch veranderbaar voor
+deze persoon, gegeven profiel en context?
+\item \textbf{Netwerkimpact:} beïnvloedt de predictor meerdere criteria tegelijk (hogere
+return-on-intervention)?
+\end{enumerate}
+
+\textbf{Het bipartiet netwerk lezen:}
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item de 21-daagse monitoring,
-\item de bipartiete netwerkstructuur,
-\item de mate waarin een predictor meerdere criteria kan beinvloeden.
+\item Predictoren staan in de \textbf{linkerkolom (groen)}; criteria in de \textbf{rechterkolom (blauw)}.
+\item \textbf{Blauwe rand:} predictor heeft een positief verband met het criterium
+(hogere predictor $\rightarrow$ hoger criterium; bijv.\ meer veiligheidsgedrag $\rightarrow$ meer angst).
+\item \textbf{Rode rand:} predictor heeft een negatief verband met het criterium
+(hogere predictor $\rightarrow$ lager criterium; bijv.\ meer exposure $\rightarrow$ minder vermijding).
+\item \textbf{Lijndikte:} proportioneel aan de sterkte van het empirische verband
+(21-daagse EMA-data).
 \end{itemize}
 
-\textbf{Antwoordformat:} vul alle prioriteitslijnen in, van 1 tot en met 5.
+\textbf{Antwoordformat:} vul alle 5 prioriteitslijnen in, van rangorde 1 (hoogste prioriteit)
+tot en met 5 (laagste prioriteit).
 \end{tcolorbox}
 
 \vspace{0.5em}
@@ -596,29 +696,40 @@ klinische prioriteit als behandeldoel.
 \newpage
 
 
-\section{Deel 4: Verfijnd observatiemodel via breadth-first update-logica}
+\section{Deel 4: Verfijnd observatiemodel -- selectie van sub-predictoren}
 
 \begin{tcolorbox}[colback=purple!4,colframe=RichPurple,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
 \textbf{\color{RichPurple}Instructies Deel 4}
 
 \smallskip\small
-\textbf{Opdracht:} selecteer per casus \textbf{exact 6 EMA-items}: 2 sub-predictoren per behandeldoel (3 behandeldoelen $\times$ 2 = 6).
+\textbf{Opdracht:} selecteer per casus \textbf{exact 6 EMA-items}:
+\textbf{2 sub-predictoren per behandeldoel} (3 behandeldoelen $\times$ 2 = 6 items).
 
-\textbf{Wat bootst dit deel na?}
-PHOENIX verfijnt het observatiemodel via een \textbf{breadth-first update-logica}: vanuit de
-reeds geprioriteerde behandeldoelen wordt gezocht naar de meest geschikte, direct meetbare
-subpredictoren voor de volgende EMA-cyclus.
+\textbf{Wat zijn sub-predictoren?}
+Een behandeldoel uit Deel 3 (bijv.\ ``geplande exposure'') is een conceptueel label.
+In de volgende EMA-cyclus moet dit label vertaald worden naar \emph{concrete, dagelijks
+meetbare gedragsitems} -- de \textbf{sub-predictoren}. Elke sub-predictor is een
+specifieke operationalisering van het behandeldoel als dagelijkse EMA-vraag.
+
+\textbf{Voorbeeld:} behandeldoel = \textit{avondschermtijd}
+$\rightarrow$ sub-predictor 1: ``smartphone-gebruik na 22.00 uur (min)''
+$\rightarrow$ sub-predictor 2: ``schermvrij interval voor slapengaan (min)''
+
+\textbf{Belangrijk: alle 20 items in de lijst zijn predictor-type EMA-items}
+(modificeerbare gedragingen en strategieën -- \emph{geen} symptomen of
+klachtdimensies). Uw taak is te selecteren welke 6 items het best aansluiten bij
+de 3 gestandaardiseerde behandeldoelen, 2 per doel.
 
 \textbf{Selectieprincipe:}
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item start vanuit de standaardbehandeldoelen hieronder,
-\item kies per behandeldoel \textbf{2 dagelijkse EMA-items} (6 in totaal) die daar het best op aansluiten,
-\item verkies klinisch relevante breedte boven irrelevante of perifere items,
-\item noteer \textbf{geen} toelichting of extra commentaar.
+\item Kies per behandeldoel de 2 items die dat doel het meest direct en precies meten.
+\item Verkies items die samen een compleet beeld geven van het behandeldoel
+(bijv.\ frequentie \emph{en} duur, of twee complementaire gedragingen).
+\item Vermijd items die het behandeldoel slechts zijdelings raken.
 \end{itemize}
 
-\textbf{Antwoordformat:} vink \textbf{exact 6} items aan.
+\textbf{Antwoordformat:} vink \textbf{exact 6} items aan. Geen toelichting vereist.
 \end{tcolorbox}
 
 \vspace{0.5em}
@@ -639,26 +750,26 @@ subpredictoren voor de volgende EMA-cyclus.
 \small\textbf{Opdracht:} selecteer \textbf{exact 6} EMA-items (2 per behandeldoel) die het best passen als volgende subpredictoren.
 \textit{Alle antwoordopties zijn dagelijkse mobiele EMA-items.}
 
-\checkitemBFS{1}{Schermtijd na 22.00 uur (min)}
-\checkitemBFS{2}{Minuten gewacht voor uitvoeren van een compulsie (min)}
-\checkitemBFS{3}{Slaapduur afgelopen nacht (uren)}
-\checkitemBFS{4}{Compulsieve handeling volledig uitgesteld (ja/nee)}
-\checkitemBFS{5}{Spierspanning in de schouders (0--10)}
+\checkitemBFS{1}{Schermtijd na 22.00 uur bewust beperkt (min)}
+\checkitemBFS{2}{Minuten gewacht voor uitvoeren van een compulsieve handeling (min)}
+\checkitemBFS{3}{Slaaptijdstip consistent aangehouden (ja/nee)}
+\checkitemBFS{4}{Compulsieve handeling volledig uitgesteld tot later of niet uitgevoerd (ja/nee)}
+\checkitemBFS{5}{Ontspanningsoefening of grondingsoefening bewust uitgevoerd (min)}
 \checkitemBFS{6}{Cafeine-inname na de middag (aantal)}
-\checkitemBFS{7}{Vermeden situatie betreden zonder compulsie (ja/nee)}
-\checkitemBFS{8}{Studie-uren vandaag (uren)}
-\checkitemBFS{9}{Somatische angstsensaties (0--10)}
+\checkitemBFS{7}{Vermeden situatie bewust betreden zonder uitvoering van compulsie (ja/nee)}
+\checkitemBFS{8}{Sociale activiteit bijgewoond of sociaal contact bewust gezocht (ja/nee)}
+\checkitemBFS{9}{Bewuste activiteit gekozen als alternatief voor obsessief piekeren (min)}
 \checkitemBFS{10}{Duur verblijf in obsessie-activerende situatie zonder vermijden (min)}
-\checkitemBFS{11}{Maaltijdlust vandaag (0--10)}
+\checkitemBFS{11}{Geruststellingsvraag bewust nagelaten (aantal)}
 \checkitemBFS{12}{Slaapritme consistent gevolgd (ja/nee)}
-\checkitemBFS{13}{Onzekerheid getolereerd zonder controlehandeling (min)}
-\checkitemBFS{14}{Geruststelling gevraagd (aantal)}
-\checkitemBFS{15}{Alcoholinname in de avond (aantal)}
-\checkitemBFS{16}{Onzekerheidstolerantieoefening bewust uitgevoerd (ja/nee)}
-\checkitemBFS{17}{Concentratie tijdens studeren (0--10)}
-\checkitemBFS{18}{Contact met vrienden vandaag (ja/nee)}
-\checkitemBFS{19}{Aantal sociale afspraken vandaag (aantal)}
-\checkitemBFS{20}{Lichamelijke activiteit vandaag (min)}
+\checkitemBFS{13}{Onzekerheid bewust getolereerd zonder controle- of compulsieve handeling (min)}
+\checkitemBFS{14}{Maaltijdmoment op vaste tijd aangehouden (ja/nee)}
+\checkitemBFS{15}{Alcoholinname vanavond (eenheden)}
+\checkitemBFS{16}{Onzekerheidstolerantieoefening bewust en gepland uitgevoerd (ja/nee)}
+\checkitemBFS{17}{Gefocuste studieoefening of pomodoro-blok bijgehouden (aantal)}
+\checkitemBFS{18}{Contact met vrienden of bekenden vandaag bewust gezocht (ja/nee)}
+\checkitemBFS{19}{Waterinname vandaag (glazen)}
+\checkitemBFS{20}{Lichaamsbeweging of sport vandaag (min)}
 \vspace{0.4em}
 \noindent\textbf{Totaal geselecteerd:}\hspace{0.5em}\rule{1.2cm}{0.25pt}\hspace{0.2em}/ 6
 \end{responsebox}
@@ -680,26 +791,26 @@ subpredictoren voor de volgende EMA-cyclus.
 \small\textbf{Opdracht:} selecteer \textbf{exact 6} EMA-items (2 per behandeldoel) die het best passen als volgende subpredictoren.
 \textit{Alle antwoordopties zijn dagelijkse mobiele EMA-items.}
 
-\checkitemBFS{1}{Slaapduur afgelopen nacht (uren)}
-\checkitemBFS{2}{Professionele situatie bewust opgezocht (ja/nee)}
-\checkitemBFS{3}{Aantal koffies voor een afspraak (aantal)}
-\checkitemBFS{4}{Lichamelijke spanning voor het werk (0--10)}
-\checkitemBFS{5}{Spreektijd in een vergadering of meeting (min)}
-\checkitemBFS{6}{Positieve feedback ontvangen (ja/nee)}
-\checkitemBFS{7}{Naverwerking van professionele prestatie in avond (min)}
-\checkitemBFS{8}{Werkuren vandaag (uren)}
-\checkitemBFS{9}{Middagpauze genomen (ja/nee)}
-\checkitemBFS{10}{Mentale replay van een situatie voor het slapengaan (ja/nee)}
+\checkitemBFS{1}{Consistent slaap- en waktijdstip aangehouden (ja/nee)}
+\checkitemBFS{2}{Professionele situatie bewust opgezocht of niet vermeden (ja/nee)}
+\checkitemBFS{3}{Cafeine-inname voor een professionele afspraak bewust beperkt (ja/nee)}
+\checkitemBFS{4}{Ontspanningsoefening voor een stressvolle werksituatie bewust uitgevoerd (min)}
+\checkitemBFS{5}{Spreektijd of actieve bijdrage in vergadering bewust geleverd (min)}
+\checkitemBFS{6}{Positieve professionele ervaring bewust genoteerd (ja/nee)}
+\checkitemBFS{7}{Tijd besteed aan naverwerking van professionele prestatie in avond (min)}
+\checkitemBFS{8}{Werkuren op kantoor of thuis vandaag (uren)}
+\checkitemBFS{9}{Middagpauze bewust en schermvrij genomen (ja/nee)}
+\checkitemBFS{10}{Mentale replay van professionele situatie voor slapengaan bewust gestopt (ja/nee)}
 \checkitemBFS{11}{Schermtijd na 21.00 uur (min)}
-\checkitemBFS{12}{Zelfevaluatie vergeleken met externe feedback (ja/nee)}
-\checkitemBFS{13}{Gemiste professionele kans genoteerd (ja/nee)}
-\checkitemBFS{14}{Eetlust voor de lunch (0--10)}
-\checkitemBFS{15}{Aerobe beweging vandaag (min)}
-\checkitemBFS{16}{Vermijdingsepisode in logboek bijgehouden (ja/nee)}
-\checkitemBFS{17}{Irritatie naar collega's (0--10)}
-\checkitemBFS{18}{Ochtendmoeheid (0--10)}
-\checkitemBFS{19}{Aantal sociale berichten verstuurd (aantal)}
-\checkitemBFS{20}{Sociale steun gevraagd (ja/nee)}
+\checkitemBFS{12}{Zelfevaluatie vergeleken met ontvangen externe feedback (ja/nee)}
+\checkitemBFS{13}{Gemiste professionele kans of bewust uitwijking genoteerd (ja/nee)}
+\checkitemBFS{14}{Lunchpauze bewust genomen weg van het scherm (ja/nee)}
+\checkitemBFS{15}{Aerobe beweging of sport vandaag uitgevoerd (min)}
+\checkitemBFS{16}{Vermijdingsepisode (bewust afgeslagen kans) in logboek bijgehouden (ja/nee)}
+\checkitemBFS{17}{Assertieve of constructieve reactie bewust gekozen in werkconflict (ja/nee)}
+\checkitemBFS{18}{Ochtendactiviteit voor werk uitgevoerd als dagstarter (min)}
+\checkitemBFS{19}{Aantal sociale berichten verstuurd of reactie gegeven (aantal)}
+\checkitemBFS{20}{Sociale steun of begeleiding bewust gevraagd (ja/nee)}
 \vspace{0.4em}
 \noindent\textbf{Totaal geselecteerd:}\hspace{0.5em}\rule{1.2cm}{0.25pt}\hspace{0.2em}/ 6
 \end{responsebox}
@@ -708,40 +819,50 @@ subpredictoren voor de volgende EMA-cyclus.
 \newpage
 
 
-\section{Deel 5: Mobiele coachingsboodschap}
+\section{Deel 5: Gepersonaliseerde mobiele coachingsboodschap (HAPA-kader)}
 
 \begin{tcolorbox}[colback=red!3,colframe=ForestGreen,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
 \textbf{\color{ForestGreen}Instructies Deel 5}
 
 \smallskip\small
-\textbf{Opdracht:} schrijf een korte, patientgerichte coachingsboodschap die rechtstreeks in de
-mobiele applicatie kan verschijnen.
+\textbf{Opdracht:} schrijf een korte, rechtstreeks tot de persoon gerichte
+coachingsboodschap die in de mobiele applicatie verschijnt.
 
-\textbf{Gebruik hiervoor:}
-\begin{itemize}[topsep=2pt,itemsep=2pt]
-\item het primaire probleem van de casus,
-\item het geselecteerde behandeldoel,
-\item de voornaamste barriere,
-\item de aangegeven copingstrategie.
+\textbf{Theoretisch kader -- HAPA:}
+PHOENIX gebruikt het \textbf{Health Action Process Approach (HAPA; Schwarzer, 1992)}
+om de boodschap af te stemmen op de motivationele fase van de persoon:
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{Pre-intentionele fase:} de persoon is nog niet gemotiveerd om te veranderen
+$\rightarrow$ focus op risicobewustzijn en uitkomstverwachting.
+\item \textbf{Intentionele fase:} de persoon wil veranderen maar heeft nog geen concreet plan
+$\rightarrow$ focus op doelstelling en actieplanning.
+\item \textbf{Actie-/onderhoudsfase:} de persoon probeert al te veranderen
+$\rightarrow$ focus op copingplanning en zelfeffectiviteitsondersteuning.
 \end{itemize}
+U hoeft de fase niet expliciet te benoemen; gebruik het kader om de toon en inhoud
+van uw boodschap te sturen.
 
-\textbf{De boodschap hoort:}
+\textbf{De boodschap voldoet aan:}
 \begin{itemize}[topsep=2pt,itemsep=2pt]
-\item compact genoeg te zijn voor een mobiel scherm,
-\item warm en professioneel te klinken,
-\item een concrete eerstvolgende stap te bevatten,
-\item rechtstreeks tot de persoon gericht te zijn.
+\item \textbf{Lengte:} 2--4 zinnen, compact genoeg voor een mobiel scherm.
+\item \textbf{Toon:} warm, direct, professioneel -- geen klinisch jargon of diagnostische labels.
+\item \textbf{Inhoud:} adresseert het primaire behandeldoel en de voornaamste barriere;
+bevat een concrete, eerstvolgende actie.
+\item \textbf{Perspectief:} tweede persoon (``jij'' of formeel ``u'').
 \end{itemize}
 
 \textbf{Werkvoorbeeld} (niet gerelateerd aan een studiecasus):
 \begin{tcolorbox}[colback=SoftBG,colframe=BorderGrey,boxrule=0.4pt,arc=1.5mm,
   left=7pt,right=7pt,top=5pt,bottom=5pt]
 \small
-\textbf{Context:} verpleegkundige met het doel om opnieuw korte beweegmomenten in te bouwen;
-barriere = vermoeidheid na de shift; coping = een vaste 10-minutenwandeling koppelen aan het thuiskomen.\\[0.3em]
+\textbf{Context:} verpleegkundige; behandeldoel = korte beweegmomenten inbouwen;
+barriere = vermoeidheid na de shift (lage zelfeffectiviteit); fase = intentioneel.\\[0.3em]
 \textbf{Voorbeeldboodschap:}\\
-\textit{``Na een zware shift voelt rust nemen logisch, maar net dat eerste kleine beweegmoment kan je avond helpen ontladen. Trek vanavond meteen na thuiskomst je schoenen aan en wandel 10 minuten buiten, zonder jezelf meer op te leggen dan dat ene blokje. Zo maak je de stap haalbaar en vergroot je de kans dat je lichaam later echt kan afschakelen.''}
+\textit{``Na een zware shift voelt rust nemen logisch, maar net dat eerste kleine
+beweegmoment kan je avond helpen ontladen. Trek vanavond meteen na thuiskomst je
+schoenen aan en wandel 10 minuten buiten -- niet meer dan dat ene blokje. Zo maak
+je de stap haalbaar en vergroot je de kans dat je lichaam later echt kan afschakelen.''}
 \end{tcolorbox}
 \end{tcolorbox}
 
