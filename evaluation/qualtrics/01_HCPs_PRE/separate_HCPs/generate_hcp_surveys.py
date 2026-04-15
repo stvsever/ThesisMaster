@@ -1448,7 +1448,7 @@ def part2_case(case: dict) -> str:
         rf"\item \textbf{{CR-{idx}}} {label}" for idx, label in enumerate(case["criteria"], start=1)
     )
     return J(
-        rf"\subsection*{{{case.get('local_label', case['label'])}: Deel 2}}",
+        rf"\subsection*{{{case.get('local_label', case['label'])}: {case['profile']} -- Deel 2}}",
         "",
         rf"\begin{{complaintbox}}[title={{{case.get('local_label', case['label'])}: verkorte klachtomschrijving}}]",
         rf"\small {case['profile']}; duur: {case['duration']}. {case['short_desc']}",
@@ -1530,8 +1530,15 @@ def tikz_network(case: dict) -> str:
         for idx, label in enumerate(case["criteria"], start=1)
     )
 
+    # Min-max normalise edge widths within this network to [1.0, 5.0] pt
+    abs_weights = [abs(w) for _, _, w in case["tikz_edges"]]
+    wmin, wmax = min(abs_weights), max(abs_weights)
+
     def edge_latex(src: str, dst: str, weight: float) -> str:
-        lw = round(abs(weight) * 2.5, 2)
+        if wmax > wmin:
+            lw = round(1.0 + (abs(weight) - wmin) / (wmax - wmin) * 4.0, 2)
+        else:
+            lw = 2.5
         color = "StrongRed!85" if weight > 0 else "PrimaryBlue!80"
         return rf"\draw[line width={lw}pt, draw={color}, opacity=0.90] ({src}.east) -- ({dst}.west);"
 
@@ -1539,12 +1546,28 @@ def tikz_network(case: dict) -> str:
         edge_latex(src, dst, weight)
         for src, dst, weight in case["tikz_edges"]
     )
+
+    # Legend embedded inside the figure
+    legend = "\n  ".join([
+        r"% Legend",
+        r"\draw[line width=0.3pt, draw=black!25] (-0.2, -2.85) -- (9.2, -2.85);",
+        r"\draw[line width=2.2pt, draw=StrongRed!85, opacity=0.90] (0.0, -3.25) -- (1.1, -3.25);",
+        r"\node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.2, -3.25)"
+        r" {Rood = risicofactor (positief verband: predictor vergroot criterium)};",
+        r"\draw[line width=2.2pt, draw=PrimaryBlue!80, opacity=0.90] (5.1, -3.25) -- (6.2, -3.25);",
+        r"\node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (6.3, -3.25)"
+        r" {Blauw = beschermend (negatief verband: predictor verkleint criterium)};",
+        r"\node[font=\fontsize{5.0}{6.5}\selectfont, anchor=west, text=black!50] at (0.0, -3.72)"
+        r" {Lijndikte proportioneel aan $|w|$ (binnen netwerk genormaliseerd; bereik 1--5 pt).};",
+    ])
+
     return J(
         r"\begin{center}",
         r"\begin{tikzpicture}[node distance=0pt]",
         "  " + predictor_nodes,
         "  " + criteria_nodes,
         "  " + edges,
+        "  " + legend,
         r"\end{tikzpicture}",
         r"\end{center}",
     )
@@ -1556,7 +1579,7 @@ def part3_case(case: dict) -> str:
     )
     rank_boxes = "\n".join(rf"\rankbox{{{idx}}}" for idx in range(1, len(case["predictors"]) + 1))
     return J(
-        rf"\subsection*{{{case.get('local_label', case['label'])}: Deel 3}}",
+        rf"\subsection*{{{case.get('local_label', case['label'])}: {case['profile']} -- Deel 3}}",
         "",
         rf"\begin{{complaintbox}}[title={{{case.get('local_label', case['label'])}: {case['profile']}}}]",
         rf"\small {case['short_desc']} Duur: {case['duration']}.",
@@ -1623,7 +1646,7 @@ def part4_case(case: dict) -> str:
         for label, rationale in case["treatment_targets"]
     )
     return J(
-        rf"\subsection*{{{case.get('local_label', case['label'])}: Deel 4}}",
+        rf"\subsection*{{{case.get('local_label', case['label'])}: {case['profile']} -- Deel 4}}",
         "",
         r"\begin{contextbox}",
         r"\small\textbf{Gestandaardiseerde behandeldoelen uit Deel 3:}",
@@ -1693,7 +1716,7 @@ barriere = vermoeidheid na de shift; coping = een vaste 10-minutenwandeling kopp
 
 def part5_case(case: dict) -> str:
     return J(
-        rf"\subsection*{{{case.get('local_label', case['label'])}: Deel 5}}",
+        rf"\subsection*{{{case.get('local_label', case['label'])}: {case['profile']} -- Deel 5}}",
         "",
         r"\begin{contextbox}",
         r"\small\renewcommand{\arraystretch}{1.24}",
@@ -1765,8 +1788,8 @@ def completion_page(hcp_code: str, case_a: dict, case_b: dict) -> str:
 
 def build_document(hcp_num: int) -> str:
     hcp_code, case_id_a, case_id_b = ASSIGNMENT[hcp_num]
-    case_a = {**CASES[case_id_a], "local_label": "Casus\u00a01"}
-    case_b = {**CASES[case_id_b], "local_label": "Casus\u00a02"}
+    case_a = {**CASES[case_id_a], "local_label": "Casus 1"}
+    case_b = {**CASES[case_id_b], "local_label": "Casus 2"}
     return J(
         preamble(hcp_code, case_id_a, case_id_b),
         cover_page(hcp_code, case_a, case_b),
@@ -1903,8 +1926,8 @@ def _centered_meta_table(doc: Document, rows: list[tuple[str, str]]) -> None:
 
 def build_word_document(hcp_num: int) -> Document:
     hcp_code, case_id_a, case_id_b = ASSIGNMENT[hcp_num]
-    case_a = {**CASES[case_id_a], "local_label": "Casus\u00a01"}
-    case_b = {**CASES[case_id_b], "local_label": "Casus\u00a02"}
+    case_a = {**CASES[case_id_a], "local_label": "Casus 1"}
+    case_b = {**CASES[case_id_b], "local_label": "Casus 2"}
 
     doc = Document()
 
@@ -2132,7 +2155,7 @@ def build_word_document(hcp_num: int) -> Document:
 
     # ── DEEL 2 ─────────────────────────────────────────────────────────────
     def word_part2_case(case: dict) -> None:
-        _add_heading(doc, f"{case.get('local_label', case['label'])}: Deel 2", level=2)
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: {case['profile']} -- Deel 2", level=2)
         _add_shaded_para(
             doc,
             f"{case.get('local_label', case['label'])}: verkorte klachtomschrijving\n"
@@ -2173,7 +2196,7 @@ def build_word_document(hcp_num: int) -> Document:
 
     # ── DEEL 3 ─────────────────────────────────────────────────────────────
     def word_part3_case(case: dict) -> None:
-        _add_heading(doc, f"{case.get('local_label', case['label'])}: Deel 3", level=2)
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: {case['profile']} -- Deel 3", level=2)
         _add_shaded_para(
             doc,
             f"{case.get('local_label', case['label'])}: {case['profile']}\n{case['short_desc']}  Duur: {case['duration']}.",
@@ -2260,7 +2283,7 @@ def build_word_document(hcp_num: int) -> Document:
 
     # ── DEEL 4 ─────────────────────────────────────────────────────────────
     def word_part4_case(case: dict) -> None:
-        _add_heading(doc, f"{case.get('local_label', case['label'])}: Deel 4", level=2)
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: {case['profile']} -- Deel 4", level=2)
         ctx = doc.add_paragraph()
         ctx.add_run("Gestandaardiseerde behandeldoelen uit Deel 3:").bold = True
         ctx.runs[0].font.size = Pt(10)
@@ -2301,7 +2324,7 @@ def build_word_document(hcp_num: int) -> Document:
 
     # ── DEEL 5 ─────────────────────────────────────────────────────────────
     def word_part5_case(case: dict) -> None:
-        _add_heading(doc, f"{case.get('local_label', case['label'])}: Deel 5", level=2)
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: {case['profile']} -- Deel 5", level=2)
         ctx_data = [
             ("Primair probleem", case["p5_challenge"]),
             ("Behandeldoel", case["p5_target"]),
