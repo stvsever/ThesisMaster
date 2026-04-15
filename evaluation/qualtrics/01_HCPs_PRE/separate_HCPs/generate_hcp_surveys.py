@@ -1381,9 +1381,9 @@ Noteer per casus \textbf{2--6 criteria}. Laat ongebruikte velden leeg.
 
 
 PART1_CASE_TEMPLATE = r"""
-\subsection*{Casus <<LABEL>>: <<PROFILE>>}
+\subsection*{<<LABEL>>: <<PROFILE>>}
 
-\begin{complaintbox}[title={Casus <<LABEL>>: <<PROFILE>>; duur: <<DURATION>>}]
+\begin{complaintbox}[title={<<LABEL>>: <<PROFILE>>; duur: <<DURATION>>}]
 \small <<VIGNETTE>>
 \end{complaintbox}
 
@@ -1405,7 +1405,7 @@ Gebruik enkel korte labels; voeg geen beschrijving toe.
 
 def part1_case(case: dict) -> str:
     return (
-        PART1_CASE_TEMPLATE.replace("<<LABEL>>", case["label"])
+        PART1_CASE_TEMPLATE.replace("<<LABEL>>", case.get("local_label", case["label"]))
         .replace("<<PROFILE>>", case["profile"])
         .replace("<<DURATION>>", case["duration"])
         .replace("<<VIGNETTE>>", case["vignette"])
@@ -1448,9 +1448,9 @@ def part2_case(case: dict) -> str:
         rf"\item \textbf{{CR-{idx}}} {label}" for idx, label in enumerate(case["criteria"], start=1)
     )
     return J(
-        rf"\subsection*{{Casus {case['label']}: Deel 2}}",
+        rf"\subsection*{{{case.get('local_label', case['label'])}: Deel 2}}",
         "",
-        rf"\begin{{complaintbox}}[title={{Casus {case['label']}: verkorte klachtomschrijving}}]",
+        rf"\begin{{complaintbox}}[title={{{case.get('local_label', case['label'])}: verkorte klachtomschrijving}}]",
         rf"\small {case['profile']}; duur: {case['duration']}. {case['short_desc']}",
         r"\end{complaintbox}",
         "",
@@ -1556,9 +1556,9 @@ def part3_case(case: dict) -> str:
     )
     rank_boxes = "\n".join(rf"\rankbox{{{idx}}}" for idx in range(1, len(case["predictors"]) + 1))
     return J(
-        rf"\subsection*{{Casus {case['label']}: Deel 3}}",
+        rf"\subsection*{{{case.get('local_label', case['label'])}: Deel 3}}",
         "",
-        rf"\begin{{complaintbox}}[title={{Casus {case['label']}: {case['profile']}}}]",
+        rf"\begin{{complaintbox}}[title={{{case.get('local_label', case['label'])}: {case['profile']}}}]",
         rf"\small {case['short_desc']} Duur: {case['duration']}.",
         r"\end{complaintbox}",
         "",
@@ -1623,7 +1623,7 @@ def part4_case(case: dict) -> str:
         for label, rationale in case["treatment_targets"]
     )
     return J(
-        rf"\subsection*{{Casus {case['label']}: Deel 4}}",
+        rf"\subsection*{{{case.get('local_label', case['label'])}: Deel 4}}",
         "",
         r"\begin{contextbox}",
         r"\small\textbf{Gestandaardiseerde behandeldoelen uit Deel 3:}",
@@ -1693,7 +1693,7 @@ barriere = vermoeidheid na de shift; coping = een vaste 10-minutenwandeling kopp
 
 def part5_case(case: dict) -> str:
     return J(
-        rf"\subsection*{{Casus {case['label']}: Deel 5}}",
+        rf"\subsection*{{{case.get('local_label', case['label'])}: Deel 5}}",
         "",
         r"\begin{contextbox}",
         r"\small\renewcommand{\arraystretch}{1.24}",
@@ -1758,15 +1758,15 @@ voor de latere blind evaluatie van PHOENIX. Hartelijk dank voor uw bijdrage aan 
 def completion_page(hcp_code: str, case_a: dict, case_b: dict) -> str:
     return (
         COMPLETION_TEMPLATE.replace("<<HCPCODE>>", hcp_code)
-        .replace("<<CA>>", case_a["label"])
-        .replace("<<CB>>", case_b["label"])
+        .replace("<<CA>>", case_a.get("local_label", case_a["label"]))
+        .replace("<<CB>>", case_b.get("local_label", case_b["label"]))
     )
 
 
 def build_document(hcp_num: int) -> str:
     hcp_code, case_id_a, case_id_b = ASSIGNMENT[hcp_num]
-    case_a = CASES[case_id_a]
-    case_b = CASES[case_id_b]
+    case_a = {**CASES[case_id_a], "local_label": "Casus\u00a01"}
+    case_b = {**CASES[case_id_b], "local_label": "Casus\u00a02"}
     return J(
         preamble(hcp_code, case_id_a, case_id_b),
         cover_page(hcp_code, case_a, case_b),
@@ -1903,8 +1903,8 @@ def _centered_meta_table(doc: Document, rows: list[tuple[str, str]]) -> None:
 
 def build_word_document(hcp_num: int) -> Document:
     hcp_code, case_id_a, case_id_b = ASSIGNMENT[hcp_num]
-    case_a = CASES[case_id_a]
-    case_b = CASES[case_id_b]
+    case_a = {**CASES[case_id_a], "local_label": "Casus\u00a01"}
+    case_b = {**CASES[case_id_b], "local_label": "Casus\u00a02"}
 
     doc = Document()
 
@@ -1936,9 +1936,9 @@ def build_word_document(hcp_num: int) -> Document:
         doc,
         f"Deelnemerscode:  {hcp_code}\n\n"
         f"Toegewezen casussen:\n"
-        f"{case_a['label']}  ({case_a['profile']})\n"
+        f"Casus\u00a01  ({case_a['profile']})\n"
         f"en\n"
-        f"{case_b['label']}  ({case_b['profile']})",
+        f"Casus\u00a02  ({case_b['profile']})",
         shade_hex="DBEAFE",
         bold_first_line=True,
     )
@@ -2099,7 +2099,7 @@ def build_word_document(hcp_num: int) -> Document:
 
     # ── DEEL 1 ─────────────────────────────────────────────────────────────
     def word_part1_case(case: dict) -> None:
-        _add_heading(doc, f"Casus {case['label']}: {case['profile']}", level=2)
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: {case['profile']}", level=2)
         _add_shaded_para(
             doc,
             f"CASUSVIGNET  |  Duur: {case['duration']}\n\n{case['vignette']}",
@@ -2132,10 +2132,10 @@ def build_word_document(hcp_num: int) -> Document:
 
     # ── DEEL 2 ─────────────────────────────────────────────────────────────
     def word_part2_case(case: dict) -> None:
-        _add_heading(doc, f"Casus {case['label']}: Deel 2", level=2)
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: Deel 2", level=2)
         _add_shaded_para(
             doc,
-            f"Casus {case['label']}: verkorte klachtomschrijving\n"
+            f"{case.get('local_label', case['label'])}: verkorte klachtomschrijving\n"
             f"{case['profile']}; duur: {case['duration']}. {case['short_desc']}",
             shade_hex="EFF6FF",
         )
@@ -2173,10 +2173,10 @@ def build_word_document(hcp_num: int) -> Document:
 
     # ── DEEL 3 ─────────────────────────────────────────────────────────────
     def word_part3_case(case: dict) -> None:
-        _add_heading(doc, f"Casus {case['label']}: Deel 3", level=2)
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: Deel 3", level=2)
         _add_shaded_para(
             doc,
-            f"Casus {case['label']}: {case['profile']}\n{case['short_desc']}  Duur: {case['duration']}.",
+            f"{case.get('local_label', case['label'])}: {case['profile']}\n{case['short_desc']}  Duur: {case['duration']}.",
             shade_hex="EFF6FF",
         )
         mon = doc.add_paragraph()
@@ -2260,7 +2260,7 @@ def build_word_document(hcp_num: int) -> Document:
 
     # ── DEEL 4 ─────────────────────────────────────────────────────────────
     def word_part4_case(case: dict) -> None:
-        _add_heading(doc, f"Casus {case['label']}: Deel 4", level=2)
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: Deel 4", level=2)
         ctx = doc.add_paragraph()
         ctx.add_run("Gestandaardiseerde behandeldoelen uit Deel 3:").bold = True
         ctx.runs[0].font.size = Pt(10)
@@ -2301,7 +2301,7 @@ def build_word_document(hcp_num: int) -> Document:
 
     # ── DEEL 5 ─────────────────────────────────────────────────────────────
     def word_part5_case(case: dict) -> None:
-        _add_heading(doc, f"Casus {case['label']}: Deel 5", level=2)
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: Deel 5", level=2)
         ctx_data = [
             ("Primair probleem", case["p5_challenge"]),
             ("Behandeldoel", case["p5_target"]),
@@ -2354,8 +2354,8 @@ def build_word_document(hcp_num: int) -> Document:
     # ── AFRONDING ──────────────────────────────────────────────────────────
     _add_heading(doc, "7  Afronding en terugbezorging", level=1)
     p = doc.add_paragraph(
-        f"Dank u voor het invullen van alle vijf delen voor uw twee toegewezen casussen "
-        f"({case_a['label']} en {case_b['label']})."
+        "Dank u voor het invullen van alle vijf delen voor uw twee toegewezen casussen "
+        "(Casus\u00a01 en Casus\u00a02)."
     )
     p.runs[0].font.size = Pt(10)
 
@@ -2366,7 +2366,7 @@ def build_word_document(hcp_num: int) -> Document:
     cl_head.runs[0].font.size = Pt(10)
 
     checklist = [
-        f"Ik heb in Deel 1 voor beide casussen ({case_a['label']} en {case_b['label']}) criteriumlabels ingevuld.",
+        "Ik heb in Deel 1 voor beide casussen (Casus\u00a01 en Casus\u00a02) criteriumlabels ingevuld.",
         f"Ik heb in Deel 2 voor beide casussen predictorlabels ingevuld.",
         f"Ik heb in Deel 3 voor beide casussen alle 5 predictors gerangschikt.",
         f"Ik heb in Deel 4 voor beide casussen exact 5 EMA-items geselecteerd.",
