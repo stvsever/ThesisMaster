@@ -1195,6 +1195,7 @@ Fase 1 -- onafhankelijke expertgeneratie\\[0.2em]
 
 \vspace{0.6cm}
 
+\begin{center}
 \begin{tcolorbox}[
   colback=AccentBlue,colframe=PrimaryBlue,
   arc=2.5mm,boxrule=1.2pt,left=12pt,right=12pt,top=10pt,bottom=10pt,
@@ -1209,9 +1210,11 @@ Toegewezen casussen:\quad
 \textbf{\color{PrimaryBlue}<<CB>>} (<<CB_PROFILE>>)
 }
 \end{tcolorbox}
+\end{center}
 
 \vspace{0.5cm}
 
+\begin{center}
 \begin{tcolorbox}[
   colback=SoftBG,colframe=BorderGrey,
   arc=2mm,left=10pt,right=10pt,top=9pt,bottom=9pt,
@@ -1227,9 +1230,11 @@ Contact & \texttt{stijn.vanseveren@ugent.be} \\
 Geschatte duur & Ongeveer 35--45 minuten voor beide casussen samen \\
 \end{tabularx}
 \end{tcolorbox}
+\end{center}
 
 \vspace{0.4cm}
 
+\begin{center}
 \begin{tcolorbox}[
   colback=SoftBG,colframe=BorderGrey,
   arc=2mm,left=10pt,right=10pt,top=9pt,bottom=9pt,
@@ -1253,9 +1258,11 @@ EMA-metingen en (5) een mobiele coachingsboodschap.
 reele professionele context zou doen, maar werk strikt volgens de instructies op de
 volgende pagina.
 \end{tcolorbox}
+\end{center}
 
 \vspace{0.4cm}
 
+\begin{center}
 \begin{tcolorbox}[
   colback=AccentAmber,colframe=GoldAmber,
   arc=2mm,boxrule=0.7pt,left=10pt,right=10pt,top=8pt,bottom=8pt,
@@ -1267,6 +1274,7 @@ geanonimiseerd en uitsluitend gebruikt binnen deze masterproefstudie. Deelname i
 vrijwillig; u kan zich op elk moment terugtrekken door contact op te nemen met de
 onderzoeker.
 \end{tcolorbox}
+\end{center}
 
 \vfill
 \newpage
@@ -1686,7 +1694,7 @@ def part5_case(case: dict) -> str:
         "",
         r"\begin{contextbox}",
         r"\small\renewcommand{\arraystretch}{1.24}",
-        r"\begin{tabular}{@{}>{\bfseries\color{ForestGreen}}p{0.28\textwidth}p{0.66\textwidth}@{}}",
+        r"\begin{tabular}[t]{@{}>{\raggedright\bfseries\color{ForestGreen}\arraybackslash}p{0.27\linewidth}>{\raggedright\arraybackslash}p{0.67\linewidth}@{}}",
         rf"Primair probleem & {case['p5_challenge']} \\[0.15em]",
         rf"Behandeldoel & {case['p5_target']} \\[0.15em]",
         rf"Voornaamste barriere & {case['p5_barrier']} \\[0.15em]",
