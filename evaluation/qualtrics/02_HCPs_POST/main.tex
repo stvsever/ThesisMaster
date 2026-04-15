@@ -1,0 +1,1172 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,left=2.2cm,right=2.2cm,top=2.4cm,bottom=2.4cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{tcolorbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{multicol}
+
+\tcbuselibrary{skins,breakable}
+
+\hypersetup{
+  colorlinks=true,linkcolor=black,urlcolor=black,citecolor=black,
+  pdftitle={PHOENIX Evaluation Study --- Phase 2 Blind Evaluation Survey (HCP)},
+  pdfauthor={Stijn Van Severen --- Ghent University}
+}
+
+% ── Colour palette ─────────────────────────────────────────────────────────
+\definecolor{PrimaryBlue}{HTML}{1D4ED8}
+\definecolor{DarkBlue}{HTML}{1E3A5F}
+\definecolor{TealGreen}{HTML}{0E7490}
+\definecolor{ForestGreen}{HTML}{047857}
+\definecolor{GoldAmber}{HTML}{B45309}
+\definecolor{RichPurple}{HTML}{6D28D9}
+\definecolor{SlateMid}{HTML}{475569}
+\definecolor{BorderGrey}{HTML}{CBD5E1}
+\definecolor{SoftBG}{HTML}{F8FAFC}
+\definecolor{AccentBlue}{HTML}{DBEAFE}
+\definecolor{AccentGreen}{HTML}{D1FAE5}
+\definecolor{AccentAmber}{HTML}{FEF3C7}
+\definecolor{AccentPurple}{HTML}{EDE9FE}
+\definecolor{AccentRed}{HTML}{FFE4E6}
+\definecolor{AccentTeal}{HTML}{CFFAFE}
+\definecolor{OutputABG}{HTML}{EFF6FF}
+\definecolor{OutputBBG}{HTML}{F0FDF4}
+\definecolor{ScaleBG}{HTML}{FAFAFA}
+\definecolor{PartOneBG}{HTML}{EFF6FF}
+\definecolor{PartTwoBG}{HTML}{F0FDF4}
+\definecolor{PartThreeBG}{HTML}{FFFBEB}
+\definecolor{PartFourBG}{HTML}{FAF5FF}
+\definecolor{PartFiveBG}{HTML}{FFF1F2}
+
+% ── Typography ──────────────────────────────────────────────────────────────
+\titleformat{\section}{\Large\bfseries\color{DarkBlue}}{\thesection}{0.7em}{}[\vspace{-0.2em}\color{PrimaryBlue}\rule{\textwidth}{0.6pt}]
+\titleformat{\subsection}{\large\bfseries\color{PrimaryBlue}}{\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\color{TealGreen}}{\thesubsubsection}{0.5em}{}
+
+\setlist[itemize]{topsep=3pt,itemsep=2pt,leftmargin=1.4em}
+\setlist[enumerate]{topsep=3pt,itemsep=2pt,leftmargin=1.6em}
+\setlength{\parskip}{0.45em}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.30}
+
+% ── Page style ──────────────────────────────────────────────────────────────
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{SlateMid}PHOENIX Evaluation Study --- Phase 2: Blind Expert Evaluation}
+\fancyhead[R]{\small\color{SlateMid}Healthcare Professional POST Survey}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.3pt}\renewcommand{\footrulewidth}{0pt}
+
+% ── Custom boxes ────────────────────────────────────────────────────────────
+\newtcolorbox{vignettebox}[1][]{
+  colback=SoftBG,colframe=SlateMid,
+  boxrule=0.6pt,arc=2mm,breakable,
+  left=8pt,right=8pt,top=7pt,bottom=7pt,
+  fonttitle=\small\bfseries\color{SlateMid},
+  title=Case Vignette (Evaluator Reference),#1
+}
+\newtcolorbox{outputAbox}[1][]{
+  colback=OutputABG,colframe=PrimaryBlue,
+  boxrule=0.8pt,arc=2.5mm,breakable,
+  left=10pt,right=10pt,top=8pt,bottom=8pt,
+  fonttitle=\small\bfseries\color{PrimaryBlue},
+  title={\textbf{OUTPUT A} --- (Source Concealed)},#1
+}
+\newtcolorbox{outputBbox}[1][]{
+  colback=OutputBBG,colframe=ForestGreen,
+  boxrule=0.8pt,arc=2.5mm,breakable,
+  left=10pt,right=10pt,top=8pt,bottom=8pt,
+  fonttitle=\small\bfseries\color{ForestGreen},
+  title={\textbf{OUTPUT B} --- (Source Concealed)},#1
+}
+\newtcolorbox{ratingbox}[1][]{
+  colback=AccentAmber,colframe=GoldAmber,
+  boxrule=0.7pt,arc=2mm,breakable,
+  left=8pt,right=8pt,top=7pt,bottom=7pt,
+  fonttitle=\small\bfseries\color{GoldAmber},
+  title=Rating Items,#1
+}
+\newtcolorbox{instrbox}[1][]{
+  colback=SoftBG,colframe=BorderGrey,
+  boxrule=0.5pt,arc=1.5mm,breakable,
+  left=8pt,right=8pt,top=7pt,bottom=7pt,
+  fonttitle=\bfseries\color{SlateMid},#1
+}
+\newtcolorbox{counterbalbox}[1][]{
+  colback=AccentPurple,colframe=RichPurple,
+  boxrule=0.7pt,arc=2mm,breakable,
+  left=8pt,right=8pt,top=7pt,bottom=7pt,
+  fonttitle=\small\bfseries\color{RichPurple},
+  title=Counterbalancing Note (Researcher Only),#1
+}
+
+% ── Helpers ─────────────────────────────────────────────────────────────────
+\newcommand{\likertscale}[1]{%
+\par\vspace{0.15em}%
+\noindent\begin{tcolorbox}[colback=ScaleBG,colframe=BorderGrey,boxrule=0.4pt,arc=1mm,left=5pt,right=5pt,top=4pt,bottom=4pt]%
+\small\textbf{\color{SlateMid}#1}\\[0.25em]%
+\begin{tabular}{@{}*{9}{c}@{}}%
+1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\%
+\multicolumn{3}{l}{\tiny\itshape Poor/Absent} & & \multicolumn{1}{c}{\tiny\itshape Adequate} & & \multicolumn{3}{r}{\tiny\itshape Excellent/Optimal}%
+\end{tabular}%
+\quad\textit{Rate Output A and Output B independently on this scale.}%
+\end{tcolorbox}\vspace{0.1em}}
+
+\newcommand{\hapascale}{%
+\par\vspace{0.15em}%
+\noindent\begin{tcolorbox}[colback=AccentRed,colframe=RichPurple,boxrule=0.5pt,arc=1mm,left=6pt,right=6pt,top=4pt,bottom=4pt]%
+\small\textbf{\color{RichPurple}HAPA Phase Classification (Multiple Choice)}\\[0.15em]%
+Based on the case information only (before reading outputs), select the most appropriate motivational phase:\\[0.1em]%
+$\square$~\textbf{Pre-Intentional} --- person has not yet formed a clear behavioural intention\\%
+$\square$~\textbf{Intentional} --- person intends to change but has not yet started acting\\%
+$\square$~\textbf{Action-Maintenance} --- person is actively engaged in behaviour change\\[0.1em]%
+\textit{This is your independent clinical judgment --- do not be influenced by Outputs A or B.}%
+\end{tcolorbox}\vspace{0.1em}}
+
+\begin{document}
+
+% ─────────────────────────────────────────────────────────────────────────────
+%  COVER PAGE
+% ─────────────────────────────────────────────────────────────────────────────
+\begin{titlepage}
+\centering\vspace*{0.8cm}
+
+\begin{tcolorbox}[
+  colback=DarkBlue,colframe=DarkBlue,
+  arc=3mm,left=14pt,right=14pt,top=12pt,bottom=12pt,
+  width=\textwidth
+]
+\centering
+{\fontsize{22}{28}\selectfont\bfseries\color{white}
+PHOENIX Evaluation Study\\[0.3em]
+\fontsize{15}{20}\selectfont\color{AccentBlue}
+Phase 2 --- Double-Blind Expert Evaluation Survey\\[0.2em]
+\fontsize{12}{16}\selectfont\color{white}
+\textit{Healthcare Professional (POST) Instrument}
+}
+\end{tcolorbox}
+
+\vspace{0.9cm}
+
+\begin{tcolorbox}[
+  colback=SoftBG,colframe=BorderGrey,
+  arc=2mm,left=10pt,right=10pt,top=9pt,bottom=9pt,
+  width=0.90\textwidth
+]
+\small\renewcommand{\arraystretch}{1.30}
+\begin{tabularx}{\textwidth}{@{}>{\bfseries\raggedright}p{0.26\textwidth}X@{}}
+Study title   & Evaluating the Clinical Quality of an Ontology-Based Multi-Agent Mental Health Support System (PHOENIX) \\
+Institution   & Ghent University --- Faculty of Psychology and Educational Sciences \\
+Researcher    & Stijn Van Severen (M.Sc.\ candidate) \\
+Supervisors   & Prof.\ Geert Crombez; Dr.\ Annick De Paepe \\
+Phase         & Phase 2 --- Blind Evaluation (POST) \\
+Estimated time & Approximately 90--120 minutes (recommended: two sessions of 45--60 min) \\
+Contact       & stijn.vanseveren@ugent.be \\
+\end{tabularx}
+\end{tcolorbox}
+
+\vspace{0.7cm}
+
+\begin{tcolorbox}[
+  colback=AccentRed,colframe=RichPurple,
+  arc=2mm,left=10pt,right=10pt,top=9pt,bottom=9pt,
+  width=0.88\textwidth
+]
+\textbf{\color{RichPurple}\large Double-Blind Evaluation Notice}
+
+\medskip\small
+In this phase you will evaluate \textbf{ten standardised case vignettes}, each associated with \textbf{two anonymised clinical outputs} (labelled \textbf{Output A} and \textbf{Output B}). The outputs were produced by two different sources --- one a human healthcare professional, one an AI reasoning system --- but the labels have been \textbf{deliberately concealed}. You must not attempt to guess the source.
+
+\medskip
+For each case and each of the five clinical reasoning parts, you will:
+\begin{enumerate}[topsep=3pt,itemsep=2pt]
+\item Read the case vignette and standardised context.
+\item Read Output A and Output B independently.
+\item Rate \emph{each} output on the relevant clinical quality dimensions (1--9 Likert scale).
+\item In Part 5 only: independently classify the HAPA motivational phase \emph{before} reading outputs.
+\end{enumerate}
+
+\medskip
+Your judgments are the primary data of this study. Please rate carefully and independently.
+\end{tcolorbox}
+
+\vfill
+
+\begin{tcolorbox}[
+  colback=SoftBG,colframe=BorderGrey,
+  arc=1.5mm,left=8pt,right=8pt,top=7pt,bottom=7pt,
+  width=0.82\textwidth
+]
+\centering\small
+\textbf{This document is the survey blueprint for Qualtrics configuration.}\\
+It shows placeholder text for Output A and Output B. In the actual Qualtrics survey, real outputs from Phase 1 are inserted.
+\end{tcolorbox}
+
+\vspace{0.4cm}{\large\today}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Introduction and Participant Information}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\subsection{Study Overview}
+
+This is Phase 2 (POST evaluation) of the PHOENIX master's thesis evaluation study. In Phase 1, five healthcare professionals each independently completed two clinical reasoning cases, producing expert clinical outputs across five tasks (operationalization, initial model, treatment targets, updated model, intervention message). Simultaneously, the PHOENIX AI pipeline processed the same ten cases.
+
+You are one of five independent evaluators in Phase 2. You will assess both sets of outputs (AI and human expert) in a \textbf{double-blind format}: you will not know which output was produced by a human and which by the AI system.
+
+\subsection{Your Role}
+
+\begin{itemize}
+\item You will evaluate \textbf{all ten case vignettes} across \textbf{all five clinical reasoning parts}.
+\item For each case and part, you will see \textbf{Output A} and \textbf{Output B} --- two anonymised outputs.
+\item You will rate each output independently on \textbf{part-specific clinical quality dimensions} using a \textbf{1--9 Likert scale}.
+\item In Part 5, you will also \textbf{independently classify the HAPA motivational phase} based on the case information (before reading outputs).
+\end{itemize}
+
+\subsection{Ethical Notice and Blinding Protocol}
+
+\begin{instrbox}[title=Critical blinding instructions]
+\begin{enumerate}
+\item \textbf{Do not attempt to identify the source.} The labelling (A/B) is randomised and counterbalanced. No deduction from content is reliable.
+\item \textbf{Rate each output on its own merits.} Do not compare outputs to each other --- rate each independently as if you only had access to that one output.
+\item \textbf{Use the full 1--9 scale.} Do not cluster your ratings at 7 or above; a score of 9 should reflect genuinely outstanding clinical quality.
+\item \textbf{Rate all dimensions.} Missing items create missingness in the mixed-effects model; please complete every item.
+\item \textbf{You may take breaks between cases.} Each case is independent. Complete each part's block of cases in one session if possible.
+\end{enumerate}
+\end{instrbox}
+
+\subsection{Estimated Time and Session Plan}
+
+\begin{center}
+\small\renewcommand{\arraystretch}{1.40}
+\begin{tabular}{@{}>{\bfseries}p{0.06\textwidth}p{0.35\textwidth}p{0.22\textwidth}p{0.12\textwidth}p{0.14\textwidth}@{}}
+\toprule
+\textbf{Part} & \textbf{Clinical Task Evaluated} & \textbf{Dimensions} & \textbf{Items} & \textbf{Est.\ time} \\
+\midrule
+1 & Operationalization quality    & 3 per output & 60 & $\approx$20 min \\
+2 & Initial observational model   & 4 per output & 80 & $\approx$25 min \\
+3 & Treatment-target identification & 3 per output & 60 & $\approx$20 min \\
+4 & Updated observational model   & 2 per output & 40 & $\approx$15 min \\
+5 & Intervention message quality  & 4 per output + HAPA classification & 80+10 & $\approx$25 min \\
+\midrule
+  & \textbf{Total} & 16 dimensions & \textbf{330} & \textbf{$\approx$90--120 min} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Recommended sessions:}
+\begin{itemize}
+\item \textbf{Session 1} (Parts 1--2, all 10 cases): approximately 45 minutes.
+\item \textbf{Session 2} (Parts 3--5, all 10 cases): approximately 50--70 minutes.
+\end{itemize}
+
+\newpage
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Rating Scale Guide}
+\label{sec:scales}
+% ─────────────────────────────────────────────────────────────────────────────
+
+All ratings use a 1--9 point Likert scale where:
+
+\begin{center}
+\small\renewcommand{\arraystretch}{1.50}
+\begin{tabular}{@{}>{\bfseries\color{PrimaryBlue}}p{0.06\textwidth}p{0.35\textwidth}p{0.50\textwidth}@{}}
+\toprule
+\textbf{Score} & \textbf{General Meaning} & \textbf{Example clinical interpretation} \\
+\midrule
+1--2 & Poor / Absent & Output misses the target entirely or contains major clinical errors \\
+3--4 & Below adequate & Partially relevant but with significant omissions or inaccuracies \\
+5    & Adequate       & Meets minimum clinical standard; workable but unimpressive \\
+6--7 & Good           & Clinically sound and appropriately detailed \\
+8--9 & Excellent      & Optimal clinical quality; meets or exceeds expert expectations \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vspace{0.4em}
+\begin{instrbox}[title=Anchors per dimension]
+Each part provides specific anchors for each dimension. \textbf{Rate Output A and Output B completely independently}. Assign ratings based solely on clinical merit, not relative comparison. Both outputs may receive the same score; this is expected and acceptable.
+\end{instrbox}
+
+\vspace{0.5em}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Counterbalancing and Blinding Scheme}
+\label{sec:counterbalancing}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\begin{counterbalbox}
+\small
+This section documents the output assignment for researcher reference. \textbf{This information is not shown to POST evaluators in the Qualtrics survey.}
+
+\medskip
+\begin{center}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabular}{@{}>{\bfseries\color{PrimaryBlue}}p{0.07\textwidth}p{0.18\textwidth}p{0.18\textwidth}p{0.20\textwidth}p{0.25\textwidth}@{}}
+\toprule
+\textbf{Case} & \textbf{Output A Source} & \textbf{Output B Source} & \textbf{PRE Respondent} & \textbf{Counterbalance Group} \\
+\midrule
+C01 & PHOENIX & HCP-PRE-01 & HCP-PRE-01 & Group I (A=PHOENIX) \\
+C02 & PHOENIX & HCP-PRE-01 & HCP-PRE-01 & Group I (A=PHOENIX) \\
+C03 & PHOENIX & HCP-PRE-02 & HCP-PRE-02 & Group I (A=PHOENIX) \\
+C04 & PHOENIX & HCP-PRE-02 & HCP-PRE-02 & Group I (A=PHOENIX) \\
+C05 & PHOENIX & HCP-PRE-03 & HCP-PRE-03 & Group I (A=PHOENIX) \\
+C06 & HCP-PRE-03 & PHOENIX & HCP-PRE-03 & Group II (B=PHOENIX) \\
+C07 & HCP-PRE-04 & PHOENIX & HCP-PRE-04 & Group II (B=PHOENIX) \\
+C08 & HCP-PRE-04 & PHOENIX & HCP-PRE-04 & Group II (B=PHOENIX) \\
+C09 & HCP-PRE-05 & PHOENIX & HCP-PRE-05 & Group II (B=PHOENIX) \\
+C10 & HCP-PRE-05 & PHOENIX & HCP-PRE-05 & Group II (B=PHOENIX) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\medskip
+The 5/5 split (PHOENIX=A for C01--C05; PHOENIX=B for C06--C10) controls for any systematic bias favoring label A or label B. In analysis, outputs are identified by their true source (PHOENIX vs.\ HCP) after unblinding.
+\end{counterbalbox}
+
+\newpage
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Part 1: Operationalization Quality Evaluation}
+\label{sec:part1}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\begin{tcolorbox}[colback=PartOneBG,colframe=PrimaryBlue,arc=2.5mm,boxrule=0.9pt,left=10pt,right=10pt,top=9pt,bottom=9pt]
+\textbf{\color{PrimaryBlue}Part 1 Evaluation Instructions}
+
+\smallskip
+\textbf{What was the task?} In Phase 1, each respondent was asked to identify and operationalize the key mental health criteria present in the case complaint. They were asked to list 2--6 criteria, each with a short label (2--5 words) and a brief description (1--2 sentences).
+
+\textbf{Dimensions to rate} (1--9 each, rate Output A and B independently):
+\begin{enumerate}
+\item \textbf{Criterion accuracy}: Does the output accurately capture the key mental state dimensions described in the complaint? (\textit{1 = major dimensions missed; 9 = all key aspects captured precisely})
+\item \textbf{Operationalization quality}: Are the criteria formulated as measurable, time-varying mental health dimensions suitable for repeated self-monitoring? (\textit{1 = not operationalized, merely labels; 9 = all criteria have clear measurement definitions})
+\item \textbf{Completeness}: Are all clinically relevant criteria from the complaint represented, without over-inclusion of irrelevant dimensions? (\textit{1 = major omissions or excessive inclusions; 9 = comprehensive and appropriately scoped})
+\end{enumerate}
+
+\textbf{Qualtrics setup:} 10 cases $\times$ 2 outputs $\times$ 3 dimensions = 60 rating items (Matrix/Likert questions; 1--9 scale). Group cases as blocks.
+
+\textbf{Time:} Approximately 2 minutes per case ($\approx$20 minutes total for all 10 cases).
+\end{tcolorbox}
+
+\vspace{0.5em}
+
+% ── Template for each case ──────────────────────────────────────────────────
+% Note: In Qualtrics, [OUTPUT A TEXT] and [OUTPUT B TEXT] are replaced with
+% actual outputs from Phase 1 (PHOENIX or HCP per counterbalancing table).
+% ────────────────────────────────────────────────────────────────────────────
+
+\subsubsection*{Case C01 --- 28-year-old software developer}
+\begin{vignettebox}
+\small Sleep onset insomnia, bedtime cognitive hyperarousal, social anhedonia, musculoskeletal somatic tension. Duration: 2 months. Reference case profile for evaluator context only.
+\end{vignettebox}
+
+\begin{outputAbox}
+\small\textit{[In Qualtrics: insert Phase 1 Output A text for this case/part. Per counterbalancing table: PHOENIX output for C01.]}
+\end{outputAbox}
+
+\begin{outputBbox}
+\small\textit{[In Qualtrics: insert Phase 1 Output B text for this case/part. Per counterbalancing table: HCP-PRE-01 output for C01.]}
+\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{Criterion accuracy} --- Output A \hfill (circle: 1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{Criterion accuracy} --- Output B \hfill (circle: 1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Operationalization quality} --- Output A \hfill (circle: 1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Operationalization quality} --- Output B \hfill (circle: 1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3a. \textbf{Completeness} --- Output A \hfill (circle: 1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3b. \textbf{Completeness} --- Output B \hfill (circle: 1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C02 --- 34-year-old healthcare administrator}
+\begin{vignettebox}
+\small Recurrent panic episodes, anticipatory anxiety, situational avoidance, occupational interference. Duration: 3 months.
+\end{vignettebox}
+
+\begin{outputAbox}
+\small\textit{[PHOENIX output for C02, Part 1.]}
+\end{outputAbox}
+\begin{outputBbox}
+\small\textit{[HCP-PRE-01 output for C02, Part 1.]}
+\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{Criterion accuracy} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{Criterion accuracy} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Operationalization quality} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Operationalization quality} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3a. \textbf{Completeness} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3b. \textbf{Completeness} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C03 --- 41-year-old secondary school teacher}
+\begin{vignettebox}
+\small Professional burnout, emotional exhaustion, depersonalization, social withdrawal, occupational cognitive difficulties. Duration: 7 months.
+\end{vignettebox}
+
+\begin{outputAbox}
+\small\textit{[PHOENIX output for C03, Part 1.]}
+\end{outputAbox}
+\begin{outputBbox}
+\small\textit{[HCP-PRE-02 output for C03, Part 1.]}
+\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{Criterion accuracy} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{Criterion accuracy} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Operationalization quality} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Operationalization quality} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3a. \textbf{Completeness} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3b. \textbf{Completeness} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C04 --- 63-year-old retired professional}
+\begin{vignettebox}
+\small Prolonged grief response, sleep maintenance insomnia, guilt-based rumination, reduced future orientation. Duration: 9 months post-bereavement.
+\end{vignettebox}
+
+\begin{outputAbox}
+\small\textit{[PHOENIX output for C04, Part 1.]}
+\end{outputAbox}
+\begin{outputBbox}
+\small\textit{[HCP-PRE-02 output for C04, Part 1.]}
+\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{Criterion accuracy} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{Criterion accuracy} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Operationalization quality} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Operationalization quality} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3a. \textbf{Completeness} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3b. \textbf{Completeness} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C05 --- 25-year-old postgraduate student}
+\begin{vignettebox}
+\small Intrusive harm-related thoughts, compulsive reviewing, experiential avoidance, uncertainty intolerance. Duration: 20 months.
+\end{vignettebox}
+
+\begin{outputAbox}
+\small\textit{[PHOENIX output for C05, Part 1.]}
+\end{outputAbox}
+\begin{outputBbox}
+\small\textit{[HCP-PRE-03 output for C05, Part 1.]}
+\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{Criterion accuracy} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{Criterion accuracy} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Operationalization quality} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Operationalization quality} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3a. \textbf{Completeness} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3b. \textbf{Completeness} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C06 --- 32-year-old marketing professional}
+\begin{vignettebox}
+\small Professional performance anxiety, post-event processing, advancement avoidance, chronic occupational anxiety. Duration: $>$3 years.
+\end{vignettebox}
+
+\begin{outputAbox}
+\small\textit{[HCP-PRE-03 output for C06, Part 1. (Note to researcher: counterbalanced --- A=HCP for C06--C10.)]}
+\end{outputAbox}
+\begin{outputBbox}
+\small\textit{[PHOENIX output for C06, Part 1.]}
+\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{Criterion accuracy} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{Criterion accuracy} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Operationalization quality} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Operationalization quality} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3a. \textbf{Completeness} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3b. \textbf{Completeness} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C07 --- 46-year-old accounts manager}
+\begin{vignettebox}
+\small Persistent low mood, anergia, social isolation, hopelessness, anhedonia. Duration: 14 months.
+\end{vignettebox}
+
+\begin{outputAbox}
+\small\textit{[HCP-PRE-04 output for C07, Part 1.]}
+\end{outputAbox}
+\begin{outputBbox}
+\small\textit{[PHOENIX output for C07, Part 1.]}
+\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{Criterion accuracy} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{Criterion accuracy} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Operationalization quality} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Operationalization quality} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3a. \textbf{Completeness} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3b. \textbf{Completeness} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C08 --- 38-year-old project manager}
+\begin{vignettebox}
+\small ADHD-related executive dysfunction, emotional dysregulation, interpersonal conflict, shame response. Childhood onset.
+\end{vignettebox}
+
+\begin{outputAbox}
+\small\textit{[HCP-PRE-04 output for C08, Part 1.]}
+\end{outputAbox}
+\begin{outputBbox}
+\small\textit{[PHOENIX output for C08, Part 1.]}
+\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{Criterion accuracy} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{Criterion accuracy} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Operationalization quality} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Operationalization quality} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3a. \textbf{Completeness} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3b. \textbf{Completeness} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C09 --- 27-year-old sales representative}
+\begin{vignettebox}
+\small Emotional dysregulation, impulsivity, interpersonal instability, identity disturbance. Duration: 3 years.
+\end{vignettebox}
+
+\begin{outputAbox}
+\small\textit{[HCP-PRE-05 output for C09, Part 1.]}
+\end{outputAbox}
+\begin{outputBbox}
+\small\textit{[PHOENIX output for C09, Part 1.]}
+\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{Criterion accuracy} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{Criterion accuracy} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Operationalization quality} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Operationalization quality} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3a. \textbf{Completeness} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3b. \textbf{Completeness} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C10 --- 52-year-old operations director}
+\begin{vignettebox}
+\small Chronic occupational stress, sleep maintenance insomnia, somatic stress symptoms, evening alcohol coping. Duration: 9 months.
+\end{vignettebox}
+
+\begin{outputAbox}
+\small\textit{[HCP-PRE-05 output for C10, Part 1.]}
+\end{outputAbox}
+\begin{outputBbox}
+\small\textit{[PHOENIX output for C10, Part 1.]}
+\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{Criterion accuracy} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{Criterion accuracy} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Operationalization quality} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Operationalization quality} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3a. \textbf{Completeness} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3b. \textbf{Completeness} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\newpage
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Part 2: Initial Observational Model Evaluation}
+\label{sec:part2}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\begin{tcolorbox}[colback=PartTwoBG,colframe=ForestGreen,arc=2.5mm,boxrule=0.9pt,left=10pt,right=10pt,top=9pt,bottom=9pt]
+\textbf{\color{ForestGreen}Part 2 Evaluation Instructions}
+
+\smallskip
+\textbf{What was the task?} Respondents were asked to propose 3--6 modifiable predictor variables that could be measured daily alongside the criteria identified in Part 1, and to describe how each predictor connects to the criteria network.
+
+\textbf{Dimensions to rate} (1--9 each, rate A and B independently):
+\begin{enumerate}
+\item \textbf{Clinical appropriateness}: Are the proposed predictors clinically plausible, evidence-supported risk/maintenance factors for this presentation? (\textit{1 = implausible; 9 = all strongly evidence-based})
+\item \textbf{Network validity}: Do the proposed predictor-to-criterion connections make clinical sense? (\textit{1 = connections clinically unjustifiable; 9 = all connections clinically sound and specific})
+\item \textbf{EMA feasibility}: Can the proposed predictors realistically be monitored via daily ecological momentary assessment? (\textit{1 = not self-monitorable; 9 = all fully feasible for once/twice-daily EMA})
+\item \textbf{Intervention potential}: Do the proposed predictors represent genuinely modifiable targets that could be the focus of a digital intervention? (\textit{1 = no modifiable levers; 9 = multiple high-leverage, modifiable predictors})
+\end{enumerate}
+
+\textbf{Context shown to evaluators:} In addition to the vignette, evaluators see the standardised criteria list from Part 1 (as context for the model they are evaluating).
+
+\textbf{Time:} Approximately 2.5 minutes per case ($\approx$25 minutes total).
+\end{tcolorbox}
+
+\vspace{0.5em}
+
+% ── Cases C01--C10 (abbreviated for space) ──────────────────────────────────
+
+\subsubsection*{Case C01 --- 28-year-old software developer}
+\begin{vignettebox}
+\small\textbf{Standardised criteria (context):} CR-1: Sleep onset insomnia \quad CR-2: Cognitive hyperarousal \quad CR-3: Social anhedonia \quad CR-4: Musculoskeletal tension
+\end{vignettebox}
+
+\begin{outputAbox}
+\small\textit{[PHOENIX output for C01, Part 2.]}
+\end{outputAbox}
+\begin{outputBbox}
+\small\textit{[HCP-PRE-01 output for C01, Part 2.]}
+\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{Clinical appropriateness} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{Clinical appropriateness} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Network validity} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Network validity} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3a. \textbf{EMA feasibility} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3b. \textbf{EMA feasibility} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{4a. \textbf{Intervention potential} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{4b. \textbf{Intervention potential} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\vspace{0.3em}\small\textit{[Cases C02--C10 follow the same format with their respective criteria context and outputs.]}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C02 --- 34-year-old healthcare administrator}
+\begin{vignettebox}
+\small\textbf{Standardised criteria:} CR-1: Recurrent panic episodes \quad CR-2: Anticipatory anxiety \quad CR-3: Situational avoidance \quad CR-4: Occupational interference
+\end{vignettebox}
+
+\begin{outputAbox}\small\textit{[PHOENIX output for C02, Part 2.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[HCP-PRE-01 output for C02, Part 2.]}\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{Clinical appropriateness} --- Output A \hfill (1--9)}
+\likertscale{1b. \textbf{Clinical appropriateness} --- Output B \hfill (1--9)}
+\likertscale{2a. \textbf{Network validity} --- Output A \hfill (1--9)}
+\likertscale{2b. \textbf{Network validity} --- Output B \hfill (1--9)}
+\likertscale{3a. \textbf{EMA feasibility} --- Output A \hfill (1--9)}
+\likertscale{3b. \textbf{EMA feasibility} --- Output B \hfill (1--9)}
+\likertscale{4a. \textbf{Intervention potential} --- Output A \hfill (1--9)}
+\likertscale{4b. \textbf{Intervention potential} --- Output B \hfill (1--9)}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C03 --- 41-year-old secondary school teacher}
+\begin{vignettebox}
+\small\textbf{Standardised criteria:} CR-1: Emotional exhaustion \quad CR-2: Professional depersonalization \quad CR-3: Social withdrawal \quad CR-4: Occupational cognitive impairment
+\end{vignettebox}
+\begin{outputAbox}\small\textit{[PHOENIX output for C03, Part 2.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[HCP-PRE-02 output for C03, Part 2.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate \textbf{clinical appropriateness, network validity, EMA feasibility, intervention potential} for Outputs A and B (8 items, 1--9 each).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C04 --- 63-year-old retired professional}
+\begin{vignettebox}
+\small\textbf{Standardised criteria:} CR-1: Prolonged grief response \quad CR-2: Sleep maintenance insomnia \quad CR-3: Guilt-based rumination \quad CR-4: Reduced future orientation
+\end{vignettebox}
+\begin{outputAbox}\small\textit{[PHOENIX output for C04, Part 2.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[HCP-PRE-02 output for C04, Part 2.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate \textbf{clinical appropriateness, network validity, EMA feasibility, intervention potential} for Outputs A and B (8 items, 1--9 each).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C05 --- 25-year-old postgraduate student}
+\begin{vignettebox}
+\small\textbf{Standardised criteria:} CR-1: Intrusive harm-related thoughts \quad CR-2: Compulsive reviewing behaviour \quad CR-3: Experiential avoidance \quad CR-4: Uncertainty intolerance
+\end{vignettebox}
+\begin{outputAbox}\small\textit{[PHOENIX output for C05, Part 2.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[HCP-PRE-03 output for C05, Part 2.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for Outputs A and B (8 items, 1--9 each).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C06 --- 32-year-old marketing professional}
+\begin{vignettebox}
+\small\textbf{Standardised criteria:} CR-1: Social performance anxiety \quad CR-2: Post-event processing \quad CR-3: Advancement avoidance \quad CR-4: Anticipatory cognitive elaboration
+\end{vignettebox}
+\begin{outputAbox}\small\textit{[HCP-PRE-03 output for C06, Part 2. (A=HCP for C06--C10.)]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[PHOENIX output for C06, Part 2.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for Outputs A and B (8 items, 1--9 each).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C07 --- 46-year-old accounts manager}
+\begin{vignettebox}
+\small\textbf{Standardised criteria:} CR-1: Persistent low mood \quad CR-2: Anergia and psychomotor slowing \quad CR-3: Social isolation \quad CR-4: Hopelessness and negative schema
+\end{vignettebox}
+\begin{outputAbox}\small\textit{[HCP-PRE-04 output for C07, Part 2.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[PHOENIX output for C07, Part 2.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for Outputs A and B (8 items, 1--9 each).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C08 --- 38-year-old project manager}
+\begin{vignettebox}
+\small\textbf{Standardised criteria:} CR-1: Executive dysfunction \quad CR-2: Emotional dysregulation (ADHD-related) \quad CR-3: Interpersonal conflict \quad CR-4: Task-completion shame cycle
+\end{vignettebox}
+\begin{outputAbox}\small\textit{[HCP-PRE-04 output for C08, Part 2.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[PHOENIX output for C08, Part 2.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for Outputs A and B (8 items, 1--9 each).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C09 --- 27-year-old sales representative}
+\begin{vignettebox}
+\small\textbf{Standardised criteria:} CR-1: Affective instability \quad CR-2: Impulsive behaviour \quad CR-3: Unstable interpersonal schema \quad CR-4: Identity diffusion
+\end{vignettebox}
+\begin{outputAbox}\small\textit{[HCP-PRE-05 output for C09, Part 2.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[PHOENIX output for C09, Part 2.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for Outputs A and B (8 items, 1--9 each).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C10 --- 52-year-old operations director}
+\begin{vignettebox}
+\small\textbf{Standardised criteria:} CR-1: Chronic occupational stress response \quad CR-2: Sleep maintenance insomnia \quad CR-3: Somatic stress expression \quad CR-4: Alcohol use as coping
+\end{vignettebox}
+\begin{outputAbox}\small\textit{[HCP-PRE-05 output for C10, Part 2.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[PHOENIX output for C10, Part 2.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for Outputs A and B (8 items, 1--9 each).}
+\end{ratingbox}
+
+\newpage
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Part 3: Treatment-Target Identification Evaluation}
+\label{sec:part3}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\begin{tcolorbox}[colback=PartThreeBG,colframe=GoldAmber,arc=2.5mm,boxrule=0.9pt,left=10pt,right=10pt,top=9pt,bottom=9pt]
+\textbf{\color{GoldAmber}Part 3 Evaluation Instructions}
+
+\smallskip
+\textbf{What was the task?} Respondents were shown the bipartite network (criteria and predictors with edge strengths derived from 21-day monitoring data) and asked to rank the top 2--4 predictors as treatment targets, in order of priority.
+
+\textbf{Dimensions to rate} (1--9 each, rate A and B independently):
+\begin{enumerate}
+\item \textbf{Clinical priority}: Are the identified treatment targets the most clinically important ones given this presentation and the monitoring data? (\textit{1 = clearly suboptimal targets; 9 = optimal targets identified})
+\item \textbf{Evidence alignment}: Does the selection and ranking reflect evidence-based treatment priorities for this type of presentation? (\textit{1 = not evidence-grounded; 9 = strongly aligned with evidence-based guidelines})
+\item \textbf{Rank coherence}: Is the ordering of targets (1st, 2nd, etc.) clinically defensible, with higher-ranked items having greater expected impact? (\textit{1 = arbitrary or reversed ordering; 9 = perfectly coherent clinical prioritization})
+\end{enumerate}
+
+\textbf{Context provided:} Evaluators see the bipartite network diagram and 21-day monitoring summary for each case.
+
+\textbf{Time:} Approximately 2 minutes per case ($\approx$20 minutes total).
+\end{tcolorbox}
+
+\vspace{0.5em}
+
+\subsubsection*{Case C01 --- 28-year-old software developer}
+\begin{vignettebox}
+\small\textbf{Network context:} Predictors: P1 Evening screen time (Strong $\to$ CR-1, CR-2); P2 Daily task incompletion (Moderate $\to$ CR-2); P3 Pre-sleep offloading (Strong $\to$ CR-2, Moderate $\to$ CR-1); P4 Social engagement (Strong $\to$ CR-3); P5 Physical activity (Moderate $\to$ CR-1, CR-4).
+\end{vignettebox}
+
+\begin{outputAbox}
+\small\textit{[PHOENIX ranked target list for C01, Part 3.]}
+\end{outputAbox}
+\begin{outputBbox}
+\small\textit{[HCP-PRE-01 ranked target list for C01, Part 3.]}
+\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{Clinical priority} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{Clinical priority} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Evidence alignment} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Evidence alignment} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3a. \textbf{Rank coherence} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3b. \textbf{Rank coherence} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C02 --- 34-year-old healthcare administrator}
+\begin{vignettebox}
+\small\textbf{Network context:} P1 Avoidance events (Strong $\to$ CR-3, CR-2); P2 Safety behaviour frequency (Strong $\to$ CR-2, Moderate $\to$ CR-1); P3 Interoceptive focus duration (Strong $\to$ CR-2, CR-1); P4 Planned exposure attempts (Strong $\to$ CR-3); P5 Daily structure adherence (Moderate $\to$ CR-4).
+\end{vignettebox}
+\begin{outputAbox}\small\textit{[PHOENIX output for C02, Part 3.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[HCP-PRE-01 output for C02, Part 3.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--3b. Rate \textbf{clinical priority, evidence alignment, rank coherence} for A and B (6 items, 1--9).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C03 --- 41-year-old secondary school teacher}
+\begin{vignettebox}
+\small\textbf{Network context:} P1 Work-life boundary adherence (Strong $\to$ CR-1, CR-2); P2 Recovery activity engagement (Strong $\to$ CR-1, Moderate $\to$ CR-3); P3 Social contact initiation (Strong $\to$ CR-3); P4 Professional mastery moments (Moderate $\to$ CR-2, CR-4); P5 Sleep quality (Moderate $\to$ CR-1, CR-4).
+\end{vignettebox}
+\begin{outputAbox}\small\textit{[PHOENIX output for C03, Part 3.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[HCP-PRE-02 output for C03, Part 3.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--3b. Rate \textbf{clinical priority, evidence alignment, rank coherence} for A and B (6 items, 1--9).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Cases C04--C10}
+\begin{instrbox}
+\small Each remaining case (C04--C10) follows the identical format: vignette with network context summary, Output A placeholder, Output B placeholder, and 6 rating items (clinical priority / evidence alignment / rank coherence for A and B). See Appendix A for the full network context for each case.
+\end{instrbox}
+
+\newpage
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Part 4: Updated Observational Model Evaluation}
+\label{sec:part4}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\begin{tcolorbox}[colback=PartFourBG,colframe=RichPurple,arc=2.5mm,boxrule=0.9pt,left=10pt,right=10pt,top=9pt,bottom=9pt]
+\textbf{\color{RichPurple}Part 4 Evaluation Instructions}
+
+\smallskip
+\textbf{What was the task?} Given the identified treatment targets from Part 3, respondents were asked to select 2--4 predictors to retain in the next monitoring cycle and optionally provide a 1-sentence operationalization note.
+
+\textbf{Dimensions to rate} (1--9 each, rate A and B independently):
+\begin{enumerate}
+\item \textbf{Target alignment}: Does the updated measurement plan directly reflect the identified treatment targets? Do the retained predictors logically follow from the treatment target selection in Part 3? (\textit{1 = misaligned; 9 = perfectly coherent with treatment targets})
+\item \textbf{Measurement selection quality}: Are the retained predictors optimal choices for tracking progress on the treatment targets? Are operationalization notes (if provided) clinically appropriate? (\textit{1 = poor measurement choices; 9 = optimal and actionable measurement plan})
+\end{enumerate}
+
+\textbf{Context:} Evaluators see the standardised treatment targets from Step 03 reference run alongside the outputs.
+
+\textbf{Time:} Approximately 1.5 minutes per case ($\approx$15 minutes total).
+\end{tcolorbox}
+
+\vspace{0.5em}
+
+\subsubsection*{Case C01 --- 28-year-old software developer}
+\begin{vignettebox}
+\small\textbf{Reference treatment targets:} (1) Evening screen time duration; (2) Pre-sleep cognitive offloading; (3) Aerobic physical activity.
+\end{vignettebox}
+\begin{outputAbox}\small\textit{[PHOENIX updated model selection for C01, Part 4.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[HCP-PRE-01 updated model selection for C01, Part 4.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a. \textbf{Target alignment} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{Target alignment} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Measurement selection quality} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Measurement selection quality} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C02 --- 34-year-old healthcare administrator}
+\begin{vignettebox}
+\small\textbf{Reference treatment targets:} (1) Planned exposure attempts; (2) Safety behaviour frequency; (3) Interoceptive focus duration.
+\end{vignettebox}
+\begin{outputAbox}\small\textit{[PHOENIX output for C02, Part 4.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[HCP-PRE-01 output for C02, Part 4.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--2b. Rate \textbf{target alignment} and \textbf{measurement selection quality} for A and B (4 items, 1--9).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C03 --- 41-year-old secondary school teacher}
+\begin{vignettebox}
+\small\textbf{Reference treatment targets:} (1) Work-life boundary adherence; (2) Recovery activity engagement; (3) Professional mastery moments.
+\end{vignettebox}
+\begin{outputAbox}\small\textit{[PHOENIX output for C03, Part 4.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[HCP-PRE-02 output for C03, Part 4.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--2b. Rate \textbf{target alignment} and \textbf{measurement selection quality} for A and B (4 items, 1--9).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Cases C04--C10}
+\begin{instrbox}
+\small Each case follows the same 4-item format. For cases C04--C10, reference treatment targets are listed in Appendix A.
+\end{instrbox}
+
+\newpage
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Part 5: Tailored Intervention Message Evaluation}
+\label{sec:part5}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\begin{tcolorbox}[colback=PartFiveBG,colframe=RichPurple,arc=2.5mm,boxrule=0.9pt,left=10pt,right=10pt,top=9pt,bottom=9pt]
+\textbf{\color{RichPurple}Part 5 Evaluation Instructions}
+
+\smallskip
+\textbf{What was the task?} Respondents were asked to: (a) classify the person's HAPA motivational phase (pre-intentional / intentional / action-maintenance), and (b) write a brief 2--3 sentence personalized digital coaching message appropriate to that phase.
+
+\textbf{Step A --- Independent HAPA phase classification (before reading outputs):}
+\begin{itemize}
+\item For each case, \textbf{classify the HAPA motivational phase} based solely on the case vignette and monitoring context.
+\item Your classification will be used to calculate inter-rater agreement (Cohen's $\kappa$) across all POST evaluators and the Phase 1 expert respondents.
+\item \textbf{Do not read Outputs A or B before completing this classification.}
+\end{itemize}
+
+\textbf{Step B --- Rating Outputs A and B} (1--9 each, rate independently):
+\begin{enumerate}
+\item \textbf{HAPA phase appropriateness}: Does the coaching message address the correct motivational phase? Is it pitched at the right level for where the person is in their change process? (\textit{1 = wrong phase; 9 = perfectly calibrated to motivational stage})
+\item \textbf{Message tailoring}: Is the message genuinely personalized to this specific case (references their specific situation, complaint, monitoring patterns)? (\textit{1 = generic; 9 = highly personalized and case-specific})
+\item \textbf{Actionability}: Does the message provide concrete, actionable guidance the person can act on within 24--48 hours? (\textit{1 = vague platitudes; 9 = specific, immediately actionable steps})
+\item \textbf{Professional tone}: Is the language appropriately supportive, non-judgmental, and professional for a digital health context? (\textit{1 = inappropriate; 9 = exemplary professional and supportive tone})
+\end{enumerate}
+
+\textbf{Time:} Approximately 2.5 minutes per case ($\approx$25 minutes total).
+\end{tcolorbox}
+
+\vspace{0.5em}
+
+\subsubsection*{Case C01 --- 28-year-old software developer}
+
+\begin{tcolorbox}[colback=AccentAmber,colframe=GoldAmber,boxrule=0.7pt,arc=2mm,left=8pt,right=8pt,top=7pt,bottom=7pt]
+\small\textbf{\color{GoldAmber}Monitoring context for HAPA classification:}
+21-day data shows: Screen time reduction attempts: 2/21 evenings. No structured sleep hygiene practice initiated. However: task completion tracking started Week 3. Participant reported ``trying a bit more'' in final week. Phase indicators: partial intention formation, no systematic action plan yet.
+\end{tcolorbox}
+
+\hapascale
+
+\begin{outputAbox}
+\small\textit{[PHOENIX HAPA classification + coaching message for C01.]}
+\end{outputAbox}
+\begin{outputBbox}
+\small\textit{[HCP-PRE-01 HAPA classification + coaching message for C01.]}
+\end{outputBbox}
+
+\begin{ratingbox}
+\likertscale{1a. \textbf{HAPA phase appropriateness} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{1b. \textbf{HAPA phase appropriateness} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2a. \textbf{Message tailoring} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{2b. \textbf{Message tailoring} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3a. \textbf{Actionability} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{3b. \textbf{Actionability} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{4a. \textbf{Professional tone} --- Output A \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\likertscale{4b. \textbf{Professional tone} --- Output B \hfill (1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9)}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C02 --- 34-year-old healthcare administrator}
+\begin{tcolorbox}[colback=AccentAmber,colframe=GoldAmber,boxrule=0.7pt,arc=2mm,left=8pt,right=8pt,top=7pt,bottom=7pt]
+\small\textbf{Monitoring context:} Participant has identified avoiding situations as a problem (intention awareness). Has not yet started planned exposure. Attendance drop to 60\% suggests avoidance escalating. Phase indicators: intentional (knows what needs to change, has not yet acted systematically).
+\end{tcolorbox}
+\hapascale
+\begin{outputAbox}\small\textit{[PHOENIX output for C02, Part 5.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[HCP-PRE-01 output for C02, Part 5.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate \textbf{HAPA phase appropriateness, message tailoring, actionability, professional tone} for A and B (8 items, 1--9).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C03 --- 41-year-old secondary school teacher}
+\begin{tcolorbox}[colback=AccentAmber,colframe=GoldAmber,boxrule=0.7pt,arc=2mm,left=8pt,right=8pt,top=7pt,bottom=7pt]
+\small\textbf{Monitoring context:} Recovery activities almost absent (1.2/week). No deliberate boundary-setting attempts in monitoring data. Social withdrawal has deepened. Phase indicators: pre-intentional (person not yet motivated to change specific behaviours; complaint = burnout overwhelm).
+\end{tcolorbox}
+\hapascale
+\begin{outputAbox}\small\textit{[PHOENIX output for C03, Part 5.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[HCP-PRE-02 output for C03, Part 5.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for A and B (8 items, 1--9).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C04 --- 63-year-old retired professional}
+\begin{tcolorbox}[colback=AccentAmber,colframe=GoldAmber,boxrule=0.7pt,arc=2mm,left=8pt,right=8pt,top=7pt,bottom=7pt]
+\small\textbf{Monitoring context:} Meaning-making activity tried 4/21 days (action-maintenance pattern emerging). Sleep routine shows Week 3 improvement. However future-planning activities remain absent. Phase indicators: mixed intentional/early action-maintenance.
+\end{tcolorbox}
+\hapascale
+\begin{outputAbox}\small\textit{[PHOENIX output for C04, Part 5.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[HCP-PRE-02 output for C04, Part 5.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for A and B (8 items, 1--9).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C05 --- 25-year-old postgraduate student}
+\begin{tcolorbox}[colback=AccentAmber,colframe=GoldAmber,boxrule=0.7pt,arc=2mm,left=8pt,right=8pt,top=7pt,bottom=7pt]
+\small\textbf{Monitoring context:} No ERP practice initiated. Compulsions still at full frequency. No deliberate delay attempts logged. Phase indicators: pre-intentional (person still in distress cycle with no action intention formulated for avoidance reduction).
+\end{tcolorbox}
+\hapascale
+\begin{outputAbox}\small\textit{[PHOENIX output for C05, Part 5.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[HCP-PRE-03 output for C05, Part 5.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for A and B (8 items, 1--9).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C06 --- 32-year-old marketing professional}
+\begin{tcolorbox}[colback=AccentAmber,colframe=GoldAmber,boxrule=0.7pt,arc=2mm,left=8pt,right=8pt,top=7pt,bottom=7pt]
+\small\textbf{Monitoring context:} Post-event processing still high (avg 87 min). Participant has sought information about social anxiety (intentional awareness). One opportunity deliberately accepted Week 3. Phase indicators: transitional intentional/early action-maintenance.
+\end{tcolorbox}
+\hapascale
+\begin{outputAbox}\small\textit{[HCP-PRE-03 output for C06, Part 5. (A=HCP for C06--C10.)]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[PHOENIX output for C06, Part 5.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for A and B (8 items, 1--9).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C07 --- 46-year-old accounts manager}
+\begin{tcolorbox}[colback=AccentAmber,colframe=GoldAmber,boxrule=0.7pt,arc=2mm,left=8pt,right=8pt,top=7pt,bottom=7pt]
+\small\textbf{Monitoring context:} Activity scheduling completion at 28\%. Has not initiated social contact. No structured routine. Phase indicators: intentional (aware of need for activation but not acting consistently).
+\end{tcolorbox}
+\hapascale
+\begin{outputAbox}\small\textit{[HCP-PRE-04 output for C07, Part 5.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[PHOENIX output for C07, Part 5.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for A and B (8 items, 1--9).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C08 --- 38-year-old project manager}
+\begin{tcolorbox}[colback=AccentAmber,colframe=GoldAmber,boxrule=0.7pt,arc=2mm,left=8pt,right=8pt,top=7pt,bottom=7pt]
+\small\textbf{Monitoring context:} Task structuring tool used inconsistently (1.8/day). Has begun using timer app in Week 3 (action-maintenance). Relationship conflict still high. Phase indicators: action-maintenance for executive function; pre-intentional for relationship domain.
+\end{tcolorbox}
+\hapascale
+\begin{outputAbox}\small\textit{[HCP-PRE-04 output for C08, Part 5.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[PHOENIX output for C08, Part 5.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for A and B (8 items, 1--9).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C09 --- 27-year-old sales representative}
+\begin{tcolorbox}[colback=AccentAmber,colframe=GoldAmber,boxrule=0.7pt,arc=2mm,left=8pt,right=8pt,top=7pt,bottom=7pt]
+\small\textbf{Monitoring context:} 2.1 impulsive actions/day, no delay-and-reappraise strategy used. High rejection sensitivity. No DBT-type skills practice logged. Phase indicators: pre-intentional (not yet recognising need for systematic self-regulation skills development).
+\end{tcolorbox}
+\hapascale
+\begin{outputAbox}\small\textit{[HCP-PRE-05 output for C09, Part 5.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[PHOENIX output for C09, Part 5.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for A and B (8 items, 1--9).}
+\end{ratingbox}
+
+\vspace{0.4em}
+
+\subsubsection*{Case C10 --- 52-year-old operations director}
+\begin{tcolorbox}[colback=AccentAmber,colframe=GoldAmber,boxrule=0.7pt,arc=2mm,left=8pt,right=8pt,top=7pt,bottom=7pt]
+\small\textbf{Monitoring context:} Alcohol reduction attempted twice. Pre-sleep disengagement tried 3/21 evenings. Work demands still high but participant reports ``knowing I need to change.'' Phase indicators: intentional (aware, partially motivated, not yet sustaining change).
+\end{tcolorbox}
+\hapascale
+\begin{outputAbox}\small\textit{[HCP-PRE-05 output for C10, Part 5.]}\end{outputAbox}
+\begin{outputBbox}\small\textit{[PHOENIX output for C10, Part 5.]}\end{outputBbox}
+\begin{ratingbox}
+\likertscale{1a--4b. Rate all four dimensions for A and B (8 items, 1--9).}
+\end{ratingbox}
+
+\newpage
+
+% ─────────────────────────────────────────────────────────────────────────────
+\appendix
+\section{Appendix A: Reference Data for Cases C04--C10 (Parts 3 and 4)}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\subsection*{Part 3 Network Context: Cases C04--C10}
+
+\small\renewcommand{\arraystretch}{1.35}
+\begin{tabular}{@{}>{\bfseries\color{PrimaryBlue}}p{0.05\textwidth}p{0.85\textwidth}@{}}
+\toprule
+\textbf{Case} & \textbf{Network predictor summary (for evaluator context)} \\
+\midrule
+C04 & P1 Meaning-making activity (Strong $\to$ CR-1, CR-4); P2 Sleep routine consistency (Strong $\to$ CR-2); P3 Social support engagement (Moderate $\to$ CR-1, CR-3); P4 Self-compassion practices (Strong $\to$ CR-3); P5 Future-self activity planning (Strong $\to$ CR-4) \\[0.3em]
+C05 & P1 Compulsion delay practice (Strong $\to$ CR-2, CR-1); P2 Avoidance scope management (Strong $\to$ CR-3, CR-1); P3 Uncertainty tolerance behaviour (Strong $\to$ CR-4, CR-3); P4 Intrusion logging and defusion (Moderate $\to$ CR-1); P5 Planned task exposure (Strong $\to$ CR-2) \\[0.3em]
+C06 & P1 Graduated professional exposure (Strong $\to$ CR-3, CR-1); P2 Post-event processing duration (Strong $\to$ CR-2); P3 Anticipatory anxiety coping self-talk (Moderate $\to$ CR-1, CR-4); P4 Avoidance decision logging (Strong $\to$ CR-3); P5 Physical preparation routines (Weak $\to$ CR-1) \\[0.3em]
+C07 & P1 Scheduled activity completion (Strong $\to$ CR-1, CR-2); P2 Sleep schedule regularity (Strong $\to$ CR-2, Moderate $\to$ CR-1); P3 Social contact initiation (Strong $\to$ CR-3); P4 Mastery and pleasure tracking (Moderate $\to$ CR-1, CR-4); P5 Rumination interruption practice (Moderate $\to$ CR-4) \\[0.3em]
+C08 & P1 External task structuring tool use (Strong $\to$ CR-1); P2 Intentional listening behaviour (Strong $\to$ CR-3); P3 Task completion reinforcement (Moderate $\to$ CR-4); P4 Pre-task planning minutes (Moderate $\to$ CR-1); P5 Emotional regulation before response (Moderate $\to$ CR-2, CR-3) \\[0.3em]
+C09 & P1 Emotion regulation skill application (Strong $\to$ CR-1, CR-2); P2 Impulse delay behaviour (Strong $\to$ CR-2, Moderate $\to$ CR-3); P3 Rejection appraisal reframing (Strong $\to$ CR-3); P4 Identity anchoring practice (Moderate $\to$ CR-4); P5 Interpersonal conflict reflection (Moderate $\to$ CR-3) \\[0.3em]
+C10 & P1 Pre-sleep work disengagement (Strong $\to$ CR-2, CR-1); P2 Evening alcohol units (Strong $\to$ CR-4, CR-2); P3 Daytime stress regulation (Strong $\to$ CR-1, Moderate $\to$ CR-3); P4 Physical activity frequency (Moderate $\to$ CR-1, CR-3); P5 Nocturnal cognitive arousal logging (Strong $\to$ CR-2) \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.8em}
+\subsection*{Part 4 Reference Treatment Targets: Cases C04--C10}
+
+\begin{tabular}{@{}>{\bfseries\color{PrimaryBlue}}p{0.05\textwidth}p{0.85\textwidth}@{}}
+\toprule
+\textbf{Case} & \textbf{Standardised top treatment targets (from Step 03 reference run)} \\
+\midrule
+C04 & (1) Structured meaning-making activity; (2) Sleep routine consistency; (3) Self-compassion practices \\
+C05 & (1) Compulsion delay and resistance practice; (2) Avoidance scope management; (3) Uncertainty tolerance behaviour \\
+C06 & (1) Graduated professional exposure frequency; (2) Post-event processing duration; (3) Avoidance decision logging \\
+C07 & (1) Daily activity scheduling and completion; (2) Sleep schedule regularity; (3) Social contact initiation \\
+C08 & (1) External task structuring tool use; (2) Intentional listening behaviour; (3) Task completion reinforcement \\
+C09 & (1) Emotion regulation skill application; (2) Impulse delay behaviour; (3) Rejection appraisal reframing \\
+C10 & (1) Pre-sleep work disengagement routine; (2) Evening alcohol units; (3) Daytime stress regulation \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.8em}
+\subsection*{Qualtrics Data Export Specification}
+
+The following variable naming convention should be used in Qualtrics for clean data export and automated analysis:
+
+\small
+\begin{tabular}{@{}>{\ttfamily}p{0.35\textwidth}p{0.55\textwidth}@{}}
+\toprule
+\textbf{Variable name} & \textbf{Description} \\
+\midrule
+participant\_ID & POST evaluator code (HCP-POST-01 through HCP-POST-05) \\
+case\_ID & Case identifier (C01--C10) \\
+part & Study part (1--5) \\
+output\_label & A or B (blinded label) \\
+dimension & Rating dimension name (e.g., criterion\_accuracy) \\
+rating & Integer rating 1--9 \\
+hapa\_class & POST rater HAPA classification (Part 5 only; 1=pre-intentional, 2=intentional, 3=action-maintenance) \\
+\bottomrule
+\end{tabular}
+
+\end{document}
