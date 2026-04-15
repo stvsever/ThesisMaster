@@ -1221,7 +1221,7 @@ Toegewezen casussen:\quad
 Studie & Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentsysteem voor gepersonaliseerde digitale geestelijke gezondheidszorg (PHOENIX) \\
 Instelling & Universiteit Gent -- Faculteit Psychologie en Pedagogische Wetenschappen \\
 Onderzoeker & Stijn Van Severen (masterproefstudent) \\
-Promotoren & Prof.\ Geert Crombez; Dr.\ Annick De Paepe \\
+Promotoren & Prof.\ Dr.\ Geert Crombez; Dr.\ Annick De Paepe \\
 Contact & \texttt{stijn.vanseveren@ugent.be} \\
 Geschatte duur & Ongeveer 35--45 minuten voor beide casussen samen \\
 \end{tabularx}
@@ -1879,10 +1879,10 @@ def build_word_document(hcp_num: int) -> Document:
 
     doc.add_paragraph()
     meta_lines = [
-        ("Studie", "Evaluatie van de klinische kwaliteit van het PHOENIX multi-agentsysteem (masterproef UGent)"),
+        ("Studie", "Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentsysteem voor gepersonaliseerde digitale geestelijke gezondheidszorg (PHOENIX)"),
         ("Instelling", "Universiteit Gent -- Faculteit Psychologie en Pedagogische Wetenschappen"),
-        ("Onderzoeker", "Stijn Van Severen"),
-        ("Promotoren", "Prof. Geert Crombez; Dr. Annick De Paepe"),
+        ("Onderzoeker", "Stijn Van Severen (masterproefstudent)"),
+        ("Promotoren", "Prof. Dr. Geert Crombez; Dr. Annick De Paepe"),
         ("Contact", "stijn.vanseveren@ugent.be"),
         ("Geschatte duur", "Ongeveer 35-45 minuten voor beide casussen samen"),
     ]
@@ -1900,13 +1900,41 @@ def build_word_document(hcp_num: int) -> Document:
                     run.font.size = Pt(9)
 
     doc.add_paragraph()
-    conf = doc.add_paragraph()
-    rc = conf.add_run(
-        "Vertrouwelijkheid: uw antwoorden worden voor analyse geanonimiseerd en uitsluitend "
-        "gebruikt binnen deze masterproefstudie. Deelname is vrijwillig."
+
+    # Doel box
+    _add_shaded_para(
+        doc,
+        "DOEL VAN DEZE BUNDEL\n\n"
+        "U neemt deel aan een evaluatiestudie waarin zorgprofessionals onafhankelijk dezelfde vijf "
+        "klinische redeneerstappen uitvoeren als het PHOENIX-systeem. Uw antwoorden vormen het "
+        "menselijke referentiecorpus voor een latere dubbelblinde vergelijking met systeemoutput.\n\n"
+        "Voor elk van uw twee casussen vult u dezelfde vijf delen in: (1) operationalisering, "
+        "(2) initieel observatiemodel, (3) prioritering van behandeldoelen, (4) verfijning van "
+        "EMA-metingen en (5) een mobiele coachingsboodschap.\n\n"
+        "We vragen uw eigen klinische oordeelsvorming. Antwoord zoals u dat in een reele "
+        "professionele context zou doen, maar werk strikt volgens de instructies op de volgende pagina.",
+        shade_hex="DBEAFE",
     )
-    rc.font.size = Pt(9)
-    rc.italic = True
+
+    doc.add_paragraph()
+
+    # Vertrouwelijkheid & informed consent box
+    _add_shaded_para(
+        doc,
+        "VERTROUWELIJKHEID EN GEÏNFORMEERDE TOESTEMMING\n\n"
+        "Uw antwoorden worden voor analyse geanonimiseerd en uitsluitend gebruikt binnen deze "
+        "masterproefstudie. Na ontvangst worden ze opgenomen in het expertreferentiecorpus voor de "
+        "latere blind evaluatie van het PHOENIX-systeem.\n\n"
+        "Deelname is volledig vrijwillig. U kan zich op elk moment zonder opgave van reden "
+        "terugtrekken door contact op te nemen met de onderzoeker via stijn.vanseveren@ugent.be. "
+        "Terugtrekking heeft geen gevolgen.\n\n"
+        "Door dit ingevulde document te bezorgen aan de onderzoeker, bevestigt u dat:\n"
+        "  (1) u de bovenstaande informatie hebt gelezen en begrepen;\n"
+        "  (2) u vrijwillig instemt met deelname aan deze studie;\n"
+        "  (3) u begrijpt dat uw antwoorden geanonimiseerd worden verwerkt.\n\n"
+        "Uw inzending geldt als geïnformeerde toestemming.",
+        shade_hex="FEF3C7",
+    )
 
     _page_break(doc)
 
@@ -1975,10 +2003,12 @@ def build_word_document(hcp_num: int) -> Document:
         "1. Werk sequentieel: Deel 1 -> Deel 5. Ga pas naar een volgend deel wanneer het huidige "
         "volledig is afgewerkt voor beide casussen.\n"
         "2. Gebruik geen generatieve AI, schrijfhulpmiddelen, richtlijnen of collegaoverleg. "
-        "Extern gebruik ondermijnt de methodologische validiteit van de studie.\n"
-        "3. Gebruik in latere delen uitsluitend de meegeleverde gestandaardiseerde context.\n"
+        "Extern gebruik ondermijnt de methodologische validiteit en de blind scoringswaarde van de studie.\n"
+        "3. Gebruik in latere delen uitsluitend de meegeleverde gestandaardiseerde context. "
+        "Die is bewust vastgezet zodat alle deelnemers op identieke input reageren.\n"
         "4. Herwerk eerdere antwoorden NIET retroactief nadat u latere context hebt gezien.\n"
-        "5. Noteer of typ rechtstreeks in de voorziene antwoordzones.",
+        "5. Noteer of typ rechtstreeks in de voorziene antwoordzones. "
+        "Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blind beoordeling.",
         shade_hex="FFF7ED",
     )
 
@@ -1987,12 +2017,13 @@ def build_word_document(hcp_num: int) -> Document:
         doc,
         "EMA-PRINCIPES (relevant voor Deel 2 en Deel 4):\n"
         "Ecological Momentary Assessment (EMA) meet dagelijkse schommelingen via een mobiele app. "
-        "Elke EMA-variabele moet: (1) dagelijks rapporteerbaar zijn via een korte smartphone-vraag; "
-        "(2) dynamisch en veranderbaar zijn (geen diagnose of trait); "
-        "(3) meetbaar zijn als ja/nee, aantal, minuten of een 0-10 score; "
-        "(4) klinisch relevante binnen-persoonsvariatie tonen. "
-        "In Deel 2 genereert u zelf predictorlabels. In Deel 4 selecteert u de meest geschikte 5 "
-        "uit 20 reeds uitgewerkte EMA-items.",
+        "Elke EMA-variabele moet aan vier vereisten voldoen:\n"
+        "  (1) Dagelijks rapporteerbaar via een korte smartphone-vraag.\n"
+        "  (2) Dynamisch en veranderbaar -- geen vaste diagnose, trait of achtergrondkenmerk.\n"
+        "  (3) Meetbaar in een eenvoudig format: ja/nee, aantal, minuten of een 0-10 score.\n"
+        "  (4) Klinisch relevant voor opvolging -- toont binnen-persoonsvariatie die therapeutisch informatief is.\n\n"
+        "In Deel 2 genereert u zelf predictorlabels. In Deel 4 zijn de 20 kandidaat-items reeds "
+        "uitgewerkt als dagelijkse EMA-items; u selecteert de meest geschikte 5.",
         shade_hex="ECFDF5",
     )
 
@@ -2246,27 +2277,57 @@ def build_word_document(hcp_num: int) -> Document:
         f"({case_a['label']} en {case_b['label']})."
     )
     p.runs[0].font.size = Pt(10)
-    doc.add_paragraph()
-    checklist = [
-        f"Deel 1: criteriumlabels ingevuld voor {case_a['label']} en {case_b['label']}",
-        f"Deel 2: predictorlabels ingevuld voor {case_a['label']} en {case_b['label']}",
-        f"Deel 3: alle 5 predictors gerangschikt voor beide casussen",
-        f"Deel 4: exact 5 EMA-items geselecteerd voor beide casussen",
-        f"Deel 5: mobiele coachingsboodschap geschreven voor beide casussen",
-        "Antwoorden weerspiegelen mijn eigen klinische oordeel zonder externe hulp",
-        "Ik begrijp dat mijn antwoorden geanonimiseerd worden voor analyse",
-    ]
-    for item in checklist:
-        p = doc.add_paragraph(style="List Bullet")
-        p.add_run(f"\u25a1  {item}").font.size = Pt(10)
 
     doc.add_paragraph()
-    ret = doc.add_paragraph()
-    ret.add_run(
-        f"Bezorg het ingevulde document terug via e-mail:\n"
-        f"stijn.vanseveren@ugent.be  --  onderwerp: PHOENIX-PRE-{hcp_code}"
+
+    cl_head = doc.add_paragraph()
+    cl_head.add_run("Checklist voor terugbezorging -- gelieve alle vakjes af te vinken:").bold = True
+    cl_head.runs[0].font.size = Pt(10)
+
+    checklist = [
+        f"Ik heb in Deel 1 voor beide casussen ({case_a['label']} en {case_b['label']}) criteriumlabels ingevuld.",
+        f"Ik heb in Deel 2 voor beide casussen predictorlabels ingevuld.",
+        f"Ik heb in Deel 3 voor beide casussen alle 5 predictors gerangschikt.",
+        f"Ik heb in Deel 4 voor beide casussen exact 5 EMA-items geselecteerd.",
+        f"Ik heb in Deel 5 voor beide casussen een mobiele coachingsboodschap geschreven.",
+        "Mijn antwoorden weerspiegelen mijn eigen klinische oordeel zonder gebruik van generatieve AI of andere externe hulp.",
+        "Ik begrijp dat mijn antwoorden geanonimiseerd worden verwerkt en uitsluitend worden gebruikt binnen deze masterproefstudie.",
+        "Ik begrijp dat ik mij op elk moment kan terugtrekken door contact op te nemen met de onderzoeker.",
+    ]
+    for item in checklist:
+        p = doc.add_paragraph()
+        p.paragraph_format.left_indent = Cm(0.3)
+        p.paragraph_format.space_after = Pt(3)
+        p.add_run(f"\u25a1   {item}").font.size = Pt(10)
+
+    doc.add_paragraph()
+
+    ret_head = doc.add_paragraph()
+    ret_head.add_run("Terugbezorging:").bold = True
+    ret_head.runs[0].font.size = Pt(10)
+
+    ret = doc.add_paragraph(
+        f"Bezorg dit ingevulde document als bijlage via e-mail:\n"
+        f"  Aan:         stijn.vanseveren@ugent.be\n"
+        f"  Onderwerp:   PHOENIX-PRE-{hcp_code}"
     )
     ret.runs[0].font.size = Pt(10)
+
+    doc.add_paragraph()
+
+    # Informed consent / anonymization final notice
+    _add_shaded_para(
+        doc,
+        "VERTROUWELIJKHEID EN VERWERKING\n\n"
+        "Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het "
+        "expertreferentiecorpus voor de latere blind evaluatie van het PHOENIX-systeem. "
+        "Uw gegevens worden op geen enkel moment gekoppeld aan uw naam of identiteit in "
+        "publieke of wetenschappelijke rapportage.\n\n"
+        "Door dit document in te dienen bevestigt u vrijwillig in te stemmen met deelname "
+        "aan deze studie. Uw inzending geldt als geïnformeerde toestemming (informed consent).\n\n"
+        "Hartelijk dank voor uw bijdrage aan dit onderzoek.",
+        shade_hex="DBEAFE",
+    )
 
     return doc
 
