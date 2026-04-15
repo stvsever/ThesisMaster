@@ -26,7 +26,7 @@
   linkcolor=black,
   urlcolor=black,
   pdftitle={PHOENIX evaluatiestudie - HCP-PRE-02 (C03 + C04)},
-  pdfauthor={Stijn Van Severen --- Universiteit Gent}
+  pdfauthor={Stijn Van Severen -- Universiteit Gent}
 }
 
 \definecolor{PrimaryBlue}{HTML}{1D4ED8}
@@ -56,7 +56,7 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\color{SlateMid}PHOENIX evaluatiestudie --- Fase 1}
+\fancyhead[L]{\small\color{SlateMid}PHOENIX evaluatiestudie -- Fase 1}
 \fancyhead[R]{\small\color{SlateMid}\textbf{HCP-PRE-02}\quad C03 + C04}
 \fancyfoot[C]{\small Pagina \thepage\ van \pageref{LastPage}}
 \renewcommand{\headrulewidth}{0.3pt}
@@ -147,8 +147,8 @@
 \begin{document}
 
 % ── TITELPAGINA ─────────────────────────────────────────────────────────────
-\begin{titlepage}
-\centering\vspace*{0.6cm}
+\thispagestyle{fancy}
+\vspace*{0.3cm}
 
 \begin{tcolorbox}[
   colback=DarkBlue,colframe=DarkBlue,
@@ -159,13 +159,13 @@
 {\fontsize{22}{28}\selectfont\bfseries\color{white}
 PHOENIX evaluatiestudie\\[0.3em]
 \fontsize{15}{20}\selectfont\color{AccentBlue}
-Fase 1 --- onafhankelijke expertgeneratie\\[0.2em]
+Fase 1 -- onafhankelijke expertgeneratie\\[0.2em]
 \fontsize{12}{16}\selectfont\color{white}
 \textit{Instrument voor Zorgprofessionals}
 }
 \end{tcolorbox}
 
-\vspace{0.7cm}
+\vspace{0.6cm}
 
 \begin{tcolorbox}[
   colback=AccentBlue,colframe=PrimaryBlue,
@@ -182,7 +182,7 @@ Toegewezen casussen:\quad
 }
 \end{tcolorbox}
 
-\vspace{0.6cm}
+\vspace{0.5cm}
 
 \begin{tcolorbox}[
   colback=SoftBG,colframe=BorderGrey,
@@ -192,7 +192,7 @@ Toegewezen casussen:\quad
 \small\renewcommand{\arraystretch}{1.28}
 \begin{tabularx}{\textwidth}{@{}>{\bfseries\raggedright\arraybackslash}p{0.29\textwidth}X@{}}
 Studie & Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentsysteem voor gepersonaliseerde digitale geestelijke gezondheidszorg (PHOENIX) \\
-Instelling & Universiteit Gent --- Faculteit Psychologie en Pedagogische Wetenschappen \\
+Instelling & Universiteit Gent -- Faculteit Psychologie en Pedagogische Wetenschappen \\
 Onderzoeker & Stijn Van Severen (masterproefstudent) \\
 Promotoren & Prof.\ Geert Crombez; Dr.\ Annick De Paepe \\
 Contact & \texttt{stijn.vanseveren@ugent.be} \\
@@ -200,7 +200,7 @@ Geschatte duur & Ongeveer 35--45 minuten voor beide casussen samen \\
 \end{tabularx}
 \end{tcolorbox}
 
-\vspace{0.5cm}
+\vspace{0.4cm}
 
 \begin{tcolorbox}[
   colback=SoftBG,colframe=BorderGrey,
@@ -215,18 +215,18 @@ vijf klinische redeneerstappen uitvoeren als het PHOENIX-systeem. Uw antwoorden
 vormen het menselijke referentiecorpus voor een latere dubbelblinde vergelijking
 met systeemoutput.
 
-\medskip
+\smallskip
 Voor elk van uw twee casussen vult u dezelfde vijf delen in: (1) operationalisering,
 (2) initieel observatiemodel, (3) prioritering van behandeldoelen, (4) verfijning van
 EMA-metingen en (5) een mobiele coachingsboodschap.
 
-\medskip
+\smallskip
 \textbf{We vragen uw eigen klinische oordeelsvorming.} Antwoord zoals u dat in een
 reele professionele context zou doen, maar werk strikt volgens de instructies op de
 volgende pagina.
 \end{tcolorbox}
 
-\vspace{0.5cm}
+\vspace{0.4cm}
 
 \begin{tcolorbox}[
   colback=AccentAmber,colframe=GoldAmber,
@@ -241,8 +241,6 @@ onderzoeker.
 \end{tcolorbox}
 
 \vfill
-\end{titlepage}
-
 \newpage
 \tableofcontents
 \newpage
@@ -251,78 +249,65 @@ onderzoeker.
 % ── INSTRUCTIEPAGINA ─────────────────────────────────────────────────────────
 \section{Instructiepagina}
 
-\subsection{Wat u in deze bundel doet}
-
 \textbf{PHOENIX} is een multi-agentsysteem dat een vrije klachttekst omzet in een
-gestructureerde klinische redenering over vijf opeenvolgende stappen. In deze bundel
-voert u diezelfde stappen onafhankelijk uit voor uw twee toegewezen casussen.
+gestructureerde klinische redenering via vijf opeenvolgende stappen. In deze bundel
+voert u diezelfde vijf stappen onafhankelijk uit voor uw twee toegewezen casussen.
+Uw antwoorden vormen het menselijke referentiecorpus voor een latere dubbelblinde
+vergelijking met systeemoutput.
 
+\vspace{0.4em}
 \begin{center}
-\renewcommand{\arraystretch}{1.40}
+\renewcommand{\arraystretch}{1.32}
 \small
-\begin{tabular}{@{}>{\bfseries\color{PrimaryBlue}}p{0.07\textwidth}>{\bfseries}p{0.35\textwidth}p{0.47\textwidth}@{}}
+\begin{tabular}{@{}>{\bfseries\color{PrimaryBlue}}p{0.05\textwidth}>{\bfseries}p{0.28\textwidth}p{0.37\textwidth}p{0.15\textwidth}@{}}
 \toprule
-Stap & Klinische taak & Wat u concreet doet \\
+Stap & Klinische taak & Wat u doet & Richttijd \\
 \midrule
-1 & Operationalisering & U noteert 2--6 labels voor actuele mentale gezondheidsproblemen \\
-2 & Initieel observatiemodel & U genereert 3--5 biopsychosociale predictorlabels, geschikt voor dagelijkse EMA \\
-3 & Behandeldoelprioritering & U rangschikt de 5 standaardpredictoren van hoogste naar laagste klinische prioriteit \\
-4 & Verfijnd observatiemodel & U selecteert exact 5 EMA-items uit een lijst van 20 volgens de breadth-first update-logica \\
-5 & Mobiele coaching & U schrijft een korte patientgerichte boodschap voor de mobiele applicatie \\
+1 & Operationalisering & Noteer 2--6 criteriumlabels voor actuele probleemdimensies & $\approx$\,6 min \\
+2 & Initieel observatiemodel & Genereer 3--5 biopsychosociale predictorlabels (EMA-geschikt) & $\approx$\,6 min \\
+3 & Behandeldoelprioritering & Rangschik de 5 standaardpredictoren van hoog naar laag & $\approx$\,7 min \\
+4 & Verfijnd observatiemodel & Selecteer exact 5 EMA-items uit de lijst van 20 & $\approx$\,8 min \\
+5 & Mobiele coaching & Schrijf een korte patientgerichte boodschap voor de app & $\approx$\,8 min \\
+\midrule
+ & \textbf{Totaal (2 casussen)} & & \textbf{35--45 min} \\
 \bottomrule
 \end{tabular}
 \end{center}
 
-\subsection{Werkwijze en methodologische aandachtspunten}
-
-\begin{instrbox}[title=Gelieve deze instructies strikt te volgen]
-\begin{enumerate}
-\item \textbf{Werk sequentieel.} Doorloop de bundel strikt in de volgorde Deel 1 $\rightarrow$ Deel 5.
-Ga pas naar een volgend deel wanneer het huidige deel voor beide casussen is afgewerkt.
-\item \textbf{Gebruik geen generatieve AI, automatische schrijfhulpmiddelen, klinische richtlijnen of overleg met collega's.}
-Externe hulp zou de methodologische validiteit, vergelijkbaarheid en blind scoringswaarde van de studie aantasten.
+\vspace{0.5em}
+\begin{instrbox}[title={Werkwijze -- strikt te volgen}]
+\begin{enumerate}[topsep=1pt,itemsep=2pt]
+\item \textbf{Werk sequentieel: Deel 1 $\rightarrow$ Deel 5.}
+Ga pas naar een volgend deel wanneer het huidige deel volledig is afgewerkt voor beide casussen.
+\item \textbf{Gebruik geen generatieve AI, schrijfhulpmiddelen, richtlijnen of collegaoverleg.}
+Extern gebruik ondermijnt de methodologische validiteit en de blind scoringswaarde van de studie.
 \item \textbf{Gebruik in latere delen uitsluitend de meegeleverde gestandaardiseerde context.}
-Die context is bewust vastgezet zodat alle deelnemers op identieke input reageren.
+Die is bewust vastgezet zodat alle deelnemers op identieke input reageren.
 \item \textbf{Herwerk eerdere antwoorden niet retroactief} nadat u latere context hebt gezien.
-De volgorde maakt deel uit van het onderzoeksdesign.
-\item \textbf{Formuleer bondig, klinisch precies en case-specifiek.} Vermijd brede beschouwingen of theoretische uitweidingen.
-\item \textbf{Noteer of typ rechtstreeks in de voorziene antwoordzones.} Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blind beoordeling.
+\item \textbf{Noteer of typ rechtstreeks in de voorziene antwoordzones.}
+Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blind beoordeling.
 \end{enumerate}
 \end{instrbox}
 
-\begin{instrbox}[title=EMA-principes voor Deel 2 en Deel 4]
-\begin{itemize}
-\item Een EMA-variabele moet \textbf{dagelijks via een mobiele app rapporteerbaar} zijn.
-\item Een goede EMA-variabele is \textbf{dynamisch en veranderbaar}: geen statische eigenschap, diagnose of achtergrondkenmerk.
-\item Geef bij voorkeur labels die later meetbaar kunnen worden gemaakt als \textbf{ja/nee}, \textbf{aantal}, \textbf{minuten} of \textbf{0--10 score}.
-\item Kies variabelen die \textbf{binnen-persoonsvariatie} kunnen tonen en die klinisch relevant zijn voor opvolging in een volgende meetcyclus.
-\item In Deel 4 zijn alle antwoordopties reeds uitgewerkt als \textbf{dagelijkse EMA-items}; daar selecteert u enkel de meest geschikte 5.
+\vspace{0.4em}
+\begin{instrbox}[title={EMA-principes (relevant voor Deel 2 en Deel 4)}]
+\textbf{Ecological Momentary Assessment (EMA)} meet dagelijkse schommelingen via een mobiele
+app. Elke EMA-variabele moet aan vier vereisten voldoen:
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{Dagelijks rapporteerbaar} via een korte vraag op de smartphone.
+\item \textbf{Dynamisch en veranderbaar:} geen vaste diagnose, trait of achtergrondkenmerk.
+\item \textbf{Meetbaar in een eenvoudig format:} ja/nee, aantal, minuten of een 0--10 score.
+\item \textbf{Klinisch relevant voor opvolging:} toont binnen-persoonsvariatie die therapeutisch informatief is.
 \end{itemize}
+\smallskip
+In \textbf{Deel 2} genereert u zelf predictorlabels. In \textbf{Deel 4} zijn de 20 kandidaat-items
+reeds uitgewerkt als dagelijkse EMA-items; u selecteert de meest geschikte 5.
 \end{instrbox}
-
-\subsection{Overzicht van antwoordformats}
-
-\begin{center}
-\small
-\begin{tabular}{@{}>{\bfseries}p{0.06\textwidth}p{0.35\textwidth}p{0.33\textwidth}p{0.16\textwidth}@{}}
-\toprule
-Deel & Taak & Antwoordformat & Richttijd \\
-\midrule
-1 & Operationalisering & 2--6 criteriumlabels & $\approx$ 6 min \\
-2 & Initieel observatiemodel & 3--5 predictorlabels & $\approx$ 6 min \\
-3 & Behandeldoelprioritering & volledige rangorde van 5 predictors & $\approx$ 7 min \\
-4 & Verfijnd observatiemodel & exact 5 selecties uit 20 EMA-items & $\approx$ 8 min \\
-5 & Mobiele coaching & korte digitale boodschap & $\approx$ 8 min \\
-\midrule
- & \textbf{Totaal voor 2 casussen} & & \textbf{$\approx$ 35--45 min} \\
-\bottomrule
-\end{tabular}
-\end{center}
 
 \newpage
 
 
-\section{Deel 1 --- Operationalisering van mentale gezondheidsproblemen}
+\section{Deel 1: Operationalisering van mentale gezondheidsproblemen}
 
 \begin{tcolorbox}[colback=blue!3,colframe=PrimaryBlue,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
@@ -346,9 +331,11 @@ Noteer per casus \textbf{2--6 criteria}. Laat ongebruikte velden leeg.
 
 \vspace{0.5em}
 
-\subsection*{Casus C03 --- 41-jarige leraar secundair onderwijs}
+\newpage
 
-\begin{complaintbox}[title={Casus C03 --- 41-jarige leraar secundair onderwijs; duur: 7 maanden}]
+\subsection*{Casus C03: 41-jarige leraar secundair onderwijs}
+
+\begin{complaintbox}[title={Casus C03: 41-jarige leraar secundair onderwijs; duur: 7 maanden}]
 \small ``Ik geef al vijftien jaar les en deed dat altijd graag, maar de voorbije maanden voel ik mij volledig leeg. Ik ga naar school, geef mijn lessen en kom thuis, maar er is niets meer over. 's Avonds zit ik voor de televisie en kan ik mij nergens toe aanzetten. Ik ben ook gestopt met afspreken met vrienden en reageer nog zelden op berichten. Op het werk begin ik fouten te maken -- dingen vergeten, de draad kwijt raken tijdens een les -- wat vroeger nooit gebeurde. Ik schaam mij daarvoor, maar ik weet niet hoe ik dit moet keren.''
 \end{complaintbox}
 
@@ -368,9 +355,9 @@ Gebruik enkel korte labels; voeg geen beschrijving toe.
 
 \newpage
 
-\subsection*{Casus C04 --- 63-jarige gepensioneerde professional}
+\subsection*{Casus C04: 63-jarige gepensioneerde professional}
 
-\begin{complaintbox}[title={Casus C04 --- 63-jarige gepensioneerde professional; duur: 9 maanden na overlijden van partner}]
+\begin{complaintbox}[title={Casus C04: 63-jarige gepensioneerde professional; duur: 9 maanden na overlijden van partner}]
 \small ``Mijn partner is negen maanden geleden overleden en ik geraak daar nog steeds niet door. Ik denk voortdurend aan hem of haar. Kleine prikkels -- een liedje, een geur, een televisieprogramma dat we samen bekeken -- lokken intense golven van verdriet uit die ik niet onder controle krijg. Ik slaap slecht; ik word vroeg wakker en raak daarna niet meer in slaap. Daarnaast voel ik veel schuld. Ik blijf maar herhalen wat ik had moeten zeggen of anders had moeten doen. Ik kan mij ook nauwelijks voorstellen hoe mijn toekomst er nog betekenisvol kan uitzien. Mijn familie zegt dat het al beter zou moeten gaan, maar zo voelt het niet.''
 \end{complaintbox}
 
@@ -391,7 +378,7 @@ Gebruik enkel korte labels; voeg geen beschrijving toe.
 \newpage
 
 
-\section{Deel 2 --- Initieel observatiemodel}
+\section{Deel 2: Initieel observatiemodel}
 
 \begin{tcolorbox}[colback=green!3,colframe=ForestGreen,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
@@ -414,9 +401,11 @@ Laat ongebruikte velden leeg.
 \end{tcolorbox}
 
 \vspace{0.5em}
-\subsection*{Casus C03 --- Deel 2}
 
-\begin{complaintbox}[title={Casus C03 --- verkorte klachtomschrijving}]
+\newpage
+\subsection*{Casus C03: Deel 2}
+
+\begin{complaintbox}[title={Casus C03: verkorte klachtomschrijving}]
 \small 41-jarige leraar secundair onderwijs; duur: 7 maanden. Emotionele uitputting, professionele depersonalisatie, sociale terugtrekking en cognitieve fouten op het werk.
 \end{complaintbox}
 
@@ -443,9 +432,9 @@ Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaa
 
 \vspace{0.6em}
 \newpage
-\subsection*{Casus C04 --- Deel 2}
+\subsection*{Casus C04: Deel 2}
 
-\begin{complaintbox}[title={Casus C04 --- verkorte klachtomschrijving}]
+\begin{complaintbox}[title={Casus C04: verkorte klachtomschrijving}]
 \small 63-jarige gepensioneerde professional; duur: 9 maanden na overlijden van partner. Aanhoudende rouwreactie, doorslaapinsomnie, schuldgedreven ruminatie en verminderde toekomstorientatie.
 \end{complaintbox}
 
@@ -474,7 +463,7 @@ Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaa
 \newpage
 
 
-\section{Deel 3 --- Prioritering van behandeldoelen}
+\section{Deel 3: Prioritering van behandeldoelen}
 
 \begin{tcolorbox}[colback=yellow!5,colframe=GoldAmber,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
@@ -505,9 +494,11 @@ klinische prioriteit als behandeldoel.
 \end{tcolorbox}
 
 \vspace{0.5em}
-\subsection*{Casus C03 --- Deel 3}
 
-\begin{complaintbox}[title={Casus C03 --- 41-jarige leraar secundair onderwijs}]
+\newpage
+\subsection*{Casus C03: Deel 3}
+
+\begin{complaintbox}[title={Casus C03: 41-jarige leraar secundair onderwijs}]
 \small Emotionele uitputting, professionele depersonalisatie, sociale terugtrekking en cognitieve fouten op het werk. Duur: 7 maanden.
 \end{complaintbox}
 
@@ -551,9 +542,9 @@ klinische prioriteit als behandeldoel.
 
 \vspace{0.6em}
 \newpage
-\subsection*{Casus C04 --- Deel 3}
+\subsection*{Casus C04: Deel 3}
 
-\begin{complaintbox}[title={Casus C04 --- 63-jarige gepensioneerde professional}]
+\begin{complaintbox}[title={Casus C04: 63-jarige gepensioneerde professional}]
 \small Aanhoudende rouwreactie, doorslaapinsomnie, schuldgedreven ruminatie en verminderde toekomstorientatie. Duur: 9 maanden na overlijden van partner.
 \end{complaintbox}
 
@@ -597,7 +588,7 @@ klinische prioriteit als behandeldoel.
 \newpage
 
 
-\section{Deel 4 --- Verfijnd observatiemodel via breadth-first update-logica}
+\section{Deel 4: Verfijnd observatiemodel via breadth-first update-logica}
 
 \begin{tcolorbox}[colback=purple!4,colframe=RichPurple,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
@@ -623,7 +614,9 @@ subpredictoren voor de volgende EMA-cyclus.
 \end{tcolorbox}
 
 \vspace{0.5em}
-\subsection*{Casus C03 --- Deel 4}
+
+\newpage
+\subsection*{Casus C03: Deel 4}
 
 \begin{contextbox}
 \small\textbf{Gestandaardiseerde behandeldoelen uit Deel 3:}
@@ -664,7 +657,7 @@ subpredictoren voor de volgende EMA-cyclus.
 
 \vspace{0.6em}
 \newpage
-\subsection*{Casus C04 --- Deel 4}
+\subsection*{Casus C04: Deel 4}
 
 \begin{contextbox}
 \small\textbf{Gestandaardiseerde behandeldoelen uit Deel 3:}
@@ -707,7 +700,7 @@ subpredictoren voor de volgende EMA-cyclus.
 \newpage
 
 
-\section{Deel 5 --- Mobiele coachingsboodschap}
+\section{Deel 5: Mobiele coachingsboodschap}
 
 \begin{tcolorbox}[colback=red!3,colframe=ForestGreen,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
@@ -745,7 +738,9 @@ barriere = vermoeidheid na de shift; coping = een vaste 10-minutenwandeling kopp
 \end{tcolorbox}
 
 \vspace{0.5em}
-\subsection*{Casus C03 --- Deel 5}
+
+\newpage
+\subsection*{Casus C03: Deel 5}
 
 \begin{contextbox}
 \small\renewcommand{\arraystretch}{1.24}
@@ -766,7 +761,7 @@ Copingstrategie & Koppel een vaste afsluitsignalering aan een kleine herstelacti
 
 \vspace{0.6em}
 \newpage
-\subsection*{Casus C04 --- Deel 5}
+\subsection*{Casus C04: Deel 5}
 
 \begin{contextbox}
 \small\renewcommand{\arraystretch}{1.24}
@@ -809,7 +804,7 @@ Dank u voor het invullen van alle vijf delen voor uw twee toegewezen casussen
 \medskip
 Bezorg het ingevulde document terug via e-mail aan:
 \begin{center}
-\texttt{stijn.vanseveren@ugent.be}\quad met onderwerp:\quad \texttt{PHOENIX PRE --- HCP-PRE-02}
+\texttt{stijn.vanseveren@ugent.be}\quad met onderwerp:\quad \texttt{PHOENIX-PRE-HCP-PRE-02}
 \end{center}
 
 \vspace{0.5em}
