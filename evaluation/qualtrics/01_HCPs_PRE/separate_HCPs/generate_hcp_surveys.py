@@ -1535,7 +1535,8 @@ def tikz_network(case: dict) -> str:
             lw = round(1.0 + (abs(weight) - wmin) / (wmax - wmin) * 4.0, 2)
         else:
             lw = 2.5
-        color = "StrongRed!85" if weight > 0 else "PrimaryBlue!80"
+        # Blue = positive relationship; Red = negative relationship
+        color = "PrimaryBlue!80" if weight > 0 else "StrongRed!85"
         return rf"\draw[line width={lw}pt, draw={color}, opacity=0.90] ({src}.east) -- ({dst}.west);"
 
     edges = "\n  ".join(
@@ -1544,17 +1545,18 @@ def tikz_network(case: dict) -> str:
     )
 
     # Legend embedded inside the figure — three stacked rows, no overlap
+    # Blue = positive relationship; Red = negative relationship
     legend = "\n  ".join([
         r"% Legend (3 stacked rows)",
         r"\draw[line width=0.3pt, draw=black!25] (-0.3, -2.82) -- (9.3, -2.82);",
-        # Row 1: red
-        r"\draw[line width=2.2pt, draw=StrongRed!85, opacity=0.90] (0.1, -3.18) -- (1.2, -3.18);",
+        # Row 1: blue = positive
+        r"\draw[line width=2.2pt, draw=PrimaryBlue!80, opacity=0.90] (0.1, -3.18) -- (1.2, -3.18);",
         r"\node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35, -3.18)"
-        r" {\textbf{Rood} = risicofactor \enspace (positief verband: predictor \emph{vergroot} criterium)};",
-        # Row 2: blue
-        r"\draw[line width=2.2pt, draw=PrimaryBlue!80, opacity=0.90] (0.1, -3.62) -- (1.2, -3.62);",
+        r" {\textbf{Blauw} = positief verband \enspace (predictor \emph{vergroot} criterium)};",
+        # Row 2: red = negative
+        r"\draw[line width=2.2pt, draw=StrongRed!85, opacity=0.90] (0.1, -3.62) -- (1.2, -3.62);",
         r"\node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35, -3.62)"
-        r" {\textbf{Blauw} = beschermend \enspace (negatief verband: predictor \emph{verkleint} criterium)};",
+        r" {\textbf{Rood} = negatief verband \enspace (predictor \emph{verkleint} criterium)};",
         # Row 3: thickness note
         r"\node[font=\fontsize{5.0}{6.5}\selectfont, anchor=west, text=black!45] at (0.1, -4.05)"
         r" {\textit{Lijndikte proportioneel aan $|w|$, genormaliseerd binnen netwerk (bereik 1--5\,pt).}};",
@@ -1924,72 +1926,116 @@ def _centered_meta_table(doc: Document, rows: list[tuple[str, str]]) -> None:
 
 
 def draw_network_png(case: dict) -> io.BytesIO:
-    """Render the bipartite network as a PNG and return a BytesIO buffer."""
+    """Render the bipartite network as a clean PNG for embedding in Word."""
     abs_weights = [abs(w) for _, _, w in case["tikz_edges"]]
     wmin, wmax = min(abs_weights), max(abs_weights)
 
-    PR_Y_MPL = [2.20, 1.10, 0.00, -1.10, -2.20]
-    CR_Y_MPL = [1.65, 0.55, -0.55, -1.65]
+    PR_Y = [2.20, 1.10, 0.00, -1.10, -2.20]
+    CR_Y = [1.65, 0.55, -0.55, -1.65]
 
-    fig, ax = plt.subplots(figsize=(7.2, 5.0))
-    ax.set_xlim(-0.5, 10.5)
-    ax.set_ylim(-4.6, 2.8)
+    # Figure: fixed dimensions so it always fits A4 Word page (2.5 cm margins)
+    fig, ax = plt.subplots(figsize=(8.2, 5.8))
+    ax.set_xlim(-0.7, 10.7)
+    ax.set_ylim(-4.80, 3.10)
     ax.axis("off")
-    fig.patch.set_facecolor("white")
+    BG = "#F8FAFC"
+    fig.patch.set_facecolor(BG)
+    ax.set_facecolor(BG)
 
-    # ── Edges ─────────────────────────────────────────────────────────────
+    # Light outer border
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+    border = mpatches.FancyBboxPatch(
+        (-0.65, -4.70), 11.30, 7.65,
+        boxstyle="round,pad=0.0", linewidth=0.8,
+        edgecolor="#CBD5E1", facecolor=BG, zorder=0,
+    )
+    ax.add_patch(border)
+
+    # Column header labels
+    ax.text(0.0, 2.92, "Predictoren", ha="center", va="center",
+            fontsize=8.0, fontweight="bold", color="#047857", style="italic")
+    ax.text(9.0, 2.92, "Criteria", ha="center", va="center",
+            fontsize=8.0, fontweight="bold", color="#1E3A5F", style="italic")
+
+    # ── Edges (blue = positive, red = negative) ───────────────────────────
     for src, dst, weight in case["tikz_edges"]:
         lw = (1.0 + (abs(weight) - wmin) / (wmax - wmin) * 4.0) if wmax > wmin else 2.5
-        color = "#B91C1C" if weight > 0 else "#1D4ED8"
+        color = "#1D4ED8" if weight > 0 else "#B91C1C"
         p_idx = int(src[1:]) - 1
         c_idx = int(dst[2:]) - 1
-        ax.plot([0.35, 8.65], [PR_Y_MPL[p_idx], CR_Y_MPL[c_idx]],
-                color=color, linewidth=lw, alpha=0.88, zorder=1, solid_capstyle="round")
+        ax.plot(
+            [0.38, 8.62], [PR_Y[p_idx], CR_Y[c_idx]],
+            color=color, linewidth=lw, alpha=0.82, zorder=1, solid_capstyle="round",
+        )
 
     # ── Predictor nodes (left, teal) ──────────────────────────────────────
+    NW, NH = 3.50, 0.62
     for idx, label in enumerate(case["predictors"], start=1):
-        y = PR_Y_MPL[idx - 1]
+        y = PR_Y[idx - 1]
         rect = mpatches.FancyBboxPatch(
-            (-0.32, y - 0.30), 3.42, 0.60,
-            boxstyle="round,pad=0.04",
-            facecolor="#CCFBF1", edgecolor="#047857", linewidth=1.0, zorder=2,
+            (-NW / 2, y - NH / 2), NW, NH,
+            boxstyle="round,pad=0.05",
+            facecolor="#CCFBF1", edgecolor="#047857", linewidth=1.1, zorder=2,
         )
         ax.add_patch(rect)
-        ax.text(0, y, f"P{idx}  {label}", ha="center", va="center",
+        # Truncate long labels so they stay inside the node
+        txt = label if len(label) <= 24 else label[:22] + "\u2026"
+        ax.text(0.0, y + 0.10, f"P{idx}", ha="center", va="center",
                 fontsize=6.2, fontweight="bold", color="#047857", zorder=3)
+        ax.text(0.0, y - 0.13, txt, ha="center", va="center",
+                fontsize=5.8, color="#047857", zorder=3)
 
     # ── Criteria nodes (right, blue) ──────────────────────────────────────
     for idx, label in enumerate(case["criteria"], start=1):
-        y = CR_Y_MPL[idx - 1]
+        y = CR_Y[idx - 1]
         rect = mpatches.FancyBboxPatch(
-            (6.90, y - 0.30), 3.42, 0.60,
-            boxstyle="round,pad=0.04",
-            facecolor="#DBEAFE", edgecolor="#1D4ED8", linewidth=1.0, zorder=2,
+            (9.0 - NW / 2, y - NH / 2), NW, NH,
+            boxstyle="round,pad=0.05",
+            facecolor="#DBEAFE", edgecolor="#1D4ED8", linewidth=1.1, zorder=2,
         )
         ax.add_patch(rect)
-        ax.text(8.61, y, f"CR-{idx}  {label}", ha="center", va="center",
+        txt = label if len(label) <= 24 else label[:22] + "\u2026"
+        ax.text(9.0, y + 0.10, f"CR-{idx}", ha="center", va="center",
                 fontsize=6.2, fontweight="bold", color="#1E3A5F", zorder=3)
+        ax.text(9.0, y - 0.13, txt, ha="center", va="center",
+                fontsize=5.8, color="#1E3A5F", zorder=3)
 
-    # ── Legend ────────────────────────────────────────────────────────────
-    ax.axhline(-2.80, xmin=0.02, xmax=0.98, color="black", linewidth=0.4, alpha=0.3)
-    legend_handles = [
-        Line2D([0], [0], color="#B91C1C", linewidth=2.5,
-               label="Rood = risicofactor  (positief verband: predictor vergroot criterium)"),
-        Line2D([0], [0], color="#1D4ED8", linewidth=2.5,
-               label="Blauw = beschermend  (negatief verband: predictor verkleint criterium)"),
-    ]
-    leg = ax.legend(
-        handles=legend_handles, loc="lower left", fontsize=6.0,
-        framealpha=0.92, edgecolor="#CBD5E1", fancybox=True,
-        handlelength=2.2, labelspacing=0.5,
+    # ── Separator + Legend ────────────────────────────────────────────────
+    ax.axhline(-2.88, xmin=0.02, xmax=0.98, color="#CBD5E1", linewidth=0.8)
+
+    # Legend background box
+    leg_bg = mpatches.FancyBboxPatch(
+        (-0.55, -4.65), 11.10, 1.65,
+        boxstyle="round,pad=0.0", linewidth=0,
+        facecolor="#F1F5F9", zorder=4,
     )
-    leg.get_frame().set_linewidth(0.6)
-    ax.text(5.1, -4.28, "Lijndikte \u221d |w|, genormaliseerd binnen netwerk (bereik 1\u20135 pt).",
-            ha="center", va="center", fontsize=5.5, color="#64748B", style="italic")
+    ax.add_patch(leg_bg)
 
-    plt.tight_layout(pad=0.2)
+    # Blue legend row
+    ax.plot([0.05, 0.95], [-3.22, -3.22], color="#1D4ED8", linewidth=2.4,
+            solid_capstyle="round", zorder=5)
+    ax.text(1.10, -3.22, "Blauw = positief verband  "
+            "(predictor vergroot criterium)",
+            ha="left", va="center", fontsize=6.2, color="#1E293B", zorder=5)
+
+    # Red legend row
+    ax.plot([0.05, 0.95], [-3.72, -3.72], color="#B91C1C", linewidth=2.4,
+            solid_capstyle="round", zorder=5)
+    ax.text(1.10, -3.72, "Rood = negatief verband  "
+            "(predictor verkleint criterium)",
+            ha="left", va="center", fontsize=6.2, color="#1E293B", zorder=5)
+
+    # Thickness note
+    ax.text(5.0, -4.30, "Lijndikte \u221d |w|, "
+            "genormaliseerd binnen netwerk (bereik 1\u20135\u2009pt).",
+            ha="center", va="center", fontsize=5.5, color="#64748B", style="italic",
+            zorder=5)
+
+    fig.subplots_adjust(left=0.0, right=1.0, top=1.0, bottom=0.0)
     buf = io.BytesIO()
-    fig.savefig(buf, format="png", dpi=160, bbox_inches="tight", facecolor="white")
+    fig.savefig(buf, format="png", dpi=160, bbox_inches="tight",
+                facecolor=BG, edgecolor="none")
     plt.close(fig)
     buf.seek(0)
     return buf
@@ -2279,18 +2325,27 @@ def build_word_document(hcp_num: int) -> Document:
         mon.runs[0].font.size = Pt(10)
         doc.add_paragraph()
 
-        # Bipartite network figure (matplotlib PNG embedded in Word)
+        # ── Bipartite network figure ──────────────────────────────────────
+        # Caption line (kept together with the image via keep_with_next)
         net_caption = doc.add_paragraph()
-        net_caption.add_run(
-            "Bipartiet netwerk — predictoren (links) \u2192 criteria (rechts):"
-        ).bold = True
-        net_caption.runs[0].font.size = Pt(10)
+        net_caption.paragraph_format.space_before = Pt(6)
+        net_caption.paragraph_format.space_after = Pt(2)
+        net_caption.paragraph_format.keep_with_next = True
+        cap_run = net_caption.add_run(
+            "Bipartiet netwerk \u2014 predictoren (links) \u2192 criteria (rechts)"
+        )
+        cap_run.bold = True
+        cap_run.font.size = Pt(10)
+        cap_run.font.color.rgb = RGBColor(0x1E, 0x3A, 0x5F)
 
+        # Image paragraph — centered, no extra space
         net_img_para = doc.add_paragraph()
         net_img_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        net_img_para.paragraph_format.space_before = Pt(0)
+        net_img_para.paragraph_format.space_after = Pt(6)
         net_img_buf = draw_network_png(case)
         run_img = net_img_para.add_run()
-        run_img.add_picture(net_img_buf, width=Inches(5.8))
+        run_img.add_picture(net_img_buf, width=Inches(5.6))
 
         predictor_list = ",  ".join(
             f"P{i}: {lbl}" for i, lbl in enumerate(case["predictors"], start=1)
@@ -2313,7 +2368,7 @@ def build_word_document(hcp_num: int) -> Document:
         doc,
         "Rangschik de 5 standaardpredictoren van hoogste naar laagste klinische prioriteit als "
         "behandeldoel. Gebruik hiervoor de 21-daagse monitoring en het bipartiet netwerk "
-        "(rood = risicofactor, blauw = beschermend, lijndikte \u221d |gewicht|, "
+        "(blauw = positief verband, rood = negatief verband; lijndikte \u221d |w|, "
         "genormaliseerd binnen elk netwerk).",
         shade_hex="FEF3C7",
     )
