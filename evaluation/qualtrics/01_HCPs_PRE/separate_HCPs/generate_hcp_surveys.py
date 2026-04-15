@@ -8,8 +8,15 @@ bedoeld als finale distributieversie voor dataverzameling.
 
 from __future__ import annotations
 
+import io
 import subprocess
 from pathlib import Path
+
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+from matplotlib.lines import Line2D
 
 from docx import Document
 from docx.shared import Pt, Cm, RGBColor, Inches
@@ -1547,18 +1554,21 @@ def tikz_network(case: dict) -> str:
         for src, dst, weight in case["tikz_edges"]
     )
 
-    # Legend embedded inside the figure
+    # Legend embedded inside the figure — three stacked rows, no overlap
     legend = "\n  ".join([
-        r"% Legend",
-        r"\draw[line width=0.3pt, draw=black!25] (-0.2, -2.85) -- (9.2, -2.85);",
-        r"\draw[line width=2.2pt, draw=StrongRed!85, opacity=0.90] (0.0, -3.25) -- (1.1, -3.25);",
-        r"\node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.2, -3.25)"
-        r" {Rood = risicofactor (positief verband: predictor vergroot criterium)};",
-        r"\draw[line width=2.2pt, draw=PrimaryBlue!80, opacity=0.90] (5.1, -3.25) -- (6.2, -3.25);",
-        r"\node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (6.3, -3.25)"
-        r" {Blauw = beschermend (negatief verband: predictor verkleint criterium)};",
-        r"\node[font=\fontsize{5.0}{6.5}\selectfont, anchor=west, text=black!50] at (0.0, -3.72)"
-        r" {Lijndikte proportioneel aan $|w|$ (binnen netwerk genormaliseerd; bereik 1--5 pt).};",
+        r"% Legend (3 stacked rows)",
+        r"\draw[line width=0.3pt, draw=black!25] (-0.3, -2.82) -- (9.3, -2.82);",
+        # Row 1: red
+        r"\draw[line width=2.2pt, draw=StrongRed!85, opacity=0.90] (0.1, -3.18) -- (1.2, -3.18);",
+        r"\node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35, -3.18)"
+        r" {\textbf{Rood} = risicofactor \enspace (positief verband: predictor \emph{vergroot} criterium)};",
+        # Row 2: blue
+        r"\draw[line width=2.2pt, draw=PrimaryBlue!80, opacity=0.90] (0.1, -3.62) -- (1.2, -3.62);",
+        r"\node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35, -3.62)"
+        r" {\textbf{Blauw} = beschermend \enspace (negatief verband: predictor \emph{verkleint} criterium)};",
+        # Row 3: thickness note
+        r"\node[font=\fontsize{5.0}{6.5}\selectfont, anchor=west, text=black!45] at (0.1, -4.05)"
+        r" {\textit{Lijndikte proportioneel aan $|w|$, genormaliseerd binnen netwerk (bereik 1--5\,pt).}};",
     ])
 
     return J(
@@ -1924,6 +1934,78 @@ def _centered_meta_table(doc: Document, rows: list[tuple[str, str]]) -> None:
         rv.font.size = Pt(9)
 
 
+def draw_network_png(case: dict) -> io.BytesIO:
+    """Render the bipartite network as a PNG and return a BytesIO buffer."""
+    abs_weights = [abs(w) for _, _, w in case["tikz_edges"]]
+    wmin, wmax = min(abs_weights), max(abs_weights)
+
+    PR_Y_MPL = [2.20, 1.10, 0.00, -1.10, -2.20]
+    CR_Y_MPL = [1.65, 0.55, -0.55, -1.65]
+
+    fig, ax = plt.subplots(figsize=(7.2, 5.0))
+    ax.set_xlim(-0.5, 10.5)
+    ax.set_ylim(-4.6, 2.8)
+    ax.axis("off")
+    fig.patch.set_facecolor("white")
+
+    # ── Edges ─────────────────────────────────────────────────────────────
+    for src, dst, weight in case["tikz_edges"]:
+        lw = (1.0 + (abs(weight) - wmin) / (wmax - wmin) * 4.0) if wmax > wmin else 2.5
+        color = "#B91C1C" if weight > 0 else "#1D4ED8"
+        p_idx = int(src[1:]) - 1
+        c_idx = int(dst[2:]) - 1
+        ax.plot([0.35, 8.65], [PR_Y_MPL[p_idx], CR_Y_MPL[c_idx]],
+                color=color, linewidth=lw, alpha=0.88, zorder=1, solid_capstyle="round")
+
+    # ── Predictor nodes (left, teal) ──────────────────────────────────────
+    for idx, label in enumerate(case["predictors"], start=1):
+        y = PR_Y_MPL[idx - 1]
+        rect = mpatches.FancyBboxPatch(
+            (-0.32, y - 0.30), 3.42, 0.60,
+            boxstyle="round,pad=0.04",
+            facecolor="#CCFBF1", edgecolor="#047857", linewidth=1.0, zorder=2,
+        )
+        ax.add_patch(rect)
+        ax.text(0, y, f"P{idx}  {label}", ha="center", va="center",
+                fontsize=6.2, fontweight="bold", color="#047857", zorder=3)
+
+    # ── Criteria nodes (right, blue) ──────────────────────────────────────
+    for idx, label in enumerate(case["criteria"], start=1):
+        y = CR_Y_MPL[idx - 1]
+        rect = mpatches.FancyBboxPatch(
+            (6.90, y - 0.30), 3.42, 0.60,
+            boxstyle="round,pad=0.04",
+            facecolor="#DBEAFE", edgecolor="#1D4ED8", linewidth=1.0, zorder=2,
+        )
+        ax.add_patch(rect)
+        ax.text(8.61, y, f"CR-{idx}  {label}", ha="center", va="center",
+                fontsize=6.2, fontweight="bold", color="#1E3A5F", zorder=3)
+
+    # ── Legend ────────────────────────────────────────────────────────────
+    ax.axhline(-2.80, xmin=0.02, xmax=0.98, color="black", linewidth=0.4, alpha=0.3)
+    legend_handles = [
+        Line2D([0], [0], color="#B91C1C", linewidth=2.5,
+               label="Rood = risicofactor  (positief verband: predictor vergroot criterium)"),
+        Line2D([0], [0], color="#1D4ED8", linewidth=2.5,
+               label="Blauw = beschermend  (negatief verband: predictor verkleint criterium)"),
+    ]
+    leg = ax.legend(
+        handles=legend_handles, loc="lower left", fontsize=6.0,
+        framealpha=0.92, edgecolor="#CBD5E1", fancybox=True,
+        handlelength=2.2, labelspacing=0.5,
+    )
+    leg.get_frame().set_linewidth(0.6)
+    ax.text(5.1, -4.28, "Lijndikte \u221d |w|, genormaliseerd binnen netwerk (bereik 1\u20135 pt).",
+            ha="center", va="center", fontsize=5.5, color="#64748B", style="italic")
+
+    plt.tight_layout(pad=0.2)
+    buf = io.BytesIO()
+    fig.savefig(buf, format="png", dpi=160, bbox_inches="tight", facecolor="white")
+    plt.close(fig)
+    buf.seek(0)
+    return buf
+
+
 def build_word_document(hcp_num: int) -> Document:
     hcp_code, case_id_a, case_id_b = ASSIGNMENT[hcp_num]
     case_a = {**CASES[case_id_a], "local_label": "Casus 1"}
@@ -2208,47 +2290,18 @@ def build_word_document(hcp_num: int) -> Document:
         mon.runs[0].font.size = Pt(10)
         doc.add_paragraph()
 
-        # Network beschrijving als tekst
-        net = doc.add_paragraph()
-        net.add_run(
-            "Bipartiet netwerk — predictoren (links) \u2192 criteria (rechts)"
-            "  (zie PDF voor visuele weergave):"
+        # Bipartite network figure (matplotlib PNG embedded in Word)
+        net_caption = doc.add_paragraph()
+        net_caption.add_run(
+            "Bipartiet netwerk — predictoren (links) \u2192 criteria (rechts):"
         ).bold = True
-        net.runs[0].font.size = Pt(10)
+        net_caption.runs[0].font.size = Pt(10)
 
-        def edge_label(node: str) -> str:
-            if node.startswith("cr"):
-                idx = int(node[2:])
-                return f"CR-{idx} ({case['criteria'][idx-1]})"
-            else:
-                idx = int(node[1:])
-                return f"P{idx} ({case['predictors'][idx-1]})"
-
-        pos_edges = [(s, d, w) for s, d, w in case["tikz_edges"] if w > 0]
-        neg_edges = [(s, d, w) for s, d, w in case["tikz_edges"] if w < 0]
-
-        if pos_edges:
-            p = doc.add_paragraph()
-            p.add_run("  Risicofactoren (rood, positief gewicht):  ").bold = True
-            p.runs[0].font.color.rgb = RGBColor(0xB9, 0x1C, 0x1C)
-            p.runs[0].font.size = Pt(9)
-            p.add_run(
-                ",  ".join(
-                    f"{edge_label(s)} \u2192 {edge_label(d)} (w={w:+.2f})"
-                    for s, d, w in pos_edges
-                )
-            ).font.size = Pt(9)
-        if neg_edges:
-            p = doc.add_paragraph()
-            p.add_run("  Beschermende factoren (blauw, negatief gewicht):  ").bold = True
-            p.runs[0].font.color.rgb = RGBColor(0x1D, 0x4E, 0xD8)
-            p.runs[0].font.size = Pt(9)
-            p.add_run(
-                ",  ".join(
-                    f"{edge_label(s)} \u2192 {edge_label(d)} (w={w:+.2f})"
-                    for s, d, w in neg_edges
-                )
-            ).font.size = Pt(9)
+        net_img_para = doc.add_paragraph()
+        net_img_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        net_img_buf = draw_network_png(case)
+        run_img = net_img_para.add_run()
+        run_img.add_picture(net_img_buf, width=Inches(5.8))
 
         predictor_list = ",  ".join(
             f"P{i}: {lbl}" for i, lbl in enumerate(case["predictors"], start=1)
@@ -2271,8 +2324,8 @@ def build_word_document(hcp_num: int) -> Document:
         doc,
         "Rangschik de 5 standaardpredictoren van hoogste naar laagste klinische prioriteit als "
         "behandeldoel. Gebruik hiervoor de 21-daagse monitoring en het bipartiet netwerk "
-        "(rood = risicofactor, blauw = beschermend, lijndikte \u221d |gewicht|). "
-        "Zie de bijgevoegde PDF voor het visuele netwerkdiagram met predictoren links en criteria rechts.",
+        "(rood = risicofactor, blauw = beschermend, lijndikte \u221d |gewicht|, "
+        "genormaliseerd binnen elk netwerk).",
         shade_hex="FEF3C7",
     )
     _page_break(doc)
