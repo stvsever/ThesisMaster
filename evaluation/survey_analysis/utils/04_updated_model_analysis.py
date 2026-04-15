@@ -12,11 +12,8 @@ if __name__ == "__main__":
             data_filename="study_04_updated_model.csv",
             item_col="task_ID",
             dimension_order=[
-                "accurate_depiction",
-                "mathematical_suitability",
-                "data_collection_feasibility",
-                "treatment_translation",
-                "bfs_alignment",
+                "target_alignment",
+                "measurement_selection",
             ],
         )
     )

@@ -12,9 +12,9 @@ if __name__ == "__main__":
             data_filename="study_01_operationalization.csv",
             item_col="text_ID",
             dimension_order=[
-                "accurate_depiction",
-                "mathematical_suitability",
-                "data_collection_feasibility",
+                "criterion_accuracy",
+                "operationalization_quality",
+                "completeness",
             ],
         )
     )

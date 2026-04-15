@@ -151,6 +151,7 @@ def generate_study_00() -> pd.DataFrame:
 
 
 def generate_study_01() -> pd.DataFrame:
+    # Dimensions match POST survey Part 1 rating instrument (02_HCPs_POST/main.tex, Section 4)
     return _generate_dual_source_likert_study(
         DualSourceStudySpec(
             study_slug="study_01",
@@ -160,15 +161,27 @@ def generate_study_01() -> pd.DataFrame:
             n_items=10,
             rater_group="healthcare_expert",
             dimension_profiles={
-                "accurate_depiction": {"hcp": 7.4, "phoenix": 7.0, "sd": 0.75, "ambiguous_bonus_hcp": 0.25},
-                "mathematical_suitability": {"hcp": 6.8, "phoenix": 7.3, "sd": 0.70, "implementation_bonus_phoenix": 0.35},
-                "data_collection_feasibility": {"hcp": 6.7, "phoenix": 7.1, "sd": 0.85, "context_bonus_phoenix": 0.25},
+                # HCP slightly better at capturing nuanced clinical picture; PHOENIX stronger on
+                # formal operationalizability and completeness due to structured ontology.
+                "criterion_accuracy": {
+                    "hcp": 7.4, "phoenix": 7.0, "sd": 0.75,
+                    "ambiguous_bonus_hcp": 0.25,
+                },
+                "operationalization_quality": {
+                    "hcp": 6.8, "phoenix": 7.3, "sd": 0.70,
+                    "implementation_bonus_phoenix": 0.35,
+                },
+                "completeness": {
+                    "hcp": 6.7, "phoenix": 7.1, "sd": 0.85,
+                    "context_bonus_phoenix": 0.25,
+                },
             },
         )
     )
 
 
 def generate_study_02() -> pd.DataFrame:
+    # Dimensions match POST survey Part 2 rating instrument
     return _generate_dual_source_likert_study(
         DualSourceStudySpec(
             study_slug="study_02",
@@ -178,29 +191,63 @@ def generate_study_02() -> pd.DataFrame:
             n_items=10,
             rater_group="healthcare_expert",
             dimension_profiles={
-                "accurate_depiction": {"hcp": 7.2, "phoenix": 6.9, "sd": 0.80, "ambiguous_bonus_hcp": 0.20},
-                "mathematical_suitability": {"hcp": 6.7, "phoenix": 7.5, "sd": 0.75, "implementation_bonus_phoenix": 0.45},
-                "data_collection_feasibility": {"hcp": 6.6, "phoenix": 7.2, "sd": 0.90, "context_bonus_phoenix": 0.25},
-                "treatment_translation": {"hcp": 6.8, "phoenix": 7.3, "sd": 0.85, "context_bonus_hcp": 0.15},
+                # HCP slightly more clinically appropriate; PHOENIX superior on network
+                # formalism, EMA feasibility (structured predictor library), and intervention
+                # leverage identification via LOPO actionability scoring.
+                "clinical_appropriateness": {
+                    "hcp": 7.2, "phoenix": 6.9, "sd": 0.80,
+                    "ambiguous_bonus_hcp": 0.20,
+                },
+                "network_validity": {
+                    "hcp": 6.7, "phoenix": 7.5, "sd": 0.75,
+                    "implementation_bonus_phoenix": 0.45,
+                },
+                "ema_feasibility": {
+                    "hcp": 6.6, "phoenix": 7.2, "sd": 0.90,
+                    "context_bonus_phoenix": 0.25,
+                },
+                "intervention_potential": {
+                    "hcp": 6.8, "phoenix": 7.3, "sd": 0.85,
+                    "context_bonus_hcp": 0.15,
+                },
             },
         )
     )
 
 
 def generate_study_03() -> pd.DataFrame:
-    df = _generate_rank_comparison(
-        filename="study_03_treatment_target.csv",
-        id_label="task_ID",
-        estimator_labels=("phoenix", "human"),
-        n_participants=30,
-        n_tasks=10,
-        n_nodes=5,
-        footrule_col="footrule_vs_gold",
+    # Dimensions match POST survey Part 3 rating instrument
+    return _generate_dual_source_likert_study(
+        DualSourceStudySpec(
+            study_slug="study_03",
+            filename="study_03_treatment_target.csv",
+            item_col="task_ID",
+            n_raters=5,
+            n_items=10,
+            rater_group="healthcare_expert",
+            dimension_profiles={
+                # HCP slightly better on clinical priority judgment for ambiguous cases;
+                # PHOENIX better on rank coherence via LOPO/HyDE scoring and evidence alignment
+                # due to systematic retrieval from ontological knowledge base.
+                "clinical_priority": {
+                    "hcp": 7.2, "phoenix": 7.0, "sd": 0.75,
+                    "ambiguous_bonus_hcp": 0.20,
+                },
+                "evidence_alignment": {
+                    "hcp": 6.9, "phoenix": 7.2, "sd": 0.80,
+                    "context_bonus_phoenix": 0.30,
+                },
+                "rank_coherence": {
+                    "hcp": 7.0, "phoenix": 7.3, "sd": 0.70,
+                    "implementation_bonus_phoenix": 0.30,
+                },
+            },
+        )
     )
-    return df
 
 
 def generate_study_04() -> pd.DataFrame:
+    # Dimensions match POST survey Part 4 rating instrument
     return _generate_dual_source_likert_study(
         DualSourceStudySpec(
             study_slug="study_04",
@@ -210,40 +257,126 @@ def generate_study_04() -> pd.DataFrame:
             n_items=10,
             rater_group="healthcare_expert",
             dimension_profiles={
-                "accurate_depiction": {"hcp": 7.1, "phoenix": 6.9, "sd": 0.80, "ambiguous_bonus_hcp": 0.20},
-                "mathematical_suitability": {"hcp": 6.7, "phoenix": 7.4, "sd": 0.75, "implementation_bonus_phoenix": 0.35},
-                "data_collection_feasibility": {"hcp": 6.6, "phoenix": 7.2, "sd": 0.80, "context_bonus_phoenix": 0.20},
-                "treatment_translation": {"hcp": 6.9, "phoenix": 7.3, "sd": 0.85, "context_bonus_phoenix": 0.15},
-                "bfs_alignment": {"hcp": 6.5, "phoenix": 7.7, "sd": 0.70, "implementation_bonus_phoenix": 0.50},
+                # PHOENIX strongly superior on target alignment due to structured BFS from
+                # identified treatment targets; measurement selection also benefits from
+                # systematic EMA predictor library with operationalization templates.
+                "target_alignment": {
+                    "hcp": 6.8, "phoenix": 7.5, "sd": 0.80,
+                    "implementation_bonus_phoenix": 0.40,
+                    "context_bonus_phoenix": 0.20,
+                },
+                "measurement_selection": {
+                    "hcp": 6.5, "phoenix": 7.7, "sd": 0.70,
+                    "implementation_bonus_phoenix": 0.50,
+                },
             },
         )
     )
 
 
 def generate_study_05() -> pd.DataFrame:
+    # Dimensions match POST survey Part 5 rating instrument.
+    # HAPA phase classification kappa is stored separately (see generate_study_05_hapa_kappa).
     return _generate_dual_source_likert_study(
         DualSourceStudySpec(
             study_slug="study_05",
             filename="study_05_intervention.csv",
             item_col="intervention_ID",
-            n_raters=30,
+            n_raters=5,
             n_items=10,
-            rater_group="non_expert_user",
+            rater_group="healthcare_expert",
             dimension_profiles={
-                "overall_congruence": {"hcp": 6.9, "phoenix": 7.1, "sd": 0.80},
-                "depth_of_tailoring": {"hcp": 6.6, "phoenix": 7.5, "sd": 0.80, "context_bonus_phoenix": 0.30},
-                "actionability": {"hcp": 6.8, "phoenix": 7.4, "sd": 0.75, "implementation_bonus_phoenix": 0.25},
-                "professional_tone": {"hcp": 7.4, "phoenix": 7.0, "sd": 0.70, "ambiguous_bonus_hcp": 0.20},
-                "predicted_effectiveness": {"hcp": 6.8, "phoenix": 7.3, "sd": 0.85, "context_bonus_phoenix": 0.20},
+                # HCP produces better-worded professional tone; PHOENIX better on HAPA
+                # phase calibration (systematic phase classifier) and tailoring depth
+                # (uses full monitoring history) and actionability (structured barrier scoring).
+                "hapa_phase_appropriateness": {
+                    "hcp": 6.8, "phoenix": 7.4, "sd": 0.80,
+                    "implementation_bonus_phoenix": 0.30,
+                },
+                "message_tailoring": {
+                    "hcp": 6.6, "phoenix": 7.5, "sd": 0.80,
+                    "context_bonus_phoenix": 0.30,
+                },
+                "actionability": {
+                    "hcp": 6.8, "phoenix": 7.4, "sd": 0.75,
+                    "implementation_bonus_phoenix": 0.25,
+                },
+                "professional_tone": {
+                    "hcp": 7.4, "phoenix": 7.0, "sd": 0.70,
+                    "ambiguous_bonus_hcp": 0.20,
+                },
             },
         )
     )
+
+
+# HAPA phase labels (shared across PRE and POST classification tasks)
+_HAPA_PHASES = ["pre_intentional", "intentional", "action_maintenance"]
+
+# Ground-truth HAPA phases for the 10 standardised cases (researcher-defined)
+_CASE_HAPA_PHASES = {
+    "STUDY_05_01": "intentional",           # C01 — partial intention, no systematic action
+    "STUDY_05_02": "intentional",           # C02 — knows avoidance is problem, not acting
+    "STUDY_05_03": "pre_intentional",       # C03 — burnout overwhelm, no intention formed
+    "STUDY_05_04": "intentional",           # C04 — mixed, primarily intentional
+    "STUDY_05_05": "pre_intentional",       # C05 — OCD maintenance, no ERP intention
+    "STUDY_05_06": "intentional",           # C06 — transitional intentional/early action
+    "STUDY_05_07": "intentional",           # C07 — aware but not acting consistently
+    "STUDY_05_08": "action_maintenance",    # C08 — active on executive function domain
+    "STUDY_05_09": "pre_intentional",       # C09 — no self-regulation intention
+    "STUDY_05_10": "intentional",           # C10 — aware, partially motivated
+}
+
+
+def generate_study_05_hapa_kappa() -> pd.DataFrame:
+    """Generate pseudodata for HAPA phase classification inter-rater agreement.
+
+    Simulates classification decisions from 5 POST evaluators and the ground-truth
+    reference (derived from researcher consensus). Returns a long-format DataFrame
+    suitable for computing Cohen's κ (pairwise) or Fleiss' κ (multi-rater).
+
+    Each row represents one rater × case classification.
+    """
+    phase_index = {p: i for i, p in enumerate(_HAPA_PHASES)}
+    rows = []
+    for case_key, true_phase in _CASE_HAPA_PHASES.items():
+        true_idx = phase_index[true_phase]
+        # Ground truth (researcher consensus)
+        rows.append({
+            "rater_ID": "REFERENCE",
+            "case_ID": case_key,
+            "hapa_phase": true_phase,
+            "hapa_phase_code": true_idx,
+            "rater_type": "reference",
+        })
+        # POST evaluator classifications (simulate with systematic noise)
+        for post_rater in range(1, 6):
+            rater_label = f"HCP-POST-{post_rater:02d}"
+            # Higher-competence raters agree more often
+            agreement_prob = 0.72 + (post_rater - 1) * 0.02
+            if RNG.random() < agreement_prob:
+                classified = true_phase
+            else:
+                # Confuse with adjacent phase
+                adjacent = [p for p in _HAPA_PHASES if p != true_phase]
+                classified = str(RNG.choice(adjacent))
+            rows.append({
+                "rater_ID": rater_label,
+                "case_ID": case_key,
+                "hapa_phase": classified,
+                "hapa_phase_code": phase_index[classified],
+                "rater_type": "post_evaluator",
+            })
+    df = pd.DataFrame(rows)
+    _save(df, "study_05_hapa_kappa.csv")
+    return df
 
 
 def generate_study_06(study_frames: Dict[str, pd.DataFrame]) -> pd.DataFrame:
     frame_specs = {
         "study_01": ("text_ID", study_frames["study_01"]),
         "study_02": ("item_ID", study_frames["study_02"]),
+        "study_03": ("task_ID", study_frames["study_03"]),
         "study_04": ("task_ID", study_frames["study_04"]),
         "study_05": ("intervention_ID", study_frames["study_05"]),
     }
@@ -273,13 +406,15 @@ def generate_all_studies() -> None:
     generate_study_00()
     study_01 = generate_study_01()
     study_02 = generate_study_02()
-    generate_study_03()
+    study_03 = generate_study_03()
     study_04 = generate_study_04()
     study_05 = generate_study_05()
+    generate_study_05_hapa_kappa()
     generate_study_06(
         {
             "study_01": study_01,
             "study_02": study_02,
+            "study_03": study_03,
             "study_04": study_04,
             "study_05": study_05,
         }

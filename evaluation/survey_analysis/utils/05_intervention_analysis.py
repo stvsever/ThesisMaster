@@ -12,11 +12,10 @@ if __name__ == "__main__":
             data_filename="study_05_intervention.csv",
             item_col="intervention_ID",
             dimension_order=[
-                "overall_congruence",
-                "depth_of_tailoring",
+                "hapa_phase_appropriateness",
+                "message_tailoring",
                 "actionability",
                 "professional_tone",
-                "predicted_effectiveness",
             ],
         )
     )

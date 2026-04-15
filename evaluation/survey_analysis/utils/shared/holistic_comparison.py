@@ -10,7 +10,16 @@ import numpy as np
 import pandas as pd
 import scipy.stats as stats
 
-from .shared_stats import PALETTE, fit_crossed_mixedlm, forest_plot, p_to_stars, save_figure
+from .shared_stats import (
+    PALETTE,
+    fit_crossed_mixedlm,
+    forest_plot,
+    p_to_stars,
+    raincloud_plot,
+    save_figure,
+    tost_panel,
+    tost_test,
+)
 from .survey_paths import data_file, ensure_study_dirs
 
 
@@ -20,6 +29,7 @@ class HolisticStudyConfig:
     title: str
     report_name: str
     data_filename: str
+    tost_delta: float = 0.05    # normalised score scale (0–1); ~5 pp equivalence margin
 
 
 def _display_label(value: str) -> str:
@@ -55,6 +65,8 @@ def run_holistic_reasoner_comparison(config: HolisticStudyConfig) -> None:
     formula_terms = ["reasoner_bin", "C(study_id)", "C(dimension)"]
     if "shift_regime" in work.columns and work["shift_regime"].nunique() > 1:
         formula_terms.append("C(shift_regime)")
+
+    # ── Unified cross-study mixed model ──────────────────────────────────────
     unified_result = fit_crossed_mixedlm(
         work,
         formula="normalized_score ~ " + " + ".join(formula_terms),
@@ -78,6 +90,12 @@ def run_holistic_reasoner_comparison(config: HolisticStudyConfig) -> None:
             },
         ],
     )
+
+    # Global TOST on normalised scores
+    phoenix_all = work.loc[work["reasoner_group"].astype(str) == "phoenix", "normalized_score"].to_numpy()
+    hcp_all     = work.loc[work["reasoner_group"].astype(str) == "hcp",     "normalized_score"].to_numpy()
+    global_tost = tost_test(phoenix_all, hcp_all, delta=config.tost_delta)
+
     if unified_result["method"] != "No converged mixed model":
         report_lines.extend(
             [
@@ -87,17 +105,17 @@ def run_holistic_reasoner_comparison(config: HolisticStudyConfig) -> None:
                 f"PHOENIX - HCP coefficient: {unified_result['coefficient']:.4f}",
                 f"95% CI: [{unified_result['ci_lower']:.4f}, {unified_result['ci_upper']:.4f}]",
                 f"p-value: {unified_result['p_value']:.4f} ({p_to_stars(unified_result['p_value'])})",
-                "Primary estimand adjusts for study and dimension while accounting for participant severity, task difficulty, and participant-specific answer-block clustering.",
+                "Primary estimand adjusts for study and dimension while accounting for "
+                "participant severity, task difficulty, and participant-specific answer-block clustering.",
             ]
         )
         if not np.isnan(unified_result.get("shapiro_w", np.nan)):
             report_lines.append(
-                f"Residual Shapiro-Wilk: W={unified_result['shapiro_w']:.4f}, p={unified_result['shapiro_p']:.4f}"
+                f"Residual Shapiro-Wilk: W={unified_result['shapiro_w']:.4f}, "
+                f"p={unified_result['shapiro_p']:.4f}"
             )
     else:
-        phoenix_vals = work.loc[work["reasoner_group"].astype(str) == "phoenix", "normalized_score"].to_numpy()
-        hcp_vals = work.loc[work["reasoner_group"].astype(str) == "hcp", "normalized_score"].to_numpy()
-        stat, p_val = stats.mannwhitneyu(phoenix_vals, hcp_vals, alternative="two-sided")
+        stat, p_val = stats.mannwhitneyu(phoenix_all, hcp_all, alternative="two-sided")
         report_lines.extend(
             [
                 "",
@@ -109,13 +127,34 @@ def run_holistic_reasoner_comparison(config: HolisticStudyConfig) -> None:
             ]
         )
 
+    equiv_str = (
+        f"EQUIVALENT (p_TOST={global_tost['p_tost']:.4f})"
+        if global_tost["equivalent"]
+        else f"not equivalent (p_TOST={global_tost['p_tost']:.4f})"
+    )
+    report_lines.extend(
+        [
+            "",
+            f"Global TOST (δ=±{config.tost_delta}): {equiv_str}",
+            f"  observed diff={global_tost['observed_diff']:.4f}, SE={global_tost['pooled_se']:.4f}",
+        ]
+    )
+
+    # ── Study-level follow-up models ─────────────────────────────────────────
     study_effects: Dict[str, Dict[str, Any]] = {}
+    study_tosts:   Dict[str, Dict[str, Any]] = {}
     raw_study_p_values = []
+
     for study_id in studies:
         sub = work.loc[work["study_id"].astype(str) == study_id].copy()
-        phoenix_vals = sub.loc[sub["reasoner_group"].astype(str) == "phoenix", "normalized_score"].to_numpy()
-        hcp_vals = sub.loc[sub["reasoner_group"].astype(str) == "hcp", "normalized_score"].to_numpy()
+        phoenix_vals = sub.loc[
+            sub["reasoner_group"].astype(str) == "phoenix", "normalized_score"
+        ].to_numpy()
+        hcp_vals = sub.loc[
+            sub["reasoner_group"].astype(str) == "hcp", "normalized_score"
+        ].to_numpy()
         diff = float(np.mean(phoenix_vals) - np.mean(hcp_vals))
+
         result = fit_crossed_mixedlm(
             sub,
             formula="normalized_score ~ reasoner_bin",
@@ -141,39 +180,48 @@ def run_holistic_reasoner_comparison(config: HolisticStudyConfig) -> None:
         )
         if result["method"] == "No converged mixed model":
             stat, p_val = stats.mannwhitneyu(phoenix_vals, hcp_vals, alternative="two-sided")
-            coef = diff
-            ci_lo = diff
-            ci_hi = diff
+            coef, ci_lo, ci_hi = diff, diff, diff
             method = "Mann-Whitney fallback"
+            p_val  = float(p_val)
         else:
-            coef = float(result["coefficient"])
-            ci_lo = float(result["ci_lower"])
-            ci_hi = float(result["ci_upper"])
-            p_val = float(result["p_value"])
+            coef   = float(result["coefficient"])
+            ci_lo  = float(result["ci_lower"])
+            ci_hi  = float(result["ci_upper"])
+            p_val  = float(result["p_value"])
             method = result["method"]
+
+        study_tosts[study_id]   = tost_test(phoenix_vals, hcp_vals, delta=config.tost_delta)
         study_effects[study_id] = {
-            "coef": coef,
-            "ci_lo": ci_lo,
-            "ci_hi": ci_hi,
-            "p_value": p_val,
-            "method": method,
+            "coef": coef, "ci_lo": ci_lo, "ci_hi": ci_hi,
+            "p_value": p_val, "method": method,
         }
         raw_study_p_values.append(p_val)
 
     corrected_study_p_values = _holm_correct(raw_study_p_values)
     report_lines.append("")
     report_lines.append("--- Study-specific follow-up models ---")
-    report_lines.append("Secondary study-level contrasts are Holm-adjusted across studies.")
+    report_lines.append(
+        "Secondary study-level contrasts are Holm-adjusted across studies."
+    )
     for study_id, corrected_p in zip(studies, corrected_study_p_values):
         study_effects[study_id]["p_value_holm"] = corrected_p
+        tost_r = study_tosts[study_id]
+        equiv_str = (
+            f"EQUIVALENT (p_TOST={tost_r['p_tost']:.4f})"
+            if tost_r["equivalent"]
+            else f"not equivalent (p_TOST={tost_r['p_tost']:.4f})"
+        )
         report_lines.extend(
             [
                 "",
                 f"Study: {study_id}",
-                f"  HCP mean={np.mean(work.loc[(work['study_id'].astype(str) == study_id) & (work['reasoner_group'].astype(str) == 'hcp'), 'normalized_score'].to_numpy()):.4f}, PHOENIX mean={np.mean(work.loc[(work['study_id'].astype(str) == study_id) & (work['reasoner_group'].astype(str) == 'phoenix'), 'normalized_score'].to_numpy()):.4f}",
+                f"  HCP mean={np.mean(work.loc[(work['study_id'].astype(str) == study_id) & (work['reasoner_group'].astype(str) == 'hcp'), 'normalized_score'].to_numpy()):.4f}, "
+                f"PHOENIX mean={np.mean(work.loc[(work['study_id'].astype(str) == study_id) & (work['reasoner_group'].astype(str) == 'phoenix'), 'normalized_score'].to_numpy()):.4f}",
                 f"  PHOENIX - HCP={study_effects[study_id]['coef']:.4f}",
                 f"  95% CI: [{study_effects[study_id]['ci_lo']:.4f}, {study_effects[study_id]['ci_hi']:.4f}]",
-                f"  p-value (raw)={study_effects[study_id]['p_value']:.4f}, p-value (Holm)={corrected_p:.4f} ({p_to_stars(corrected_p)})",
+                f"  p-value (raw)={study_effects[study_id]['p_value']:.4f}, "
+                f"p-value (Holm)={corrected_p:.4f} ({p_to_stars(corrected_p)})",
+                f"  TOST (δ=±{config.tost_delta}): {equiv_str}",
                 f"  Method={study_effects[study_id]['method']}",
             ]
         )
@@ -181,66 +229,108 @@ def run_holistic_reasoner_comparison(config: HolisticStudyConfig) -> None:
     report_path = paths["report_dir"] / config.report_name
     report_path.write_text("\n".join(report_lines), encoding="utf-8")
 
-    order = studies
-    fig, axes = plt.subplots(1, len(order), figsize=(max(7, 4 * len(order)), 5.0), sharey=True)
-    if len(order) == 1:
+    # ────────────────────────────────────────────────────────────────────────
+    # Figure 1 — Raincloud per study (normalised score)
+    # ────────────────────────────────────────────────────────────────────────
+    fig, axes = plt.subplots(
+        1, len(studies),
+        figsize=(max(7, 4.4 * len(studies)), 6.0),
+        sharey=True,
+    )
+    if len(studies) == 1:
         axes = [axes]
-    rng = np.random.default_rng(42)
-    for ax, study_id in zip(axes, order):
+
+    for ax, study_id in zip(axes, studies):
         sub = work.loc[work["study_id"].astype(str) == study_id].copy()
-        positions = [1, 2]
-        hcp_vals = sub.loc[sub["reasoner_group"].astype(str) == "hcp", "normalized_score"].to_numpy()
+        hcp_vals     = sub.loc[sub["reasoner_group"].astype(str) == "hcp",     "normalized_score"].to_numpy()
         phoenix_vals = sub.loc[sub["reasoner_group"].astype(str) == "phoenix", "normalized_score"].to_numpy()
-        violin = ax.violinplot([hcp_vals, phoenix_vals], positions=positions, showmedians=True, showextrema=False)
-        for body, color in zip(violin["bodies"], [PALETTE["secondary"], PALETTE["primary"]]):
-            body.set_facecolor(color)
-            body.set_alpha(0.35)
-        for vals, pos, color in [(hcp_vals, 1, PALETTE["secondary"]), (phoenix_vals, 2, PALETTE["primary"])]:
-            jitter = rng.uniform(-0.08, 0.08, size=len(vals))
-            ax.scatter(pos + jitter, vals, color=color, alpha=0.35, s=12, zorder=3)
-        ax.axhline(0.5, color=PALETTE["neutral"], linestyle="--", linewidth=1.0)
-        ax.set_xticks(positions)
-        ax.set_xticklabels(["HCP", "PHX"])
-        ax.set_title(_display_label(study_id))
-        ax.set_ylim(-0.05, 1.05)
-    axes[0].set_ylabel("Normalized score")
+        raincloud_plot(
+            ax,
+            data_dict={"HCP": hcp_vals, "PHOENIX": phoenix_vals},
+            title=_display_label(study_id),
+            ylabel="Normalized score (0–1)",
+            colors=[PALETTE["secondary"], PALETTE["primary"]],
+            adj_p=study_effects[study_id].get("p_value_holm"),
+            ylim=(-0.08, 1.08),
+            show_tost=study_tosts[study_id],
+        )
+
     fig.suptitle(config.title, fontsize=13, y=1.02)
     plt.tight_layout()
-    save_figure(fig, paths["visuals_dir"] / f"{config.study_slug}_reasoner_violin.png")
+    save_figure(fig, paths["visuals_dir"] / f"{config.study_slug}_reasoner_raincloud.png")
 
+    # ────────────────────────────────────────────────────────────────────────
+    # Figure 2 — TOST equivalence panel per study
+    # ────────────────────────────────────────────────────────────────────────
+    fig2, ax2 = plt.subplots(figsize=(8, max(3.5, 0.8 * len(studies) + 1.2)))
+    tost_panel(
+        ax2,
+        dimensions=[_display_label(s) for s in studies],
+        tost_results=[study_tosts[s] for s in studies],
+        title=f"Holistic Equivalence (TOST, δ = ±{config.tost_delta}): per study",
+    )
+    plt.tight_layout()
+    save_figure(fig2, paths["visuals_dir"] / f"{config.study_slug}_tost_equivalence.png")
+
+    # ────────────────────────────────────────────────────────────────────────
+    # Figure 3 — Dimension × study delta heatmap
+    # ────────────────────────────────────────────────────────────────────────
     delta_table = (
         work.groupby(["study_id", "dimension", "reasoner_group"], as_index=False)["normalized_score"]
         .mean()
-        .pivot_table(index=["study_id", "dimension"], columns="reasoner_group", values="normalized_score")
+        .pivot_table(
+            index=["study_id", "dimension"],
+            columns="reasoner_group",
+            values="normalized_score",
+        )
         .reset_index()
     )
     if {"hcp", "phoenix"}.issubset(delta_table.columns):
         delta_table["phoenix_minus_hcp"] = delta_table["phoenix"] - delta_table["hcp"]
-        heatmap_table = delta_table.pivot(index="dimension", columns="study_id", values="phoenix_minus_hcp")
-        fig2, ax2 = plt.subplots(figsize=(max(7, 1.8 * len(heatmap_table.columns)), max(4, 0.6 * len(heatmap_table.index) + 1.5)))
-        im = ax2.imshow(heatmap_table.values, cmap="RdBu_r", aspect="auto")
-        ax2.set_xticks(np.arange(len(heatmap_table.columns)))
-        ax2.set_xticklabels([_display_label(c) for c in heatmap_table.columns], rotation=20, ha="right")
-        ax2.set_yticks(np.arange(len(heatmap_table.index)))
-        ax2.set_yticklabels([_display_label(r) for r in heatmap_table.index])
-        ax2.set_title("PHOENIX - HCP normalized score by study and dimension")
+        heatmap_table = delta_table.pivot(
+            index="dimension", columns="study_id", values="phoenix_minus_hcp"
+        )
+        fig3, ax3 = plt.subplots(
+            figsize=(
+                max(7, 1.8 * len(heatmap_table.columns)),
+                max(4, 0.6 * len(heatmap_table.index) + 1.5),
+            )
+        )
+        im = ax3.imshow(heatmap_table.values, cmap="RdBu_r", aspect="auto",
+                        vmin=-0.3, vmax=0.3)
+        ax3.set_xticks(np.arange(len(heatmap_table.columns)))
+        ax3.set_xticklabels(
+            [_display_label(c) for c in heatmap_table.columns],
+            rotation=20, ha="right",
+        )
+        ax3.set_yticks(np.arange(len(heatmap_table.index)))
+        ax3.set_yticklabels([_display_label(r) for r in heatmap_table.index])
+        ax3.set_title("PHOENIX − HCP normalized score by study and dimension")
         for i in range(heatmap_table.shape[0]):
             for j in range(heatmap_table.shape[1]):
-                ax2.text(j, i, f"{heatmap_table.iloc[i, j]:.2f}", ha="center", va="center", fontsize=8)
-        plt.colorbar(im, ax=ax2, label="Delta")
+                ax3.text(
+                    j, i, f"{heatmap_table.iloc[i, j]:.2f}",
+                    ha="center", va="center", fontsize=8,
+                )
+        plt.colorbar(im, ax=ax3, label="Δ (PHOENIX − HCP)")
         plt.tight_layout()
-        save_figure(fig2, paths["visuals_dir"] / f"{config.study_slug}_dimension_heatmap.png")
+        save_figure(fig3, paths["visuals_dir"] / f"{config.study_slug}_dimension_heatmap.png")
 
-    fig3, ax3 = plt.subplots(figsize=(8, max(4, 0.8 * len(order) + 1.2)))
+    # ────────────────────────────────────────────────────────────────────────
+    # Figure 4 — Forest plot with TOST badges per study
+    # ────────────────────────────────────────────────────────────────────────
+    fig4, ax4 = plt.subplots(figsize=(9, max(4, 0.85 * len(studies) + 1.2)))
     forest_plot(
-        ax3,
-        dimensions=[_display_label(study_id) for study_id in order],
-        effects=[study_effects[study_id]["coef"] for study_id in order],
-        ci_lowers=[study_effects[study_id]["ci_lo"] for study_id in order],
-        ci_uppers=[study_effects[study_id]["ci_hi"] for study_id in order],
-        title="Holistic PHOENIX - HCP effect by study",
+        ax4,
+        dimensions=[_display_label(s) for s in studies],
+        effects=[study_effects[s]["coef"] for s in studies],
+        ci_lowers=[study_effects[s]["ci_lo"] for s in studies],
+        ci_uppers=[study_effects[s]["ci_hi"] for s in studies],
+        title="Holistic PHOENIX − HCP effect by study (normalised score)",
         xlabel="Normalized score difference",
         ref_line=0.0,
+        p_values=[study_effects[s]["p_value_holm"] for s in studies],
+        tost_results=[study_tosts[s] for s in studies],
     )
     plt.tight_layout()
-    save_figure(fig3, paths["visuals_dir"] / f"{config.study_slug}_study_forest.png")
+    save_figure(fig4, paths["visuals_dir"] / f"{config.study_slug}_study_forest.png")

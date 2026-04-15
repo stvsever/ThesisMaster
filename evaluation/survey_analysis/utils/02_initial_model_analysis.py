@@ -12,10 +12,10 @@ if __name__ == "__main__":
             data_filename="study_02_initial_model.csv",
             item_col="item_ID",
             dimension_order=[
-                "accurate_depiction",
-                "mathematical_suitability",
-                "data_collection_feasibility",
-                "treatment_translation",
+                "clinical_appropriateness",
+                "network_validity",
+                "ema_feasibility",
+                "intervention_potential",
             ],
         )
     )
