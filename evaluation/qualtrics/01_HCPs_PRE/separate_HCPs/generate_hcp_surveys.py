@@ -11,6 +11,12 @@ from __future__ import annotations
 import subprocess
 from pathlib import Path
 
+from docx import Document
+from docx.shared import Pt, Cm, RGBColor
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.oxml.ns import qn
+from docx.oxml import OxmlElement
+
 
 CASES: dict[str, dict] = {
     "C01": dict(
@@ -1033,7 +1039,7 @@ PREAMBLE_TEMPLATE = r"""\documentclass[11pt,a4paper]{article}
   linkcolor=black,
   urlcolor=black,
   pdftitle={<<PDFTITLE>>},
-  pdfauthor={Stijn Van Severen --- Universiteit Gent}
+  pdfauthor={Stijn Van Severen -- Universiteit Gent}
 }
 
 \definecolor{PrimaryBlue}{HTML}{1D4ED8}
@@ -1063,7 +1069,7 @@ PREAMBLE_TEMPLATE = r"""\documentclass[11pt,a4paper]{article}
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\color{SlateMid}PHOENIX evaluatiestudie --- Fase 1}
+\fancyhead[L]{\small\color{SlateMid}PHOENIX evaluatiestudie -- Fase 1}
 \fancyhead[R]{\small\color{SlateMid}\textbf{<<HCPCODE>>}\quad <<CA>> + <<CB>>}
 \fancyfoot[C]{\small Pagina \thepage\ van \pageref{LastPage}}
 \renewcommand{\headrulewidth}{0.3pt}
@@ -1168,8 +1174,8 @@ def preamble(hcp_code: str, ca_label: str, cb_label: str) -> str:
 
 
 COVER_TEMPLATE = r"""% ── TITELPAGINA ─────────────────────────────────────────────────────────────
-\begin{titlepage}
-\centering\vspace*{0.6cm}
+\thispagestyle{fancy}
+\vspace*{0.3cm}
 
 \begin{tcolorbox}[
   colback=DarkBlue,colframe=DarkBlue,
@@ -1180,13 +1186,13 @@ COVER_TEMPLATE = r"""% ── TITELPAGINA ────────────�
 {\fontsize{22}{28}\selectfont\bfseries\color{white}
 PHOENIX evaluatiestudie\\[0.3em]
 \fontsize{15}{20}\selectfont\color{AccentBlue}
-Fase 1 --- onafhankelijke expertgeneratie\\[0.2em]
+Fase 1 -- onafhankelijke expertgeneratie\\[0.2em]
 \fontsize{12}{16}\selectfont\color{white}
 \textit{Instrument voor Zorgprofessionals}
 }
 \end{tcolorbox}
 
-\vspace{0.7cm}
+\vspace{0.6cm}
 
 \begin{tcolorbox}[
   colback=AccentBlue,colframe=PrimaryBlue,
@@ -1203,7 +1209,7 @@ Toegewezen casussen:\quad
 }
 \end{tcolorbox}
 
-\vspace{0.6cm}
+\vspace{0.5cm}
 
 \begin{tcolorbox}[
   colback=SoftBG,colframe=BorderGrey,
@@ -1213,7 +1219,7 @@ Toegewezen casussen:\quad
 \small\renewcommand{\arraystretch}{1.28}
 \begin{tabularx}{\textwidth}{@{}>{\bfseries\raggedright\arraybackslash}p{0.29\textwidth}X@{}}
 Studie & Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentsysteem voor gepersonaliseerde digitale geestelijke gezondheidszorg (PHOENIX) \\
-Instelling & Universiteit Gent --- Faculteit Psychologie en Pedagogische Wetenschappen \\
+Instelling & Universiteit Gent -- Faculteit Psychologie en Pedagogische Wetenschappen \\
 Onderzoeker & Stijn Van Severen (masterproefstudent) \\
 Promotoren & Prof.\ Geert Crombez; Dr.\ Annick De Paepe \\
 Contact & \texttt{stijn.vanseveren@ugent.be} \\
@@ -1221,7 +1227,7 @@ Geschatte duur & Ongeveer 35--45 minuten voor beide casussen samen \\
 \end{tabularx}
 \end{tcolorbox}
 
-\vspace{0.5cm}
+\vspace{0.4cm}
 
 \begin{tcolorbox}[
   colback=SoftBG,colframe=BorderGrey,
@@ -1236,18 +1242,18 @@ vijf klinische redeneerstappen uitvoeren als het PHOENIX-systeem. Uw antwoorden
 vormen het menselijke referentiecorpus voor een latere dubbelblinde vergelijking
 met systeemoutput.
 
-\medskip
+\smallskip
 Voor elk van uw twee casussen vult u dezelfde vijf delen in: (1) operationalisering,
 (2) initieel observatiemodel, (3) prioritering van behandeldoelen, (4) verfijning van
 EMA-metingen en (5) een mobiele coachingsboodschap.
 
-\medskip
+\smallskip
 \textbf{We vragen uw eigen klinische oordeelsvorming.} Antwoord zoals u dat in een
 reele professionele context zou doen, maar werk strikt volgens de instructies op de
 volgende pagina.
 \end{tcolorbox}
 
-\vspace{0.5cm}
+\vspace{0.4cm}
 
 \begin{tcolorbox}[
   colback=AccentAmber,colframe=GoldAmber,
@@ -1262,8 +1268,6 @@ onderzoeker.
 \end{tcolorbox}
 
 \vfill
-\end{titlepage}
-
 \newpage
 \tableofcontents
 \newpage
@@ -1284,80 +1288,67 @@ INTRO = r"""
 % ── INSTRUCTIEPAGINA ─────────────────────────────────────────────────────────
 \section{Instructiepagina}
 
-\subsection{Wat u in deze bundel doet}
-
 \textbf{PHOENIX} is een multi-agentsysteem dat een vrije klachttekst omzet in een
-gestructureerde klinische redenering over vijf opeenvolgende stappen. In deze bundel
-voert u diezelfde stappen onafhankelijk uit voor uw twee toegewezen casussen.
+gestructureerde klinische redenering via vijf opeenvolgende stappen. In deze bundel
+voert u diezelfde vijf stappen onafhankelijk uit voor uw twee toegewezen casussen.
+Uw antwoorden vormen het menselijke referentiecorpus voor een latere dubbelblinde
+vergelijking met systeemoutput.
 
+\vspace{0.4em}
 \begin{center}
-\renewcommand{\arraystretch}{1.40}
+\renewcommand{\arraystretch}{1.32}
 \small
-\begin{tabular}{@{}>{\bfseries\color{PrimaryBlue}}p{0.07\textwidth}>{\bfseries}p{0.35\textwidth}p{0.47\textwidth}@{}}
+\begin{tabular}{@{}>{\bfseries\color{PrimaryBlue}}p{0.05\textwidth}>{\bfseries}p{0.28\textwidth}p{0.37\textwidth}p{0.15\textwidth}@{}}
 \toprule
-Stap & Klinische taak & Wat u concreet doet \\
+Stap & Klinische taak & Wat u doet & Richttijd \\
 \midrule
-1 & Operationalisering & U noteert 2--6 labels voor actuele mentale gezondheidsproblemen \\
-2 & Initieel observatiemodel & U genereert 3--5 biopsychosociale predictorlabels, geschikt voor dagelijkse EMA \\
-3 & Behandeldoelprioritering & U rangschikt de 5 standaardpredictoren van hoogste naar laagste klinische prioriteit \\
-4 & Verfijnd observatiemodel & U selecteert exact 5 EMA-items uit een lijst van 20 volgens de breadth-first update-logica \\
-5 & Mobiele coaching & U schrijft een korte patientgerichte boodschap voor de mobiele applicatie \\
+1 & Operationalisering & Noteer 2--6 criteriumlabels voor actuele probleemdimensies & $\approx$\,6 min \\
+2 & Initieel observatiemodel & Genereer 3--5 biopsychosociale predictorlabels (EMA-geschikt) & $\approx$\,6 min \\
+3 & Behandeldoelprioritering & Rangschik de 5 standaardpredictoren van hoog naar laag & $\approx$\,7 min \\
+4 & Verfijnd observatiemodel & Selecteer exact 5 EMA-items uit de lijst van 20 & $\approx$\,8 min \\
+5 & Mobiele coaching & Schrijf een korte patientgerichte boodschap voor de app & $\approx$\,8 min \\
+\midrule
+ & \textbf{Totaal (2 casussen)} & & \textbf{35--45 min} \\
 \bottomrule
 \end{tabular}
 \end{center}
 
-\subsection{Werkwijze en methodologische aandachtspunten}
-
-\begin{instrbox}[title=Gelieve deze instructies strikt te volgen]
-\begin{enumerate}
-\item \textbf{Werk sequentieel.} Doorloop de bundel strikt in de volgorde Deel 1 $\rightarrow$ Deel 5.
-Ga pas naar een volgend deel wanneer het huidige deel voor beide casussen is afgewerkt.
-\item \textbf{Gebruik geen generatieve AI, automatische schrijfhulpmiddelen, klinische richtlijnen of overleg met collega's.}
-Externe hulp zou de methodologische validiteit, vergelijkbaarheid en blind scoringswaarde van de studie aantasten.
+\vspace{0.5em}
+\begin{instrbox}[title={Werkwijze -- strikt te volgen}]
+\begin{enumerate}[topsep=1pt,itemsep=2pt]
+\item \textbf{Werk sequentieel: Deel 1 $\rightarrow$ Deel 5.}
+Ga pas naar een volgend deel wanneer het huidige deel volledig is afgewerkt voor beide casussen.
+\item \textbf{Gebruik geen generatieve AI, schrijfhulpmiddelen, richtlijnen of collegaoverleg.}
+Extern gebruik ondermijnt de methodologische validiteit en de blind scoringswaarde van de studie.
 \item \textbf{Gebruik in latere delen uitsluitend de meegeleverde gestandaardiseerde context.}
-Die context is bewust vastgezet zodat alle deelnemers op identieke input reageren.
+Die is bewust vastgezet zodat alle deelnemers op identieke input reageren.
 \item \textbf{Herwerk eerdere antwoorden niet retroactief} nadat u latere context hebt gezien.
-De volgorde maakt deel uit van het onderzoeksdesign.
-\item \textbf{Formuleer bondig, klinisch precies en case-specifiek.} Vermijd brede beschouwingen of theoretische uitweidingen.
-\item \textbf{Noteer of typ rechtstreeks in de voorziene antwoordzones.} Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blind beoordeling.
+\item \textbf{Noteer of typ rechtstreeks in de voorziene antwoordzones.}
+Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blind beoordeling.
 \end{enumerate}
 \end{instrbox}
 
-\begin{instrbox}[title=EMA-principes voor Deel 2 en Deel 4]
-\begin{itemize}
-\item Een EMA-variabele moet \textbf{dagelijks via een mobiele app rapporteerbaar} zijn.
-\item Een goede EMA-variabele is \textbf{dynamisch en veranderbaar}: geen statische eigenschap, diagnose of achtergrondkenmerk.
-\item Geef bij voorkeur labels die later meetbaar kunnen worden gemaakt als \textbf{ja/nee}, \textbf{aantal}, \textbf{minuten} of \textbf{0--10 score}.
-\item Kies variabelen die \textbf{binnen-persoonsvariatie} kunnen tonen en die klinisch relevant zijn voor opvolging in een volgende meetcyclus.
-\item In Deel 4 zijn alle antwoordopties reeds uitgewerkt als \textbf{dagelijkse EMA-items}; daar selecteert u enkel de meest geschikte 5.
+\vspace{0.4em}
+\begin{instrbox}[title={EMA-principes (relevant voor Deel 2 en Deel 4)}]
+\textbf{Ecological Momentary Assessment (EMA)} meet dagelijkse schommelingen via een mobiele
+app. Elke EMA-variabele moet aan vier vereisten voldoen:
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{Dagelijks rapporteerbaar} via een korte vraag op de smartphone.
+\item \textbf{Dynamisch en veranderbaar:} geen vaste diagnose, trait of achtergrondkenmerk.
+\item \textbf{Meetbaar in een eenvoudig format:} ja/nee, aantal, minuten of een 0--10 score.
+\item \textbf{Klinisch relevant voor opvolging:} toont binnen-persoonsvariatie die therapeutisch informatief is.
 \end{itemize}
+\smallskip
+In \textbf{Deel 2} genereert u zelf predictorlabels. In \textbf{Deel 4} zijn de 20 kandidaat-items
+reeds uitgewerkt als dagelijkse EMA-items; u selecteert de meest geschikte 5.
 \end{instrbox}
-
-\subsection{Overzicht van antwoordformats}
-
-\begin{center}
-\small
-\begin{tabular}{@{}>{\bfseries}p{0.06\textwidth}p{0.35\textwidth}p{0.33\textwidth}p{0.16\textwidth}@{}}
-\toprule
-Deel & Taak & Antwoordformat & Richttijd \\
-\midrule
-1 & Operationalisering & 2--6 criteriumlabels & $\approx$ 6 min \\
-2 & Initieel observatiemodel & 3--5 predictorlabels & $\approx$ 6 min \\
-3 & Behandeldoelprioritering & volledige rangorde van 5 predictors & $\approx$ 7 min \\
-4 & Verfijnd observatiemodel & exact 5 selecties uit 20 EMA-items & $\approx$ 8 min \\
-5 & Mobiele coaching & korte digitale boodschap & $\approx$ 8 min \\
-\midrule
- & \textbf{Totaal voor 2 casussen} & & \textbf{$\approx$ 35--45 min} \\
-\bottomrule
-\end{tabular}
-\end{center}
 
 \newpage
 """
 
 
 PART1_HEADER = r"""
-\section{Deel 1 --- Operationalisering van mentale gezondheidsproblemen}
+\section{Deel 1: Operationalisering van mentale gezondheidsproblemen}
 
 \begin{tcolorbox}[colback=blue!3,colframe=PrimaryBlue,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
@@ -1384,9 +1375,9 @@ Noteer per casus \textbf{2--6 criteria}. Laat ongebruikte velden leeg.
 
 
 PART1_CASE_TEMPLATE = r"""
-\subsection*{Casus <<LABEL>> --- <<PROFILE>>}
+\subsection*{Casus <<LABEL>>: <<PROFILE>>}
 
-\begin{complaintbox}[title={Casus <<LABEL>> --- <<PROFILE>>; duur: <<DURATION>>}]
+\begin{complaintbox}[title={Casus <<LABEL>>: <<PROFILE>>; duur: <<DURATION>>}]
 \small <<VIGNETTE>>
 \end{complaintbox}
 
@@ -1416,11 +1407,11 @@ def part1_case(case: dict) -> str:
 
 
 def part1(case_a: dict, case_b: dict) -> str:
-    return PART1_HEADER + part1_case(case_a) + "\n\\newpage\n" + part1_case(case_b) + "\n\\newpage\n"
+    return PART1_HEADER + "\n\\newpage\n" + part1_case(case_a) + "\n\\newpage\n" + part1_case(case_b) + "\n\\newpage\n"
 
 
 PART2_HEADER = r"""
-\section{Deel 2 --- Initieel observatiemodel}
+\section{Deel 2: Initieel observatiemodel}
 
 \begin{tcolorbox}[colback=green!3,colframe=ForestGreen,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
@@ -1451,9 +1442,9 @@ def part2_case(case: dict) -> str:
         rf"\item \textbf{{CR-{idx}}} {label}" for idx, label in enumerate(case["criteria"], start=1)
     )
     return J(
-        rf"\subsection*{{Casus {case['label']} --- Deel 2}}",
+        rf"\subsection*{{Casus {case['label']}: Deel 2}}",
         "",
-        rf"\begin{{complaintbox}}[title={{Casus {case['label']} --- verkorte klachtomschrijving}}]",
+        rf"\begin{{complaintbox}}[title={{Casus {case['label']}: verkorte klachtomschrijving}}]",
         rf"\small {case['profile']}; duur: {case['duration']}. {case['short_desc']}",
         r"\end{complaintbox}",
         "",
@@ -1480,11 +1471,11 @@ def part2_case(case: dict) -> str:
 
 
 def part2(case_a: dict, case_b: dict) -> str:
-    return PART2_HEADER + part2_case(case_a) + "\n\\newpage\n" + part2_case(case_b) + "\n\\newpage\n"
+    return PART2_HEADER + "\n\\newpage\n" + part2_case(case_a) + "\n\\newpage\n" + part2_case(case_b) + "\n\\newpage\n"
 
 
 PART3_HEADER = r"""
-\section{Deel 3 --- Prioritering van behandeldoelen}
+\section{Deel 3: Prioritering van behandeldoelen}
 
 \begin{tcolorbox}[colback=yellow!5,colframe=GoldAmber,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
@@ -1553,9 +1544,9 @@ def part3_case(case: dict) -> str:
     )
     rank_boxes = "\n".join(rf"\rankbox{{{idx}}}" for idx in range(1, len(case["predictors"]) + 1))
     return J(
-        rf"\subsection*{{Casus {case['label']} --- Deel 3}}",
+        rf"\subsection*{{Casus {case['label']}: Deel 3}}",
         "",
-        rf"\begin{{complaintbox}}[title={{Casus {case['label']} --- {case['profile']}}}]",
+        rf"\begin{{complaintbox}}[title={{Casus {case['label']}: {case['profile']}}}]",
         rf"\small {case['short_desc']} Duur: {case['duration']}.",
         r"\end{complaintbox}",
         "",
@@ -1577,11 +1568,11 @@ def part3_case(case: dict) -> str:
 
 
 def part3(case_a: dict, case_b: dict) -> str:
-    return PART3_HEADER + part3_case(case_a) + "\n\\newpage\n" + part3_case(case_b) + "\n\\newpage\n"
+    return PART3_HEADER + "\n\\newpage\n" + part3_case(case_a) + "\n\\newpage\n" + part3_case(case_b) + "\n\\newpage\n"
 
 
 PART4_HEADER = r"""
-\section{Deel 4 --- Verfijnd observatiemodel via breadth-first update-logica}
+\section{Deel 4: Verfijnd observatiemodel via breadth-first update-logica}
 
 \begin{tcolorbox}[colback=purple!4,colframe=RichPurple,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
@@ -1620,7 +1611,7 @@ def part4_case(case: dict) -> str:
         for label, rationale in case["treatment_targets"]
     )
     return J(
-        rf"\subsection*{{Casus {case['label']} --- Deel 4}}",
+        rf"\subsection*{{Casus {case['label']}: Deel 4}}",
         "",
         r"\begin{contextbox}",
         r"\small\textbf{Gestandaardiseerde behandeldoelen uit Deel 3:}",
@@ -1643,11 +1634,11 @@ def part4_case(case: dict) -> str:
 
 
 def part4(case_a: dict, case_b: dict) -> str:
-    return PART4_HEADER + part4_case(case_a) + "\n\\newpage\n" + part4_case(case_b) + "\n\\newpage\n"
+    return PART4_HEADER + "\n\\newpage\n" + part4_case(case_a) + "\n\\newpage\n" + part4_case(case_b) + "\n\\newpage\n"
 
 
 PART5_HEADER = r"""
-\section{Deel 5 --- Mobiele coachingsboodschap}
+\section{Deel 5: Mobiele coachingsboodschap}
 
 \begin{tcolorbox}[colback=red!3,colframe=ForestGreen,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
@@ -1690,7 +1681,7 @@ barriere = vermoeidheid na de shift; coping = een vaste 10-minutenwandeling kopp
 
 def part5_case(case: dict) -> str:
     return J(
-        rf"\subsection*{{Casus {case['label']} --- Deel 5}}",
+        rf"\subsection*{{Casus {case['label']}: Deel 5}}",
         "",
         r"\begin{contextbox}",
         r"\small\renewcommand{\arraystretch}{1.24}",
@@ -1714,7 +1705,7 @@ def part5_case(case: dict) -> str:
 
 
 def part5(case_a: dict, case_b: dict) -> str:
-    return PART5_HEADER + part5_case(case_a) + "\n\\newpage\n" + part5_case(case_b) + "\n\\newpage\n"
+    return PART5_HEADER + "\n\\newpage\n" + part5_case(case_a) + "\n\\newpage\n" + part5_case(case_b) + "\n\\newpage\n"
 
 
 COMPLETION_TEMPLATE = r"""
@@ -1738,7 +1729,7 @@ Dank u voor het invullen van alle vijf delen voor uw twee toegewezen casussen
 \medskip
 Bezorg het ingevulde document terug via e-mail aan:
 \begin{center}
-\texttt{stijn.vanseveren@ugent.be}\quad met onderwerp:\quad \texttt{PHOENIX PRE --- <<HCPCODE>>}
+\texttt{stijn.vanseveren@ugent.be}\quad met onderwerp:\quad \texttt{PHOENIX-PRE-<<HCPCODE>>}
 \end{center}
 
 \vspace{0.5em}
@@ -1804,7 +1795,493 @@ def write_and_compile(hcp_num: int) -> None:
     raise SystemExit(result.returncode)
 
 
+# ── WORD-DOCUMENT GENERATIE ────────────────────────────────────────────────
+
+
+def _add_heading(doc: Document, text: str, level: int = 1) -> None:
+    p = doc.add_heading(text, level=level)
+    p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+
+
+def _add_shaded_para(doc: Document, text: str, shade_hex: str = "EFF6FF") -> None:
+    """Add a paragraph with a light background shade."""
+    p = doc.add_paragraph()
+    pPr = p._p.get_or_add_pPr()
+    shd = OxmlElement("w:shd")
+    shd.set(qn("w:val"), "clear")
+    shd.set(qn("w:color"), "auto")
+    shd.set(qn("w:fill"), shade_hex)
+    pPr.append(shd)
+    run = p.add_run(text)
+    run.font.size = Pt(10)
+    return p
+
+
+def _add_fillline(doc: Document, label: str, width_chars: int = 60) -> None:
+    p = doc.add_paragraph()
+    run_label = p.add_run(label + "  ")
+    run_label.bold = True
+    run_label.font.size = Pt(10)
+    run_line = p.add_run("_" * width_chars)
+    run_line.font.size = Pt(10)
+    run_line.font.color.rgb = RGBColor(0xCC, 0xCC, 0xCC)
+
+
+def _add_checkbox_item(doc: Document, num: int, text: str) -> None:
+    p = doc.add_paragraph(style="List Paragraph")
+    p.paragraph_format.left_indent = Cm(0.5)
+    run = p.add_run(f"{num:2d}.  \u25a1  {text}")
+    run.font.size = Pt(10)
+
+
+def _page_break(doc: Document) -> None:
+    doc.add_page_break()
+
+
+def _add_border_para(doc: Document, label: str, content: str, shade: str = "F0FFF4") -> None:
+    _add_shaded_para(doc, f"{label}:  {content}", shade_hex=shade)
+
+
+def build_word_document(hcp_num: int) -> Document:
+    hcp_code, case_id_a, case_id_b = ASSIGNMENT[hcp_num]
+    case_a = CASES[case_id_a]
+    case_b = CASES[case_id_b]
+
+    doc = Document()
+
+    # ── Pagina-marges ─────────────────────────────────────────────────────
+    for sec in doc.sections:
+        sec.left_margin = Cm(2.5)
+        sec.right_margin = Cm(2.5)
+        sec.top_margin = Cm(2.5)
+        sec.bottom_margin = Cm(2.5)
+
+    # ── TITELPAGINA ────────────────────────────────────────────────────────
+    t = doc.add_paragraph()
+    t.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r = t.add_run("PHOENIX evaluatiestudie -- Fase 1\nInstrument voor Zorgprofessionals")
+    r.bold = True
+    r.font.size = Pt(18)
+    r.font.color.rgb = RGBColor(0x1E, 0x3A, 0x5F)
+
+    doc.add_paragraph()
+
+    info = doc.add_paragraph()
+    info.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    ri = info.add_run(
+        f"Deelnemerscode: {hcp_code}\n"
+        f"Toegewezen casussen: {case_a['label']} ({case_a['profile']})"
+        f"  en  {case_b['label']} ({case_b['profile']})"
+    )
+    ri.font.size = Pt(12)
+    ri.bold = True
+    ri.font.color.rgb = RGBColor(0x1D, 0x4E, 0xD8)
+
+    doc.add_paragraph()
+    meta_lines = [
+        ("Studie", "Evaluatie van de klinische kwaliteit van het PHOENIX multi-agentsysteem (masterproef UGent)"),
+        ("Instelling", "Universiteit Gent -- Faculteit Psychologie en Pedagogische Wetenschappen"),
+        ("Onderzoeker", "Stijn Van Severen"),
+        ("Promotoren", "Prof. Geert Crombez; Dr. Annick De Paepe"),
+        ("Contact", "stijn.vanseveren@ugent.be"),
+        ("Geschatte duur", "Ongeveer 35-45 minuten voor beide casussen samen"),
+    ]
+    tbl = doc.add_table(rows=len(meta_lines), cols=2)
+    tbl.style = "Table Grid"
+    for row_idx, (k, v) in enumerate(meta_lines):
+        cells = tbl.rows[row_idx].cells
+        cells[0].width = Cm(4.5)
+        cells[0].paragraphs[0].add_run(k).bold = True
+        cells[1].paragraphs[0].add_run(v)
+    for row in tbl.rows:
+        for cell in row.cells:
+            for para in cell.paragraphs:
+                for run in para.runs:
+                    run.font.size = Pt(9)
+
+    doc.add_paragraph()
+    conf = doc.add_paragraph()
+    rc = conf.add_run(
+        "Vertrouwelijkheid: uw antwoorden worden voor analyse geanonimiseerd en uitsluitend "
+        "gebruikt binnen deze masterproefstudie. Deelname is vrijwillig."
+    )
+    rc.font.size = Pt(9)
+    rc.italic = True
+
+    _page_break(doc)
+
+    # ── INHOUDSOPGAVE (handmatig) ─────────────────────────────────────────
+    _add_heading(doc, "Inhoudsopgave", level=1)
+    toc_entries = [
+        "1  Instructiepagina",
+        "2  Deel 1: Operationalisering van mentale gezondheidsproblemen",
+        "3  Deel 2: Initieel observatiemodel",
+        "4  Deel 3: Prioritering van behandeldoelen",
+        "5  Deel 4: Verfijnd observatiemodel via breadth-first update-logica",
+        "6  Deel 5: Mobiele coachingsboodschap",
+        "7  Afronding en terugbezorging",
+    ]
+    for entry in toc_entries:
+        p = doc.add_paragraph(entry)
+        p.paragraph_format.left_indent = Cm(0.5)
+        for run in p.runs:
+            run.font.size = Pt(10)
+
+    _page_break(doc)
+
+    # ── SECTIE 1: INSTRUCTIEPAGINA ─────────────────────────────────────────
+    _add_heading(doc, "1  Instructiepagina", level=1)
+
+    intro_text = (
+        "PHOENIX is een multi-agentsysteem dat een vrije klachttekst omzet in een gestructureerde "
+        "klinische redenering via vijf opeenvolgende stappen. In deze bundel voert u diezelfde vijf "
+        "stappen onafhankelijk uit voor uw twee toegewezen casussen. Uw antwoorden vormen het "
+        "menselijke referentiecorpus voor een latere dubbelblinde vergelijking met systeemoutput."
+    )
+    p = doc.add_paragraph(intro_text)
+    p.runs[0].font.size = Pt(10)
+
+    doc.add_paragraph()
+
+    # 5-stappen tabel
+    steps = [
+        ("1", "Operationalisering", "Noteer 2-6 criteriumlabels voor actuele probleemdimensies", "~6 min"),
+        ("2", "Initieel observatiemodel", "Genereer 3-5 biopsychosociale predictorlabels (EMA-geschikt)", "~6 min"),
+        ("3", "Behandeldoelprioritering", "Rangschik de 5 standaardpredictoren van hoog naar laag", "~7 min"),
+        ("4", "Verfijnd observatiemodel", "Selecteer exact 5 EMA-items uit de lijst van 20", "~8 min"),
+        ("5", "Mobiele coaching", "Schrijf een korte patientgerichte boodschap voor de app", "~8 min"),
+    ]
+    step_tbl = doc.add_table(rows=len(steps) + 1, cols=4)
+    step_tbl.style = "Table Grid"
+    headers = ["Stap", "Klinische taak", "Wat u doet", "Richttijd"]
+    for col_i, hdr in enumerate(headers):
+        cell = step_tbl.rows[0].cells[col_i]
+        run = cell.paragraphs[0].add_run(hdr)
+        run.bold = True
+        run.font.size = Pt(9)
+    for row_i, (stap, taak, doen, tijd) in enumerate(steps, start=1):
+        cells = step_tbl.rows[row_i].cells
+        for col_i, val in enumerate([stap, taak, doen, tijd]):
+            run = cells[col_i].paragraphs[0].add_run(val)
+            run.font.size = Pt(9)
+            if col_i == 0:
+                run.bold = True
+                run.font.color.rgb = RGBColor(0x1D, 0x4E, 0xD8)
+
+    doc.add_paragraph()
+    _add_shaded_para(
+        doc,
+        "WERKWIJZE -- STRIKT TE VOLGEN:\n"
+        "1. Werk sequentieel: Deel 1 -> Deel 5. Ga pas naar een volgend deel wanneer het huidige "
+        "volledig is afgewerkt voor beide casussen.\n"
+        "2. Gebruik geen generatieve AI, schrijfhulpmiddelen, richtlijnen of collegaoverleg. "
+        "Extern gebruik ondermijnt de methodologische validiteit van de studie.\n"
+        "3. Gebruik in latere delen uitsluitend de meegeleverde gestandaardiseerde context.\n"
+        "4. Herwerk eerdere antwoorden NIET retroactief nadat u latere context hebt gezien.\n"
+        "5. Noteer of typ rechtstreeks in de voorziene antwoordzones.",
+        shade_hex="FFF7ED",
+    )
+
+    doc.add_paragraph()
+    _add_shaded_para(
+        doc,
+        "EMA-PRINCIPES (relevant voor Deel 2 en Deel 4):\n"
+        "Ecological Momentary Assessment (EMA) meet dagelijkse schommelingen via een mobiele app. "
+        "Elke EMA-variabele moet: (1) dagelijks rapporteerbaar zijn via een korte smartphone-vraag; "
+        "(2) dynamisch en veranderbaar zijn (geen diagnose of trait); "
+        "(3) meetbaar zijn als ja/nee, aantal, minuten of een 0-10 score; "
+        "(4) klinisch relevante binnen-persoonsvariatie tonen. "
+        "In Deel 2 genereert u zelf predictorlabels. In Deel 4 selecteert u de meest geschikte 5 "
+        "uit 20 reeds uitgewerkte EMA-items.",
+        shade_hex="ECFDF5",
+    )
+
+    _page_break(doc)
+
+    # ── DEEL 1 ─────────────────────────────────────────────────────────────
+    def word_part1_case(case: dict) -> None:
+        _add_heading(doc, f"Casus {case['label']}: {case['profile']}", level=2)
+        _add_shaded_para(
+            doc,
+            f"CASUSVIGNET  |  Duur: {case['duration']}\n\n{case['vignette']}",
+            shade_hex="EFF6FF",
+        )
+        doc.add_paragraph()
+        instr = doc.add_paragraph()
+        ri2 = instr.add_run(
+            "Opdracht: noteer 2-6 criteriumlabels voor deze casus. "
+            "Gebruik enkel korte labels (2-5 woorden); voeg geen beschrijving toe."
+        )
+        ri2.font.size = Pt(10)
+        ri2.bold = True
+        for i in range(1, 7):
+            _add_fillline(doc, f"Criterium {i}  Label (2-5 woorden):", 50)
+
+    _add_heading(doc, "2  Deel 1: Operationalisering van mentale gezondheidsproblemen", level=1)
+    _add_shaded_para(
+        doc,
+        "Identificeer de belangrijkste actuele probleemdimensies in de klachttekst en noteer voor "
+        "elke dimensie uitsluitend een kort criteriumlabel (2-5 woorden). "
+        "Noteer 2-6 criteria per casus; laat ongebruikte velden leeg.",
+        shade_hex="DBEAFE",
+    )
+    _page_break(doc)
+    word_part1_case(case_a)
+    _page_break(doc)
+    word_part1_case(case_b)
+    _page_break(doc)
+
+    # ── DEEL 2 ─────────────────────────────────────────────────────────────
+    def word_part2_case(case: dict) -> None:
+        _add_heading(doc, f"Casus {case['label']}: Deel 2", level=2)
+        _add_shaded_para(
+            doc,
+            f"Casus {case['label']}: verkorte klachtomschrijving\n"
+            f"{case['profile']}; duur: {case['duration']}. {case['short_desc']}",
+            shade_hex="EFF6FF",
+        )
+        doc.add_paragraph()
+        ctx = doc.add_paragraph()
+        ctx.add_run("Gestandaardiseerde criteria uit stap 1:").bold = True
+        ctx.runs[0].font.size = Pt(10)
+        for idx, lbl in enumerate(case["criteria"], start=1):
+            p = doc.add_paragraph(f"  CR-{idx}  {lbl}", style="List Bullet")
+            p.runs[0].font.size = Pt(10)
+        doc.add_paragraph()
+        instr = doc.add_paragraph()
+        ri3 = instr.add_run(
+            "Opdracht: noteer 3-5 predictorlabels (2-6 woorden) voor een initieel observatiemodel. "
+            "Elk label moet later dagelijks via een mobiele app meetbaar kunnen worden gemaakt."
+        )
+        ri3.bold = True
+        ri3.font.size = Pt(10)
+        for i in range(1, 6):
+            _add_fillline(doc, f"Predictor {i}  Label (2-6 woorden):", 50)
+
+    _add_heading(doc, "3  Deel 2: Initieel observatiemodel", level=1)
+    _add_shaded_para(
+        doc,
+        "Genereer 3-5 biopsychosociale predictorlabels die een initieel observatiemodel vormen. "
+        "Elke predictor moet klinisch plausibel samenhangen met een of meerdere criteria en "
+        "geschikt zijn voor dagelijkse EMA (zie instructiepagina).",
+        shade_hex="D1FAE5",
+    )
+    _page_break(doc)
+    word_part2_case(case_a)
+    _page_break(doc)
+    word_part2_case(case_b)
+    _page_break(doc)
+
+    # ── DEEL 3 ─────────────────────────────────────────────────────────────
+    def word_part3_case(case: dict) -> None:
+        _add_heading(doc, f"Casus {case['label']}: Deel 3", level=2)
+        _add_shaded_para(
+            doc,
+            f"Casus {case['label']}: {case['profile']}\n{case['short_desc']}  Duur: {case['duration']}.",
+            shade_hex="EFF6FF",
+        )
+        mon = doc.add_paragraph()
+        mon.add_run("21-daagse monitoring:  ").bold = True
+        mon.add_run(case["monitoring"]).font.size = Pt(10)
+        mon.runs[0].font.size = Pt(10)
+        doc.add_paragraph()
+
+        # Network beschrijving als tekst
+        net = doc.add_paragraph()
+        net.add_run("Bipartiet netwerk (zie PDF voor visuele weergave):").bold = True
+        net.runs[0].font.size = Pt(10)
+
+        strong_edges = [(s, d) for s, d, w in case["tikz_edges"] if w == "S"]
+        mod_edges = [(s, d) for s, d, w in case["tikz_edges"] if w == "M"]
+
+        def edge_label(node: str) -> str:
+            if node.startswith("cr"):
+                idx = int(node[2:])
+                return f"CR-{idx} ({case['criteria'][idx-1]})"
+            else:
+                idx = int(node[1:])
+                return f"P{idx} ({case['predictors'][idx-1]})"
+
+        if strong_edges:
+            p = doc.add_paragraph()
+            p.add_run("  Sterke relaties (rood):  ").bold = True
+            p.runs[0].font.color.rgb = RGBColor(0xB9, 0x1C, 0x1C)
+            p.runs[0].font.size = Pt(9)
+            p.add_run(",  ".join(f"{edge_label(s)} <-> {edge_label(d)}" for s, d in strong_edges)).font.size = Pt(9)
+        if mod_edges:
+            p = doc.add_paragraph()
+            p.add_run("  Matige relaties (blauw):  ").bold = True
+            p.runs[0].font.color.rgb = RGBColor(0x1D, 0x4E, 0xD8)
+            p.runs[0].font.size = Pt(9)
+            p.add_run(",  ".join(f"{edge_label(s)} <-> {edge_label(d)}" for s, d in mod_edges)).font.size = Pt(9)
+
+        predictor_list = ",  ".join(
+            f"P{i}: {lbl}" for i, lbl in enumerate(case["predictors"], start=1)
+        )
+        doc.add_paragraph()
+        pp = doc.add_paragraph()
+        pp.add_run(f"Beschikbare predictors:  {predictor_list}").font.size = Pt(10)
+
+        doc.add_paragraph()
+        instr = doc.add_paragraph()
+        instr.add_run(
+            "Opdracht: rangschik ALLE 5 predictors van hoogste naar laagste behandelprioriteit."
+        ).bold = True
+        instr.runs[0].font.size = Pt(10)
+        for i in range(1, 6):
+            _add_fillline(doc, f"Prioriteit {i}:", 55)
+
+    _add_heading(doc, "4  Deel 3: Prioritering van behandeldoelen", level=1)
+    _add_shaded_para(
+        doc,
+        "Rangschik de 5 standaardpredictoren van hoogste naar laagste klinische prioriteit als "
+        "behandeldoel. Gebruik hiervoor de 21-daagse monitoring en het bipartiet netwerk "
+        "(rood = sterke relatie, blauw = matige relatie). Zie de bijgevoegde PDF voor het "
+        "kleurrijke netwerkdiagram.",
+        shade_hex="FEF3C7",
+    )
+    _page_break(doc)
+    word_part3_case(case_a)
+    _page_break(doc)
+    word_part3_case(case_b)
+    _page_break(doc)
+
+    # ── DEEL 4 ─────────────────────────────────────────────────────────────
+    def word_part4_case(case: dict) -> None:
+        _add_heading(doc, f"Casus {case['label']}: Deel 4", level=2)
+        ctx = doc.add_paragraph()
+        ctx.add_run("Gestandaardiseerde behandeldoelen uit Deel 3:").bold = True
+        ctx.runs[0].font.size = Pt(10)
+        for lbl, rationale in case["treatment_targets"]:
+            p = doc.add_paragraph(style="List Bullet")
+            p.add_run(f"{lbl}  ").bold = True
+            p.runs[0].font.size = Pt(9)
+            p.add_run(f"({rationale})").font.size = Pt(9)
+        doc.add_paragraph()
+        instr = doc.add_paragraph()
+        instr.add_run(
+            "Opdracht: selecteer EXACT 5 EMA-items die het best passen als volgende subpredictoren. "
+            "Vink de 5 geselecteerde items aan."
+        ).bold = True
+        instr.runs[0].font.size = Pt(10)
+        doc.add_paragraph()
+        for idx, item in enumerate(case["bfs_items"], start=1):
+            _add_checkbox_item(doc, idx, item)
+        doc.add_paragraph()
+        total = doc.add_paragraph()
+        total.add_run("Totaal geselecteerd: _____ / 5").bold = True
+        total.runs[0].font.size = Pt(10)
+
+    _add_heading(doc, "5  Deel 4: Verfijnd observatiemodel via breadth-first update-logica", level=1)
+    _add_shaded_para(
+        doc,
+        "Selecteer per casus EXACT 5 EMA-items uit een lijst van 20. "
+        "Start vanuit de gestandaardiseerde behandeldoelen en kies de 5 dagelijkse EMA-items "
+        "die daar het best op aansluiten als directe subpredictoren. "
+        "Verkies klinisch relevante breedte boven irrelevante of perifere items.",
+        shade_hex="EDE9FE",
+    )
+    _page_break(doc)
+    word_part4_case(case_a)
+    _page_break(doc)
+    word_part4_case(case_b)
+    _page_break(doc)
+
+    # ── DEEL 5 ─────────────────────────────────────────────────────────────
+    def word_part5_case(case: dict) -> None:
+        _add_heading(doc, f"Casus {case['label']}: Deel 5", level=2)
+        ctx_data = [
+            ("Primair probleem", case["p5_challenge"]),
+            ("Behandeldoel", case["p5_target"]),
+            ("Voornaamste barriere", case["p5_barrier"]),
+            ("Copingstrategie", case["p5_coping"]),
+        ]
+        ctx_tbl = doc.add_table(rows=len(ctx_data), cols=2)
+        ctx_tbl.style = "Table Grid"
+        for row_i, (k, v) in enumerate(ctx_data):
+            cells = ctx_tbl.rows[row_i].cells
+            cells[0].width = Cm(4)
+            cells[0].paragraphs[0].add_run(k).bold = True
+            cells[0].paragraphs[0].runs[0].font.size = Pt(9)
+            cells[0].paragraphs[0].runs[0].font.color.rgb = RGBColor(0x04, 0x78, 0x57)
+            cells[1].paragraphs[0].add_run(v).font.size = Pt(9)
+
+        doc.add_paragraph()
+        instr = doc.add_paragraph()
+        instr.add_run(
+            "Opdracht: schrijf hieronder de mobiele coachingsboodschap voor deze casus. "
+            "Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt."
+        ).bold = True
+        instr.runs[0].font.size = Pt(10)
+        doc.add_paragraph()
+        for _ in range(6):
+            p = doc.add_paragraph("_" * 95)
+            p.paragraph_format.space_after = Pt(4)
+            p.runs[0].font.size = Pt(10)
+            p.runs[0].font.color.rgb = RGBColor(0xCC, 0xCC, 0xCC)
+
+    _add_heading(doc, "6  Deel 5: Mobiele coachingsboodschap", level=1)
+    _add_shaded_para(
+        doc,
+        "Schrijf een korte, patientgerichte coachingsboodschap die rechtstreeks in de mobiele "
+        "applicatie kan verschijnen. Gebruik het primaire probleem, het behandeldoel, de "
+        "voornaamste barriere en de aangegeven copingstrategie. "
+        "De boodschap moet compact, warm en professioneel zijn en een concrete eerste stap bevatten.\n\n"
+        "Werkvoorbeeld (niet gerelateerd aan een studiecasus):\n"
+        "\"Na een zware shift voelt rust nemen logisch, maar net dat eerste kleine beweegmoment "
+        "kan je avond helpen ontladen. Trek vanavond meteen na thuiskomst je schoenen aan en "
+        "wandel 10 minuten buiten -- dat ene blokje. Zo maak je de stap haalbaar.\"",
+        shade_hex="FFF0F0",
+    )
+    _page_break(doc)
+    word_part5_case(case_a)
+    _page_break(doc)
+    word_part5_case(case_b)
+    _page_break(doc)
+
+    # ── AFRONDING ──────────────────────────────────────────────────────────
+    _add_heading(doc, "7  Afronding en terugbezorging", level=1)
+    p = doc.add_paragraph(
+        f"Dank u voor het invullen van alle vijf delen voor uw twee toegewezen casussen "
+        f"({case_a['label']} en {case_b['label']})."
+    )
+    p.runs[0].font.size = Pt(10)
+    doc.add_paragraph()
+    checklist = [
+        f"Deel 1: criteriumlabels ingevuld voor {case_a['label']} en {case_b['label']}",
+        f"Deel 2: predictorlabels ingevuld voor {case_a['label']} en {case_b['label']}",
+        f"Deel 3: alle 5 predictors gerangschikt voor beide casussen",
+        f"Deel 4: exact 5 EMA-items geselecteerd voor beide casussen",
+        f"Deel 5: mobiele coachingsboodschap geschreven voor beide casussen",
+        "Antwoorden weerspiegelen mijn eigen klinische oordeel zonder externe hulp",
+        "Ik begrijp dat mijn antwoorden geanonimiseerd worden voor analyse",
+    ]
+    for item in checklist:
+        p = doc.add_paragraph(style="List Bullet")
+        p.add_run(f"\u25a1  {item}").font.size = Pt(10)
+
+    doc.add_paragraph()
+    ret = doc.add_paragraph()
+    ret.add_run(
+        f"Bezorg het ingevulde document terug via e-mail:\n"
+        f"stijn.vanseveren@ugent.be  --  onderwerp: PHOENIX-PRE-{hcp_code}"
+    )
+    ret.runs[0].font.size = Pt(10)
+
+    return doc
+
+
+def write_word_document(hcp_num: int) -> None:
+    out_dir = BASE / f"HCP_{hcp_num}"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    docx_path = out_dir / "main.docx"
+    doc = build_word_document(hcp_num)
+    doc.save(str(docx_path))
+    print(f"[v] Word-document: HCP_{hcp_num}/main.docx")
+
+
 if __name__ == "__main__":
     for idx in range(1, 6):
         write_and_compile(idx)
-    print("\nAlle 5 HCP-bundels zijn gegenereerd.")
+        write_word_document(idx)
+    print("\nAlle 5 HCP-bundels zijn gegenereerd (PDF + Word).")
