@@ -12,8 +12,9 @@ import subprocess
 from pathlib import Path
 
 from docx import Document
-from docx.shared import Pt, Cm, RGBColor
+from docx.shared import Pt, Cm, RGBColor, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
@@ -1803,18 +1804,50 @@ def _add_heading(doc: Document, text: str, level: int = 1) -> None:
     p.alignment = WD_ALIGN_PARAGRAPH.LEFT
 
 
-def _add_shaded_para(doc: Document, text: str, shade_hex: str = "EFF6FF") -> None:
-    """Add a paragraph with a light background shade."""
-    p = doc.add_paragraph()
+def _shade_para(p, shade_hex: str) -> None:
+    """Apply background shade to an existing paragraph."""
     pPr = p._p.get_or_add_pPr()
     shd = OxmlElement("w:shd")
     shd.set(qn("w:val"), "clear")
     shd.set(qn("w:color"), "auto")
     shd.set(qn("w:fill"), shade_hex)
     pPr.append(shd)
-    run = p.add_run(text)
-    run.font.size = Pt(10)
-    return p
+
+
+def _shade_cell(cell, shade_hex: str) -> None:
+    """Apply background shade to a table cell."""
+    tc = cell._tc
+    tcPr = tc.get_or_add_tcPr()
+    shd = OxmlElement("w:shd")
+    shd.set(qn("w:val"), "clear")
+    shd.set(qn("w:color"), "auto")
+    shd.set(qn("w:fill"), shade_hex)
+    tcPr.append(shd)
+
+
+def _add_shaded_para(doc: Document, text: str, shade_hex: str = "EFF6FF",
+                     align: WD_ALIGN_PARAGRAPH = WD_ALIGN_PARAGRAPH.LEFT,
+                     bold_first_line: bool = False) -> None:
+    """Add a shaded paragraph. If bold_first_line, the first line is bold."""
+    p = doc.add_paragraph()
+    p.alignment = align
+    _shade_para(p, shade_hex)
+    lines = text.split("\n")
+    for i, line in enumerate(lines):
+        if i > 0:
+            p.add_run("\n")
+        run = p.add_run(line)
+        run.font.size = Pt(10)
+        if bold_first_line and i == 0:
+            run.bold = True
+
+
+def _add_centered_box(doc: Document, text: str, shade_hex: str,
+                      bold_first_line: bool = False) -> None:
+    """Add a full-width shaded box with centered text."""
+    _add_shaded_para(doc, text, shade_hex=shade_hex,
+                     align=WD_ALIGN_PARAGRAPH.CENTER,
+                     bold_first_line=bold_first_line)
 
 
 def _add_fillline(doc: Document, label: str, width_chars: int = 60) -> None:
@@ -1838,8 +1871,23 @@ def _page_break(doc: Document) -> None:
     doc.add_page_break()
 
 
-def _add_border_para(doc: Document, label: str, content: str, shade: str = "F0FFF4") -> None:
-    _add_shaded_para(doc, f"{label}:  {content}", shade_hex=shade)
+def _centered_meta_table(doc: Document, rows: list[tuple[str, str]]) -> None:
+    """Render a 2-column key/value table, centered on the page."""
+    tbl = doc.add_table(rows=len(rows), cols=2)
+    tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
+    tbl.style = "Table Grid"
+    col_widths = [Cm(4.2), Cm(10.5)]
+    for row_idx, (k, v) in enumerate(rows):
+        cells = tbl.rows[row_idx].cells
+        cells[0].width = col_widths[0]
+        cells[1].width = col_widths[1]
+        _shade_cell(cells[0], "DBEAFE")
+        _shade_cell(cells[1], "F8FAFC")
+        rk = cells[0].paragraphs[0].add_run(k)
+        rk.bold = True
+        rk.font.size = Pt(9)
+        rv = cells[1].paragraphs[0].add_run(v)
+        rv.font.size = Pt(9)
 
 
 def build_word_document(hcp_num: int) -> Document:
@@ -1857,88 +1905,97 @@ def build_word_document(hcp_num: int) -> Document:
         sec.bottom_margin = Cm(2.5)
 
     # ── TITELPAGINA ────────────────────────────────────────────────────────
+    # --- Hoofdtitel (gecentreerd, donkerblauw) ---
     t = doc.add_paragraph()
     t.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    r = t.add_run("PHOENIX evaluatiestudie -- Fase 1\nInstrument voor Zorgprofessionals")
+    r = t.add_run("PHOENIX evaluatiestudie -- Fase 1")
     r.bold = True
-    r.font.size = Pt(18)
+    r.font.size = Pt(20)
     r.font.color.rgb = RGBColor(0x1E, 0x3A, 0x5F)
+    t.add_run("\n")
+    r2 = t.add_run("Instrument voor Zorgprofessionals")
+    r2.bold = True
+    r2.font.size = Pt(14)
+    r2.font.color.rgb = RGBColor(0x1D, 0x4E, 0xD8)
 
     doc.add_paragraph()
 
-    info = doc.add_paragraph()
-    info.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    ri = info.add_run(
-        f"Deelnemerscode: {hcp_code}\n"
-        f"Toegewezen casussen: {case_a['label']} ({case_a['profile']})"
-        f"  en  {case_b['label']} ({case_b['profile']})"
+    # --- Deelnemerscode + casussen (gecentreerd, blauw) ---
+    _add_centered_box(
+        doc,
+        f"Deelnemerscode:  {hcp_code}\n\n"
+        f"Toegewezen casussen:\n"
+        f"{case_a['label']}  ({case_a['profile']})\n"
+        f"en\n"
+        f"{case_b['label']}  ({case_b['profile']})",
+        shade_hex="DBEAFE",
+        bold_first_line=True,
     )
-    ri.font.size = Pt(12)
-    ri.bold = True
-    ri.font.color.rgb = RGBColor(0x1D, 0x4E, 0xD8)
 
     doc.add_paragraph()
+
+    # --- Studieinfo-tabel (gecentreerd) ---
     meta_lines = [
-        ("Studie", "Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentsysteem voor gepersonaliseerde digitale geestelijke gezondheidszorg (PHOENIX)"),
-        ("Instelling", "Universiteit Gent -- Faculteit Psychologie en Pedagogische Wetenschappen"),
+        ("Studie",
+         "Evaluatie van de klinische kwaliteit van een ontologiegebaseerd "
+         "multi-agentsysteem voor gepersonaliseerde digitale geestelijke "
+         "gezondheidszorg (PHOENIX)"),
+        ("Instelling",
+         "Universiteit Gent -- Faculteit Psychologie en Pedagogische Wetenschappen"),
         ("Onderzoeker", "Stijn Van Severen (masterproefstudent)"),
-        ("Promotoren", "Prof. Dr. Geert Crombez; Dr. Annick De Paepe"),
-        ("Contact", "stijn.vanseveren@ugent.be"),
+        ("Promotoren",  "Prof. Dr. Geert Crombez; Dr. Annick De Paepe"),
+        ("Contact",     "stijn.vanseveren@ugent.be"),
         ("Geschatte duur", "Ongeveer 35-45 minuten voor beide casussen samen"),
     ]
-    tbl = doc.add_table(rows=len(meta_lines), cols=2)
-    tbl.style = "Table Grid"
-    for row_idx, (k, v) in enumerate(meta_lines):
-        cells = tbl.rows[row_idx].cells
-        cells[0].width = Cm(4.5)
-        cells[0].paragraphs[0].add_run(k).bold = True
-        cells[1].paragraphs[0].add_run(v)
-    for row in tbl.rows:
-        for cell in row.cells:
-            for para in cell.paragraphs:
-                for run in para.runs:
-                    run.font.size = Pt(9)
+    _centered_meta_table(doc, meta_lines)
 
     doc.add_paragraph()
 
-    # Doel box
+    # --- Doel van deze bundel ---
     _add_shaded_para(
         doc,
-        "DOEL VAN DEZE BUNDEL\n\n"
-        "U neemt deel aan een evaluatiestudie waarin zorgprofessionals onafhankelijk dezelfde vijf "
-        "klinische redeneerstappen uitvoeren als het PHOENIX-systeem. Uw antwoorden vormen het "
-        "menselijke referentiecorpus voor een latere dubbelblinde vergelijking met systeemoutput.\n\n"
-        "Voor elk van uw twee casussen vult u dezelfde vijf delen in: (1) operationalisering, "
-        "(2) initieel observatiemodel, (3) prioritering van behandeldoelen, (4) verfijning van "
-        "EMA-metingen en (5) een mobiele coachingsboodschap.\n\n"
-        "We vragen uw eigen klinische oordeelsvorming. Antwoord zoals u dat in een reele "
-        "professionele context zou doen, maar werk strikt volgens de instructies op de volgende pagina.",
-        shade_hex="DBEAFE",
+        "Doel van deze bundel\n\n"
+        "U neemt deel aan een evaluatiestudie waarin zorgprofessionals onafhankelijk "
+        "dezelfde vijf klinische redeneerstappen uitvoeren als het PHOENIX-systeem. "
+        "Uw antwoorden vormen het menselijke referentiecorpus voor een latere "
+        "dubbelblinde vergelijking met systeemoutput.\n\n"
+        "Voor elk van uw twee casussen vult u dezelfde vijf delen in: "
+        "(1) operationalisering, (2) initieel observatiemodel, "
+        "(3) prioritering van behandeldoelen, (4) verfijning van EMA-metingen "
+        "en (5) een mobiele coachingsboodschap.\n\n"
+        "We vragen uw eigen klinische oordeelsvorming. Antwoord zoals u dat in een "
+        "reele professionele context zou doen, maar werk strikt volgens de instructies "
+        "op de volgende pagina.",
+        shade_hex="EFF6FF",
+        bold_first_line=True,
     )
 
     doc.add_paragraph()
 
-    # Vertrouwelijkheid & informed consent box
+    # --- Vertrouwelijkheid & geïnformeerde toestemming ---
     _add_shaded_para(
         doc,
-        "VERTROUWELIJKHEID EN GEÏNFORMEERDE TOESTEMMING\n\n"
-        "Uw antwoorden worden voor analyse geanonimiseerd en uitsluitend gebruikt binnen deze "
-        "masterproefstudie. Na ontvangst worden ze opgenomen in het expertreferentiecorpus voor de "
-        "latere blind evaluatie van het PHOENIX-systeem.\n\n"
-        "Deelname is volledig vrijwillig. U kan zich op elk moment zonder opgave van reden "
-        "terugtrekken door contact op te nemen met de onderzoeker via stijn.vanseveren@ugent.be. "
-        "Terugtrekking heeft geen gevolgen.\n\n"
-        "Door dit ingevulde document te bezorgen aan de onderzoeker, bevestigt u dat:\n"
-        "  (1) u de bovenstaande informatie hebt gelezen en begrepen;\n"
-        "  (2) u vrijwillig instemt met deelname aan deze studie;\n"
-        "  (3) u begrijpt dat uw antwoorden geanonimiseerd worden verwerkt.\n\n"
+        "Vertrouwelijkheid en geïnformeerde toestemming\n\n"
+        "Uw antwoorden worden voor analyse geanonimiseerd en uitsluitend gebruikt "
+        "binnen deze masterproefstudie. Na ontvangst worden ze opgenomen in het "
+        "expertreferentiecorpus voor de latere blind evaluatie van het PHOENIX-systeem. "
+        "Uw gegevens worden op geen enkel moment gekoppeld aan uw naam of identiteit "
+        "in publieke of wetenschappelijke rapportage.\n\n"
+        "Deelname is volledig vrijwillig. U kan zich op elk moment zonder opgave van "
+        "reden terugtrekken door contact op te nemen met de onderzoeker via "
+        "stijn.vanseveren@ugent.be. Terugtrekking heeft geen gevolgen.\n\n"
+        "Door dit ingevulde document te bezorgen aan de onderzoeker bevestigt u dat:\n"
+        "  (1)  u de bovenstaande informatie hebt gelezen en begrepen;\n"
+        "  (2)  u vrijwillig instemt met deelname aan deze studie;\n"
+        "  (3)  u begrijpt dat uw antwoorden geanonimiseerd worden verwerkt.\n\n"
         "Uw inzending geldt als geïnformeerde toestemming.",
         shade_hex="FEF3C7",
+        bold_first_line=True,
     )
 
     _page_break(doc)
 
-    # ── INHOUDSOPGAVE (handmatig) ─────────────────────────────────────────
+    # ── INHOUDSOPGAVE ─────────────────────────────────────────────────────
     _add_heading(doc, "Inhoudsopgave", level=1)
     toc_entries = [
         "1  Instructiepagina",
@@ -1960,13 +2017,13 @@ def build_word_document(hcp_num: int) -> Document:
     # ── SECTIE 1: INSTRUCTIEPAGINA ─────────────────────────────────────────
     _add_heading(doc, "1  Instructiepagina", level=1)
 
-    intro_text = (
-        "PHOENIX is een multi-agentsysteem dat een vrije klachttekst omzet in een gestructureerde "
-        "klinische redenering via vijf opeenvolgende stappen. In deze bundel voert u diezelfde vijf "
-        "stappen onafhankelijk uit voor uw twee toegewezen casussen. Uw antwoorden vormen het "
-        "menselijke referentiecorpus voor een latere dubbelblinde vergelijking met systeemoutput."
+    p = doc.add_paragraph(
+        "PHOENIX is een multi-agentsysteem dat een vrije klachttekst omzet in een "
+        "gestructureerde klinische redenering via vijf opeenvolgende stappen. In deze "
+        "bundel voert u diezelfde vijf stappen onafhankelijk uit voor uw twee toegewezen "
+        "casussen. Uw antwoorden vormen het menselijke referentiecorpus voor een latere "
+        "dubbelblinde vergelijking met systeemoutput."
     )
-    p = doc.add_paragraph(intro_text)
     p.runs[0].font.size = Pt(10)
 
     doc.add_paragraph()
