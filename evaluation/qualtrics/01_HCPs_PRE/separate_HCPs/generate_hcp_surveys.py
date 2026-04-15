@@ -126,7 +126,7 @@ CASES: dict[str, dict] = {
             "Hydratatie vandaag (glazen)",
             "Concentratie overdag (0--10)",
         ],
-        bfs_correct=[2, 4, 6, 9, 13],
+        bfs_correct=[2, 4, 6, 7, 14],
     ),
     "C02": dict(
         label="C02",
@@ -165,13 +165,14 @@ CASES: dict[str, dict] = {
             "Dagstructuur",
         ],
         tikz_edges=[
-            ("p1", "cr3",  0.90),  # avoidance behavior → situational avoidance (very strong, tautological driver)
-            ("p1", "cr2",  0.82),  # avoidance behavior → anticipatory anxiety (strong)
-            ("p2", "cr2",  0.72),  # safety behaviors → anticipatory anxiety (moderate)
+            ("p1", "cr3",  0.90),  # avoidance behavior → situational avoidance (very strong)
+            ("p1", "cr2",  0.82),  # avoidance behavior → anticipatory anxiety
+            ("p3", "cr2",  0.78),  # interoceptive focus → anticipatory anxiety
+            ("p2", "cr2",  0.72),  # safety behaviors → anticipatory anxiety
+            ("p3", "cr1",  0.65),  # interoceptive focus → panic episodes
+            ("p4", "cr3", -0.85),  # planned exposure ↓ situational avoidance (strongest)
+            ("p4", "cr2", -0.67),  # planned exposure ↓ anticipatory anxiety (direct, important!)
             ("p2", "cr1",  0.40),  # safety behaviors → panic episodes (weak)
-            ("p3", "cr2",  0.78),  # interoceptive focus → anticipatory anxiety (strong)
-            ("p3", "cr1",  0.65),  # interoceptive focus → panic episodes (moderate)
-            ("p4", "cr3", -0.85),  # planned exposure ↓ situational avoidance (very strong)
             ("p5", "cr4", -0.38),  # daily structure ↓ occupational interference (weak)
         ],
         treatment_targets=[
@@ -222,7 +223,7 @@ CASES: dict[str, dict] = {
             "Stapelteller vandaag (aantal)",
             "Concentratie tijdens administratie (0--10)",
             "Alcoholinname vanavond (aantal)",
-            "Tijd buitenshuis zonder ondersteuning (min)",
+            "Dagplanning bijgehouden (ja/nee)",
         ],
         bfs_correct=[2, 5, 7, 10, 15],
     ),
@@ -262,15 +263,16 @@ CASES: dict[str, dict] = {
             "Slaapkwaliteit",
         ],
         tikz_edges=[
-            ("p1", "cr1", -0.85),  # work-life boundary ↓ emotional exhaustion (very strong maintaining factor)
-            ("p1", "cr2", -0.78),  # work-life boundary ↓ depersonalization (strong)
-            ("p2", "cr1", -0.88),  # recovery activity ↓ exhaustion (strongest: primary repair mechanism)
+            ("p2", "cr1", -0.91),  # recovery activity ↓ exhaustion (strongest: primary repair in burnout)
+            ("p1", "cr1", -0.79),  # work-life boundary ↓ emotional exhaustion
+            ("p3", "cr3", -0.84),  # social initiative ↓ social withdrawal (strong, direct)
+            ("p1", "cr2", -0.73),  # work-life boundary ↓ depersonalization
+            ("p5", "cr1", -0.64),  # sleep quality ↓ exhaustion
+            ("p4", "cr2", -0.59),  # mastery experience ↓ depersonalization
+            ("p5", "cr4", -0.47),  # sleep quality ↓ cognitive errors
+            ("p1", "cr4", -0.44),  # work-life boundary ↓ cognitive errors (indirect: less overflow)
             ("p2", "cr3", -0.42),  # recovery activity ↓ social withdrawal (weak indirect)
-            ("p3", "cr3", -0.82),  # social initiative ↓ social withdrawal (strong, direct)
-            ("p4", "cr2", -0.65),  # mastery experience ↓ depersonalization (moderate)
-            ("p4", "cr4", -0.35),  # mastery experience ↓ cognitive errors (weakest)
-            ("p5", "cr1", -0.60),  # sleep quality ↓ exhaustion (moderate)
-            ("p5", "cr4", -0.50),  # sleep quality ↓ cognitive errors (moderate-weak)
+            ("p4", "cr4", -0.31),  # mastery experience ↓ cognitive errors (weakest)
         ],
         treatment_targets=[
             (
@@ -360,13 +362,14 @@ CASES: dict[str, dict] = {
             "Toekomstplanning",
         ],
         tikz_edges=[
-            ("p1", "cr1", -0.82),  # meaning activity ↓ grief reaction (strong)
-            ("p1", "cr4", -0.88),  # meaning activity ↓ diminished future orientation (very strong: primary pathway)
-            ("p2", "cr2", -0.85),  # sleep consistency ↓ sleep maintenance insomnia (very strong, direct)
-            ("p3", "cr1", -0.40),  # social support uptake ↓ grief reaction (weak)
-            ("p3", "cr3", -0.62),  # social support uptake ↓ guilt rumination (moderate)
-            ("p4", "cr3", -0.78),  # self-compassion ↓ guilt rumination (strong)
-            ("p5", "cr4", -0.72),  # future planning ↓ diminished future orientation (moderate-strong)
+            ("p2", "cr2", -0.89),  # sleep consistency ↓ sleep maintenance insomnia (strongest: direct mechanism)
+            ("p1", "cr4", -0.87),  # meaning activity ↓ diminished future orientation (very strong: primary pathway)
+            ("p4", "cr3", -0.82),  # self-compassion ↓ guilt rumination (strong: directly targets CR-3)
+            ("p1", "cr1", -0.74),  # meaning activity ↓ grief reaction (moderate)
+            ("p5", "cr4", -0.66),  # future planning ↓ diminished future orientation
+            ("p3", "cr3", -0.56),  # social support uptake ↓ guilt rumination (indirect validation)
+            ("p5", "cr3", -0.43),  # future planning ↓ guilt rumination (future focus reduces rumination)
+            ("p3", "cr1", -0.33),  # social support uptake ↓ grief reaction (weak)
         ],
         treatment_targets=[
             (
@@ -407,7 +410,7 @@ CASES: dict[str, dict] = {
             "Zelfcompassie-oefening vandaag uitgevoerd (ja/nee)",
             "Middagdutje genomen (ja/nee)",
             "Lichamelijke onrust in de avond (0--10)",
-            "Intrusieve rouwgedachten intensiteit (0--10)",
+            "Toekomstgerichte activiteit ingepland (ja/nee)",
             "Schermtijd na 21.00 uur (min)",
             "Vermijden van herinneringsvoorwerpen (ja/nee)",
             "Alcoholinname in de avond (aantal)",
@@ -512,7 +515,7 @@ CASES: dict[str, dict] = {
             "Contact met vrienden vandaag (ja/nee)",
             "Ochtendstemming bij ontwaken (0--10)",
         ],
-        bfs_correct=[2, 5, 8, 11, 16],
+        bfs_correct=[2, 5, 8, 14, 16],
     ),
     "C06": dict(
         label="C06",
@@ -644,14 +647,15 @@ CASES: dict[str, dict] = {
             "Cognitieve tegenspraak hopeloosheid",
         ],
         tikz_edges=[
-            ("p1", "cr1", -0.80),  # activity schedule ↓ depressed mood (strong: behavioral activation)
-            ("p1", "cr2", -0.88),  # activity schedule ↓ anergy (very strong: primary BA mechanism)
-            ("p2", "cr3", -0.85),  # social initiative ↓ social isolation (very strong, direct)
-            ("p3", "cr1", -0.42),  # sleep regularity ↓ depressed mood (weak indirect)
-            ("p3", "cr2", -0.62),  # sleep regularity ↓ anergy (moderate)
-            ("p4", "cr1", -0.75),  # pleasant activity ↓ depressed mood (moderate-strong)
-            ("p4", "cr4", -0.38),  # pleasant activity ↓ hopelessness (weakest)
-            ("p5", "cr4", -0.82),  # cognitive countering ↓ hopelessness (strong)
+            ("p2", "cr3", -0.89),  # social initiative ↓ social isolation (strongest: key depression target)
+            ("p1", "cr2", -0.86),  # activity schedule ↓ anergy (very strong: primary BA mechanism)
+            ("p5", "cr4", -0.78),  # cognitive countering ↓ hopelessness (strong)
+            ("p4", "cr1", -0.73),  # pleasant activity ↓ depressed mood
+            ("p4", "cr3", -0.54),  # pleasant activity ↓ social isolation (activities with others)
+            ("p1", "cr1", -0.71),  # activity schedule ↓ depressed mood
+            ("p3", "cr2", -0.57),  # sleep regularity ↓ anergy
+            ("p4", "cr4", -0.32),  # pleasant activity ↓ hopelessness (weak)
+            ("p3", "cr1", -0.36),  # sleep regularity ↓ depressed mood (weak indirect)
         ],
         treatment_targets=[
             (
@@ -739,13 +743,14 @@ CASES: dict[str, dict] = {
             "Overgangsrituelen",
         ],
         tikz_edges=[
-            ("p1", "cr2", -0.88),  # external task system ↓ planning/org errors (very strong: core scaffold)
-            ("p1", "cr1", -0.75),  # external task system ↓ attention problems (moderate-strong)
-            ("p2", "cr1", -0.42),  # interest-driven activation ↓ attention problems (weak)
-            ("p3", "cr3", -0.85),  # conscious listening ↓ interpersonal inattentiveness (very strong, direct)
-            ("p4", "cr4", -0.82),  # task completion reinforcement ↓ shame (strong)
-            ("p4", "cr2", -0.38),  # task completion reinforcement ↓ planning errors (weak)
-            ("p5", "cr2", -0.65),  # transition rituals ↓ planning/org errors (moderate)
+            ("p1", "cr2", -0.87),  # external task system ↓ planning/org errors (very strong: core scaffold)
+            ("p3", "cr3", -0.83),  # conscious listening ↓ interpersonal inattentiveness (very strong)
+            ("p1", "cr1", -0.81),  # external task system ↓ attention problems (strong)
+            ("p4", "cr4", -0.79),  # task completion reinforcement ↓ shame (strong)
+            ("p5", "cr2", -0.61),  # transition rituals ↓ planning/org errors (moderate)
+            ("p2", "cr4", -0.47),  # interest-driven activation ↓ shame (less failure via engagement)
+            ("p2", "cr1", -0.39),  # interest-driven activation ↓ attention problems (weak)
+            ("p4", "cr2", -0.34),  # task completion reinforcement ↓ planning errors (weak)
         ],
         treatment_targets=[
             (
@@ -790,7 +795,7 @@ CASES: dict[str, dict] = {
             "Alcoholinname in de avond (aantal)",
             "Stemmingsschommeling vandaag (0--10)",
             "Stapelteller vandaag (aantal)",
-            "Gemaakte toezeggingen nagekomen (0--10)",
+            "Interessetaak geselecteerd en gestart (ja/nee)",
             "Middagdutje genomen (ja/nee)",
             "Schermtijd na 22.00 uur (min)",
             "Plezier in vrijetijdsbesteding (0--10)",
@@ -834,14 +839,15 @@ CASES: dict[str, dict] = {
             "Gedifferentieerde stemmingsmonitoring",
         ],
         tikz_edges=[
-            ("p1", "cr1", -0.85),  # emotion regulation ↓ mood swings (very strong: primary stabilization)
-            ("p1", "cr2", -0.78),  # emotion regulation ↓ rejection reactivity (strong)
-            ("p2", "cr2", -0.88),  # rejection reappraisal ↓ rejection reactivity (strongest: direct target)
-            ("p2", "cr4", -0.65),  # rejection reappraisal ↓ relational instability (moderate)
-            ("p3", "cr3", -0.82),  # impulse delay ↓ impulsive behavior (strong, direct)
-            ("p4", "cr4", -0.72),  # interpersonal communication ↓ relational instability (moderate)
-            ("p4", "cr2", -0.40),  # interpersonal communication ↓ rejection reactivity (weak)
-            ("p5", "cr1", -0.38),  # mood monitoring ↓ mood swings (weakest: indirect awareness)
+            ("p2", "cr2", -0.92),  # rejection reappraisal ↓ rejection reactivity (strongest: direct target)
+            ("p3", "cr3", -0.84),  # impulse delay ↓ impulsive behavior (very strong, direct)
+            ("p1", "cr1", -0.81),  # emotion regulation ↓ mood swings (primary stabilization)
+            ("p1", "cr2", -0.75),  # emotion regulation ↓ rejection reactivity
+            ("p2", "cr4", -0.62),  # rejection reappraisal ↓ relational instability
+            ("p4", "cr4", -0.68),  # interpersonal communication ↓ relational instability
+            ("p4", "cr2", -0.43),  # interpersonal communication ↓ rejection reactivity
+            ("p5", "cr4", -0.41),  # mood monitoring ↓ relational instability (awareness → less escalation)
+            ("p5", "cr1", -0.35),  # mood monitoring ↓ mood swings (weakest: indirect)
         ],
         treatment_targets=[
             (
@@ -887,7 +893,7 @@ CASES: dict[str, dict] = {
             "Middagdutje genomen (ja/nee)",
             "Schermtijd na 22.00 uur (min)",
             "Interpersoonlijk communicatiegesprek geoefend (ja/nee)",
-            "Cafeine-inname voor een afspraak (aantal)",
+            "Sociale media gebruik na werk (min)",
             "Tijd buitenshuis alleen (min)",
             "Nekspanning in de namiddag (0--10)",
         ],
