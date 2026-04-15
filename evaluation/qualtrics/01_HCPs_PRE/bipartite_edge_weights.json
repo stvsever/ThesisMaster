@@ -5,37 +5,37 @@
       {
         "predictor": "P1 (Late avondschermtijd)",
         "criterion": "CR-1 (Inslaapproblemen)",
-        "weight": 0.82,
+        "weight": 0.88,
         "direction": "risk"
       },
       {
         "predictor": "P1 (Late avondschermtijd)",
         "criterion": "CR-2 (Cognitieve hyperarousal)",
-        "weight": 0.78,
+        "weight": 0.82,
         "direction": "risk"
       },
       {
         "predictor": "P2 (Dagelijkse taakaccumulatie)",
         "criterion": "CR-2 (Cognitieve hyperarousal)",
-        "weight": 0.55,
+        "weight": 0.62,
         "direction": "risk"
       },
       {
         "predictor": "P3 (Preslaap cognitieve offloading)",
         "criterion": "CR-2 (Cognitieve hyperarousal)",
-        "weight": -0.76,
+        "weight": -0.78,
         "direction": "protective"
       },
       {
         "predictor": "P3 (Preslaap cognitieve offloading)",
         "criterion": "CR-1 (Inslaapproblemen)",
-        "weight": -0.52,
+        "weight": -0.42,
         "direction": "protective"
       },
       {
         "predictor": "P4 (Sociale participatie)",
         "criterion": "CR-3 (Sociale anhedonie)",
-        "weight": -0.82,
+        "weight": -0.85,
         "direction": "protective"
       },
       {
@@ -47,7 +47,7 @@
       {
         "predictor": "P5 (Aerobe beweging)",
         "criterion": "CR-4 (Stressgerelateerde spierspanning)",
-        "weight": -0.62,
+        "weight": -0.7,
         "direction": "protective"
       }
     ]
@@ -58,25 +58,25 @@
       {
         "predictor": "P1 (Vermijdingsgedrag)",
         "criterion": "CR-3 (Situationele vermijding)",
-        "weight": 0.85,
+        "weight": 0.9,
         "direction": "risk"
       },
       {
         "predictor": "P1 (Vermijdingsgedrag)",
         "criterion": "CR-2 (Anticipatieangst)",
-        "weight": 0.8,
+        "weight": 0.82,
         "direction": "risk"
       },
       {
         "predictor": "P2 (Veiligheidsgedrag)",
         "criterion": "CR-2 (Anticipatieangst)",
-        "weight": 0.75,
+        "weight": 0.72,
         "direction": "risk"
       },
       {
         "predictor": "P2 (Veiligheidsgedrag)",
         "criterion": "CR-1 (Recidiverende paniekepisoden)",
-        "weight": 0.55,
+        "weight": 0.4,
         "direction": "risk"
       },
       {
@@ -88,19 +88,19 @@
       {
         "predictor": "P3 (Interoceptieve focus)",
         "criterion": "CR-1 (Recidiverende paniekepisoden)",
-        "weight": 0.72,
+        "weight": 0.65,
         "direction": "risk"
       },
       {
         "predictor": "P4 (Geplande exposure)",
         "criterion": "CR-3 (Situationele vermijding)",
-        "weight": -0.8,
+        "weight": -0.85,
         "direction": "protective"
       },
       {
         "predictor": "P5 (Dagstructuur)",
         "criterion": "CR-4 (Beroepsmatige interferentie)",
-        "weight": -0.52,
+        "weight": -0.38,
         "direction": "protective"
       }
     ]
@@ -111,55 +111,55 @@
       {
         "predictor": "P1 (Werk-privegrens)",
         "criterion": "CR-1 (Emotionele uitputting)",
-        "weight": -0.8,
+        "weight": -0.85,
         "direction": "protective"
       },
       {
         "predictor": "P1 (Werk-privegrens)",
         "criterion": "CR-2 (Professionele depersonalisatie)",
-        "weight": -0.75,
+        "weight": -0.78,
         "direction": "protective"
       },
       {
         "predictor": "P2 (Herstelactiviteit)",
         "criterion": "CR-1 (Emotionele uitputting)",
-        "weight": -0.82,
+        "weight": -0.88,
         "direction": "protective"
       },
       {
         "predictor": "P2 (Herstelactiviteit)",
         "criterion": "CR-3 (Sociale terugtrekking)",
-        "weight": -0.52,
+        "weight": -0.42,
         "direction": "protective"
       },
       {
         "predictor": "P3 (Sociaal initiatief)",
         "criterion": "CR-3 (Sociale terugtrekking)",
-        "weight": -0.78,
+        "weight": -0.82,
         "direction": "protective"
       },
       {
         "predictor": "P4 (Professionele meestervaring)",
         "criterion": "CR-2 (Professionele depersonalisatie)",
-        "weight": -0.55,
+        "weight": -0.65,
         "direction": "protective"
       },
       {
         "predictor": "P4 (Professionele meestervaring)",
         "criterion": "CR-4 (Cognitieve fouten op het werk)",
-        "weight": -0.5,
+        "weight": -0.35,
         "direction": "protective"
       },
       {
         "predictor": "P5 (Slaapkwaliteit)",
         "criterion": "CR-1 (Emotionele uitputting)",
-        "weight": -0.58,
+        "weight": -0.6,
         "direction": "protective"
       },
       {
         "predictor": "P5 (Slaapkwaliteit)",
         "criterion": "CR-4 (Cognitieve fouten op het werk)",
-        "weight": -0.55,
+        "weight": -0.5,
         "direction": "protective"
       }
     ]
@@ -170,43 +170,43 @@
       {
         "predictor": "P1 (Betekenisgerichte activiteit)",
         "criterion": "CR-1 (Aanhoudende rouwreactie)",
-        "weight": -0.78,
+        "weight": -0.82,
         "direction": "protective"
       },
       {
         "predictor": "P1 (Betekenisgerichte activiteit)",
         "criterion": "CR-4 (Verminderde toekomstorientatie)",
-        "weight": -0.82,
+        "weight": -0.88,
         "direction": "protective"
       },
       {
         "predictor": "P2 (Slaap-waakconsistentie)",
         "criterion": "CR-2 (Doorslaapinsomnie)",
-        "weight": -0.8,
+        "weight": -0.85,
         "direction": "protective"
       },
       {
         "predictor": "P3 (Sociale steunopname)",
         "criterion": "CR-1 (Aanhoudende rouwreactie)",
-        "weight": -0.5,
+        "weight": -0.4,
         "direction": "protective"
       },
       {
         "predictor": "P3 (Sociale steunopname)",
         "criterion": "CR-3 (Schuldgedreven ruminatie)",
-        "weight": -0.55,
+        "weight": -0.62,
         "direction": "protective"
       },
       {
         "predictor": "P4 (Zelfcompassie)",
         "criterion": "CR-3 (Schuldgedreven ruminatie)",
-        "weight": -0.75,
+        "weight": -0.78,
         "direction": "protective"
       },
       {
         "predictor": "P5 (Toekomstplanning)",
         "criterion": "CR-4 (Verminderde toekomstorientatie)",
-        "weight": -0.8,
+        "weight": -0.72,
         "direction": "protective"
       }
     ]
@@ -217,49 +217,49 @@
       {
         "predictor": "P1 (Compulsie-uitstel)",
         "criterion": "CR-2 (Compulsieve mentale controle)",
-        "weight": -0.82,
+        "weight": -0.88,
         "direction": "protective"
       },
       {
         "predictor": "P1 (Compulsie-uitstel)",
         "criterion": "CR-4 (Tijdsbelasting door OCD)",
-        "weight": -0.78,
+        "weight": -0.82,
         "direction": "protective"
       },
       {
         "predictor": "P2 (Vermijdingsbeheer)",
         "criterion": "CR-3 (Vermijding van schaderisico)",
-        "weight": -0.8,
+        "weight": -0.85,
         "direction": "protective"
       },
       {
         "predictor": "P3 (Onzekerheidstolerantie)",
         "criterion": "CR-1 (Intrusieve schadeobsessies)",
-        "weight": -0.75,
+        "weight": -0.72,
         "direction": "protective"
       },
       {
         "predictor": "P3 (Onzekerheidstolerantie)",
         "criterion": "CR-2 (Compulsieve mentale controle)",
-        "weight": -0.8,
+        "weight": -0.78,
         "direction": "protective"
       },
       {
         "predictor": "P4 (Slaapkwaliteit)",
         "criterion": "CR-1 (Intrusieve schadeobsessies)",
-        "weight": -0.52,
+        "weight": -0.38,
         "direction": "protective"
       },
       {
         "predictor": "P5 (Geruststellingszoekend gedrag)",
         "criterion": "CR-2 (Compulsieve mentale controle)",
-        "weight": 0.78,
+        "weight": 0.65,
         "direction": "risk"
       },
       {
         "predictor": "P5 (Geruststellingszoekend gedrag)",
         "criterion": "CR-4 (Tijdsbelasting door OCD)",
-        "weight": 0.55,
+        "weight": 0.42,
         "direction": "risk"
       }
     ]
@@ -270,43 +270,43 @@
       {
         "predictor": "P1 (Professionele exposure)",
         "criterion": "CR-1 (Prestatieangst op het werk)",
-        "weight": -0.8,
+        "weight": -0.85,
         "direction": "protective"
       },
       {
         "predictor": "P1 (Professionele exposure)",
         "criterion": "CR-4 (Vermijding van zichtbaarheid)",
-        "weight": -0.82,
+        "weight": -0.9,
         "direction": "protective"
       },
       {
         "predictor": "P2 (Post-event verwerking)",
         "criterion": "CR-2 (Post-event ruminatie)",
-        "weight": -0.78,
-        "direction": "protective"
+        "weight": 0.8,
+        "direction": "risk"
       },
       {
         "predictor": "P3 (Zelfevaluatiebias)",
         "criterion": "CR-1 (Prestatieangst op het werk)",
-        "weight": 0.58,
+        "weight": 0.65,
         "direction": "risk"
       },
       {
         "predictor": "P3 (Zelfevaluatiebias)",
         "criterion": "CR-2 (Post-event ruminatie)",
-        "weight": 0.55,
+        "weight": 0.42,
         "direction": "risk"
       },
       {
         "predictor": "P4 (Voorbereidingstijd)",
         "criterion": "CR-3 (Excessieve voorbereiding)",
-        "weight": 0.82,
+        "weight": 0.88,
         "direction": "risk"
       },
       {
         "predictor": "P5 (Vermijdingslogging)",
         "criterion": "CR-4 (Vermijding van zichtbaarheid)",
-        "weight": -0.72,
+        "weight": -0.38,
         "direction": "protective"
       }
     ]
@@ -317,31 +317,31 @@
       {
         "predictor": "P1 (Activiteitenschema)",
         "criterion": "CR-1 (Aanhoudende sombere stemming)",
-        "weight": -0.78,
+        "weight": -0.8,
         "direction": "protective"
       },
       {
         "predictor": "P1 (Activiteitenschema)",
         "criterion": "CR-2 (Anergie)",
-        "weight": -0.82,
+        "weight": -0.88,
         "direction": "protective"
       },
       {
         "predictor": "P2 (Sociaal initiatief)",
         "criterion": "CR-3 (Sociale isolatie)",
-        "weight": -0.8,
+        "weight": -0.85,
         "direction": "protective"
       },
       {
         "predictor": "P3 (Slaapregelmaat)",
         "criterion": "CR-1 (Aanhoudende sombere stemming)",
-        "weight": -0.55,
+        "weight": -0.42,
         "direction": "protective"
       },
       {
         "predictor": "P3 (Slaapregelmaat)",
         "criterion": "CR-2 (Anergie)",
-        "weight": -0.58,
+        "weight": -0.62,
         "direction": "protective"
       },
       {
@@ -353,13 +353,13 @@
       {
         "predictor": "P4 (Plezierige activiteit)",
         "criterion": "CR-4 (Hopeloosheid)",
-        "weight": -0.52,
+        "weight": -0.38,
         "direction": "protective"
       },
       {
         "predictor": "P5 (Cognitieve tegenspraak hopeloosheid)",
         "criterion": "CR-4 (Hopeloosheid)",
-        "weight": -0.8,
+        "weight": -0.82,
         "direction": "protective"
       }
     ]
@@ -370,43 +370,43 @@
       {
         "predictor": "P1 (Extern taakbeheersysteem)",
         "criterion": "CR-2 (Plannings- en organisatiefouten)",
-        "weight": -0.8,
+        "weight": -0.88,
         "direction": "protective"
       },
       {
         "predictor": "P1 (Extern taakbeheersysteem)",
         "criterion": "CR-1 (Aandachtsvolhoudingsproblemen)",
-        "weight": -0.72,
+        "weight": -0.75,
         "direction": "protective"
       },
       {
         "predictor": "P2 (Interesse-gedreven activatie)",
         "criterion": "CR-1 (Aandachtsvolhoudingsproblemen)",
-        "weight": -0.55,
+        "weight": -0.42,
         "direction": "protective"
       },
       {
         "predictor": "P3 (Bewust luisteren)",
         "criterion": "CR-3 (Interpersoonlijke onoplettendheid)",
-        "weight": -0.78,
+        "weight": -0.85,
         "direction": "protective"
       },
       {
         "predictor": "P4 (Taakvoltooiingsbekrachtiging)",
         "criterion": "CR-4 (Prestatieschaamte)",
-        "weight": -0.8,
+        "weight": -0.82,
         "direction": "protective"
       },
       {
         "predictor": "P4 (Taakvoltooiingsbekrachtiging)",
         "criterion": "CR-2 (Plannings- en organisatiefouten)",
-        "weight": -0.5,
+        "weight": -0.38,
         "direction": "protective"
       },
       {
         "predictor": "P5 (Overgangsrituelen)",
         "criterion": "CR-2 (Plannings- en organisatiefouten)",
-        "weight": -0.75,
+        "weight": -0.65,
         "direction": "protective"
       }
     ]
@@ -417,25 +417,25 @@
       {
         "predictor": "P1 (Emotieregulatievaardigheid)",
         "criterion": "CR-1 (Snelle stemmingsschommelingen)",
-        "weight": -0.82,
+        "weight": -0.85,
         "direction": "protective"
       },
       {
         "predictor": "P1 (Emotieregulatievaardigheid)",
         "criterion": "CR-2 (Afwijzingsreactiviteit)",
-        "weight": -0.75,
+        "weight": -0.78,
         "direction": "protective"
       },
       {
         "predictor": "P2 (Afwijzingsherwaardering)",
         "criterion": "CR-2 (Afwijzingsreactiviteit)",
-        "weight": -0.8,
+        "weight": -0.88,
         "direction": "protective"
       },
       {
         "predictor": "P2 (Afwijzingsherwaardering)",
         "criterion": "CR-4 (Relationele instabiliteit)",
-        "weight": -0.75,
+        "weight": -0.65,
         "direction": "protective"
       },
       {
@@ -447,19 +447,19 @@
       {
         "predictor": "P4 (Interpersoonlijke communicatie)",
         "criterion": "CR-4 (Relationele instabiliteit)",
-        "weight": -0.78,
+        "weight": -0.72,
         "direction": "protective"
       },
       {
         "predictor": "P4 (Interpersoonlijke communicatie)",
         "criterion": "CR-2 (Afwijzingsreactiviteit)",
-        "weight": -0.52,
+        "weight": -0.4,
         "direction": "protective"
       },
       {
         "predictor": "P5 (Gedifferentieerde stemmingsmonitoring)",
         "criterion": "CR-1 (Snelle stemmingsschommelingen)",
-        "weight": -0.55,
+        "weight": -0.38,
         "direction": "protective"
       }
     ]
@@ -470,43 +470,43 @@
       {
         "predictor": "P1 (Werkontkoppeling voor slaap)",
         "criterion": "CR-2 (Doorslaapinsomnie)",
-        "weight": -0.8,
+        "weight": -0.85,
         "direction": "protective"
       },
       {
         "predictor": "P1 (Werkontkoppeling voor slaap)",
         "criterion": "CR-1 (Chronische werkstress)",
-        "weight": -0.72,
+        "weight": -0.78,
         "direction": "protective"
       },
       {
         "predictor": "P2 (Avondlijk alcoholgebruik)",
         "criterion": "CR-4 (Alcohol als copingstrategie)",
-        "weight": 0.85,
+        "weight": 0.9,
         "direction": "risk"
       },
       {
         "predictor": "P2 (Avondlijk alcoholgebruik)",
         "criterion": "CR-2 (Doorslaapinsomnie)",
-        "weight": 0.78,
+        "weight": 0.72,
         "direction": "risk"
       },
       {
         "predictor": "P3 (Stressregulatie overdag)",
         "criterion": "CR-1 (Chronische werkstress)",
-        "weight": -0.58,
+        "weight": -0.62,
         "direction": "protective"
       },
       {
         "predictor": "P3 (Stressregulatie overdag)",
         "criterion": "CR-3 (Somatische stressklachten)",
-        "weight": -0.72,
+        "weight": -0.75,
         "direction": "protective"
       },
       {
         "predictor": "P4 (Aerobe beweging)",
         "criterion": "CR-1 (Chronische werkstress)",
-        "weight": -0.52,
+        "weight": -0.38,
         "direction": "protective"
       },
       {

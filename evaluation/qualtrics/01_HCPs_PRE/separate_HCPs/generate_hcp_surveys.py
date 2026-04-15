@@ -65,14 +65,14 @@ CASES: dict[str, dict] = {
             "Aerobe beweging",
         ],
         tikz_edges=[
-            ("p1", "cr1",  0.82),
-            ("p1", "cr2",  0.78),
-            ("p2", "cr2",  0.55),
-            ("p3", "cr2", -0.76),
-            ("p3", "cr1", -0.52),
-            ("p4", "cr3", -0.82),
-            ("p5", "cr1", -0.55),
-            ("p5", "cr4", -0.62),
+            ("p1", "cr1",  0.88),  # late screen time → sleep onset problems (very strong)
+            ("p1", "cr2",  0.82),  # late screen time → cognitive hyperarousal (strong)
+            ("p2", "cr2",  0.62),  # task accumulation → cognitive hyperarousal (moderate)
+            ("p3", "cr2", -0.78),  # pre-sleep offloading ↓ cognitive hyperarousal (strong protective)
+            ("p3", "cr1", -0.42),  # pre-sleep offloading ↓ sleep onset problems (weak protective)
+            ("p4", "cr3", -0.85),  # social participation ↓ social anhedonia (very strong)
+            ("p5", "cr1", -0.55),  # aerobic exercise ↓ sleep onset problems (moderate)
+            ("p5", "cr4", -0.70),  # aerobic exercise ↓ muscle tension (moderate-strong)
         ],
         treatment_targets=[
             (
@@ -165,14 +165,14 @@ CASES: dict[str, dict] = {
             "Dagstructuur",
         ],
         tikz_edges=[
-            ("p1", "cr3",  0.85),
-            ("p1", "cr2",  0.80),
-            ("p2", "cr2",  0.75),
-            ("p2", "cr1",  0.55),
-            ("p3", "cr2",  0.78),
-            ("p3", "cr1",  0.72),
-            ("p4", "cr3", -0.80),
-            ("p5", "cr4", -0.52),
+            ("p1", "cr3",  0.90),  # avoidance behavior → situational avoidance (very strong, tautological driver)
+            ("p1", "cr2",  0.82),  # avoidance behavior → anticipatory anxiety (strong)
+            ("p2", "cr2",  0.72),  # safety behaviors → anticipatory anxiety (moderate)
+            ("p2", "cr1",  0.40),  # safety behaviors → panic episodes (weak)
+            ("p3", "cr2",  0.78),  # interoceptive focus → anticipatory anxiety (strong)
+            ("p3", "cr1",  0.65),  # interoceptive focus → panic episodes (moderate)
+            ("p4", "cr3", -0.85),  # planned exposure ↓ situational avoidance (very strong)
+            ("p5", "cr4", -0.38),  # daily structure ↓ occupational interference (weak)
         ],
         treatment_targets=[
             (
@@ -262,15 +262,15 @@ CASES: dict[str, dict] = {
             "Slaapkwaliteit",
         ],
         tikz_edges=[
-            ("p1", "cr1", -0.80),
-            ("p1", "cr2", -0.75),
-            ("p2", "cr1", -0.82),
-            ("p2", "cr3", -0.52),
-            ("p3", "cr3", -0.78),
-            ("p4", "cr2", -0.55),
-            ("p4", "cr4", -0.50),
-            ("p5", "cr1", -0.58),
-            ("p5", "cr4", -0.55),
+            ("p1", "cr1", -0.85),  # work-life boundary ↓ emotional exhaustion (very strong maintaining factor)
+            ("p1", "cr2", -0.78),  # work-life boundary ↓ depersonalization (strong)
+            ("p2", "cr1", -0.88),  # recovery activity ↓ exhaustion (strongest: primary repair mechanism)
+            ("p2", "cr3", -0.42),  # recovery activity ↓ social withdrawal (weak indirect)
+            ("p3", "cr3", -0.82),  # social initiative ↓ social withdrawal (strong, direct)
+            ("p4", "cr2", -0.65),  # mastery experience ↓ depersonalization (moderate)
+            ("p4", "cr4", -0.35),  # mastery experience ↓ cognitive errors (weakest)
+            ("p5", "cr1", -0.60),  # sleep quality ↓ exhaustion (moderate)
+            ("p5", "cr4", -0.50),  # sleep quality ↓ cognitive errors (moderate-weak)
         ],
         treatment_targets=[
             (
@@ -360,13 +360,13 @@ CASES: dict[str, dict] = {
             "Toekomstplanning",
         ],
         tikz_edges=[
-            ("p1", "cr1", -0.78),
-            ("p1", "cr4", -0.82),
-            ("p2", "cr2", -0.80),
-            ("p3", "cr1", -0.50),
-            ("p3", "cr3", -0.55),
-            ("p4", "cr3", -0.75),
-            ("p5", "cr4", -0.80),
+            ("p1", "cr1", -0.82),  # meaning activity ↓ grief reaction (strong)
+            ("p1", "cr4", -0.88),  # meaning activity ↓ diminished future orientation (very strong: primary pathway)
+            ("p2", "cr2", -0.85),  # sleep consistency ↓ sleep maintenance insomnia (very strong, direct)
+            ("p3", "cr1", -0.40),  # social support uptake ↓ grief reaction (weak)
+            ("p3", "cr3", -0.62),  # social support uptake ↓ guilt rumination (moderate)
+            ("p4", "cr3", -0.78),  # self-compassion ↓ guilt rumination (strong)
+            ("p5", "cr4", -0.72),  # future planning ↓ diminished future orientation (moderate-strong)
         ],
         treatment_targets=[
             (
@@ -455,14 +455,14 @@ CASES: dict[str, dict] = {
             "Geruststellingszoekend gedrag",
         ],
         tikz_edges=[
-            ("p1", "cr2", -0.82),
-            ("p1", "cr4", -0.78),
-            ("p2", "cr3", -0.80),
-            ("p3", "cr1", -0.75),
-            ("p3", "cr2", -0.80),
-            ("p4", "cr1", -0.52),
-            ("p5", "cr2",  0.78),
-            ("p5", "cr4",  0.55),
+            ("p1", "cr2", -0.88),  # compulsion delay ↓ compulsive mental control (very strong: core ERP mechanism)
+            ("p1", "cr4", -0.82),  # compulsion delay ↓ time burden of OCD (strong)
+            ("p2", "cr3", -0.85),  # avoidance management ↓ avoidance of harm risk (very strong, direct)
+            ("p3", "cr1", -0.72),  # uncertainty tolerance ↓ intrusive obsessions (moderate)
+            ("p3", "cr2", -0.78),  # uncertainty tolerance ↓ compulsive mental control (strong)
+            ("p4", "cr1", -0.38),  # sleep quality ↓ intrusive obsessions (weak)
+            ("p5", "cr2",  0.65),  # reassurance-seeking → compulsive mental control (moderate maintaining)
+            ("p5", "cr4",  0.42),  # reassurance-seeking → time burden (weak maintaining)
         ],
         treatment_targets=[
             (
@@ -551,13 +551,13 @@ CASES: dict[str, dict] = {
             "Vermijdingslogging",
         ],
         tikz_edges=[
-            ("p1", "cr1", -0.80),
-            ("p1", "cr4", -0.82),
-            ("p2", "cr2", -0.78),
-            ("p3", "cr1",  0.58),
-            ("p3", "cr2",  0.55),
-            ("p4", "cr3",  0.82),
-            ("p5", "cr4", -0.72),
+            ("p1", "cr1", -0.85),  # professional exposure ↓ performance anxiety (very strong key mechanism)
+            ("p1", "cr4", -0.90),  # professional exposure ↓ avoidance of visibility (strongest, direct habituation)
+            ("p2", "cr2",  0.80),  # post-event processing → post-event rumination (strong maintaining factor)
+            ("p3", "cr1",  0.65),  # self-evaluation bias → performance anxiety (moderate)
+            ("p3", "cr2",  0.42),  # self-evaluation bias → post-event rumination (weak)
+            ("p4", "cr3",  0.88),  # preparation time → excessive preparation (very strong, tautological)
+            ("p5", "cr4", -0.38),  # avoidance logging ↓ avoidance of visibility (weak: awareness-building only)
         ],
         treatment_targets=[
             (
@@ -644,14 +644,14 @@ CASES: dict[str, dict] = {
             "Cognitieve tegenspraak hopeloosheid",
         ],
         tikz_edges=[
-            ("p1", "cr1", -0.78),
-            ("p1", "cr2", -0.82),
-            ("p2", "cr3", -0.80),
-            ("p3", "cr1", -0.55),
-            ("p3", "cr2", -0.58),
-            ("p4", "cr1", -0.75),
-            ("p4", "cr4", -0.52),
-            ("p5", "cr4", -0.80),
+            ("p1", "cr1", -0.80),  # activity schedule ↓ depressed mood (strong: behavioral activation)
+            ("p1", "cr2", -0.88),  # activity schedule ↓ anergy (very strong: primary BA mechanism)
+            ("p2", "cr3", -0.85),  # social initiative ↓ social isolation (very strong, direct)
+            ("p3", "cr1", -0.42),  # sleep regularity ↓ depressed mood (weak indirect)
+            ("p3", "cr2", -0.62),  # sleep regularity ↓ anergy (moderate)
+            ("p4", "cr1", -0.75),  # pleasant activity ↓ depressed mood (moderate-strong)
+            ("p4", "cr4", -0.38),  # pleasant activity ↓ hopelessness (weakest)
+            ("p5", "cr4", -0.82),  # cognitive countering ↓ hopelessness (strong)
         ],
         treatment_targets=[
             (
@@ -739,13 +739,13 @@ CASES: dict[str, dict] = {
             "Overgangsrituelen",
         ],
         tikz_edges=[
-            ("p1", "cr2", -0.80),
-            ("p1", "cr1", -0.72),
-            ("p2", "cr1", -0.55),
-            ("p3", "cr3", -0.78),
-            ("p4", "cr4", -0.80),
-            ("p4", "cr2", -0.50),
-            ("p5", "cr2", -0.75),
+            ("p1", "cr2", -0.88),  # external task system ↓ planning/org errors (very strong: core scaffold)
+            ("p1", "cr1", -0.75),  # external task system ↓ attention problems (moderate-strong)
+            ("p2", "cr1", -0.42),  # interest-driven activation ↓ attention problems (weak)
+            ("p3", "cr3", -0.85),  # conscious listening ↓ interpersonal inattentiveness (very strong, direct)
+            ("p4", "cr4", -0.82),  # task completion reinforcement ↓ shame (strong)
+            ("p4", "cr2", -0.38),  # task completion reinforcement ↓ planning errors (weak)
+            ("p5", "cr2", -0.65),  # transition rituals ↓ planning/org errors (moderate)
         ],
         treatment_targets=[
             (
@@ -834,14 +834,14 @@ CASES: dict[str, dict] = {
             "Gedifferentieerde stemmingsmonitoring",
         ],
         tikz_edges=[
-            ("p1", "cr1", -0.82),
-            ("p1", "cr2", -0.75),
-            ("p2", "cr2", -0.80),
-            ("p2", "cr4", -0.75),
-            ("p3", "cr3", -0.82),
-            ("p4", "cr4", -0.78),
-            ("p4", "cr2", -0.52),
-            ("p5", "cr1", -0.55),
+            ("p1", "cr1", -0.85),  # emotion regulation ↓ mood swings (very strong: primary stabilization)
+            ("p1", "cr2", -0.78),  # emotion regulation ↓ rejection reactivity (strong)
+            ("p2", "cr2", -0.88),  # rejection reappraisal ↓ rejection reactivity (strongest: direct target)
+            ("p2", "cr4", -0.65),  # rejection reappraisal ↓ relational instability (moderate)
+            ("p3", "cr3", -0.82),  # impulse delay ↓ impulsive behavior (strong, direct)
+            ("p4", "cr4", -0.72),  # interpersonal communication ↓ relational instability (moderate)
+            ("p4", "cr2", -0.40),  # interpersonal communication ↓ rejection reactivity (weak)
+            ("p5", "cr1", -0.38),  # mood monitoring ↓ mood swings (weakest: indirect awareness)
         ],
         treatment_targets=[
             (
@@ -929,15 +929,15 @@ CASES: dict[str, dict] = {
             "Nachtelijke cognitieve arousal",
         ],
         tikz_edges=[
-            ("p1", "cr2", -0.80),
-            ("p1", "cr1", -0.72),
-            ("p2", "cr4",  0.85),
-            ("p2", "cr2",  0.78),
-            ("p3", "cr1", -0.58),
-            ("p3", "cr3", -0.72),
-            ("p4", "cr1", -0.52),
-            ("p4", "cr3", -0.55),
-            ("p5", "cr2",  0.82),
+            ("p1", "cr2", -0.85),  # work disconnection ↓ sleep maintenance insomnia (very strong, direct)
+            ("p1", "cr1", -0.78),  # work disconnection ↓ chronic work stress (strong)
+            ("p2", "cr4",  0.90),  # evening alcohol use → alcohol as coping (very strong, self-reinforcing)
+            ("p2", "cr2",  0.72),  # evening alcohol use → sleep maintenance insomnia (moderate: fragmentation)
+            ("p3", "cr1", -0.62),  # daytime stress regulation ↓ chronic work stress (moderate)
+            ("p3", "cr3", -0.75),  # daytime stress regulation ↓ somatic complaints (moderate-strong)
+            ("p4", "cr1", -0.38),  # aerobic exercise ↓ chronic work stress (weak)
+            ("p4", "cr3", -0.55),  # aerobic exercise ↓ somatic complaints (moderate)
+            ("p5", "cr2",  0.82),  # nocturnal cognitive arousal → sleep maintenance insomnia (strong)
         ],
         treatment_targets=[
             (
