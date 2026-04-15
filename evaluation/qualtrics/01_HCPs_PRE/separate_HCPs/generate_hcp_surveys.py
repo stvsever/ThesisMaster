@@ -106,27 +106,27 @@ CASES: dict[str, dict] = {
         ),
         bfs_items=[
             "Cafeine-inname na 16.00 uur (aantal)",
-            "Schermtijd na 22:00 uur (min)",
-            "Aantal dutjes overdag (min)",
-            "Preslaap cognitieve offloading toegepast (ja/nee)",
-            "Tijd in bed voor het opstaan (min)",
-            "Aerobe beweging vandaag (min)",
-            "Aantal sociale afspraken gepland (aantal)",
-            "Nek- en schouderspanning in de namiddag (0--10)",
-            "Blootstelling aan blauw licht voor het slapengaan (min)",
-            "Piekeren over sociale afwijzing (0--10)",
-            "Aantal maaltijden na 21.00 uur (aantal)",
-            "Ochtendlichtblootstelling (min)",
-            "Preslaap ontspanningsritueel uitgevoerd (ja/nee)",
-            "Werkuren vandaag (uren)",
-            "Alcoholinname in de avond (aantal)",
+            "Smartphone-/tabletgebruik in bed na 22.00 uur (min)",
             "Slaapduur afgelopen nacht (uren)",
-            "Aantal onbeantwoorde berichten (aantal)",
-            "Pijnintensiteit lage rug (0--10)",
-            "Hydratatie vandaag (glazen)",
+            "Nek- en schouderspanning in de avond (0--10)",
+            "Scherm als laatste activiteit voor het slapengaan (ja/nee)",
+            "Werkuren vandaag (uren)",
+            "Ochtendlichtblootstelling (min)",
+            "Onafgewerkte taken opgeschreven voor het slapengaan (ja/nee)",
+            "Alcoholinname in de avond (aantal)",
+            "Piekeren over sociale contacten (0--10)",
+            "Kort dagboekmoment voor het slapengaan (min)",
+            "Waterinname vandaag (glazen)",
             "Concentratie overdag (0--10)",
+            "Stappentelling overdag (stappen)",
+            "Sociaal contact vandaag geinitieerd (ja/nee)",
+            "Middagdutje genomen (ja/nee)",
+            "Duur matige tot intensieve sportactiviteit vandaag (min)",
+            "Spierspanning lage rug (0--10)",
+            "Inslaapduur gisteren (min)",
+            "Eetlust bij avondmaal (0--10)",
         ],
-        bfs_correct=[2, 4, 6, 7, 14],
+        bfs_correct=[2, 5, 8, 11, 14, 17],
     ),
     "C02": dict(
         label="C02",
@@ -204,28 +204,28 @@ CASES: dict[str, dict] = {
             "Werk met een concrete exposurehiërarchie en een vooraf afgesproken copingzin per stap."
         ),
         bfs_items=[
+            "Exposurestap uit hierarchie uitgevoerd (ja/nee)",
             "Cafeine-inname voor 12.00 uur (aantal)",
-            "Geplande exposure-oefening uitgevoerd (ja/nee)",
             "Rusthartslag bij ontwaken (slagen/min)",
+            "Duur verblijf in vermeden situatie (min)",
             "Spierspanning in schouders (0--10)",
-            "Veiligheidsgedrag frequentie (0--10)",
             "Sociale contacten vandaag (aantal)",
-            "Lichamelijke sensaties zonder reactie geobserveerd (min)",
+            "Concrete veiligheidsactie bewust nagelaten (ja/nee)",
             "Stress op het werk (0--10)",
             "Inslaaptijd afgelopen nacht (min)",
-            "Vermijdingssituatie betreden ondanks angst (ja/nee)",
+            "Aantal vermijdingshandelingen ingeperkt vandaag (aantal)",
             "Waterinname vandaag (glazen)",
             "Plezier in vrijetijdsactiviteit (0--10)",
+            "Lichamelijke sensaties bewust geobserveerd zonder te handelen (min)",
             "Aantal dutjes overdag (min)",
             "Eetlust vandaag (0--10)",
-            "Anticipatieangst voor gevreesde situatie (0--10)",
             "Stemmingsval in de namiddag (0--10)",
+            "Aandacht bewust van lichaamssensaties afgeleid (ja/nee)",
             "Stapelteller vandaag (aantal)",
             "Concentratie tijdens administratie (0--10)",
             "Alcoholinname vanavond (aantal)",
-            "Dagplanning bijgehouden (ja/nee)",
         ],
-        bfs_correct=[2, 5, 7, 10, 15],
+        bfs_correct=[1, 4, 7, 10, 13, 17],
     ),
     "C03": dict(
         label="C03",
@@ -303,27 +303,27 @@ CASES: dict[str, dict] = {
         ),
         bfs_items=[
             "Aantal huishoudelijke taken voltooid (aantal)",
-            "Werkoverschrijding na werktijd (min)",
-            "Piekeren over gezinszaken in de avond (0--10)",
+            "Werkmail na 18.00 uur gecheckt (ja/nee)",
+            "Piekeren over leerlingen of klassen (0--10)",
+            "Werkgerelateerde gedachten bewust gestopt na werktijd (ja/nee)",
             "Cafeine-inname na 15.00 uur (aantal)",
-            "Herstelactiviteit vandaag uitgevoerd (ja/nee)",
-            "Aantal lesuren vandaag (uren)",
             "Eetlust bij avondmaal (0--10)",
-            "Professionele meestervaring vandaag (0--10)",
             "Ochtendspanning bij ontwaken (0--10)",
-            "Aantal nieuwschecks in de avond (aantal)",
+            "Ontspanningsactiviteit buiten werk uitgevoerd (min)",
             "Slaapkwaliteit bij ontwaken (0--10)",
-            "Lichamelijke pijnklachten na het werk (0--10)",
             "Administratieve achterstand (0--10)",
+            "Herstelactiviteit in agenda gepland (ja/nee)",
+            "Lichamelijke pijnklachten na het werk (0--10)",
             "Reistijd woon-werk (min)",
-            "Middagdutje genomen (ja/nee)",
-            "Sociaal contact op eigen initiatief (ja/nee)",
-            "Aantal maaltijden overgeslagen (aantal)",
+            "Moment van positieve lesprestatie genoteerd (ja/nee)",
             "Schermtijd in de late avond (min)",
+            "Aantal nieuwschecks in de avond (aantal)",
+            "Professionele vaardigheid succesvol ingezet (0--10)",
+            "Aantal maaltijden overgeslagen (aantal)",
+            "Aantal lesuren vandaag (uren)",
             "Irritatie tegenover collega's (0--10)",
-            "Weekendplanning opgesteld (ja/nee)",
         ],
-        bfs_correct=[2, 5, 8, 11, 16],
+        bfs_correct=[2, 4, 8, 11, 14, 17],
     ),
     "C04": dict(
         label="C04",
@@ -401,26 +401,26 @@ CASES: dict[str, dict] = {
         bfs_items=[
             "Wandeling buiten uitgevoerd (ja/nee)",
             "App-berichten met familie verstuurd (aantal)",
-            "Betekenisgerichte activiteit uitgevoerd (ja/nee)",
+            "Activiteit die een waarde of herinnering vertegenwoordigt uitgevoerd (ja/nee)",
             "Cafeine-inname na 17.00 uur (aantal)",
             "Televisietijd in de avond (min)",
-            "Vaste slaap-waakroutine gevolgd (ja/nee)",
+            "Duur van een betekenisvolle bezigheid vandaag (min)",
             "Maaltijdlust vandaag (0--10)",
-            "Werk- of zorgtaken voor anderen (min)",
-            "Zelfcompassie-oefening vandaag uitgevoerd (ja/nee)",
-            "Middagdutje genomen (ja/nee)",
+            "Opstaan op vast tijdstip (ja/nee)",
             "Lichamelijke onrust in de avond (0--10)",
-            "Toekomstgerichte activiteit ingepland (ja/nee)",
             "Schermtijd na 21.00 uur (min)",
+            "Afwijking van gewone slaap- of wektijd (min)",
             "Vermijden van herinneringsvoorwerpen (ja/nee)",
             "Alcoholinname in de avond (aantal)",
+            "Zelfkritische gedachte bewust omgevormd (ja/nee)",
             "Huishoudelijke taken voltooid (aantal)",
-            "Sociaal contactmoment vandaag (ja/nee)",
-            "Aantal afspraken buitenshuis gepland (aantal)",
             "Pijnintensiteit in gewrichten (0--10)",
+            "Zelfcompassie-oefening toegepast (min)",
             "Ochtendenergie bij opstaan (0--10)",
+            "Middagdutje genomen (ja/nee)",
+            "Werk- of zorgtaken voor anderen (min)",
         ],
-        bfs_correct=[3, 6, 9, 12, 17],
+        bfs_correct=[3, 6, 8, 11, 14, 17],
     ),
     "C05": dict(
         label="C05",
@@ -495,27 +495,27 @@ CASES: dict[str, dict] = {
         ),
         bfs_items=[
             "Schermtijd na 22.00 uur (min)",
-            "Compulsie-uitstelpoging duur (min)",
+            "Minuten gewacht voor uitvoeren van een compulsie (min)",
             "Slaapduur afgelopen nacht (uren)",
+            "Compulsieve handeling volledig uitgesteld (ja/nee)",
             "Spierspanning in de schouders (0--10)",
-            "Vermijdingssituatie betreden ondanks obsessie (ja/nee)",
-            "Aantal sociale afspraken vandaag (aantal)",
             "Cafeine-inname na de middag (aantal)",
-            "Onzekerheidstolerantieoefening uitgevoerd (ja/nee)",
+            "Vermeden situatie betreden zonder compulsie (ja/nee)",
             "Studie-uren vandaag (uren)",
             "Somatische angstsensaties (0--10)",
-            "Weerstand geboden aan herhalingsgedachte (0--10)",
-            "Lichamelijke activiteit vandaag (min)",
+            "Duur verblijf in obsessie-activerende situatie zonder vermijden (min)",
             "Maaltijdlust vandaag (0--10)",
             "Slaapritme consistent gevolgd (ja/nee)",
-            "Emotieregulatievaardigheid gebruikt (ja/nee)",
+            "Onzekerheid getolereerd zonder controlehandeling (min)",
             "Geruststelling gevraagd (aantal)",
             "Alcoholinname in de avond (aantal)",
+            "Onzekerheidstolerantieoefening bewust uitgevoerd (ja/nee)",
             "Concentratie tijdens studeren (0--10)",
             "Contact met vrienden vandaag (ja/nee)",
-            "Ochtendstemming bij ontwaken (0--10)",
+            "Aantal sociale afspraken vandaag (aantal)",
+            "Lichamelijke activiteit vandaag (min)",
         ],
-        bfs_correct=[2, 5, 8, 14, 16],
+        bfs_correct=[2, 4, 7, 10, 13, 16],
     ),
     "C06": dict(
         label="C06",
@@ -590,27 +590,27 @@ CASES: dict[str, dict] = {
         ),
         bfs_items=[
             "Slaapduur afgelopen nacht (uren)",
-            "Aantal koffies voor een meeting (aantal)",
-            "Professionele exposure-oefening uitgevoerd (ja/nee)",
+            "Professionele situatie bewust opgezocht (ja/nee)",
+            "Aantal koffies voor een afspraak (aantal)",
             "Lichamelijke spanning voor het werk (0--10)",
-            "Post-event verwerkingstijd (min)",
-            "Werkuren vandaag (uren)",
+            "Spreektijd in een vergadering of meeting (min)",
             "Positieve feedback ontvangen (ja/nee)",
-            "Vermeden kans gedocumenteerd (ja/nee)",
-            "Aantal sociale berichten verstuurd (aantal)",
+            "Naverwerking van professionele prestatie in avond (min)",
+            "Werkuren vandaag (uren)",
             "Middagpauze genomen (ja/nee)",
+            "Mentale replay van een situatie voor het slapengaan (ja/nee)",
             "Schermtijd na 21.00 uur (min)",
             "Zelfevaluatie vergeleken met externe feedback (ja/nee)",
+            "Gemiste professionele kans genoteerd (ja/nee)",
             "Eetlust voor de lunch (0--10)",
             "Aerobe beweging vandaag (min)",
+            "Vermijdingsepisode in logboek bijgehouden (ja/nee)",
             "Irritatie naar collega's (0--10)",
-            "Pre-event voorbereidingstijd (min)",
-            "Alcoholinname na het werk (aantal)",
             "Ochtendmoeheid (0--10)",
-            "Aantal huishoudelijke taken afgerond (aantal)",
+            "Aantal sociale berichten verstuurd (aantal)",
             "Sociale steun gevraagd (ja/nee)",
         ],
-        bfs_correct=[3, 5, 8, 12, 16],
+        bfs_correct=[2, 5, 7, 10, 13, 16],
     ),
     "C07": dict(
         label="C07",
@@ -685,27 +685,27 @@ CASES: dict[str, dict] = {
         ),
         bfs_items=[
             "Cafeine-inname na 15.00 uur (aantal)",
-            "Activiteitenschema gevolgd (ja/nee)",
+            "Geplande activiteit uit agenda uitgevoerd (ja/nee)",
             "Eetlust in de ochtend (0--10)",
+            "Voltooiingsgraad van dagschema vandaag (0--10)",
             "Werkgerelateerd piekeren in de avond (min)",
-            "Slaap-waaktijdvariatie vandaag (min)",
             "Pijnklachten in de rug (0--10)",
-            "Sociaal contact geinitieerd (ja/nee)",
+            "Opstaan op geplande wektijd (ja/nee)",
             "Tijd op sociale media (min)",
-            "Middagdutje genomen (ja/nee)",
-            "Plezierige activiteit voltooid (ja/nee)",
+            "Verschil geplande versus werkelijke bedtijd (min)",
             "Alcoholinname vanavond (aantal)",
+            "Middagdutje genomen (ja/nee)",
             "Concentratie tijdens administratie (0--10)",
-            "Aantal maaltijden overgeslagen (aantal)",
+            "Zelf contact opgenomen met een bekende (ja/nee)",
+            "Plezierige activiteit voltooid (ja/nee)",
             "Hopeloosheidsgedachten uitgedaagd (ja/nee)",
+            "Duur van sociaal contact op eigen initiatief (min)",
             "Waterinname vandaag (glazen)",
             "Werkuren vandaag (uren)",
-            "TV-kijktijd in de avond (min)",
-            "Schermtijd na 22.00 uur (min)",
-            "Aantal afspraken buitenshuis gepland (aantal)",
+            "Aantal maaltijden overgeslagen (aantal)",
             "Ochtendspanning (0--10)",
         ],
-        bfs_correct=[2, 5, 7, 10, 14],
+        bfs_correct=[2, 4, 7, 9, 13, 16],
     ),
     "C08": dict(
         label="C08",
@@ -780,27 +780,27 @@ CASES: dict[str, dict] = {
         ),
         bfs_items=[
             "Cafeine-inname voor de middag (aantal)",
-            "Extern taakbeheersysteem geraadpleegd (ja/nee)",
+            "To-dolijst of digitale planner geraadpleegd (ja/nee)",
             "Slaapduur afgelopen nacht (uren)",
+            "Nieuwe taken direct in het systeem ingevoerd (ja/nee)",
             "Tijd op sociale media tijdens werk (min)",
             "Spierspanning in de namiddag (0--10)",
-            "Bewust luisteren geoefend (ja/nee)",
-            "Ochtendlichtblootstelling (min)",
+            "Actief luisteren bewust geoefend in gesprek (ja/nee)",
             "Aantal onderbrekingen door notificaties (aantal)",
-            "Taakvoltooiing erkend of beloond (ja/nee)",
+            "Afleiding weggelegd tijdens een gesprek (ja/nee)",
             "Emotionele kwetsbaarheid na kritiek (0--10)",
-            "Aantal huishoudelijke taken gestart (aantal)",
             "Eetlust rond de lunch (0--10)",
-            "Overgangstaak-ritueel gebruikt (ja/nee)",
+            "Afgesloten taak bewust positief erkend (ja/nee)",
             "Alcoholinname in de avond (aantal)",
             "Stemmingsschommeling vandaag (0--10)",
+            "Kleine beloning gegeven na taakvoltooiing (ja/nee)",
             "Stapelteller vandaag (aantal)",
-            "Interessetaak geselecteerd en gestart (ja/nee)",
+            "Ochtendlichtblootstelling (min)",
             "Middagdutje genomen (ja/nee)",
-            "Schermtijd na 22.00 uur (min)",
             "Plezier in vrijetijdsbesteding (0--10)",
+            "Aantal huishoudelijke taken gestart (aantal)",
         ],
-        bfs_correct=[2, 6, 9, 13, 17],
+        bfs_correct=[2, 4, 7, 9, 12, 15],
     ),
     "C09": dict(
         label="C09",
@@ -877,27 +877,27 @@ CASES: dict[str, dict] = {
         ),
         bfs_items=[
             "Cafeine-inname na 14.00 uur (aantal)",
+            "Emotieregulatietechniek bewust ingezet (ja/nee)",
             "Slaapduur afgelopen nacht (uren)",
-            "Emotieregulatievaardigheid toegepast (ja/nee)",
-            "Aantal conflicten op het werk (aantal)",
+            "Aantal keer emotieregulatie bewust ingezet vandaag (aantal)",
             "Tijd op sociale media (min)",
-            "Impulshandeling uitgesteld (ja/nee)",
             "Eetlust bij avondmaal (0--10)",
+            "Impulsieve actie bewust uitgesteld (ja/nee)",
             "Ochtendenergie bij ontwaken (0--10)",
-            "Afwijzingsherwaardering geprobeerd (ja/nee)",
             "Alcoholinname vandaag (aantal)",
+            "Wachttijd voor een impulsieve beslissing (min)",
             "Lichamelijke activiteit vandaag (min)",
             "Stemmingsbereik vandaag (0--10)",
+            "Ervaren afwijzing cognitief herwaardeert (ja/nee)",
             "Aantal onafgewerkte taken (aantal)",
             "Concentratie tijdens administratie (0--10)",
+            "Alternatieve verklaring voor afwijzing gegeven (ja/nee)",
             "Middagdutje genomen (ja/nee)",
-            "Schermtijd na 22.00 uur (min)",
-            "Interpersoonlijk communicatiegesprek geoefend (ja/nee)",
             "Sociale media gebruik na werk (min)",
-            "Tijd buitenshuis alleen (min)",
+            "Aantal conflicten op het werk (aantal)",
             "Nekspanning in de namiddag (0--10)",
         ],
-        bfs_correct=[3, 6, 9, 12, 17],
+        bfs_correct=[2, 4, 7, 10, 13, 16],
     ),
     "C10": dict(
         label="C10",
@@ -972,28 +972,28 @@ CASES: dict[str, dict] = {
             "Vervang het bestaande gewoontepatroon door een vast, tijdsgebonden afbouwritueel dat elke avond op hetzelfde moment start."
         ),
         bfs_items=[
-            "Ochtendlichtblootstelling (min)",
-            "Preslaap werkontkoppelingsritueel gevolgd (ja/nee)",
-            "Middagdutje genomen (ja/nee)",
-            "Aantal sociale afspraken na het werk (aantal)",
-            "Alcoholeenheden vanavond (aantal)",
-            "Eetlust bij avondmaal (0--10)",
-            "Hoofdpijnintensiteit in de namiddag (0--10)",
-            "Stressregulatiegedrag overdag toegepast (ja/nee)",
-            "Schermtijd voor ontspanning na 21.00 uur (min)",
-            "Lichamelijke spierspanning in de ochtend (0--10)",
-            "Waterinname vandaag (glazen)",
-            "Werkgerelateerde gedachten na 20.00 uur (min)",
-            "Aantal vergaderuren vandaag (uren)",
             "Slaapduur afgelopen nacht (uren)",
-            "TV-kijktijd in de avond (min)",
-            "Ochtendstemming bij ontwaken (0--10)",
-            "Aerobe beweging vandaag (min)",
+            "Werkapparaten uitgeschakeld voor slapengaan (ja/nee)",
+            "Ochtendvermoeidheid bij ontwaken (0--10)",
+            "Werkontkoppelingsritueel gevolgd na 21.00 uur (min)",
+            "Aantal vergaderuren vandaag (uren)",
+            "Hoofdpijnintensiteit namiddag (0--10)",
+            "Alcoholeenheden geconsumeerd na 19.00 uur (aantal)",
+            "Lichamelijke spierspanning in de ochtend (0--10)",
             "Cafeine-inname na 16.00 uur (aantal)",
+            "Avond zonder alcoholinname (ja/nee)",
+            "Aerobe beweging vandaag (min)",
+            "Eetlust bij avondmaal (0--10)",
+            "Stressregulatietechniek ingezet overdag (ja/nee)",
             "Contact met gezin vandaag (ja/nee)",
-            "Aantal maaltijden overgeslagen (aantal)",
+            "Middagdutje genomen (ja/nee)",
+            "Duur bewuste stressverlichtingsactiviteit overdag (min)",
+            "Werkgerelateerde gedachten na 20.00 uur (min)",
+            "Schermtijd voor ontspanning na 21.00 uur (min)",
+            "Ochtendstemming bij ontwaken (0--10)",
+            "Waterinname vandaag (glazen)",
         ],
-        bfs_correct=[2, 5, 8, 12, 17],
+        bfs_correct=[2, 4, 7, 10, 13, 16],
     ),
 }
 
@@ -1017,8 +1017,8 @@ def validate_cases() -> None:
         assert len(case["predictors"]) == 5, f"{case_id}: verwacht 5 predictors"
         assert len(case["treatment_targets"]) == 3, f"{case_id}: verwacht 3 behandeldoelen"
         assert len(case["bfs_items"]) == 20, f"{case_id}: verwacht 20 BFS-items"
-        assert len(case["bfs_correct"]) == 5, f"{case_id}: verwacht 5 correcte BFS-posities"
-        assert len(set(case["bfs_correct"])) == 5, f"{case_id}: dubbele BFS-sleutels"
+        assert len(case["bfs_correct"]) == 6, f"{case_id}: verwacht 6 correcte BFS-posities"
+        assert len(set(case["bfs_correct"])) == 6, f"{case_id}: dubbele BFS-sleutels"
         assert all(1 <= idx <= 20 for idx in case["bfs_correct"]), f"{case_id}: BFS-index buiten bereik"
 
 
@@ -1324,7 +1324,7 @@ Stap & Klinische taak & Wat u doet & Richttijd \\
 1 & Operationalisering & Noteer 2--6 criteriumlabels voor actuele probleemdimensies & $\approx$\,6 min \\
 2 & Initieel observatiemodel & Genereer 3--5 biopsychosociale predictorlabels (EMA-geschikt) & $\approx$\,6 min \\
 3 & Behandeldoelprioritering & Rangschik de 5 standaardpredictoren van hoog naar laag & $\approx$\,7 min \\
-4 & Verfijnd observatiemodel & Selecteer exact 5 EMA-items uit de lijst van 20 & $\approx$\,8 min \\
+4 & Verfijnd observatiemodel & Selecteer exact 6 EMA-items uit de lijst van 20 & $\approx$\,8 min \\
 5 & Mobiele coaching & Schrijf een korte patientgerichte boodschap voor de app & $\approx$\,8 min \\
 \midrule
  & \textbf{Totaal (2 casussen)} & & \textbf{35--45 min} \\
@@ -1621,7 +1621,7 @@ PART4_HEADER = r"""
 \textbf{\color{RichPurple}Instructies Deel 4}
 
 \smallskip\small
-\textbf{Opdracht:} selecteer per casus \textbf{exact 5 EMA-items} uit een lijst van 20.
+\textbf{Opdracht:} selecteer per casus \textbf{exact 6 EMA-items}: 2 sub-predictoren per behandeldoel (3 behandeldoelen $\times$ 2 = 6).
 
 \textbf{Wat bootst dit deel na?}
 PHOENIX verfijnt het observatiemodel via een \textbf{breadth-first update-logica}: vanuit de
@@ -1631,12 +1631,12 @@ subpredictoren voor de volgende EMA-cyclus.
 \textbf{Selectieprincipe:}
 \begin{itemize}[topsep=2pt,itemsep=1pt]
 \item start vanuit de standaardbehandeldoelen hieronder,
-\item kies de 5 dagelijkse EMA-items die daar het best op aansluiten,
+\item kies per behandeldoel \textbf{2 dagelijkse EMA-items} (6 in totaal) die daar het best op aansluiten,
 \item verkies klinisch relevante breedte boven irrelevante of perifere items,
 \item noteer \textbf{geen} toelichting of extra commentaar.
 \end{itemize}
 
-\textbf{Antwoordformat:} vink \textbf{exact 5} items aan.
+\textbf{Antwoordformat:} vink \textbf{exact 6} items aan.
 \end{tcolorbox}
 
 \vspace{0.5em}
@@ -1663,12 +1663,12 @@ def part4_case(case: dict) -> str:
         r"\end{contextbox}",
         "",
         r"\begin{responsebox}",
-        r"\small\textbf{Opdracht:} selecteer \textbf{exact 5} EMA-items die het best passen als volgende subpredictoren.",
+        r"\small\textbf{Opdracht:} selecteer \textbf{exact 6} EMA-items (2 per behandeldoel) die het best passen als volgende subpredictoren.",
         r"\textit{Alle antwoordopties zijn dagelijkse mobiele EMA-items.}",
         r"",
         bfs_items_block(case["bfs_items"]),
         r"\vspace{0.4em}",
-        r"\noindent\textbf{Totaal geselecteerd:}\hspace{0.5em}\rule{1.2cm}{0.25pt}\hspace{0.2em}/ 5",
+        r"\noindent\textbf{Totaal geselecteerd:}\hspace{0.5em}\rule{1.2cm}{0.25pt}\hspace{0.2em}/ 6",
         r"\end{responsebox}",
         "",
         r"\vspace{0.6em}",
@@ -1761,7 +1761,7 @@ Dank u voor het invullen van alle vijf delen voor uw twee toegewezen casussen
 \item[$\square$] Ik heb in Deel 1 voor beide casussen criteriumlabels ingevuld.
 \item[$\square$] Ik heb in Deel 2 voor beide casussen predictorlabels ingevuld.
 \item[$\square$] Ik heb in Deel 3 voor beide casussen alle 5 predictors gerangschikt.
-\item[$\square$] Ik heb in Deel 4 voor beide casussen exact 5 EMA-items geselecteerd.
+\item[$\square$] Ik heb in Deel 4 voor beide casussen exact 6 EMA-items geselecteerd.
 \item[$\square$] Ik heb in Deel 5 voor beide casussen een mobiele coachingsboodschap geschreven.
 \item[$\square$] Mijn antwoorden weerspiegelen mijn eigen klinische oordeel zonder gebruik van generatieve AI of andere externe hulp.
 \item[$\square$] Ik begrijp dat mijn antwoorden geanonimiseerd worden voor analyse.
@@ -2190,7 +2190,7 @@ def build_word_document(hcp_num: int) -> Document:
         ("1", "Operationalisering", "Noteer 2-6 criteriumlabels voor actuele probleemdimensies", "~6 min"),
         ("2", "Initieel observatiemodel", "Genereer 3-5 biopsychosociale predictorlabels (EMA-geschikt)", "~6 min"),
         ("3", "Behandeldoelprioritering", "Rangschik de 5 standaardpredictoren van hoog naar laag", "~7 min"),
-        ("4", "Verfijnd observatiemodel", "Selecteer exact 5 EMA-items uit de lijst van 20", "~8 min"),
+        ("4", "Verfijnd observatiemodel", "Selecteer exact 6 EMA-items uit de lijst van 20", "~8 min"),
         ("5", "Mobiele coaching", "Schrijf een korte patientgerichte boodschap voor de app", "~8 min"),
     ]
     step_tbl = doc.add_table(rows=len(steps) + 1, cols=4)
@@ -2398,8 +2398,8 @@ def build_word_document(hcp_num: int) -> Document:
         doc.add_paragraph()
         instr = doc.add_paragraph()
         instr.add_run(
-            "Opdracht: selecteer EXACT 5 EMA-items die het best passen als volgende subpredictoren. "
-            "Vink de 5 geselecteerde items aan."
+            "Opdracht: selecteer EXACT 6 EMA-items (2 per behandeldoel) die het best passen als volgende subpredictoren. "
+            "Vink de 6 geselecteerde items aan."
         ).bold = True
         instr.runs[0].font.size = Pt(10)
         doc.add_paragraph()
@@ -2407,14 +2407,14 @@ def build_word_document(hcp_num: int) -> Document:
             _add_checkbox_item(doc, idx, item)
         doc.add_paragraph()
         total = doc.add_paragraph()
-        total.add_run("Totaal geselecteerd: _____ / 5").bold = True
+        total.add_run("Totaal geselecteerd: _____ / 6").bold = True
         total.runs[0].font.size = Pt(10)
 
     _add_heading(doc, "5  Deel 4: Verfijnd observatiemodel via breadth-first update-logica", level=1)
     _add_shaded_para(
         doc,
-        "Selecteer per casus EXACT 5 EMA-items uit een lijst van 20. "
-        "Start vanuit de gestandaardiseerde behandeldoelen en kies de 5 dagelijkse EMA-items "
+        "Selecteer per casus EXACT 6 EMA-items uit een lijst van 20: 2 sub-predictoren per behandeldoel (3 x 2 = 6). "
+        "Start vanuit de gestandaardiseerde behandeldoelen en kies per behandeldoel 2 dagelijkse EMA-items "
         "die daar het best op aansluiten als directe subpredictoren. "
         "Verkies klinisch relevante breedte boven irrelevante of perifere items.",
         shade_hex="EDE9FE",
@@ -2495,7 +2495,7 @@ def build_word_document(hcp_num: int) -> Document:
         "Ik heb in Deel 1 voor beide casussen (Casus\u00a01 en Casus\u00a02) criteriumlabels ingevuld.",
         f"Ik heb in Deel 2 voor beide casussen predictorlabels ingevuld.",
         f"Ik heb in Deel 3 voor beide casussen alle 5 predictors gerangschikt.",
-        f"Ik heb in Deel 4 voor beide casussen exact 5 EMA-items geselecteerd.",
+        f"Ik heb in Deel 4 voor beide casussen exact 6 EMA-items geselecteerd.",
         f"Ik heb in Deel 5 voor beide casussen een mobiele coachingsboodschap geschreven.",
         "Mijn antwoorden weerspiegelen mijn eigen klinische oordeel zonder gebruik van generatieve AI of andere externe hulp.",
         "Ik begrijp dat mijn antwoorden geanonimiseerd worden verwerkt en uitsluitend worden gebruikt binnen deze masterproefstudie.",
