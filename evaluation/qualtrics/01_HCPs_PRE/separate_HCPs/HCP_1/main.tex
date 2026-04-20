@@ -100,7 +100,9 @@
   boxrule=0.8pt,arc=2.5mm,breakable,
   left=10pt,right=10pt,top=9pt,bottom=9pt,
   fonttitle=\small\bfseries\color{GoldAmber},
-  title={Uitgewerkt voorbeeld -- #2 -- Nadia (38-jarige verpleegkundige)\\[1pt]{\normalfont\small\itshape\color{GoldAmber!80!black}#3}},#1
+  halign title=center,
+  title={Uitgewerkt voorbeeld -- #2 -- Nadia (38-jarige verpleegkundige)\\[3pt]%
+    {\footnotesize\itshape\color{DarkBlue}#3}},#1
 }
 
 \tikzset{
@@ -412,7 +414,8 @@ maar een actuele toestandsbeschrijving:
 \begin{itemize}[topsep=2pt,itemsep=1pt]
 \item momenteel aanwezig bij de persoon (niet hypothetisch of anamnestisch),
 \item onderscheidbaar van andere klachtdimensies (niet overlappend),
-\item in principe herhaald meetbaar via dagelijkse zelfrapportage (EMA).
+\item in principe herhaald meetbaar via dagelijkse zelfrapportage (EMA),
+\item op DSM-5-TR/ICD-11-niveau: concreet genoeg om afzonderlijk te meten (bijv.\ ``inslaapmoeilijkheden'', niet het brede ``slaapstoornis''), maar niet te atomair (niet ``wakker om 3u00'' als apart symptoom).
 \end{itemize}
 
 \textbf{Voorbeelden van goede symptoomlabels:}
@@ -440,21 +443,25 @@ ik lig lang wakker en word vroeg wakker. Overdag ben ik moe en prikkelbaar. Ik b
 bijna niet meer en zie vrienden nauwelijks nog.''}
 
 \medskip
-\textbf{Correct ingevulde symptoomlabels voor dit voorbeeld:}
+\textbf{Correct ingevulde symptoomlabels} (elk één klachtdimensie, expliciet uit de tekst):
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item \textbf{S-1}\enspace Inslaap- en doorslaapmoeilijkheden
-  \hfill\textit{(slaapklacht = recidiverend, dagelijks meetbaar via EMA)}
-\item \textbf{S-2}\enspace Vermoeidheid en prikkelbaarheid overdag
-  \hfill\textit{(toestandsdimensie, onderscheidbaar van S-1)}
-\item \textbf{S-3}\enspace Sociale terugtrekking
-  \hfill\textit{(gedragspatroon als klacht, niet als behandeldoel)}
+\item \textbf{S-1}\enspace Inslaapmoeilijkheden
+  \hfill\textit{(``lig lang wakker'' $\rightarrow$ afzonderlijk meetbaar)}
+\item \textbf{S-2}\enspace Vroeg ontwaken
+  \hfill\textit{(``word vroeg wakker'' $\rightarrow$ onderscheidbaar van S-1)}
+\item \textbf{S-3}\enspace Vermoeidheid overdag
+  \hfill\textit{(``moe overdag'' $\rightarrow$ toestandsdimensie)}
+\item \textbf{S-4}\enspace Prikkelbaarheid
+  \hfill\textit{(``prikkelbaar'' $\rightarrow$ emotioneel symptoom, los van S-3)}
+\item \textbf{S-5}\enspace Sociale terugtrekking
+  \hfill\textit{(``zie vrienden nauwelijks'' $\rightarrow$ klachtpatroon)}
 \end{itemize}
 
 \medskip
-\textbf{\color{StrongRed}Dit zijn GEEN symptomen} (horen in Deel 2 als behandelingsoptie):
+\textbf{\color{StrongRed}Dit zijn GEEN symptoomlabels} (horen in Deel 2 als behandelingsoptie):
 \begin{itemize}[topsep=1pt,itemsep=0pt]
-\item \textit{``Avondschermgebruik''} $\rightarrow$ gedrag, behandelbaar, hoort bij Deel 2.
-\item \textit{``Weinig bewegen''} $\rightarrow$ modificeerbare gewoonte, hoort bij Deel 2.
+\item \textit{``Weinig bewegen''} $\rightarrow$ modificeerbaar gedrag, geen klacht; hoort bij Deel 2.
+\item \textit{``Slaapproblemen''} $\rightarrow$ te breed: splits naar meetbare dimensies (zie S-1 en S-2).
 \end{itemize}
 \end{voorbeeldbox}
 
@@ -552,7 +559,7 @@ Laat ongebruikte velden leeg.
 \begin{voorbeeldbox}{Deel 2: Initieel observatiemodel}{Hoe genereert u behandelingsoptielabels?}
 \small
 \textbf{Gestandaardiseerde symptomen uit Deel 1 (voorbeeld):}
-S-1: Inslaap- en doorslaapmoeilijkheden;\enspace S-2: Vermoeidheid en prikkelbaarheid;\enspace S-3: Sociale terugtrekking.
+S-1: Inslaapmoeilijkheden;\enspace S-2: Vroeg ontwaken;\enspace S-3: Vermoeidheid overdag;\enspace S-4: Prikkelbaarheid;\enspace S-5: Sociale terugtrekking.
 
 \medskip
 \textbf{Correct ingevulde behandelingsoptielabels:}
