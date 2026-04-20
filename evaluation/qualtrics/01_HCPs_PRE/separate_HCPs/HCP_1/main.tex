@@ -43,6 +43,7 @@
 \definecolor{AccentAmber}{HTML}{FEF3C7}
 \definecolor{AccentPurple}{HTML}{EDE9FE}
 \definecolor{AccentTeal}{HTML}{CCFBF1}
+\definecolor{AccentOrange}{HTML}{FFEDD5}
 
 \titleformat{\section}{\Large\bfseries\color{DarkBlue}}{\thesection}{0.7em}{}[\vspace{-0.2em}\color{PrimaryBlue}\rule{\textwidth}{0.6pt}]
 \titleformat{\subsection}{\large\bfseries\color{PrimaryBlue}}{\thesubsection}{0.6em}{}
@@ -94,6 +95,13 @@
   fonttitle=\small\bfseries\color{GoldAmber},
   title=Uw antwoord
 }
+\newtcolorbox{voorbeeldbox}[2][]{
+  colback=AccentOrange,colframe=GoldAmber,
+  boxrule=0.8pt,arc=2.5mm,breakable,
+  left=10pt,right=10pt,top=9pt,bottom=9pt,
+  fonttitle=\small\bfseries\color{GoldAmber},
+  title={Uitgewerkt voorbeeld -- #2 -- Nadia (38-jarige verpleegkundige)},#1
+}
 
 \tikzset{
   crnode/.style={
@@ -108,22 +116,34 @@
     font=\fontsize{6.5}{8}\selectfont\bfseries\color{ForestGreen},
     align=center,inner sep=3pt
   },
+  smcrnode/.style={
+    draw=PrimaryBlue,fill=AccentBlue,rounded corners=2pt,
+    text width=2.9cm,minimum height=0.70cm,
+    font=\fontsize{6.0}{7.5}\selectfont\bfseries\color{DarkBlue},
+    align=center,inner sep=2pt
+  },
+  smprnode/.style={
+    draw=ForestGreen,fill=AccentTeal,rounded corners=2pt,
+    text width=2.9cm,minimum height=0.70cm,
+    font=\fontsize{6.0}{7.5}\selectfont\bfseries\color{ForestGreen},
+    align=center,inner sep=2pt
+  },
 }
 
 \newcommand{\writeline}{\vspace{0.22em}\noindent\rule{\linewidth}{0.25pt}\vspace{0.42em}\par}
 
-\newcommand{\criterionslot}[1]{%
+\newcommand{\symptoomslot}[1]{%
 \vspace{0.25em}\noindent
 \begin{tcolorbox}[colback=SoftBG,colframe=BorderGrey,boxrule=0.4pt,arc=1.5mm,left=8pt,right=8pt,top=5pt,bottom=5pt]%
-\small\textbf{\color{SlateMid}Criterium #1}\hspace{1em}%
+\small\textbf{\color{SlateMid}Symptoom #1}\hspace{1em}%
 \textbf{Label (2--5 woorden):}\hspace{0.5em}\rule{0.50\linewidth}{0.25pt}%
 \end{tcolorbox}%
 }
 
-\newcommand{\predictorslot}[1]{%
+\newcommand{\behandelingsoptieslot}[1]{%
 \vspace{0.25em}\noindent
 \begin{tcolorbox}[colback=SoftBG,colframe=BorderGrey,boxrule=0.4pt,arc=1.5mm,left=8pt,right=8pt,top=5pt,bottom=5pt]%
-\small\textbf{\color{SlateMid}Predictor #1}\hspace{1em}%
+\small\textbf{\color{SlateMid}Behandelingsoptie #1}\hspace{1em}%
 \textbf{Label (2--6 woorden):}\hspace{0.5em}\rule{0.50\linewidth}{0.25pt}%
 \end{tcolorbox}%
 }
@@ -266,35 +286,36 @@ Het theoretische kader van PHOENIX steunt op het \textbf{netwerk-analytisch mode
 van psychopathologie} (Borsboom \& Cramer, 2013): psychische klachten worden niet
 als uitingen van een latente stoornis beschouwd, maar als een \emph{dynamisch
 netwerk van onderling samenhangende klachtcomponenten}. Een sleutelbegrip daarbinnen
-is het onderscheid tussen \textbf{criteria} (symptoomdimensies die de toestand van
-de persoon beschrijven) en \textbf{predictoren} (modificeerbare variabelen die de
-criteria causaal beinvloeden en als behandeldoel kunnen dienen).
+is het onderscheid tussen \textbf{symptomen} (klacht- en toestandsdimensies die
+beschrijven wat er mis gaat bij de persoon) en \textbf{behandelingsopties}
+(modificeerbare gedragsvariabelen die de symptomen causaal beinvloeden en als
+behandeldoel kunnen dienen).
 
 \vspace{0.4em}
-\begin{instrbox}[title={Kerndefinities: criterium versus predictor}]
+\begin{instrbox}[title={Kerndefinities: symptoom versus behandelingsoptie}]
 \small
-\textbf{Criterium (CR):} een klinisch relevante, momentaan aanwezige
+\textbf{Symptoom (S):} een klinisch relevante, momentaan aanwezige
 \emph{klacht- of toestandsdimensie} van de persoon die herhaald meetbaar is via
-dagelijkse EMA. Criteria zijn de \emph{uitkomstvariabelen} in het netwerk -- ze
+dagelijkse EMA. Symptomen zijn de \emph{uitkomstvariabelen} in het netwerk -- ze
 beschrijven \emph{wat er mis gaat} (bijv.\ inslaapproblemen, paniekepisoden,
-sombere stemming). Criteria zijn geen gedragingen of interventies.
+sombere stemming). Symptomen zijn geen gedragingen of interventies.
 
 \medskip
-\textbf{Predictor (P):} een \emph{modificeerbare gedrags- of procesvariabele}
-die plausibel causaal ingrijpt op een of meerdere criteria en dagelijks meetbaar
-is via een korte EMA-vraag. Predictoren zijn de \emph{ingreepvariabelen} in het
+\textbf{Behandelingsoptie (BO):} een \emph{modificeerbare gedrags- of procesvariabele}
+die plausibel causaal ingrijpt op een of meerdere symptomen en dagelijks meetbaar
+is via een korte EMA-vraag. Behandelingsopties zijn de \emph{ingreepvariabelen} in het
 netwerk -- ze beschrijven \emph{wat veranderbaar is} (bijv.\ avondschermtijd,
-geplande exposure, aerobe beweging). Een predictor is \emph{nooit een symptoom zelf},
+geplande exposure, aerobe beweging). Een behandelingsoptie is \emph{nooit een symptoom zelf},
 maar een gedrag, strategie of omgevingsfactor die het symptoom beinvloedt.
 
 \medskip\small
 \textit{Voorbeelden ter verduidelijking:}
 \begin{itemize}[topsep=1pt,itemsep=0pt]
-\item \textbf{Criterium:} inslaapproblemen, anticipatieangst, anergie, guilt-driven ruminatie.
-\item \textbf{Predictor:} avondschermtijd (min), geplande exposurestap (ja/nee),
+\item \textbf{Symptoom:} inslaapproblemen, anticipatieangst, anergie, piekeren voor het slapengaan.
+\item \textbf{Behandelingsoptie:} avondschermtijd (min), geplande exposurestap (ja/nee),
 bewegingsfrequentie (min), preslaap-offloading (ja/nee).
-\item \textbf{Geen predictor, geen criterium:} eetlust bij avondmaal, rusthartslag,
-spierspanning -- dit zijn symptoom- of toestandsmaten, geen behandelbare predictoren.
+\item \textbf{Geen behandelingsoptie, geen symptoom:} eetlust bij avondmaal, rusthartslag,
+spierspanning -- dit zijn symptoom- of toestandsmaten die niet als behandeldoel dienen.
 \end{itemize}
 \end{instrbox}
 
@@ -303,7 +324,7 @@ spierspanning -- dit zijn symptoom- of toestandsmaten, geen behandelbare predict
 \small
 \textbf{EMA} is een methode waarbij personen meerdere keren per dag hun actuele
 toestand of gedrag rapporteren via een mobiele applicatie. In PHOENIX wordt EMA
-gebruikt om zowel criteria als predictoren dagelijks te monitoren over een periode
+gebruikt om zowel symptomen als behandelingsopties dagelijks te monitoren over een periode
 van meerdere weken.
 
 Een goede EMA-variabele voldoet aan vier vereisten:
@@ -311,7 +332,7 @@ Een goede EMA-variabele voldoet aan vier vereisten:
 \item \textbf{Dagelijks rapporteerbaar:} via een korte vraag op de smartphone (ja/nee, aantal, minuten of 0--10).
 \item \textbf{Dynamisch en veranderbaar:} geen vaste trek, diagnose of stabiel achtergrondkenmerk.
 \item \textbf{Klinisch relevant:} toont binnen-persoonsvariatie die therapeutisch informatief is.
-\item \textbf{Onderscheid criterium vs.\ predictor:} symptoomdimensies zijn criteria; modificeerbare gedragingen zijn predictoren.
+\item \textbf{Onderscheid symptoom vs.\ behandelingsoptie:} klachtdimensies zijn symptomen; modificeerbare gedragingen zijn behandelingsopties.
 \end{itemize}
 \end{instrbox}
 
@@ -321,14 +342,14 @@ Een goede EMA-variabele voldoet aan vier vereisten:
 Na 21 dagen EMA-monitoring construeert PHOENIX een \textbf{bipartiet netwerk}:
 een graaf met twee kolommensets en gewogen verbindingen daartussen.
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item \textbf{Linkse kolom -- Predictoren (P):} de modificeerbare variabelen.
-\item \textbf{Rechtse kolom -- Criteria (CR):} de klacht- en toestandsdimensies.
-\item \textbf{Kanten:} de richting loopt van predictor naar criterium (P $\rightarrow$ CR).
-Een \emph{blauwe} rand duidt op een positief verband (predictor vergroot het criterium),
-een \emph{rode} rand op een negatief verband (predictor verkleint het criterium).
+\item \textbf{Linkse kolom -- Behandelingsopties (BO):} de modificeerbare variabelen.
+\item \textbf{Rechtse kolom -- Symptomen (S):} de klacht- en toestandsdimensies.
+\item \textbf{Kanten:} de richting loopt van behandelingsoptie naar symptoom (BO $\rightarrow$ S).
+Een \emph{blauwe} rand duidt op een positief verband (behandelingsoptie vergroot het symptoom),
+een \emph{rode} rand op een negatief verband (behandelingsoptie verkleint het symptoom).
 Lijndikte is proportioneel aan de sterkte van het empirische verband uit de monitoringdata.
 \end{itemize}
-In \textbf{Deel 3} rangschikt u de predictoren op behandelprioriteit op basis van
+In \textbf{Deel 3} rangschikt u de behandelingsopties op behandelprioriteit op basis van
 dit netwerk en de monitoringsamenvatting.
 \end{instrbox}
 
@@ -343,11 +364,11 @@ dit netwerk en de monitoringsamenvatting.
 \toprule
 Stap & Klinische taak & Wat u doet & Richttijd \\
 \midrule
-1 & Operationalisering & Identificeer 2--6 \textbf{criteriumlabels} (klachtdimensies) & $\approx$\,6 min \\
-2 & Initieel observatiemodel & Genereer 3--5 \textbf{predictorlabels} (modificeerbaar, EMA-geschikt) & $\approx$\,6 min \\
-3 & Behandeldoelprioritering & Rangschik alle 5 \textbf{predictoren} van hoog naar laag behandelprioriteit & $\approx$\,7 min \\
+1 & Operationalisering & Identificeer 2--6 \textbf{symptoomlabels} (klachtdimensies) & $\approx$\,6 min \\
+2 & Initieel observatiemodel & Genereer 3--5 \textbf{behandelingsoptielabels} (modificeerbaar, EMA-geschikt) & $\approx$\,6 min \\
+3 & Behandeldoelprioritering & Rangschik alle 5 \textbf{behandelingsopties} van hoog naar laag behandelprioriteit & $\approx$\,7 min \\
 4 & Verfijnd observatiemodel & Selecteer exact 6 \textbf{EMA-items} (2 per behandeldoel) uit de lijst van 20 & $\approx$\,8 min \\
-5 & Mobiele coaching & Schrijf een korte patient\-gerichte boodschap voor de app & $\approx$\,8 min \\
+5 & Mobiele coaching & Schrijf een korte patientgerichte boodschap voor de app & $\approx$\,8 min \\
 \midrule
  & \textbf{Totaal (2 casussen)} & & \textbf{35--45 min} \\
 \bottomrule
@@ -372,6 +393,7 @@ Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blinde beoorde
 \newpage
 
 
+% ══════════════════════════════════════════════════════════════════════════════
 \section{Deel 1: Operationalisering van de mentale gezondheidstoestand}
 
 \begin{tcolorbox}[colback=blue!3,colframe=PrimaryBlue,arc=2.5mm,boxrule=0.9pt,
@@ -380,11 +402,11 @@ Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blinde beoorde
 
 \smallskip\small
 \textbf{Opdracht:} identificeer de belangrijkste actuele klacht- en toestandsdimensies
-(\textbf{criteria}) in de klachttekst en noteer voor elke dimensie uitsluitend een
-\textbf{kort criteriumlabel}.
+(\textbf{symptomen}) in de klachttekst en noteer voor elke dimensie uitsluitend een
+\textbf{kort symptoomlabel}.
 
-\textbf{Wat is een criterium?}
-Een criterium is een \emph{symptoom- of klachtdimensie} die beschrijft \emph{wat er
+\textbf{Wat is een symptoom?}
+Een symptoom is een \emph{klacht- of toestandsdimensie} die beschrijft \emph{wat er
 mis gaat} bij de persoon. Het is \emph{geen} behandeling, geen gedrag en geen oorzaak,
 maar een actuele toestandsbeschrijving:
 \begin{itemize}[topsep=2pt,itemsep=1pt]
@@ -393,16 +415,48 @@ maar een actuele toestandsbeschrijving:
 \item in principe herhaald meetbaar via dagelijkse zelfrapportage (EMA).
 \end{itemize}
 
-\textbf{Voorbeelden van goede criteriumlabels:}
+\textbf{Voorbeelden van goede symptoomlabels:}
 inslaapproblemen, paniekepisoden, anticipatieangst, sombere stemming, emotionele uitputting,
 anergie, interpersoonlijke instabiliteit, compulsief controleergedrag.
 
-\textbf{Let op:} gedragingen (bijv. ``avondschermtijd''), oorzaken (bijv. ``werkstress'')
-en behandelstrategieën zijn \emph{geen} criteria maar predictoren -- die horen in Deel 2.
+\textbf{Let op:} gedragingen (bijv.\ ``avondschermtijd''), oorzaken (bijv.\ ``werkstress'')
+en behandelstrategieën zijn \emph{geen} symptomen maar behandelingsopties -- die horen in Deel 2.
 
 \textbf{Antwoordformat:} label van 2--5 woorden, zonder beschrijvende zin.
-Noteer per casus \textbf{2--6 criteria}. Laat ongebruikte velden leeg.
+Noteer per casus \textbf{2--6 symptomen}. Laat ongebruikte velden leeg.
+
+\medskip
+\textit{\textbf{Zie het uitgewerkte voorbeeld hieronder} voor een concrete illustratie van wat een correct symptoomlabel is.}
 \end{tcolorbox}
+
+\vspace{0.5em}
+\nopagebreak[4]
+
+% ── VOORBEELD DEEL 1 ─────────────────────────────────────────────────────────
+\begin{voorbeeldbox}{Deel 1: Operationalisering}
+\small
+\textbf{Klacht (verkorte versie):} \textit{``De afgelopen vijf maanden slaap ik slecht:
+ik lig lang wakker en word vroeg wakker. Overdag ben ik moe en prikkelbaar. Ik beweeg
+bijna niet meer en zie vrienden nauwelijks nog.''}
+
+\medskip
+\textbf{Correct ingevulde symptoomlabels voor dit voorbeeld:}
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{S-1}\enspace Inslaap- en doorslaapmoeilijkheden
+  \hfill\textit{(slaapklacht = recidiverend, dagelijks meetbaar via EMA)}
+\item \textbf{S-2}\enspace Vermoeidheid en prikkelbaarheid overdag
+  \hfill\textit{(toestandsdimensie, onderscheidbaar van S-1)}
+\item \textbf{S-3}\enspace Sociale terugtrekking
+  \hfill\textit{(gedragspatroon als klacht, niet als behandeldoel)}
+\end{itemize}
+
+\medskip
+\textbf{\color{StrongRed}Dit zijn GEEN symptomen} (horen in Deel 2 als behandelingsoptie):
+\begin{itemize}[topsep=1pt,itemsep=0pt]
+\item \textit{``Avondschermgebruik''} $\rightarrow$ gedrag, behandelbaar, hoort bij Deel 2.
+\item \textit{``Weinig bewegen''} $\rightarrow$ modificeerbare gewoonte, hoort bij Deel 2.
+\end{itemize}
+\end{voorbeeldbox}
 
 \vspace{0.5em}
 
@@ -415,15 +469,15 @@ Noteer per casus \textbf{2--6 criteria}. Laat ongebruikte velden leeg.
 \end{complaintbox}
 
 \begin{responsebox}
-\small\textbf{Opdracht:} noteer \textbf{2--6 criteriumlabels} voor deze casus.
-Gebruik enkel korte labels; voeg geen beschrijving toe.
+\small\textbf{Opdracht:} noteer \textbf{2--6 symptoomlabels} voor deze casus.
+Gebruik enkel korte labels (2--5 woorden); voeg geen beschrijving toe.
 
-\criterionslot{1}
-\criterionslot{2}
-\criterionslot{3}
-\criterionslot{4}
-\criterionslot{5}
-\criterionslot{6}
+\symptoomslot{1}
+\symptoomslot{2}
+\symptoomslot{3}
+\symptoomslot{4}
+\symptoomslot{5}
+\symptoomslot{6}
 \end{responsebox}
 
 \vspace{0.6em}
@@ -437,15 +491,15 @@ Gebruik enkel korte labels; voeg geen beschrijving toe.
 \end{complaintbox}
 
 \begin{responsebox}
-\small\textbf{Opdracht:} noteer \textbf{2--6 criteriumlabels} voor deze casus.
-Gebruik enkel korte labels; voeg geen beschrijving toe.
+\small\textbf{Opdracht:} noteer \textbf{2--6 symptoomlabels} voor deze casus.
+Gebruik enkel korte labels (2--5 woorden); voeg geen beschrijving toe.
 
-\criterionslot{1}
-\criterionslot{2}
-\criterionslot{3}
-\criterionslot{4}
-\criterionslot{5}
-\criterionslot{6}
+\symptoomslot{1}
+\symptoomslot{2}
+\symptoomslot{3}
+\symptoomslot{4}
+\symptoomslot{5}
+\symptoomslot{6}
 \end{responsebox}
 
 \vspace{0.6em}
@@ -453,6 +507,7 @@ Gebruik enkel korte labels; voeg geen beschrijving toe.
 \newpage
 
 
+% ══════════════════════════════════════════════════════════════════════════════
 \section{Deel 2: Initieel observatiemodel (bipartiet netwerk)}
 
 \begin{tcolorbox}[colback=green!3,colframe=ForestGreen,arc=2.5mm,boxrule=0.9pt,
@@ -460,32 +515,63 @@ Gebruik enkel korte labels; voeg geen beschrijving toe.
 \textbf{\color{ForestGreen}Instructies Deel 2}
 
 \smallskip\small
-\textbf{Opdracht:} genereer \textbf{3--5 predictorlabels} die samen het
+\textbf{Opdracht:} genereer \textbf{3--5 behandelingsoptielabels} die samen het
 \textbf{initieel observatiemodel} voor deze casus vormen.
 
-\textbf{Wat is een predictor in deze context?}
-Een predictor is een \emph{modificeerbare gedrags- of procesvariabele} die beschrijft
+\textbf{Wat is een behandelingsoptie in deze context?}
+Een behandelingsoptie is een \emph{modificeerbare gedrags- of procesvariabele} die beschrijft
 \emph{wat de persoon kan veranderen}:
 \begin{itemize}[topsep=2pt,itemsep=1pt]
 \item \textbf{Modificeerbaar:} de persoon (of therapeut) kan er rechtstreeks op ingrijpen.
 \item \textbf{EMA-geschikt:} dagelijks meetbaar via een eenvoudige vraag op de smartphone
 (ja/nee, aantal, minuten of 0--10 schaal).
-\item \textbf{Causaal plausibel:} klinisch aannemelijk dat het predictor de criteria beinvloedt.
-\item \textbf{Geen criterium:} symptomen, klachtniveaus of diagnostische trekken zijn
-\emph{geen} predictoren.
+\item \textbf{Causaal plausibel:} klinisch aannemelijk dat de behandelingsoptie de symptomen beinvloedt.
+\item \textbf{Geen symptoom:} klachtniveaus of diagnostische trekken zijn
+\emph{geen} behandelingsopties.
 \end{itemize}
 
-\textbf{Voorbeelden van goede predictorlabels:}
+\textbf{Voorbeelden van goede behandelingsoptielabels:}
 avondschermtijd, geplande exposure, aerobe beweging, preslaap-offloading,
 veiligheidsgedrag, werk-privegrens, herstelactiviteit, compulsie-uitstel.
 
-\textbf{Let op:} predictoren als ``eetlust'', ``spierspanning'' of ``moeheid'' zijn
-symptoomdimensies (criteria) -- geen predictoren. Kies variabelen die de persoon
+\textbf{Let op:} variabelen als ``eetlust'', ``spierspanning'' of ``moeheid'' zijn
+klachtdimensies (symptomen) -- geen behandelingsopties. Kies variabelen die de persoon
 actief kan uitvoeren of aanpassen.
 
 \textbf{Antwoordformat:} enkel een label van 2--6 woorden, zonder meetdefinitie of toelichting.
 Laat ongebruikte velden leeg.
+
+\medskip
+\textit{\textbf{Zie het uitgewerkte voorbeeld hieronder} voor een concrete illustratie.}
 \end{tcolorbox}
+
+\vspace{0.5em}
+\nopagebreak[4]
+
+% ── VOORBEELD DEEL 2 ─────────────────────────────────────────────────────────
+\begin{voorbeeldbox}{Deel 2: Initieel observatiemodel}
+\small
+\textbf{Gestandaardiseerde symptomen uit Deel 1 (voorbeeld):}
+S-1: Inslaap- en doorslaapmoeilijkheden;\enspace S-2: Vermoeidheid en prikkelbaarheid;\enspace S-3: Sociale terugtrekking.
+
+\medskip
+\textbf{Correct ingevulde behandelingsoptielabels:}
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{BO-1}\enspace Avondschermgebruik
+  \hfill\textit{(modificeerbaar gedrag; EMA: minuten voor slapengaan)}
+\item \textbf{BO-2}\enspace Lichaamsbeweging
+  \hfill\textit{(modificeerbaar; EMA: minuten actief bewegen per dag)}
+\item \textbf{BO-3}\enspace Sociaal contact
+  \hfill\textit{(modificeerbaar; EMA: ja/nee contact gezocht op eigen initiatief)}
+\end{itemize}
+
+\medskip
+\textbf{\color{StrongRed}Dit zijn GEEN behandelingsopties} (zijn symptomen, horen in Deel 1):
+\begin{itemize}[topsep=1pt,itemsep=0pt]
+\item \textit{``Vermoeidheid''} $\rightarrow$ klachtdimensie (= S-2), geen behandeldoel.
+\item \textit{``Slechte slaap''} $\rightarrow$ klachtdimensie (= S-1), geen behandeldoel.
+\end{itemize}
+\end{voorbeeldbox}
 
 \vspace{0.5em}
 
@@ -497,24 +583,24 @@ Laat ongebruikte velden leeg.
 \end{complaintbox}
 
 \begin{contextbox}
-\small\textbf{Gestandaardiseerde criteria uit stap 1:}
+\small\textbf{Gestandaardiseerde symptomen uit Deel 1:}
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item \textbf{CR-1} Inslaapproblemen
-\item \textbf{CR-2} Cognitieve hyperarousal
-\item \textbf{CR-3} Sociale anhedonie
-\item \textbf{CR-4} Stressgerelateerde spierspanning
+\item \textbf{S-1} Inslaapproblemen
+\item \textbf{S-2} Cognitieve hyperarousal
+\item \textbf{S-3} Sociale anhedonie
+\item \textbf{S-4} Stressgerelateerde spierspanning
 \end{itemize}
 \end{contextbox}
 
 \begin{responsebox}
-\small\textbf{Opdracht:} noteer \textbf{3--5 predictorlabels} voor een initieel observatiemodel.
+\small\textbf{Opdracht:} noteer \textbf{3--5 behandelingsoptielabels} voor een initieel observatiemodel.
 Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.
 
-\predictorslot{1}
-\predictorslot{2}
-\predictorslot{3}
-\predictorslot{4}
-\predictorslot{5}
+\behandelingsoptieslot{1}
+\behandelingsoptieslot{2}
+\behandelingsoptieslot{3}
+\behandelingsoptieslot{4}
+\behandelingsoptieslot{5}
 \end{responsebox}
 
 \vspace{0.6em}
@@ -526,30 +612,31 @@ Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaa
 \end{complaintbox}
 
 \begin{contextbox}
-\small\textbf{Gestandaardiseerde criteria uit stap 1:}
+\small\textbf{Gestandaardiseerde symptomen uit Deel 1:}
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item \textbf{CR-1} Recidiverende paniekepisoden
-\item \textbf{CR-2} Anticipatieangst
-\item \textbf{CR-3} Situationele vermijding
-\item \textbf{CR-4} Beroepsmatige interferentie
+\item \textbf{S-1} Recidiverende paniekepisoden
+\item \textbf{S-2} Anticipatieangst
+\item \textbf{S-3} Situationele vermijding
+\item \textbf{S-4} Beroepsmatige interferentie
 \end{itemize}
 \end{contextbox}
 
 \begin{responsebox}
-\small\textbf{Opdracht:} noteer \textbf{3--5 predictorlabels} voor een initieel observatiemodel.
+\small\textbf{Opdracht:} noteer \textbf{3--5 behandelingsoptielabels} voor een initieel observatiemodel.
 Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.
 
-\predictorslot{1}
-\predictorslot{2}
-\predictorslot{3}
-\predictorslot{4}
-\predictorslot{5}
+\behandelingsoptieslot{1}
+\behandelingsoptieslot{2}
+\behandelingsoptieslot{3}
+\behandelingsoptieslot{4}
+\behandelingsoptieslot{5}
 \end{responsebox}
 
 \vspace{0.6em}
 \newpage
 
 
+% ══════════════════════════════════════════════════════════════════════════════
 \section{Deel 3: Behandeldoelprioritering via het bipartiet netwerk}
 
 \begin{tcolorbox}[colback=yellow!5,colframe=GoldAmber,arc=2.5mm,boxrule=0.9pt,
@@ -557,36 +644,85 @@ Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaa
 \textbf{\color{GoldAmber}Instructies Deel 3}
 
 \smallskip\small
-\textbf{Opdracht:} rangschik de \textbf{5 standaardpredictoren} van \textbf{hoogste}
-naar \textbf{laagste} behandelprioriteit.
+\textbf{Opdracht:} rangschik de \textbf{5 gestandaardiseerde behandelingsopties} van
+\textbf{hoogste} naar \textbf{laagste} behandelprioriteit.
 
 \textbf{Wat is een behandeldoel?}
-Een behandeldoel is de predictor die, als hij veranderd wordt, naar verwachting de sterkste
-vermindering van de criteria oplevert. U selecteert op basis van drie criteria:
+Een behandeldoel is de behandelingsoptie die, als zij veranderd wordt, naar verwachting de
+sterkste vermindering van de symptomen oplevert. U selecteert op basis van drie criteria:
 \begin{enumerate}[topsep=2pt,itemsep=1pt,label=\alph*)]
-\item \textbf{Bewijs uit monitoring:} is er in de monitoringdata aanleiding dat deze predictor
-actief bijdraagt aan de klacht (bijv.\ hoge frequentie van problematisch gedrag, of bijna
-afwezigheid van gewenst gedrag)?
-\item \textbf{Klinische modificeerbaarheid:} is de predictor realistisch veranderbaar voor
-deze persoon, gegeven profiel en context?
-\item \textbf{Netwerkimpact:} beïnvloedt de predictor meerdere criteria tegelijk (hogere
-return-on-intervention)?
+\item \textbf{Bewijs uit monitoring:} is er in de monitoringdata aanleiding dat deze
+behandelingsoptie actief bijdraagt aan de klacht (bijv.\ hoge frequentie van problematisch
+gedrag, of bijna afwezigheid van gewenst gedrag)?
+\item \textbf{Klinische modificeerbaarheid:} is de behandelingsoptie realistisch veranderbaar
+voor deze persoon, gegeven profiel en context?
+\item \textbf{Netwerkimpact:} beinvloedt de behandelingsoptie meerdere symptomen tegelijk
+(hogere return-on-intervention)?
 \end{enumerate}
 
 \textbf{Het bipartiet netwerk lezen:}
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item Predictoren staan in de \textbf{linkerkolom (groen)}; criteria in de \textbf{rechterkolom (blauw)}.
-\item \textbf{Blauwe rand:} predictor heeft een positief verband met het criterium
-(hogere predictor $\rightarrow$ hoger criterium; bijv.\ meer veiligheidsgedrag $\rightarrow$ meer angst).
-\item \textbf{Rode rand:} predictor heeft een negatief verband met het criterium
-(hogere predictor $\rightarrow$ lager criterium; bijv.\ meer exposure $\rightarrow$ minder vermijding).
+\item Behandelingsopties staan in de \textbf{linkerkolom (groen)}; symptomen in de \textbf{rechterkolom (blauw)}.
+\item \textbf{Blauwe rand:} behandelingsoptie heeft een positief verband met het symptoom
+(meer van BO $\rightarrow$ meer van S; bijv.\ meer veiligheidsgedrag $\rightarrow$ meer angst).
+\item \textbf{Rode rand:} behandelingsoptie heeft een negatief verband met het symptoom
+(meer van BO $\rightarrow$ minder van S; bijv.\ meer exposure $\rightarrow$ minder vermijding).
 \item \textbf{Lijndikte:} proportioneel aan de sterkte van het empirische verband
 (21-daagse EMA-data).
 \end{itemize}
 
 \textbf{Antwoordformat:} vul alle 5 prioriteitslijnen in, van rangorde 1 (hoogste prioriteit)
 tot en met 5 (laagste prioriteit).
+
+\medskip
+\textit{\textbf{Zie het uitgewerkte voorbeeld hieronder} voor een toelichting op het lezen van het netwerk en de prioriteringslogica.}
 \end{tcolorbox}
+
+\vspace{0.5em}
+\nopagebreak[4]
+
+% ── VOORBEELD DEEL 3 ─────────────────────────────────────────────────────────
+\begin{voorbeeldbox}{Deel 3: Behandeldoelprioritering}
+\small
+\textbf{Monitoring (voorbeeld):} Schermtijd voor slapengaan: 18/21 avonden actief
+(gem.\ 65 min). Lichaamsbeweging: 0,8 sessies/week. Sociaal contact op eigen initiatief:
+0,9/week.
+
+\medskip
+\textbf{Bipartiet netwerk voor dit voorbeeld:}
+
+\begin{center}
+\begin{tikzpicture}[node distance=0pt]
+  \node[smprnode] (bo1) at (0, 1.3)  {BO-1\\Avondschermgebruik};
+  \node[smprnode] (bo2) at (0, 0.0)  {BO-2\\Lichaamsbeweging};
+  \node[smprnode] (bo3) at (0,-1.3)  {BO-3\\Sociaal contact};
+  \node[smcrnode] (s1) at (7.5, 0.9) {S-1\\Inslaap- \& doorslaapmoeijlijkheden};
+  \node[smcrnode] (s2) at (7.5,-0.1) {S-2\\Vermoeidheid \& prikkelbaarheid};
+  \node[smcrnode] (s3) at (7.5,-1.1) {S-3\\Sociale terugtrekking};
+  \draw[line width=4.5pt, draw=PrimaryBlue!80, opacity=0.90] (bo1.east) -- (s1.west);
+  \draw[line width=3.0pt, draw=PrimaryBlue!80, opacity=0.90] (bo1.east) -- (s2.west);
+  \draw[line width=3.5pt, draw=StrongRed!85, opacity=0.90] (bo2.east) -- (s1.west);
+  \draw[line width=2.5pt, draw=StrongRed!85, opacity=0.90] (bo2.east) -- (s2.west);
+  \draw[line width=4.0pt, draw=StrongRed!85, opacity=0.90] (bo3.east) -- (s3.west);
+  \draw[line width=0.3pt, draw=black!25] (-0.2,-1.88) -- (10.1,-1.88);
+  \draw[line width=2.0pt, draw=PrimaryBlue!80] (0.1,-2.18) -- (1.0,-2.18);
+  \node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.15,-2.18) {\textbf{Blauw} = positief verband (BO \emph{vergroot} S)};
+  \draw[line width=2.0pt, draw=StrongRed!85] (0.1,-2.52) -- (1.0,-2.52);
+  \node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.15,-2.52) {\textbf{Rood} = negatief verband (BO \emph{verkleint} S)};
+\end{tikzpicture}
+\end{center}
+
+\medskip
+\textbf{Prioriteringsredenering (voorbeeld):}
+\begin{enumerate}[topsep=2pt,itemsep=1pt,label=\arabic*.]
+\item \textbf{BO-1 (Avondschermgebruik)} -- raakt S-1 en S-2 via sterke blauwe verbanden;
+monitoring toont 18/21 avonden hoge schermtijd $\rightarrow$ \textbf{prioriteit 1}.
+\item \textbf{BO-2 (Lichaamsbeweging)} -- beschermend effect op S-1 en S-2 (rode verbanden);
+frequentie extreem laag (0,8/week) $\rightarrow$ \textbf{prioriteit 2}.
+\item \textbf{BO-3 (Sociaal contact)} -- sterk negatief verband met S-3; eveneens laag
+(0,9/week) $\rightarrow$ \textbf{prioriteit 3}.
+\end{enumerate}
+\end{voorbeeldbox}
 
 \vspace{0.5em}
 
@@ -603,36 +739,41 @@ tot en met 5 (laagste prioriteit).
 
 \begin{center}
 \begin{tikzpicture}[node distance=0pt]
-  \node[prnode] (p1) at (0, 2.2) {P1\\Late avondschermtijd};
-  \node[prnode] (p2) at (0, 1.1) {P2\\Dagelijkse taakaccumulatie};
-  \node[prnode] (p3) at (0, 0.0) {P3\\Preslaap cognitieve offloading};
-  \node[prnode] (p4) at (0, -1.1) {P4\\Sociale participatie};
-  \node[prnode] (p5) at (0, -2.2) {P5\\Aerobe beweging};
-  \node[crnode] (cr1) at (9, 1.65) {CR-1\\Inslaapproblemen};
-  \node[crnode] (cr2) at (9, 0.55) {CR-2\\Cognitieve hyperarousal};
-  \node[crnode] (cr3) at (9, -0.55) {CR-3\\Sociale anhedonie};
-  \node[crnode] (cr4) at (9, -1.65) {CR-4\\Stressgerelateerde spierspanning};
+  \node[prnode] (p1) at (0, 2.2) {BO-1\\Late avondschermtijd};
+  \node[prnode] (p2) at (0, 1.1) {BO-2\\Dagelijkse taakaccumulatie};
+  \node[prnode] (p3) at (0, 0.0) {BO-3\\Preslaap cognitieve offloading};
+  \node[prnode] (p4) at (0,-1.1) {BO-4\\Sociale participatie};
+  \node[prnode] (p5) at (0,-2.2) {BO-5\\Aerobe beweging};
+  \node[crnode] (cr1) at (9, 1.65) {S-1\\Inslaapproblemen};
+  \node[crnode] (cr2) at (9, 0.55) {S-2\\Cognitieve hyperarousal};
+  \node[crnode] (cr3) at (9,-0.55) {S-3\\Sociale anhedonie};
+  \node[crnode] (cr4) at (9,-1.65) {S-4\\Stressgerelateerde spierspanning};
   \draw[line width=5.0pt, draw=PrimaryBlue!80, opacity=0.90] (p1.east) -- (cr1.west);
   \draw[line width=4.48pt, draw=PrimaryBlue!80, opacity=0.90] (p1.east) -- (cr2.west);
   \draw[line width=2.74pt, draw=PrimaryBlue!80, opacity=0.90] (p2.east) -- (cr2.west);
   \draw[line width=4.13pt, draw=StrongRed!85, opacity=0.90] (p3.east) -- (cr2.west);
-  \draw[line width=1.0pt, draw=StrongRed!85, opacity=0.90] (p3.east) -- (cr1.west);
+  \draw[line width=1.0pt,  draw=StrongRed!85, opacity=0.90] (p3.east) -- (cr1.west);
   \draw[line width=4.74pt, draw=StrongRed!85, opacity=0.90] (p4.east) -- (cr3.west);
   \draw[line width=2.13pt, draw=StrongRed!85, opacity=0.90] (p5.east) -- (cr1.west);
   \draw[line width=3.43pt, draw=StrongRed!85, opacity=0.90] (p5.east) -- (cr4.west);
-  % Legend (3 stacked rows)
-  \draw[line width=0.3pt, draw=black!25] (-0.3, -2.82) -- (9.3, -2.82);
-  \draw[line width=2.2pt, draw=PrimaryBlue!80, opacity=0.90] (0.1, -3.18) -- (1.2, -3.18);
-  \node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35, -3.18) {\textbf{Blauw} = positief verband \enspace (predictor \emph{vergroot} criterium)};
-  \draw[line width=2.2pt, draw=StrongRed!85, opacity=0.90] (0.1, -3.62) -- (1.2, -3.62);
-  \node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35, -3.62) {\textbf{Rood} = negatief verband \enspace (predictor \emph{verkleint} criterium)};
-  \node[font=\fontsize{5.0}{6.5}\selectfont, anchor=west, text=black!45] at (0.1, -4.05) {\textit{Lijndikte proportioneel aan $|w|$, genormaliseerd binnen netwerk (bereik 1--5\,pt).}};
+  \draw[line width=0.3pt, draw=black!25] (-0.3,-2.82) -- (9.3,-2.82);
+  \draw[line width=2.2pt, draw=PrimaryBlue!80, opacity=0.90] (0.1,-3.18) -- (1.2,-3.18);
+  \node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35,-3.18) {\textbf{Blauw} = positief verband \enspace (BO \emph{vergroot} S)};
+  \draw[line width=2.2pt, draw=StrongRed!85, opacity=0.90] (0.1,-3.62) -- (1.2,-3.62);
+  \node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35,-3.62) {\textbf{Rood} = negatief verband \enspace (BO \emph{verkleint} S)};
+  \node[font=\fontsize{5.0}{6.5}\selectfont, anchor=west, text=black!45] at (0.1,-4.05) {\textit{Lijndikte proportioneel aan $|w|$, genormaliseerd binnen netwerk (bereik 1--5\,pt).}};
 \end{tikzpicture}
 \end{center}
 
 \begin{responsebox}
-\small\textbf{Opdracht:} rangschik \textbf{alle 5 predictors} van hoogste naar laagste behandelprioriteit.
-\textbf{Beschikbare predictors:} \textbf{P1: Late avondschermtijd},\quad \textbf{P2: Dagelijkse taakaccumulatie},\quad \textbf{P3: Preslaap cognitieve offloading},\quad \textbf{P4: Sociale participatie},\quad \textbf{P5: Aerobe beweging}
+\small\textbf{Opdracht:} rangschik \textbf{alle 5 behandelingsopties} van hoogste naar laagste behandelprioriteit.
+
+\noindent\textbf{Beschikbare behandelingsopties:}\enspace
+\textbf{BO-1: Late avondschermtijd},\quad
+\textbf{BO-2: Dagelijkse taakaccumulatie},\quad
+\textbf{BO-3: Preslaap cognitieve offloading},\quad
+\textbf{BO-4: Sociale participatie},\quad
+\textbf{BO-5: Aerobe beweging}
 
 \rankbox{1}
 \rankbox{2}
@@ -655,16 +796,16 @@ tot en met 5 (laagste prioriteit).
 
 \begin{center}
 \begin{tikzpicture}[node distance=0pt]
-  \node[prnode] (p1) at (0, 2.2) {P1\\Vermijdingsgedrag};
-  \node[prnode] (p2) at (0, 1.1) {P2\\Veiligheidsgedrag};
-  \node[prnode] (p3) at (0, 0.0) {P3\\Interoceptieve focus};
-  \node[prnode] (p4) at (0, -1.1) {P4\\Geplande exposure};
-  \node[prnode] (p5) at (0, -2.2) {P5\\Dagstructuur};
-  \node[crnode] (cr1) at (9, 1.65) {CR-1\\Recidiverende paniekepisoden};
-  \node[crnode] (cr2) at (9, 0.55) {CR-2\\Anticipatieangst};
-  \node[crnode] (cr3) at (9, -0.55) {CR-3\\Situationele vermijding};
-  \node[crnode] (cr4) at (9, -1.65) {CR-4\\Beroepsmatige interferentie};
-  \draw[line width=5.0pt, draw=PrimaryBlue!80, opacity=0.90] (p1.east) -- (cr3.west);
+  \node[prnode] (p1) at (0, 2.2) {BO-1\\Vermijdingsgedrag};
+  \node[prnode] (p2) at (0, 1.1) {BO-2\\Veiligheidsgedrag};
+  \node[prnode] (p3) at (0, 0.0) {BO-3\\Interoceptieve focus};
+  \node[prnode] (p4) at (0,-1.1) {BO-4\\Geplande exposure};
+  \node[prnode] (p5) at (0,-2.2) {BO-5\\Dagstructuur};
+  \node[crnode] (cr1) at (9, 1.65) {S-1\\Recidiverende paniekepisoden};
+  \node[crnode] (cr2) at (9, 0.55) {S-2\\Anticipatieangst};
+  \node[crnode] (cr3) at (9,-0.55) {S-3\\Situationele vermijding};
+  \node[crnode] (cr4) at (9,-1.65) {S-4\\Beroepsmatige interferentie};
+  \draw[line width=5.0pt,  draw=PrimaryBlue!80, opacity=0.90] (p1.east) -- (cr3.west);
   \draw[line width=4.38pt, draw=PrimaryBlue!80, opacity=0.90] (p1.east) -- (cr2.west);
   \draw[line width=4.08pt, draw=PrimaryBlue!80, opacity=0.90] (p3.east) -- (cr2.west);
   \draw[line width=3.62pt, draw=PrimaryBlue!80, opacity=0.90] (p2.east) -- (cr2.west);
@@ -672,20 +813,25 @@ tot en met 5 (laagste prioriteit).
   \draw[line width=4.62pt, draw=StrongRed!85, opacity=0.90] (p4.east) -- (cr3.west);
   \draw[line width=3.23pt, draw=StrongRed!85, opacity=0.90] (p4.east) -- (cr2.west);
   \draw[line width=1.15pt, draw=PrimaryBlue!80, opacity=0.90] (p2.east) -- (cr1.west);
-  \draw[line width=1.0pt, draw=StrongRed!85, opacity=0.90] (p5.east) -- (cr4.west);
-  % Legend (3 stacked rows)
-  \draw[line width=0.3pt, draw=black!25] (-0.3, -2.82) -- (9.3, -2.82);
-  \draw[line width=2.2pt, draw=PrimaryBlue!80, opacity=0.90] (0.1, -3.18) -- (1.2, -3.18);
-  \node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35, -3.18) {\textbf{Blauw} = positief verband \enspace (predictor \emph{vergroot} criterium)};
-  \draw[line width=2.2pt, draw=StrongRed!85, opacity=0.90] (0.1, -3.62) -- (1.2, -3.62);
-  \node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35, -3.62) {\textbf{Rood} = negatief verband \enspace (predictor \emph{verkleint} criterium)};
-  \node[font=\fontsize{5.0}{6.5}\selectfont, anchor=west, text=black!45] at (0.1, -4.05) {\textit{Lijndikte proportioneel aan $|w|$, genormaliseerd binnen netwerk (bereik 1--5\,pt).}};
+  \draw[line width=1.0pt,  draw=StrongRed!85, opacity=0.90] (p5.east) -- (cr4.west);
+  \draw[line width=0.3pt, draw=black!25] (-0.3,-2.82) -- (9.3,-2.82);
+  \draw[line width=2.2pt, draw=PrimaryBlue!80, opacity=0.90] (0.1,-3.18) -- (1.2,-3.18);
+  \node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35,-3.18) {\textbf{Blauw} = positief verband \enspace (BO \emph{vergroot} S)};
+  \draw[line width=2.2pt, draw=StrongRed!85, opacity=0.90] (0.1,-3.62) -- (1.2,-3.62);
+  \node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35,-3.62) {\textbf{Rood} = negatief verband \enspace (BO \emph{verkleint} S)};
+  \node[font=\fontsize{5.0}{6.5}\selectfont, anchor=west, text=black!45] at (0.1,-4.05) {\textit{Lijndikte proportioneel aan $|w|$, genormaliseerd binnen netwerk (bereik 1--5\,pt).}};
 \end{tikzpicture}
 \end{center}
 
 \begin{responsebox}
-\small\textbf{Opdracht:} rangschik \textbf{alle 5 predictors} van hoogste naar laagste behandelprioriteit.
-\textbf{Beschikbare predictors:} \textbf{P1: Vermijdingsgedrag},\quad \textbf{P2: Veiligheidsgedrag},\quad \textbf{P3: Interoceptieve focus},\quad \textbf{P4: Geplande exposure},\quad \textbf{P5: Dagstructuur}
+\small\textbf{Opdracht:} rangschik \textbf{alle 5 behandelingsopties} van hoogste naar laagste behandelprioriteit.
+
+\noindent\textbf{Beschikbare behandelingsopties:}\enspace
+\textbf{BO-1: Vermijdingsgedrag},\quad
+\textbf{BO-2: Veiligheidsgedrag},\quad
+\textbf{BO-3: Interoceptieve focus},\quad
+\textbf{BO-4: Geplande exposure},\quad
+\textbf{BO-5: Dagstructuur}
 
 \rankbox{1}
 \rankbox{2}
@@ -698,7 +844,8 @@ tot en met 5 (laagste prioriteit).
 \newpage
 
 
-\section{Deel 4: Verfijnd observatiemodel -- selectie van sub-predictoren}
+% ══════════════════════════════════════════════════════════════════════════════
+\section{Deel 4: Verfijnd observatiemodel -- selectie van sub-behandelingsopties}
 
 \begin{tcolorbox}[colback=purple!4,colframe=RichPurple,arc=2.5mm,boxrule=0.9pt,
   left=10pt,right=10pt,top=9pt,bottom=9pt]
@@ -706,33 +853,64 @@ tot en met 5 (laagste prioriteit).
 
 \smallskip\small
 \textbf{Opdracht:} selecteer per casus \textbf{exact 6 EMA-items}:
-\textbf{2 sub-predictoren per behandeldoel} (3 behandeldoelen $\times$ 2 = 6 items).
+\textbf{2 sub-behandelingsopties per behandeldoel} (3 behandeldoelen $\times$ 2 = 6 items).
 
-\textbf{Wat zijn sub-predictoren?}
-Een behandeldoel uit Deel 3 (bijv.\ ``geplande exposure'') is een conceptueel label.
-In de volgende EMA-cyclus moet dit label vertaald worden naar \emph{concrete, dagelijks
-meetbare gedragsitems} -- de \textbf{sub-predictoren}. Elke sub-predictor is een
-specifieke operationalisering van het behandeldoel als dagelijkse EMA-vraag.
+\textbf{Wat zijn sub-behandelingsopties?}
+De gestandaardiseerde behandeldoelen in dit deel zijn \emph{abstracte domeinen}
+(bijv.\ ``slaap en avondherstel'' of ``lichamelijke activiteit'').
+Om dit domein dagelijks via EMA te monitoren, moet het vertaald worden naar
+\emph{concrete, specifieke gedragsitems} -- de \textbf{sub-behandelingsopties}.
 
-\textbf{Voorbeeld:} behandeldoel = \textit{avondschermtijd}
-$\rightarrow$ sub-predictor 1: ``smartphone-gebruik na 22.00 uur (min)''
-$\rightarrow$ sub-predictor 2: ``schermvrij interval voor slapengaan (min)''
-
-\textbf{Belangrijk: alle 20 items in de lijst zijn predictor-type EMA-items}
-(modificeerbare gedragingen en strategieën -- \emph{geen} symptomen of
-klachtdimensies). Uw taak is te selecteren welke 6 items het best aansluiten bij
-de 3 gestandaardiseerde behandeldoelen, 2 per doel.
-
-\textbf{Selectieprincipe:}
+\textbf{Hoe werkt de abstracte-naar-concrete vertaling?}
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item Kies per behandeldoel de 2 items die dat doel het meest direct en precies meten.
-\item Verkies items die samen een compleet beeld geven van het behandeldoel
-(bijv.\ frequentie \emph{en} duur, of twee complementaire gedragingen).
-\item Vermijd items die het behandeldoel slechts zijdelings raken.
+\item Een abstract behandeldoel beschrijft een \emph{gedragsdomein} (bijv.\ slaap, beweging, sociaal contact).
+\item Een sub-behandelingsoptie is een \emph{specifiek, dagelijks meetbaar gedragsitem} dat dat domein het directst operationaliseert (bijv.\ ``schermvrij interval voor slapengaan (min)'' als sub-optie van ``slaap en avondherstel'').
+\item Selecteer per behandeldoel de 2 items die het domein het \emph{meest direct en precies} meten.
+\item Vermijd items die het domein slechts \emph{zijdelings} raken -- zelfs als ze op het eerste zicht verwant lijken.
 \end{itemize}
 
+\textbf{Belangrijk:} alle 20 items in de lijst zijn behandelingsoptie-type EMA-items
+(modificeerbare gedragingen en strategieen -- \emph{geen} symptomen).
+Uw taak is te selecteren welke 6 items het best aansluiten bij de 3 gestandaardiseerde
+behandeldoelen, 2 per doel.
+
 \textbf{Antwoordformat:} vink \textbf{exact 6} items aan. Geen toelichting vereist.
+
+\medskip
+\textit{\textbf{Zie het uitgewerkte voorbeeld hieronder} voor een concrete illustratie van de selectielogica.}
 \end{tcolorbox}
+
+\vspace{0.5em}
+\nopagebreak[4]
+
+% ── VOORBEELD DEEL 4 ─────────────────────────────────────────────────────────
+\begin{voorbeeldbox}{Deel 4: Verfijnd observatiemodel}
+\small
+\textbf{Gestandaardiseerde behandeldoelen (abstract, voorbeeld):}
+\begin{enumerate}[topsep=2pt,itemsep=1pt,label=\arabic*.]
+\item Slaap en avondontspanning
+\item Lichamelijke activiteit
+\item Sociaal contact
+\end{enumerate}
+
+\textbf{Selectielogica -- hoe kiest u de 2 beste items per doel?}
+
+Stel: doel 1 = \textit{Slaap en avondontspanning}. U ziet de volgende opties in de lijst:
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \checkmark\ ``Schermvrij interval direct voor slapengaan (min)'' $\rightarrow$ \textbf{juist} (operationaliseert het domein direct)
+\item \checkmark\ ``Vaste bedtijd aangehouden (ja/nee)'' $\rightarrow$ \textbf{juist} (complementaire meting: regelmaat)
+\item $\times$\ ``Cafeïne-inname na 15.00 uur (aantal)'' $\rightarrow$ \textbf{niet juist} (raakt slaap zijdelings, geen directe operationalisering van avondontspanning)
+\item $\times$\ ``Maaltijd op vaste tijden genuttigd (ja/nee)'' $\rightarrow$ \textbf{niet juist} (eetgedrag, niet het slaap-/ontspanningsdomein)
+\end{itemize}
+
+\medskip
+Correct ingevuld (6 items totaal voor de 3 doelen):
+\begin{itemize}[topsep=1pt,itemsep=0pt]
+\item Doel 1 $\rightarrow$ ``Schermvrij interval voor slapengaan (min)'' + ``Vaste bedtijd aangehouden (ja/nee)''
+\item Doel 2 $\rightarrow$ ``Duur actieve beweging vandaag (min)'' + ``Beweegactiviteit uitgevoerd (ja/nee)''
+\item Doel 3 $\rightarrow$ ``Bewust sociaal contact gezocht vandaag (ja/nee)'' + ``Sociale activiteit bijgewoond of gepland (ja/nee)''
+\end{itemize}
+\end{voorbeeldbox}
 
 \vspace{0.5em}
 
@@ -740,38 +918,38 @@ de 3 gestandaardiseerde behandeldoelen, 2 per doel.
 \subsection*{Casus 1: 28-jarige softwareontwikkelaar -- Deel 4}
 
 \begin{contextbox}
-\small\textbf{Gestandaardiseerde behandeldoelen uit Deel 3:}
+\small\textbf{Gestandaardiseerde behandeldoelen (abstract) voor Deel 4:}
 \begin{enumerate}[topsep=2pt,itemsep=1pt,label=\arabic*.]
-\item \textbf{Schermtijd na 22.00 uur}\quad\textit{\small (hoogste impact op CR-1 en CR-2; monitoring toont consequent laat gebruik (16/21 avonden))}
-\item \textbf{Preslaap cognitieve offloading}\quad\textit{\small (nauwelijks ingezet ondanks duidelijke taakaccumulatie; rechtstreeks relevant voor CR-2)}
-\item \textbf{Aerobe beweging}\quad\textit{\small (zeer lage frequentie (0,7 sessies/week); potentieel effect op CR-1 en CR-4)}
+\item \textbf{Slaap en avondherstel}\quad\textit{\small (domein: schermgebruik en inslaaproutine; hoogste netwerkimpact op S-1 en S-2)}
+\item \textbf{Cognitieve ontlading}\quad\textit{\small (domein: het mentaal loslaten van taken en zorgen voor het slapengaan; nauwelijks ingezet)}
+\item \textbf{Lichamelijke activiteit}\quad\textit{\small (domein: aerobe en matige beweging; zeer lage frequentie (0,7 sessies/week))}
 \end{enumerate}
 \end{contextbox}
 
 \begin{responsebox}
-\small\textbf{Opdracht:} selecteer \textbf{exact 6} EMA-items (2 per behandeldoel) die het best passen als volgende subpredictoren.
-\textit{Alle antwoordopties zijn dagelijkse mobiele EMA-items.}
+\small\textbf{Opdracht:} selecteer \textbf{exact 6} EMA-items (2 per behandeldoel) die het best aansluiten als sub-behandelingsopties.
+\textit{Alle 20 items zijn dagelijkse mobiele EMA-items (behandelingsoptie-type, geen symptomen).}
 
-\checkitemBFS{1}{Cafeine-inname na 16.00 uur (aantal)}
-\checkitemBFS{2}{Smartphone- of tabletgebruik na 22.00 uur (min)}
-\checkitemBFS{3}{Consistent slaaptijdstip aangehouden (ja/nee)}
-\checkitemBFS{4}{Korte stretching of ademhalingsoefening in avond uitgevoerd (min)}
-\checkitemBFS{5}{Schermvrij interval direct voor slapengaan (min)}
-\checkitemBFS{6}{Werkuren vandaag (uren)}
-\checkitemBFS{7}{Ochtendlichtblootstelling of buitengaan in de ochtend (min)}
-\checkitemBFS{8}{Openstaande taken schriftelijk genoteerd voor het slapengaan (ja/nee)}
+\checkitemBFS{1}{Schermvrij interval direct voor slapengaan (min)}
+\checkitemBFS{2}{Cafeine-inname na 15.00 uur (aantal dranken)}
+\checkitemBFS{3}{Vast slaap- en waktijdstip aangehouden vandaag (ja/nee)}
+\checkitemBFS{4}{Openstaande taken of zorgen schriftelijk genoteerd voor slapengaan (ja/nee)}
+\checkitemBFS{5}{Bewust sociaal contact gezocht of beantwoord vandaag (ja/nee)}
+\checkitemBFS{6}{Duur matige tot intensieve lichaamsbeweging vandaag (min)}
+\checkitemBFS{7}{Ochtendlichtblootstelling buiten in de ochtend (min)}
+\checkitemBFS{8}{Tijdsduur bewust piekeren of takennotitie voor slapengaan (min)}
 \checkitemBFS{9}{Alcoholinname vanavond (eenheden)}
-\checkitemBFS{10}{Bewust sociaal contact opgezocht of beantwoord vandaag (ja/nee)}
-\checkitemBFS{11}{Tijdsduur preslaap-dagboek of takennotitie (min)}
+\checkitemBFS{10}{Geplande beweegactiviteit uitgevoerd vandaag (ja/nee)}
+\checkitemBFS{11}{Werkuren vandaag (uren)}
 \checkitemBFS{12}{Waterinname vandaag (glazen)}
-\checkitemBFS{13}{Schermvrije pauze tijdens werkdag genomen (min)}
-\checkitemBFS{14}{Stappentelling overdag (stappen)}
-\checkitemBFS{15}{Geplande sociale activiteit bijgewoond of geïnitieerd (ja/nee)}
-\checkitemBFS{16}{Middagdutje genomen (ja/nee)}
-\checkitemBFS{17}{Duur matige tot intensieve lichaamsbeweging vandaag (min)}
-\checkitemBFS{18}{Ontspanningsoefening gericht op spierspanning uitgevoerd (min)}
-\checkitemBFS{19}{Vast slaapritueel gevolgd voor het slapengaan (ja/nee)}
-\checkitemBFS{20}{Avondmaaltijd op vaste tijd genuttigd (ja/nee)}
+\checkitemBFS{13}{Middagdutje genomen (ja/nee)}
+\checkitemBFS{14}{Geplande sociale activiteit bijgewoond of geinitieerd (ja/nee)}
+\checkitemBFS{15}{Bewuste ontspanningsoefening of ademhaling in avond uitgevoerd (min)}
+\checkitemBFS{16}{Maaltijd op vaste tijden genuttigd (ja/nee)}
+\checkitemBFS{17}{Stappentelling overdag (stappen)}
+\checkitemBFS{18}{Werkgerelateerde taken afgesloten en bewust losgekoppeld na werktijd (ja/nee)}
+\checkitemBFS{19}{Schermvrije werkpauze genomen tijdens werkdag (min)}
+\checkitemBFS{20}{Professioneel herstelmoment (hobby, buiten, creatief) uitgevoerd in avond (min)}
 \vspace{0.4em}
 \noindent\textbf{Totaal geselecteerd:}\hspace{0.5em}\rule{1.2cm}{0.25pt}\hspace{0.2em}/ 6
 \end{responsebox}
@@ -781,37 +959,37 @@ de 3 gestandaardiseerde behandeldoelen, 2 per doel.
 \subsection*{Casus 2: 34-jarige administratief medewerker in de zorg -- Deel 4}
 
 \begin{contextbox}
-\small\textbf{Gestandaardiseerde behandeldoelen uit Deel 3:}
+\small\textbf{Gestandaardiseerde behandeldoelen (abstract) voor Deel 4:}
 \begin{enumerate}[topsep=2pt,itemsep=1pt,label=\arabic*.]
-\item \textbf{Geplande exposure}\quad\textit{\small (nagenoeg afwezig in de monitoring (0,3/dag); rechtstreeks aangrijpingspunt voor vermijdingsreductie)}
-\item \textbf{Veiligheidsgedrag}\quad\textit{\small (hoge frequentie (8,7/dag) onderhoudt anticipatieangst en paniekverwachting)}
-\item \textbf{Interoceptieve focus}\quad\textit{\small (verhoogde aandacht voor lichamelijke sensaties voedt escalatie van CR-1 en CR-2)}
+\item \textbf{Exposure en gedragsexperiment}\quad\textit{\small (domein: het bewust opzoeken van gevreesde situaties; nagenoeg afwezig (0,3/dag))}
+\item \textbf{Vermindering van veiligheids- en vermijdingsgedrag}\quad\textit{\small (domein: bewust nalaten van angstverminderende maar angstonderhoudende acties; hoge frequentie (8,7/dag))}
+\item \textbf{Interoceptieve aandachtsturing}\quad\textit{\small (domein: bewuste omgang met lichamelijke sensaties zonder vluchtreactie; voedt paniekcyclus)}
 \end{enumerate}
 \end{contextbox}
 
 \begin{responsebox}
-\small\textbf{Opdracht:} selecteer \textbf{exact 6} EMA-items (2 per behandeldoel) die het best passen als volgende subpredictoren.
-\textit{Alle antwoordopties zijn dagelijkse mobiele EMA-items.}
+\small\textbf{Opdracht:} selecteer \textbf{exact 6} EMA-items (2 per behandeldoel) die het best aansluiten als sub-behandelingsopties.
+\textit{Alle 20 items zijn dagelijkse mobiele EMA-items (behandelingsoptie-type, geen symptomen).}
 
-\checkitemBFS{1}{Geplande exposurestap bewust en volledig uitgevoerd vandaag (ja/nee)}
+\checkitemBFS{1}{Exposurestap bewust en volledig uitgevoerd vandaag (ja/nee)}
 \checkitemBFS{2}{Cafeine-inname voor 12.00 uur (aantal)}
 \checkitemBFS{3}{Consistent slaap- en waktijdstip aangehouden (ja/nee)}
 \checkitemBFS{4}{Duur verblijf in eerder vermeden of angststimulerende situatie (min)}
-\checkitemBFS{5}{Bewuste ontspanningsoefening of ademhaling bij spanning toegepast (min)}
-\checkitemBFS{6}{Sociale activiteit of contact bewust opgezocht vandaag (ja/nee)}
-\checkitemBFS{7}{Veiligheidsactie bewust nagelaten bij angstsituatie (ja/nee)}
-\checkitemBFS{8}{Werkstructuur of dagindeling bewust gevolgd vandaag (ja/nee)}
+\checkitemBFS{5}{Bewuste ontspanningsoefening of ademhaling bij spanning (min)}
+\checkitemBFS{6}{Sociale activiteit bewust opgezocht vandaag (ja/nee)}
+\checkitemBFS{7}{Veiligheidsgedraging bewust nagelaten bij angstsituatie (ja/nee)}
+\checkitemBFS{8}{Werkstructuur of dagindeling bewust gevolgd (ja/nee)}
 \checkitemBFS{9}{Plezierige activiteit buiten werk gepland en uitgevoerd (ja/nee)}
-\checkitemBFS{10}{Aantal veiligheidsgedragingen bewust uitgesteld of vermeden vandaag (aantal)}
+\checkitemBFS{10}{Aantal veiligheidsgedragingen bewust vermeden of uitgesteld (aantal)}
 \checkitemBFS{11}{Waterinname vandaag (glazen)}
 \checkitemBFS{12}{Lichaamsbeweging of wandeling buiten uitgevoerd (min)}
-\checkitemBFS{13}{Interoceptieve exposureoefening bewust uitgevoerd (min)}
+\checkitemBFS{13}{Interoceptieve oefening bewust uitgevoerd (min)}
 \checkitemBFS{14}{Middagdutje genomen (ja/nee)}
 \checkitemBFS{15}{Maaltijd op vaste tijden genuttigd (ja/nee)}
 \checkitemBFS{16}{Middagpauze bewust weggestapt van werkplek of drukke omgeving (ja/nee)}
 \checkitemBFS{17}{Lichamelijke sensaties benoemd zonder vlucht- of veiligheidsreactie (ja/nee)}
 \checkitemBFS{18}{Stappentelling overdag (stappen)}
-\checkitemBFS{19}{Sociale steun of gezelschap bewust opgezocht vandaag (ja/nee)}
+\checkitemBFS{19}{Bewust sociaal contact of gezelschap opgezocht vandaag (ja/nee)}
 \checkitemBFS{20}{Alcoholinname vanavond (eenheden)}
 \vspace{0.4em}
 \noindent\textbf{Totaal geselecteerd:}\hspace{0.5em}\rule{1.2cm}{0.25pt}\hspace{0.2em}/ 6
@@ -821,6 +999,7 @@ de 3 gestandaardiseerde behandeldoelen, 2 per doel.
 \newpage
 
 
+% ══════════════════════════════════════════════════════════════════════════════
 \section{Deel 5: Gepersonaliseerde mobiele coachingsboodschap (HAPA-kader)}
 
 \begin{tcolorbox}[colback=red!3,colframe=ForestGreen,arc=2.5mm,boxrule=0.9pt,
@@ -854,19 +1033,31 @@ bevat een concrete, eerstvolgende actie.
 \item \textbf{Perspectief:} tweede persoon (``jij'' of formeel ``u'').
 \end{itemize}
 
-\textbf{Werkvoorbeeld} (niet gerelateerd aan een studiecasus):
-\begin{tcolorbox}[colback=SoftBG,colframe=BorderGrey,boxrule=0.4pt,arc=1.5mm,
-  left=7pt,right=7pt,top=5pt,bottom=5pt]
+\medskip
+\textit{\textbf{Zie het uitgewerkte voorbeeld hieronder} voor een volledige illustratie.}
+\end{tcolorbox}
+
+\vspace{0.5em}
+\nopagebreak[4]
+
+% ── VOORBEELD DEEL 5 ─────────────────────────────────────────────────────────
+\begin{voorbeeldbox}{Deel 5: Mobiele coachingsboodschap}
 \small
-\textbf{Context:} verpleegkundige; behandeldoel = korte beweegmomenten inbouwen;
-barriere = vermoeidheid na de shift (lage zelfeffectiviteit); fase = intentioneel.\\[0.3em]
-\textbf{Voorbeeldboodschap:}\\
-\textit{``Na een zware shift voelt rust nemen logisch, maar net dat eerste kleine
-beweegmoment kan je avond helpen ontladen. Trek vanavond meteen na thuiskomst je
-schoenen aan en wandel 10 minuten buiten -- niet meer dan dat ene blokje. Zo maak
-je de stap haalbaar en vergroot je de kans dat je lichaam later echt kan afschakelen.''}
-\end{tcolorbox}
-\end{tcolorbox}
+\textbf{Context (voorbeeld):}
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item Primair behandeldoel: avondschermgebruik verminderen
+\item Voornaamste barriere: gewoontekracht -- schermgebruik is de enige manier om na het werk te ontspannen (lage zelfeffectiviteit)
+\item HAPA-fase: intentioneel (wil veranderen, maar heeft nog geen concreet plan)
+\end{itemize}
+
+\medskip
+\textbf{Voorbeeldboodschap:}\\[0.2em]
+\textit{``Je weet dat je avondscherm je slaap in de weg staat, maar het voelt nog als de makkelijkste manier om te ontspannen na een drukke dag. Leg vanavond je telefoon om 21.30 uur in een andere kamer en vul die laatste twintig minuten met iets anders -- een boek, muziek, of gewoon even niets. Eén avond is genoeg om te merken dat het kan.''}
+
+\medskip\small
+\textbf{Waarom werkt deze boodschap?}
+De boodschap erkent de barriere (gewoontekracht), geeft een concrete actie met tijdstip (21.30u), verlaagt de drempel (``gewoon even niets'') en vergroot de zelfeffectiviteit (``eén avond is genoeg'').
+\end{voorbeeldbox}
 
 \vspace{0.5em}
 
@@ -900,7 +1091,7 @@ Copingstrategie & Implementatie-intentie met substitutie: vervang de laatste 30 
 Primair probleem & Paniekangst leidt tot toenemende vermijding en duidelijke hinder in het dagelijks functioneren. \\[0.15em]
 Behandeldoel & Geplande exposure aan gevreesde situaties in een hanteerbare, stapsgewijze opbouw. \\[0.15em]
 Voornaamste barriere & Sterke negatieve uitkomstverwachting: de persoon verwacht dat betreden van de situatie onvermijdelijk tot een onbeheersbare paniekreactie zal leiden. \\[0.15em]
-Copingstrategie & Werk met een concrete exposurehiërarchie en een vooraf afgesproken copingzin per stap. \\
+Copingstrategie & Werk met een concrete exposurehierarchie en een vooraf afgesproken copingzin per stap. \\
 \end{tabular}
 \end{contextbox}
 
@@ -915,6 +1106,7 @@ Copingstrategie & Werk met een concrete exposurehiërarchie en een vooraf afgesp
 \newpage
 
 
+% ══════════════════════════════════════════════════════════════════════════════
 \section{Afronding en terugbezorging}
 
 Dank u voor het invullen van alle vijf delen voor uw twee toegewezen casussen
@@ -922,9 +1114,9 @@ Dank u voor het invullen van alle vijf delen voor uw twee toegewezen casussen
 
 \begin{instrbox}[title=Checklist voor terugbezorging]
 \begin{itemize}
-\item[$\square$] Ik heb in Deel 1 voor beide casussen criteriumlabels ingevuld.
-\item[$\square$] Ik heb in Deel 2 voor beide casussen predictorlabels ingevuld.
-\item[$\square$] Ik heb in Deel 3 voor beide casussen alle 5 predictors gerangschikt.
+\item[$\square$] Ik heb in Deel 1 voor beide casussen symptoomlabels ingevuld.
+\item[$\square$] Ik heb in Deel 2 voor beide casussen behandelingsoptielabels ingevuld.
+\item[$\square$] Ik heb in Deel 3 voor beide casussen alle 5 behandelingsopties gerangschikt.
 \item[$\square$] Ik heb in Deel 4 voor beide casussen exact 6 EMA-items geselecteerd.
 \item[$\square$] Ik heb in Deel 5 voor beide casussen een mobiele coachingsboodschap geschreven.
 \item[$\square$] Mijn antwoorden weerspiegelen mijn eigen klinische oordeel zonder gebruik van generatieve AI of andere externe hulp.
