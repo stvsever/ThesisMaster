@@ -95,12 +95,12 @@
   fonttitle=\small\bfseries\color{GoldAmber},
   title=Uw antwoord
 }
-\newtcolorbox{voorbeeldbox}[2][]{
+\newtcolorbox{voorbeeldbox}[3][]{
   colback=AccentOrange,colframe=GoldAmber,
   boxrule=0.8pt,arc=2.5mm,breakable,
   left=10pt,right=10pt,top=9pt,bottom=9pt,
   fonttitle=\small\bfseries\color{GoldAmber},
-  title={Uitgewerkt voorbeeld -- #2 -- Nadia (38-jarige verpleegkundige)},#1
+  title={Uitgewerkt voorbeeld -- #2 -- Nadia (38-jarige verpleegkundige)\\[1pt]{\normalfont\small\itshape\color{GoldAmber!80!black}#3}},#1
 }
 
 \tikzset{
@@ -136,7 +136,7 @@
 \vspace{0.25em}\noindent
 \begin{tcolorbox}[colback=SoftBG,colframe=BorderGrey,boxrule=0.4pt,arc=1.5mm,left=8pt,right=8pt,top=5pt,bottom=5pt]%
 \small\textbf{\color{SlateMid}Symptoom #1}\hspace{1em}%
-\textbf{Label (2--5 woorden):}\hspace{0.5em}\rule{0.50\linewidth}{0.25pt}%
+\textbf{Label:}\hspace{0.5em}\rule{0.56\linewidth}{0.25pt}%
 \end{tcolorbox}%
 }
 
@@ -144,7 +144,7 @@
 \vspace{0.25em}\noindent
 \begin{tcolorbox}[colback=SoftBG,colframe=BorderGrey,boxrule=0.4pt,arc=1.5mm,left=8pt,right=8pt,top=5pt,bottom=5pt]%
 \small\textbf{\color{SlateMid}Behandelingsoptie #1}\hspace{1em}%
-\textbf{Label (2--6 woorden):}\hspace{0.5em}\rule{0.50\linewidth}{0.25pt}%
+\textbf{Label:}\hspace{0.5em}\rule{0.56\linewidth}{0.25pt}%
 \end{tcolorbox}%
 }
 
@@ -283,7 +283,7 @@ een vrije klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen
 die de kern vormen van een gepersonaliseerde, longitudinale digitale interventie.
 
 Het theoretische kader van PHOENIX steunt op het \textbf{netwerk-analytisch model
-van psychopathologie} (Borsboom \& Cramer, 2013): psychische klachten worden niet
+van psychopathologie}: psychische klachten worden niet
 als uitingen van een latente stoornis beschouwd, maar als een \emph{dynamisch
 netwerk van onderling samenhangende klachtcomponenten}. Een sleutelbegrip daarbinnen
 is het onderscheid tussen \textbf{symptomen} (klacht- en toestandsdimensies die
@@ -433,7 +433,7 @@ Noteer per casus \textbf{2--6 symptomen}. Laat ongebruikte velden leeg.
 \nopagebreak[4]
 
 % ── VOORBEELD DEEL 1 ─────────────────────────────────────────────────────────
-\begin{voorbeeldbox}{Deel 1: Operationalisering}
+\begin{voorbeeldbox}{Deel 1: Operationalisering}{Hoe formuleert u een correct symptoomlabel?}
 \small
 \textbf{Klacht (verkorte versie):} \textit{``De afgelopen vijf maanden slaap ik slecht:
 ik lig lang wakker en word vroeg wakker. Overdag ben ik moe en prikkelbaar. Ik beweeg
@@ -549,7 +549,7 @@ Laat ongebruikte velden leeg.
 \nopagebreak[4]
 
 % ── VOORBEELD DEEL 2 ─────────────────────────────────────────────────────────
-\begin{voorbeeldbox}{Deel 2: Initieel observatiemodel}
+\begin{voorbeeldbox}{Deel 2: Initieel observatiemodel}{Hoe genereert u behandelingsoptielabels?}
 \small
 \textbf{Gestandaardiseerde symptomen uit Deel 1 (voorbeeld):}
 S-1: Inslaap- en doorslaapmoeilijkheden;\enspace S-2: Vermoeidheid en prikkelbaarheid;\enspace S-3: Sociale terugtrekking.
@@ -649,16 +649,9 @@ Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaa
 
 \textbf{Wat is een behandeldoel?}
 Een behandeldoel is de behandelingsoptie die, als zij veranderd wordt, naar verwachting de
-sterkste vermindering van de symptomen oplevert. U selecteert op basis van drie criteria:
-\begin{enumerate}[topsep=2pt,itemsep=1pt,label=\alph*)]
-\item \textbf{Bewijs uit monitoring:} is er in de monitoringdata aanleiding dat deze
-behandelingsoptie actief bijdraagt aan de klacht (bijv.\ hoge frequentie van problematisch
-gedrag, of bijna afwezigheid van gewenst gedrag)?
-\item \textbf{Klinische modificeerbaarheid:} is de behandelingsoptie realistisch veranderbaar
-voor deze persoon, gegeven profiel en context?
-\item \textbf{Netwerkimpact:} beinvloedt de behandelingsoptie meerdere symptomen tegelijk
-(hogere return-on-intervention)?
-\end{enumerate}
+sterkste vermindering van de symptomen oplevert. Prioriteer op basis van monitoringbewijs
+(frequentie en ernst van het gedragspatroon), klinische modificeerbaarheid
+(haalbaarheid voor deze persoon) en netwerkimpact (invloed op meerdere symptomen).
 
 \textbf{Het bipartiet netwerk lezen:}
 \begin{itemize}[topsep=2pt,itemsep=1pt]
@@ -682,7 +675,7 @@ tot en met 5 (laagste prioriteit).
 \nopagebreak[4]
 
 % ── VOORBEELD DEEL 3 ─────────────────────────────────────────────────────────
-\begin{voorbeeldbox}{Deel 3: Behandeldoelprioritering}
+\begin{voorbeeldbox}{Deel 3: Behandeldoelprioritering}{Hoe leest u het netwerk en rangschikt u de behandelingsopties?}
 \small
 \textbf{Monitoring (voorbeeld):} Schermtijd voor slapengaan: 18/21 avonden actief
 (gem.\ 65 min). Lichaamsbeweging: 0,8 sessies/week. Sociaal contact op eigen initiatief:
@@ -860,14 +853,14 @@ frequentie extreem laag (0,8/week) $\rightarrow$ \textbf{prioriteit 2}.
 
 \textbf{Wat zijn sub-behandelingsopties?}
 De gestandaardiseerde behandeldoelen in dit deel zijn \emph{abstracte domeinen}
-(bijv.\ ``emotieregulatietechnieken'' of ``mentale werkontkoppeling'').
+(bijv.\ ``Slaapkwaliteit'' of ``Voedingskwaliteit'').
 Om dit domein dagelijks via EMA te monitoren, moet het vertaald worden naar
 \emph{concrete, specifieke gedragsitems} -- de \textbf{sub-behandelingsopties}.
 
 \textbf{Hoe werkt de abstracte-naar-concrete vertaling?}
 \begin{itemize}[topsep=2pt,itemsep=1pt]
-\item Een abstract behandeldoel beschrijft een \emph{gedragsdomein} (bijv.\ emotieregulatie, impulsuitstel, werkontkoppeling).
-\item Een sub-behandelingsoptie is een \emph{specifiek, dagelijks meetbaar gedragsitem} dat dat domein het directst operationaliseert (bijv.\ ``emotieregulatietechniek ingezet (ja/nee)'' als sub-optie van ``emotieregulatietechnieken'').
+\item Een abstract behandeldoel beschrijft een \emph{gedragsdomein} (bijv.\ Slaapkwaliteit, Voedingskwaliteit).
+\item Een sub-behandelingsoptie is de \emph{concrete gedragsoperationalisering} van dat domein: een specifiek, dagelijks meetbaar item dat het domein direct meet (bijv.\ ``schermvrij interval voor slapengaan (min)'' als sub-optie van ``Slaapkwaliteit'', of ``gezonde maaltijd genuttigd (ja/nee)'' als sub-optie van ``Voedingskwaliteit'').
 \item Selecteer per behandeldoel de 2 items die het domein het \emph{meest direct en precies} meten.
 \item Vermijd items die het domein slechts \emph{zijdelings} raken -- zelfs als ze op het eerste zicht verwant lijken.
 \end{itemize}
@@ -887,23 +880,23 @@ behandeldoelen, 2 per doel.
 \nopagebreak[4]
 
 % ── VOORBEELD DEEL 4 ─────────────────────────────────────────────────────────
-\begin{voorbeeldbox}{Deel 4: Verfijnd observatiemodel}
+\begin{voorbeeldbox}{Deel 4: Verfijnd observatiemodel}{Hoe selecteert u de meest passende EMA-items per behandeldoel?}
 \small
 \textbf{Gestandaardiseerde behandeldoelen (abstract, voorbeeld):}
 \begin{enumerate}[topsep=2pt,itemsep=1pt,label=\arabic*.]
-\item Slaap en avondontspanning
+\item Slaapkwaliteit
 \item Lichamelijke activiteit
 \item Sociaal contact
 \end{enumerate}
 
 \textbf{Selectielogica -- hoe kiest u de 2 beste items per doel?}
 
-Stel: doel 1 = \textit{Slaap en avondontspanning}. U ziet de volgende opties in de lijst:
+Stel: doel 1 = \textit{Slaapkwaliteit}. U ziet de volgende opties in de lijst:
 \begin{itemize}[topsep=2pt,itemsep=1pt]
 \item \checkmark\ ``Schermvrij interval direct voor slapengaan (min)'' $\rightarrow$ \textbf{juist} (operationaliseert het domein direct)
 \item \checkmark\ ``Vaste bedtijd aangehouden (ja/nee)'' $\rightarrow$ \textbf{juist} (complementaire meting: regelmaat)
-\item $\times$\ ``Cafeine-inname na 15.00 uur (aantal)'' $\rightarrow$ \textbf{niet juist} (raakt slaap zijdelings, geen directe operationalisering van avondontspanning)
-\item $\times$\ ``Maaltijd op vaste tijden genuttigd (ja/nee)'' $\rightarrow$ \textbf{niet juist} (eetgedrag, niet het slaap-/ontspanningsdomein)
+\item $\times$\ ``Cafeine-inname na 15.00 uur (aantal)'' $\rightarrow$ \textbf{niet juist} (raakt slaap slechts zijdelings, hoort niet bij Slaapkwaliteit)
+\item $\times$\ ``Maaltijd op vaste tijden genuttigd (ja/nee)'' $\rightarrow$ \textbf{niet juist} (hoort bij Voedingskwaliteit, niet bij Slaapkwaliteit)
 \end{itemize}
 
 \medskip
@@ -1044,7 +1037,7 @@ bevat een concrete, eerstvolgende actie.
 \nopagebreak[4]
 
 % ── VOORBEELD DEEL 5 ─────────────────────────────────────────────────────────
-\begin{voorbeeldbox}{Deel 5: Mobiele coachingsboodschap}
+\begin{voorbeeldbox}{Deel 5: Mobiele coachingsboodschap}{Hoe formuleert u een effectieve coachingsboodschap?}
 \small
 \textbf{Context (voorbeeld):}
 \begin{itemize}[topsep=2pt,itemsep=1pt]
