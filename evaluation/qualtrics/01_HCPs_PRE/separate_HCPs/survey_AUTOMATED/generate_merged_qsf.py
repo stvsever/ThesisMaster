@@ -457,9 +457,16 @@ def build_merged_survey(cases: list[CaseSurvey], example_b64: str) -> dict:
     )
     q.page_break()
 
-    # ── Per-case blocks (10 cases × 7 blocks each = 70 blocks) ───────────────
+    # ── Shared D3 instructies & voorbeeld (rendered once, not 10×) ────────────
+    q.block("Deel 3 — Instructies & Voorbeeld")
+    q.db(page_d3_instr(), tag="D3_INSTR_SHARED")
+    q.page_break()
+    q.db(page_d3_example(example_b64), tag="D3_VOORBEELD_SHARED")
+    q.page_break()
+
+    # ── Per-case blocks (10 cases × 6 blocks each = 60 blocks) ───────────────
     for case in cases:
-        case_b64 = network_to_b64(case.network)
+        case_b64 = network_to_b64(case.network, dpi=96)
         cc = case.case_code
         q.start_case(cc)
 
@@ -499,10 +506,6 @@ def build_merged_survey(cases: list[CaseSurvey], example_b64: str) -> dict:
 
         # ── Deel 3 ────────────────────────────────────────────────────────────
         q.block(f"Deel 3 — {cc}")
-        q.db(page_d3_instr(), tag=f"{cc}_D3_INSTR")
-        q.page_break()
-        q.db(page_d3_example(example_b64), tag=f"{cc}_D3_VOORBEELD")
-        q.page_break()
         q.db(page_d3_case(case, case_b64), tag=f"{cc}_D3_CASUS")
         q.rank_order(
             p(b(f"Uw antwoord — Deel 3 ({cc})") + "<br>"
@@ -588,7 +591,7 @@ def main() -> None:
     example_network = parse_network(example_tikz, "Behandelingsopties", "Symptomen",
                                     "shared_example")
     print("Rendering shared example network figure ...")
-    example_b64 = network_to_b64(example_network)
+    example_b64 = network_to_b64(example_network, dpi=96)
 
     print(f"\nParsing {len(HCP_DIRS)} case LaTeX files ...")
     cases: list[CaseSurvey] = []
@@ -618,13 +621,15 @@ def main() -> None:
     print("  [Shared] Toestemming  (consent + branch-to-end if refused)")
     print("  [Shared] Instructiepagina  (2 pages)")
     print("  [Shared] Intake  (background essay + AI Likert + network Likert)")
+    print("  [Shared] Deel 3 — Instructies & Voorbeeld  (network example, shown once)")
     print("  [RandomizationV2  EvenPresentation=true  SubSet=1]")
     for case in cases:
         print(f"    Group {case.case_code}:  EmbeddedData CaseAssigned={case.case_code}"
-              f"  +  7 blocks  (Titel, Deel 1–6)")
+              f"  +  6 blocks  (Titel, Deel 1–6)")
     print("  [Shared] Afronding")
     print()
-    print("No ForceResponse on any question. No min/max validation on Deel 4.")
+    print("ForceResponse=ON on all interactive questions (MC, matrix, RO, essay).")
+    print("TE/FORM (symptom/treatment labels) intentionally not forced (variable fields).")
     print("All data (text, matrices, rank order, checkboxes) saved automatically.")
     print()
     print("─── HOW TO IMPORT ───────────────────────────────────────────────────")

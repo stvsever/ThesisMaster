@@ -234,7 +234,7 @@ def parse_case_survey(tex: str, example_network: NetworkFigure) -> CaseSurvey:
 # NETWORK FIGURE → base64 PNG
 # ─────────────────────────────────────────────────────────────────────────────
 
-def network_to_b64(figure: NetworkFigure) -> str:
+def network_to_b64(figure: NetworkFigure, dpi: int = 180) -> str:
     compact = any(n.compact for n in figure.nodes)
     fw, fh = (7.4, 4.8) if compact else (8.5, 6.0)
     lw = 2.95 if compact else 3.45; rw = lw
@@ -298,7 +298,7 @@ def network_to_b64(figure: NetworkFigure) -> str:
 
     fig.subplots_adjust(left=0.02, right=0.98, top=0.98, bottom=0.02)
     buf = BytesIO()
-    fig.savefig(buf, format="png", dpi=180, bbox_inches="tight", facecolor=bg, edgecolor="none")
+    fig.savefig(buf, format="png", dpi=dpi, bbox_inches="tight", facecolor=bg, edgecolor="none")
     plt.close(fig)
     buf.seek(0)
     return base64.b64encode(buf.read()).decode("ascii")
