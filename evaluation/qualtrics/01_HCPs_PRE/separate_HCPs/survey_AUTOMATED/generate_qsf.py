@@ -304,6 +304,14 @@ def network_to_b64(figure: NetworkFigure, dpi: int = 180) -> str:
     return base64.b64encode(buf.read()).decode("ascii")
 
 
+def save_network_png(figure: NetworkFigure, path: "Path", dpi: int = 120) -> None:
+    """Render a network figure and save it to a PNG file."""
+    from pathlib import Path as _P
+    b64 = network_to_b64(figure, dpi=dpi)
+    import base64 as _b64
+    _P(path).write_bytes(_b64.b64decode(b64))
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # HTML HELPERS
 # ─────────────────────────────────────────────────────────────────────────────
@@ -344,10 +352,15 @@ def purple_box(title: str, subtitle: str, body: str) -> str:
         f'<div style="font-size:13px;line-height:1.65;color:#2E1065;">{body}</div></div>'
     )
 
-def fig_html(b64: str, alt: str) -> str:
+def fig_html(src: str, alt: str) -> str:
+    """src is either a base64 string (for individual QSFs) or an https:// URL (for merged QSF)."""
+    if src.startswith("http"):
+        img_src = src
+    else:
+        img_src = f"data:image/png;base64,{src}"
     return (
         f'<div style="text-align:center;margin:14px 0;">'
-        f'<img src="data:image/png;base64,{b64}" alt="{esc(alt)}" '
+        f'<img src="{img_src}" alt="{esc(alt)}" '
         f'style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div>'
     )
 

@@ -22,6 +22,7 @@ from generate_qsf import (
     gen_id,
     # parsing
     parse_case_survey, extract_between, extract_first, parse_network, network_to_b64,
+    save_network_png,
     # HTML
     p, b, i, hr, h2, ul, esc, plain,
     blue_box, gray_box, green_box, amber_box, purple_box, fig_html, meta_table,
@@ -39,6 +40,14 @@ from generate_qsf import (
 
 ROOT = Path(__file__).resolve().parent
 OUT_DIR = ROOT / "generated" / "qsf_files"
+PNG_DIR = ROOT / "generated" / "network_figures"
+
+# GitHub raw base URL for hosted network figure PNGs
+GITHUB_RAW = (
+    "https://raw.githubusercontent.com/stvsever/ThesisMaster/main/"
+    "evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/"
+    "generated/network_figures"
+)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -368,7 +377,8 @@ def apply_force_response(qsf: dict) -> dict:
 # SURVEY BUILDER
 # ─────────────────────────────────────────────────────────────────────────────
 
-def build_merged_survey(cases: list[CaseSurvey], example_b64: str) -> dict:
+def build_merged_survey(cases: list[CaseSurvey], example_url: str,
+                        case_urls: dict[str, str]) -> dict:
     survey_id = gen_id("SV_", "PHOENIX_PRE_MERGED_ALL10")
     q = MergedQSFBuilder(survey_id,
                          "PHOENIX Evaluatiestudie — PRE fase (alle casussen, willekeurige toewijzing)")
@@ -457,16 +467,16 @@ def build_merged_survey(cases: list[CaseSurvey], example_b64: str) -> dict:
     )
     q.page_break()
 
-    # ── Shared D3 instructies & voorbeeld (rendered once, not 10×) ────────────
+    # ── Shared D3 instructies & voorbeeld (once, external URL — no base64) ──────
     q.block("Deel 3 — Instructies & Voorbeeld")
     q.db(page_d3_instr(), tag="D3_INSTR_SHARED")
     q.page_break()
-    q.db(page_d3_example(example_b64), tag="D3_VOORBEELD_SHARED")
+    q.db(page_d3_example(example_url), tag="D3_VOORBEELD_SHARED")
     q.page_break()
 
     # ── Per-case blocks (10 cases × 6 blocks each = 60 blocks) ───────────────
     for case in cases:
-        case_b64 = network_to_b64(case.network, dpi=72)
+        case_url = case_urls[case.case_code]
         cc = case.case_code
         q.start_case(cc)
 
@@ -506,7 +516,7 @@ def build_merged_survey(cases: list[CaseSurvey], example_b64: str) -> dict:
 
         # ── Deel 3 ────────────────────────────────────────────────────────────
         q.block(f"Deel 3 — {cc}")
-        q.db(page_d3_case(case, case_b64), tag=f"{cc}_D3_CASUS")
+        q.db(page_d3_case(case, case_url), tag=f"{cc}_D3_CASUS")
         q.rank_order(
             p(b(f"Uw antwoord — Deel 3 ({cc})") + "<br>"
               + "Rangschik alle 5 behandelingsopties van hoogste (positie 1) naar laagste "
@@ -574,6 +584,7 @@ def build_merged_survey(cases: list[CaseSurvey], example_b64: str) -> dict:
 
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    PNG_DIR.mkdir(parents=True, exist_ok=True)
 
     print("Reading shared template (HCP_01/main.tex) ...")
     template_tex = (HCP_DIRS[0] / "main.tex").read_text(encoding="utf-8")
@@ -591,7 +602,8 @@ def main() -> None:
     example_network = parse_network(example_tikz, "Behandelingsopties", "Symptomen",
                                     "shared_example")
     print("Rendering shared example network figure ...")
-    example_b64 = network_to_b64(example_network, dpi=72)
+    save_network_png(example_network, PNG_DIR / "example_d3.png", dpi=120)
+    example_url = f"{GITHUB_RAW}/example_d3.png"
 
     print(f"\nParsing {len(HCP_DIRS)} case LaTeX files ...")
     cases: list[CaseSurvey] = []
@@ -601,10 +613,16 @@ def main() -> None:
         cases.append(case)
         print(f"  ✓ {case.case_code} — {case.profile}")
 
-    print("\nBuilding merged QSF (all 10 cases, Randomizer) ...")
+    print("\nSaving case network figures ...")
+    case_urls: dict[str, str] = {}
     for case in cases:
-        print(f"  Rendering network for {case.case_code} ...")
-    qsf_data = build_merged_survey(cases, example_b64)
+        fname = f"network_{case.case_code.lower()}.png"
+        save_network_png(case.network, PNG_DIR / fname, dpi=120)
+        case_urls[case.case_code] = f"{GITHUB_RAW}/{fname}"
+        print(f"  Saved {fname}")
+
+    print("\nBuilding merged QSF (all 10 cases, Randomizer) ...")
+    qsf_data = build_merged_survey(cases, example_url, case_urls)
 
     out = OUT_DIR / "PHOENIX_PRE_MERGED_ALL10.qsf"
     out.write_text(json.dumps(qsf_data, ensure_ascii=True),
