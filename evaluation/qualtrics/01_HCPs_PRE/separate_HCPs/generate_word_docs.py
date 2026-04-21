@@ -120,6 +120,14 @@ def add_para(doc, text='', bold=False, italic=False, size=11,
     return p
 
 
+def set_table_col_widths(table, widths_cm):
+    """Set explicit column widths on every cell of a table."""
+    for row in table.rows:
+        for i, w in enumerate(widths_cm):
+            if i < len(row.cells):
+                row.cells[i].width = Cm(w)
+
+
 def add_box(doc, title, content_lines, title_color=C_DARK_BLUE,
             shade_color="E8F0FE"):
     """Add a bordered, shaded box with title and content."""
@@ -380,7 +388,7 @@ EMA_BOX = [
 ]
 
 NETWERK_BOX = [
-    "Na 21 dagen EMA-monitoring construeert PHOENIX een bipartiet netwerk: een graaf met twee kolommensets en gewogen verbindingen daartussen.",
+    "Na voldoende EMA-monitoring construeert PHOENIX een bipartiet netwerk: een graaf met twee kolommensets en gewogen verbindingen daartussen.",
     "• Linkse kolom – Behandelingsopties (BO): de modificeerbare variabelen.",
     "• Rechtse kolom – Symptomen (S): de klacht- en toestandsdimensies.",
     "• Kanten: de richting loopt van behandelingsoptie naar symptoom (BO → S). Een blauwe rand duidt op een positief verband (behandelingsoptie vergroot het symptoom), een rode rand op een negatief verband (behandelingsoptie verkleint het symptoom). Lijndikte is proportioneel aan de sterkte van het empirische verband.",
@@ -635,6 +643,7 @@ def generate_word_doc(tex_path: str, out_path: str, is_two_case: bool) -> None:
     add_heading(doc, 'Overzicht van de vijf taken', level=2, color=C_PRIMARY)
     time_tbl = doc.add_table(rows=8 if is_two_case else 8, cols=4)
     time_tbl.style = 'Table Grid'
+    set_table_col_widths(time_tbl, [1.3, 4.0, 8.7, 2.0])
     headers_t = ['Stap', 'Klinische taak', 'Wat u doet', 'Richttijd']
     rows_t = [
         ('--',  'Instructies lezen',       'Lees de instructiepagina aandachtig door',                            '≈ 5 min'),
@@ -674,7 +683,7 @@ def generate_word_doc(tex_path: str, out_path: str, is_two_case: bool) -> None:
     add_box(doc, 'Instructies Deel 1', DEEL1_INSTR, C_PRIMARY, 'EFF6FF')
 
     # Example box
-    add_box(doc, 'Uitgewerkt voorbeeld – Deel 1 – Nadia (38-jarige verpleegkundige)  |  Hoe formuleert u een correct symptoomlabel?',
+    add_box(doc, 'Voorbeeld — Deel 1: Operationalisering  |  Hoe formuleert u een correct symptoomlabel?',
         [
             "Klacht (verkorte versie): 'De afgelopen vijf maanden slaap ik slecht: ik lig lang wakker en word vroeg wakker. Overdag ben ik moe en prikkelbaar. Ik beweeg bijna niet meer en zie vrienden nauwelijks nog.'",
             "",
@@ -708,7 +717,7 @@ def generate_word_doc(tex_path: str, out_path: str, is_two_case: bool) -> None:
     add_heading(doc, '3  Deel 2: Initieel observatiemodel (bipartiet netwerk)', level=1)
     add_box(doc, 'Instructies Deel 2', DEEL2_INSTR, C_FOREST, 'ECFDF5')
 
-    add_box(doc, 'Uitgewerkt voorbeeld – Deel 2 – Nadia (38-jarige verpleegkundige)  |  Hoe genereert u behandelingsoptielabels?',
+    add_box(doc, 'Voorbeeld — Deel 2: Initieel observatiemodel  |  Hoe genereert u behandelingsoptielabels?',
         [
             "Gestandaardiseerde symptomen uit Deel 1 (voorbeeld):",
             "S-1: Inslaapmoeilijkheden;  S-2: Vroegochtendontwaak;  S-3: Vermoeidheid overdag;  S-4: Prikkelbaarheid;  S-5: Sociale terugtrekking.",
@@ -741,7 +750,7 @@ def generate_word_doc(tex_path: str, out_path: str, is_two_case: bool) -> None:
     add_heading(doc, '4  Deel 3: Behandeldoelprioritering via het bipartiet netwerk', level=1)
     add_box(doc, 'Instructies Deel 3', DEEL3_INSTR, C_AMBER, 'FEF3C7')
 
-    add_box(doc, 'Uitgewerkt voorbeeld – Deel 3 – Nadia (38-jarige verpleegkundige)  |  Hoe leest u het netwerk en rangschikt u de behandelingsopties?',
+    add_box(doc, 'Voorbeeld — Deel 3: Behandeldoelprioritering  |  Hoe leest u het netwerk en rangschikt u de behandelingsopties?',
         [
             "Monitoring (voorbeeld): Schermtijd voor slapengaan: 18/21 avonden actief (gem. 65 min). Lichaamsbeweging: 0,8 sessies/week. Sociaal contact op eigen initiatief: 0,9/week.",
             "",
@@ -829,7 +838,7 @@ def generate_word_doc(tex_path: str, out_path: str, is_two_case: bool) -> None:
     add_heading(doc, '5  Deel 4: Verfijnd observatiemodel – selectie van sub-behandelingsopties', level=1)
     add_box(doc, 'Instructies Deel 4', DEEL4_INSTR, C_PURPLE, 'F3E8FF')
 
-    add_box(doc, 'Uitgewerkt voorbeeld – Deel 4 – Nadia (38-jarige verpleegkundige)  |  Hoe selecteert u de meest passende EMA-items per behandeldoel?',
+    add_box(doc, 'Voorbeeld — Deel 4: Verfijnd observatiemodel  |  Hoe selecteert u de meest passende EMA-items per behandeldoel?',
         [
             "Gestandaardiseerde behandeldoelen (abstract, voorbeeld):",
             "  1. Slaapkwaliteit",
@@ -898,7 +907,7 @@ def generate_word_doc(tex_path: str, out_path: str, is_two_case: bool) -> None:
     add_box(doc, 'Instructies Deel 5', DEEL5_INSTR, C_FOREST, 'ECFDF5')
     add_box(doc, 'HAPA-kader', HAPA_BOX, C_SLATE, 'F8FAFC')
 
-    add_box(doc, 'Uitgewerkt voorbeeld – Deel 5 – Nadia (38-jarige verpleegkundige)  |  Hoe formuleert u een effectieve coachingsboodschap?',
+    add_box(doc, 'Voorbeeld — Deel 5: Mobiele coaching  |  Hoe formuleert u een effectieve coachingsboodschap?',
         [
             "Context (voorbeeld):",
             "  Primair behandeldoel: avondschermgebruik verminderen",
