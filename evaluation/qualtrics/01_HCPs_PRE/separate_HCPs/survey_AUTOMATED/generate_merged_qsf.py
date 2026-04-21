@@ -222,19 +222,43 @@ class MergedQSFBuilder(QSFBuilder):
             fl[0] += 1
             return f"FL_{fl[0]}"
 
+        def ed_node(field: str, value: str) -> dict:
+            return {
+                "Type": "EmbeddedData",
+                "FlowID": nfl(),
+                "EmbeddedData": [{
+                    "Description": field,
+                    "Type": "Custom",
+                    "Field": field,
+                    "VariableType": "String",
+                    "Value": value,
+                    "AnalyzeText": False,
+                    "DataVisibility": [],
+                }],
+            }
+
         flow: list[dict] = []
+
+        # Declare CaseAssigned as embeddeddata field (also reads URL param
+        # e.g. ?CaseAssigned=C01 for manual guaranteed assignment)
+        flow.append(ed_node("CaseAssigned", ""))
 
         for bid in self._shared_before:
             flow.append({"Type": "Block", "ID": bid, "FlowID": nfl()})
 
-        # RandomizationV2: show exactly 1 of 10 case groups
+        # RandomizationV2: EvenPresentation ensures round-robin (each of 10
+        # cases is shown once before any is repeated — with 10 HCPs this
+        # guarantees a distinct case per HCP)
         rand_groups: list[dict] = []
         for code, blk_ids in self._case_groups:
-            grp_fl = nfl()
-            grp_flow = [{"Type": "Block", "ID": bid, "FlowID": nfl()} for bid in blk_ids]
+            grp_fl_id = nfl()
+            # EmbeddedData node inside each group records which case was assigned
+            grp_flow: list[dict] = [ed_node("CaseAssigned", code)]
+            grp_flow += [{"Type": "Block", "ID": bid, "FlowID": nfl()}
+                         for bid in blk_ids]
             rand_groups.append({
                 "Type": "Group",
-                "FlowID": grp_fl,
+                "FlowID": grp_fl_id,
                 "Description": f"Casus {code}",
                 "Flow": grp_flow,
             })
@@ -335,6 +359,7 @@ def build_merged_survey(cases: list[CaseSurvey], example_b64: str) -> dict:
                  "Nee, ik stem niet toe en wil niet deelnemen."],
         tag="CONSENT",
         skip_end_if=2,
+        force=False,
     )
 
     # ── Block 2: Instructiepagina ─────────────────────────────────────────────
@@ -476,11 +501,10 @@ def build_merged_survey(cases: list[CaseSurvey], example_b64: str) -> dict:
             p(b(f"Uw antwoord — Deel 4 ({cc})") + "<br>"
               "Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). "
               "<em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. "
-              "Het systeem vereist exact 6 aangevinkte items."),
+              "Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal)."),
             choices=[f"{n}.&nbsp; {item}"
                      for n, item in enumerate(case.part4_items, start=1)],
             tag=f"{cc}_D4_ANTWOORD",
-            min_c=6, max_c=6,
         )
 
         # ── Deel 5 ────────────────────────────────────────────────────────────
@@ -565,20 +589,42 @@ def main() -> None:
     print(f"\n✓  {out.name}")
     print(f"   Size: {size_mb:.1f} MB  |  Blocks: {n_b}  |  Questions: {n_q}")
     print(f"\nSurvey flow:")
-    print("  [Shared] Toestemming (consent + skip logic)")
-    print("  [Shared] Instructiepagina (2 pages)")
-    print("  [Shared] Intake (background essay + AI matrix + network matrix)")
-    print("  [RandomizationV2, SubSet=1, EvenPresentation] 10 case groups:")
+    print("  EmbeddedData: CaseAssigned = '' (initialised; overwritten per group)")
+    print("  [Shared] Toestemming  (consent + branch-to-end if refused)")
+    print("  [Shared] Instructiepagina  (2 pages)")
+    print("  [Shared] Intake  (background essay + AI Likert + network Likert)")
+    print("  [RandomizationV2  EvenPresentation=true  SubSet=1]")
     for case in cases:
-        print(f"    → {case.case_code}: Titel + Deel 1–6 (7 blocks)")
+        print(f"    Group {case.case_code}:  EmbeddedData CaseAssigned={case.case_code}"
+              f"  +  7 blocks  (Titel, Deel 1–6)")
     print("  [Shared] Afronding")
-    print(f"\nHow to use:")
+    print()
+    print("No ForceResponse on any question. No min/max validation on Deel 4.")
+    print("All data (text, matrices, rank order, checkboxes) saved automatically.")
+    print()
+    print("─── HOW TO IMPORT ───────────────────────────────────────────────────")
     print("  1. Qualtrics → Create new project → Survey → Import QSF")
     print("     → select PHOENIX_PRE_MERGED_ALL10.qsf")
-    print("  2. Activate → Distributions → Anonymous link (one link for all HCPs)")
-    print("  3. Send the same link to all 10 HCPs")
-    print("  4. Each HCP is randomly assigned 1 of 10 cases (even distribution)")
-    print("  5. Data export: responses tagged with CXX prefix (e.g. C01_D1_ANTWOORD)")
+    print()
+    print("─── OPTION A: single link (automatic round-robin assignment) ────────")
+    print("  EvenPresentation=true means Qualtrics cycles through all 10 cases")
+    print("  before repeating any. With exactly 10 HCPs each case is used once.")
+    print("  2a. Surveys → Activate → Distributions → Get anonymous link")
+    print("  2b. Send that ONE link to all 10 HCPs.")
+    print()
+    print("─── OPTION B: individual links (guaranteed 1-to-1 assignment) ───────")
+    print("  Append ?CaseAssigned=CXX to the anonymous link for each HCP.")
+    print("  BUT: RandomizationV2 ignores URL params — for this approach you")
+    print("  must switch to Branch logic in Qualtrics Survey Flow after import,")
+    print("  OR simply trust Option A (EvenPresentation is sufficient for N=10).")
+    print()
+    print("─── OPTION C: quotas (hard limit 1 per case) ────────────────────────")
+    print("  After import, in Qualtrics: Survey Flow → Quotas → add 10 quotas,")
+    print("  one per case. Condition: CaseAssigned = CXX, Limit = 1.")
+    print("  Quota action: exclude from randomizer when full.")
+    print("  This gives the strictest guarantee: exactly 1 HCP per case.")
+    print()
+    print("  Data export column 'CaseAssigned' shows which case each HCP got.")
     print(f"\nFile: {out}")
 
 

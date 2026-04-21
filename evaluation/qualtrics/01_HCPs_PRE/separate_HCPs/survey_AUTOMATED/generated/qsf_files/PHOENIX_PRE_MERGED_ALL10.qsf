@@ -2439,358 +2439,436 @@
         "FlowID": "FL_0",
         "Flow": [
           {
-            "Type": "Block",
-            "ID": "BL_D5AC021B18517A1",
-            "FlowID": "FL_1"
+            "Type": "EmbeddedData",
+            "FlowID": "FL_1",
+            "EmbeddedData": [
+              {
+                "Description": "CaseAssigned",
+                "Type": "Custom",
+                "Field": "CaseAssigned",
+                "VariableType": "String",
+                "Value": "",
+                "AnalyzeText": false,
+                "DataVisibility": []
+              }
+            ]
           },
           {
             "Type": "Block",
-            "ID": "BL_F34590582264830",
+            "ID": "BL_D5AC021B18517A1",
             "FlowID": "FL_2"
           },
           {
             "Type": "Block",
-            "ID": "BL_04DE114AFF0B0E3",
+            "ID": "BL_F34590582264830",
             "FlowID": "FL_3"
           },
           {
+            "Type": "Block",
+            "ID": "BL_04DE114AFF0B0E3",
+            "FlowID": "FL_4"
+          },
+          {
             "Type": "RandomizationV2",
-            "FlowID": "FL_84",
+            "FlowID": "FL_95",
             "EvenPresentation": true,
             "SubSet": 1,
             "Flow": [
               {
                 "Type": "Group",
-                "FlowID": "FL_4",
+                "FlowID": "FL_5",
                 "Description": "Casus C01",
                 "Flow": [
                   {
+                    "Type": "EmbeddedData",
+                    "FlowID": "FL_6",
+                    "EmbeddedData": [
+                      {
+                        "Description": "CaseAssigned",
+                        "Type": "Custom",
+                        "Field": "CaseAssigned",
+                        "VariableType": "String",
+                        "Value": "C01",
+                        "AnalyzeText": false,
+                        "DataVisibility": []
+                      }
+                    ]
+                  },
+                  {
                     "Type": "Block",
                     "ID": "BL_67ADB434D64B0BE",
-                    "FlowID": "FL_5"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_BFD615EB967967A",
-                    "FlowID": "FL_6"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_8FC6AAA9F37359C",
                     "FlowID": "FL_7"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_00761B2027DC778",
+                    "ID": "BL_BFD615EB967967A",
                     "FlowID": "FL_8"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_6D4DCD2BD15EA68",
+                    "ID": "BL_8FC6AAA9F37359C",
                     "FlowID": "FL_9"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_14D98D3535ABD4A",
+                    "ID": "BL_00761B2027DC778",
                     "FlowID": "FL_10"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_5D3E65F98F1C92E",
+                    "ID": "BL_6D4DCD2BD15EA68",
                     "FlowID": "FL_11"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_14D98D3535ABD4A",
+                    "FlowID": "FL_12"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_5D3E65F98F1C92E",
+                    "FlowID": "FL_13"
                   }
                 ]
               },
               {
                 "Type": "Group",
-                "FlowID": "FL_12",
+                "FlowID": "FL_14",
                 "Description": "Casus C02",
                 "Flow": [
                   {
+                    "Type": "EmbeddedData",
+                    "FlowID": "FL_15",
+                    "EmbeddedData": [
+                      {
+                        "Description": "CaseAssigned",
+                        "Type": "Custom",
+                        "Field": "CaseAssigned",
+                        "VariableType": "String",
+                        "Value": "C02",
+                        "AnalyzeText": false,
+                        "DataVisibility": []
+                      }
+                    ]
+                  },
+                  {
                     "Type": "Block",
                     "ID": "BL_6F6F74B221ED263",
-                    "FlowID": "FL_13"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_FE57D5614B5A1A2",
-                    "FlowID": "FL_14"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_C9D4C802DD55E1E",
-                    "FlowID": "FL_15"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_23DAEFF9A4B54CD",
                     "FlowID": "FL_16"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_93D62E659402112",
+                    "ID": "BL_FE57D5614B5A1A2",
                     "FlowID": "FL_17"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_40D5AE3108193A6",
+                    "ID": "BL_C9D4C802DD55E1E",
                     "FlowID": "FL_18"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_85F288DB670578D",
+                    "ID": "BL_23DAEFF9A4B54CD",
                     "FlowID": "FL_19"
-                  }
-                ]
-              },
-              {
-                "Type": "Group",
-                "FlowID": "FL_20",
-                "Description": "Casus C03",
-                "Flow": [
+                  },
                   {
                     "Type": "Block",
-                    "ID": "BL_9DBE5D66C34746A",
+                    "ID": "BL_93D62E659402112",
+                    "FlowID": "FL_20"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_40D5AE3108193A6",
                     "FlowID": "FL_21"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_D0ACD85805F6109",
+                    "ID": "BL_85F288DB670578D",
                     "FlowID": "FL_22"
+                  }
+                ]
+              },
+              {
+                "Type": "Group",
+                "FlowID": "FL_23",
+                "Description": "Casus C03",
+                "Flow": [
+                  {
+                    "Type": "EmbeddedData",
+                    "FlowID": "FL_24",
+                    "EmbeddedData": [
+                      {
+                        "Description": "CaseAssigned",
+                        "Type": "Custom",
+                        "Field": "CaseAssigned",
+                        "VariableType": "String",
+                        "Value": "C03",
+                        "AnalyzeText": false,
+                        "DataVisibility": []
+                      }
+                    ]
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_E5389FC3CC9C0D7",
-                    "FlowID": "FL_23"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_ED9BB92A2D260C4",
-                    "FlowID": "FL_24"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_8F3DB409BAD946D",
+                    "ID": "BL_9DBE5D66C34746A",
                     "FlowID": "FL_25"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_E6AF4D15E6A5C7B",
+                    "ID": "BL_D0ACD85805F6109",
                     "FlowID": "FL_26"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_328DC55BE714939",
+                    "ID": "BL_E5389FC3CC9C0D7",
                     "FlowID": "FL_27"
-                  }
-                ]
-              },
-              {
-                "Type": "Group",
-                "FlowID": "FL_28",
-                "Description": "Casus C04",
-                "Flow": [
+                  },
                   {
                     "Type": "Block",
-                    "ID": "BL_74D265D44461C30",
+                    "ID": "BL_ED9BB92A2D260C4",
+                    "FlowID": "FL_28"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_8F3DB409BAD946D",
                     "FlowID": "FL_29"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_A628DE788324DFF",
+                    "ID": "BL_E6AF4D15E6A5C7B",
                     "FlowID": "FL_30"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_AE7426AFBE22CFE",
+                    "ID": "BL_328DC55BE714939",
                     "FlowID": "FL_31"
+                  }
+                ]
+              },
+              {
+                "Type": "Group",
+                "FlowID": "FL_32",
+                "Description": "Casus C04",
+                "Flow": [
+                  {
+                    "Type": "EmbeddedData",
+                    "FlowID": "FL_33",
+                    "EmbeddedData": [
+                      {
+                        "Description": "CaseAssigned",
+                        "Type": "Custom",
+                        "Field": "CaseAssigned",
+                        "VariableType": "String",
+                        "Value": "C04",
+                        "AnalyzeText": false,
+                        "DataVisibility": []
+                      }
+                    ]
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_0E63730E4F106B9",
-                    "FlowID": "FL_32"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_6F266B925B2DCF4",
-                    "FlowID": "FL_33"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_210F4D0B6F6C419",
+                    "ID": "BL_74D265D44461C30",
                     "FlowID": "FL_34"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_0B3DB58825BFC0C",
+                    "ID": "BL_A628DE788324DFF",
                     "FlowID": "FL_35"
-                  }
-                ]
-              },
-              {
-                "Type": "Group",
-                "FlowID": "FL_36",
-                "Description": "Casus C05",
-                "Flow": [
+                  },
                   {
                     "Type": "Block",
-                    "ID": "BL_EAFF5A67D806477",
+                    "ID": "BL_AE7426AFBE22CFE",
+                    "FlowID": "FL_36"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_0E63730E4F106B9",
                     "FlowID": "FL_37"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_7A5A03ED7EFE7C9",
+                    "ID": "BL_6F266B925B2DCF4",
                     "FlowID": "FL_38"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_0FABB14E407C07F",
+                    "ID": "BL_210F4D0B6F6C419",
                     "FlowID": "FL_39"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_FFE0025460897A8",
+                    "ID": "BL_0B3DB58825BFC0C",
                     "FlowID": "FL_40"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_A373503364F15BE",
-                    "FlowID": "FL_41"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_C08861B8E3B021A",
-                    "FlowID": "FL_42"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_E257E15ADF64C05",
-                    "FlowID": "FL_43"
                   }
                 ]
               },
               {
                 "Type": "Group",
-                "FlowID": "FL_44",
-                "Description": "Casus C06",
+                "FlowID": "FL_41",
+                "Description": "Casus C05",
                 "Flow": [
                   {
+                    "Type": "EmbeddedData",
+                    "FlowID": "FL_42",
+                    "EmbeddedData": [
+                      {
+                        "Description": "CaseAssigned",
+                        "Type": "Custom",
+                        "Field": "CaseAssigned",
+                        "VariableType": "String",
+                        "Value": "C05",
+                        "AnalyzeText": false,
+                        "DataVisibility": []
+                      }
+                    ]
+                  },
+                  {
                     "Type": "Block",
-                    "ID": "BL_F09B30093CECA9B",
+                    "ID": "BL_EAFF5A67D806477",
+                    "FlowID": "FL_43"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_7A5A03ED7EFE7C9",
+                    "FlowID": "FL_44"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_0FABB14E407C07F",
                     "FlowID": "FL_45"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_73DC349F3A4D5F8",
+                    "ID": "BL_FFE0025460897A8",
                     "FlowID": "FL_46"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_F5219036F5596C2",
+                    "ID": "BL_A373503364F15BE",
                     "FlowID": "FL_47"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_CCFE5D594A5A7EE",
+                    "ID": "BL_C08861B8E3B021A",
                     "FlowID": "FL_48"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_5E03FB467042DD3",
+                    "ID": "BL_E257E15ADF64C05",
                     "FlowID": "FL_49"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_B99BFA814FE496E",
-                    "FlowID": "FL_50"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_31CFFE0D1A54AD6",
-                    "FlowID": "FL_51"
                   }
                 ]
               },
               {
                 "Type": "Group",
-                "FlowID": "FL_52",
-                "Description": "Casus C07",
+                "FlowID": "FL_50",
+                "Description": "Casus C06",
                 "Flow": [
                   {
+                    "Type": "EmbeddedData",
+                    "FlowID": "FL_51",
+                    "EmbeddedData": [
+                      {
+                        "Description": "CaseAssigned",
+                        "Type": "Custom",
+                        "Field": "CaseAssigned",
+                        "VariableType": "String",
+                        "Value": "C06",
+                        "AnalyzeText": false,
+                        "DataVisibility": []
+                      }
+                    ]
+                  },
+                  {
                     "Type": "Block",
-                    "ID": "BL_68C1ED11CB21662",
+                    "ID": "BL_F09B30093CECA9B",
+                    "FlowID": "FL_52"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_73DC349F3A4D5F8",
                     "FlowID": "FL_53"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_A757944EBE036F3",
+                    "ID": "BL_F5219036F5596C2",
                     "FlowID": "FL_54"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_4982C0D11FDDC49",
+                    "ID": "BL_CCFE5D594A5A7EE",
                     "FlowID": "FL_55"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_74B3FD7DCD2A03A",
+                    "ID": "BL_5E03FB467042DD3",
                     "FlowID": "FL_56"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_2285385C45FE36B",
+                    "ID": "BL_B99BFA814FE496E",
                     "FlowID": "FL_57"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_FDBFAA8F07FD92E",
+                    "ID": "BL_31CFFE0D1A54AD6",
                     "FlowID": "FL_58"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_A0AF93354E5DBE1",
-                    "FlowID": "FL_59"
                   }
                 ]
               },
               {
                 "Type": "Group",
-                "FlowID": "FL_60",
-                "Description": "Casus C08",
+                "FlowID": "FL_59",
+                "Description": "Casus C07",
                 "Flow": [
                   {
+                    "Type": "EmbeddedData",
+                    "FlowID": "FL_60",
+                    "EmbeddedData": [
+                      {
+                        "Description": "CaseAssigned",
+                        "Type": "Custom",
+                        "Field": "CaseAssigned",
+                        "VariableType": "String",
+                        "Value": "C07",
+                        "AnalyzeText": false,
+                        "DataVisibility": []
+                      }
+                    ]
+                  },
+                  {
                     "Type": "Block",
-                    "ID": "BL_D104D2743967C39",
+                    "ID": "BL_68C1ED11CB21662",
                     "FlowID": "FL_61"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_96648DE53F47BE0",
+                    "ID": "BL_A757944EBE036F3",
                     "FlowID": "FL_62"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_3A9DE1587B4D0DF",
+                    "ID": "BL_4982C0D11FDDC49",
                     "FlowID": "FL_63"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_655A7BEF1F7075F",
+                    "ID": "BL_74B3FD7DCD2A03A",
                     "FlowID": "FL_64"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_A205BB85B2CBC5C",
+                    "ID": "BL_2285385C45FE36B",
                     "FlowID": "FL_65"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_21165E8691610B8",
+                    "ID": "BL_FDBFAA8F07FD92E",
                     "FlowID": "FL_66"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_C5933F448A23306",
+                    "ID": "BL_A0AF93354E5DBE1",
                     "FlowID": "FL_67"
                   }
                 ]
@@ -2798,84 +2876,171 @@
               {
                 "Type": "Group",
                 "FlowID": "FL_68",
-                "Description": "Casus C09",
+                "Description": "Casus C08",
                 "Flow": [
                   {
-                    "Type": "Block",
-                    "ID": "BL_6F1F5A227296E3C",
-                    "FlowID": "FL_69"
+                    "Type": "EmbeddedData",
+                    "FlowID": "FL_69",
+                    "EmbeddedData": [
+                      {
+                        "Description": "CaseAssigned",
+                        "Type": "Custom",
+                        "Field": "CaseAssigned",
+                        "VariableType": "String",
+                        "Value": "C08",
+                        "AnalyzeText": false,
+                        "DataVisibility": []
+                      }
+                    ]
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_F52B91E9480E669",
+                    "ID": "BL_D104D2743967C39",
                     "FlowID": "FL_70"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_1EDB2FF97A8511C",
+                    "ID": "BL_96648DE53F47BE0",
                     "FlowID": "FL_71"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_C44123B54DB9A04",
+                    "ID": "BL_3A9DE1587B4D0DF",
                     "FlowID": "FL_72"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_1194D52C700F063",
+                    "ID": "BL_655A7BEF1F7075F",
                     "FlowID": "FL_73"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_B883ADF9871D94F",
+                    "ID": "BL_A205BB85B2CBC5C",
                     "FlowID": "FL_74"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_00C9912A55DF432",
+                    "ID": "BL_21165E8691610B8",
                     "FlowID": "FL_75"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_C5933F448A23306",
+                    "FlowID": "FL_76"
                   }
                 ]
               },
               {
                 "Type": "Group",
-                "FlowID": "FL_76",
-                "Description": "Casus C10",
+                "FlowID": "FL_77",
+                "Description": "Casus C09",
                 "Flow": [
                   {
-                    "Type": "Block",
-                    "ID": "BL_D4F4442509C821C",
-                    "FlowID": "FL_77"
+                    "Type": "EmbeddedData",
+                    "FlowID": "FL_78",
+                    "EmbeddedData": [
+                      {
+                        "Description": "CaseAssigned",
+                        "Type": "Custom",
+                        "Field": "CaseAssigned",
+                        "VariableType": "String",
+                        "Value": "C09",
+                        "AnalyzeText": false,
+                        "DataVisibility": []
+                      }
+                    ]
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_0C3710B57D7CFB3",
-                    "FlowID": "FL_78"
-                  },
-                  {
-                    "Type": "Block",
-                    "ID": "BL_2EC64704B307C31",
+                    "ID": "BL_6F1F5A227296E3C",
                     "FlowID": "FL_79"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_0021FE469F77505",
+                    "ID": "BL_F52B91E9480E669",
                     "FlowID": "FL_80"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_6A7586E51697F79",
+                    "ID": "BL_1EDB2FF97A8511C",
                     "FlowID": "FL_81"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_76BDFA37CFB1BCC",
+                    "ID": "BL_C44123B54DB9A04",
                     "FlowID": "FL_82"
                   },
                   {
                     "Type": "Block",
-                    "ID": "BL_1423C0C271E99F0",
+                    "ID": "BL_1194D52C700F063",
                     "FlowID": "FL_83"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_B883ADF9871D94F",
+                    "FlowID": "FL_84"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_00C9912A55DF432",
+                    "FlowID": "FL_85"
+                  }
+                ]
+              },
+              {
+                "Type": "Group",
+                "FlowID": "FL_86",
+                "Description": "Casus C10",
+                "Flow": [
+                  {
+                    "Type": "EmbeddedData",
+                    "FlowID": "FL_87",
+                    "EmbeddedData": [
+                      {
+                        "Description": "CaseAssigned",
+                        "Type": "Custom",
+                        "Field": "CaseAssigned",
+                        "VariableType": "String",
+                        "Value": "C10",
+                        "AnalyzeText": false,
+                        "DataVisibility": []
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_D4F4442509C821C",
+                    "FlowID": "FL_88"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_0C3710B57D7CFB3",
+                    "FlowID": "FL_89"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_2EC64704B307C31",
+                    "FlowID": "FL_90"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_0021FE469F77505",
+                    "FlowID": "FL_91"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_6A7586E51697F79",
+                    "FlowID": "FL_92"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_76BDFA37CFB1BCC",
+                    "FlowID": "FL_93"
+                  },
+                  {
+                    "Type": "Block",
+                    "ID": "BL_1423C0C271E99F0",
+                    "FlowID": "FL_94"
                   }
                 ]
               }
@@ -2884,15 +3049,15 @@
           {
             "Type": "Block",
             "ID": "BL_7E471E33182E402",
-            "FlowID": "FL_85"
+            "FlowID": "FL_96"
           },
           {
             "Type": "EndSurvey",
-            "FlowID": "FL_86"
+            "FlowID": "FL_97"
           }
         ],
         "Properties": {
-          "Count": 6
+          "Count": 7
         }
       }
     },
@@ -3012,8 +3177,8 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "ON",
-            "ForceResponseType": "ON",
+            "ForceResponse": "OFF",
+            "ForceResponseType": "OFF",
             "Type": "None"
           }
         },
@@ -3812,7 +3977,7 @@
         "Selector": "MAVR",
         "SubSelector": "TX",
         "DataExportTag": "C01_D4_ANTWOORD",
-        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C01)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C01)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "QuestionDescription": "Uw antwoord — Deel 4 (C01)Selecteer exact 6 EMA-items (2 per behandeldoel). Geen symptomen — alle items zijn modificeerb",
         "ChoiceOrder": [
           1,
@@ -3902,17 +4067,14 @@
         "Language": [],
         "NextChoiceId": 21,
         "NextAnswerId": 1,
-        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C01)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C01)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "Configuration": {
           "QuestionDescriptionOption": "UseText"
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "ON",
-            "ForceResponseType": "ON",
-            "Type": "SelectMany",
-            "MinChoices": "6",
-            "MaxChoices": "6"
+            "ForceResponse": "OFF",
+            "Type": "None"
           }
         },
         "QuestionID": "QID25"
@@ -4665,7 +4827,7 @@
         "Selector": "MAVR",
         "SubSelector": "TX",
         "DataExportTag": "C02_D4_ANTWOORD",
-        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C02)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C02)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "QuestionDescription": "Uw antwoord — Deel 4 (C02)Selecteer exact 6 EMA-items (2 per behandeldoel). Geen symptomen — alle items zijn modificeerb",
         "ChoiceOrder": [
           1,
@@ -4755,17 +4917,14 @@
         "Language": [],
         "NextChoiceId": 21,
         "NextAnswerId": 1,
-        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C02)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C02)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "Configuration": {
           "QuestionDescriptionOption": "UseText"
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "ON",
-            "ForceResponseType": "ON",
-            "Type": "SelectMany",
-            "MinChoices": "6",
-            "MaxChoices": "6"
+            "ForceResponse": "OFF",
+            "Type": "None"
           }
         },
         "QuestionID": "QID50"
@@ -5518,7 +5677,7 @@
         "Selector": "MAVR",
         "SubSelector": "TX",
         "DataExportTag": "C03_D4_ANTWOORD",
-        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C03)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C03)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "QuestionDescription": "Uw antwoord — Deel 4 (C03)Selecteer exact 6 EMA-items (2 per behandeldoel). Geen symptomen — alle items zijn modificeerb",
         "ChoiceOrder": [
           1,
@@ -5608,17 +5767,14 @@
         "Language": [],
         "NextChoiceId": 21,
         "NextAnswerId": 1,
-        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C03)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C03)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "Configuration": {
           "QuestionDescriptionOption": "UseText"
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "ON",
-            "ForceResponseType": "ON",
-            "Type": "SelectMany",
-            "MinChoices": "6",
-            "MaxChoices": "6"
+            "ForceResponse": "OFF",
+            "Type": "None"
           }
         },
         "QuestionID": "QID75"
@@ -6371,7 +6527,7 @@
         "Selector": "MAVR",
         "SubSelector": "TX",
         "DataExportTag": "C04_D4_ANTWOORD",
-        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C04)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C04)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "QuestionDescription": "Uw antwoord — Deel 4 (C04)Selecteer exact 6 EMA-items (2 per behandeldoel). Geen symptomen — alle items zijn modificeerb",
         "ChoiceOrder": [
           1,
@@ -6461,17 +6617,14 @@
         "Language": [],
         "NextChoiceId": 21,
         "NextAnswerId": 1,
-        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C04)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C04)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "Configuration": {
           "QuestionDescriptionOption": "UseText"
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "ON",
-            "ForceResponseType": "ON",
-            "Type": "SelectMany",
-            "MinChoices": "6",
-            "MaxChoices": "6"
+            "ForceResponse": "OFF",
+            "Type": "None"
           }
         },
         "QuestionID": "QID100"
@@ -7224,7 +7377,7 @@
         "Selector": "MAVR",
         "SubSelector": "TX",
         "DataExportTag": "C05_D4_ANTWOORD",
-        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C05)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C05)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "QuestionDescription": "Uw antwoord — Deel 4 (C05)Selecteer exact 6 EMA-items (2 per behandeldoel). Geen symptomen — alle items zijn modificeerb",
         "ChoiceOrder": [
           1,
@@ -7314,17 +7467,14 @@
         "Language": [],
         "NextChoiceId": 21,
         "NextAnswerId": 1,
-        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C05)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C05)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "Configuration": {
           "QuestionDescriptionOption": "UseText"
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "ON",
-            "ForceResponseType": "ON",
-            "Type": "SelectMany",
-            "MinChoices": "6",
-            "MaxChoices": "6"
+            "ForceResponse": "OFF",
+            "Type": "None"
           }
         },
         "QuestionID": "QID125"
@@ -8077,7 +8227,7 @@
         "Selector": "MAVR",
         "SubSelector": "TX",
         "DataExportTag": "C06_D4_ANTWOORD",
-        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C06)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C06)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "QuestionDescription": "Uw antwoord — Deel 4 (C06)Selecteer exact 6 EMA-items (2 per behandeldoel). Geen symptomen — alle items zijn modificeerb",
         "ChoiceOrder": [
           1,
@@ -8167,17 +8317,14 @@
         "Language": [],
         "NextChoiceId": 21,
         "NextAnswerId": 1,
-        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C06)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C06)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "Configuration": {
           "QuestionDescriptionOption": "UseText"
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "ON",
-            "ForceResponseType": "ON",
-            "Type": "SelectMany",
-            "MinChoices": "6",
-            "MaxChoices": "6"
+            "ForceResponse": "OFF",
+            "Type": "None"
           }
         },
         "QuestionID": "QID150"
@@ -8930,7 +9077,7 @@
         "Selector": "MAVR",
         "SubSelector": "TX",
         "DataExportTag": "C07_D4_ANTWOORD",
-        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C07)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C07)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "QuestionDescription": "Uw antwoord — Deel 4 (C07)Selecteer exact 6 EMA-items (2 per behandeldoel). Geen symptomen — alle items zijn modificeerb",
         "ChoiceOrder": [
           1,
@@ -9020,17 +9167,14 @@
         "Language": [],
         "NextChoiceId": 21,
         "NextAnswerId": 1,
-        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C07)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C07)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "Configuration": {
           "QuestionDescriptionOption": "UseText"
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "ON",
-            "ForceResponseType": "ON",
-            "Type": "SelectMany",
-            "MinChoices": "6",
-            "MaxChoices": "6"
+            "ForceResponse": "OFF",
+            "Type": "None"
           }
         },
         "QuestionID": "QID175"
@@ -9783,7 +9927,7 @@
         "Selector": "MAVR",
         "SubSelector": "TX",
         "DataExportTag": "C08_D4_ANTWOORD",
-        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C08)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C08)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "QuestionDescription": "Uw antwoord — Deel 4 (C08)Selecteer exact 6 EMA-items (2 per behandeldoel). Geen symptomen — alle items zijn modificeerb",
         "ChoiceOrder": [
           1,
@@ -9873,17 +10017,14 @@
         "Language": [],
         "NextChoiceId": 21,
         "NextAnswerId": 1,
-        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C08)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C08)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "Configuration": {
           "QuestionDescriptionOption": "UseText"
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "ON",
-            "ForceResponseType": "ON",
-            "Type": "SelectMany",
-            "MinChoices": "6",
-            "MaxChoices": "6"
+            "ForceResponse": "OFF",
+            "Type": "None"
           }
         },
         "QuestionID": "QID200"
@@ -10636,7 +10777,7 @@
         "Selector": "MAVR",
         "SubSelector": "TX",
         "DataExportTag": "C09_D4_ANTWOORD",
-        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C09)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C09)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "QuestionDescription": "Uw antwoord — Deel 4 (C09)Selecteer exact 6 EMA-items (2 per behandeldoel). Geen symptomen — alle items zijn modificeerb",
         "ChoiceOrder": [
           1,
@@ -10726,17 +10867,14 @@
         "Language": [],
         "NextChoiceId": 21,
         "NextAnswerId": 1,
-        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C09)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C09)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "Configuration": {
           "QuestionDescriptionOption": "UseText"
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "ON",
-            "ForceResponseType": "ON",
-            "Type": "SelectMany",
-            "MinChoices": "6",
-            "MaxChoices": "6"
+            "ForceResponse": "OFF",
+            "Type": "None"
           }
         },
         "QuestionID": "QID225"
@@ -11489,7 +11627,7 @@
         "Selector": "MAVR",
         "SubSelector": "TX",
         "DataExportTag": "C10_D4_ANTWOORD",
-        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C10)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C10)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "QuestionDescription": "Uw antwoord — Deel 4 (C10)Selecteer exact 6 EMA-items (2 per behandeldoel). Geen symptomen — alle items zijn modificeerb",
         "ChoiceOrder": [
           1,
@@ -11579,17 +11717,14 @@
         "Language": [],
         "NextChoiceId": 21,
         "NextAnswerId": 1,
-        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C10)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Het systeem vereist exact 6 aangevinkte items.</p>",
+        "QuestionText_Unsafe": "<p style=\"margin:5px 0;\"><strong>Uw antwoord — Deel 4 (C10)</strong><br>Selecteer <strong>exact 6</strong> EMA-items (2 per behandeldoel). <em>Geen symptomen</em> — alle items zijn modificeerbare gedragingen. Selecteer 2 sub-behandelingsopties per behandeldoel (6 in totaal).</p>",
         "Configuration": {
           "QuestionDescriptionOption": "UseText"
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "ON",
-            "ForceResponseType": "ON",
-            "Type": "SelectMany",
-            "MinChoices": "6",
-            "MaxChoices": "6"
+            "ForceResponse": "OFF",
+            "Type": "None"
           }
         },
         "QuestionID": "QID250"
