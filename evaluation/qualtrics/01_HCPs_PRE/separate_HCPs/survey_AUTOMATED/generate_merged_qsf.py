@@ -2,7 +2,7 @@
 """
 generate_merged_qsf.py
 Generates ONE merged QSF containing all 10 PHOENIX PRE cases.
-Qualtrics RandomizationV2 (SubSet=1, EvenPresentation=true) randomly assigns
+Qualtrics Randomizer (RandomSubset=1, EvenPresentation=true) randomly assigns
 each respondent exactly one case. Import once, share a single link with all HCPs.
 
 Output: generated/qsf_files/PHOENIX_PRE_MERGED_ALL10.qsf
@@ -167,11 +167,11 @@ def page_closing_generic() -> str:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# MERGED QSF BUILDER  (RandomizationV2 survey flow)
+# MERGED QSF BUILDER  (Randomizer survey flow)
 # ─────────────────────────────────────────────────────────────────────────────
 
 class MergedQSFBuilder(QSFBuilder):
-    """Extends QSFBuilder with RandomizationV2 flow support."""
+    """Extends QSFBuilder with Randomizer flow support."""
 
     def __init__(self, survey_id: str, survey_name: str):
         super().__init__(survey_id, survey_name)
@@ -246,7 +246,7 @@ class MergedQSFBuilder(QSFBuilder):
         for bid in self._shared_before:
             flow.append({"Type": "Block", "ID": bid, "FlowID": nfl()})
 
-        # RandomizationV2: EvenPresentation ensures round-robin (each of 10
+        # Randomizer: EvenPresentation ensures round-robin (each of 10
         # cases is shown once before any is repeated — with 10 HCPs this
         # guarantees a distinct case per HCP)
         rand_groups: list[dict] = []
@@ -264,10 +264,10 @@ class MergedQSFBuilder(QSFBuilder):
             })
 
         flow.append({
-            "Type": "RandomizationV2",
+            "Type": "Randomizer",
             "FlowID": nfl(),
             "EvenPresentation": True,
-            "SubSet": 1,
+            "RandomSubset": 1,
             "Flow": rand_groups,
         })
 
@@ -466,7 +466,7 @@ def build_merged_survey(cases: list[CaseSurvey], example_b64: str) -> dict:
 
     # ── Per-case blocks (10 cases × 6 blocks each = 60 blocks) ───────────────
     for case in cases:
-        case_b64 = network_to_b64(case.network, dpi=96)
+        case_b64 = network_to_b64(case.network, dpi=72)
         cc = case.case_code
         q.start_case(cc)
 
@@ -591,7 +591,7 @@ def main() -> None:
     example_network = parse_network(example_tikz, "Behandelingsopties", "Symptomen",
                                     "shared_example")
     print("Rendering shared example network figure ...")
-    example_b64 = network_to_b64(example_network, dpi=96)
+    example_b64 = network_to_b64(example_network, dpi=72)
 
     print(f"\nParsing {len(HCP_DIRS)} case LaTeX files ...")
     cases: list[CaseSurvey] = []
@@ -601,13 +601,13 @@ def main() -> None:
         cases.append(case)
         print(f"  ✓ {case.case_code} — {case.profile}")
 
-    print("\nBuilding merged QSF (all 10 cases, RandomizationV2) ...")
+    print("\nBuilding merged QSF (all 10 cases, Randomizer) ...")
     for case in cases:
         print(f"  Rendering network for {case.case_code} ...")
     qsf_data = build_merged_survey(cases, example_b64)
 
     out = OUT_DIR / "PHOENIX_PRE_MERGED_ALL10.qsf"
-    out.write_text(json.dumps(qsf_data, ensure_ascii=False, indent=2),
+    out.write_text(json.dumps(qsf_data, ensure_ascii=True),
                    encoding="utf-8")
 
     n_q = len([e for e in qsf_data["SurveyElements"] if e["Element"] == "SQ"])
@@ -622,7 +622,7 @@ def main() -> None:
     print("  [Shared] Instructiepagina  (2 pages)")
     print("  [Shared] Intake  (background essay + AI Likert + network Likert)")
     print("  [Shared] Deel 3 — Instructies & Voorbeeld  (network example, shown once)")
-    print("  [RandomizationV2  EvenPresentation=true  SubSet=1]")
+    print("  [Randomizer  EvenPresentation=true  SubSet=1]")
     for case in cases:
         print(f"    Group {case.case_code}:  EmbeddedData CaseAssigned={case.case_code}"
               f"  +  6 blocks  (Titel, Deel 1–6)")
@@ -644,7 +644,7 @@ def main() -> None:
     print()
     print("─── OPTION B: individual links (guaranteed 1-to-1 assignment) ───────")
     print("  Append ?CaseAssigned=CXX to the anonymous link for each HCP.")
-    print("  BUT: RandomizationV2 ignores URL params — for this approach you")
+    print("  BUT: Randomizer ignores URL params — for this approach you")
     print("  must switch to Branch logic in Qualtrics Survey Flow after import,")
     print("  OR simply trust Option A (EvenPresentation is sufficient for N=10).")
     print()
