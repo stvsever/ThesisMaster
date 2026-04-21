@@ -214,27 +214,24 @@ class MergedQSFBuilder(QSFBuilder):
 
     def build(self) -> dict:
         rs_id = gen_id("RS_", self.survey_id)
-
-        block_payload = {
-            str(idx): {
-                "Type": "Default", "SubType": "", "Description": blk["name"],
-                "ID": blk["id"], "BlockElements": blk["elements"],
-                "Options": {"BlockLocking": "false", "RandomizeQuestions": "false",
-                            "BlockVisibility": "Expanded"},
-            }
+        block_payload = self._block_payload()
+        block_type_by_id = {
+            blk["id"]: self._flow_block_type(idx)
             for idx, blk in enumerate(self.blocks)
         }
 
         # ── Build flow ────────────────────────────────────────────────────────
-        fl = [0]
+        fl = [1]
         def nfl() -> str:
+            return f"FL_{fl[0]}"
+        def bump() -> str:
             fl[0] += 1
             return f"FL_{fl[0]}"
 
         def ed_node(field: str, value: str) -> dict:
             return {
                 "Type": "EmbeddedData",
-                "FlowID": nfl(),
+                "FlowID": bump(),
                 "EmbeddedData": [{
                     "Description": field,
                     "Type": "Custom",
@@ -246,104 +243,71 @@ class MergedQSFBuilder(QSFBuilder):
                 }],
             }
 
+        def branch_node(case_code: str, blk_ids: list[str]) -> dict:
+            return {
+                "Type": "Branch",
+                "FlowID": bump(),
+                "Description": f"Casus {case_code}",
+                "BranchLogic": {
+                    "0": {
+                        "0": {
+                            "LogicType": "EmbeddedField",
+                            "LeftOperand": "CaseAssigned",
+                            "Operator": "EqualTo",
+                            "RightOperand": case_code,
+                            "_HiddenExpression": False,
+                            "Type": "Expression",
+                            "Description": self._flow_logic_description("CaseAssigned", case_code),
+                        },
+                        "Type": "If",
+                    },
+                    "Type": "BooleanExpression",
+                },
+                "Flow": [
+                    {
+                        "Type": block_type_by_id[bid],
+                        "ID": bid,
+                        "FlowID": bump(),
+                    }
+                    for bid in blk_ids
+                ],
+            }
+
         flow: list[dict] = []
 
-        # Declare CaseAssigned as embeddeddata field (also reads URL param
-        # e.g. ?CaseAssigned=C01 for manual guaranteed assignment)
-        flow.append(ed_node("CaseAssigned", ""))
-
         for bid in self._shared_before:
-            flow.append({"Type": "Block", "ID": bid, "FlowID": nfl()})
-
-        # Randomizer: EvenPresentation ensures round-robin (each of 10
-        # cases is shown once before any is repeated — with 10 HCPs this
-        # guarantees a distinct case per HCP)
-        rand_groups: list[dict] = []
-        for code, blk_ids in self._case_groups:
-            grp_fl_id = nfl()
-            # EmbeddedData node inside each group records which case was assigned
-            grp_flow: list[dict] = [ed_node("CaseAssigned", code)]
-            grp_flow += [{"Type": "Block", "ID": bid, "FlowID": nfl()}
-                         for bid in blk_ids]
-            rand_groups.append({
-                "Type": "Group",
-                "FlowID": grp_fl_id,
-                "Description": f"Casus {code}",
-                "Flow": grp_flow,
-            })
+            flow.append({"Type": block_type_by_id[bid], "ID": bid, "FlowID": bump()})
 
         flow.append({
-            "Type": "Randomizer",
-            "FlowID": nfl(),
+            "Type": "BlockRandomizer",
+            "FlowID": bump(),
+            "SubSet": 1,
             "EvenPresentation": True,
-            "RandomSubset": 1,
-            "Flow": rand_groups,
+            "Flow": [ed_node("CaseAssigned", code) for code, _ in self._case_groups],
         })
 
+        for code, blk_ids in self._case_groups:
+            flow.append(branch_node(code, blk_ids))
+
         for bid in self._shared_after:
-            flow.append({"Type": "Block", "ID": bid, "FlowID": nfl()})
+            flow.append({"Type": block_type_by_id[bid], "ID": bid, "FlowID": bump()})
 
-        flow.append({"Type": "EndSurvey", "FlowID": nfl()})
+        flow.append({"Type": "EndSurvey", "FlowID": bump()})
 
-        elements: list[dict] = [
-            {"SurveyID": self.survey_id, "Element": "BL",
-             "PrimaryAttribute": "Survey Blocks",
-             "SecondaryAttribute": None, "TertiaryAttribute": None,
-             "Payload": block_payload},
-            {"SurveyID": self.survey_id, "Element": "FL",
-             "PrimaryAttribute": "Survey Flow",
-             "SecondaryAttribute": None, "TertiaryAttribute": None,
-             "Payload": {"Type": "Root", "FlowID": "FL_0",
-                         "Flow": flow, "Properties": {"Count": len(flow)}}},
-            {"SurveyID": self.survey_id, "Element": "SO",
-             "PrimaryAttribute": "Survey Options",
-             "SecondaryAttribute": "Default Question Block",
-             "TertiaryAttribute": None,
-             "Payload": {
-                 "BackButton": "false", "SaveAndContinue": "true",
-                 "SurveyProtection": "PublicSurvey",
-                 "BallotBoxStuffingPrevention": "false",
-                 "NoIndex": "No", "SecureResponseFiles": "true",
-                 "SurveyExpiration": "None",
-                 "SurveyTermination": "DefaultMessage",
-                 "Header": "", "Footer": "",
-                 "ProgressBarDisplay": "WithText", "PartialData": "+7 days",
-                 "ValidationMessage": "", "InactiveSurvey": "DefaultMessage",
-                 "AvailableLanguages": {"NL": "Dutch"}, "Language": "NL",
-                 "CustomStyles": "", "HeaderMid": "", "FooterMid": ""}},
-            {"SurveyID": self.survey_id, "Element": "PROJ",
-             "PrimaryAttribute": "Survey Project",
-             "SecondaryAttribute": None, "TertiaryAttribute": None,
-             "Payload": {"ProjectCategory": "CORE", "SchemaVersion": "1.1.0"}},
-            {"SurveyID": self.survey_id, "Element": "RS",
-             "PrimaryAttribute": rs_id,
-             "SecondaryAttribute": "Default Response Set",
-             "TertiaryAttribute": None,
-             "Payload": {"ID": rs_id, "Name": "Default Response Set",
-                         "IsDefault": True,
-                         "CreationDate": "2026-04-21 10:00:00",
-                         "LastModifiedDate": "2026-04-21 10:00:00"}},
-        ]
+        elements = self._base_elements(
+            block_payload=block_payload,
+            flow_payload={
+                "Type": "Root",
+                "FlowID": "FL_1",
+                "Flow": flow,
+                "Properties": {"Count": fl[0], "RemovedFieldsets": []},
+            },
+            rs_id=rs_id,
+        )
         elements.extend(self.questions)
 
         return {
-            "SurveyEntry": {
-                "SurveyID": self.survey_id, "SurveyName": self.survey_name,
-                "SurveyDescription": None,
-                "SurveyOwnerID": "UR_00000000000000000",
-                "SurveyBrandID": "ugent", "DivisionID": None,
-                "SurveyLanguage": "NL",
-                "SurveyActiveResponseSet": rs_id,
-                "SurveyStatus": "Inactive",
-                "SurveyStartDate": "0000-00-00 00:00:00",
-                "SurveyExpirationDate": "0000-00-00 00:00:00",
-                "SurveyCreationDate": "2026-04-21 10:00:00",
-                "CreatorID": "UR_00000000000000000",
-                "LastModified": "2026-04-21 10:00:00",
-                "LastAccessed": "0000-00-00 00:00:00",
-                "LastActivated": "0000-00-00 00:00:00",
-                "Deleted": None,
-            },
+            "SurveyEntry": self._survey_entry(rs_id),
             "SurveyElements": elements,
         }
 
@@ -363,7 +327,7 @@ def apply_force_response(qsf: dict) -> dict:
         if el["Element"] != "SQ":
             continue
         pl = el["Payload"]
-        if pl["Type"] == "DB":
+        if pl.get("QuestionType", pl.get("Type", "")) == "DB":
             continue
         if pl.get("Selector") == "FORM":
             continue
@@ -519,10 +483,9 @@ def build_merged_survey(cases: list[CaseSurvey], example_url: str,
         q.db(page_d3_case(case, case_url), tag=f"{cc}_D3_CASUS")
         q.rank_order(
             p(b(f"Uw antwoord — Deel 3 ({cc})") + "<br>"
-              + "Rangschik alle 5 behandelingsopties van hoogste (positie 1) naar laagste "
-              + "(positie 5) behandelprioriteit.<br>"
-              + i("Sleep de opties in de gewenste volgorde, "
-                  "of typ rangorde 1–5 in de velden.")),
+              + "Geef voor elke behandelingsoptie een unieke rang van 1 "
+              + "(hoogste prioriteit) tot 5 (laagste prioriteit).<br>"
+              + i("Vul in elk veld een getal 1–5 in en gebruik elk rangnummer exact één keer.")),
             choices=case.part3_options,
             tag=f"{cc}_D3_ANTWOORD",
         )
@@ -635,20 +598,20 @@ def main() -> None:
     print(f"\n✓  {out.name}")
     print(f"   Size: {size_mb:.1f} MB  |  Blocks: {n_b}  |  Questions: {n_q}")
     print(f"\nSurvey flow:")
-    print("  EmbeddedData: CaseAssigned = '' (initialised; overwritten per group)")
     print("  [Shared] Toestemming  (consent + branch-to-end if refused)")
     print("  [Shared] Instructiepagina  (2 pages)")
     print("  [Shared] Intake  (background essay + AI Likert + network Likert)")
     print("  [Shared] Deel 3 — Instructies & Voorbeeld  (network example, shown once)")
-    print("  [Randomizer  EvenPresentation=true  SubSet=1]")
+    print("  [BlockRandomizer  EvenPresentation=true  SubSet=1]")
+    print("    EmbeddedData CaseAssigned := CXX")
+    print("  [Branches on CaseAssigned]")
     for case in cases:
-        print(f"    Group {case.case_code}:  EmbeddedData CaseAssigned={case.case_code}"
-              f"  +  6 blocks  (Titel, Deel 1–6)")
+        print(f"    Branch {case.case_code}:  7 blocks  (Titel, Deel 1–6)")
     print("  [Shared] Afronding")
     print()
-    print("ForceResponse=ON on all interactive questions (MC, matrix, RO, essay).")
-    print("TE/FORM (symptom/treatment labels) intentionally not forced (variable fields).")
-    print("All data (text, matrices, rank order, checkboxes) saved automatically.")
+    print("ForceResponse=ON on all interactive questions (MC, matrix, essay).")
+    print("TE/FORM questions are intentionally not forced (variable fields and ranking entries).")
+    print("All data (text, matrices, ranking entries, checkboxes) saved automatically.")
     print()
     print("─── HOW TO IMPORT ───────────────────────────────────────────────────")
     print("  1. Qualtrics → Create new project → Survey → Import QSF")
