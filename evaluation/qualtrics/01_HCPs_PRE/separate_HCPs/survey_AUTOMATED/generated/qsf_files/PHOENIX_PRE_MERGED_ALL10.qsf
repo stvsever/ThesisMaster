@@ -3177,8 +3177,8 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "ForceResponseType": "OFF",
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
             "Type": "None"
           }
         },
@@ -3299,8 +3299,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID6"
@@ -3377,8 +3378,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID7"
@@ -3455,8 +3457,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID8"
@@ -3881,8 +3884,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID21"
@@ -4073,8 +4077,11 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "SelectMany",
+            "MinChoices": "6",
+            "MaxChoices": "6"
           }
         },
         "QuestionID": "QID25"
@@ -4183,8 +4190,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID29"
@@ -4241,8 +4249,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID31"
@@ -4273,8 +4282,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID32"
@@ -4305,8 +4315,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID33"
@@ -4731,8 +4742,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID46"
@@ -4923,8 +4935,11 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "SelectMany",
+            "MinChoices": "6",
+            "MaxChoices": "6"
           }
         },
         "QuestionID": "QID50"
@@ -5033,8 +5048,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID54"
@@ -5091,8 +5107,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID56"
@@ -5123,8 +5140,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID57"
@@ -5155,8 +5173,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID58"
@@ -5581,8 +5600,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID71"
@@ -5773,8 +5793,11 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "SelectMany",
+            "MinChoices": "6",
+            "MaxChoices": "6"
           }
         },
         "QuestionID": "QID75"
@@ -5883,8 +5906,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID79"
@@ -5941,8 +5965,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID81"
@@ -5973,8 +5998,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID82"
@@ -6005,8 +6031,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID83"
@@ -6431,8 +6458,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID96"
@@ -6623,8 +6651,11 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "SelectMany",
+            "MinChoices": "6",
+            "MaxChoices": "6"
           }
         },
         "QuestionID": "QID100"
@@ -6733,8 +6764,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID104"
@@ -6791,8 +6823,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID106"
@@ -6823,8 +6856,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID107"
@@ -6855,8 +6889,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID108"
@@ -7281,8 +7316,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID121"
@@ -7473,8 +7509,11 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "SelectMany",
+            "MinChoices": "6",
+            "MaxChoices": "6"
           }
         },
         "QuestionID": "QID125"
@@ -7583,8 +7622,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID129"
@@ -7641,8 +7681,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID131"
@@ -7673,8 +7714,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID132"
@@ -7705,8 +7747,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID133"
@@ -8131,8 +8174,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID146"
@@ -8323,8 +8367,11 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "SelectMany",
+            "MinChoices": "6",
+            "MaxChoices": "6"
           }
         },
         "QuestionID": "QID150"
@@ -8433,8 +8480,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID154"
@@ -8491,8 +8539,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID156"
@@ -8523,8 +8572,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID157"
@@ -8555,8 +8605,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID158"
@@ -8981,8 +9032,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID171"
@@ -9173,8 +9225,11 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "SelectMany",
+            "MinChoices": "6",
+            "MaxChoices": "6"
           }
         },
         "QuestionID": "QID175"
@@ -9283,8 +9338,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID179"
@@ -9341,8 +9397,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID181"
@@ -9373,8 +9430,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID182"
@@ -9405,8 +9463,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID183"
@@ -9831,8 +9890,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID196"
@@ -10023,8 +10083,11 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "SelectMany",
+            "MinChoices": "6",
+            "MaxChoices": "6"
           }
         },
         "QuestionID": "QID200"
@@ -10133,8 +10196,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID204"
@@ -10191,8 +10255,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID206"
@@ -10223,8 +10288,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID207"
@@ -10255,8 +10321,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID208"
@@ -10681,8 +10748,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID221"
@@ -10873,8 +10941,11 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "SelectMany",
+            "MinChoices": "6",
+            "MaxChoices": "6"
           }
         },
         "QuestionID": "QID225"
@@ -10983,8 +11054,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID229"
@@ -11041,8 +11113,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID231"
@@ -11073,8 +11146,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID232"
@@ -11105,8 +11179,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID233"
@@ -11531,8 +11606,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID246"
@@ -11723,8 +11799,11 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "SelectMany",
+            "MinChoices": "6",
+            "MaxChoices": "6"
           }
         },
         "QuestionID": "QID250"
@@ -11833,8 +11912,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID254"
@@ -11891,8 +11971,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID256"
@@ -11923,8 +12004,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID257"
@@ -11955,8 +12037,9 @@
         },
         "Validation": {
           "Settings": {
-            "ForceResponse": "OFF",
-            "Type": "None"
+            "ForceResponse": "ON",
+            "Type": "None",
+            "ForceResponseType": "ON"
           }
         },
         "QuestionID": "QID258"

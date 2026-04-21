@@ -340,6 +340,31 @@ class MergedQSFBuilder(QSFBuilder):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# FORCE-RESPONSE POST-PROCESSOR
+# ─────────────────────────────────────────────────────────────────────────────
+
+def apply_force_response(qsf: dict) -> dict:
+    """Set ForceResponse=ON on every interactive question.
+    Exceptions:
+      - DB  (descriptive text blocks — no response field)
+      - FORM (te_form symptom/treatment labels — variable number of fields;
+              HCPs are instructed to leave unused slots blank)
+    """
+    for el in qsf["SurveyElements"]:
+        if el["Element"] != "SQ":
+            continue
+        pl = el["Payload"]
+        if pl["Type"] == "DB":
+            continue
+        if pl.get("Selector") == "FORM":
+            continue
+        v = pl.setdefault("Validation", {}).setdefault("Settings", {})
+        v["ForceResponse"] = "ON"
+        v["ForceResponseType"] = "ON"
+    return qsf
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # SURVEY BUILDER
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -359,7 +384,6 @@ def build_merged_survey(cases: list[CaseSurvey], example_b64: str) -> dict:
                  "Nee, ik stem niet toe en wil niet deelnemen."],
         tag="CONSENT",
         skip_end_if=2,
-        force=False,
     )
 
     # ── Block 2: Instructiepagina ─────────────────────────────────────────────
@@ -505,6 +529,7 @@ def build_merged_survey(cases: list[CaseSurvey], example_b64: str) -> dict:
             choices=[f"{n}.&nbsp; {item}"
                      for n, item in enumerate(case.part4_items, start=1)],
             tag=f"{cc}_D4_ANTWOORD",
+            min_c=6, max_c=6,
         )
 
         # ── Deel 5 ────────────────────────────────────────────────────────────
@@ -537,7 +562,7 @@ def build_merged_survey(cases: list[CaseSurvey], example_b64: str) -> dict:
     q.block("Afronding")
     q.db(page_closing_generic(), tag="AFRONDING")
 
-    return q.build()
+    return apply_force_response(q.build())
 
 
 # ─────────────────────────────────────────────────────────────────────────────
