@@ -4,7 +4,7 @@
 
 [[Question:DB]]
 [[ID:HCP01_CONSENT_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Contact</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 20px;margin:16px 0 8px 0;"><h4 style="color:#1e3a5f;font-size:.97em;margin:0 0 10px 0;font-weight:700;">Contact</h4><ul style="margin:0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul></div><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
 
 [[Question:MC:SingleAnswer:Vertical]]
 [[ID:HCP01_CONSENT_DECISION]]
@@ -21,7 +21,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP01_INTRO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:0 0 20px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C01 — 28-jarige softwareontwikkelaar</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klinisch beeld</td><td style="padding:3px 0;color:#1e3a5f;">Inslaapproblemen, cognitieve hyperarousal, sociale anhedonie, stressgerelateerde spierspanning</td></tr><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">2 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><p style="margin:0 0 14px 0;line-height:1.65;">U voert voor bovenstaande casus dezelfde vijf klinische redeneerstappen uit als het multi-agentisch systeem. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><p style="margin:0 0 6px 0;line-height:1.65;">Dit onderzoek evalueert de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem. Het systeem verwerkt een klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen — van symptoomlabeling tot gepersonaliseerde mobiele coaching. U voert diezelfde vijf stappen zelfstandig uit op basis van uw klinisch oordeel. Uw antwoorden vormen het menselijk referentiecorpus voor een latere dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:14px 0 14px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C01 — 28-jarige softwareontwikkelaar</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">2 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
 
 [[PageBreak]]
 
@@ -29,18 +29,18 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP01_INTAKE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li></ul></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP01_INTAKE_BACKGROUND]]
-Beschrijf kort uw professionele achtergrond en klinische ervaring:
+(1) Beschrijf kort uw professionele achtergrond en klinische ervaring:
 — Discipline en huidige functie
 — Aantal jaren klinische ervaring
 — Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP01_INTAKE_AGENTIC_AI]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
+(2) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
 [[Choices]]
 Ik zie agentic AI als een potentieel zinvolle ondersteuning voor klinische besluitvorming in mentale gezondheidszorg.
 Ik zou agentic AI enkel vertrouwen wanneer de onderliggende redeneerstappen expliciet en controleerbaar worden getoond.
@@ -56,7 +56,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 
 [[Question:Matrix]]
 [[ID:HCP01_INTAKE_NETWORK_ANALYSIS]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
+(3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
 Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
@@ -80,7 +80,7 @@ Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis vo
 
 [[PageBreak]]
 
-[[Block:HCP01_Deel 1]]
+[[Block:HCP01_Casus]]
 
 [[Question:DB]]
 [[ID:HCP01_PART1_INFO]]
@@ -106,7 +106,6 @@ Symptoom 6
 
 [[PageBreak]]
 
-[[Block:HCP01_Deel 2]]
 
 [[Question:DB]]
 [[ID:HCP01_PART2_INFO]]
@@ -137,7 +136,6 @@ Behandelingsoptie 5
 
 [[PageBreak]]
 
-[[Block:HCP01_Deel 3]]
 
 [[Question:DB]]
 [[ID:HCP01_PART3_INFO]]
@@ -161,7 +159,6 @@ BO-5: Aerobe beweging
 
 [[PageBreak]]
 
-[[Block:HCP01_Deel 4]]
 
 [[Question:DB]]
 [[ID:HCP01_PART4_INFO]]
@@ -200,7 +197,6 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (
 
 [[PageBreak]]
 
-[[Block:HCP01_Deel 5]]
 
 [[Question:DB]]
 [[ID:HCP01_PART5_INFO]]
@@ -218,7 +214,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP01_Deel 6]]
 
 [[Question:DB]]
 [[ID:HCP01_PART6_INFO]]
@@ -238,7 +233,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP01_Afronding]]
 
 [[Question:DB]]
 [[ID:HCP01_CLOSING]]
@@ -248,7 +242,7 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[Question:DB]]
 [[ID:HCP02_CONSENT_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Contact</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 20px;margin:16px 0 8px 0;"><h4 style="color:#1e3a5f;font-size:.97em;margin:0 0 10px 0;font-weight:700;">Contact</h4><ul style="margin:0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul></div><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
 
 [[Question:MC:SingleAnswer:Vertical]]
 [[ID:HCP02_CONSENT_DECISION]]
@@ -265,7 +259,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP02_INTRO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:0 0 20px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C02 — 34-jarige administratief medewerker in de zorg</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klinisch beeld</td><td style="padding:3px 0;color:#1e3a5f;">Recidiverende paniekepisoden, anticipatieangst, situationele vermijding, beroepsmatige interferentie</td></tr><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">3 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><p style="margin:0 0 14px 0;line-height:1.65;">U voert voor bovenstaande casus dezelfde vijf klinische redeneerstappen uit als het multi-agentisch systeem. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><p style="margin:0 0 6px 0;line-height:1.65;">Dit onderzoek evalueert de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem. Het systeem verwerkt een klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen — van symptoomlabeling tot gepersonaliseerde mobiele coaching. U voert diezelfde vijf stappen zelfstandig uit op basis van uw klinisch oordeel. Uw antwoorden vormen het menselijk referentiecorpus voor een latere dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:14px 0 14px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C02 — 34-jarige administratief medewerker in de zorg</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">3 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
 
 [[PageBreak]]
 
@@ -273,18 +267,18 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP02_INTAKE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li></ul></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP02_INTAKE_BACKGROUND]]
-Beschrijf kort uw professionele achtergrond en klinische ervaring:
+(1) Beschrijf kort uw professionele achtergrond en klinische ervaring:
 — Discipline en huidige functie
 — Aantal jaren klinische ervaring
 — Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP02_INTAKE_AGENTIC_AI]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
+(2) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
 [[Choices]]
 Ik zie agentic AI als een potentieel zinvolle ondersteuning voor klinische besluitvorming in mentale gezondheidszorg.
 Ik zou agentic AI enkel vertrouwen wanneer de onderliggende redeneerstappen expliciet en controleerbaar worden getoond.
@@ -300,7 +294,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 
 [[Question:Matrix]]
 [[ID:HCP02_INTAKE_NETWORK_ANALYSIS]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
+(3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
 Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
@@ -324,7 +318,7 @@ Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis vo
 
 [[PageBreak]]
 
-[[Block:HCP02_Deel 1]]
+[[Block:HCP02_Casus]]
 
 [[Question:DB]]
 [[ID:HCP02_PART1_INFO]]
@@ -350,7 +344,6 @@ Symptoom 6
 
 [[PageBreak]]
 
-[[Block:HCP02_Deel 2]]
 
 [[Question:DB]]
 [[ID:HCP02_PART2_INFO]]
@@ -381,7 +374,6 @@ Behandelingsoptie 5
 
 [[PageBreak]]
 
-[[Block:HCP02_Deel 3]]
 
 [[Question:DB]]
 [[ID:HCP02_PART3_INFO]]
@@ -405,7 +397,6 @@ BO-5: Dagstructuur
 
 [[PageBreak]]
 
-[[Block:HCP02_Deel 4]]
 
 [[Question:DB]]
 [[ID:HCP02_PART4_INFO]]
@@ -444,7 +435,6 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (
 
 [[PageBreak]]
 
-[[Block:HCP02_Deel 5]]
 
 [[Question:DB]]
 [[ID:HCP02_PART5_INFO]]
@@ -462,7 +452,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP02_Deel 6]]
 
 [[Question:DB]]
 [[ID:HCP02_PART6_INFO]]
@@ -482,7 +471,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP02_Afronding]]
 
 [[Question:DB]]
 [[ID:HCP02_CLOSING]]
@@ -492,7 +480,7 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[Question:DB]]
 [[ID:HCP03_CONSENT_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Contact</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 20px;margin:16px 0 8px 0;"><h4 style="color:#1e3a5f;font-size:.97em;margin:0 0 10px 0;font-weight:700;">Contact</h4><ul style="margin:0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul></div><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
 
 [[Question:MC:SingleAnswer:Vertical]]
 [[ID:HCP03_CONSENT_DECISION]]
@@ -509,7 +497,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP03_INTRO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:0 0 20px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C03 — 41-jarige leraar secundair onderwijs</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klinisch beeld</td><td style="padding:3px 0;color:#1e3a5f;">Emotionele uitputting, professionele depersonalisatie, sociale terugtrekking, cognitieve fouten op het werk</td></tr><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">7 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><p style="margin:0 0 14px 0;line-height:1.65;">U voert voor bovenstaande casus dezelfde vijf klinische redeneerstappen uit als het multi-agentisch systeem. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><p style="margin:0 0 6px 0;line-height:1.65;">Dit onderzoek evalueert de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem. Het systeem verwerkt een klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen — van symptoomlabeling tot gepersonaliseerde mobiele coaching. U voert diezelfde vijf stappen zelfstandig uit op basis van uw klinisch oordeel. Uw antwoorden vormen het menselijk referentiecorpus voor een latere dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:14px 0 14px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C03 — 41-jarige leraar secundair onderwijs</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">7 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
 
 [[PageBreak]]
 
@@ -517,18 +505,18 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP03_INTAKE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li></ul></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP03_INTAKE_BACKGROUND]]
-Beschrijf kort uw professionele achtergrond en klinische ervaring:
+(1) Beschrijf kort uw professionele achtergrond en klinische ervaring:
 — Discipline en huidige functie
 — Aantal jaren klinische ervaring
 — Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP03_INTAKE_AGENTIC_AI]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
+(2) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
 [[Choices]]
 Ik zie agentic AI als een potentieel zinvolle ondersteuning voor klinische besluitvorming in mentale gezondheidszorg.
 Ik zou agentic AI enkel vertrouwen wanneer de onderliggende redeneerstappen expliciet en controleerbaar worden getoond.
@@ -544,7 +532,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 
 [[Question:Matrix]]
 [[ID:HCP03_INTAKE_NETWORK_ANALYSIS]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
+(3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
 Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
@@ -568,7 +556,7 @@ Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis vo
 
 [[PageBreak]]
 
-[[Block:HCP03_Deel 1]]
+[[Block:HCP03_Casus]]
 
 [[Question:DB]]
 [[ID:HCP03_PART1_INFO]]
@@ -594,7 +582,6 @@ Symptoom 6
 
 [[PageBreak]]
 
-[[Block:HCP03_Deel 2]]
 
 [[Question:DB]]
 [[ID:HCP03_PART2_INFO]]
@@ -625,7 +612,6 @@ Behandelingsoptie 5
 
 [[PageBreak]]
 
-[[Block:HCP03_Deel 3]]
 
 [[Question:DB]]
 [[ID:HCP03_PART3_INFO]]
@@ -649,7 +635,6 @@ BO-5: Slaapkwaliteit
 
 [[PageBreak]]
 
-[[Block:HCP03_Deel 4]]
 
 [[Question:DB]]
 [[ID:HCP03_PART4_INFO]]
@@ -688,7 +673,6 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (
 
 [[PageBreak]]
 
-[[Block:HCP03_Deel 5]]
 
 [[Question:DB]]
 [[ID:HCP03_PART5_INFO]]
@@ -706,7 +690,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP03_Deel 6]]
 
 [[Question:DB]]
 [[ID:HCP03_PART6_INFO]]
@@ -726,7 +709,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP03_Afronding]]
 
 [[Question:DB]]
 [[ID:HCP03_CLOSING]]
@@ -736,7 +718,7 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[Question:DB]]
 [[ID:HCP04_CONSENT_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Contact</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 20px;margin:16px 0 8px 0;"><h4 style="color:#1e3a5f;font-size:.97em;margin:0 0 10px 0;font-weight:700;">Contact</h4><ul style="margin:0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul></div><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
 
 [[Question:MC:SingleAnswer:Vertical]]
 [[ID:HCP04_CONSENT_DECISION]]
@@ -753,7 +735,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP04_INTRO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:0 0 20px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C04 — 63-jarige gepensioneerde professional</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klinisch beeld</td><td style="padding:3px 0;color:#1e3a5f;">Aanhoudende rouwreactie, doorslaapinsomnie, schuldgedreven ruminatie, verminderde toekomstoriëntatie</td></tr><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">9 maanden (na overlijden partner)</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><p style="margin:0 0 14px 0;line-height:1.65;">U voert voor bovenstaande casus dezelfde vijf klinische redeneerstappen uit als het multi-agentisch systeem. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><p style="margin:0 0 6px 0;line-height:1.65;">Dit onderzoek evalueert de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem. Het systeem verwerkt een klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen — van symptoomlabeling tot gepersonaliseerde mobiele coaching. U voert diezelfde vijf stappen zelfstandig uit op basis van uw klinisch oordeel. Uw antwoorden vormen het menselijk referentiecorpus voor een latere dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:14px 0 14px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C04 — 63-jarige gepensioneerde professional</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">9 maanden (na overlijden partner)</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
 
 [[PageBreak]]
 
@@ -761,18 +743,18 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP04_INTAKE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li></ul></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP04_INTAKE_BACKGROUND]]
-Beschrijf kort uw professionele achtergrond en klinische ervaring:
+(1) Beschrijf kort uw professionele achtergrond en klinische ervaring:
 — Discipline en huidige functie
 — Aantal jaren klinische ervaring
 — Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP04_INTAKE_AGENTIC_AI]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
+(2) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
 [[Choices]]
 Ik zie agentic AI als een potentieel zinvolle ondersteuning voor klinische besluitvorming in mentale gezondheidszorg.
 Ik zou agentic AI enkel vertrouwen wanneer de onderliggende redeneerstappen expliciet en controleerbaar worden getoond.
@@ -788,7 +770,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 
 [[Question:Matrix]]
 [[ID:HCP04_INTAKE_NETWORK_ANALYSIS]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
+(3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
 Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
@@ -812,7 +794,7 @@ Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis vo
 
 [[PageBreak]]
 
-[[Block:HCP04_Deel 1]]
+[[Block:HCP04_Casus]]
 
 [[Question:DB]]
 [[ID:HCP04_PART1_INFO]]
@@ -838,7 +820,6 @@ Symptoom 6
 
 [[PageBreak]]
 
-[[Block:HCP04_Deel 2]]
 
 [[Question:DB]]
 [[ID:HCP04_PART2_INFO]]
@@ -869,7 +850,6 @@ Behandelingsoptie 5
 
 [[PageBreak]]
 
-[[Block:HCP04_Deel 3]]
 
 [[Question:DB]]
 [[ID:HCP04_PART3_INFO]]
@@ -893,7 +873,6 @@ BO-5: Toekomstplanning
 
 [[PageBreak]]
 
-[[Block:HCP04_Deel 4]]
 
 [[Question:DB]]
 [[ID:HCP04_PART4_INFO]]
@@ -932,7 +911,6 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (
 
 [[PageBreak]]
 
-[[Block:HCP04_Deel 5]]
 
 [[Question:DB]]
 [[ID:HCP04_PART5_INFO]]
@@ -950,7 +928,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP04_Deel 6]]
 
 [[Question:DB]]
 [[ID:HCP04_PART6_INFO]]
@@ -970,7 +947,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP04_Afronding]]
 
 [[Question:DB]]
 [[ID:HCP04_CLOSING]]
@@ -980,7 +956,7 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[Question:DB]]
 [[ID:HCP05_CONSENT_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Contact</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 20px;margin:16px 0 8px 0;"><h4 style="color:#1e3a5f;font-size:.97em;margin:0 0 10px 0;font-weight:700;">Contact</h4><ul style="margin:0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul></div><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
 
 [[Question:MC:SingleAnswer:Vertical]]
 [[ID:HCP05_CONSENT_DECISION]]
@@ -997,7 +973,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP05_INTRO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:0 0 20px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C05 — 25-jarige postgraduaatsstudent</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klinisch beeld</td><td style="padding:3px 0;color:#1e3a5f;">Intrusieve schadeobsessies, compulsieve mentale controle, situationele vermijding, tijdsbelasting door OCD-rituelen</td></tr><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">18 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><p style="margin:0 0 14px 0;line-height:1.65;">U voert voor bovenstaande casus dezelfde vijf klinische redeneerstappen uit als het multi-agentisch systeem. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><p style="margin:0 0 6px 0;line-height:1.65;">Dit onderzoek evalueert de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem. Het systeem verwerkt een klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen — van symptoomlabeling tot gepersonaliseerde mobiele coaching. U voert diezelfde vijf stappen zelfstandig uit op basis van uw klinisch oordeel. Uw antwoorden vormen het menselijk referentiecorpus voor een latere dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:14px 0 14px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C05 — 25-jarige postgraduaatsstudent</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">18 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
 
 [[PageBreak]]
 
@@ -1005,18 +981,18 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP05_INTAKE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li></ul></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP05_INTAKE_BACKGROUND]]
-Beschrijf kort uw professionele achtergrond en klinische ervaring:
+(1) Beschrijf kort uw professionele achtergrond en klinische ervaring:
 — Discipline en huidige functie
 — Aantal jaren klinische ervaring
 — Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP05_INTAKE_AGENTIC_AI]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
+(2) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
 [[Choices]]
 Ik zie agentic AI als een potentieel zinvolle ondersteuning voor klinische besluitvorming in mentale gezondheidszorg.
 Ik zou agentic AI enkel vertrouwen wanneer de onderliggende redeneerstappen expliciet en controleerbaar worden getoond.
@@ -1032,7 +1008,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 
 [[Question:Matrix]]
 [[ID:HCP05_INTAKE_NETWORK_ANALYSIS]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
+(3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
 Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
@@ -1056,7 +1032,7 @@ Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis vo
 
 [[PageBreak]]
 
-[[Block:HCP05_Deel 1]]
+[[Block:HCP05_Casus]]
 
 [[Question:DB]]
 [[ID:HCP05_PART1_INFO]]
@@ -1082,7 +1058,6 @@ Symptoom 6
 
 [[PageBreak]]
 
-[[Block:HCP05_Deel 2]]
 
 [[Question:DB]]
 [[ID:HCP05_PART2_INFO]]
@@ -1113,7 +1088,6 @@ Behandelingsoptie 5
 
 [[PageBreak]]
 
-[[Block:HCP05_Deel 3]]
 
 [[Question:DB]]
 [[ID:HCP05_PART3_INFO]]
@@ -1137,7 +1111,6 @@ BO-5: Geruststellingszoekend gedrag
 
 [[PageBreak]]
 
-[[Block:HCP05_Deel 4]]
 
 [[Question:DB]]
 [[ID:HCP05_PART4_INFO]]
@@ -1176,7 +1149,6 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (
 
 [[PageBreak]]
 
-[[Block:HCP05_Deel 5]]
 
 [[Question:DB]]
 [[ID:HCP05_PART5_INFO]]
@@ -1194,7 +1166,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP05_Deel 6]]
 
 [[Question:DB]]
 [[ID:HCP05_PART6_INFO]]
@@ -1214,7 +1185,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP05_Afronding]]
 
 [[Question:DB]]
 [[ID:HCP05_CLOSING]]
@@ -1224,7 +1194,7 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[Question:DB]]
 [[ID:HCP06_CONSENT_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Contact</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 20px;margin:16px 0 8px 0;"><h4 style="color:#1e3a5f;font-size:.97em;margin:0 0 10px 0;font-weight:700;">Contact</h4><ul style="margin:0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul></div><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
 
 [[Question:MC:SingleAnswer:Vertical]]
 [[ID:HCP06_CONSENT_DECISION]]
@@ -1241,7 +1211,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP06_INTRO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:0 0 20px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C06 — 32-jarige marketingprofessional</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klinisch beeld</td><td style="padding:3px 0;color:#1e3a5f;">Prestatieangst op het werk, post-event ruminatie, excessieve voorbereiding, vermijding van professionele zichtbaarheid</td></tr><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">2 jaar</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><p style="margin:0 0 14px 0;line-height:1.65;">U voert voor bovenstaande casus dezelfde vijf klinische redeneerstappen uit als het multi-agentisch systeem. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><p style="margin:0 0 6px 0;line-height:1.65;">Dit onderzoek evalueert de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem. Het systeem verwerkt een klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen — van symptoomlabeling tot gepersonaliseerde mobiele coaching. U voert diezelfde vijf stappen zelfstandig uit op basis van uw klinisch oordeel. Uw antwoorden vormen het menselijk referentiecorpus voor een latere dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:14px 0 14px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C06 — 32-jarige marketingprofessional</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">2 jaar</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
 
 [[PageBreak]]
 
@@ -1249,18 +1219,18 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP06_INTAKE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li></ul></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP06_INTAKE_BACKGROUND]]
-Beschrijf kort uw professionele achtergrond en klinische ervaring:
+(1) Beschrijf kort uw professionele achtergrond en klinische ervaring:
 — Discipline en huidige functie
 — Aantal jaren klinische ervaring
 — Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP06_INTAKE_AGENTIC_AI]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
+(2) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
 [[Choices]]
 Ik zie agentic AI als een potentieel zinvolle ondersteuning voor klinische besluitvorming in mentale gezondheidszorg.
 Ik zou agentic AI enkel vertrouwen wanneer de onderliggende redeneerstappen expliciet en controleerbaar worden getoond.
@@ -1276,7 +1246,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 
 [[Question:Matrix]]
 [[ID:HCP06_INTAKE_NETWORK_ANALYSIS]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
+(3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
 Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
@@ -1300,7 +1270,7 @@ Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis vo
 
 [[PageBreak]]
 
-[[Block:HCP06_Deel 1]]
+[[Block:HCP06_Casus]]
 
 [[Question:DB]]
 [[ID:HCP06_PART1_INFO]]
@@ -1326,7 +1296,6 @@ Symptoom 6
 
 [[PageBreak]]
 
-[[Block:HCP06_Deel 2]]
 
 [[Question:DB]]
 [[ID:HCP06_PART2_INFO]]
@@ -1357,7 +1326,6 @@ Behandelingsoptie 5
 
 [[PageBreak]]
 
-[[Block:HCP06_Deel 3]]
 
 [[Question:DB]]
 [[ID:HCP06_PART3_INFO]]
@@ -1381,7 +1349,6 @@ BO-5: Vermijdingslogging
 
 [[PageBreak]]
 
-[[Block:HCP06_Deel 4]]
 
 [[Question:DB]]
 [[ID:HCP06_PART4_INFO]]
@@ -1420,7 +1387,6 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (
 
 [[PageBreak]]
 
-[[Block:HCP06_Deel 5]]
 
 [[Question:DB]]
 [[ID:HCP06_PART5_INFO]]
@@ -1438,7 +1404,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP06_Deel 6]]
 
 [[Question:DB]]
 [[ID:HCP06_PART6_INFO]]
@@ -1458,7 +1423,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP06_Afronding]]
 
 [[Question:DB]]
 [[ID:HCP06_CLOSING]]
@@ -1468,7 +1432,7 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[Question:DB]]
 [[ID:HCP07_CONSENT_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Contact</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 20px;margin:16px 0 8px 0;"><h4 style="color:#1e3a5f;font-size:.97em;margin:0 0 10px 0;font-weight:700;">Contact</h4><ul style="margin:0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul></div><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
 
 [[Question:MC:SingleAnswer:Vertical]]
 [[ID:HCP07_CONSENT_DECISION]]
@@ -1485,7 +1449,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP07_INTRO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:0 0 20px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C07 — 46-jarige accountmanager</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klinisch beeld</td><td style="padding:3px 0;color:#1e3a5f;">Aanhoudende sombere stemming, anergie, sociale isolatie, hopeloosheid over herstel</td></tr><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">14 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><p style="margin:0 0 14px 0;line-height:1.65;">U voert voor bovenstaande casus dezelfde vijf klinische redeneerstappen uit als het multi-agentisch systeem. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><p style="margin:0 0 6px 0;line-height:1.65;">Dit onderzoek evalueert de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem. Het systeem verwerkt een klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen — van symptoomlabeling tot gepersonaliseerde mobiele coaching. U voert diezelfde vijf stappen zelfstandig uit op basis van uw klinisch oordeel. Uw antwoorden vormen het menselijk referentiecorpus voor een latere dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:14px 0 14px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C07 — 46-jarige accountmanager</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">14 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
 
 [[PageBreak]]
 
@@ -1493,18 +1457,18 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP07_INTAKE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li></ul></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP07_INTAKE_BACKGROUND]]
-Beschrijf kort uw professionele achtergrond en klinische ervaring:
+(1) Beschrijf kort uw professionele achtergrond en klinische ervaring:
 — Discipline en huidige functie
 — Aantal jaren klinische ervaring
 — Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP07_INTAKE_AGENTIC_AI]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
+(2) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
 [[Choices]]
 Ik zie agentic AI als een potentieel zinvolle ondersteuning voor klinische besluitvorming in mentale gezondheidszorg.
 Ik zou agentic AI enkel vertrouwen wanneer de onderliggende redeneerstappen expliciet en controleerbaar worden getoond.
@@ -1520,7 +1484,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 
 [[Question:Matrix]]
 [[ID:HCP07_INTAKE_NETWORK_ANALYSIS]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
+(3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
 Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
@@ -1544,7 +1508,7 @@ Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis vo
 
 [[PageBreak]]
 
-[[Block:HCP07_Deel 1]]
+[[Block:HCP07_Casus]]
 
 [[Question:DB]]
 [[ID:HCP07_PART1_INFO]]
@@ -1570,7 +1534,6 @@ Symptoom 6
 
 [[PageBreak]]
 
-[[Block:HCP07_Deel 2]]
 
 [[Question:DB]]
 [[ID:HCP07_PART2_INFO]]
@@ -1601,7 +1564,6 @@ Behandelingsoptie 5
 
 [[PageBreak]]
 
-[[Block:HCP07_Deel 3]]
 
 [[Question:DB]]
 [[ID:HCP07_PART3_INFO]]
@@ -1625,7 +1587,6 @@ BO-5: Cognitieve tegenspraak hopeloosheid
 
 [[PageBreak]]
 
-[[Block:HCP07_Deel 4]]
 
 [[Question:DB]]
 [[ID:HCP07_PART4_INFO]]
@@ -1664,7 +1625,6 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (
 
 [[PageBreak]]
 
-[[Block:HCP07_Deel 5]]
 
 [[Question:DB]]
 [[ID:HCP07_PART5_INFO]]
@@ -1682,7 +1642,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP07_Deel 6]]
 
 [[Question:DB]]
 [[ID:HCP07_PART6_INFO]]
@@ -1702,7 +1661,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP07_Afronding]]
 
 [[Question:DB]]
 [[ID:HCP07_CLOSING]]
@@ -1712,7 +1670,7 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[Question:DB]]
 [[ID:HCP08_CONSENT_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Contact</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 20px;margin:16px 0 8px 0;"><h4 style="color:#1e3a5f;font-size:.97em;margin:0 0 10px 0;font-weight:700;">Contact</h4><ul style="margin:0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul></div><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
 
 [[Question:MC:SingleAnswer:Vertical]]
 [[ID:HCP08_CONSENT_DECISION]]
@@ -1729,7 +1687,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP08_INTRO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:0 0 20px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C08 — 38-jarige projectmanager</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klinisch beeld</td><td style="padding:3px 0;color:#1e3a5f;">Aandachtsvolhoudingsproblemen, plannings- en organisatiefouten, interpersoonlijke onoplettendheid, prestatieschaamte</td></tr><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">Levenslang; verergerd in de voorbije 12 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><p style="margin:0 0 14px 0;line-height:1.65;">U voert voor bovenstaande casus dezelfde vijf klinische redeneerstappen uit als het multi-agentisch systeem. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><p style="margin:0 0 6px 0;line-height:1.65;">Dit onderzoek evalueert de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem. Het systeem verwerkt een klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen — van symptoomlabeling tot gepersonaliseerde mobiele coaching. U voert diezelfde vijf stappen zelfstandig uit op basis van uw klinisch oordeel. Uw antwoorden vormen het menselijk referentiecorpus voor een latere dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:14px 0 14px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C08 — 38-jarige projectmanager</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">Levenslang; verergerd in de voorbije 12 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
 
 [[PageBreak]]
 
@@ -1737,18 +1695,18 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP08_INTAKE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li></ul></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP08_INTAKE_BACKGROUND]]
-Beschrijf kort uw professionele achtergrond en klinische ervaring:
+(1) Beschrijf kort uw professionele achtergrond en klinische ervaring:
 — Discipline en huidige functie
 — Aantal jaren klinische ervaring
 — Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP08_INTAKE_AGENTIC_AI]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
+(2) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
 [[Choices]]
 Ik zie agentic AI als een potentieel zinvolle ondersteuning voor klinische besluitvorming in mentale gezondheidszorg.
 Ik zou agentic AI enkel vertrouwen wanneer de onderliggende redeneerstappen expliciet en controleerbaar worden getoond.
@@ -1764,7 +1722,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 
 [[Question:Matrix]]
 [[ID:HCP08_INTAKE_NETWORK_ANALYSIS]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
+(3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
 Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
@@ -1788,7 +1746,7 @@ Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis vo
 
 [[PageBreak]]
 
-[[Block:HCP08_Deel 1]]
+[[Block:HCP08_Casus]]
 
 [[Question:DB]]
 [[ID:HCP08_PART1_INFO]]
@@ -1814,7 +1772,6 @@ Symptoom 6
 
 [[PageBreak]]
 
-[[Block:HCP08_Deel 2]]
 
 [[Question:DB]]
 [[ID:HCP08_PART2_INFO]]
@@ -1845,7 +1802,6 @@ Behandelingsoptie 5
 
 [[PageBreak]]
 
-[[Block:HCP08_Deel 3]]
 
 [[Question:DB]]
 [[ID:HCP08_PART3_INFO]]
@@ -1869,7 +1825,6 @@ BO-5: Overgangsrituelen
 
 [[PageBreak]]
 
-[[Block:HCP08_Deel 4]]
 
 [[Question:DB]]
 [[ID:HCP08_PART4_INFO]]
@@ -1908,7 +1863,6 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (
 
 [[PageBreak]]
 
-[[Block:HCP08_Deel 5]]
 
 [[Question:DB]]
 [[ID:HCP08_PART5_INFO]]
@@ -1926,7 +1880,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP08_Deel 6]]
 
 [[Question:DB]]
 [[ID:HCP08_PART6_INFO]]
@@ -1946,7 +1899,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP08_Afronding]]
 
 [[Question:DB]]
 [[ID:HCP08_CLOSING]]
@@ -1956,7 +1908,7 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[Question:DB]]
 [[ID:HCP09_CONSENT_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Contact</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 20px;margin:16px 0 8px 0;"><h4 style="color:#1e3a5f;font-size:.97em;margin:0 0 10px 0;font-weight:700;">Contact</h4><ul style="margin:0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul></div><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
 
 [[Question:MC:SingleAnswer:Vertical]]
 [[ID:HCP09_CONSENT_DECISION]]
@@ -1973,7 +1925,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP09_INTRO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:0 0 20px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C09 — 27-jarige salesvertegenwoordiger</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klinisch beeld</td><td style="padding:3px 0;color:#1e3a5f;">Snelle stemmingsschommelingen, uitgesproken afwijzingsreactiviteit, impulsief gedrag, relationele instabiliteit</td></tr><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">3 jaar</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><p style="margin:0 0 14px 0;line-height:1.65;">U voert voor bovenstaande casus dezelfde vijf klinische redeneerstappen uit als het multi-agentisch systeem. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><p style="margin:0 0 6px 0;line-height:1.65;">Dit onderzoek evalueert de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem. Het systeem verwerkt een klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen — van symptoomlabeling tot gepersonaliseerde mobiele coaching. U voert diezelfde vijf stappen zelfstandig uit op basis van uw klinisch oordeel. Uw antwoorden vormen het menselijk referentiecorpus voor een latere dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:14px 0 14px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C09 — 27-jarige salesvertegenwoordiger</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">3 jaar</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
 
 [[PageBreak]]
 
@@ -1981,18 +1933,18 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP09_INTAKE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li></ul></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP09_INTAKE_BACKGROUND]]
-Beschrijf kort uw professionele achtergrond en klinische ervaring:
+(1) Beschrijf kort uw professionele achtergrond en klinische ervaring:
 — Discipline en huidige functie
 — Aantal jaren klinische ervaring
 — Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP09_INTAKE_AGENTIC_AI]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
+(2) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
 [[Choices]]
 Ik zie agentic AI als een potentieel zinvolle ondersteuning voor klinische besluitvorming in mentale gezondheidszorg.
 Ik zou agentic AI enkel vertrouwen wanneer de onderliggende redeneerstappen expliciet en controleerbaar worden getoond.
@@ -2008,7 +1960,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 
 [[Question:Matrix]]
 [[ID:HCP09_INTAKE_NETWORK_ANALYSIS]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
+(3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
 Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
@@ -2032,7 +1984,7 @@ Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis vo
 
 [[PageBreak]]
 
-[[Block:HCP09_Deel 1]]
+[[Block:HCP09_Casus]]
 
 [[Question:DB]]
 [[ID:HCP09_PART1_INFO]]
@@ -2058,7 +2010,6 @@ Symptoom 6
 
 [[PageBreak]]
 
-[[Block:HCP09_Deel 2]]
 
 [[Question:DB]]
 [[ID:HCP09_PART2_INFO]]
@@ -2089,7 +2040,6 @@ Behandelingsoptie 5
 
 [[PageBreak]]
 
-[[Block:HCP09_Deel 3]]
 
 [[Question:DB]]
 [[ID:HCP09_PART3_INFO]]
@@ -2113,7 +2063,6 @@ BO-5: Gedifferentieerde stemmingsmonitoring
 
 [[PageBreak]]
 
-[[Block:HCP09_Deel 4]]
 
 [[Question:DB]]
 [[ID:HCP09_PART4_INFO]]
@@ -2152,7 +2101,6 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (
 
 [[PageBreak]]
 
-[[Block:HCP09_Deel 5]]
 
 [[Question:DB]]
 [[ID:HCP09_PART5_INFO]]
@@ -2170,7 +2118,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP09_Deel 6]]
 
 [[Question:DB]]
 [[ID:HCP09_PART6_INFO]]
@@ -2190,7 +2137,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP09_Afronding]]
 
 [[Question:DB]]
 [[ID:HCP09_CLOSING]]
@@ -2200,7 +2146,7 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[Question:DB]]
 [[ID:HCP10_CONSENT_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Contact</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Geïnformeerde toestemming</h2><p style="margin:5px 0;line-height:1.65;">U staat op het punt de evaluatiesurvey te starten. Lees onderstaande informatie zorgvuldig door.</p><div style="height:12px;"></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Doel van het onderzoek</h4><p style="margin:5px 0;line-height:1.65;">Deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die het multi-agentisch systeem uitvoert. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.</p><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Wat deelname inhoudt</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">U vult eerst een korte intake in, daarna 1 toegewezen casus.</li><li style="margin:4px 0;line-height:1.55;">De survey bevat 6 delen en duurt ongeveer <strong>20-25 minuten</strong>.</li><li style="margin:4px 0;line-height:1.55;">We vragen uitsluitend uw eigen klinische oordeel — zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.</li></ul><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Vrijwilligheid en vertrouwelijkheid</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">Deelname is vrijwillig.</li><li style="margin:4px 0;line-height:1.55;">U kan op elk moment stoppen door het venster te sluiten.</li><li style="margin:4px 0;line-height:1.55;">Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.</li></ul><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 20px;margin:16px 0 8px 0;"><h4 style="color:#1e3a5f;font-size:.97em;margin:0 0 10px 0;font-weight:700;">Contact</h4><ul style="margin:0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>Instelling:</strong> Universiteit Gent — Faculteit Psychologie en Pedagogische Wetenschappen</li><li style="margin:4px 0;line-height:1.55;"><strong>Onderzoeker:</strong> Stijn Van Severen (masterproefstudent)</li><li style="margin:4px 0;line-height:1.55;"><strong>Promotoren:</strong> Prof. Dr. Geert Crombez &amp; Dr. Annick De Paepe</li><li style="margin:4px 0;line-height:1.55;"><strong>Contact:</strong> stijn.vanseveren@ugent.be</li></ul></div><div style="height:12px;"></div><p style="margin:5px 0;line-height:1.65;">Kies hieronder of u op basis van bovenstaande informatie wenst deel te nemen.</p></div>
 
 [[Question:MC:SingleAnswer:Vertical]]
 [[ID:HCP10_CONSENT_DECISION]]
@@ -2217,7 +2163,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP10_INTRO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:0 0 20px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C10 — 52-jarige operationeel directeur</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klinisch beeld</td><td style="padding:3px 0;color:#1e3a5f;">Chronische werkstress, doorslaapinsomnie, somatische stressklachten, alcohol als copingstrategie</td></tr><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">Ongeveer 9 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><p style="margin:0 0 14px 0;line-height:1.65;">U voert voor bovenstaande casus dezelfde vijf klinische redeneerstappen uit als het multi-agentisch systeem. Uw antwoorden vormen het menselijk referentiecorpus voor een dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Uw toewijzing</h2><p style="margin:0 0 6px 0;line-height:1.65;">Dit onderzoek evalueert de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem. Het systeem verwerkt een klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen — van symptoomlabeling tot gepersonaliseerde mobiele coaching. U voert diezelfde vijf stappen zelfstandig uit op basis van uw klinisch oordeel. Uw antwoorden vormen het menselijk referentiecorpus voor een latere dubbelblinde vergelijking met de systeemoutput.</p><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:16px 20px;margin:14px 0 14px 0;"><table style="border-collapse:collapse;width:100%;margin:0 0 10px 0;"><tr><td style="padding:2px 0;white-space:nowrap;color:#475569;font-size:.93em;font-weight:600;">Toegewezen casus</td><td style="padding:2px 0;font-weight:700;color:#1e3a5f;">C10 — 52-jarige operationeel directeur</td></tr></table><div style="border-top:1px solid #bae6fd;margin:10px 0 12px 0;"></div><table style="border-collapse:collapse;width:100%;font-size:.94em;"><tr style="vertical-align:top;"><td style="padding:3px 12px 3px 0;white-space:nowrap;color:#475569;font-weight:600;">Klachtduur</td><td style="padding:3px 0;color:#1e3a5f;">Ongeveer 9 maanden</td></tr></table><div style="border-top:1px solid #bae6fd;margin:12px 0 0 0;padding-top:8px;"><span style="font-size:.88em;color:#64748b;">Studie: <em>Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentisch systeem voor gepersonaliseerde digitale geestelijke gezondheidszorg</em> — masterproef Psychologie, Universiteit Gent</span></div></div><div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 20px;margin:0 0 14px 0;"><p style="margin:0 0 8px 0;font-weight:700;color:#1e3a5f;font-size:.97em;">Verloop van de survey</p><ol style="margin:0;padding-left:22px;"><li style="margin:3px 0;line-height:1.55;"><strong>Intake</strong> — drie korte achtergrondvragen (eenmalig, vóór de casus)</li><li style="margin:3px 0;line-height:1.55;"><strong>Instructiepagina</strong> — lees aandachtig voor u met de casus begint</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 1</strong> — Operationalisering: symptoomlabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 2</strong> — Initieel observatiemodel: behandelingsoptielabels</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 3</strong> — Behandeldoelprioritering: rangschikking op basis van EMA-netwerk</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 4</strong> — Verfijnd observatiemodel: selectie van EMA-meetitems</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 5</strong> — Gepersonaliseerde mobiele coachingsboodschap</li><li style="margin:3px 0;line-height:1.55;"><strong>Deel 6</strong> — Reflectie op uw digitale benaderingslogica</li></ol></div><div style="background:#fef3c7;border-left:4px solid #d97706;border-radius:0 6px 6px 0;padding:10px 16px;margin:0;"><strong>Belangrijk:</strong> werk uitsluitend op basis van uw eigen klinisch oordeel. Gebruik geen generatieve AI, collegaoverleg of externe richtlijnen. Werk de zes delen strikt sequentieel af.</div></div>
 
 [[PageBreak]]
 
@@ -2225,18 +2171,18 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:DB]]
 [[ID:HCP10_INTAKE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Intake — achtergrond en context</h2><p style="margin:5px 0;line-height:1.65;">Deze intake verzamelt drie soorten context die later relevant zijn voor de interpretatie van de expertoutput:</p><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;"><strong>(1) Klinische achtergrond en ervaring:</strong> om de professionele context van het antwoord te kunnen situeren.</li><li style="margin:4px 0;line-height:1.55;"><strong>(2) Basishouding tegenover agentic AI:</strong> om eventuele verwachtingsbias later mee te kunnen wegen.</li><li style="margin:4px 0;line-height:1.55;"><strong>(3) Kennis van netwerkanalyse:</strong> omdat de casusopgaven vertrekken vanuit een netwerk-analytisch redeneermodel.</li></ul></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP10_INTAKE_BACKGROUND]]
-Beschrijf kort uw professionele achtergrond en klinische ervaring:
+(1) Beschrijf kort uw professionele achtergrond en klinische ervaring:
 — Discipline en huidige functie
 — Aantal jaren klinische ervaring
 — Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP10_INTAKE_AGENTIC_AI]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
+(2) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
 [[Choices]]
 Ik zie agentic AI als een potentieel zinvolle ondersteuning voor klinische besluitvorming in mentale gezondheidszorg.
 Ik zou agentic AI enkel vertrouwen wanneer de onderliggende redeneerstappen expliciet en controleerbaar worden getoond.
@@ -2252,7 +2198,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 
 [[Question:Matrix]]
 [[ID:HCP10_INTAKE_NETWORK_ANALYSIS]]
-Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
+(3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
 Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
@@ -2276,7 +2222,7 @@ Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis vo
 
 [[PageBreak]]
 
-[[Block:HCP10_Deel 1]]
+[[Block:HCP10_Casus]]
 
 [[Question:DB]]
 [[ID:HCP10_PART1_INFO]]
@@ -2302,7 +2248,6 @@ Symptoom 6
 
 [[PageBreak]]
 
-[[Block:HCP10_Deel 2]]
 
 [[Question:DB]]
 [[ID:HCP10_PART2_INFO]]
@@ -2333,7 +2278,6 @@ Behandelingsoptie 5
 
 [[PageBreak]]
 
-[[Block:HCP10_Deel 3]]
 
 [[Question:DB]]
 [[ID:HCP10_PART3_INFO]]
@@ -2357,7 +2301,6 @@ BO-5: Nachtelijke cognitieve arousal
 
 [[PageBreak]]
 
-[[Block:HCP10_Deel 4]]
 
 [[Question:DB]]
 [[ID:HCP10_PART4_INFO]]
@@ -2396,7 +2339,6 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (
 
 [[PageBreak]]
 
-[[Block:HCP10_Deel 5]]
 
 [[Question:DB]]
 [[ID:HCP10_PART5_INFO]]
@@ -2414,7 +2356,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP10_Deel 6]]
 
 [[Question:DB]]
 [[ID:HCP10_PART6_INFO]]
@@ -2434,7 +2375,6 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 
 [[PageBreak]]
 
-[[Block:HCP10_Afronding]]
 
 [[Question:DB]]
 [[ID:HCP10_CLOSING]]
