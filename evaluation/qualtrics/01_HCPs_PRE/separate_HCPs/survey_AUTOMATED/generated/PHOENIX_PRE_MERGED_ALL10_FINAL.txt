@@ -2079,7 +2079,7 @@ Selecteer exact 6 EMA-items — 2 per gestandaardiseerd behandeldoel — die het
 Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (geen symptomen). Selecteer telkens de 2 items die per behandeldoel het meest klinisch zinvol zijn.
 [[Choices]]
 1. Cafeine-inname na 14.00 uur beperkt (ja/nee)
-2. Emotieregulatietechniek (bijv.\ grounding, ademhaling) bewust ingezet (ja/nee)
+2. Emotieregulatietechniek (bijv. grounding, ademhaling) bewust ingezet (ja/nee)
 3. Waterinname vandaag (glazen)
 4. Aantal keer een bewuste emotieregulatievaardigheid ingezet vandaag (aantal)
 5. Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)
