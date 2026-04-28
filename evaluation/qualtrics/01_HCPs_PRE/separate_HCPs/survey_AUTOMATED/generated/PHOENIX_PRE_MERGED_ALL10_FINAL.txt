@@ -1,15 +1,3 @@
-
-[[Question:MC:MultipleAnswer]]
-[[ID:HCP10_CLOSING_CHECKLIST]]
-Bevestig welke instructies u hebt opgevolgd voordat u de survey afsluit.
-[[Choices]]
-Deel 1: Ik heb 3–6 onderscheidbare symptoomlabels ingevuld — uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
-Deel 2: Ik heb 3–5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
-Deel 3: Ik heb alle 5 behandelingsopties gerangschikt op basis van zowel netwerkrelaties als het actuele symptoomniveau.
-Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeldoel.
-Deel 5: Ik heb een coachingsboodschap geschreven van 2–4 zinnen, rechtstreeks gericht aan de persoon.
-Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
-Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 [[AdvancedFormat]]
 
 [[Block:HCP01_Toestemming]]
@@ -242,11 +230,11 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 [[ID:HCP01_CLOSING_CHECKLIST]]
 Bevestig welke instructies u hebt opgevolgd voordat u de survey afsluit.
 [[Choices]]
-Deel 1: Ik heb 3–6 onderscheidbare symptoomlabels ingevuld — uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
-Deel 2: Ik heb 3–5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
+Deel 1: Ik heb 3-6 onderscheidbare symptoomlabels ingevuld - uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
+Deel 2: Ik heb 3-5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
 Deel 3: Ik heb alle 5 behandelingsopties gerangschikt op basis van zowel netwerkrelaties als het actuele symptoomniveau.
 Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeldoel.
-Deel 5: Ik heb een coachingsboodschap geschreven van 2–4 zinnen, rechtstreeks gericht aan de persoon.
+Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
@@ -480,11 +468,11 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 [[ID:HCP02_CLOSING_CHECKLIST]]
 Bevestig welke instructies u hebt opgevolgd voordat u de survey afsluit.
 [[Choices]]
-Deel 1: Ik heb 3–6 onderscheidbare symptoomlabels ingevuld — uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
-Deel 2: Ik heb 3–5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
+Deel 1: Ik heb 3-6 onderscheidbare symptoomlabels ingevuld - uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
+Deel 2: Ik heb 3-5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
 Deel 3: Ik heb alle 5 behandelingsopties gerangschikt op basis van zowel netwerkrelaties als het actuele symptoomniveau.
 Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeldoel.
-Deel 5: Ik heb een coachingsboodschap geschreven van 2–4 zinnen, rechtstreeks gericht aan de persoon.
+Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
@@ -718,11 +706,11 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 [[ID:HCP03_CLOSING_CHECKLIST]]
 Bevestig welke instructies u hebt opgevolgd voordat u de survey afsluit.
 [[Choices]]
-Deel 1: Ik heb 3–6 onderscheidbare symptoomlabels ingevuld — uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
-Deel 2: Ik heb 3–5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
+Deel 1: Ik heb 3-6 onderscheidbare symptoomlabels ingevuld - uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
+Deel 2: Ik heb 3-5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
 Deel 3: Ik heb alle 5 behandelingsopties gerangschikt op basis van zowel netwerkrelaties als het actuele symptoomniveau.
 Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeldoel.
-Deel 5: Ik heb een coachingsboodschap geschreven van 2–4 zinnen, rechtstreeks gericht aan de persoon.
+Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
@@ -956,11 +944,11 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 [[ID:HCP04_CLOSING_CHECKLIST]]
 Bevestig welke instructies u hebt opgevolgd voordat u de survey afsluit.
 [[Choices]]
-Deel 1: Ik heb 3–6 onderscheidbare symptoomlabels ingevuld — uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
-Deel 2: Ik heb 3–5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
+Deel 1: Ik heb 3-6 onderscheidbare symptoomlabels ingevuld - uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
+Deel 2: Ik heb 3-5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
 Deel 3: Ik heb alle 5 behandelingsopties gerangschikt op basis van zowel netwerkrelaties als het actuele symptoomniveau.
 Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeldoel.
-Deel 5: Ik heb een coachingsboodschap geschreven van 2–4 zinnen, rechtstreeks gericht aan de persoon.
+Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
@@ -1194,11 +1182,11 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 [[ID:HCP05_CLOSING_CHECKLIST]]
 Bevestig welke instructies u hebt opgevolgd voordat u de survey afsluit.
 [[Choices]]
-Deel 1: Ik heb 3–6 onderscheidbare symptoomlabels ingevuld — uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
-Deel 2: Ik heb 3–5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
+Deel 1: Ik heb 3-6 onderscheidbare symptoomlabels ingevuld - uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
+Deel 2: Ik heb 3-5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
 Deel 3: Ik heb alle 5 behandelingsopties gerangschikt op basis van zowel netwerkrelaties als het actuele symptoomniveau.
 Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeldoel.
-Deel 5: Ik heb een coachingsboodschap geschreven van 2–4 zinnen, rechtstreeks gericht aan de persoon.
+Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
@@ -1432,11 +1420,11 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 [[ID:HCP06_CLOSING_CHECKLIST]]
 Bevestig welke instructies u hebt opgevolgd voordat u de survey afsluit.
 [[Choices]]
-Deel 1: Ik heb 3–6 onderscheidbare symptoomlabels ingevuld — uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
-Deel 2: Ik heb 3–5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
+Deel 1: Ik heb 3-6 onderscheidbare symptoomlabels ingevuld - uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
+Deel 2: Ik heb 3-5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
 Deel 3: Ik heb alle 5 behandelingsopties gerangschikt op basis van zowel netwerkrelaties als het actuele symptoomniveau.
 Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeldoel.
-Deel 5: Ik heb een coachingsboodschap geschreven van 2–4 zinnen, rechtstreeks gericht aan de persoon.
+Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
@@ -1670,11 +1658,11 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 [[ID:HCP07_CLOSING_CHECKLIST]]
 Bevestig welke instructies u hebt opgevolgd voordat u de survey afsluit.
 [[Choices]]
-Deel 1: Ik heb 3–6 onderscheidbare symptoomlabels ingevuld — uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
-Deel 2: Ik heb 3–5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
+Deel 1: Ik heb 3-6 onderscheidbare symptoomlabels ingevuld - uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
+Deel 2: Ik heb 3-5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
 Deel 3: Ik heb alle 5 behandelingsopties gerangschikt op basis van zowel netwerkrelaties als het actuele symptoomniveau.
 Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeldoel.
-Deel 5: Ik heb een coachingsboodschap geschreven van 2–4 zinnen, rechtstreeks gericht aan de persoon.
+Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
@@ -1908,11 +1896,11 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 [[ID:HCP08_CLOSING_CHECKLIST]]
 Bevestig welke instructies u hebt opgevolgd voordat u de survey afsluit.
 [[Choices]]
-Deel 1: Ik heb 3–6 onderscheidbare symptoomlabels ingevuld — uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
-Deel 2: Ik heb 3–5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
+Deel 1: Ik heb 3-6 onderscheidbare symptoomlabels ingevuld - uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
+Deel 2: Ik heb 3-5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
 Deel 3: Ik heb alle 5 behandelingsopties gerangschikt op basis van zowel netwerkrelaties als het actuele symptoomniveau.
 Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeldoel.
-Deel 5: Ik heb een coachingsboodschap geschreven van 2–4 zinnen, rechtstreeks gericht aan de persoon.
+Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
@@ -2146,11 +2134,11 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 [[ID:HCP09_CLOSING_CHECKLIST]]
 Bevestig welke instructies u hebt opgevolgd voordat u de survey afsluit.
 [[Choices]]
-Deel 1: Ik heb 3–6 onderscheidbare symptoomlabels ingevuld — uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
-Deel 2: Ik heb 3–5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
+Deel 1: Ik heb 3-6 onderscheidbare symptoomlabels ingevuld - uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
+Deel 2: Ik heb 3-5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
 Deel 3: Ik heb alle 5 behandelingsopties gerangschikt op basis van zowel netwerkrelaties als het actuele symptoomniveau.
 Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeldoel.
-Deel 5: Ik heb een coachingsboodschap geschreven van 2–4 zinnen, rechtstreeks gericht aan de persoon.
+Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
@@ -2379,3 +2367,15 @@ Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst m
 [[Question:DB]]
 [[ID:HCP10_CLOSING]]
 <div style="font-family:inherit;line-height:1.65;max-width:800px;"><h2 style="color:#1e3a5f;font-size:1.15em;border-bottom:3px solid #3b82f6;padding-bottom:10px;margin:0 0 16px 0;">Afsluiting</h2><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0 0 14px 0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div><p style="margin:0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek. Uw deelname wordt ten zeerste gewaardeerd.</p></div>
+
+[[Question:MC:MultipleAnswer]]
+[[ID:HCP10_CLOSING_CHECKLIST]]
+Bevestig welke instructies u hebt opgevolgd voordat u de survey afsluit.
+[[Choices]]
+Deel 1: Ik heb 3-6 onderscheidbare symptoomlabels ingevuld - uitsluitend klachtdimensies, geen behandelingsopties of oorzaken.
+Deel 2: Ik heb 3-5 behandelingsoptielabels ingevuld die in principe dagelijks meetbaar zijn via EMA.
+Deel 3: Ik heb alle 5 behandelingsopties gerangschikt op basis van zowel netwerkrelaties als het actuele symptoomniveau.
+Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeldoel.
+Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
+Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
+Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
