@@ -10,10 +10,10 @@
 [[ID:HCP01_CONSENT_DECISION]]
 Ik heb bovenstaande informatie gelezen.
 
-Duid aan of u geinformeerde toestemming geeft om deel te nemen aan deze survey.
+Duid aan of u geïnformeerde toestemming geeft om deel te nemen aan deze survey.
 [[Choices]]
-Ja, ik geef geinformeerde toestemming en wens deel te nemen.
-Nee, ik wens niet deel te nemen.
+Ja, ik geef geïnformeerde toestemming en wens deel te nemen.
+Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[PageBreak]]
 
@@ -33,9 +33,10 @@ Nee, ik wens niet deel te nemen.
 
 [[Question:TE:Essay]]
 [[ID:HCP01_INTAKE_BACKGROUND]]
-Wat is uw professionele achtergrond en ervaring in de klinische praktijk?
-
-Beschrijf kort uw discipline, functie, aantal jaren klinische ervaring en de mate waarin u momenteel werkt met personen met psychische klachten.
+Beschrijf kort uw professionele achtergrond en klinische ervaring:
+— Discipline en huidige functie
+— Aantal jaren klinische ervaring
+— Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP01_INTAKE_AGENTIC_AI]]
@@ -92,7 +93,7 @@ Duur: 2 maanden
 
 "De afgelopen twee maanden geraak ik 's avonds heel moeilijk in slaap. Mijn hoofd blijft maar doorgaan over alles wat ik nog moet doen - deadlines, onafgewerkte taken, gesprekken die ik nog moet voeren. Zelfs als ik uitgeput ben, krijg ik die gedachten niet uitgezet. Ik merk ook dat ik minder plezier beleef aan sociale momenten. Ik ga nog wel naar afspraken met vrienden, maar ik voel me er afstandelijk en niet echt betrokken. Mijn nek en schouders staan bovendien bijna voortdurend gespannen en pijnlijk, wat volgens mijn huisarts waarschijnlijk stressgerelateerd is."
 
-Opdracht: noteer 2-6 symptoomlabels voor deze casus. Gebruik enkel korte labels (2-5 woorden); voeg geen beschrijving toe.
+Noteer 2–6 symptoomlabels voor deze casus. Gebruik uitsluitend korte labels van 2–5 woorden. Voeg geen beschrijving of toelichting toe.
 [[Choices]]
 Symptoom 1
 Symptoom 2
@@ -121,7 +122,7 @@ Gestandaardiseerde symptomen uit Deel 1:
 - Sociale anhedonie
 - Stressgerelateerde spierspanning
 
-Opdracht: noteer 3-5 behandelingsoptielabels voor een initieel observatiemodel. Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.
+Noteer 3–5 behandelingsoptielabels voor het initieel observatiemodel. Elk label moet in principe dagelijks meetbaar zijn via een korte vraag in een mobiele app.
 [[Choices]]
 Behandelingsoptie 1
 Behandelingsoptie 2
@@ -139,13 +140,13 @@ Behandelingsoptie 5
 
 [[Question:DB]]
 [[ID:HCP01_PART3_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C01 - 28-jarige softwareontwikkelaar - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">28-jarige softwareontwikkelaar; duur: 2 maanden. Inslaapproblemen, cognitieve hyperarousal bij het slapengaan, sociale anhedonie en stressgerelateerde spierspanning.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.88em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 7px;font-weight:700;">&#9782;</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Schermtijd na 22.00 uur: 16/21 avonden (gem. 78 min). Openstaande taken: gem. 6,2 per dag. Sociale activiteiten: 2,1/week (beleving 2,3/10). Preslaap offloading toegepast: 3/21 avonden. Lichamelijke activiteit: gem. 0,7 sessies/week.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c01.png" alt="Netwerkfiguur voor C01" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Late avondschermtijd</li><li style="margin:4px 0;line-height:1.55;">BO-2: Dagelijkse taakaccumulatie</li><li style="margin:4px 0;line-height:1.55;">BO-3: Preslaap cognitieve offloading</li><li style="margin:4px 0;line-height:1.55;">BO-4: Sociale participatie</li><li style="margin:4px 0;line-height:1.55;">BO-5: Aerobe beweging</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C01 - 28-jarige softwareontwikkelaar - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">28-jarige softwareontwikkelaar; duur: 2 maanden. Inslaapproblemen, cognitieve hyperarousal bij het slapengaan, sociale anhedonie en stressgerelateerde spierspanning.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.78em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 6px;font-weight:700;letter-spacing:.04em;">EMA</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Schermtijd na 22.00 uur: 16/21 avonden (gem. 78 min). Openstaande taken: gem. 6,2 per dag. Sociale activiteiten: 2,1/week (beleving 2,3/10). Preslaap offloading toegepast: 3/21 avonden. Lichamelijke activiteit: gem. 0,7 sessies/week.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c01.png" alt="Netwerkfiguur voor C01" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Late avondschermtijd</li><li style="margin:4px 0;line-height:1.55;">BO-2: Dagelijkse taakaccumulatie</li><li style="margin:4px 0;line-height:1.55;">BO-3: Preslaap cognitieve offloading</li><li style="margin:4px 0;line-height:1.55;">BO-4: Sociale participatie</li><li style="margin:4px 0;line-height:1.55;">BO-5: Aerobe beweging</li></ul></div>
 
 [[Question:RO]]
 [[ID:HCP01_C01_PART3]]
-Rangschik alle 5 behandelingsopties van hoogste naar laagste behandelprioriteit.
+Rangschik de 5 behandelingsopties van meest prioritair (positie 1) naar minst prioritair (positie 5).
 
-Sleep of rangschik de opties van meest prioritair naar minst prioritair.
+Gebruik de klinische informatie uit de casus en het netwerk als leidraad voor uw prioritering.
 [[Choices]]
 BO-1: Late avondschermtijd
 BO-2: Dagelijkse taakaccumulatie
@@ -167,9 +168,9 @@ BO-5: Aerobe beweging
 
 [[Question:MC:MultipleAnswer]]
 [[ID:HCP01_C01_PART4]]
-Selecteer exact 6 EMA-items (2 per behandeldoel) die het best aansluiten als sub-behandelingsopties.
+Selecteer exact 6 EMA-items — 2 per gestandaardiseerd behandeldoel — die het best aansluiten als concrete monitoringvariabelen.
 
-Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, geen symptomen.
+Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (geen symptomen). Selecteer telkens de 2 items die per behandeldoel het meest klinisch zinvol zijn.
 [[Choices]]
 1. Waterinname vandaag (glazen)
 2. Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)
@@ -186,7 +187,7 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 13. Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)
 14. Schermvrij interval direct voor slapengaan (min)
 15. Sigaretten of tabak gerookt vandaag (aantal)
-16. Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)
+16. Financiële zorgen of administratieve taken aangepakt vandaag (ja/nee)
 17. Bewust dankbaarheidsoefening of positieve reflectie uitgevoerd vandaag (ja/nee)
 18. Werkpauzes op vaste tijden genomen vandaag (ja/nee)
 19. Pijnklachten of lichamelijke ongemakken bijgehouden in een dagboek (ja/nee)
@@ -202,13 +203,13 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 
 [[Question:DB]]
 [[ID:HCP01_PART5_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C01 - 28-jarige softwareontwikkelaar - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Moeizaam inslapen door een overactieve geest en aanhoudende spanning in de avond.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Schermtijd in de late avond reduceren en een vaste afschakelroutine installeren.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barriere</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Lage zelfeffectiviteit: schermgebruik voelt als de enige haalbare manier om na het werk te decomprimeren.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Implementatie-intentie met substitutie: vervang de laatste 30 minuten schermtijd door een korte schrijf- of bewegingsroutine voor het slapengaan.</td></tr></table></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C01 - 28-jarige softwareontwikkelaar - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Moeizaam inslapen door een overactieve geest en aanhoudende spanning in de avond.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Schermtijd in de late avond reduceren en een vaste afschakelroutine installeren.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barrière</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Lage zelfeffectiviteit: schermgebruik voelt als de enige haalbare manier om na het werk te decomprimeren.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Implementatie-intentie met substitutie: vervang de laatste 30 minuten schermtijd door een korte schrijf- of bewegingsroutine voor het slapengaan.</td></tr></table></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP01_C01_PART5]]
-Schrijf hieronder de mobiele coachingsboodschap voor deze casus.
+Schrijf de mobiele coachingsboodschap voor deze casus.
 
-Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt.
+Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst morgen op de smartphone verschijnt.
 
 [[PageBreak]]
 
@@ -220,18 +221,15 @@ Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon ver
 
 [[Question:TE:Essay]]
 [[ID:HCP01_PART6_A]]
-Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen, en hoe zou u
-die selectie bepalen op basis van de vrije klachttekst?
+Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen? Hoe bepaalt u die selectie op basis van de vrije klachttekst?
 
 [[Question:TE:Essay]]
 [[ID:HCP01_PART6_B]]
-Hoe zou u de dagelijkse boodschappen inhoudelijk afstemmen op wat u via de
-EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
+Hoe stemt u de dagelijkse boodschappen inhoudelijk af op wat u via de EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
 
 [[Question:TE:Essay]]
 [[ID:HCP01_PART6_C]]
-Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt?
-Zo ja - op basis van welke criteria en via welk redeneerproces?
+Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt? Zo ja: op basis van welke criteria en via welk redeneerproces?
 
 [[PageBreak]]
 
@@ -251,10 +249,10 @@ Zo ja - op basis van welke criteria en via welk redeneerproces?
 [[ID:HCP02_CONSENT_DECISION]]
 Ik heb bovenstaande informatie gelezen.
 
-Duid aan of u geinformeerde toestemming geeft om deel te nemen aan deze survey.
+Duid aan of u geïnformeerde toestemming geeft om deel te nemen aan deze survey.
 [[Choices]]
-Ja, ik geef geinformeerde toestemming en wens deel te nemen.
-Nee, ik wens niet deel te nemen.
+Ja, ik geef geïnformeerde toestemming en wens deel te nemen.
+Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[PageBreak]]
 
@@ -274,9 +272,10 @@ Nee, ik wens niet deel te nemen.
 
 [[Question:TE:Essay]]
 [[ID:HCP02_INTAKE_BACKGROUND]]
-Wat is uw professionele achtergrond en ervaring in de klinische praktijk?
-
-Beschrijf kort uw discipline, functie, aantal jaren klinische ervaring en de mate waarin u momenteel werkt met personen met psychische klachten.
+Beschrijf kort uw professionele achtergrond en klinische ervaring:
+— Discipline en huidige functie
+— Aantal jaren klinische ervaring
+— Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP02_INTAKE_AGENTIC_AI]]
@@ -333,7 +332,7 @@ Duur: 3 maanden
 
 "Ongeveer drie maanden geleden begon ik plots episodes te krijgen waarbij mijn hart tekeergaat, ik het gevoel heb dat ik geen lucht krijg en ik er zeker van ben dat er iets ernstig misloopt. Die episodes zijn heel beangstigend en kunnen zelfs optreden wanneer ik thuis rustig neerzit. Sindsdien ben ik bang geworden om zo'n episode in het openbaar te krijgen en vermijd ik supermarkten, openbaar vervoer en drukke plaatsen. Ik heb mij al meerdere keren ziek gemeld omdat ik bang was dat het op het werk zou gebeuren. Ik weet rationeel dat die situaties niet gevaarlijk zijn, maar de angst blijft overheersen."
 
-Opdracht: noteer 2-6 symptoomlabels voor deze casus. Gebruik enkel korte labels (2-5 woorden); voeg geen beschrijving toe.
+Noteer 2–6 symptoomlabels voor deze casus. Gebruik uitsluitend korte labels van 2–5 woorden. Voeg geen beschrijving of toelichting toe.
 [[Choices]]
 Symptoom 1
 Symptoom 2
@@ -362,7 +361,7 @@ Gestandaardiseerde symptomen uit Deel 1:
 - Situationele vermijding
 - Beroepsmatige interferentie
 
-Opdracht: noteer 3-5 behandelingsoptielabels voor een initieel observatiemodel. Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.
+Noteer 3–5 behandelingsoptielabels voor het initieel observatiemodel. Elk label moet in principe dagelijks meetbaar zijn via een korte vraag in een mobiele app.
 [[Choices]]
 Behandelingsoptie 1
 Behandelingsoptie 2
@@ -380,13 +379,13 @@ Behandelingsoptie 5
 
 [[Question:DB]]
 [[ID:HCP02_PART3_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C02 - 34-jarige administratief medewerker in de zorg - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">34-jarige administratief medewerker in de zorg; duur: 3 maanden. Recidiverende paniekepisoden, anticipatieangst, situationele vermijding en beroepsmatige interferentie.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.88em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 7px;font-weight:700;">&#9782;</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Paniekepisoden: gem. 2,3/week. Vermijdingsepisodes: gem. 4,1/dag. Veiligheidsgedrag: gem. 8,7/dag. Geplande exposurepogingen: gem. 0,3/dag. Werkaanwezigheid: 60%. Verwachte angst in publieke settings: 7,8/10.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c02.png" alt="Netwerkfiguur voor C02" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Vermijdingsgedrag</li><li style="margin:4px 0;line-height:1.55;">BO-2: Veiligheidsgedrag</li><li style="margin:4px 0;line-height:1.55;">BO-3: Interoceptieve focus</li><li style="margin:4px 0;line-height:1.55;">BO-4: Geplande exposure</li><li style="margin:4px 0;line-height:1.55;">BO-5: Dagstructuur</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C02 - 34-jarige administratief medewerker in de zorg - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">34-jarige administratief medewerker in de zorg; duur: 3 maanden. Recidiverende paniekepisoden, anticipatieangst, situationele vermijding en beroepsmatige interferentie.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.78em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 6px;font-weight:700;letter-spacing:.04em;">EMA</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Paniekepisoden: gem. 2,3/week. Vermijdingsepisodes: gem. 4,1/dag. Veiligheidsgedrag: gem. 8,7/dag. Geplande exposurepogingen: gem. 0,3/dag. Werkaanwezigheid: 60%. Verwachte angst in publieke settings: 7,8/10.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c02.png" alt="Netwerkfiguur voor C02" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Vermijdingsgedrag</li><li style="margin:4px 0;line-height:1.55;">BO-2: Veiligheidsgedrag</li><li style="margin:4px 0;line-height:1.55;">BO-3: Interoceptieve focus</li><li style="margin:4px 0;line-height:1.55;">BO-4: Geplande exposure</li><li style="margin:4px 0;line-height:1.55;">BO-5: Dagstructuur</li></ul></div>
 
 [[Question:RO]]
 [[ID:HCP02_C02_PART3]]
-Rangschik alle 5 behandelingsopties van hoogste naar laagste behandelprioriteit.
+Rangschik de 5 behandelingsopties van meest prioritair (positie 1) naar minst prioritair (positie 5).
 
-Sleep of rangschik de opties van meest prioritair naar minst prioritair.
+Gebruik de klinische informatie uit de casus en het netwerk als leidraad voor uw prioritering.
 [[Choices]]
 BO-1: Vermijdingsgedrag
 BO-2: Veiligheidsgedrag
@@ -408,9 +407,9 @@ BO-5: Dagstructuur
 
 [[Question:MC:MultipleAnswer]]
 [[ID:HCP02_C02_PART4]]
-Selecteer exact 6 EMA-items (2 per behandeldoel) die het best aansluiten als sub-behandelingsopties.
+Selecteer exact 6 EMA-items — 2 per gestandaardiseerd behandeldoel — die het best aansluiten als concrete monitoringvariabelen.
 
-Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, geen symptomen.
+Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (geen symptomen). Selecteer telkens de 2 items die per behandeldoel het meest klinisch zinvol zijn.
 [[Choices]]
 1. Exposurestap bewust en volledig uitgevoerd vandaag (ja/nee)
 2. Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)
@@ -426,7 +425,7 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 12. Gesprek met vertrouwenspersoon of steunfiguur gevoerd vandaag (ja/nee)
 13. Interoceptieve oefening bewust uitgevoerd vandaag (min)
 14. Sigaretten of tabak gerookt vandaag (aantal)
-15. Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)
+15. Financiële zorgen of administratieve taken aangepakt vandaag (ja/nee)
 16. Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)
 17. Lichamelijke sensaties benoemd zonder vlucht- of veiligheidsreactie (ja/nee)
 18. Alcoholconsumptie vanavond (eenheden)
@@ -443,13 +442,13 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 
 [[Question:DB]]
 [[ID:HCP02_PART5_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C02 - 34-jarige administratief medewerker in de zorg - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Paniekangst leidt tot toenemende vermijding en duidelijke hinder in het dagelijks functioneren.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Geplande exposure aan gevreesde situaties in een hanteerbare, stapsgewijze opbouw.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barriere</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Sterke negatieve uitkomstverwachting: de persoon verwacht dat betreden van de situatie onvermijdelijk tot een onbeheersbare paniekreactie zal leiden.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Werk met een concrete exposurehierarchie en een vooraf afgesproken copingzin per stap.</td></tr></table></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C02 - 34-jarige administratief medewerker in de zorg - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Paniekangst leidt tot toenemende vermijding en duidelijke hinder in het dagelijks functioneren.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Geplande exposure aan gevreesde situaties in een hanteerbare, stapsgewijze opbouw.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barrière</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Sterke negatieve uitkomstverwachting: de persoon verwacht dat betreden van de situatie onvermijdelijk tot een onbeheersbare paniekreactie zal leiden.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Werk met een concrete exposurehierarchie en een vooraf afgesproken copingzin per stap.</td></tr></table></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP02_C02_PART5]]
-Schrijf hieronder de mobiele coachingsboodschap voor deze casus.
+Schrijf de mobiele coachingsboodschap voor deze casus.
 
-Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt.
+Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst morgen op de smartphone verschijnt.
 
 [[PageBreak]]
 
@@ -461,18 +460,15 @@ Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon ver
 
 [[Question:TE:Essay]]
 [[ID:HCP02_PART6_A]]
-Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen, en hoe zou u
-die selectie bepalen op basis van de vrije klachttekst?
+Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen? Hoe bepaalt u die selectie op basis van de vrije klachttekst?
 
 [[Question:TE:Essay]]
 [[ID:HCP02_PART6_B]]
-Hoe zou u de dagelijkse boodschappen inhoudelijk afstemmen op wat u via de
-EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
+Hoe stemt u de dagelijkse boodschappen inhoudelijk af op wat u via de EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
 
 [[Question:TE:Essay]]
 [[ID:HCP02_PART6_C]]
-Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt?
-Zo ja - op basis van welke criteria en via welk redeneerproces?
+Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt? Zo ja: op basis van welke criteria en via welk redeneerproces?
 
 [[PageBreak]]
 
@@ -492,10 +488,10 @@ Zo ja - op basis van welke criteria en via welk redeneerproces?
 [[ID:HCP03_CONSENT_DECISION]]
 Ik heb bovenstaande informatie gelezen.
 
-Duid aan of u geinformeerde toestemming geeft om deel te nemen aan deze survey.
+Duid aan of u geïnformeerde toestemming geeft om deel te nemen aan deze survey.
 [[Choices]]
-Ja, ik geef geinformeerde toestemming en wens deel te nemen.
-Nee, ik wens niet deel te nemen.
+Ja, ik geef geïnformeerde toestemming en wens deel te nemen.
+Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[PageBreak]]
 
@@ -515,9 +511,10 @@ Nee, ik wens niet deel te nemen.
 
 [[Question:TE:Essay]]
 [[ID:HCP03_INTAKE_BACKGROUND]]
-Wat is uw professionele achtergrond en ervaring in de klinische praktijk?
-
-Beschrijf kort uw discipline, functie, aantal jaren klinische ervaring en de mate waarin u momenteel werkt met personen met psychische klachten.
+Beschrijf kort uw professionele achtergrond en klinische ervaring:
+— Discipline en huidige functie
+— Aantal jaren klinische ervaring
+— Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP03_INTAKE_AGENTIC_AI]]
@@ -574,7 +571,7 @@ Duur: 7 maanden
 
 "Ik geef al vijftien jaar les en deed dat altijd graag, maar de voorbije maanden voel ik mij volledig leeg. Ik ga naar school, geef mijn lessen en kom thuis, maar er is niets meer over. 's Avonds zit ik voor de televisie en kan ik mij nergens toe aanzetten. Ik ben ook gestopt met afspreken met vrienden en reageer nog zelden op berichten. Op het werk begin ik fouten te maken - dingen vergeten, de draad kwijt raken tijdens een les - wat vroeger nooit gebeurde. Ik schaam mij daarvoor, maar ik weet niet hoe ik dit moet keren."
 
-Opdracht: noteer 2-6 symptoomlabels voor deze casus. Gebruik enkel korte labels (2-5 woorden); voeg geen beschrijving toe.
+Noteer 2–6 symptoomlabels voor deze casus. Gebruik uitsluitend korte labels van 2–5 woorden. Voeg geen beschrijving of toelichting toe.
 [[Choices]]
 Symptoom 1
 Symptoom 2
@@ -603,7 +600,7 @@ Gestandaardiseerde symptomen uit Deel 1:
 - Sociale terugtrekking
 - Cognitieve fouten op het werk
 
-Opdracht: noteer 3-5 behandelingsoptielabels voor een initieel observatiemodel. Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.
+Noteer 3–5 behandelingsoptielabels voor het initieel observatiemodel. Elk label moet in principe dagelijks meetbaar zijn via een korte vraag in een mobiele app.
 [[Choices]]
 Behandelingsoptie 1
 Behandelingsoptie 2
@@ -621,15 +618,15 @@ Behandelingsoptie 5
 
 [[Question:DB]]
 [[ID:HCP03_PART3_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C03 - 41-jarige leraar secundair onderwijs - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">41-jarige leraar secundair onderwijs; duur: 7 maanden. Emotionele uitputting, professionele depersonalisatie, sociale terugtrekking en cognitieve fouten op het werk.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.88em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 7px;font-weight:700;">&#9782;</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Werkoverschrijding na werktijd: gem. 5,4 episodes/dag. Herstelactiviteiten: gem. 1,2/week. Sociaal contact op eigen initiatief: gem. 0,7/week. Professionele meestervaringen: gem. 0,9/dag. Slaapkwaliteit: gem. 4,1/10.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c03.png" alt="Netwerkfiguur voor C03" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Werk-privegrens</li><li style="margin:4px 0;line-height:1.55;">BO-2: Herstelactiviteit</li><li style="margin:4px 0;line-height:1.55;">BO-3: Sociaal initiatief</li><li style="margin:4px 0;line-height:1.55;">BO-4: Professionele meestervaring</li><li style="margin:4px 0;line-height:1.55;">BO-5: Slaapkwaliteit</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C03 - 41-jarige leraar secundair onderwijs - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">41-jarige leraar secundair onderwijs; duur: 7 maanden. Emotionele uitputting, professionele depersonalisatie, sociale terugtrekking en cognitieve fouten op het werk.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.78em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 6px;font-weight:700;letter-spacing:.04em;">EMA</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Werkoverschrijding na werktijd: gem. 5,4 episodes/dag. Herstelactiviteiten: gem. 1,2/week. Sociaal contact op eigen initiatief: gem. 0,7/week. Professionele meestervaringen: gem. 0,9/dag. Slaapkwaliteit: gem. 4,1/10.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c03.png" alt="Netwerkfiguur voor C03" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Werk-privégrens</li><li style="margin:4px 0;line-height:1.55;">BO-2: Herstelactiviteit</li><li style="margin:4px 0;line-height:1.55;">BO-3: Sociaal initiatief</li><li style="margin:4px 0;line-height:1.55;">BO-4: Professionele meestervaring</li><li style="margin:4px 0;line-height:1.55;">BO-5: Slaapkwaliteit</li></ul></div>
 
 [[Question:RO]]
 [[ID:HCP03_C03_PART3]]
-Rangschik alle 5 behandelingsopties van hoogste naar laagste behandelprioriteit.
+Rangschik de 5 behandelingsopties van meest prioritair (positie 1) naar minst prioritair (positie 5).
 
-Sleep of rangschik de opties van meest prioritair naar minst prioritair.
+Gebruik de klinische informatie uit de casus en het netwerk als leidraad voor uw prioritering.
 [[Choices]]
-BO-1: Werk-privegrens
+BO-1: Werk-privégrens
 BO-2: Herstelactiviteit
 BO-3: Sociaal initiatief
 BO-4: Professionele meestervaring
@@ -649,9 +646,9 @@ BO-5: Slaapkwaliteit
 
 [[Question:MC:MultipleAnswer]]
 [[ID:HCP03_C03_PART4]]
-Selecteer exact 6 EMA-items (2 per behandeldoel) die het best aansluiten als sub-behandelingsopties.
+Selecteer exact 6 EMA-items — 2 per gestandaardiseerd behandeldoel — die het best aansluiten als concrete monitoringvariabelen.
 
-Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, geen symptomen.
+Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (geen symptomen). Selecteer telkens de 2 items die per behandeldoel het meest klinisch zinvol zijn.
 [[Choices]]
 1. Waterinname vandaag (glazen)
 2. Werkmail of -berichten bewust niet gecheckt na werktijd (ja/nee)
@@ -662,7 +659,7 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 7. Omega-3- of vitamine-D-supplement ingenomen (ja/nee)
 8. Herstelactiviteit buiten het werk actief uitgevoerd (min)
 9. Sigaretten of tabak gerookt vandaag (aantal)
-10. Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)
+10. Financiële zorgen of administratieve taken aangepakt vandaag (ja/nee)
 11. Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)
 12. Lichaamsbeweging als herstelactiviteit na werk (min)
 13. Vast slaap- en waktijdstip aangehouden vandaag (ja/nee)
@@ -684,13 +681,13 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 
 [[Question:DB]]
 [[ID:HCP03_PART5_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C03 - 41-jarige leraar secundair onderwijs - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Uitgesproken werkgerelateerde uitputting met verlies aan betekenis en toenemende sociale terugtrekking.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Een duidelijke werk-privegrens installeren en na het werk consequent herstelgedrag activeren.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barriere</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Actieplanning ontbreekt: er is geen concreet moment of signaal waarop de werkmodus stopt.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Koppel een vaste afsluitsignalering aan een kleine herstelactiviteit die onmiddellijk na het einde van de werkdag start.</td></tr></table></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C03 - 41-jarige leraar secundair onderwijs - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Uitgesproken werkgerelateerde uitputting met verlies aan betekenis en toenemende sociale terugtrekking.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Een duidelijke werk-privégrens installeren en na het werk consequent herstelgedrag activeren.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barrière</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Actieplanning ontbreekt: er is geen concreet moment of signaal waarop de werkmodus stopt.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Koppel een vaste afsluitsignalering aan een kleine herstelactiviteit die onmiddellijk na het einde van de werkdag start.</td></tr></table></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP03_C03_PART5]]
-Schrijf hieronder de mobiele coachingsboodschap voor deze casus.
+Schrijf de mobiele coachingsboodschap voor deze casus.
 
-Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt.
+Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst morgen op de smartphone verschijnt.
 
 [[PageBreak]]
 
@@ -702,18 +699,15 @@ Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon ver
 
 [[Question:TE:Essay]]
 [[ID:HCP03_PART6_A]]
-Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen, en hoe zou u
-die selectie bepalen op basis van de vrije klachttekst?
+Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen? Hoe bepaalt u die selectie op basis van de vrije klachttekst?
 
 [[Question:TE:Essay]]
 [[ID:HCP03_PART6_B]]
-Hoe zou u de dagelijkse boodschappen inhoudelijk afstemmen op wat u via de
-EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
+Hoe stemt u de dagelijkse boodschappen inhoudelijk af op wat u via de EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
 
 [[Question:TE:Essay]]
 [[ID:HCP03_PART6_C]]
-Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt?
-Zo ja - op basis van welke criteria en via welk redeneerproces?
+Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt? Zo ja: op basis van welke criteria en via welk redeneerproces?
 
 [[PageBreak]]
 
@@ -733,10 +727,10 @@ Zo ja - op basis van welke criteria en via welk redeneerproces?
 [[ID:HCP04_CONSENT_DECISION]]
 Ik heb bovenstaande informatie gelezen.
 
-Duid aan of u geinformeerde toestemming geeft om deel te nemen aan deze survey.
+Duid aan of u geïnformeerde toestemming geeft om deel te nemen aan deze survey.
 [[Choices]]
-Ja, ik geef geinformeerde toestemming en wens deel te nemen.
-Nee, ik wens niet deel te nemen.
+Ja, ik geef geïnformeerde toestemming en wens deel te nemen.
+Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[PageBreak]]
 
@@ -756,9 +750,10 @@ Nee, ik wens niet deel te nemen.
 
 [[Question:TE:Essay]]
 [[ID:HCP04_INTAKE_BACKGROUND]]
-Wat is uw professionele achtergrond en ervaring in de klinische praktijk?
-
-Beschrijf kort uw discipline, functie, aantal jaren klinische ervaring en de mate waarin u momenteel werkt met personen met psychische klachten.
+Beschrijf kort uw professionele achtergrond en klinische ervaring:
+— Discipline en huidige functie
+— Aantal jaren klinische ervaring
+— Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP04_INTAKE_AGENTIC_AI]]
@@ -815,7 +810,7 @@ Duur: 9 maanden na overlijden van partner
 
 "Mijn partner is negen maanden geleden overleden en ik geraak daar nog steeds niet door. Ik denk voortdurend aan hem of haar. Kleine prikkels - een liedje, een geur, een televisieprogramma dat we samen bekeken - lokken intense golven van verdriet uit die ik niet onder controle krijg. Ik slaap slecht; ik word vroeg wakker en raak daarna niet meer in slaap. Daarnaast voel ik veel schuld. Ik blijf maar herhalen wat ik had moeten zeggen of anders had moeten doen. Ik kan mij ook nauwelijks voorstellen hoe mijn toekomst er nog betekenisvol kan uitzien. Mijn familie zegt dat het al beter zou moeten gaan, maar zo voelt het niet."
 
-Opdracht: noteer 2-6 symptoomlabels voor deze casus. Gebruik enkel korte labels (2-5 woorden); voeg geen beschrijving toe.
+Noteer 2–6 symptoomlabels voor deze casus. Gebruik uitsluitend korte labels van 2–5 woorden. Voeg geen beschrijving of toelichting toe.
 [[Choices]]
 Symptoom 1
 Symptoom 2
@@ -844,7 +839,7 @@ Gestandaardiseerde symptomen uit Deel 1:
 - Schuldgedreven ruminatie
 - Verminderde toekomstorientatie
 
-Opdracht: noteer 3-5 behandelingsoptielabels voor een initieel observatiemodel. Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.
+Noteer 3–5 behandelingsoptielabels voor het initieel observatiemodel. Elk label moet in principe dagelijks meetbaar zijn via een korte vraag in een mobiele app.
 [[Choices]]
 Behandelingsoptie 1
 Behandelingsoptie 2
@@ -862,13 +857,13 @@ Behandelingsoptie 5
 
 [[Question:DB]]
 [[ID:HCP04_PART3_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C04 - 63-jarige gepensioneerde professional - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">63-jarige gepensioneerde professional; duur: 9 maanden na overlijden van partner. Aanhoudende rouwreactie, doorslaapinsomnie, schuldgedreven ruminatie en verminderde toekomstorientatie.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.88em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 7px;font-weight:700;">&#9782;</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Rouwintrusies: gem. 4,2/dag. Slaapkwaliteit: gem. 2,8/10. Sociale contactmomenten: gem. 3,1/week. Schuldgedachten: gem. 5,8/dag. Toekomstgerichte activiteiten: gem. 0,4/week. Betekenisgerichte activiteit uitgevoerd: 4/21 dagen.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c04.png" alt="Netwerkfiguur voor C04" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Betekenisgerichte activiteit</li><li style="margin:4px 0;line-height:1.55;">BO-2: Slaap-waakconsistentie</li><li style="margin:4px 0;line-height:1.55;">BO-3: Sociale steunopname</li><li style="margin:4px 0;line-height:1.55;">BO-4: Zelfcompassie</li><li style="margin:4px 0;line-height:1.55;">BO-5: Toekomstplanning</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C04 - 63-jarige gepensioneerde professional - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">63-jarige gepensioneerde professional; duur: 9 maanden na overlijden van partner. Aanhoudende rouwreactie, doorslaapinsomnie, schuldgedreven ruminatie en verminderde toekomstorientatie.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.78em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 6px;font-weight:700;letter-spacing:.04em;">EMA</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Rouwintrusies: gem. 4,2/dag. Slaapkwaliteit: gem. 2,8/10. Sociale contactmomenten: gem. 3,1/week. Schuldgedachten: gem. 5,8/dag. Toekomstgerichte activiteiten: gem. 0,4/week. Betekenisgerichte activiteit uitgevoerd: 4/21 dagen.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c04.png" alt="Netwerkfiguur voor C04" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Betekenisgerichte activiteit</li><li style="margin:4px 0;line-height:1.55;">BO-2: Slaap-waakconsistentie</li><li style="margin:4px 0;line-height:1.55;">BO-3: Sociale steunopname</li><li style="margin:4px 0;line-height:1.55;">BO-4: Zelfcompassie</li><li style="margin:4px 0;line-height:1.55;">BO-5: Toekomstplanning</li></ul></div>
 
 [[Question:RO]]
 [[ID:HCP04_C04_PART3]]
-Rangschik alle 5 behandelingsopties van hoogste naar laagste behandelprioriteit.
+Rangschik de 5 behandelingsopties van meest prioritair (positie 1) naar minst prioritair (positie 5).
 
-Sleep of rangschik de opties van meest prioritair naar minst prioritair.
+Gebruik de klinische informatie uit de casus en het netwerk als leidraad voor uw prioritering.
 [[Choices]]
 BO-1: Betekenisgerichte activiteit
 BO-2: Slaap-waakconsistentie
@@ -890,9 +885,9 @@ BO-5: Toekomstplanning
 
 [[Question:MC:MultipleAnswer]]
 [[ID:HCP04_C04_PART4]]
-Selecteer exact 6 EMA-items (2 per behandeldoel) die het best aansluiten als sub-behandelingsopties.
+Selecteer exact 6 EMA-items — 2 per gestandaardiseerd behandeldoel — die het best aansluiten als concrete monitoringvariabelen.
 
-Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, geen symptomen.
+Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (geen symptomen). Selecteer telkens de 2 items die per behandeldoel het meest klinisch zinvol zijn.
 [[Choices]]
 1. Waterinname vandaag (glazen)
 2. Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)
@@ -905,7 +900,7 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 9. Sigaretten of tabak gerookt vandaag (aantal)
 10. Gesprek met vertrouwenspersoon of steunfiguur gevoerd vandaag (ja/nee)
 11. Afwijking van gewone slaap- of waktijdstip vandaag (min)
-12. Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)
+12. Financiële zorgen of administratieve taken aangepakt vandaag (ja/nee)
 13. Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)
 14. Zelfkritische gedachte bewust omgevormd naar mildere formulering (ja/nee)
 15. Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)
@@ -925,13 +920,13 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 
 [[Question:DB]]
 [[ID:HCP04_PART5_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C04 - 63-jarige gepensioneerde professional - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Aanhoudende rouw met uitgesproken schuldbeleving en weinig toekomstgerichte betrokkenheid.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Een kleine maar betekenisvolle activiteit plannen die verbinding maakt met herinnering en toekomst.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barriere</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Motivationele inertie: de eerste stap voelt zinloos of emotioneel te zwaar.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Verklein de instap naar een tijdsafgebakende micro-actie, bijvoorbeeld een korte schrijfoefening of een vast herinneringsmoment.</td></tr></table></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C04 - 63-jarige gepensioneerde professional - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Aanhoudende rouw met uitgesproken schuldbeleving en weinig toekomstgerichte betrokkenheid.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Een kleine maar betekenisvolle activiteit plannen die verbinding maakt met herinnering en toekomst.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barrière</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Motivationele inertie: de eerste stap voelt zinloos of emotioneel te zwaar.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Verklein de instap naar een tijdsafgebakende micro-actie, bijvoorbeeld een korte schrijfoefening of een vast herinneringsmoment.</td></tr></table></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP04_C04_PART5]]
-Schrijf hieronder de mobiele coachingsboodschap voor deze casus.
+Schrijf de mobiele coachingsboodschap voor deze casus.
 
-Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt.
+Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst morgen op de smartphone verschijnt.
 
 [[PageBreak]]
 
@@ -943,18 +938,15 @@ Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon ver
 
 [[Question:TE:Essay]]
 [[ID:HCP04_PART6_A]]
-Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen, en hoe zou u
-die selectie bepalen op basis van de vrije klachttekst?
+Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen? Hoe bepaalt u die selectie op basis van de vrije klachttekst?
 
 [[Question:TE:Essay]]
 [[ID:HCP04_PART6_B]]
-Hoe zou u de dagelijkse boodschappen inhoudelijk afstemmen op wat u via de
-EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
+Hoe stemt u de dagelijkse boodschappen inhoudelijk af op wat u via de EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
 
 [[Question:TE:Essay]]
 [[ID:HCP04_PART6_C]]
-Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt?
-Zo ja - op basis van welke criteria en via welk redeneerproces?
+Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt? Zo ja: op basis van welke criteria en via welk redeneerproces?
 
 [[PageBreak]]
 
@@ -974,10 +966,10 @@ Zo ja - op basis van welke criteria en via welk redeneerproces?
 [[ID:HCP05_CONSENT_DECISION]]
 Ik heb bovenstaande informatie gelezen.
 
-Duid aan of u geinformeerde toestemming geeft om deel te nemen aan deze survey.
+Duid aan of u geïnformeerde toestemming geeft om deel te nemen aan deze survey.
 [[Choices]]
-Ja, ik geef geinformeerde toestemming en wens deel te nemen.
-Nee, ik wens niet deel te nemen.
+Ja, ik geef geïnformeerde toestemming en wens deel te nemen.
+Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[PageBreak]]
 
@@ -997,9 +989,10 @@ Nee, ik wens niet deel te nemen.
 
 [[Question:TE:Essay]]
 [[ID:HCP05_INTAKE_BACKGROUND]]
-Wat is uw professionele achtergrond en ervaring in de klinische praktijk?
-
-Beschrijf kort uw discipline, functie, aantal jaren klinische ervaring en de mate waarin u momenteel werkt met personen met psychische klachten.
+Beschrijf kort uw professionele achtergrond en klinische ervaring:
+— Discipline en huidige functie
+— Aantal jaren klinische ervaring
+— Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP05_INTAKE_AGENTIC_AI]]
@@ -1056,7 +1049,7 @@ Duur: 18 maanden
 
 "De afgelopen anderhalf jaar word ik dagelijks gekweld door opdringerige gedachten over het per ongeluk schaden van anderen - dat ik iemand aangereden heb, een gasfornuis open heb laten staan, of een deur niet afgesloten heb. Zodra zo'n gedachte opkomt, kan ik niet ophouden met mentaal controleren: ik ga de situatie telkens opnieuw na in mijn hoofd en stel mezelf steeds dezelfde vragen totdat ik tijdelijk gerustgesteld ben. Dit ritueel kost mij dagelijks twee tot vier uur. Inmiddels vermijd ik steeds meer situaties die deze gedachten uitlokken - zoals autorijden of het als laatste verlaten van een ruimte - en vraag ik regelmatig aan anderen of er niets mis is gegaan. Die geruststelling helpt even, maar de gedachten komen sterker terug."
 
-Opdracht: noteer 2-6 symptoomlabels voor deze casus. Gebruik enkel korte labels (2-5 woorden); voeg geen beschrijving toe.
+Noteer 2–6 symptoomlabels voor deze casus. Gebruik uitsluitend korte labels van 2–5 woorden. Voeg geen beschrijving of toelichting toe.
 [[Choices]]
 Symptoom 1
 Symptoom 2
@@ -1085,7 +1078,7 @@ Gestandaardiseerde symptomen uit Deel 1:
 - Vermijding van schaderisico
 - Tijdsbelasting door OCD-rituelen
 
-Opdracht: noteer 3-5 behandelingsoptielabels voor een initieel observatiemodel. Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.
+Noteer 3–5 behandelingsoptielabels voor het initieel observatiemodel. Elk label moet in principe dagelijks meetbaar zijn via een korte vraag in een mobiele app.
 [[Choices]]
 Behandelingsoptie 1
 Behandelingsoptie 2
@@ -1103,13 +1096,13 @@ Behandelingsoptie 5
 
 [[Question:DB]]
 [[ID:HCP05_PART3_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C05 - 25-jarige postgraduaatsstudent - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">25-jarige postgraduaatsstudent; duur: 18 maanden. Intrusieve schadeobsessies, compulsieve mentale controle, situationele vermijding en tijdsbelasting door OCD-rituelen.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.88em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 7px;font-weight:700;">&#9782;</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Compulsieve mentale controles en rituelen: gem.\ 3,1 uur/dag (21/21 dagen). Geruststellingszoekend gedrag: gem.\ 4,3 keer/dag. Vermijdingsepisodes (angstgerelateerde situaties niet betreden): gem.\ 2,8/dag. Compulsie-uitstelpogingen: gem.\ 0,4/dag. Gemiddelde slaaptijd: 6,2 uur/nacht.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c05.png" alt="Netwerkfiguur voor C05" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Compulsie-uitstel</li><li style="margin:4px 0;line-height:1.55;">BO-2: Vermijdingsbeheer</li><li style="margin:4px 0;line-height:1.55;">BO-3: Onzekerheidstolerantie</li><li style="margin:4px 0;line-height:1.55;">BO-4: Slaapkwaliteit</li><li style="margin:4px 0;line-height:1.55;">BO-5: Geruststellingszoekend gedrag</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C05 - 25-jarige postgraduaatsstudent - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">25-jarige postgraduaatsstudent; duur: 18 maanden. Intrusieve schadeobsessies, compulsieve mentale controle, situationele vermijding en tijdsbelasting door OCD-rituelen.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.78em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 6px;font-weight:700;letter-spacing:.04em;">EMA</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Compulsieve mentale controles en rituelen: gem.\ 3,1 uur/dag (21/21 dagen). Geruststellingszoekend gedrag: gem.\ 4,3 keer/dag. Vermijdingsepisodes (angstgerelateerde situaties niet betreden): gem.\ 2,8/dag. Compulsie-uitstelpogingen: gem.\ 0,4/dag. Gemiddelde slaaptijd: 6,2 uur/nacht.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c05.png" alt="Netwerkfiguur voor C05" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Compulsie-uitstel</li><li style="margin:4px 0;line-height:1.55;">BO-2: Vermijdingsbeheer</li><li style="margin:4px 0;line-height:1.55;">BO-3: Onzekerheidstolerantie</li><li style="margin:4px 0;line-height:1.55;">BO-4: Slaapkwaliteit</li><li style="margin:4px 0;line-height:1.55;">BO-5: Geruststellingszoekend gedrag</li></ul></div>
 
 [[Question:RO]]
 [[ID:HCP05_C05_PART3]]
-Rangschik alle 5 behandelingsopties van hoogste naar laagste behandelprioriteit.
+Rangschik de 5 behandelingsopties van meest prioritair (positie 1) naar minst prioritair (positie 5).
 
-Sleep of rangschik de opties van meest prioritair naar minst prioritair.
+Gebruik de klinische informatie uit de casus en het netwerk als leidraad voor uw prioritering.
 [[Choices]]
 BO-1: Compulsie-uitstel
 BO-2: Vermijdingsbeheer
@@ -1131,9 +1124,9 @@ BO-5: Geruststellingszoekend gedrag
 
 [[Question:MC:MultipleAnswer]]
 [[ID:HCP05_C05_PART4]]
-Selecteer exact 6 EMA-items (2 per behandeldoel) die het best aansluiten als sub-behandelingsopties.
+Selecteer exact 6 EMA-items — 2 per gestandaardiseerd behandeldoel — die het best aansluiten als concrete monitoringvariabelen.
 
-Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, geen symptomen.
+Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (geen symptomen). Selecteer telkens de 2 items die per behandeldoel het meest klinisch zinvol zijn.
 [[Choices]]
 1. Waterinname vandaag (glazen)
 2. Compulsieve handeling of mentaal ritueel bewust uitgesteld bij impulsdrang (ja/nee)
@@ -1148,7 +1141,7 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 11. Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)
 12. Gesprek met vertrouwenspersoon of steunfiguur gevoerd vandaag (ja/nee)
 13. Intrusieve gedachte bewust getolereerd zonder compulsieve of vermijdende reactie (ja/nee)
-14. Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)
+14. Financiële zorgen of administratieve taken aangepakt vandaag (ja/nee)
 15. Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)
 16. Onzekerheid bij OCD-situatie bewust verdragen zonder geruststelling of controle (min)
 17. Pijnklachten of lichamelijke ongemakken bijgehouden in een dagboek (ja/nee)
@@ -1166,13 +1159,13 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 
 [[Question:DB]]
 [[ID:HCP05_PART5_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C05 - 25-jarige postgraduaatsstudent - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">OCD met schadeobsessies en compulsieve mentale controle die dagelijks twee tot vier uur opslorpt en het dagelijks functioneren ernstig beperkt.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Compulsie-uitstel: bewust en gradueel uitstellen van mentale controles en rituelen bij elke obsessionele impulsdrang.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barriere</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Hoge morele verantwoordelijkheidsbeleving; het nalaten van het ritueel voelt als onverantwoordelijk handelen en roept intense schuld op.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Implementatie-intentie met vastgelegd uitstelprotocol (bijv.\ 15 minuten wachten), gecombineerd met herattributie van de verantwoordelijkheidsgedachte.</td></tr></table></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C05 - 25-jarige postgraduaatsstudent - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">OCD met schadeobsessies en compulsieve mentale controle die dagelijks twee tot vier uur opslorpt en het dagelijks functioneren ernstig beperkt.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Compulsie-uitstel: bewust en gradueel uitstellen van mentale controles en rituelen bij elke obsessionele impulsdrang.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barrière</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Hoge morele verantwoordelijkheidsbeleving; het nalaten van het ritueel voelt als onverantwoordelijk handelen en roept intense schuld op.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Implementatie-intentie met vastgelegd uitstelprotocol (bijv.\ 15 minuten wachten), gecombineerd met herattributie van de verantwoordelijkheidsgedachte.</td></tr></table></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP05_C05_PART5]]
-Schrijf hieronder de mobiele coachingsboodschap voor deze casus.
+Schrijf de mobiele coachingsboodschap voor deze casus.
 
-Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt.
+Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst morgen op de smartphone verschijnt.
 
 [[PageBreak]]
 
@@ -1184,18 +1177,15 @@ Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon ver
 
 [[Question:TE:Essay]]
 [[ID:HCP05_PART6_A]]
-Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen, en hoe zou u
-die selectie bepalen op basis van de vrije klachttekst?
+Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen? Hoe bepaalt u die selectie op basis van de vrije klachttekst?
 
 [[Question:TE:Essay]]
 [[ID:HCP05_PART6_B]]
-Hoe zou u de dagelijkse boodschappen inhoudelijk afstemmen op wat u via de
-EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
+Hoe stemt u de dagelijkse boodschappen inhoudelijk af op wat u via de EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
 
 [[Question:TE:Essay]]
 [[ID:HCP05_PART6_C]]
-Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt?
-Zo ja - op basis van welke criteria en via welk redeneerproces?
+Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt? Zo ja: op basis van welke criteria en via welk redeneerproces?
 
 [[PageBreak]]
 
@@ -1215,10 +1205,10 @@ Zo ja - op basis van welke criteria en via welk redeneerproces?
 [[ID:HCP06_CONSENT_DECISION]]
 Ik heb bovenstaande informatie gelezen.
 
-Duid aan of u geinformeerde toestemming geeft om deel te nemen aan deze survey.
+Duid aan of u geïnformeerde toestemming geeft om deel te nemen aan deze survey.
 [[Choices]]
-Ja, ik geef geinformeerde toestemming en wens deel te nemen.
-Nee, ik wens niet deel te nemen.
+Ja, ik geef geïnformeerde toestemming en wens deel te nemen.
+Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[PageBreak]]
 
@@ -1238,9 +1228,10 @@ Nee, ik wens niet deel te nemen.
 
 [[Question:TE:Essay]]
 [[ID:HCP06_INTAKE_BACKGROUND]]
-Wat is uw professionele achtergrond en ervaring in de klinische praktijk?
-
-Beschrijf kort uw discipline, functie, aantal jaren klinische ervaring en de mate waarin u momenteel werkt met personen met psychische klachten.
+Beschrijf kort uw professionele achtergrond en klinische ervaring:
+— Discipline en huidige functie
+— Aantal jaren klinische ervaring
+— Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP06_INTAKE_AGENTIC_AI]]
@@ -1297,7 +1288,7 @@ Duur: 2 jaar
 
 "Zo'n twee jaar geleden begon ik toenemende spanning te ervaren in werkgerelateerde situaties waarbij ik zichtbaar ben of beoordeeld word. Voor elke vergadering of presentatie bereid ik mij buitensporig lang voor - soms meerdere uren - uit angst niet competent over te komen. Na afloop piekeren mijn gedachten urenlang over wat ik verkeerd gezegd of gedaan heb. Ik vermijd inmiddels actief kansen waarbij ik mij moet presenteren: ik neem nauwelijks het woord in vergaderingen, wijs leiderschapsrollen af en aarzel bij elke professionele zichtbaarheidsmogelijkheid. Mijn loopbaan lijdt hieronder: ik heb een promotie afgeslagen omdat ik de extra zichtbaarheid niet aankon."
 
-Opdracht: noteer 2-6 symptoomlabels voor deze casus. Gebruik enkel korte labels (2-5 woorden); voeg geen beschrijving toe.
+Noteer 2–6 symptoomlabels voor deze casus. Gebruik uitsluitend korte labels van 2–5 woorden. Voeg geen beschrijving of toelichting toe.
 [[Choices]]
 Symptoom 1
 Symptoom 2
@@ -1326,7 +1317,7 @@ Gestandaardiseerde symptomen uit Deel 1:
 - Excessieve voorbereiding
 - Vermijding van zichtbaarheid
 
-Opdracht: noteer 3-5 behandelingsoptielabels voor een initieel observatiemodel. Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.
+Noteer 3–5 behandelingsoptielabels voor het initieel observatiemodel. Elk label moet in principe dagelijks meetbaar zijn via een korte vraag in een mobiele app.
 [[Choices]]
 Behandelingsoptie 1
 Behandelingsoptie 2
@@ -1344,13 +1335,13 @@ Behandelingsoptie 5
 
 [[Question:DB]]
 [[ID:HCP06_PART3_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C06 - 32-jarige marketingprofessional - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">32-jarige marketingprofessional; duur: 2 jaar. Prestatieangst op het werk, post-event ruminatie, excessieve voorbereiding en vermijding van professionele zichtbaarheid.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.88em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 7px;font-weight:700;">&#9782;</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Voorbereidingstijd per werkmoment (vergadering, presentatie): gem.\ 3,4 uur/dag. Post-event ruminatieduur na werksituaties: gem.\ 1,8 uur/dag. Vermijding van zichtbaarheid in werk: gem.\ 2,1 keer/dag. Professionele exposurestappen uitgevoerd: gem.\ 0,2/dag. Zelfevaluatiescore na sociale werksituaties: gem.\ 2,4/10.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c06.png" alt="Netwerkfiguur voor C06" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Professionele exposure</li><li style="margin:4px 0;line-height:1.55;">BO-2: Post-event verwerking</li><li style="margin:4px 0;line-height:1.55;">BO-3: Zelfevaluatiebias</li><li style="margin:4px 0;line-height:1.55;">BO-4: Voorbereidingstijd</li><li style="margin:4px 0;line-height:1.55;">BO-5: Vermijdingslogging</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C06 - 32-jarige marketingprofessional - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">32-jarige marketingprofessional; duur: 2 jaar. Prestatieangst op het werk, post-event ruminatie, excessieve voorbereiding en vermijding van professionele zichtbaarheid.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.78em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 6px;font-weight:700;letter-spacing:.04em;">EMA</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Voorbereidingstijd per werkmoment (vergadering, presentatie): gem.\ 3,4 uur/dag. Post-event ruminatieduur na werksituaties: gem.\ 1,8 uur/dag. Vermijding van zichtbaarheid in werk: gem.\ 2,1 keer/dag. Professionele exposurestappen uitgevoerd: gem.\ 0,2/dag. Zelfevaluatiescore na sociale werksituaties: gem.\ 2,4/10.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c06.png" alt="Netwerkfiguur voor C06" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Professionele exposure</li><li style="margin:4px 0;line-height:1.55;">BO-2: Post-event verwerking</li><li style="margin:4px 0;line-height:1.55;">BO-3: Zelfevaluatiebias</li><li style="margin:4px 0;line-height:1.55;">BO-4: Voorbereidingstijd</li><li style="margin:4px 0;line-height:1.55;">BO-5: Vermijdingslogging</li></ul></div>
 
 [[Question:RO]]
 [[ID:HCP06_C06_PART3]]
-Rangschik alle 5 behandelingsopties van hoogste naar laagste behandelprioriteit.
+Rangschik de 5 behandelingsopties van meest prioritair (positie 1) naar minst prioritair (positie 5).
 
-Sleep of rangschik de opties van meest prioritair naar minst prioritair.
+Gebruik de klinische informatie uit de casus en het netwerk als leidraad voor uw prioritering.
 [[Choices]]
 BO-1: Professionele exposure
 BO-2: Post-event verwerking
@@ -1372,9 +1363,9 @@ BO-5: Vermijdingslogging
 
 [[Question:MC:MultipleAnswer]]
 [[ID:HCP06_C06_PART4]]
-Selecteer exact 6 EMA-items (2 per behandeldoel) die het best aansluiten als sub-behandelingsopties.
+Selecteer exact 6 EMA-items — 2 per gestandaardiseerd behandeldoel — die het best aansluiten als concrete monitoringvariabelen.
 
-Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, geen symptomen.
+Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (geen symptomen). Selecteer telkens de 2 items die per behandeldoel het meest klinisch zinvol zijn.
 [[Choices]]
 1. Waterinname vandaag (glazen)
 2. Presentatie, vergadering of zichtbaar werkmoment bewust opgezocht of deelgenomen (ja/nee)
@@ -1392,7 +1383,7 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 14. Cafeine-inname na 15.00 uur beperkt (ja/nee)
 15. Gesprek met vertrouwenspersoon of steunfiguur gevoerd vandaag (ja/nee)
 16. Aantal situaties waarbij zichtbaarheid of beoordeling bewust vermeden werd vandaag (aantal)
-17. Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)
+17. Financiële zorgen of administratieve taken aangepakt vandaag (ja/nee)
 18. Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)
 19. Pijnklachten of lichamelijke ongemakken bijgehouden in een dagboek (ja/nee)
 20. Bewust dankbaarheidsoefening of positieve reflectie uitgevoerd vandaag (ja/nee)
@@ -1407,13 +1398,13 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 
 [[Question:DB]]
 [[ID:HCP06_PART5_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C06 - 32-jarige marketingprofessional - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Prestatieangst en post-event ruminatie leiden tot toenemende professionele vermijding en loopbaanschade.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Professionele exposure: bewust deelnemen aan beoordelbare werksituaties zonder terugtrekking of overmatige voorbereiding.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barriere</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Negatieve uitkomstverwachting en zelfevaluatie: de persoon verwacht definitieve afwijzing of beoordeling als incompetent bij elk zichtbaar moment.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Gedragsexperiment met vooraf geformuleerde toetsingshypothese en een vaste tijdslimiet voor post-event evaluatie (max.\ 10 minuten).</td></tr></table></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C06 - 32-jarige marketingprofessional - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Prestatieangst en post-event ruminatie leiden tot toenemende professionele vermijding en loopbaanschade.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Professionele exposure: bewust deelnemen aan beoordelbare werksituaties zonder terugtrekking of overmatige voorbereiding.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barrière</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Negatieve uitkomstverwachting en zelfevaluatie: de persoon verwacht definitieve afwijzing of beoordeling als incompetent bij elk zichtbaar moment.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Gedragsexperiment met vooraf geformuleerde toetsingshypothese en een vaste tijdslimiet voor post-event evaluatie (max.\ 10 minuten).</td></tr></table></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP06_C06_PART5]]
-Schrijf hieronder de mobiele coachingsboodschap voor deze casus.
+Schrijf de mobiele coachingsboodschap voor deze casus.
 
-Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt.
+Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst morgen op de smartphone verschijnt.
 
 [[PageBreak]]
 
@@ -1425,18 +1416,15 @@ Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon ver
 
 [[Question:TE:Essay]]
 [[ID:HCP06_PART6_A]]
-Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen, en hoe zou u
-die selectie bepalen op basis van de vrije klachttekst?
+Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen? Hoe bepaalt u die selectie op basis van de vrije klachttekst?
 
 [[Question:TE:Essay]]
 [[ID:HCP06_PART6_B]]
-Hoe zou u de dagelijkse boodschappen inhoudelijk afstemmen op wat u via de
-EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
+Hoe stemt u de dagelijkse boodschappen inhoudelijk af op wat u via de EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
 
 [[Question:TE:Essay]]
 [[ID:HCP06_PART6_C]]
-Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt?
-Zo ja - op basis van welke criteria en via welk redeneerproces?
+Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt? Zo ja: op basis van welke criteria en via welk redeneerproces?
 
 [[PageBreak]]
 
@@ -1456,10 +1444,10 @@ Zo ja - op basis van welke criteria en via welk redeneerproces?
 [[ID:HCP07_CONSENT_DECISION]]
 Ik heb bovenstaande informatie gelezen.
 
-Duid aan of u geinformeerde toestemming geeft om deel te nemen aan deze survey.
+Duid aan of u geïnformeerde toestemming geeft om deel te nemen aan deze survey.
 [[Choices]]
-Ja, ik geef geinformeerde toestemming en wens deel te nemen.
-Nee, ik wens niet deel te nemen.
+Ja, ik geef geïnformeerde toestemming en wens deel te nemen.
+Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[PageBreak]]
 
@@ -1479,9 +1467,10 @@ Nee, ik wens niet deel te nemen.
 
 [[Question:TE:Essay]]
 [[ID:HCP07_INTAKE_BACKGROUND]]
-Wat is uw professionele achtergrond en ervaring in de klinische praktijk?
-
-Beschrijf kort uw discipline, functie, aantal jaren klinische ervaring en de mate waarin u momenteel werkt met personen met psychische klachten.
+Beschrijf kort uw professionele achtergrond en klinische ervaring:
+— Discipline en huidige functie
+— Aantal jaren klinische ervaring
+— Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP07_INTAKE_AGENTIC_AI]]
@@ -1538,7 +1527,7 @@ Duur: 14 maanden
 
 "Al meer dan een jaar word ik de meeste ochtenden wakker met een zwaar en vlak gevoel. Het is niet eens intense verdrietigheid, eerder een aanhoudende grijsheid waardoor niets nog de moeite lijkt. Heel eenvoudige taken voelen enorm zwaar aan: mij aankleden, een mail beantwoorden, een maaltijd maken. Ik ben stilaan het contact verloren met bijna iedereen met wie ik vroeger omging, omdat ik de energie niet heb om relaties te onderhouden. Ik slaap veel maar voel mij nooit uitgerust. In stilte vraag ik mij af of ik ooit nog de oude zal worden. Mijn huisarts heeft mij aangeraden hulp te zoeken."
 
-Opdracht: noteer 2-6 symptoomlabels voor deze casus. Gebruik enkel korte labels (2-5 woorden); voeg geen beschrijving toe.
+Noteer 2–6 symptoomlabels voor deze casus. Gebruik uitsluitend korte labels van 2–5 woorden. Voeg geen beschrijving of toelichting toe.
 [[Choices]]
 Symptoom 1
 Symptoom 2
@@ -1567,7 +1556,7 @@ Gestandaardiseerde symptomen uit Deel 1:
 - Sociale isolatie
 - Hopeloosheid
 
-Opdracht: noteer 3-5 behandelingsoptielabels voor een initieel observatiemodel. Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.
+Noteer 3–5 behandelingsoptielabels voor het initieel observatiemodel. Elk label moet in principe dagelijks meetbaar zijn via een korte vraag in een mobiele app.
 [[Choices]]
 Behandelingsoptie 1
 Behandelingsoptie 2
@@ -1585,13 +1574,13 @@ Behandelingsoptie 5
 
 [[Question:DB]]
 [[ID:HCP07_PART3_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C07 - 46-jarige accountmanager - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">46-jarige accountmanager; duur: 14 maanden. Aanhoudende sombere stemming, anergie, sociale isolatie en hopeloosheid over herstel.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.88em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 7px;font-weight:700;">&#9782;</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Voltooiingsgraad van geplande activiteiten: 28%. Sociale contactmomenten/week: gem. 0,8. Stemming: gem. 2,9/10. Variatie in slaap-waaktijd: gem. 2,3 uur. Plezierige activiteiten: gem. 0,9/dag. Uitdagen van hopeloze gedachten: gem. 0,6/dag.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c07.png" alt="Netwerkfiguur voor C07" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Activiteitenschema</li><li style="margin:4px 0;line-height:1.55;">BO-2: Sociaal initiatief</li><li style="margin:4px 0;line-height:1.55;">BO-3: Slaapregelmaat</li><li style="margin:4px 0;line-height:1.55;">BO-4: Plezierige activiteit</li><li style="margin:4px 0;line-height:1.55;">BO-5: Cognitieve tegenspraak hopeloosheid</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C07 - 46-jarige accountmanager - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">46-jarige accountmanager; duur: 14 maanden. Aanhoudende sombere stemming, anergie, sociale isolatie en hopeloosheid over herstel.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.78em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 6px;font-weight:700;letter-spacing:.04em;">EMA</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Voltooiingsgraad van geplande activiteiten: 28%. Sociale contactmomenten/week: gem. 0,8. Stemming: gem. 2,9/10. Variatie in slaap-waaktijd: gem. 2,3 uur. Plezierige activiteiten: gem. 0,9/dag. Uitdagen van hopeloze gedachten: gem. 0,6/dag.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c07.png" alt="Netwerkfiguur voor C07" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Activiteitenschema</li><li style="margin:4px 0;line-height:1.55;">BO-2: Sociaal initiatief</li><li style="margin:4px 0;line-height:1.55;">BO-3: Slaapregelmaat</li><li style="margin:4px 0;line-height:1.55;">BO-4: Plezierige activiteit</li><li style="margin:4px 0;line-height:1.55;">BO-5: Cognitieve tegenspraak hopeloosheid</li></ul></div>
 
 [[Question:RO]]
 [[ID:HCP07_C07_PART3]]
-Rangschik alle 5 behandelingsopties van hoogste naar laagste behandelprioriteit.
+Rangschik de 5 behandelingsopties van meest prioritair (positie 1) naar minst prioritair (positie 5).
 
-Sleep of rangschik de opties van meest prioritair naar minst prioritair.
+Gebruik de klinische informatie uit de casus en het netwerk als leidraad voor uw prioritering.
 [[Choices]]
 BO-1: Activiteitenschema
 BO-2: Sociaal initiatief
@@ -1613,9 +1602,9 @@ BO-5: Cognitieve tegenspraak hopeloosheid
 
 [[Question:MC:MultipleAnswer]]
 [[ID:HCP07_C07_PART4]]
-Selecteer exact 6 EMA-items (2 per behandeldoel) die het best aansluiten als sub-behandelingsopties.
+Selecteer exact 6 EMA-items — 2 per gestandaardiseerd behandeldoel — die het best aansluiten als concrete monitoringvariabelen.
 
-Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, geen symptomen.
+Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (geen symptomen). Selecteer telkens de 2 items die per behandeldoel het meest klinisch zinvol zijn.
 [[Choices]]
 1. Cafeine-inname na 15.00 uur beperkt (ja/nee)
 2. Geplande activiteit uit dagschema bewust uitgevoerd (ja/nee)
@@ -1628,7 +1617,7 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 9. Afwijking van geplande bedtijd (min)
 10. Alcoholconsumptie vanavond (eenheden)
 11. Sigaretten of tabak gerookt vandaag (aantal)
-12. Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)
+12. Financiële zorgen of administratieve taken aangepakt vandaag (ja/nee)
 13. Bewust contact opgenomen met een kennis of vriend (ja/nee)
 14. Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)
 15. Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)
@@ -1648,13 +1637,13 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 
 [[Question:DB]]
 [[ID:HCP07_PART5_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C07 - 46-jarige accountmanager - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Langdurige sombere stemming en anergie hebben activiteit en sociale verbinding sterk doen afnemen.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Dagelijks een kleine, geplande activiteit uitvoeren als micro-actie uit het dagschema (gedragsactivatie).</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barriere</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Planningsdrempel en betekenisverlies: activiteiten voelen vooraf nutteloos en te zwaar.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Werk met een vooraf gekozen micro-activiteit en een "klaar is genoeg"-criterium.</td></tr></table></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C07 - 46-jarige accountmanager - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Langdurige sombere stemming en anergie hebben activiteit en sociale verbinding sterk doen afnemen.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Dagelijks een kleine, geplande activiteit uitvoeren als micro-actie uit het dagschema (gedragsactivatie).</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barrière</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Planningsdrempel en betekenisverlies: activiteiten voelen vooraf nutteloos en te zwaar.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Werk met een vooraf gekozen micro-activiteit en een "klaar is genoeg"-criterium.</td></tr></table></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP07_C07_PART5]]
-Schrijf hieronder de mobiele coachingsboodschap voor deze casus.
+Schrijf de mobiele coachingsboodschap voor deze casus.
 
-Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt.
+Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst morgen op de smartphone verschijnt.
 
 [[PageBreak]]
 
@@ -1666,18 +1655,15 @@ Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon ver
 
 [[Question:TE:Essay]]
 [[ID:HCP07_PART6_A]]
-Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen, en hoe zou u
-die selectie bepalen op basis van de vrije klachttekst?
+Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen? Hoe bepaalt u die selectie op basis van de vrije klachttekst?
 
 [[Question:TE:Essay]]
 [[ID:HCP07_PART6_B]]
-Hoe zou u de dagelijkse boodschappen inhoudelijk afstemmen op wat u via de
-EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
+Hoe stemt u de dagelijkse boodschappen inhoudelijk af op wat u via de EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
 
 [[Question:TE:Essay]]
 [[ID:HCP07_PART6_C]]
-Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt?
-Zo ja - op basis van welke criteria en via welk redeneerproces?
+Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt? Zo ja: op basis van welke criteria en via welk redeneerproces?
 
 [[PageBreak]]
 
@@ -1697,10 +1683,10 @@ Zo ja - op basis van welke criteria en via welk redeneerproces?
 [[ID:HCP08_CONSENT_DECISION]]
 Ik heb bovenstaande informatie gelezen.
 
-Duid aan of u geinformeerde toestemming geeft om deel te nemen aan deze survey.
+Duid aan of u geïnformeerde toestemming geeft om deel te nemen aan deze survey.
 [[Choices]]
-Ja, ik geef geinformeerde toestemming en wens deel te nemen.
-Nee, ik wens niet deel te nemen.
+Ja, ik geef geïnformeerde toestemming en wens deel te nemen.
+Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[PageBreak]]
 
@@ -1720,9 +1706,10 @@ Nee, ik wens niet deel te nemen.
 
 [[Question:TE:Essay]]
 [[ID:HCP08_INTAKE_BACKGROUND]]
-Wat is uw professionele achtergrond en ervaring in de klinische praktijk?
-
-Beschrijf kort uw discipline, functie, aantal jaren klinische ervaring en de mate waarin u momenteel werkt met personen met psychische klachten.
+Beschrijf kort uw professionele achtergrond en klinische ervaring:
+— Discipline en huidige functie
+— Aantal jaren klinische ervaring
+— Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP08_INTAKE_AGENTIC_AI]]
@@ -1779,7 +1766,7 @@ Duur: sinds de kindertijd, duidelijk verergerd in de voorbije 12 maanden
 
 "Ik heb altijd al moeite gehad om mij te concentreren op taken die mij niet meteen interesseren, maar het is het voorbije jaar veel erger geworden. Ik begin aan projecten en maak ze zelden af. Ik vergeet afspraken, zelfs als ik ze ergens noteer. Mijn partner is gefrustreerd omdat ik volgens hem of haar niet echt luister en onbetrouwbaar overkom. Ik weet dat ik op veel vlakken competent ben, maar ik voel mij voortdurend een mislukking. Ik ben taken die moeilijk zullen zijn ook steeds meer beginnen vermijden, waardoor de achterstand alleen maar groter wordt."
 
-Opdracht: noteer 2-6 symptoomlabels voor deze casus. Gebruik enkel korte labels (2-5 woorden); voeg geen beschrijving toe.
+Noteer 2–6 symptoomlabels voor deze casus. Gebruik uitsluitend korte labels van 2–5 woorden. Voeg geen beschrijving of toelichting toe.
 [[Choices]]
 Symptoom 1
 Symptoom 2
@@ -1808,7 +1795,7 @@ Gestandaardiseerde symptomen uit Deel 1:
 - Interpersoonlijke onoplettendheid
 - Prestatieschaamte
 
-Opdracht: noteer 3-5 behandelingsoptielabels voor een initieel observatiemodel. Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.
+Noteer 3–5 behandelingsoptielabels voor het initieel observatiemodel. Elk label moet in principe dagelijks meetbaar zijn via een korte vraag in een mobiele app.
 [[Choices]]
 Behandelingsoptie 1
 Behandelingsoptie 2
@@ -1826,13 +1813,13 @@ Behandelingsoptie 5
 
 [[Question:DB]]
 [[ID:HCP08_PART3_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C08 - 38-jarige projectmanager - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">38-jarige projectmanager; duur: sinds de kindertijd, duidelijk verergerd in de voorbije 12 maanden. Aandachtsvolhoudingsproblemen, plannings- en organisatiefouten, interpersoonlijke onoplettendheid en prestatieschaamte.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.88em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 7px;font-weight:700;">&#9782;</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Gestarte versus afgewerkte taken: 68% versus 29%. Gemiste afspraken of toezeggingen: gem. 2,1/week. Partnerconflicten: gem. 4,7/week. Externe tools gebruikt: gem. 1,8/dag. Positieve zelfbekrachtiging: gem. 0,4/dag.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c08.png" alt="Netwerkfiguur voor C08" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Extern taakbeheersysteem</li><li style="margin:4px 0;line-height:1.55;">BO-2: Interesse-gedreven activatie</li><li style="margin:4px 0;line-height:1.55;">BO-3: Bewust luisteren</li><li style="margin:4px 0;line-height:1.55;">BO-4: Taakvoltooiingsbekrachtiging</li><li style="margin:4px 0;line-height:1.55;">BO-5: Overgangsrituelen</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C08 - 38-jarige projectmanager - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">38-jarige projectmanager; duur: sinds de kindertijd, duidelijk verergerd in de voorbije 12 maanden. Aandachtsvolhoudingsproblemen, plannings- en organisatiefouten, interpersoonlijke onoplettendheid en prestatieschaamte.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.78em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 6px;font-weight:700;letter-spacing:.04em;">EMA</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Gestarte versus afgewerkte taken: 68% versus 29%. Gemiste afspraken of toezeggingen: gem. 2,1/week. Partnerconflicten: gem. 4,7/week. Externe tools gebruikt: gem. 1,8/dag. Positieve zelfbekrachtiging: gem. 0,4/dag.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c08.png" alt="Netwerkfiguur voor C08" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Extern taakbeheersysteem</li><li style="margin:4px 0;line-height:1.55;">BO-2: Interesse-gedreven activatie</li><li style="margin:4px 0;line-height:1.55;">BO-3: Bewust luisteren</li><li style="margin:4px 0;line-height:1.55;">BO-4: Taakvoltooiingsbekrachtiging</li><li style="margin:4px 0;line-height:1.55;">BO-5: Overgangsrituelen</li></ul></div>
 
 [[Question:RO]]
 [[ID:HCP08_C08_PART3]]
-Rangschik alle 5 behandelingsopties van hoogste naar laagste behandelprioriteit.
+Rangschik de 5 behandelingsopties van meest prioritair (positie 1) naar minst prioritair (positie 5).
 
-Sleep of rangschik de opties van meest prioritair naar minst prioritair.
+Gebruik de klinische informatie uit de casus en het netwerk als leidraad voor uw prioritering.
 [[Choices]]
 BO-1: Extern taakbeheersysteem
 BO-2: Interesse-gedreven activatie
@@ -1854,9 +1841,9 @@ BO-5: Overgangsrituelen
 
 [[Question:MC:MultipleAnswer]]
 [[ID:HCP08_C08_PART4]]
-Selecteer exact 6 EMA-items (2 per behandeldoel) die het best aansluiten als sub-behandelingsopties.
+Selecteer exact 6 EMA-items — 2 per gestandaardiseerd behandeldoel — die het best aansluiten als concrete monitoringvariabelen.
 
-Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, geen symptomen.
+Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (geen symptomen). Selecteer telkens de 2 items die per behandeldoel het meest klinisch zinvol zijn.
 [[Choices]]
 1. Cafeine-inname voor de middag beperkt (ja/nee)
 2. To-dolijst of digitale planner bewust geraadpleegd (ja/nee)
@@ -1870,7 +1857,7 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 10. Alcoholconsumptie vanavond (eenheden)
 11. Sigaretten of tabak gerookt vandaag (aantal)
 12. Afgesloten taak bewust en expliciet positief erkend (ja/nee)
-13. Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)
+13. Financiële zorgen of administratieve taken aangepakt vandaag (ja/nee)
 14. Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)
 15. Kleine symbolische beloning gegeven na taakvoltooiing (ja/nee)
 16. Vast slaap- en waktijdstip aangehouden vandaag (ja/nee)
@@ -1889,13 +1876,13 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 
 [[Question:DB]]
 [[ID:HCP08_PART5_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C08 - 38-jarige projectmanager - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Executieve functieproblemen zorgen voor taakfalen, relationele spanning en aanhoudende schaamte.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Een extern taakbeheersysteem consequent raadplegen en successen expliciet bekrachtigen.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barriere</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Gewoonteweerstand en lage volhoudingsverwachting: eerdere systemen werden snel losgelaten.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Installeer een minimale, dagelijks terugkerende check-in en koppel afgeronde taken aan een expliciete bevestiging.</td></tr></table></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C08 - 38-jarige projectmanager - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Executieve functieproblemen zorgen voor taakfalen, relationele spanning en aanhoudende schaamte.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Een extern taakbeheersysteem consequent raadplegen en successen expliciet bekrachtigen.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barrière</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Gewoonteweerstand en lage volhoudingsverwachting: eerdere systemen werden snel losgelaten.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Installeer een minimale, dagelijks terugkerende check-in en koppel afgeronde taken aan een expliciete bevestiging.</td></tr></table></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP08_C08_PART5]]
-Schrijf hieronder de mobiele coachingsboodschap voor deze casus.
+Schrijf de mobiele coachingsboodschap voor deze casus.
 
-Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt.
+Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst morgen op de smartphone verschijnt.
 
 [[PageBreak]]
 
@@ -1907,18 +1894,15 @@ Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon ver
 
 [[Question:TE:Essay]]
 [[ID:HCP08_PART6_A]]
-Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen, en hoe zou u
-die selectie bepalen op basis van de vrije klachttekst?
+Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen? Hoe bepaalt u die selectie op basis van de vrije klachttekst?
 
 [[Question:TE:Essay]]
 [[ID:HCP08_PART6_B]]
-Hoe zou u de dagelijkse boodschappen inhoudelijk afstemmen op wat u via de
-EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
+Hoe stemt u de dagelijkse boodschappen inhoudelijk af op wat u via de EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
 
 [[Question:TE:Essay]]
 [[ID:HCP08_PART6_C]]
-Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt?
-Zo ja - op basis van welke criteria en via welk redeneerproces?
+Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt? Zo ja: op basis van welke criteria en via welk redeneerproces?
 
 [[PageBreak]]
 
@@ -1938,10 +1922,10 @@ Zo ja - op basis van welke criteria en via welk redeneerproces?
 [[ID:HCP09_CONSENT_DECISION]]
 Ik heb bovenstaande informatie gelezen.
 
-Duid aan of u geinformeerde toestemming geeft om deel te nemen aan deze survey.
+Duid aan of u geïnformeerde toestemming geeft om deel te nemen aan deze survey.
 [[Choices]]
-Ja, ik geef geinformeerde toestemming en wens deel te nemen.
-Nee, ik wens niet deel te nemen.
+Ja, ik geef geïnformeerde toestemming en wens deel te nemen.
+Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[PageBreak]]
 
@@ -1961,9 +1945,10 @@ Nee, ik wens niet deel te nemen.
 
 [[Question:TE:Essay]]
 [[ID:HCP09_INTAKE_BACKGROUND]]
-Wat is uw professionele achtergrond en ervaring in de klinische praktijk?
-
-Beschrijf kort uw discipline, functie, aantal jaren klinische ervaring en de mate waarin u momenteel werkt met personen met psychische klachten.
+Beschrijf kort uw professionele achtergrond en klinische ervaring:
+— Discipline en huidige functie
+— Aantal jaren klinische ervaring
+— Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP09_INTAKE_AGENTIC_AI]]
@@ -2020,7 +2005,7 @@ Duur: 3 jaar
 
 "Mijn stemming kan op een dag heel snel omslaan en vaak lijkt dat sterker dan wat er feitelijk gebeurt. Ik kan mij in de ochtend nog redelijk voelen en tegen de middag helemaal ontredderd zijn. Wanneer ik mij bekritiseerd of afgewezen voel, zelfs om iets kleins, reageer ik extreem heftig - boos of heel wanhopig. Ik handel ook impulsief, vooral met geld of in relaties, en heb daar achteraf spijt van. Mijn relaties worden vaak snel intens en lopen daarna mis. Ik zie dat dat patroon zich herhaalt, maar ik weet niet hoe ik het moet doorbreken."
 
-Opdracht: noteer 2-6 symptoomlabels voor deze casus. Gebruik enkel korte labels (2-5 woorden); voeg geen beschrijving toe.
+Noteer 2–6 symptoomlabels voor deze casus. Gebruik uitsluitend korte labels van 2–5 woorden. Voeg geen beschrijving of toelichting toe.
 [[Choices]]
 Symptoom 1
 Symptoom 2
@@ -2049,7 +2034,7 @@ Gestandaardiseerde symptomen uit Deel 1:
 - Impulsief gedrag
 - Relationele instabiliteit
 
-Opdracht: noteer 3-5 behandelingsoptielabels voor een initieel observatiemodel. Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.
+Noteer 3–5 behandelingsoptielabels voor het initieel observatiemodel. Elk label moet in principe dagelijks meetbaar zijn via een korte vraag in een mobiele app.
 [[Choices]]
 Behandelingsoptie 1
 Behandelingsoptie 2
@@ -2067,13 +2052,13 @@ Behandelingsoptie 5
 
 [[Question:DB]]
 [[ID:HCP09_PART3_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C09 - 27-jarige salesvertegenwoordiger - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">27-jarige salesvertegenwoordiger; duur: 3 jaar. Snelle stemmingsschommelingen, uitgesproken afwijzingsreactiviteit, impulsief gedrag en relationele instabiliteit.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.88em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 7px;font-weight:700;">&#9782;</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Dagelijks stembereik: gem. 5,8 punten. Emotieregulatievaardigheden gebruikt: gem. 1,2/dag. Impulsieve handelingen: gem. 2,1/dag. Interpersoonlijke conflicten: gem. 3,8/week. Ervaren afwijzingssignalen: gem. 2,4/dag. Herwaardering voor reactie: gem. 0,7/dag.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c09.png" alt="Netwerkfiguur voor C09" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Emotieregulatievaardigheid</li><li style="margin:4px 0;line-height:1.55;">BO-2: Afwijzingsherwaardering</li><li style="margin:4px 0;line-height:1.55;">BO-3: Impulsuitstel</li><li style="margin:4px 0;line-height:1.55;">BO-4: Interpersoonlijke communicatie</li><li style="margin:4px 0;line-height:1.55;">BO-5: Gedifferentieerde stemmingsmonitoring</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C09 - 27-jarige salesvertegenwoordiger - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">27-jarige salesvertegenwoordiger; duur: 3 jaar. Snelle stemmingsschommelingen, uitgesproken afwijzingsreactiviteit, impulsief gedrag en relationele instabiliteit.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.78em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 6px;font-weight:700;letter-spacing:.04em;">EMA</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Dagelijks stembereik: gem. 5,8 punten. Emotieregulatievaardigheden gebruikt: gem. 1,2/dag. Impulsieve handelingen: gem. 2,1/dag. Interpersoonlijke conflicten: gem. 3,8/week. Ervaren afwijzingssignalen: gem. 2,4/dag. Herwaardering voor reactie: gem. 0,7/dag.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c09.png" alt="Netwerkfiguur voor C09" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Emotieregulatievaardigheid</li><li style="margin:4px 0;line-height:1.55;">BO-2: Afwijzingsherwaardering</li><li style="margin:4px 0;line-height:1.55;">BO-3: Impulsuitstel</li><li style="margin:4px 0;line-height:1.55;">BO-4: Interpersoonlijke communicatie</li><li style="margin:4px 0;line-height:1.55;">BO-5: Gedifferentieerde stemmingsmonitoring</li></ul></div>
 
 [[Question:RO]]
 [[ID:HCP09_C09_PART3]]
-Rangschik alle 5 behandelingsopties van hoogste naar laagste behandelprioriteit.
+Rangschik de 5 behandelingsopties van meest prioritair (positie 1) naar minst prioritair (positie 5).
 
-Sleep of rangschik de opties van meest prioritair naar minst prioritair.
+Gebruik de klinische informatie uit de casus en het netwerk als leidraad voor uw prioritering.
 [[Choices]]
 BO-1: Emotieregulatievaardigheid
 BO-2: Afwijzingsherwaardering
@@ -2095,9 +2080,9 @@ BO-5: Gedifferentieerde stemmingsmonitoring
 
 [[Question:MC:MultipleAnswer]]
 [[ID:HCP09_C09_PART4]]
-Selecteer exact 6 EMA-items (2 per behandeldoel) die het best aansluiten als sub-behandelingsopties.
+Selecteer exact 6 EMA-items — 2 per gestandaardiseerd behandeldoel — die het best aansluiten als concrete monitoringvariabelen.
 
-Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, geen symptomen.
+Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (geen symptomen). Selecteer telkens de 2 items die per behandeldoel het meest klinisch zinvol zijn.
 [[Choices]]
 1. Cafeine-inname na 14.00 uur beperkt (ja/nee)
 2. Emotieregulatietechniek (bijv.\ grounding, ademhaling) bewust ingezet (ja/nee)
@@ -2112,7 +2097,7 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 11. Sigaretten of tabak gerookt vandaag (aantal)
 12. Vast slaap- en waktijdstip aangehouden vandaag (ja/nee)
 13. Ervaren afwijzing bewust herwaardeert via een alternatieve interpretatie (ja/nee)
-14. Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)
+14. Financiële zorgen of administratieve taken aangepakt vandaag (ja/nee)
 15. Lichaamsbeweging of sport vandaag (min)
 16. Alternatieve verklaring voor een afwijzingssignaal bewust geformuleerd (ja/nee)
 17. Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)
@@ -2130,13 +2115,13 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 
 [[Question:DB]]
 [[ID:HCP09_PART5_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C09 - 27-jarige salesvertegenwoordiger - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Snelle stemmingswisselingen en hevige reactiviteit leiden tot impulsieve beslissingen en relationele escalatie.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Een specifieke emotieregulatievaardigheid inzetten zodra spanning begint op te lopen.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barriere</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Lage coping-self-efficacy: in het piekmoment verwacht de persoon dat vaardigheden toch niet zullen werken.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Gebruik een vooraf geoefende cue-actie-koppeling: herken een vroege lichamelijke cue en koppel die aan exact een vaardigheid.</td></tr></table></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C09 - 27-jarige salesvertegenwoordiger - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Snelle stemmingswisselingen en hevige reactiviteit leiden tot impulsieve beslissingen en relationele escalatie.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Een specifieke emotieregulatievaardigheid inzetten zodra spanning begint op te lopen.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barrière</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Lage coping-self-efficacy: in het piekmoment verwacht de persoon dat vaardigheden toch niet zullen werken.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Gebruik een vooraf geoefende cue-actie-koppeling: herken een vroege lichamelijke cue en koppel die aan exact een vaardigheid.</td></tr></table></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP09_C09_PART5]]
-Schrijf hieronder de mobiele coachingsboodschap voor deze casus.
+Schrijf de mobiele coachingsboodschap voor deze casus.
 
-Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt.
+Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst morgen op de smartphone verschijnt.
 
 [[PageBreak]]
 
@@ -2148,18 +2133,15 @@ Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon ver
 
 [[Question:TE:Essay]]
 [[ID:HCP09_PART6_A]]
-Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen, en hoe zou u
-die selectie bepalen op basis van de vrije klachttekst?
+Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen? Hoe bepaalt u die selectie op basis van de vrije klachttekst?
 
 [[Question:TE:Essay]]
 [[ID:HCP09_PART6_B]]
-Hoe zou u de dagelijkse boodschappen inhoudelijk afstemmen op wat u via de
-EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
+Hoe stemt u de dagelijkse boodschappen inhoudelijk af op wat u via de EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
 
 [[Question:TE:Essay]]
 [[ID:HCP09_PART6_C]]
-Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt?
-Zo ja - op basis van welke criteria en via welk redeneerproces?
+Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt? Zo ja: op basis van welke criteria en via welk redeneerproces?
 
 [[PageBreak]]
 
@@ -2179,10 +2161,10 @@ Zo ja - op basis van welke criteria en via welk redeneerproces?
 [[ID:HCP10_CONSENT_DECISION]]
 Ik heb bovenstaande informatie gelezen.
 
-Duid aan of u geinformeerde toestemming geeft om deel te nemen aan deze survey.
+Duid aan of u geïnformeerde toestemming geeft om deel te nemen aan deze survey.
 [[Choices]]
-Ja, ik geef geinformeerde toestemming en wens deel te nemen.
-Nee, ik wens niet deel te nemen.
+Ja, ik geef geïnformeerde toestemming en wens deel te nemen.
+Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[PageBreak]]
 
@@ -2202,9 +2184,10 @@ Nee, ik wens niet deel te nemen.
 
 [[Question:TE:Essay]]
 [[ID:HCP10_INTAKE_BACKGROUND]]
-Wat is uw professionele achtergrond en ervaring in de klinische praktijk?
-
-Beschrijf kort uw discipline, functie, aantal jaren klinische ervaring en de mate waarin u momenteel werkt met personen met psychische klachten.
+Beschrijf kort uw professionele achtergrond en klinische ervaring:
+— Discipline en huidige functie
+— Aantal jaren klinische ervaring
+— Mate waarin u momenteel werkt met personen met psychische klachten
 
 [[Question:Matrix]]
 [[ID:HCP10_INTAKE_AGENTIC_AI]]
@@ -2261,7 +2244,7 @@ Duur: ongeveer 9 maanden
 
 "De werkstress is het grootste deel van het afgelopen jaar blijven oplopen. Ik heb voortdurend spanningshoofdpijn en mijn maag is op de meeste dagen ontregeld. 's Nachts lig ik wakker over werkproblemen en beslissingen die nog genomen moeten worden, en als ik eenmaal wakker ben geraakt, val ik vaak niet meer in slaap. Ik drink bijna elke avond twee of drie glazen wijn om tot rust te komen. Ik weet dat dat niet ideaal is, maar het voelt alsof ik anders niet kan afschakelen. Mijn beweging is volledig weggevallen en ik snap thuis sneller dan vroeger."
 
-Opdracht: noteer 2-6 symptoomlabels voor deze casus. Gebruik enkel korte labels (2-5 woorden); voeg geen beschrijving toe.
+Noteer 2–6 symptoomlabels voor deze casus. Gebruik uitsluitend korte labels van 2–5 woorden. Voeg geen beschrijving of toelichting toe.
 [[Choices]]
 Symptoom 1
 Symptoom 2
@@ -2290,7 +2273,7 @@ Gestandaardiseerde symptomen uit Deel 1:
 - Somatische stressklachten
 - Alcohol als copingstrategie
 
-Opdracht: noteer 3-5 behandelingsoptielabels voor een initieel observatiemodel. Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.
+Noteer 3–5 behandelingsoptielabels voor het initieel observatiemodel. Elk label moet in principe dagelijks meetbaar zijn via een korte vraag in een mobiele app.
 [[Choices]]
 Behandelingsoptie 1
 Behandelingsoptie 2
@@ -2308,13 +2291,13 @@ Behandelingsoptie 5
 
 [[Question:DB]]
 [[ID:HCP10_PART3_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C10 - 52-jarige operationeel directeur - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">52-jarige operationeel directeur; duur: ongeveer 9 maanden. Chronische werkstress, doorslaapinsomnie, somatische stressklachten en alcohol als copingstrategie.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.88em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 7px;font-weight:700;">&#9782;</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Werkgerelateerde gedachten na 20.00 uur: gem. 3,4 uur. Alcoholeenheden in de avond: gem. 3,1. Hoofdpijndagen: 16/21. Slaapefficientie: gem. 62%. Stressregulatie overdag: gem. 0,9/dag. Lichamelijke activiteit: gem. 0,4 sessies/week.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c10.png" alt="Netwerkfiguur voor C10" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Werkontkoppeling voor slaap</li><li style="margin:4px 0;line-height:1.55;">BO-2: Avondlijk alcoholgebruik</li><li style="margin:4px 0;line-height:1.55;">BO-3: Stressregulatie overdag</li><li style="margin:4px 0;line-height:1.55;">BO-4: Aerobe beweging</li><li style="margin:4px 0;line-height:1.55;">BO-5: Nachtelijke cognitieve arousal</li></ul></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fffbeb;border-left:5px solid #d97706;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#92400e;font-weight:700;font-size:1.05em;">C10 - 52-jarige operationeel directeur - Deel 3</span></div><div style="background:#f0f9ff;border:1px solid #7dd3fc;border-radius:8px;padding:14px 18px;margin:12px 0;"><p style="margin:0px 0;line-height:1.65;">52-jarige operationeel directeur; duur: ongeveer 9 maanden. Chronische werkstress, doorslaapinsomnie, somatische stressklachten en alcohol als copingstrategie.</p></div><div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:12px 16px;margin:12px 0;"><strong style="color:#15803d;"><span style="font-size:.78em;background:#0d9488;color:#fff;border-radius:4px;padding:2px 6px;font-weight:700;letter-spacing:.04em;">EMA</span> 21-daagse monitoring</strong><br/><span style="font-size:.95em;">Werkgerelateerde gedachten na 20.00 uur: gem. 3,4 uur. Alcoholeenheden in de avond: gem. 3,1. Hoofdpijndagen: 16/21. Slaapefficientie: gem. 62%. Stressregulatie overdag: gem. 0,9/dag. Lichamelijke activiteit: gem. 0,4 sessies/week.</span></div><div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c10.png" alt="Netwerkfiguur voor C10" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div><h4 style="color:#1e3a5f;font-size:.97em;margin:18px 0 6px 0;font-weight:700;">Beschikbare behandelingsopties</h4><ul style="margin:6px 0 12px 0;padding-left:22px;"><li style="margin:4px 0;line-height:1.55;">BO-1: Werkontkoppeling voor slaap</li><li style="margin:4px 0;line-height:1.55;">BO-2: Avondlijk alcoholgebruik</li><li style="margin:4px 0;line-height:1.55;">BO-3: Stressregulatie overdag</li><li style="margin:4px 0;line-height:1.55;">BO-4: Aerobe beweging</li><li style="margin:4px 0;line-height:1.55;">BO-5: Nachtelijke cognitieve arousal</li></ul></div>
 
 [[Question:RO]]
 [[ID:HCP10_C10_PART3]]
-Rangschik alle 5 behandelingsopties van hoogste naar laagste behandelprioriteit.
+Rangschik de 5 behandelingsopties van meest prioritair (positie 1) naar minst prioritair (positie 5).
 
-Sleep of rangschik de opties van meest prioritair naar minst prioritair.
+Gebruik de klinische informatie uit de casus en het netwerk als leidraad voor uw prioritering.
 [[Choices]]
 BO-1: Werkontkoppeling voor slaap
 BO-2: Avondlijk alcoholgebruik
@@ -2336,9 +2319,9 @@ BO-5: Nachtelijke cognitieve arousal
 
 [[Question:MC:MultipleAnswer]]
 [[ID:HCP10_C10_PART4]]
-Selecteer exact 6 EMA-items (2 per behandeldoel) die het best aansluiten als sub-behandelingsopties.
+Selecteer exact 6 EMA-items — 2 per gestandaardiseerd behandeldoel — die het best aansluiten als concrete monitoringvariabelen.
 
-Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, geen symptomen.
+Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie (geen symptomen). Selecteer telkens de 2 items die per behandeldoel het meest klinisch zinvol zijn.
 [[Choices]]
 1. Waterinname vandaag (glazen)
 2. Werkapparaten bewust uitgeschakeld voor slapengaan (ja/nee)
@@ -2351,7 +2334,7 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 9. Cafeine-inname na 16.00 uur bewust beperkt (ja/nee)
 10. Avond zonder alcoholinname bewust aangehouden (ja/nee)
 11. Vast slaap- en waktijdstip aangehouden vandaag (ja/nee)
-12. Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)
+12. Financiële zorgen of administratieve taken aangepakt vandaag (ja/nee)
 13. Stressregulatietechniek (ademhaling, mindfulness) bewust ingezet overdag (ja/nee)
 14. Lichaamsbeweging of sport vandaag (min)
 15. Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)
@@ -2371,13 +2354,13 @@ Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, 
 
 [[Question:DB]]
 [[ID:HCP10_PART5_CASE_INFO]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C10 - 52-jarige operationeel directeur - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Aanhoudende werkstress leidt tot gefragmenteerde slaap, lichamelijke spanningsklachten en alcohol als vaste ontladingsstrategie.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Een korte werkontkoppelingsroutine installeren en alcohol niet langer als standaard afschakelmechanisme gebruiken.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barriere</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Sterke gewoontekracht: alcohol voelt essentieel om de overgang van werk naar slaap te maken.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Vervang het bestaande gewoontepatroon door een vast, tijdsgebonden afbouwritueel dat elke avond op hetzelfde moment start.</td></tr></table></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><div style="background:#fff1f2;border-left:5px solid #e11d48;border-radius:0 8px 8px 0;padding:12px 16px;margin:0 0 16px 0;"><span style="color:#9f1239;font-weight:700;font-size:1.05em;">C10 - 52-jarige operationeel directeur - Deel 5</span></div><table style="border-collapse:collapse;width:100%;font-size:.95em;margin:8px 0;"><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Primair probleem</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Aanhoudende werkstress leidt tot gefragmenteerde slaap, lichamelijke spanningsklachten en alcohol als vaste ontladingsstrategie.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Behandeldoel</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Een korte werkontkoppelingsroutine installeren en alcohol niet langer als standaard afschakelmechanisme gebruiken.</td></tr><tr style="background:#f8fafc;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Voornaamste barrière</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Sterke gewoontekracht: alcohol voelt essentieel om de overgang van werk naar slaap te maken.</td></tr><tr style="background:#fff;"><td style="padding:9px 12px;border:1px solid #e2e8f0;font-weight:700;white-space:nowrap;width:25%;color:#1e3a5f;">Copingstrategie</td><td style="padding:9px 12px;border:1px solid #e2e8f0;">Vervang het bestaande gewoontepatroon door een vast, tijdsgebonden afbouwritueel dat elke avond op hetzelfde moment start.</td></tr></table></div>
 
 [[Question:TE:Essay]]
 [[ID:HCP10_C10_PART5]]
-Schrijf hieronder de mobiele coachingsboodschap voor deze casus.
+Schrijf de mobiele coachingsboodschap voor deze casus.
 
-Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt.
+Formuleer in 2–4 zinnen, rechtstreeks gericht aan de persoon, alsof de tekst morgen op de smartphone verschijnt.
 
 [[PageBreak]]
 
@@ -2389,18 +2372,15 @@ Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon ver
 
 [[Question:TE:Essay]]
 [[ID:HCP10_PART6_A]]
-Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen, en hoe zou u
-die selectie bepalen op basis van de vrije klachttekst?
+Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen? Hoe bepaalt u die selectie op basis van de vrije klachttekst?
 
 [[Question:TE:Essay]]
 [[ID:HCP10_PART6_B]]
-Hoe zou u de dagelijkse boodschappen inhoudelijk afstemmen op wat u via de
-EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
+Hoe stemt u de dagelijkse boodschappen inhoudelijk af op wat u via de EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
 
 [[Question:TE:Essay]]
 [[ID:HCP10_PART6_C]]
-Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt?
-Zo ja - op basis van welke criteria en via welk redeneerproces?
+Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt? Zo ja: op basis van welke criteria en via welk redeneerproces?
 
 [[PageBreak]]
 
