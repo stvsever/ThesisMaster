@@ -1,0 +1,512 @@
+[[AdvancedFormat]]
+
+[[Block:Toestemming]]
+
+[[Question:DB]]
+[[ID:CONSENT_INFO]]
+Geinformeerde toestemming
+
+U staat op het punt de evaluatiesurvey voor HCP-PRE-08 te starten.
+
+Lees onderstaande informatie zorgvuldig.
+
+Doel van het onderzoek: deze survey verzamelt onafhankelijke expertantwoorden van zorgprofessionals op dezelfde klinische redeneerstappen die later ook door het PHOENIX-systeem worden uitgevoerd.
+Uw antwoorden worden gebruikt als menselijk referentiecorpus voor een dubbelblinde vergelijking met systeemoutput in het kader van een masterproef aan de Universiteit Gent.
+
+Wat deelname inhoudt:
+- U vult eerst een korte intake in en daarna 1 toegewezen casus.
+- De survey bevat 6 delen en duurt ongeveer 25-35 minuten.
+- We vragen uitsluitend uw eigen klinische oordeel, zonder generatieve AI, collegaoverleg of andere externe hulpmiddelen.
+
+Vrijwilligheid en vertrouwelijkheid:
+- Deelname is vrijwillig.
+- U kan op elk moment stoppen door het venster te sluiten.
+- Uw antwoorden worden na ontvangst geanonimiseerd en alleen voor deze masterproefanalyse gebruikt.
+
+Contact:
+- Onderzoeker: Stijn Van Severen
+- E-mail: stijn.vanseveren@ugent.be
+
+Kies hieronder of u op basis van deze informatie wenst deel te nemen. Indien u niet wenst deel te nemen, sluit dan de survey na uw keuze.
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:CONSENT_DECISION]]
+Ik heb bovenstaande informatie gelezen.
+
+Duid aan of u geinformeerde toestemming geeft om deel te nemen aan deze survey.
+[[Choices]]
+Ja, ik geef geinformeerde toestemming en wens deel te nemen.
+Nee, ik wens niet deel te nemen.
+
+[[PageBreak]]
+
+[[Block:Introductie]]
+
+[[Question:DB]]
+[[ID:INTRO]]
+PHOENIX evaluatiestudie - Fase 1
+
+Deelnemerscode: HCP-PRE-08
+Toegewezen casus: C08 (38-jarige projectmanager)
+
+Studie: Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentsysteem voor gepersonaliseerde digitale geestelijke gezondheidszorg (PHOENIX)
+Instelling: Universiteit Gent - Faculteit Psychologie en Pedagogische Wetenschappen
+Onderzoeker: Stijn Van Severen (masterproefstudent)
+Promotoren: Prof. Dr. Geert Crombez; Dr. Annick De Paepe
+Contact: stijn.vanseveren@ugent.be
+Geschatte duur: Ongeveer 25-35 minuten voor de casus, plus intake
+
+U neemt deel aan een evaluatiestudie waarin zorgprofessionals onafhankelijk dezelfde vijf klinische redeneerstappen uitvoeren als het PHOENIX-systeem.
+Uw antwoorden vormen het menselijke referentiecorpus voor een latere dubbelblinde vergelijking met systeemoutput.
+
+Voor uw casus vult u dezelfde vijf inhoudelijke delen in: (1) operationalisering, (2) initieel observatiemodel, (3) prioritering van behandeldoelen, (4) verfijning van EMA-metingen en (5) een mobiele coachingsboodschap.
+Aansluitend beantwoordt u in Deel 6 drie reflectievragen over uw digitale benaderingslogica.
+
+We vragen uw eigen klinische oordeelsvorming. Antwoord zoals u dat in een reele professionele context zou doen, maar werk strikt volgens de instructies op de volgende pagina's.
+
+Vertrouwelijkheid: uw antwoorden worden voor analyse geanonimiseerd en uitsluitend gebruikt binnen deze masterproefstudie. Deelname is vrijwillig; u kan zich op elk moment terugtrekken door contact op te nemen met de onderzoeker.
+
+[[PageBreak]]
+
+[[Block:Intake]]
+
+[[Question:DB]]
+[[ID:INTAKE_INFO]]
+Intake - achtergrond, kennis van netwerkanalyse en houding tegenover agentic AI
+
+Deze intake verzamelt drie soorten context die later relevant zijn voor interpretatie van de expertoutput:
+- Klinische achtergrond en ervaring: om de professionele context van het antwoord te kunnen situeren.
+- Kennis van netwerkanalyse: omdat de casusopgaven expliciet vertrekken vanuit een netwerk-analytisch redeneermodel.
+- Basishouding tegenover agentic AI: om eventuele verwachtingsbias tegenover AI-systemen later mee te kunnen wegen.
+
+De intake staat bewust voor de casus, zodat deze context niet wordt gekleurd door het invullen van de inhoudelijke taken zelf.
+
+[[Question:TE:Essay]]
+[[ID:INTAKE_BACKGROUND]]
+Wat is uw professionele achtergrond en ervaring in de klinische praktijk?
+
+Beschrijf kort uw discipline, functie, aantal jaren klinische ervaring en de mate waarin u momenteel werkt met personen met psychische klachten.
+
+[[Question:Matrix]]
+[[ID:INTAKE_AGENTIC_AI]]
+Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over agentic AI in een klinische context.
+[[Choices]]
+Ik zie agentic AI als een potentieel zinvolle ondersteuning voor klinische besluitvorming in mentale gezondheidszorg.
+Ik zou agentic AI enkel vertrouwen wanneer de onderliggende redeneerstappen expliciet en controleerbaar worden getoond.
+Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepersonaliseerde digitale geestelijke gezondheidszorg.
+[[Answers]]
+1 = Helemaal oneens
+2 = Oneens
+3 = Eerder oneens
+4 = Neutraal
+5 = Eerder eens
+6 = Eens
+7 = Helemaal eens
+
+[[Question:Matrix]]
+[[ID:INTAKE_NETWORK_ANALYSIS]]
+Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
+[[Choices]]
+Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
+Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
+Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis voor gepersonaliseerde EMA-monitoring en digitale interventies.
+[[Answers]]
+1 = Helemaal oneens
+2 = Oneens
+3 = Eerder oneens
+4 = Neutraal
+5 = Eerder eens
+6 = Eens
+7 = Helemaal eens
+
+[[PageBreak]]
+
+[[Block:Instructies]]
+
+[[Question:DB]]
+[[ID:INSTRUCTION_PAGE]]
+Het PHOENIX-systeem en de context van deze studie
+PHOENIX (Personalized Hierarchical Optimization Engine for Navigating
+Insightful eXplorations) is een multi-agentsysteem ontwikkeld als onderdeel van
+een masterproef in de psychologie aan de Universiteit Gent. Het systeem verwerkt
+een vrije klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen
+die de kern vormen van een gepersonaliseerde, longitudinale digitale interventie.
+Het theoretische kader van PHOENIX steunt op het netwerk-analytisch model
+van psychopathologie: psychische klachten worden niet
+als uitingen van een latente stoornis beschouwd, maar als een dynamisch
+netwerk van onderling samenhangende klachtcomponenten. Een sleutelbegrip daarbinnen
+is het onderscheid tussen symptomen (klacht- en toestandsdimensies die
+beschrijven wat er mis gaat bij de persoon) en behandelingsopties
+(modificeerbare gedragsvariabelen die de symptomen causaal beinvloeden en als
+behandeldoel kunnen dienen).
+Symptoom (S): een klinisch relevante, momentaan aanwezige
+klacht- of toestandsdimensie van de persoon die herhaald meetbaar is via
+dagelijkse EMA. Symptomen zijn de uitkomstvariabelen in het netwerk - ze
+beschrijven wat er mis gaat (bijv. inslaapproblemen, paniekepisoden,
+sombere stemming). Symptomen zijn geen gedragingen of interventies.
+Behandelingsoptie (BO): een modificeerbare gedrags- of procesvariabele
+die plausibel causaal ingrijpt op een of meerdere symptomen en dagelijks meetbaar
+is via een korte EMA-vraag. Behandelingsopties zijn de ingreepvariabelen in het
+netwerk - ze beschrijven wat veranderbaar is (bijv. avondschermtijd,
+geplande exposure, aerobe beweging). Een behandelingsoptie is nooit een symptoom zelf,
+maar een gedrag, strategie of omgevingsfactor die het symptoom beinvloedt.
+Voorbeelden ter verduidelijking:
+- Symptoom: inslaapproblemen, anticipatieangst, anergie, piekeren voor het slapengaan.
+- Behandelingsoptie: avondschermtijd (min), geplande exposurestap (ja/nee),
+bewegingsfrequentie (min), preslaap-offloading (ja/nee).
+EMA is een methode waarbij personen vaak meerdere keren per dag hun actuele
+toestand of gedrag rapporteren via een mobiele applicatie. In PHOENIX wordt EMA
+gebruikt om zowel symptomen als behandelingsopties dagelijks te monitoren over een periode
+van meerdere weken.
+Een goede EMA-variabele voldoet aan vier vereisten:
+- Dagelijks rapporteerbaar: via een korte vraag op de smartphone, bijv. (ja/nee, aantal, minuten of 0-10).
+- Dynamisch en veranderbaar: geen vaste trek, diagnose of stabiel achtergrondkenmerk.
+- Klinisch relevant: toont binnen-persoonsvariatie die therapeutisch informatief is.
+- Onderscheid symptoom vs. behandelingsoptie: klachtdimensies zijn symptomen; modificeerbare gedragingen zijn behandelingsopties.
+De verzamelde EMA-data worden vervolgens ingezet voor netwerkanalyse: het kwantitatief in kaart brengen van de empirische verbanden tussen dagelijkse gedragingen (behandelingsopties) en klachtniveaus (symptomen) over meerdere weken. Het resulterende tweedelig netwerk maakt behandelprioriteiten empirisch zichtbaar (zie Deel 3).
+Na voldoende EMA-monitoring construeert PHOENIX een tweedelig netwerk:
+een graaf met twee kolommensets en gewogen verbindingen daartussen.
+- Linkse kolom - Behandelingsopties (BO): de modificeerbare variabelen.
+- Rechtse kolom - Symptomen (S): de klacht- en toestandsdimensies.
+- Kanten: de richting loopt van behandelingsoptie naar symptoom (BO → S).
+Een blauwe rand duidt op een positief verband (behandelingsoptie vergroot het symptoom),
+een rode rand op een negatief verband (behandelingsoptie verkleint het symptoom).
+Lijndikte is proportioneel aan de sterkte van het empirische verband uit de monitoringdata.
+In Deel 3 rangschikt u de behandelingsopties op behandelprioriteit op basis van
+dit netwerk en de monitoringsamenvatting.
+Overzicht van de vijf taken
+Stap: Klinische taak: Wat u doet: Richttijd
+-: Instructies lezen: Lees de instructiepagina aandachtig door: ≈5 min
+1: Operationalisering: Identificeer 2-6 symptoomlabels (klachtdimensies): ≈3 min
+2: Initieel observatiemodel: Genereer 3-5 behandelingsoptielabels (modificeerbaar, EMA-geschikt): ≈3 min
+3: Behandeldoelprioritering: Rangschik alle 5 behandelingsopties van hoog naar laag behandelprioriteit: ≈4 min
+4: Verfijnd observatiemodel: Selecteer exact 6 EMA-items (2 per behandeldoel) uit de lijst van 20: ≈4 min
+5: Mobiele coaching: Schrijf een korte patientgerichte boodschap voor de app: ≈4 min
+6: Reflectie digitale aanpak: Beantwoord één algemene reflectievraag over uw EMA-benaderingslogica: ≈5 min
+: Totaal (1 casus):: 25-35 min
+- Werk sequentieel: Deel 1 → Deel 6.
+Ga pas naar een volgend deel wanneer het huidige deel volledig is afgewerkt. Voor Deel 1-5 geldt dit voor de toegewezen casus; Deel 6 is éénmalig.
+- Gebruik geen generatieve AI, schrijfhulpmiddelen, richtlijnen of collegaoverleg.
+Extern gebruik ondermijnt de methodologische validiteit en de blind scoringswaarde van de studie.
+- Gebruik in latere delen uitsluitend de meegeleverde gestandaardiseerde context.
+Die is bewust vastgezet zodat alle deelnemers op identieke input reageren en vergelijkbaar zijn.
+- Herwerk eerdere antwoorden niet retroactief nadat u latere context hebt gezien.
+- Noteer of typ rechtstreeks in de voorziene antwoordzones.
+Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blinde beoordeling.
+- Werk ook bij beperkte informatie. Klinische teksten bevatten vaak onvoldoende informatie voor definitieve conclusies. Geef altijd een antwoord op basis van de beschikbare informatie en uw klinisch oordeel. Laat geen velden blanco zonder reden.
+
+[[PageBreak]]
+
+[[Block:Deel 1]]
+
+[[Question:DB]]
+[[ID:PART1_INFO]]
+Opdracht: identificeer de belangrijkste actuele klacht- en toestandsdimensies
+(symptomen) in de klachttekst en noteer voor elke dimensie uitsluitend een
+kort symptoomlabel.
+Wat is een symptoom?
+Een symptoom is een klacht- of toestandsdimensie die beschrijft wat er
+mis gaat bij de persoon. Het is geen behandeling, geen gedrag en geen oorzaak,
+maar een actuele toestandsbeschrijving:
+- momenteel aanwezig bij de persoon (niet hypothetisch of anamnestisch),
+- onderscheidbaar van andere klachtdimensies (niet overlappend),
+- in principe herhaald meetbaar via dagelijkse zelfrapportage (EMA),
+- op DSM-5-TR/ICD-11-niveau: concreet genoeg om afzonderlijk te meten (bijv. "inslaapmoeilijkheden", niet het brede "slaapstoornis"), maar niet te atomair (niet "wakker om 3u00" als apart symptoom).
+Voorbeelden van goede symptoomlabels:
+inslaapproblemen, paniekepisoden, anticipatieangst, sombere stemming, emotionele uitputting,
+anergie, interpersoonlijke instabiliteit, compulsief controleergedrag.
+Let op: gedragingen (bijv. "avondschermtijd"), oorzaken (bijv. "werkstress")
+en behandelstrategieën zijn geen symptomen maar behandelingsopties - die horen in Deel 2.
+Antwoordformat: label van 2-5 woorden, zonder beschrijvende zin.
+Noteer per casus 2-6 symptomen. Laat ongebruikte velden leeg.
+Zie het uitgewerkte voorbeeld hieronder voor een concrete illustratie van wat een correct symptoomlabel is.
+
+[[Question:TE:Form]]
+[[ID:C08_PART1]]
+C08 - 38-jarige projectmanager
+Duur: sinds de kindertijd, duidelijk verergerd in de voorbije 12 maanden
+
+"Ik heb altijd al moeite gehad om mij te concentreren op taken die mij niet meteen interesseren, maar het is het voorbije jaar veel erger geworden. Ik begin aan projecten en maak ze zelden af. Ik vergeet afspraken, zelfs als ik ze ergens noteer. Mijn partner is gefrustreerd omdat ik volgens hem of haar niet echt luister en onbetrouwbaar overkom. Ik weet dat ik op veel vlakken competent ben, maar ik voel mij voortdurend een mislukking. Ik ben taken die moeilijk zullen zijn ook steeds meer beginnen vermijden, waardoor de achterstand alleen maar groter wordt."
+
+Opdracht: noteer 2-6 symptoomlabels voor deze casus. Gebruik enkel korte labels (2-5 woorden); voeg geen beschrijving toe.
+[[Choices]]
+Symptoom 1
+Symptoom 2
+Symptoom 3
+Symptoom 4
+Symptoom 5
+Symptoom 6
+
+[[PageBreak]]
+
+[[Block:Deel 2]]
+
+[[Question:DB]]
+[[ID:PART2_INFO]]
+Opdracht: genereer 3-5 behandelingsoptielabels die samen het
+initieel observatiemodel voor deze casus vormen.
+Wat is een behandelingsoptie in deze context?
+Een behandelingsoptie is een modificeerbare gedrags- of procesvariabele die beschrijft
+wat de persoon kan veranderen:
+- Modificeerbaar: de persoon (of therapeut) kan er rechtstreeks op ingrijpen.
+- EMA-geschikt: dagelijks meetbaar via een eenvoudige vraag op de smartphone
+(ja/nee, aantal, minuten of 0-10 schaal).
+- Causaal plausibel: klinisch aannemelijk dat de behandelingsoptie de symptomen beinvloedt.
+- Geen symptoom: klachtniveaus of diagnostische trekken zijn
+geen behandelingsopties.
+Voorbeelden van goede behandelingsoptielabels:
+avondschermtijd, geplande exposure, aerobe beweging, preslaap-offloading,
+veiligheidsgedrag, werk-privegrens, herstelactiviteit, compulsie-uitstel.
+Let op: variabelen als "eetlust", "spierspanning" of "moeheid" zijn
+klachtdimensies (symptomen) - geen behandelingsopties. Kies variabelen die de persoon
+actief kan uitvoeren of aanpassen.
+Antwoordformat: enkel een label van 2-6 woorden, zonder meetdefinitie of toelichting.
+Laat ongebruikte velden leeg.
+Zie het uitgewerkte voorbeeld hieronder voor een concrete illustratie.
+
+[[Question:TE:Form]]
+[[ID:C08_PART2]]
+C08 - 38-jarige projectmanager - Deel 2
+
+38-jarige projectmanager; duur: sinds de kindertijd, duidelijk verergerd in de voorbije 12 maanden. Aandachtsvolhoudingsproblemen, plannings- en organisatiefouten, interpersoonlijke onoplettendheid en prestatieschaamte.
+
+Gestandaardiseerde symptomen uit Deel 1:
+- Aandachtsvolhoudingsproblemen
+- Plannings- en organisatiefouten
+- Interpersoonlijke onoplettendheid
+- Prestatieschaamte
+
+Opdracht: noteer 3-5 behandelingsoptielabels voor een initieel observatiemodel. Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.
+[[Choices]]
+Behandelingsoptie 1
+Behandelingsoptie 2
+Behandelingsoptie 3
+Behandelingsoptie 4
+Behandelingsoptie 5
+
+[[PageBreak]]
+
+[[Block:Deel 3]]
+
+[[Question:DB]]
+[[ID:PART3_INFO]]
+Opdracht: rangschik de 5 gestandaardiseerde behandelingsopties van
+hoogste naar laagste behandelprioriteit.
+Wat is een behandeldoel?
+Een behandeldoel is de behandelingsoptie die, als zij veranderd wordt, naar verwachting de
+sterkste vermindering van de symptomen oplevert. Prioriteer op basis van monitoringbewijs
+(frequentie en ernst van het gedragspatroon), klinische modificeerbaarheid
+(haalbaarheid voor deze persoon) en netwerkimpact (invloed op meerdere symptomen).
+Het tweedelig netwerk lezen:
+- Behandelingsopties staan in de linkerkolom (groen); symptomen in de rechterkolom (blauw).
+- Blauwe rand: behandelingsoptie heeft een positief verband met het symptoom
+(meer van BO → meer van S; bijv. meer veiligheidsgedrag → meer angst).
+- Rode rand: behandelingsoptie heeft een negatief verband met het symptoom
+(meer van BO → minder van S; bijv. meer exposure → minder vermijding).
+- Lijndikte: proportioneel aan de sterkte van het empirische verband
+(21-daagse EMA-data).
+Antwoordformat: vul alle 5 prioriteitslijnen in, van rangorde 1 (hoogste prioriteit)
+tot en met 5 (laagste prioriteit).
+Zie het uitgewerkte voorbeeld hieronder voor een toelichting op het lezen van het netwerk en de prioriteringslogica.
+
+<div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/example_d3.png" alt="Voorbeeldnetwerk voor Deel 3" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div>
+
+[[Question:DB]]
+[[ID:PART3_CASE_INFO]]
+C08 - 38-jarige projectmanager - Deel 3
+
+38-jarige projectmanager; duur: sinds de kindertijd, duidelijk verergerd in de voorbije 12 maanden. Aandachtsvolhoudingsproblemen, plannings- en organisatiefouten, interpersoonlijke onoplettendheid en prestatieschaamte.
+
+21-daagse monitoring: Gestarte versus afgewerkte taken: 68% versus 29%. Gemiste afspraken of toezeggingen: gem. 2,1/week. Partnerconflicten: gem. 4,7/week. Externe tools gebruikt: gem. 1,8/dag. Positieve zelfbekrachtiging: gem. 0,4/dag.
+
+<div style="margin-top:12px;margin-bottom:12px;"><img src="https://raw.githubusercontent.com/stvsever/ThesisMaster/main/evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/network_c08.png" alt="Netwerkfiguur voor C08" style="max-width:100%;height:auto;border:1px solid #CBD5E1;border-radius:6px;" /></div>
+
+Beschikbare behandelingsopties:
+- BO-1: Extern taakbeheersysteem
+- BO-2: Interesse-gedreven activatie
+- BO-3: Bewust luisteren
+- BO-4: Taakvoltooiingsbekrachtiging
+- BO-5: Overgangsrituelen
+
+[[Question:RO]]
+[[ID:C08_PART3]]
+Rangschik alle 5 behandelingsopties van hoogste naar laagste behandelprioriteit.
+
+Sleep of rangschik de opties van meest prioritair naar minst prioritair.
+[[Choices]]
+BO-1: Extern taakbeheersysteem
+BO-2: Interesse-gedreven activatie
+BO-3: Bewust luisteren
+BO-4: Taakvoltooiingsbekrachtiging
+BO-5: Overgangsrituelen
+
+[[PageBreak]]
+
+[[Block:Deel 4]]
+
+[[Question:DB]]
+[[ID:PART4_INFO]]
+Opdracht: selecteer per casus exact 6 EMA-items:
+2 sub-behandelingsopties per behandeldoel (3 behandeldoelen × 2 = 6 items).
+Wat zijn sub-behandelingsopties?
+De gestandaardiseerde behandeldoelen in dit deel zijn abstracte domeinen
+(bijv. "Slaapkwaliteit" of "Voedingskwaliteit").
+Om dit domein dagelijks via EMA te monitoren, moet het vertaald worden naar
+concrete, specifieke gedragsitems - de sub-behandelingsopties.
+Hoe werkt de abstracte-naar-concrete vertaling?
+- Een abstract behandeldoel beschrijft een gedragsdomein (bijv. Slaapkwaliteit, Voedingskwaliteit).
+- Een sub-behandelingsoptie is de concrete gedragsoperationalisering van dat domein: een specifiek, dagelijks meetbaar item dat het domein direct meet (bijv. "schermvrij interval voor slapengaan (min)" als sub-optie van "Slaapkwaliteit", of "gezonde maaltijd genuttigd (ja/nee)" als sub-optie van "Voedingskwaliteit").
+- Selecteer per behandeldoel de 2 items die het domein het meest direct en precies meten.
+- Vermijd items die het domein slechts zijdelings raken - zelfs als ze op het eerste zicht verwant lijken.
+Belangrijk: alle 20 items in de lijst zijn behandelingsoptie-type EMA-items
+(modificeerbare gedragingen en strategieen - geen symptomen).
+Uw taak is te selecteren welke 6 items het best aansluiten bij de 3 gestandaardiseerde
+behandeldoelen, 2 per doel.
+Antwoordformat: vink exact 6 items aan. Geen toelichting vereist.
+Zie het uitgewerkte voorbeeld hieronder voor een concrete illustratie van de selectielogica.
+
+[[Question:DB]]
+[[ID:PART4_CASE_INFO]]
+C08 - 38-jarige projectmanager - Deel 4
+
+Gestandaardiseerde behandeldoelen (abstract) voor Deel 4:
+- Externe taakstructuur
+- Aandachtsregulatie in gesprek
+- Positieve bekrachtiging bij voltooiing
+
+[[Question:MC:MultipleAnswer]]
+[[ID:C08_PART4]]
+Selecteer exact 6 EMA-items (2 per behandeldoel) die het best aansluiten als sub-behandelingsopties.
+
+Alle 20 items zijn dagelijkse mobiele EMA-items van het type behandelingsoptie, geen symptomen.
+[[Choices]]
+1. Cafeine-inname voor de middag beperkt (ja/nee)
+2. To-dolijst of digitale planner bewust geraadpleegd (ja/nee)
+3. Waterinname vandaag (glazen)
+4. Nieuwe taken direct en volledig ingevoerd in het taakbeheersysteem (ja/nee)
+5. Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)
+6. Gebalanceerde maaltijden op vaste tijden genuttigd vandaag (ja/nee)
+7. Actief luisteren bewust geoefend tijdens een gesprek (ja/nee)
+8. Omega-3- of vitamine-D-supplement ingenomen (ja/nee)
+9. Afleiding actief weggelegd of uitgeschakeld tijdens een gesprek (ja/nee)
+10. Alcoholconsumptie vanavond (eenheden)
+11. Sigaretten of tabak gerookt vandaag (aantal)
+12. Afgesloten taak bewust en expliciet positief erkend (ja/nee)
+13. Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)
+14. Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)
+15. Kleine symbolische beloning gegeven na taakvoltooiing (ja/nee)
+16. Vast slaap- en waktijdstip aangehouden vandaag (ja/nee)
+17. Gesprek met vertrouwenspersoon of steunfiguur gevoerd vandaag (ja/nee)
+18. Lichaamsbeweging of wandeling buiten uitgevoerd (min)
+19. Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)
+20. Bewust dankbaarheidsoefening of positieve reflectie uitgevoerd vandaag (ja/nee)
+
+[[PageBreak]]
+
+[[Block:Deel 5]]
+
+[[Question:DB]]
+[[ID:PART5_INFO]]
+Opdracht: schrijf een korte, rechtstreeks tot de persoon gerichte
+coachingsboodschap die in de mobiele applicatie verschijnt.
+Theoretisch kader - HAPA:
+PHOENIX gebruikt het Health Action Process Approach (HAPA; Schwarzer, 1992)
+om de boodschap af te stemmen op de motivationele fase van de persoon:
+- Pre-intentionele fase: de persoon is nog niet gemotiveerd om te veranderen
+→ focus op risicobewustzijn en uitkomstverwachting.
+- Intentionele fase: de persoon wil veranderen maar heeft nog geen concreet plan
+→ focus op doelstelling en actieplanning.
+- Actie-/onderhoudsfase: de persoon probeert al te veranderen
+→ focus op copingplanning en zelfeffectiviteitsondersteuning.
+U hoeft de fase niet expliciet te benoemen; gebruik het kader om de toon en inhoud
+van uw boodschap te sturen.
+De boodschap voldoet aan:
+- Lengte: 2-4 zinnen, compact genoeg voor een mobiel scherm.
+- Toon: warm, direct, professioneel - geen klinisch jargon of diagnostische labels.
+- Inhoud: adresseert het primaire behandeldoel en de voornaamste barriere;
+bevat een concrete, eerstvolgende actie.
+- Perspectief: tweede persoon ("jij" of formeel "u").
+Zie het uitgewerkte voorbeeld hieronder voor een volledige illustratie.
+
+[[Question:DB]]
+[[ID:PART5_CASE_INFO]]
+C08 - 38-jarige projectmanager - Deel 5
+
+Primair probleem: Executieve functieproblemen zorgen voor taakfalen, relationele spanning en aanhoudende schaamte.
+Behandeldoel: Een extern taakbeheersysteem consequent raadplegen en successen expliciet bekrachtigen.
+Voornaamste barriere: Gewoonteweerstand en lage volhoudingsverwachting: eerdere systemen werden snel losgelaten.
+Copingstrategie: Installeer een minimale, dagelijks terugkerende check-in en koppel afgeronde taken aan een expliciete bevestiging.
+
+[[Question:TE:Essay]]
+[[ID:C08_PART5]]
+Schrijf hieronder de mobiele coachingsboodschap voor deze casus.
+
+Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt.
+
+[[PageBreak]]
+
+[[Block:Deel 6]]
+
+[[Question:DB]]
+[[ID:PART6_INFO]]
+Context - de PHOENIX-benaderingslogica:
+PHOENIX verwerkt een vrije klachttekst via vijf opeenvolgende stappen:
+(1) identificatie van klacht- en toestandsdimensies als meetbare symptomen,
+(2) generatie van modificeerbare gedragsvariabelen (behandelingsopties),
+(3) prioritering op basis van een tweedelig netwerk dat op dagelijkse EMA-data wordt gefit,
+(4) selectie van concrete EMA-meetitems per behandeldoel, en
+(5) formulering van een gepersonaliseerde dagelijkse coachingsboodschap.
+De kern van deze aanpak is symptoomgedreven netwerkanalyse: klachten worden niet als
+uitingen van een vaste stoornis beschouwd, maar als dynamische knooppunten in een netwerk van
+onderling samenhangende toestandsdimensies. Behandelprioriteiten worden niet
+klinisch verondersteld, maar empirisch bepaald op basis van de gemeten verbanden
+tussen dagelijks gedrag (behandelingsopties) en klachtniveaus (symptomen) over de tijd.
+Hypothetische situatie:
+Stelt u zich voor dat u als zorgprofessional een vrije klachttekst ontvangt van een persoon
+met psychische klachten. U beschikt uitsluitend over twee middelen:
+- een mobiele applicatie waarmee de persoon elke dag een korte set vragen
+beantwoordt (bijv. ja/nee, 0-10 schaal, aantal, minuten) - een EMA-design met
+dagelijkse datacollectie,
+- een dagelijks digitaal bericht dat u - of een geautomatiseerd systeem -
+naar de persoon stuurt (zoals u in Deel 5 formuleerde).
+U heeft geen directe consulten, telefoongesprekken of andere contactvormen ter beschikking.
+Alleen dagelijkse datacollectie via de app en een dagelijkse geschreven boodschap.
+Er is geen enkel correct antwoord. Dit deel dient uitsluitend om uw klinische
+benaderingslogica in kaart te brengen, zodat die naast die van PHOENIX kan worden
+geplaatst. Neem voldoende ruimte om uw redenering volledig en concreet te beschrijven.
+
+[[Question:TE:Essay]]
+[[ID:PART6_A]]
+Welke informatie zou u via de dagelijkse EMA-vragen willen verzamelen, en hoe zou u
+die selectie bepalen op basis van de vrije klachttekst?
+
+[[Question:TE:Essay]]
+[[ID:PART6_B]]
+Hoe zou u de dagelijkse boodschappen inhoudelijk afstemmen op wat u via de
+EMA-data geleidelijk leert over de toestand en het gedrag van de persoon?
+
+[[Question:TE:Essay]]
+[[ID:PART6_C]]
+Zou u uw digitale aanpak systematisch bijsturen naarmate meer data beschikbaar wordt?
+Zo ja - op basis van welke criteria en via welk redeneerproces?
+
+[[PageBreak]]
+
+[[Block:Afronding]]
+
+[[Question:DB]]
+[[ID:CLOSING]]
+Dank u voor het invullen van alle zes delen voor uw toegewezen casus
+en de afsluitende reflectievraag.
+- [☐] Ik heb in Deel 1 symptoomlabels ingevuld.
+- [☐] Ik heb in Deel 2 behandelingsoptielabels ingevuld.
+- [☐] Ik heb in Deel 3 alle 5 behandelingsopties gerangschikt.
+- [☐] Ik heb in Deel 4 exact 6 EMA-items geselecteerd.
+- [☐] Ik heb in Deel 5 een mobiele coachingsboodschap geschreven.
+- [☐] Ik heb in Deel 6 de reflectievraag over digitale benaderingslogica beantwoord.
+- [☐] Mijn antwoorden weerspiegelen mijn eigen klinische oordeel zonder gebruik van generatieve AI of andere externe hulp.
+- [☐] Ik begrijp dat mijn antwoorden geanonimiseerd worden voor analyse.
+Bezorg het ingevulde document terug via e-mail aan:
+stijn.vanseveren@ugent.be met onderwerp: PHOENIX-PRE-HCP-PRE-01
+Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus
+voor de latere blind evaluatie van PHOENIX. Hartelijk dank voor uw bijdrage aan dit onderzoek.
