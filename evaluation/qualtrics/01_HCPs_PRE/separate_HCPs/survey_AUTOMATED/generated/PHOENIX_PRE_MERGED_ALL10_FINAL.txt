@@ -246,6 +246,10 @@ Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks ge
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
+[[Question:DB]]
+[[ID:HCP01_DANKU_PAGE]]
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 10px 0;line-height:1.65;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div>
+
 [[Block:HCP02_Toestemming]]
 
 [[Question:DB]]
@@ -491,6 +495,10 @@ Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeld
 Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
+
+[[Question:DB]]
+[[ID:HCP02_DANKU_PAGE]]
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 10px 0;line-height:1.65;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div>
 
 [[Block:HCP03_Toestemming]]
 
@@ -738,6 +746,10 @@ Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks ge
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
+[[Question:DB]]
+[[ID:HCP03_DANKU_PAGE]]
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 10px 0;line-height:1.65;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div>
+
 [[Block:HCP04_Toestemming]]
 
 [[Question:DB]]
@@ -983,6 +995,10 @@ Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeld
 Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
+
+[[Question:DB]]
+[[ID:HCP04_DANKU_PAGE]]
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 10px 0;line-height:1.65;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div>
 
 [[Block:HCP05_Toestemming]]
 
@@ -1230,6 +1246,10 @@ Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks ge
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
+[[Question:DB]]
+[[ID:HCP05_DANKU_PAGE]]
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 10px 0;line-height:1.65;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div>
+
 [[Block:HCP06_Toestemming]]
 
 [[Question:DB]]
@@ -1475,6 +1495,10 @@ Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeld
 Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
+
+[[Question:DB]]
+[[ID:HCP06_DANKU_PAGE]]
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 10px 0;line-height:1.65;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div>
 
 [[Block:HCP07_Toestemming]]
 
@@ -1722,6 +1746,10 @@ Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks ge
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
+[[Question:DB]]
+[[ID:HCP07_DANKU_PAGE]]
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 10px 0;line-height:1.65;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div>
+
 [[Block:HCP08_Toestemming]]
 
 [[Question:DB]]
@@ -1967,6 +1995,10 @@ Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeld
 Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
+
+[[Question:DB]]
+[[ID:HCP08_DANKU_PAGE]]
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 10px 0;line-height:1.65;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div>
 
 [[Block:HCP09_Toestemming]]
 
@@ -2214,6 +2246,10 @@ Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks ge
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
 
+[[Question:DB]]
+[[ID:HCP09_DANKU_PAGE]]
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 10px 0;line-height:1.65;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div>
+
 [[Block:HCP10_Toestemming]]
 
 [[Question:DB]]
@@ -2459,3 +2495,7 @@ Deel 4: Ik heb exact 6 EMA-items geselecteerd: 2 per gestandaardiseerd behandeld
 Deel 5: Ik heb een coachingsboodschap geschreven van 2-4 zinnen, rechtstreeks gericht aan de persoon.
 Deel 6: Ik heb alle drie de reflectievragen volledig en concreet beantwoord.
 Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtlijnen.
+
+[[Question:DB]]
+[[ID:HCP10_DANKU_PAGE]]
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 10px 0;line-height:1.65;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div>
