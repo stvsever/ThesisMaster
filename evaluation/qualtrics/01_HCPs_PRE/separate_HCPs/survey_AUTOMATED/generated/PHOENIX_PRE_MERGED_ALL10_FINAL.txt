@@ -58,7 +58,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 [[ID:HCP01_INTAKE_NETWORK_ANALYSIS]]
 (3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
-Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
+Ik ben voldoende vertrouwd met kwantitatieve of statistische benaderingen van psychopathologie om de onderliggende redenering in deze survey te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
 Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis voor gepersonaliseerde EMA-monitoring en digitale interventies.
 [[Answers]]
@@ -296,7 +296,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 [[ID:HCP02_INTAKE_NETWORK_ANALYSIS]]
 (3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
-Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
+Ik ben voldoende vertrouwd met kwantitatieve of statistische benaderingen van psychopathologie om de onderliggende redenering in deze survey te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
 Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis voor gepersonaliseerde EMA-monitoring en digitale interventies.
 [[Answers]]
@@ -534,7 +534,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 [[ID:HCP03_INTAKE_NETWORK_ANALYSIS]]
 (3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
-Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
+Ik ben voldoende vertrouwd met kwantitatieve of statistische benaderingen van psychopathologie om de onderliggende redenering in deze survey te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
 Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis voor gepersonaliseerde EMA-monitoring en digitale interventies.
 [[Answers]]
@@ -772,7 +772,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 [[ID:HCP04_INTAKE_NETWORK_ANALYSIS]]
 (3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
-Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
+Ik ben voldoende vertrouwd met kwantitatieve of statistische benaderingen van psychopathologie om de onderliggende redenering in deze survey te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
 Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis voor gepersonaliseerde EMA-monitoring en digitale interventies.
 [[Answers]]
@@ -1010,7 +1010,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 [[ID:HCP05_INTAKE_NETWORK_ANALYSIS]]
 (3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
-Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
+Ik ben voldoende vertrouwd met kwantitatieve of statistische benaderingen van psychopathologie om de onderliggende redenering in deze survey te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
 Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis voor gepersonaliseerde EMA-monitoring en digitale interventies.
 [[Answers]]
@@ -1248,7 +1248,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 [[ID:HCP06_INTAKE_NETWORK_ANALYSIS]]
 (3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
-Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
+Ik ben voldoende vertrouwd met kwantitatieve of statistische benaderingen van psychopathologie om de onderliggende redenering in deze survey te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
 Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis voor gepersonaliseerde EMA-monitoring en digitale interventies.
 [[Answers]]
@@ -1486,7 +1486,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 [[ID:HCP07_INTAKE_NETWORK_ANALYSIS]]
 (3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
-Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
+Ik ben voldoende vertrouwd met kwantitatieve of statistische benaderingen van psychopathologie om de onderliggende redenering in deze survey te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
 Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis voor gepersonaliseerde EMA-monitoring en digitale interventies.
 [[Answers]]
@@ -1724,7 +1724,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 [[ID:HCP08_INTAKE_NETWORK_ANALYSIS]]
 (3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
-Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
+Ik ben voldoende vertrouwd met kwantitatieve of statistische benaderingen van psychopathologie om de onderliggende redenering in deze survey te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
 Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis voor gepersonaliseerde EMA-monitoring en digitale interventies.
 [[Answers]]
@@ -1962,7 +1962,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 [[ID:HCP09_INTAKE_NETWORK_ANALYSIS]]
 (3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
-Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
+Ik ben voldoende vertrouwd met kwantitatieve of statistische benaderingen van psychopathologie om de onderliggende redenering in deze survey te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
 Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis voor gepersonaliseerde EMA-monitoring en digitale interventies.
 [[Answers]]
@@ -2200,7 +2200,7 @@ Ik verwacht dat agentic AI binnen afzienbare tijd bruikbaar kan zijn voor gepers
 [[ID:HCP10_INTAKE_NETWORK_ANALYSIS]]
 (3) Geef aan in welke mate u akkoord gaat met onderstaande uitspraken over netwerk-analyse van psychopathologie.
 [[Choices]]
-Ik ben voldoende vertrouwd met het netwerk-analytisch denken om de logica van de huidige surveyopgaven goed te kunnen volgen.
+Ik ben voldoende vertrouwd met kwantitatieve of statistische benaderingen van psychopathologie om de onderliggende redenering in deze survey te kunnen volgen.
 Het in kaart brengen van dynamische relaties tussen klachten en modificeerbaar gedrag kan klinisch relevante behandelprioriteiten zichtbaar maken.
 Ik vind een netwerk-analytische benadering methodologisch bruikbaar als basis voor gepersonaliseerde EMA-monitoring en digitale interventies.
 [[Answers]]
