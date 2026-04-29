@@ -245,7 +245,7 @@ Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtl
 
 [[Question:DB]]
 [[ID:HCP01_DANKU_PAGE]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie. Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p></div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div></div>
 
 [[Block:HCP02_Toestemming]]
 
@@ -492,7 +492,7 @@ Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtl
 
 [[Question:DB]]
 [[ID:HCP02_DANKU_PAGE]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie. Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p></div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div></div>
 
 [[Block:HCP03_Toestemming]]
 
@@ -739,7 +739,7 @@ Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtl
 
 [[Question:DB]]
 [[ID:HCP03_DANKU_PAGE]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie. Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p></div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div></div>
 
 [[Block:HCP04_Toestemming]]
 
@@ -986,7 +986,7 @@ Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtl
 
 [[Question:DB]]
 [[ID:HCP04_DANKU_PAGE]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie. Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p></div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div></div>
 
 [[Block:HCP05_Toestemming]]
 
@@ -1233,7 +1233,7 @@ Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtl
 
 [[Question:DB]]
 [[ID:HCP05_DANKU_PAGE]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie. Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p></div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div></div>
 
 [[Block:HCP06_Toestemming]]
 
@@ -1480,7 +1480,7 @@ Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtl
 
 [[Question:DB]]
 [[ID:HCP06_DANKU_PAGE]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie. Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p></div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div></div>
 
 [[Block:HCP07_Toestemming]]
 
@@ -1727,7 +1727,7 @@ Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtl
 
 [[Question:DB]]
 [[ID:HCP07_DANKU_PAGE]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie. Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p></div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div></div>
 
 [[Block:HCP08_Toestemming]]
 
@@ -1974,7 +1974,7 @@ Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtl
 
 [[Question:DB]]
 [[ID:HCP08_DANKU_PAGE]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie. Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p></div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div></div>
 
 [[Block:HCP09_Toestemming]]
 
@@ -2221,7 +2221,7 @@ Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtl
 
 [[Question:DB]]
 [[ID:HCP09_DANKU_PAGE]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie. Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p></div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div></div>
 
 [[Block:HCP10_Toestemming]]
 
@@ -2468,4 +2468,4 @@ Ik heb geen gebruik gemaakt van generatieve AI, collegaoverleg of externe richtl
 
 [[Question:DB]]
 [[ID:HCP10_DANKU_PAGE]]
-<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie. Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p></div></div>
+<div style="font-family:inherit;line-height:1.65;max-width:800px;"><p style="margin:0 0 14px 0;line-height:1.65;color:#1e3a5f;">Hartelijk dank voor uw bijdrage aan dit onderzoek! Uw deelname wordt ten zeerste gewaardeerd.</p><div style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:8px;padding:14px 18px;margin:0;"><p style="margin:0;line-height:1.65;">Uw antwoorden worden automatisch geregistreerd wanneer u de survey afsluit. Er is geen verdere actie vereist. Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus voor de latere blinde comparatieve evaluatie.</p></div></div>
