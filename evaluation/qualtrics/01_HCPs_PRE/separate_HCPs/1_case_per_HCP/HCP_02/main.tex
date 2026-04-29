@@ -637,8 +637,7 @@ tot en met 5 (laagste prioriteit).
 \begin{voorbeeldbox}{Deel 3: Behandeldoelprioritering}{Hoe leest u het netwerk en rangschikt u de behandelingsopties?}
 \small
 \textbf{Monitoring (voorbeeld):} Schermtijd voor slapengaan: 18/21 avonden actief
-(gem.\ 65 min). Lichaamsbeweging: 0,8 sessies/week. Sociaal contact op eigen initiatief:
-0,9/week.
+(gem.\ 65 min). Lichaamsbeweging: 0,8 sessies/week. Ademhaling sessies: gem.\ 2,4/dag (goed).
 
 \medskip
 \textbf{Tweedelig netwerk voor dit voorbeeld:}
@@ -647,7 +646,7 @@ tot en met 5 (laagste prioriteit).
 \begin{tikzpicture}[node distance=0pt]
   \node[smprnode] (bo1) at (0, 1.3)  {BO-1\\Avondschermgebruik};
   \node[smprnode] (bo2) at (0, 0.0)  {BO-2\\Lichaamsbeweging};
-  \node[smprnode] (bo3) at (0,-1.3)  {BO-3\\Sociaal contact};
+  \node[smprnode] (bo3) at (0,-1.3)  {BO-3\\Ademhaling sessie};
   \node[smcrnode] (s1) at (7.5, 0.9) {S-1\\Inslaap- \& doorslaapmoeijlijkheden};
   \node[smcrnode] (s2) at (7.5,-0.1) {S-2\\Vermoeidheid \& prikkelbaarheid};
   \node[smcrnode] (s3) at (7.5,-1.1) {S-3\\Sociale terugtrekking};
@@ -655,7 +654,8 @@ tot en met 5 (laagste prioriteit).
   \draw[line width=3.0pt, draw=PrimaryBlue!80, opacity=0.90] (bo1.east) -- (s2.west);
   \draw[line width=3.5pt, draw=StrongRed!85, opacity=0.90] (bo2.east) -- (s1.west);
   \draw[line width=2.5pt, draw=StrongRed!85, opacity=0.90] (bo2.east) -- (s2.west);
-  \draw[line width=4.0pt, draw=StrongRed!85, opacity=0.90] (bo3.east) -- (s3.west);
+  \draw[line width=3.5pt, draw=StrongRed!85, opacity=0.90] (bo3.east) -- (s2.west);
+  \draw[line width=0.4pt, draw=StrongRed!85, opacity=0.90] (bo3.east) -- (s3.west);
   \draw[line width=0.3pt, draw=black!25] (-0.2,-1.88) -- (10.1,-1.88);
   \draw[line width=2.0pt, draw=PrimaryBlue!80] (0.1,-2.18) -- (1.0,-2.18);
   \node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.15,-2.18) {\textbf{Blauw} = positief verband (BO \emph{vergroot} S)};
@@ -671,8 +671,8 @@ tot en met 5 (laagste prioriteit).
 monitoring toont 18/21 avonden hoge schermtijd $\rightarrow$ \textbf{prioriteit 1}.
 \item \textbf{BO-2 (Lichaamsbeweging)} -- beschermend effect op S-1 en S-2 (rode verbanden);
 frequentie extreem laag (0,8/week) $\rightarrow$ \textbf{prioriteit 2}.
-\item \textbf{BO-3 (Sociaal contact)} -- sterk negatief verband met S-3; eveneens laag
-(0,9/week) $\rightarrow$ \textbf{prioriteit 3}.
+\item \textbf{BO-3 (Ademhaling sessie)} -- beschermend effect op S-2 (rode lijn);
+frequentie hoog (gem.\ 2,4/dag, goed) $\rightarrow$ \textbf{prioriteit 3} (toestand reeds goed).
 \end{enumerate}
 \end{voorbeeldbox}
 
