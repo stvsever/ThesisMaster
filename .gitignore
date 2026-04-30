@@ -87,6 +87,7 @@ src/backend/utils/other/exploratory/summarize_ontology/summary/
 !src/backend/overview/gitnexus_overview.png
 !src/backend/overview/PHOENIX_ontology.png
 !evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/*.png
+!evaluation/qualtrics/01_HCPs_PRE/total/qualtrics_overview.png
 *.owl
 utils/official/cluster_criterions/results/02_embeddings_db/embeddings.npy
 utils/official/cluster_criterions/results/02_embeddings_db/cache.sqlite

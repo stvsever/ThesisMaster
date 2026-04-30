@@ -62,6 +62,13 @@ survey asks for participant code (single-choice dropdown, HCP-PRE-01 to
 HCP-PRE-05). Display Logic on each case block then shows only the two cases
 belonging to that participant.
 
+**Instructiepagina:** Elk HCP-blok bevat een instructiepagina ("Het AI-systeem
+en de studiecontext") die het PHOENIX-systeem uitlegt. Die pagina toont
+Figuur 1 (`qualtrics_overview.png`) — een schematisch overzicht van de volledige
+pipeline van klachttekst tot gepersonaliseerde coaching — direct na de
+theoretische introductie, vóór de uitleg van de afzonderlijke concepten (EMA,
+netwerkanalyse).
+
 ---
 
 ## Phase 2 — POST Survey (`02_HCPs_POST/`)
@@ -139,6 +146,8 @@ The link between Phase 1 and Phase 2 is managed by the researcher:
 |------|-------------|
 | `01_HCPs_PRE/main.tex` | PRE survey blueprint (all 10 cases with Display Logic annotations) |
 | `01_HCPs_PRE/main.pdf` | Compiled PDF — use for Qualtrics configuration |
+| `01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/PHOENIX_PRE_MERGED_ALL10_FINAL.txt` | Qualtrics TXT import — alle 10 HCP-blokken samengevoegd; klaar voor import |
+| `01_HCPs_PRE/total/qualtrics_overview.png` | Systeemoverzichtsfiguur (Figuur 1) — getoond op de instructiepagina van elk HCP-blok |
 | `02_HCPs_POST/main.tex` | POST survey blueprint (all 10 cases × 2 outputs × 5 parts) |
 | `02_HCPs_POST/main.pdf` | Compiled PDF — use for Qualtrics configuration |
 | `main.tex` / `main.pdf` | Parent-level overview document (optional) |
