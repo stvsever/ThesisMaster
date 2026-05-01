@@ -97,6 +97,9 @@ src/backend/utils/other/exploratory/summarize_ontology/summary/
 !src/backend/overview/PHOENIX_ontology.png
 !evaluation/qualtrics/survey/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/*.png
 !evaluation/qualtrics/survey/01_HCPs_PRE/total/qualtrics_overview.png
+# Legacy paths kept at old location so live Qualtrics survey URLs still resolve
+!evaluation/qualtrics/01_HCPs_PRE/total/qualtrics_overview.png
+!evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/*.png
 *.owl
 utils/official/cluster_criterions/results/02_embeddings_db/embeddings.npy
 utils/official/cluster_criterions/results/02_embeddings_db/cache.sqlite
