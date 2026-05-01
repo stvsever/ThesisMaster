@@ -1,5 +1,5 @@
 <!--
-PROMPT_VERSION: 2026-05-01-v2-signed-comparison
+PROMPT_VERSION: 2026-05-01-v3-signed-comparison
 PART_INDEX: 1
 PART_TITLE: 01_Identifying_Symptoms
 MODEL: google/gemini-3.1-flash-lite-preview
@@ -31,7 +31,7 @@ Standardised case notes, if available:
 
 Both outputs are canonicalised to the same shape:
 ```json
-{"items": [{"label": "short symptom label", "description": "optional description or same as label"}]}
+{"items": [{"label": "short symptom label"}]}
 ```
 
 ### Output A

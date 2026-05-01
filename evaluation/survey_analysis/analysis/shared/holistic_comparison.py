@@ -4,11 +4,11 @@ Cross-part synthesis for signed PHOENIX-vs-HCP preference scores.
 The synthesis pools all per-dimension signed judge scores, normalises them to
 [-1, +1] by dividing by 9, and fits:
 
-    score_norm ~ 1 + C(part) + (1|case_id) + (1|judge_run) + (1|dimension)
+    score_norm ~ 1 + (1|case_id) + (1|judge_run) + (1|dimension)
 
-The intercept tests the average PHOENIX preference across the evaluation.
-Per-part follow-up models use the same signed one-sample structure within
-each part.
+The intercept tests the average PHOENIX preference across the whole
+evaluation. Per-part follow-up models use the same signed one-sample
+structure within each part.
 """
 
 from __future__ import annotations
@@ -142,7 +142,7 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
         raise ValueError("No configured parts present in judgments CSV.")
     work = df.loc[df["part"].astype(str).isin(parts_present)].copy()
 
-    unified = _fit_signed_model(work, "score_norm ~ 1 + C(part)", "Intercept")
+    unified = _fit_signed_model(work, "score_norm ~ 1", "Intercept")
     global_tost = tost_test_one_sample(
         work["score_norm"].astype(float).to_numpy(),
         delta=config.tost_delta,
@@ -175,7 +175,7 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
         f"TOST equivalence margin: +/- {config.tost_delta} on the normalised scale.",
         "Multiplicity correction (per-part follow-ups): Holm-Bonferroni.",
         "",
-        "--- Unified cross-part model ---",
+        "--- Unified grand-mean model ---",
         f"Method: {unified['method']}",
     ]
     if unified["method"] != "No converged mixed model":

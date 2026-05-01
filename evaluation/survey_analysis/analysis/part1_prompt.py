@@ -1,4 +1,4 @@
-"""Part 1 — Operationalisation: per-dimension LMM, TOST, plots."""
+"""Part 1 - symptom labels: per-dimension signed analyses and plots."""
 
 from __future__ import annotations
 
@@ -11,10 +11,10 @@ from .shared import ComparisonStudyConfig, run_comparison_study
 
 def run() -> Dict[str, Any]:
     config = ComparisonStudyConfig(
-        study_slug="part1_operationalization",
+        study_slug="part1_prompt",
         part="part1",
-        title="Part 1: Operationalisation of mental state",
-        report_name="part1_operationalization_report.txt",
+        title="Part 1: Symptom labels",
+        report_name="part1_prompt_report.txt",
         dimension_order=[d.key for d in dimensions_for("part1")],
     )
     return run_comparison_study(config)

@@ -1,4 +1,4 @@
-"""Part 4 - Concrete EMA item selection: signed LMM, TOST, plots."""
+"""Part 2 - Modifiable treatment options: signed LMM, TOST, plots."""
 
 from __future__ import annotations
 
@@ -11,11 +11,11 @@ from .shared import ComparisonStudyConfig, run_comparison_study
 
 def run() -> Dict[str, Any]:
     config = ComparisonStudyConfig(
-        study_slug="part4_updated_model",
-        part="part4",
-        title="Part 4: Concrete EMA item selection",
-        report_name="part4_updated_model_report.txt",
-        dimension_order=[d.key for d in dimensions_for("part4")],
+        study_slug="part2_prompt",
+        part="part2",
+        title="Part 2: Modifiable treatment options",
+        report_name="part2_prompt_report.txt",
+        dimension_order=[d.key for d in dimensions_for("part2")],
     )
     return run_comparison_study(config)
 

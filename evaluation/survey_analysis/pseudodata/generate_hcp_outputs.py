@@ -233,8 +233,8 @@ _CASES: Dict[str, Dict[str, Any]] = {
 # ──────────────────────────────────────────────────────────────────────────────
 
 def _case_to_canonical(case_payload: Dict[str, Any]) -> Dict[str, Any]:
-    p1 = Part1Output(items=[Part1Item(label=l, description=d)
-                            for l, d in case_payload["part1"]])
+    p1 = Part1Output(items=[Part1Item(label=l)
+                            for l, _d in case_payload["part1"]])
     p2 = Part2Output(items=[Part2Item(label=p)
                             for p, _m, _c in case_payload["part2"]])
     ranks = case_payload["part3_ranking"]
@@ -246,7 +246,7 @@ def _case_to_canonical(case_payload: Dict[str, Any]) -> Dict[str, Any]:
     # Reuse Part4 coercion pathway by passing the raw string directly.
     from parsing.canonical_schemas import coerce_part4
     p4 = coerce_part4(case_payload["part4"])
-    p5 = Part5Output(message=case_payload["part5"], hapa_phase=None)
+    p5 = Part5Output(message=case_payload["part5"])
     return {
         "part1": p1.to_dict(),
         "part2": p2.to_dict(),

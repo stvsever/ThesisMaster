@@ -67,11 +67,11 @@ class SmokeTest(unittest.TestCase):
     def test_per_part_results(self) -> None:
         for part in PART_SUBSET:
             slug = {
-                "part1": "part1_operationalization",
-                "part2": "part2_initial_model",
-                "part3": "part3_treatment_targets",
-                "part4": "part4_updated_model",
-                "part5": "part5_intervention",
+                "part1": "part1_prompt",
+                "part2": "part2_prompt",
+                "part3": "part3_prompt",
+                "part4": "part4_prompt",
+                "part5": "part5_prompt",
             }[part]
             report_dir = RESULTS_DIR / slug / "report"
             visuals_dir = RESULTS_DIR / slug / "visuals"
@@ -97,11 +97,11 @@ class SmokeTest(unittest.TestCase):
         total = 0
         valid = 0
         slugs = [
-            "part1_operationalization",
-            "part2_initial_model",
-            "part3_treatment_targets",
-            "part4_updated_model",
-            "part5_intervention",
+            "part1_prompt",
+            "part2_prompt",
+            "part3_prompt",
+            "part4_prompt",
+            "part5_prompt",
         ]
         for slug in slugs:
             csv_path = RESULTS_DIR / slug / "report" / f"{slug}_summary.csv"

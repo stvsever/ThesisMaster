@@ -6,7 +6,6 @@ into a single canonical per-part shape that the LLM judge can consume.
 from .canonical_schemas import (
     CANONICAL_FIELD_COUNTS,
     PART_KEYS,
-    HapaPhase,
     Part1Item,
     Part1Output,
     Part2Item,
@@ -36,7 +35,6 @@ from .system_output_loader import (
 __all__ = [
     "CANONICAL_FIELD_COUNTS",
     "PART_KEYS",
-    "HapaPhase",
     "Part1Item",
     "Part1Output",
     "Part2Item",

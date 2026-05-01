@@ -158,7 +158,7 @@ def render_user_prompt(
             case_context.get("treatment_options", [])
         ),
         "ranking_json": _format_json(case_context.get("ranking", {})),
-        "updated_model_json": _format_json(case_context.get("updated_model", {})),
+        "ema_item_context_json": _format_json(case_context.get("ema_item_context", {})),
         "assigned_hapa_phase": str(case_context.get("hapa_phase", "(unknown)")),
         "output_a_json": _format_json(output_a),
         "output_b_json": _format_json(output_b),

@@ -32,11 +32,11 @@ if str(HERE) not in sys.path:
     sys.path.insert(0, str(HERE))
 
 from analysis import (  # noqa: E402  (import after sys.path tweak)
-    part1_operationalization,
-    part2_initial_model,
-    part3_treatment_targets,
-    part4_updated_model,
-    part5_intervention,
+    part1_prompt,
+    part2_prompt,
+    part3_prompt,
+    part4_prompt,
+    part5_prompt,
     synthesis,
 )
 from analysis.shared.survey_paths import (  # noqa: E402
@@ -50,6 +50,7 @@ from analysis.shared.survey_paths import (  # noqa: E402
 )
 from llm_as_judge.dimensions import DIMENSIONS_BY_PART  # noqa: E402
 from llm_as_judge.judge_runner import JudgeRunConfig, run_judge  # noqa: E402
+from parsing.canonical_schemas import PART_KEYS, canonical_for_judge  # noqa: E402
 from parsing.qualtrics_parser import parse_qualtrics_csv, save_parsed_outputs  # noqa: E402
 from parsing.system_output_loader import load_system_outputs  # noqa: E402
 from parsing.case_context_loader import (  # noqa: E402
@@ -69,11 +70,11 @@ logger = logging.getLogger("phoenix.pipeline")
 
 
 PART_RUNNERS = {
-    "part1": part1_operationalization.run,
-    "part2": part2_initial_model.run,
-    "part3": part3_treatment_targets.run,
-    "part4": part4_updated_model.run,
-    "part5": part5_intervention.run,
+    "part1": part1_prompt.run,
+    "part2": part2_prompt.run,
+    "part3": part3_prompt.run,
+    "part4": part4_prompt.run,
+    "part5": part5_prompt.run,
 }
 
 
@@ -114,6 +115,10 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument(
         "--case-contexts", type=Path, default=DEFAULT_CASE_CONTEXTS_PATH,
         help="Path to per-case context JSON shown to both sources in judge prompts.",
+    )
+    p.add_argument(
+        "--system-outputs", type=Path, default=SYSTEM_DIR / "system_outputs.json",
+        help="Path to canonical PHOENIX/system outputs JSON (real mode only).",
     )
     p.add_argument(
         "--skip-parse", action="store_true",
@@ -187,11 +192,12 @@ def _stage_system_outputs(args: argparse.Namespace) -> Dict[str, Any]:
         target.write_bytes(ph.read_bytes())
         logger.info("Pseudo PHOENIX outputs written to %s", target)
     else:
-        target = SYSTEM_DIR / "system_outputs.json"
+        target = args.system_outputs
         if not target.exists():
             raise FileNotFoundError(
                 f"PHOENIX outputs not found at {target}. "
-                "Place the production system outputs there or use --mode pseudo."
+                "Pass --system-outputs, copy production outputs into "
+                "data/03_system/system_outputs.json, or use --mode pseudo."
             )
     bundle = load_system_outputs(target)
     return {"system_outputs": bundle.by_case, "path": target}
@@ -207,6 +213,13 @@ def _stage_judge(
     system_outputs: Dict[str, Any],
 ) -> Path:
     judge_backend = args.judge or ("openrouter" if args.mode == "real" else "pseudo")
+    _validate_requested_outputs(
+        hcp_outputs=hcp_outputs,
+        system_outputs=system_outputs,
+        cases=args.cases,
+        parts=args.parts,
+        strict=args.mode == "real",
+    )
 
     if judge_backend == "pseudo":
         # Reuse the standalone pseudo generator so the same CSV is built.
@@ -246,6 +259,45 @@ def _stage_judge(
         system_outputs=system_outputs,
         config=config,
     )
+
+
+def _validate_requested_outputs(
+    *,
+    hcp_outputs: Dict[str, Any],
+    system_outputs: Dict[str, Any],
+    cases: List[str],
+    parts: List[str],
+    strict: bool,
+) -> None:
+    """
+    Validate that requested HCP and PHOENIX outputs can be judged safely.
+
+    In real mode this is strict because empty placeholder outputs would corrupt
+    the comparison. In pseudo mode it logs only via raised canonicalization
+    errors, since pseudo generators always create the requested subset.
+    """
+    errors: List[str] = []
+    for source_name, bundle in (("HCP", hcp_outputs), ("PHOENIX", system_outputs)):
+        for case_id in cases:
+            if case_id not in bundle:
+                if strict:
+                    errors.append(f"{source_name}: missing case {case_id}")
+                continue
+            for part in parts:
+                if part not in PART_KEYS:
+                    errors.append(f"Unknown part requested: {part}")
+                    continue
+                if part not in bundle.get(case_id, {}):
+                    if strict:
+                        errors.append(f"{source_name}: missing {case_id}/{part}")
+                    continue
+                try:
+                    canonical_for_judge(part, bundle[case_id][part])
+                except Exception as exc:
+                    errors.append(f"{source_name}: invalid {case_id}/{part}: {exc}")
+    if errors:
+        joined = "\n  - ".join(errors)
+        raise ValueError(f"Requested outputs are not judge-compatible:\n  - {joined}")
 
 
 # ──────────────────────────────────────────────────────────────────────────────

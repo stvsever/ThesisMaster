@@ -21,7 +21,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Dict, List, Tuple
 
-PROMPT_VERSION: str = "2026-05-01-v2-signed-comparison"
+PROMPT_VERSION: str = "2026-05-01-v3-signed-comparison"
 
 SCALE_MIN: int = -9
 SCALE_MAX: int = 9
@@ -75,6 +75,24 @@ class Dimension:
 
 # Part 1: clinicians identify 3..6 symptom labels from the free complaint text.
 PART1_DIMENSIONS: List[Dimension] = [
+    Dimension(
+        key="task_adherence_label_format",
+        display_label="Task adherence / label format",
+        goal_description=(
+            "Provides 2..6 short symptom labels and does not add diagnoses, "
+            "long explanations, treatment suggestions, or unsupported context."
+        ),
+        rationale=(
+            "The first survey task intentionally asks for compact labels only; "
+            "extra structure would make outputs less comparable and less useful "
+            "as downstream nodes."
+        ),
+        anchor_examples={
+            "negative": "Output B follows the requested label-only format more closely.",
+            "tie": "Both outputs follow the requested format similarly.",
+            "positive": "Output A follows the requested label-only format more closely.",
+        },
+    ),
     Dimension(
         key="complaint_coverage",
         display_label="Complaint coverage",
@@ -180,6 +198,24 @@ PART1_DIMENSIONS: List[Dimension] = [
 
 # Part 2: clinicians generate 3..5 modifiable treatment-option labels.
 PART2_DIMENSIONS: List[Dimension] = [
+    Dimension(
+        key="task_adherence_label_format",
+        display_label="Task adherence / label format",
+        goal_description=(
+            "Provides 3..5 short treatment-option labels and avoids extra "
+            "measurement definitions, rationales, or prose not requested by "
+            "the survey task."
+        ),
+        rationale=(
+            "Both sources must be judged on the same label-generation task, "
+            "not on who gives more explanatory detail."
+        ),
+        anchor_examples={
+            "negative": "Output B better follows the requested short-label format.",
+            "tie": "Both outputs follow the requested format similarly.",
+            "positive": "Output A better follows the requested short-label format.",
+        },
+    ),
     Dimension(
         key="modifiability_actionability",
         display_label="Modifiability / actionability",
@@ -305,6 +341,24 @@ PART2_DIMENSIONS: List[Dimension] = [
 # Part 3: clinicians rank five standardised treatment options using the network.
 PART3_DIMENSIONS: List[Dimension] = [
     Dimension(
+        key="ranking_validity_completeness",
+        display_label="Ranking validity / completeness",
+        goal_description=(
+            "Ranks all five available treatment options exactly once, with a "
+            "clear 1..5 priority order and no missing, duplicated, or invalid "
+            "option identifiers."
+        ),
+        rationale=(
+            "Before clinical quality can be judged, the ranking has to be a "
+            "valid answer to the forced-order survey task."
+        ),
+        anchor_examples={
+            "negative": "Output B gives a more complete and valid forced ranking.",
+            "tie": "Both outputs are similarly valid forced rankings.",
+            "positive": "Output A gives a more complete and valid forced ranking.",
+        },
+    ),
+    Dimension(
         key="network_weight_alignment",
         display_label="Network-weight alignment",
         goal_description=(
@@ -408,6 +462,24 @@ PART3_DIMENSIONS: List[Dimension] = [
 
 # Part 4: clinicians select exactly six concrete EMA items, two per target.
 PART4_DIMENSIONS: List[Dimension] = [
+    Dimension(
+        key="valid_candidate_selection",
+        display_label="Valid candidate selection",
+        goal_description=(
+            "Selects only items that were present in the 20-item candidate list "
+            "and avoids invented, paraphrased, duplicated, or unidentifiable "
+            "items."
+        ),
+        rationale=(
+            "Part 4 is a constrained selection task. Inventing better-sounding "
+            "items would not be a valid answer."
+        ),
+        anchor_examples={
+            "negative": "Output B more faithfully selects valid items from the candidate list.",
+            "tie": "Both outputs use the candidate list with similar validity.",
+            "positive": "Output A more faithfully selects valid items from the candidate list.",
+        },
+    ),
     Dimension(
         key="target_item_mapping_accuracy",
         display_label="Target-item mapping accuracy",
@@ -531,6 +603,24 @@ PART4_DIMENSIONS: List[Dimension] = [
 
 # Part 5: clinicians write a 2..4 sentence mobile coaching message.
 PART5_DIMENSIONS: List[Dimension] = [
+    Dimension(
+        key="message_format_direct_address",
+        display_label="Message format / direct address",
+        goal_description=(
+            "Uses 2..4 sentences, speaks directly to the patient in second "
+            "person, and reads like a phone-ready coaching message rather than "
+            "a clinical note."
+        ),
+        rationale=(
+            "The survey task evaluates a deployable mobile message, not a "
+            "professional formulation or treatment plan."
+        ),
+        anchor_examples={
+            "negative": "Output B better matches the requested mobile-message format.",
+            "tie": "Both messages match the requested format similarly.",
+            "positive": "Output A better matches the requested mobile-message format.",
+        },
+    ),
     Dimension(
         key="treatment_goal_alignment",
         display_label="Treatment-goal alignment",

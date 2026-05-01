@@ -11,8 +11,8 @@ from __future__ import annotations
 
 import json
 import re
-from dataclasses import asdict, dataclass, field
-from typing import Any, Dict, List, Literal, Optional, TypedDict
+from dataclasses import dataclass, field
+from typing import Any, Dict, List
 
 PART_KEYS: tuple[str, ...] = ("part1", "part2", "part3", "part4", "part5")
 
@@ -25,9 +25,6 @@ CANONICAL_FIELD_COUNTS: Dict[str, int] = {
     "part5": 1,
 }
 
-HapaPhase = Literal[
-    "pre_intentional", "intentional", "action", "maintenance",
-]
 HAPA_PHASES: tuple[str, ...] = (
     "pre_intentional", "intentional", "action", "maintenance",
 )
@@ -40,10 +37,9 @@ HAPA_PHASES: tuple[str, ...] = (
 @dataclass
 class Part1Item:
     label: str
-    description: str
 
     def to_dict(self) -> Dict[str, str]:
-        return {"label": self.label, "description": self.description}
+        return {"label": self.label}
 
 
 @dataclass
@@ -90,46 +86,44 @@ class Part3Output:
 @dataclass
 class Part4Output:
     selected_options: List[str] = field(default_factory=list)
-    note: Optional[str] = None
 
     def to_dict(self) -> Dict[str, Any]:
-        return {"selected_options": self.selected_options, "note": self.note}
+        return {"selected_options": self.selected_options}
 
 
 @dataclass
 class Part5Output:
     message: str = ""
-    hapa_phase: Optional[HapaPhase] = None
 
     def to_dict(self) -> Dict[str, Any]:
-        return {"message": self.message, "hapa_phase": self.hapa_phase}
+        return {"message": self.message}
 
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Coercion helpers
 # ──────────────────────────────────────────────────────────────────────────────
 
-def _split_label_description(text: str) -> tuple[str, str]:
+def _split_label(text: str) -> str:
     """
-    Split a free-text Part 1 cell into ``(label, description)``.
+    Extract the label from a free-text Part 1 cell.
 
-    The blueprint asked respondents for ``label | description`` but real
-    submissions are highly inconsistent: some only provide a label, some use
-    semicolons, colons, dashes, or no separator at all. We try each candidate
-    separator in turn and fall back to ``label = description = text``.
+    The live Qualtrics task asks only for short labels. If an older system
+    output contains ``label | description`` or ``label: description``, keep
+    only the label so HCP and PHOENIX outputs have exactly the same judge
+    shape.
     """
     if text is None:
-        return "", ""
+        return ""
     s = str(text).strip()
     if not s:
-        return "", ""
+        return ""
     for sep in (" | ", "|", " :: ", "::", " - ", ":"):
         if sep in s:
             left, _, right = s.partition(sep)
             left, right = left.strip(), right.strip()
             if left and right:
-                return left, right
-    return s, s
+                return left
+    return s
 
 
 def coerce_part1(payload: Any) -> Part1Output:
@@ -145,17 +139,14 @@ def coerce_part1(payload: Any) -> Part1Output:
             if isinstance(it, Part1Item):
                 items.append(it)
             elif isinstance(it, dict):
-                items.append(Part1Item(
-                    label=str(it.get("label", "")).strip(),
-                    description=str(it.get("description", "")).strip(),
-                ))
+                items.append(Part1Item(label=str(it.get("label", "")).strip()))
         return Part1Output(items=items)
     if isinstance(payload, list):
         items = []
         for cell in payload:
-            label, descr = _split_label_description(cell)
-            if label or descr:
-                items.append(Part1Item(label=label, description=descr))
+            label = _split_label(cell)
+            if label:
+                items.append(Part1Item(label=label))
         return Part1Output(items=items)
     return Part1Output()
 
@@ -271,45 +262,37 @@ def coerce_part4(payload: Any) -> Part4Output:
         return payload
     if isinstance(payload, dict) and "selected_options" in payload:
         opts = [str(s).strip() for s in payload["selected_options"] if str(s).strip()]
-        note = payload.get("note")
-        return Part4Output(selected_options=opts, note=str(note).strip() if note else None)
+        return Part4Output(selected_options=opts)
     if isinstance(payload, list):
         opts = [str(s).strip() for s in payload if str(s).strip()]
-        return Part4Output(selected_options=opts, note=None)
+        return Part4Output(selected_options=opts)
     if isinstance(payload, str):
         s = payload.strip()
-        note: Optional[str] = None
         if _NOTE_SENTINEL.search(s):
-            head, _, tail = _NOTE_SENTINEL.split(s, maxsplit=1)[0], None, None
-            # Re-split because re.split with capturing groups drops the match.
             match = _NOTE_SENTINEL.search(s)
             if match:
                 head = s[: match.start()].rstrip(" ,;\n")
-                note = s[match.end():].strip()
                 s = head
         # Split on newlines or commas (commas are common in Qualtrics).
-        raw_opts = re.split(r"[,\n]+", s)
+        raw_opts = re.split(r"[,;\n]+", s)
         opts = [o.strip() for o in raw_opts if o.strip()]
-        return Part4Output(selected_options=opts, note=note)
+        return Part4Output(selected_options=opts)
     return Part4Output()
 
 
 def coerce_part5(payload: Any) -> Part5Output:
     """
-    Coerce Part 5 free text. The HAPA phase is left ``None`` for HCP outputs
-    (the judge classifies it). System outputs may already include it.
+    Coerce Part 5 free text. Only the message itself is retained for judging.
+    Any source-side HAPA phase is case context, not part of the anonymous
+    candidate output.
     """
     if isinstance(payload, Part5Output):
         return payload
     if isinstance(payload, dict):
         msg = str(payload.get("message", "")).strip()
-        phase = payload.get("hapa_phase")
-        if phase is not None:
-            phase = str(phase).strip().lower()
-            phase = phase if phase in HAPA_PHASES else None
-        return Part5Output(message=msg, hapa_phase=phase)
+        return Part5Output(message=msg)
     if isinstance(payload, str):
-        return Part5Output(message=payload.strip(), hapa_phase=None)
+        return Part5Output(message=payload.strip())
     return Part5Output()
 
 
@@ -361,7 +344,6 @@ __all__ = [
     "PART_KEYS",
     "CANONICAL_FIELD_COUNTS",
     "HAPA_PHASES",
-    "HapaPhase",
     "Part1Item", "Part1Output",
     "Part2Item", "Part2Output",
     "Part3Item", "Part3Output",

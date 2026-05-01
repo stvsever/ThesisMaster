@@ -25,6 +25,7 @@ logger = logging.getLogger(__name__)
 # Positive values mean the pseudo judge should prefer PHOENIX on average.
 GROUND_TRUTH_EFFECTS: Dict[str, Dict[str, float]] = {
     "part1": {
+        "task_adherence_label_format": +0.2,
         "complaint_coverage": +1.2,
         "symptom_boundary_validity": +0.5,
         "granularity_resolution": -0.2,
@@ -33,6 +34,7 @@ GROUND_TRUTH_EFFECTS: Dict[str, Dict[str, float]] = {
         "ema_measurability": +0.8,
     },
     "part2": {
+        "task_adherence_label_format": +0.4,
         "modifiability_actionability": +0.6,
         "symptom_relevance": +0.3,
         "causal_plausibility": +1.1,
@@ -42,6 +44,7 @@ GROUND_TRUTH_EFFECTS: Dict[str, Dict[str, float]] = {
         "label_precision": +0.2,
     },
     "part3": {
+        "ranking_validity_completeness": +0.2,
         "network_weight_alignment": +1.6,
         "current_state_integration": +1.0,
         "edge_direction_interpretation": +0.9,
@@ -50,6 +53,7 @@ GROUND_TRUTH_EFFECTS: Dict[str, Dict[str, float]] = {
         "rank_order_coherence": +0.7,
     },
     "part4": {
+        "valid_candidate_selection": +0.3,
         "target_item_mapping_accuracy": +0.9,
         "coverage_balance": +1.3,
         "measurement_concreteness": +0.8,
@@ -59,6 +63,7 @@ GROUND_TRUTH_EFFECTS: Dict[str, Dict[str, float]] = {
         "feedback_value_for_coaching": +1.0,
     },
     "part5": {
+        "message_format_direct_address": +0.3,
         "treatment_goal_alignment": +0.7,
         "barrier_responsiveness": +0.9,
         "action_specificity_feasibility": +1.2,
@@ -115,7 +120,7 @@ def generate_pseudo_response(
     """Return a deterministic pseudo response for one blinded comparison."""
     if part not in DIMENSIONS_BY_PART:
         raise ValueError(f"Unknown part {part!r}")
-    seed = _hash_seed(case_id, part, judge_run, "pseudo-v2-signed")
+    seed = _hash_seed(case_id, part, judge_run, "pseudo-v3-signed")
     rng = np.random.default_rng(seed)
     case_intercept = rng.normal(0.0, SIGMA_CASE)
     run_intercept = rng.normal(0.0, SIGMA_RUN)

@@ -1,5 +1,5 @@
 <!--
-PROMPT_VERSION: 2026-05-01-v2-signed-comparison
+PROMPT_VERSION: 2026-05-01-v3-signed-comparison
 PART_INDEX: 4
 PART_TITLE: 04_Selecting_EMA_Measurement_Items
 MODEL: google/gemini-3.1-flash-lite-preview
@@ -41,7 +41,7 @@ EMA monitoring summary, if available:
 
 Both outputs are canonicalised to the same shape:
 ```json
-{"selected_options": ["item label", "item label"], "note": "optional note"}
+{"selected_options": ["item label", "item label"]}
 ```
 
 ### Output A

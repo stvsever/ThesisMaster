@@ -1,4 +1,4 @@
-"""Part 3 — Treatment-target prioritisation: per-dimension LMM, TOST, plots.
+"""Part 3 - treatment-target prioritisation: signed analyses and plots.
 
 The judge rates the QUALITY of the ranking (top-target appropriateness,
 evidence alignment, coherence, network impact awareness, monitoring
@@ -18,10 +18,10 @@ from .shared import ComparisonStudyConfig, run_comparison_study
 
 def run() -> Dict[str, Any]:
     config = ComparisonStudyConfig(
-        study_slug="part3_treatment_targets",
+        study_slug="part3_prompt",
         part="part3",
         title="Part 3: Treatment-target prioritisation",
-        report_name="part3_treatment_targets_report.txt",
+        report_name="part3_prompt_report.txt",
         dimension_order=[d.key for d in dimensions_for("part3")],
     )
     return run_comparison_study(config)

@@ -1,0 +1,2252 @@
+{
+  "C01": {
+    "vignette": "\"De afgelopen twee maanden geraak ik 's avonds heel moeilijk in slaap. Mijn hoofd blijft maar doorgaan over alles wat ik nog moet doen – deadlines, onafgewerkte taken, gesprekken die ik nog moet voeren. Zelfs als ik uitgeput ben, krijg ik die gedachten niet uitgezet. Ik merk ook dat ik minder plezier beleef aan sociale momenten. Ik ga nog wel naar afspraken met vrienden, maar ik voel me er afstandelijk en niet echt betrokken. Mijn nek en schouders staan bovendien bijna voortdurend gespannen en pijnlijk, wat volgens mijn huisarts waarschijnlijk stressgerelateerd is.\"",
+    "case_notes": {
+      "profile": "28-jarige softwareontwikkelaar",
+      "duration": "2 maanden",
+      "case_summary": "28-jarige softwareontwikkelaar; duur: 2 maanden. Inslaapproblemen, cognitieve hyperarousal bij het slapengaan, sociale anhedonie en stressgerelateerde spierspanning."
+    },
+    "standardized_symptoms": [
+      "Inslaapproblemen",
+      "Cognitieve hyperarousal",
+      "Sociale anhedonie",
+      "Stressgerelateerde spierspanning"
+    ],
+    "standardized_treatment_options": [
+      {
+        "option_id": "BO-1",
+        "label": "Late avondschermtijd"
+      },
+      {
+        "option_id": "BO-2",
+        "label": "Dagelijkse taakaccumulatie"
+      },
+      {
+        "option_id": "BO-3",
+        "label": "Preslaap cognitieve offloading"
+      },
+      {
+        "option_id": "BO-4",
+        "label": "Sociale participatie"
+      },
+      {
+        "option_id": "BO-5",
+        "label": "Aerobe beweging"
+      }
+    ],
+    "network_summary": {
+      "monitoring_summary": "Schermtijd na 22.00 uur: 16/21 avonden (gem. 78 min). Openstaande taken: gem. 6,2 per dag. Sociale activiteiten: 2,1/week (beleving 2,3/10). Preslaap offloading toegepast: 3/21 avonden. Lichamelijke activiteit: gem. 0,7 sessies/week.",
+      "symptoms": [
+        {
+          "symptom_id": "S-1",
+          "label": "Inslaapproblemen"
+        },
+        {
+          "symptom_id": "S-2",
+          "label": "Cognitieve hyperarousal"
+        },
+        {
+          "symptom_id": "S-3",
+          "label": "Sociale anhedonie"
+        },
+        {
+          "symptom_id": "S-4",
+          "label": "Stressgerelateerde spierspanning"
+        }
+      ],
+      "edges": [
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Late avondschermtijd",
+          "to_symptom_id": "CR-1",
+          "to_label": "Inslaapproblemen",
+          "weight": 0.88,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Late avondschermtijd",
+          "to_symptom_id": "CR-2",
+          "to_label": "Cognitieve hyperarousal",
+          "weight": 0.82,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Dagelijkse taakaccumulatie",
+          "to_symptom_id": "CR-2",
+          "to_label": "Cognitieve hyperarousal",
+          "weight": 0.62,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Preslaap cognitieve offloading",
+          "to_symptom_id": "CR-2",
+          "to_label": "Cognitieve hyperarousal",
+          "weight": -0.78,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Preslaap cognitieve offloading",
+          "to_symptom_id": "CR-1",
+          "to_label": "Inslaapproblemen",
+          "weight": -0.42,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Sociale participatie",
+          "to_symptom_id": "CR-3",
+          "to_label": "Sociale anhedonie",
+          "weight": -0.85,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Aerobe beweging",
+          "to_symptom_id": "CR-1",
+          "to_label": "Inslaapproblemen",
+          "weight": -0.55,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Aerobe beweging",
+          "to_symptom_id": "CR-4",
+          "to_label": "Stressgerelateerde spierspanning",
+          "weight": -0.7,
+          "direction": "protective"
+        }
+      ],
+      "edge_interpretation": {
+        "positive": "more of treatment option is associated with more symptom burden",
+        "negative": "more of treatment option is associated with less symptom burden"
+      }
+    },
+    "ema_summary": {
+      "monitoring_summary": "Schermtijd na 22.00 uur: 16/21 avonden (gem. 78 min). Openstaande taken: gem. 6,2 per dag. Sociale activiteiten: 2,1/week (beleving 2,3/10). Preslaap offloading toegepast: 3/21 avonden. Lichamelijke activiteit: gem. 0,7 sessies/week."
+    },
+    "treatment_targets": [
+      "Slaapkwaliteit",
+      "Cognitieve ontlading",
+      "Lichamelijke activiteit"
+    ],
+    "candidate_ema_items": [
+      {
+        "item_id": "EMA-01",
+        "label": "Waterinname vandaag (glazen)"
+      },
+      {
+        "item_id": "EMA-02",
+        "label": "Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-03",
+        "label": "Vast slaap- en waktijdstip aangehouden vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-04",
+        "label": "Openstaande taken of zorgen schriftelijk genoteerd voor slapengaan (ja/nee)"
+      },
+      {
+        "item_id": "EMA-05",
+        "label": "Gesprek met vertrouwenspersoon of steunfiguur gevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-06",
+        "label": "Duur matige tot intensieve lichaamsbeweging vandaag (min)"
+      },
+      {
+        "item_id": "EMA-07",
+        "label": "Alcoholconsumptie vanavond (eenheden)"
+      },
+      {
+        "item_id": "EMA-08",
+        "label": "Tijdsduur bewust piekeren of takennotitie voor slapengaan (min)"
+      },
+      {
+        "item_id": "EMA-09",
+        "label": "Omega-3- of vitamine-D-supplement ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-10",
+        "label": "Geplande beweegactiviteit uitgevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-11",
+        "label": "Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)"
+      },
+      {
+        "item_id": "EMA-12",
+        "label": "Gebalanceerde maaltijden op vaste tijden genuttigd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-13",
+        "label": "Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-14",
+        "label": "Schermvrij interval direct voor slapengaan (min)"
+      },
+      {
+        "item_id": "EMA-15",
+        "label": "Sigaretten of tabak gerookt vandaag (aantal)"
+      },
+      {
+        "item_id": "EMA-16",
+        "label": "Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-17",
+        "label": "Bewust dankbaarheidsoefening of positieve reflectie uitgevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-18",
+        "label": "Werkpauzes op vaste tijden genomen vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-19",
+        "label": "Pijnklachten of lichamelijke ongemakken bijgehouden in een dagboek (ja/nee)"
+      },
+      {
+        "item_id": "EMA-20",
+        "label": "Betekenisvolle of waardegerichte activiteit ondernomen vandaag (ja/nee)"
+      }
+    ],
+    "primary_problem": "Moeizaam inslapen door een overactieve geest en aanhoudende spanning in de avond.",
+    "treatment_goal": "Schermtijd in de late avond reduceren en een vaste afschakelroutine installeren.",
+    "barrier": "Lage zelfeffectiviteit: schermgebruik voelt als de enige haalbare manier om na het werk te decomprimeren.",
+    "coping_strategy": "Implementatie-intentie met substitutie: vervang de laatste 30 minuten schermtijd door een korte schrijf- of bewegingsroutine voor het slapengaan."
+  },
+  "C02": {
+    "vignette": "\"Ongeveer drie maanden geleden begon ik plots episodes te krijgen waarbij mijn hart tekeergaat, ik het gevoel heb dat ik geen lucht krijg en ik er zeker van ben dat er iets ernstig misloopt. Die episodes zijn heel beangstigend en kunnen zelfs optreden wanneer ik thuis rustig neerzit. Sindsdien ben ik bang geworden om zo'n episode in het openbaar te krijgen en vermijd ik supermarkten, openbaar vervoer en drukke plaatsen. Ik heb mij al meerdere keren ziek gemeld omdat ik bang was dat het op het werk zou gebeuren. Ik weet rationeel dat die situaties niet gevaarlijk zijn, maar de angst blijft overheersen.\"",
+    "case_notes": {
+      "profile": "34-jarige administratief medewerker in de zorg",
+      "duration": "3 maanden",
+      "case_summary": "34-jarige administratief medewerker in de zorg; duur: 3 maanden. Recidiverende paniekepisoden, anticipatieangst, situationele vermijding en beroepsmatige interferentie."
+    },
+    "standardized_symptoms": [
+      "Recidiverende paniekepisoden",
+      "Anticipatieangst",
+      "Situationele vermijding",
+      "Beroepsmatige interferentie"
+    ],
+    "standardized_treatment_options": [
+      {
+        "option_id": "BO-1",
+        "label": "Vermijdingsgedrag"
+      },
+      {
+        "option_id": "BO-2",
+        "label": "Veiligheidsgedrag"
+      },
+      {
+        "option_id": "BO-3",
+        "label": "Interoceptieve focus"
+      },
+      {
+        "option_id": "BO-4",
+        "label": "Geplande exposure"
+      },
+      {
+        "option_id": "BO-5",
+        "label": "Dagstructuur"
+      }
+    ],
+    "network_summary": {
+      "monitoring_summary": "Paniekepisoden: gem. 2,3/week. Vermijdingsepisodes: gem. 4,1/dag. Veiligheidsgedrag: gem. 8,7/dag. Geplande exposurepogingen: gem. 0,3/dag. Werkaanwezigheid: 60%. Verwachte angst in publieke settings: 7,8/10.",
+      "symptoms": [
+        {
+          "symptom_id": "S-1",
+          "label": "Recidiverende paniekepisoden"
+        },
+        {
+          "symptom_id": "S-2",
+          "label": "Anticipatieangst"
+        },
+        {
+          "symptom_id": "S-3",
+          "label": "Situationele vermijding"
+        },
+        {
+          "symptom_id": "S-4",
+          "label": "Beroepsmatige interferentie"
+        }
+      ],
+      "edges": [
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Vermijdingsgedrag",
+          "to_symptom_id": "CR-3",
+          "to_label": "Situationele vermijding",
+          "weight": 0.9,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Vermijdingsgedrag",
+          "to_symptom_id": "CR-2",
+          "to_label": "Anticipatieangst",
+          "weight": 0.82,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Interoceptieve focus",
+          "to_symptom_id": "CR-2",
+          "to_label": "Anticipatieangst",
+          "weight": 0.78,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Veiligheidsgedrag",
+          "to_symptom_id": "CR-2",
+          "to_label": "Anticipatieangst",
+          "weight": 0.72,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Interoceptieve focus",
+          "to_symptom_id": "CR-1",
+          "to_label": "Recidiverende paniekepisoden",
+          "weight": 0.65,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Geplande exposure",
+          "to_symptom_id": "CR-3",
+          "to_label": "Situationele vermijding",
+          "weight": -0.85,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Geplande exposure",
+          "to_symptom_id": "CR-2",
+          "to_label": "Anticipatieangst",
+          "weight": -0.67,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Veiligheidsgedrag",
+          "to_symptom_id": "CR-1",
+          "to_label": "Recidiverende paniekepisoden",
+          "weight": 0.4,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Dagstructuur",
+          "to_symptom_id": "CR-4",
+          "to_label": "Beroepsmatige interferentie",
+          "weight": -0.38,
+          "direction": "protective"
+        }
+      ],
+      "edge_interpretation": {
+        "positive": "more of treatment option is associated with more symptom burden",
+        "negative": "more of treatment option is associated with less symptom burden"
+      }
+    },
+    "ema_summary": {
+      "monitoring_summary": "Paniekepisoden: gem. 2,3/week. Vermijdingsepisodes: gem. 4,1/dag. Veiligheidsgedrag: gem. 8,7/dag. Geplande exposurepogingen: gem. 0,3/dag. Werkaanwezigheid: 60%. Verwachte angst in publieke settings: 7,8/10."
+    },
+    "treatment_targets": [
+      "Exposureopbouw",
+      "Veiligheidsgedragsreductie",
+      "Interoceptieve aandachtsturing"
+    ],
+    "candidate_ema_items": [
+      {
+        "item_id": "EMA-01",
+        "label": "Exposurestap bewust en volledig uitgevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-02",
+        "label": "Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-03",
+        "label": "Gebalanceerde maaltijden op vaste tijden genuttigd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-04",
+        "label": "Duur verblijf in eerder vermeden of angststimulerende situatie (min)"
+      },
+      {
+        "item_id": "EMA-05",
+        "label": "Waterinname vandaag (glazen)"
+      },
+      {
+        "item_id": "EMA-06",
+        "label": "Omega-3- of vitamine-D-supplement ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-07",
+        "label": "Veiligheidsgedraging bewust nagelaten bij angstsituatie (ja/nee)"
+      },
+      {
+        "item_id": "EMA-08",
+        "label": "Werkuren vandaag (uren)"
+      },
+      {
+        "item_id": "EMA-09",
+        "label": "Cafeine-inname na 15.00 uur beperkt (ja/nee)"
+      },
+      {
+        "item_id": "EMA-10",
+        "label": "Aantal veiligheidsgedragingen bewust vermeden of uitgesteld (aantal)"
+      },
+      {
+        "item_id": "EMA-11",
+        "label": "Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)"
+      },
+      {
+        "item_id": "EMA-12",
+        "label": "Gesprek met vertrouwenspersoon of steunfiguur gevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-13",
+        "label": "Interoceptieve oefening bewust uitgevoerd vandaag (min)"
+      },
+      {
+        "item_id": "EMA-14",
+        "label": "Sigaretten of tabak gerookt vandaag (aantal)"
+      },
+      {
+        "item_id": "EMA-15",
+        "label": "Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-16",
+        "label": "Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-17",
+        "label": "Lichamelijke sensaties benoemd zonder vlucht- of veiligheidsreactie (ja/nee)"
+      },
+      {
+        "item_id": "EMA-18",
+        "label": "Alcoholconsumptie vanavond (eenheden)"
+      },
+      {
+        "item_id": "EMA-19",
+        "label": "Betekenisvolle of waardegerichte activiteit ondernomen vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-20",
+        "label": "Bewust dankbaarheidsoefening of positieve reflectie uitgevoerd vandaag (ja/nee)"
+      }
+    ],
+    "primary_problem": "Paniekangst leidt tot toenemende vermijding en duidelijke hinder in het dagelijks functioneren.",
+    "treatment_goal": "Geplande exposure aan gevreesde situaties in een hanteerbare, stapsgewijze opbouw.",
+    "barrier": "Sterke negatieve uitkomstverwachting: de persoon verwacht dat betreden van de situatie onvermijdelijk tot een onbeheersbare paniekreactie zal leiden.",
+    "coping_strategy": "Werk met een concrete exposurehierarchie en een vooraf afgesproken copingzin per stap."
+  },
+  "C03": {
+    "vignette": "\"Ik geef al vijftien jaar les en deed dat altijd graag, maar de voorbije maanden voel ik mij volledig leeg. Ik ga naar school, geef mijn lessen en kom thuis, maar er is niets meer over. 's Avonds zit ik voor de televisie en kan ik mij nergens toe aanzetten. Ik ben ook gestopt met afspreken met vrienden en reageer nog zelden op berichten. Op het werk begin ik fouten te maken – dingen vergeten, de draad kwijt raken tijdens een les – wat vroeger nooit gebeurde. Ik schaam mij daarvoor, maar ik weet niet hoe ik dit moet keren.\"",
+    "case_notes": {
+      "profile": "41-jarige leraar secundair onderwijs",
+      "duration": "7 maanden",
+      "case_summary": "41-jarige leraar secundair onderwijs; duur: 7 maanden. Emotionele uitputting, professionele depersonalisatie, sociale terugtrekking en cognitieve fouten op het werk."
+    },
+    "standardized_symptoms": [
+      "Emotionele uitputting",
+      "Professionele depersonalisatie",
+      "Sociale terugtrekking",
+      "Cognitieve fouten op het werk"
+    ],
+    "standardized_treatment_options": [
+      {
+        "option_id": "BO-1",
+        "label": "Werk-privegrens"
+      },
+      {
+        "option_id": "BO-2",
+        "label": "Herstelactiviteit"
+      },
+      {
+        "option_id": "BO-3",
+        "label": "Sociaal initiatief"
+      },
+      {
+        "option_id": "BO-4",
+        "label": "Professionele meestervaring"
+      },
+      {
+        "option_id": "BO-5",
+        "label": "Slaapkwaliteit"
+      }
+    ],
+    "network_summary": {
+      "monitoring_summary": "Werkoverschrijding na werktijd: gem. 5,4 episodes/dag. Herstelactiviteiten: gem. 1,2/week. Sociaal contact op eigen initiatief: gem. 0,7/week. Professionele meestervaringen: gem. 0,9/dag. Slaapkwaliteit: gem. 4,1/10.",
+      "symptoms": [
+        {
+          "symptom_id": "S-1",
+          "label": "Emotionele uitputting"
+        },
+        {
+          "symptom_id": "S-2",
+          "label": "Professionele depersonalisatie"
+        },
+        {
+          "symptom_id": "S-3",
+          "label": "Sociale terugtrekking"
+        },
+        {
+          "symptom_id": "S-4",
+          "label": "Cognitieve fouten op het werk"
+        }
+      ],
+      "edges": [
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Herstelactiviteit",
+          "to_symptom_id": "CR-1",
+          "to_label": "Emotionele uitputting",
+          "weight": -0.91,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Werk-privegrens",
+          "to_symptom_id": "CR-1",
+          "to_label": "Emotionele uitputting",
+          "weight": -0.79,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Sociaal initiatief",
+          "to_symptom_id": "CR-3",
+          "to_label": "Sociale terugtrekking",
+          "weight": -0.84,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Werk-privegrens",
+          "to_symptom_id": "CR-2",
+          "to_label": "Professionele depersonalisatie",
+          "weight": -0.73,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Slaapkwaliteit",
+          "to_symptom_id": "CR-1",
+          "to_label": "Emotionele uitputting",
+          "weight": -0.64,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Professionele meestervaring",
+          "to_symptom_id": "CR-2",
+          "to_label": "Professionele depersonalisatie",
+          "weight": -0.59,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Slaapkwaliteit",
+          "to_symptom_id": "CR-4",
+          "to_label": "Cognitieve fouten op het werk",
+          "weight": -0.47,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Werk-privegrens",
+          "to_symptom_id": "CR-4",
+          "to_label": "Cognitieve fouten op het werk",
+          "weight": -0.44,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Herstelactiviteit",
+          "to_symptom_id": "CR-3",
+          "to_label": "Sociale terugtrekking",
+          "weight": -0.42,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Professionele meestervaring",
+          "to_symptom_id": "CR-4",
+          "to_label": "Cognitieve fouten op het werk",
+          "weight": -0.31,
+          "direction": "protective"
+        }
+      ],
+      "edge_interpretation": {
+        "positive": "more of treatment option is associated with more symptom burden",
+        "negative": "more of treatment option is associated with less symptom burden"
+      }
+    },
+    "ema_summary": {
+      "monitoring_summary": "Werkoverschrijding na werktijd: gem. 5,4 episodes/dag. Herstelactiviteiten: gem. 1,2/week. Sociaal contact op eigen initiatief: gem. 0,7/week. Professionele meestervaringen: gem. 0,9/dag. Slaapkwaliteit: gem. 4,1/10."
+    },
+    "treatment_targets": [
+      "Mentale werkontkoppeling",
+      "Buitenwerkse herstelactiviteit",
+      "Professionele competentie-ervaring"
+    ],
+    "candidate_ema_items": [
+      {
+        "item_id": "EMA-01",
+        "label": "Waterinname vandaag (glazen)"
+      },
+      {
+        "item_id": "EMA-02",
+        "label": "Werkmail of -berichten bewust niet gecheckt na werktijd (ja/nee)"
+      },
+      {
+        "item_id": "EMA-03",
+        "label": "Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-04",
+        "label": "Werkgerelateerde gedachten actief afgesloten via vaste afsluiting na werk (ja/nee)"
+      },
+      {
+        "item_id": "EMA-05",
+        "label": "Gebalanceerde maaltijden op vaste tijden genuttigd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-06",
+        "label": "Alcoholconsumptie vanavond (eenheden)"
+      },
+      {
+        "item_id": "EMA-07",
+        "label": "Omega-3- of vitamine-D-supplement ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-08",
+        "label": "Herstelactiviteit buiten het werk actief uitgevoerd (min)"
+      },
+      {
+        "item_id": "EMA-09",
+        "label": "Sigaretten of tabak gerookt vandaag (aantal)"
+      },
+      {
+        "item_id": "EMA-10",
+        "label": "Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-11",
+        "label": "Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)"
+      },
+      {
+        "item_id": "EMA-12",
+        "label": "Lichaamsbeweging als herstelactiviteit na werk (min)"
+      },
+      {
+        "item_id": "EMA-13",
+        "label": "Vast slaap- en waktijdstip aangehouden vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-14",
+        "label": "Moment van professionele positieve prestatie bewust opgemerkt (ja/nee)"
+      },
+      {
+        "item_id": "EMA-15",
+        "label": "Gesprek met vertrouwenspersoon of steunfiguur gevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-16",
+        "label": "Bewust dankbaarheidsoefening of positieve reflectie uitgevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-17",
+        "label": "Professionele vaardigheid of aanpak bewust en succesvol ingezet (ja/nee)"
+      },
+      {
+        "item_id": "EMA-18",
+        "label": "Cafeine-inname na 15.00 uur beperkt (ja/nee)"
+      },
+      {
+        "item_id": "EMA-19",
+        "label": "Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-20",
+        "label": "Pijnklachten of lichamelijke ongemakken bijgehouden in een dagboek (ja/nee)"
+      }
+    ],
+    "primary_problem": "Uitgesproken werkgerelateerde uitputting met verlies aan betekenis en toenemende sociale terugtrekking.",
+    "treatment_goal": "Een duidelijke werk-privegrens installeren en na het werk consequent herstelgedrag activeren.",
+    "barrier": "Actieplanning ontbreekt: er is geen concreet moment of signaal waarop de werkmodus stopt.",
+    "coping_strategy": "Koppel een vaste afsluitsignalering aan een kleine herstelactiviteit die onmiddellijk na het einde van de werkdag start."
+  },
+  "C04": {
+    "vignette": "\"Mijn partner is negen maanden geleden overleden en ik geraak daar nog steeds niet door. Ik denk voortdurend aan hem of haar. Kleine prikkels – een liedje, een geur, een televisieprogramma dat we samen bekeken – lokken intense golven van verdriet uit die ik niet onder controle krijg. Ik slaap slecht; ik word vroeg wakker en raak daarna niet meer in slaap. Daarnaast voel ik veel schuld. Ik blijf maar herhalen wat ik had moeten zeggen of anders had moeten doen. Ik kan mij ook nauwelijks voorstellen hoe mijn toekomst er nog betekenisvol kan uitzien. Mijn familie zegt dat het al beter zou moeten gaan, maar zo voelt het niet.\"",
+    "case_notes": {
+      "profile": "63-jarige gepensioneerde professional",
+      "duration": "9 maanden na overlijden van partner",
+      "case_summary": "63-jarige gepensioneerde professional; duur: 9 maanden na overlijden van partner. Aanhoudende rouwreactie, doorslaapinsomnie, schuldgedreven ruminatie en verminderde toekomstorientatie."
+    },
+    "standardized_symptoms": [
+      "Aanhoudende rouwreactie",
+      "Doorslaapinsomnie",
+      "Schuldgedreven ruminatie",
+      "Verminderde toekomstorientatie"
+    ],
+    "standardized_treatment_options": [
+      {
+        "option_id": "BO-1",
+        "label": "Betekenisgerichte activiteit"
+      },
+      {
+        "option_id": "BO-2",
+        "label": "Slaap-waakconsistentie"
+      },
+      {
+        "option_id": "BO-3",
+        "label": "Sociale steunopname"
+      },
+      {
+        "option_id": "BO-4",
+        "label": "Zelfcompassie"
+      },
+      {
+        "option_id": "BO-5",
+        "label": "Toekomstplanning"
+      }
+    ],
+    "network_summary": {
+      "monitoring_summary": "Rouwintrusies: gem. 4,2/dag. Slaapkwaliteit: gem. 2,8/10. Sociale contactmomenten: gem. 3,1/week. Schuldgedachten: gem. 5,8/dag. Toekomstgerichte activiteiten: gem. 0,4/week. Betekenisgerichte activiteit uitgevoerd: 4/21 dagen.",
+      "symptoms": [
+        {
+          "symptom_id": "S-1",
+          "label": "Aanhoudende rouwreactie"
+        },
+        {
+          "symptom_id": "S-2",
+          "label": "Doorslaapinsomnie"
+        },
+        {
+          "symptom_id": "S-3",
+          "label": "Schuldgedreven ruminatie"
+        },
+        {
+          "symptom_id": "S-4",
+          "label": "Verminderde toekomstorientatie"
+        }
+      ],
+      "edges": [
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Slaap-waakconsistentie",
+          "to_symptom_id": "CR-2",
+          "to_label": "Doorslaapinsomnie",
+          "weight": -0.89,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Betekenisgerichte activiteit",
+          "to_symptom_id": "CR-4",
+          "to_label": "Verminderde toekomstorientatie",
+          "weight": -0.87,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Zelfcompassie",
+          "to_symptom_id": "CR-3",
+          "to_label": "Schuldgedreven ruminatie",
+          "weight": -0.82,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Betekenisgerichte activiteit",
+          "to_symptom_id": "CR-1",
+          "to_label": "Aanhoudende rouwreactie",
+          "weight": -0.74,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Toekomstplanning",
+          "to_symptom_id": "CR-4",
+          "to_label": "Verminderde toekomstorientatie",
+          "weight": -0.66,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Sociale steunopname",
+          "to_symptom_id": "CR-3",
+          "to_label": "Schuldgedreven ruminatie",
+          "weight": -0.56,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Toekomstplanning",
+          "to_symptom_id": "CR-3",
+          "to_label": "Schuldgedreven ruminatie",
+          "weight": -0.43,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Sociale steunopname",
+          "to_symptom_id": "CR-1",
+          "to_label": "Aanhoudende rouwreactie",
+          "weight": -0.33,
+          "direction": "protective"
+        }
+      ],
+      "edge_interpretation": {
+        "positive": "more of treatment option is associated with more symptom burden",
+        "negative": "more of treatment option is associated with less symptom burden"
+      }
+    },
+    "ema_summary": {
+      "monitoring_summary": "Rouwintrusies: gem. 4,2/dag. Slaapkwaliteit: gem. 2,8/10. Sociale contactmomenten: gem. 3,1/week. Schuldgedachten: gem. 5,8/dag. Toekomstgerichte activiteiten: gem. 0,4/week. Betekenisgerichte activiteit uitgevoerd: 4/21 dagen."
+    },
+    "treatment_targets": [
+      "Waardegerichte activiteit",
+      "Slaapregulariteit",
+      "Cognitieve herwaardering"
+    ],
+    "candidate_ema_items": [
+      {
+        "item_id": "EMA-01",
+        "label": "Waterinname vandaag (glazen)"
+      },
+      {
+        "item_id": "EMA-02",
+        "label": "Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-03",
+        "label": "Activiteit die een persoonlijke waarde of herinnering belichaamt uitgevoerd (ja/nee)"
+      },
+      {
+        "item_id": "EMA-04",
+        "label": "Gebalanceerde maaltijden op vaste tijden genuttigd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-05",
+        "label": "Omega-3- of vitamine-D-supplement ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-06",
+        "label": "Duur van betekenisvolle of waardegerichte bezigheid vandaag (min)"
+      },
+      {
+        "item_id": "EMA-07",
+        "label": "Alcoholconsumptie vanavond (eenheden)"
+      },
+      {
+        "item_id": "EMA-08",
+        "label": "Opstaan op vast waktijdstip aangehouden (ja/nee)"
+      },
+      {
+        "item_id": "EMA-09",
+        "label": "Sigaretten of tabak gerookt vandaag (aantal)"
+      },
+      {
+        "item_id": "EMA-10",
+        "label": "Gesprek met vertrouwenspersoon of steunfiguur gevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-11",
+        "label": "Afwijking van gewone slaap- of waktijdstip vandaag (min)"
+      },
+      {
+        "item_id": "EMA-12",
+        "label": "Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-13",
+        "label": "Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)"
+      },
+      {
+        "item_id": "EMA-14",
+        "label": "Zelfkritische gedachte bewust omgevormd naar mildere formulering (ja/nee)"
+      },
+      {
+        "item_id": "EMA-15",
+        "label": "Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-16",
+        "label": "Pijnklachten of lichamelijke ongemakken bijgehouden in een dagboek (ja/nee)"
+      },
+      {
+        "item_id": "EMA-17",
+        "label": "Zelfcompassie-oefening bewust toegepast vandaag (min)"
+      },
+      {
+        "item_id": "EMA-18",
+        "label": "Cafeine-inname na 15.00 uur beperkt (ja/nee)"
+      },
+      {
+        "item_id": "EMA-19",
+        "label": "Lichaamsbeweging of wandeling buiten uitgevoerd (min)"
+      },
+      {
+        "item_id": "EMA-20",
+        "label": "Bewust dankbaarheidsoefening of positieve reflectie uitgevoerd vandaag (ja/nee)"
+      }
+    ],
+    "primary_problem": "Aanhoudende rouw met uitgesproken schuldbeleving en weinig toekomstgerichte betrokkenheid.",
+    "treatment_goal": "Een kleine maar betekenisvolle activiteit plannen die verbinding maakt met herinnering en toekomst.",
+    "barrier": "Motivationele inertie: de eerste stap voelt zinloos of emotioneel te zwaar.",
+    "coping_strategy": "Verklein de instap naar een tijdsafgebakende micro-actie, bijvoorbeeld een korte schrijfoefening of een vast herinneringsmoment."
+  },
+  "C05": {
+    "vignette": "\"De afgelopen anderhalf jaar word ik dagelijks gekweld door opdringerige gedachten over het per ongeluk schaden van anderen – dat ik iemand aangereden heb, een gasfornuis open heb laten staan, of een deur niet afgesloten heb. Zodra zo'n gedachte opkomt, kan ik niet ophouden met mentaal controleren: ik ga de situatie telkens opnieuw na in mijn hoofd en stel mezelf steeds dezelfde vragen totdat ik tijdelijk gerustgesteld ben. Dit ritueel kost mij dagelijks twee tot vier uur. Inmiddels vermijd ik steeds meer situaties die deze gedachten uitlokken – zoals autorijden of het als laatste verlaten van een ruimte – en vraag ik regelmatig aan anderen of er niets mis is gegaan. Die geruststelling helpt even, maar de gedachten komen sterker terug.\"",
+    "case_notes": {
+      "profile": "25-jarige postgraduaatsstudent",
+      "duration": "18 maanden",
+      "case_summary": "25-jarige postgraduaatsstudent; duur: 18 maanden. Intrusieve schadeobsessies, compulsieve mentale controle, situationele vermijding en tijdsbelasting door OCD-rituelen."
+    },
+    "standardized_symptoms": [
+      "Intrusieve schadeobsessies",
+      "Compulsieve mentale controle",
+      "Vermijding van schaderisico",
+      "Tijdsbelasting door OCD-rituelen"
+    ],
+    "standardized_treatment_options": [
+      {
+        "option_id": "BO-1",
+        "label": "Compulsie-uitstel"
+      },
+      {
+        "option_id": "BO-2",
+        "label": "Vermijdingsbeheer"
+      },
+      {
+        "option_id": "BO-3",
+        "label": "Onzekerheidstolerantie"
+      },
+      {
+        "option_id": "BO-4",
+        "label": "Slaapkwaliteit"
+      },
+      {
+        "option_id": "BO-5",
+        "label": "Geruststellingszoekend gedrag"
+      }
+    ],
+    "network_summary": {
+      "monitoring_summary": "Compulsieve mentale controles en rituelen: gem.\\ 3,1 uur/dag (21/21 dagen). Geruststellingszoekend gedrag: gem.\\ 4,3 keer/dag. Vermijdingsepisodes (angstgerelateerde situaties niet betreden): gem.\\ 2,8/dag. Compulsie-uitstelpogingen: gem.\\ 0,4/dag. Gemiddelde slaaptijd: 6,2 uur/nacht.",
+      "symptoms": [
+        {
+          "symptom_id": "S-1",
+          "label": "Intrusieve schadeobsessies"
+        },
+        {
+          "symptom_id": "S-2",
+          "label": "Compulsieve mentale controle"
+        },
+        {
+          "symptom_id": "S-3",
+          "label": "Vermijding van schaderisico"
+        },
+        {
+          "symptom_id": "S-4",
+          "label": "Tijdsbelasting door OCD-rituelen"
+        }
+      ],
+      "edges": [
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Compulsie-uitstel",
+          "to_symptom_id": "CR-2",
+          "to_label": "Compulsieve mentale controle",
+          "weight": -0.88,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Compulsie-uitstel",
+          "to_symptom_id": "CR-4",
+          "to_label": "Tijdsbelasting door OCD",
+          "weight": -0.82,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Vermijdingsbeheer",
+          "to_symptom_id": "CR-3",
+          "to_label": "Vermijding van schaderisico",
+          "weight": -0.85,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Onzekerheidstolerantie",
+          "to_symptom_id": "CR-1",
+          "to_label": "Intrusieve schadeobsessies",
+          "weight": -0.72,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Onzekerheidstolerantie",
+          "to_symptom_id": "CR-2",
+          "to_label": "Compulsieve mentale controle",
+          "weight": -0.78,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Slaapkwaliteit",
+          "to_symptom_id": "CR-1",
+          "to_label": "Intrusieve schadeobsessies",
+          "weight": -0.38,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Geruststellingszoekend gedrag",
+          "to_symptom_id": "CR-2",
+          "to_label": "Compulsieve mentale controle",
+          "weight": 0.65,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Geruststellingszoekend gedrag",
+          "to_symptom_id": "CR-4",
+          "to_label": "Tijdsbelasting door OCD",
+          "weight": 0.42,
+          "direction": "risk"
+        }
+      ],
+      "edge_interpretation": {
+        "positive": "more of treatment option is associated with more symptom burden",
+        "negative": "more of treatment option is associated with less symptom burden"
+      }
+    },
+    "ema_summary": {
+      "monitoring_summary": "Compulsieve mentale controles en rituelen: gem.\\ 3,1 uur/dag (21/21 dagen). Geruststellingszoekend gedrag: gem.\\ 4,3 keer/dag. Vermijdingsepisodes (angstgerelateerde situaties niet betreden): gem.\\ 2,8/dag. Compulsie-uitstelpogingen: gem.\\ 0,4/dag. Gemiddelde slaaptijd: 6,2 uur/nacht."
+    },
+    "treatment_targets": [
+      "Compulsie-uitstel",
+      "Situatiebetreding",
+      "Onzekerheids- en intrusietolerantie"
+    ],
+    "candidate_ema_items": [
+      {
+        "item_id": "EMA-01",
+        "label": "Waterinname vandaag (glazen)"
+      },
+      {
+        "item_id": "EMA-02",
+        "label": "Compulsieve handeling of mentaal ritueel bewust uitgesteld bij impulsdrang (ja/nee)"
+      },
+      {
+        "item_id": "EMA-03",
+        "label": "Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-04",
+        "label": "Tijdsduur mentaal ritueel met opzet vertraagd of afgebroken (min)"
+      },
+      {
+        "item_id": "EMA-05",
+        "label": "Gebalanceerde maaltijden op vaste tijden genuttigd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-06",
+        "label": "Alcoholconsumptie gisteravond (eenheden)"
+      },
+      {
+        "item_id": "EMA-07",
+        "label": "Situatie die OCD-angst uitlokt bewust opgezocht of niet verlaten (ja/nee)"
+      },
+      {
+        "item_id": "EMA-08",
+        "label": "Omega-3- of vitamine-D-supplement ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-09",
+        "label": "Sigaretten of tabak gerookt vandaag (aantal)"
+      },
+      {
+        "item_id": "EMA-10",
+        "label": "Gedragsexperiment volledig doorlopen zonder tussentijdse mentale controle (ja/nee)"
+      },
+      {
+        "item_id": "EMA-11",
+        "label": "Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)"
+      },
+      {
+        "item_id": "EMA-12",
+        "label": "Gesprek met vertrouwenspersoon of steunfiguur gevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-13",
+        "label": "Intrusieve gedachte bewust getolereerd zonder compulsieve of vermijdende reactie (ja/nee)"
+      },
+      {
+        "item_id": "EMA-14",
+        "label": "Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-15",
+        "label": "Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-16",
+        "label": "Onzekerheid bij OCD-situatie bewust verdragen zonder geruststelling of controle (min)"
+      },
+      {
+        "item_id": "EMA-17",
+        "label": "Pijnklachten of lichamelijke ongemakken bijgehouden in een dagboek (ja/nee)"
+      },
+      {
+        "item_id": "EMA-18",
+        "label": "Vast slaap- en waktijdstip aangehouden vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-19",
+        "label": "Cafeine-inname na 15.00 uur beperkt (ja/nee)"
+      },
+      {
+        "item_id": "EMA-20",
+        "label": "Bewust dankbaarheidsoefening of positieve reflectie uitgevoerd vandaag (ja/nee)"
+      }
+    ],
+    "primary_problem": "OCD met schadeobsessies en compulsieve mentale controle die dagelijks twee tot vier uur opslorpt en het dagelijks functioneren ernstig beperkt.",
+    "treatment_goal": "Compulsie-uitstel: bewust en gradueel uitstellen van mentale controles en rituelen bij elke obsessionele impulsdrang.",
+    "barrier": "Hoge morele verantwoordelijkheidsbeleving; het nalaten van het ritueel voelt als onverantwoordelijk handelen en roept intense schuld op.",
+    "coping_strategy": "Implementatie-intentie met vastgelegd uitstelprotocol (bijv.\\ 15 minuten wachten), gecombineerd met herattributie van de verantwoordelijkheidsgedachte."
+  },
+  "C06": {
+    "vignette": "\"Zo'n twee jaar geleden begon ik toenemende spanning te ervaren in werkgerelateerde situaties waarbij ik zichtbaar ben of beoordeeld word. Voor elke vergadering of presentatie bereid ik mij buitensporig lang voor – soms meerdere uren – uit angst niet competent over te komen. Na afloop piekeren mijn gedachten urenlang over wat ik verkeerd gezegd of gedaan heb. Ik vermijd inmiddels actief kansen waarbij ik mij moet presenteren: ik neem nauwelijks het woord in vergaderingen, wijs leiderschapsrollen af en aarzel bij elke professionele zichtbaarheidsmogelijkheid. Mijn loopbaan lijdt hieronder: ik heb een promotie afgeslagen omdat ik de extra zichtbaarheid niet aankon.\"",
+    "case_notes": {
+      "profile": "32-jarige marketingprofessional",
+      "duration": "2 jaar",
+      "case_summary": "32-jarige marketingprofessional; duur: 2 jaar. Prestatieangst op het werk, post-event ruminatie, excessieve voorbereiding en vermijding van professionele zichtbaarheid."
+    },
+    "standardized_symptoms": [
+      "Prestatieangst op het werk",
+      "Post-event ruminatie",
+      "Excessieve voorbereiding",
+      "Vermijding van zichtbaarheid"
+    ],
+    "standardized_treatment_options": [
+      {
+        "option_id": "BO-1",
+        "label": "Professionele exposure"
+      },
+      {
+        "option_id": "BO-2",
+        "label": "Post-event verwerking"
+      },
+      {
+        "option_id": "BO-3",
+        "label": "Zelfevaluatiebias"
+      },
+      {
+        "option_id": "BO-4",
+        "label": "Voorbereidingstijd"
+      },
+      {
+        "option_id": "BO-5",
+        "label": "Vermijdingslogging"
+      }
+    ],
+    "network_summary": {
+      "monitoring_summary": "Voorbereidingstijd per werkmoment (vergadering, presentatie): gem.\\ 3,4 uur/dag. Post-event ruminatieduur na werksituaties: gem.\\ 1,8 uur/dag. Vermijding van zichtbaarheid in werk: gem.\\ 2,1 keer/dag. Professionele exposurestappen uitgevoerd: gem.\\ 0,2/dag. Zelfevaluatiescore na sociale werksituaties: gem.\\ 2,4/10.",
+      "symptoms": [
+        {
+          "symptom_id": "S-1",
+          "label": "Prestatieangst op het werk"
+        },
+        {
+          "symptom_id": "S-2",
+          "label": "Post-event ruminatie"
+        },
+        {
+          "symptom_id": "S-3",
+          "label": "Excessieve voorbereiding"
+        },
+        {
+          "symptom_id": "S-4",
+          "label": "Vermijding van zichtbaarheid"
+        }
+      ],
+      "edges": [
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Professionele exposure",
+          "to_symptom_id": "CR-1",
+          "to_label": "Prestatieangst op het werk",
+          "weight": -0.85,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Professionele exposure",
+          "to_symptom_id": "CR-4",
+          "to_label": "Vermijding van zichtbaarheid",
+          "weight": -0.9,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Post-event verwerking",
+          "to_symptom_id": "CR-2",
+          "to_label": "Post-event ruminatie",
+          "weight": 0.8,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Zelfevaluatiebias",
+          "to_symptom_id": "CR-1",
+          "to_label": "Prestatieangst op het werk",
+          "weight": 0.65,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Zelfevaluatiebias",
+          "to_symptom_id": "CR-2",
+          "to_label": "Post-event ruminatie",
+          "weight": 0.42,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Voorbereidingstijd",
+          "to_symptom_id": "CR-3",
+          "to_label": "Excessieve voorbereiding",
+          "weight": 0.88,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Vermijdingslogging",
+          "to_symptom_id": "CR-4",
+          "to_label": "Vermijding van zichtbaarheid",
+          "weight": -0.38,
+          "direction": "protective"
+        }
+      ],
+      "edge_interpretation": {
+        "positive": "more of treatment option is associated with more symptom burden",
+        "negative": "more of treatment option is associated with less symptom burden"
+      }
+    },
+    "ema_summary": {
+      "monitoring_summary": "Voorbereidingstijd per werkmoment (vergadering, presentatie): gem.\\ 3,4 uur/dag. Post-event ruminatieduur na werksituaties: gem.\\ 1,8 uur/dag. Vermijding van zichtbaarheid in werk: gem.\\ 2,1 keer/dag. Professionele exposurestappen uitgevoerd: gem.\\ 0,2/dag. Zelfevaluatiescore na sociale werksituaties: gem.\\ 2,4/10."
+    },
+    "treatment_targets": [
+      "Professionele exposureoefening",
+      "Ruminatiebeheersing",
+      "Vermijdingsbewustwording"
+    ],
+    "candidate_ema_items": [
+      {
+        "item_id": "EMA-01",
+        "label": "Waterinname vandaag (glazen)"
+      },
+      {
+        "item_id": "EMA-02",
+        "label": "Presentatie, vergadering of zichtbaar werkmoment bewust opgezocht of deelgenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-03",
+        "label": "Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-04",
+        "label": "Alcoholconsumptie vanavond (eenheden)"
+      },
+      {
+        "item_id": "EMA-05",
+        "label": "Exposurestap in werksituatie volledig doorlopen zonder vroegtijdig terugtrekken (ja/nee)"
+      },
+      {
+        "item_id": "EMA-06",
+        "label": "Gebalanceerde maaltijden op vaste tijden genuttigd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-07",
+        "label": "Post-event ruminatie bewust afgesloten via schrijfoefening of afsluitritueel (ja/nee)"
+      },
+      {
+        "item_id": "EMA-08",
+        "label": "Omega-3- of vitamine-D-supplement ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-09",
+        "label": "Sigaretten of tabak gerookt vandaag (aantal)"
+      },
+      {
+        "item_id": "EMA-10",
+        "label": "Tijdsduur piekeren over werkprestatie bewust beperkt of omgeleid (min)"
+      },
+      {
+        "item_id": "EMA-11",
+        "label": "Vast slaap- en waktijdstip aangehouden vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-12",
+        "label": "Lichaamsbeweging vandaag (min)"
+      },
+      {
+        "item_id": "EMA-13",
+        "label": "Vermijdingsepisode in werksituatie geregistreerd in dagboek (ja/nee)"
+      },
+      {
+        "item_id": "EMA-14",
+        "label": "Cafeine-inname na 15.00 uur beperkt (ja/nee)"
+      },
+      {
+        "item_id": "EMA-15",
+        "label": "Gesprek met vertrouwenspersoon of steunfiguur gevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-16",
+        "label": "Aantal situaties waarbij zichtbaarheid of beoordeling bewust vermeden werd vandaag (aantal)"
+      },
+      {
+        "item_id": "EMA-17",
+        "label": "Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-18",
+        "label": "Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-19",
+        "label": "Pijnklachten of lichamelijke ongemakken bijgehouden in een dagboek (ja/nee)"
+      },
+      {
+        "item_id": "EMA-20",
+        "label": "Bewust dankbaarheidsoefening of positieve reflectie uitgevoerd vandaag (ja/nee)"
+      }
+    ],
+    "primary_problem": "Prestatieangst en post-event ruminatie leiden tot toenemende professionele vermijding en loopbaanschade.",
+    "treatment_goal": "Professionele exposure: bewust deelnemen aan beoordelbare werksituaties zonder terugtrekking of overmatige voorbereiding.",
+    "barrier": "Negatieve uitkomstverwachting en zelfevaluatie: de persoon verwacht definitieve afwijzing of beoordeling als incompetent bij elk zichtbaar moment.",
+    "coping_strategy": "Gedragsexperiment met vooraf geformuleerde toetsingshypothese en een vaste tijdslimiet voor post-event evaluatie (max.\\ 10 minuten)."
+  },
+  "C07": {
+    "vignette": "\"Al meer dan een jaar word ik de meeste ochtenden wakker met een zwaar en vlak gevoel. Het is niet eens intense verdrietigheid, eerder een aanhoudende grijsheid waardoor niets nog de moeite lijkt. Heel eenvoudige taken voelen enorm zwaar aan: mij aankleden, een mail beantwoorden, een maaltijd maken. Ik ben stilaan het contact verloren met bijna iedereen met wie ik vroeger omging, omdat ik de energie niet heb om relaties te onderhouden. Ik slaap veel maar voel mij nooit uitgerust. In stilte vraag ik mij af of ik ooit nog de oude zal worden. Mijn huisarts heeft mij aangeraden hulp te zoeken.\"",
+    "case_notes": {
+      "profile": "46-jarige accountmanager",
+      "duration": "14 maanden",
+      "case_summary": "46-jarige accountmanager; duur: 14 maanden. Aanhoudende sombere stemming, anergie, sociale isolatie en hopeloosheid over herstel."
+    },
+    "standardized_symptoms": [
+      "Aanhoudende sombere stemming",
+      "Anergie",
+      "Sociale isolatie",
+      "Hopeloosheid"
+    ],
+    "standardized_treatment_options": [
+      {
+        "option_id": "BO-1",
+        "label": "Activiteitenschema"
+      },
+      {
+        "option_id": "BO-2",
+        "label": "Sociaal initiatief"
+      },
+      {
+        "option_id": "BO-3",
+        "label": "Slaapregelmaat"
+      },
+      {
+        "option_id": "BO-4",
+        "label": "Plezierige activiteit"
+      },
+      {
+        "option_id": "BO-5",
+        "label": "Cognitieve tegenspraak hopeloosheid"
+      }
+    ],
+    "network_summary": {
+      "monitoring_summary": "Voltooiingsgraad van geplande activiteiten: 28%. Sociale contactmomenten/week: gem. 0,8. Stemming: gem. 2,9/10. Variatie in slaap-waaktijd: gem. 2,3 uur. Plezierige activiteiten: gem. 0,9/dag. Uitdagen van hopeloze gedachten: gem. 0,6/dag.",
+      "symptoms": [
+        {
+          "symptom_id": "S-1",
+          "label": "Aanhoudende sombere stemming"
+        },
+        {
+          "symptom_id": "S-2",
+          "label": "Anergie"
+        },
+        {
+          "symptom_id": "S-3",
+          "label": "Sociale isolatie"
+        },
+        {
+          "symptom_id": "S-4",
+          "label": "Hopeloosheid"
+        }
+      ],
+      "edges": [
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Sociaal initiatief",
+          "to_symptom_id": "CR-3",
+          "to_label": "Sociale isolatie",
+          "weight": -0.89,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Activiteitenschema",
+          "to_symptom_id": "CR-2",
+          "to_label": "Anergie",
+          "weight": -0.86,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Cognitieve tegenspraak hopeloosheid",
+          "to_symptom_id": "CR-4",
+          "to_label": "Hopeloosheid",
+          "weight": -0.78,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Plezierige activiteit",
+          "to_symptom_id": "CR-1",
+          "to_label": "Aanhoudende sombere stemming",
+          "weight": -0.73,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Plezierige activiteit",
+          "to_symptom_id": "CR-3",
+          "to_label": "Sociale isolatie",
+          "weight": -0.54,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Activiteitenschema",
+          "to_symptom_id": "CR-1",
+          "to_label": "Aanhoudende sombere stemming",
+          "weight": -0.71,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Slaapregelmaat",
+          "to_symptom_id": "CR-2",
+          "to_label": "Anergie",
+          "weight": -0.57,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Plezierige activiteit",
+          "to_symptom_id": "CR-4",
+          "to_label": "Hopeloosheid",
+          "weight": -0.32,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Slaapregelmaat",
+          "to_symptom_id": "CR-1",
+          "to_label": "Aanhoudende sombere stemming",
+          "weight": -0.36,
+          "direction": "protective"
+        }
+      ],
+      "edge_interpretation": {
+        "positive": "more of treatment option is associated with more symptom burden",
+        "negative": "more of treatment option is associated with less symptom burden"
+      }
+    },
+    "ema_summary": {
+      "monitoring_summary": "Voltooiingsgraad van geplande activiteiten: 28%. Sociale contactmomenten/week: gem. 0,8. Stemming: gem. 2,9/10. Variatie in slaap-waaktijd: gem. 2,3 uur. Plezierige activiteiten: gem. 0,9/dag. Uitdagen van hopeloze gedachten: gem. 0,6/dag."
+    },
+    "treatment_targets": [
+      "Gedragsactivatie",
+      "Slaapregulariteit",
+      "Sociaal initiatief"
+    ],
+    "candidate_ema_items": [
+      {
+        "item_id": "EMA-01",
+        "label": "Cafeine-inname na 15.00 uur beperkt (ja/nee)"
+      },
+      {
+        "item_id": "EMA-02",
+        "label": "Geplande activiteit uit dagschema bewust uitgevoerd (ja/nee)"
+      },
+      {
+        "item_id": "EMA-03",
+        "label": "Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-04",
+        "label": "Aantal geplande activiteiten daadwerkelijk uitgevoerd vandaag (aantal)"
+      },
+      {
+        "item_id": "EMA-05",
+        "label": "Waterinname vandaag (glazen)"
+      },
+      {
+        "item_id": "EMA-06",
+        "label": "Gebalanceerde maaltijden op vaste tijden genuttigd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-07",
+        "label": "Opstaan op geplande wektijd aangehouden (ja/nee)"
+      },
+      {
+        "item_id": "EMA-08",
+        "label": "Omega-3- of vitamine-D-supplement ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-09",
+        "label": "Afwijking van geplande bedtijd (min)"
+      },
+      {
+        "item_id": "EMA-10",
+        "label": "Alcoholconsumptie vanavond (eenheden)"
+      },
+      {
+        "item_id": "EMA-11",
+        "label": "Sigaretten of tabak gerookt vandaag (aantal)"
+      },
+      {
+        "item_id": "EMA-12",
+        "label": "Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-13",
+        "label": "Bewust contact opgenomen met een kennis of vriend (ja/nee)"
+      },
+      {
+        "item_id": "EMA-14",
+        "label": "Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)"
+      },
+      {
+        "item_id": "EMA-15",
+        "label": "Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-16",
+        "label": "Duur van sociaal contact op eigen initiatief (min)"
+      },
+      {
+        "item_id": "EMA-17",
+        "label": "Pijnklachten of lichamelijke ongemakken bijgehouden in een dagboek (ja/nee)"
+      },
+      {
+        "item_id": "EMA-18",
+        "label": "Bewust dankbaarheidsoefening of positieve reflectie uitgevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-19",
+        "label": "Lichaamsbeweging of wandeling buiten uitgevoerd (min)"
+      },
+      {
+        "item_id": "EMA-20",
+        "label": "Bewuste ademhaling of ontspanningsoefening in de ochtend uitgevoerd (min)"
+      }
+    ],
+    "primary_problem": "Langdurige sombere stemming en anergie hebben activiteit en sociale verbinding sterk doen afnemen.",
+    "treatment_goal": "Dagelijks een kleine, geplande activiteit uitvoeren als micro-actie uit het dagschema (gedragsactivatie).",
+    "barrier": "Planningsdrempel en betekenisverlies: activiteiten voelen vooraf nutteloos en te zwaar.",
+    "coping_strategy": "Werk met een vooraf gekozen micro-activiteit en een \"klaar is genoeg\"-criterium."
+  },
+  "C08": {
+    "vignette": "\"Ik heb altijd al moeite gehad om mij te concentreren op taken die mij niet meteen interesseren, maar het is het voorbije jaar veel erger geworden. Ik begin aan projecten en maak ze zelden af. Ik vergeet afspraken, zelfs als ik ze ergens noteer. Mijn partner is gefrustreerd omdat ik volgens hem of haar niet echt luister en onbetrouwbaar overkom. Ik weet dat ik op veel vlakken competent ben, maar ik voel mij voortdurend een mislukking. Ik ben taken die moeilijk zullen zijn ook steeds meer beginnen vermijden, waardoor de achterstand alleen maar groter wordt.\"",
+    "case_notes": {
+      "profile": "38-jarige projectmanager",
+      "duration": "sinds de kindertijd, duidelijk verergerd in de voorbije 12 maanden",
+      "case_summary": "38-jarige projectmanager; duur: sinds de kindertijd, duidelijk verergerd in de voorbije 12 maanden. Aandachtsvolhoudingsproblemen, plannings- en organisatiefouten, interpersoonlijke onoplettendheid en prestatieschaamte."
+    },
+    "standardized_symptoms": [
+      "Aandachtsvolhoudingsproblemen",
+      "Plannings- en organisatiefouten",
+      "Interpersoonlijke onoplettendheid",
+      "Prestatieschaamte"
+    ],
+    "standardized_treatment_options": [
+      {
+        "option_id": "BO-1",
+        "label": "Extern taakbeheersysteem"
+      },
+      {
+        "option_id": "BO-2",
+        "label": "Interesse-gedreven activatie"
+      },
+      {
+        "option_id": "BO-3",
+        "label": "Bewust luisteren"
+      },
+      {
+        "option_id": "BO-4",
+        "label": "Taakvoltooiingsbekrachtiging"
+      },
+      {
+        "option_id": "BO-5",
+        "label": "Overgangsrituelen"
+      }
+    ],
+    "network_summary": {
+      "monitoring_summary": "Gestarte versus afgewerkte taken: 68% versus 29%. Gemiste afspraken of toezeggingen: gem. 2,1/week. Partnerconflicten: gem. 4,7/week. Externe tools gebruikt: gem. 1,8/dag. Positieve zelfbekrachtiging: gem. 0,4/dag.",
+      "symptoms": [
+        {
+          "symptom_id": "S-1",
+          "label": "Aandachtsvolhoudingsproblemen"
+        },
+        {
+          "symptom_id": "S-2",
+          "label": "Plannings- en organisatiefouten"
+        },
+        {
+          "symptom_id": "S-3",
+          "label": "Interpersoonlijke onoplettendheid"
+        },
+        {
+          "symptom_id": "S-4",
+          "label": "Prestatieschaamte"
+        }
+      ],
+      "edges": [
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Extern taakbeheersysteem",
+          "to_symptom_id": "CR-2",
+          "to_label": "Plannings- en organisatiefouten",
+          "weight": -0.87,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Bewust luisteren",
+          "to_symptom_id": "CR-3",
+          "to_label": "Interpersoonlijke onoplettendheid",
+          "weight": -0.83,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Extern taakbeheersysteem",
+          "to_symptom_id": "CR-1",
+          "to_label": "Aandachtsvolhoudingsproblemen",
+          "weight": -0.81,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Taakvoltooiingsbekrachtiging",
+          "to_symptom_id": "CR-4",
+          "to_label": "Prestatieschaamte",
+          "weight": -0.79,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Overgangsrituelen",
+          "to_symptom_id": "CR-2",
+          "to_label": "Plannings- en organisatiefouten",
+          "weight": -0.61,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Interesse-gedreven activatie",
+          "to_symptom_id": "CR-4",
+          "to_label": "Prestatieschaamte",
+          "weight": -0.47,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Interesse-gedreven activatie",
+          "to_symptom_id": "CR-1",
+          "to_label": "Aandachtsvolhoudingsproblemen",
+          "weight": -0.39,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Taakvoltooiingsbekrachtiging",
+          "to_symptom_id": "CR-2",
+          "to_label": "Plannings- en organisatiefouten",
+          "weight": -0.34,
+          "direction": "protective"
+        }
+      ],
+      "edge_interpretation": {
+        "positive": "more of treatment option is associated with more symptom burden",
+        "negative": "more of treatment option is associated with less symptom burden"
+      }
+    },
+    "ema_summary": {
+      "monitoring_summary": "Gestarte versus afgewerkte taken: 68% versus 29%. Gemiste afspraken of toezeggingen: gem. 2,1/week. Partnerconflicten: gem. 4,7/week. Externe tools gebruikt: gem. 1,8/dag. Positieve zelfbekrachtiging: gem. 0,4/dag."
+    },
+    "treatment_targets": [
+      "Externe taakstructuur",
+      "Aandachtsregulatie in gesprek",
+      "Positieve bekrachtiging bij voltooiing"
+    ],
+    "candidate_ema_items": [
+      {
+        "item_id": "EMA-01",
+        "label": "Cafeine-inname voor de middag beperkt (ja/nee)"
+      },
+      {
+        "item_id": "EMA-02",
+        "label": "To-dolijst of digitale planner bewust geraadpleegd (ja/nee)"
+      },
+      {
+        "item_id": "EMA-03",
+        "label": "Waterinname vandaag (glazen)"
+      },
+      {
+        "item_id": "EMA-04",
+        "label": "Nieuwe taken direct en volledig ingevoerd in het taakbeheersysteem (ja/nee)"
+      },
+      {
+        "item_id": "EMA-05",
+        "label": "Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-06",
+        "label": "Gebalanceerde maaltijden op vaste tijden genuttigd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-07",
+        "label": "Actief luisteren bewust geoefend tijdens een gesprek (ja/nee)"
+      },
+      {
+        "item_id": "EMA-08",
+        "label": "Omega-3- of vitamine-D-supplement ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-09",
+        "label": "Afleiding actief weggelegd of uitgeschakeld tijdens een gesprek (ja/nee)"
+      },
+      {
+        "item_id": "EMA-10",
+        "label": "Alcoholconsumptie vanavond (eenheden)"
+      },
+      {
+        "item_id": "EMA-11",
+        "label": "Sigaretten of tabak gerookt vandaag (aantal)"
+      },
+      {
+        "item_id": "EMA-12",
+        "label": "Afgesloten taak bewust en expliciet positief erkend (ja/nee)"
+      },
+      {
+        "item_id": "EMA-13",
+        "label": "Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-14",
+        "label": "Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)"
+      },
+      {
+        "item_id": "EMA-15",
+        "label": "Kleine symbolische beloning gegeven na taakvoltooiing (ja/nee)"
+      },
+      {
+        "item_id": "EMA-16",
+        "label": "Vast slaap- en waktijdstip aangehouden vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-17",
+        "label": "Gesprek met vertrouwenspersoon of steunfiguur gevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-18",
+        "label": "Lichaamsbeweging of wandeling buiten uitgevoerd (min)"
+      },
+      {
+        "item_id": "EMA-19",
+        "label": "Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-20",
+        "label": "Bewust dankbaarheidsoefening of positieve reflectie uitgevoerd vandaag (ja/nee)"
+      }
+    ],
+    "primary_problem": "Executieve functieproblemen zorgen voor taakfalen, relationele spanning en aanhoudende schaamte.",
+    "treatment_goal": "Een extern taakbeheersysteem consequent raadplegen en successen expliciet bekrachtigen.",
+    "barrier": "Gewoonteweerstand en lage volhoudingsverwachting: eerdere systemen werden snel losgelaten.",
+    "coping_strategy": "Installeer een minimale, dagelijks terugkerende check-in en koppel afgeronde taken aan een expliciete bevestiging."
+  },
+  "C09": {
+    "vignette": "\"Mijn stemming kan op een dag heel snel omslaan en vaak lijkt dat sterker dan wat er feitelijk gebeurt. Ik kan mij in de ochtend nog redelijk voelen en tegen de middag helemaal ontredderd zijn. Wanneer ik mij bekritiseerd of afgewezen voel, zelfs om iets kleins, reageer ik extreem heftig – boos of heel wanhopig. Ik handel ook impulsief, vooral met geld of in relaties, en heb daar achteraf spijt van. Mijn relaties worden vaak snel intens en lopen daarna mis. Ik zie dat dat patroon zich herhaalt, maar ik weet niet hoe ik het moet doorbreken.\"",
+    "case_notes": {
+      "profile": "27-jarige salesvertegenwoordiger",
+      "duration": "3 jaar",
+      "case_summary": "27-jarige salesvertegenwoordiger; duur: 3 jaar. Snelle stemmingsschommelingen, uitgesproken afwijzingsreactiviteit, impulsief gedrag en relationele instabiliteit."
+    },
+    "standardized_symptoms": [
+      "Snelle stemmingsschommelingen",
+      "Afwijzingsreactiviteit",
+      "Impulsief gedrag",
+      "Relationele instabiliteit"
+    ],
+    "standardized_treatment_options": [
+      {
+        "option_id": "BO-1",
+        "label": "Emotieregulatievaardigheid"
+      },
+      {
+        "option_id": "BO-2",
+        "label": "Afwijzingsherwaardering"
+      },
+      {
+        "option_id": "BO-3",
+        "label": "Impulsuitstel"
+      },
+      {
+        "option_id": "BO-4",
+        "label": "Interpersoonlijke communicatie"
+      },
+      {
+        "option_id": "BO-5",
+        "label": "Gedifferentieerde stemmingsmonitoring"
+      }
+    ],
+    "network_summary": {
+      "monitoring_summary": "Dagelijks stembereik: gem. 5,8 punten. Emotieregulatievaardigheden gebruikt: gem. 1,2/dag. Impulsieve handelingen: gem. 2,1/dag. Interpersoonlijke conflicten: gem. 3,8/week. Ervaren afwijzingssignalen: gem. 2,4/dag. Herwaardering voor reactie: gem. 0,7/dag.",
+      "symptoms": [
+        {
+          "symptom_id": "S-1",
+          "label": "Snelle stemmingsschommelingen"
+        },
+        {
+          "symptom_id": "S-2",
+          "label": "Afwijzingsreactiviteit"
+        },
+        {
+          "symptom_id": "S-3",
+          "label": "Impulsief gedrag"
+        },
+        {
+          "symptom_id": "S-4",
+          "label": "Relationele instabiliteit"
+        }
+      ],
+      "edges": [
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Afwijzingsherwaardering",
+          "to_symptom_id": "CR-2",
+          "to_label": "Afwijzingsreactiviteit",
+          "weight": -0.92,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Impulsuitstel",
+          "to_symptom_id": "CR-3",
+          "to_label": "Impulsief gedrag",
+          "weight": -0.84,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Emotieregulatievaardigheid",
+          "to_symptom_id": "CR-1",
+          "to_label": "Snelle stemmingsschommelingen",
+          "weight": -0.81,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Emotieregulatievaardigheid",
+          "to_symptom_id": "CR-2",
+          "to_label": "Afwijzingsreactiviteit",
+          "weight": -0.75,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Afwijzingsherwaardering",
+          "to_symptom_id": "CR-4",
+          "to_label": "Relationele instabiliteit",
+          "weight": -0.62,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Interpersoonlijke communicatie",
+          "to_symptom_id": "CR-4",
+          "to_label": "Relationele instabiliteit",
+          "weight": -0.68,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Interpersoonlijke communicatie",
+          "to_symptom_id": "CR-2",
+          "to_label": "Afwijzingsreactiviteit",
+          "weight": -0.43,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Gedifferentieerde stemmingsmonitoring",
+          "to_symptom_id": "CR-4",
+          "to_label": "Relationele instabiliteit",
+          "weight": -0.41,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Gedifferentieerde stemmingsmonitoring",
+          "to_symptom_id": "CR-1",
+          "to_label": "Snelle stemmingsschommelingen",
+          "weight": -0.35,
+          "direction": "protective"
+        }
+      ],
+      "edge_interpretation": {
+        "positive": "more of treatment option is associated with more symptom burden",
+        "negative": "more of treatment option is associated with less symptom burden"
+      }
+    },
+    "ema_summary": {
+      "monitoring_summary": "Dagelijks stembereik: gem. 5,8 punten. Emotieregulatievaardigheden gebruikt: gem. 1,2/dag. Impulsieve handelingen: gem. 2,1/dag. Interpersoonlijke conflicten: gem. 3,8/week. Ervaren afwijzingssignalen: gem. 2,4/dag. Herwaardering voor reactie: gem. 0,7/dag."
+    },
+    "treatment_targets": [
+      "Emotieregulatietechnieken",
+      "Impulsuitstel",
+      "Cognitieve herwaardering bij interpersoonlijke spanning"
+    ],
+    "candidate_ema_items": [
+      {
+        "item_id": "EMA-01",
+        "label": "Cafeine-inname na 14.00 uur beperkt (ja/nee)"
+      },
+      {
+        "item_id": "EMA-02",
+        "label": "Emotieregulatietechniek (bijv.\\ grounding, ademhaling) bewust ingezet (ja/nee)"
+      },
+      {
+        "item_id": "EMA-03",
+        "label": "Waterinname vandaag (glazen)"
+      },
+      {
+        "item_id": "EMA-04",
+        "label": "Aantal keer een bewuste emotieregulatievaardigheid ingezet vandaag (aantal)"
+      },
+      {
+        "item_id": "EMA-05",
+        "label": "Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-06",
+        "label": "Gebalanceerde maaltijden op vaste tijden genuttigd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-07",
+        "label": "Impulsieve actie bewust uitgesteld of niet ondernomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-08",
+        "label": "Omega-3- of vitamine-D-supplement ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-09",
+        "label": "Alcoholconsumptie vandaag (eenheden)"
+      },
+      {
+        "item_id": "EMA-10",
+        "label": "Wachttijd aangehouden voor impulsieve beslissing of actie (min)"
+      },
+      {
+        "item_id": "EMA-11",
+        "label": "Sigaretten of tabak gerookt vandaag (aantal)"
+      },
+      {
+        "item_id": "EMA-12",
+        "label": "Vast slaap- en waktijdstip aangehouden vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-13",
+        "label": "Ervaren afwijzing bewust herwaardeert via een alternatieve interpretatie (ja/nee)"
+      },
+      {
+        "item_id": "EMA-14",
+        "label": "Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-15",
+        "label": "Lichaamsbeweging of sport vandaag (min)"
+      },
+      {
+        "item_id": "EMA-16",
+        "label": "Alternatieve verklaring voor een afwijzingssignaal bewust geformuleerd (ja/nee)"
+      },
+      {
+        "item_id": "EMA-17",
+        "label": "Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)"
+      },
+      {
+        "item_id": "EMA-18",
+        "label": "Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-19",
+        "label": "Pijnklachten of lichamelijke ongemakken bijgehouden in een dagboek (ja/nee)"
+      },
+      {
+        "item_id": "EMA-20",
+        "label": "Bewust dankbaarheidsoefening of positieve reflectie uitgevoerd vandaag (ja/nee)"
+      }
+    ],
+    "primary_problem": "Snelle stemmingswisselingen en hevige reactiviteit leiden tot impulsieve beslissingen en relationele escalatie.",
+    "treatment_goal": "Een specifieke emotieregulatievaardigheid inzetten zodra spanning begint op te lopen.",
+    "barrier": "Lage coping-self-efficacy: in het piekmoment verwacht de persoon dat vaardigheden toch niet zullen werken.",
+    "coping_strategy": "Gebruik een vooraf geoefende cue-actie-koppeling: herken een vroege lichamelijke cue en koppel die aan exact een vaardigheid."
+  },
+  "C10": {
+    "vignette": "\"De werkstress is het grootste deel van het afgelopen jaar blijven oplopen. Ik heb voortdurend spanningshoofdpijn en mijn maag is op de meeste dagen ontregeld. 's Nachts lig ik wakker over werkproblemen en beslissingen die nog genomen moeten worden, en als ik eenmaal wakker ben geraakt, val ik vaak niet meer in slaap. Ik drink bijna elke avond twee of drie glazen wijn om tot rust te komen. Ik weet dat dat niet ideaal is, maar het voelt alsof ik anders niet kan afschakelen. Mijn beweging is volledig weggevallen en ik snap thuis sneller dan vroeger.\"",
+    "case_notes": {
+      "profile": "52-jarige operationeel directeur",
+      "duration": "ongeveer 9 maanden",
+      "case_summary": "52-jarige operationeel directeur; duur: ongeveer 9 maanden. Chronische werkstress, doorslaapinsomnie, somatische stressklachten en alcohol als copingstrategie."
+    },
+    "standardized_symptoms": [
+      "Chronische werkstress",
+      "Doorslaapinsomnie",
+      "Somatische stressklachten",
+      "Alcohol als copingstrategie"
+    ],
+    "standardized_treatment_options": [
+      {
+        "option_id": "BO-1",
+        "label": "Werkontkoppeling voor slaap"
+      },
+      {
+        "option_id": "BO-2",
+        "label": "Avondlijk alcoholgebruik"
+      },
+      {
+        "option_id": "BO-3",
+        "label": "Stressregulatie overdag"
+      },
+      {
+        "option_id": "BO-4",
+        "label": "Aerobe beweging"
+      },
+      {
+        "option_id": "BO-5",
+        "label": "Nachtelijke cognitieve arousal"
+      }
+    ],
+    "network_summary": {
+      "monitoring_summary": "Werkgerelateerde gedachten na 20.00 uur: gem. 3,4 uur. Alcoholeenheden in de avond: gem. 3,1. Hoofdpijndagen: 16/21. Slaapefficientie: gem. 62%. Stressregulatie overdag: gem. 0,9/dag. Lichamelijke activiteit: gem. 0,4 sessies/week.",
+      "symptoms": [
+        {
+          "symptom_id": "S-1",
+          "label": "Chronische werkstress"
+        },
+        {
+          "symptom_id": "S-2",
+          "label": "Doorslaapinsomnie"
+        },
+        {
+          "symptom_id": "S-3",
+          "label": "Somatische stressklachten"
+        },
+        {
+          "symptom_id": "S-4",
+          "label": "Alcohol als copingstrategie"
+        }
+      ],
+      "edges": [
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Werkontkoppeling voor slaap",
+          "to_symptom_id": "CR-2",
+          "to_label": "Doorslaapinsomnie",
+          "weight": -0.85,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-1",
+          "from_label": "Werkontkoppeling voor slaap",
+          "to_symptom_id": "CR-1",
+          "to_label": "Chronische werkstress",
+          "weight": -0.78,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Avondlijk alcoholgebruik",
+          "to_symptom_id": "CR-4",
+          "to_label": "Alcohol als copingstrategie",
+          "weight": 0.9,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-2",
+          "from_label": "Avondlijk alcoholgebruik",
+          "to_symptom_id": "CR-2",
+          "to_label": "Doorslaapinsomnie",
+          "weight": 0.72,
+          "direction": "risk"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Stressregulatie overdag",
+          "to_symptom_id": "CR-1",
+          "to_label": "Chronische werkstress",
+          "weight": -0.62,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-3",
+          "from_label": "Stressregulatie overdag",
+          "to_symptom_id": "CR-3",
+          "to_label": "Somatische stressklachten",
+          "weight": -0.75,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Aerobe beweging",
+          "to_symptom_id": "CR-1",
+          "to_label": "Chronische werkstress",
+          "weight": -0.38,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-4",
+          "from_label": "Aerobe beweging",
+          "to_symptom_id": "CR-3",
+          "to_label": "Somatische stressklachten",
+          "weight": -0.55,
+          "direction": "protective"
+        },
+        {
+          "from_option_id": "BO-5",
+          "from_label": "Nachtelijke cognitieve arousal",
+          "to_symptom_id": "CR-2",
+          "to_label": "Doorslaapinsomnie",
+          "weight": 0.82,
+          "direction": "risk"
+        }
+      ],
+      "edge_interpretation": {
+        "positive": "more of treatment option is associated with more symptom burden",
+        "negative": "more of treatment option is associated with less symptom burden"
+      }
+    },
+    "ema_summary": {
+      "monitoring_summary": "Werkgerelateerde gedachten na 20.00 uur: gem. 3,4 uur. Alcoholeenheden in de avond: gem. 3,1. Hoofdpijndagen: 16/21. Slaapefficientie: gem. 62%. Stressregulatie overdag: gem. 0,9/dag. Lichamelijke activiteit: gem. 0,4 sessies/week."
+    },
+    "treatment_targets": [
+      "Mentale werkontkoppeling",
+      "Alcoholgebruik verminderen",
+      "Actieve stressregulatie"
+    ],
+    "candidate_ema_items": [
+      {
+        "item_id": "EMA-01",
+        "label": "Waterinname vandaag (glazen)"
+      },
+      {
+        "item_id": "EMA-02",
+        "label": "Werkapparaten bewust uitgeschakeld voor slapengaan (ja/nee)"
+      },
+      {
+        "item_id": "EMA-03",
+        "label": "Medicatie op voorgeschreven tijdstip ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-04",
+        "label": "Werkontkoppelingsritueel consequent gevolgd na 21.00 uur (min)"
+      },
+      {
+        "item_id": "EMA-05",
+        "label": "Gebalanceerde maaltijden op vaste tijden genuttigd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-06",
+        "label": "Omega-3- of vitamine-D-supplement ingenomen (ja/nee)"
+      },
+      {
+        "item_id": "EMA-07",
+        "label": "Alcoholeenheden geconsumeerd na 19.00 uur (aantal)"
+      },
+      {
+        "item_id": "EMA-08",
+        "label": "Sigaretten of tabak gerookt vandaag (aantal)"
+      },
+      {
+        "item_id": "EMA-09",
+        "label": "Cafeine-inname na 16.00 uur bewust beperkt (ja/nee)"
+      },
+      {
+        "item_id": "EMA-10",
+        "label": "Avond zonder alcoholinname bewust aangehouden (ja/nee)"
+      },
+      {
+        "item_id": "EMA-11",
+        "label": "Vast slaap- en waktijdstip aangehouden vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-12",
+        "label": "Financiele zorgen of administratieve taken aangepakt vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-13",
+        "label": "Stressregulatietechniek (ademhaling, mindfulness) bewust ingezet overdag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-14",
+        "label": "Lichaamsbeweging of sport vandaag (min)"
+      },
+      {
+        "item_id": "EMA-15",
+        "label": "Lichttherapielamp of wekker op licht gebruikt in de ochtend (ja/nee)"
+      },
+      {
+        "item_id": "EMA-16",
+        "label": "Duur bewuste stressverlichtende activiteit overdag (min)"
+      },
+      {
+        "item_id": "EMA-17",
+        "label": "Professioneel consult of therapeutische sessie bijgewoond vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-18",
+        "label": "Gesprek met vertrouwenspersoon of steunfiguur gevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-19",
+        "label": "Bewust dankbaarheidsoefening of positieve reflectie uitgevoerd vandaag (ja/nee)"
+      },
+      {
+        "item_id": "EMA-20",
+        "label": "Pijnklachten of lichamelijke ongemakken bijgehouden in een dagboek (ja/nee)"
+      }
+    ],
+    "primary_problem": "Aanhoudende werkstress leidt tot gefragmenteerde slaap, lichamelijke spanningsklachten en alcohol als vaste ontladingsstrategie.",
+    "treatment_goal": "Een korte werkontkoppelingsroutine installeren en alcohol niet langer als standaard afschakelmechanisme gebruiken.",
+    "barrier": "Sterke gewoontekracht: alcohol voelt essentieel om de overgang van werk naar slaap te maken.",
+    "coping_strategy": "Vervang het bestaande gewoontepatroon door een vast, tijdsgebonden afbouwritueel dat elke avond op hetzelfde moment start."
+  }
+}

@@ -68,6 +68,8 @@ evaluation/survey_analysis/data/judged_*.csv
 evaluation/survey_analysis/results/**
 !evaluation/survey_analysis/results/
 !evaluation/survey_analysis/results/README.md
+evaluation/phoenix_outputs/data/outputs/*.json
+evaluation/phoenix_outputs/data/logs/*.json
 evaluation/qualtrics/data/01_raw/*.csv
 evaluation/qualtrics/data/02_parsed/
 evaluation/**/visuals/

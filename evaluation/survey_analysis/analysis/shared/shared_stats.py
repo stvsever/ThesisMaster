@@ -251,9 +251,22 @@ def tost_test_one_sample(
         }
     se = float(stats.sem(vals))
     df = n - 1
-    t_upper = (mean_diff - delta) / se if se > 0 else 0.0
+    if se <= 0:
+        inside = abs(mean_diff) < float(delta)
+        return {
+            "p_tost": 0.0 if inside else 1.0,
+            "p_upper": 0.0 if mean_diff < float(delta) else 1.0,
+            "p_lower": 0.0 if mean_diff > -float(delta) else 1.0,
+            "t_upper": float("-inf") if mean_diff < float(delta) else float("inf"),
+            "t_lower": float("inf") if mean_diff > -float(delta) else float("-inf"),
+            "delta": float(delta),
+            "observed_diff": mean_diff,
+            "pooled_se": se,
+            "equivalent": bool(inside),
+        }
+    t_upper = (mean_diff - delta) / se
     p_upper = float(stats.t.cdf(t_upper, df=df))
-    t_lower = (mean_diff + delta) / se if se > 0 else 0.0
+    t_lower = (mean_diff + delta) / se
     p_lower = float(stats.t.sf(t_lower, df=df))
     p_tost = max(p_upper, p_lower)
     return {

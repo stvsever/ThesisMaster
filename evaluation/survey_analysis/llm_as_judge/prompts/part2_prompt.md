@@ -1,5 +1,5 @@
 <!--
-PROMPT_VERSION: 2026-05-01-v2-signed-comparison
+PROMPT_VERSION: 2026-05-01-v3-signed-comparison
 PART_INDEX: 2
 PART_TITLE: 02_Identifying_Modifiable_Treatment_Options
 MODEL: google/gemini-3.1-flash-lite-preview

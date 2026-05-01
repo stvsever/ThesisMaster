@@ -1,57 +1,58 @@
 # LLM-as-Judge
 
-This module implements the Phase 2 double-blind judge. It compares an HCP
-output and a PHOENIX output for the same case and survey part, but the model
-only sees anonymous `Output A` and `Output B`.
+This module implements the double-blind Phase 2 judge. The model receives the
+same case context for both candidates and compares anonymous `Output A` and
+`Output B`. It never sees source labels.
 
-## Judge Backend
+## Backend
 
 Default real backend:
 
-```
+```text
 google/gemini-3.1-flash-lite-preview
 ```
 
-through OpenRouter. Pseudo mode uses `pseudo_judge.py` and never calls the
-network.
+through OpenRouter. Pseudo mode uses `pseudo_judge.py` and makes no network
+calls.
 
-## Blinding
+## Blinding Contract
 
 For every `(case_id, part, judge_run)`:
 
-1. `judge_runner.assign_blind_labels()` deterministically assigns PHOENIX and
-   HCP to A/B.
-2. Both outputs are canonicalised to the same JSON shape before prompting.
-3. The prompt contains no source metadata.
-4. The raw response JSON stores the blinding key for reproducibility.
+1. `assign_blind_labels()` deterministically assigns HCP and PHOENIX to A/B.
+2. Both outputs are canonicalised to exactly the same part-specific JSON shape.
+3. Shared inputs are supplied in case context, not inside either candidate.
+4. The raw response stores the blinding key for reproducibility.
 5. `judgments_long.csv` stores the unblinded signed PHOENIX-vs-HCP score.
 
-## Scale
+Compared output shapes:
+
+| Part | Shape |
+| --- | --- |
+| 1 | `{"items": [{"label": "..."}]}` |
+| 2 | `{"items": [{"label": "..."}]}` |
+| 3 | `{"ranking": [{"rank": 1, "option_id": "BO-1"}]}` |
+| 4 | `{"selected_options": ["..."]}` |
+| 5 | `{"message": "..."}` |
+
+## Signed Scale
 
 The judge returns one signed comparison per dimension:
 
-```
--9 = Output B is decisively better
--6 = Output B is strongly better
--3 = Output B is modestly better
+```text
+-9 = Output B decisively better than Output A
+-6 = Output B strongly better
+-3 = Output B modestly better
  0 = no meaningful difference / tie
-+3 = Output A is modestly better
-+6 = Output A is strongly better
-+9 = Output A is decisively better
++3 = Output A modestly better
++6 = Output A strongly better
++9 = Output A decisively better
 ```
 
-The runner converts this to `score`, where:
+The runner converts the A/B score to `score = PHOENIX - HCP`. Positive values
+favour PHOENIX, negative values favour the HCP output.
 
-- `score > 0`: PHOENIX preferred;
-- `score < 0`: HCP preferred;
-- `score = 0`: tie / no meaningful difference.
-
-This is intentionally pairwise. It prevents the judge from giving two
-independent absolute ratings with inconsistent calibration across prompts.
-
-## JSON Schema
-
-The model must return strict JSON:
+## Required JSON
 
 ```json
 {
@@ -68,48 +69,60 @@ The model must return strict JSON:
 }
 ```
 
-`winner` must match the sign. `confidence` is 1..5 and is descriptive; it is
-not used as an inferential weight in the current statistics.
+`winner` must match the score sign. `confidence` is descriptive and is not an
+inferential weight.
 
 ## Prompt Files
 
 | File | Purpose |
 | --- | --- |
 | `prompts/system_prompt.md` | Shared blind judge role, scale, JSON rules |
-| `prompts/part1_operationalization.md` | Symptom-label comparison |
-| `prompts/part2_initial_model.md` | Modifiable treatment-option comparison |
-| `prompts/part3_treatment_targets.md` | Treatment-target ranking comparison |
-| `prompts/part4_updated_model.md` | EMA item-selection comparison |
-| `prompts/part5_intervention.md` | Mobile coaching-message comparison |
-
-The Part 2 and Part 4 filenames retain the older module names for import
-compatibility, but the prompt content matches the current Qualtrics survey:
-Part 2 is treatment-option generation and Part 4 is concrete EMA item
-selection.
-
-## Dimensions
-
-All dimension definitions live in `dimensions.py`; the prompt renderer injects
-their goal, rationale, and comparative examples into the part prompt.
+| `prompts/part1_prompt.md` | Symptom-label comparison |
+| `prompts/part2_prompt.md` | Modifiable treatment-option comparison |
+| `prompts/part3_prompt.md` | Treatment-target ranking comparison |
+| `prompts/part4_prompt.md` | EMA item-selection comparison |
+| `prompts/part5_prompt.md` | Mobile coaching-message comparison |
 
 The current prompt version is:
 
-```
-2026-05-01-v2-signed-comparison
+```text
+2026-05-01-v3-signed-comparison
 ```
 
-Bump `PROMPT_VERSION` whenever dimensions, anchors, prompt wording, or output
-schema change.
+Bump `PROMPT_VERSION` whenever dimension definitions, anchors, prompt wording,
+or compared output schema change.
+
+## Dimensions
+
+All dimension definitions live in `dimensions.py`. The prompt renderer injects
+the goal, rationale, and comparative anchor examples for every dimension.
+
+The dimensions explicitly check both task validity and clinical quality:
+
+- Part 1: label-format adherence, complaint coverage, symptom boundaries,
+  granularity, non-redundancy, interoperability, EMA measurability.
+- Part 2: label-format adherence, modifiability, relevance, causal
+  plausibility, EMA feasibility, symptom-option separation, diversity,
+  precision.
+- Part 3: ranking validity, network alignment, current-state integration,
+  edge-direction interpretation, top-target defensibility, feasibility,
+  rank coherence.
+- Part 4: valid candidate selection, target-item mapping, 2-per-target
+  balance, concreteness, directness, dynamic informativeness, burden, coaching
+  feedback value.
+- Part 5: phone-message format, goal alignment, barrier responsiveness,
+  feasible action, behaviour-change potential, tone, concision,
+  personalisation, safety.
 
 ## Output Artefacts
 
 Long-format scored data:
 
-```
+```text
 evaluation/survey_analysis/data/04_judgments/judgments_long.csv
 ```
 
-Columns:
+Main columns:
 
 | Column | Meaning |
 | --- | --- |
@@ -123,35 +136,31 @@ Columns:
 | `justification` | One-sentence judge rationale |
 | `prompt_version`, `model`, `timestamp` | Reproducibility metadata |
 
-Raw judge responses:
+Raw responses are saved under:
 
-```
+```text
 evaluation/survey_analysis/data/04_judgments/raw/<part>/case_<case>_run_<run>.json
 ```
 
-## Pseudo Mode
+## Running
 
-`pseudo_judge.py` injects known PHOENIX-HCP effects per dimension so the
-analysis can be validated without an API key. These are not clinical claims;
-they only test whether the pipeline recovers a realistic mix of PHOENIX
-advantages, ties/equivalence, and slight HCP advantages.
-
-Run:
+Pseudo mode:
 
 ```bash
 python evaluation/survey_analysis/pipeline.py --mode pseudo
 ```
 
-## Real Mode Checklist
+Real OpenRouter mode:
 
-Before real OpenRouter judging:
+```bash
+export OPENROUTER_API_KEY=...
+python evaluation/survey_analysis/pipeline.py --mode real --judge openrouter --n-runs 5
+```
 
-1. Export completed Qualtrics CSV to `evaluation/qualtrics/data/01_raw/`.
-2. Save PHOENIX outputs to `data/03_system/system_outputs.json`.
-3. Save complete shared case inputs to `data/01_raw/case_contexts.json`.
-4. Set `OPENROUTER_API_KEY`.
-5. Run `python evaluation/survey_analysis/pipeline.py --mode real --n-runs 5`.
+Real HCP parsing with pseudo judging for the current single-row C03 smoke path:
 
-If an old `judgments_long.csv` has the pre-v2 absolute-rating header, the
-runner stops and asks you to archive/delete it. This avoids mixing 1..7
-absolute ratings with -9..+9 signed comparisons.
+```bash
+python evaluation/phoenix_outputs/run.py prepare-fixture-analysis
+python evaluation/survey_analysis/pipeline.py --mode real --judge pseudo --cases C03
+```
+

@@ -8,11 +8,11 @@ from typing import Dict
 PROMPTS_DIR: Path = Path(__file__).resolve().parent
 
 PART_TO_PROMPT_FILE: Dict[str, str] = {
-    "part1": "part1_operationalization.md",
-    "part2": "part2_initial_model.md",
-    "part3": "part3_treatment_targets.md",
-    "part4": "part4_updated_model.md",
-    "part5": "part5_intervention.md",
+    "part1": "part1_prompt.md",
+    "part2": "part2_prompt.md",
+    "part3": "part3_prompt.md",
+    "part4": "part4_prompt.md",
+    "part5": "part5_prompt.md",
 }
 
 

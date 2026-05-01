@@ -1,5 +1,5 @@
 <!--
-PROMPT_VERSION: 2026-05-01-v2-signed-comparison
+PROMPT_VERSION: 2026-05-01-v3-signed-comparison
 PART_INDEX: 5
 PART_TITLE: 05_Mobile_Coaching_Message
 MODEL: google/gemini-3.1-flash-lite-preview
@@ -51,7 +51,7 @@ Assigned HAPA phase, if available:
 
 Both outputs are canonicalised to the same shape:
 ```json
-{"message": "2..4 sentence mobile coaching message", "hapa_phase": "optional"}
+{"message": "2..4 sentence mobile coaching message"}
 ```
 
 ### Output A

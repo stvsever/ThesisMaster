@@ -1,5 +1,5 @@
 <!--
-PROMPT_VERSION: 2026-05-01-v2-signed-comparison
+PROMPT_VERSION: 2026-05-01-v3-signed-comparison
 ROLE: shared blind judge persona for all five survey parts.
 -->
 
