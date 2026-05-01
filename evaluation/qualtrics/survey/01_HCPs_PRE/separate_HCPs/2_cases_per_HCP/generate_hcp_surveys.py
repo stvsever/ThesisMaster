@@ -1,0 +1,2709 @@
+"""
+Genereer de vijf afzonderlijke PRE-instrumenten voor zorgprofessionals.
+
+Elke bundel bevat uitsluitend de twee aan die deelnemer toegewezen casussen en
+is volledig geformuleerd in professioneel Nederlands. De documenten zijn
+bedoeld als finale distributieversie voor dataverzameling.
+"""
+
+from __future__ import annotations
+
+import io
+import subprocess
+from pathlib import Path
+
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+from matplotlib.lines import Line2D
+
+from docx import Document
+from docx.shared import Pt, Cm, RGBColor, Inches
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.table import WD_TABLE_ALIGNMENT
+from docx.oxml.ns import qn
+from docx.oxml import OxmlElement
+
+
+CASES: dict[str, dict] = {
+    "C01": dict(
+        label="C01",
+        profile="28-jarige softwareontwikkelaar",
+        duration="2 maanden",
+        short_desc=(
+            "Inslaapproblemen, cognitieve hyperarousal bij het slapengaan, "
+            "sociale anhedonie en stressgerelateerde spierspanning."
+        ),
+        vignette=(
+            r"``De afgelopen twee maanden geraak ik 's avonds heel moeilijk in slaap. "
+            r"Mijn hoofd blijft maar doorgaan over alles wat ik nog moet doen -- deadlines, "
+            r"onafgewerkte taken, gesprekken die ik nog moet voeren. Zelfs als ik uitgeput ben, "
+            r"krijg ik die gedachten niet uitgezet. Ik merk ook dat ik minder plezier beleef aan "
+            r"sociale momenten. Ik ga nog wel naar afspraken met vrienden, maar ik voel me er "
+            r"afstandelijk en niet echt betrokken. Mijn nek en schouders staan bovendien bijna "
+            r"voortdurend gespannen en pijnlijk, wat volgens mijn huisarts waarschijnlijk "
+            r"stressgerelateerd is.''"
+        ),
+        criteria=[
+            "Inslaapproblemen",
+            "Cognitieve hyperarousal",
+            "Sociale anhedonie",
+            "Stressgerelateerde spierspanning",
+        ],
+        monitoring=(
+            r"Schermtijd na 22.00 uur: 16/21 avonden (gem. 78 min). Openstaande taken: "
+            r"gem. 6,2 per dag. Sociale activiteiten: 2,1/week (beleving 2,3/10). "
+            r"Preslaap offloading toegepast: 3/21 avonden. Lichamelijke activiteit: "
+            r"gem. 0,7 sessies/week."
+        ),
+        predictors=[
+            "Late avondschermtijd",
+            "Dagelijkse taakaccumulatie",
+            "Preslaap cognitieve offloading",
+            "Sociale participatie",
+            "Aerobe beweging",
+        ],
+        tikz_edges=[
+            ("p1", "cr1",  0.88),  # late screen time → sleep onset problems (very strong)
+            ("p1", "cr2",  0.82),  # late screen time → cognitive hyperarousal (strong)
+            ("p2", "cr2",  0.62),  # task accumulation → cognitive hyperarousal (moderate)
+            ("p3", "cr2", -0.78),  # pre-sleep offloading ↓ cognitive hyperarousal (strong protective)
+            ("p3", "cr1", -0.42),  # pre-sleep offloading ↓ sleep onset problems (weak protective)
+            ("p4", "cr3", -0.85),  # social participation ↓ social anhedonia (very strong)
+            ("p5", "cr1", -0.55),  # aerobic exercise ↓ sleep onset problems (moderate)
+            ("p5", "cr4", -0.70),  # aerobic exercise ↓ muscle tension (moderate-strong)
+        ],
+        treatment_targets=[
+            (
+                "Schermtijd na 22.00 uur",
+                "hoogste impact op CR-1 en CR-2; monitoring toont consequent laat gebruik "
+                "(16/21 avonden)",
+            ),
+            (
+                "Preslaap cognitieve offloading",
+                "nauwelijks ingezet ondanks duidelijke taakaccumulatie; rechtstreeks relevant "
+                "voor CR-2",
+            ),
+            (
+                "Aerobe beweging",
+                "zeer lage frequentie (0,7 sessies/week); potentieel effect op CR-1 en CR-4",
+            ),
+        ],
+        p5_challenge=(
+            "Moeizaam inslapen door een overactieve geest en aanhoudende spanning in de avond."
+        ),
+        p5_target=(
+            "Schermtijd in de late avond reduceren en een vaste afschakelroutine installeren."
+        ),
+        p5_barrier=(
+            "Lage zelfeffectiviteit: schermgebruik voelt als de enige haalbare manier om na het "
+            "werk te decomprimeren."
+        ),
+        p5_coping=(
+            "Implementatie-intentie met substitutie: vervang de laatste 30 minuten schermtijd "
+            "door een korte schrijf- of bewegingsroutine voor het slapengaan."
+        ),
+        bfs_items=[
+            "Cafeine-inname na 16.00 uur (aantal)",
+            "Smartphone- of tabletgebruik na 22.00 uur (min)",
+            "Consistent slaaptijdstip aangehouden (ja/nee)",
+            "Korte stretching of ademhalingsoefening in avond uitgevoerd (min)",
+            "Schermvrij interval direct voor slapengaan (min)",
+            "Werkuren vandaag (uren)",
+            "Ochtendlichtblootstelling of buitengaan in de ochtend (min)",
+            "Openstaande taken schriftelijk genoteerd voor het slapengaan (ja/nee)",
+            "Alcoholinname vanavond (eenheden)",
+            "Bewust sociaal contact opgezocht of beantwoord vandaag (ja/nee)",
+            "Tijdsduur preslaap-dagboek of takennotitie (min)",
+            "Waterinname vandaag (glazen)",
+            "Schermvrije pauze tijdens werkdag genomen (min)",
+            "Stappentelling overdag (stappen)",
+            "Geplande sociale activiteit bijgewoond of geïnitieerd (ja/nee)",
+            "Middagdutje genomen (ja/nee)",
+            "Duur matige tot intensieve lichaamsbeweging vandaag (min)",
+            "Ontspanningsoefening gericht op spierspanning uitgevoerd (min)",
+            "Vast slaapritueel gevolgd voor het slapengaan (ja/nee)",
+            "Avondmaaltijd op vaste tijd genuttigd (ja/nee)",
+        ],
+        bfs_correct=[2, 5, 8, 11, 14, 17],
+    ),
+    "C02": dict(
+        label="C02",
+        profile="34-jarige administratief medewerker in de zorg",
+        duration="3 maanden",
+        short_desc=(
+            "Recidiverende paniekepisoden, anticipatieangst, situationele vermijding en "
+            "beroepsmatige interferentie."
+        ),
+        vignette=(
+            r"``Ongeveer drie maanden geleden begon ik plots episodes te krijgen waarbij mijn hart "
+            r"tekeergaat, ik het gevoel heb dat ik geen lucht krijg en ik er zeker van ben dat er "
+            r"iets ernstig misloopt. Die episodes zijn heel beangstigend en kunnen zelfs optreden "
+            r"wanneer ik thuis rustig neerzit. Sindsdien ben ik bang geworden om zo'n episode in "
+            r"het openbaar te krijgen en vermijd ik supermarkten, openbaar vervoer en drukke "
+            r"plaatsen. Ik heb mij al meerdere keren ziek gemeld omdat ik bang was dat het op het "
+            r"werk zou gebeuren. Ik weet rationeel dat die situaties niet gevaarlijk zijn, maar de "
+            r"angst blijft overheersen.''"
+        ),
+        criteria=[
+            "Recidiverende paniekepisoden",
+            "Anticipatieangst",
+            "Situationele vermijding",
+            "Beroepsmatige interferentie",
+        ],
+        monitoring=(
+            r"Paniekepisoden: gem. 2,3/week. Vermijdingsepisodes: gem. 4,1/dag. "
+            r"Veiligheidsgedrag: gem. 8,7/dag. Geplande exposurepogingen: gem. 0,3/dag. "
+            r"Werkaanwezigheid: 60\%. Verwachte angst in publieke settings: 7,8/10."
+        ),
+        predictors=[
+            "Vermijdingsgedrag",
+            "Veiligheidsgedrag",
+            "Interoceptieve focus",
+            "Geplande exposure",
+            "Dagstructuur",
+        ],
+        tikz_edges=[
+            ("p1", "cr3",  0.90),  # avoidance behavior → situational avoidance (very strong)
+            ("p1", "cr2",  0.82),  # avoidance behavior → anticipatory anxiety
+            ("p3", "cr2",  0.78),  # interoceptive focus → anticipatory anxiety
+            ("p2", "cr2",  0.72),  # safety behaviors → anticipatory anxiety
+            ("p3", "cr1",  0.65),  # interoceptive focus → panic episodes
+            ("p4", "cr3", -0.85),  # planned exposure ↓ situational avoidance (strongest)
+            ("p4", "cr2", -0.67),  # planned exposure ↓ anticipatory anxiety (direct, important!)
+            ("p2", "cr1",  0.40),  # safety behaviors → panic episodes (weak)
+            ("p5", "cr4", -0.38),  # daily structure ↓ occupational interference (weak)
+        ],
+        treatment_targets=[
+            (
+                "Geplande exposure",
+                "nagenoeg afwezig in de monitoring (0,3/dag); rechtstreeks aangrijpingspunt voor "
+                "vermijdingsreductie",
+            ),
+            (
+                "Veiligheidsgedrag",
+                "hoge frequentie (8,7/dag) onderhoudt anticipatieangst en paniekverwachting",
+            ),
+            (
+                "Interoceptieve focus",
+                "verhoogde aandacht voor lichamelijke sensaties voedt escalatie van CR-1 en CR-2",
+            ),
+        ],
+        p5_challenge=(
+            "Paniekangst leidt tot toenemende vermijding en duidelijke hinder in het dagelijks functioneren."
+        ),
+        p5_target=(
+            "Geplande exposure aan gevreesde situaties in een hanteerbare, stapsgewijze opbouw."
+        ),
+        p5_barrier=(
+            "Sterke negatieve uitkomstverwachting: de persoon verwacht dat betreden van de situatie "
+            "onvermijdelijk tot een onbeheersbare paniekreactie zal leiden."
+        ),
+        p5_coping=(
+            "Werk met een concrete exposurehiërarchie en een vooraf afgesproken copingzin per stap."
+        ),
+        bfs_items=[
+            "Geplande exposurestap bewust en volledig uitgevoerd vandaag (ja/nee)",
+            "Cafeine-inname voor 12.00 uur (aantal)",
+            "Consistent slaap- en waktijdstip aangehouden (ja/nee)",
+            "Duur verblijf in eerder vermeden of angststimulerende situatie (min)",
+            "Bewuste ontspanningsoefening of ademhaling bij spanning toegepast (min)",
+            "Sociale activiteit of contact bewust opgezocht vandaag (ja/nee)",
+            "Veiligheidsactie bewust nagelaten bij angstsituatie (ja/nee)",
+            "Werkstructuur of dagindeling bewust gevolgd vandaag (ja/nee)",
+            "Plezierige activiteit buiten werk gepland en uitgevoerd (ja/nee)",
+            "Aantal veiligheidsgedragingen bewust uitgesteld of vermeden vandaag (aantal)",
+            "Waterinname vandaag (glazen)",
+            "Lichaamsbeweging of wandeling buiten uitgevoerd (min)",
+            "Interoceptieve exposureoefening bewust uitgevoerd (min)",
+            "Middagdutje genomen (ja/nee)",
+            "Maaltijd op vaste tijden genuttigd (ja/nee)",
+            "Middagpauze bewust weggestapt van werkplek of drukke omgeving (ja/nee)",
+            "Lichamelijke sensaties benoemd zonder vlucht- of veiligheidsreactie (ja/nee)",
+            "Stappentelling overdag (stappen)",
+            "Sociale steun of gezelschap bewust opgezocht vandaag (ja/nee)",
+            "Alcoholinname vanavond (eenheden)",
+        ],
+        bfs_correct=[1, 4, 7, 10, 13, 17],
+    ),
+    "C03": dict(
+        label="C03",
+        profile="41-jarige leraar secundair onderwijs",
+        duration="7 maanden",
+        short_desc=(
+            "Emotionele uitputting, professionele depersonalisatie, sociale terugtrekking en "
+            "cognitieve fouten op het werk."
+        ),
+        vignette=(
+            r"``Ik geef al vijftien jaar les en deed dat altijd graag, maar de voorbije maanden voel "
+            r"ik mij volledig leeg. Ik ga naar school, geef mijn lessen en kom thuis, maar er is "
+            r"niets meer over. 's Avonds zit ik voor de televisie en kan ik mij nergens toe "
+            r"aanzetten. Ik ben ook gestopt met afspreken met vrienden en reageer nog zelden op "
+            r"berichten. Op het werk begin ik fouten te maken -- dingen vergeten, de draad kwijt "
+            r"raken tijdens een les -- wat vroeger nooit gebeurde. Ik schaam mij daarvoor, maar ik "
+            r"weet niet hoe ik dit moet keren.''"
+        ),
+        criteria=[
+            "Emotionele uitputting",
+            "Professionele depersonalisatie",
+            "Sociale terugtrekking",
+            "Cognitieve fouten op het werk",
+        ],
+        monitoring=(
+            r"Werkoverschrijding na werktijd: gem. 5,4 episodes/dag. Herstelactiviteiten: "
+            r"gem. 1,2/week. Sociaal contact op eigen initiatief: gem. 0,7/week. "
+            r"Professionele meestervaringen: gem. 0,9/dag. Slaapkwaliteit: gem. 4,1/10."
+        ),
+        predictors=[
+            "Werk-privegrens",
+            "Herstelactiviteit",
+            "Sociaal initiatief",
+            "Professionele meestervaring",
+            "Slaapkwaliteit",
+        ],
+        tikz_edges=[
+            ("p2", "cr1", -0.91),  # recovery activity ↓ exhaustion (strongest: primary repair in burnout)
+            ("p1", "cr1", -0.79),  # work-life boundary ↓ emotional exhaustion
+            ("p3", "cr3", -0.84),  # social initiative ↓ social withdrawal (strong, direct)
+            ("p1", "cr2", -0.73),  # work-life boundary ↓ depersonalization
+            ("p5", "cr1", -0.64),  # sleep quality ↓ exhaustion
+            ("p4", "cr2", -0.59),  # mastery experience ↓ depersonalization
+            ("p5", "cr4", -0.47),  # sleep quality ↓ cognitive errors
+            ("p1", "cr4", -0.44),  # work-life boundary ↓ cognitive errors (indirect: less overflow)
+            ("p2", "cr3", -0.42),  # recovery activity ↓ social withdrawal (weak indirect)
+            ("p4", "cr4", -0.31),  # mastery experience ↓ cognitive errors (weakest)
+        ],
+        treatment_targets=[
+            (
+                "Werk-privegrens",
+                "sterkste onderhoudende factor voor uitputting; frequente overschrijding na werktijd",
+            ),
+            (
+                "Herstelactiviteit",
+                "kritisch laag niveau (1,2/week); relevant voor CR-1 en CR-3",
+            ),
+            (
+                "Professionele meestervaring",
+                "kan depersonalisatie temperen en dag-tot-dag positieve variatie benutten",
+            ),
+        ],
+        p5_challenge=(
+            "Uitgesproken werkgerelateerde uitputting met verlies aan betekenis en toenemende sociale terugtrekking."
+        ),
+        p5_target=(
+            "Een duidelijke werk-privegrens installeren en na het werk consequent herstelgedrag activeren."
+        ),
+        p5_barrier=(
+            "Actieplanning ontbreekt: er is geen concreet moment of signaal waarop de werkmodus stopt."
+        ),
+        p5_coping=(
+            "Koppel een vaste afsluitsignalering aan een kleine herstelactiviteit die onmiddellijk na "
+            "het einde van de werkdag start."
+        ),
+        bfs_items=[
+            "Bewust sociaal contact geïnitieerd buiten werkverband (ja/nee)",
+            "Werkmail of -berichten bewust niet gecheckt na 18.00 uur (ja/nee)",
+            "Bewust contact met collega of leerling buiten leslokaal gezocht (ja/nee)",
+            "Werkgerelateerde gedachten actief afgesloten na werktijd via een vaste afsluiting (ja/nee)",
+            "Cafeine-inname na 15.00 uur (aantal)",
+            "Maaltijd als zelfzorgmoment bewust genuttigd op vaste tijd (ja/nee)",
+            "Ochtendactiviteit voor aanvang werk uitgevoerd (bijv. wandeling, yoga) (min)",
+            "Herstelactiviteit buiten het werk actief uitgevoerd (min)",
+            "Consistent slaaptijdstip aangehouden (ja/nee)",
+            "Bewuste stap gezet om werkachterstand te reduceren (ja/nee)",
+            "Herstelactiviteit ingepland voor de komende week (ja/nee)",
+            "Lichaamsbeweging als herstelactiviteit na werk uitgevoerd (min)",
+            "Alcoholinname vanavond (eenheden)",
+            "Moment van professionele positieve prestatie bewust opgemerkt en genoteerd (ja/nee)",
+            "Schermtijd in de late avond bewust beperkt (min)",
+            "Aantal nieuwschecks in de avond beperkt tot maximum (aantal)",
+            "Professionele vaardigheid of aanpak bewust en succesvol ingezet (ja/nee)",
+            "Waterinname vandaag (glazen)",
+            "Aantal lesuren vandaag (uren)",
+            "Digitale ontgifting (schermvrij uur in de avond) toegepast (ja/nee)",
+        ],
+        bfs_correct=[2, 4, 8, 11, 14, 17],
+    ),
+    "C04": dict(
+        label="C04",
+        profile="63-jarige gepensioneerde professional",
+        duration="9 maanden na overlijden van partner",
+        short_desc=(
+            "Aanhoudende rouwreactie, doorslaapinsomnie, schuldgedreven ruminatie en verminderde "
+            "toekomstorientatie."
+        ),
+        vignette=(
+            r"``Mijn partner is negen maanden geleden overleden en ik geraak daar nog steeds niet door. "
+            r"Ik denk voortdurend aan hem of haar. Kleine prikkels -- een liedje, een geur, een "
+            r"televisieprogramma dat we samen bekeken -- lokken intense golven van verdriet uit die "
+            r"ik niet onder controle krijg. Ik slaap slecht; ik word vroeg wakker en raak daarna "
+            r"niet meer in slaap. Daarnaast voel ik veel schuld. Ik blijf maar herhalen wat ik had "
+            r"moeten zeggen of anders had moeten doen. Ik kan mij ook nauwelijks voorstellen hoe mijn "
+            r"toekomst er nog betekenisvol kan uitzien. Mijn familie zegt dat het al beter zou moeten "
+            r"gaan, maar zo voelt het niet.''"
+        ),
+        criteria=[
+            "Aanhoudende rouwreactie",
+            "Doorslaapinsomnie",
+            "Schuldgedreven ruminatie",
+            "Verminderde toekomstorientatie",
+        ],
+        monitoring=(
+            r"Rouwintrusies: gem. 4,2/dag. Slaapkwaliteit: gem. 2,8/10. Sociale contactmomenten: "
+            r"gem. 3,1/week. Schuldgedachten: gem. 5,8/dag. Toekomstgerichte activiteiten: "
+            r"gem. 0,4/week. Betekenisgerichte activiteit uitgevoerd: 4/21 dagen."
+        ),
+        predictors=[
+            "Betekenisgerichte activiteit",
+            "Slaap-waakconsistentie",
+            "Sociale steunopname",
+            "Zelfcompassie",
+            "Toekomstplanning",
+        ],
+        tikz_edges=[
+            ("p2", "cr2", -0.89),  # sleep consistency ↓ sleep maintenance insomnia (strongest: direct mechanism)
+            ("p1", "cr4", -0.87),  # meaning activity ↓ diminished future orientation (very strong: primary pathway)
+            ("p4", "cr3", -0.82),  # self-compassion ↓ guilt rumination (strong: directly targets CR-3)
+            ("p1", "cr1", -0.74),  # meaning activity ↓ grief reaction (moderate)
+            ("p5", "cr4", -0.66),  # future planning ↓ diminished future orientation
+            ("p3", "cr3", -0.56),  # social support uptake ↓ guilt rumination (indirect validation)
+            ("p5", "cr3", -0.43),  # future planning ↓ guilt rumination (future focus reduces rumination)
+            ("p3", "cr1", -0.33),  # social support uptake ↓ grief reaction (weak)
+        ],
+        treatment_targets=[
+            (
+                "Betekenisgerichte activiteit",
+                "slechts 4/21 dagen uitgevoerd; hoog potentieel voor CR-1 en CR-4",
+            ),
+            (
+                "Slaap-waakconsistentie",
+                "lage slaapkwaliteit ondermijnt emotieregulatie en rouwverwerking",
+            ),
+            (
+                "Zelfcompassie",
+                "schuldgedreven ruminatie is hoog en vraagt een direct corrigerend proces",
+            ),
+        ],
+        p5_challenge=(
+            "Aanhoudende rouw met uitgesproken schuldbeleving en weinig toekomstgerichte betrokkenheid."
+        ),
+        p5_target=(
+            "Een kleine maar betekenisvolle activiteit plannen die verbinding maakt met herinnering en toekomst."
+        ),
+        p5_barrier=(
+            "Motivationele inertie: de eerste stap voelt zinloos of emotioneel te zwaar."
+        ),
+        p5_coping=(
+            "Verklein de instap naar een tijdsafgebakende micro-actie, bijvoorbeeld een korte schrijfoefening "
+            "of een vast herinneringsmoment."
+        ),
+        bfs_items=[
+            "Wandeling of lichte beweging buiten uitgevoerd (min)",
+            "Familielid of vriend bewust gecontacteerd vandaag (ja/nee)",
+            "Activiteit die een waarde of herinnering vertegenwoordigt uitgevoerd (ja/nee)",
+            "Cafeine-inname na 17.00 uur (aantal)",
+            "Schermtijd na 21.00 uur bewust beperkt (min)",
+            "Duur van betekenisvolle of waardegerichte bezigheid vandaag (min)",
+            "Maaltijd bereid en op vaste tijd bewust genuttigd (ja/nee)",
+            "Opstaan op vast waktijdstip aangehouden (ja/nee)",
+            "Ontspanningsoefening of rustige activiteit in de avond uitgevoerd (min)",
+            "Alcoholinname vanavond (eenheden)",
+            "Afwijking van gewone slaap- of waktijdstip (min)",
+            "Bewuste omgang met herinneringsvoorwerpen of -momenten (ja/nee)",
+            "Waterinname vandaag (glazen)",
+            "Zelfkritische gedachte bewust omgevormd naar mildere formulering (ja/nee)",
+            "Sociale activiteit buiten huis bewust bijgewoond (ja/nee)",
+            "Lichte lichaamsbeweging voor mobiliteit en welzijn (min)",
+            "Zelfcompassie-oefening of zelfondersteunende tekst bewust toegepast (min)",
+            "Consistent waktijdstip aangehouden 's ochtends (ja/nee)",
+            "Middagdutje genomen (ja/nee)",
+            "Vrijwilligerswerk of helpende activiteit voor anderen (min)",
+        ],
+        bfs_correct=[3, 6, 8, 11, 14, 17],
+    ),
+    "C05": dict(
+        label="C05",
+        profile="25-jarige postgraduaatsstudent",
+        duration="ongeveer 20 maanden",
+        short_desc=(
+            "Intrusieve schadeobsessies, compulsieve mentale controle, vermijding van schaderisico "
+            "en uitgesproken tijdsbelasting door OCD-klachten."
+        ),
+        vignette=(
+            r"``Ik krijg gedachten dat ik per ongeluk iemand zou kunnen verwonden, ook al wil ik dat "
+            r"helemaal niet en weet ik dat die gedachten irrationeel zijn. Ze komen plots op en "
+            r"voelen dan heel echt en beangstigend aan. Daarna ben ik uren bezig met in mijn hoofd "
+            r"na te gaan of ik niets fout heb gedaan. Ik ben ook situaties beginnen vermijden waarin "
+            r"ik iets scherp zou kunnen vasthouden, wat mijn dagelijks leven en sociale contacten "
+            r"beinvloedt. Dat mentale controleren neemt uren in beslag en begint mijn studies en "
+            r"relaties serieus te verstoren.''"
+        ),
+        criteria=[
+            "Intrusieve schadeobsessies",
+            "Compulsieve mentale controle",
+            "Vermijding van schaderisico",
+            "Tijdsbelasting door OCD",
+        ],
+        monitoring=(
+            r"Compulsie- en controletijd: gem. 2,4 uur/dag. Vermijdingsepisodes: gem. 3,8/dag. "
+            r"Weerstandsoefening: gem. 18 min/dag. Distress bij niet reageren: 7,2/10. "
+            r"Slaap: gem. 5,6 uur/nacht. Geruststellingsvragen: gem. 4,1/dag."
+        ),
+        predictors=[
+            "Compulsie-uitstel",
+            "Vermijdingsbeheer",
+            "Onzekerheidstolerantie",
+            "Slaapkwaliteit",
+            "Geruststellingszoekend gedrag",
+        ],
+        tikz_edges=[
+            ("p1", "cr2", -0.88),  # compulsion delay ↓ compulsive mental control (very strong: core ERP mechanism)
+            ("p1", "cr4", -0.82),  # compulsion delay ↓ time burden of OCD (strong)
+            ("p2", "cr3", -0.85),  # avoidance management ↓ avoidance of harm risk (very strong, direct)
+            ("p3", "cr1", -0.72),  # uncertainty tolerance ↓ intrusive obsessions (moderate)
+            ("p3", "cr2", -0.78),  # uncertainty tolerance ↓ compulsive mental control (strong)
+            ("p4", "cr1", -0.38),  # sleep quality ↓ intrusive obsessions (weak)
+            ("p5", "cr2",  0.65),  # reassurance-seeking → compulsive mental control (moderate maintaining)
+            ("p5", "cr4",  0.42),  # reassurance-seeking → time burden (weak maintaining)
+        ],
+        treatment_targets=[
+            (
+                "Compulsie-uitstel",
+                "weinig toegepast ten opzichte van de benodigde ERP-intensiteit; centraal aangrijpingspunt",
+            ),
+            (
+                "Vermijdingsbeheer",
+                "hoge vermijdingsfrequentie onderhoudt de obsessie-compulsiecyclus",
+            ),
+            (
+                "Onzekerheidstolerantie",
+                "lage tolerantie voedt zowel intrusies als mentale controle",
+            ),
+        ],
+        p5_challenge=(
+            "Belastende intrusieve gedachten leiden tot langdurige mentale controle en duidelijke functionele hinder."
+        ),
+        p5_target=(
+            "De tijd tussen intrusie en controlehandeling systematisch verlengen."
+        ),
+        p5_barrier=(
+            "Overschat risico: niet controleren voelt moreel onverantwoord en potentieel gevaarlijk."
+        ),
+        p5_coping=(
+            "Gebruik een uitstelregel met een korte grondingsoefening als vast alternatief tijdens de eerste minuten."
+        ),
+        bfs_items=[
+            "Schermtijd na 22.00 uur bewust beperkt (min)",
+            "Minuten gewacht voor uitvoeren van een compulsieve handeling (min)",
+            "Slaaptijdstip consistent aangehouden (ja/nee)",
+            "Compulsieve handeling volledig uitgesteld tot later of niet uitgevoerd (ja/nee)",
+            "Ontspanningsoefening of grondingsoefening bewust uitgevoerd (min)",
+            "Cafeine-inname na de middag (aantal)",
+            "Vermeden situatie bewust betreden zonder uitvoering van compulsie (ja/nee)",
+            "Sociale activiteit bijgewoond of sociaal contact bewust gezocht (ja/nee)",
+            "Bewuste activiteit gekozen als alternatief voor obsessief piekeren (min)",
+            "Duur verblijf in obsessie-activerende situatie zonder vermijden (min)",
+            "Geruststellingsvraag bewust nagelaten (aantal)",
+            "Slaapritme consistent gevolgd (ja/nee)",
+            "Onzekerheid bewust getolereerd zonder controle- of compulsieve handeling (min)",
+            "Maaltijdmoment op vaste tijd aangehouden (ja/nee)",
+            "Alcoholinname vanavond (eenheden)",
+            "Onzekerheidstolerantieoefening bewust en gepland uitgevoerd (ja/nee)",
+            "Gefocuste studieoefening of pomodoro-blok bijgehouden (aantal)",
+            "Contact met vrienden of bekenden vandaag bewust gezocht (ja/nee)",
+            "Waterinname vandaag (glazen)",
+            "Lichaamsbeweging of sport vandaag (min)",
+        ],
+        bfs_correct=[2, 4, 7, 10, 13, 16],
+    ),
+    "C06": dict(
+        label="C06",
+        profile="32-jarige marketingprofessional",
+        duration="persisterend sinds het begin van de loopbaan (meer dan 3 jaar)",
+        short_desc=(
+            "Prestatieangst op het werk, post-event ruminatie, excessieve voorbereiding en "
+            "vermijding van zichtbaarheid."
+        ),
+        vignette=(
+            r"``Ik ervaar heel veel angst in professionele situaties. Wanneer ik moet presenteren, "
+            r"in een vergadering iets moet zeggen of feedback krijg van mijn leidinggevende, word ik "
+            r"zo zelfbewust dat mijn hoofd leegloopt. Vooraf spendeer ik uren aan voorbereiden, maar "
+            r"in het moment zelf blokkeer ik toch. Achteraf blijf ik lang analyseren wat ik precies "
+            r"heb gezegd en hoe ik overkwam. Ik heb al meerdere promoties en interessante projecten "
+            r"afgeslagen omdat ik bang was voor de extra zichtbaarheid. Ik besef dat mijn angst voor "
+            r"de beoordeling door anderen buiten proportie is, maar ik krijg ze niet stil.''"
+        ),
+        criteria=[
+            "Prestatieangst op het werk",
+            "Post-event ruminatie",
+            "Excessieve voorbereiding",
+            "Vermijding van zichtbaarheid",
+        ],
+        monitoring=(
+            r"Professionele exposures aangegaan: gem. 0,9/week. Post-event verwerkingstijd: "
+            r"gem. 68 min per gebeurtenis. Pre-event voorbereiding: gem. 3,2 uur per gebeurtenis. "
+            r"Zelfbeoordeling versus externe feedback: 4,1 versus 6,8/10. "
+            r"Afgeslagen doorgroeikansen: 3 in de voorbije 4 weken."
+        ),
+        predictors=[
+            "Professionele exposure",
+            "Post-event verwerking",
+            "Zelfevaluatiebias",
+            "Voorbereidingstijd",
+            "Vermijdingslogging",
+        ],
+        tikz_edges=[
+            ("p1", "cr1", -0.85),  # professional exposure ↓ performance anxiety (very strong key mechanism)
+            ("p1", "cr4", -0.90),  # professional exposure ↓ avoidance of visibility (strongest, direct habituation)
+            ("p2", "cr2",  0.80),  # post-event processing → post-event rumination (strong maintaining factor)
+            ("p3", "cr1",  0.65),  # self-evaluation bias → performance anxiety (moderate)
+            ("p3", "cr2",  0.42),  # self-evaluation bias → post-event rumination (weak)
+            ("p4", "cr3",  0.88),  # preparation time → excessive preparation (very strong, tautological)
+            ("p5", "cr4", -0.38),  # avoidance logging ↓ avoidance of visibility (weak: awareness-building only)
+        ],
+        treatment_targets=[
+            (
+                "Professionele exposure",
+                "lage frequentie terwijl dit het kernmechanisme is voor angstreductie",
+            ),
+            (
+                "Post-event verwerking",
+                "gemiddeld 68 minuten per gebeurtenis; duidelijke onderhoudende factor voor CR-2",
+            ),
+            (
+                "Vermijdingslogging",
+                "zichtbaar maken van gemiste kansen is cruciaal voor CR-4 en behandelsturing",
+            ),
+        ],
+        p5_challenge=(
+            "Sterke angst in professionele evaluatie- en zichtbaarheidssituaties met langdurige naverwerking."
+        ),
+        p5_target=(
+            "Professionele exposure uitvoeren ondanks spanning en achteraf functioneel evalueren."
+        ),
+        p5_barrier=(
+            "Grote kloof in zelfeffectiviteit: de persoon verwacht dat exposure zal bevestigen dat hij of zij tekortschiet."
+        ),
+        p5_coping=(
+            "Gebruik een gedragsproef waarbij voorspelde prestatie expliciet wordt vergeleken met feitelijke feedback."
+        ),
+        bfs_items=[
+            "Consistent slaap- en waktijdstip aangehouden (ja/nee)",
+            "Professionele situatie bewust opgezocht of niet vermeden (ja/nee)",
+            "Cafeine-inname voor een professionele afspraak bewust beperkt (ja/nee)",
+            "Ontspanningsoefening voor een stressvolle werksituatie bewust uitgevoerd (min)",
+            "Spreektijd of actieve bijdrage in vergadering bewust geleverd (min)",
+            "Positieve professionele ervaring bewust genoteerd (ja/nee)",
+            "Tijd besteed aan naverwerking van professionele prestatie in avond (min)",
+            "Werkuren op kantoor of thuis vandaag (uren)",
+            "Middagpauze bewust en schermvrij genomen (ja/nee)",
+            "Mentale replay van professionele situatie voor slapengaan bewust gestopt (ja/nee)",
+            "Schermtijd na 21.00 uur (min)",
+            "Zelfevaluatie vergeleken met ontvangen externe feedback (ja/nee)",
+            "Gemiste professionele kans of bewust uitwijking genoteerd (ja/nee)",
+            "Lunchpauze bewust genomen weg van het scherm (ja/nee)",
+            "Aerobe beweging of sport vandaag uitgevoerd (min)",
+            "Vermijdingsepisode (bewust afgeslagen kans) in logboek bijgehouden (ja/nee)",
+            "Assertieve of constructieve reactie bewust gekozen in werkconflict (ja/nee)",
+            "Ochtendactiviteit voor werk uitgevoerd als dagstarter (min)",
+            "Aantal sociale berichten verstuurd of reactie gegeven (aantal)",
+            "Sociale steun of begeleiding bewust gevraagd (ja/nee)",
+        ],
+        bfs_correct=[2, 5, 7, 10, 13, 16],
+    ),
+    "C07": dict(
+        label="C07",
+        profile="46-jarige accountmanager",
+        duration="14 maanden",
+        short_desc=(
+            "Aanhoudende sombere stemming, anergie, sociale isolatie en hopeloosheid over herstel."
+        ),
+        vignette=(
+            r"``Al meer dan een jaar word ik de meeste ochtenden wakker met een zwaar en vlak gevoel. "
+            r"Het is niet eens intense verdrietigheid, eerder een aanhoudende grijsheid waardoor "
+            r"niets nog de moeite lijkt. Heel eenvoudige taken voelen enorm zwaar aan: mij aankleden, "
+            r"een mail beantwoorden, een maaltijd maken. Ik ben stilaan het contact verloren met bijna "
+            r"iedereen met wie ik vroeger omging, omdat ik de energie niet heb om relaties te onderhouden. "
+            r"Ik slaap veel maar voel mij nooit uitgerust. In stilte vraag ik mij af of ik ooit nog de "
+            r"oude zal worden. Mijn huisarts heeft mij aangeraden hulp te zoeken.''"
+        ),
+        criteria=[
+            "Aanhoudende sombere stemming",
+            "Anergie",
+            "Sociale isolatie",
+            "Hopeloosheid",
+        ],
+        monitoring=(
+            r"Voltooiingsgraad van geplande activiteiten: 28\%. Sociale contactmomenten/week: "
+            r"gem. 0,8. Stemming: gem. 2,9/10. Variatie in slaap-waaktijd: gem. 2,3 uur. "
+            r"Plezierige activiteiten: gem. 0,9/dag. Uitdagen van hopeloze gedachten: gem. 0,6/dag."
+        ),
+        predictors=[
+            "Activiteitenschema",
+            "Sociaal initiatief",
+            "Slaapregelmaat",
+            "Plezierige activiteit",
+            "Cognitieve tegenspraak hopeloosheid",
+        ],
+        tikz_edges=[
+            ("p2", "cr3", -0.89),  # social initiative ↓ social isolation (strongest: key depression target)
+            ("p1", "cr2", -0.86),  # activity schedule ↓ anergy (very strong: primary BA mechanism)
+            ("p5", "cr4", -0.78),  # cognitive countering ↓ hopelessness (strong)
+            ("p4", "cr1", -0.73),  # pleasant activity ↓ depressed mood
+            ("p4", "cr3", -0.54),  # pleasant activity ↓ social isolation (activities with others)
+            ("p1", "cr1", -0.71),  # activity schedule ↓ depressed mood
+            ("p3", "cr2", -0.57),  # sleep regularity ↓ anergy
+            ("p4", "cr4", -0.32),  # pleasant activity ↓ hopelessness (weak)
+            ("p3", "cr1", -0.36),  # sleep regularity ↓ depressed mood (weak indirect)
+        ],
+        treatment_targets=[
+            (
+                "Activiteitenschema",
+                r"lage voltooiingsgraad (28\%); gedragsactivatie is hier het primaire mechanisme",
+            ),
+            (
+                "Slaapregelmaat",
+                "sterke variatie in slaap-waakritme verstoort stemming en energieregulatie",
+            ),
+            (
+                "Sociaal initiatief",
+                "gemiddeld 0,8 contacten/week; essentieel voor CR-3 en indirect voor stemming",
+            ),
+        ],
+        p5_challenge=(
+            "Langdurige sombere stemming en anergie hebben activiteit en sociale verbinding sterk doen afnemen."
+        ),
+        p5_target=(
+            "Dagelijks een klein, gepland gedrag uitvoeren als onderdeel van gedragsactivatie."
+        ),
+        p5_barrier=(
+            "Planningsdrempel en betekenisverlies: activiteiten voelen vooraf nutteloos en te zwaar."
+        ),
+        p5_coping=(
+            "Werk met een vooraf gekozen micro-activiteit en een 'klaar is genoeg'-criterium."
+        ),
+        bfs_items=[
+            "Cafeine-inname na 15.00 uur (aantal)",
+            "Geplande activiteit uit dagschema bewust uitgevoerd (ja/nee)",
+            "Ontbijt op vaste tijd bewust genuttigd (ja/nee)",
+            "Aantal geplande activiteiten daadwerkelijk uitgevoerd vandaag (aantal)",
+            "Werkgerelateerde gedachten bewust gestopt of beperkt in de avond (min)",
+            "Lichte lichaamsbeweging of stretching om energie te verhogen (min)",
+            "Opstaan op geplande wektijd aangehouden (ja/nee)",
+            "Schermtijd op sociale media bewust beperkt (min)",
+            "Afwijking van geplande bedtijd (min)",
+            "Alcoholinname vanavond (eenheden)",
+            "Middagdutje genomen (ja/nee)",
+            "Gestructureerde taaklijst opgesteld en bijgehouden (ja/nee)",
+            "Bewust contact opgenomen met een kennis of vriend (ja/nee)",
+            "Plezierige activiteit bewust gepland en voltooid (ja/nee)",
+            "Hopeloosheidsgedachten bewust uitgedaagd met een alternatief (ja/nee)",
+            "Duur van sociaal contact op eigen initiatief (min)",
+            "Waterinname vandaag (glazen)",
+            "Bewuste stap tegen vermijding van moeilijke taak gezet (ja/nee)",
+            "Maaltijdmoment op vaste tijd aangehouden (ja/nee)",
+            "Ochtendbeweging of buitenlucht vóór aanvang van de dag (min)",
+        ],
+        bfs_correct=[2, 4, 7, 9, 13, 16],
+    ),
+    "C08": dict(
+        label="C08",
+        profile="38-jarige projectmanager",
+        duration="sinds de kindertijd, duidelijk verergerd in de voorbije 12 maanden",
+        short_desc=(
+            "Aandachtsvolhoudingsproblemen, plannings- en organisatiefouten, interpersoonlijke "
+            "onoplettendheid en prestatieschaamte."
+        ),
+        vignette=(
+            r"``Ik heb altijd al moeite gehad om mij te concentreren op taken die mij niet meteen "
+            r"interesseren, maar het is het voorbije jaar veel erger geworden. Ik begin aan projecten "
+            r"en maak ze zelden af. Ik vergeet afspraken, zelfs als ik ze ergens noteer. Mijn partner "
+            r"is gefrustreerd omdat ik volgens hem of haar niet echt luister en onbetrouwbaar overkom. "
+            r"Ik weet dat ik op veel vlakken competent ben, maar ik voel mij voortdurend een mislukking. "
+            r"Ik ben taken die moeilijk zullen zijn ook steeds meer beginnen vermijden, waardoor de "
+            r"achterstand alleen maar groter wordt.''"
+        ),
+        criteria=[
+            "Aandachtsvolhoudingsproblemen",
+            "Plannings- en organisatiefouten",
+            "Interpersoonlijke onoplettendheid",
+            "Prestatieschaamte",
+        ],
+        monitoring=(
+            r"Gestarte versus afgewerkte taken: 68\% versus 29\%. Gemiste afspraken of toezeggingen: "
+            r"gem. 2,1/week. Partnerconflicten: gem. 4,7/week. Externe tools gebruikt: gem. 1,8/dag. "
+            r"Positieve zelfbekrachtiging: gem. 0,4/dag."
+        ),
+        predictors=[
+            "Extern taakbeheersysteem",
+            "Interesse-gedreven activatie",
+            "Bewust luisteren",
+            "Taakvoltooiingsbekrachtiging",
+            "Overgangsrituelen",
+        ],
+        tikz_edges=[
+            ("p1", "cr2", -0.87),  # external task system ↓ planning/org errors (very strong: core scaffold)
+            ("p3", "cr3", -0.83),  # conscious listening ↓ interpersonal inattentiveness (very strong)
+            ("p1", "cr1", -0.81),  # external task system ↓ attention problems (strong)
+            ("p4", "cr4", -0.79),  # task completion reinforcement ↓ shame (strong)
+            ("p5", "cr2", -0.61),  # transition rituals ↓ planning/org errors (moderate)
+            ("p2", "cr4", -0.47),  # interest-driven activation ↓ shame (less failure via engagement)
+            ("p2", "cr1", -0.39),  # interest-driven activation ↓ attention problems (weak)
+            ("p4", "cr2", -0.34),  # task completion reinforcement ↓ planning errors (weak)
+        ],
+        treatment_targets=[
+            (
+                "Extern taakbeheersysteem",
+                "inconsistent gebruik (1,8/dag) terwijl dit de kernscaffolding vormt voor CR-1 en CR-2",
+            ),
+            (
+                "Bewust luisteren",
+                "partnerconflicten zijn frequent; direct relevant voor CR-3",
+            ),
+            (
+                "Taakvoltooiingsbekrachtiging",
+                "bijna afwezig; kan de schaamtecyclus en vermijding doorbreken",
+            ),
+        ],
+        p5_challenge=(
+            "Executieve functieproblemen zorgen voor taakfalen, relationele spanning en aanhoudende schaamte."
+        ),
+        p5_target=(
+            "Een extern taakbeheersysteem consequent raadplegen en successen expliciet bekrachtigen."
+        ),
+        p5_barrier=(
+            "Gewoonteweerstand en lage volhoudingsverwachting: eerdere systemen werden snel losgelaten."
+        ),
+        p5_coping=(
+            "Installeer een minimale, dagelijks terugkerende check-in en koppel afgeronde taken aan een expliciete bevestiging."
+        ),
+        bfs_items=[
+            "Cafeine-inname voor de middag (aantal)",
+            "To-dolijst of digitale planner bewust geraadpleegd (ja/nee)",
+            "Consistent slaap- en waktijdstip aangehouden (ja/nee)",
+            "Nieuwe taken direct en volledig ingevoerd in het taakbeheersysteem (ja/nee)",
+            "Schermtijd voor sociale media tijdens werkuren bewust beperkt (min)",
+            "Korte beweeg- of rekpauze tijdens de werkdag bewust genomen (min)",
+            "Actief luisteren bewust geoefend tijdens een gesprek (ja/nee)",
+            "Notificaties bewust uitgeschakeld tijdens focusblokken (ja/nee)",
+            "Afleiding actief weggelegd of uitgeschakeld tijdens een gesprek (ja/nee)",
+            "Constructieve reactie bewust gekozen na ontvangen kritiek of feedback (ja/nee)",
+            "Lunchpauze bewust en schermvrij genomen (ja/nee)",
+            "Afgesloten taak bewust en expliciet positief erkend (ja/nee)",
+            "Alcoholinname vanavond (eenheden)",
+            "Plezierige activiteit of hobby buiten werk bewust uitgevoerd (min)",
+            "Kleine symbolische beloning gegeven na taakvoltooiing (ja/nee)",
+            "Stappentelling overdag (stappen)",
+            "Ochtendlichtblootstelling of buitengaan in de ochtend (min)",
+            "Middagdutje genomen (ja/nee)",
+            "Geplande vrije activiteit actief bijgewoond of uitgevoerd (ja/nee)",
+            "Waterinname vandaag (glazen)",
+        ],
+        bfs_correct=[2, 4, 7, 9, 12, 15],
+    ),
+    "C09": dict(
+        label="C09",
+        profile="27-jarige salesvertegenwoordiger",
+        duration="3 jaar",
+        short_desc=(
+            "Snelle stemmingsschommelingen, uitgesproken afwijzingsreactiviteit, impulsief gedrag "
+            "en relationele instabiliteit."
+        ),
+        vignette=(
+            r"``Mijn stemming kan op een dag heel snel omslaan en vaak lijkt dat sterker dan wat er "
+            r"feitelijk gebeurt. Ik kan mij in de ochtend nog redelijk voelen en tegen de middag "
+            r"helemaal ontredderd zijn. Wanneer ik mij bekritiseerd of afgewezen voel, zelfs om iets "
+            r"kleins, reageer ik extreem heftig -- boos of heel wanhopig. Ik handel ook impulsief, "
+            r"vooral met geld of in relaties, en heb daar achteraf spijt van. Mijn relaties worden "
+            r"vaak snel intens en lopen daarna mis. Ik zie dat dat patroon zich herhaalt, maar ik weet "
+            r"niet hoe ik het moet doorbreken.''"
+        ),
+        criteria=[
+            "Snelle stemmingsschommelingen",
+            "Afwijzingsreactiviteit",
+            "Impulsief gedrag",
+            "Relationele instabiliteit",
+        ],
+        monitoring=(
+            r"Dagelijks stembereik: gem. 5,8 punten. Emotieregulatievaardigheden gebruikt: "
+            r"gem. 1,2/dag. Impulsieve handelingen: gem. 2,1/dag. Interpersoonlijke conflicten: "
+            r"gem. 3,8/week. Ervaren afwijzingssignalen: gem. 2,4/dag. Herwaardering voor reactie: "
+            r"gem. 0,7/dag."
+        ),
+        predictors=[
+            "Emotieregulatievaardigheid",
+            "Afwijzingsherwaardering",
+            "Impulsuitstel",
+            "Interpersoonlijke communicatie",
+            "Gedifferentieerde stemmingsmonitoring",
+        ],
+        tikz_edges=[
+            ("p2", "cr2", -0.92),  # rejection reappraisal ↓ rejection reactivity (strongest: direct target)
+            ("p3", "cr3", -0.84),  # impulse delay ↓ impulsive behavior (very strong, direct)
+            ("p1", "cr1", -0.81),  # emotion regulation ↓ mood swings (primary stabilization)
+            ("p1", "cr2", -0.75),  # emotion regulation ↓ rejection reactivity
+            ("p2", "cr4", -0.62),  # rejection reappraisal ↓ relational instability
+            ("p4", "cr4", -0.68),  # interpersonal communication ↓ relational instability
+            ("p4", "cr2", -0.43),  # interpersonal communication ↓ rejection reactivity
+            ("p5", "cr4", -0.41),  # mood monitoring ↓ relational instability (awareness → less escalation)
+            ("p5", "cr1", -0.35),  # mood monitoring ↓ mood swings (weakest: indirect)
+        ],
+        treatment_targets=[
+            (
+                "Emotieregulatievaardigheid",
+                "laag gebruik ondanks groot stembereik; meest directe hefboom voor stabilisatie",
+            ),
+            (
+                "Impulsuitstel",
+                "impulsieve handelingen komen frequent voor en voeden relationele schade",
+            ),
+            (
+                "Afwijzingsherwaardering",
+                "grootste kloof tussen ervaren afwijzing en voorafgaande cognitieve bijsturing",
+            ),
+        ],
+        p5_challenge=(
+            "Snelle stemmingswisselingen en hevige reactiviteit leiden tot impulsieve beslissingen en relationele escalatie."
+        ),
+        p5_target=(
+            "Een specifieke emotieregulatievaardigheid inzetten zodra spanning begint op te lopen."
+        ),
+        p5_barrier=(
+            "Lage coping-self-efficacy: in het piekmoment verwacht de persoon dat vaardigheden toch niet zullen werken."
+        ),
+        p5_coping=(
+            "Gebruik een vooraf geoefende cue-actie-koppeling: herken een vroege lichamelijke cue en koppel die aan exact een vaardigheid."
+        ),
+        bfs_items=[
+            "Cafeine-inname na 14.00 uur (aantal)",
+            "Emotieregulatietechniek (bijv. grounding, ademhaling) bewust ingezet (ja/nee)",
+            "Consistent slaap- en waktijdstip aangehouden (ja/nee)",
+            "Aantal keer een bewuste emotieregulatievaardigheid ingezet vandaag (aantal)",
+            "Sociale media gebruik bewust beperkt of uitgesteld (min)",
+            "Maaltijdmoment op vaste tijd bewust aangehouden (ja/nee)",
+            "Impulsieve actie bewust uitgesteld of niet ondernomen (ja/nee)",
+            "Ontspanningsoefening of grondingsoefening uitgevoerd (min)",
+            "Alcoholinname vandaag (eenheden)",
+            "Wachttijd aangehouden voor impulsieve beslissing of actie (min)",
+            "Lichaamsbeweging of sport als spanningsafvoer vandaag (min)",
+            "Stemmingsdagboek of patroonnotitie bijgehouden voor zelfbewustzijn (ja/nee)",
+            "Ervaren afwijzing bewust herwaardeert via een alternatieve interpretatie (ja/nee)",
+            "Bewuste onderbreking van oplopende spanning via een vaste pauze (ja/nee)",
+            "Middagdutje genomen (ja/nee)",
+            "Alternatieve verklaring voor een afwijzingssignaal bewust geformuleerd (ja/nee)",
+            "Sociale media gebruik na werk bewust begrensd (min)",
+            "Bewust gecommuniceerd over behoeften of grenzen in een relatie (ja/nee)",
+            "Bewuste keuze om een conflict niet te escaleren (ja/nee)",
+            "Waterinname vandaag (glazen)",
+        ],
+        bfs_correct=[2, 4, 7, 10, 13, 16],
+    ),
+    "C10": dict(
+        label="C10",
+        profile="52-jarige operationeel directeur",
+        duration="ongeveer 9 maanden",
+        short_desc=(
+            "Chronische werkstress, doorslaapinsomnie, somatische stressklachten en alcoholgebruik "
+            "als coping."
+        ),
+        vignette=(
+            r"``De werkstress is het grootste deel van het afgelopen jaar blijven oplopen. Ik heb "
+            r"voortdurend spanningshoofdpijn en mijn maag is op de meeste dagen ontregeld. 's Nachts "
+            r"lig ik wakker over werkproblemen en beslissingen die nog genomen moeten worden, en als "
+            r"ik eenmaal wakker ben geraakt, val ik vaak niet meer in slaap. Ik drink bijna elke avond "
+            r"twee of drie glazen wijn om tot rust te komen. Ik weet dat dat niet ideaal is, maar het "
+            r"voelt alsof ik anders niet kan afschakelen. Mijn beweging is volledig weggevallen en ik "
+            r"snap thuis sneller dan vroeger.''"
+        ),
+        criteria=[
+            "Chronische werkstress",
+            "Doorslaapinsomnie",
+            "Somatische stressklachten",
+            "Alcohol als copingstrategie",
+        ],
+        monitoring=(
+            r"Werkgerelateerde gedachten na 20.00 uur: gem. 3,4 uur. Alcoholeenheden in de avond: "
+            r"gem. 3,1. Hoofdpijndagen: 16/21. Slaapefficientie: gem. 62\%. "
+            r"Stressregulatie overdag: gem. 0,9/dag. Lichamelijke activiteit: gem. 0,4 sessies/week."
+        ),
+        predictors=[
+            "Werkontkoppeling voor slaap",
+            "Avondlijk alcoholgebruik",
+            "Stressregulatie overdag",
+            "Aerobe beweging",
+            "Nachtelijke cognitieve arousal",
+        ],
+        tikz_edges=[
+            ("p1", "cr2", -0.85),  # work disconnection ↓ sleep maintenance insomnia (very strong, direct)
+            ("p1", "cr1", -0.78),  # work disconnection ↓ chronic work stress (strong)
+            ("p2", "cr4",  0.90),  # evening alcohol use → alcohol as coping (very strong, self-reinforcing)
+            ("p2", "cr2",  0.72),  # evening alcohol use → sleep maintenance insomnia (moderate: fragmentation)
+            ("p3", "cr1", -0.62),  # daytime stress regulation ↓ chronic work stress (moderate)
+            ("p3", "cr3", -0.75),  # daytime stress regulation ↓ somatic complaints (moderate-strong)
+            ("p4", "cr1", -0.38),  # aerobic exercise ↓ chronic work stress (weak)
+            ("p4", "cr3", -0.55),  # aerobic exercise ↓ somatic complaints (moderate)
+            ("p5", "cr2",  0.82),  # nocturnal cognitive arousal → sleep maintenance insomnia (strong)
+        ],
+        treatment_targets=[
+            (
+                "Werkontkoppeling voor slaap",
+                "momenteel afwezig en direct relevant voor doorslaapinsomnie",
+            ),
+            (
+                "Avondlijk alcoholgebruik",
+                "gemiddeld 3,1 eenheden per avond; onderhoudt slaapfragmentatie",
+            ),
+            (
+                "Stressregulatie overdag",
+                "laag maar trainbaar; upstream aangrijpingspunt voor CR-1 en CR-3",
+            ),
+        ],
+        p5_challenge=(
+            "Aanhoudende werkstress leidt tot gefragmenteerde slaap, lichamelijke spanningsklachten en alcohol als vaste ontladingsstrategie."
+        ),
+        p5_target=(
+            "Een korte werkontkoppelingsroutine installeren en alcohol niet langer als standaard afschakelmechanisme gebruiken."
+        ),
+        p5_barrier=(
+            "Sterke gewoontekracht: alcohol voelt essentieel om de overgang van werk naar slaap te maken."
+        ),
+        p5_coping=(
+            "Vervang het bestaande gewoontepatroon door een vast, tijdsgebonden afbouwritueel dat elke avond op hetzelfde moment start."
+        ),
+        bfs_items=[
+            "Consistent slaap- en waktijdstip aangehouden (ja/nee)",
+            "Werkapparaten bewust uitgeschakeld voor slapengaan (ja/nee)",
+            "Ontspanningsoefening in avondroutine als overgang van werk naar slaap (min)",
+            "Werkontkoppelingsritueel consequent gevolgd na 21.00 uur (min)",
+            "Vergadertijd of werkbelasting bewust begrensd vandaag (ja/nee)",
+            "Bewuste pauze of stressreductie-activiteit in de namiddag genomen (min)",
+            "Alcoholeenheden geconsumeerd na 19.00 uur (aantal)",
+            "Stretching of ontspanningsoefening in de ochtend uitgevoerd (min)",
+            "Cafeine-inname na 16.00 uur bewust beperkt (ja/nee)",
+            "Avond zonder alcoholinname bewust aangehouden (ja/nee)",
+            "Aerobe beweging of sport als weekactiviteit uitgevoerd (min)",
+            "Avondmaaltijd op vaste tijd en bewust bereid genuttigd (ja/nee)",
+            "Stressregulatietechniek (ademhaling, mindfulness) bewust ingezet overdag (ja/nee)",
+            "Bewust contact met gezin of vrienden gezocht als herstelmiddel (ja/nee)",
+            "Middagdutje genomen (ja/nee)",
+            "Duur bewuste stressverlichtende activiteit overdag (min)",
+            "Werkgerelateerde communicatie na 20.00 uur bewust uitgesteld of vermeden (ja/nee)",
+            "Schermtijd voor ontspanning na 21.00 uur bewust begrensd (min)",
+            "Dankbaarheidsnotitie of positieve dagstarter uitgevoerd (ja/nee)",
+            "Waterinname als dagelijks welzijnsgedrag (glazen)",
+        ],
+        bfs_correct=[2, 4, 7, 10, 13, 16],
+    ),
+}
+
+
+ASSIGNMENT = {
+    1: ("HCP-PRE-01", "C01", "C02"),
+    2: ("HCP-PRE-02", "C03", "C04"),
+    3: ("HCP-PRE-03", "C05", "C06"),
+    4: ("HCP-PRE-04", "C07", "C08"),
+    5: ("HCP-PRE-05", "C09", "C10"),
+}
+
+
+def J(*parts: str) -> str:
+    return "\n".join(parts)
+
+
+def validate_cases() -> None:
+    for case_id, case in CASES.items():
+        assert len(case["criteria"]) == 4, f"{case_id}: verwacht 4 criteria"
+        assert len(case["predictors"]) == 5, f"{case_id}: verwacht 5 predictors"
+        assert len(case["treatment_targets"]) == 3, f"{case_id}: verwacht 3 behandeldoelen"
+        assert len(case["bfs_items"]) == 20, f"{case_id}: verwacht 20 BFS-items"
+        assert len(case["bfs_correct"]) == 6, f"{case_id}: verwacht 6 correcte BFS-posities"
+        assert len(set(case["bfs_correct"])) == 6, f"{case_id}: dubbele BFS-sleutels"
+        assert all(1 <= idx <= 20 for idx in case["bfs_correct"]), f"{case_id}: BFS-index buiten bereik"
+
+
+validate_cases()
+
+
+PREAMBLE_TEMPLATE = r"""\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,left=2.2cm,right=2.2cm,top=2.4cm,bottom=2.4cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{tcolorbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\tcbuselibrary{skins,breakable}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  pdftitle={<<PDFTITLE>>},
+  pdfauthor={Stijn Van Severen -- Universiteit Gent}
+}
+
+\definecolor{PrimaryBlue}{HTML}{1D4ED8}
+\definecolor{DarkBlue}{HTML}{1E3A5F}
+\definecolor{SlateMid}{HTML}{475569}
+\definecolor{ForestGreen}{HTML}{047857}
+\definecolor{RichPurple}{HTML}{6D28D9}
+\definecolor{GoldAmber}{HTML}{B45309}
+\definecolor{StrongRed}{HTML}{B91C1C}
+\definecolor{SoftBG}{HTML}{F8FAFC}
+\definecolor{BorderGrey}{HTML}{CBD5E1}
+\definecolor{AccentBlue}{HTML}{DBEAFE}
+\definecolor{AccentGreen}{HTML}{D1FAE5}
+\definecolor{AccentAmber}{HTML}{FEF3C7}
+\definecolor{AccentPurple}{HTML}{EDE9FE}
+\definecolor{AccentTeal}{HTML}{CCFBF1}
+
+\titleformat{\section}{\Large\bfseries\color{DarkBlue}}{\thesection}{0.7em}{}[\vspace{-0.2em}\color{PrimaryBlue}\rule{\textwidth}{0.6pt}]
+\titleformat{\subsection}{\large\bfseries\color{PrimaryBlue}}{\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\color{ForestGreen}}{\thesubsubsection}{0.5em}{}
+
+\setlist[itemize]{topsep=3pt,itemsep=2pt,leftmargin=1.4em}
+\setlist[enumerate]{topsep=3pt,itemsep=2pt,leftmargin=1.6em}
+\setlength{\parskip}{0.45em}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.28}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{SlateMid}PHOENIX evaluatiestudie -- Fase 1}
+\fancyhead[R]{\small\color{SlateMid}\textbf{<<HCPCODE>>}\quad <<CA>> + <<CB>>}
+\fancyfoot[C]{\small Pagina \thepage\ van \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\newtcolorbox{complaintbox}[1][]{
+  colback=blue!3,colframe=PrimaryBlue,
+  boxrule=0.8pt,arc=2.5mm,breakable,
+  left=10pt,right=10pt,top=8pt,bottom=8pt,
+  fonttitle=\small\bfseries\color{PrimaryBlue},
+  title=Casusvignet,#1
+}
+\newtcolorbox{contextbox}[1][]{
+  colback=green!3,colframe=ForestGreen,
+  boxrule=0.6pt,arc=2mm,breakable,
+  left=8pt,right=8pt,top=7pt,bottom=7pt,
+  fonttitle=\small\bfseries\color{ForestGreen},
+  title=Gestandaardiseerde context,#1
+}
+\newtcolorbox{instrbox}[1][]{
+  colback=SoftBG,colframe=BorderGrey,
+  boxrule=0.5pt,arc=1.5mm,breakable,
+  left=8pt,right=8pt,top=7pt,bottom=7pt,
+  fonttitle=\bfseries\color{SlateMid},#1
+}
+\newtcolorbox{monitorbox}{
+  colback=SoftBG,colframe=BorderGrey,
+  boxrule=0.5pt,arc=1.5mm,breakable,
+  left=6pt,right=6pt,top=5pt,bottom=5pt
+}
+\newtcolorbox{responsebox}{
+  colback=yellow!5,colframe=GoldAmber,
+  boxrule=0.7pt,arc=2mm,breakable,
+  left=10pt,right=10pt,top=9pt,bottom=9pt,
+  fonttitle=\small\bfseries\color{GoldAmber},
+  title=Uw antwoord
+}
+
+\tikzset{
+  crnode/.style={
+    draw=PrimaryBlue,fill=AccentBlue,rounded corners=2pt,
+    text width=3.55cm,minimum height=0.76cm,
+    font=\fontsize{6.5}{8}\selectfont\bfseries\color{DarkBlue},
+    align=center,inner sep=3pt
+  },
+  prnode/.style={
+    draw=ForestGreen,fill=AccentTeal,rounded corners=2pt,
+    text width=3.55cm,minimum height=0.76cm,
+    font=\fontsize{6.5}{8}\selectfont\bfseries\color{ForestGreen},
+    align=center,inner sep=3pt
+  },
+}
+
+\newcommand{\writeline}{\vspace{0.22em}\noindent\rule{\linewidth}{0.25pt}\vspace{0.42em}\par}
+
+\newcommand{\criterionslot}[1]{%
+\vspace{0.25em}\noindent
+\begin{tcolorbox}[colback=SoftBG,colframe=BorderGrey,boxrule=0.4pt,arc=1.5mm,left=8pt,right=8pt,top=5pt,bottom=5pt]%
+\small\textbf{\color{SlateMid}Criterium #1}\hspace{1em}%
+\textbf{Label (2--5 woorden):}\hspace{0.5em}\rule{0.50\linewidth}{0.25pt}%
+\end{tcolorbox}%
+}
+
+\newcommand{\predictorslot}[1]{%
+\vspace{0.25em}\noindent
+\begin{tcolorbox}[colback=SoftBG,colframe=BorderGrey,boxrule=0.4pt,arc=1.5mm,left=8pt,right=8pt,top=5pt,bottom=5pt]%
+\small\textbf{\color{SlateMid}Predictor #1}\hspace{1em}%
+\textbf{Label (2--6 woorden):}\hspace{0.5em}\rule{0.50\linewidth}{0.25pt}%
+\end{tcolorbox}%
+}
+
+\newcommand{\rankbox}[1]{%
+\vspace{0.22em}\noindent
+\begin{tikzpicture}[baseline=3pt]
+  \node[draw=DarkBlue,fill=AccentBlue,rounded corners=3pt,minimum width=2.5cm,minimum height=0.72cm,font=\small\bfseries\color{DarkBlue},align=center] {Prioriteit #1};
+\end{tikzpicture}
+\hspace{0.7em}\rule{0.60\linewidth}{0.25pt}\par\vspace{0.05em}
+}
+
+\newcommand{\checkitemBFS}[2]{%
+\noindent\small\textbf{#1.}\hspace{0.45em}$\square$\hspace{0.4em}#2\par\vspace{0.20em}}
+
+\newcommand{\messagelines}{\writeline\writeline\writeline\writeline}
+
+\begin{document}
+"""
+
+
+def preamble(hcp_code: str, ca_label: str, cb_label: str) -> str:
+    return (
+        PREAMBLE_TEMPLATE.replace(
+            "<<PDFTITLE>>",
+            "PHOENIX evaluatiestudie - " + hcp_code + " (" + ca_label + " + " + cb_label + ")",
+        )
+        .replace("<<HCPCODE>>", hcp_code)
+        .replace("<<CA>>", ca_label)
+        .replace("<<CB>>", cb_label)
+    )
+
+
+COVER_TEMPLATE = r"""% ── TITELPAGINA ─────────────────────────────────────────────────────────────
+\thispagestyle{fancy}
+\vspace*{0.3cm}
+
+\begin{tcolorbox}[
+  colback=DarkBlue,colframe=DarkBlue,
+  arc=3mm,left=14pt,right=14pt,top=12pt,bottom=12pt,
+  width=\textwidth
+]
+\centering
+{\fontsize{22}{28}\selectfont\bfseries\color{white}
+PHOENIX evaluatiestudie\\[0.3em]
+\fontsize{15}{20}\selectfont\color{AccentBlue}
+Fase 1 -- onafhankelijke expertgeneratie\\[0.2em]
+\fontsize{12}{16}\selectfont\color{white}
+\textit{Instrument voor Zorgprofessionals}
+}
+\end{tcolorbox}
+
+\vspace{0.6cm}
+
+\begin{center}
+\begin{tcolorbox}[
+  colback=AccentBlue,colframe=PrimaryBlue,
+  arc=2.5mm,boxrule=1.2pt,left=12pt,right=12pt,top=10pt,bottom=10pt,
+  width=0.86\textwidth
+]
+\centering
+{\large\bfseries\color{DarkBlue}Deelnemerscode: \texttt{<<HCPCODE>>}}\\[0.5em]
+{\normalsize\color{SlateMid}
+Toegewezen casussen:\quad
+\textbf{\color{PrimaryBlue}<<CA>>} (<<CA_PROFILE>>)
+\quad en \quad
+\textbf{\color{PrimaryBlue}<<CB>>} (<<CB_PROFILE>>)
+}
+\end{tcolorbox}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{center}
+\begin{tcolorbox}[
+  colback=SoftBG,colframe=BorderGrey,
+  arc=2mm,left=10pt,right=10pt,top=9pt,bottom=9pt,
+  width=0.92\textwidth
+]
+\small\renewcommand{\arraystretch}{1.28}
+\begin{tabularx}{\textwidth}{@{}>{\bfseries\raggedright\arraybackslash}p{0.29\textwidth}X@{}}
+Studie & Evaluatie van de klinische kwaliteit van een ontologiegebaseerd multi-agentsysteem voor gepersonaliseerde digitale geestelijke gezondheidszorg (PHOENIX) \\
+Instelling & Universiteit Gent -- Faculteit Psychologie en Pedagogische Wetenschappen \\
+Onderzoeker & Stijn Van Severen (masterproefstudent) \\
+Promotoren & Prof.\ Dr.\ Geert Crombez; Dr.\ Annick De Paepe \\
+Contact & \texttt{stijn.vanseveren@ugent.be} \\
+Geschatte duur & Ongeveer 35--45 minuten voor beide casussen samen \\
+\end{tabularx}
+\end{tcolorbox}
+\end{center}
+
+\vspace{0.4cm}
+
+\begin{center}
+\begin{tcolorbox}[
+  colback=SoftBG,colframe=BorderGrey,
+  arc=2mm,left=10pt,right=10pt,top=9pt,bottom=9pt,
+  width=0.92\textwidth
+]
+\textbf{\color{PrimaryBlue}Doel van deze bundel}
+
+\medskip\small
+U neemt deel aan een evaluatiestudie waarin zorgprofessionals onafhankelijk dezelfde
+vijf klinische redeneerstappen uitvoeren als het PHOENIX-systeem. Uw antwoorden
+vormen het menselijke referentiecorpus voor een latere dubbelblinde vergelijking
+met systeemoutput.
+
+\smallskip
+Voor elk van uw twee casussen vult u dezelfde vijf delen in: (1) operationalisering,
+(2) initieel observatiemodel, (3) prioritering van behandeldoelen, (4) verfijning van
+EMA-metingen en (5) een mobiele coachingsboodschap.
+
+\smallskip
+\textbf{We vragen uw eigen klinische oordeelsvorming.} Antwoord zoals u dat in een
+reele professionele context zou doen, maar werk strikt volgens de instructies op de
+volgende pagina.
+\end{tcolorbox}
+\end{center}
+
+\vspace{0.4cm}
+
+\begin{center}
+\begin{tcolorbox}[
+  colback=AccentAmber,colframe=GoldAmber,
+  arc=2mm,boxrule=0.7pt,left=10pt,right=10pt,top=8pt,bottom=8pt,
+  width=0.90\textwidth
+]
+\small\centering
+\textbf{\color{GoldAmber}Vertrouwelijkheid:} uw antwoorden worden voor analyse
+geanonimiseerd en uitsluitend gebruikt binnen deze masterproefstudie. Deelname is
+vrijwillig; u kan zich op elk moment terugtrekken door contact op te nemen met de
+onderzoeker.
+\end{tcolorbox}
+\end{center}
+
+\vfill
+\newpage
+\tableofcontents
+\newpage
+"""
+
+
+def cover_page(hcp_code: str, ca: dict, cb: dict) -> str:
+    return (
+        COVER_TEMPLATE.replace("<<HCPCODE>>", hcp_code)
+        .replace("<<CA>>", ca["label"])
+        .replace("<<CB>>", cb["label"])
+        .replace("<<CA_PROFILE>>", ca["profile"])
+        .replace("<<CB_PROFILE>>", cb["profile"])
+    )
+
+
+INTRO = r"""
+% ── INSTRUCTIEPAGINA ─────────────────────────────────────────────────────────
+\section{Instructiepagina}
+
+\subsection*{Het PHOENIX-systeem en de context van deze studie}
+
+\textbf{PHOENIX} (Personalized Hierarchical Optimization Engine for Navigating
+Insightful eXplorations) is een multi-agentsysteem ontwikkeld als onderdeel van
+een masterproef in de psychologie aan de Universiteit Gent. Het systeem verwerkt
+een vrije klachttekst en doorloopt vijf opeenvolgende klinische redeneerstappen
+die de kern vormen van een gepersonaliseerde, longitudinale digitale interventie.
+
+Het theoretische kader van PHOENIX steunt op het \textbf{netwerk-analytisch model
+van psychopathologie} (Borsboom \& Cramer, 2013): psychische klachten worden niet
+als uitingen van een latente stoornis beschouwd, maar als een \emph{dynamisch
+netwerk van onderling samenhangende klachtcomponenten}. Een sleutelbegrip daarbinnen
+is het onderscheid tussen \textbf{criteria} (symptoomdimensies die de toestand van
+de persoon beschrijven) en \textbf{predictoren} (modificeerbare variabelen die de
+criteria causaal beinvloeden en als behandeldoel kunnen dienen).
+
+\vspace{0.4em}
+\begin{instrbox}[title={Kerndefinities: criterium versus predictor}]
+\small
+\textbf{Criterium (CR):} een klinisch relevante, momentaan aanwezige
+\emph{klacht- of toestandsdimensie} van de persoon die herhaald meetbaar is via
+dagelijkse EMA. Criteria zijn de \emph{uitkomstvariabelen} in het netwerk -- ze
+beschrijven \emph{wat er mis gaat} (bijv.\ inslaapproblemen, paniekepisoden,
+sombere stemming). Criteria zijn geen gedragingen of interventies.
+
+\medskip
+\textbf{Predictor (P):} een \emph{modificeerbare gedrags- of procesvariabele}
+die plausibel causaal ingrijpt op een of meerdere criteria en dagelijks meetbaar
+is via een korte EMA-vraag. Predictoren zijn de \emph{ingreepvariabelen} in het
+netwerk -- ze beschrijven \emph{wat veranderbaar is} (bijv.\ avondschermtijd,
+geplande exposure, aerobe beweging). Een predictor is \emph{nooit een symptoom zelf},
+maar een gedrag, strategie of omgevingsfactor die het symptoom beinvloedt.
+
+\medskip\small
+\textit{Voorbeelden ter verduidelijking:}
+\begin{itemize}[topsep=1pt,itemsep=0pt]
+\item \textbf{Criterium:} inslaapproblemen, anticipatieangst, anergie, guilt-driven ruminatie.
+\item \textbf{Predictor:} avondschermtijd (min), geplande exposurestap (ja/nee),
+bewegingsfrequentie (min), preslaap-offloading (ja/nee).
+\item \textbf{Geen predictor, geen criterium:} eetlust bij avondmaal, rusthartslag,
+spierspanning -- dit zijn symptoom- of toestandsmaten, geen behandelbare predictoren.
+\end{itemize}
+\end{instrbox}
+
+\vspace{0.4em}
+\begin{instrbox}[title={Ecological Momentary Assessment (EMA) -- basisprincipes}]
+\small
+\textbf{EMA} is een methode waarbij personen meerdere keren per dag hun actuele
+toestand of gedrag rapporteren via een mobiele applicatie. In PHOENIX wordt EMA
+gebruikt om zowel criteria als predictoren dagelijks te monitoren over een periode
+van meerdere weken.
+
+Een goede EMA-variabele voldoet aan vier vereisten:
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{Dagelijks rapporteerbaar:} via een korte vraag op de smartphone (ja/nee, aantal, minuten of 0--10).
+\item \textbf{Dynamisch en veranderbaar:} geen vaste trek, diagnose of stabiel achtergrondkenmerk.
+\item \textbf{Klinisch relevant:} toont binnen-persoonsvariatie die therapeutisch informatief is.
+\item \textbf{Onderscheid criterium vs.\ predictor:} symptoomdimensies zijn criteria; modificeerbare gedragingen zijn predictoren.
+\end{itemize}
+\end{instrbox}
+
+\vspace{0.4em}
+\begin{instrbox}[title={Het bipartiet netwerk: structuur van het observatiemodel}]
+\small
+Na 21 dagen EMA-monitoring construeert PHOENIX een \textbf{bipartiet netwerk}:
+een graaf met twee kolommensets en gewogen verbindingen daartussen.
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{Linkse kolom -- Predictoren (P):} de modificeerbare variabelen.
+\item \textbf{Rechtse kolom -- Criteria (CR):} de klacht- en toestandsdimensies.
+\item \textbf{Kanten:} de richting loopt van predictor naar criterium (P $\rightarrow$ CR).
+Een \emph{blauwe} rand duidt op een positief verband (predictor vergroot het criterium),
+een \emph{rode} rand op een negatief verband (predictor verkleint het criterium).
+Lijndikte is proportioneel aan de sterkte van het empirische verband uit de monitoringdata.
+\end{itemize}
+In \textbf{Deel 3} rangschikt u de predictoren op behandelprioriteit op basis van
+dit netwerk en de monitoringsamenvatting.
+\end{instrbox}
+
+\vspace{0.5em}
+
+\subsection*{Overzicht van de vijf taken}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.36}
+\small
+\begin{tabular}{@{}>{\bfseries\color{PrimaryBlue}}p{0.05\textwidth}>{\bfseries}p{0.30\textwidth}p{0.38\textwidth}p{0.13\textwidth}@{}}
+\toprule
+Stap & Klinische taak & Wat u doet & Richttijd \\
+\midrule
+1 & Operationalisering & Identificeer 2--6 \textbf{criteriumlabels} (klachtdimensies) & $\approx$\,6 min \\
+2 & Initieel observatiemodel & Genereer 3--5 \textbf{predictorlabels} (modificeerbaar, EMA-geschikt) & $\approx$\,6 min \\
+3 & Behandeldoelprioritering & Rangschik alle 5 \textbf{predictoren} van hoog naar laag behandelprioriteit & $\approx$\,7 min \\
+4 & Verfijnd observatiemodel & Selecteer exact 6 \textbf{EMA-items} (2 per behandeldoel) uit de lijst van 20 & $\approx$\,8 min \\
+5 & Mobiele coaching & Schrijf een korte patient\-gerichte boodschap voor de app & $\approx$\,8 min \\
+\midrule
+ & \textbf{Totaal (2 casussen)} & & \textbf{35--45 min} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vspace{0.5em}
+\begin{instrbox}[title={Werkwijze -- strikt te volgen}]
+\begin{enumerate}[topsep=1pt,itemsep=2pt]
+\item \textbf{Werk sequentieel: Deel 1 $\rightarrow$ Deel 5.}
+Ga pas naar een volgend deel wanneer het huidige deel volledig is afgewerkt voor beide casussen.
+\item \textbf{Gebruik geen generatieve AI, schrijfhulpmiddelen, richtlijnen of collegaoverleg.}
+Extern gebruik ondermijnt de methodologische validiteit en de blind scoringswaarde van de studie.
+\item \textbf{Gebruik in latere delen uitsluitend de meegeleverde gestandaardiseerde context.}
+Die is bewust vastgezet zodat alle deelnemers op identieke input reageren en vergelijkbaar zijn.
+\item \textbf{Herwerk eerdere antwoorden niet retroactief} nadat u latere context hebt gezien.
+\item \textbf{Noteer of typ rechtstreeks in de voorziene antwoordzones.}
+Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blinde beoordeling.
+\end{enumerate}
+\end{instrbox}
+
+\newpage
+"""
+
+
+PART1_HEADER = r"""
+\section{Deel 1: Operationalisering van de mentale gezondheidstoestand}
+
+\begin{tcolorbox}[colback=blue!3,colframe=PrimaryBlue,arc=2.5mm,boxrule=0.9pt,
+  left=10pt,right=10pt,top=9pt,bottom=9pt]
+\textbf{\color{PrimaryBlue}Instructies Deel 1}
+
+\smallskip\small
+\textbf{Opdracht:} identificeer de belangrijkste actuele klacht- en toestandsdimensies
+(\textbf{criteria}) in de klachttekst en noteer voor elke dimensie uitsluitend een
+\textbf{kort criteriumlabel}.
+
+\textbf{Wat is een criterium?}
+Een criterium is een \emph{symptoom- of klachtdimensie} die beschrijft \emph{wat er
+mis gaat} bij de persoon. Het is \emph{geen} behandeling, geen gedrag en geen oorzaak,
+maar een actuele toestandsbeschrijving:
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item momenteel aanwezig bij de persoon (niet hypothetisch of anamnestisch),
+\item onderscheidbaar van andere klachtdimensies (niet overlappend),
+\item in principe herhaald meetbaar via dagelijkse zelfrapportage (EMA).
+\end{itemize}
+
+\textbf{Voorbeelden van goede criteriumlabels:}
+inslaapproblemen, paniekepisoden, anticipatieangst, sombere stemming, emotionele uitputting,
+anergie, interpersoonlijke instabiliteit, compulsief controleergedrag.
+
+\textbf{Let op:} gedragingen (bijv. ``avondschermtijd''), oorzaken (bijv. ``werkstress'')
+en behandelstrategieën zijn \emph{geen} criteria maar predictoren -- die horen in Deel 2.
+
+\textbf{Antwoordformat:} label van 2--5 woorden, zonder beschrijvende zin.
+Noteer per casus \textbf{2--6 criteria}. Laat ongebruikte velden leeg.
+\end{tcolorbox}
+
+\vspace{0.5em}
+"""
+
+
+PART1_CASE_TEMPLATE = r"""
+\subsection*{<<LABEL>>: <<PROFILE>>}
+
+\begin{complaintbox}[title={<<LABEL>>: <<PROFILE>>; duur: <<DURATION>>}]
+\small <<VIGNETTE>>
+\end{complaintbox}
+
+\begin{responsebox}
+\small\textbf{Opdracht:} noteer \textbf{2--6 criteriumlabels} voor deze casus.
+Gebruik enkel korte labels; voeg geen beschrijving toe.
+
+\criterionslot{1}
+\criterionslot{2}
+\criterionslot{3}
+\criterionslot{4}
+\criterionslot{5}
+\criterionslot{6}
+\end{responsebox}
+
+\vspace{0.6em}
+"""
+
+
+def part1_case(case: dict) -> str:
+    return (
+        PART1_CASE_TEMPLATE.replace("<<LABEL>>", case.get("local_label", case["label"]))
+        .replace("<<PROFILE>>", case["profile"])
+        .replace("<<DURATION>>", case["duration"])
+        .replace("<<VIGNETTE>>", case["vignette"])
+    )
+
+
+def part1(case_a: dict, case_b: dict) -> str:
+    return PART1_HEADER + "\n\\newpage\n" + part1_case(case_a) + "\n\\newpage\n" + part1_case(case_b) + "\n\\newpage\n"
+
+
+PART2_HEADER = r"""
+\section{Deel 2: Initieel observatiemodel (bipartiet netwerk)}
+
+\begin{tcolorbox}[colback=green!3,colframe=ForestGreen,arc=2.5mm,boxrule=0.9pt,
+  left=10pt,right=10pt,top=9pt,bottom=9pt]
+\textbf{\color{ForestGreen}Instructies Deel 2}
+
+\smallskip\small
+\textbf{Opdracht:} genereer \textbf{3--5 predictorlabels} die samen het
+\textbf{initieel observatiemodel} voor deze casus vormen.
+
+\textbf{Wat is een predictor in deze context?}
+Een predictor is een \emph{modificeerbare gedrags- of procesvariabele} die beschrijft
+\emph{wat de persoon kan veranderen}:
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{Modificeerbaar:} de persoon (of therapeut) kan er rechtstreeks op ingrijpen.
+\item \textbf{EMA-geschikt:} dagelijks meetbaar via een eenvoudige vraag op de smartphone
+(ja/nee, aantal, minuten of 0--10 schaal).
+\item \textbf{Causaal plausibel:} klinisch aannemelijk dat het predictor de criteria beinvloedt.
+\item \textbf{Geen criterium:} symptomen, klachtniveaus of diagnostische trekken zijn
+\emph{geen} predictoren.
+\end{itemize}
+
+\textbf{Voorbeelden van goede predictorlabels:}
+avondschermtijd, geplande exposure, aerobe beweging, preslaap-offloading,
+veiligheidsgedrag, werk-privegrens, herstelactiviteit, compulsie-uitstel.
+
+\textbf{Let op:} predictoren als ``eetlust'', ``spierspanning'' of ``moeheid'' zijn
+symptoomdimensies (criteria) -- geen predictoren. Kies variabelen die de persoon
+actief kan uitvoeren of aanpassen.
+
+\textbf{Antwoordformat:} enkel een label van 2--6 woorden, zonder meetdefinitie of toelichting.
+Laat ongebruikte velden leeg.
+\end{tcolorbox}
+
+\vspace{0.5em}
+"""
+
+
+def part2_case(case: dict) -> str:
+    criteria_items = "\n".join(
+        rf"\item \textbf{{CR-{idx}}} {label}" for idx, label in enumerate(case["criteria"], start=1)
+    )
+    return J(
+        rf"\subsection*{{{case.get('local_label', case['label'])}: {case['profile']} -- Deel 2}}",
+        "",
+        rf"\begin{{complaintbox}}[title={{{case.get('local_label', case['label'])}: verkorte klachtomschrijving}}]",
+        rf"\small {case['profile']}; duur: {case['duration']}. {case['short_desc']}",
+        r"\end{complaintbox}",
+        "",
+        r"\begin{contextbox}",
+        r"\small\textbf{Gestandaardiseerde criteria uit stap 1:}",
+        r"\begin{itemize}[topsep=2pt,itemsep=1pt]",
+        criteria_items,
+        r"\end{itemize}",
+        r"\end{contextbox}",
+        "",
+        r"\begin{responsebox}",
+        r"\small\textbf{Opdracht:} noteer \textbf{3--5 predictorlabels} voor een initieel observatiemodel.",
+        r"Zorg dat elk label later dagelijks via een mobiele app meetbaar kan worden gemaakt.",
+        "",
+        r"\predictorslot{1}",
+        r"\predictorslot{2}",
+        r"\predictorslot{3}",
+        r"\predictorslot{4}",
+        r"\predictorslot{5}",
+        r"\end{responsebox}",
+        "",
+        r"\vspace{0.6em}",
+    )
+
+
+def part2(case_a: dict, case_b: dict) -> str:
+    return PART2_HEADER + "\n\\newpage\n" + part2_case(case_a) + "\n\\newpage\n" + part2_case(case_b) + "\n\\newpage\n"
+
+
+PART3_HEADER = r"""
+\section{Deel 3: Behandeldoelprioritering via het bipartiet netwerk}
+
+\begin{tcolorbox}[colback=yellow!5,colframe=GoldAmber,arc=2.5mm,boxrule=0.9pt,
+  left=10pt,right=10pt,top=9pt,bottom=9pt]
+\textbf{\color{GoldAmber}Instructies Deel 3}
+
+\smallskip\small
+\textbf{Opdracht:} rangschik de \textbf{5 standaardpredictoren} van \textbf{hoogste}
+naar \textbf{laagste} behandelprioriteit.
+
+\textbf{Wat is een behandeldoel?}
+Een behandeldoel is de predictor die, als hij veranderd wordt, naar verwachting de sterkste
+vermindering van de criteria oplevert. U selecteert op basis van drie criteria:
+\begin{enumerate}[topsep=2pt,itemsep=1pt,label=\alph*)]
+\item \textbf{Bewijs uit monitoring:} is er in de monitoringdata aanleiding dat deze predictor
+actief bijdraagt aan de klacht (bijv.\ hoge frequentie van problematisch gedrag, of bijna
+afwezigheid van gewenst gedrag)?
+\item \textbf{Klinische modificeerbaarheid:} is de predictor realistisch veranderbaar voor
+deze persoon, gegeven profiel en context?
+\item \textbf{Netwerkimpact:} beïnvloedt de predictor meerdere criteria tegelijk (hogere
+return-on-intervention)?
+\end{enumerate}
+
+\textbf{Het bipartiet netwerk lezen:}
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item Predictoren staan in de \textbf{linkerkolom (groen)}; criteria in de \textbf{rechterkolom (blauw)}.
+\item \textbf{Blauwe rand:} predictor heeft een positief verband met het criterium
+(hogere predictor $\rightarrow$ hoger criterium; bijv.\ meer veiligheidsgedrag $\rightarrow$ meer angst).
+\item \textbf{Rode rand:} predictor heeft een negatief verband met het criterium
+(hogere predictor $\rightarrow$ lager criterium; bijv.\ meer exposure $\rightarrow$ minder vermijding).
+\item \textbf{Lijndikte:} proportioneel aan de sterkte van het empirische verband
+(21-daagse EMA-data).
+\end{itemize}
+
+\textbf{Antwoordformat:} vul alle 5 prioriteitslijnen in, van rangorde 1 (hoogste prioriteit)
+tot en met 5 (laagste prioriteit).
+\end{tcolorbox}
+
+\vspace{0.5em}
+"""
+
+
+CR_Y = [1.65, 0.55, -0.55, -1.65]
+PR_Y = [2.20, 1.10, 0.00, -1.10, -2.20]
+
+
+def tikz_network(case: dict) -> str:
+    predictor_nodes = "\n  ".join(
+        rf"\node[prnode] (p{idx}) at (0, {PR_Y[idx-1]}) {{P{idx}\\{label}}};"
+        for idx, label in enumerate(case["predictors"], start=1)
+    )
+    criteria_nodes = "\n  ".join(
+        rf"\node[crnode] (cr{idx}) at (9, {CR_Y[idx-1]}) {{CR-{idx}\\{label}}};"
+        for idx, label in enumerate(case["criteria"], start=1)
+    )
+
+    # Min-max normalise edge widths within this network to [1.0, 5.0] pt
+    abs_weights = [abs(w) for _, _, w in case["tikz_edges"]]
+    wmin, wmax = min(abs_weights), max(abs_weights)
+
+    def edge_latex(src: str, dst: str, weight: float) -> str:
+        if wmax > wmin:
+            lw = round(1.0 + (abs(weight) - wmin) / (wmax - wmin) * 4.0, 2)
+        else:
+            lw = 2.5
+        # Blue = positive relationship; Red = negative relationship
+        color = "PrimaryBlue!80" if weight > 0 else "StrongRed!85"
+        return rf"\d01_raw[line width={lw}pt, draw={color}, opacity=0.90] ({src}.east) -- ({dst}.west);"
+
+    edges = "\n  ".join(
+        edge_latex(src, dst, weight)
+        for src, dst, weight in case["tikz_edges"]
+    )
+
+    # Legend embedded inside the figure — three stacked rows, no overlap
+    # Blue = positive relationship; Red = negative relationship
+    legend = "\n  ".join([
+        r"% Legend (3 stacked rows)",
+        r"\d01_raw[line width=0.3pt, draw=black!25] (-0.3, -2.82) -- (9.3, -2.82);",
+        # Row 1: blue = positive
+        r"\d01_raw[line width=2.2pt, draw=PrimaryBlue!80, opacity=0.90] (0.1, -3.18) -- (1.2, -3.18);",
+        r"\node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35, -3.18)"
+        r" {\textbf{Blauw} = positief verband \enspace (predictor \emph{vergroot} criterium)};",
+        # Row 2: red = negative
+        r"\d01_raw[line width=2.2pt, draw=StrongRed!85, opacity=0.90] (0.1, -3.62) -- (1.2, -3.62);",
+        r"\node[font=\fontsize{5.5}{7}\selectfont, anchor=west, text=black!70] at (1.35, -3.62)"
+        r" {\textbf{Rood} = negatief verband \enspace (predictor \emph{verkleint} criterium)};",
+        # Row 3: thickness note
+        r"\node[font=\fontsize{5.0}{6.5}\selectfont, anchor=west, text=black!45] at (0.1, -4.05)"
+        r" {\textit{Lijndikte proportioneel aan $|w|$, genormaliseerd binnen netwerk (bereik 1--5\,pt).}};",
+    ])
+
+    return J(
+        r"\begin{center}",
+        r"\begin{tikzpicture}[node distance=0pt]",
+        "  " + predictor_nodes,
+        "  " + criteria_nodes,
+        "  " + edges,
+        "  " + legend,
+        r"\end{tikzpicture}",
+        r"\end{center}",
+    )
+
+
+def part3_case(case: dict) -> str:
+    predictor_line = r",\quad ".join(
+        rf"\textbf{{P{idx}: {label}}}" for idx, label in enumerate(case["predictors"], start=1)
+    )
+    rank_boxes = "\n".join(rf"\rankbox{{{idx}}}" for idx in range(1, len(case["predictors"]) + 1))
+    return J(
+        rf"\subsection*{{{case.get('local_label', case['label'])}: {case['profile']} -- Deel 3}}",
+        "",
+        rf"\begin{{complaintbox}}[title={{{case.get('local_label', case['label'])}: {case['profile']}}}]",
+        rf"\small {case['short_desc']} Duur: {case['duration']}.",
+        r"\end{complaintbox}",
+        "",
+        r"\begin{monitorbox}",
+        rf"\small\textbf{{21-daagse monitoring:}} {case['monitoring']}",
+        r"\end{monitorbox}",
+        "",
+        tikz_network(case),
+        "",
+        r"\begin{responsebox}",
+        r"\small\textbf{Opdracht:} rangschik \textbf{alle 5 predictors} van hoogste naar laagste behandelprioriteit.",
+        rf"\textbf{{Beschikbare predictors:}} {predictor_line}",
+        "",
+        rank_boxes,
+        r"\end{responsebox}",
+        "",
+        r"\vspace{0.6em}",
+    )
+
+
+def part3(case_a: dict, case_b: dict) -> str:
+    return PART3_HEADER + "\n\\newpage\n" + part3_case(case_a) + "\n\\newpage\n" + part3_case(case_b) + "\n\\newpage\n"
+
+
+PART4_HEADER = r"""
+\section{Deel 4: Verfijnd observatiemodel -- selectie van sub-predictoren}
+
+\begin{tcolorbox}[colback=purple!4,colframe=RichPurple,arc=2.5mm,boxrule=0.9pt,
+  left=10pt,right=10pt,top=9pt,bottom=9pt]
+\textbf{\color{RichPurple}Instructies Deel 4}
+
+\smallskip\small
+\textbf{Opdracht:} selecteer per casus \textbf{exact 6 EMA-items}:
+\textbf{2 sub-predictoren per behandeldoel} (3 behandeldoelen $\times$ 2 = 6 items).
+
+\textbf{Wat zijn sub-predictoren?}
+Een behandeldoel uit Deel 3 (bijv.\ ``geplande exposure'') is een conceptueel label.
+In de volgende EMA-cyclus moet dit label vertaald worden naar \emph{concrete, dagelijks
+meetbare gedragsitems} -- de \textbf{sub-predictoren}. Elke sub-predictor is een
+specifieke operationalisering van het behandeldoel als dagelijkse EMA-vraag.
+
+\textbf{Voorbeeld:} behandeldoel = \textit{avondschermtijd}
+$\rightarrow$ sub-predictor 1: ``smartphone-gebruik na 22.00 uur (min)''
+$\rightarrow$ sub-predictor 2: ``schermvrij interval voor slapengaan (min)''
+
+\textbf{Belangrijk: alle 20 items in de lijst zijn predictor-type EMA-items}
+(modificeerbare gedragingen en strategieën -- \emph{geen} symptomen of
+klachtdimensies). Uw taak is te selecteren welke 6 items het best aansluiten bij
+de 3 gestandaardiseerde behandeldoelen, 2 per doel.
+
+\textbf{Selectieprincipe:}
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item Kies per behandeldoel de 2 items die dat doel het meest direct en precies meten.
+\item Verkies items die samen een compleet beeld geven van het behandeldoel
+(bijv.\ frequentie \emph{en} duur, of twee complementaire gedragingen).
+\item Vermijd items die het behandeldoel slechts zijdelings raken.
+\end{itemize}
+
+\textbf{Antwoordformat:} vink \textbf{exact 6} items aan. Geen toelichting vereist.
+\end{tcolorbox}
+
+\vspace{0.5em}
+"""
+
+
+def bfs_items_block(items: list[str]) -> str:
+    return "\n".join(rf"\checkitemBFS{{{idx}}}{{{label}}}" for idx, label in enumerate(items, start=1))
+
+
+def part4_case(case: dict) -> str:
+    targets = "\n".join(
+        rf"\item \textbf{{{label}}}\quad\textit{{\small ({rationale})}}"
+        for label, rationale in case["treatment_targets"]
+    )
+    return J(
+        rf"\subsection*{{{case.get('local_label', case['label'])}: {case['profile']} -- Deel 4}}",
+        "",
+        r"\begin{contextbox}",
+        r"\small\textbf{Gestandaardiseerde behandeldoelen uit Deel 3:}",
+        r"\begin{enumerate}[topsep=2pt,itemsep=1pt,label=\arabic*.]",
+        targets,
+        r"\end{enumerate}",
+        r"\end{contextbox}",
+        "",
+        r"\begin{responsebox}",
+        r"\small\textbf{Opdracht:} selecteer \textbf{exact 6} EMA-items (2 per behandeldoel) die het best passen als volgende subpredictoren.",
+        r"\textit{Alle antwoordopties zijn dagelijkse mobiele EMA-items.}",
+        r"",
+        bfs_items_block(case["bfs_items"]),
+        r"\vspace{0.4em}",
+        r"\noindent\textbf{Totaal geselecteerd:}\hspace{0.5em}\rule{1.2cm}{0.25pt}\hspace{0.2em}/ 6",
+        r"\end{responsebox}",
+        "",
+        r"\vspace{0.6em}",
+    )
+
+
+def part4(case_a: dict, case_b: dict) -> str:
+    return PART4_HEADER + "\n\\newpage\n" + part4_case(case_a) + "\n\\newpage\n" + part4_case(case_b) + "\n\\newpage\n"
+
+
+PART5_HEADER = r"""
+\section{Deel 5: Gepersonaliseerde mobiele coachingsboodschap (HAPA-kader)}
+
+\begin{tcolorbox}[colback=red!3,colframe=ForestGreen,arc=2.5mm,boxrule=0.9pt,
+  left=10pt,right=10pt,top=9pt,bottom=9pt]
+\textbf{\color{ForestGreen}Instructies Deel 5}
+
+\smallskip\small
+\textbf{Opdracht:} schrijf een korte, rechtstreeks tot de persoon gerichte
+coachingsboodschap die in de mobiele applicatie verschijnt.
+
+\textbf{Theoretisch kader -- HAPA:}
+PHOENIX gebruikt het \textbf{Health Action Process Approach (HAPA; Schwarzer, 1992)}
+om de boodschap af te stemmen op de motivationele fase van de persoon:
+\begin{itemize}[topsep=2pt,itemsep=1pt]
+\item \textbf{Pre-intentionele fase:} de persoon is nog niet gemotiveerd om te veranderen
+$\rightarrow$ focus op risicobewustzijn en uitkomstverwachting.
+\item \textbf{Intentionele fase:} de persoon wil veranderen maar heeft nog geen concreet plan
+$\rightarrow$ focus op doelstelling en actieplanning.
+\item \textbf{Actie-/onderhoudsfase:} de persoon probeert al te veranderen
+$\rightarrow$ focus op copingplanning en zelfeffectiviteitsondersteuning.
+\end{itemize}
+U hoeft de fase niet expliciet te benoemen; gebruik het kader om de toon en inhoud
+van uw boodschap te sturen.
+
+\textbf{De boodschap voldoet aan:}
+\begin{itemize}[topsep=2pt,itemsep=2pt]
+\item \textbf{Lengte:} 2--4 zinnen, compact genoeg voor een mobiel scherm.
+\item \textbf{Toon:} warm, direct, professioneel -- geen klinisch jargon of diagnostische labels.
+\item \textbf{Inhoud:} adresseert het primaire behandeldoel en de voornaamste barriere;
+bevat een concrete, eerstvolgende actie.
+\item \textbf{Perspectief:} tweede persoon (``jij'' of formeel ``u'').
+\end{itemize}
+
+\textbf{Werkvoorbeeld} (niet gerelateerd aan een studiecasus):
+\begin{tcolorbox}[colback=SoftBG,colframe=BorderGrey,boxrule=0.4pt,arc=1.5mm,
+  left=7pt,right=7pt,top=5pt,bottom=5pt]
+\small
+\textbf{Context:} verpleegkundige; behandeldoel = korte beweegmomenten inbouwen;
+barriere = vermoeidheid na de shift (lage zelfeffectiviteit); fase = intentioneel.\\[0.3em]
+\textbf{Voorbeeldboodschap:}\\
+\textit{``Na een zware shift voelt rust nemen logisch, maar net dat eerste kleine
+beweegmoment kan je avond helpen ontladen. Trek vanavond meteen na thuiskomst je
+schoenen aan en wandel 10 minuten buiten -- niet meer dan dat ene blokje. Zo maak
+je de stap haalbaar en vergroot je de kans dat je lichaam later echt kan afschakelen.''}
+\end{tcolorbox}
+\end{tcolorbox}
+
+\vspace{0.5em}
+"""
+
+
+def part5_case(case: dict) -> str:
+    return J(
+        rf"\subsection*{{{case.get('local_label', case['label'])}: {case['profile']} -- Deel 5}}",
+        "",
+        r"\begin{contextbox}",
+        r"\small\renewcommand{\arraystretch}{1.24}",
+        r"\begin{tabular}[t]{@{}>{\raggedright\bfseries\color{ForestGreen}\arraybackslash}p{0.27\linewidth}>{\raggedright\arraybackslash}p{0.67\linewidth}@{}}",
+        rf"Primair probleem & {case['p5_challenge']} \\[0.15em]",
+        rf"Behandeldoel & {case['p5_target']} \\[0.15em]",
+        rf"Voornaamste barriere & {case['p5_barrier']} \\[0.15em]",
+        rf"Copingstrategie & {case['p5_coping']} \\",
+        r"\end{tabular}",
+        r"\end{contextbox}",
+        "",
+        r"\begin{responsebox}",
+        r"\small\textbf{Opdracht:} schrijf hieronder de mobiele coachingsboodschap voor deze casus.",
+        r"\textit{Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt.}",
+        r"",
+        r"\messagelines",
+        r"\end{responsebox}",
+        "",
+        r"\vspace{0.6em}",
+    )
+
+
+def part5(case_a: dict, case_b: dict) -> str:
+    return PART5_HEADER + "\n\\newpage\n" + part5_case(case_a) + "\n\\newpage\n" + part5_case(case_b) + "\n\\newpage\n"
+
+
+COMPLETION_TEMPLATE = r"""
+\section{Afronding en terugbezorging}
+
+Dank u voor het invullen van alle vijf delen voor uw twee toegewezen casussen
+(<<CA>> en <<CB>>).
+
+\begin{instrbox}[title=Checklist voor terugbezorging]
+\begin{itemize}
+\item[$\square$] Ik heb in Deel 1 voor beide casussen criteriumlabels ingevuld.
+\item[$\square$] Ik heb in Deel 2 voor beide casussen predictorlabels ingevuld.
+\item[$\square$] Ik heb in Deel 3 voor beide casussen alle 5 predictors gerangschikt.
+\item[$\square$] Ik heb in Deel 4 voor beide casussen exact 6 EMA-items geselecteerd.
+\item[$\square$] Ik heb in Deel 5 voor beide casussen een mobiele coachingsboodschap geschreven.
+\item[$\square$] Mijn antwoorden weerspiegelen mijn eigen klinische oordeel zonder gebruik van generatieve AI of andere externe hulp.
+\item[$\square$] Ik begrijp dat mijn antwoorden geanonimiseerd worden voor analyse.
+\end{itemize}
+\end{instrbox}
+
+\medskip
+Bezorg het ingevulde document terug via e-mail aan:
+\begin{center}
+\texttt{stijn.vanseveren@ugent.be}\quad met onderwerp:\quad \texttt{PHOENIX-PRE-<<HCPCODE>>}
+\end{center}
+
+\vspace{0.5em}
+\begin{tcolorbox}[colback=AccentBlue,colframe=PrimaryBlue,arc=2mm,boxrule=0.6pt,left=8pt,right=8pt,top=7pt,bottom=7pt]
+\small\centering
+Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het expertreferentiecorpus
+voor de latere blind evaluatie van PHOENIX. Hartelijk dank voor uw bijdrage aan dit onderzoek.
+\end{tcolorbox}
+
+\end{document}
+"""
+
+
+def completion_page(hcp_code: str, case_a: dict, case_b: dict) -> str:
+    return (
+        COMPLETION_TEMPLATE.replace("<<HCPCODE>>", hcp_code)
+        .replace("<<CA>>", case_a.get("local_label", case_a["label"]))
+        .replace("<<CB>>", case_b.get("local_label", case_b["label"]))
+    )
+
+
+def build_document(hcp_num: int) -> str:
+    hcp_code, case_id_a, case_id_b = ASSIGNMENT[hcp_num]
+    case_a = {**CASES[case_id_a], "local_label": "Casus 1"}
+    case_b = {**CASES[case_id_b], "local_label": "Casus 2"}
+    return J(
+        preamble(hcp_code, case_id_a, case_id_b),
+        cover_page(hcp_code, case_a, case_b),
+        INTRO,
+        part1(case_a, case_b),
+        part2(case_a, case_b),
+        part3(case_a, case_b),
+        part4(case_a, case_b),
+        part5(case_a, case_b),
+        completion_page(hcp_code, case_a, case_b),
+    )
+
+
+BASE = Path(__file__).parent
+
+
+def write_and_compile(hcp_num: int) -> None:
+    out_dir = BASE / f"HCP_{hcp_num}"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    tex_path = out_dir / "main.tex"
+
+    tex_path.write_text(build_document(hcp_num), encoding="utf-8")
+    print(f"[+] Geschreven: {tex_path}")
+
+    result = subprocess.run(
+        ["tectonic", str(tex_path)],
+        capture_output=True,
+        text=True,
+        cwd=str(out_dir),
+    )
+    if result.returncode == 0:
+        print(f"[v] Gecompileerd: HCP_{hcp_num}/main.pdf")
+        return
+
+    print(f"[X] Compilatiefout voor HCP_{hcp_num}")
+    print(result.stdout[-3000:])
+    print(result.stderr[-3000:])
+    raise SystemExit(result.returncode)
+
+
+# ── WORD-DOCUMENT GENERATIE ────────────────────────────────────────────────
+
+
+def _add_heading(doc: Document, text: str, level: int = 1) -> None:
+    p = doc.add_heading(text, level=level)
+    p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+
+
+def _shade_para(p, shade_hex: str) -> None:
+    """Apply background shade to an existing paragraph."""
+    pPr = p._p.get_or_add_pPr()
+    shd = OxmlElement("w:shd")
+    shd.set(qn("w:val"), "clear")
+    shd.set(qn("w:color"), "auto")
+    shd.set(qn("w:fill"), shade_hex)
+    pPr.append(shd)
+
+
+def _shade_cell(cell, shade_hex: str) -> None:
+    """Apply background shade to a table cell."""
+    tc = cell._tc
+    tcPr = tc.get_or_add_tcPr()
+    shd = OxmlElement("w:shd")
+    shd.set(qn("w:val"), "clear")
+    shd.set(qn("w:color"), "auto")
+    shd.set(qn("w:fill"), shade_hex)
+    tcPr.append(shd)
+
+
+def _add_shaded_para(doc: Document, text: str, shade_hex: str = "EFF6FF",
+                     align: WD_ALIGN_PARAGRAPH = WD_ALIGN_PARAGRAPH.LEFT,
+                     bold_first_line: bool = False) -> None:
+    """Add a shaded paragraph. If bold_first_line, the first line is bold."""
+    p = doc.add_paragraph()
+    p.alignment = align
+    _shade_para(p, shade_hex)
+    lines = text.split("\n")
+    for i, line in enumerate(lines):
+        if i > 0:
+            p.add_run("\n")
+        run = p.add_run(line)
+        run.font.size = Pt(10)
+        if bold_first_line and i == 0:
+            run.bold = True
+
+
+def _add_centered_box(doc: Document, text: str, shade_hex: str,
+                      bold_first_line: bool = False) -> None:
+    """Add a full-width shaded box with centered text."""
+    _add_shaded_para(doc, text, shade_hex=shade_hex,
+                     align=WD_ALIGN_PARAGRAPH.CENTER,
+                     bold_first_line=bold_first_line)
+
+
+def _add_fillline(doc: Document, label: str, width_chars: int = 60) -> None:
+    p = doc.add_paragraph()
+    run_label = p.add_run(label + "  ")
+    run_label.bold = True
+    run_label.font.size = Pt(10)
+    run_line = p.add_run("_" * width_chars)
+    run_line.font.size = Pt(10)
+    run_line.font.color.rgb = RGBColor(0xCC, 0xCC, 0xCC)
+
+
+def _add_checkbox_item(doc: Document, num: int, text: str) -> None:
+    p = doc.add_paragraph(style="List Paragraph")
+    p.paragraph_format.left_indent = Cm(0.5)
+    run = p.add_run(f"{num:2d}.  \u25a1  {text}")
+    run.font.size = Pt(10)
+
+
+def _page_break(doc: Document) -> None:
+    doc.add_page_break()
+
+
+def _centered_meta_table(doc: Document, rows: list[tuple[str, str]]) -> None:
+    """Render a 2-column key/value table, centered on the page."""
+    tbl = doc.add_table(rows=len(rows), cols=2)
+    tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
+    tbl.style = "Table Grid"
+    col_widths = [Cm(4.2), Cm(10.5)]
+    for row_idx, (k, v) in enumerate(rows):
+        cells = tbl.rows[row_idx].cells
+        cells[0].width = col_widths[0]
+        cells[1].width = col_widths[1]
+        _shade_cell(cells[0], "DBEAFE")
+        _shade_cell(cells[1], "F8FAFC")
+        rk = cells[0].paragraphs[0].add_run(k)
+        rk.bold = True
+        rk.font.size = Pt(9)
+        rv = cells[1].paragraphs[0].add_run(v)
+        rv.font.size = Pt(9)
+
+
+def draw_network_png(case: dict) -> io.BytesIO:
+    """Render the bipartite network as a clean PNG for embedding in Word."""
+    abs_weights = [abs(w) for _, _, w in case["tikz_edges"]]
+    wmin, wmax = min(abs_weights), max(abs_weights)
+
+    PR_Y = [2.20, 1.10, 0.00, -1.10, -2.20]
+    CR_Y = [1.65, 0.55, -0.55, -1.65]
+
+    # Figure: fixed dimensions so it always fits A4 Word page (2.5 cm margins)
+    fig, ax = plt.subplots(figsize=(8.2, 5.8))
+    ax.set_xlim(-0.7, 10.7)
+    ax.set_ylim(-4.80, 3.10)
+    ax.axis("off")
+    BG = "#F8FAFC"
+    fig.patch.set_facecolor(BG)
+    ax.set_facecolor(BG)
+
+    # Light outer border
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+    border = mpatches.FancyBboxPatch(
+        (-0.65, -4.70), 11.30, 7.65,
+        boxstyle="round,pad=0.0", linewidth=0.8,
+        edgecolor="#CBD5E1", facecolor=BG, zorder=0,
+    )
+    ax.add_patch(border)
+
+    # Column header labels
+    ax.text(0.0, 2.92, "Predictoren", ha="center", va="center",
+            fontsize=8.0, fontweight="bold", color="#047857", style="italic")
+    ax.text(9.0, 2.92, "Criteria", ha="center", va="center",
+            fontsize=8.0, fontweight="bold", color="#1E3A5F", style="italic")
+
+    # ── Edges (blue = positive, red = negative) ───────────────────────────
+    for src, dst, weight in case["tikz_edges"]:
+        lw = (1.0 + (abs(weight) - wmin) / (wmax - wmin) * 4.0) if wmax > wmin else 2.5
+        color = "#1D4ED8" if weight > 0 else "#B91C1C"
+        p_idx = int(src[1:]) - 1
+        c_idx = int(dst[2:]) - 1
+        ax.plot(
+            [0.38, 8.62], [PR_Y[p_idx], CR_Y[c_idx]],
+            color=color, linewidth=lw, alpha=0.82, zorder=1, solid_capstyle="round",
+        )
+
+    # ── Predictor nodes (left, teal) ──────────────────────────────────────
+    NW, NH = 3.50, 0.62
+    for idx, label in enumerate(case["predictors"], start=1):
+        y = PR_Y[idx - 1]
+        rect = mpatches.FancyBboxPatch(
+            (-NW / 2, y - NH / 2), NW, NH,
+            boxstyle="round,pad=0.05",
+            facecolor="#CCFBF1", edgecolor="#047857", linewidth=1.1, zorder=2,
+        )
+        ax.add_patch(rect)
+        # Truncate long labels so they stay inside the node
+        txt = label if len(label) <= 24 else label[:22] + "\u2026"
+        ax.text(0.0, y + 0.10, f"P{idx}", ha="center", va="center",
+                fontsize=6.2, fontweight="bold", color="#047857", zorder=3)
+        ax.text(0.0, y - 0.13, txt, ha="center", va="center",
+                fontsize=5.8, color="#047857", zorder=3)
+
+    # ── Criteria nodes (right, blue) ──────────────────────────────────────
+    for idx, label in enumerate(case["criteria"], start=1):
+        y = CR_Y[idx - 1]
+        rect = mpatches.FancyBboxPatch(
+            (9.0 - NW / 2, y - NH / 2), NW, NH,
+            boxstyle="round,pad=0.05",
+            facecolor="#DBEAFE", edgecolor="#1D4ED8", linewidth=1.1, zorder=2,
+        )
+        ax.add_patch(rect)
+        txt = label if len(label) <= 24 else label[:22] + "\u2026"
+        ax.text(9.0, y + 0.10, f"CR-{idx}", ha="center", va="center",
+                fontsize=6.2, fontweight="bold", color="#1E3A5F", zorder=3)
+        ax.text(9.0, y - 0.13, txt, ha="center", va="center",
+                fontsize=5.8, color="#1E3A5F", zorder=3)
+
+    # ── Separator + Legend ────────────────────────────────────────────────
+    ax.axhline(-2.88, xmin=0.02, xmax=0.98, color="#CBD5E1", linewidth=0.8)
+
+    # Legend background box
+    leg_bg = mpatches.FancyBboxPatch(
+        (-0.55, -4.65), 11.10, 1.65,
+        boxstyle="round,pad=0.0", linewidth=0,
+        facecolor="#F1F5F9", zorder=4,
+    )
+    ax.add_patch(leg_bg)
+
+    # Blue legend row
+    ax.plot([0.05, 0.95], [-3.22, -3.22], color="#1D4ED8", linewidth=2.4,
+            solid_capstyle="round", zorder=5)
+    ax.text(1.10, -3.22, "Blauw = positief verband  "
+            "(predictor vergroot criterium)",
+            ha="left", va="center", fontsize=6.2, color="#1E293B", zorder=5)
+
+    # Red legend row
+    ax.plot([0.05, 0.95], [-3.72, -3.72], color="#B91C1C", linewidth=2.4,
+            solid_capstyle="round", zorder=5)
+    ax.text(1.10, -3.72, "Rood = negatief verband  "
+            "(predictor verkleint criterium)",
+            ha="left", va="center", fontsize=6.2, color="#1E293B", zorder=5)
+
+    # Thickness note
+    ax.text(5.0, -4.30, "Lijndikte \u221d |w|, "
+            "genormaliseerd binnen netwerk (bereik 1\u20135\u2009pt).",
+            ha="center", va="center", fontsize=5.5, color="#64748B", style="italic",
+            zorder=5)
+
+    fig.subplots_adjust(left=0.0, right=1.0, top=1.0, bottom=0.0)
+    buf = io.BytesIO()
+    fig.savefig(buf, format="png", dpi=160, bbox_inches="tight",
+                facecolor=BG, edgecolor="none")
+    plt.close(fig)
+    buf.seek(0)
+    return buf
+
+
+def build_word_document(hcp_num: int) -> Document:
+    hcp_code, case_id_a, case_id_b = ASSIGNMENT[hcp_num]
+    case_a = {**CASES[case_id_a], "local_label": "Casus 1"}
+    case_b = {**CASES[case_id_b], "local_label": "Casus 2"}
+
+    doc = Document()
+
+    # ── Pagina-marges ─────────────────────────────────────────────────────
+    for sec in doc.sections:
+        sec.left_margin = Cm(2.5)
+        sec.right_margin = Cm(2.5)
+        sec.top_margin = Cm(2.5)
+        sec.bottom_margin = Cm(2.5)
+
+    # ── TITELPAGINA ────────────────────────────────────────────────────────
+    # --- Hoofdtitel (gecentreerd, donkerblauw) ---
+    t = doc.add_paragraph()
+    t.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r = t.add_run("PHOENIX evaluatiestudie -- Fase 1")
+    r.bold = True
+    r.font.size = Pt(20)
+    r.font.color.rgb = RGBColor(0x1E, 0x3A, 0x5F)
+    t.add_run("\n")
+    r2 = t.add_run("Instrument voor Zorgprofessionals")
+    r2.bold = True
+    r2.font.size = Pt(14)
+    r2.font.color.rgb = RGBColor(0x1D, 0x4E, 0xD8)
+
+    doc.add_paragraph()
+
+    # --- Deelnemerscode + casussen (gecentreerd, blauw) ---
+    _add_centered_box(
+        doc,
+        f"Deelnemerscode:  {hcp_code}\n\n"
+        f"Toegewezen casussen:\n"
+        f"Casus\u00a01  ({case_a['profile']})\n"
+        f"en\n"
+        f"Casus\u00a02  ({case_b['profile']})",
+        shade_hex="DBEAFE",
+        bold_first_line=True,
+    )
+
+    doc.add_paragraph()
+
+    # --- Studieinfo-tabel (gecentreerd) ---
+    meta_lines = [
+        ("Studie",
+         "Evaluatie van de klinische kwaliteit van een ontologiegebaseerd "
+         "multi-agentsysteem voor gepersonaliseerde digitale geestelijke "
+         "gezondheidszorg (PHOENIX)"),
+        ("Instelling",
+         "Universiteit Gent -- Faculteit Psychologie en Pedagogische Wetenschappen"),
+        ("Onderzoeker", "Stijn Van Severen (masterproefstudent)"),
+        ("Promotoren",  "Prof. Dr. Geert Crombez; Dr. Annick De Paepe"),
+        ("Contact",     "stijn.vanseveren@ugent.be"),
+        ("Geschatte duur", "Ongeveer 35-45 minuten voor beide casussen samen"),
+    ]
+    _centered_meta_table(doc, meta_lines)
+
+    doc.add_paragraph()
+
+    # --- Doel van deze bundel ---
+    _add_shaded_para(
+        doc,
+        "Doel van deze bundel\n\n"
+        "U neemt deel aan een evaluatiestudie waarin zorgprofessionals onafhankelijk "
+        "dezelfde vijf klinische redeneerstappen uitvoeren als het PHOENIX-systeem. "
+        "Uw antwoorden vormen het menselijke referentiecorpus voor een latere "
+        "dubbelblinde vergelijking met systeemoutput.\n\n"
+        "Voor elk van uw twee casussen vult u dezelfde vijf delen in: "
+        "(1) operationalisering, (2) initieel observatiemodel, "
+        "(3) prioritering van behandeldoelen, (4) verfijning van EMA-metingen "
+        "en (5) een mobiele coachingsboodschap.\n\n"
+        "We vragen uw eigen klinische oordeelsvorming. Antwoord zoals u dat in een "
+        "reele professionele context zou doen, maar werk strikt volgens de instructies "
+        "op de volgende pagina.",
+        shade_hex="EFF6FF",
+        bold_first_line=True,
+    )
+
+    doc.add_paragraph()
+
+    # --- Vertrouwelijkheid & geïnformeerde toestemming ---
+    _add_shaded_para(
+        doc,
+        "Vertrouwelijkheid en geïnformeerde toestemming\n\n"
+        "Uw antwoorden worden voor analyse geanonimiseerd en uitsluitend gebruikt "
+        "binnen deze masterproefstudie. Na ontvangst worden ze opgenomen in het "
+        "expertreferentiecorpus voor de latere blind evaluatie van het PHOENIX-systeem. "
+        "Uw gegevens worden op geen enkel moment gekoppeld aan uw naam of identiteit "
+        "in publieke of wetenschappelijke rapportage.\n\n"
+        "Deelname is volledig vrijwillig. U kan zich op elk moment zonder opgave van "
+        "reden terugtrekken door contact op te nemen met de onderzoeker via "
+        "stijn.vanseveren@ugent.be. Terugtrekking heeft geen gevolgen.\n\n"
+        "Door dit ingevulde document te bezorgen aan de onderzoeker bevestigt u dat:\n"
+        "  (1)  u de bovenstaande informatie hebt gelezen en begrepen;\n"
+        "  (2)  u vrijwillig instemt met deelname aan deze studie;\n"
+        "  (3)  u begrijpt dat uw antwoorden geanonimiseerd worden verwerkt.\n\n"
+        "Uw inzending geldt als geïnformeerde toestemming.",
+        shade_hex="FEF3C7",
+        bold_first_line=True,
+    )
+
+    _page_break(doc)
+
+    # ── INHOUDSOPGAVE ─────────────────────────────────────────────────────
+    _add_heading(doc, "Inhoudsopgave", level=1)
+    toc_entries = [
+        "1  Instructiepagina",
+        "2  Deel 1: Operationalisering van mentale gezondheidsproblemen",
+        "3  Deel 2: Initieel observatiemodel",
+        "4  Deel 3: Prioritering van behandeldoelen",
+        "5  Deel 4: Verfijnd observatiemodel via breadth-first update-logica",
+        "6  Deel 5: Mobiele coachingsboodschap",
+        "7  Afronding en terugbezorging",
+    ]
+    for entry in toc_entries:
+        p = doc.add_paragraph(entry)
+        p.paragraph_format.left_indent = Cm(0.5)
+        for run in p.runs:
+            run.font.size = Pt(10)
+
+    _page_break(doc)
+
+    # ── SECTIE 1: INSTRUCTIEPAGINA ─────────────────────────────────────────
+    _add_heading(doc, "1  Instructiepagina", level=1)
+
+    p = doc.add_paragraph(
+        "PHOENIX is een multi-agentsysteem dat een vrije klachttekst omzet in een "
+        "gestructureerde klinische redenering via vijf opeenvolgende stappen. In deze "
+        "bundel voert u diezelfde vijf stappen onafhankelijk uit voor uw twee toegewezen "
+        "casussen. Uw antwoorden vormen het menselijke referentiecorpus voor een latere "
+        "dubbelblinde vergelijking met systeemoutput."
+    )
+    p.runs[0].font.size = Pt(10)
+
+    doc.add_paragraph()
+
+    # 5-stappen tabel
+    steps = [
+        ("1", "Operationalisering", "Noteer 2-6 criteriumlabels voor actuele probleemdimensies", "~6 min"),
+        ("2", "Initieel observatiemodel", "Genereer 3-5 biopsychosociale predictorlabels (EMA-geschikt)", "~6 min"),
+        ("3", "Behandeldoelprioritering", "Rangschik de 5 standaardpredictoren van hoog naar laag", "~7 min"),
+        ("4", "Verfijnd observatiemodel", "Selecteer exact 6 EMA-items uit de lijst van 20", "~8 min"),
+        ("5", "Mobiele coaching", "Schrijf een korte patientgerichte boodschap voor de app", "~8 min"),
+    ]
+    step_tbl = doc.add_table(rows=len(steps) + 1, cols=4)
+    step_tbl.style = "Table Grid"
+    headers = ["Stap", "Klinische taak", "Wat u doet", "Richttijd"]
+    for col_i, hdr in enumerate(headers):
+        cell = step_tbl.rows[0].cells[col_i]
+        run = cell.paragraphs[0].add_run(hdr)
+        run.bold = True
+        run.font.size = Pt(9)
+    for row_i, (stap, taak, doen, tijd) in enumerate(steps, start=1):
+        cells = step_tbl.rows[row_i].cells
+        for col_i, val in enumerate([stap, taak, doen, tijd]):
+            run = cells[col_i].paragraphs[0].add_run(val)
+            run.font.size = Pt(9)
+            if col_i == 0:
+                run.bold = True
+                run.font.color.rgb = RGBColor(0x1D, 0x4E, 0xD8)
+
+    doc.add_paragraph()
+    _add_shaded_para(
+        doc,
+        "WERKWIJZE -- STRIKT TE VOLGEN:\n"
+        "1. Werk sequentieel: Deel 1 -> Deel 5. Ga pas naar een volgend deel wanneer het huidige "
+        "volledig is afgewerkt voor beide casussen.\n"
+        "2. Gebruik geen generatieve AI, schrijfhulpmiddelen, richtlijnen of collegaoverleg. "
+        "Extern gebruik ondermijnt de methodologische validiteit en de blind scoringswaarde van de studie.\n"
+        "3. Gebruik in latere delen uitsluitend de meegeleverde gestandaardiseerde context. "
+        "Die is bewust vastgezet zodat alle deelnemers op identieke input reageren.\n"
+        "4. Herwerk eerdere antwoorden NIET retroactief nadat u latere context hebt gezien.\n"
+        "5. Noteer of typ rechtstreeks in de voorziene antwoordzones. "
+        "Onleesbare of ambigu geformuleerde antwoorden bemoeilijken latere blind beoordeling.",
+        shade_hex="FFF7ED",
+    )
+
+    doc.add_paragraph()
+    _add_shaded_para(
+        doc,
+        "EMA-PRINCIPES (relevant voor Deel 2 en Deel 4):\n"
+        "Ecological Momentary Assessment (EMA) meet dagelijkse schommelingen via een mobiele app. "
+        "Elke EMA-variabele moet aan vier vereisten voldoen:\n"
+        "  (1) Dagelijks rapporteerbaar via een korte smartphone-vraag.\n"
+        "  (2) Dynamisch en veranderbaar -- geen vaste diagnose, trait of achtergrondkenmerk.\n"
+        "  (3) Meetbaar in een eenvoudig format: ja/nee, aantal, minuten of een 0-10 score.\n"
+        "  (4) Klinisch relevant voor opvolging -- toont binnen-persoonsvariatie die therapeutisch informatief is.\n\n"
+        "In Deel 2 genereert u zelf predictorlabels. In Deel 4 zijn de 20 kandidaat-items reeds "
+        "uitgewerkt als dagelijkse EMA-items; u selecteert de meest geschikte 5.",
+        shade_hex="ECFDF5",
+    )
+
+    _page_break(doc)
+
+    # ── DEEL 1 ─────────────────────────────────────────────────────────────
+    def word_part1_case(case: dict) -> None:
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: {case['profile']}", level=2)
+        _add_shaded_para(
+            doc,
+            f"CASUSVIGNET  |  Duur: {case['duration']}\n\n{case['vignette']}",
+            shade_hex="EFF6FF",
+        )
+        doc.add_paragraph()
+        instr = doc.add_paragraph()
+        ri2 = instr.add_run(
+            "Opdracht: noteer 2-6 criteriumlabels voor deze casus. "
+            "Gebruik enkel korte labels (2-5 woorden); voeg geen beschrijving toe."
+        )
+        ri2.font.size = Pt(10)
+        ri2.bold = True
+        for i in range(1, 7):
+            _add_fillline(doc, f"Criterium {i}  Label (2-5 woorden):", 50)
+
+    _add_heading(doc, "2  Deel 1: Operationalisering van mentale gezondheidsproblemen", level=1)
+    _add_shaded_para(
+        doc,
+        "Identificeer de belangrijkste actuele probleemdimensies in de klachttekst en noteer voor "
+        "elke dimensie uitsluitend een kort criteriumlabel (2-5 woorden). "
+        "Noteer 2-6 criteria per casus; laat ongebruikte velden leeg.",
+        shade_hex="DBEAFE",
+    )
+    _page_break(doc)
+    word_part1_case(case_a)
+    _page_break(doc)
+    word_part1_case(case_b)
+    _page_break(doc)
+
+    # ── DEEL 2 ─────────────────────────────────────────────────────────────
+    def word_part2_case(case: dict) -> None:
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: {case['profile']} -- Deel 2", level=2)
+        _add_shaded_para(
+            doc,
+            f"{case.get('local_label', case['label'])}: verkorte klachtomschrijving\n"
+            f"{case['profile']}; duur: {case['duration']}. {case['short_desc']}",
+            shade_hex="EFF6FF",
+        )
+        doc.add_paragraph()
+        ctx = doc.add_paragraph()
+        ctx.add_run("Gestandaardiseerde criteria uit stap 1:").bold = True
+        ctx.runs[0].font.size = Pt(10)
+        for idx, lbl in enumerate(case["criteria"], start=1):
+            p = doc.add_paragraph(f"  CR-{idx}  {lbl}", style="List Bullet")
+            p.runs[0].font.size = Pt(10)
+        doc.add_paragraph()
+        instr = doc.add_paragraph()
+        ri3 = instr.add_run(
+            "Opdracht: noteer 3-5 predictorlabels (2-6 woorden) voor een initieel observatiemodel. "
+            "Elk label moet later dagelijks via een mobiele app meetbaar kunnen worden gemaakt."
+        )
+        ri3.bold = True
+        ri3.font.size = Pt(10)
+        for i in range(1, 6):
+            _add_fillline(doc, f"Predictor {i}  Label (2-6 woorden):", 50)
+
+    _add_heading(doc, "3  Deel 2: Initieel observatiemodel", level=1)
+    _add_shaded_para(
+        doc,
+        "Genereer 3-5 biopsychosociale predictorlabels die een initieel observatiemodel vormen. "
+        "Elke predictor moet klinisch plausibel samenhangen met een of meerdere criteria en "
+        "geschikt zijn voor dagelijkse EMA (zie instructiepagina).",
+        shade_hex="D1FAE5",
+    )
+    _page_break(doc)
+    word_part2_case(case_a)
+    _page_break(doc)
+    word_part2_case(case_b)
+    _page_break(doc)
+
+    # ── DEEL 3 ─────────────────────────────────────────────────────────────
+    def word_part3_case(case: dict) -> None:
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: {case['profile']} -- Deel 3", level=2)
+        _add_shaded_para(
+            doc,
+            f"{case.get('local_label', case['label'])}: {case['profile']}\n{case['short_desc']}  Duur: {case['duration']}.",
+            shade_hex="EFF6FF",
+        )
+        mon = doc.add_paragraph()
+        mon.add_run("21-daagse monitoring:  ").bold = True
+        mon.add_run(case["monitoring"]).font.size = Pt(10)
+        mon.runs[0].font.size = Pt(10)
+        doc.add_paragraph()
+
+        # ── Bipartite network figure ──────────────────────────────────────
+        # Caption line (kept together with the image via keep_with_next)
+        net_caption = doc.add_paragraph()
+        net_caption.paragraph_format.space_before = Pt(6)
+        net_caption.paragraph_format.space_after = Pt(2)
+        net_caption.paragraph_format.keep_with_next = True
+        cap_run = net_caption.add_run(
+            "Bipartiet netwerk \u2014 predictoren (links) \u2192 criteria (rechts)"
+        )
+        cap_run.bold = True
+        cap_run.font.size = Pt(10)
+        cap_run.font.color.rgb = RGBColor(0x1E, 0x3A, 0x5F)
+
+        # Image paragraph — centered, no extra space
+        net_img_para = doc.add_paragraph()
+        net_img_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        net_img_para.paragraph_format.space_before = Pt(0)
+        net_img_para.paragraph_format.space_after = Pt(6)
+        net_img_buf = draw_network_png(case)
+        run_img = net_img_para.add_run()
+        run_img.add_picture(net_img_buf, width=Inches(5.6))
+
+        predictor_list = ",  ".join(
+            f"P{i}: {lbl}" for i, lbl in enumerate(case["predictors"], start=1)
+        )
+        doc.add_paragraph()
+        pp = doc.add_paragraph()
+        pp.add_run(f"Beschikbare predictors:  {predictor_list}").font.size = Pt(10)
+
+        doc.add_paragraph()
+        instr = doc.add_paragraph()
+        instr.add_run(
+            "Opdracht: rangschik ALLE 5 predictors van hoogste naar laagste behandelprioriteit."
+        ).bold = True
+        instr.runs[0].font.size = Pt(10)
+        for i in range(1, 6):
+            _add_fillline(doc, f"Prioriteit {i}:", 55)
+
+    _add_heading(doc, "4  Deel 3: Prioritering van behandeldoelen", level=1)
+    _add_shaded_para(
+        doc,
+        "Rangschik de 5 standaardpredictoren van hoogste naar laagste klinische prioriteit als "
+        "behandeldoel. Gebruik hiervoor de 21-daagse monitoring en het bipartiet netwerk "
+        "(blauw = positief verband, rood = negatief verband; lijndikte \u221d |w|, "
+        "genormaliseerd binnen elk netwerk).",
+        shade_hex="FEF3C7",
+    )
+    _page_break(doc)
+    word_part3_case(case_a)
+    _page_break(doc)
+    word_part3_case(case_b)
+    _page_break(doc)
+
+    # ── DEEL 4 ─────────────────────────────────────────────────────────────
+    def word_part4_case(case: dict) -> None:
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: {case['profile']} -- Deel 4", level=2)
+        ctx = doc.add_paragraph()
+        ctx.add_run("Gestandaardiseerde behandeldoelen uit Deel 3:").bold = True
+        ctx.runs[0].font.size = Pt(10)
+        for lbl, rationale in case["treatment_targets"]:
+            p = doc.add_paragraph(style="List Bullet")
+            p.add_run(f"{lbl}  ").bold = True
+            p.runs[0].font.size = Pt(9)
+            p.add_run(f"({rationale})").font.size = Pt(9)
+        doc.add_paragraph()
+        instr = doc.add_paragraph()
+        instr.add_run(
+            "Opdracht: selecteer EXACT 6 EMA-items (2 per behandeldoel) die het best passen als volgende subpredictoren. "
+            "Vink de 6 geselecteerde items aan."
+        ).bold = True
+        instr.runs[0].font.size = Pt(10)
+        doc.add_paragraph()
+        for idx, item in enumerate(case["bfs_items"], start=1):
+            _add_checkbox_item(doc, idx, item)
+        doc.add_paragraph()
+        total = doc.add_paragraph()
+        total.add_run("Totaal geselecteerd: _____ / 6").bold = True
+        total.runs[0].font.size = Pt(10)
+
+    _add_heading(doc, "5  Deel 4: Verfijnd observatiemodel via breadth-first update-logica", level=1)
+    _add_shaded_para(
+        doc,
+        "Selecteer per casus EXACT 6 EMA-items uit een lijst van 20: 2 sub-predictoren per behandeldoel (3 x 2 = 6). "
+        "Start vanuit de gestandaardiseerde behandeldoelen en kies per behandeldoel 2 dagelijkse EMA-items "
+        "die daar het best op aansluiten als directe subpredictoren. "
+        "Verkies klinisch relevante breedte boven irrelevante of perifere items.",
+        shade_hex="EDE9FE",
+    )
+    _page_break(doc)
+    word_part4_case(case_a)
+    _page_break(doc)
+    word_part4_case(case_b)
+    _page_break(doc)
+
+    # ── DEEL 5 ─────────────────────────────────────────────────────────────
+    def word_part5_case(case: dict) -> None:
+        _add_heading(doc, f"{case.get('local_label', case['label'])}: {case['profile']} -- Deel 5", level=2)
+        ctx_data = [
+            ("Primair probleem", case["p5_challenge"]),
+            ("Behandeldoel", case["p5_target"]),
+            ("Voornaamste barriere", case["p5_barrier"]),
+            ("Copingstrategie", case["p5_coping"]),
+        ]
+        ctx_tbl = doc.add_table(rows=len(ctx_data), cols=2)
+        ctx_tbl.style = "Table Grid"
+        for row_i, (k, v) in enumerate(ctx_data):
+            cells = ctx_tbl.rows[row_i].cells
+            cells[0].width = Cm(4)
+            cells[0].paragraphs[0].add_run(k).bold = True
+            cells[0].paragraphs[0].runs[0].font.size = Pt(9)
+            cells[0].paragraphs[0].runs[0].font.color.rgb = RGBColor(0x04, 0x78, 0x57)
+            cells[1].paragraphs[0].add_run(v).font.size = Pt(9)
+
+        doc.add_paragraph()
+        instr = doc.add_paragraph()
+        instr.add_run(
+            "Opdracht: schrijf hieronder de mobiele coachingsboodschap voor deze casus. "
+            "Formuleer alsof de tekst morgen rechtstreeks op de smartphone van de persoon verschijnt."
+        ).bold = True
+        instr.runs[0].font.size = Pt(10)
+        doc.add_paragraph()
+        for _ in range(6):
+            p = doc.add_paragraph("_" * 95)
+            p.paragraph_format.space_after = Pt(4)
+            p.runs[0].font.size = Pt(10)
+            p.runs[0].font.color.rgb = RGBColor(0xCC, 0xCC, 0xCC)
+
+    _add_heading(doc, "6  Deel 5: Mobiele coachingsboodschap", level=1)
+    _add_shaded_para(
+        doc,
+        "Schrijf een korte, patientgerichte coachingsboodschap die rechtstreeks in de mobiele "
+        "applicatie kan verschijnen. Gebruik het primaire probleem, het behandeldoel, de "
+        "voornaamste barriere en de aangegeven copingstrategie. "
+        "De boodschap moet compact, warm en professioneel zijn en een concrete eerste stap bevatten.\n\n"
+        "Werkvoorbeeld (niet gerelateerd aan een studiecasus):\n"
+        "\"Na een zware shift voelt rust nemen logisch, maar net dat eerste kleine beweegmoment "
+        "kan je avond helpen ontladen. Trek vanavond meteen na thuiskomst je schoenen aan en "
+        "wandel 10 minuten buiten -- dat ene blokje. Zo maak je de stap haalbaar.\"",
+        shade_hex="FFF0F0",
+    )
+    _page_break(doc)
+    word_part5_case(case_a)
+    _page_break(doc)
+    word_part5_case(case_b)
+    _page_break(doc)
+
+    # ── AFRONDING ──────────────────────────────────────────────────────────
+    _add_heading(doc, "7  Afronding en terugbezorging", level=1)
+    p = doc.add_paragraph(
+        "Dank u voor het invullen van alle vijf delen voor uw twee toegewezen casussen "
+        "(Casus\u00a01 en Casus\u00a02)."
+    )
+    p.runs[0].font.size = Pt(10)
+
+    doc.add_paragraph()
+
+    cl_head = doc.add_paragraph()
+    cl_head.add_run("Checklist voor terugbezorging -- gelieve alle vakjes af te vinken:").bold = True
+    cl_head.runs[0].font.size = Pt(10)
+
+    checklist = [
+        "Ik heb in Deel 1 voor beide casussen (Casus\u00a01 en Casus\u00a02) criteriumlabels ingevuld.",
+        f"Ik heb in Deel 2 voor beide casussen predictorlabels ingevuld.",
+        f"Ik heb in Deel 3 voor beide casussen alle 5 predictors gerangschikt.",
+        f"Ik heb in Deel 4 voor beide casussen exact 6 EMA-items geselecteerd.",
+        f"Ik heb in Deel 5 voor beide casussen een mobiele coachingsboodschap geschreven.",
+        "Mijn antwoorden weerspiegelen mijn eigen klinische oordeel zonder gebruik van generatieve AI of andere externe hulp.",
+        "Ik begrijp dat mijn antwoorden geanonimiseerd worden verwerkt en uitsluitend worden gebruikt binnen deze masterproefstudie.",
+        "Ik begrijp dat ik mij op elk moment kan terugtrekken door contact op te nemen met de onderzoeker.",
+    ]
+    for item in checklist:
+        p = doc.add_paragraph()
+        p.paragraph_format.left_indent = Cm(0.3)
+        p.paragraph_format.space_after = Pt(3)
+        p.add_run(f"\u25a1   {item}").font.size = Pt(10)
+
+    doc.add_paragraph()
+
+    ret_head = doc.add_paragraph()
+    ret_head.add_run("Terugbezorging:").bold = True
+    ret_head.runs[0].font.size = Pt(10)
+
+    ret = doc.add_paragraph(
+        f"Bezorg dit ingevulde document als bijlage via e-mail:\n"
+        f"  Aan:         stijn.vanseveren@ugent.be\n"
+        f"  Onderwerp:   PHOENIX-PRE-{hcp_code}"
+    )
+    ret.runs[0].font.size = Pt(10)
+
+    doc.add_paragraph()
+
+    # Informed consent / anonymization final notice
+    _add_shaded_para(
+        doc,
+        "VERTROUWELIJKHEID EN VERWERKING\n\n"
+        "Na ontvangst worden uw antwoorden geanonimiseerd en opgenomen in het "
+        "expertreferentiecorpus voor de latere blind evaluatie van het PHOENIX-systeem. "
+        "Uw gegevens worden op geen enkel moment gekoppeld aan uw naam of identiteit in "
+        "publieke of wetenschappelijke rapportage.\n\n"
+        "Door dit document in te dienen bevestigt u vrijwillig in te stemmen met deelname "
+        "aan deze studie. Uw inzending geldt als geïnformeerde toestemming (informed consent).\n\n"
+        "Hartelijk dank voor uw bijdrage aan dit onderzoek.",
+        shade_hex="DBEAFE",
+    )
+
+    return doc
+
+
+def write_word_document(hcp_num: int) -> None:
+    out_dir = BASE / f"HCP_{hcp_num}"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    docx_path = out_dir / "main.docx"
+    doc = build_word_document(hcp_num)
+    doc.save(str(docx_path))
+    print(f"[v] Word-document: HCP_{hcp_num}/main.docx")
+
+
+def save_edge_weights_json() -> None:
+    """Sla alle gewogen kanten op als JSON naast de HCP-mappen."""
+    import json
+
+    def node_label(node: str, case: dict) -> str:
+        if node.startswith("cr"):
+            idx = int(node[2:])
+            return f"CR-{idx} ({case['criteria'][idx - 1]})"
+        else:
+            idx = int(node[1:])
+            return f"P{idx} ({case['predictors'][idx - 1]})"
+
+    data: dict = {}
+    for case_id, case in CASES.items():
+        data[case_id] = {
+            "profile": case["profile"],
+            "edges": [
+                {
+                    "predictor": node_label(src, case),
+                    "criterion": node_label(dst, case),
+                    "weight": round(weight, 4),
+                    "direction": "risk" if weight > 0 else "protective",
+                }
+                for src, dst, weight in case["tikz_edges"]
+            ],
+        }
+
+    out_path = BASE.parent / "bipartite_edge_weights.json"
+    out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[v] Edge weights opgeslagen: {out_path}")
+
+
+if __name__ == "__main__":
+    for idx in range(1, 6):
+        write_and_compile(idx)
+        write_word_document(idx)
+    save_edge_weights_json()
+    print("\nAlle 5 HCP-bundels zijn gegenereerd (PDF + Word).")

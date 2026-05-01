@@ -1,0 +1,30 @@
+"""Part 5 — Tailored intervention message: per-dimension LMM, TOST, plots.
+
+The judge ALSO classifies each message's HAPA phase in the ``extra``
+field of its JSON response. That classification is recorded in the raw
+response files and can be analysed separately for HCP-vs-PHOENIX HAPA-phase
+agreement, but it is not part of the per-dimension ratings analysed here.
+"""
+
+from __future__ import annotations
+
+from typing import Any, Dict
+
+from llm_as_judge.dimensions import dimensions_for
+
+from .shared import ComparisonStudyConfig, run_comparison_study
+
+
+def run() -> Dict[str, Any]:
+    config = ComparisonStudyConfig(
+        study_slug="part5_intervention",
+        part="part5",
+        title="Part 5: Tailored intervention message",
+        report_name="part5_intervention_report.txt",
+        dimension_order=[d.key for d in dimensions_for("part5")],
+    )
+    return run_comparison_study(config)
+
+
+if __name__ == "__main__":
+    run()

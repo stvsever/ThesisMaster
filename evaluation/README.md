@@ -171,7 +171,7 @@ with δ = ±0.5 Likert units (Studies 01–05) or δ = ±0.05 normalized units (
 
 Contains the LaTeX-generated survey blueprints used to configure the Qualtrics instruments.
 
-#### Phase 1 — PRE Survey (`qualtrics/01_HCPs_PRE/`)
+#### Phase 1 — PRE Survey (`qualtrics/survey/01_HCPs_PRE/`)
 
 Each participant receives a **self-contained personal bundle** (PDF + Word) covering only
 their two assigned cases, labelled simply *Casus 1* and *Casus 2*. This makes the personal
@@ -192,7 +192,7 @@ risk factors (positive weight, predictor increases criterion severity), blue edg
 protective factors (negative weight, predictor decreases criterion severity). All edge weights
 are stored in `bipartite_edge_weights.json`.
 
-#### Phase 2 — POST Survey (`qualtrics/02_HCPs_POST/`)
+#### Phase 2 — POST Survey (`qualtrics/survey/02_HCPs_POST/`) [legacy]
 
 A single Qualtrics survey presented to all 5 POST evaluators. Each evaluator rates both
 outputs (A and B) for all 10 cases across all 5 parts, fully blind to source.

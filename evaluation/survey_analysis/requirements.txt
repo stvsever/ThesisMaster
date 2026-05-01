@@ -1,0 +1,13 @@
+# Python dependencies for the PHOENIX evaluation analysis stage.
+# Tested with Python 3.10+.
+
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+statsmodels>=0.14
+matplotlib>=3.7
+
+# Optional: OpenAI SDK for OpenRouter calls. The judge client falls back to
+# urllib if this is missing, so it is technically optional, but installing
+# it gives nicer retries and tracing.
+openai>=1.30

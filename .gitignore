@@ -57,8 +57,17 @@ pip-wheel-metadata/
 # Large generated evaluation outputs are reproducible and should stay out of git.
 SystemComponents/**/tmp/
 src/SystemComponents/**/tmp/
+evaluation/survey_analysis/data/01_raw/
+evaluation/survey_analysis/data/02_parsed/
+evaluation/survey_analysis/data/03_system/
+evaluation/survey_analysis/data/04_judgments/
+evaluation/survey_analysis/data/pseudodata/
 evaluation/survey_analysis/data/study_*.csv
+evaluation/survey_analysis/data/pseudo_*.csv
+evaluation/survey_analysis/data/judged_*.csv
 evaluation/survey_analysis/results/
+evaluation/qualtrics/data/01_raw/*.csv
+evaluation/qualtrics/data/02_parsed/
 evaluation/**/visuals/
 evaluation/**/runs/
 evaluation/integrated_pipeline/runs/
@@ -86,8 +95,8 @@ src/backend/utils/other/exploratory/summarize_ontology/summary/
 !src/backend/overview/create_flowchart.png
 !src/backend/overview/gitnexus_overview.png
 !src/backend/overview/PHOENIX_ontology.png
-!evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/*.png
-!evaluation/qualtrics/01_HCPs_PRE/total/qualtrics_overview.png
+!evaluation/qualtrics/survey/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/*.png
+!evaluation/qualtrics/survey/01_HCPs_PRE/total/qualtrics_overview.png
 *.owl
 utils/official/cluster_criterions/results/02_embeddings_db/embeddings.npy
 utils/official/cluster_criterions/results/02_embeddings_db/cache.sqlite
