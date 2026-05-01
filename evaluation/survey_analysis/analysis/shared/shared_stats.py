@@ -464,8 +464,8 @@ def add_significance_bracket(
 def raincloud_plot(
     ax: plt.Axes,
     data_dict: Dict[str, np.ndarray],
-    title: str,
-    ylabel: str,
+    title: str = "",
+    ylabel: str = "",
     colors: Optional[List[str]] = None,
     adj_p: Optional[float] = None,
     ylim: Optional[Tuple[float, float]] = None,
@@ -601,7 +601,6 @@ def raincloud_plot(
     ax.set_xticks(positions)
     ax.set_xticklabels(labels, fontsize=10)
     ax.set_ylabel(ylabel)
-    ax.set_title(title, fontweight="bold", pad=12)
     ax.set_xlim(positions[0] - 0.75, positions[-1] + 0.65)
     if ylim is not None:
         ax.set_ylim(ylim)
@@ -649,7 +648,7 @@ def forest_plot(
     effects: Sequence[float],
     ci_lowers: Sequence[float],
     ci_uppers: Sequence[float],
-    title: str,
+    title: str = "",
     xlabel: str = "Effect Size (coefficient)",
     ref_line: float = 0.0,
     p_values: Optional[Sequence[float]] = None,
@@ -721,7 +720,6 @@ def forest_plot(
     ax.set_yticks(y_pos)
     ax.set_yticklabels(dimensions, fontsize=10)
     ax.set_xlabel(xlabel)
-    ax.set_title(title, fontweight="bold", pad=12)
     ax.invert_yaxis()
     return ax
 
@@ -736,8 +734,8 @@ def horizontal_bar_chart(
     means: Sequence[float],
     sds: Sequence[float],
     sig_flags: Sequence[bool],
-    title: str,
-    xlabel: str,
+    title: str = "",
+    xlabel: str = "",
     ref_line: Optional[float] = None,
     ref_label: Optional[str] = None,
     primary_color: Optional[str] = None,
@@ -769,7 +767,6 @@ def horizontal_bar_chart(
     ax.set_yticks(y_pos)
     ax.set_yticklabels(s_labels, fontsize=10)
     ax.set_xlabel(xlabel)
-    ax.set_title(title, fontweight="bold", pad=12)
     ax.invert_yaxis()
     return ax
 
@@ -783,7 +780,7 @@ def publication_heatmap(
     data_matrix: np.ndarray,
     row_labels: Sequence[str],
     col_labels: Sequence[str],
-    title: str,
+    title: str = "",
     cmap: str = "RdYlGn",
     vmin: float = 0.0,
     vmax: float = 1.0,
@@ -813,7 +810,6 @@ def publication_heatmap(
                 cell_txt += f"\n{p_to_stars(star_matrix[i, j])}"
             ax.text(j, i, cell_txt, ha="center", va="center",
                     fontsize=7, color=tc, fontweight="bold")
-    ax.set_title(title, fontweight="bold", pad=12)
     return ax
 
 
@@ -825,7 +821,7 @@ def tost_panel(
     ax: plt.Axes,
     dimensions: Sequence[str],
     tost_results: Sequence[Dict[str, Any]],
-    title: str = "Equivalence Test Results (TOST)",
+    title: str = "",
 ) -> plt.Axes:
     """
     Dot-and-bar chart showing the observed mean difference and equivalence
@@ -866,7 +862,6 @@ def tost_panel(
     ax.set_yticks(y_pos)
     ax.set_yticklabels(dimensions, fontsize=10)
     ax.set_xlabel("Mean difference (PHOENIX − HCP)")
-    ax.set_title(title, fontweight="bold", pad=12)
     ax.invert_yaxis()
     return ax
 
@@ -901,7 +896,6 @@ def boxwhisker_with_points(ax, data_dict, title, ylabel, cmap="viridis"):
     ax.set_xticks(pos)
     ax.set_xticklabels(labels, fontsize=10)
     ax.set_ylabel(ylabel)
-    ax.set_title(title, fontweight="bold", pad=12)
     return ax
 
 
@@ -921,22 +915,19 @@ def correlation_heatmap(ax, df, dimensions, title="Correlation Heatmap"):
             val = corr.values[i, j]
             ax.text(j, i, f"{val:.2f}", ha="center", va="center",
                     fontsize=8, color="white" if abs(val) > 0.6 else "black")
-    ax.set_title(title, fontweight="bold", pad=12)
     return ax
 
 
-def random_effects_histogram(ax, blup_values, title="Random Effects (BLUPs)"):
+def random_effects_histogram(ax, blup_values, title=""):
     if not blup_values:
         ax.text(0.5, 0.5, "No BLUPs available", transform=ax.transAxes,
                 ha="center", va="center")
-        ax.set_title(title, fontweight="bold")
         return ax
     ax.hist(blup_values, bins=min(len(blup_values), 15),
             color=PALETTE["primary"], edgecolor="white", alpha=0.75)
     ax.axvline(0, color="#ef4444", linestyle="--", linewidth=1, alpha=0.7)
     ax.set_xlabel("BLUP Estimate")
     ax.set_ylabel("Count")
-    ax.set_title(title, fontweight="bold", pad=12)
     return ax
 
 

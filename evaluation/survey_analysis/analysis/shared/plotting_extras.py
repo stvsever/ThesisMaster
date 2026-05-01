@@ -24,7 +24,7 @@ def parts_dimensions_heatmap(
     matrix: np.ndarray,
     part_labels: Sequence[str],
     dim_labels: Sequence[str],
-    title: str = "Effect heatmap: parts x dimensions",
+    title: str = "",
     pvals: Optional[np.ndarray] = None,
     cmap: str = "RdBu_r",
     vmax: Optional[float] = None,
@@ -51,7 +51,6 @@ def parts_dimensions_heatmap(
     ax.set_xticklabels(dim_labels, rotation=35, ha="right", fontsize=8)
     ax.set_yticks(np.arange(len(part_labels)))
     ax.set_yticklabels(part_labels, fontsize=10)
-    ax.set_title(title, fontweight="bold", pad=10)
 
     n_rows, n_cols = matrix.shape
     for i in range(n_rows):

@@ -1,14 +1,33 @@
 """
-Supplementary stability and sensitivity analyses for the LLM-as-judge pipeline.
+Supplementary analyses for the LLM-as-judge evaluation pipeline.
 
-These analyses are not additional hypothesis tests. They quantify whether the
-three repeated judge runs are stable enough to support the primary mixed-model
-comparison and whether conclusions are sensitive to judge confidence weighting.
+Four analyses are implemented:
+
+  Supp A – Judge-run stability (ICC)
+      For each (case, part, dimension, entity) cell, compute variance across
+      the 3 judge runs. Report ICC(2,1) — two-way random effects, single
+      measures — per dimension per part as a reliability index.
+
+  Supp B – Score calibration diagnostics (ceiling / floor effects)
+      For each part × entity cell: ceiling rate (% score = 5), floor rate
+      (% score = 1), and mean ± SD. Answers: does PHOENIX or HCP show more
+      ceiling compression?
+
+  Supp C – Confidence-weighted sensitivity analysis
+      Rerun PHOENIX–HCP effect estimates weighted by judge confidence score.
+      Compare weighted vs unweighted effects to check whether high-confidence
+      ratings tell a materially different story (forest plot).
+
+  Supp D – Per-case heterogeneity
+      For each case × part, compute the mean PHOENIX–HCP quality gap.
+      Heatmap shows which cases drive the aggregate effects.
+
+All figures are saved to
+    evaluation/survey_analysis/results/supplementary/visuals/
 """
 
 from __future__ import annotations
 
-from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence
 
@@ -16,602 +35,726 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 import numpy as np
 import pandas as pd
+import scipy.stats as stats
 
-from .shared.shared_stats import PALETTE, apply_rcparams, save_figure
+from .shared.shared_stats import (
+    PALETTE,
+    COLOR_HCP,
+    COLOR_PHOENIX,
+    apply_rcparams,
+    p_to_stars,
+    save_figure,
+)
 from .shared.survey_paths import ensure_study_dirs, judgments_csv
 
 
-@dataclass(frozen=True)
-class SupplementaryStudyConfig:
-    study_slug: str = "supplementary"
-    title: str = "Supplementary judge-run stability and sensitivity"
-    report_name: str = "supplementary_report.txt"
-    judgments_path: Optional[Path] = None
-    part_order: Sequence[str] = ("part1", "part2", "part3", "part4", "part5")
+# ─────────────────────────────────────────────────────────────────────────────
+# Constants
+# ─────────────────────────────────────────────────────────────────────────────
+
+PART_LABELS: Dict[str, str] = {
+    "part1": "Part 1",
+    "part2": "Part 2",
+    "part3": "Part 3",
+    "part4": "Part 4",
+    "part5": "Part 5",
+}
+
+def _display_part(p: str) -> str:
+    return PART_LABELS.get(str(p), str(p))
 
 
-def _display_part(part: str) -> str:
-    return {
-        "part1": "Part 1",
-        "part2": "Part 2",
-        "part3": "Part 3",
-        "part4": "Part 4",
-        "part5": "Part 5",
-    }.get(str(part), str(part))
+def _display_dim(d: str) -> str:
+    return str(d).replace("_", " ").title()
 
 
-def _display_dimension(key: str) -> str:
-    return str(key).replace("_", " ").title()
+# ─────────────────────────────────────────────────────────────────────────────
+# Data loading
+# ─────────────────────────────────────────────────────────────────────────────
 
-
-def _load_judgments(path: Path) -> pd.DataFrame:
-    if not path.exists():
-        raise FileNotFoundError(f"Judgments CSV not found: {path}")
-    df = pd.read_csv(path)
-    required = {
-        "case_id",
-        "part",
-        "dimension",
-        "judge_run",
-        "entity",
-        "quality_score",
-        "confidence",
-    }
+def _load(csv_path: Path) -> pd.DataFrame:
+    if not csv_path.exists():
+        raise FileNotFoundError(f"Judgments CSV not found: {csv_path}")
+    df = pd.read_csv(csv_path)
+    required = {"case_id", "part", "dimension", "judge_run", "entity", "quality_score"}
     missing = required.difference(df.columns)
     if missing:
         raise ValueError(f"Judgments CSV missing columns: {sorted(missing)}")
     df = df.copy()
     df["quality_score"] = pd.to_numeric(df["quality_score"], errors="coerce")
-    df["confidence"] = pd.to_numeric(df["confidence"], errors="coerce").fillna(3)
-    df["judge_run"] = df["judge_run"].astype(int)
+    if "confidence" not in df.columns:
+        df["confidence"] = 3.0
+    df["confidence"] = pd.to_numeric(df["confidence"], errors="coerce").fillna(3.0)
+    df["judge_run"] = pd.to_numeric(df["judge_run"], errors="coerce")
     df = df.loc[df["entity"].isin(["phoenix", "hcp"])].dropna(subset=["quality_score"])
     return df
 
 
-def _paired_scores(df: pd.DataFrame) -> pd.DataFrame:
-    score = df.pivot_table(
-        index=["case_id", "part", "dimension", "judge_run"],
-        columns="entity",
-        values="quality_score",
-        aggfunc="mean",
-    )
-    conf = df.pivot_table(
-        index=["case_id", "part", "dimension", "judge_run"],
-        columns="entity",
-        values="confidence",
-        aggfunc="mean",
-    )
-    paired = score.join(conf, lsuffix="_score", rsuffix="_confidence")
-    paired = paired.dropna(subset=["phoenix_score", "hcp_score"], how="any")
-    paired = paired.reset_index()
-    paired["gap"] = paired["phoenix_score"] - paired["hcp_score"]
-    paired["mean_confidence"] = paired[["phoenix_confidence", "hcp_confidence"]].mean(axis=1)
-    paired["gap_sign"] = np.sign(paired["gap"]).astype(int)
-    return paired
+def _ensure_supp_visuals(results_root: Path) -> Path:
+    p = results_root / SUPP_VISUALS_SUBDIR
+    p.mkdir(parents=True, exist_ok=True)
+    return p
 
 
-def _pairwise_agreement(values: np.ndarray, tolerance: float) -> float:
-    vals = np.asarray(values, dtype=float)
-    vals = vals[np.isfinite(vals)]
-    if len(vals) < 2:
-        return np.nan
-    total = 0
-    agreed = 0
-    for i in range(len(vals)):
-        for j in range(i + 1, len(vals)):
-            total += 1
-            agreed += int(abs(vals[i] - vals[j]) <= tolerance)
-    return agreed / total if total else np.nan
+# ─────────────────────────────────────────────────────────────────────────────
+# Supp A: ICC(2,1) — two-way random effects, single measures
+# ─────────────────────────────────────────────────────────────────────────────
 
 
-def _sign_consistency(values: np.ndarray) -> float:
-    vals = np.asarray(values, dtype=float)
-    vals = vals[np.isfinite(vals)]
-    if len(vals) == 0:
-        return np.nan
-    signs = np.sign(vals).astype(int)
-    _, counts = np.unique(signs, return_counts=True)
-    return float(np.max(counts) / len(signs))
+def _icc_21_grouped(cell_scores: pd.Series, cell_ids: pd.Series) -> float:
+    """
+    Compute ICC(2,1) from grouped scores.
+
+    Parameters
+    ----------
+    cell_scores : values (quality scores)
+    cell_ids    : group identifier (one per cell, repeated k times)
+
+    ICC(2,1) = (MS_B - MS_W) / (MS_B + (k-1)*MS_W)
+    """
+    groups = {}
+    for cid, score in zip(cell_ids, cell_scores):
+        groups.setdefault(cid, []).append(float(score))
+    groups = {k: np.array(v) for k, v in groups.items() if len(v) >= 2}
+    if len(groups) < 2:
+        return float("nan")
+
+    k_vals = [len(v) for v in groups.values()]
+    k = float(np.mean(k_vals))  # harmonic mean approximation
+    if k < 1:
+        return float("nan")
+
+    all_vals = np.concatenate(list(groups.values()))
+    grand_mean = float(np.mean(all_vals))
+    n_groups = len(groups)
+
+    # Between-groups SS
+    ss_b = sum(len(v) * (np.mean(v) - grand_mean) ** 2 for v in groups.values())
+    ms_b = ss_b / max(n_groups - 1, 1)
+
+    # Within-groups SS
+    ss_w = sum(np.sum((v - np.mean(v)) ** 2) for v in groups.values())
+    n_total = sum(len(v) for v in groups.values())
+    df_w = n_total - n_groups
+    ms_w = ss_w / max(df_w, 1) if df_w > 0 else 0.0
+
+    if ms_b + (k - 1) * ms_w < 1e-12:
+        return 1.0 if ms_w < 1e-12 else float("nan")
+    return float((ms_b - ms_w) / (ms_b + (k - 1) * ms_w))
 
 
-def _compute_stability(df: pd.DataFrame, paired: pd.DataFrame) -> Dict[str, pd.DataFrame]:
-    within = (
-        df.groupby(["case_id", "part", "dimension", "entity"], observed=True)
-        .agg(
-            n_runs=("quality_score", "size"),
-            mean_score=("quality_score", "mean"),
-            sd_score=("quality_score", "std"),
-            min_score=("quality_score", "min"),
-            max_score=("quality_score", "max"),
-            mean_confidence=("confidence", "mean"),
-        )
-        .reset_index()
-    )
-    within["sd_score"] = within["sd_score"].fillna(0.0)
-    within["range_score"] = within["max_score"] - within["min_score"]
+def compute_icc(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Compute ICC(2,1) per (part, dimension).
 
-    agreements = []
-    for keys, sub in df.groupby(["case_id", "part", "dimension", "entity"], observed=True):
-        vals = sub.sort_values("judge_run")["quality_score"].to_numpy()
-        agreements.append({
-            "case_id": keys[0],
-            "part": keys[1],
-            "dimension": keys[2],
-            "entity": keys[3],
-            "exact_pairwise_agreement": _pairwise_agreement(vals, tolerance=0.0),
-            "within_one_point_agreement": _pairwise_agreement(vals, tolerance=1.0),
-        })
-    agreement_df = pd.DataFrame(agreements)
-    within = within.merge(
-        agreement_df,
-        on=["case_id", "part", "dimension", "entity"],
-        how="left",
-    )
-
-    rating_stability = (
-        within.groupby(["part", "dimension", "entity"], observed=True)
-        .agg(
-            cells=("case_id", "count"),
-            mean_rating_sd=("sd_score", "mean"),
-            median_rating_sd=("sd_score", "median"),
-            mean_rating_range=("range_score", "mean"),
-            exact_agreement_rate=("exact_pairwise_agreement", "mean"),
-            within_one_point_rate=("within_one_point_agreement", "mean"),
-            mean_confidence=("mean_confidence", "mean"),
-        )
-        .reset_index()
-    )
-
-    gap_cells = (
-        paired.groupby(["case_id", "part", "dimension"], observed=True)
-        .agg(
-            n_runs=("gap", "size"),
-            mean_gap=("gap", "mean"),
-            sd_gap=("gap", "std"),
-            min_gap=("gap", "min"),
-            max_gap=("gap", "max"),
-            mean_confidence=("mean_confidence", "mean"),
-        )
-        .reset_index()
-    )
-    gap_cells["sd_gap"] = gap_cells["sd_gap"].fillna(0.0)
-    gap_cells["gap_range"] = gap_cells["max_gap"] - gap_cells["min_gap"]
-
-    sign_rows = []
-    for keys, sub in paired.groupby(["case_id", "part", "dimension"], observed=True):
-        sign_rows.append({
-            "case_id": keys[0],
-            "part": keys[1],
-            "dimension": keys[2],
-            "sign_consistency": _sign_consistency(sub["gap"].to_numpy()),
-        })
-    sign_df = pd.DataFrame(sign_rows)
-    gap_cells = gap_cells.merge(sign_df, on=["case_id", "part", "dimension"], how="left")
-
-    gap_stability = (
-        gap_cells.groupby(["part", "dimension"], observed=True)
-        .agg(
-            cells=("case_id", "count"),
-            mean_gap=("mean_gap", "mean"),
-            mean_gap_sd=("sd_gap", "mean"),
-            median_gap_sd=("sd_gap", "median"),
-            mean_gap_range=("gap_range", "mean"),
-            sign_consistency=("sign_consistency", "mean"),
-            mean_confidence=("mean_confidence", "mean"),
-        )
-        .reset_index()
-    )
-    return {
-        "cell_stability": within,
-        "rating_stability": rating_stability,
-        "gap_cell_stability": gap_cells,
-        "gap_stability": gap_stability,
-    }
-
-
-def _compute_confidence_sensitivity(df: pd.DataFrame, paired: pd.DataFrame) -> pd.DataFrame:
+    For each (part, dimension) stratum:
+      - subjects = (case_id, entity) cells
+      - raters   = judge_run
+      - ratings  = quality_score
+    """
     rows: List[Dict[str, Any]] = []
-    for (part, dimension), sub in df.groupby(["part", "dimension"], observed=True):
-        ph = sub.loc[sub["entity"] == "phoenix"]
-        hc = sub.loc[sub["entity"] == "hcp"]
-        if ph.empty or hc.empty:
-            continue
-        ph_w = np.average(ph["quality_score"], weights=ph["confidence"])
-        hc_w = np.average(hc["quality_score"], weights=hc["confidence"])
-        unweighted = float(
-            paired.loc[
-                (paired["part"] == part) & (paired["dimension"] == dimension),
-                "gap",
-            ].mean()
-        )
-        weighted = float(ph_w - hc_w)
+    for (part, dim), sub in df.groupby(["part", "dimension"], observed=True):
+        # cell_id = (case_id, entity) — each cell is a subject
+        sub = sub.copy()
+        sub["cell_id"] = sub["case_id"].astype(str) + "_" + sub["entity"].astype(str)
+        icc = _icc_21_grouped(sub["quality_score"], sub["cell_id"])
         rows.append({
             "part": part,
-            "dimension": dimension,
-            "unweighted_gap": unweighted,
-            "confidence_weighted_gap": weighted,
-            "absolute_change": abs(weighted - unweighted),
+            "dimension": dim,
+            "icc": float(icc) if np.isfinite(icc) else float("nan"),
+            "n_cells": int(sub["cell_id"].nunique()),
+            "n_obs": int(len(sub)),
         })
     return pd.DataFrame(rows)
 
 
-def _compute_scale_use(df: pd.DataFrame) -> pd.DataFrame:
-    grouped = (
-        df.groupby(["part", "entity"], observed=True)
-        .agg(
-            n=("quality_score", "size"),
-            mean_score=("quality_score", "mean"),
-            sd_score=("quality_score", "std"),
-            mean_confidence=("confidence", "mean"),
-            floor_rate=("quality_score", lambda s: float((s == 1).mean())),
-            low_rate=("quality_score", lambda s: float((s <= 2).mean())),
-            acceptable_rate=("quality_score", lambda s: float((s == 3).mean())),
-            high_rate=("quality_score", lambda s: float((s >= 4).mean())),
-            ceiling_rate=("quality_score", lambda s: float((s == 5).mean())),
-        )
-        .reset_index()
-    )
-    return grouped
-
-
-def _compute_run_level(paired: pd.DataFrame) -> pd.DataFrame:
-    return (
-        paired.groupby("judge_run", observed=True)
-        .agg(
-            n=("gap", "size"),
-            mean_gap=("gap", "mean"),
-            sd_gap=("gap", "std"),
-            mean_confidence=("mean_confidence", "mean"),
-        )
-        .reset_index()
-    )
-
-
-def _plot_stability_dashboard(
-    paths: Dict[str, Path],
-    rating_stability: pd.DataFrame,
-    gap_stability: pd.DataFrame,
-    run_level: pd.DataFrame,
+def _plot_icc(
+    icc_df: pd.DataFrame,
+    visuals_dir: Path,
 ) -> Path:
     apply_rcparams()
-    fig, axes = plt.subplots(2, 2, figsize=(13, 9))
-    fig.suptitle(
-        "Figure S1. Judge-run stability across three repeated ratings",
-        fontsize=14,
-        fontweight="bold",
-        y=0.98,
-    )
+    parts = [p for p in ("part1", "part2", "part3", "part4", "part5")
+             if p in set(icc_df["part"])]
+    dims = list(dict.fromkeys(icc_df["dimension"].tolist()))
 
-    ax = axes[0, 0]
-    part_entity = (
-        rating_stability.groupby(["part", "entity"], observed=True)["mean_rating_sd"]
-        .mean()
-        .reset_index()
-    )
-    x = np.arange(len(part_entity["part"].unique()))
-    width = 0.36
-    for idx, entity in enumerate(["phoenix", "hcp"]):
-        sub = part_entity.loc[part_entity["entity"] == entity]
-        y = [
-            float(sub.loc[sub["part"] == p, "mean_rating_sd"].mean())
-            for p in sorted(part_entity["part"].unique())
-        ]
-        ax.bar(
-            x + (idx - 0.5) * width,
-            y,
-            width,
-            label=entity.upper() if entity == "hcp" else "PHOENIX",
-            color=PALETTE["primary"] if entity == "phoenix" else PALETTE["secondary"],
-            alpha=0.85,
-        )
-    ax.set_title("A. Rating variability by source")
-    ax.set_ylabel("Mean within-cell SD")
-    ax.set_xticks(x)
-    ax.set_xticklabels([_display_part(p) for p in sorted(part_entity["part"].unique())])
-    ax.legend(frameon=False)
+    # Build heatmap matrix
+    matrix = np.full((len(parts), len(dims)), np.nan)
+    for i, part in enumerate(parts):
+        for j, dim in enumerate(dims):
+            v = icc_df.loc[(icc_df["part"] == part) & (icc_df["dimension"] == dim), "icc"]
+            if not v.empty and np.isfinite(float(v.iloc[0])):
+                matrix[i, j] = float(v.iloc[0])
 
-    ax = axes[0, 1]
-    part_gap = gap_stability.groupby("part", observed=True)["mean_gap_sd"].mean()
-    ax.bar(
-        np.arange(len(part_gap)),
-        part_gap.values,
-        color=PALETTE["tertiary"],
-        alpha=0.85,
-    )
-    ax.set_title("B. PHOENIX - HCP gap variability")
-    ax.set_ylabel("Mean SD of paired gap")
-    ax.set_xticks(np.arange(len(part_gap)))
-    ax.set_xticklabels([_display_part(p) for p in part_gap.index])
+    fig, axes = plt.subplots(1, 2, figsize=(16, max(4, 0.6 * len(parts) + 2)),
+                             gridspec_kw={"width_ratios": [3, 1]})
 
-    ax = axes[1, 0]
-    part_sign = gap_stability.groupby("part", observed=True)["sign_consistency"].mean()
-    ax.bar(
-        np.arange(len(part_sign)),
-        part_sign.values,
-        color=PALETTE["equiv"],
-        alpha=0.85,
-    )
-    ax.set_ylim(0, 1.02)
-    ax.set_title("C. Directional consistency")
-    ax.set_ylabel("Majority sign proportion")
-    ax.set_xticks(np.arange(len(part_sign)))
-    ax.set_xticklabels([_display_part(p) for p in part_sign.index])
-    ax.axhline(2 / 3, color=PALETTE["ref_line"], linestyle="--", linewidth=1)
-
-    ax = axes[1, 1]
-    ax.plot(
-        run_level["judge_run"],
-        run_level["mean_gap"],
-        marker="o",
-        color=PALETTE["primary"],
-        linewidth=2,
-    )
-    ax.axhline(0, color=PALETTE["ref_line"], linestyle="--", linewidth=1)
-    ax.set_title("D. Global gap by judge run")
-    ax.set_xlabel("Judge run")
-    ax.set_ylabel("Mean PHOENIX - HCP gap")
-    ax.set_xticks(run_level["judge_run"].tolist())
-
-    fig.text(
-        0.01,
-        0.01,
-        "Note. Stability is computed after source unblinding. Lower SD and range values indicate more stable judge ratings. "
-        "Directional consistency is the proportion of repeated runs sharing the majority PHOENIX - HCP sign.",
-        ha="left",
-        va="bottom",
-        fontsize=9,
-    )
-    fig.tight_layout(rect=[0, 0.04, 1, 0.95])
-    out = paths["visuals_dir"] / "supplementary_stability_dashboard.png"
-    save_figure(fig, out)
-    return out
-
-
-def _plot_sensitivity_dashboard(
-    paths: Dict[str, Path],
-    sensitivity: pd.DataFrame,
-    scale_use: pd.DataFrame,
-) -> Path:
-    apply_rcparams()
-    fig, axes = plt.subplots(1, 2, figsize=(13, 5.8))
-    fig.suptitle(
-        "Figure S2. Confidence weighting and scale-use diagnostics",
-        fontsize=14,
-        fontweight="bold",
-        y=0.98,
-    )
-
+    # Left panel: heatmap
     ax = axes[0]
-    ax.scatter(
-        sensitivity["unweighted_gap"],
-        sensitivity["confidence_weighted_gap"],
-        s=52,
-        color=PALETTE["primary"],
-        alpha=0.8,
-        edgecolor="white",
-        linewidth=0.6,
-    )
-    lim = max(
-        0.4,
-        float(np.nanmax(np.abs(sensitivity[["unweighted_gap", "confidence_weighted_gap"]].to_numpy()))) + 0.1,
-    )
-    ax.plot([-lim, lim], [-lim, lim], color=PALETTE["ref_line"], linestyle="--", linewidth=1)
-    ax.axhline(0, color=PALETTE["neutral"], linewidth=0.8)
-    ax.axvline(0, color=PALETTE["neutral"], linewidth=0.8)
-    ax.set_xlim(-lim, lim)
-    ax.set_ylim(-lim, lim)
-    ax.set_title("A. Confidence-weighted sensitivity")
-    ax.set_xlabel("Unweighted gap")
-    ax.set_ylabel("Confidence-weighted gap")
-
-    ax = axes[1]
-    parts = sorted(scale_use["part"].unique())
-    x = np.arange(len(parts))
-    width = 0.36
-    for idx, entity in enumerate(["phoenix", "hcp"]):
-        sub = scale_use.loc[scale_use["entity"] == entity]
-        y = [
-            float(sub.loc[sub["part"] == p, "ceiling_rate"].mean())
-            for p in parts
-        ]
-        ax.bar(
-            x + (idx - 0.5) * width,
-            y,
-            width,
-            label=entity.upper() if entity == "hcp" else "PHOENIX",
-            color=PALETTE["primary"] if entity == "phoenix" else PALETTE["secondary"],
-            alpha=0.85,
-        )
-    ax.set_ylim(0, 1.02)
-    ax.set_title("B. Ceiling-rate diagnostics")
-    ax.set_ylabel("Proportion scored 5")
-    ax.set_xticks(x)
-    ax.set_xticklabels([_display_part(p) for p in parts])
-    ax.legend(frameon=False)
-
-    fig.text(
-        0.01,
-        0.01,
-        "Note. Panel A tests whether conclusions depend on judge confidence. Panel B reports ceiling compression by source and survey part.",
-        ha="left",
-        va="bottom",
-        fontsize=9,
-    )
-    fig.tight_layout(rect=[0, 0.05, 1, 0.93])
-    out = paths["visuals_dir"] / "supplementary_sensitivity_dashboard.png"
-    save_figure(fig, out)
-    return out
-
-
-def _plot_dimension_heatmap(paths: Dict[str, Path], gap_stability: pd.DataFrame) -> Path:
-    apply_rcparams()
-    part_order = [p for p in ("part1", "part2", "part3", "part4", "part5") if p in set(gap_stability["part"])]
-    dim_order = list(dict.fromkeys(gap_stability["dimension"].tolist()))
-    matrix = np.full((len(part_order), len(dim_order)), np.nan)
-    for i, part in enumerate(part_order):
-        for j, dim in enumerate(dim_order):
-            vals = gap_stability.loc[
-                (gap_stability["part"] == part) & (gap_stability["dimension"] == dim),
-                "mean_gap_sd",
-            ]
-            if not vals.empty:
-                matrix[i, j] = float(vals.iloc[0])
-
-    fig, ax = plt.subplots(figsize=(max(10, 0.45 * len(dim_order)), 5.2))
-    vmax = max(0.05, float(np.nanmax(matrix)) if np.isfinite(matrix).any() else 0.5)
-    im = ax.imshow(matrix, aspect="auto", cmap="YlOrBr", vmin=0, vmax=vmax)
-    ax.set_title("Figure S3. Dimension-level stability of PHOENIX - HCP gaps", fontweight="bold")
-    ax.set_yticks(np.arange(len(part_order)))
-    ax.set_yticklabels([_display_part(p) for p in part_order])
-    ax.set_xticks(np.arange(len(dim_order)))
-    ax.set_xticklabels([_display_dimension(d) for d in dim_order], rotation=40, ha="right", fontsize=7)
+    finite_vals = matrix[np.isfinite(matrix)]
+    vmin = float(np.nanmin(finite_vals)) if finite_vals.size else 0.0
+    vmax = 1.0
+    im = ax.imshow(matrix, aspect="auto", cmap="RdYlGn", vmin=vmin, vmax=vmax)
+    ax.set_xticks(np.arange(len(dims)))
+    ax.set_xticklabels([_display_dim(d) for d in dims],
+                       rotation=38, ha="right", fontsize=7)
+    ax.set_yticks(np.arange(len(parts)))
+    ax.set_yticklabels([_display_part(p) for p in parts], fontsize=9)
     for i in range(matrix.shape[0]):
         for j in range(matrix.shape[1]):
             v = matrix[i, j]
-            if np.isfinite(v):
-                ax.text(j, i, f"{v:.2f}", ha="center", va="center", fontsize=6)
-    cbar = fig.colorbar(im, ax=ax, shrink=0.8)
-    cbar.set_label("Mean within-cell SD of paired gap")
-    fig.text(
-        0.01,
-        0.01,
-        "Note. Each cell aggregates three repeated judge runs within case and dimension. Lower values indicate more stable PHOENIX - HCP estimates.",
-        ha="left",
-        va="bottom",
-        fontsize=9,
-    )
-    fig.tight_layout(rect=[0, 0.06, 1, 0.95])
-    out = paths["visuals_dir"] / "supplementary_dimension_stability_heatmap.png"
+            if not np.isfinite(v):
+                continue
+            tc = "white" if v < 0.4 or v > 0.85 else "black"
+            ax.text(j, i, f"{v:.2f}", ha="center", va="center", fontsize=6.5, color=tc)
+    plt.colorbar(im, ax=ax, label="ICC(2,1)")
+    ax.set_xlabel("Dimension")
+    ax.set_ylabel("Part")
+
+    # Right panel: violin / strip of ICC values per part
+    ax2 = axes[1]
+    icc_by_part = []
+    part_tick_labels = []
+    for part in parts:
+        vals = icc_df.loc[icc_df["part"] == part, "icc"].dropna().to_numpy()
+        vals = vals[np.isfinite(vals)]
+        if len(vals):
+            icc_by_part.append(vals)
+            part_tick_labels.append(_display_part(part))
+
+    if icc_by_part:
+        vp = ax2.violinplot(
+            icc_by_part,
+            positions=np.arange(len(icc_by_part)),
+            showmedians=True,
+            widths=0.6,
+        )
+        for body in vp["bodies"]:
+            body.set_facecolor(PALETTE["primary"])
+            body.set_alpha(0.55)
+        for key in ("cmedians", "cbars", "cmins", "cmaxes"):
+            if key in vp:
+                vp[key].set_color(PALETTE["ref_line"])
+        # Overlay individual points
+        rng = np.random.default_rng(42)
+        for i, vals in enumerate(icc_by_part):
+            jit = rng.uniform(-0.15, 0.15, size=len(vals))
+            ax2.scatter(i + jit, vals, color=PALETTE["primary"],
+                        s=18, alpha=0.7, zorder=3, edgecolors="white", linewidths=0.3)
+    ax2.set_xticks(np.arange(len(part_tick_labels)))
+    ax2.set_xticklabels(part_tick_labels, rotation=35, ha="right", fontsize=8)
+    ax2.set_ylabel("ICC(2,1)")
+    ax2.set_ylim(-0.1, 1.05)
+    ax2.axhline(0.75, color=PALETTE["ref_line"], linestyle="--", linewidth=0.9, alpha=0.6)
+    ax2.axhline(0.5, color=PALETTE["danger"], linestyle=":", linewidth=0.9, alpha=0.5)
+    ax2.text(len(part_tick_labels) - 0.4, 0.76, "0.75", fontsize=7,
+             color=PALETTE["ref_line"], va="bottom")
+
+    plt.tight_layout()
+    out = visuals_dir / "suppA_icc_stability.png"
     save_figure(fig, out)
     return out
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Supp B: Score calibration diagnostics
+# ─────────────────────────────────────────────────────────────────────────────
+
+def compute_calibration(df: pd.DataFrame) -> pd.DataFrame:
+    """Ceiling (% = 5), floor (% = 1), mean, SD by part × entity."""
+    rows: List[Dict[str, Any]] = []
+    for (part, entity), sub in df.groupby(["part", "entity"], observed=True):
+        scores = sub["quality_score"].dropna().to_numpy(dtype=float)
+        n = len(scores)
+        if n == 0:
+            continue
+        rows.append({
+            "part": part,
+            "entity": entity,
+            "n": n,
+            "mean": float(np.mean(scores)),
+            "sd": float(np.std(scores, ddof=1)) if n > 1 else 0.0,
+            "ceiling_pct": float(np.sum(scores == 5) / n * 100),
+            "floor_pct": float(np.sum(scores == 1) / n * 100),
+        })
+    return pd.DataFrame(rows)
+
+
+def compute_score_distribution(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Score distribution heatmap data: for each part × entity, % at each score value.
+    """
+    rows: List[Dict[str, Any]] = []
+    score_vals = [1, 2, 3, 4, 5]
+    for (part, entity), sub in df.groupby(["part", "entity"], observed=True):
+        scores = sub["quality_score"].dropna().to_numpy(dtype=float)
+        n = len(scores)
+        if n == 0:
+            continue
+        for s in score_vals:
+            rows.append({
+                "part": part,
+                "entity": entity,
+                "score_value": s,
+                "pct": float(np.sum(scores == s) / n * 100),
+            })
+    return pd.DataFrame(rows)
+
+
+def _plot_calibration(
+    calib_df: pd.DataFrame,
+    dist_df: pd.DataFrame,
+    visuals_dir: Path,
+) -> Path:
+    apply_rcparams()
+    parts = [p for p in ("part1", "part2", "part3", "part4", "part5")
+             if p in set(calib_df["part"])]
+
+    fig, (ax_top, ax_bot) = plt.subplots(2, 1, figsize=(10, 9))
+
+    # Top panel: grouped bar chart of ceiling% by part × entity
+    x = np.arange(len(parts))
+    width = 0.36
+    for idx, (entity, color, label) in enumerate([
+        ("phoenix", COLOR_PHOENIX, "PHOENIX"),
+        ("hcp",     COLOR_HCP,     "HCP"),
+    ]):
+        sub = calib_df.loc[calib_df["entity"] == entity]
+        ceiling_vals = [
+            float(sub.loc[sub["part"] == p, "ceiling_pct"].mean()) if p in sub["part"].values else 0.0
+            for p in parts
+        ]
+        ax_top.bar(
+            x + (idx - 0.5) * width,
+            ceiling_vals,
+            width,
+            label=label,
+            color=color,
+            alpha=0.82,
+        )
+
+    ax_top.set_ylabel("Ceiling rate (% scores = 5)")
+    ax_top.set_xticks(x)
+    ax_top.set_xticklabels([_display_part(p) for p in parts])
+    ax_top.set_ylim(0, 105)
+    ax_top.legend(frameon=False)
+    ax_top.axhline(20, color=PALETTE["ref_line"], linestyle="--",
+                   linewidth=0.8, alpha=0.5)
+    ax_top.text(len(parts) - 0.5, 21, "20%", fontsize=8,
+                color=PALETTE["ref_line"], va="bottom")
+
+    # Bottom panel: score distribution heatmap (part × score value), normalized to %
+    # Show PHOENIX and HCP side-by-side as sub-rows
+    if dist_df.empty:
+        ax_bot.text(0.5, 0.5, "No distribution data", ha="center", va="center",
+                    transform=ax_bot.transAxes)
+    else:
+        score_vals = [1, 2, 3, 4, 5]
+        n_rows = len(parts) * 2  # PHOENIX row, HCP row per part
+        matrix = np.zeros((n_rows, len(score_vals)))
+        row_labels = []
+        for i, part in enumerate(parts):
+            for j_ent, entity in enumerate(["phoenix", "hcp"]):
+                row_idx = i * 2 + j_ent
+                row_labels.append(f"{_display_part(part)} {'(PH)' if entity == 'phoenix' else '(HCP)'}")
+                for k, sv in enumerate(score_vals):
+                    val = dist_df.loc[
+                        (dist_df["part"] == part) &
+                        (dist_df["entity"] == entity) &
+                        (dist_df["score_value"] == sv),
+                        "pct"
+                    ]
+                    if not val.empty:
+                        matrix[row_idx, k] = float(val.iloc[0])
+
+        im = ax_bot.imshow(matrix, aspect="auto", cmap="Blues", vmin=0, vmax=100)
+        ax_bot.set_xticks(np.arange(len(score_vals)))
+        ax_bot.set_xticklabels([str(s) for s in score_vals])
+        ax_bot.set_yticks(np.arange(n_rows))
+        ax_bot.set_yticklabels(row_labels, fontsize=8)
+        ax_bot.set_xlabel("Score value (1 = poor, 5 = excellent)")
+        ax_bot.set_ylabel("Part × Source")
+        for i in range(n_rows):
+            for j in range(len(score_vals)):
+                v = matrix[i, j]
+                tc = "white" if v > 60 else "black"
+                ax_bot.text(j, i, f"{v:.0f}%", ha="center", va="center",
+                            fontsize=7, color=tc)
+        plt.colorbar(im, ax=ax_bot, label="% of scores", shrink=0.7)
+
+    plt.tight_layout()
+    out = visuals_dir / "suppB_calibration_diagnostics.png"
+    save_figure(fig, out)
+    return out
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Supp C: Confidence-weighted sensitivity (forest plot)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def compute_sensitivity(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    For each part: compute unweighted and confidence-weighted PHOENIX–HCP gaps
+    using a weighted least squares approach (weight = confidence score).
+    """
+    rows: List[Dict[str, Any]] = []
+    parts = [p for p in ("part1", "part2", "part3", "part4", "part5")
+             if p in set(df["part"])]
+
+    for part in parts:
+        sub = df.loc[df["part"] == part].copy()
+
+        # Unweighted mean gap
+        ph = sub.loc[sub["entity"] == "phoenix", "quality_score"].dropna()
+        hc = sub.loc[sub["entity"] == "hcp", "quality_score"].dropna()
+        unweighted_gap = float(ph.mean() - hc.mean()) if (len(ph) and len(hc)) else 0.0
+
+        # SE of unweighted gap
+        if len(ph) > 1 and len(hc) > 1:
+            se_uw = float(np.sqrt(
+                ph.var(ddof=1) / len(ph) + hc.var(ddof=1) / len(hc)
+            ))
+        else:
+            se_uw = 0.0
+
+        # Confidence-weighted: WLS with weight = confidence
+        ph_sub = sub.loc[sub["entity"] == "phoenix"].dropna(subset=["quality_score", "confidence"])
+        hc_sub = sub.loc[sub["entity"] == "hcp"].dropna(subset=["quality_score", "confidence"])
+
+        if len(ph_sub) and len(hc_sub):
+            w_ph = ph_sub["confidence"].to_numpy(dtype=float)
+            w_hc = hc_sub["confidence"].to_numpy(dtype=float)
+            s_ph = ph_sub["quality_score"].to_numpy(dtype=float)
+            s_hc = hc_sub["quality_score"].to_numpy(dtype=float)
+            wm_ph = float(np.average(s_ph, weights=w_ph))
+            wm_hc = float(np.average(s_hc, weights=w_hc))
+            weighted_gap = wm_ph - wm_hc
+            # SE via weighted variance
+            def _wse(s: np.ndarray, w: np.ndarray) -> float:
+                w = w / w.sum()
+                wm = float(np.dot(w, s))
+                n_eff = 1.0 / np.sum(w ** 2)
+                wvar = float(np.dot(w, (s - wm) ** 2)) * n_eff / max(n_eff - 1, 1)
+                return float(np.sqrt(wvar / max(len(s), 1)))
+            se_w = float(np.sqrt(_wse(s_ph, w_ph) ** 2 + _wse(s_hc, w_hc) ** 2))
+        else:
+            weighted_gap = unweighted_gap
+            se_w = se_uw
+
+        rows.append({
+            "part": part,
+            "part_label": _display_part(part),
+            "unweighted_gap": unweighted_gap,
+            "se_unweighted": se_uw,
+            "weighted_gap": weighted_gap,
+            "se_weighted": se_w,
+            "absolute_change": abs(weighted_gap - unweighted_gap),
+        })
+    return pd.DataFrame(rows)
+
+
+def _plot_sensitivity(
+    sens_df: pd.DataFrame,
+    visuals_dir: Path,
+) -> Path:
+    apply_rcparams()
+    if sens_df.empty:
+        fig, ax = plt.subplots(figsize=(6, 4))
+        ax.text(0.5, 0.5, "No sensitivity data", ha="center", va="center",
+                transform=ax.transAxes)
+        out = visuals_dir / "suppC_sensitivity_forest.png"
+        save_figure(fig, out)
+        return out
+
+    parts = sens_df["part_label"].tolist()
+    n = len(parts)
+    y_pos = np.arange(n, dtype=float)
+
+    fig, ax = plt.subplots(figsize=(9, max(3.5, 0.8 * n + 1.5)))
+
+    offset = 0.22
+    for i, row in sens_df.iterrows():
+        yi = float(y_pos[list(sens_df.index).index(i)])
+
+        # Unweighted (grey)
+        uw = float(row["unweighted_gap"])
+        se_uw = float(row["se_unweighted"])
+        ci_lo_uw = uw - 1.96 * se_uw
+        ci_hi_uw = uw + 1.96 * se_uw
+        ax.plot([ci_lo_uw, ci_hi_uw], [yi + offset, yi + offset],
+                color=PALETTE["neutral"], lw=2.2, alpha=0.85, solid_capstyle="round")
+        ax.plot(uw, yi + offset, "o", ms=8, color=PALETTE["neutral"],
+                markeredgecolor="white", markeredgewidth=1.2, zorder=5)
+
+        # Weighted (colored)
+        wg = float(row["weighted_gap"])
+        se_wg = float(row["se_weighted"])
+        ci_lo_wg = wg - 1.96 * se_wg
+        ci_hi_wg = wg + 1.96 * se_wg
+        color = COLOR_PHOENIX if wg >= 0 else COLOR_HCP
+        ax.plot([ci_lo_wg, ci_hi_wg], [yi - offset, yi - offset],
+                color=color, lw=2.2, alpha=0.85, solid_capstyle="round")
+        ax.plot(wg, yi - offset, "D", ms=8, color=color,
+                markeredgecolor="white", markeredgewidth=1.2, zorder=5)
+
+        # Annotate absolute change
+        ax.text(
+            max(ci_hi_uw, ci_hi_wg) + 0.08, yi,
+            f"Δ={row['absolute_change']:.3f}",
+            va="center", ha="left", fontsize=7.5, color="#374151",
+        )
+
+    ax.axvline(0, color="black", linestyle="--", lw=1.0, alpha=0.55)
+    ax.set_yticks(y_pos)
+    ax.set_yticklabels(parts, fontsize=10)
+    ax.set_xlabel("PHOENIX − HCP quality gap (scale 1–5)")
+    ax.invert_yaxis()
+
+    legend_elems = [
+        mpatches.Patch(color=PALETTE["neutral"], alpha=0.85, label="Unweighted"),
+        mpatches.Patch(color=COLOR_PHOENIX, alpha=0.85, label="Confidence-weighted"),
+    ]
+    ax.legend(handles=legend_elems, loc="lower right", fontsize=9, framealpha=0.7)
+
+    plt.tight_layout()
+    out = visuals_dir / "suppC_sensitivity_forest.png"
+    save_figure(fig, out)
+    return out
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Supp D: Per-case heterogeneity
+# ─────────────────────────────────────────────────────────────────────────────
+
+def compute_case_heterogeneity(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    For each (case_id, part): mean PHOENIX − HCP quality gap
+    (averaged over dimensions and judge runs).
+    """
+    rows: List[Dict[str, Any]] = []
+    for (case_id, part), sub in df.groupby(["case_id", "part"], observed=True):
+        ph_mean = float(sub.loc[sub["entity"] == "phoenix", "quality_score"].mean())
+        hc_mean = float(sub.loc[sub["entity"] == "hcp", "quality_score"].mean())
+        if np.isfinite(ph_mean) and np.isfinite(hc_mean):
+            rows.append({
+                "case_id": case_id,
+                "part": part,
+                "gap": ph_mean - hc_mean,
+                "n_phoenix": int((sub["entity"] == "phoenix").sum()),
+                "n_hcp": int((sub["entity"] == "hcp").sum()),
+            })
+    return pd.DataFrame(rows)
+
+
+def _plot_case_heterogeneity(
+    het_df: pd.DataFrame,
+    visuals_dir: Path,
+) -> Path:
+    apply_rcparams()
+    parts = [p for p in ("part1", "part2", "part3", "part4", "part5")
+             if p in set(het_df["part"])]
+    cases = sorted(het_df["case_id"].unique().tolist())
+
+    matrix = np.full((len(cases), len(parts)), np.nan)
+    for i, case in enumerate(cases):
+        for j, part in enumerate(parts):
+            val = het_df.loc[
+                (het_df["case_id"] == case) & (het_df["part"] == part), "gap"
+            ]
+            if not val.empty:
+                matrix[i, j] = float(val.iloc[0])
+
+    finite_vals = matrix[np.isfinite(matrix)]
+    vabs = max(0.3, float(np.max(np.abs(finite_vals)))) if finite_vals.size else 0.5
+
+    fig, ax = plt.subplots(figsize=(max(6, 1.2 * len(parts)), max(5, 0.55 * len(cases) + 1.5)))
+    im = ax.imshow(matrix, aspect="auto", cmap="RdBu_r", vmin=-vabs, vmax=vabs)
+
+    ax.set_xticks(np.arange(len(parts)))
+    ax.set_xticklabels([_display_part(p) for p in parts], fontsize=9)
+    ax.set_yticks(np.arange(len(cases)))
+    ax.set_yticklabels(cases, fontsize=9)
+    ax.set_xlabel("Part")
+    ax.set_ylabel("Case")
+
+    for i in range(matrix.shape[0]):
+        for j in range(matrix.shape[1]):
+            v = matrix[i, j]
+            if not np.isfinite(v):
+                continue
+            tc = "white" if abs(v) > 0.55 * vabs else "black"
+            ax.text(j, i, f"{v:+.2f}", ha="center", va="center",
+                    fontsize=8, color=tc, fontweight="bold")
+
+    plt.colorbar(im, ax=ax, label="PHOENIX − HCP quality gap (1–5 scale)")
+    plt.tight_layout()
+    out = visuals_dir / "suppD_case_heterogeneity.png"
+    save_figure(fig, out)
+    return out
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Combined multi-panel figures
+# ─────────────────────────────────────────────────────────────────────────────
+
 def _write_report(
     paths: Dict[str, Path],
-    config: SupplementaryStudyConfig,
-    df: pd.DataFrame,
-    paired: pd.DataFrame,
-    rating_stability: pd.DataFrame,
-    gap_stability: pd.DataFrame,
-    sensitivity: pd.DataFrame,
-    scale_use: pd.DataFrame,
-    run_level: pd.DataFrame,
+    icc_df: pd.DataFrame,
+    calib_df: pd.DataFrame,
+    sens_df: pd.DataFrame,
+    het_df: pd.DataFrame,
+    n_rows: int,
 ) -> Path:
-    n_runs = int(df["judge_run"].nunique())
-    global_rating_sd = float(rating_stability["mean_rating_sd"].mean())
-    global_gap_sd = float(gap_stability["mean_gap_sd"].mean())
-    global_sign = float(gap_stability["sign_consistency"].mean())
-    max_sens = float(sensitivity["absolute_change"].max()) if not sensitivity.empty else 0.0
-    ceiling = (
-        scale_use.pivot(index="part", columns="entity", values="ceiling_rate")
-        .reset_index()
-        if not scale_use.empty
-        else pd.DataFrame()
-    )
-
     lines: List[str] = [
-        config.title,
-        "=" * len(config.title),
+        "Supplementary Analyses Report",
+        "=" * 60,
         "",
-        f"Repeated judge runs: {n_runs}",
-        f"Rows analysed: {len(df):,}",
-        f"Paired PHOENIX-HCP cells: {len(paired):,}",
+        f"Rows analysed: {n_rows:,}",
         "",
-        "Primary stability metrics",
-        "-------------------------",
-        f"Mean within-cell rating SD: {global_rating_sd:.3f} quality points.",
-        f"Mean within-cell PHOENIX - HCP gap SD: {global_gap_sd:.3f} quality points.",
-        f"Mean directional consistency across repeated runs: {global_sign:.3f}.",
-        f"Maximum absolute change after confidence weighting: {max_sens:.3f} quality points.",
-        "",
-        "Interpretation",
-        "--------------",
-        "The supplementary analyses quantify run-to-run stability rather than re-test the primary hypothesis. "
-        "For three repeated runs, low rating SD, low gap SD, and stable sign direction support the reliability "
-        "of the primary PHOENIX versus HCP estimates.",
-        "",
-        "Figure S1. Judge-run stability across three repeated ratings.",
-        "Note. Panels show rating variability, paired-gap variability, sign consistency, and run-level global gap.",
-        "",
-        "Figure S2. Confidence weighting and scale-use diagnostics.",
-        "Note. The sensitivity panel checks whether conclusions change when high-confidence ratings receive greater weight. "
-        "The ceiling panel checks whether the 1 to 5 quality scale is compressed at the top end.",
-        "",
-        "Figure S3. Dimension-level stability of PHOENIX - HCP gaps.",
-        "Note. Lower heatmap values indicate more stable repeated-judge estimates.",
-        "",
-        "Part-level ceiling rates",
-        "------------------------",
+        "Supp A: Judge-run stability (ICC)",
+        "-" * 40,
     ]
-    if ceiling.empty:
-        lines.append("(no ceiling-rate table available)")
-    else:
-        for _, row in ceiling.iterrows():
-            ph = row.get("phoenix", np.nan)
-            hc = row.get("hcp", np.nan)
-            lines.append(f"{_display_part(row['part'])}: PHOENIX={ph:.3f}, HCP={hc:.3f}")
+    if not icc_df.empty:
+        global_icc = float(icc_df["icc"].mean(skipna=True))
+        lines.append(f"  Global mean ICC(2,1) across all part×dimension strata: {global_icc:.3f}")
+        for part in ("part1", "part2", "part3", "part4", "part5"):
+            sub = icc_df.loc[icc_df["part"] == part, "icc"].dropna()
+            if not sub.empty:
+                lines.append(f"  {_display_part(part)}: mean ICC = {sub.mean():.3f}, "
+                             f"min = {sub.min():.3f}, max = {sub.max():.3f}")
+        lines.append("")
+        lines.append("  Benchmarks: ICC ≥ 0.75 = good, 0.50–0.75 = moderate, < 0.50 = poor.")
 
-    out = paths["report_dir"] / config.report_name
+    lines += [
+        "",
+        "Supp B: Score calibration diagnostics",
+        "-" * 40,
+    ]
+    if not calib_df.empty:
+        for (part, entity), row in calib_df.groupby(["part", "entity"], observed=True):
+            r = row.iloc[0]
+            lines.append(
+                f"  {_display_part(part)} [{entity.upper():6s}]: "
+                f"mean={r['mean']:.3f}, SD={r['sd']:.3f}, "
+                f"ceiling={r['ceiling_pct']:.1f}%, floor={r['floor_pct']:.1f}%"
+            )
+
+    lines += [
+        "",
+        "Supp C: Confidence-weighted sensitivity",
+        "-" * 40,
+    ]
+    if not sens_df.empty:
+        max_change = float(sens_df["absolute_change"].max())
+        lines.append(
+            f"  Max absolute change after confidence weighting: {max_change:.3f} quality points."
+        )
+        for _, row in sens_df.iterrows():
+            lines.append(
+                f"  {row['part_label']}: "
+                f"unweighted={row['unweighted_gap']:+.3f}, "
+                f"weighted={row['weighted_gap']:+.3f}, "
+                f"Δ={row['absolute_change']:.3f}"
+            )
+
+    lines += [
+        "",
+        "Supp D: Per-case heterogeneity",
+        "-" * 40,
+    ]
+    if not het_df.empty:
+        overall_gap = float(het_df["gap"].mean())
+        gap_sd = float(het_df["gap"].std(ddof=1))
+        lines.append(f"  Grand mean PHOENIX−HCP gap: {overall_gap:+.3f} (SD={gap_sd:.3f})")
+        driving = het_df.loc[het_df["gap"].abs() > 0.5, ["case_id", "part", "gap"]]
+        if not driving.empty:
+            lines.append(f"  Cells with |gap| > 0.5: {len(driving)}")
+        for case_id in sorted(het_df["case_id"].unique()):
+            case_mean = float(het_df.loc[het_df["case_id"] == case_id, "gap"].mean())
+            lines.append(f"  {case_id}: mean gap = {case_mean:+.3f}")
+
+    out = paths["report_dir"] / "supplementary_report.txt"
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return out
 
 
-def run(config: SupplementaryStudyConfig | None = None) -> Dict[str, Any]:
-    config = config or SupplementaryStudyConfig()
+# ─────────────────────────────────────────────────────────────────────────────
+# Public entry point
+# ─────────────────────────────────────────────────────────────────────────────
+
+def run_supplementary_analyses(csv_path: Path) -> Dict[str, Any]:
+    """
+    Run all four supplementary analyses and save figures.
+
+    Parameters
+    ----------
+    csv_path : Path
+        Path to the long-format judgments CSV.
+
+    Returns
+    -------
+    dict with keys: icc, calibration, sensitivity, heterogeneity, figures.
+    """
     apply_rcparams()
-    paths = ensure_study_dirs(config.study_slug)
-    csv_path = config.judgments_path or judgments_csv()
+    paths = ensure_study_dirs("supplementary")
+    visuals_dir = paths["visuals_dir"]
 
-    df = _load_judgments(csv_path)
-    df = df.loc[df["part"].isin(config.part_order)].copy()
-    paired = _paired_scores(df)
+    df = _load(csv_path)
 
-    stability = _compute_stability(df, paired)
-    sensitivity = _compute_confidence_sensitivity(df, paired)
-    scale_use = _compute_scale_use(df)
-    run_level = _compute_run_level(paired)
+    # A: ICC
+    icc_df = compute_icc(df)
 
-    stability["cell_stability"].to_csv(paths["report_dir"] / "cell_stability.csv", index=False)
-    stability["rating_stability"].to_csv(paths["report_dir"] / "rating_stability_by_dimension.csv", index=False)
-    stability["gap_cell_stability"].to_csv(paths["report_dir"] / "gap_cell_stability.csv", index=False)
-    stability["gap_stability"].to_csv(paths["report_dir"] / "gap_stability_by_dimension.csv", index=False)
-    sensitivity.to_csv(paths["report_dir"] / "confidence_weighted_sensitivity.csv", index=False)
-    scale_use.to_csv(paths["report_dir"] / "scale_use_by_part.csv", index=False)
-    run_level.to_csv(paths["report_dir"] / "run_level_stability.csv", index=False)
+    # B: Calibration
+    calib_df = compute_calibration(df)
+    dist_df = compute_score_distribution(df)
 
-    figs = [
-        _plot_stability_dashboard(
-            paths,
-            stability["rating_stability"],
-            stability["gap_stability"],
-            run_level,
-        ),
-        _plot_sensitivity_dashboard(paths, sensitivity, scale_use),
-        _plot_dimension_heatmap(paths, stability["gap_stability"]),
-    ]
+    # C: Sensitivity
+    sens_df = compute_sensitivity(df)
+
+    # D: Per-case heterogeneity
+    het_df = compute_case_heterogeneity(df)
+
+    # Save CSV outputs
+    icc_df.to_csv(paths["report_dir"] / "suppA_icc.csv", index=False)
+    calib_df.to_csv(paths["report_dir"] / "suppB_calibration.csv", index=False)
+    sens_df.to_csv(paths["report_dir"] / "suppC_sensitivity.csv", index=False)
+    het_df.to_csv(paths["report_dir"] / "suppD_heterogeneity.csv", index=False)
+
+    # Generate figures
+    fig_icc = _plot_icc(icc_df, visuals_dir)
+    fig_calib = _plot_calibration(calib_df, dist_df, visuals_dir)
+    fig_sens = _plot_sensitivity(sens_df, visuals_dir)
+    fig_het = _plot_case_heterogeneity(het_df, visuals_dir)
+
+    # Text report
     report_path = _write_report(
-        paths,
-        config,
-        df,
-        paired,
-        stability["rating_stability"],
-        stability["gap_stability"],
-        sensitivity,
-        scale_use,
-        run_level,
+        paths, icc_df, calib_df, sens_df, het_df, n_rows=len(df)
     )
+
     return {
-        "study_slug": config.study_slug,
+        "icc": icc_df,
+        "calibration": calib_df,
+        "sensitivity": sens_df,
+        "heterogeneity": het_df,
+        "figures": [fig_icc, fig_calib, fig_sens, fig_het],
         "report_path": report_path,
-        "figures": figs,
-        "rating_stability": stability["rating_stability"],
-        "gap_stability": stability["gap_stability"],
-        "sensitivity": sensitivity,
-        "scale_use": scale_use,
-        "run_level": run_level,
+        "global_icc_mean": float(icc_df["icc"].mean(skipna=True)) if not icc_df.empty else float("nan"),
+        "max_sensitivity_change": float(sens_df["absolute_change"].max()) if not sens_df.empty else 0.0,
+        "grand_mean_gap": float(het_df["gap"].mean()) if not het_df.empty else 0.0,
     }
+
+
+def run(config=None) -> Dict[str, Any]:
+    """
+    Entry point called by the pipeline.
+
+    Accepts an optional legacy config argument (ignored) for backward
+    compatibility with the old SupplementaryStudyConfig interface.
+    """
+    csv_path = judgments_csv()
+    return run_supplementary_analyses(csv_path)
 
 
 if __name__ == "__main__":

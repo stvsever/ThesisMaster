@@ -368,7 +368,6 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
         effects=[part_effects[p]["coefficient"] for p in parts_present],
         ci_lowers=[part_effects[p]["ci_lower"] for p in parts_present],
         ci_uppers=[part_effects[p]["ci_upper"] for p in parts_present],
-        title="PHOENIX − HCP quality effect per part\n(entity_ec coefficient, 1–5 scale)",
         xlabel="Mean quality difference (PHOENIX − HCP, scale 1–5)",
         ref_line=0.0,
         p_values=[part_effects[p]["p_value_holm"] for p in parts_present],
@@ -396,7 +395,6 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
         raincloud_plot(
             ax,
             data_dict={"PHOENIX": ph_v, "HCP": hc_v},
-            title=_display_part(part),
             ylabel="Quality score (1–5)",
             colors=[COLOR_PHOENIX, COLOR_HCP],
             adj_p=holm_p,
@@ -405,7 +403,6 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
         )
         ax.axhline(3.0, color=PALETTE["ref_line"], linestyle="--",
                    linewidth=0.8, alpha=0.5)
-    fig2.suptitle(config.title, fontsize=13, y=1.01, fontweight="bold")
     plt.tight_layout()
     save_figure(fig2, paths["visuals_dir"] / "synthesis_part_raincloud.png")
 
@@ -442,11 +439,6 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
     )
     ax3.set_yticks(np.arange(len(parts_present)))
     ax3.set_yticklabels([_display_part(p) for p in parts_present], fontsize=9)
-    ax3.set_title(
-        "PHOENIX − HCP quality gap per dimension\n"
-        "(blue = PHOENIX higher, red = HCP higher)",
-        fontsize=11, fontweight="bold",
-    )
     for i in range(matrix.shape[0]):
         for j in range(matrix.shape[1]):
             v = matrix[i, j]
@@ -471,7 +463,6 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
         ax4,
         dimensions=[_display_part(p) for p in parts_present],
         tost_results=[part_tosts[p] for p in parts_present],
-        title=f"Synthesis TOST equivalence (δ = ±{config.tost_delta} pts)",
     )
     plt.tight_layout()
     save_figure(fig4, paths["visuals_dir"] / "synthesis_tost.png")

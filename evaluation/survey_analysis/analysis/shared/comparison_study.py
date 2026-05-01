@@ -372,7 +372,6 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
         raincloud_plot(
             ax,
             data_dict={"PHOENIX": r["phoenix_vals"], "HCP": r["hcp_vals"]},
-            title=_display_label(dim),
             ylabel=config.y_label,
             colors=[PALETTE["primary"], PALETTE["secondary"]],
             ylim=(config.quality_min - 0.5, config.quality_max + 0.5),
@@ -387,7 +386,6 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
             fontsize=8,
             color=PALETTE["ref_line"],
         )
-    fig.suptitle(config.title, fontsize=13, y=1.02)
     plt.tight_layout()
     save_figure(
         fig,
@@ -402,7 +400,6 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
         effects=[r["result"].get("coefficient", 0) for r in dim_results.values()],
         ci_lowers=[r["result"]["ci_lower"] for r in dim_results.values()],
         ci_uppers=[r["result"]["ci_upper"] for r in dim_results.values()],
-        title=f"{config.title}: PHOENIX − HCP quality gap",
         xlabel="Quality gap (negative = HCP higher, positive = PHOENIX higher)",
         ref_line=0.0,
         p_values=[r["result"].get("p_value_adj", 1.0) for r in dim_results.values()],
@@ -426,7 +423,6 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
         ax3,
         dimensions=[_display_label(d) for d in dim_results.keys()],
         tost_results=[r["tost"] for r in dim_results.values()],
-        title=f"{config.title}: TOST equivalence (Δ = ± {config.tost_delta})",
     )
     plt.tight_layout()
     save_figure(fig3, paths["visuals_dir"] / f"{config.study_slug}_tost_equivalence.png")
