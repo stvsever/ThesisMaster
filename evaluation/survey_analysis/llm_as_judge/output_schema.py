@@ -3,10 +3,10 @@ JSON schema and parser for absolute per-output quality ratings.
 
 Design (absolute-quality)
 -----------------------------
-The judge rates ONE output at a time on a 1..5 absolute Likert quality
-scale per dimension.  Comparisons between PHOENIX and HCP are never made
-inside the judge call; instead the entity predictor (phoenix vs hcp) is
-estimated in the downstream mixed-model analysis.
+The judge rates ONE output at a time on a bipolar -10..+10 semantic
+differential scale per dimension.  Comparisons between PHOENIX and HCP are
+never made inside the judge call; instead the entity predictor (phoenix vs
+hcp) is estimated in the downstream mixed-model analysis.
 
 Expected JSON shape
 -------------------
@@ -14,7 +14,7 @@ Expected JSON shape
   "ratings": [
     {
       "dimension": "complaint_coverage",
-      "score": 4,
+      "score": 5,
       "confidence": 4,
       "justification": "Covers all three major complaint domains."
     }
@@ -22,13 +22,13 @@ Expected JSON shape
   "extra": {}
 }
 
-Scale anchors
--------------
-1 = Poor      — fails the criterion significantly
-2 = Below average — partially meets the criterion
-3 = Acceptable — meets the criterion adequately
-4 = Good      — clearly meets the criterion well
-5 = Excellent  — exceptional on this criterion
+Scale anchors (−10 to +10, integers only)
+------------------------------------------
+−10 = Catastrophic failure — clinically unusable, may cause harm
+ −5 = Notably deficient  — major gaps requiring extensive revision
+  0 = Acceptable         — meets criterion adequately; fit for clinical use
+ +5 = Clearly good       — above acceptable; no meaningful gaps
++10 = Outstanding        — gold-standard exemplar; definitively exceeds criterion
 """
 
 from __future__ import annotations
@@ -38,10 +38,10 @@ import re
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
 
-# Absolute quality scale constants
-QUALITY_MIN: int = 1
-QUALITY_MAX: int = 5
-QUALITY_NEUTRAL: int = 3
+# Bipolar semantic differential scale constants
+QUALITY_MIN: int = -10
+QUALITY_MAX: int = +10
+QUALITY_NEUTRAL: int = 0
 
 
 @dataclass
@@ -149,9 +149,9 @@ def parse_judge_json(
                 signed = float(entry.get("score", 0))
             except (TypeError, ValueError):
                 signed = 0.0
-            # Map signed -9..+9 to absolute 1..5:
-            # -9 → 1 (very poor), 0 → 3 (neutral), +9 → 5 (excellent)
-            absolute = round(3 + (signed / 9.0) * 2)
+            # Map signed -9..+9 to bipolar -10..+10:
+            # -9 → -10, 0 → 0, +9 → +10
+            absolute = int(round(signed / 9.0 * 10))
             raw_ratings.append({
                 "dimension": entry.get("dimension", ""),
                 "score": absolute,
@@ -181,7 +181,7 @@ def parse_judge_json(
             if dim_key not in seen:
                 seen[dim_key] = DimensionRating(
                     dimension=dim_key,
-                    score=QUALITY_NEUTRAL,
+                    score=QUALITY_NEUTRAL,  # 0 = acceptable on -10..+10 scale
                     confidence=1,
                     justification="missing-from-judge-response",
                 )

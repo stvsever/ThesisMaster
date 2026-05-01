@@ -6,7 +6,7 @@ Statistical model
 For each (part, dimension) the long-format CSV contains one row per
 ``(case_id, part, dimension, judge_run, entity)`` with:
 
-    quality_score  1..5 absolute quality rating
+    quality_score  bipolar −10..+10 quality rating (0 = acceptable)
     entity         "phoenix" | "hcp"
 
 The primary model estimates the PHOENIX–HCP quality gap:
@@ -17,8 +17,8 @@ Where ``entity`` is effect-coded (HCP = -0.5, PHOENIX = +0.5) so the
 intercept = grand mean quality and the entity coefficient = PHOENIX − HCP.
 
 Equivalence testing uses a one-sample TOST on the entity-difference scores
-(phoenix_score − hcp_score per cell) with a default margin of ±0.3 quality
-points (7.5% of the 1–5 range).
+(phoenix_score − hcp_score per cell) with a default margin of ±1.5 quality
+points (7.5% of the −10..+10 range).
 
 Outputs
 -------
@@ -71,10 +71,10 @@ class ComparisonStudyConfig:
     entity_col: str = "entity"
     case_col: str = "case_id"
     run_col: str = "judge_run"
-    quality_min: int = 1
-    quality_max: int = 5
-    y_label: str = "Absolute quality score (1 = poor, 5 = excellent)"
-    tost_delta: float = 0.3   # equivalence margin on the 1–5 quality scale
+    quality_min: int = -10
+    quality_max: int = 10
+    y_label: str = "Quality score (−10 = catastrophic, 0 = acceptable, +10 = outstanding)"
+    tost_delta: float = 1.5   # equivalence margin: 7.5% of the −10..+10 range
 
 
 def _display_label(value: str) -> str:
@@ -85,7 +85,7 @@ def _mean_ci(values: np.ndarray) -> Tuple[float, float, float]:
     vals = np.asarray(values, dtype=float)
     vals = vals[np.isfinite(vals)]
     if len(vals) < 2:
-        m = float(np.mean(vals)) if len(vals) else 3.0
+        m = float(np.mean(vals)) if len(vals) else 0.0
         return m, m, m
     mean = float(np.mean(vals))
     lo, hi = bootstrap_ci_mean(vals, n_boot=2000, seed=42)
@@ -124,7 +124,7 @@ def _fit_entity_lmm(
     Fit the entity-predictor LMM and fall back to a Welch t-test.
 
     The entity predictor is effect-coded so the coefficient gives the
-    PHOENIX − HCP quality gap on the 1–5 scale.
+    PHOENIX − HCP quality gap on the −10..+10 scale.
     """
     work = sub.copy()
     # Effect coding: PHOENIX = +0.5, HCP = -0.5
@@ -246,7 +246,7 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
         "=" * 72,
         "",
         f"Scale: {config.quality_min}..{config.quality_max} "
-        f"(1=poor, 3=acceptable, 5=excellent).",
+        f"(0 = acceptable baseline, +10 = outstanding, −10 = catastrophic failure).",
         f"Equivalence margin (TOST): ± {config.tost_delta} quality points.",
         "Multiplicity correction: Holm–Bonferroni across dimensions.",
         f"Primary model: quality_score ~ entity + (1|{config.case_col}) + "

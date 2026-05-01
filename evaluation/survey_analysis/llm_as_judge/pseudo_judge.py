@@ -1,10 +1,12 @@
 """
 Local stand-in for the absolute-quality LLM judge.
 
-Pseudo mode generates plausible per-output quality scores on the 1..5
-absolute Likert scale used by the judge.  PHOENIX and HCP outputs
-receive scores drawn from different distributions to simulate realistic
-PHOENIX-advantage effects.
+Pseudo mode generates plausible per-output quality scores on the bipolar
+−10..+10 semantic differential scale used by the judge.  0 = acceptable
+baseline; positive = above baseline; negative = below baseline.
+
+PHOENIX and HCP outputs receive scores drawn from different distributions
+to simulate realistic PHOENIX-advantage effects.
 
 This lets the full pipeline run without an OpenRouter API key.
 """
@@ -24,118 +26,119 @@ from .output_schema import DimensionRating, JudgeResponse, QUALITY_MAX, QUALITY_
 logger = logging.getLogger(__name__)
 
 
-# Ground-truth mean quality for each entity on the 1..5 scale.
-# PHOENIX_MEAN and HCP_MEAN are the true underlying quality levels.
-# The difference (PHOENIX - HCP) represents the effect that the statistical
-# model should recover.
+# Ground-truth mean quality for each entity on the bipolar −10..+10 scale.
+# Values rescaled from prior 1–5 estimates via: new = (old − 3) × 5
+# PHOENIX_MEAN > HCP_MEAN on most dimensions; difference represents the
+# effect that the statistical model should recover.
 
 PHOENIX_MEAN_QUALITY: Dict[str, Dict[str, float]] = {
     "part1": {
-        "task_adherence_label_format": 4.2,
-        "complaint_coverage": 4.5,
-        "symptom_boundary_validity": 4.1,
-        "granularity_resolution": 3.8,
-        "nonredundancy_discriminability": 4.0,
-        "clinical_interoperability": 4.3,
-        "ema_measurability": 4.2,
+        "task_adherence_label_format": 6.0,
+        "complaint_coverage": 7.5,
+        "symptom_boundary_validity": 5.5,
+        "granularity_resolution": 4.0,
+        "nonredundancy_discriminability": 5.0,
+        "clinical_interoperability": 6.5,
+        "ema_measurability": 6.0,
     },
     "part2": {
-        "task_adherence_label_format": 4.3,
-        "modifiability_actionability": 4.2,
-        "symptom_relevance": 4.1,
-        "causal_plausibility": 4.4,
-        "daily_ema_feasibility": 4.5,
-        "symptom_option_separation": 4.2,
-        "option_diversity_complementarity": 3.6,
-        "label_precision": 4.0,
+        "task_adherence_label_format": 6.5,
+        "modifiability_actionability": 6.0,
+        "symptom_relevance": 5.5,
+        "causal_plausibility": 7.0,
+        "daily_ema_feasibility": 7.5,
+        "symptom_option_separation": 6.0,
+        "option_diversity_complementarity": 3.0,
+        "label_precision": 5.0,
     },
     "part3": {
-        "ranking_validity_completeness": 4.7,
-        "network_weight_alignment": 4.4,
-        "current_state_integration": 4.2,
-        "edge_direction_interpretation": 4.3,
-        "top_target_defensibility": 4.1,
-        "modifiability_feasibility_weighting": 3.8,
-        "rank_order_coherence": 4.2,
+        "ranking_validity_completeness": 8.5,
+        "network_weight_alignment": 7.0,
+        "current_state_integration": 6.0,
+        "edge_direction_interpretation": 6.5,
+        "top_target_defensibility": 5.5,
+        "modifiability_feasibility_weighting": 4.0,
+        "rank_order_coherence": 6.0,
     },
     "part4": {
-        "valid_candidate_selection": 4.6,
-        "target_item_mapping_accuracy": 4.3,
-        "coverage_balance": 4.5,
-        "measurement_concreteness": 4.3,
-        "directness_specificity": 4.2,
-        "dynamic_informativeness": 4.0,
-        "monitoring_burden_parsimony": 3.8,
-        "feedback_value_for_coaching": 4.2,
+        "valid_candidate_selection": 8.0,
+        "target_item_mapping_accuracy": 6.5,
+        "coverage_balance": 7.5,
+        "measurement_concreteness": 6.5,
+        "directness_specificity": 6.0,
+        "dynamic_informativeness": 5.0,
+        "monitoring_burden_parsimony": 4.0,
+        "feedback_value_for_coaching": 6.0,
     },
     "part5": {
-        "message_format_direct_address": 4.1,
-        "treatment_goal_alignment": 4.3,
-        "barrier_responsiveness": 4.4,
-        "action_specificity_feasibility": 4.5,
-        "behaviour_change_potential": 4.3,
-        "tone_empathy_professionalism": 3.7,
-        "mobile_concision_readability": 4.0,
-        "personalisation_specificity": 4.4,
-        "clinical_safety_nonjudgment": 4.2,
+        "message_format_direct_address": 5.5,
+        "treatment_goal_alignment": 6.5,
+        "barrier_responsiveness": 7.0,
+        "action_specificity_feasibility": 7.5,
+        "behaviour_change_potential": 6.5,
+        "tone_empathy_professionalism": 3.5,
+        "mobile_concision_readability": 5.0,
+        "personalisation_specificity": 7.0,
+        "clinical_safety_nonjudgment": 6.0,
     },
 }
 
 HCP_MEAN_QUALITY: Dict[str, Dict[str, float]] = {
     "part1": {
-        "task_adherence_label_format": 3.9,
-        "complaint_coverage": 3.9,
-        "symptom_boundary_validity": 3.8,
-        "granularity_resolution": 3.7,
-        "nonredundancy_discriminability": 3.8,
-        "clinical_interoperability": 3.7,
-        "ema_measurability": 3.9,
+        "task_adherence_label_format": 4.5,
+        "complaint_coverage": 4.5,
+        "symptom_boundary_validity": 4.0,
+        "granularity_resolution": 3.5,
+        "nonredundancy_discriminability": 4.0,
+        "clinical_interoperability": 3.5,
+        "ema_measurability": 4.5,
     },
     "part2": {
-        "task_adherence_label_format": 3.8,
-        "modifiability_actionability": 3.7,
-        "symptom_relevance": 3.9,
-        "causal_plausibility": 3.8,
-        "daily_ema_feasibility": 3.7,
-        "symptom_option_separation": 3.8,
-        "option_diversity_complementarity": 3.8,
-        "label_precision": 3.9,
+        "task_adherence_label_format": 4.0,
+        "modifiability_actionability": 3.5,
+        "symptom_relevance": 4.5,
+        "causal_plausibility": 4.0,
+        "daily_ema_feasibility": 3.5,
+        "symptom_option_separation": 4.0,
+        "option_diversity_complementarity": 4.0,
+        "label_precision": 4.5,
     },
     "part3": {
-        "ranking_validity_completeness": 4.1,
-        "network_weight_alignment": 3.6,
-        "current_state_integration": 3.7,
-        "edge_direction_interpretation": 3.8,
-        "top_target_defensibility": 3.9,
-        "modifiability_feasibility_weighting": 3.9,
-        "rank_order_coherence": 3.8,
+        "ranking_validity_completeness": 5.5,
+        "network_weight_alignment": 3.0,
+        "current_state_integration": 3.5,
+        "edge_direction_interpretation": 4.0,
+        "top_target_defensibility": 4.5,
+        "modifiability_feasibility_weighting": 4.5,
+        "rank_order_coherence": 4.0,
     },
     "part4": {
-        "valid_candidate_selection": 3.9,
-        "target_item_mapping_accuracy": 3.7,
-        "coverage_balance": 3.7,
-        "measurement_concreteness": 3.8,
-        "directness_specificity": 3.8,
-        "dynamic_informativeness": 3.7,
-        "monitoring_burden_parsimony": 3.9,
-        "feedback_value_for_coaching": 3.7,
+        "valid_candidate_selection": 4.5,
+        "target_item_mapping_accuracy": 3.5,
+        "coverage_balance": 3.5,
+        "measurement_concreteness": 4.0,
+        "directness_specificity": 4.0,
+        "dynamic_informativeness": 3.5,
+        "monitoring_burden_parsimony": 4.5,
+        "feedback_value_for_coaching": 3.5,
     },
     "part5": {
-        "message_format_direct_address": 3.9,
-        "treatment_goal_alignment": 3.9,
-        "barrier_responsiveness": 3.8,
-        "action_specificity_feasibility": 3.7,
-        "behaviour_change_potential": 3.8,
-        "tone_empathy_professionalism": 3.9,
-        "mobile_concision_readability": 3.9,
-        "personalisation_specificity": 3.7,
-        "clinical_safety_nonjudgment": 4.0,
+        "message_format_direct_address": 4.5,
+        "treatment_goal_alignment": 4.5,
+        "barrier_responsiveness": 4.0,
+        "action_specificity_feasibility": 3.5,
+        "behaviour_change_potential": 4.0,
+        "tone_empathy_professionalism": 4.5,
+        "mobile_concision_readability": 4.5,
+        "personalisation_specificity": 3.5,
+        "clinical_safety_nonjudgment": 5.0,
     },
 }
 
-SIGMA_CASE: float = 0.30
-SIGMA_RUN: float = 0.15
-SIGMA_RESID: float = 0.65
+# Variance components on the −10..+10 scale (rescaled from 1–5 estimates × 5)
+SIGMA_CASE: float = 1.50
+SIGMA_RUN: float = 0.75
+SIGMA_RESID: float = 3.25
 
 
 def _hash_seed(*parts: Any) -> int:
@@ -144,12 +147,19 @@ def _hash_seed(*parts: Any) -> int:
 
 
 def _confidence_from_score(score: int) -> int:
-    """Map absolute quality score to rater confidence."""
-    if score <= 1 or score >= 5:
-        return 5
-    if score in (2, 4):
-        return 4
-    return 3
+    """Map bipolar −10..+10 quality score to rater confidence (1–5).
+
+    Extreme scores are typically easier to defend (high confidence);
+    near-zero scores sit in an ambiguous region (lower confidence).
+    """
+    abs_s = abs(score)
+    if abs_s >= 8:
+        return 5   # clearly outstanding or catastrophic — unambiguous
+    if abs_s >= 5:
+        return 4   # strong positive or negative — well-supported
+    if abs_s >= 2:
+        return 3   # moderate — some ambiguity
+    return 2       # near-zero — close to the acceptable baseline, most uncertain
 
 
 def generate_pseudo_response(
@@ -180,7 +190,7 @@ def generate_pseudo_response(
 
     ratings: List[DimensionRating] = []
     for dim in DIMENSIONS_BY_PART[part]:
-        mu = means.get(dim.key, 3.5)
+        mu = means.get(dim.key, 0.0)
         raw = mu + case_intercept + run_intercept + rng.normal(0, SIGMA_RESID)
         score = int(np.clip(round(raw), QUALITY_MIN, QUALITY_MAX))
         ratings.append(DimensionRating(

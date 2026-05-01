@@ -17,7 +17,7 @@ def run() -> Dict[str, Any]:
         study_slug="synthesis",
         title="Cross-part PHOENIX vs HCP quality synthesis",
         report_name="synthesis_report.txt",
-        tost_delta=0.3,   # ±0.3 pts on the 1–5 scale
+        tost_delta=1.5,   # ±1.5 pts on the −10..+10 scale (7.5% of range)
     )
     return run_holistic_synthesis(config)
 

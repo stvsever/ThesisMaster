@@ -10,12 +10,12 @@ For each part and globally, fits:
 where entity_ec is effect-coded: PHOENIX = +0.5, HCP = −0.5.
 
 The coefficient on entity_ec estimates the PHOENIX − HCP quality gap on
-the 1–5 Likert scale; positive values indicate PHOENIX outperforms HCP.
+the bipolar −10..+10 scale; positive values indicate PHOENIX outperforms HCP.
 Uncertainty is quantified with 95% CIs; multiplicity correction uses the
 Holm–Bonferroni procedure across parts.
 
 TOST equivalence testing on difference scores (phoenix − hcp per cell)
-uses delta = ±0.3 quality points (7.5% of the 1–5 scale range).
+uses delta = ±1.5 quality points (7.5% of the −10..+10 scale range).
 """
 
 from __future__ import annotations
@@ -62,9 +62,9 @@ class HolisticStudyConfig:
     title: str = "Cross-part PHOENIX vs HCP quality synthesis"
     report_name: str = "synthesis_report.txt"
     judgments_path: Optional[Path] = None
-    quality_min: float = 1.0
-    quality_max: float = 5.0
-    tost_delta: float = 0.3       # ±0.3 pts on the 1–5 scale
+    quality_min: float = -10.0
+    quality_max: float = 10.0
+    tost_delta: float = 1.5       # ±1.5 pts on the −10..+10 scale (7.5% of range)
     part_order: Sequence[str] = (
         "part1", "part2", "part3", "part4", "part5",
     )
@@ -247,9 +247,9 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
     # ── Column normalisation (support legacy "score" column) ─────────────────
     if "quality_score" not in df.columns:
         if "score" in df.columns:
-            # Legacy signed score: map to absolute via  abs_score = round(3 + (s/9)*2)
+            # Legacy signed score: already on −10..+10, just clamp
             df["quality_score"] = df["score"].astype(float).apply(
-                lambda s: max(1, min(5, round(3.0 + (s / 9.0) * 2.0)))
+                lambda s: max(-10, min(10, int(round(float(s)))))
             )
         else:
             raise ValueError("Judgments CSV missing 'quality_score' column.")
@@ -298,10 +298,10 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
     lines: List[str] = [
         "=" * 72,
         config.title,
-        "Positive effect = PHOENIX outperforms HCP on the 1–5 quality scale.",
+        "Positive effect = PHOENIX outperforms HCP on the −10..+10 quality scale.",
         "=" * 72,
         "",
-        f"Scale: 1 (Poor) – 5 (Excellent); TOST delta = ±{config.tost_delta} pts.",
+        f"Scale: −10..+10 (0 = acceptable, +10 = outstanding); TOST delta = ±{config.tost_delta} pts.",
         "Effect-coding: PHOENIX=+0.5, HCP=−0.5.",
         "Multiplicity correction (per-part): Holm–Bonferroni.",
         "",
@@ -368,12 +368,12 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
         effects=[part_effects[p]["coefficient"] for p in parts_present],
         ci_lowers=[part_effects[p]["ci_lower"] for p in parts_present],
         ci_uppers=[part_effects[p]["ci_upper"] for p in parts_present],
-        xlabel="Mean quality difference (PHOENIX − HCP, scale 1–5)",
+        xlabel="Mean quality difference (PHOENIX − HCP, scale −10 to +10)",
         ref_line=0.0,
         p_values=[part_effects[p]["p_value_holm"] for p in parts_present],
         tost_results=[part_tosts[p] for p in parts_present],
     )
-    ax1.set_xlim(-1.5, 1.5)
+    ax1.set_xlim(-5.0, 5.0)
     plt.tight_layout()
     save_figure(fig1, paths["visuals_dir"] / "synthesis_part_forest.png")
 
@@ -395,13 +395,13 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
         raincloud_plot(
             ax,
             data_dict={"PHOENIX": ph_v, "HCP": hc_v},
-            ylabel="Quality score (1–5)",
+            ylabel="Quality score (−10 to +10)",
             colors=[COLOR_PHOENIX, COLOR_HCP],
             adj_p=holm_p,
-            ylim=(0.7, 5.3),
+            ylim=(-10.5, 10.5),
             show_tost=part_tosts[part],
         )
-        ax.axhline(3.0, color=PALETTE["ref_line"], linestyle="--",
+        ax.axhline(0.0, color=PALETTE["ref_line"], linestyle="--",
                    linewidth=0.8, alpha=0.5)
     plt.tight_layout()
     save_figure(fig2, paths["visuals_dir"] / "synthesis_part_raincloud.png")
@@ -417,7 +417,7 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
     ph_df  = delta_df.loc[delta_df["entity"] == "phoenix"].rename(columns={"quality_score": "q_ph"})
     hcp_df = delta_df.loc[delta_df["entity"] == "hcp"].rename(columns={"quality_score": "q_hcp"})
     wide   = ph_df.merge(hcp_df, on=["part", "dimension"], how="outer")
-    wide["gap"] = wide["q_ph"].fillna(3.0) - wide["q_hcp"].fillna(3.0)
+    wide["gap"] = wide["q_ph"].fillna(0.0) - wide["q_hcp"].fillna(0.0)
 
     all_dims = list(dict.fromkeys(wide["dimension"].astype(str).tolist()))
     matrix   = np.full((len(parts_present), len(all_dims)), np.nan, dtype=float)
@@ -431,7 +431,7 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
         figsize=(max(8, 0.75 * len(all_dims) + 2.5),
                  max(4, 0.65 * len(parts_present) + 1.5))
     )
-    im = ax3.imshow(matrix, cmap="RdBu_r", aspect="auto", vmin=-1.0, vmax=1.0)
+    im = ax3.imshow(matrix, cmap="RdBu_r", aspect="auto", vmin=-3.0, vmax=3.0)
     ax3.set_xticks(np.arange(len(all_dims)))
     ax3.set_xticklabels(
         [_display_dim(d) for d in all_dims],
@@ -447,9 +447,9 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
             ax3.text(
                 j, i, f"{v:+.2f}",
                 ha="center", va="center", fontsize=7,
-                color="white" if abs(v) > 0.55 else "black",
+                color="white" if abs(v) > 1.7 else "black",
             )
-    plt.colorbar(im, ax=ax3, label="Mean quality gap (PHOENIX − HCP, 1–5 scale)")
+    plt.colorbar(im, ax=ax3, label="Mean quality gap (PHOENIX − HCP, −10 to +10 scale)")
     plt.tight_layout()
     save_figure(fig3, paths["visuals_dir"] / "synthesis_gap_heatmap.png")
 

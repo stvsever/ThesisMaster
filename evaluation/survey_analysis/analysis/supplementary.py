@@ -263,7 +263,11 @@ def _plot_icc(
 # ─────────────────────────────────────────────────────────────────────────────
 
 def compute_calibration(df: pd.DataFrame) -> pd.DataFrame:
-    """Ceiling (% = 5), floor (% = 1), mean, SD by part × entity."""
+    """Ceiling (% = +10), floor (% = −10), mean, SD by part × entity.
+
+    On the bipolar −10..+10 scale, ceiling = score of +10 (outstanding),
+    floor = score of −10 (catastrophic failure).
+    """
     rows: List[Dict[str, Any]] = []
     for (part, entity), sub in df.groupby(["part", "entity"], observed=True):
         scores = sub["quality_score"].dropna().to_numpy(dtype=float)
@@ -276,29 +280,43 @@ def compute_calibration(df: pd.DataFrame) -> pd.DataFrame:
             "n": n,
             "mean": float(np.mean(scores)),
             "sd": float(np.std(scores, ddof=1)) if n > 1 else 0.0,
-            "ceiling_pct": float(np.sum(scores == 5) / n * 100),
-            "floor_pct": float(np.sum(scores == 1) / n * 100),
+            "ceiling_pct": float(np.sum(scores == 10) / n * 100),
+            "floor_pct": float(np.sum(scores == -10) / n * 100),
         })
     return pd.DataFrame(rows)
 
 
 def compute_score_distribution(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Score distribution heatmap data: for each part × entity, % at each score value.
+    Score distribution heatmap data: bin scores into 5 meaningful ranges
+    covering the bipolar −10..+10 scale.
+
+    Bins align with the 9-band quality taxonomy used by the judge:
+      −10 to −7  Catastrophic / severely deficient
+      −6 to −3   Below acceptable
+      −2 to +2   Near acceptable (±2)
+      +3 to +6   Good to excellent
+      +7 to +10  Outstanding
     """
+    bins = [
+        ((-10, -7), "−10 to −7"),
+        ((-6, -3),  "−6 to −3"),
+        ((-2,  2),  "−2 to +2"),
+        (( 3,  6),  "+3 to +6"),
+        (( 7, 10),  "+7 to +10"),
+    ]
     rows: List[Dict[str, Any]] = []
-    score_vals = [1, 2, 3, 4, 5]
     for (part, entity), sub in df.groupby(["part", "entity"], observed=True):
         scores = sub["quality_score"].dropna().to_numpy(dtype=float)
         n = len(scores)
         if n == 0:
             continue
-        for s in score_vals:
+        for (lo, hi), label in bins:
             rows.append({
                 "part": part,
                 "entity": entity,
-                "score_value": s,
-                "pct": float(np.sum(scores == s) / n * 100),
+                "score_value": label,
+                "pct": float(np.sum((scores >= lo) & (scores <= hi)) / n * 100),
             })
     return pd.DataFrame(rows)
 
@@ -335,7 +353,7 @@ def _plot_calibration(
             alpha=0.82,
         )
 
-    ax_top.set_ylabel("Ceiling rate (% scores = 5)")
+    ax_top.set_ylabel("Ceiling rate (% scores = +10)")
     ax_top.set_xticks(x)
     ax_top.set_xticklabels([_display_part(p) for p in parts])
     ax_top.set_ylim(0, 105)
@@ -351,15 +369,15 @@ def _plot_calibration(
         ax_bot.text(0.5, 0.5, "No distribution data", ha="center", va="center",
                     transform=ax_bot.transAxes)
     else:
-        score_vals = [1, 2, 3, 4, 5]
+        score_bins = ["−10 to −7", "−6 to −3", "−2 to +2", "+3 to +6", "+7 to +10"]
         n_rows = len(parts) * 2  # PHOENIX row, HCP row per part
-        matrix = np.zeros((n_rows, len(score_vals)))
+        matrix = np.zeros((n_rows, len(score_bins)))
         row_labels = []
         for i, part in enumerate(parts):
             for j_ent, entity in enumerate(["phoenix", "hcp"]):
                 row_idx = i * 2 + j_ent
                 row_labels.append(f"{_display_part(part)} {'(PH)' if entity == 'phoenix' else '(HCP)'}")
-                for k, sv in enumerate(score_vals):
+                for k, sv in enumerate(score_bins):
                     val = dist_df.loc[
                         (dist_df["part"] == part) &
                         (dist_df["entity"] == entity) &
@@ -370,14 +388,14 @@ def _plot_calibration(
                         matrix[row_idx, k] = float(val.iloc[0])
 
         im = ax_bot.imshow(matrix, aspect="auto", cmap="Blues", vmin=0, vmax=100)
-        ax_bot.set_xticks(np.arange(len(score_vals)))
-        ax_bot.set_xticklabels([str(s) for s in score_vals])
+        ax_bot.set_xticks(np.arange(len(score_bins)))
+        ax_bot.set_xticklabels(score_bins, fontsize=8)
         ax_bot.set_yticks(np.arange(n_rows))
         ax_bot.set_yticklabels(row_labels, fontsize=8)
-        ax_bot.set_xlabel("Score value (1 = poor, 5 = excellent)")
+        ax_bot.set_xlabel("Score range (bipolar −10 to +10 scale)")
         ax_bot.set_ylabel("Part × Source")
         for i in range(n_rows):
-            for j in range(len(score_vals)):
+            for j in range(len(score_bins)):
                 v = matrix[i, j]
                 tc = "white" if v > 60 else "black"
                 ax_bot.text(j, i, f"{v:.0f}%", ha="center", va="center",
@@ -509,7 +527,7 @@ def _plot_sensitivity(
     ax.axvline(0, color="black", linestyle="--", lw=1.0, alpha=0.55)
     ax.set_yticks(y_pos)
     ax.set_yticklabels(parts, fontsize=10)
-    ax.set_xlabel("PHOENIX − HCP quality gap (scale 1–5)")
+    ax.set_xlabel("PHOENIX − HCP quality gap (scale −10 to +10)")
     ax.invert_yaxis()
 
     legend_elems = [
@@ -588,7 +606,7 @@ def _plot_case_heterogeneity(
             ax.text(j, i, f"{v:+.2f}", ha="center", va="center",
                     fontsize=8, color=tc, fontweight="bold")
 
-    plt.colorbar(im, ax=ax, label="PHOENIX − HCP quality gap (1–5 scale)")
+    plt.colorbar(im, ax=ax, label="PHOENIX − HCP quality gap (−10 to +10 scale)")
     plt.tight_layout()
     out = visuals_dir / "suppD_case_heterogeneity.png"
     save_figure(fig, out)
@@ -668,9 +686,9 @@ def _write_report(
         overall_gap = float(het_df["gap"].mean())
         gap_sd = float(het_df["gap"].std(ddof=1))
         lines.append(f"  Grand mean PHOENIX−HCP gap: {overall_gap:+.3f} (SD={gap_sd:.3f})")
-        driving = het_df.loc[het_df["gap"].abs() > 0.5, ["case_id", "part", "gap"]]
+        driving = het_df.loc[het_df["gap"].abs() > 2.0, ["case_id", "part", "gap"]]
         if not driving.empty:
-            lines.append(f"  Cells with |gap| > 0.5: {len(driving)}")
+            lines.append(f"  Cells with |gap| > 2.0: {len(driving)}")
         for case_id in sorted(het_df["case_id"].unique()):
             case_mean = float(het_df.loc[het_df["case_id"] == case_id, "gap"].mean())
             lines.append(f"  {case_id}: mean gap = {case_mean:+.3f}")
