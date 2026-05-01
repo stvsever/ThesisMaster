@@ -39,7 +39,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:TE:Essay]]
 [[ID:HCP01_INTAKE_BACKGROUND]]
-(1) Beschrijf kort uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten)
+(1) Beschrijf in zeer algemene termen uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten). Gelieve geen specifieke instellingen of andere identificeerbare details te vermelden.
 
 [[Question:Matrix]]
 [[ID:HCP01_INTAKE_AGENTIC_AI]]
@@ -280,7 +280,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:TE:Essay]]
 [[ID:HCP02_INTAKE_BACKGROUND]]
-(1) Beschrijf kort uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten)
+(1) Beschrijf in zeer algemene termen uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten). Gelieve geen specifieke instellingen of andere identificeerbare details te vermelden.
 
 [[Question:Matrix]]
 [[ID:HCP02_INTAKE_AGENTIC_AI]]
@@ -521,7 +521,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:TE:Essay]]
 [[ID:HCP03_INTAKE_BACKGROUND]]
-(1) Beschrijf kort uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten)
+(1) Beschrijf in zeer algemene termen uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten). Gelieve geen specifieke instellingen of andere identificeerbare details te vermelden.
 
 [[Question:Matrix]]
 [[ID:HCP03_INTAKE_AGENTIC_AI]]
@@ -762,7 +762,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:TE:Essay]]
 [[ID:HCP04_INTAKE_BACKGROUND]]
-(1) Beschrijf kort uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten)
+(1) Beschrijf in zeer algemene termen uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten). Gelieve geen specifieke instellingen of andere identificeerbare details te vermelden.
 
 [[Question:Matrix]]
 [[ID:HCP04_INTAKE_AGENTIC_AI]]
@@ -1003,7 +1003,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:TE:Essay]]
 [[ID:HCP05_INTAKE_BACKGROUND]]
-(1) Beschrijf kort uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten)
+(1) Beschrijf in zeer algemene termen uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten). Gelieve geen specifieke instellingen of andere identificeerbare details te vermelden.
 
 [[Question:Matrix]]
 [[ID:HCP05_INTAKE_AGENTIC_AI]]
@@ -1244,7 +1244,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:TE:Essay]]
 [[ID:HCP06_INTAKE_BACKGROUND]]
-(1) Beschrijf kort uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten)
+(1) Beschrijf in zeer algemene termen uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten). Gelieve geen specifieke instellingen of andere identificeerbare details te vermelden.
 
 [[Question:Matrix]]
 [[ID:HCP06_INTAKE_AGENTIC_AI]]
@@ -1485,7 +1485,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:TE:Essay]]
 [[ID:HCP07_INTAKE_BACKGROUND]]
-(1) Beschrijf kort uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten)
+(1) Beschrijf in zeer algemene termen uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten). Gelieve geen specifieke instellingen of andere identificeerbare details te vermelden.
 
 [[Question:Matrix]]
 [[ID:HCP07_INTAKE_AGENTIC_AI]]
@@ -1726,7 +1726,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:TE:Essay]]
 [[ID:HCP08_INTAKE_BACKGROUND]]
-(1) Beschrijf kort uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten)
+(1) Beschrijf in zeer algemene termen uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten). Gelieve geen specifieke instellingen of andere identificeerbare details te vermelden.
 
 [[Question:Matrix]]
 [[ID:HCP08_INTAKE_AGENTIC_AI]]
@@ -1967,7 +1967,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:TE:Essay]]
 [[ID:HCP09_INTAKE_BACKGROUND]]
-(1) Beschrijf kort uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten)
+(1) Beschrijf in zeer algemene termen uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten). Gelieve geen specifieke instellingen of andere identificeerbare details te vermelden.
 
 [[Question:Matrix]]
 [[ID:HCP09_INTAKE_AGENTIC_AI]]
@@ -2208,7 +2208,7 @@ Nee, ik wens niet deel te nemen. (De survey sluit automatisch af.)
 
 [[Question:TE:Essay]]
 [[ID:HCP10_INTAKE_BACKGROUND]]
-(1) Beschrijf kort uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten)
+(1) Beschrijf in zeer algemene termen uw professionele achtergrond en klinische ervaring (e.g., discipline en huidige functie, aantal jaren klinische ervaring, mate waarin u momenteel werkt met personen met psychische klachten). Gelieve geen specifieke instellingen of andere identificeerbare details te vermelden.
 
 [[Question:Matrix]]
 [[ID:HCP10_INTAKE_AGENTIC_AI]]
