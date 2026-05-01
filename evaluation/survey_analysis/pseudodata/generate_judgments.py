@@ -3,8 +3,8 @@ Generate pseudo judgments by invoking the pseudo-judge over all
 ``(case, part, run)`` cells using the same persistence pipeline as
 ``judge_runner.run_judge``.
 
-GROUND TRUTH (per-dimension PHOENIX - HCP effect, in Likert points)
--------------------------------------------------------------------
+GROUND TRUTH (per-dimension PHOENIX - HCP effect, in signed -9..+9 points)
+--------------------------------------------------------------------------
 See ``llm_as_judge.pseudo_judge.GROUND_TRUTH_EFFECTS``. The downstream
 analysis stage is expected to recover these effects within bootstrap CIs.
 A handful of dimensions are seeded close to zero so the TOST equivalence

@@ -24,6 +24,7 @@ from .dimensions import (
     DIMENSIONS_BY_PART,
     PART_TITLES,
     PROMPT_VERSION,
+    SIGNED_SCALE_ANCHORS,
     Dimension,
     dimensions_for,
 )
@@ -43,8 +44,21 @@ PSEUDO_MODEL_TAG: str = "pseudo-judge-v1"
 
 
 JUDGMENTS_CSV_HEADER: List[str] = [
-    "case_id", "part", "dimension", "judge_run", "source",
-    "rating", "justification", "prompt_version", "model", "timestamp",
+    "case_id",
+    "part",
+    "dimension",
+    "judge_run",
+    "score",
+    "raw_score_a_over_b",
+    "source_a",
+    "source_b",
+    "winner_blind",
+    "winner_source",
+    "confidence",
+    "justification",
+    "prompt_version",
+    "model",
+    "timestamp",
 ]
 
 
@@ -82,12 +96,18 @@ def assign_blind_labels(
 # ──────────────────────────────────────────────────────────────────────────────
 
 def _render_dimensions_block(part: str) -> str:
-    lines: List[str] = []
+    lines: List[str] = [
+        "Global signed comparative scale:",
+        *[f"- {anchor}" for anchor in SIGNED_SCALE_ANCHORS],
+        "",
+        "Dimension-specific criteria:",
+        "",
+    ]
     for dim in dimensions_for(part):
         lines.append(f"### {dim.key}: {dim.display_label}")
         lines.append(f"Goal: {dim.goal_description}")
         lines.append(f"Why this matters: {dim.rationale}")
-        lines.append("Anchors:")
+        lines.append("Comparative examples:")
         lines.append(dim.anchor_block())
         lines.append("")
     return "\n".join(lines).rstrip()
@@ -113,6 +133,21 @@ def render_user_prompt(
     template = load_prompt(part)
     placeholders: Dict[str, str] = {
         "vignette": case_context.get("vignette", "(no vignette provided)"),
+        "case_notes_json": _format_json(case_context.get("case_notes", {})),
+        "standardized_symptoms_json": _format_json(
+            case_context.get("standardized_symptoms", [])
+        ),
+        "standardized_treatment_options_json": _format_json(
+            case_context.get("standardized_treatment_options", [])
+        ),
+        "treatment_targets_json": _format_json(case_context.get("treatment_targets", [])),
+        "candidate_ema_items_json": _format_json(
+            case_context.get("candidate_ema_items", [])
+        ),
+        "primary_problem": str(case_context.get("primary_problem", "(not provided)")),
+        "treatment_goal": str(case_context.get("treatment_goal", "(not provided)")),
+        "barrier": str(case_context.get("barrier", "(not provided)")),
+        "coping_strategy": str(case_context.get("coping_strategy", "(not provided)")),
         "operationalisation_json": _format_json(
             case_context.get("operationalisation", {})
         ),
@@ -160,6 +195,15 @@ def _ensure_csv(path: Path) -> None:
         with path.open("w", newline="", encoding="utf-8") as f:
             writer = csv.writer(f)
             writer.writerow(JUDGMENTS_CSV_HEADER)
+        return
+    with path.open(newline="", encoding="utf-8") as f:
+        reader = csv.reader(f)
+        existing = next(reader, [])
+    if existing != JUDGMENTS_CSV_HEADER:
+        raise ValueError(
+            f"Existing judgments CSV at {path} has an incompatible header. "
+            "Archive or delete it before running the v2 signed judge."
+        )
 
 
 def _append_rows(path: Path, rows: Iterable[List[Any]]) -> None:
@@ -202,7 +246,7 @@ class JudgeRunConfig:
 
 
 def _now_iso() -> str:
-    return dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
+    return dt.datetime.now(dt.UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -292,6 +336,7 @@ def run_judge(
                         expected_keys=expected_keys,
                         n_retries=config.n_retries,
                         json_retries=config.json_retries,
+                        seed=_blind_seed(case_id, part, run_idx),
                     )
 
                 # Persist raw response.
@@ -309,23 +354,34 @@ def run_judge(
                     "response": raw_payload,
                 })
 
-                # Map A/B back to source labels and append rows.
+                # Map A/B back to a PHOENIX-over-HCP signed score and append rows.
                 rows: List[List[Any]] = []
                 ts = _now_iso()
-                for r in response.ratings:
+                for comp in response.comparisons:
+                    raw_score = int(comp.score)
+                    phoenix_score = raw_score if blinding["A"] == "phoenix" else -raw_score
+                    if phoenix_score > 0:
+                        winner_source = "phoenix"
+                    elif phoenix_score < 0:
+                        winner_source = "hcp"
+                    else:
+                        winner_source = "tie"
                     rows.append([
-                        case_id, part, r.dimension, run_idx,
-                        blinding["A"],  # source for rating_a
-                        int(r.rating_a),
-                        r.justification,
-                        PROMPT_VERSION, model_used, ts,
-                    ])
-                    rows.append([
-                        case_id, part, r.dimension, run_idx,
-                        blinding["B"],  # source for rating_b
-                        int(r.rating_b),
-                        r.justification,
-                        PROMPT_VERSION, model_used, ts,
+                        case_id,
+                        part,
+                        comp.dimension,
+                        run_idx,
+                        phoenix_score,
+                        raw_score,
+                        blinding["A"],
+                        blinding["B"],
+                        comp.winner,
+                        winner_source,
+                        int(comp.confidence),
+                        comp.justification,
+                        PROMPT_VERSION,
+                        model_used,
+                        ts,
                     ])
                 _append_rows(csv_path, rows)
 
@@ -339,13 +395,14 @@ def _call_real_judge(
     expected_keys: List[str],
     n_retries: int,
     json_retries: int,
+    seed: Optional[int] = None,
 ) -> Tuple[JudgeResponse, Dict[str, Any], str]:
     """Call the real judge; if JSON parse fails, re-prompt up to json_retries."""
     last_text: Optional[str] = None
     raw_payload: Dict[str, Any] = {}
     last_msgs = list(messages)
     for attempt in range(json_retries + 1):
-        completion = client.chat_with_retry(last_msgs, n_retries=n_retries)
+        completion = client.chat_with_retry(last_msgs, n_retries=n_retries, seed=seed)
         last_text = completion.text
         raw_payload = {"text": completion.text, "raw": completion.raw}
         try:

@@ -28,6 +28,7 @@ from .shared_stats import (
     save_figure,
     tost_panel,
     tost_test,
+    tost_test_one_sample,
 )
 from .survey_paths import (
     DATA_DIR,
@@ -60,6 +61,7 @@ __all__ = [
     "save_figure",
     "tost_panel",
     "tost_test",
+    "tost_test_one_sample",
     "DATA_DIR",
     "JUDGMENTS_DIR",
     "PARSED_DIR",

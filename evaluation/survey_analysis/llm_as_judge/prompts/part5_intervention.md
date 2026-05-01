@@ -1,45 +1,58 @@
 <!--
-PROMPT_VERSION: 2026-05-01-v1
+PROMPT_VERSION: 2026-05-01-v2-signed-comparison
 PART_INDEX: 5
-PART_TITLE: Tailored intervention message
-MODEL: google/gemini-2.5-flash
-TEMPERATURE: 0.7
+PART_TITLE: 05_Mobile_Coaching_Message
+MODEL: google/gemini-3.1-flash-lite-preview
 -->
 
-# Task — Part 5: Tailored intervention message
+# Part 5 - Mobile coaching message
 
-You are evaluating two candidate 2..3 sentence motivational messages tailored
-to the patient's HAPA phase (pre-intentional / intentional / action /
-maintenance).
+You are comparing two anonymous mobile coaching messages for the same case.
+The message should be short enough for a smartphone, written directly to the
+patient, and designed to support a concrete next behaviour.
+
+The survey task asks for 2..4 sentences with warm, direct, professional tone,
+no clinical jargon or diagnostic labels, clear relation to the primary
+treatment goal and main barrier, and one feasible next action.
 
 ## Case context
 
-Patient vignette:
-```
+Free-text complaint / vignette:
+```text
 {{vignette}}
 ```
 
-Updated observational model (the cues the message should reference):
-```json
-{{updated_model_json}}
+Primary problem:
+```text
+{{primary_problem}}
 ```
 
-Top treatment targets (the message should serve these):
-```json
-{{ranking_json}}
+Treatment goal:
+```text
+{{treatment_goal}}
 ```
 
-Assigned HAPA phase for this case (from the survey blueprint):
+Main barrier:
+```text
+{{barrier}}
 ```
+
+Recommended coping strategy / behaviour-shift logic, if available:
+```text
+{{coping_strategy}}
+```
+
+Assigned HAPA phase, if available:
+```text
 {{assigned_hapa_phase}}
 ```
 
 ## Outputs to compare
 
-Both outputs follow the canonical shape
-``{"message": str, "hapa_phase": Optional[str]}``. The ``hapa_phase`` field
-in the outputs is informational only; the assigned phase above is the
-ground truth for this case.
+Both outputs are canonicalised to the same shape:
+```json
+{"message": "2..4 sentence mobile coaching message", "hapa_phase": "optional"}
+```
 
 ### Output A
 ```json
@@ -51,20 +64,29 @@ ground truth for this case.
 {{output_b_json}}
 ```
 
-## Dimensions to rate
+## Dimensions
+
+For each dimension, return one signed A-over-B score on the -9..+9 scale.
+Positive scores favour Output A; negative scores favour Output B; zero means
+no meaningful difference.
 
 {{dimensions_block}}
 
-## Required JSON output
+## Extra field
 
-In addition to ``ratings``, populate ``extra`` with your independent HAPA
-classification of each message:
+If the assigned HAPA phase is available, add your independent phase
+classification for each message:
 
-```
+```json
 "extra": {
-  "hapa_phase_a": "pre_intentional" | "intentional" | "action" | "maintenance",
-  "hapa_phase_b": "pre_intentional" | "intentional" | "action" | "maintenance"
+  "hapa_phase_a": "pre_intentional|intentional|action|maintenance|unknown",
+  "hapa_phase_b": "pre_intentional|intentional|action|maintenance|unknown"
 }
 ```
 
-Use the exact dimension keys. Return STRICT JSON only.
+If HAPA phase is not available, use an empty object: `"extra": {}`.
+
+## JSON only
+
+Return the strict `comparisons` JSON schema from the system prompt. Use every
+dimension key exactly once.

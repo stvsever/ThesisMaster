@@ -1,88 +1,157 @@
 # LLM-as-Judge
 
-Module that compares PHOENIX outputs to HCP outputs in a double-blind manner
-using a single LLM judge (Google Gemini 2.5 Flash, served via OpenRouter).
+This module implements the Phase 2 double-blind judge. It compares an HCP
+output and a PHOENIX output for the same case and survey part, but the model
+only sees anonymous `Output A` and `Output B`.
 
-## Why an LLM judge?
+## Judge Backend
 
-The original evaluation design called for a second round of HCP raters
-(POST-survey). That design imposed a substantial recruitment burden, took
-weeks to execute, and was hard to repeat when the underlying PHOENIX
-outputs changed. A double-blind LLM judge gives us:
+Default real backend:
 
-- **Speed** (full re-runs in minutes, not weeks).
-- **Determinism (modulo temperature)** with reproducible seeds and
-  prompt-version pinning.
-- **Symmetric blinding**: by canonicalising both outputs to identical JSON
-  shapes, the judge cannot tell which side is human.
-- **Per-dimension granularity**: each output is rated on 5..7 dimensions per
-  part, enabling LMM-based effects rather than a single overall score.
+```
+google/gemini-3.1-flash-lite-preview
+```
 
-## Why Gemini 2.5 Flash?
+through OpenRouter. Pseudo mode uses `pseudo_judge.py` and never calls the
+network.
 
-- Strong instruction-following on JSON-mode prompts.
-- Fast enough to run 5 stochastic samples per (case, part) without blowing
-  out the time budget.
-- Generally available through OpenRouter, so this evaluation doesn't pin
-  the project to a specific vendor account.
-- Cost is negligible at this evaluation's volume (10 cases x 5 parts x 5
-  runs = 250 calls).
+## Blinding
 
-The choice is a hyperparameter; substituting any other OpenRouter-served
-model is a one-line change in the orchestrator.
+For every `(case_id, part, judge_run)`:
 
-## Blinding protocol
+1. `judge_runner.assign_blind_labels()` deterministically assigns PHOENIX and
+   HCP to A/B.
+2. Both outputs are canonicalised to the same JSON shape before prompting.
+3. The prompt contains no source metadata.
+4. The raw response JSON stores the blinding key for reproducibility.
+5. `judgments_long.csv` stores the unblinded signed PHOENIX-vs-HCP score.
 
-For each ``(case_id, part, judge_run)`` triple:
+## Scale
 
-1. We compute a deterministic seed from ``hash((case_id, part, judge_run))``.
-2. The least significant bit of the seed decides whether ``A`` is the
-   PHOENIX output or the HCP output.
-3. The judge sees only ``Output A`` and ``Output B``. It receives no
-   metadata about either side.
-4. We persist the unblinding key alongside the raw response.
+The judge returns one signed comparison per dimension:
 
-Across cases this gives roughly 50/50 A-vs-B PHOENIX assignment, balanced
-by construction over the 50 (case x part) cells.
+```
+-9 = Output B is decisively better
+-6 = Output B is strongly better
+-3 = Output B is modestly better
+ 0 = no meaningful difference / tie
++3 = Output A is modestly better
++6 = Output A is strongly better
++9 = Output A is decisively better
+```
 
-## Prompt-engineering choices
+The runner converts this to `score`, where:
 
-- 1..7 anchored Likert scale with concrete anchor examples baked into each
-  dimension's prompt block (low/mid/high). Six points was rejected as
-  forcing collapsed midpoints; nine points was rejected because Gemini's
-  ratings tend to cluster in the 1..5 range without enough headroom.
-- Per-dimension justification field forces the judge to commit to a reason
-  for each rating, which improves rating stability across runs.
-- Strict JSON output with explicit "do not output prose" rule. Combined
-  with a JSON re-prompt step on parse failure, this gives near-100% parse
-  success at temperature 0.7.
-- Fixed `PROMPT_VERSION` constant (in ``dimensions.py``) is recorded in
-  every long-format row so future analyses can stratify by prompt version.
+- `score > 0`: PHOENIX preferred;
+- `score < 0`: HCP preferred;
+- `score = 0`: tie / no meaningful difference.
 
-## Adding a new dimension
+This is intentionally pairwise. It prevents the judge from giving two
+independent absolute ratings with inconsistent calibration across prompts.
 
-1. Append a :class:`Dimension` to the relevant ``PARTn_DIMENSIONS`` list in
-   :mod:`dimensions`.
-2. Bump ``PROMPT_VERSION``.
-3. Re-run the judge (``run_pipeline.sh --mode pseudo`` first to verify, then
-   ``--mode real`` if the change should affect the headline numbers).
-4. The analysis stage picks the new dimension up automatically — no
-   per-dimension code change needed.
+## JSON Schema
 
-## Files
+The model must return strict JSON:
+
+```json
+{
+  "comparisons": [
+    {
+      "dimension": "complaint_coverage",
+      "score": 3,
+      "winner": "A",
+      "confidence": 4,
+      "justification": "A covers sleep and withdrawal while B misses withdrawal."
+    }
+  ],
+  "extra": {}
+}
+```
+
+`winner` must match the sign. `confidence` is 1..5 and is descriptive; it is
+not used as an inferential weight in the current statistics.
+
+## Prompt Files
 
 | File | Purpose |
 | --- | --- |
-| `dimensions.py`         | Per-part dimension specs + prompt-version tag. |
-| `prompts/*.md`          | Per-part prompt templates with placeholders. |
-| `output_schema.py`      | JSON schema + tolerant parser. |
-| `openrouter_client.py`  | OpenAI-SDK / urllib wrapper for OpenRouter. |
-| `pseudo_judge.py`       | Local stand-in that mirrors the API. |
-| `judge_runner.py`       | Orchestration: blinding, retries, persistence. |
+| `prompts/system_prompt.md` | Shared blind judge role, scale, JSON rules |
+| `prompts/part1_operationalization.md` | Symptom-label comparison |
+| `prompts/part2_initial_model.md` | Modifiable treatment-option comparison |
+| `prompts/part3_treatment_targets.md` | Treatment-target ranking comparison |
+| `prompts/part4_updated_model.md` | EMA item-selection comparison |
+| `prompts/part5_intervention.md` | Mobile coaching-message comparison |
 
-## Pseudo-mode ground truth
+The Part 2 and Part 4 filenames retain the older module names for import
+compatibility, but the prompt content matches the current Qualtrics survey:
+Part 2 is treatment-option generation and Part 4 is concrete EMA item
+selection.
 
-`pseudo_judge.GROUND_TRUTH_EFFECTS` documents the per-dimension PHOENIX-HCP
-effect injected when running in pseudo mode. The downstream analysis is
-expected to recover these effects within bootstrap CIs, providing a
-self-test for the LMM and TOST machinery.
+## Dimensions
+
+All dimension definitions live in `dimensions.py`; the prompt renderer injects
+their goal, rationale, and comparative examples into the part prompt.
+
+The current prompt version is:
+
+```
+2026-05-01-v2-signed-comparison
+```
+
+Bump `PROMPT_VERSION` whenever dimensions, anchors, prompt wording, or output
+schema change.
+
+## Output Artefacts
+
+Long-format scored data:
+
+```
+evaluation/survey_analysis/data/04_judgments/judgments_long.csv
+```
+
+Columns:
+
+| Column | Meaning |
+| --- | --- |
+| `case_id`, `part`, `dimension`, `judge_run` | Evaluation cell |
+| `score` | Unblinded PHOENIX-vs-HCP signed score |
+| `raw_score_a_over_b` | Original A-vs-B model output |
+| `source_a`, `source_b` | Blinding key |
+| `winner_blind` | A/B/TIE before unblinding |
+| `winner_source` | phoenix/hcp/tie after unblinding |
+| `confidence` | Judge confidence, 1..5 |
+| `justification` | One-sentence judge rationale |
+| `prompt_version`, `model`, `timestamp` | Reproducibility metadata |
+
+Raw judge responses:
+
+```
+evaluation/survey_analysis/data/04_judgments/raw/<part>/case_<case>_run_<run>.json
+```
+
+## Pseudo Mode
+
+`pseudo_judge.py` injects known PHOENIX-HCP effects per dimension so the
+analysis can be validated without an API key. These are not clinical claims;
+they only test whether the pipeline recovers a realistic mix of PHOENIX
+advantages, ties/equivalence, and slight HCP advantages.
+
+Run:
+
+```bash
+python evaluation/survey_analysis/pipeline.py --mode pseudo
+```
+
+## Real Mode Checklist
+
+Before real OpenRouter judging:
+
+1. Export completed Qualtrics CSV to `evaluation/qualtrics/data/01_raw/`.
+2. Save PHOENIX outputs to `data/03_system/system_outputs.json`.
+3. Save complete shared case inputs to `data/01_raw/case_contexts.json`.
+4. Set `OPENROUTER_API_KEY`.
+5. Run `python evaluation/survey_analysis/pipeline.py --mode real --n-runs 5`.
+
+If an old `judgments_long.csv` has the pre-v2 absolute-rating header, the
+runner stops and asks you to archive/delete it. This avoids mixing 1..7
+absolute ratings with -9..+9 signed comparisons.

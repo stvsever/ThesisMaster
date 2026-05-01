@@ -1,17 +1,14 @@
 """
-Cross-part holistic comparison.
+Cross-part synthesis for signed PHOENIX-vs-HCP preference scores.
 
-Pools per-(part, dimension) ratings from the long-format judgments CSV,
-normalises ratings to [0, 1] via ``(rating - 1) / (likert_max - 1)``, fits
-a single mixed model
+The synthesis pools all per-dimension signed judge scores, normalises them to
+[-1, +1] by dividing by 9, and fits:
 
-    score_norm ~ source * part + (1|case_id) + (1|judge_run) + (1|dimension)
+    score_norm ~ 1 + C(part) + (1|case_id) + (1|judge_run) + (1|dimension)
 
-with three fallback specifications, and produces three figures:
-
-    1. Forest plot of per-part main effects with TOST badges.
-    2. Raincloud per part of normalised scores.
-    3. Heatmap rows=parts, cols=dimensions, cell = PHOENIX - HCP delta.
+The intercept tests the average PHOENIX preference across the evaluation.
+Per-part follow-up models use the same signed one-sample structure within
+each part.
 """
 
 from __future__ import annotations
@@ -26,6 +23,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import scipy.stats as stats
 
 from .shared_stats import (
     PALETTE,
@@ -37,7 +35,7 @@ from .shared_stats import (
     raincloud_plot,
     save_figure,
     tost_panel,
-    tost_test,
+    tost_test_one_sample,
 )
 from .survey_paths import ensure_study_dirs, judgments_csv
 
@@ -45,12 +43,11 @@ from .survey_paths import ensure_study_dirs, judgments_csv
 @dataclass(frozen=True)
 class HolisticStudyConfig:
     study_slug: str = "synthesis"
-    title: str = "Cross-part holistic comparison"
+    title: str = "Cross-part signed preference synthesis"
     report_name: str = "synthesis_report.txt"
     judgments_path: Optional[Path] = None
-    likert_min: int = 1
-    likert_max: int = 7
-    tost_delta: float = 0.05    # 5% on the 0..1 normalised scale
+    scale_max_abs: float = 9.0
+    tost_delta: float = 0.10
     part_order: Sequence[str] = (
         "part1", "part2", "part3", "part4", "part5",
     )
@@ -58,11 +55,11 @@ class HolisticStudyConfig:
 
 def _display_part(p: str) -> str:
     table = {
-        "part1": "Part 1: Operationalisation",
-        "part2": "Part 2: Initial Model",
-        "part3": "Part 3: Treatment Targets",
-        "part4": "Part 4: Updated Model",
-        "part5": "Part 5: Intervention",
+        "part1": "Part 1: Symptoms",
+        "part2": "Part 2: Treatment Options",
+        "part3": "Part 3: Target Ranking",
+        "part4": "Part 4: EMA Items",
+        "part5": "Part 5: Coaching Message",
     }
     return table.get(p, p)
 
@@ -71,38 +68,11 @@ def _display_label(value: str) -> str:
     return str(value).replace("_", " ").title()
 
 
-def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
-    """
-    Build the cross-part holistic comparison artefacts.
-    """
-    apply_rcparams()
-    paths = ensure_study_dirs(config.study_slug)
-    csv_path = config.judgments_path or judgments_csv()
-    if not csv_path.exists():
-        raise FileNotFoundError(
-            f"Judgments CSV not found: {csv_path}. Run the judge first."
-        )
-    df = pd.read_csv(csv_path).copy()
-
-    # Normalise ratings to [0, 1] on the configured Likert scale.
-    span = float(config.likert_max - config.likert_min)
-    if span <= 0:
-        raise ValueError("likert_max must be greater than likert_min")
-    df["score_norm"] = (df["rating"].astype(float) - config.likert_min) / span
-
-    parts_present = [p for p in config.part_order if p in set(df["part"].astype(str))]
-    if not parts_present:
-        raise ValueError("No configured parts present in judgments CSV.")
-
-    work = df.loc[df["part"].astype(str).isin(parts_present)].copy()
-    work["source_bin"] = (work["source"].astype(str) == "phoenix").astype(int)
-
-    # ── Unified cross-part model ────────────────────────────────────────────
-    formula = "score_norm ~ source_bin * C(part)"
-    unified = fit_crossed_mixedlm(
-        work,
+def _fit_signed_model(data: pd.DataFrame, formula: str, effect_term: str) -> Dict[str, Any]:
+    result = fit_crossed_mixedlm(
+        data,
         formula=formula,
-        effect_term="source_bin",
+        effect_term=effect_term,
         candidates=[
             {
                 "label": "Crossed LMM (case intercept + judge_run + dimension VCs)",
@@ -127,88 +97,95 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
             },
         ],
     )
+    se = float(result.get("se", 0.0) or 0.0)
+    ci_width = abs(float(result.get("ci_upper", 0.0)) - float(result.get("ci_lower", 0.0)))
+    if result["method"] != "No converged mixed model" and np.isfinite(se) and se > 1e-6 and ci_width > 1e-6:
+        return result
+    vals = data["score_norm"].astype(float).to_numpy()
+    mean = float(np.mean(vals)) if len(vals) else 0.0
+    se = float(stats.sem(vals)) if len(vals) > 1 else 0.0
+    ci = 1.96 * se
+    try:
+        _t, p_val = stats.ttest_1samp(vals, popmean=0.0)
+    except Exception:
+        p_val = 1.0
+    return {
+        **result,
+        "method": "One-sample t-test fallback",
+        "coefficient": mean,
+        "se": se,
+        "ci_lower": mean - ci,
+        "ci_upper": mean + ci,
+        "p_value": float(p_val) if np.isfinite(p_val) else 1.0,
+    }
 
-    # Global TOST on normalised scores.
-    phoenix_all = work.loc[work["source"].astype(str) == "phoenix",
-                           "score_norm"].astype(float).to_numpy()
-    hcp_all = work.loc[work["source"].astype(str) == "hcp",
-                       "score_norm"].astype(float).to_numpy()
-    global_tost = tost_test(phoenix_all, hcp_all, delta=config.tost_delta)
 
-    # ── Per-part follow-up models ───────────────────────────────────────────
+def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
+    """Build cross-part signed synthesis artefacts."""
+    apply_rcparams()
+    paths = ensure_study_dirs(config.study_slug)
+    csv_path = config.judgments_path or judgments_csv()
+    if not csv_path.exists():
+        raise FileNotFoundError(
+            f"Judgments CSV not found: {csv_path}. Run the judge first."
+        )
+    df = pd.read_csv(csv_path).copy()
+    required = {"case_id", "part", "dimension", "judge_run", "score"}
+    missing = required.difference(df.columns)
+    if missing:
+        raise ValueError(f"Judgments CSV is missing required columns: {sorted(missing)}")
+    df["score"] = df["score"].astype(float)
+    df["score_norm"] = df["score"] / float(config.scale_max_abs)
+
+    parts_present = [p for p in config.part_order if p in set(df["part"].astype(str))]
+    if not parts_present:
+        raise ValueError("No configured parts present in judgments CSV.")
+    work = df.loc[df["part"].astype(str).isin(parts_present)].copy()
+
+    unified = _fit_signed_model(work, "score_norm ~ 1 + C(part)", "Intercept")
+    global_tost = tost_test_one_sample(
+        work["score_norm"].astype(float).to_numpy(),
+        delta=config.tost_delta,
+    )
+
     part_effects: Dict[str, Dict[str, Any]] = {}
     part_tosts: Dict[str, Dict[str, Any]] = {}
     raw_part_ps: List[float] = []
     for part in parts_present:
         sub = work.loc[work["part"].astype(str) == part].copy()
-        phoenix_vals = sub.loc[sub["source"].astype(str) == "phoenix",
-                               "score_norm"].astype(float).to_numpy()
-        hcp_vals = sub.loc[sub["source"].astype(str) == "hcp",
-                           "score_norm"].astype(float).to_numpy()
-        part_tosts[part] = tost_test(phoenix_vals, hcp_vals, delta=config.tost_delta)
-        result = fit_crossed_mixedlm(
-            sub,
-            formula="score_norm ~ source_bin",
-            effect_term="source_bin",
-            candidates=[
-                {
-                    "label": "Crossed LMM (case intercept + judge_run + dimension VCs)",
-                    "group_col": "case_id",
-                    "variance_components": {
-                        "judge_run": "judge_run",
-                        "dimension": "dimension",
-                    },
-                },
-                {
-                    "label": "Crossed LMM (judge_run intercept + case VC)",
-                    "group_col": "judge_run",
-                    "variance_components": {"case": "case_id"},
-                },
-                {
-                    "label": "LMM (case intercept fallback)",
-                    "group_col": "case_id",
-                    "variance_components": {},
-                },
-            ],
-        )
-        if result["method"] == "No converged mixed model":
-            diff = float(np.mean(phoenix_vals) - np.mean(hcp_vals))
-            result = {
-                **result,
-                "coefficient": diff,
-                "ci_lower": diff,
-                "ci_upper": diff,
-                "method": "Mean-difference fallback",
-            }
+        result = _fit_signed_model(sub, "score_norm ~ 1", "Intercept")
         part_effects[part] = result
+        part_tosts[part] = tost_test_one_sample(
+            sub["score_norm"].astype(float).to_numpy(),
+            delta=config.tost_delta,
+        )
         raw_part_ps.append(float(result["p_value"]))
 
     holm_part_ps = holm_correct(raw_part_ps)
     for part, padj in zip(parts_present, holm_part_ps):
         part_effects[part]["p_value_holm"] = float(padj)
 
-    # ── Textual report ──────────────────────────────────────────────────────
     lines: List[str] = [
         "=" * 72,
         config.title,
-        "Cross-part synthesis of LLM-as-judge ratings (normalised to [0,1])",
+        "Positive normalised scores favour PHOENIX; negative scores favour HCP.",
         "=" * 72,
         "",
-        f"TOST equivalence margin: +/- {config.tost_delta} on the 0..1 scale",
-        "Multiplicity correction (per-part main effects): Holm-Bonferroni",
+        "Signed scores are normalised by dividing by 9, yielding [-1,+1].",
+        f"TOST equivalence margin: +/- {config.tost_delta} on the normalised scale.",
+        "Multiplicity correction (per-part follow-ups): Holm-Bonferroni.",
         "",
         "--- Unified cross-part model ---",
         f"Method: {unified['method']}",
     ]
     if unified["method"] != "No converged mixed model":
         lines.extend([
-            f"PHOENIX - HCP main coefficient: {unified['coefficient']:.4f}",
-            f"95% CI: [{unified['ci_lower']:.4f}, {unified['ci_upper']:.4f}]",
-            f"p-value: {unified['p_value']:.4f} "
-            f"({p_to_stars(unified['p_value'])})",
+            f"Global PHOENIX-HCP intercept: {unified['coefficient']:+.4f}",
+            f"95% CI: [{unified['ci_lower']:+.4f}, {unified['ci_upper']:+.4f}]",
+            f"p-value: {unified['p_value']:.4f} ({p_to_stars(unified['p_value'])})",
         ])
     else:
-        lines.append(f"  Fallback reason: {unified.get('error', '')}")
+        lines.append(f"Fallback reason: {unified.get('error', '')}")
 
     equiv = (
         f"EQUIVALENT (p_TOST={global_tost['p_tost']:.4f})"
@@ -218,10 +195,9 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
     lines.extend([
         "",
         f"Global TOST (delta=+/- {config.tost_delta}): {equiv}",
-        f"  observed diff (PHOENIX - HCP) on [0,1]: "
-        f"{global_tost['observed_diff']:.4f}",
+        f"  observed mean signed score: {global_tost['observed_diff']:+.4f}",
         "",
-        "--- Per-part main effects (Holm-corrected) ---",
+        "--- Per-part signed effects (Holm-corrected) ---",
     ])
     for part in parts_present:
         e = part_effects[part]
@@ -231,19 +207,17 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
             if t["equivalent"]
             else f"not equiv (p_TOST={t['p_tost']:.4f})"
         )
-        lines.extend([
+        lines.append(
             f"  {_display_part(part)}: coef={e['coefficient']:+.4f}, "
-            f"95% CI=[{e['ci_lower']:.4f}, {e['ci_upper']:.4f}], "
-            f"p_raw={e['p_value']:.4f}, "
-            f"p_holm={e['p_value_holm']:.4f} "
-            f"({p_to_stars(e['p_value_holm'])}), TOST: {equiv_p}",
-        ])
+            f"95% CI=[{e['ci_lower']:+.4f}, {e['ci_upper']:+.4f}], "
+            f"p_raw={e['p_value']:.4f}, p_holm={e['p_value_holm']:.4f} "
+            f"({p_to_stars(e['p_value_holm'])}), TOST: {equiv_p}"
+        )
 
     (paths["report_dir"] / config.report_name).write_text(
         "\n".join(lines), encoding="utf-8",
     )
 
-    # ── Figure 1 — Per-part forest plot ─────────────────────────────────────
     fig1, ax1 = plt.subplots(figsize=(9, max(4, 0.85 * len(parts_present) + 1.2)))
     forest_plot(
         ax1,
@@ -251,93 +225,84 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
         effects=[part_effects[p]["coefficient"] for p in parts_present],
         ci_lowers=[part_effects[p]["ci_lower"] for p in parts_present],
         ci_uppers=[part_effects[p]["ci_upper"] for p in parts_present],
-        title="Holistic PHOENIX - HCP effect by part (normalised score)",
-        xlabel="Normalised score difference (0..1 units)",
+        title="Signed PHOENIX - HCP preference by part",
+        xlabel="Normalised signed score (-1 HCP, +1 PHOENIX)",
         ref_line=0.0,
         p_values=[part_effects[p]["p_value_holm"] for p in parts_present],
         tost_results=[part_tosts[p] for p in parts_present],
     )
+    ax1.set_xlim(-0.5, 0.5)
     plt.tight_layout()
     save_figure(fig1, paths["visuals_dir"] / "synthesis_part_forest.png")
 
-    # ── Figure 2 — Raincloud per part ───────────────────────────────────────
     fig2, axes = plt.subplots(
         1, len(parts_present),
-        figsize=(max(7, 4.0 * len(parts_present)), 6.0), sharey=True,
+        figsize=(max(7, 3.8 * len(parts_present)), 6.0),
+        sharey=True,
     )
     if len(parts_present) == 1:
         axes = [axes]
     for ax, part in zip(axes, parts_present):
-        sub = work.loc[work["part"].astype(str) == part]
-        hcp = sub.loc[sub["source"].astype(str) == "hcp", "score_norm"].to_numpy()
-        ph = sub.loc[sub["source"].astype(str) == "phoenix", "score_norm"].to_numpy()
+        vals = work.loc[work["part"].astype(str) == part, "score_norm"].to_numpy()
         raincloud_plot(
             ax,
-            data_dict={"HCP": hcp, "PHOENIX": ph},
+            data_dict={"PHOENIX-HCP": vals},
             title=_display_part(part),
-            ylabel="Normalised score (0..1)",
-            colors=[PALETTE["secondary"], PALETTE["primary"]],
-            adj_p=part_effects[part]["p_value_holm"],
-            ylim=(-0.08, 1.08),
-            show_tost=part_tosts[part],
+            ylabel="Normalised signed score",
+            colors=[PALETTE["primary"]],
+            ylim=(-1.08, 1.08),
         )
+        ax.axhline(0, color="black", linestyle="--", linewidth=1.0, alpha=0.65)
     fig2.suptitle(config.title, fontsize=13, y=1.02)
     plt.tight_layout()
-    save_figure(fig2, paths["visuals_dir"] / "synthesis_part_raincloud.png")
+    save_figure(fig2, paths["visuals_dir"] / "synthesis_part_signed_raincloud.png")
 
-    # ── Figure 3 — Part x dimension delta heatmap ──────────────────────────
     delta = (
-        work.groupby(["part", "dimension", "source"], as_index=False)["score_norm"]
+        work.groupby(["part", "dimension"], as_index=False)["score_norm"]
         .mean()
-        .pivot_table(
-            index=["part", "dimension"], columns="source", values="score_norm",
-        )
-        .reset_index()
     )
-    if {"hcp", "phoenix"}.issubset(delta.columns):
-        delta["delta"] = delta["phoenix"] - delta["hcp"]
-        # Build matrix with parts as rows and union of dimensions as columns
-        # (some dimensions only exist within one part; cells will be NaN for
-        # those that don't apply).
-        all_dims = list(dict.fromkeys(delta["dimension"].astype(str).tolist()))
-        matrix = np.full((len(parts_present), len(all_dims)), np.nan, dtype=float)
-        for i, part in enumerate(parts_present):
-            for j, dim in enumerate(all_dims):
-                row = delta.loc[(delta["part"] == part) & (delta["dimension"] == dim)]
-                if not row.empty:
-                    matrix[i, j] = float(row["delta"].iloc[0])
+    all_dims = list(dict.fromkeys(delta["dimension"].astype(str).tolist()))
+    matrix = np.full((len(parts_present), len(all_dims)), np.nan, dtype=float)
+    for i, part in enumerate(parts_present):
+        for j, dim in enumerate(all_dims):
+            row = delta.loc[(delta["part"] == part) & (delta["dimension"] == dim)]
+            if not row.empty:
+                matrix[i, j] = float(row["score_norm"].iloc[0])
 
-        fig3, ax3 = plt.subplots(
-            figsize=(max(8, 0.8 * len(all_dims) + 2),
-                     max(4, 0.6 * len(parts_present) + 1.5)),
-        )
-        cmap = plt.get_cmap("RdBu_r")
-        vmax = float(np.nanmax(np.abs(matrix))) if np.isfinite(matrix).any() else 0.3
-        vmax = max(vmax, 0.05)
-        im = ax3.imshow(matrix, cmap=cmap, aspect="auto", vmin=-vmax, vmax=vmax)
-        ax3.set_xticks(np.arange(len(all_dims)))
-        ax3.set_xticklabels(
-            [_display_label(d) for d in all_dims],
-            rotation=35, ha="right", fontsize=8,
-        )
-        ax3.set_yticks(np.arange(len(parts_present)))
-        ax3.set_yticklabels([_display_part(p) for p in parts_present])
-        ax3.set_title("Heatmap: PHOENIX - HCP delta on normalised score")
-        for i in range(matrix.shape[0]):
-            for j in range(matrix.shape[1]):
-                v = matrix[i, j]
-                if np.isnan(v):
-                    continue
-                ax3.text(
-                    j, i, f"{v:+.2f}",
-                    ha="center", va="center", fontsize=7,
-                    color="white" if abs(v) > 0.6 * vmax else "black",
-                )
-        plt.colorbar(im, ax=ax3, label="Delta (normalised)")
-        plt.tight_layout()
-        save_figure(fig3, paths["visuals_dir"] / "synthesis_heatmap.png")
+    fig3, ax3 = plt.subplots(
+        figsize=(max(8, 0.8 * len(all_dims) + 2),
+                 max(4, 0.6 * len(parts_present) + 1.5)),
+    )
+    cmap = plt.get_cmap("RdBu_r")
+    im = ax3.imshow(matrix, cmap=cmap, aspect="auto", vmin=-1.0, vmax=1.0)
+    ax3.set_xticks(np.arange(len(all_dims)))
+    ax3.set_xticklabels(
+        [_display_label(d) for d in all_dims],
+        rotation=35,
+        ha="right",
+        fontsize=8,
+    )
+    ax3.set_yticks(np.arange(len(parts_present)))
+    ax3.set_yticklabels([_display_part(p) for p in parts_present])
+    ax3.set_title("Heatmap: mean signed preference by part and dimension")
+    for i in range(matrix.shape[0]):
+        for j in range(matrix.shape[1]):
+            v = matrix[i, j]
+            if np.isnan(v):
+                continue
+            ax3.text(
+                j,
+                i,
+                f"{v:+.2f}",
+                ha="center",
+                va="center",
+                fontsize=7,
+                color="white" if abs(v) > 0.55 else "black",
+            )
+    plt.colorbar(im, ax=ax3, label="Mean signed score (-1 HCP, +1 PHOENIX)")
+    plt.tight_layout()
+    save_figure(fig3, paths["visuals_dir"] / "synthesis_heatmap.png")
 
-    # ── Figure 4 — Per-part TOST panel ─────────────────────────────────────
     fig4, ax4 = plt.subplots(figsize=(8, max(3.5, 0.8 * len(parts_present) + 1.2)))
     tost_panel(
         ax4,

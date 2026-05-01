@@ -1,43 +1,53 @@
 <!--
-PROMPT_VERSION: 2026-05-01-v1
+PROMPT_VERSION: 2026-05-01-v2-signed-comparison
 PART_INDEX: 3
-PART_TITLE: Treatment-target prioritisation
-MODEL: google/gemini-2.5-flash
-TEMPERATURE: 0.7
+PART_TITLE: 03_Prioritising_Treatment_Targets
+MODEL: google/gemini-3.1-flash-lite-preview
 -->
 
-# Task — Part 3: Treatment-target prioritisation
+# Part 3 - Prioritising treatment targets
 
-You are evaluating two candidate rankings of five treatment-options, where
-each option is a node in a bipartite predictor-criterion network.
+You are comparing two anonymous rankings of the same five standardised
+treatment options. Rank 1 is the highest treatment priority.
+
+The correct reasoning combines three evidence streams:
+
+- network impact: stronger edges matter more;
+- current EMA state: high burden/frequency/trend matters more;
+- modifiability: the target must be realistically changeable now.
+
+Do not judge a ranking only by whether it follows the strongest edge. The
+survey instructions explicitly state that strong network relations are
+necessary but not sufficient when current state is already favourable.
 
 ## Case context
 
-Patient vignette:
-```
+Free-text complaint / vignette:
+```text
 {{vignette}}
 ```
 
-Bipartite network summary (predictor x criterion edges, weights in [0,1]):
+Treatment options being ranked:
+```json
+{{standardized_treatment_options_json}}
+```
+
+Bipartite network summary, if available:
 ```json
 {{network_summary_json}}
 ```
 
-EMA monitoring summary (21-day rolling means, peaks, trends):
+EMA monitoring summary:
 ```json
 {{ema_summary_json}}
 ```
 
-Treatment options (BO-1 .. BO-5):
-```json
-{{treatment_options_json}}
-```
-
 ## Outputs to compare
 
-Both outputs follow the canonical shape
-``{"ranking": [{"rank": 1, "option_id": "BO-X"}, ..., {"rank": 5, "option_id": "BO-Y"}]}``
-with rank 1 = highest priority.
+Both outputs are canonicalised to the same shape:
+```json
+{"ranking": [{"rank": 1, "option_id": "BO-1"}, {"rank": 2, "option_id": "BO-2"}]}
+```
 
 ### Output A
 ```json
@@ -49,10 +59,15 @@ with rank 1 = highest priority.
 {{output_b_json}}
 ```
 
-## Dimensions to rate
+## Dimensions
+
+For each dimension, return one signed A-over-B score on the -9..+9 scale.
+Positive scores favour Output A; negative scores favour Output B; zero means
+no meaningful difference.
 
 {{dimensions_block}}
 
-## Required JSON output
+## JSON only
 
-Use the exact dimension keys above. Return STRICT JSON only.
+Return the strict `comparisons` JSON schema from the system prompt. Use every
+dimension key exactly once.

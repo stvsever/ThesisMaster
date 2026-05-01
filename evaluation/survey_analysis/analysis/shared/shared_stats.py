@@ -28,6 +28,7 @@ import numpy as np
 import pandas as pd
 import scipy.stats as stats
 import statsmodels.formula.api as smf
+from statsmodels.tools.sm_exceptions import ConvergenceWarning
 from matplotlib.colors import to_rgba
 from matplotlib.font_manager import FontProperties, findfont
 
@@ -220,6 +221,64 @@ def tost_test(
     }
 
 
+def tost_test_one_sample(
+    values: np.ndarray,
+    delta: float = 1.0,
+) -> Dict[str, Any]:
+    """
+    One-sample TOST for signed PHOENIX-vs-HCP preference scores.
+
+    Tests whether the mean signed score lies inside [-delta, +delta].
+    A significant result supports practical equivalence; a positive mean
+    outside the band favours PHOENIX, and a negative mean outside the band
+    favours HCP.
+    """
+    vals = np.asarray(values, dtype=float)
+    vals = vals[np.isfinite(vals)]
+    n = len(vals)
+    mean_diff = float(np.mean(vals)) if n else 0.0
+    if n < 2:
+        return {
+            "p_tost": 1.0,
+            "p_upper": 1.0,
+            "p_lower": 1.0,
+            "t_upper": 0.0,
+            "t_lower": 0.0,
+            "delta": float(delta),
+            "observed_diff": mean_diff,
+            "pooled_se": 0.0,
+            "equivalent": False,
+        }
+    se = float(stats.sem(vals))
+    df = n - 1
+    t_upper = (mean_diff - delta) / se if se > 0 else 0.0
+    p_upper = float(stats.t.cdf(t_upper, df=df))
+    t_lower = (mean_diff + delta) / se if se > 0 else 0.0
+    p_lower = float(stats.t.sf(t_lower, df=df))
+    p_tost = max(p_upper, p_lower)
+    return {
+        "p_tost": float(p_tost),
+        "p_upper": p_upper,
+        "p_lower": p_lower,
+        "t_upper": float(t_upper),
+        "t_lower": float(t_lower),
+        "delta": float(delta),
+        "observed_diff": mean_diff,
+        "pooled_se": se,
+        "equivalent": bool(p_tost < 0.05),
+    }
+
+
+def cohen_d_one_sample(values: np.ndarray, mu: float = 0.0) -> float:
+    """Standardised one-sample effect size for signed scores."""
+    vals = np.asarray(values, dtype=float)
+    vals = vals[np.isfinite(vals)]
+    if len(vals) < 2:
+        return 0.0
+    sd = float(np.std(vals, ddof=1))
+    return float((np.mean(vals) - mu) / sd) if sd else 0.0
+
+
 def bonferroni_correct(p_values: List[float]) -> List[float]:
     n = len(p_values)
     return [min(p * n, 1.0) for p in p_values]
@@ -286,13 +345,15 @@ def fit_crossed_mixedlm(
             continue
         vc_formula = _candidate_vc_formula(candidate.get("variance_components"))
         try:
-            model = smf.mixedlm(
-                formula,
-                data=data,
-                groups=data[group_col],
-                re_formula=candidate.get("re_formula"),
-                vc_formula=vc_formula,
-            ).fit(reml=True, method="lbfgs")
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore", ConvergenceWarning)
+                model = smf.mixedlm(
+                    formula,
+                    data=data,
+                    groups=data[group_col],
+                    re_formula=candidate.get("re_formula"),
+                    vc_formula=vc_formula,
+                ).fit(reml=True, method="lbfgs")
             coef = float(model.params.get(effect_term, 0.0))
             se   = float(model.bse.get(effect_term, 0.0))
             residuals = np.asarray(model.resid, dtype=float)

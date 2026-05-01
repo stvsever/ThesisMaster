@@ -6,8 +6,8 @@ Stages:
        (Or, in pseudo mode, generate pseudo HCP outputs.)
     2. Load PHOENIX outputs from data/03_system/system_outputs.json.
        (Or, in pseudo mode, generate pseudo PHOENIX outputs.)
-    3. Run the LLM judge (real OpenRouter call, or pseudo).
-    4. Run the per-part LMM/TOST analyses.
+    3. Run the signed LLM judge (real OpenRouter call, or pseudo).
+    4. Run the per-part signed LMM/TOST analyses.
     5. Run the cross-part synthesis.
 
 Usage:
@@ -52,8 +52,14 @@ from llm_as_judge.dimensions import DIMENSIONS_BY_PART  # noqa: E402
 from llm_as_judge.judge_runner import JudgeRunConfig, run_judge  # noqa: E402
 from parsing.qualtrics_parser import parse_qualtrics_csv, save_parsed_outputs  # noqa: E402
 from parsing.system_output_loader import load_system_outputs  # noqa: E402
+from parsing.case_context_loader import (  # noqa: E402
+    DEFAULT_CASE_CONTEXTS_PATH,
+    load_case_contexts,
+    make_case_context_provider,
+)
 from pseudodata import (  # noqa: E402
     CASE_IDS,
+    generate_case_contexts,
     generate_hcp_outputs,
     generate_phoenix_outputs,
     generate_pseudo_judgments,
@@ -104,6 +110,10 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument(
         "--qualtrics-csv", type=Path, default=QUALTRICS_RAW_CSV,
         help="Path to the Qualtrics raw CSV (real mode only).",
+    )
+    p.add_argument(
+        "--case-contexts", type=Path, default=DEFAULT_CASE_CONTEXTS_PATH,
+        help="Path to per-case context JSON shown to both sources in judge prompts.",
     )
     p.add_argument(
         "--skip-parse", action="store_true",
@@ -209,6 +219,7 @@ def _stage_judge(
             json.dumps(system_outputs, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
+        generate_case_contexts(PSEUDODATA_DIR / "case_contexts.json")
         return generate_pseudo_judgments(
             n_runs=args.n_runs,
             cases=args.cases,
@@ -216,11 +227,19 @@ def _stage_judge(
         )
 
     # Real LLM judge.
+    contexts = load_case_contexts(args.case_contexts)
+    if not contexts:
+        logger.warning(
+            "No case contexts found at %s; real judge prompts will contain "
+            "explicit not-provided placeholders.",
+            args.case_contexts,
+        )
     config = JudgeRunConfig(
         cases=args.cases,
         parts=args.parts,
         n_runs=args.n_runs,
         mode="real",
+        case_context_provider=make_case_context_provider(contexts),
     )
     return run_judge(
         hcp_outputs=hcp_outputs,

@@ -65,7 +65,9 @@ evaluation/survey_analysis/data/pseudodata/
 evaluation/survey_analysis/data/study_*.csv
 evaluation/survey_analysis/data/pseudo_*.csv
 evaluation/survey_analysis/data/judged_*.csv
-evaluation/survey_analysis/results/
+evaluation/survey_analysis/results/**
+!evaluation/survey_analysis/results/
+!evaluation/survey_analysis/results/README.md
 evaluation/qualtrics/data/01_raw/*.csv
 evaluation/qualtrics/data/02_parsed/
 evaluation/**/visuals/

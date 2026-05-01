@@ -5,7 +5,7 @@ Layout (rooted at evaluation/survey_analysis/):
     data/01_raw/         Qualtrics CSV (gitignored, symlinked or referenced)
     data/02_parsed/      Parsed HCP outputs as JSON, one per (case, hcp)
     data/03_system/      PHOENIX (system) outputs as JSON, one per case
-    data/04_judgments/   Long-format judge ratings + raw responses
+    data/04_judgments/   Long-format signed judge scores + raw responses
     data/pseudodata/     Pseudo HCP/PHOENIX/judgments for end-to-end testing
     results/<study>/     Per-study figures + reports
 """

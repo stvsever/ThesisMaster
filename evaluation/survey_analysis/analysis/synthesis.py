@@ -10,7 +10,7 @@ from .shared import HolisticStudyConfig, run_holistic_synthesis
 def run() -> Dict[str, Any]:
     config = HolisticStudyConfig(
         study_slug="synthesis",
-        title="Cross-part holistic comparison",
+        title="Cross-part signed preference synthesis",
         report_name="synthesis_report.txt",
     )
     return run_holistic_synthesis(config)

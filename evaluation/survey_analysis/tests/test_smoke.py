@@ -58,9 +58,10 @@ class SmokeTest(unittest.TestCase):
         self.assertTrue(path.exists(), f"Missing {path}")
         df = pd.read_csv(path)
         self.assertGreater(len(df), 0, "judgments_long.csv is empty")
-        # Two rows per (case, part, run, dimension) — one per source.
-        for col in ("case_id", "part", "dimension", "judge_run", "source",
-                    "rating", "prompt_version", "model"):
+        # One row per (case, part, run, dimension), signed PHOENIX-vs-HCP.
+        for col in ("case_id", "part", "dimension", "judge_run", "score",
+                    "raw_score_a_over_b", "source_a", "source_b",
+                    "winner_source", "prompt_version", "model"):
             self.assertIn(col, df.columns, f"missing column {col!r}")
 
     def test_per_part_results(self) -> None:
@@ -83,7 +84,7 @@ class SmokeTest(unittest.TestCase):
                 f"missing forest plot for {part}",
             )
             self.assertTrue(
-                (visuals_dir / f"{slug}_ratings_raincloud.png").exists(),
+                (visuals_dir / f"{slug}_signed_preference_raincloud.png").exists(),
                 f"missing raincloud plot for {part}",
             )
             self.assertTrue(
@@ -91,10 +92,10 @@ class SmokeTest(unittest.TestCase):
                 f"missing TOST panel for {part}",
             )
 
-    def test_lmm_convergence_rate(self) -> None:
-        # Aggregate convergence rates across the 5 per-part summary CSVs.
+    def test_model_or_fallback_rate(self) -> None:
+        # Aggregate successful model-or-documented-fallback rates across summaries.
         total = 0
-        converged = 0
+        valid = 0
         slugs = [
             "part1_operationalization",
             "part2_initial_model",
@@ -108,12 +109,12 @@ class SmokeTest(unittest.TestCase):
                 continue
             df = pd.read_csv(csv_path)
             total += len(df)
-            converged += int(df["converged"].sum())
+            valid += int((df["method"] != "No converged mixed model").sum())
         self.assertGreater(total, 0, "no per-part summaries found")
-        rate = converged / total
+        rate = valid / total
         self.assertGreaterEqual(
             rate, 0.80,
-            f"LMM convergence rate too low: {converged}/{total} = {rate:.2%}",
+            f"valid model/fallback rate too low: {valid}/{total} = {rate:.2%}",
         )
 
     def test_synthesis_artefacts(self) -> None:
@@ -122,7 +123,7 @@ class SmokeTest(unittest.TestCase):
         self.assertTrue(report.exists(), f"missing {report}")
         for fname in (
             "synthesis_part_forest.png",
-            "synthesis_part_raincloud.png",
+            "synthesis_part_signed_raincloud.png",
             "synthesis_tost.png",
             "synthesis_heatmap.png",
         ):

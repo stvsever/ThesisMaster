@@ -1,31 +1,25 @@
 """
-Generic per-part LMM/TOST comparison runner for the LLM-as-judge design.
+Generic per-part analysis for the signed LLM-as-judge design.
 
-Input data (long format) is expected to live at
-``data/04_judgments/judgments_long.csv`` with columns:
+The long-format judgments CSV contains one row per
+``(case_id, part, dimension, judge_run)`` with:
 
-    case_id, part, dimension, judge_run, source, rating,
-    justification, prompt_version, model, timestamp
+    score = signed PHOENIX-over-HCP preference on -9..+9
 
-For each part p, this module fits one Linear Mixed Model per dimension,
+Positive scores favour PHOENIX; negative scores favour the HCP output; zero
+means no meaningful difference. For each part and dimension this module fits:
 
-    rating ~ source + (1 | case_id) + (1 | judge_run)
+    score ~ 1 + (1 | case_id) + (1 | judge_run)
 
-with ``source = phoenix`` contrasted against the reference ``hcp``,
-runs a TOST equivalence test (delta defaults to 0.5 Likert points,
-i.e. half a step on the 1..7 anchored scale), Holm-corrects p-values
-within the part, and produces three figures:
-
-    1. Per-dimension raincloud plot (small-multiples).
-    2. Forest plot of effect estimates with TOST badges.
-    3. Standalone TOST equivalence panel.
-
-It also writes a textual report and a tidy summary CSV.
+The intercept is the estimated mean PHOENIX-HCP preference. We also run a
+one-sample TOST around zero with a default equivalence margin of +/-1 signed
+scale point, Holm-correct p-values within each part, and create a signed
+raincloud, forest plot, and TOST panel.
 """
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence
 
@@ -40,8 +34,8 @@ import scipy.stats as stats
 from .shared_stats import (
     PALETTE,
     apply_rcparams,
-    bootstrap_cohend_ci,
-    cohen_d,
+    bootstrap_ci_mean,
+    cohen_d_one_sample,
     fit_crossed_mixedlm,
     forest_plot,
     holm_correct,
@@ -49,39 +43,29 @@ from .shared_stats import (
     raincloud_plot,
     save_figure,
     tost_panel,
-    tost_test,
+    tost_test_one_sample,
 )
 from .survey_paths import ensure_study_dirs, judgments_csv
 
 
 @dataclass(frozen=True)
 class ComparisonStudyConfig:
-    """Configuration for a single per-part comparison study."""
+    """Configuration for a single signed per-part comparison study."""
 
-    study_slug: str            # e.g. "part1_operationalization"
-    part: str                  # e.g. "part1"
-    title: str                 # human-readable
-    report_name: str           # txt filename in report_dir
+    study_slug: str
+    part: str
+    title: str
+    report_name: str
     dimension_order: Sequence[str]
-    judgments_path: Optional[Path] = None  # override the default
-    source_col: str = "source"
-    rating_col: str = "rating"
+    judgments_path: Optional[Path] = None
+    score_col: str = "score"
     case_col: str = "case_id"
     run_col: str = "judge_run"
-    source_reference: str = "hcp"
-    source_test: str = "phoenix"
-    source_labels: Dict[str, str] = field(
-        default_factory=lambda: {"hcp": "HCP", "phoenix": "PHOENIX"}
-    )
-    likert_min: int = 1
-    likert_max: int = 7
-    y_label: str = "Rating (1..7 Likert)"
-    tost_delta: float = 0.5    # half a Likert step on 1..7
+    scale_min: int = -9
+    scale_max: int = 9
+    y_label: str = "Signed preference score (-9 HCP, +9 PHOENIX)"
+    tost_delta: float = 1.0
 
-
-# ──────────────────────────────────────────────────────────────────────────────
-# Helpers
-# ──────────────────────────────────────────────────────────────────────────────
 
 def _display_label(value: str) -> str:
     return str(value).replace("_", " ").title()
@@ -98,90 +82,91 @@ def _structure_note(method: str) -> str:
     return "crossed random intercepts for case_id and judge_run"
 
 
-def _fit_dimension_lmm(sub: pd.DataFrame, *, case_col: str, run_col: str) -> Dict[str, Any]:
-    """
-    Fit the per-dimension LMM:
-        rating ~ source + (1|case_id) + (1|judge_run)
-    via :func:`fit_crossed_mixedlm` with three fallback specifications.
-    """
+def _fit_signed_lmm(sub: pd.DataFrame, *, case_col: str, run_col: str) -> Dict[str, Any]:
+    """Fit the signed one-sample LMM and fall back to a one-sample t-test."""
     work = sub.copy()
-    work["source_bin"] = (work["source"].astype(str) == "phoenix").astype(int)
-    formula = "rating ~ source_bin"
-    candidates = [
-        {
-            "label": "Crossed LMM (case intercept + judge_run variance component)",
-            "group_col": case_col,
-            "variance_components": {"judge_run": run_col},
-        },
-        {
-            "label": "Crossed LMM (judge_run intercept + case variance component)",
-            "group_col": run_col,
-            "variance_components": {"case": case_col},
-        },
-        {
-            "label": "LMM (case intercept fallback)",
-            "group_col": case_col,
-            "variance_components": {},
-        },
-    ]
+    formula = "score ~ 1"
     result = fit_crossed_mixedlm(
         work,
         formula=formula,
-        effect_term="source_bin",
-        candidates=candidates,
+        effect_term="Intercept",
+        candidates=[
+            {
+                "label": "Crossed LMM (case intercept + judge_run variance component)",
+                "group_col": case_col,
+                "variance_components": {"judge_run": run_col},
+            },
+            {
+                "label": "Crossed LMM (judge_run intercept + case variance component)",
+                "group_col": run_col,
+                "variance_components": {"case": case_col},
+            },
+            {
+                "label": "LMM (case intercept fallback)",
+                "group_col": case_col,
+                "variance_components": {},
+            },
+        ],
     )
-    if result["method"] != "No converged mixed model":
+    se = float(result.get("se", 0.0) or 0.0)
+    ci_width = abs(float(result.get("ci_upper", 0.0)) - float(result.get("ci_lower", 0.0)))
+    if result["method"] != "No converged mixed model" and np.isfinite(se) and se > 1e-6 and ci_width > 1e-6:
         return result
 
-    err = result.get("error", "No converged mixed model.")
-    phoenix = work.loc[work["source"].astype(str) == "phoenix", "rating"].astype(float).to_numpy()
-    hcp = work.loc[work["source"].astype(str) == "hcp", "rating"].astype(float).to_numpy()
+    vals = work["score"].astype(float).to_numpy()
+    mean_score, ci_lo, ci_hi = _mean_ci(vals)
     try:
-        u_stat, p_val = stats.mannwhitneyu(phoenix, hcp, alternative="two-sided")
-    except Exception as exc:
-        u_stat, p_val = float("nan"), 1.0
-        err = f"{err} | mann-whitney fallback failed: {exc}"
-    diff = float(np.mean(phoenix) - np.mean(hcp))
+        t_stat, p_val = stats.ttest_1samp(vals, popmean=0.0)
+    except Exception:
+        t_stat, p_val = float("nan"), 1.0
     return {
-        "method": "Mann-Whitney U fallback",
+        "method": "One-sample t-test fallback",
         "group_col": None,
         "variance_components": {},
-        "coefficient": diff,
-        "se": 0.0,
-        "ci_lower": diff,
-        "ci_upper": diff,
-        "p_value": float(p_val),
+        "coefficient": mean_score,
+        "se": float(stats.sem(vals)) if len(vals) > 1 else 0.0,
+        "ci_lower": ci_lo,
+        "ci_upper": ci_hi,
+        "p_value": float(p_val) if np.isfinite(p_val) else 1.0,
         "converged": False,
         "shapiro_w": float("nan"),
         "shapiro_p": float("nan"),
-        "u_statistic": float(u_stat),
-        "error": err,
+        "t_statistic": float(t_stat) if np.isfinite(t_stat) else float("nan"),
+        "error": result.get("error", "mixed model produced degenerate standard error"),
     }
 
 
-# ──────────────────────────────────────────────────────────────────────────────
-# Main entry point
-# ──────────────────────────────────────────────────────────────────────────────
+def _mean_ci(values: np.ndarray) -> tuple[float, float, float]:
+    vals = np.asarray(values, dtype=float)
+    vals = vals[np.isfinite(vals)]
+    if len(vals) < 2:
+        m = float(np.mean(vals)) if len(vals) else 0.0
+        return m, m, m
+    mean = float(np.mean(vals))
+    lo, hi = bootstrap_ci_mean(vals, n_boot=2000, seed=42)
+    return mean, lo, hi
+
 
 def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
-    """
-    Run a per-part comparison study.
-
-    Returns a dict summarising per-dimension results so that the caller may
-    aggregate them into the cross-part synthesis without re-reading files.
-    """
+    """Run one per-part signed preference analysis."""
     apply_rcparams()
     paths = ensure_study_dirs(config.study_slug)
     csv_path = config.judgments_path or judgments_csv()
     if not csv_path.exists():
         raise FileNotFoundError(
-            f"Judgments CSV not found: {csv_path}. "
-            "Run the judge_runner (real or pseudo) first."
+            f"Judgments CSV not found: {csv_path}. Run the judge first."
         )
+
     df_all = pd.read_csv(csv_path)
+    required = {"case_id", "part", "dimension", "judge_run", config.score_col}
+    missing = required.difference(df_all.columns)
+    if missing:
+        raise ValueError(f"Judgments CSV is missing required columns: {sorted(missing)}")
     df = df_all.loc[df_all["part"].astype(str) == config.part].copy()
     if df.empty:
         raise ValueError(f"No rows for part={config.part!r} in {csv_path}.")
+    df = df.rename(columns={config.score_col: "score"})
+    df["score"] = df["score"].astype(float)
 
     available = set(df["dimension"].astype(str).unique().tolist())
     dimensions = [d for d in config.dimension_order if d in available]
@@ -194,16 +179,13 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
     report_lines: List[str] = [
         "=" * 72,
         config.title,
-        f"Comparison: {config.source_labels[config.source_reference]} "
-        f"vs {config.source_labels[config.source_test]} "
-        f"(LLM-as-judge, double-blind)",
+        "Signed LLM-as-judge comparison: positive scores favour PHOENIX",
         "=" * 72,
         "",
-        f"Equivalence margin (TOST): +/- {config.tost_delta} Likert points "
-        f"on a {config.likert_min}..{config.likert_max} anchored scale.",
+        f"Scale: {config.scale_min}..{config.scale_max}; 0 = no meaningful difference.",
+        f"Equivalence margin (one-sample TOST): +/- {config.tost_delta} signed score point.",
         "Multiplicity correction: Holm-Bonferroni across dimensions within this part.",
-        f"LMM specification: rating ~ source + (1|{config.case_col}) "
-        f"+ (1|{config.run_col}); reference source = {config.source_reference}.",
+        f"LMM: score ~ 1 + (1|{config.case_col}) + (1|{config.run_col}).",
         "",
     ]
 
@@ -212,40 +194,34 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
 
     for dim in dimensions:
         sub = df.loc[df["dimension"].astype(str) == dim].copy()
-        sub = sub.rename(columns={config.rating_col: "rating",
-                                  config.source_col: "source"})
-        ref_vals = sub.loc[sub["source"].astype(str) == config.source_reference,
-                           "rating"].astype(float).to_numpy()
-        test_vals = sub.loc[sub["source"].astype(str) == config.source_test,
-                            "rating"].astype(float).to_numpy()
-        if len(ref_vals) == 0 or len(test_vals) == 0:
+        vals = sub["score"].astype(float).to_numpy()
+        vals = vals[np.isfinite(vals)]
+        if len(vals) == 0:
             continue
-
-        model_result = _fit_dimension_lmm(
-            sub, case_col=config.case_col, run_col=config.run_col,
-        )
+        model_result = _fit_signed_lmm(sub, case_col=config.case_col, run_col=config.run_col)
         raw_p_values.append(float(model_result["p_value"]))
-
-        tost_result = tost_test(test_vals, ref_vals, delta=config.tost_delta)
-        effect_d = cohen_d(test_vals, ref_vals)
-        d_ci_lo, d_ci_hi = bootstrap_cohend_ci(test_vals, ref_vals)
+        tost_result = tost_test_one_sample(vals, delta=config.tost_delta)
+        mean_score, mean_ci_lo, mean_ci_hi = _mean_ci(vals)
         dim_results[dim] = {
-            "ref_vals": ref_vals,
-            "test_vals": test_vals,
+            "values": vals,
             "result": model_result,
             "tost": tost_result,
-            "effect_d": effect_d,
-            "effect_d_ci": (d_ci_lo, d_ci_hi),
+            "mean_score": mean_score,
+            "mean_ci": (mean_ci_lo, mean_ci_hi),
+            "effect_d": cohen_d_one_sample(vals),
+            "pct_phoenix_preferred": float(np.mean(vals > 0)),
+            "pct_hcp_preferred": float(np.mean(vals < 0)),
+            "pct_tie": float(np.mean(vals == 0)),
         }
 
     corrected = holm_correct(raw_p_values)
     for dim, p_adj in zip(list(dim_results.keys()), corrected):
         dim_results[dim]["result"]["p_value_adj"] = float(p_adj)
 
-    # ── Textual report ──────────────────────────────────────────────────────
     for dim, r in dim_results.items():
-        ref_vals, test_vals = r["ref_vals"], r["test_vals"]
-        m, t = r["result"], r["tost"]
+        vals = r["values"]
+        m = r["result"]
+        t = r["tost"]
         equiv = (
             f"EQUIVALENT (p_TOST={t['p_tost']:.4f})"
             if t["equivalent"]
@@ -253,23 +229,20 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
         )
         report_lines.extend([
             f"Dimension: {dim}",
-            f"  {config.source_labels[config.source_reference]} mean="
-            f"{np.mean(ref_vals):.3f}, SD={np.std(ref_vals, ddof=1):.3f}, "
-            f"n={len(ref_vals)}",
-            f"  {config.source_labels[config.source_test]} mean="
-            f"{np.mean(test_vals):.3f}, SD={np.std(test_vals, ddof=1):.3f}, "
-            f"n={len(test_vals)}",
+            f"  Mean signed score={np.mean(vals):+.3f}, SD={np.std(vals, ddof=1):.3f}, "
+            f"median={np.median(vals):+.3f}, n={len(vals)}",
+            f"  Preference split: PHOENIX>{r['pct_phoenix_preferred']:.1%}, "
+            f"HCP>{r['pct_hcp_preferred']:.1%}, tie={r['pct_tie']:.1%}",
             f"  Method: {m['method']}",
             f"  Random structure: {_structure_note(m['method'])}",
-            f"  PHOENIX - HCP coefficient: {m['coefficient']:.4f}",
-            f"  95% CI: [{m['ci_lower']:.4f}, {m['ci_upper']:.4f}]",
+            f"  Intercept (PHOENIX - HCP): {m['coefficient']:+.4f}",
+            f"  95% CI: [{m['ci_lower']:+.4f}, {m['ci_upper']:+.4f}]",
             f"  p-value (raw): {m['p_value']:.4f}",
             f"  p-value (Holm): {m['p_value_adj']:.4f} "
             f"({p_to_stars(m['p_value_adj'])})",
-            f"  Cohen's d: {r['effect_d']:.4f} "
-            f"[{r['effect_d_ci'][0]:.4f}, {r['effect_d_ci'][1]:.4f}]",
+            f"  One-sample Cohen's d: {r['effect_d']:+.4f}",
             f"  TOST (+/- {config.tost_delta}): {equiv}",
-            f"    observed diff={t['observed_diff']:.4f}, SE={t['pooled_se']:.4f}",
+            f"    observed mean={t['observed_diff']:+.4f}, SE={t['pooled_se']:.4f}",
             "",
         ])
 
@@ -277,23 +250,26 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
         "\n".join(report_lines), encoding="utf-8",
     )
 
-    # ── Tidy summary CSV ────────────────────────────────────────────────────
     summary_rows = []
     for dim, r in dim_results.items():
         m, t = r["result"], r["tost"]
+        vals = r["values"]
         summary_rows.append({
             "part": config.part,
             "dimension": dim,
-            "n_hcp": int(len(r["ref_vals"])),
-            "n_phoenix": int(len(r["test_vals"])),
-            "mean_hcp": float(np.mean(r["ref_vals"])),
-            "mean_phoenix": float(np.mean(r["test_vals"])),
+            "n": int(len(vals)),
+            "mean_score": float(np.mean(vals)),
+            "median_score": float(np.median(vals)),
+            "sd_score": float(np.std(vals, ddof=1)) if len(vals) > 1 else 0.0,
+            "pct_phoenix_preferred": r["pct_phoenix_preferred"],
+            "pct_hcp_preferred": r["pct_hcp_preferred"],
+            "pct_tie": r["pct_tie"],
             "coef_phoenix_minus_hcp": float(m["coefficient"]),
             "ci_lower": float(m["ci_lower"]),
             "ci_upper": float(m["ci_upper"]),
             "p_value_raw": float(m["p_value"]),
             "p_value_holm": float(m["p_value_adj"]),
-            "cohen_d": float(r["effect_d"]),
+            "cohen_d_one_sample": float(r["effect_d"]),
             "p_tost": float(t["p_tost"]),
             "tost_equivalent": bool(t["equivalent"]),
             "method": m["method"],
@@ -303,34 +279,37 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
     summary_path = paths["report_dir"] / f"{config.study_slug}_summary.csv"
     summary_df.to_csv(summary_path, index=False)
 
-    # ── Figure 1 — Raincloud per dimension ──────────────────────────────────
     n_dims = len(dim_results)
     fig, axes = plt.subplots(
-        1, n_dims, figsize=(max(5, 4.4 * n_dims), 6.0), sharey=True,
+        1, n_dims, figsize=(max(5, 3.8 * n_dims), 6.0), sharey=True,
     )
     if n_dims == 1:
         axes = [axes]
     for ax, dim in zip(axes, dim_results.keys()):
-        r = dim_results[dim]
-        data_dict = {
-            config.source_labels[config.source_reference]: r["ref_vals"],
-            config.source_labels[config.source_test]: r["test_vals"],
-        }
+        vals = dim_results[dim]["values"]
         raincloud_plot(
             ax,
-            data_dict=data_dict,
+            data_dict={"PHOENIX-HCP": vals},
             title=_display_label(dim),
             ylabel=config.y_label,
-            colors=[PALETTE["secondary"], PALETTE["primary"]],
-            adj_p=r["result"]["p_value_adj"],
-            ylim=(config.likert_min - 0.5, config.likert_max + 0.6),
-            show_tost=r["tost"],
+            colors=[PALETTE["primary"]],
+            ylim=(config.scale_min - 1, config.scale_max + 1),
+        )
+        ax.axhline(0, color="black", linestyle="--", linewidth=1.0, alpha=0.65)
+        ax.text(
+            0.5, -0.16,
+            f"Holm p={dim_results[dim]['result']['p_value_adj']:.3f}; "
+            f"TOST p={dim_results[dim]['tost']['p_tost']:.3f}",
+            transform=ax.transAxes,
+            ha="center",
+            va="top",
+            fontsize=8,
+            color=PALETTE["ref_line"],
         )
     fig.suptitle(config.title, fontsize=13, y=1.02)
     plt.tight_layout()
-    save_figure(fig, paths["visuals_dir"] / f"{config.study_slug}_ratings_raincloud.png")
+    save_figure(fig, paths["visuals_dir"] / f"{config.study_slug}_signed_preference_raincloud.png")
 
-    # ── Figure 2 — Forest plot ──────────────────────────────────────────────
     fig2, ax2 = plt.subplots(figsize=(10, max(4, 0.9 * n_dims + 1.5)))
     forest_plot(
         ax2,
@@ -338,16 +317,19 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
         effects=[r["result"]["coefficient"] for r in dim_results.values()],
         ci_lowers=[r["result"]["ci_lower"] for r in dim_results.values()],
         ci_uppers=[r["result"]["ci_upper"] for r in dim_results.values()],
-        title=f"{config.title}: PHOENIX - HCP effect by dimension",
-        xlabel="Model coefficient (Likert units)",
+        title=f"{config.title}: PHOENIX - HCP signed preference",
+        xlabel="Signed score (negative = HCP preferred, positive = PHOENIX preferred)",
         ref_line=0.0,
         p_values=[r["result"]["p_value_adj"] for r in dim_results.values()],
         tost_results=[r["tost"] for r in dim_results.values()],
     )
+    lo = min([r["result"]["ci_lower"] for r in dim_results.values()] + [-config.tost_delta])
+    hi = max([r["result"]["ci_upper"] for r in dim_results.values()] + [config.tost_delta])
+    pad = max(0.8, 0.10 * (hi - lo))
+    ax2.set_xlim(max(config.scale_min, lo - pad), min(config.scale_max, hi + pad))
     plt.tight_layout()
     save_figure(fig2, paths["visuals_dir"] / f"{config.study_slug}_effect_forest.png")
 
-    # ── Figure 3 — TOST panel ───────────────────────────────────────────────
     fig3, ax3 = plt.subplots(figsize=(8, max(3.5, 0.8 * n_dims + 1.2)))
     tost_panel(
         ax3,

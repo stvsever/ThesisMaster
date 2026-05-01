@@ -1,4 +1,4 @@
-"""Part 4 — Updated observational model: per-dimension LMM, TOST, plots."""
+"""Part 4 - Concrete EMA item selection: signed LMM, TOST, plots."""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ def run() -> Dict[str, Any]:
     config = ComparisonStudyConfig(
         study_slug="part4_updated_model",
         part="part4",
-        title="Part 4: Updated observational model",
+        title="Part 4: Concrete EMA item selection",
         report_name="part4_updated_model_report.txt",
         dimension_order=[d.key for d in dimensions_for("part4")],
     )

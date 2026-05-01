@@ -1,34 +1,38 @@
 <!--
-PROMPT_VERSION: 2026-05-01-v1
+PROMPT_VERSION: 2026-05-01-v2-signed-comparison
 PART_INDEX: 2
-PART_TITLE: Initial observational model
-MODEL: google/gemini-2.5-flash
-TEMPERATURE: 0.7
+PART_TITLE: 02_Identifying_Modifiable_Treatment_Options
+MODEL: google/gemini-3.1-flash-lite-preview
 -->
 
-# Task — Part 2: Initial observational model
+# Part 2 - Identifying modifiable treatment options
 
-You are evaluating two candidate sets of EMA-feasible predictor variables,
-their measurement schedule, and their decision criteria. The goal is a
-predictor set that lets a 21-day momentary monitoring run identify leverage
-points for intervention.
+You are comparing two anonymous answers to the same Qualtrics task. The
+clinician and PHOENIX were both asked to generate 3..5 modifiable treatment
+options: behaviours, routines, strategies, or process variables the patient
+can realistically change and that can be monitored daily by a mobile app.
+
+The key distinction is important: symptoms describe what is going wrong;
+treatment options describe what the patient can change.
 
 ## Case context
 
-Patient vignette:
-```
+Free-text complaint / vignette:
+```text
 {{vignette}}
 ```
 
-Operationalised items from Part 1 (the predictors should map onto these):
+Standardised symptoms supplied to the respondent:
 ```json
-{{operationalisation_json}}
+{{standardized_symptoms_json}}
 ```
 
 ## Outputs to compare
 
-Both outputs follow the canonical shape
-``{"items": [{"predictor": str, "measurement": str, "criteria": str}, ...]}``.
+Both outputs are canonicalised to the same shape:
+```json
+{"items": [{"label": "short treatment-option label"}]}
+```
 
 ### Output A
 ```json
@@ -40,10 +44,15 @@ Both outputs follow the canonical shape
 {{output_b_json}}
 ```
 
-## Dimensions to rate
+## Dimensions
+
+For each dimension, return one signed A-over-B score on the -9..+9 scale.
+Positive scores favour Output A; negative scores favour Output B; zero means
+no meaningful difference.
 
 {{dimensions_block}}
 
-## Required JSON output
+## JSON only
 
-Use the exact dimension keys above. Return STRICT JSON only.
+Return the strict `comparisons` JSON schema from the system prompt. Use every
+dimension key exactly once.

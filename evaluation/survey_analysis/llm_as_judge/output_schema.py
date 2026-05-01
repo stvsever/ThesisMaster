@@ -1,7 +1,23 @@
 """
-JSON schema for the judge response.
+JSON schema and parser for signed A-vs-B judge responses.
 
-Pure dataclasses (no pydantic dep) so the package is portable.
+The expected strict JSON shape is:
+
+{
+  "comparisons": [
+    {
+      "dimension": "complaint_coverage",
+      "score": 4,
+      "winner": "A",
+      "confidence": 4,
+      "justification": "A covers sleep and social withdrawal while B misses social withdrawal."
+    }
+  ],
+  "extra": {}
+}
+
+``score`` is signed A-over-B on the -9..+9 scale. The runner later unblinds
+it into a PHOENIX-over-HCP score.
 """
 
 from __future__ import annotations
@@ -11,33 +27,35 @@ import re
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
 
-from .dimensions import LIKERT_MAX, LIKERT_MIN
+from .dimensions import SCALE_MAX, SCALE_MIN, SCALE_NEUTRAL
 
 
 @dataclass
-class DimensionRating:
+class DimensionComparison:
     dimension: str
-    rating_a: int
-    rating_b: int
+    score: int
+    winner: str
+    confidence: int
     justification: str
 
     def to_dict(self) -> Dict[str, Any]:
         return {
             "dimension": self.dimension,
-            "rating_a": int(self.rating_a),
-            "rating_b": int(self.rating_b),
+            "score": int(self.score),
+            "winner": self.winner,
+            "confidence": int(self.confidence),
             "justification": str(self.justification),
         }
 
 
 @dataclass
 class JudgeResponse:
-    ratings: List[DimensionRating] = field(default_factory=list)
+    comparisons: List[DimensionComparison] = field(default_factory=list)
     extra: Dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> Dict[str, Any]:
         return {
-            "ratings": [r.to_dict() for r in self.ratings],
+            "comparisons": [c.to_dict() for c in self.comparisons],
             "extra": dict(self.extra),
         }
 
@@ -46,16 +64,10 @@ _JSON_OBJECT_RE = re.compile(r"\{[\s\S]*\}", flags=re.MULTILINE)
 
 
 def _strip_to_json(text: str) -> str:
-    """
-    Best-effort recovery of a JSON object from a chatty LLM response.
-
-    Strips markdown code fences and isolates the largest top-level
-    ``{...}`` substring.
-    """
+    """Recover a JSON object from a chatty or fenced LLM response."""
     if text is None:
         return "{}"
     s = text.strip()
-    # Drop fenced blocks like ```json\n...\n```.
     if s.startswith("```"):
         s = re.sub(r"^```[a-zA-Z0-9_-]*\n", "", s)
         s = re.sub(r"\n```\s*$", "", s)
@@ -65,12 +77,31 @@ def _strip_to_json(text: str) -> str:
     return s
 
 
-def _clamp(rating: Any) -> int:
+def _clamp_score(score: Any) -> int:
     try:
-        v = int(round(float(rating)))
+        v = int(round(float(score)))
     except (TypeError, ValueError):
-        v = LIKERT_MIN
-    return max(LIKERT_MIN, min(LIKERT_MAX, v))
+        v = SCALE_NEUTRAL
+    return max(SCALE_MIN, min(SCALE_MAX, v))
+
+
+def _clamp_confidence(confidence: Any) -> int:
+    try:
+        v = int(round(float(confidence)))
+    except (TypeError, ValueError):
+        v = 3
+    return max(1, min(5, v))
+
+
+def _winner_from_score(score: int, raw_winner: Any = None) -> str:
+    winner = str(raw_winner or "").strip().upper()
+    if winner in {"A", "B", "TIE"}:
+        return winner
+    if score > 0:
+        return "A"
+    if score < 0:
+        return "B"
+    return "TIE"
 
 
 def parse_judge_json(
@@ -78,17 +109,12 @@ def parse_judge_json(
     expected_dimensions: Optional[List[str]] = None,
 ) -> JudgeResponse:
     """
-    Parse the judge's raw text into :class:`JudgeResponse`.
+    Parse the judge response.
 
-    Raises :class:`ValueError` if the response cannot be parsed at all.
-    Tolerates extra fields and clamps ratings to ``[LIKERT_MIN, LIKERT_MAX]``.
-
-    Parameters
-    ----------
-    expected_dimensions
-        If provided, the parser ensures every expected dimension is present;
-        missing dimensions get rating 4 (neutral) with a placeholder
-        justification, so the analysis stage never fails on partial output.
+    The parser accepts the current ``comparisons`` schema and, as a migration
+    aid, the older ``ratings`` schema by converting ``rating_a - rating_b``
+    into a signed comparative score. Missing expected dimensions are filled
+    with a neutral comparison so the analysis stage remains rectangular.
     """
     text = _strip_to_json(raw_text or "")
     try:
@@ -98,30 +124,52 @@ def parse_judge_json(
     if not isinstance(data, dict):
         raise ValueError(f"Judge response is not a JSON object: {raw_text!r}")
 
-    raw_ratings = data.get("ratings", [])
-    if not isinstance(raw_ratings, list):
-        raw_ratings = []
-    seen: Dict[str, DimensionRating] = {}
-    for entry in raw_ratings:
+    raw_comparisons = data.get("comparisons")
+    if raw_comparisons is None and isinstance(data.get("ratings"), list):
+        raw_comparisons = []
+        for entry in data.get("ratings", []):
+            if not isinstance(entry, dict):
+                continue
+            try:
+                # Migration path from the old 1..7 independent ratings:
+                # each absolute rating step becomes three signed preference points.
+                converted = (float(entry.get("rating_a", 4)) - float(entry.get("rating_b", 4))) * 3
+            except (TypeError, ValueError):
+                converted = 0
+            raw_comparisons.append({
+                "dimension": entry.get("dimension", ""),
+                "score": converted,
+                "winner": None,
+                "confidence": 3,
+                "justification": entry.get("justification", ""),
+            })
+    if not isinstance(raw_comparisons, list):
+        raw_comparisons = []
+
+    seen: Dict[str, DimensionComparison] = {}
+    for entry in raw_comparisons:
         if not isinstance(entry, dict):
             continue
         key = str(entry.get("dimension", "")).strip()
         if not key:
             continue
-        seen[key] = DimensionRating(
+        score = _clamp_score(entry.get("score", SCALE_NEUTRAL))
+        seen[key] = DimensionComparison(
             dimension=key,
-            rating_a=_clamp(entry.get("rating_a", LIKERT_MIN)),
-            rating_b=_clamp(entry.get("rating_b", LIKERT_MIN)),
+            score=score,
+            winner=_winner_from_score(score, entry.get("winner")),
+            confidence=_clamp_confidence(entry.get("confidence", 3)),
             justification=str(entry.get("justification", "")).strip(),
         )
 
     if expected_dimensions is not None:
         for dim_key in expected_dimensions:
             if dim_key not in seen:
-                seen[dim_key] = DimensionRating(
+                seen[dim_key] = DimensionComparison(
                     dimension=dim_key,
-                    rating_a=4,
-                    rating_b=4,
+                    score=0,
+                    winner="TIE",
+                    confidence=1,
                     justification="missing-from-judge-response",
                 )
         ordered = [seen[k] for k in expected_dimensions]
@@ -131,11 +179,11 @@ def parse_judge_json(
     extra = data.get("extra")
     if not isinstance(extra, dict):
         extra = {}
-    return JudgeResponse(ratings=ordered, extra=extra)
+    return JudgeResponse(comparisons=ordered, extra=extra)
 
 
 __all__ = [
-    "DimensionRating",
+    "DimensionComparison",
     "JudgeResponse",
     "parse_judge_json",
 ]

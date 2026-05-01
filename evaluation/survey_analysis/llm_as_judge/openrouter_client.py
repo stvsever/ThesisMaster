@@ -18,10 +18,10 @@ from typing import Any, Dict, List, Optional
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_MODEL: str = "google/gemini-2.5-flash"
+DEFAULT_MODEL: str = "google/gemini-3.1-flash-lite-preview"
 DEFAULT_TEMPERATURE: float = 0.7
 DEFAULT_BASE_URL: str = "https://openrouter.ai/api/v1"
-DEFAULT_MAX_TOKENS: int = 2048
+DEFAULT_MAX_TOKENS: int = 4096
 DEFAULT_TIMEOUT_S: float = 90.0
 
 # Optional headers OpenRouter accepts for attribution / project leaderboards.

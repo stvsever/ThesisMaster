@@ -1,9 +1,9 @@
-"""Part 5 — Tailored intervention message: per-dimension LMM, TOST, plots.
+"""Part 5 - Tailored mobile coaching message: signed LMM, TOST, plots.
 
 The judge ALSO classifies each message's HAPA phase in the ``extra``
 field of its JSON response. That classification is recorded in the raw
-response files and can be analysed separately for HCP-vs-PHOENIX HAPA-phase
-agreement, but it is not part of the per-dimension ratings analysed here.
+response files when HAPA context is available, but it is not part of the
+per-dimension signed scores analysed here.
 """
 
 from __future__ import annotations

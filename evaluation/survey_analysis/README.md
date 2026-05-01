@@ -1,245 +1,244 @@
 # PHOENIX Survey Analysis
 
-End-to-end evaluation of the PHOENIX multi-agent personalised digital
-mental-health pipeline by comparing its outputs against healthcare
-professionals (HCPs) using a double-blind LLM-as-judge.
+This folder contains the Phase 2 evaluation pipeline for comparing PHOENIX
+system outputs against healthcare professional (HCP) outputs. The current
+design no longer uses a second human expert POST phase. HCPs generate the
+reference outputs in Qualtrics once; PHOENIX later receives the same case
+inputs and produces outputs in the same canonical response shapes. A
+double-blind LLM-as-judge then compares the two anonymous outputs per case,
+part, and evaluation dimension.
 
-This folder is the home of:
+## Current Design
 
-- The Qualtrics CSV parser that turns raw HCP survey submissions into
-  canonical per-(case, part) JSON.
-- The LLM-as-judge module (Google Gemini 2.5 Flash via OpenRouter,
-  `google/gemini-2.5-flash`).
-- The per-part Linear Mixed Model + TOST analysis machinery.
-- The cross-part holistic synthesis with a parts-by-dimensions effect
-  heatmap.
+The live Qualtrics PRE survey collects one HCP output per case for the five
+main tasks:
 
-The full pipeline runs end-to-end in pseudo mode without any real LLM
-calls so the analysis can be developed and validated offline.
+| Part | Survey task | Canonical output |
+| --- | --- | --- |
+| 1 | Identify 3..6 symptom labels | `{"items": [{"label", "description"}]}` |
+| 2 | Generate 3..5 modifiable treatment-option labels | `{"items": [{"label"}]}` |
+| 3 | Rank five standardised treatment options | `{"ranking": [{"rank", "option_id"}]}` |
+| 4 | Select exactly six concrete EMA items | `{"selected_options": [...], "note": ...}` |
+| 5 | Write a 2..4 sentence mobile coaching message | `{"message": "...", "hapa_phase": ...}` |
 
-## Why the design changed
+The judge sees only `Output A` and `Output B` in these canonical forms. A
+deterministic blinding seed decides whether PHOENIX or HCP is A for each
+`(case_id, part, judge_run)` cell. The raw unblinding key is saved, but never
+shown in the prompt.
 
-The original POST-survey design (5 expert HCPs each rating 100 outputs
-blind via Qualtrics) had three problems that this redesign solves:
+## Signed Judge Scale
 
-1. **Recruitment burden** for a second wave of clinicians. Even one wave
-   was enormously expensive in person-hours; a second wave for every
-   PHOENIX iteration was infeasible.
-2. **Latency**: any change to the PHOENIX outputs forced weeks of waiting
-   for the next survey wave.
-3. **Drift**: 5 HCPs with different ratings produce a noisier signal than
-   a stable, deterministic-ish judge with anchored Likert prompts.
+The judge makes one comparative score per dimension:
 
-The new design replaces the second wave with a single LLM judge. The
-PRE-survey HCPs stay (10 unique HCPs, one per case), but their outputs
-are now compared against PHOENIX outputs via the judge instead of being
-re-rated by other HCPs.
+```
+-9 = Output B is decisively better
+-6 = Output B is strongly better
+-3 = Output B is modestly better
+ 0 = no meaningful difference / tie
++3 = Output A is modestly better
++6 = Output A is strongly better
++9 = Output A is decisively better
+```
 
-## Pipeline
+The runner unblinds this to a PHOENIX-vs-HCP score:
+
+- positive `score` = PHOENIX preferred;
+- negative `score` = HCP preferred;
+- zero `score` = no meaningful difference.
+
+This avoids the calibration problem of asking an LLM to give two independent
+absolute ratings. The statistical model directly tests whether the signed
+preference differs from zero.
+
+## Data Flow
 
 ```
 Qualtrics CSV
-   |  (parsing/qualtrics_parser.py)
-   v
-data/02_parsed/hcp_outputs.json  -- canonical {case_id: {part: ...}}
+  -> parsing/qualtrics_parser.py
+  -> data/02_parsed/hcp_outputs.json
 
-PHOENIX runs (offline)
-   |
-   v
-data/03_system/system_outputs.json  -- canonical {case_id: {part: ...}}
+PHOENIX runs on the same 10 cases
+  -> data/03_system/system_outputs.json
 
-                |    |
-                v    v
-        llm_as_judge.judge_runner
-        - deterministic A/B blinding per (case, part, run)
-        - 5 stochastic runs per cell (default)
-        - strict-JSON output with parse-retry
-   |
-   v
-data/04_judgments/judgments_long.csv
-columns: case_id, part, dimension, judge_run, source, rating,
-         justification, prompt_version, model, timestamp
+Shared case context shown to both sources
+  -> data/01_raw/case_contexts.json
 
-   |
-   v
-analysis/part{1..5}_*.py
-- LMM: rating ~ source + (1|case_id) + (1|judge_run)
-- TOST equivalence (delta = 0.5 Likert, half a step on 1..7)
-- Holm correction across dimensions within each part
-- Forest plot + raincloud plot + TOST panel
+Double-blind LLM judge
+  -> data/04_judgments/judgments_long.csv
+  -> data/04_judgments/raw/<part>/case_<case>_run_<run>.json
 
-   |
-   v
-analysis/synthesis.py
-- Normalise rating to [0, 1]: (rating - 1) / 6
-- Pooled LMM: score_norm ~ source*part + (1|case_id) + (1|judge_run) + (1|dimension)
-- Cross-part forest + per-part raincloud + parts x dimensions delta heatmap
-- Global TOST with delta=0.05 on the 0..1 scale
+Per-part analysis
+  -> results/part*/report/*_summary.csv
+  -> results/part*/visuals/*_signed_preference_raincloud.png
+  -> results/part*/visuals/*_effect_forest.png
+  -> results/part*/visuals/*_tost_equivalence.png
+
+Cross-part synthesis
+  -> results/synthesis/report/synthesis_report.txt
+  -> results/synthesis/visuals/synthesis_part_forest.png
+  -> results/synthesis/visuals/synthesis_part_signed_raincloud.png
+  -> results/synthesis/visuals/synthesis_heatmap.png
+  -> results/synthesis/visuals/synthesis_tost.png
 ```
 
-## Folder structure
+## Judge Model
+
+Default real judge:
 
 ```
-evaluation/survey_analysis/
-├── README.md                       # this file
-├── requirements.txt                # python deps
-├── run_pipeline.sh                 # bash entry point
-├── pipeline.py                     # python orchestrator
-│
-├── data/
-│   ├── 01_raw/                     # Qualtrics CSV (gitignored)
-│   ├── 02_parsed/                  # parsed HCP outputs (gitignored)
-│   ├── 03_system/                  # PHOENIX outputs (gitignored)
-│   ├── 04_judgments/               # long-format judgments + raw responses (gitignored)
-│   └── pseudodata/                 # pseudo HCP/PHOENIX/judgments (gitignored)
-│
-├── parsing/
-│   ├── canonical_schemas.py        # canonical per-part dataclasses + coercers
-│   ├── qualtrics_parser.py         # Qualtrics CSV -> per-(case,hcp) JSON
-│   └── system_output_loader.py     # loader for PHOENIX outputs
-│
-├── llm_as_judge/
-│   ├── README.md                   # judge design + prompt-engineering rationale
-│   ├── dimensions.py               # PROMPT_VERSION + per-part dimensions
-│   ├── prompts/                    # system + per-part Markdown prompt templates
-│   ├── openrouter_client.py        # OpenAI-SDK / urllib client for OpenRouter
-│   ├── output_schema.py            # JSON schema + tolerant parser
-│   ├── judge_runner.py             # blinding + retry + persistence
-│   └── pseudo_judge.py             # local stand-in (no API call)
-│
-├── analysis/
-│   ├── shared/                     # reusable LMM/TOST/plot helpers
-│   │   ├── shared_stats.py         # raincloud, forest, TOST, LMM (kept from old code)
-│   │   ├── comparison_study.py     # generic per-part runner (1..7 Likert)
-│   │   ├── holistic_comparison.py  # cross-part synthesis runner
-│   │   ├── plotting_extras.py      # parts x dimensions heatmap
-│   │   └── survey_paths.py         # path helpers
-│   ├── part1_operationalization.py
-│   ├── part2_initial_model.py
-│   ├── part3_treatment_targets.py
-│   ├── part4_updated_model.py
-│   ├── part5_intervention.py
-│   └── synthesis.py
-│
-├── pseudodata/
-│   ├── generate_hcp_outputs.py
-│   ├── generate_phoenix_outputs.py
-│   └── generate_judgments.py
-│
-└── tests/
-    └── test_smoke.py               # end-to-end pseudo-mode smoke test
+google/gemini-3.1-flash-lite-preview
 ```
 
-## Statistical specification
+served through OpenRouter's OpenAI-compatible API. The model can be changed
+in `llm_as_judge/openrouter_client.py` or by wiring a model argument into the
+runner. Pseudo mode uses a deterministic local pseudo judge and does not call
+OpenRouter.
 
-For each part p in {1, 2, 3, 4, 5} and each dimension d in
-`DIMENSIONS_BY_PART[p]`:
+## Evaluation Dimensions
 
-```
-rating ~ source + (1 | case_id) + (1 | judge_run)
-```
+Dimensions are part-specific because the five tasks ask for different forms
+of clinical reasoning.
 
-- `source` is categorical with reference `hcp` and test `phoenix`.
-- `case_id` ranges over C01..C10 (10 cases x 1 HCP each in the new design).
-- `judge_run` ranges over the 5 stochastic samples per (case, part).
+| Part | Dimensions |
+| --- | --- |
+| 1 Symptoms | `complaint_coverage`, `symptom_boundary_validity`, `granularity_resolution`, `nonredundancy_discriminability`, `clinical_interoperability`, `ema_measurability` |
+| 2 Treatment options | `modifiability_actionability`, `symptom_relevance`, `causal_plausibility`, `daily_ema_feasibility`, `symptom_option_separation`, `option_diversity_complementarity`, `label_precision` |
+| 3 Target ranking | `network_weight_alignment`, `current_state_integration`, `edge_direction_interpretation`, `top_target_defensibility`, `modifiability_feasibility_weighting`, `rank_order_coherence` |
+| 4 EMA items | `target_item_mapping_accuracy`, `coverage_balance`, `measurement_concreteness`, `directness_specificity`, `dynamic_informativeness`, `monitoring_burden_parsimony`, `feedback_value_for_coaching` |
+| 5 Coaching message | `treatment_goal_alignment`, `barrier_responsiveness`, `action_specificity_feasibility`, `behaviour_change_potential`, `tone_empathy_professionalism`, `mobile_concision_readability`, `personalisation_specificity`, `clinical_safety_nonjudgment` |
 
-Implementation: `analysis.shared.shared_stats.fit_crossed_mixedlm` tries a
-sequence of three random-effects specifications (case-intercept +
-judge-run VC; judge-run intercept + case VC; case intercept fallback)
-and returns the first that converges. If all fail, a Mann-Whitney U
-fallback is reported instead, and the LMM artefacts are flagged as
-non-converged in the per-part summary CSV.
+Full definitions, rationales, and comparative anchors are in
+`llm_as_judge/dimensions.py`; part-specific prompt templates are in
+`llm_as_judge/prompts/`.
 
-Effect sizes: Cohen's d on the (PHOENIX vs HCP) split with bootstrap CIs.
+## Statistical Analysis
 
-Equivalence testing: TOST with delta = 0.5 Likert points on the 1..7
-scale, mirroring the half-step minimal clinically important difference
-convention. The cross-part synthesis additionally runs a global TOST on
-normalised scores with delta = 0.05.
-
-Multiplicity correction: Holm-Bonferroni across the 5..7 dimensions within
-each part. The cross-part synthesis applies a separate Holm correction
-across the 5 per-part main effects.
-
-## Per-part dimensions (summary)
-
-| Part | Goal | Dimensions |
-| --- | --- | --- |
-| 1 | Operationalisation | clinical_accuracy, construct_interoperability, resolution_preservation, behavioural_specificity, internal_consistency, completeness, conciseness_redundancy |
-| 2 | Initial model | clinical_appropriateness, network_validity, ema_feasibility, predictor_diversity, measurement_specificity, intervention_potential, construct_coverage |
-| 3 | Treatment targets | top_target_appropriateness, evidence_alignment, rank_coherence, network_impact_awareness, monitoring_integration, modifiability_weighting |
-| 4 | Updated model | adaptive_reasoning, target_alignment, personalisation, measurement_quality, parsimony, theoretical_coherence |
-| 5 | Intervention | hapa_phase_appropriateness, behavioural_change_potential, personalisation_specificity, professional_tone, empathy_warmth, clarity_actionability, message_appropriateness_length |
-
-Full goal descriptions, anchors, and rationales live in
-`llm_as_judge/dimensions.py`.
-
-## Reproducibility
-
-- Random seeds: every stochastic step (blinding, pseudo-judge effects,
-  bootstrap CIs) is seeded from a deterministic hash of its inputs. The
-  pseudo-judge is fully deterministic given (case_id, part, judge_run).
-- Prompt versioning: `llm_as_judge.dimensions.PROMPT_VERSION` is recorded
-  in every long-format row; bump it whenever the prompt or the dimension
-  set changes so analyses can stratify or filter by version.
-- Model pinning: `google/gemini-2.5-flash` via OpenRouter; bump the
-  default in `openrouter_client.py` to switch.
-- Retry policy: 3 transient retries with exponential backoff in the
-  OpenRouter client, plus 1 JSON-parse re-prompt with a "fix your JSON"
-  follow-up turn.
-
-## How to run
-
-Pseudo mode (no API key needed):
+For every part and dimension:
 
 ```
-bash evaluation/survey_analysis/run_pipeline.sh --mode pseudo
+score ~ 1 + (1 | case_id) + (1 | judge_run)
+```
+
+The intercept is the estimated mean PHOENIX-HCP signed preference. It is
+positive when PHOENIX is preferred and negative when the HCP output is
+preferred.
+
+The analysis reports:
+
+- intercept estimate and 95% CI;
+- raw and Holm-corrected p-values within each part;
+- one-sample Cohen's d for the signed scores;
+- preference split: PHOENIX preferred, HCP preferred, tie;
+- one-sample TOST equivalence around zero with `delta = +/-1` signed score
+  point;
+- a documented one-sample t-test/bootstrap fallback when the intercept-only
+  mixed model returns degenerate variance estimates.
+
+The cross-part synthesis normalises signed scores by dividing by 9 and fits:
+
+```
+score_norm ~ 1 + C(part) + (1 | case_id) + (1 | judge_run) + (1 | dimension)
+```
+
+Global and per-part TOST use `delta = +/-0.10` on the normalised `[-1,+1]`
+scale.
+
+## Required Real-Mode Inputs
+
+### HCP outputs
+
+Use the raw Qualtrics export:
+
+```
+evaluation/qualtrics/data/01_raw/Masterproef_May 1, 2026_15.25.csv
+```
+
+The parser understands the current column structure:
+
+```
+HCP03_C03_PART1_1 ... HCP03_C03_PART1_6
+HCP03_C03_PART2_1 ... HCP03_C03_PART2_5
+HCP03_C03_PART3_1 ... HCP03_C03_PART3_5
+HCP03_C03_PART4
+HCP03_C03_PART5
+hcp
+```
+
+### PHOENIX outputs
+
+Place production system outputs here:
+
+```
+evaluation/survey_analysis/data/03_system/system_outputs.json
+```
+
+Shape:
+
+```json
+{
+  "C01": {
+    "part1": {"items": [{"label": "insomnia", "description": "sleep onset difficulty"}]},
+    "part2": {"items": [{"label": "evening screen time"}]},
+    "part3": {"ranking": [{"rank": 1, "option_id": "BO-1"}]},
+    "part4": {"selected_options": ["screen-free interval before bed"], "note": null},
+    "part5": {"message": "Tonight, put your phone away at 21:30.", "hapa_phase": "intentional"}
+  }
+}
+```
+
+### Case contexts
+
+For real OpenRouter judging, create:
+
+```
+evaluation/survey_analysis/data/01_raw/case_contexts.json
+```
+
+This should contain the inputs shown to both HCPs and PHOENIX: vignette,
+standardised symptoms, treatment options, network/EMA summaries, Part 4
+candidate EMA items, and Part 5 treatment-goal/barrier/coaching context.
+Missing fields are tolerated but weaken the judge prompt, so production
+analysis should fill them.
+
+## Running
+
+Pseudo mode, no API key:
+
+```bash
+python evaluation/survey_analysis/pipeline.py --mode pseudo
 ```
 
 Real mode:
 
-```
-export OPENROUTER_API_KEY=sk-...
-bash evaluation/survey_analysis/run_pipeline.sh --mode real --n-runs 5
-```
-
-Subset of cases / parts (works in either mode):
-
-```
-bash evaluation/survey_analysis/run_pipeline.sh \
-    --mode pseudo --cases C01 C02 C03 --parts part1 part5
+```bash
+export OPENROUTER_API_KEY=...
+python evaluation/survey_analysis/pipeline.py --mode real --n-runs 5
 ```
 
-Re-run only the analysis (skipping parsing and judging, e.g. while
-iterating on plots):
+Subset while debugging:
 
+```bash
+python evaluation/survey_analysis/pipeline.py \
+  --mode pseudo --cases C01 C02 C03 --parts part1 part5 --n-runs 5
 ```
-bash evaluation/survey_analysis/run_pipeline.sh --mode pseudo \
-    --skip-parse --skip-judge
+
+Re-run only analysis from existing judge scores:
+
+```bash
+python evaluation/survey_analysis/pipeline.py --mode pseudo --skip-parse --skip-judge
 ```
 
-## References
+Smoke test:
 
-- Qualtrics PRE survey blueprint:
-  `evaluation/qualtrics/survey/01_HCPs_PRE/`
-- Allen et al. (2019). Raincloud plots: a multi-platform tool for robust
-  data visualization. Wellcome Open Research.
-- Lakens (2017). Equivalence tests: a practical primer for t-tests,
-  correlations, and meta-analyses. Social Psychological and Personality
-  Science.
-- Schwarzer (2008). Modeling health behavior change (HAPA model).
+```bash
+python -m unittest evaluation/survey_analysis/tests/test_smoke.py
+```
 
-## Limitations
+## Notes
 
-- **Single-judge architecture**: the headline numbers depend on Gemini
-  2.5 Flash. A sensitivity analysis with at least one alternative judge
-  (e.g. Claude Sonnet, GPT-4o) is left as future work; the prompt
-  templates and runner are agnostic to the model identifier so this is
-  a one-line change.
-- **Cohort size**: 10 HCPs x 5 runs gives 50 ratings per (part,
-  dimension, source), which is adequate for LMM but tight for rare-effect
-  detection. Confidence intervals reflect this.
-- **Pseudodata content quality**: the in-tree pseudo HCP and PHOENIX
-  outputs are deliberately rough; their purpose is shape-validation, not
-  clinical evaluation. Real evaluation runs use the production PHOENIX
-  outputs and the parsed Qualtrics responses.
+- The legacy live Qualtrics image paths under
+  `evaluation/qualtrics/01_HCPs_PRE/...` are not touched by this pipeline.
+- Generated data and results are reproducible pseudo-mode artefacts; real
+  OpenRouter outputs should be versioned by `prompt_version`, model, and raw
+  response JSON.
+- `PROMPT_VERSION` is currently `2026-05-01-v2-signed-comparison`.

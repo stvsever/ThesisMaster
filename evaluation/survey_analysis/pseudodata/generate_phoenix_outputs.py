@@ -243,8 +243,8 @@ _CASES: Dict[str, Dict[str, Any]] = {
 def _case_to_canonical(case_payload: Dict[str, Any]) -> Dict[str, Any]:
     p1 = Part1Output(items=[Part1Item(label=l, description=d)
                             for l, d in case_payload["part1"]])
-    p2 = Part2Output(items=[Part2Item(predictor=p, measurement=m, criteria=c)
-                            for p, m, c in case_payload["part2"]])
+    p2 = Part2Output(items=[Part2Item(label=p)
+                            for p, _m, _c in case_payload["part2"]])
     ranks = case_payload["part3_ranking"]
     p3 = Part3Output(ranking=sorted(
         [Part3Item(rank=int(r), option_id=f"BO-{i+1}")

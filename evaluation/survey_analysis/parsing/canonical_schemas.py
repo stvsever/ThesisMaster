@@ -56,16 +56,10 @@ class Part1Output:
 
 @dataclass
 class Part2Item:
-    predictor: str
-    measurement: str
-    criteria: str
+    label: str
 
     def to_dict(self) -> Dict[str, str]:
-        return {
-            "predictor": self.predictor,
-            "measurement": self.measurement,
-            "criteria": self.criteria,
-        }
+        return {"label": self.label}
 
 
 @dataclass
@@ -168,17 +162,18 @@ def coerce_part1(payload: Any) -> Part1Output:
 
 def _split_predictor_cell(text: str) -> Part2Item:
     """
-    Parse a Part 2 cell shaped ``predictor | measurement | criteria``.
+    Parse a Part 2 cell.
 
-    Falls back to padding empty fields when fewer pipes are present.
+    The current Qualtrics survey asks only for short treatment-option labels.
+    If an older PHOENIX output contains ``label | measurement | criteria``,
+    keep only the first field so both sources stay structurally identical
+    and the judge cannot infer source identity from extra detail.
     """
     s = str(text or "").strip()
     if not s:
-        return Part2Item("", "", "")
-    parts = [p.strip() for p in re.split(r"\s*\|\s*", s)]
-    while len(parts) < 3:
-        parts.append("")
-    return Part2Item(predictor=parts[0], measurement=parts[1], criteria=parts[2])
+        return Part2Item("")
+    label = re.split(r"\s*\|\s*", s, maxsplit=1)[0].strip()
+    return Part2Item(label=label)
 
 
 def coerce_part2(payload: Any) -> Part2Output:
@@ -190,12 +185,22 @@ def coerce_part2(payload: Any) -> Part2Output:
             if isinstance(it, Part2Item):
                 items.append(it)
             elif isinstance(it, dict):
-                items.append(Part2Item(
-                    predictor=str(it.get("predictor", "")).strip(),
-                    measurement=str(it.get("measurement", "")).strip(),
-                    criteria=str(it.get("criteria", "")).strip(),
-                ))
+                label = (
+                    it.get("label")
+                    or it.get("predictor")
+                    or it.get("treatment_option")
+                    or it.get("option")
+                    or ""
+                )
+                label = re.split(r"\s*\|\s*", str(label), maxsplit=1)[0].strip()
+                items.append(Part2Item(label=label))
         return Part2Output(items=items)
+    if isinstance(payload, dict) and "treatment_options" in payload:
+        return Part2Output(items=[
+            _split_predictor_cell(c)
+            for c in payload["treatment_options"]
+            if str(c or "").strip()
+        ])
     if isinstance(payload, list):
         items = [_split_predictor_cell(c) for c in payload if str(c or "").strip()]
         return Part2Output(items=items)
