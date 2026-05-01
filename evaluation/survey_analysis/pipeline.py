@@ -1,19 +1,26 @@
 """
 End-to-end orchestrator for the PHOENIX evaluation pipeline.
 
-Stages:
-    1. Parse the Qualtrics CSV into per-(case, hcp) canonical JSON.
-       (Or, in pseudo mode, generate pseudo HCP outputs.)
-    2. Load PHOENIX outputs from data/03_system/system_outputs.json.
-       (Or, in pseudo mode, generate pseudo PHOENIX outputs.)
-    3. Run the signed LLM judge (real OpenRouter call, or pseudo).
-    4. Run the per-part signed LMM/TOST analyses.
-    5. Run the cross-part synthesis.
+Stages
+------
+1. Parse the Qualtrics CSV into per-(case, hcp) canonical JSON.
+   In pseudo mode: generate LLM-based pseudo HCP outputs (GZ-psycholoog
+   persona via Gemini Flash).
+2. Load PHOENIX outputs from data/03_system/system_outputs.json.
+   In pseudo mode: generate rule-based pseudo PHOENIX outputs.
+3. Run the per-output absolute-quality LLM judge (1–5 Likert scale) for
+   BOTH sources independently (double-blind).  Uses Gemini Flash via
+   OpenRouter, or the deterministic pseudo judge in test mode.
+4. Run per-part entity-predictor LMM analyses:
+   quality_score ~ entity_ec + (1|case_id) + (1|judge_run)
+5. Run the cross-part holistic synthesis.
+6. Run supplementary stability and sensitivity analyses.
 
-Usage:
+Usage
+-----
     python -m evaluation.survey_analysis.pipeline --mode pseudo
     python -m evaluation.survey_analysis.pipeline --mode real \\
-        --n-runs 5 --cases C01 C02 --parts part1 part5
+        --n-runs 3 --cases C01 C02 --parts part1 part5
 """
 
 from __future__ import annotations
@@ -97,7 +104,7 @@ def build_parser() -> argparse.ArgumentParser:
         help="Force a judge backend; defaults to match --mode.",
     )
     p.add_argument(
-        "--n-runs", type=int, default=5,
+        "--n-runs", type=int, default=3,
         help="Number of stochastic judge runs per (case, part).",
     )
     p.add_argument(
@@ -135,6 +142,10 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument(
         "--skip-synthesis", action="store_true",
         help="Skip the cross-part synthesis.",
+    )
+    p.add_argument(
+        "--skip-supplementary", action="store_true",
+        help="Skip supplementary stability and sensitivity analyses.",
     )
     p.add_argument(
         "--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING"],
@@ -321,6 +332,13 @@ def _stage_synthesis() -> Dict[str, Any]:
     return synthesis.run()
 
 
+def _stage_supplementary() -> Dict[str, Any]:
+    logger.info("Running supplementary stability and sensitivity analyses")
+    from analysis import supplementary
+
+    return supplementary.run()
+
+
 # ──────────────────────────────────────────────────────────────────────────────
 # Main
 # ──────────────────────────────────────────────────────────────────────────────
@@ -333,8 +351,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     )
     ensure_data_dirs()
 
-    logger.info("Stage 0/5: ensuring data directories")
-    logger.info("Stage 1/5: %s", "generating pseudo HCP outputs"
+    logger.info("Stage 0/6: ensuring data directories")
+    logger.info("Stage 1/6: %s", "generating pseudo HCP outputs"
                 if args.mode == "pseudo" else "parsing Qualtrics CSV")
     if not args.skip_parse:
         parse_out = _stage_parse(args)
@@ -342,27 +360,33 @@ def main(argv: Optional[List[str]] = None) -> int:
         path = PARSED_DIR / "hcp_outputs.json"
         parse_out = {"hcp_outputs": json.loads(path.read_text(encoding="utf-8"))}
 
-    logger.info("Stage 2/5: %s", "generating pseudo PHOENIX outputs"
+    logger.info("Stage 2/6: %s", "generating pseudo PHOENIX outputs"
                 if args.mode == "pseudo" else "loading system outputs")
     sys_out = _stage_system_outputs(args)
 
     if not args.skip_judge:
-        logger.info("Stage 3/5: judging")
+        logger.info("Stage 3/6: judging")
         _stage_judge(args, parse_out["hcp_outputs"], sys_out["system_outputs"])
     else:
-        logger.info("Stage 3/5: SKIPPED (re-using %s)", judgments_csv())
+        logger.info("Stage 3/6: SKIPPED (re-using %s)", judgments_csv())
 
     if not args.skip_analysis:
-        logger.info("Stage 4/5: per-part analyses")
+        logger.info("Stage 4/6: per-part analyses")
         _stage_part_analysis(args.parts)
     else:
-        logger.info("Stage 4/5: SKIPPED")
+        logger.info("Stage 4/6: SKIPPED")
 
     if not args.skip_synthesis:
-        logger.info("Stage 5/5: cross-part synthesis")
+        logger.info("Stage 5/6: cross-part synthesis")
         _stage_synthesis()
     else:
-        logger.info("Stage 5/5: SKIPPED")
+        logger.info("Stage 5/6: SKIPPED")
+
+    if not args.skip_supplementary:
+        logger.info("Stage 6/6: supplementary analyses")
+        _stage_supplementary()
+    else:
+        logger.info("Stage 6/6: SKIPPED")
 
     logger.info("Pipeline complete. Results under results/ and data/.")
     return 0

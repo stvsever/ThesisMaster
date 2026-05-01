@@ -226,12 +226,11 @@ def tost_test_one_sample(
     delta: float = 1.0,
 ) -> Dict[str, Any]:
     """
-    One-sample TOST for signed PHOENIX-vs-HCP preference scores.
+    One-sample TOST for paired PHOENIX-minus-HCP difference scores.
 
-    Tests whether the mean signed score lies inside [-delta, +delta].
-    A significant result supports practical equivalence; a positive mean
-    outside the band favours PHOENIX, and a negative mean outside the band
-    favours HCP.
+    Tests whether the mean difference lies inside [-delta, +delta]. A
+    significant result supports practical equivalence; a positive mean outside
+    the band favours PHOENIX and a negative mean outside the band favours HCP.
     """
     vals = np.asarray(values, dtype=float)
     vals = vals[np.isfinite(vals)]
@@ -283,7 +282,7 @@ def tost_test_one_sample(
 
 
 def cohen_d_one_sample(values: np.ndarray, mu: float = 0.0) -> float:
-    """Standardised one-sample effect size for signed scores."""
+    """Standardised one-sample effect size for paired difference scores."""
     vals = np.asarray(values, dtype=float)
     vals = vals[np.isfinite(vals)]
     if len(vals) < 2:
@@ -505,18 +504,27 @@ def raincloud_plot(
         rgba  = to_rgba(color)
 
         # ── 1. Half-violin (KDE on LEFT side) ──────────────────────────────
-        if len(vals) >= 3:
+        if len(vals) >= 3 and np.std(vals) > 0:
             bandwidth = max(0.3, np.std(vals, ddof=1) * len(vals) ** (-0.2))
-            kde = gaussian_kde(vals, bw_method=bandwidth)
-            y_grid   = np.linspace(vals.min() - 0.6, vals.max() + 0.6, 300)
-            density  = kde(y_grid)
-            # normalize to half-width of 0.30
-            d_scaled = density / density.max() * 0.30
-            ax.fill_betweenx(
-                y_grid, pos - d_scaled, pos,
-                color=color, alpha=0.38, linewidth=0,
-            )
-            ax.plot(pos - d_scaled, y_grid, color=color, lw=1.0, alpha=0.55)
+            try:
+                kde = gaussian_kde(vals, bw_method=bandwidth)
+                y_grid   = np.linspace(vals.min() - 0.6, vals.max() + 0.6, 300)
+                density  = kde(y_grid)
+                # normalize to half-width of 0.30
+                d_scaled = density / density.max() * 0.30
+                ax.fill_betweenx(
+                    y_grid, pos - d_scaled, pos,
+                    color=color, alpha=0.38, linewidth=0,
+                )
+                ax.plot(pos - d_scaled, y_grid, color=color, lw=1.0, alpha=0.55)
+            except Exception:
+                # Fallback: simple bar at the mean
+                ax.axhline(float(np.mean(vals)), color=color, lw=1.5, alpha=0.4,
+                           xmin=0.0, xmax=0.5)
+        elif len(vals) >= 1:
+            # All values identical — draw a dashed horizontal line
+            ax.axhline(float(np.mean(vals)), color=color, lw=1.5, alpha=0.4,
+                       linestyle="--")
 
         # ── 2. Boxplot (narrow, centered) ───────────────────────────────────
         q25, med, q75 = np.percentile(vals, [25, 50, 75])

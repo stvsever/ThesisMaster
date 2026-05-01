@@ -1,27 +1,36 @@
 """
-Generic per-part analysis for the signed LLM-as-judge design.
+Generic per-part analysis for the absolute-quality LLM-as-judge design.
 
-The long-format judgments CSV contains one row per
-``(case_id, part, dimension, judge_run)`` with:
+Statistical model
+-----------------
+For each (part, dimension) the long-format CSV contains one row per
+``(case_id, part, dimension, judge_run, entity)`` with:
 
-    score = signed PHOENIX-over-HCP preference on -9..+9
+    quality_score  1..5 absolute quality rating
+    entity         "phoenix" | "hcp"
 
-Positive scores favour PHOENIX; negative scores favour the HCP output; zero
-means no meaningful difference. For each part and dimension this module fits:
+The primary model estimates the PHOENIX–HCP quality gap:
 
-    score ~ 1 + (1 | case_id) + (1 | judge_run)
+    quality_score ~ entity + (1 | case_id) + (1 | judge_run)
 
-The intercept is the estimated mean PHOENIX-HCP preference. We also run a
-one-sample TOST around zero with a default equivalence margin of +/-1 signed
-scale point, Holm-correct p-values within each part, and create a signed
-raincloud, forest plot, and TOST panel.
+Where ``entity`` is effect-coded (HCP = -0.5, PHOENIX = +0.5) so the
+intercept = grand mean quality and the entity coefficient = PHOENIX − HCP.
+
+Equivalence testing uses a one-sample TOST on the entity-difference scores
+(phoenix_score − hcp_score per cell) with a default margin of ±0.3 quality
+points (7.5% of the 1–5 range).
+
+Outputs
+-------
+Per-part report text, summary CSV, grouped raincloud plot, forest plot, and
+TOST equivalence panel.
 """
 
 from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Sequence
+from typing import Any, Dict, List, Optional, Sequence, Tuple
 
 import matplotlib
 
@@ -50,7 +59,7 @@ from .survey_paths import ensure_study_dirs, judgments_csv
 
 @dataclass(frozen=True)
 class ComparisonStudyConfig:
-    """Configuration for a single signed per-part comparison study."""
+    """Configuration for a single absolute-quality per-part comparison study."""
 
     study_slug: str
     part: str
@@ -58,38 +67,73 @@ class ComparisonStudyConfig:
     report_name: str
     dimension_order: Sequence[str]
     judgments_path: Optional[Path] = None
-    score_col: str = "score"
+    score_col: str = "quality_score"
+    entity_col: str = "entity"
     case_col: str = "case_id"
     run_col: str = "judge_run"
-    scale_min: int = -9
-    scale_max: int = 9
-    y_label: str = "Signed preference score (-9 HCP, +9 PHOENIX)"
-    tost_delta: float = 1.0
+    quality_min: int = 1
+    quality_max: int = 5
+    y_label: str = "Absolute quality score (1 = poor, 5 = excellent)"
+    tost_delta: float = 0.3   # equivalence margin on the 1–5 quality scale
 
 
 def _display_label(value: str) -> str:
     return str(value).replace("_", " ").title()
 
 
-def _structure_note(method: str) -> str:
-    method_lower = method.lower()
-    if "case intercept" in method_lower and "judge_run" in method_lower:
-        return "case-level random intercept with judge_run variance component"
-    if "judge_run" in method_lower:
-        return "judge_run-level random intercept with case_id variance component"
-    if "fallback" in method_lower:
-        return "fallback after the richer crossed models failed to converge"
-    return "crossed random intercepts for case_id and judge_run"
+def _mean_ci(values: np.ndarray) -> Tuple[float, float, float]:
+    vals = np.asarray(values, dtype=float)
+    vals = vals[np.isfinite(vals)]
+    if len(vals) < 2:
+        m = float(np.mean(vals)) if len(vals) else 3.0
+        return m, m, m
+    mean = float(np.mean(vals))
+    lo, hi = bootstrap_ci_mean(vals, n_boot=2000, seed=42)
+    return mean, lo, hi
 
 
-def _fit_signed_lmm(sub: pd.DataFrame, *, case_col: str, run_col: str) -> Dict[str, Any]:
-    """Fit the signed one-sample LMM and fall back to a one-sample t-test."""
+def _paired_entity_differences(
+    sub: pd.DataFrame,
+    *,
+    case_col: str,
+    run_col: str,
+) -> np.ndarray:
+    """Return PHOENIX minus HCP differences paired by case and judge run."""
+    paired = (
+        sub.pivot_table(
+            index=[case_col, run_col],
+            columns="entity",
+            values="quality_score",
+            aggfunc="mean",
+        )
+        .dropna(subset=["phoenix", "hcp"], how="any")
+    )
+    if paired.empty:
+        return np.asarray([], dtype=float)
+    return (paired["phoenix"].astype(float) - paired["hcp"].astype(float)).to_numpy()
+
+
+def _fit_entity_lmm(
+    sub: pd.DataFrame,
+    *,
+    entity_col: str,
+    case_col: str,
+    run_col: str,
+) -> Dict[str, Any]:
+    """
+    Fit the entity-predictor LMM and fall back to a Welch t-test.
+
+    The entity predictor is effect-coded so the coefficient gives the
+    PHOENIX − HCP quality gap on the 1–5 scale.
+    """
     work = sub.copy()
-    formula = "score ~ 1"
+    # Effect coding: PHOENIX = +0.5, HCP = -0.5
+    work["entity_ec"] = work[entity_col].map({"phoenix": 0.5, "hcp": -0.5}).fillna(0.0)
+
     result = fit_crossed_mixedlm(
         work,
-        formula=formula,
-        effect_term="Intercept",
+        formula="quality_score ~ entity_ec",
+        effect_term="entity_ec",
         candidates=[
             {
                 "label": "Crossed LMM (case intercept + judge_run variance component)",
@@ -108,47 +152,50 @@ def _fit_signed_lmm(sub: pd.DataFrame, *, case_col: str, run_col: str) -> Dict[s
             },
         ],
     )
+
     se = float(result.get("se", 0.0) or 0.0)
-    ci_width = abs(float(result.get("ci_upper", 0.0)) - float(result.get("ci_lower", 0.0)))
-    if result["method"] != "No converged mixed model" and np.isfinite(se) and se > 1e-6 and ci_width > 1e-6:
+    ci_width = abs(
+        float(result.get("ci_upper", 0.0)) - float(result.get("ci_lower", 0.0))
+    )
+    if (
+        result["method"] != "No converged mixed model"
+        and np.isfinite(se)
+        and se > 1e-6
+        and ci_width > 1e-6
+    ):
         return result
 
-    vals = work["score"].astype(float).to_numpy()
-    mean_score, ci_lo, ci_hi = _mean_ci(vals)
+    # Fallback: Welch t-test on per-entity means
+    phoenix_vals = work.loc[work[entity_col] == "phoenix", "quality_score"].astype(float).dropna().values
+    hcp_vals = work.loc[work[entity_col] == "hcp", "quality_score"].astype(float).dropna().values
+    diff = float(np.mean(phoenix_vals) - np.mean(hcp_vals)) if (len(phoenix_vals) and len(hcp_vals)) else 0.0
     try:
-        t_stat, p_val = stats.ttest_1samp(vals, popmean=0.0)
+        t_stat, p_val = stats.ttest_ind(phoenix_vals, hcp_vals, equal_var=False)
     except Exception:
         t_stat, p_val = float("nan"), 1.0
+    se_diff = (
+        float(np.sqrt(np.var(phoenix_vals, ddof=1) / len(phoenix_vals)
+                      + np.var(hcp_vals, ddof=1) / len(hcp_vals)))
+        if len(phoenix_vals) > 1 and len(hcp_vals) > 1
+        else 0.0
+    )
     return {
-        "method": "One-sample t-test fallback",
+        "method": "Welch t-test fallback",
         "group_col": None,
         "variance_components": {},
-        "coefficient": mean_score,
-        "se": float(stats.sem(vals)) if len(vals) > 1 else 0.0,
-        "ci_lower": ci_lo,
-        "ci_upper": ci_hi,
+        "coefficient": diff,
+        "se": se_diff,
+        "ci_lower": diff - 1.96 * se_diff,
+        "ci_upper": diff + 1.96 * se_diff,
         "p_value": float(p_val) if np.isfinite(p_val) else 1.0,
         "converged": False,
-        "shapiro_w": float("nan"),
-        "shapiro_p": float("nan"),
         "t_statistic": float(t_stat) if np.isfinite(t_stat) else float("nan"),
         "error": result.get("error", "mixed model produced degenerate standard error"),
     }
 
 
-def _mean_ci(values: np.ndarray) -> tuple[float, float, float]:
-    vals = np.asarray(values, dtype=float)
-    vals = vals[np.isfinite(vals)]
-    if len(vals) < 2:
-        m = float(np.mean(vals)) if len(vals) else 0.0
-        return m, m, m
-    mean = float(np.mean(vals))
-    lo, hi = bootstrap_ci_mean(vals, n_boot=2000, seed=42)
-    return mean, lo, hi
-
-
 def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
-    """Run one per-part signed preference analysis."""
+    """Run one per-part absolute-quality PHOENIX–HCP comparison study."""
     apply_rcparams()
     paths = ensure_study_dirs(config.study_slug)
     csv_path = config.judgments_path or judgments_csv()
@@ -158,15 +205,30 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
         )
 
     df_all = pd.read_csv(csv_path)
-    required = {"case_id", "part", "dimension", "judge_run", config.score_col}
+
+    # Handle both old (score) and new (quality_score) column names
+    if "quality_score" not in df_all.columns and "score" in df_all.columns:
+        df_all = df_all.rename(columns={"score": "quality_score"})
+    if "entity" not in df_all.columns:
+        # Legacy: derive entity from source columns if present
+        if "winner_source" in df_all.columns:
+            # Not meaningful for absolute quality; skip gracefully
+            df_all["entity"] = "unknown"
+        else:
+            raise ValueError(
+                "Judgments CSV has no 'entity' column. "
+                "Re-run the judge with the absolute-quality schema."
+            )
+
+    required = {"case_id", "part", "dimension", "judge_run", "quality_score", "entity"}
     missing = required.difference(df_all.columns)
     if missing:
         raise ValueError(f"Judgments CSV is missing required columns: {sorted(missing)}")
+
     df = df_all.loc[df_all["part"].astype(str) == config.part].copy()
     if df.empty:
         raise ValueError(f"No rows for part={config.part!r} in {csv_path}.")
-    df = df.rename(columns={config.score_col: "score"})
-    df["score"] = df["score"].astype(float)
+    df["quality_score"] = df["quality_score"].astype(float)
 
     available = set(df["dimension"].astype(str).unique().tolist())
     dimensions = [d for d in config.dimension_order if d in available]
@@ -176,16 +238,19 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
             f"are present in the data for {config.part}."
         )
 
+    # ── Report header ────────────────────────────────────────────────────────
     report_lines: List[str] = [
         "=" * 72,
         config.title,
-        "Signed LLM-as-judge comparison: positive scores favour PHOENIX",
+        "LLM-as-judge: absolute quality comparison (PHOENIX vs HCP)",
         "=" * 72,
         "",
-        f"Scale: {config.scale_min}..{config.scale_max}; 0 = no meaningful difference.",
-        f"Equivalence margin (one-sample TOST): +/- {config.tost_delta} signed score point.",
-        "Multiplicity correction: Holm-Bonferroni across dimensions within this part.",
-        f"LMM: score ~ 1 + (1|{config.case_col}) + (1|{config.run_col}).",
+        f"Scale: {config.quality_min}..{config.quality_max} "
+        f"(1=poor, 3=acceptable, 5=excellent).",
+        f"Equivalence margin (TOST): ± {config.tost_delta} quality points.",
+        "Multiplicity correction: Holm–Bonferroni across dimensions.",
+        f"Primary model: quality_score ~ entity + (1|{config.case_col}) + "
+        f"(1|{config.run_col})",
         "",
     ]
 
@@ -194,58 +259,76 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
 
     for dim in dimensions:
         sub = df.loc[df["dimension"].astype(str) == dim].copy()
-        vals = sub["score"].astype(float).to_numpy()
-        vals = vals[np.isfinite(vals)]
-        if len(vals) == 0:
+        if sub.empty:
             continue
-        model_result = _fit_signed_lmm(sub, case_col=config.case_col, run_col=config.run_col)
+
+        phoenix_vals = (
+            sub.loc[sub["entity"] == "phoenix", "quality_score"]
+            .astype(float).dropna().to_numpy()
+        )
+        hcp_vals = (
+            sub.loc[sub["entity"] == "hcp", "quality_score"]
+            .astype(float).dropna().to_numpy()
+        )
+
+        # Difference scores for TOST and Cohen's d, paired by case/run.
+        diff_scores = _paired_entity_differences(
+            sub, case_col=config.case_col, run_col=config.run_col
+        )
+
+        model_result = _fit_entity_lmm(
+            sub, entity_col="entity", case_col=config.case_col, run_col=config.run_col
+        )
         raw_p_values.append(float(model_result["p_value"]))
-        tost_result = tost_test_one_sample(vals, delta=config.tost_delta)
-        mean_score, mean_ci_lo, mean_ci_hi = _mean_ci(vals)
+        tost_result = tost_test_one_sample(diff_scores, delta=config.tost_delta) if len(diff_scores) >= 2 else {
+            "equivalent": False, "p_tost": 1.0, "observed_diff": 0.0, "pooled_se": 0.0
+        }
+
+        phoenix_mean, phoenix_ci_lo, phoenix_ci_hi = _mean_ci(phoenix_vals)
+        hcp_mean, hcp_ci_lo, hcp_ci_hi = _mean_ci(hcp_vals)
+
         dim_results[dim] = {
-            "values": vals,
+            "phoenix_vals": phoenix_vals,
+            "hcp_vals": hcp_vals,
+            "diff_scores": diff_scores,
             "result": model_result,
             "tost": tost_result,
-            "mean_score": mean_score,
-            "mean_ci": (mean_ci_lo, mean_ci_hi),
-            "effect_d": cohen_d_one_sample(vals),
-            "pct_phoenix_preferred": float(np.mean(vals > 0)),
-            "pct_hcp_preferred": float(np.mean(vals < 0)),
-            "pct_tie": float(np.mean(vals == 0)),
+            "phoenix_mean": phoenix_mean,
+            "phoenix_ci": (phoenix_ci_lo, phoenix_ci_hi),
+            "hcp_mean": hcp_mean,
+            "hcp_ci": (hcp_ci_lo, hcp_ci_hi),
+            "effect_d": cohen_d_one_sample(diff_scores) if len(diff_scores) >= 2 else 0.0,
         }
 
     corrected = holm_correct(raw_p_values)
     for dim, p_adj in zip(list(dim_results.keys()), corrected):
         dim_results[dim]["result"]["p_value_adj"] = float(p_adj)
 
+    # ── Per-dimension report lines ───────────────────────────────────────────
     for dim, r in dim_results.items():
-        vals = r["values"]
-        m = r["result"]
-        t = r["tost"]
+        m, t = r["result"], r["tost"]
+        coef = float(m.get("coefficient", 0.0))
         equiv = (
             f"EQUIVALENT (p_TOST={t['p_tost']:.4f})"
-            if t["equivalent"]
+            if t.get("equivalent")
             else f"not equivalent (p_TOST={t['p_tost']:.4f})"
         )
         report_lines.extend([
             f"Dimension: {dim}",
-            f"  Mean signed score={np.mean(vals):+.3f}, SD={np.std(vals, ddof=1):.3f}, "
-            f"median={np.median(vals):+.3f}, n={len(vals)}",
-            f"  Preference split: PHOENIX>{r['pct_phoenix_preferred']:.1%}, "
-            f"HCP>{r['pct_hcp_preferred']:.1%}, tie={r['pct_tie']:.1%}",
-            f"  Method: {m['method']}",
-            f"  Random structure: {_structure_note(m['method'])}",
-            f"  Intercept (PHOENIX - HCP): {m['coefficient']:+.4f}",
+            f"  PHOENIX: mean={r['phoenix_mean']:+.3f} (n={len(r['phoenix_vals'])}), "
+            f"  HCP: mean={r['hcp_mean']:+.3f} (n={len(r['hcp_vals'])})",
+            f"  PHOENIX − HCP effect: {coef:+.4f} quality points",
             f"  95% CI: [{m['ci_lower']:+.4f}, {m['ci_upper']:+.4f}]",
             f"  p-value (raw): {m['p_value']:.4f}",
             f"  p-value (Holm): {m['p_value_adj']:.4f} "
             f"({p_to_stars(m['p_value_adj'])})",
-            f"  One-sample Cohen's d: {r['effect_d']:+.4f}",
+            f"  Cohen's d (difference): {r['effect_d']:+.4f}",
             f"  TOST (+/- {config.tost_delta}): {equiv}",
-            f"    observed mean={t['observed_diff']:+.4f}, SE={t['pooled_se']:.4f}",
+            f"  Method: {m['method']}",
             "",
         ])
 
+    # ── Save report + summary ────────────────────────────────────────────────
     (paths["report_dir"] / config.report_name).write_text(
         "\n".join(report_lines), encoding="utf-8",
     )
@@ -253,25 +336,21 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
     summary_rows = []
     for dim, r in dim_results.items():
         m, t = r["result"], r["tost"]
-        vals = r["values"]
         summary_rows.append({
             "part": config.part,
             "dimension": dim,
-            "n": int(len(vals)),
-            "mean_score": float(np.mean(vals)),
-            "median_score": float(np.median(vals)),
-            "sd_score": float(np.std(vals, ddof=1)) if len(vals) > 1 else 0.0,
-            "pct_phoenix_preferred": r["pct_phoenix_preferred"],
-            "pct_hcp_preferred": r["pct_hcp_preferred"],
-            "pct_tie": r["pct_tie"],
-            "coef_phoenix_minus_hcp": float(m["coefficient"]),
+            "n_phoenix": int(len(r["phoenix_vals"])),
+            "n_hcp": int(len(r["hcp_vals"])),
+            "phoenix_mean": float(r["phoenix_mean"]),
+            "hcp_mean": float(r["hcp_mean"]),
+            "effect_phoenix_minus_hcp": float(m.get("coefficient", 0.0)),
             "ci_lower": float(m["ci_lower"]),
             "ci_upper": float(m["ci_upper"]),
             "p_value_raw": float(m["p_value"]),
-            "p_value_holm": float(m["p_value_adj"]),
-            "cohen_d_one_sample": float(r["effect_d"]),
-            "p_tost": float(t["p_tost"]),
-            "tost_equivalent": bool(t["equivalent"]),
+            "p_value_holm": float(m.get("p_value_adj", 1.0)),
+            "cohen_d_diff": float(r["effect_d"]),
+            "p_tost": float(t.get("p_tost", 1.0)),
+            "tost_equivalent": bool(t.get("equivalent", False)),
             "method": m["method"],
             "converged": bool(m.get("converged", False)),
         })
@@ -279,27 +358,29 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
     summary_path = paths["report_dir"] / f"{config.study_slug}_summary.csv"
     summary_df.to_csv(summary_path, index=False)
 
+    # ── Visualisations ───────────────────────────────────────────────────────
     n_dims = len(dim_results)
+
+    # 1. Grouped raincloud (PHOENIX vs HCP per dimension)
     fig, axes = plt.subplots(
         1, n_dims, figsize=(max(5, 3.8 * n_dims), 6.0), sharey=True,
     )
     if n_dims == 1:
         axes = [axes]
     for ax, dim in zip(axes, dim_results.keys()):
-        vals = dim_results[dim]["values"]
+        r = dim_results[dim]
         raincloud_plot(
             ax,
-            data_dict={"PHOENIX-HCP": vals},
+            data_dict={"PHOENIX": r["phoenix_vals"], "HCP": r["hcp_vals"]},
             title=_display_label(dim),
             ylabel=config.y_label,
-            colors=[PALETTE["primary"]],
-            ylim=(config.scale_min - 1, config.scale_max + 1),
+            colors=[PALETTE["primary"], PALETTE["secondary"]],
+            ylim=(config.quality_min - 0.5, config.quality_max + 0.5),
         )
-        ax.axhline(0, color="black", linestyle="--", linewidth=1.0, alpha=0.65)
         ax.text(
             0.5, -0.16,
-            f"Holm p={dim_results[dim]['result']['p_value_adj']:.3f}; "
-            f"TOST p={dim_results[dim]['tost']['p_tost']:.3f}",
+            f"Δ={r['result'].get('coefficient', 0):+.2f}; "
+            f"Holm p={r['result'].get('p_value_adj', 1.0):.3f}",
             transform=ax.transAxes,
             ha="center",
             va="top",
@@ -308,34 +389,44 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
         )
     fig.suptitle(config.title, fontsize=13, y=1.02)
     plt.tight_layout()
-    save_figure(fig, paths["visuals_dir"] / f"{config.study_slug}_signed_preference_raincloud.png")
+    save_figure(
+        fig,
+        paths["visuals_dir"] / f"{config.study_slug}_quality_raincloud.png",
+    )
 
+    # 2. Forest plot of entity effects
     fig2, ax2 = plt.subplots(figsize=(10, max(4, 0.9 * n_dims + 1.5)))
     forest_plot(
         ax2,
         dimensions=[_display_label(d) for d in dim_results.keys()],
-        effects=[r["result"]["coefficient"] for r in dim_results.values()],
+        effects=[r["result"].get("coefficient", 0) for r in dim_results.values()],
         ci_lowers=[r["result"]["ci_lower"] for r in dim_results.values()],
         ci_uppers=[r["result"]["ci_upper"] for r in dim_results.values()],
-        title=f"{config.title}: PHOENIX - HCP signed preference",
-        xlabel="Signed score (negative = HCP preferred, positive = PHOENIX preferred)",
+        title=f"{config.title}: PHOENIX − HCP quality gap",
+        xlabel="Quality gap (negative = HCP higher, positive = PHOENIX higher)",
         ref_line=0.0,
-        p_values=[r["result"]["p_value_adj"] for r in dim_results.values()],
+        p_values=[r["result"].get("p_value_adj", 1.0) for r in dim_results.values()],
         tost_results=[r["tost"] for r in dim_results.values()],
     )
-    lo = min([r["result"]["ci_lower"] for r in dim_results.values()] + [-config.tost_delta])
-    hi = max([r["result"]["ci_upper"] for r in dim_results.values()] + [config.tost_delta])
-    pad = max(0.8, 0.10 * (hi - lo))
-    ax2.set_xlim(max(config.scale_min, lo - pad), min(config.scale_max, hi + pad))
+    all_lo = [r["result"]["ci_lower"] for r in dim_results.values()]
+    all_hi = [r["result"]["ci_upper"] for r in dim_results.values()]
+    lo = min(all_lo + [-config.tost_delta])
+    hi = max(all_hi + [config.tost_delta])
+    pad = max(0.2, 0.10 * (hi - lo))
+    ax2.set_xlim(
+        max(config.quality_min - 5, lo - pad),
+        min(config.quality_max, hi + pad),
+    )
     plt.tight_layout()
     save_figure(fig2, paths["visuals_dir"] / f"{config.study_slug}_effect_forest.png")
 
+    # 3. TOST equivalence panel
     fig3, ax3 = plt.subplots(figsize=(8, max(3.5, 0.8 * n_dims + 1.2)))
     tost_panel(
         ax3,
         dimensions=[_display_label(d) for d in dim_results.keys()],
         tost_results=[r["tost"] for r in dim_results.values()],
-        title=f"{config.title}: TOST equivalence (delta = +/- {config.tost_delta})",
+        title=f"{config.title}: TOST equivalence (Δ = ± {config.tost_delta})",
     )
     plt.tight_layout()
     save_figure(fig3, paths["visuals_dir"] / f"{config.study_slug}_tost_equivalence.png")

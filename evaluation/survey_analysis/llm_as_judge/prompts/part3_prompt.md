@@ -1,73 +1,97 @@
 <!--
-PROMPT_VERSION: 2026-05-01-v3-signed-comparison
+PROMPT_VERSION: 2026-05-02-absolute-quality-research-grade
 PART_INDEX: 3
 PART_TITLE: 03_Prioritising_Treatment_Targets
-MODEL: google/gemini-3.1-flash-lite-preview
 -->
 
-# Part 3 - Prioritising treatment targets
+# Part 3 — Evaluate: treatment-target priority ranking
 
-You are comparing two anonymous rankings of the same five standardised
-treatment options. Rank 1 is the highest treatment priority.
+You are evaluating **The Output** — an anonymous response to a structured
+clinical task in the PHOENIX survey.  You do **not** know whether The Output
+was produced by a human clinician or by an AI system.
 
-The correct reasoning combines three evidence streams:
+Rate The Output **independently** on each evaluation dimension using the
+1–5 absolute quality scale from the system prompt.  Apply all mandatory
+evaluation rules, especially the **anti-halo rule**: each dimension must be
+rated solely on its own criterion evidence.
 
-- network impact: stronger edges matter more;
-- current EMA state: high burden/frequency/trend matters more;
-- modifiability: the target must be realistically changeable now.
+---
 
-Do not judge a ranking only by whether it follows the strongest edge. The
-survey instructions explicitly state that strong network relations are
-necessary but not sufficient when current state is already favourable.
+## The clinical task (what the respondent was asked to do)
 
-## Case context
+> **Task:** Rank the **five standardised treatment options** (provided below)
+> from highest priority (rank 1) to lowest priority (rank 5) for this patient,
+> using the bipartite symptom-treatment network and the 21-day EMA monitoring
+> data as primary inputs.  Assign each of the five options exactly one rank;
+> no ties.
 
-Free-text complaint / vignette:
-```text
-{{vignette}}
-```
+The respondent had access to:
+1. The five standardised treatment options with their IDs (provided below)
+2. The bipartite symptom-treatment network summary — edge weights (positive
+   and negative), degree, and centrality (provided below)
+3. The 21-day EMA monitoring summary — symptom burden, frequency, trends,
+   and option engagement data (provided below)
 
-Treatment options being ranked:
+**Key network interpretation rules the respondent was given:**
+- A **positive edge** means increasing the treatment-option behaviour is
+  associated with *increasing* a connected symptom (risk/maintaining factor).
+  Reducing this option reduces the symptom.
+- A **negative edge** means increasing the option is associated with
+  *reducing* a connected symptom (protective factor).  Increasing this option
+  benefits the patient.
+- Edge weight magnitude reflects the strength of the symptom-treatment
+  association.  Higher total connectivity (more edges, higher combined weight)
+  generally indicates a higher priority target.
+- Current EMA burden modifies priority: a strong edge to an already
+  favourable, low-burden symptom is less urgent than the same edge to a
+  currently high-burden symptom.
+
+Your evaluation should assess whether **The Output** correctly applies
+this logic to the data provided below.
+
+---
+
+## Case context available to the respondent
+
+**Five standardised treatment options (fixed IDs):**
 ```json
 {{standardized_treatment_options_json}}
 ```
 
-Bipartite network summary, if available:
+**Bipartite symptom-treatment network summary:**
 ```json
 {{network_summary_json}}
 ```
 
-EMA monitoring summary:
+**21-day EMA monitoring summary:**
 ```json
 {{ema_summary_json}}
 ```
 
-## Outputs to compare
+---
 
-Both outputs are canonicalised to the same shape:
+## Canonical output format
+
+Valid outputs for this task use the following structure:
 ```json
-{"ranking": [{"rank": 1, "option_id": "BO-1"}, {"rank": 2, "option_id": "BO-2"}]}
+{"ranking": [{"rank": 1, "option_id": "BO-X"}, {"rank": 2, "option_id": "BO-Y"}, ...]}
+```
+All five options ranked from 1 (highest priority) to 5 (lowest priority).
+
+**The Output to evaluate:**
+```json
+{{the_output_json}}
 ```
 
-### Output A
-```json
-{{output_a_json}}
-```
+---
 
-### Output B
-```json
-{{output_b_json}}
-```
-
-## Dimensions
-
-For each dimension, return one signed A-over-B score on the -9..+9 scale.
-Positive scores favour Output A; negative scores favour Output B; zero means
-no meaningful difference.
+## Evaluation dimensions
 
 {{dimensions_block}}
 
-## JSON only
+---
 
-Return the strict `comparisons` JSON schema from the system prompt. Use every
-dimension key exactly once.
+## Response format
+
+Return the strict `ratings` JSON schema defined in the system prompt.
+Include exactly one entry per dimension key listed above.

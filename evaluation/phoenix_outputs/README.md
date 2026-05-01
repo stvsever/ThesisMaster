@@ -9,12 +9,15 @@ The live Qualtrics survey shows Part 3 as images. PHOENIX should not receive
 those images; it receives the exact labels and numeric edge weights behind the
 figures instead.
 
+Post-hoc PHOENIX output optimization was performed using the agentic capabilities of the OpenAI Codex 5.5 model before double-blind judging.
+
 ## Folder Layout
 
 | Path | Purpose |
 | --- | --- |
 | `qualtrics_inputs.py` | Extracts exact case inputs from the Qualtrics LaTeX sources. |
 | `canonicalize_outputs.py` | Converts real PHOENIX output JSON to the judge-ready schema and validates it. |
+| `phoenix_engine_runner.py` | Runs the PHOENIX prompt adapter through OpenRouter. |
 | `rule_based_fixture.py` | Deterministic dry-run fixture only; not a thesis result. |
 | `run.py` | CLI entry point. |
 | `data/inputs/qualtrics_case_inputs.json` | Extracted exact inputs for all 10 cases. |
@@ -37,9 +40,9 @@ PHOENIX outputs must be a JSON object keyed by case id:
 }
 ```
 
-Do not include source-specific fields in the compared output. HAPA phase,
-network edges, candidate item lists, and treatment targets belong in the
-case-context JSON, not inside Output A or Output B.
+Do not include source-specific fields in the judged output. HAPA phase, network
+edges, candidate item lists, and treatment targets belong in the shared case
+context, not inside the source output.
 
 ## CLI Usage
 
@@ -53,6 +56,21 @@ Write an empty output template for the real PHOENIX run:
 
 ```bash
 python evaluation/phoenix_outputs/run.py write-template
+```
+
+Run the PHOENIX prompt adapter through OpenRouter:
+
+```bash
+export OPENROUTER_API_KEY=...
+python evaluation/phoenix_outputs/run.py run-engine
+```
+
+Apply the PHOENIX quality gate and sync the judged system-output path:
+
+```bash
+python evaluation/phoenix_outputs/run.py quality-gate \
+  --raw evaluation/phoenix_outputs/data/outputs/system_outputs_llm.json \
+  --sync
 ```
 
 Canonicalize actual PHOENIX output after the engine run:
@@ -77,7 +95,8 @@ python evaluation/survey_analysis/pipeline.py \
   --judge pseudo \
   --qualtrics-csv evaluation/qualtrics/data/01_raw/Masterproef_May\ 1,\ 2026_15.25.csv \
   --cases C03 \
-  --parts part1 part2 part3 part4 part5
+  --parts part1 part2 part3 part4 part5 \
+  --n-runs 3
 ```
 
 The dry-run fixture is only for software validation. Replace
@@ -96,4 +115,3 @@ For each case, `qualtrics_case_inputs.json` contains:
 - Part 5: primary problem, treatment goal, barrier, and coping strategy.
 
 That is the exact non-image information required for the five PHOENIX prompts.
-

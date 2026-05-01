@@ -1,4 +1,4 @@
-"""Part 4 - Concrete EMA item selection: signed LMM, TOST, plots."""
+"""Part 4 - Concrete EMA item selection: absolute-quality LMM, TOST, plots."""
 
 from __future__ import annotations
 

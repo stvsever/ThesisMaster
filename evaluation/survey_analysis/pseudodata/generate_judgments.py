@@ -3,14 +3,11 @@ Generate pseudo judgments by invoking the pseudo-judge over all
 ``(case, part, run)`` cells using the same persistence pipeline as
 ``judge_runner.run_judge``.
 
-GROUND TRUTH (per-dimension PHOENIX - HCP effect, in signed -9..+9 points)
---------------------------------------------------------------------------
-See ``llm_as_judge.pseudo_judge.GROUND_TRUTH_EFFECTS``. The downstream
-analysis stage is expected to recover these effects within bootstrap CIs.
-A handful of dimensions are seeded close to zero so the TOST equivalence
-test will trigger; some have +0.6 effects so the LMM should report a
-significant PHOENIX advantage; some have small negative effects so the
-mixed picture is realistic.
+GROUND TRUTH
+------------
+See ``llm_as_judge.pseudo_judge.PHOENIX_MEAN_QUALITY`` and
+``HCP_MEAN_QUALITY``. The downstream analysis stage is expected to recover
+the simulated PHOENIX - HCP quality gaps within uncertainty intervals.
 """
 
 from __future__ import annotations
@@ -40,7 +37,7 @@ def _load_json(path: Path) -> Dict[str, Any]:
 
 def generate_pseudo_judgments(
     *,
-    n_runs: int = 5,
+    n_runs: int = 3,
     cases: Optional[list[str]] = None,
     parts: Optional[list[str]] = None,
     out_csv: Optional[Path] = None,

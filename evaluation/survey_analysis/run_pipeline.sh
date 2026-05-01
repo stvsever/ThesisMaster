@@ -7,7 +7,7 @@
 #                                                   [--cases C01 C02 ...]
 #                                                   [--parts part1 ...]
 #
-# Defaults: --mode pseudo --n-runs 5 (all cases, all parts).
+# Defaults: --mode pseudo --n-runs 3 (all cases, all parts).
 #
 # Real mode requires OPENROUTER_API_KEY in the environment.
 

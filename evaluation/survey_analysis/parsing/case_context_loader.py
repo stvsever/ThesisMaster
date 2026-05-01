@@ -66,6 +66,7 @@ def _contexts_from_case_input_bundle(data: Dict[str, Any]) -> Dict[str, Dict[str
             "treatment_goal": p5.get("treatment_goal", ""),
             "barrier": p5.get("barrier", ""),
             "coping_strategy": p5.get("coping_strategy", ""),
+            "hapa_phase": p5.get("hapa_phase", ""),
         }
     return contexts
 

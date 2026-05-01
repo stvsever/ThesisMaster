@@ -62,6 +62,7 @@ evaluation/survey_analysis/data/02_parsed/
 evaluation/survey_analysis/data/03_system/
 evaluation/survey_analysis/data/04_judgments/
 evaluation/survey_analysis/data/pseudodata/
+evaluation/survey_analysis/llm_as_judge/data/
 evaluation/survey_analysis/data/study_*.csv
 evaluation/survey_analysis/data/pseudo_*.csv
 evaluation/survey_analysis/data/judged_*.csv

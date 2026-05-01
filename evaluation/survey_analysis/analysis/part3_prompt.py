@@ -1,4 +1,4 @@
-"""Part 3 - treatment-target prioritisation: signed analyses and plots.
+"""Part 3 - treatment-target prioritisation: absolute-quality analyses and plots.
 
 The judge rates the QUALITY of the ranking (top-target appropriateness,
 evidence alignment, coherence, network impact awareness, monitoring

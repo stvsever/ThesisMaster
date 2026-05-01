@@ -1,32 +1,33 @@
 # PHOENIX Survey Analysis
 
-This folder runs the Phase 2 comparison between HCP survey outputs and PHOENIX
-system outputs. The current design does not use a second human expert judging
-phase. HCPs first produce reference outputs in Qualtrics; PHOENIX later receives
-the same case inputs; a double-blind LLM judge compares both anonymous outputs.
+This folder runs the Phase 2 evaluation of PHOENIX against healthcare expert
+outputs collected through the Qualtrics PRE survey. The design no longer uses a
+second human expert judging phase. HCPs produce outputs for the 10 clinical
+cases, PHOENIX receives the same inputs, and an LLM judge rates anonymous
+outputs under a double-blind contract.
 
 ## Core Design
 
-The five judged tasks mirror the live Qualtrics PRE survey:
+The five judged tasks mirror the live Qualtrics survey:
 
-| Part | Task | Compared output shape |
+| Part | Task | Judged output shape |
 | --- | --- | --- |
 | 1 | Identify symptom labels | `{"items": [{"label": "..."}]}` |
 | 2 | Generate modifiable treatment-option labels | `{"items": [{"label": "..."}]}` |
 | 3 | Rank five treatment options | `{"ranking": [{"rank": 1, "option_id": "BO-1"}]}` |
-| 4 | Select exactly six EMA items | `{"selected_options": ["..."]}` |
+| 4 | Select six EMA items | `{"selected_options": ["..."]}` |
 | 5 | Write a mobile coaching message | `{"message": "..."}` |
 
-Only these minimal shapes are shown as Output A and Output B. All shared case
-information, such as vignette, standardised symptoms, network weights,
-candidate EMA items, treatment goal, barrier, and coping strategy, is provided
-separately in the prompt context. This prevents the judge from inferring source
-identity from richer PHOENIX metadata.
+Only these minimal source-symmetric shapes are judged. The shared case context
+is supplied separately: vignette, standardized symptoms, treatment options,
+network edge weights, monitoring summary, candidate EMA items, treatment goal,
+barrier, and coping strategy. This prevents the judge from identifying the
+source from richer PHOENIX metadata.
 
 ## Data Flow
 
-```
-Qualtrics CSV
+```text
+Qualtrics HCP CSV
   -> parsing/qualtrics_parser.py
   -> data/02_parsed/hcp_outputs.json
 
@@ -39,46 +40,47 @@ PHOENIX canonical outputs
 Shared judge context
   -> data/01_raw/case_contexts.json
 
-Double-blind LLM judge
+Double-blind absolute-quality LLM judge
   -> data/04_judgments/judgments_long.csv
-  -> data/04_judgments/raw/<part>/case_<case>_run_<run>.json
+  -> data/04_judgments/raw/
 
-Per-part analysis
+Primary analysis
   -> results/part1_prompt/ ... results/part5_prompt/
-
-Cross-part synthesis
   -> results/synthesis/
+
+Supplementary diagnostics
+  -> results/supplementary/
 ```
 
 Use `evaluation/phoenix_outputs/run.py` to extract exact PHOENIX inputs from
-the Qualtrics source and to canonicalize actual PHOENIX outputs.
+the Qualtrics source, run or canonicalize PHOENIX outputs, and sync those
+outputs into this analysis pipeline.
 
-## Judge Scale
+## Judge Method
 
-The judge gives one signed comparative score per dimension:
+The judge rates one anonymous output at a time. It never sees PHOENIX and HCP
+side by side in the same call, which reduces direct preference bias, source
+guessing, and style-based comparison effects. For each case, part, run, and
+source, the judge receives the same task context plus `The Output`.
+
+Quality scale:
 
 ```text
--9 = Output B decisively better than Output A
--6 = Output B strongly better
--3 = Output B modestly better
-  0 = no meaningful difference / tie
- +3 = Output A modestly better
- +6 = Output A strongly better
- +9 = Output A decisively better
+1 = Poor
+2 = Below average
+3 = Acceptable
+4 = Good
+5 = Excellent
 ```
 
-The runner unblinds this into `score = PHOENIX - HCP`:
-
-- `score > 0`: PHOENIX preferred;
-- `score < 0`: HCP preferred;
-- `score = 0`: no meaningful difference.
-
-`PROMPT_VERSION` is `2026-05-01-v3-signed-comparison`.
+The default is three independent judge runs per `(case, part, source)` cell.
+Three runs reduce stochastic rating noise while avoiding unnecessary token
+cost. Stability across runs is quantified in the supplementary analysis.
 
 ## Evaluation Dimensions
 
 Dimensions are part-specific. Each dimension has a definition, rationale, and
-comparative anchors in `llm_as_judge/dimensions.py`.
+five-score anchors in `llm_as_judge/dimensions.py`.
 
 | Part | Dimension keys |
 | --- | --- |
@@ -93,22 +95,38 @@ comparative anchors in `llm_as_judge/dimensions.py`.
 For each part and dimension, the primary model is:
 
 ```text
-score ~ 1 + (1 | case_id) + (1 | judge_run)
+quality_score ~ entity_ec + (1 | case_id) + (1 | judge_run)
 ```
 
-The intercept is the estimated signed PHOENIX-HCP preference. The report gives
-the intercept, 95% CI, raw p-value, Holm-corrected p-value within part,
-one-sample Cohen's d, preference split, and one-sample TOST equivalence around
-zero with `delta = +/-1` signed point.
+`entity_ec` is effect coded as PHOENIX = +0.5 and HCP = -0.5. The coefficient
+is the PHOENIX - HCP quality gap on the 1 to 5 scale.
 
-The synthesis divides scores by 9 and fits a grand-mean model:
+Each per-part report includes:
 
-```text
-score_norm ~ 1 + (1 | case_id) + (1 | judge_run) + (1 | dimension)
-```
+- PHOENIX and HCP means;
+- PHOENIX - HCP mixed-model coefficient and 95% CI;
+- raw and Holm-corrected p-values within part;
+- Cohen's d on paired case-run differences;
+- TOST equivalence with `delta = +/-0.3` quality points.
 
-Per-part follow-ups use the same one-sample signed structure. Global and
-per-part TOST use `delta = +/-0.10` on the normalised `[-1,+1]` scale.
+The synthesis fits the same entity-predictor model across all parts and runs
+part-level follow-ups. Equivalence is evaluated on paired PHOENIX - HCP
+difference scores.
+
+## Supplementary Analyses
+
+The supplementary module quantifies reliability and sensitivity without adding
+new primary hypotheses:
+
+- within-cell rating SD across the three judge runs;
+- exact and within-one-point agreement across repeated ratings;
+- SD and range of paired PHOENIX - HCP gaps;
+- sign consistency of the PHOENIX - HCP gap;
+- confidence-weighted sensitivity of effect estimates;
+- ceiling and floor diagnostics for the 1 to 5 quality scale.
+
+Outputs are saved under `results/supplementary/` as CSV files and combined
+APA-style figures with figure titles and `Note.` captions.
 
 ## Real-Mode Inputs
 
@@ -118,7 +136,7 @@ HCP outputs come from the Qualtrics export, for example:
 evaluation/qualtrics/data/01_raw/Masterproef_May 1, 2026_15.25.csv
 ```
 
-The parser reads the current columns such as:
+The parser reads columns such as:
 
 ```text
 HCP03_C03_PART1_1 ... HCP03_C03_PART1_6
@@ -129,20 +147,30 @@ HCP03_C03_PART5
 hcp
 ```
 
-PHOENIX/system outputs must be canonicalized to:
+PHOENIX outputs must be canonicalized to:
 
 ```text
 evaluation/survey_analysis/data/03_system/system_outputs.json
 ```
 
-The exact PHOENIX inputs and judge contexts are prepared from:
+Prepare exact PHOENIX inputs and judge contexts:
 
 ```bash
 python evaluation/phoenix_outputs/run.py extract-inputs
 python evaluation/phoenix_outputs/run.py sync-to-analysis --skip-system-outputs
 ```
 
-After the actual PHOENIX run:
+Run the PHOENIX engine through OpenRouter:
+
+```bash
+export OPENROUTER_API_KEY=...
+python evaluation/phoenix_outputs/run.py run-engine
+python evaluation/phoenix_outputs/run.py quality-gate \
+  --raw evaluation/phoenix_outputs/data/outputs/system_outputs_llm.json \
+  --sync
+```
+
+Or canonicalize an externally produced PHOENIX output file:
 
 ```bash
 python evaluation/phoenix_outputs/run.py canonicalize \
@@ -155,11 +183,10 @@ python evaluation/phoenix_outputs/run.py sync-to-analysis
 Pseudo end-to-end run, no API key:
 
 ```bash
-python evaluation/survey_analysis/pipeline.py --mode pseudo
+python evaluation/survey_analysis/pipeline.py --mode pseudo --n-runs 3
 ```
 
-Real HCP parse plus pseudo judge for software validation on the current C03
-example row:
+Real HCP parse plus pseudo judge for the current C03 example row:
 
 ```bash
 python evaluation/phoenix_outputs/run.py prepare-fixture-analysis
@@ -167,7 +194,8 @@ python evaluation/survey_analysis/pipeline.py \
   --mode real \
   --judge pseudo \
   --cases C03 \
-  --parts part1 part2 part3 part4 part5
+  --parts part1 part2 part3 part4 part5 \
+  --n-runs 3
 ```
 
 Real LLM-as-judge run after all HCP and PHOENIX outputs are present:
@@ -177,7 +205,7 @@ export OPENROUTER_API_KEY=...
 python evaluation/survey_analysis/pipeline.py \
   --mode real \
   --judge openrouter \
-  --n-runs 5 \
+  --n-runs 3 \
   --system-outputs evaluation/survey_analysis/data/03_system/system_outputs.json
 ```
 
@@ -199,9 +227,8 @@ python -m unittest evaluation/survey_analysis/tests/test_smoke.py
 ## Notes
 
 - Real mode is strict: requested cases and parts must exist for both HCP and
-  PHOENIX outputs. This prevents accidental comparison against empty JSON.
+  PHOENIX outputs.
 - Generated analysis data under `data/` and generated figures under `results/`
   are ignored by git, except folder READMEs.
 - The protected live Qualtrics image paths under
   `evaluation/qualtrics/01_HCPs_PRE/...` are not modified by this pipeline.
-

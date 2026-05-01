@@ -42,7 +42,7 @@ class SmokeTest(unittest.TestCase):
     def setUpClass(cls) -> None:
         argv = [
             "--mode", "pseudo",
-            "--n-runs", "5",
+            "--n-runs", "3",
             "--cases", *CASE_SUBSET,
             "--parts", *PART_SUBSET,
             "--log-level", "WARNING",
@@ -58,10 +58,10 @@ class SmokeTest(unittest.TestCase):
         self.assertTrue(path.exists(), f"Missing {path}")
         df = pd.read_csv(path)
         self.assertGreater(len(df), 0, "judgments_long.csv is empty")
-        # One row per (case, part, run, dimension), signed PHOENIX-vs-HCP.
-        for col in ("case_id", "part", "dimension", "judge_run", "score",
-                    "raw_score_a_over_b", "source_a", "source_b",
-                    "winner_source", "prompt_version", "model"):
+        # One row per (case, part, run, dimension, entity).
+        for col in ("case_id", "part", "dimension", "judge_run", "entity",
+                    "quality_score", "source_label", "confidence",
+                    "prompt_version", "model"):
             self.assertIn(col, df.columns, f"missing column {col!r}")
 
     def test_per_part_results(self) -> None:
@@ -84,7 +84,7 @@ class SmokeTest(unittest.TestCase):
                 f"missing forest plot for {part}",
             )
             self.assertTrue(
-                (visuals_dir / f"{slug}_signed_preference_raincloud.png").exists(),
+                (visuals_dir / f"{slug}_quality_raincloud.png").exists(),
                 f"missing raincloud plot for {part}",
             )
             self.assertTrue(
@@ -123,13 +123,27 @@ class SmokeTest(unittest.TestCase):
         self.assertTrue(report.exists(), f"missing {report}")
         for fname in (
             "synthesis_part_forest.png",
-            "synthesis_part_signed_raincloud.png",
+            "synthesis_part_raincloud.png",
             "synthesis_tost.png",
             "synthesis_heatmap.png",
         ):
             self.assertTrue(
                 (synth_dir / "visuals" / fname).exists(),
                 f"missing synthesis visual {fname}",
+            )
+
+    def test_supplementary_artefacts(self) -> None:
+        supp_dir = RESULTS_DIR / "supplementary"
+        report = supp_dir / "report" / "supplementary_report.txt"
+        self.assertTrue(report.exists(), f"missing {report}")
+        for fname in (
+            "supplementary_stability_dashboard.png",
+            "supplementary_sensitivity_dashboard.png",
+            "supplementary_dimension_stability_heatmap.png",
+        ):
+            self.assertTrue(
+                (supp_dir / "visuals" / fname).exists(),
+                f"missing supplementary visual {fname}",
             )
 
 

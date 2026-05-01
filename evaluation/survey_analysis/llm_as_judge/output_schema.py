@@ -1,23 +1,34 @@
 """
-JSON schema and parser for signed A-vs-B judge responses.
+JSON schema and parser for absolute per-output quality ratings.
 
-The expected strict JSON shape is:
+Design (absolute-quality)
+-----------------------------
+The judge rates ONE output at a time on a 1..5 absolute Likert quality
+scale per dimension.  Comparisons between PHOENIX and HCP are never made
+inside the judge call; instead the entity predictor (phoenix vs hcp) is
+estimated in the downstream mixed-model analysis.
 
+Expected JSON shape
+-------------------
 {
-  "comparisons": [
+  "ratings": [
     {
       "dimension": "complaint_coverage",
       "score": 4,
-      "winner": "A",
       "confidence": 4,
-      "justification": "A covers sleep and social withdrawal while B misses social withdrawal."
+      "justification": "Covers all three major complaint domains."
     }
   ],
   "extra": {}
 }
 
-``score`` is signed A-over-B on the -9..+9 scale. The runner later unblinds
-it into a PHOENIX-over-HCP score.
+Scale anchors
+-------------
+1 = Poor      — fails the criterion significantly
+2 = Below average — partially meets the criterion
+3 = Acceptable — meets the criterion adequately
+4 = Good      — clearly meets the criterion well
+5 = Excellent  — exceptional on this criterion
 """
 
 from __future__ import annotations
@@ -27,14 +38,18 @@ import re
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
 
-from .dimensions import SCALE_MAX, SCALE_MIN, SCALE_NEUTRAL
+# Absolute quality scale constants
+QUALITY_MIN: int = 1
+QUALITY_MAX: int = 5
+QUALITY_NEUTRAL: int = 3
 
 
 @dataclass
-class DimensionComparison:
+class DimensionRating:
+    """Absolute quality rating for one dimension of one output."""
+
     dimension: str
     score: int
-    winner: str
     confidence: int
     justification: str
 
@@ -42,7 +57,6 @@ class DimensionComparison:
         return {
             "dimension": self.dimension,
             "score": int(self.score),
-            "winner": self.winner,
             "confidence": int(self.confidence),
             "justification": str(self.justification),
         }
@@ -50,15 +64,21 @@ class DimensionComparison:
 
 @dataclass
 class JudgeResponse:
-    comparisons: List[DimensionComparison] = field(default_factory=list)
+    """Parsed response: one absolute rating per requested dimension."""
+
+    ratings: List[DimensionRating] = field(default_factory=list)
     extra: Dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> Dict[str, Any]:
         return {
-            "comparisons": [c.to_dict() for c in self.comparisons],
+            "ratings": [r.to_dict() for r in self.ratings],
             "extra": dict(self.extra),
         }
 
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Parsing helpers
+# ─────────────────────────────────────────────────────────────────────────────
 
 _JSON_OBJECT_RE = re.compile(r"\{[\s\S]*\}", flags=re.MULTILINE)
 
@@ -69,20 +89,20 @@ def _strip_to_json(text: str) -> str:
         return "{}"
     s = text.strip()
     if s.startswith("```"):
-        s = re.sub(r"^```[a-zA-Z0-9_-]*\n", "", s)
-        s = re.sub(r"\n```\s*$", "", s)
+        s = re.sub(r"^```[a-zA-Z0-9_-]*\n?", "", s)
+        s = re.sub(r"\n?```\s*$", "", s)
     match = _JSON_OBJECT_RE.search(s)
     if match:
         return match.group(0)
     return s
 
 
-def _clamp_score(score: Any) -> int:
+def _clamp_quality(score: Any) -> int:
     try:
         v = int(round(float(score)))
     except (TypeError, ValueError):
-        v = SCALE_NEUTRAL
-    return max(SCALE_MIN, min(SCALE_MAX, v))
+        v = QUALITY_NEUTRAL
+    return max(QUALITY_MIN, min(QUALITY_MAX, v))
 
 
 def _clamp_confidence(confidence: Any) -> int:
@@ -93,71 +113,65 @@ def _clamp_confidence(confidence: Any) -> int:
     return max(1, min(5, v))
 
 
-def _winner_from_score(score: int, raw_winner: Any = None) -> str:
-    winner = str(raw_winner or "").strip().upper()
-    if winner in {"A", "B", "TIE"}:
-        return winner
-    if score > 0:
-        return "A"
-    if score < 0:
-        return "B"
-    return "TIE"
-
-
 def parse_judge_json(
     raw_text: str,
     expected_dimensions: Optional[List[str]] = None,
 ) -> JudgeResponse:
     """
-    Parse the judge response.
+    Parse an absolute-quality judge response.
 
-    The parser accepts the current ``comparisons`` schema and, as a migration
-    aid, the older ``ratings`` schema by converting ``rating_a - rating_b``
-    into a signed comparative score. Missing expected dimensions are filled
-    with a neutral comparison so the analysis stage remains rectangular.
+    Accepts the current ``ratings`` schema and, as a migration aid, the
+    older ``comparisons`` signed schema (converts by mapping the sign to
+    quality: positive → >=3, negative → <=3).
+
+    Missing expected dimensions are filled with QUALITY_NEUTRAL (3) so the
+    analysis stage always has a rectangular data frame.
     """
     text = _strip_to_json(raw_text or "")
     try:
         data = json.loads(text)
     except json.JSONDecodeError as exc:
-        raise ValueError(f"Could not parse judge JSON: {exc}; got: {raw_text!r}") from exc
+        raise ValueError(
+            f"Could not parse judge JSON: {exc}; got: {raw_text!r}"
+        ) from exc
     if not isinstance(data, dict):
         raise ValueError(f"Judge response is not a JSON object: {raw_text!r}")
 
-    raw_comparisons = data.get("comparisons")
-    if raw_comparisons is None and isinstance(data.get("ratings"), list):
-        raw_comparisons = []
-        for entry in data.get("ratings", []):
+    # Primary schema: "ratings" list
+    raw_ratings: list = data.get("ratings") or []
+
+    # Migration path from old signed comparative schema ("comparisons")
+    if not raw_ratings and isinstance(data.get("comparisons"), list):
+        for entry in data["comparisons"]:
             if not isinstance(entry, dict):
                 continue
             try:
-                # Migration path from the old 1..7 independent ratings:
-                # each absolute rating step becomes three signed preference points.
-                converted = (float(entry.get("rating_a", 4)) - float(entry.get("rating_b", 4))) * 3
+                signed = float(entry.get("score", 0))
             except (TypeError, ValueError):
-                converted = 0
-            raw_comparisons.append({
+                signed = 0.0
+            # Map signed -9..+9 to absolute 1..5:
+            # -9 → 1 (very poor), 0 → 3 (neutral), +9 → 5 (excellent)
+            absolute = round(3 + (signed / 9.0) * 2)
+            raw_ratings.append({
                 "dimension": entry.get("dimension", ""),
-                "score": converted,
-                "winner": None,
-                "confidence": 3,
+                "score": absolute,
+                "confidence": entry.get("confidence", 3),
                 "justification": entry.get("justification", ""),
             })
-    if not isinstance(raw_comparisons, list):
-        raw_comparisons = []
 
-    seen: Dict[str, DimensionComparison] = {}
-    for entry in raw_comparisons:
+    if not isinstance(raw_ratings, list):
+        raw_ratings = []
+
+    seen: Dict[str, DimensionRating] = {}
+    for entry in raw_ratings:
         if not isinstance(entry, dict):
             continue
         key = str(entry.get("dimension", "")).strip()
         if not key:
             continue
-        score = _clamp_score(entry.get("score", SCALE_NEUTRAL))
-        seen[key] = DimensionComparison(
+        seen[key] = DimensionRating(
             dimension=key,
-            score=score,
-            winner=_winner_from_score(score, entry.get("winner")),
+            score=_clamp_quality(entry.get("score", QUALITY_NEUTRAL)),
             confidence=_clamp_confidence(entry.get("confidence", 3)),
             justification=str(entry.get("justification", "")).strip(),
         )
@@ -165,10 +179,9 @@ def parse_judge_json(
     if expected_dimensions is not None:
         for dim_key in expected_dimensions:
             if dim_key not in seen:
-                seen[dim_key] = DimensionComparison(
+                seen[dim_key] = DimensionRating(
                     dimension=dim_key,
-                    score=0,
-                    winner="TIE",
+                    score=QUALITY_NEUTRAL,
                     confidence=1,
                     justification="missing-from-judge-response",
                 )
@@ -179,11 +192,14 @@ def parse_judge_json(
     extra = data.get("extra")
     if not isinstance(extra, dict):
         extra = {}
-    return JudgeResponse(comparisons=ordered, extra=extra)
+    return JudgeResponse(ratings=ordered, extra=extra)
 
 
 __all__ = [
-    "DimensionComparison",
+    "DimensionRating",
     "JudgeResponse",
+    "QUALITY_MIN",
+    "QUALITY_MAX",
+    "QUALITY_NEUTRAL",
     "parse_judge_json",
 ]

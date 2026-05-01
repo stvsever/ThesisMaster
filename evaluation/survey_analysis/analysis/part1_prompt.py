@@ -1,4 +1,4 @@
-"""Part 1 - symptom labels: per-dimension signed analyses and plots."""
+"""Part 1 - symptom labels: per-dimension absolute-quality analyses and plots."""
 
 from __future__ import annotations
 

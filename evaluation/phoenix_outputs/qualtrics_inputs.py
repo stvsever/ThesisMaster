@@ -24,6 +24,7 @@ try:
         QUALTRICS_CASE_SOURCE_ROOT,
         QUALTRICS_EDGE_WEIGHTS,
         QUALTRICS_GENERATE_QSF,
+        REPO_ROOT,
         ensure_dirs,
     )
 except ImportError:  # direct script execution from this folder
@@ -33,6 +34,7 @@ except ImportError:  # direct script execution from this folder
         QUALTRICS_CASE_SOURCE_ROOT,
         QUALTRICS_EDGE_WEIGHTS,
         QUALTRICS_GENERATE_QSF,
+        REPO_ROOT,
         ensure_dirs,
     )
 
@@ -216,8 +218,8 @@ def extract_case_inputs() -> Dict[str, Any]:
         tex = (case_dir / "main.tex").read_text(encoding="utf-8")
         case = qsf_module.parse_case_survey(tex, example_network)
         cases[str(case.case_code)] = _case_to_input(case, edges_by_case)
-    source = QUALTRICS_CASE_SOURCE_ROOT.relative_to(QUALTRICS_CASE_SOURCE_ROOT.parents[5])
-    edge_source = QUALTRICS_EDGE_WEIGHTS.relative_to(QUALTRICS_CASE_SOURCE_ROOT.parents[5])
+    source = QUALTRICS_CASE_SOURCE_ROOT.relative_to(REPO_ROOT)
+    edge_source = QUALTRICS_EDGE_WEIGHTS.relative_to(REPO_ROOT)
     return {
         "metadata": {
             "contract_version": CONTRACT_VERSION,

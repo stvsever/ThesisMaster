@@ -1,4 +1,4 @@
-"""Part 2 - Modifiable treatment options: signed LMM, TOST, plots."""
+"""Part 2 - Modifiable treatment options: absolute-quality LMM, TOST, plots."""
 
 from __future__ import annotations
 

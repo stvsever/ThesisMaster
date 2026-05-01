@@ -1,15 +1,17 @@
 """
-LLM-as-judge package for the PHOENIX evaluation.
+LLM-as-judge package for the PHOENIX evaluation (absolute-quality design).
 
-The judge consumes pairs of canonical (HCP, PHOENIX) outputs and emits
-structured per-dimension signed A-vs-B comparisons. The runner unblinds
-those into PHOENIX-vs-HCP scores.
+The judge rates each output independently on a 1–5 absolute quality scale per
+dimension.  Comparisons (PHOENIX vs HCP) are made in the downstream mixed-
+model analysis, not inside the judge call.
 
-* :mod:`dimensions`         — per-part dimension specifications.
-* :mod:`output_schema`      — JSON schema the judge must emit.
-* :mod:`openrouter_client`  — thin OpenAI-SDK wrapper for OpenRouter.
-* :mod:`judge_runner`       — orchestration: blinding, retries, persistence.
-* :mod:`pseudo_judge`       — local stand-in that emits plausible scores.
+Modules
+-------
+* :mod:`dimensions`        — per-part dimension specifications
+* :mod:`output_schema`     — JSON schema the judge must emit 
+* :mod:`openrouter_client` — thin OpenAI-SDK wrapper for OpenRouter
+* :mod:`judge_runner`      — orchestration: blinding, retries, persistence
+* :mod:`pseudo_judge`      — deterministic stand-in that emits plausible scores
 """
 
 from .dimensions import (
@@ -20,9 +22,12 @@ from .dimensions import (
     dimensions_for,
 )
 from .output_schema import (
-    DimensionComparison,
+    DimensionRating,
     JudgeResponse,
     parse_judge_json,
+    QUALITY_MIN,
+    QUALITY_MAX,
+    QUALITY_NEUTRAL,
 )
 
 __all__ = [
@@ -31,7 +36,10 @@ __all__ = [
     "DIMENSIONS_BY_PART",
     "PART_TITLES",
     "dimensions_for",
-    "DimensionComparison",
+    "DimensionRating",
     "JudgeResponse",
     "parse_judge_json",
+    "QUALITY_MIN",
+    "QUALITY_MAX",
+    "QUALITY_NEUTRAL",
 ]

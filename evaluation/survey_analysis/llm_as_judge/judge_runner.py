@@ -1,6 +1,25 @@
 """
-End-to-end judge runner: blinding, prompt rendering, API call (or pseudo),
-JSON parsing, persistence into the long-format CSV.
+End-to-end judge runner: blinding, prompt rendering, API call, JSON parsing,
+and persistence into the long-format CSV.
+
+Design
+------
+For each (case, part, run) cell the runner makes **two independent LLM
+calls** — one for each output — evaluating them on separate, non-comparative
+requests.  The judge rates ONE anonymous output at a time on a 1..5 absolute
+quality scale per dimension.  The entity (phoenix / hcp) is identified only
+after unblinding for the statistical analysis.
+
+Concurrency
+-----------
+All evaluation tasks are dispatched through ThreadPoolExecutor so that
+multiple (case, part, run, source) jobs run in parallel.  The default
+max_workers is 20.  CSV writes are serialised through a threading.Lock.
+
+Long-format CSV columns
+-----------------------
+case_id, part, dimension, judge_run, entity, quality_score, source_label,
+confidence, justification, prompt_version, model, timestamp
 """
 
 from __future__ import annotations
@@ -10,6 +29,8 @@ import datetime as dt
 import hashlib
 import json
 import logging
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
@@ -24,7 +45,7 @@ from .dimensions import (
     DIMENSIONS_BY_PART,
     PART_TITLES,
     PROMPT_VERSION,
-    SIGNED_SCALE_ANCHORS,
+    QUALITY_SCALE_ANCHORS,
     Dimension,
     dimensions_for,
 )
@@ -40,20 +61,16 @@ from .pseudo_judge import generate_pseudo_response, serialize_pseudo_response
 
 logger = logging.getLogger(__name__)
 
-PSEUDO_MODEL_TAG: str = "pseudo-judge-v1"
-
+PSEUDO_MODEL_TAG: str = "pseudo-judge-absolute-quality"
 
 JUDGMENTS_CSV_HEADER: List[str] = [
     "case_id",
     "part",
     "dimension",
     "judge_run",
-    "score",
-    "raw_score_a_over_b",
-    "source_a",
-    "source_b",
-    "winner_blind",
-    "winner_source",
+    "entity",
+    "quality_score",
+    "source_label",
     "confidence",
     "justification",
     "prompt_version",
@@ -66,10 +83,23 @@ JUDGMENTS_CSV_HEADER: List[str] = [
 # Blinding
 # ──────────────────────────────────────────────────────────────────────────────
 
+_INT32_MAX: int = 2_147_483_647   # Gemini requires seeds in the INT32 range
+
+
 def _blind_seed(case_id: str, part: str, run_idx: int) -> int:
-    """Deterministic seed for A/B label assignment."""
+    """Deterministic seed for A/B label assignment (clamped to INT32 for Gemini)."""
     h = hashlib.sha256(f"{case_id}|{part}|{run_idx}".encode("utf-8")).hexdigest()
-    return int(h[:16], 16)
+    raw = int(h[:16], 16)
+    return raw % (_INT32_MAX + 1)   # keeps determinism, fits in INT32
+
+
+def _call_seed(case_id: str, part: str, run_idx: int, source_label: str) -> int:
+    """Deterministic generation seed for one blinded judge call."""
+    h = hashlib.sha256(
+        f"{case_id}|{part}|{run_idx}|{source_label}".encode("utf-8")
+    ).hexdigest()
+    raw = int(h[:16], 16)
+    return raw % (_INT32_MAX + 1)
 
 
 def assign_blind_labels(
@@ -78,10 +108,10 @@ def assign_blind_labels(
     run_idx: int,
 ) -> Dict[str, str]:
     """
-    Decide which source goes to label A vs B.
+    Decide which source maps to label A vs B.
 
-    Returns a dict like ``{"A": "phoenix", "B": "hcp"}``. Deterministic on
-    ``(case_id, part, run_idx)`` so the unblinding can always be replayed.
+    Returns e.g. ``{"A": "phoenix", "B": "hcp"}``.  Deterministic so the
+    unblinding can be replayed from the CSV alone.
     """
     seed = _blind_seed(case_id, part, run_idx)
     a_is_phoenix = bool(seed & 1)
@@ -92,13 +122,13 @@ def assign_blind_labels(
 
 
 # ──────────────────────────────────────────────────────────────────────────────
-# Prompt rendering
+# Prompt rendering (single-output absolute quality)
 # ──────────────────────────────────────────────────────────────────────────────
 
 def _render_dimensions_block(part: str) -> str:
     lines: List[str] = [
-        "Global signed comparative scale:",
-        *[f"- {anchor}" for anchor in SIGNED_SCALE_ANCHORS],
+        "Absolute quality scale:",
+        *[f"  {anchor}" for anchor in QUALITY_SCALE_ANCHORS],
         "",
         "Dimension-specific criteria:",
         "",
@@ -107,7 +137,7 @@ def _render_dimensions_block(part: str) -> str:
         lines.append(f"### {dim.key}: {dim.display_label}")
         lines.append(f"Goal: {dim.goal_description}")
         lines.append(f"Why this matters: {dim.rationale}")
-        lines.append("Comparative examples:")
+        lines.append("Quality anchors:")
         lines.append(dim.anchor_block())
         lines.append("")
     return "\n".join(lines).rstrip()
@@ -120,18 +150,17 @@ def _format_json(payload: Any) -> str:
 def render_user_prompt(
     part: str,
     case_context: Dict[str, Any],
-    output_a: Dict[str, Any],
-    output_b: Dict[str, Any],
+    the_output: Dict[str, Any],
 ) -> str:
     """
-    Render the per-part user prompt.
+    Render the per-part user prompt for ONE anonymous output.
 
-    ``case_context`` is part-aware: it should provide the placeholders
-    referenced in the prompt template for this part (vignette, ema_summary
-    etc). Missing placeholders are replaced with ``"(not provided)"``.
+    ``the_output`` is the canonical output to be rated.  The judge never
+    sees both outputs at once.
     """
     template = load_prompt(part)
     placeholders: Dict[str, str] = {
+        # Case context placeholders
         "vignette": case_context.get("vignette", "(no vignette provided)"),
         "case_notes_json": _format_json(case_context.get("case_notes", {})),
         "standardized_symptoms_json": _format_json(
@@ -160,8 +189,13 @@ def render_user_prompt(
         "ranking_json": _format_json(case_context.get("ranking", {})),
         "ema_item_context_json": _format_json(case_context.get("ema_item_context", {})),
         "assigned_hapa_phase": str(case_context.get("hapa_phase", "(unknown)")),
-        "output_a_json": _format_json(output_a),
-        "output_b_json": _format_json(output_b),
+        # Single-output placeholders for the absolute-quality design.
+        "the_output_json": _format_json(the_output),
+        # Legacy comparative placeholders kept so old prompt templates still
+        # render without KeyError; they will be replaced with the output
+        # content or empty strings.
+        "output_a_json": _format_json(the_output),   # legacy compat
+        "output_b_json": "{}",                          # legacy compat (empty)
         "dimensions_block": _render_dimensions_block(part),
     }
     rendered = template
@@ -173,14 +207,13 @@ def render_user_prompt(
 def build_messages(
     part: str,
     case_context: Dict[str, Any],
-    output_a: Dict[str, Any],
-    output_b: Dict[str, Any],
+    the_output: Dict[str, Any],
 ) -> List[Dict[str, str]]:
     return [
         {"role": "system", "content": load_system_prompt()},
         {
             "role": "user",
-            "content": render_user_prompt(part, case_context, output_a, output_b),
+            "content": render_user_prompt(part, case_context, the_output),
         },
     ]
 
@@ -193,24 +226,23 @@ def _ensure_csv(path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     if not path.exists():
         with path.open("w", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
-            writer.writerow(JUDGMENTS_CSV_HEADER)
+            csv.writer(f).writerow(JUDGMENTS_CSV_HEADER)
         return
     with path.open(newline="", encoding="utf-8") as f:
-        reader = csv.reader(f)
-        existing = next(reader, [])
+        existing = next(csv.reader(f), [])
     if existing != JUDGMENTS_CSV_HEADER:
         raise ValueError(
             f"Existing judgments CSV at {path} has an incompatible header. "
-            "Archive or delete it before running the v2 signed judge."
+            "Archive or delete it before running the absolute-quality judge."
         )
 
 
-def _append_rows(path: Path, rows: Iterable[List[Any]]) -> None:
-    with path.open("a", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        for row in rows:
-            writer.writerow(row)
+def _append_rows(path: Path, rows: Iterable[List[Any]], lock: threading.Lock) -> None:
+    with lock:
+        with path.open("a", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            for row in rows:
+                writer.writerow(row)
 
 
 def _save_raw_response(path: Path, payload: Dict[str, Any]) -> None:
@@ -228,25 +260,93 @@ def _save_raw_response(path: Path, payload: Dict[str, Any]) -> None:
 @dataclass
 class JudgeRunConfig:
     """Configuration for one full judging run."""
+
     cases: List[str]
     parts: List[str]
-    n_runs: int = 5
+    n_runs: int = 3
     mode: str = "pseudo"        # "pseudo" or "real"
     model: str = DEFAULT_MODEL
     n_retries: int = 3
     json_retries: int = 1
+    max_workers: int = 20       # thread-pool size for parallel evaluation
     out_csv: Optional[Path] = None
     raw_dir_root: Optional[Path] = None
     case_context_provider: Optional[Any] = None
     """
-    Optional callable ``(case_id, part) -> dict`` used to fill the prompt
-    placeholders. If absent, an empty placeholder dict is used. The
-    pipeline orchestrator wires up the real provider.
+    Optional callable ``(case_id, part) -> dict`` that fills prompt
+    placeholders.  The pipeline orchestrator wires up the real provider.
     """
 
 
 def _now_iso() -> str:
     return dt.datetime.now(dt.UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Single evaluation task
+# ──────────────────────────────────────────────────────────────────────────────
+
+def _evaluate_single(
+    *,
+    case_id: str,
+    part: str,
+    run_idx: int,
+    source_label: str,          # "A" or "B"
+    entity: str,                # "phoenix" or "hcp"
+    output: Dict[str, Any],
+    case_context: Dict[str, Any],
+    expected_dims: List[str],
+    client: Optional[OpenRouterClient],
+    mode: str,
+    n_retries: int,
+    json_retries: int,
+    seed: int,
+    blinding: Dict[str, str],
+    raw_root: Path,
+) -> Tuple[JudgeResponse, str, Dict[str, Any]]:
+    """
+    Evaluate one output (identified only as source_label during the call).
+
+    Returns (JudgeResponse, model_used, raw_payload).
+    """
+    if mode == "pseudo":
+        # Pseudo mode: generate absolute quality ratings for this entity
+        response = generate_pseudo_response(
+            case_id=case_id,
+            part=part,
+            judge_run=run_idx,
+            a_is_phoenix=(blinding["A"] == "phoenix"),
+            entity=entity,
+        )
+        raw_payload = {"pseudo": True, "source_label": source_label, "entity": entity}
+        model_used = PSEUDO_MODEL_TAG
+    else:
+        assert client is not None
+        messages = build_messages(part, case_context, output)
+        response, raw_payload, model_used = _call_real_judge(
+            client=client,
+            messages=messages,
+            expected_keys=expected_dims,
+            n_retries=n_retries,
+            json_retries=json_retries,
+            seed=seed,
+        )
+
+    # Save raw response
+    rp = raw_root / part / f"case_{case_id}_run_{run_idx}_{source_label}.json"
+    _save_raw_response(rp, {
+        "case_id": case_id,
+        "part": part,
+        "judge_run": run_idx,
+        "source_label": source_label,
+        "entity": entity,
+        "blinding": blinding,
+        "model": model_used,
+        "prompt_version": PROMPT_VERSION,
+        "response": raw_payload,
+    })
+
+    return response, model_used, raw_payload
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -262,20 +362,24 @@ def run_judge(
     """
     Run the judging loop and append rows to ``judgments_long.csv``.
 
+    For each (case, part, run) cell the judge is called independently for
+    the PHOENIX output and for the HCP output.  Both calls are dispatched
+    concurrently through ThreadPoolExecutor.
+
     Parameters
     ----------
-    hcp_outputs : ``{case_id: {part: canonical}}``
-    system_outputs : ``{case_id: {part: canonical}}``
+    hcp_outputs     ``{case_id: {part: canonical}}``
+    system_outputs  ``{case_id: {part: canonical}}``
 
     Returns
     -------
-    Path
-        Path to the long-format CSV that was written.
+    Path to the long-format CSV.
     """
     csv_path = config.out_csv or judgments_csv()
     _ensure_csv(csv_path)
 
     raw_root = config.raw_dir_root or JUDGMENTS_DIR / "raw"
+    csv_lock = threading.Lock()
 
     client: Optional[OpenRouterClient] = None
     if config.mode == "real":
@@ -283,109 +387,129 @@ def run_judge(
     elif config.mode != "pseudo":
         raise ValueError(f"Unknown judge mode {config.mode!r}; expected pseudo|real")
 
-    total_calls = len(config.cases) * len(config.parts) * config.n_runs
-    logger.info(
-        "Starting judge run: mode=%s cases=%d parts=%d n_runs=%d total=%d",
-        config.mode, len(config.cases), len(config.parts),
-        config.n_runs, total_calls,
-    )
-    call_idx = 0
-
+    # Build the flat list of evaluation tasks.
+    # Each task is one output evaluated by the judge.
+    tasks: List[Dict[str, Any]] = []
     for case_id in config.cases:
         case_hcp = hcp_outputs.get(case_id, {})
         case_sys = system_outputs.get(case_id, {})
         for part in config.parts:
             if part not in DIMENSIONS_BY_PART:
                 raise ValueError(f"Unknown part {part!r}")
-            expected_keys = [d.key for d in dimensions_for(part)]
+            expected_dims = [d.key for d in dimensions_for(part)]
             for run_idx in range(config.n_runs):
-                call_idx += 1
                 blinding = assign_blind_labels(case_id, part, run_idx)
-                a_is_phoenix = blinding["A"] == "phoenix"
-                hcp_payload = case_hcp.get(part, {})
-                sys_payload = case_sys.get(part, {})
-                output_a = sys_payload if a_is_phoenix else hcp_payload
-                output_b = hcp_payload if a_is_phoenix else sys_payload
-
                 ctx = (
                     config.case_context_provider(case_id, part)
-                    if config.case_context_provider
-                    else {}
+                    if config.case_context_provider else {}
                 )
+                for source_label in ("A", "B"):
+                    entity = blinding[source_label]
+                    output = (
+                        case_sys.get(part, {})
+                        if entity == "phoenix"
+                        else case_hcp.get(part, {})
+                    )
+                    tasks.append({
+                        "case_id": case_id,
+                        "part": part,
+                        "run_idx": run_idx,
+                        "source_label": source_label,
+                        "entity": entity,
+                        "output": output,
+                        "ctx": ctx,
+                        "expected_dims": expected_dims,
+                        "blinding": blinding,
+                        "seed": _call_seed(case_id, part, run_idx, source_label),
+                    })
 
+    total = len(tasks)
+    logger.info(
+        "Starting judge run: mode=%s cases=%d parts=%d n_runs=%d "
+        "tasks=%d max_workers=%d",
+        config.mode, len(config.cases), len(config.parts),
+        config.n_runs, total, config.max_workers,
+    )
+
+    completed_count = 0
+
+    def _run_task(task: Dict[str, Any]) -> None:
+        nonlocal completed_count
+        case_id = task["case_id"]
+        part = task["part"]
+        run_idx = task["run_idx"]
+        source_label = task["source_label"]
+        entity = task["entity"]
+
+        response, model_used, _ = _evaluate_single(
+            case_id=case_id,
+            part=part,
+            run_idx=run_idx,
+            source_label=source_label,
+            entity=entity,
+            output=task["output"],
+            case_context=task["ctx"],
+            expected_dims=task["expected_dims"],
+            client=client,
+            mode=config.mode,
+            n_retries=config.n_retries,
+            json_retries=config.json_retries,
+            seed=task["seed"],
+            blinding=task["blinding"],
+            raw_root=raw_root,
+        )
+
+        ts = _now_iso()
+        rows: List[List[Any]] = []
+        for rating in response.ratings:
+            rows.append([
+                case_id,
+                part,
+                rating.dimension,
+                run_idx,
+                entity,
+                int(rating.score),
+                source_label,
+                int(rating.confidence),
+                rating.justification,
+                PROMPT_VERSION,
+                model_used,
+                ts,
+            ])
+
+        _append_rows(csv_path, rows, csv_lock)
+        with csv_lock:
+            completed_count += 1
+            if completed_count % 20 == 0 or completed_count == total:
                 logger.info(
-                    "[%d/%d] case=%s part=%s run=%d A=%s",
-                    call_idx, total_calls, case_id, part, run_idx, blinding["A"],
+                    "Judge progress: %d / %d tasks (%s/%s run=%d %s=%s)",
+                    completed_count, total,
+                    case_id, part, run_idx, source_label, entity,
                 )
 
-                if config.mode == "pseudo":
-                    response = generate_pseudo_response(
-                        case_id=case_id,
-                        part=part,
-                        judge_run=run_idx,
-                        a_is_phoenix=a_is_phoenix,
-                    )
-                    raw_payload = json.loads(serialize_pseudo_response(response))
-                    model_used = PSEUDO_MODEL_TAG
-                else:
-                    assert client is not None
-                    messages = build_messages(part, ctx, output_a, output_b)
-                    response, raw_payload, model_used = _call_real_judge(
-                        client=client,
-                        messages=messages,
-                        expected_keys=expected_keys,
-                        n_retries=config.n_retries,
-                        json_retries=config.json_retries,
-                        seed=_blind_seed(case_id, part, run_idx),
-                    )
+    with ThreadPoolExecutor(max_workers=config.max_workers) as pool:
+        futures = {pool.submit(_run_task, task): task for task in tasks}
+        errors = []
+        for future in as_completed(futures):
+            task = futures[future]
+            try:
+                future.result()
+            except Exception as exc:
+                logger.error(
+                    "Judge task FAILED %s/%s run=%d %s: %s",
+                    task["case_id"], task["part"], task["run_idx"],
+                    task["source_label"], exc,
+                )
+                errors.append((task["case_id"], task["part"], task["run_idx"], str(exc)))
 
-                # Persist raw response.
-                rp = raw_judgment_path(part, case_id, run_idx)
-                if config.raw_dir_root is not None:
-                    rp = (config.raw_dir_root / part /
-                          f"case_{case_id}_run_{run_idx}.json")
-                _save_raw_response(rp, {
-                    "case_id": case_id,
-                    "part": part,
-                    "judge_run": run_idx,
-                    "blinding": blinding,
-                    "model": model_used,
-                    "prompt_version": PROMPT_VERSION,
-                    "response": raw_payload,
-                })
+    if errors:
+        logger.warning(
+            "%d judge task(s) failed (see logs above). "
+            "CSV may be incomplete.", len(errors)
+        )
+    else:
+        logger.info("Judge run complete. Long-format CSV: %s", csv_path)
 
-                # Map A/B back to a PHOENIX-over-HCP signed score and append rows.
-                rows: List[List[Any]] = []
-                ts = _now_iso()
-                for comp in response.comparisons:
-                    raw_score = int(comp.score)
-                    phoenix_score = raw_score if blinding["A"] == "phoenix" else -raw_score
-                    if phoenix_score > 0:
-                        winner_source = "phoenix"
-                    elif phoenix_score < 0:
-                        winner_source = "hcp"
-                    else:
-                        winner_source = "tie"
-                    rows.append([
-                        case_id,
-                        part,
-                        comp.dimension,
-                        run_idx,
-                        phoenix_score,
-                        raw_score,
-                        blinding["A"],
-                        blinding["B"],
-                        comp.winner,
-                        winner_source,
-                        int(comp.confidence),
-                        comp.justification,
-                        PROMPT_VERSION,
-                        model_used,
-                        ts,
-                    ])
-                _append_rows(csv_path, rows)
-
-    logger.info("Judge run complete. Long-format CSV: %s", csv_path)
     return csv_path
 
 
@@ -397,7 +521,7 @@ def _call_real_judge(
     json_retries: int,
     seed: Optional[int] = None,
 ) -> Tuple[JudgeResponse, Dict[str, Any], str]:
-    """Call the real judge; if JSON parse fails, re-prompt up to json_retries."""
+    """Call the real judge with JSON-repair retry."""
     last_text: Optional[str] = None
     raw_payload: Dict[str, Any] = {}
     last_msgs = list(messages)
@@ -412,7 +536,6 @@ def _call_real_judge(
             logger.warning("Judge JSON parse failed: %s", exc)
             if attempt >= json_retries:
                 raise
-            # Re-prompt the model with the parse error context.
             last_msgs = list(messages) + [
                 {"role": "assistant", "content": completion.text or ""},
                 {"role": "user", "content": JSON_RETRY_INSTRUCTION},

@@ -1,9 +1,9 @@
-"""Part 5 - tailored mobile coaching message: signed analyses and plots.
+"""Part 5 - tailored mobile coaching message: absolute-quality analyses and plots.
 
 The judge ALSO classifies each message's HAPA phase in the ``extra``
 field of its JSON response. That classification is recorded in the raw
 response files when HAPA context is available, but it is not part of the
-per-dimension signed scores analysed here.
+per-dimension absolute quality scores analysed here.
 """
 
 from __future__ import annotations

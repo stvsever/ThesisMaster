@@ -1,92 +1,95 @@
 <!--
-PROMPT_VERSION: 2026-05-01-v3-signed-comparison
+PROMPT_VERSION: 2026-05-02-absolute-quality-research-grade
 PART_INDEX: 5
 PART_TITLE: 05_Mobile_Coaching_Message
-MODEL: google/gemini-3.1-flash-lite-preview
 -->
 
-# Part 5 - Mobile coaching message
+# Part 5 — Evaluate: personalised mobile coaching message
 
-You are comparing two anonymous mobile coaching messages for the same case.
-The message should be short enough for a smartphone, written directly to the
-patient, and designed to support a concrete next behaviour.
+You are evaluating **The Output** — an anonymous response to a structured
+clinical task in the PHOENIX survey.  You do **not** know whether The Output
+was produced by a human clinician or by an AI system.
 
-The survey task asks for 2..4 sentences with warm, direct, professional tone,
-no clinical jargon or diagnostic labels, clear relation to the primary
-treatment goal and main barrier, and one feasible next action.
+Rate The Output **independently** on each evaluation dimension using the
+1–5 absolute quality scale from the system prompt.  Apply all mandatory
+evaluation rules, especially the **anti-halo rule**: each dimension must be
+rated solely on its own criterion evidence.
 
-## Case context
+---
 
-Free-text complaint / vignette:
-```text
-{{vignette}}
-```
+## The clinical task (what the respondent was asked to do)
 
-Primary problem:
-```text
+> **Task:** Write a **2–4 sentence mobile coaching message** directly
+> addressed to the patient (second person: "you/your").  The message must:
+> - Target the primary treatment goal
+> - Acknowledge or work around the stated barrier
+> - Suggest a concrete, feasible next action
+> - Be phone-ready (not a clinical note; no jargon; warm but professional tone)
+
+The respondent had access to:
+1. The primary complaint or problem description (provided below)
+2. The treatment goal for this patient (provided below)
+3. The main identified barrier to that goal (provided below)
+4. A suggested coping strategy or approach (provided below)
+5. The patient's HAPA motivational phase (provided below)
+6. A summary of the 21-day EMA monitoring data (provided below)
+
+**HAPA phase context:**
+- **Motivational phase** (pre-intention): the patient has not yet formed
+  a firm intention to change — the message should build motivation and
+  perceived relevance.
+- **Volitional phase** (post-intention, pre-action): the patient intends to
+  change but needs a specific plan — emphasise implementation intention.
+- **Action/maintenance phase**: the patient is already engaging with the
+  target behaviour — reinforce and troubleshoot barriers.
+
+---
+
+## Case context available to the respondent
+
+**Primary problem:**
 {{primary_problem}}
-```
 
-Treatment goal:
-```text
+**Treatment goal:**
 {{treatment_goal}}
-```
 
-Main barrier:
-```text
+**Main barrier to the treatment goal:**
 {{barrier}}
-```
 
-Recommended coping strategy / behaviour-shift logic, if available:
-```text
+**Suggested coping strategy:**
 {{coping_strategy}}
-```
 
-Assigned HAPA phase, if available:
-```text
+**Patient's HAPA phase:**
 {{assigned_hapa_phase}}
-```
 
-## Outputs to compare
-
-Both outputs are canonicalised to the same shape:
+**21-day EMA monitoring summary:**
 ```json
-{"message": "2..4 sentence mobile coaching message"}
+{{ema_summary_json}}
 ```
 
-### Output A
+---
+
+## Canonical output format
+
+Valid outputs for this task use the following structure:
 ```json
-{{output_a_json}}
+{"message": "2–4 sentence coaching message addressed directly to the patient."}
 ```
 
-### Output B
+**The Output to evaluate:**
 ```json
-{{output_b_json}}
+{{the_output_json}}
 ```
 
-## Dimensions
+---
 
-For each dimension, return one signed A-over-B score on the -9..+9 scale.
-Positive scores favour Output A; negative scores favour Output B; zero means
-no meaningful difference.
+## Evaluation dimensions
 
 {{dimensions_block}}
 
-## Extra field
+---
 
-If the assigned HAPA phase is available, add your independent phase
-classification for each message:
+## Response format
 
-```json
-"extra": {
-  "hapa_phase_a": "pre_intentional|intentional|action|maintenance|unknown",
-  "hapa_phase_b": "pre_intentional|intentional|action|maintenance|unknown"
-}
-```
-
-If HAPA phase is not available, use an empty object: `"extra": {}`.
-
-## JSON only
-
-Return the strict `comparisons` JSON schema from the system prompt. Use every
-dimension key exactly once.
+Return the strict `ratings` JSON schema defined in the system prompt.
+Include exactly one entry per dimension key listed above.
