@@ -40,12 +40,16 @@ from .shared_stats import (
     COLOR_HCP,
     COLOR_PHOENIX,
     apply_rcparams,
+    bootstrap_cohend_one_sample_ci,
+    cohen_d_one_sample,
+    effect_size_category,
     forest_plot,
     holm_correct,
     p_to_stars,
     publication_heatmap,
     raincloud_plot,
     save_figure,
+    standardized_forest_plot,
     tost_panel,
     tost_test_one_sample,
 )
@@ -229,6 +233,29 @@ def _per_part_tost(
     return tost_test_one_sample(diffs, delta=delta)
 
 
+def _standardized_paired_effect(data: pd.DataFrame, seed: int = 42) -> Dict[str, Any]:
+    """Return paired Cohen's dz and bootstrap CI for PHOENIX-HCP differences."""
+    diffs = _paired_differences(data)
+    diffs = diffs[np.isfinite(diffs)]
+    if len(diffs) < 2:
+        return {
+            "cohen_dz": 0.0,
+            "cohen_dz_ci_lower": 0.0,
+            "cohen_dz_ci_upper": 0.0,
+            "cohen_dz_category": "trivial",
+            "n_pairs": int(len(diffs)),
+        }
+    d = cohen_d_one_sample(diffs)
+    lo, hi = bootstrap_cohend_one_sample_ci(diffs, seed=seed)
+    return {
+        "cohen_dz": float(d),
+        "cohen_dz_ci_lower": float(lo),
+        "cohen_dz_ci_upper": float(hi),
+        "cohen_dz_category": effect_size_category(d),
+        "n_pairs": int(len(diffs)),
+    }
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Main entry point
 # ─────────────────────────────────────────────────────────────────────────────
@@ -279,15 +306,18 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
     # ── Global entity model ───────────────────────────────────────────────────
     global_result = _fit_entity_lmm(work)
     global_tost   = _per_part_tost(work, config.tost_delta)
+    global_std    = _standardized_paired_effect(work, seed=9000)
 
     # ── Per-part models ───────────────────────────────────────────────────────
     part_effects: Dict[str, Dict[str, Any]] = {}
     part_tosts:   Dict[str, Dict[str, Any]] = {}
+    part_standardized: Dict[str, Dict[str, Any]] = {}
     raw_p: List[float] = []
-    for part in parts_present:
+    for idx, part in enumerate(parts_present):
         sub = work.loc[work["part"].astype(str) == part].copy()
         part_effects[part] = _fit_entity_lmm(sub)
         part_tosts[part]   = _per_part_tost(sub, config.tost_delta)
+        part_standardized[part] = _standardized_paired_effect(sub, seed=9100 + idx)
         raw_p.append(float(part_effects[part]["p_value"]))
 
     holm_ps = holm_correct(raw_p)
@@ -313,6 +343,9 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
     lines.extend([
         f"PHOENIX − HCP effect: {coef:+.4f}",
         f"95% CI: [{global_result['ci_lower']:+.4f}, {global_result['ci_upper']:+.4f}]",
+        f"Standardized paired effect: dz={global_std['cohen_dz']:+.4f} "
+        f"[{global_std['cohen_dz_ci_lower']:+.4f}, {global_std['cohen_dz_ci_upper']:+.4f}] "
+        f"({global_std['cohen_dz_category']})",
         f"p-value: {p_g:.4f} ({p_to_stars(p_g)})",
         "",
         f"Global TOST (delta=±{config.tost_delta}): "
@@ -335,6 +368,7 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
             f"  {_display_part(part)}: "
             f"Δ={e['coefficient']:+.4f}, "
             f"95% CI=[{e['ci_lower']:+.4f}, {e['ci_upper']:+.4f}], "
+            f"dz={part_standardized[part]['cohen_dz']:+.4f}, "
             f"p_raw={e['p_value']:.4f}, p_holm={e['p_value_holm']:.4f} "
             f"({p_to_stars(e['p_value_holm'])}), TOST: {tost_str}"
         )
@@ -356,6 +390,37 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
         "\n".join(lines), encoding="utf-8"
     )
 
+    summary_rows = []
+    for part in parts_present:
+        sub = work.loc[work["part"].astype(str) == part]
+        ph = sub.loc[sub["entity"] == "phoenix", "quality_score"].dropna()
+        hc = sub.loc[sub["entity"] == "hcp", "quality_score"].dropna()
+        e = part_effects[part]
+        t = part_tosts[part]
+        s = part_standardized[part]
+        summary_rows.append({
+            "part": part,
+            "part_label": _display_part(part),
+            "phoenix_mean": float(ph.mean()) if len(ph) else float("nan"),
+            "hcp_mean": float(hc.mean()) if len(hc) else float("nan"),
+            "effect_phoenix_minus_hcp": float(e["coefficient"]),
+            "ci_lower": float(e["ci_lower"]),
+            "ci_upper": float(e["ci_upper"]),
+            "p_value_raw": float(e["p_value"]),
+            "p_value_holm": float(e.get("p_value_holm", 1.0)),
+            "cohen_dz": float(s["cohen_dz"]),
+            "cohen_dz_ci_lower": float(s["cohen_dz_ci_lower"]),
+            "cohen_dz_ci_upper": float(s["cohen_dz_ci_upper"]),
+            "cohen_dz_category": str(s["cohen_dz_category"]),
+            "n_pairs": int(s["n_pairs"]),
+            "p_tost": float(t.get("p_tost", 1.0)),
+            "tost_equivalent": bool(t.get("equivalent", False)),
+            "method": e["method"],
+            "converged": bool(e.get("converged", False)),
+        })
+    summary_df = pd.DataFrame(summary_rows)
+    summary_df.to_csv(paths["report_dir"] / "synthesis_part_summary.csv", index=False)
+
     # ─────────────────────────────────────────────────────────────────────────
     # Figure 1: entity-effect forest plot (PHOENIX − HCP Δ per part)
     # ─────────────────────────────────────────────────────────────────────────
@@ -368,14 +433,43 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
         effects=[part_effects[p]["coefficient"] for p in parts_present],
         ci_lowers=[part_effects[p]["ci_lower"] for p in parts_present],
         ci_uppers=[part_effects[p]["ci_upper"] for p in parts_present],
-        xlabel="Mean quality difference (PHOENIX − HCP, scale −10 to +10)",
+        xlabel="Raw quality-point gap (PHOENIX − HCP; possible range −20 to +20)",
         ref_line=0.0,
         p_values=[part_effects[p]["p_value_holm"] for p in parts_present],
         tost_results=[part_tosts[p] for p in parts_present],
     )
-    ax1.set_xlim(-5.0, 5.0)
+    raw_lo = min([part_effects[p]["ci_lower"] for p in parts_present] + [-config.tost_delta])
+    raw_hi = max([part_effects[p]["ci_upper"] for p in parts_present] + [config.tost_delta])
+    raw_pad = max(0.4, 0.08 * (raw_hi - raw_lo))
+    ax1.set_xlim(
+        max(config.quality_min - config.quality_max, raw_lo - raw_pad),
+        min(config.quality_max - config.quality_min, raw_hi + raw_pad),
+    )
     plt.tight_layout()
     save_figure(fig1, paths["visuals_dir"] / "synthesis_part_forest.png")
+
+    # ─────────────────────────────────────────────────────────────────────────
+    # Figure 1b: standardized entity-effect forest plot (paired Cohen's dz)
+    # ─────────────────────────────────────────────────────────────────────────
+    fig1b, ax1b = plt.subplots(
+        figsize=(9, max(4, 0.85 * len(parts_present) + 1.8))
+    )
+    standardized_forest_plot(
+        ax1b,
+        dimensions=[_display_part(p) for p in parts_present],
+        effects=[part_standardized[p]["cohen_dz"] for p in parts_present],
+        ci_lowers=[part_standardized[p]["cohen_dz_ci_lower"] for p in parts_present],
+        ci_uppers=[part_standardized[p]["cohen_dz_ci_upper"] for p in parts_present],
+        xlabel="Standardized paired effect (Cohen's dz; PHOENIX − HCP)",
+        ref_line=0.0,
+        p_values=[part_effects[p]["p_value_holm"] for p in parts_present],
+    )
+    d_lo = min([part_standardized[p]["cohen_dz_ci_lower"] for p in parts_present] + [-2.0])
+    d_hi = max([part_standardized[p]["cohen_dz_ci_upper"] for p in parts_present] + [2.0])
+    d_pad = max(0.25, 0.08 * (d_hi - d_lo))
+    ax1b.set_xlim(d_lo - d_pad, d_hi + d_pad + 0.8)
+    plt.tight_layout()
+    save_figure(fig1b, paths["visuals_dir"] / "synthesis_standardized_effect_forest.png")
 
     # ─────────────────────────────────────────────────────────────────────────
     # Figure 2: Grouped raincloud PHOENIX vs HCP per part
@@ -431,7 +525,10 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
         figsize=(max(8, 0.75 * len(all_dims) + 2.5),
                  max(4, 0.65 * len(parts_present) + 1.5))
     )
-    im = ax3.imshow(matrix, cmap="RdBu_r", aspect="auto", vmin=-3.0, vmax=3.0)
+    finite = np.abs(matrix[np.isfinite(matrix)])
+    heat_lim = float(max(3.0, np.max(finite))) if finite.size else 3.0
+    heat_lim = min(20.0, heat_lim)
+    im = ax3.imshow(matrix, cmap="RdBu_r", aspect="auto", vmin=-heat_lim, vmax=heat_lim)
     ax3.set_xticks(np.arange(len(all_dims)))
     ax3.set_xticklabels(
         [_display_dim(d) for d in all_dims],
@@ -449,7 +546,7 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
                 ha="center", va="center", fontsize=7,
                 color="white" if abs(v) > 1.7 else "black",
             )
-    plt.colorbar(im, ax=ax3, label="Mean quality gap (PHOENIX − HCP, −10 to +10 scale)")
+    plt.colorbar(im, ax=ax3, label="Raw quality-point gap (PHOENIX − HCP; possible range −20 to +20)")
     plt.tight_layout()
     save_figure(fig3, paths["visuals_dir"] / "synthesis_gap_heatmap.png")
 
@@ -470,6 +567,8 @@ def run_holistic_synthesis(config: HolisticStudyConfig) -> Dict[str, Any]:
     return {
         "global": global_result,
         "global_tost": global_tost,
+        "global_standardized": global_std,
         "part_effects": part_effects,
         "part_tosts": part_tosts,
+        "part_standardized": part_standardized,
     }

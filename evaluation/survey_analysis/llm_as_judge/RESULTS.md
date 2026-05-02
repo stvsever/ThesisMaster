@@ -26,26 +26,42 @@ producing 2,340 long-format ratings.
 | Long-format ratings | 2,340 |
 | Paired PHOENIX-HCP cells | 1,170 |
 | Quality scale | −10 to +10 integer scale, 0 = acceptable |
+| Raw PHOENIX-HCP gap range | −20 to +20 quality points |
+| Standardized effect | Paired Cohen's dz on PHOENIX-HCP differences |
 | Primary model | `quality_score ~ entity_ec + (1 \| case_id) + (1 \| judge_run)` |
 | Equivalence margin | ±1.5 quality points |
 
 ## Primary Outcome
 
 Across all parts and dimensions, PHOENIX was rated higher than the HCP
-comparator. The pooled mixed-effects model estimated a PHOENIX-HCP quality gap
-of Δ = +3.68 points on the −10 to +10 scale, 95% CI [+3.35, +4.01], p < .001.
-The global TOST analysis did not support practical equivalence,
-p<sub>TOST</sub> = 1.000, because the observed effect exceeded the predefined
-equivalence band in favour of PHOENIX.
+comparator. The pooled mixed-effects model estimated a raw PHOENIX-HCP quality
+gap of Δ = +3.68 points, 95% CI [+3.35, +4.01], p < .001. Because each source
+is rated on a −10 to +10 scale, raw between-source gaps can range from −20 to
++20 and should not be interpreted as standardized effects. The standardized
+paired effect was medium, dz = +0.69, 95% CI [+0.64, +0.74]. The global TOST
+analysis did not support practical equivalence, p<sub>TOST</sub> = 1.000,
+because the observed effect exceeded the predefined equivalence band in favour
+of PHOENIX.
 
 <p align="center">
   <img src="../results/synthesis/visuals/synthesis_part_forest.png" alt="Cross-part PHOENIX versus HCP quality effects" width="900">
 </p>
 
 **Figure 1. Cross-part PHOENIX versus HCP quality effects.** Points show
-mixed-model PHOENIX-HCP quality gaps with 95% confidence intervals. Positive
-values favour PHOENIX. **Note.** Entity was effect coded as PHOENIX = +0.5 and
-HCP = −0.5; per-part p-values are Holm corrected.
+raw mixed-model PHOENIX-HCP quality-point gaps with 95% confidence intervals.
+Positive values favour PHOENIX. **Note.** Entity was effect coded as PHOENIX =
++0.5 and HCP = −0.5; per-part p-values are Holm corrected. The blue band marks
+the ±1.5-point equivalence interval.
+
+<p align="center">
+  <img src="../results/synthesis/visuals/synthesis_standardized_effect_forest.png" alt="Standardized cross-part PHOENIX versus HCP effects" width="900">
+</p>
+
+**Figure 1B. Standardized cross-part PHOENIX versus HCP effects.** Points show
+paired Cohen's dz with bootstrap 95% confidence intervals. **Note.**
+Conventional bands indicate trivial, small, medium, and large standardized
+effects. This panel should be used when comparing effect magnitude across
+parts.
 
 ## Part-Level Effects
 
@@ -56,22 +72,23 @@ showed smaller but still positive effects; symptom labels were statistically
 higher for PHOENIX while remaining practically equivalent within the ±1.5-point
 margin.
 
-| Part | PHOENIX M | HCP M | PHOENIX-HCP gap | 95% CI | Holm p | TOST |
-| --- | ---: | ---: | ---: | --- | ---: | --- |
-| Symptom labels | +4.41 | +3.61 | +0.80 | [+0.28, +1.32] | .0037 | Equivalent |
-| Treatment options | +6.16 | −0.14 | +6.30 | [+5.69, +6.91] | < .001 | Not equivalent |
-| Target ranking | +8.19 | −1.41 | +9.60 | [+8.95, +10.26] | < .001 | Not equivalent |
-| EMA items | +6.33 | +5.07 | +1.27 | [+0.74, +1.79] | < .001 | Not equivalent |
-| Coaching message | +4.01 | +2.87 | +1.14 | [+0.42, +1.85] | .0037 | Not equivalent |
+| Part | PHOENIX M | HCP M | Raw gap | Cohen's dz | 95% CI for dz | Holm p | TOST |
+| --- | ---: | ---: | ---: | ---: | --- | ---: | --- |
+| Symptom labels | +4.41 | +3.61 | +0.80 | +0.36 | [+0.24, +0.47] | .0037 | Equivalent |
+| Treatment options | +6.16 | −0.14 | +6.30 | +1.25 | [+1.15, +1.37] | < .001 | Not equivalent |
+| Target ranking | +8.19 | −1.41 | +9.60 | +1.97 | [+1.74, +2.25] | < .001 | Not equivalent |
+| EMA items | +6.33 | +5.07 | +1.27 | +0.35 | [+0.22, +0.47] | < .001 | Not equivalent |
+| Coaching message | +4.01 | +2.87 | +1.14 | +0.29 | [+0.17, +0.41] | .0037 | Not equivalent |
 
 <p align="center">
   <img src="../results/synthesis/visuals/synthesis_gap_heatmap.png" alt="Dimension-level PHOENIX-HCP quality gaps across survey parts" width="950">
 </p>
 
 **Figure 2. Dimension-level PHOENIX-HCP quality gaps.** Heatmap cells show
-estimated quality gaps by survey part and evaluation dimension. **Note.** Warm
-positive cells indicate dimensions where PHOENIX was rated higher; cooler cells
-indicate dimensions where HCP was rated higher.
+raw mean quality-point gaps by survey part and evaluation dimension. **Note.**
+Warm positive cells indicate dimensions where PHOENIX was rated higher; cooler
+cells indicate dimensions where HCP was rated higher. Cell values are raw
+differences, not standardized effects.
 
 <p align="center">
   <img src="../results/synthesis/visuals/synthesis_part_raincloud.png" alt="Quality score distributions by source and survey part" width="950">
@@ -93,80 +110,89 @@ PHOENIX effects outside the equivalence band, not HCP superiority.
 ## Dimension-Level Results
 
 Part 1 showed a modest PHOENIX advantage. The clearest dimension-level gain was
-task adherence and label format, Δ = +2.67, Holm p < .001. Other symptom-label
-dimensions were small and mostly equivalent, indicating that the optimised
-PHOENIX labels were concise and clinically usable without over-expanding beyond
-the requested label-only format.
+task adherence and label format, raw Δ = +2.67, dz = +0.93, Holm p < .001.
+Other symptom-label dimensions were small and mostly equivalent, indicating
+that the optimised PHOENIX labels were concise and clinically usable without
+over-expanding beyond the requested label-only format.
 
 Part 2 showed the strongest improvement in clinical construct validity.
 PHOENIX outperformed HCP especially on symptom-option separation,
-Δ = +13.43; modifiability and actionability, Δ = +9.83; causal plausibility,
-Δ = +7.73; option diversity, Δ = +5.80; symptom relevance, Δ = +5.53; label
-precision, Δ = +4.00; and daily EMA feasibility, Δ = +2.07. This indicates
-that the PHOENIX treatment-option set was judged as genuinely modifiable rather
-than merely re-labelling symptoms as treatment targets.
+raw Δ = +13.43, dz = +2.74; modifiability and actionability, raw Δ = +9.83,
+dz = +2.47; causal plausibility, raw Δ = +7.73, dz = +1.84; option diversity,
+raw Δ = +5.80, dz = +1.60; symptom relevance, raw Δ = +5.53, dz = +1.76;
+label precision, raw Δ = +4.00, dz = +1.97; and daily EMA feasibility,
+raw Δ = +2.07, dz = +0.75. This indicates that the PHOENIX treatment-option
+set was judged as genuinely modifiable rather than merely re-labelling symptoms
+as treatment targets.
 
 Part 3 showed the largest PHOENIX advantage after adding numeric pseudo-network
 context to the validation data. PHOENIX strongly outperformed HCP on
-network-weight alignment, Δ = +13.73; current-state integration, Δ = +13.30;
-rank-order coherence, Δ = +12.40; top-target defensibility, Δ = +12.17; edge
-direction interpretation, Δ = +7.33; and modifiability-feasibility weighting,
-Δ = +6.47. These effects confirm that the judge can recover the expected
-advantage when structured network and EMA evidence is available.
+network-weight alignment, raw Δ = +13.73, dz = +5.85; current-state
+integration, raw Δ = +13.30, dz = +5.66; rank-order coherence, raw Δ = +12.40,
+dz = +5.66; top-target defensibility, raw Δ = +12.17, dz = +3.93; edge
+direction interpretation, raw Δ = +7.33, dz = +2.63; and
+modifiability-feasibility weighting, raw Δ = +6.47, dz = +2.72. These very
+large standardized effects reflect a fixture where PHOENIX receives explicit
+network evidence and the pseudo-HCP comparator often does not recover that
+priority structure; this should be interpreted as a validation stress test, not
+as the expected final HCP effect size.
 
 Part 4 showed a smaller but consistent PHOENIX advantage. The largest gains
-were observed for feedback value for coaching, Δ = +2.33; monitoring burden and
-parsimony, Δ = +2.13; directness and specificity, Δ = +1.93; target-item
-mapping accuracy, Δ = +1.47; and dynamic informativeness, Δ = +1.40. Both
-sources achieved perfect valid-candidate selection, confirming that the
-candidate-list contract is functioning.
+were observed for feedback value for coaching, raw Δ = +2.33, dz = +0.75;
+monitoring burden and parsimony, raw Δ = +2.13, dz = +0.79; directness and
+specificity, raw Δ = +1.93, dz = +0.33; target-item mapping accuracy,
+raw Δ = +1.47, dz = +0.36; and dynamic informativeness, raw Δ = +1.40,
+dz = +0.49. Both sources achieved perfect valid-candidate selection,
+confirming that the candidate-list contract is functioning.
 
 Part 5 showed a positive PHOENIX effect while preserving phone-ready tone.
-The strongest gains were behaviour-change potential, Δ = +2.70; personalisation
-specificity, Δ = +2.47; treatment-goal alignment, Δ = +2.27; barrier
-responsiveness, Δ = +2.00; and action specificity, Δ = +0.93. HCP remained
-similar on tone and concision, indicating that PHOENIX's advantage came from
-clinical targeting and behaviour-change structure rather than simply longer or
-more technical messages.
+The strongest standardized gains were behaviour-change potential,
+raw Δ = +2.70, dz = +0.72; action specificity, raw Δ = +0.93, dz = +0.64;
+personalisation specificity, raw Δ = +2.47, dz = +0.44; treatment-goal
+alignment, raw Δ = +2.27, dz = +0.40; and barrier responsiveness,
+raw Δ = +2.00, dz = +0.27. HCP remained similar on tone and concision,
+indicating that PHOENIX's advantage came from clinical targeting and
+behaviour-change structure rather than simply longer or more technical
+messages.
 
 <p align="center">
-  <img src="../results/part1_prompt/visuals/part1_prompt_effect_forest.png" alt="Part 1 symptom-label dimension effects" width="900">
+  <img src="../results/part1_prompt/visuals/part1_prompt_standardized_effect_forest.png" alt="Part 1 standardized symptom-label dimension effects" width="900">
 </p>
 
-**Figure 5A. Part 1 symptom-label dimension effects.** Effects are
-PHOENIX-HCP quality gaps with 95% confidence intervals.
+**Figure 5A. Part 1 standardized symptom-label dimension effects.** Effects
+are paired Cohen's dz values with bootstrap 95% confidence intervals.
 
 <p align="center">
-  <img src="../results/part2_prompt/visuals/part2_prompt_effect_forest.png" alt="Part 2 treatment-option dimension effects" width="900">
+  <img src="../results/part2_prompt/visuals/part2_prompt_standardized_effect_forest.png" alt="Part 2 standardized treatment-option dimension effects" width="900">
 </p>
 
-**Figure 5B. Part 2 treatment-option dimension effects.** The largest gains
-occurred on dimensions testing whether outputs were genuinely modifiable,
-clinically causal, and distinct from symptom labels.
+**Figure 5B. Part 2 standardized treatment-option dimension effects.** The
+largest standardized gains occurred on dimensions testing whether outputs were
+genuinely modifiable, clinically causal, and distinct from symptom labels.
 
 <p align="center">
-  <img src="../results/part3_prompt/visuals/part3_prompt_effect_forest.png" alt="Part 3 treatment-target ranking dimension effects" width="900">
+  <img src="../results/part3_prompt/visuals/part3_prompt_standardized_effect_forest.png" alt="Part 3 standardized treatment-target ranking dimension effects" width="900">
 </p>
 
-**Figure 5C. Part 3 treatment-target ranking dimension effects.** The largest
-gains occurred on network alignment, current-state integration, and rank-order
-coherence.
+**Figure 5C. Part 3 standardized treatment-target ranking dimension effects.**
+The largest standardized gains occurred on network alignment, current-state
+integration, and rank-order coherence.
 
 <p align="center">
-  <img src="../results/part4_prompt/visuals/part4_prompt_effect_forest.png" alt="Part 4 EMA item-selection dimension effects" width="900">
+  <img src="../results/part4_prompt/visuals/part4_prompt_standardized_effect_forest.png" alt="Part 4 standardized EMA item-selection dimension effects" width="900">
 </p>
 
-**Figure 5D. Part 4 EMA item-selection dimension effects.** PHOENIX showed its
-clearest advantages on clinically useful monitoring value and parsimony while
-matching HCP on valid-candidate selection.
+**Figure 5D. Part 4 standardized EMA item-selection dimension effects.**
+PHOENIX showed its clearest standardized advantages on clinically useful
+monitoring value and parsimony while matching HCP on valid-candidate selection.
 
 <p align="center">
-  <img src="../results/part5_prompt/visuals/part5_prompt_effect_forest.png" alt="Part 5 mobile coaching-message dimension effects" width="900">
+  <img src="../results/part5_prompt/visuals/part5_prompt_standardized_effect_forest.png" alt="Part 5 standardized mobile coaching-message dimension effects" width="900">
 </p>
 
-**Figure 5E. Part 5 mobile coaching-message dimension effects.** PHOENIX gains
-were concentrated in personalisation, treatment-goal alignment, and expected
-behaviour-change value.
+**Figure 5E. Part 5 standardized mobile coaching-message dimension effects.**
+PHOENIX gains were concentrated in personalisation, treatment-goal alignment,
+and expected behaviour-change value.
 
 ## Supplementary Reliability and Sensitivity
 
@@ -212,13 +238,14 @@ with near-optimal recovery of the supplied pseudo-network priority structure.
 
 This validation run supports the full PHOENIX double-blind evaluation workflow.
 The current PHOENIX output artifact outperformed the HCP comparator globally
-and in every survey part under real LLM judging. The strongest advantages were
-observed in tasks where structured computational reasoning is central:
-constructing modifiable treatment options and ranking treatment targets from
-network and EMA evidence. Smaller but positive effects were observed for
-symptom labels, EMA item selection, and mobile coaching messages. Supplementary
-analyses showed that the three-run judge design was stable and that conclusions
-were robust to confidence weighting.
+and in every survey part under real LLM judging. On the standardized scale, the
+largest advantages were observed in tasks where structured computational
+reasoning is central: constructing modifiable treatment options and ranking
+treatment targets from network and EMA evidence. Smaller but positive
+standardized effects were observed for symptom labels, EMA item selection, and
+mobile coaching messages. Supplementary analyses showed that the three-run
+judge design was stable and that conclusions were robust to confidence
+weighting.
 
 The present estimates should be interpreted as software-validation results,
 not final thesis findings. Final inference should be rerun after the complete

@@ -44,13 +44,16 @@ from .shared_stats import (
     PALETTE,
     apply_rcparams,
     bootstrap_ci_mean,
+    bootstrap_cohend_one_sample_ci,
     cohen_d_one_sample,
+    effect_size_category,
     fit_crossed_mixedlm,
     forest_plot,
     holm_correct,
     p_to_stars,
     raincloud_plot,
     save_figure,
+    standardized_forest_plot,
     tost_panel,
     tost_test_one_sample,
 )
@@ -287,6 +290,12 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
         phoenix_mean, phoenix_ci_lo, phoenix_ci_hi = _mean_ci(phoenix_vals)
         hcp_mean, hcp_ci_lo, hcp_ci_hi = _mean_ci(hcp_vals)
 
+        effect_d = cohen_d_one_sample(diff_scores) if len(diff_scores) >= 2 else 0.0
+        d_ci_lo, d_ci_hi = (
+            bootstrap_cohend_one_sample_ci(diff_scores, seed=1000 + len(dim_results))
+            if len(diff_scores) >= 2 else (0.0, 0.0)
+        )
+
         dim_results[dim] = {
             "phoenix_vals": phoenix_vals,
             "hcp_vals": hcp_vals,
@@ -297,7 +306,9 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
             "phoenix_ci": (phoenix_ci_lo, phoenix_ci_hi),
             "hcp_mean": hcp_mean,
             "hcp_ci": (hcp_ci_lo, hcp_ci_hi),
-            "effect_d": cohen_d_one_sample(diff_scores) if len(diff_scores) >= 2 else 0.0,
+            "effect_d": effect_d,
+            "effect_d_ci": (d_ci_lo, d_ci_hi),
+            "effect_d_category": effect_size_category(effect_d),
         }
 
     corrected = holm_correct(raw_p_values)
@@ -322,7 +333,9 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
             f"  p-value (raw): {m['p_value']:.4f}",
             f"  p-value (Holm): {m['p_value_adj']:.4f} "
             f"({p_to_stars(m['p_value_adj'])})",
-            f"  Cohen's d (difference): {r['effect_d']:+.4f}",
+            f"  Cohen's dz (paired difference): {r['effect_d']:+.4f} "
+            f"[{r['effect_d_ci'][0]:+.4f}, {r['effect_d_ci'][1]:+.4f}] "
+            f"({r['effect_d_category']})",
             f"  TOST (+/- {config.tost_delta}): {equiv}",
             f"  Method: {m['method']}",
             "",
@@ -349,6 +362,10 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
             "p_value_raw": float(m["p_value"]),
             "p_value_holm": float(m.get("p_value_adj", 1.0)),
             "cohen_d_diff": float(r["effect_d"]),
+            "cohen_dz": float(r["effect_d"]),
+            "cohen_dz_ci_lower": float(r["effect_d_ci"][0]),
+            "cohen_dz_ci_upper": float(r["effect_d_ci"][1]),
+            "cohen_dz_category": str(r["effect_d_category"]),
             "p_tost": float(t.get("p_tost", 1.0)),
             "tost_equivalent": bool(t.get("equivalent", False)),
             "method": m["method"],
@@ -400,7 +417,7 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
         effects=[r["result"].get("coefficient", 0) for r in dim_results.values()],
         ci_lowers=[r["result"]["ci_lower"] for r in dim_results.values()],
         ci_uppers=[r["result"]["ci_upper"] for r in dim_results.values()],
-        xlabel="Quality gap (negative = HCP higher, positive = PHOENIX higher)",
+        xlabel="Raw quality-point gap (PHOENIX − HCP; possible range −20 to +20)",
         ref_line=0.0,
         p_values=[r["result"].get("p_value_adj", 1.0) for r in dim_results.values()],
         tost_results=[r["tost"] for r in dim_results.values()],
@@ -410,22 +427,48 @@ def run_comparison_study(config: ComparisonStudyConfig) -> Dict[str, Any]:
     lo = min(all_lo + [-config.tost_delta])
     hi = max(all_hi + [config.tost_delta])
     pad = max(0.2, 0.10 * (hi - lo))
+    diff_min = config.quality_min - config.quality_max
+    diff_max = config.quality_max - config.quality_min
     ax2.set_xlim(
-        max(config.quality_min - 5, lo - pad),
-        min(config.quality_max, hi + pad),
+        max(diff_min, lo - pad),
+        min(diff_max, hi + pad),
     )
     plt.tight_layout()
     save_figure(fig2, paths["visuals_dir"] / f"{config.study_slug}_effect_forest.png")
 
-    # 3. TOST equivalence panel
+    # 3. Standardized forest plot of paired Cohen's dz
     fig3, ax3 = plt.subplots(figsize=(8, max(3.5, 0.8 * n_dims + 1.2)))
-    tost_panel(
+    standardized_forest_plot(
         ax3,
+        dimensions=[_display_label(d) for d in dim_results.keys()],
+        effects=[r["effect_d"] for r in dim_results.values()],
+        ci_lowers=[r["effect_d_ci"][0] for r in dim_results.values()],
+        ci_uppers=[r["effect_d_ci"][1] for r in dim_results.values()],
+        xlabel="Standardized paired effect (Cohen's dz; PHOENIX − HCP)",
+        ref_line=0.0,
+        p_values=[r["result"].get("p_value_adj", 1.0) for r in dim_results.values()],
+    )
+    all_d_lo = [r["effect_d_ci"][0] for r in dim_results.values()]
+    all_d_hi = [r["effect_d_ci"][1] for r in dim_results.values()]
+    d_lo = min(all_d_lo + [-2.0])
+    d_hi = max(all_d_hi + [2.0])
+    d_pad = max(0.2, 0.08 * (d_hi - d_lo))
+    ax3.set_xlim(d_lo - d_pad, d_hi + d_pad + 0.8)
+    plt.tight_layout()
+    save_figure(
+        fig3,
+        paths["visuals_dir"] / f"{config.study_slug}_standardized_effect_forest.png",
+    )
+
+    # 4. TOST equivalence panel
+    fig4, ax4 = plt.subplots(figsize=(8, max(3.5, 0.8 * n_dims + 1.2)))
+    tost_panel(
+        ax4,
         dimensions=[_display_label(d) for d in dim_results.keys()],
         tost_results=[r["tost"] for r in dim_results.values()],
     )
     plt.tight_layout()
-    save_figure(fig3, paths["visuals_dir"] / f"{config.study_slug}_tost_equivalence.png")
+    save_figure(fig4, paths["visuals_dir"] / f"{config.study_slug}_tost_equivalence.png")
 
     return {
         "study_slug": config.study_slug,

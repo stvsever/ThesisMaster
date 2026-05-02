@@ -100,14 +100,17 @@ quality_score ~ entity_ec + (1 | case_id) + (1 | judge_run)
 ```
 
 `entity_ec` is effect coded as PHOENIX = +0.5 and HCP = -0.5. The coefficient
-is the PHOENIX - HCP quality gap on the bipolar -10..+10 scale.
+is the raw PHOENIX - HCP quality-point gap. Because each source is rated on
+the bipolar -10..+10 scale, a between-source gap can range from -20 to +20.
+The per-part reports also provide paired Cohen's dz with bootstrap confidence
+intervals.
 
 Each per-part report includes:
 
 - PHOENIX and HCP means;
 - PHOENIX - HCP mixed-model coefficient and 95% CI;
+- paired Cohen's dz and bootstrap 95% CI;
 - raw and Holm-corrected p-values within part;
-- Cohen's d on paired case-run differences;
 - TOST equivalence with `delta = +/-1.5` quality points.
 
 The synthesis fits the same entity-predictor model across all parts and runs

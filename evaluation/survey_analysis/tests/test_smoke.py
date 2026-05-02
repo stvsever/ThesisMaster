@@ -84,6 +84,10 @@ class SmokeTest(unittest.TestCase):
                 f"missing forest plot for {part}",
             )
             self.assertTrue(
+                (visuals_dir / f"{slug}_standardized_effect_forest.png").exists(),
+                f"missing standardized forest plot for {part}",
+            )
+            self.assertTrue(
                 (visuals_dir / f"{slug}_quality_raincloud.png").exists(),
                 f"missing raincloud plot for {part}",
             )
@@ -123,6 +127,7 @@ class SmokeTest(unittest.TestCase):
         self.assertTrue(report.exists(), f"missing {report}")
         for fname in (
             "synthesis_part_forest.png",
+            "synthesis_standardized_effect_forest.png",
             "synthesis_part_raincloud.png",
             "synthesis_tost.png",
             "synthesis_gap_heatmap.png",

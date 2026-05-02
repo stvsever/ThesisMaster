@@ -6,7 +6,9 @@ the expected structure.
 
 Current artefacts use bipolar -10 to +10 absolute quality ratings, where 0 is
 the acceptable clinical baseline. PHOENIX versus HCP effects are estimated
-after unblinding as PHOENIX - HCP quality gaps.
+after unblinding as PHOENIX - HCP raw quality-point gaps. Because each source
+is rated on -10 to +10, a between-source gap can range from -20 to +20. The
+standardized companion estimate is paired Cohen's dz.
 
 | Folder | Meaning |
 | --- | --- |
@@ -23,12 +25,14 @@ Each per-part folder contains:
 - `report/*_report.txt`: textual statistical report;
 - `report/*_summary.csv`: tidy dimension-level estimates;
 - `visuals/*_quality_raincloud.png`: quality distributions by entity;
-- `visuals/*_effect_forest.png`: PHOENIX - HCP quality gaps with 95% CI;
+- `visuals/*_effect_forest.png`: raw PHOENIX - HCP quality gaps with 95% CI;
+- `visuals/*_standardized_effect_forest.png`: paired Cohen's dz with 95% CI
+  and conventional magnitude bands;
 - `visuals/*_tost_equivalence.png`: equivalence-test panel.
 
-The synthesis folder contains cross-part forest, raincloud, heatmap, and TOST
-figures. The supplementary folder contains CSV diagnostics plus title-free
-publication figures:
+The synthesis folder contains cross-part raw and standardized forest plots,
+raincloud, heatmap, and TOST figures. The supplementary folder contains CSV
+diagnostics plus title-free publication figures:
 
 - `supplementary_overview_dashboard.png`: 2 by 2 overview of ICC reliability,
   scale use, confidence-weighted sensitivity, and case heterogeneity;

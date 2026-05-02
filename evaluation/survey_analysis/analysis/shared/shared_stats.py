@@ -7,7 +7,8 @@ Design philosophy
   so callers can combine panels freely.
 * Raincloud plot (Allen et al. 2019) is the primary within-subjects comparison figure;
   it exposes 01_raw data, density, and summary statistics in one compact panel.
-* Forest plot includes Cohen's d effect-size bands and significance annotations.
+* Raw forest plots show quality-point gaps and equivalence bands.
+* Standardized forest plots show paired Cohen's dz with conventional magnitude bands.
 * TOST equivalence testing is provided alongside conventional NHST because the primary
   research question is "does PHOENIX perform at least as well as separate_HCPs?" — equivalence
   testing is more appropriate than failing to reject a null of difference.
@@ -289,6 +290,47 @@ def cohen_d_one_sample(values: np.ndarray, mu: float = 0.0) -> float:
         return 0.0
     sd = float(np.std(vals, ddof=1))
     return float((np.mean(vals) - mu) / sd) if sd else 0.0
+
+
+def bootstrap_cohend_one_sample_ci(
+    values: np.ndarray,
+    mu: float = 0.0,
+    n_boot: int = 4000,
+    seed: int = 42,
+    confidence: float = 0.95,
+) -> Tuple[float, float]:
+    """Bootstrap confidence interval for paired Cohen's dz."""
+    vals = np.asarray(values, dtype=float)
+    vals = vals[np.isfinite(vals)]
+    if len(vals) < 2:
+        return 0.0, 0.0
+    if float(np.std(vals, ddof=1)) == 0.0:
+        d = cohen_d_one_sample(vals, mu=mu)
+        return d, d
+    rng = np.random.default_rng(seed)
+    ds = []
+    for _ in range(n_boot):
+        sample = rng.choice(vals, size=len(vals), replace=True)
+        ds.append(cohen_d_one_sample(sample, mu=mu))
+    lo = float(np.percentile(ds, (1 - confidence) / 2 * 100))
+    hi = float(np.percentile(ds, (1 + confidence) / 2 * 100))
+    return lo, hi
+
+
+def effect_size_category(d: float) -> str:
+    """Return a conventional magnitude label for absolute Cohen's d."""
+    a = abs(float(d))
+    if a < 0.2:
+        return "trivial"
+    if a < 0.5:
+        return "small"
+    if a < 0.8:
+        return "medium"
+    if a < 1.2:
+        return "large"
+    if a < 2.0:
+        return "very_large"
+    return "extreme"
 
 
 def bonferroni_correct(p_values: List[float]) -> List[float]:
@@ -639,7 +681,7 @@ def violin_with_scatter(
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Forest plot — enhanced with effect-size bands and star annotations
+# Forest plots
 # ─────────────────────────────────────────────────────────────────────────────
 
 def forest_plot(
@@ -655,33 +697,23 @@ def forest_plot(
     tost_results: Optional[Sequence[Optional[Dict[str, Any]]]] = None,
 ) -> plt.Axes:
     """
-    Horizontal forest plot with:
-    • Shaded Cohen's-d magnitude bands (trivial / small / medium / large)
-    • Gradient-width CI lines (thicker near point estimate)
-    • Significance stars and TOST equivalence indicators
-    • Colour coding by direction (PHOENIX > HCP vs <)
+    Horizontal forest plot for raw quality-point gaps.
+
+    The x-axis is in original score units, not standardized units. Therefore
+    Cohen-style magnitude bands are intentionally not drawn here.
     """
     apply_rcparams()
     n     = len(dimensions)
     y_pos = np.arange(n, dtype=float)
 
-    # Effect-size bands (scale-agnostic shading)
-    for lo, hi, alph, col in [
-        (-0.2, 0.2,  0.05, "#6b7280"),   # trivial
-        ( 0.2, 0.5,  0.07, "#3b82f6"),   # small positive
-        (-0.5, -0.2, 0.07, "#ef4444"),   # small negative
-        ( 0.5, 0.8,  0.10, "#10b981"),   # medium positive
-        (-0.8, -0.5, 0.10, "#f59e0b"),   # medium negative
-    ]:
-        ax.axvspan(lo, hi, alpha=alph, color=col, zorder=0)
-
-    band_patches = [
-        mpatches.Patch(color="#6b7280", alpha=0.20, label="Trivial (<0.2)"),
-        mpatches.Patch(color="#3b82f6", alpha=0.25, label="Small (0.2–0.5)"),
-        mpatches.Patch(color="#10b981", alpha=0.28, label="Medium (0.5–0.8)"),
+    deltas = [
+        float(t.get("delta", np.nan))
+        for t in (tost_results or [])
+        if t is not None and np.isfinite(float(t.get("delta", np.nan)))
     ]
-    ax.legend(handles=band_patches, loc="lower right", fontsize=7,
-              framealpha=0.7, borderpad=0.5)
+    if deltas:
+        delta = float(np.nanmedian(deltas))
+        ax.axvspan(-delta, delta, color=PALETTE["equiv"], alpha=0.08, zorder=0)
 
     for i, (dim, eff, lo, hi) in enumerate(
         zip(dimensions, effects, ci_lowers, ci_uppers)
@@ -721,6 +753,70 @@ def forest_plot(
     ax.set_yticklabels(dimensions, fontsize=10)
     ax.set_xlabel(xlabel)
     ax.invert_yaxis()
+    return ax
+
+
+def standardized_forest_plot(
+    ax: plt.Axes,
+    dimensions: Sequence[str],
+    effects: Sequence[float],
+    ci_lowers: Sequence[float],
+    ci_uppers: Sequence[float],
+    xlabel: str = "Standardized paired effect (Cohen's dz)",
+    ref_line: float = 0.0,
+    p_values: Optional[Sequence[float]] = None,
+) -> plt.Axes:
+    """Horizontal forest plot for paired Cohen's dz with magnitude bands."""
+    apply_rcparams()
+    y_pos = np.arange(len(dimensions), dtype=float)
+
+    bands = [
+        (-0.2, 0.2, "#6b7280", 0.07),
+        (0.2, 0.5, "#93c5fd", 0.16),
+        (-0.5, -0.2, "#fecaca", 0.16),
+        (0.5, 0.8, "#86efac", 0.20),
+        (-0.8, -0.5, "#fed7aa", 0.20),
+        (0.8, 1.2, "#22c55e", 0.13),
+        (-1.2, -0.8, "#fb923c", 0.13),
+        (1.2, 2.0, "#16a34a", 0.10),
+        (-2.0, -1.2, "#f97316", 0.10),
+    ]
+    for lo, hi, col, alpha in bands:
+        ax.axvspan(lo, hi, color=col, alpha=alpha, zorder=0)
+    for x in [-2.0, -1.2, -0.8, -0.5, -0.2, 0.2, 0.5, 0.8, 1.2, 2.0]:
+        ax.axvline(x, color="#e5e7eb", lw=0.7, zorder=0)
+
+    for i, (dim, eff, lo, hi) in enumerate(
+        zip(dimensions, effects, ci_lowers, ci_uppers)
+    ):
+        color = PALETTE["primary"] if eff >= 0 else PALETTE["secondary"]
+        ax.plot([lo, hi], [i, i], color=color, lw=3.0, alpha=0.22,
+                solid_capstyle="round")
+        ax.plot([lo, hi], [i, i], color=color, lw=1.5, alpha=0.78,
+                solid_capstyle="round")
+        ax.plot(eff, i, "o", color=color, ms=8.5, zorder=5,
+                markeredgecolor="white", markeredgewidth=1.2)
+        stars = p_to_stars(p_values[i]) if p_values else ""
+        annot = f"{eff:+.2f} [{lo:.2f}, {hi:.2f}]"
+        if stars:
+            annot += f"  {stars}"
+        x_text = max(ci_uppers) + max(0.18, 0.03 * (max(ci_uppers) - min(ci_lowers)))
+        ax.text(x_text, i, annot, va="center", ha="left", fontsize=8, color=color)
+
+    ax.axvline(ref_line, color="black", linestyle="--", lw=1.0, alpha=0.7)
+    ax.set_yticks(y_pos)
+    ax.set_yticklabels(dimensions, fontsize=10)
+    ax.set_xlabel(xlabel)
+    ax.invert_yaxis()
+
+    handles = [
+        mpatches.Patch(color="#6b7280", alpha=0.18, label="Trivial |d| < 0.2"),
+        mpatches.Patch(color="#93c5fd", alpha=0.35, label="Small 0.2-0.5"),
+        mpatches.Patch(color="#86efac", alpha=0.35, label="Medium 0.5-0.8"),
+        mpatches.Patch(color="#22c55e", alpha=0.25, label="Large >= 0.8"),
+    ]
+    ax.legend(handles=handles, loc="lower right", fontsize=7,
+              framealpha=0.75, borderpad=0.5)
     return ax
 
 

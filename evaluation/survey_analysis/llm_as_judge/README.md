@@ -135,6 +135,10 @@ Raw responses are saved under:
 evaluation/survey_analysis/data/04_judgments/raw/<part>/case_<case>_run_<run>_<label>.json
 ```
 
+Analysis reports distinguish raw PHOENIX-HCP quality-point gaps from
+standardized paired Cohen's dz. Raw gaps can range from -20 to +20 because each
+source is rated on a -10 to +10 scale.
+
 ## Running
 
 Pseudo mode:
