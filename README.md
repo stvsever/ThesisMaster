@@ -28,12 +28,12 @@
 - [🏗️ Technical Architecture](#-technical-architecture)
 - [🚀 Quick Setup](#-quick-setup-of-phoenix-engine)
 - [🗂️ Repository Structure](#-repository-structure)
+- [🐳 Docker](#-docker)
 - [💻 Run from CLI](#-run-phoenix-from-cli)
 - [🖥️ Run from Frontend](#-run-phoenix-from-frontend)
 - [📦 Outputs and Validation](#-outputs-and-validation-targets)
 - [📊 Survey Evaluation Framework](#-survey-evaluation-framework)
 - [✅ Quality Assurance and CI/CD](#-quality-assurance-and-cicd)
-- [🐳 Docker](#-docker)
 - [📜 License](#-license)
 
 ---
@@ -209,6 +209,28 @@ MASTERPROEF/
 
 ---
 
+## 🐳 Docker
+
+PHOENIX ships with a ready-to-use Docker configuration for reproducible execution:
+
+```bash
+git clone https://github.com/stvsever/ThesisMaster.git
+cd MASTERPROEF
+
+# Optional for LLM-enabled runs; deterministic mode can skip this.
+cat > .env <<'EOF'
+OPENROUTER_API_KEY=<your_openrouter_key>
+OPENAI_BASE_URL=https://openrouter.ai/api/v1
+EOF
+
+cd docker
+docker compose up --build
+```
+
+This starts the Flask frontend on [http://127.0.0.1:5050](http://127.0.0.1:5050). The Docker setup bundles the project dependencies, mounts integrated-pipeline outputs back to the host, and also supports CLI runs through the `phoenix-cli` service. See [docker/README.md](./docker/README.md) for the full workflow.
+
+---
+
 ## 💻 Run PHOENIX from CLI
 
 ### A. Standard integrated run
@@ -300,6 +322,10 @@ Key artifacts to inspect:
 
 ## 📊 Survey Evaluation Framework
 
+The evaluation framework assesses PHOENIX output quality across five clinical tasks using a double-blind LLM-as-judge design. For each of 10 clinical cases, PHOENIX and HCP outputs are independently rated on a bipolar −10 to +10 absolute quality scale across 38 dimensions by a `google/gemini-3.1-flash-lite-preview` judge in three separate runs — without knowledge of source identity — producing 2,340 quality ratings. Effects are quantified via linear mixed-effects models (`quality_score ~ entity + (1|case) + (1|judge_run)`), standardized as Cohen's dz, and tested for equivalence against a ±1.5-point margin.
+
+![PHOENIX Evaluation Workflow Overview](evaluation/survey_analysis/llm_as_judge/overview/evaluation_overview.png)
+
 The `evaluation/survey_analysis/` directory contains a complete 7-study statistical evaluation framework:
 
 | Study | Name | Participants | Method |
@@ -345,28 +371,6 @@ Schema/contract validation entrypoint:
 - `evaluation/quality_and_research/quality_assurance/validate_contract_schemas.py`
 
 **Contract validation**: 7 JSON schemas enforce structural guarantees on every stage output: `readiness_report`, `network_comparison_summary`, `momentary_impact`, `step03_target_selection`, `step04_updated_model`, `step05_hapa_intervention`, `pipeline_summary`.
-
----
-
-## 🐳 Docker
-
-PHOENIX ships with a ready-to-use Docker configuration for reproducible execution:
-
-```bash
-git clone https://github.com/stvsever/ThesisMaster.git
-cd MASTERPROEF
-
-# Optional for LLM-enabled runs; deterministic mode can skip this.
-cat > .env <<'EOF'
-OPENROUTER_API_KEY=<your_openrouter_key>
-OPENAI_BASE_URL=https://openrouter.ai/api/v1
-EOF
-
-cd docker
-docker compose up --build
-```
-
-This starts the Flask frontend on [http://127.0.0.1:5050](http://127.0.0.1:5050). The Docker setup bundles the project dependencies, mounts integrated-pipeline outputs back to the host, and also supports CLI runs through the `phoenix-cli` service. See [docker/README.md](/Users/stijnvanseveren/PythonProjects/MASTERPROEF/docker/README.md) for the full workflow.
 
 ---
 
