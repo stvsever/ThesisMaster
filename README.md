@@ -32,7 +32,7 @@
 - [💻 Run from CLI](#-run-phoenix-from-cli)
 - [🖥️ Run from Frontend](#-run-phoenix-from-frontend)
 - [📦 Outputs and Validation](#-outputs-and-validation-targets)
-- [📊 Survey Evaluation Framework](#-survey-evaluation-framework)
+- [📊 PHOENIX Engine Evaluation Framework](#-phoenix-engine-evaluation-framework)
 - [✅ Quality Assurance and CI/CD](#-quality-assurance-and-cicd)
 - [📜 License](#-license)
 
@@ -320,7 +320,7 @@ Key artifacts to inspect:
 
 ---
 
-## 📊 Survey Evaluation Framework
+## 📊 PHOENIX Engine Evaluation Framework
 
 The evaluation framework assesses PHOENIX output quality across five clinical tasks using a double-blind LLM-as-judge design. For each of 10 clinical cases, PHOENIX and HCP outputs are independently rated on a bipolar −10 to +10 absolute quality scale across 38 dimensions by a `google/gemini-3.1-flash-lite-preview` judge in three separate runs — without knowledge of source identity — producing 2,340 quality ratings. Effects are quantified via linear mixed-effects models (`quality_score ~ entity + (1|case) + (1|judge_run)`), standardized as Cohen's dz, and tested for equivalence against a ±1.5-point margin.
 
