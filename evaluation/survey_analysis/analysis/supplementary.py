@@ -9,9 +9,9 @@ Four analyses are implemented:
       measures — per dimension per part as a reliability index.
 
   Supp B – Score calibration diagnostics (ceiling / floor effects)
-      For each part × entity cell: ceiling rate (% score = 5), floor rate
-      (% score = 1), and mean ± SD. Answers: does PHOENIX or HCP show more
-      ceiling compression?
+      For each part × entity cell: ceiling rate (% score = +10), floor rate
+      (% score = −10), and mean ± SD on the bipolar −10..+10 scale.
+      Answers: does PHOENIX or HCP show ceiling/floor compression?
 
   Supp C – Confidence-weighted sensitivity analysis
       Rerun PHOENIX–HCP effect estimates weighted by judge confidence score.
@@ -91,12 +91,6 @@ def _load(csv_path: Path) -> pd.DataFrame:
     df["judge_run"] = pd.to_numeric(df["judge_run"], errors="coerce")
     df = df.loc[df["entity"].isin(["phoenix", "hcp"])].dropna(subset=["quality_score"])
     return df
-
-
-def _ensure_supp_visuals(results_root: Path) -> Path:
-    p = results_root / SUPP_VISUALS_SUBDIR
-    p.mkdir(parents=True, exist_ok=True)
-    return p
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -288,35 +282,24 @@ def compute_calibration(df: pd.DataFrame) -> pd.DataFrame:
 
 def compute_score_distribution(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Score distribution heatmap data: bin scores into 5 meaningful ranges
-    covering the bipolar −10..+10 scale.
-
-    Bins align with the 9-band quality taxonomy used by the judge:
-      −10 to −7  Catastrophic / severely deficient
-      −6 to −3   Below acceptable
-      −2 to +2   Near acceptable (±2)
-      +3 to +6   Good to excellent
-      +7 to +10  Outstanding
+    Score distribution data: for each part × entity, report % of ratings
+    at each individual integer score value on the bipolar −10..+10 scale.
+    Returns a long-format DataFrame with columns:
+        part, entity, score_value (int), pct (float).
     """
-    bins = [
-        ((-10, -7), "−10 to −7"),
-        ((-6, -3),  "−6 to −3"),
-        ((-2,  2),  "−2 to +2"),
-        (( 3,  6),  "+3 to +6"),
-        (( 7, 10),  "+7 to +10"),
-    ]
+    SCORE_RANGE = list(range(-10, 11))   # −10, −9, …, +10 (21 values)
     rows: List[Dict[str, Any]] = []
     for (part, entity), sub in df.groupby(["part", "entity"], observed=True):
         scores = sub["quality_score"].dropna().to_numpy(dtype=float)
         n = len(scores)
         if n == 0:
             continue
-        for (lo, hi), label in bins:
+        for sv in SCORE_RANGE:
             rows.append({
                 "part": part,
                 "entity": entity,
-                "score_value": label,
-                "pct": float(np.sum((scores >= lo) & (scores <= hi)) / n * 100),
+                "score_value": int(sv),
+                "pct": float(np.sum(scores == sv) / n * 100),
             })
     return pd.DataFrame(rows)
 
@@ -326,83 +309,124 @@ def _plot_calibration(
     dist_df: pd.DataFrame,
     visuals_dir: Path,
 ) -> Path:
+    """
+    Two-panel calibration figure.
+
+    Top panel — grouped bar chart: ceiling rate (% = +10) and floor rate
+    (% = −10) side-by-side per part, separately for PHOENIX and HCP.
+
+    Bottom panel — probability mass function (PMF) line plots: one subplot
+    per survey part; PHOENIX vs HCP overlaid as filled-area + line graphs
+    across all 21 individual integer score values (−10 to +10).
+    """
     apply_rcparams()
+    SCORE_RANGE = list(range(-10, 11))   # 21 integer values
     parts = [p for p in ("part1", "part2", "part3", "part4", "part5")
              if p in set(calib_df["part"])]
+    n_parts = len(parts)
 
-    fig, (ax_top, ax_bot) = plt.subplots(2, 1, figsize=(10, 9))
+    # ── Layout: top row (bar chart) + bottom row (PMF grid, 1×n_parts) ──────
+    fig = plt.figure(figsize=(max(12, 2.8 * n_parts), 10))
+    gs = fig.add_gridspec(
+        2, n_parts,
+        height_ratios=[1, 2],
+        hspace=0.45,
+        wspace=0.35,
+    )
+    ax_top = fig.add_subplot(gs[0, :])   # spans full top row
+    pmf_axes = [fig.add_subplot(gs[1, j]) for j in range(n_parts)]
 
-    # Top panel: grouped bar chart of ceiling% by part × entity
+    # ── Top panel: ceiling + floor rates ───────────��────────────────────────
     x = np.arange(len(parts))
-    width = 0.36
-    for idx, (entity, color, label) in enumerate([
+    width = 0.22
+    offsets = {"ceiling_pct": -0.33, "floor_pct": 0.33}
+    hatches = {"ceiling_pct": "", "floor_pct": "///"}
+    rate_labels = {"ceiling_pct": "Ceiling (+10)", "floor_pct": "Floor (−10)"}
+
+    for idx, (entity, color, ent_label) in enumerate([
         ("phoenix", COLOR_PHOENIX, "PHOENIX"),
         ("hcp",     COLOR_HCP,     "HCP"),
     ]):
         sub = calib_df.loc[calib_df["entity"] == entity]
-        ceiling_vals = [
-            float(sub.loc[sub["part"] == p, "ceiling_pct"].mean()) if p in sub["part"].values else 0.0
-            for p in parts
-        ]
-        ax_top.bar(
-            x + (idx - 0.5) * width,
-            ceiling_vals,
-            width,
-            label=label,
-            color=color,
-            alpha=0.82,
-        )
+        offset_sign = -1 if entity == "phoenix" else +1
+        for rate_col, base_offset in offsets.items():
+            vals = [
+                float(sub.loc[sub["part"] == p, rate_col].mean())
+                if p in sub["part"].values else 0.0
+                for p in parts
+            ]
+            ax_top.bar(
+                x + offset_sign * width / 2 + base_offset * width,
+                vals,
+                width,
+                label=f"{ent_label} {rate_labels[rate_col]}" if idx == 0 else f"HCP {rate_labels[rate_col]}",
+                color=color,
+                alpha=0.75 if rate_col == "ceiling_pct" else 0.45,
+                hatch=hatches[rate_col],
+                edgecolor="white",
+            )
 
-    ax_top.set_ylabel("Ceiling rate (% scores = +10)")
+    ax_top.set_ylabel("Rate (%)")
     ax_top.set_xticks(x)
-    ax_top.set_xticklabels([_display_part(p) for p in parts])
-    ax_top.set_ylim(0, 105)
-    ax_top.legend(frameon=False)
+    ax_top.set_xticklabels([_display_part(p) for p in parts], fontsize=9)
+    ax_top.set_ylim(0, 110)
     ax_top.axhline(20, color=PALETTE["ref_line"], linestyle="--",
                    linewidth=0.8, alpha=0.5)
-    ax_top.text(len(parts) - 0.5, 21, "20%", fontsize=8,
+    ax_top.text(len(parts) - 0.45, 21.5, "20%", fontsize=7.5,
                 color=PALETTE["ref_line"], va="bottom")
+    ax_top.legend(
+        loc="upper right", fontsize=7.5, framealpha=0.7,
+        ncol=2,
+    )
 
-    # Bottom panel: score distribution heatmap (part × score value), normalized to %
-    # Show PHOENIX and HCP side-by-side as sub-rows
+    # ── Bottom panel: PMF per part ────────────────────────────���──────────────
     if dist_df.empty:
-        ax_bot.text(0.5, 0.5, "No distribution data", ha="center", va="center",
-                    transform=ax_bot.transAxes)
+        for ax in pmf_axes:
+            ax.text(0.5, 0.5, "No data", ha="center", va="center",
+                    transform=ax.transAxes, fontsize=9, color="gray")
     else:
-        score_bins = ["−10 to −7", "−6 to −3", "−2 to +2", "+3 to +6", "+7 to +10"]
-        n_rows = len(parts) * 2  # PHOENIX row, HCP row per part
-        matrix = np.zeros((n_rows, len(score_bins)))
-        row_labels = []
-        for i, part in enumerate(parts):
-            for j_ent, entity in enumerate(["phoenix", "hcp"]):
-                row_idx = i * 2 + j_ent
-                row_labels.append(f"{_display_part(part)} {'(PH)' if entity == 'phoenix' else '(HCP)'}")
-                for k, sv in enumerate(score_bins):
-                    val = dist_df.loc[
-                        (dist_df["part"] == part) &
-                        (dist_df["entity"] == entity) &
-                        (dist_df["score_value"] == sv),
-                        "pct"
-                    ]
-                    if not val.empty:
-                        matrix[row_idx, k] = float(val.iloc[0])
+        sv_arr = np.array(SCORE_RANGE, dtype=float)
+        for ax, part in zip(pmf_axes, parts):
+            for entity, color, alpha_fill in [
+                ("phoenix", COLOR_PHOENIX, 0.20),
+                ("hcp",     COLOR_HCP,     0.15),
+            ]:
+                sub = dist_df.loc[
+                    (dist_df["part"] == part) & (dist_df["entity"] == entity)
+                ].sort_values("score_value")
+                if sub.empty:
+                    continue
+                sv_vals = sub["score_value"].to_numpy(dtype=float)
+                pct_vals = sub["pct"].to_numpy(dtype=float)
+                # Align to full -10..+10 grid (fill missing with 0)
+                pct_grid = np.zeros(len(SCORE_RANGE), dtype=float)
+                for sv, pv in zip(sv_vals, pct_vals):
+                    idx_sv = int(sv) + 10
+                    if 0 <= idx_sv < len(SCORE_RANGE):
+                        pct_grid[idx_sv] = pv
 
-        im = ax_bot.imshow(matrix, aspect="auto", cmap="Blues", vmin=0, vmax=100)
-        ax_bot.set_xticks(np.arange(len(score_bins)))
-        ax_bot.set_xticklabels(score_bins, fontsize=8)
-        ax_bot.set_yticks(np.arange(n_rows))
-        ax_bot.set_yticklabels(row_labels, fontsize=8)
-        ax_bot.set_xlabel("Score range (bipolar −10 to +10 scale)")
-        ax_bot.set_ylabel("Part × Source")
-        for i in range(n_rows):
-            for j in range(len(score_bins)):
-                v = matrix[i, j]
-                tc = "white" if v > 60 else "black"
-                ax_bot.text(j, i, f"{v:.0f}%", ha="center", va="center",
-                            fontsize=7, color=tc)
-        plt.colorbar(im, ax=ax_bot, label="% of scores", shrink=0.7)
+                ent_label = "PHOENIX" if entity == "phoenix" else "HCP"
+                ax.plot(sv_arr, pct_grid, color=color, linewidth=1.6,
+                        label=ent_label, alpha=0.9, zorder=3)
+                ax.fill_between(sv_arr, pct_grid, alpha=alpha_fill, color=color, zorder=2)
 
-    plt.tight_layout()
+            ax.axvline(0, color=PALETTE["ref_line"], linestyle="--",
+                       linewidth=0.8, alpha=0.5)
+            ax.set_xlim(-11, 11)
+            ax.set_xticks([-10, -5, 0, 5, 10])
+            ax.set_xticklabels(["-10", "-5", "0", "+5", "+10"], fontsize=7.5)
+            ax.set_xlabel("Score", fontsize=8)
+            ax.set_ylabel("% of ratings", fontsize=8)
+            ax.tick_params(axis="y", labelsize=7.5)
+            ax.text(
+                0.04, 0.97, _display_part(part),
+                transform=ax.transAxes,
+                ha="left", va="top",
+                fontsize=8.5, fontweight="bold",
+            )
+            if part == parts[0]:
+                ax.legend(loc="upper left", fontsize=7.5, framealpha=0.7)
+
     out = visuals_dir / "suppB_calibration_diagnostics.png"
     save_figure(fig, out)
     return out

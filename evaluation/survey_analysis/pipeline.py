@@ -251,12 +251,24 @@ def _stage_judge(
         )
 
     # Real LLM judge.
-    contexts = load_case_contexts(args.case_contexts)
+    # In pseudo mode, use the generated English pseudo case contexts so they
+    # align with the English pseudo outputs.  The default args.case_contexts
+    # points to the real Dutch data, which causes all Part-4 candidate items
+    # to be judged as invalid (language mismatch).
+    if args.mode == "pseudo":
+        ctx_path = PSEUDODATA_DIR / "case_contexts.json"
+        generate_case_contexts(ctx_path)
+        logger.info(
+            "Pseudo mode: generated English pseudo case contexts -> %s", ctx_path
+        )
+    else:
+        ctx_path = args.case_contexts
+    contexts = load_case_contexts(ctx_path)
     if not contexts:
         logger.warning(
             "No case contexts found at %s; real judge prompts will contain "
             "explicit not-provided placeholders.",
-            args.case_contexts,
+            ctx_path,
         )
     config = JudgeRunConfig(
         cases=args.cases,
