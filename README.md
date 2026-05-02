@@ -326,29 +326,26 @@ The evaluation framework assesses PHOENIX output quality across five clinical ta
 
 ![PHOENIX Evaluation Workflow Overview](evaluation/survey_analysis/llm_as_judge/overview/evaluation_overview.png)
 
-The `evaluation/survey_analysis/` directory contains a complete 7-study statistical evaluation framework:
+The `evaluation/survey_analysis/` directory implements a five-part double-blind evaluation of PHOENIX against 10 licensed HCPs (one per case). Both sources receive identical Qualtrics-derived inputs and complete the same five clinical tasks; outputs are rated anonymously by an LLM judge across 38 dimensions on a bipolar −10 to +10 scale.
 
-| Study | Name | Participants | Method |
-|---|---|---|---|
-| 00 | Momentary Impact Quantification | 30 non-experts | Repeated-measures mixed model on Spearman footrule |
-| 01 | Operationalization | 10 HCPs | Dimension-wise crossed mixed models + Bonferroni |
-| 02 | Initial Observational Model | 10 HCPs | Dimension-wise crossed mixed models + Bonferroni |
-| 03 | Treatment Target Identification | 30 non-experts | Repeated-measures mixed model on Spearman footrule |
-| 04 | Updated Observational Model | 10 HCPs | Dimension-wise crossed mixed models + Bonferroni |
-| 05 | Tailored Intervention | 5 HCP generators + 30 lay raters | Dimension-wise crossed mixed models + Bonferroni |
-| 06 | Holistic Pipeline Quality | Aggregate | Study-adjusted crossed mixed model with participant, task, and answer-block clustering |
+| Part | Task | Dimensions |
+|---|---|---:|
+| 1 | Symptom labelling | 7 |
+| 2 | Modifiable treatment options | 8 |
+| 3 | Treatment target ranking (network + EMA) | 7 |
+| 4 | EMA item selection (6 items, 2 per goal) | 8 |
+| 5 | Personalised mobile coaching message | 9 |
 
-In short, the survey framework now treats the evaluation as a repeated-measures problem rather than a collection of independent ratings. The holistic study pools studies `01`, `02`, `04`, and `05`, adjusts for study and dimension, and includes participant-level, task-level, and answer-block dependence so the PHOENIX-versus-healthcare-expert comparison is statistically aligned with how the data are actually generated.
+Per-part effects are estimated with `quality_score ~ entity_ec + (1|case_id) + (1|judge_run)` (PHOENIX = +0.5, HCP = −0.5), standardized as Cohen's dz, and tested for equivalence against a ±1.5-point margin (TOST). A cross-part holistic synthesis and supplementary ICC, calibration, and sensitivity diagnostics are run automatically.
 
-For feasibility, PHOENIX assumes participant-pool reuse where methodologically acceptable rather than fully new recruitment for every study. In practice, the same healthcare-expert pool is intended to be reused across the expert-facing studies (`01`, `02`, `04`, and the expert-generation part of `05`), and the same non-expert pool can be reused across the layperson-facing studies (`00`, `03`, and the lay-rating part of `05`) when burden and scheduling allow.
-
-Run all studies:
+Run the full pipeline:
 
 ```bash
-bash evaluation/survey_analysis/run_all_studies.sh
+export OPENROUTER_API_KEY=...
+python evaluation/survey_analysis/pipeline.py --mode real --judge openrouter --n-runs 3
 ```
 
-Results are saved under `evaluation/survey_analysis/results/study_XX_*/` with publication-ready PNGs and statistical reports.
+Results are saved under `evaluation/survey_analysis/results/` with publication-ready figures and statistical reports.
 
 ---
 
