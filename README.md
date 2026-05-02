@@ -28,7 +28,6 @@
 - [🏗️ Technical Architecture](#-technical-architecture)
 - [🚀 Quick Setup](#-quick-setup-of-phoenix-engine)
 - [🗂️ Repository Structure](#-repository-structure)
-- [🐳 Docker](#-docker)
 - [💻 Run from CLI](#-run-phoenix-from-cli)
 - [🖥️ Run from Frontend](#-run-phoenix-from-frontend)
 - [📦 Outputs and Validation](#-outputs-and-validation-targets)
@@ -71,7 +70,7 @@ PHOENIX is a modular, multi-agent system that starts from free-text complaints, 
 
 ## 🐦‍🔥 PHOENIX Ontology with LLM-based Mappings
 
-The following ontology was developed to support the PHOENIX engine's reasoning and decision-making processes.
+Five sub-ontologies constrain all reasoning and output structure across the PHOENIX pipeline: **CRITERION** (mental health problem space — DSM-5TR, ICD-10, RDoC-701, non-clinical wellbeing), **PREDICTOR** (intervention solution space — BIO / PSYCHO / SOCIAL branches), **PERSON** (stable individual-level attributes across 18 domains), **CONTEXT** (dynamic situational states — internal and external environment), and **HAPA** (behaviour change scaffold — motivation phase, volition phase, barriers taxonomy, coping strategy library). See [`src/backend/SystemComponents/PHOENIX_ontology/`](src/backend/SystemComponents/PHOENIX_ontology/README.md) for the full structured breakdown.
 
 ![PHOENIX Aggregated Ontology](src/backend/SystemComponents/PHOENIX_ontology/aggretated/phoenix_ontology_root_v1.png)
 
@@ -176,6 +175,26 @@ If you want to quickly validate the integrated pipeline on a single profile with
 make pipeline-smoke
 ```
 
+### Alternative: Docker
+
+PHOENIX ships with a ready-to-use Docker configuration for reproducible execution without a local Python environment:
+
+```bash
+git clone https://github.com/stvsever/ThesisMaster.git
+cd MASTERPROEF
+
+# Optional for LLM-enabled runs; deterministic mode can skip this.
+cat > .env <<'EOF'
+OPENROUTER_API_KEY=<your_openrouter_key>
+OPENAI_BASE_URL=https://openrouter.ai/api/v1
+EOF
+
+cd docker
+docker compose up --build
+```
+
+This starts the Flask frontend on [http://127.0.0.1:5050](http://127.0.0.1:5050). The setup bundles all dependencies, mounts pipeline outputs back to the host, and supports CLI runs through the `phoenix-cli` service. See [docker/README.md](./docker/README.md) for the full workflow.
+
 ---
 
 ## 🗂️ Repository Structure
@@ -198,7 +217,7 @@ MASTERPROEF/
 ├── evaluation/                     # Sequential scripts + integrated pipeline + QA/research
 │   ├── sequential/                    # Stage-wise run_step.py scripts (00..08)
 │   ├── integrated_pipeline/           # run_pipeline.py and run_engine_pipeline.py
-│   ├── survey_analysis/               # 6-study evaluation framework with analysis scripts
+│   ├── survey_analysis/               # Double-blind LLM-as-judge evaluation (10 HCP cases, 5 parts, 38 dimensions)
 │   └── quality_and_research/          # pytest suites, schema contracts, research reporting
 ├── docker/                         # Dockerfile + docker-compose for reproducible deployment
 ├── .github/                        # CI/CD workflows
@@ -206,28 +225,6 @@ MASTERPROEF/
 ├── requirements.txt                # Dependency baseline
 └── README.md                       # Root documentation
 ```
-
----
-
-## 🐳 Docker
-
-PHOENIX ships with a ready-to-use Docker configuration for reproducible execution:
-
-```bash
-git clone https://github.com/stvsever/ThesisMaster.git
-cd MASTERPROEF
-
-# Optional for LLM-enabled runs; deterministic mode can skip this.
-cat > .env <<'EOF'
-OPENROUTER_API_KEY=<your_openrouter_key>
-OPENAI_BASE_URL=https://openrouter.ai/api/v1
-EOF
-
-cd docker
-docker compose up --build
-```
-
-This starts the Flask frontend on [http://127.0.0.1:5050](http://127.0.0.1:5050). The Docker setup bundles the project dependencies, mounts integrated-pipeline outputs back to the host, and also supports CLI runs through the `phoenix-cli` service. See [docker/README.md](./docker/README.md) for the full workflow.
 
 ---
 
