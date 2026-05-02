@@ -328,14 +328,6 @@ The evaluation framework assesses PHOENIX output quality across five clinical ta
 
 The `evaluation/survey_analysis/` directory implements a five-part double-blind evaluation of PHOENIX against 10 licensed HCPs (one per case). Both sources receive identical Qualtrics-derived inputs and complete the same five clinical tasks; outputs are rated anonymously by an LLM judge across 38 dimensions on a bipolar −10 to +10 scale.
 
-| Part | Task | Dimensions |
-|---|---|---:|
-| 1 | Symptom labelling | 7 |
-| 2 | Modifiable treatment options | 8 |
-| 3 | Treatment target ranking (network + EMA) | 7 |
-| 4 | EMA item selection (6 items, 2 per goal) | 8 |
-| 5 | Personalised mobile coaching message | 9 |
-
 Per-part effects are estimated with `quality_score ~ entity_ec + (1|case_id) + (1|judge_run)` (PHOENIX = +0.5, HCP = −0.5), standardized as Cohen's dz, and tested for equivalence against a ±1.5-point margin (TOST). A cross-part holistic synthesis and supplementary ICC, calibration, and sensitivity diagnostics are run automatically.
 
 Run the full pipeline:
