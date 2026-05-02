@@ -70,7 +70,7 @@ PHOENIX is a modular, multi-agent system that starts from free-text complaints, 
 
 ## 🐦‍🔥 PHOENIX Ontology with LLM-based Mappings
 
-Five sub-ontologies constrain all reasoning and output structure across the PHOENIX pipeline: **CRITERION** (mental health problem space — DSM-5TR, ICD-10, RDoC-701, non-clinical wellbeing), **PREDICTOR** (intervention solution space — BIO / PSYCHO / SOCIAL branches), **PERSON** (stable individual-level attributes across 18 domains), **CONTEXT** (dynamic situational states — internal and external environment), and **HAPA** (behaviour change scaffold — motivation phase, volition phase, barriers taxonomy, coping strategy library). See [`src/backend/SystemComponents/PHOENIX_ontology/`](src/backend/SystemComponents/PHOENIX_ontology/README.md) for the full structured breakdown.
+Five sub-ontologies constrain all reasoning and output structure across the PHOENIX pipeline: (1) **CRITERION** (i.e., mental health problem space: DSM-5TR, ICD-10, RDoC-701, non-clinical wellbeing), (2) **PREDICTOR** (i.e., intervention solution space: BIO / PSYCHO / SOCIAL branches), (3) **PERSON** (i.e., stable individual-level attributes across 18 domains), (4) **CONTEXT** (i.e., dynamic situational states: internal and external environment), and (5) **HAPA** (i.e., behaviour change scaffold: motivation phase, volition phase, barriers taxonomy, coping strategy library). See [`src/backend/SystemComponents/PHOENIX_ontology/`](src/backend/SystemComponents/PHOENIX_ontology/README.md) for the full structured breakdown.
 
 ![PHOENIX Aggregated Ontology](src/backend/SystemComponents/PHOENIX_ontology/aggretated/phoenix_ontology_root_v1.png)
 
