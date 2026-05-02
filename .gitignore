@@ -102,6 +102,9 @@ src/backend/utils/other/exploratory/summarize_ontology/summary/
 !src/backend/overview/PHOENIX_ontology.png
 !evaluation/survey_analysis/llm_as_judge/overview/evaluation_overview.png
 !src/backend/SystemComponents/PHOENIX_ontology/aggretated/phoenix_ontology.png
+!src/backend/SystemComponents/PHOENIX_ontology/aggretated/phoenix_ontology_root_v1.png
+!src/backend/SystemComponents/PHOENIX_ontology/aggretated/phoenix_ontology_root_v2.png
+!src/backend/SystemComponents/PHOENIX_ontology/aggretated/ontology_with_mapping.png
 !src/backend/SystemComponents/PHOENIX_ontology/separate/01_raw/CRITERION/final/overview/criterion_ontology.png
 !src/backend/SystemComponents/PHOENIX_ontology/separate/01_raw/PREDICTOR/final/overview/predictor_ontology.png
 !src/backend/SystemComponents/PHOENIX_ontology/separate/01_raw/PERSON/overview/person_ontology.png

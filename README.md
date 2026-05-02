@@ -73,7 +73,7 @@ PHOENIX is a modular, multi-agent system that starts from free-text complaints, 
 
 The following ontology was developed to support the PHOENIX engine's reasoning and decision-making processes.
 
-![PHOENIX Aggregated Ontology](src/backend/overview/PHOENIX_ontology.png)
+![PHOENIX Aggregated Ontology](src/backend/SystemComponents/PHOENIX_ontology/aggretated/phoenix_ontology_root_v1.png)
 
 ---
 
