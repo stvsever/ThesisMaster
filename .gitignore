@@ -101,6 +101,12 @@ src/backend/utils/other/exploratory/summarize_ontology/summary/
 !src/backend/overview/gitnexus_overview.png
 !src/backend/overview/PHOENIX_ontology.png
 !evaluation/survey_analysis/llm_as_judge/overview/evaluation_overview.png
+!src/backend/SystemComponents/PHOENIX_ontology/aggretated/phoenix_ontology.png
+!src/backend/SystemComponents/PHOENIX_ontology/separate/01_raw/CRITERION/final/overview/criterion_ontology.png
+!src/backend/SystemComponents/PHOENIX_ontology/separate/01_raw/PREDICTOR/final/overview/predictor_ontology.png
+!src/backend/SystemComponents/PHOENIX_ontology/separate/01_raw/PERSON/overview/person_ontology.png
+!src/backend/SystemComponents/PHOENIX_ontology/separate/01_raw/CONTEXT/overview/context_ontology.png
+!src/backend/SystemComponents/PHOENIX_ontology/separate/01_raw/HAPA/overview/hapa_ontology.png
 !evaluation/qualtrics/survey/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/*.png
 !evaluation/qualtrics/survey/01_HCPs_PRE/total/qualtrics_overview.png
 # Legacy paths kept at old location so live Qualtrics survey URLs still resolve
