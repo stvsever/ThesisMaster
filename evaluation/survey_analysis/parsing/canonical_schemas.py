@@ -130,6 +130,8 @@ def coerce_part1(payload: Any) -> Part1Output:
     """
     Coerce a ``payload`` (raw cells list, dict, or already-canonical dict) to
     :class:`Part1Output`.
+
+    Qualtrics empty-slot placeholder ``"/"`` entries are filtered out.
     """
     if isinstance(payload, Part1Output):
         return payload
@@ -137,15 +139,18 @@ def coerce_part1(payload: Any) -> Part1Output:
         items: List[Part1Item] = []
         for it in payload["items"]:
             if isinstance(it, Part1Item):
-                items.append(it)
+                if it.label and it.label != "/":
+                    items.append(it)
             elif isinstance(it, dict):
-                items.append(Part1Item(label=str(it.get("label", "")).strip()))
+                label = str(it.get("label", "")).strip()
+                if label and label != "/":
+                    items.append(Part1Item(label=label))
         return Part1Output(items=items)
     if isinstance(payload, list):
         items = []
         for cell in payload:
             label = _split_label(cell)
-            if label:
+            if label and label != "/":
                 items.append(Part1Item(label=label))
         return Part1Output(items=items)
     return Part1Output()
@@ -168,13 +173,19 @@ def _split_predictor_cell(text: str) -> Part2Item:
 
 
 def coerce_part2(payload: Any) -> Part2Output:
+    """
+    Coerce Part 2 treatment-option payload.
+
+    Qualtrics empty-slot placeholder ``"/"`` entries are filtered out.
+    """
     if isinstance(payload, Part2Output):
         return payload
     if isinstance(payload, dict) and "items" in payload:
         items = []
         for it in payload["items"]:
             if isinstance(it, Part2Item):
-                items.append(it)
+                if it.label and it.label != "/":
+                    items.append(it)
             elif isinstance(it, dict):
                 label = (
                     it.get("label")
@@ -184,16 +195,24 @@ def coerce_part2(payload: Any) -> Part2Output:
                     or ""
                 )
                 label = re.split(r"\s*\|\s*", str(label), maxsplit=1)[0].strip()
-                items.append(Part2Item(label=label))
+                if label and label != "/":
+                    items.append(Part2Item(label=label))
         return Part2Output(items=items)
     if isinstance(payload, dict) and "treatment_options" in payload:
         return Part2Output(items=[
             _split_predictor_cell(c)
             for c in payload["treatment_options"]
-            if str(c or "").strip()
+            if str(c or "").strip() and str(c or "").strip() != "/"
         ])
     if isinstance(payload, list):
-        items = [_split_predictor_cell(c) for c in payload if str(c or "").strip()]
+        items = []
+        for c in payload:
+            s = str(c or "").strip()
+            if not s or s == "/":
+                continue
+            item = _split_predictor_cell(c)
+            if item.label and item.label != "/":
+                items.append(item)
         return Part2Output(items=items)
     return Part2Output()
 
@@ -250,6 +269,16 @@ def coerce_part3(payload: Any) -> Part3Output:
 _NOTE_SENTINEL = re.compile(r"//\s*note\s*:", flags=re.IGNORECASE)
 
 
+def _strip_qualtrics_rank_prefix(text: str) -> str:
+    """Strip leading Qualtrics rank prefix ``"N. "`` from EMA item labels.
+
+    Qualtrics exports ranked-choice items with a numeric prefix like
+    ``"4. Werkgerelateerde gedachten ..."``.  This strips the prefix so
+    the label matches the candidate list exactly.
+    """
+    return re.sub(r"^\d+\.\s+", "", text)
+
+
 def coerce_part4(payload: Any) -> Part4Output:
     """
     Coerce Part 4 multi-select.
@@ -257,15 +286,26 @@ def coerce_part4(payload: Any) -> Part4Output:
     Accepts a single string with options separated by commas or newlines and
     an optional trailing ``//note: ...`` annotation, OR a dict already in
     canonical form, OR a list of strings.
+
+    Qualtrics rank-order prefixes (``"N. "``) are stripped automatically so
+    that selected labels match the candidate list verbatim.
     """
     if isinstance(payload, Part4Output):
         return payload
     if isinstance(payload, dict) and "selected_options" in payload:
-        opts = [str(s).strip() for s in payload["selected_options"] if str(s).strip()]
-        return Part4Output(selected_options=opts)
+        opts = [
+            _strip_qualtrics_rank_prefix(str(s).strip())
+            for s in payload["selected_options"]
+            if str(s).strip()
+        ]
+        return Part4Output(selected_options=[o for o in opts if o])
     if isinstance(payload, list):
-        opts = [str(s).strip() for s in payload if str(s).strip()]
-        return Part4Output(selected_options=opts)
+        opts = [
+            _strip_qualtrics_rank_prefix(str(s).strip())
+            for s in payload
+            if str(s).strip()
+        ]
+        return Part4Output(selected_options=[o for o in opts if o])
     if isinstance(payload, str):
         s = payload.strip()
         if _NOTE_SENTINEL.search(s):
@@ -275,8 +315,8 @@ def coerce_part4(payload: Any) -> Part4Output:
                 s = head
         # Split on newlines or commas (commas are common in Qualtrics).
         raw_opts = re.split(r"[,;\n]+", s)
-        opts = [o.strip() for o in raw_opts if o.strip()]
-        return Part4Output(selected_options=opts)
+        opts = [_strip_qualtrics_rank_prefix(o.strip()) for o in raw_opts if o.strip()]
+        return Part4Output(selected_options=[o for o in opts if o])
     return Part4Output()
 
 

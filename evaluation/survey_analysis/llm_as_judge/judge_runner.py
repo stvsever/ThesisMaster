@@ -159,6 +159,22 @@ def render_user_prompt(
     sees both outputs at once.
     """
     template = load_prompt(part)
+
+    # Normalize candidate_ema_items to a plain list of label strings.
+    # Real Qualtrics contexts store items as dicts: {"item_id": ..., "label": ...}.
+    # Pseudo contexts use plain strings.  The judge prompt only needs the labels.
+    raw_candidate_items = case_context.get("candidate_ema_items", [])
+    if raw_candidate_items and isinstance(raw_candidate_items[0], dict):
+        candidate_ema_items: list = [
+            str(item.get("label", "")).strip()
+            for item in raw_candidate_items
+            if str(item.get("label", "")).strip()
+        ]
+    else:
+        candidate_ema_items = [
+            str(item).strip() for item in raw_candidate_items if str(item).strip()
+        ]
+
     placeholders: Dict[str, str] = {
         # Case context placeholders
         "vignette": case_context.get("vignette", "(no vignette provided)"),
@@ -170,9 +186,7 @@ def render_user_prompt(
             case_context.get("standardized_treatment_options", [])
         ),
         "treatment_targets_json": _format_json(case_context.get("treatment_targets", [])),
-        "candidate_ema_items_json": _format_json(
-            case_context.get("candidate_ema_items", [])
-        ),
+        "candidate_ema_items_json": _format_json(candidate_ema_items),
         "primary_problem": str(case_context.get("primary_problem", "(not provided)")),
         "treatment_goal": str(case_context.get("treatment_goal", "(not provided)")),
         "barrier": str(case_context.get("barrier", "(not provided)")),
