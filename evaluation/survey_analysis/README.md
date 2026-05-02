@@ -66,11 +66,11 @@ source, the judge receives the same task context plus `The Output`.
 Quality scale:
 
 ```text
-1 = Poor
-2 = Below average
-3 = Acceptable
-4 = Good
-5 = Excellent
+-10 = Clinically harmful or unusable
+-5  = Substantially below acceptable quality
+0   = Acceptable minimum clinical quality
++5  = Strong clinical quality
++10 = Exemplary clinical quality for the task
 ```
 
 The default is three independent judge runs per `(case, part, source)` cell.
@@ -80,7 +80,8 @@ cost. Stability across runs is quantified in the supplementary analysis.
 ## Evaluation Dimensions
 
 Dimensions are part-specific. Each dimension has a definition, rationale, and
-five-score anchors in `llm_as_judge/dimensions.py`.
+anchored examples spanning the bipolar -10..+10 scale in
+`llm_as_judge/dimensions.py`.
 
 | Part | Dimension keys |
 | --- | --- |
@@ -99,7 +100,7 @@ quality_score ~ entity_ec + (1 | case_id) + (1 | judge_run)
 ```
 
 `entity_ec` is effect coded as PHOENIX = +0.5 and HCP = -0.5. The coefficient
-is the PHOENIX - HCP quality gap on the 1 to 5 scale.
+is the PHOENIX - HCP quality gap on the bipolar -10..+10 scale.
 
 Each per-part report includes:
 
@@ -107,7 +108,7 @@ Each per-part report includes:
 - PHOENIX - HCP mixed-model coefficient and 95% CI;
 - raw and Holm-corrected p-values within part;
 - Cohen's d on paired case-run differences;
-- TOST equivalence with `delta = +/-0.3` quality points.
+- TOST equivalence with `delta = +/-1.5` quality points.
 
 The synthesis fits the same entity-predictor model across all parts and runs
 part-level follow-ups. Equivalence is evaluated on paired PHOENIX - HCP
@@ -123,10 +124,11 @@ new primary hypotheses:
 - SD and range of paired PHOENIX - HCP gaps;
 - sign consistency of the PHOENIX - HCP gap;
 - confidence-weighted sensitivity of effect estimates;
-- ceiling and floor diagnostics for the 1 to 5 quality scale.
+- ceiling and floor diagnostics for the bipolar -10..+10 quality scale.
 
-Outputs are saved under `results/supplementary/` as CSV files and combined
-APA-style figures with figure titles and `Note.` captions.
+Outputs are saved under `results/supplementary/` as CSV files and title-free
+publication figures; figure titles and `Note.` captions are written in the
+Markdown results report.
 
 ## Real-Mode Inputs
 

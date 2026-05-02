@@ -11,7 +11,7 @@ clinical task in the PHOENIX survey.  You do **not** know whether The Output
 was produced by a human clinician or by an AI system.
 
 Rate The Output **independently** on each evaluation dimension using the
-1–5 absolute quality scale from the system prompt.  Apply all mandatory
+bipolar −10 to +10 absolute quality scale from the system prompt.  Apply all mandatory
 evaluation rules, especially the **anti-halo rule**: each dimension must be
 rated solely on its own criterion evidence.
 

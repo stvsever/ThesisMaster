@@ -641,6 +641,168 @@ def _plot_case_heterogeneity(
 # Combined multi-panel figures
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _plot_overview_dashboard(
+    df: pd.DataFrame,
+    icc_df: pd.DataFrame,
+    calib_df: pd.DataFrame,
+    sens_df: pd.DataFrame,
+    het_df: pd.DataFrame,
+    visuals_dir: Path,
+) -> Path:
+    """
+    Create one compact 2x2 supplementary dashboard.
+
+    The dashboard avoids zero-heavy diagnostics by showing: part-level
+    reliability, scale-use bands, confidence-weighting robustness, and
+    case-level heterogeneity. Titles are intentionally omitted; panel
+    interpretation belongs in the markdown caption.
+    """
+    apply_rcparams()
+    parts = [p for p in ("part1", "part2", "part3", "part4", "part5")
+             if p in set(df["part"].astype(str))]
+    part_labels = [_display_part(p) for p in parts]
+
+    fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+    ax_a, ax_b, ax_c, ax_d = axes.ravel()
+
+    # A. Judge-run reliability by part with dimension-level points.
+    x = np.arange(len(parts), dtype=float)
+    mean_iccs = [
+        float(icc_df.loc[icc_df["part"] == p, "icc"].mean(skipna=True))
+        for p in parts
+    ]
+    ax_a.bar(x, mean_iccs, color=PALETTE["primary"], alpha=0.30, width=0.62)
+    rng = np.random.default_rng(42)
+    for i, part in enumerate(parts):
+        vals = icc_df.loc[icc_df["part"] == part, "icc"].dropna().to_numpy(dtype=float)
+        vals = vals[np.isfinite(vals)]
+        if len(vals):
+            ax_a.scatter(
+                np.full(len(vals), i) + rng.uniform(-0.18, 0.18, size=len(vals)),
+                vals,
+                s=26,
+                color=PALETTE["primary"],
+                edgecolor="white",
+                linewidth=0.5,
+                alpha=0.78,
+                zorder=3,
+            )
+    ax_a.axhline(0.75, color=PALETTE["ref_line"], linestyle="--", linewidth=1.0, alpha=0.65)
+    ax_a.axhline(0.50, color=PALETTE["danger"], linestyle=":", linewidth=1.0, alpha=0.55)
+    ax_a.set_xticks(x)
+    ax_a.set_xticklabels(part_labels, rotation=25, ha="right")
+    ax_a.set_ylabel("ICC(2,1)")
+    ax_a.set_ylim(-0.05, 1.05)
+    ax_a.text(-0.08, 1.03, "A", transform=ax_a.transAxes, fontsize=12, fontweight="bold")
+
+    # B. Scale-use bands: negative, acceptable-zone, and high-quality ratings.
+    categories = [
+        ("Negative (≤ -5)", lambda s: s <= -5, COLOR_HCP),
+        ("Acceptable zone (-4..+4)", lambda s: (s > -5) & (s < 5), PALETTE["neutral"]),
+        ("High quality (≥ +5)", lambda s: s >= 5, COLOR_PHOENIX),
+    ]
+    width = 0.36
+    for entity, offset, hatch in [("phoenix", -width / 2, ""), ("hcp", width / 2, "///")]:
+        bottoms = np.zeros(len(parts), dtype=float)
+        for label, mask_fn, color in categories:
+            vals = []
+            for part in parts:
+                scores = df.loc[
+                    (df["part"] == part) & (df["entity"] == entity),
+                    "quality_score",
+                ].to_numpy(dtype=float)
+                vals.append(float(mask_fn(scores).mean() * 100) if len(scores) else 0.0)
+            ax_b.bar(
+                x + offset,
+                vals,
+                width,
+                bottom=bottoms,
+                color=color,
+                alpha=0.72,
+                hatch=hatch,
+                edgecolor="white",
+                linewidth=0.4,
+                label=label if entity == "phoenix" else None,
+            )
+            bottoms += np.asarray(vals)
+    ax_b.set_xticks(x)
+    ax_b.set_xticklabels(part_labels, rotation=25, ha="right")
+    ax_b.set_ylabel("Ratings (%)")
+    ax_b.set_ylim(0, 100)
+    ax_b.legend(loc="upper left", fontsize=8, framealpha=0.75)
+    ax_b.text(0.98, 0.96, "solid = PHOENIX\nhatched = HCP",
+              transform=ax_b.transAxes, ha="right", va="top", fontsize=8,
+              color=PALETTE["ref_line"])
+    ax_b.text(-0.08, 1.03, "B", transform=ax_b.transAxes, fontsize=12, fontweight="bold")
+
+    # C. Confidence-weighting sensitivity: slope graph.
+    if not sens_df.empty:
+        y_min = min(sens_df["unweighted_gap"].min(), sens_df["weighted_gap"].min())
+        y_max = max(sens_df["unweighted_gap"].max(), sens_df["weighted_gap"].max())
+        label_rows = []
+        for _, row in sens_df.iterrows():
+            y0 = float(row["unweighted_gap"])
+            y1 = float(row["weighted_gap"])
+            color = COLOR_PHOENIX if y1 >= 0 else COLOR_HCP
+            ax_c.plot([0, 1], [y0, y1], color=color, alpha=0.72, linewidth=2.0)
+            ax_c.scatter([0, 1], [y0, y1], color=color, edgecolor="white", linewidth=0.8, s=46, zorder=3)
+            label_rows.append((y1, str(row["part_label"]), color))
+        pad = max(0.4, 0.12 * (y_max - y_min))
+        ax_c.set_ylim(y_min - pad, y_max + pad)
+        label_rows.sort(key=lambda row: row[0])
+        label_min_sep = max(0.25, 0.06 * (y_max - y_min))
+        adjusted = []
+        for y1, label, color in label_rows:
+            y_adj = y1
+            if adjusted and y_adj - adjusted[-1][0] < label_min_sep:
+                y_adj = adjusted[-1][0] + label_min_sep
+            adjusted.append((y_adj, y1, label, color))
+        ylim_lo, ylim_hi = ax_c.get_ylim()
+        for y_adj, y1, label, color in adjusted:
+            y_adj = min(max(y_adj, ylim_lo + 0.15), ylim_hi - 0.15)
+            ax_c.plot([1.01, 1.04], [y1, y_adj], color=color, alpha=0.45, linewidth=0.8)
+            ax_c.text(1.06, y_adj, label, va="center", fontsize=8, color=color)
+    ax_c.axhline(0, color="black", linestyle="--", linewidth=0.9, alpha=0.55)
+    ax_c.set_xlim(-0.15, 1.55)
+    ax_c.set_xticks([0, 1])
+    ax_c.set_xticklabels(["Unweighted", "Confidence-weighted"])
+    ax_c.set_ylabel("PHOENIX - HCP quality gap")
+    ax_c.text(-0.08, 1.03, "C", transform=ax_c.transAxes, fontsize=12, fontweight="bold")
+
+    # D. Case-by-part heterogeneity heatmap.
+    cases = sorted(het_df["case_id"].unique().tolist()) if not het_df.empty else []
+    matrix = np.full((len(cases), len(parts)), np.nan)
+    for i, case in enumerate(cases):
+        for j, part in enumerate(parts):
+            val = het_df.loc[
+                (het_df["case_id"] == case) & (het_df["part"] == part), "gap"
+            ]
+            if not val.empty:
+                matrix[i, j] = float(val.iloc[0])
+    finite = matrix[np.isfinite(matrix)]
+    vabs = max(0.5, float(np.max(np.abs(finite)))) if finite.size else 1.0
+    im = ax_d.imshow(matrix, aspect="auto", cmap="RdBu_r", vmin=-vabs, vmax=vabs)
+    ax_d.set_xticks(np.arange(len(parts)))
+    ax_d.set_xticklabels(part_labels, rotation=25, ha="right")
+    ax_d.set_yticks(np.arange(len(cases)))
+    ax_d.set_yticklabels(cases)
+    for i in range(matrix.shape[0]):
+        for j in range(matrix.shape[1]):
+            val = matrix[i, j]
+            if np.isfinite(val):
+                ax_d.text(j, i, f"{val:+.1f}", ha="center", va="center",
+                          fontsize=7.5, color="white" if abs(val) > 0.55 * vabs else "black")
+    cbar = plt.colorbar(im, ax=ax_d, shrink=0.84, pad=0.02)
+    cbar.set_label("Gap")
+    ax_d.set_xlabel("Part")
+    ax_d.set_ylabel("Case")
+    ax_d.text(-0.08, 1.03, "D", transform=ax_d.transAxes, fontsize=12, fontweight="bold")
+
+    plt.tight_layout()
+    out = visuals_dir / "supplementary_overview_dashboard.png"
+    save_figure(fig, out)
+    return out
+
 def _write_report(
     paths: Dict[str, Path],
     icc_df: pd.DataFrame,
@@ -769,6 +931,9 @@ def run_supplementary_analyses(csv_path: Path) -> Dict[str, Any]:
     fig_calib = _plot_calibration(calib_df, dist_df, visuals_dir)
     fig_sens = _plot_sensitivity(sens_df, visuals_dir)
     fig_het = _plot_case_heterogeneity(het_df, visuals_dir)
+    fig_dashboard = _plot_overview_dashboard(
+        df, icc_df, calib_df, sens_df, het_df, visuals_dir
+    )
 
     # Text report
     report_path = _write_report(
@@ -780,7 +945,7 @@ def run_supplementary_analyses(csv_path: Path) -> Dict[str, Any]:
         "calibration": calib_df,
         "sensitivity": sens_df,
         "heterogeneity": het_df,
-        "figures": [fig_icc, fig_calib, fig_sens, fig_het],
+        "figures": [fig_dashboard, fig_icc, fig_calib, fig_sens, fig_het],
         "report_path": report_path,
         "global_icc_mean": float(icc_df["icc"].mean(skipna=True)) if not icc_df.empty else float("nan"),
         "max_sensitivity_change": float(sens_df["absolute_change"].max()) if not sens_df.empty else 0.0,

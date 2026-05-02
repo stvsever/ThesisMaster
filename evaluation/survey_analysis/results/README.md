@@ -4,8 +4,9 @@ This folder stores generated PHOENIX LLM-as-judge analysis artefacts. Generated
 figures and CSV files are reproducible and ignored by git; this README defines
 the expected structure.
 
-Current artefacts use absolute 1 to 5 quality ratings. PHOENIX versus HCP
-effects are estimated after unblinding as PHOENIX - HCP quality gaps.
+Current artefacts use bipolar -10 to +10 absolute quality ratings, where 0 is
+the acceptable clinical baseline. PHOENIX versus HCP effects are estimated
+after unblinding as PHOENIX - HCP quality gaps.
 
 | Folder | Meaning |
 | --- | --- |
@@ -26,9 +27,12 @@ Each per-part folder contains:
 - `visuals/*_tost_equivalence.png`: equivalence-test panel.
 
 The synthesis folder contains cross-part forest, raincloud, heatmap, and TOST
-figures. The supplementary folder contains CSV diagnostics plus combined
-APA-style figures:
+figures. The supplementary folder contains CSV diagnostics plus title-free
+publication figures:
 
-- `supplementary_stability_dashboard.png`: 2 by 2 stability dashboard;
-- `supplementary_sensitivity_dashboard.png`: confidence weighting and ceiling diagnostics;
-- `supplementary_dimension_stability_heatmap.png`: dimension-level gap stability.
+- `supplementary_overview_dashboard.png`: 2 by 2 overview of ICC reliability,
+  scale use, confidence-weighted sensitivity, and case heterogeneity;
+- `suppA_icc_stability.png`: judge-run ICC stability by part and dimension;
+- `suppB_calibration_diagnostics.png`: floor, ceiling, and score-distribution diagnostics;
+- `suppC_sensitivity_forest.png`: confidence-weighted sensitivity forest;
+- `suppD_case_heterogeneity.png`: case by part PHOENIX - HCP gap heatmap.

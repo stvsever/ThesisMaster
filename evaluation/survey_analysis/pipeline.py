@@ -8,7 +8,7 @@ Stages
    persona via Gemini Flash).
 2. Load PHOENIX outputs from data/03_system/system_outputs.json.
    In pseudo mode: generate rule-based pseudo PHOENIX outputs.
-3. Run the per-output absolute-quality LLM judge (1–5 Likert scale) for
+3. Run the per-output absolute-quality LLM judge (bipolar −10..+10 scale) for
    BOTH sources independently (double-blind).  Uses Gemini Flash via
    OpenRouter, or the deterministic pseudo judge in test mode.
 4. Run per-part entity-predictor LMM analyses:

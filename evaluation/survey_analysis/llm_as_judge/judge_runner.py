@@ -6,8 +6,8 @@ Design
 ------
 For each (case, part, run) cell the runner makes **two independent LLM
 calls** — one for each output — evaluating them on separate, non-comparative
-requests.  The judge rates ONE anonymous output at a time on a 1..5 absolute
-quality scale per dimension.  The entity (phoenix / hcp) is identified only
+requests.  The judge rates ONE anonymous output at a time on a bipolar -10..+10
+absolute quality scale per dimension.  The entity (phoenix / hcp) is identified only
 after unblinding for the statistical analysis.
 
 Concurrency

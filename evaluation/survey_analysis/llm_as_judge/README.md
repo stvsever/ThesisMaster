@@ -40,15 +40,15 @@ Compared output shapes:
 The judge returns one absolute quality rating per dimension:
 
 ```text
-1 = Poor
-2 = Below average
-3 = Acceptable
-4 = Good
-5 = Excellent
+-10 = Clinically harmful or unusable
+-5  = Substantially below acceptable quality
+0   = Acceptable minimum clinical quality
++5  = Strong clinical quality
++10 = Exemplary clinical quality for the task
 ```
 
 The judge is instructed to avoid halo bias, length bias, fluency bias, and
-source guessing. A score of 3 means the output is adequate, not excellent.
+source guessing. A score of 0 means the output is adequate, not excellent.
 
 ## Required JSON
 
@@ -57,7 +57,7 @@ source guessing. A score of 3 means the output is adequate, not excellent.
   "ratings": [
     {
       "dimension": "complaint_coverage",
-      "score": 4,
+      "score": 7,
       "confidence": 4,
       "justification": "Includes sleep disruption, withdrawal, and low mood as separate symptom labels."
     }
@@ -92,7 +92,7 @@ wording, model-facing schema, or scale definitions change.
 ## Dimensions
 
 All dimension definitions live in `dimensions.py`. The prompt renderer injects
-the goal, rationale, and five-score anchor examples for every dimension.
+the goal, rationale, and bipolar -10..+10 anchor examples for every dimension.
 
 - Part 1: label-format adherence, complaint coverage, symptom boundaries,
   granularity, non-redundancy, interoperability, EMA measurability.
@@ -123,7 +123,7 @@ Main columns:
 | --- | --- |
 | `case_id`, `part`, `dimension`, `judge_run` | Evaluation cell |
 | `entity` | `phoenix` or `hcp`, restored after blinding |
-| `quality_score` | 1 to 5 absolute quality rating |
+| `quality_score` | Bipolar -10 to +10 absolute quality rating |
 | `source_label` | Blind label A or B during judging |
 | `confidence` | Judge confidence, 1 to 5 |
 | `justification` | Evidence-based sentence |

@@ -125,7 +125,7 @@ class SmokeTest(unittest.TestCase):
             "synthesis_part_forest.png",
             "synthesis_part_raincloud.png",
             "synthesis_tost.png",
-            "synthesis_heatmap.png",
+            "synthesis_gap_heatmap.png",
         ):
             self.assertTrue(
                 (synth_dir / "visuals" / fname).exists(),
@@ -137,9 +137,11 @@ class SmokeTest(unittest.TestCase):
         report = supp_dir / "report" / "supplementary_report.txt"
         self.assertTrue(report.exists(), f"missing {report}")
         for fname in (
-            "supplementary_stability_dashboard.png",
-            "supplementary_sensitivity_dashboard.png",
-            "supplementary_dimension_stability_heatmap.png",
+            "supplementary_overview_dashboard.png",
+            "suppA_icc_stability.png",
+            "suppB_calibration_diagnostics.png",
+            "suppC_sensitivity_forest.png",
+            "suppD_case_heterogeneity.png",
         ):
             self.assertTrue(
                 (supp_dir / "visuals" / fname).exists(),

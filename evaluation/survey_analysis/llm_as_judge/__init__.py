@@ -1,7 +1,7 @@
 """
 LLM-as-judge package for the PHOENIX evaluation (absolute-quality design).
 
-The judge rates each output independently on a 1–5 absolute quality scale per
+The judge rates each output independently on a bipolar -10..+10 absolute quality scale per
 dimension.  Comparisons (PHOENIX vs HCP) are made in the downstream mixed-
 model analysis, not inside the judge call.
 
