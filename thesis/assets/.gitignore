@@ -1,6 +1,0 @@
-# Allow all figure and table assets to be tracked
-!*.png
-!*.jpg
-!*.jpeg
-!*.svg
-!*.pdf

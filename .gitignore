@@ -126,5 +126,7 @@ src/SystemComponents/Agentic_Framework/01_OperationalizationMentalHealthProblem/
 src/SystemComponents/Agentic_Framework/02_ConstructionInitialObservationModel/utils/helpers/embeddings/CRITERIONS/CRITERION_leaf_embeddings.npy
 src/backend/SystemComponents/Agentic_Framework/01_OperationalizationMentalHealthProblem/tmp/
 ThesisMaster/src/SystemComponents/PHOENIX_ontology/separate/01_raw/DATA_COLLECTION/DATA_COLLECTION_ontology.json
+# Thesis report and assets (large binaries, kept out of git)
+thesis/
 
 .claude
