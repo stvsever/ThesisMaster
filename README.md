@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>Enhancing Translational Abilities of Longitudinal Mental Health Applications: An Adaptive Approach to Idiographic Modelling by Leveraging Ontology-based Agentic AI</h1>
+  <h1>Toward Next-Generation Mental Health Applications: An Adaptive Approach to Idiographic Modelling by Leveraging Ontology-based Agentic AI</h1>
 
   <h2>🐦‍🔥 PHOENIX Engine</h2>
 
