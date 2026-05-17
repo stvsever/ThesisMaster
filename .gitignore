@@ -115,6 +115,8 @@ src/backend/utils/other/exploratory/summarize_ontology/summary/
 # Legacy paths kept at old location so live Qualtrics survey URLs still resolve
 !evaluation/qualtrics/01_HCPs_PRE/total/qualtrics_overview.png
 !evaluation/qualtrics/01_HCPs_PRE/separate_HCPs/survey_AUTOMATED/generated/network_figures/*.png
+# PHOENIX case-demonstration poster (referenced from the video_material README)
+!src/backend/overview/video_material/renders/posters/lana_stepped_phoenix_comparison.png
 *.owl
 utils/official/cluster_criterions/results/02_embeddings_db/embeddings.npy
 utils/official/cluster_criterions/results/02_embeddings_db/cache.sqlite
