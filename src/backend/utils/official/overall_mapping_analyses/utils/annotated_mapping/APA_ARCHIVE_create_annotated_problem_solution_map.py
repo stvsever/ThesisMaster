@@ -1305,7 +1305,7 @@ def mhgap_extract_symptoms_from_segment(seg_lines: List[str], verbose: bool = Fa
             cleaned.append(s)
 
     if verbose:
-        log(f"mhGAP symptom extraction: raw={len(out)} dedup={len(cleaned)}", verbose=True)
+        log(f"mhGAP symptom extraction: 01_raw={len(out)} dedup={len(cleaned)}", verbose=True)
 
     return cleaned
 
@@ -1953,9 +1953,9 @@ def main() -> None:
     log("Step 5 done: treatment enrichment completed.", verbose=verbose)
 
     # ---------------------------
-    # 6) Finalize problems + treatments; write lookups + raw edges
+    # 6) Finalize problems + treatments; write lookups + 01_raw edges
     # ---------------------------
-    log("Step 6: Writing lookup tables and raw edge tables...", verbose=verbose)
+    log("Step 6: Writing lookup tables and 01_raw edge tables...", verbose=verbose)
 
     problems = list(problems_by_norm.values())
     problems.sort(key=lambda p: (p.kind, p.label.lower()))
@@ -2002,7 +2002,7 @@ def main() -> None:
     pd.DataFrame(dx_sym_edges).to_csv(f_dx_sym, sep="\t", index=False)
     pd.DataFrame(inferred_sym_trt).to_csv(f_sym_trt, sep="\t", index=False)
 
-    log_kv("Wrote raw/lookup tables", {
+    log_kv("Wrote 01_raw/lookup tables", {
         "problems_lookup.tsv": f_problems,
         "treatments_lookup.tsv": f_treatments,
         "raw_pairs_dx_treatment.tsv": f_dx_trt,

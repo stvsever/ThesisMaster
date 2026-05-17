@@ -104,7 +104,7 @@ RESULTS_DIR = Path(
 MODEL_NAME = "gpt-5-nano"
 
 DEFAULT_MAX_WORKERS = 50
-DEFAULT_CLUSTER_SAMPLE_MAX = 250   # how many raw items to include in the prompt (sampling if larger)
+DEFAULT_CLUSTER_SAMPLE_MAX = 250   # how many 01_raw items to include in the prompt (sampling if larger)
 DEFAULT_RETRIES = 2
 
 MAX_ITEM_TEXT_CHARS = 10_000
@@ -574,7 +574,7 @@ def validate_schema_once(client: OpenAI, schema_bundle: OutputSchemaBundle, log_
 def compute_cluster_hash(cluster_items: List[ClusterItem]) -> str:
     """
     Stable signature for the cluster membership/order.
-    Uses item_hashes derived from raw strings (stable across runs).
+    Uses item_hashes derived from 01_raw strings (stable across runs).
     """
     joined = "\n".join(ci.item_hash for ci in cluster_items)
     return sha1_text(joined)

@@ -48,7 +48,7 @@ Output structure (clear)
         mapping_raw_rows.csv
         mapping_agg_rows.csv
         mapping_predictor_cluster_to_hyde_matches.csv
-        hyde_leaf_scores.csv              (raw + scaled)
+        hyde_leaf_scores.csv              (01_raw + scaled)
         matrix_preview_top50.csv
 
 Defaults
@@ -554,7 +554,7 @@ def build_fused_matrix_for_profile(
     w_mapping: float,
     w_hyde: float,
     missing_as_zero: bool,
-    mapping_score_mode: str,               # "raw" or "unit"
+    mapping_score_mode: str,               # "01_raw" or "unit"
     mapping_score_max: float,              # scaling constant
     hyde_scale_to_mapping_max: bool,       # scale HyDe(0..1) to mapping scale
     hyde_requires_mapping: bool,           # keep matrix sparse (default True)
@@ -587,8 +587,8 @@ def build_fused_matrix_for_profile(
         sub.to_csv(debug_paths["debug_mapping_raw"], index=False)
 
     # ---- mapping score scaling
-    if mapping_score_mode not in ("raw", "unit"):
-        raise ValueError("--mapping_score_mode must be 'raw' or 'unit'")
+    if mapping_score_mode not in ("01_raw", "unit"):
+        raise ValueError("--mapping_score_mode must be '01_raw' or 'unit'")
 
     # create a working column
     sub["_mapping_score"] = pd.to_numeric(sub["relevance_score"], errors="coerce")
@@ -642,7 +642,7 @@ def build_fused_matrix_for_profile(
 
     # scale HyDe scores to match mapping scale if requested
     hyde_scale = 1.0
-    if mapping_score_mode == "raw" and hyde_scale_to_mapping_max:
+    if mapping_score_mode == "01_raw" and hyde_scale_to_mapping_max:
         hyde_scale = float(mapping_score_max)
     elif mapping_score_mode == "unit":
         hyde_scale = 1.0
@@ -840,7 +840,7 @@ def build_fused_matrix_for_profile(
         "keep_unmatched_cluster_rows": bool(keep_unmatched_cluster_rows),
         "n_hyde_leaves_scored_raw": int(len(hyde_raw)),
         "notes": (
-            "Mapping scores are NOT clipped. If mapping_score_mode=raw, HyDe scores are scaled by mapping_score_max "
+            "Mapping scores are NOT clipped. If mapping_score_mode=01_raw, HyDe scores are scaled by mapping_score_max "
             "when hyde_scale_to_mapping_max=True."
         ),
     }
@@ -892,22 +892,22 @@ def main() -> int:
     # Score scaling / sparsity options
     ap.add_argument(
         "--mapping_score_mode",
-        choices=["raw", "unit"],
-        default="raw",
-        help="raw: keep mapping scores as-is (e.g., 0..1000). unit: divide mapping by mapping_score_max (0..1).",
+        choices=["01_raw", "unit"],
+        default="01_raw",
+        help="01_raw: keep mapping scores as-is (e.g., 0..1000). unit: divide mapping by mapping_score_max (0..1).",
     )
     ap.add_argument("--mapping_score_max", type=float, default=DEFAULT_MAPPING_SCORE_MAX, help="Used for scaling when mapping_score_mode=unit, and for scaling HyDe to mapping when enabled.")
     ap.add_argument(
         "--hyde_scale_to_mapping_max",
         action="store_true",
         default=True,
-        help="If mapping_score_mode=raw, scale HyDe scores (0..1) by mapping_score_max (default: on).",
+        help="If mapping_score_mode=01_raw, scale HyDe scores (0..1) by mapping_score_max (default: on).",
     )
     ap.add_argument(
         "--no_hyde_scale_to_mapping_max",
         action="store_true",
         default=False,
-        help="Disable scaling HyDe by mapping_score_max in raw mode.",
+        help="Disable scaling HyDe by mapping_score_max in 01_raw mode.",
     )
     ap.add_argument(
         "--hyde_requires_mapping",

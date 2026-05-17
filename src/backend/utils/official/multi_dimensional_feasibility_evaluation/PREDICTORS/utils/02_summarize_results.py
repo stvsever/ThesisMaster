@@ -20,7 +20,7 @@ Primary goal
 Visual goal (publish-ready barplots; no treemaps)
 - Compare BIO vs PSYCHO vs SOCIAL (3 subplot rows) across:
   1) primary dimension suitability
-  2) per-dimension feature-level Likert score plots (bar=mean, points=raw, whiskers=IQR)
+  2) per-dimension feature-level Likert score plots (bar=mean, points=01_raw, whiskers=IQR)
 - Bars are the secondary feature scores (Likert 1..9; higher = worse).
 - Colors are stable across plots for identical (dimension,module,method,feature) keys.
 
@@ -524,7 +524,7 @@ def load_predictors_from_csv_or_wide(tables_dir: Path) -> List[PredictorCache]:
 
 
 # -----------------------------
-# Computation: contributions + raw scores
+# Computation: contributions + 01_raw scores
 # -----------------------------
 
 @dataclass
@@ -579,7 +579,7 @@ def compute_contributions_and_raw_scores_for_predictor(
     Returns:
       breakdown (from module.compute_overall_suitability)
       contributions: leaf-feature weighted contributions to overall risk
-      raw_scores: leaf-feature raw likert + risk_unit (no weighting)
+      raw_scores: leaf-feature 01_raw likert + risk_unit (no weighting)
     """
     dim_w = normalize_weights({k: float(v) for k, v in mod.default_dimension_weights().items()})
     assert abs(sum(dim_w.values()) - 1.0) < 1e-6, f"Dimension weights must sum to 1: sum={sum(dim_w.values())}"
@@ -927,7 +927,7 @@ def print_predictor_hierarchy(
 
 
 # -----------------------------
-# Plotting utilities (publish-ready barplots with raw points)
+# Plotting utilities (publish-ready barplots with 01_raw points)
 # -----------------------------
 
 # add this import near your other matplotlib imports
@@ -1010,7 +1010,7 @@ def plot_primary_dimensions_with_points_by_layer(
     """
     3-row subplot comparison (BIO/PSYCHO/SOCIAL).
       - Bars = mean across predictors for that layer
-      - Points = raw predictor values (jittered)
+      - Points = 01_raw predictor values (jittered)
     """
     ensure_dir(out_path.parent)
 
@@ -1053,9 +1053,9 @@ def plot_primary_dimensions_with_points_by_layer(
         ax.set_yticklabels(dims)
         ax.invert_yaxis()
         ax.grid(True, axis="x", linestyle="--", linewidth=0.6, alpha=0.5)
-        ax.set_title(f"{layer} (bar = mean; points = raw predictors)")
+        ax.set_title(f"{layer} (bar = mean; points = 01_raw predictors)")
 
-        # overlay raw points
+        # overlay 01_raw points
         for i, vals in enumerate(raw_vals_per_dim):
             if not vals:
                 continue
@@ -1083,7 +1083,7 @@ def plot_feature_scores_by_layer(
       - X axis: Likert 1..9 (higher = worse)
       - Bars: mean Likert score per feature
       - Whiskers: IQR (q25..q75)
-      - Points: raw predictor scores for that layer
+      - Points: 01_raw predictor scores for that layer
     Colors are stable per (dimension,module,method,feature).
     """
     ensure_dir(out_path.parent)
@@ -1162,14 +1162,14 @@ def plot_feature_scores_by_layer(
         ax.invert_yaxis()
         ax.set_xlim(1.0, 9.0)
         ax.grid(True, axis="x", linestyle="--", linewidth=0.6, alpha=0.5)
-        ax.set_title(f"{layer} (bar = mean; whiskers = IQR; points = raw predictors)")
+        ax.set_title(f"{layer} (bar = mean; whiskers = IQR; points = 01_raw predictors)")
 
         # IQR whiskers
         for i, (a, b) in enumerate(zip(q25s, q75s)):
             if not (math.isnan(a) or math.isnan(b)):
                 ax.hlines(i, a, b, linewidth=2.0, alpha=0.9, color="black")
 
-        # raw points
+        # 01_raw points
         for i, vals in enumerate(raw_vals_per_feat):
             if not vals:
                 continue
@@ -1268,7 +1268,7 @@ def main() -> int:
 
     assert caches, f"No predictor evaluations found (cache_dir={cache_dir}, tables_dir={tables_dir})."
 
-    # Compute rankings, contributions, raw feature scores
+    # Compute rankings, contributions, 01_raw feature scores
     cluster_rows: List[Dict[str, Any]] = []
     contrib_rows: List[Dict[str, Any]] = []
     score_rows: List[Dict[str, Any]] = []
@@ -1525,7 +1525,7 @@ def main() -> int:
         plot_feature_scores_by_layer(
             df_scores_subset=sub,
             out_path=outp,
-            title=f"{dim} — feature scores by layer (bar=mean Likert; points=raw; whiskers=IQR)",
+            title=f"{dim} — feature scores by layer (bar=mean Likert; points=01_raw; whiskers=IQR)",
             feature_key_cols=("dimension", "module", "method", "feature"),
             max_features=max_feat,
             rng_seed=int(args.rng_seed),
@@ -1543,7 +1543,7 @@ def main() -> int:
             plot_feature_scores_by_layer(
                 df_scores_subset=subm,
                 out_path=outp,
-                title=f"{dim}:{method} — feature scores by layer (bar=mean Likert; points=raw; whiskers=IQR)",
+                title=f"{dim}:{method} — feature scores by layer (bar=mean Likert; points=01_raw; whiskers=IQR)",
                 feature_key_cols=("dimension", "module", "method", "feature"),
                 max_features=max_feat,
                 rng_seed=int(args.rng_seed),
@@ -1561,7 +1561,7 @@ def main() -> int:
             plot_feature_scores_by_layer(
                 df_scores_subset=subm,
                 out_path=outp,
-                title=f"{dim}.{module} — feature scores by layer (bar=mean Likert; points=raw; whiskers=IQR)",
+                title=f"{dim}.{module} — feature scores by layer (bar=mean Likert; points=01_raw; whiskers=IQR)",
                 feature_key_cols=("dimension", "module", "method", "feature"),
                 max_features=max_feat,
                 rng_seed=int(args.rng_seed),
@@ -1575,7 +1575,7 @@ def main() -> int:
         plot_feature_scores_by_layer(
             df_scores_subset=sub,
             out_path=outp,
-            title=f"{dim} — feature scores by layer (bar=mean Likert; points=raw; whiskers=IQR)",
+            title=f"{dim} — feature scores by layer (bar=mean Likert; points=01_raw; whiskers=IQR)",
             feature_key_cols=("dimension", "module", "method", "feature"),
             max_features=max_feat,
             rng_seed=int(args.rng_seed),
@@ -1593,7 +1593,7 @@ def main() -> int:
             plot_feature_scores_by_layer(
                 df_scores_subset=subm,
                 out_path=outp,
-                title=f"{dim}.{module} — feature scores by layer (bar=mean Likert; points=raw; whiskers=IQR)",
+                title=f"{dim}.{module} — feature scores by layer (bar=mean Likert; points=01_raw; whiskers=IQR)",
                 feature_key_cols=("dimension", "module", "method", "feature"),
                 max_features=max_feat,
                 rng_seed=int(args.rng_seed),
@@ -1607,7 +1607,7 @@ def main() -> int:
         plot_feature_scores_by_layer(
             df_scores_subset=sub,
             out_path=outp,
-            title=f"{dim} — feature scores by layer (bar=mean Likert; points=raw; whiskers=IQR)",
+            title=f"{dim} — feature scores by layer (bar=mean Likert; points=01_raw; whiskers=IQR)",
             feature_key_cols=("dimension", "module", "method", "feature"),
             max_features=max_feat,
             rng_seed=int(args.rng_seed),

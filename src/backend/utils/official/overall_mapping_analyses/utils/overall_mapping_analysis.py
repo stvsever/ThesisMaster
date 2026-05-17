@@ -17,7 +17,7 @@ Key fixes vs your current script
 
 3) Much richer visualization suite:
    - Primary-domain summary bar (+ SEM)
-   - BIO/PSYCHO/SOCIAL secondary “hierarchical” panels (bar + density-transparent raw points)
+   - BIO/PSYCHO/SOCIAL secondary “hierarchical” panels (bar + density-transparent 01_raw points)
    - Ternary (triplot) per cluster: BIO vs PSYCHO vs SOCIAL composition
    - Per-primary secondary ranked bars (+ SEM)
    - Per-primary secondary boxplots across clusters (zeros included)

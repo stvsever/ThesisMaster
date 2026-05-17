@@ -116,7 +116,7 @@ Core pipeline:
 8. Build two synchronized outputs:
    a) Wide binary matrix (treatments × problems) for ML workflows.
    b) Dense edge list with explicit evidence_type (direct vs inferred) and support counts.
-9. Export full provenance, lookup tables, raw pairs, and run metadata.
+9. Export full provenance, lookup tables, 01_raw pairs, and run metadata.
 
 Important notes:
 - Direct edges reflect community-curated Wikidata assertions, not clinical guidelines.
@@ -1245,9 +1245,9 @@ def main() -> None:
         treatments_lookup.to_csv(f_lookup_treatments, sep="\t", index=False)
 
     # ---------------------------
-    # 8) Save raw direct pairs
+    # 8) Save 01_raw direct pairs
     # ---------------------------
-    with Timer("Write raw direct pair files"):
+    with Timer("Write 01_raw direct pair files"):
         df_dt_out = df_dt_k[["disorder_qid", "disorder_label", "treatment_qid", "treatment_label", "source_pid"]].copy()
         df_dt_out.to_csv(f_pairs_dt, sep="\t", index=False)
 
@@ -1565,8 +1565,8 @@ def main() -> None:
     log(f"  - {os.path.basename(out_edges)} : dense edge-list (treatment_key, problem_key, evidence, support)")
     log(f"  - {os.path.basename(f_lookup_problems)} : problem_key ↔ (DX/SYM) ↔ label ↔ QID")
     log(f"  - {os.path.basename(f_lookup_treatments)} : treatment_key ↔ label ↔ QID + degrees + domain_bpsx + domain_fine + flags")
-    log(f"  - {os.path.basename(f_pairs_dt)} : raw disorder↔treatment triples (kept) incl. source_pid")
-    log(f"  - {os.path.basename(f_pairs_ds)} : raw disorder↔symptom (kept)")
+    log(f"  - {os.path.basename(f_pairs_dt)} : 01_raw disorder↔treatment triples (kept) incl. source_pid")
+    log(f"  - {os.path.basename(f_pairs_ds)} : 01_raw disorder↔symptom (kept)")
     log(f"  - {os.path.basename(f_pairs_st)} : inferred symptom↔treatment with support counts")
     log(f"  - {os.path.basename(f_prov)} : parameters + summary stats")
     log(f"  - {os.path.basename(f_queries)} : SPARQL used")

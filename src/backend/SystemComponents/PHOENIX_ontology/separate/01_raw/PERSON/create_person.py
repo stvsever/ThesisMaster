@@ -11,7 +11,7 @@ Design principles:
 - Avoid leaf names like "*_Indicator" or "*_Level" or "*_Band" as the *leaf itself*.
   Instead: variable node -> enumerated value leaves.
 - Include "Unknown" and "Prefer_Not_To_Say" value leaves where appropriate.
-- Some fields remain as raw variables where enumeration is not appropriate (e.g., IDs, numeric scores).
+- Some fields remain as 01_raw variables where enumeration is not appropriate (e.g., IDs, numeric scores).
 - Adds higher-resolution semantics for:
   - Age (clinical bands + multiple developmental-stage theories/frameworks + puberty/frailty/reproductive stages)
   - Socioeconomic status (objective/subjective, deprivation/strain, class frameworks, neighborhood indices, mobility)
@@ -234,7 +234,7 @@ def build_person_ontology() -> dict:
     ])
 
     # ----------------------------
-    # Age: raw age variables
+    # Age: 01_raw age variables
     # ----------------------------
     add_leaves(demo, ["Age", "Chronological_Age"], [
         "Age_Years",
@@ -477,7 +477,7 @@ def build_person_ontology() -> dict:
         "Fertility_Preservation_Interest",
     ] + UNK_PNTS)
 
-    # Raw reproductive history variables (kept as raw)
+    # Raw reproductive history variables (kept as 01_raw)
     add_leaves(demo, ["Reproductive_and_Family_Planning", "Reproductive_History_Raw"], [
         "Gravida_Count",
         "Para_Count",
@@ -824,7 +824,7 @@ def build_person_ontology() -> dict:
         "Prefer_Not_To_Say",
     ])
 
-    # Anthropometrics (raw variables; often useful in biomedical data models)
+    # Anthropometrics (01_raw variables; often useful in biomedical data models)
     add_leaves(demo, ["Anthropometrics_Raw"], [
         "Height",
         "Weight",
@@ -1390,7 +1390,7 @@ def build_person_ontology() -> dict:
     # ============================================================
     ses: dict = {}
 
-    # Objective SEP components (categorical + raw placeholders)
+    # Objective SEP components (categorical + 01_raw placeholders)
     add_leaves(ses, ["Socioeconomic_Position", "Measurement_Timeframe"], [
         "Current",
         "Childhood",

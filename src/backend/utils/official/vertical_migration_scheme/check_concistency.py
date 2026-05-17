@@ -38,7 +38,7 @@ This version runs SELECTED SUBTREES IN PARALLEL.
 
 Caching requirement
 -------------------
-- After each subtree is processed, it writes a per-subtree JSON cache file immediately in output_dir/cache/.
+- After each subtree is 02_processed, it writes a per-subtree JSON cache file immediately in output_dir/cache/.
 - On the next run, cached subtrees are skipped automatically if:
   - cache exists, and
   - cache "config_fingerprint" matches current run settings (model/max_leaves/max_pairs/batch_size/seed),

@@ -3567,8 +3567,8 @@
     }
 
     const pipeNode = document.getElementById("pipeline-summary");
-    const rawWrap = document.getElementById("pipeline-summary-raw-wrap");
-    const rawNode = document.getElementById("pipeline-summary-raw");
+    const rawWrap = document.getElementById("pipeline-summary-01_raw-wrap");
+    const rawNode = document.getElementById("pipeline-summary-01_raw");
     if (pipeNode) {
       if (!Object.keys(pipelineSummary).length) {
         pipeNode.innerHTML = `<p class="muted">No cycle summary yet.</p>`;

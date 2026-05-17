@@ -1748,10 +1748,10 @@ def run_one_scenario(
     m3 = ensure_dir(scen_dir / "method 3")
     data_dir = ensure_dir(scen_dir / "data")
 
-    # ---- simulate raw data
+    # ---- simulate 01_raw data
     X_raw, t_norm, B_true_all = simulate_tvvar(n=n, p=p, burnin=150, seed=seed, scenario=scenario)
 
-    # save raw
+    # save 01_raw
     pd.DataFrame(X_raw, columns=node_names()).to_csv(data_dir / "X_raw.csv", index=False)
     pd.DataFrame({"t_norm": t_norm}).to_csv(data_dir / "t_norm.csv", index=False)
 

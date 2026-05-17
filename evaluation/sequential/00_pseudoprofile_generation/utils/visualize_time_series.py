@@ -269,7 +269,7 @@ def load_profile_inputs(profile_dir: Path) -> Tuple[pd.DataFrame, pd.DataFrame, 
 
 
 # =============================================================================
-# Plot 1: Small multiples (raw)
+# Plot 1: Small multiples (01_raw)
 # =============================================================================
 def plot_small_multiples(
     t_num: pd.Series,

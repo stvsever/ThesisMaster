@@ -19,7 +19,7 @@ Fixes included (relative to the previous version)
 3) Professional visualization improvements:
    - Better layout/spacing, consistent formatting, and clearer titles.
    - Log-scale variants where long-tails exist.
-   - Additional "raw datapoint distribution" plot: depth KDE-like line (smoothed) + histogram.
+   - Additional "01_raw datapoint distribution" plot: depth KDE-like line (smoothed) + histogram.
    - Additional plot: subtree size distribution across secondary nodes (if many).
    - All plots saved as PNG + PDF at publication quality.
 

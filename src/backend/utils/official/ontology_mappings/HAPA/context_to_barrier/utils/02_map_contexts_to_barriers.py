@@ -27,7 +27,7 @@ Guidance:
 Key requirements implemented
 ----------------------------
 - Loops through ALL barriers (one LLM call per barrier).
-- Prompts include the full CONTEXT hierarchy raw text (verbatim) and a flat ID list to enforce coverage.
+- Prompts include the full CONTEXT hierarchy 01_raw text (verbatim) and a flat ID list to enforce coverage.
 - Output is DENSE: must contain ALL context IDs; missing IDs trigger retry and ultimately fail that barrier.
 - Uses JSON mode (text.format.type="json_object") for Structured Output compatibility.
 - Strict local validation:

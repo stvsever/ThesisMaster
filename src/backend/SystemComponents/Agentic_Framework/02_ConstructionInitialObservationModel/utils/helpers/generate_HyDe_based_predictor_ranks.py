@@ -1406,7 +1406,7 @@ def main() -> int:
         help="Base directory for results. A timestamped run directory will be created inside.",
     )
     parser.add_argument("--run_name", default=None, help="Optional run folder name. Default: timestamp.")
-    parser.add_argument("--use_cache", action="store_true", help="If set, use per-profile cache to skip already processed pseudoprofiles.")
+    parser.add_argument("--use_cache", action="store_true", help="If set, use per-profile cache to skip already 02_processed pseudoprofiles.")
     parser.add_argument("--recompute_rankings_if_missing", action="store_true", help="If set, compute rankings when llm_result exists but rankings are missing.")
     parser.add_argument("--print_global_top_n", type=int, default=50, help="How many GLOBAL items to print to console per profile.")
     parser.add_argument("--print_per_solution_top_n", type=int, default=10, help="How many PER-SOLUTION items to print to console per profile.")

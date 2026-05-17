@@ -15,7 +15,7 @@ P predictors: P1..P6
 C criterions: C1..C4
 
 Plots (5):
-1) Small multiples (10 panels) time series (raw units)  [most interpretable]
+1) Small multiples (10 panels) time series (01_raw units)  [most interpretable]
 2) Z-scored overlay time series (single axis)           [comparability]
 3) Stacked offset (z-scored; single axis)              [decluttered]
 4) Rolling correlation heatmap (avg P vs C; windowed)  [structure over time]
@@ -234,7 +234,7 @@ def plot_small_multiples(t: pd.Series, X: pd.DataFrame, out_dir: Path, title: st
         ax.grid(True, alpha=0.25)
 
     # Remove unused axes (none here) and set common labels
-    fig.suptitle(f"{title} — Time series (small multiples; raw scale)", y=0.995)
+    fig.suptitle(f"{title} — Time series (small multiples; 01_raw scale)", y=0.995)
     fig.supxlabel("Time")
     fig.supylabel("Value")
 

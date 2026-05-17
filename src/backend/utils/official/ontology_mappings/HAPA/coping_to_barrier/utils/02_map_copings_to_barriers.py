@@ -19,7 +19,7 @@ Interpretation:
 Key requirements implemented
 ----------------------------
 - Loops through ALL coping options (one LLM call per coping option).
-- Prompts include the full BARRIERS hierarchy raw text (verbatim from barriers_list.txt).
+- Prompts include the full BARRIERS hierarchy 01_raw text (verbatim from barriers_list.txt).
 - Output is DENSE: must contain ALL barrier IDs; missing IDs trigger retry and ultimately fail that coping option.
 - Uses JSON mode (text.format.type="json_object") for Structured Output compatibility.
 - Strict local validation + normalization:
@@ -263,7 +263,7 @@ def build_user_prompt(
     barriers_raw_text: str,
     barriers: List[LeafNode],
 ) -> str:
-    # A compact “flat list” helps prevent missing IDs, while still including the required raw hierarchy verbatim.
+    # A compact “flat list” helps prevent missing IDs, while still including the required 01_raw hierarchy verbatim.
     flat = "\n".join([f"- {b.id}\t{b.name}\t({b.full_path})" for b in barriers])
 
     return (

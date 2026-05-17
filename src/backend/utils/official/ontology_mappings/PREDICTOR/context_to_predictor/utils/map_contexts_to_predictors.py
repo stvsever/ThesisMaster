@@ -64,7 +64,7 @@ Optional prompt size reduction
 ------------------------------
 If your predictor tree file is extremely large, you can use:
   --compact-prompts
-This omits the full raw hierarchies and only provides:
+This omits the full 01_raw hierarchies and only provides:
 - target predictor descriptor
 - context flat list (IDs/names/paths)
 
@@ -787,7 +787,7 @@ def main() -> None:
         "--compact-prompts",
         action="store_true",
         default=False,
-        help="Omit full raw hierarchies from prompts (smaller/cheaper).",
+        help="Omit full 01_raw hierarchies from prompts (smaller/cheaper).",
     )
 
     args = parser.parse_args()

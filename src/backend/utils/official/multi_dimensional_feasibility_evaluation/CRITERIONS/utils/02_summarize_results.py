@@ -12,7 +12,7 @@ What this script does (end-to-end)
 3) Computes:
    - overall suitability + per-dimension suitability/risk (via module.compute_overall_suitability)
    - leaf-feature weighted contributions to overall risk (sanity-checked: sum == overall risk)
-   - leaf-feature raw scores (Likert 1..9) for plotting (with raw datapoints)
+   - leaf-feature 01_raw scores (Likert 1..9) for plotting (with 01_raw datapoints)
 4) Loads the semantic cluster taxonomy:
    - 04_semantically_clustered_items.json (gives leaf cluster ids and their taxonomy path)
    - Optionally loads CRITERION_ontology.json to infer missing/ambiguous system/domain metadata
@@ -466,7 +466,7 @@ def infer_cluster_system_from_members(
 
 
 # -----------------------------------------------------------------------------
-# Computation: contributions + raw scores
+# Computation: contributions + 01_raw scores
 # -----------------------------------------------------------------------------
 
 @dataclass
@@ -516,7 +516,7 @@ def compute_contributions_and_raw_scores_for_cluster(
     Returns:
       breakdown (from module.compute_overall_suitability)
       contributions: leaf-feature weighted contributions to overall risk (sum matches overall risk)
-      raw_scores: leaf-feature raw likert + risk_unit (no weighting) for plotting
+      raw_scores: leaf-feature 01_raw likert + risk_unit (no weighting) for plotting
     """
     dim_w = normalize_weights({k: float(v) for k, v in mod.default_dimension_weights().items()})
     assert abs(sum(dim_w.values()) - 1.0) < 1e-6, f"Dimension weights must sum to 1: sum={sum(dim_w.values())}"
@@ -672,7 +672,7 @@ def compute_contributions_and_raw_scores_for_cluster(
     total_vt = sum(float(vt_module_w[mn]) for mn in available_mods)
     assert total_vt > EPS, "Sum of validity module weights is 0."
 
-    # raw for each module
+    # 01_raw for each module
     for mn, _mcls in vt_modules:
         mobj = getattr(vt, mn, None)
         if mobj is None:
@@ -716,7 +716,7 @@ def compute_contributions_and_raw_scores_for_cluster(
     total_rr = sum(float(rr_module_w[mn]) for mn in available_mods)
     assert total_rr > EPS, "Sum of regulatory module weights is 0."
 
-    # raw
+    # 01_raw
     for mn, _mcls in rr_modules:
         mobj = getattr(rr, mn, None)
         if mobj is None:
@@ -858,7 +858,7 @@ def plot_system_overall_suitability_3rows(
     rng_seed: int = 42,
 ) -> None:
     """
-    3-row comparison: each row is a system, bar=mean overall suitability, points=raw clusters.
+    3-row comparison: each row is a system, bar=mean overall suitability, points=01_raw clusters.
     """
     ensure_dir(out_path.parent)
     rng = random.Random(int(rng_seed))
@@ -905,7 +905,7 @@ def plot_system_dimensions_3rows(
     rng_seed: int = 42,
 ) -> None:
     """
-    3-row comparison: each row is a system, bars are per-dimension mean values, points are raw cluster values.
+    3-row comparison: each row is a system, bars are per-dimension mean values, points are 01_raw cluster values.
     Bars have consistent colors by dimension across rows.
     """
     ensure_dir(out_path.parent)
@@ -945,7 +945,7 @@ def plot_system_dimensions_3rows(
         ax.grid(True, axis="x", linestyle="--", linewidth=0.6, alpha=0.5)
         ax.set_xlabel(x_label)
 
-        # raw points overlay
+        # 01_raw points overlay
         for i, dk in enumerate(dim_keys):
             vals = raws.get(dk, [])
             if not vals:
@@ -975,7 +975,7 @@ def plot_feature_group_system_comparison_3rows(
 ) -> None:
     """
     For one feature group (dimension/module/method), create a 3-row comparison (one row per system).
-    Bars are per-feature means (Likert), points are per-cluster raw Likert values.
+    Bars are per-feature means (Likert), points are per-cluster 01_raw Likert values.
     Uses consistent colors for the SAME feature label across rows.
     """
     ensure_dir(out_path.parent)
@@ -1055,7 +1055,7 @@ def plot_feature_group_system_comparison_3rows(
                     continue
                 ax.hlines(i, a, b, linewidth=2.0, alpha=0.85, color="black")
 
-            # raw points
+            # 01_raw points
             for i, feat in enumerate(part_feats):
                 vals = rawvals.get(feat, [])
                 if not vals:
@@ -1155,7 +1155,7 @@ def plot_taxonomy_node_rankings_3rows(
         ax.set_xlabel("overall_suitability (higher = better)")
         ax.set_title(f"{sys} — top taxonomy nodes (level={compare_level})")
 
-        # raw cluster points
+        # 01_raw cluster points
         for i, nl in enumerate(top_nodes):
             vals = sub[sub["node_label"] == nl]["overall_suitability"].astype(float).tolist()
             jitter = [(i + (rng.random() - 0.5) * 0.22) for _ in vals]
@@ -1353,7 +1353,7 @@ def main() -> int:
 
     assert len(df_clusters) == len(caches), "Cluster row count mismatch."
     assert len(df_contrib) > 0, "No contributions computed."
-    assert len(df_scores) > 0, "No raw scores extracted."
+    assert len(df_scores) > 0, "No 01_raw scores extracted."
 
     # Merge system/domain metadata into df_scores and df_contrib
     meta_cols = ["cluster_id", "system", "criterion_domain", "taxonomy_path_str"]

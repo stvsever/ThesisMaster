@@ -5,7 +5,7 @@
 02_map_observation_model_to_ontology.py
 
 Goal:
-    Take the already-constructed observation model per pseudoprofile (raw JSON) and map:
+    Take the already-constructed observation model per pseudoprofile (01_raw JSON) and map:
       - criteria_variables  -> CRITERION ontology LEAF nodes
       - predictor_variables -> PREDICTOR ontology LEAF nodes
 
@@ -1226,7 +1226,7 @@ def map_one_pseudoprofile(
         log_stage("SKIP_ALREADY_MAPPED", pseudoprofile_id=pid, extra={"file": OUT_MAPPED_JSON_FILENAME})
         return pid, True
 
-    log_stage("START_PSEUDOPROFILE", pseudoprofile_id=pid, extra={"raw": os.path.basename(raw_model_path)})
+    log_stage("START_PSEUDOPROFILE", pseudoprofile_id=pid, extra={"01_raw": os.path.basename(raw_model_path)})
 
     ctx = {
         "pseudoprofile_id": pid,
@@ -1456,7 +1456,7 @@ def map_one_pseudoprofile(
             predictor_mappings.sort(key=lambda x: (predictor_vars.index(x["source_variable"]) if x.get("source_variable") in predictor_vars else 10**9))
         log_stage("MAP_PREDICTORS_DONE", pseudoprofile_id=pid, extra={"n": len(predictor_mappings)})
 
-    # ---- Build output JSON: raw model + mapping augmentation ----
+    # ---- Build output JSON: 01_raw model + mapping augmentation ----
     def _augment_variables(original_vars: List[Dict[str, Any]], maps: List[Dict[str, Any]], kind: str) -> List[Dict[str, Any]]:
         # map by var_id primarily; fallback to index
         by_id: Dict[str, Dict[str, Any]] = {}
@@ -1538,7 +1538,7 @@ def map_one_pseudoprofile(
         "predictor_criterion_relevance": raw.get("predictor_criterion_relevance", []),
         "edges": raw.get("edges", []),
         "diagnostics": raw.get("diagnostics", {}),
-        # include raw mapping records (with candidate lists) for debugging/auditing
+        # include 01_raw mapping records (with candidate lists) for debugging/auditing
         "mapping_records": {
             "criteria": criterion_mappings,
             "predictors": predictor_mappings,

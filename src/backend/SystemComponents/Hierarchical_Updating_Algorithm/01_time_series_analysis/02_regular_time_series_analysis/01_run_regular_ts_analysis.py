@@ -7,7 +7,7 @@ Regular (non-network) time-series analysis per pseudoprofile, driven by readines
 
 Scope (THIS script)
 - Uses readiness outputs to select analyzable variables (Tier1-ready by default).
-- Loads the original raw wide CSV per profile.
+- Loads the original 01_raw wide CSV per profile.
 - Performs "regular" time-series analytics WITHOUT any visualization:
     * basic descriptives + data quality recap
     * imputation (Kalman/State Space when appropriate + fallbacks)
@@ -1008,7 +1008,7 @@ def analyze_profile(
     readiness = _read_json(readiness_path)
     profile_id = str(readiness.get("meta", {}).get("profile_id", readiness_path.parent.name))
 
-    # resolve raw CSV path (prefer readiness meta)
+    # resolve 01_raw CSV path (prefer readiness meta)
     raw_csv_str = readiness.get("meta", {}).get("input_file")
     raw_csv_path = Path(raw_csv_str) if raw_csv_str else (input_root / profile_id / data_filename)
     if not raw_csv_path.exists():
@@ -1017,7 +1017,7 @@ def analyze_profile(
         raise FileNotFoundError(f"Raw CSV not found for {profile_id}: tried {raw_csv_str} and {raw_csv_path}")
 
     if verbose:
-        print(f"    [LOAD] raw={raw_csv_path}")
+        print(f"    [LOAD] 01_raw={raw_csv_path}")
 
     df_raw = _read_csv_robust(raw_csv_path)
     df_raw.columns = [str(c).strip() for c in df_raw.columns]
@@ -1348,7 +1348,7 @@ def discover_readiness_reports(readiness_root: Path, readiness_filename: str) ->
 # -----------------------------
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Run regular time-series analyses per pseudoprofile (no networks).")
-    p.add_argument("--input-root", type=str, default=DEFAULT_INPUT_ROOT, help="Root containing pseudoprofile subfolders with raw CSV.")
+    p.add_argument("--input-root", type=str, default=DEFAULT_INPUT_ROOT, help="Root containing pseudoprofile subfolders with 01_raw CSV.")
     p.add_argument("--readiness-root", type=str, default=DEFAULT_READINESS_ROOT, help="Root containing readiness_check outputs.")
     p.add_argument("--output-root", type=str, default=DEFAULT_OUTPUT_ROOT, help="Root output folder for regular TS analysis results.")
     p.add_argument("--data-filename", type=str, default=DEFAULT_DATA_FILENAME, help="Raw CSV filename inside each profile folder.")
