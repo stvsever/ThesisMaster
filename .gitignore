@@ -129,4 +129,7 @@ ThesisMaster/src/SystemComponents/PHOENIX_ontology/separate/01_raw/DATA_COLLECTI
 # Thesis report and assets (large binaries, kept out of git)
 thesis/
 
+# Full frontend is not pushed to git (yet)
+/Users/stijnvanseveren/PythonProjects/MASTERPROEF/src/frontend
+
 .claude
