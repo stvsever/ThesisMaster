@@ -1,0 +1,221 @@
+{
+  "operations": {
+    "criterion_degree_for_predictor": {
+      "per_backend": {
+        "Adjacency graph": {
+          "n": 216,
+          "unit": "\u03bcs",
+          "mean": 0.1651018518518519,
+          "median": 0.166,
+          "iqr": [
+            0.125,
+            0.16699999999999998
+          ],
+          "p95": 0.20900000000000002,
+          "p99": 0.516099999999999,
+          "min": 0.125,
+          "max": 1.2080000000000002,
+          "median_ms": 0.000166,
+          "human_median": "0.2 \u03bcs",
+          "human_p95": "0.2 \u03bcs"
+        },
+        "SPARQL": {
+          "n": 216,
+          "unit": "ms",
+          "mean": 8.627164157407408,
+          "median": 6.881521,
+          "iqr": [
+            5.203166749999999,
+            11.596739
+          ],
+          "p95": 16.791041999999997,
+          "p99": 20.3711374,
+          "min": 3.511791,
+          "max": 21.06425,
+          "median_ms": 6.881521,
+          "human_median": "6.882 ms",
+          "human_p95": "16.791 ms"
+        },
+        "SQL": {
+          "n": 216,
+          "unit": "\u03bcs",
+          "mean": 145.6425277777778,
+          "median": 80.31250000000001,
+          "iqr": [
+            33.27125,
+            231.7505
+          ],
+          "p95": 407.10375,
+          "p99": 566.3125,
+          "min": 7.791,
+          "max": 571.125,
+          "median_ms": 0.08031250000000001,
+          "human_median": "80.3 \u03bcs",
+          "human_p95": "407.1 \u03bcs"
+        }
+      },
+      "friedman": {
+        "chi2": 432.0,
+        "p": 1.5573703742969437e-94,
+        "n": 216
+      },
+      "pairwise_wilcoxon_raw": {
+        "Adjacency graph vs SPARQL": 3.4272972855169963e-37,
+        "Adjacency graph vs SQL": 3.427214525979621e-37,
+        "SPARQL vs SQL": 3.4272972855169963e-37
+      },
+      "pairwise_wilcoxon_holm": {
+        "Adjacency graph vs SQL": 1.0281643577938862e-36,
+        "Adjacency graph vs SPARQL": 1.0281643577938862e-36,
+        "SPARQL vs SQL": 1.0281643577938862e-36
+      },
+      "pairwise_cliffs_delta": {
+        "Adjacency graph vs SPARQL": -1.0,
+        "Adjacency graph vs SQL": -1.0,
+        "SPARQL vs SQL": 1.0
+      }
+    },
+    "top10_criteria_for_predictor": {
+      "per_backend": {
+        "Adjacency graph": {
+          "n": 216,
+          "unit": "\u03bcs",
+          "mean": 0.3285462962962963,
+          "median": 0.208,
+          "iqr": [
+            0.16699999999999998,
+            0.20900000000000002
+          ],
+          "p95": 1.11425,
+          "p99": 1.940099999999999,
+          "min": 0.125,
+          "max": 3.4160000000000004,
+          "median_ms": 0.000208,
+          "human_median": "0.2 \u03bcs",
+          "human_p95": "1.1 \u03bcs"
+        },
+        "SPARQL": {
+          "n": 216,
+          "unit": "ms",
+          "mean": 18.202417425925926,
+          "median": 12.379604,
+          "iqr": [
+            7.7924065,
+            24.248531
+          ],
+          "p95": 38.87426,
+          "p99": 49.12132325,
+          "min": 4.672584,
+          "max": 243.181417,
+          "median_ms": 12.379604,
+          "human_median": "12.380 ms",
+          "human_p95": "38.874 ms"
+        },
+        "SQL": {
+          "n": 216,
+          "unit": "\u03bcs",
+          "mean": 117.3276064814815,
+          "median": 69.97900000000001,
+          "iqr": [
+            35.03125,
+            167.35450000000003
+          ],
+          "p95": 303.91675000000004,
+          "p99": 567.7438499999998,
+          "min": 11.458,
+          "max": 648.9169999999999,
+          "median_ms": 0.06997900000000001,
+          "human_median": "70.0 \u03bcs",
+          "human_p95": "303.9 \u03bcs"
+        }
+      },
+      "friedman": {
+        "chi2": 432.0,
+        "p": 1.5573703742969437e-94,
+        "n": 216
+      },
+      "pairwise_wilcoxon_raw": {
+        "Adjacency graph vs SPARQL": 3.4272972855169963e-37,
+        "Adjacency graph vs SQL": 3.427214525979621e-37,
+        "SPARQL vs SQL": 3.4272972855169963e-37
+      },
+      "pairwise_wilcoxon_holm": {
+        "Adjacency graph vs SQL": 1.0281643577938862e-36,
+        "Adjacency graph vs SPARQL": 1.0281643577938862e-36,
+        "SPARQL vs SQL": 1.0281643577938862e-36
+      },
+      "pairwise_cliffs_delta": {
+        "Adjacency graph vs SPARQL": -1.0,
+        "Adjacency graph vs SQL": -1.0,
+        "SPARQL vs SQL": 1.0
+      }
+    }
+  },
+  "global": {
+    "per_backend": {
+      "Adjacency graph": {
+        "n": 432,
+        "unit": "\u03bcs",
+        "regime": "warm",
+        "median": 0.16699999999999998,
+        "p50": 0.16699999999999998,
+        "p90": 0.292,
+        "p95": 0.8938999999999996,
+        "p99": 1.6152299999999997,
+        "p999": 2.8057040000001043,
+        "max": 3.4160000000000004,
+        "iqr_low": 0.166,
+        "iqr_high": 0.208,
+        "stdev": 0.299611034113368,
+        "cv": 1.2138647141180081,
+        "throughput_qps_median": 5988023.952095808,
+        "throughput_qps_p95": 1118693.3661483394,
+        "throughput_qps_per_ms_p95": 1118.6933661483395,
+        "human_median": "0.2 \u03bcs",
+        "human_p99": "1.6 \u03bcs"
+      },
+      "SPARQL": {
+        "n": 432,
+        "unit": "ms",
+        "regime": "warm",
+        "median": 9.5860415,
+        "p50": 9.5860415,
+        "p90": 28.073499700000003,
+        "p95": 35.7515955,
+        "p99": 48.60839402,
+        "p999": 160.10566402301419,
+        "max": 243.181417,
+        "iqr_low": 6.09197875,
+        "iqr_high": 15.04126,
+        "stdev": 14.754561003589691,
+        "cv": 1.0998726132020855,
+        "throughput_qps_median": 104.31834662931513,
+        "throughput_qps_p95": 27.970779653736013,
+        "throughput_qps_per_ms_p95": 0.027970779653736014,
+        "human_median": "9.586 ms",
+        "human_p99": "48.608 ms"
+      },
+      "SQL": {
+        "n": 432,
+        "unit": "\u03bcs",
+        "regime": "warm",
+        "median": 74.72899999999998,
+        "p50": 74.72899999999998,
+        "p90": 313.11670000000004,
+        "p95": 399.25275,
+        "p99": 566.9602299999999,
+        "p999": 639.7220460000016,
+        "max": 648.9169999999999,
+        "iqr_low": 34.15575,
+        "iqr_high": 207.084,
+        "stdev": 129.54293806254802,
+        "cv": 0.9852292803321393,
+        "throughput_qps_median": 13381.685824780208,
+        "throughput_qps_p95": 2504.679053556926,
+        "throughput_qps_per_ms_p95": 2.5046790535569263,
+        "human_median": "74.7 \u03bcs",
+        "human_p99": "567.0 \u03bcs"
+      }
+    }
+  }
+}

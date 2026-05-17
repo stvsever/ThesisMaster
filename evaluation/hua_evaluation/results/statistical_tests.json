@@ -1,0 +1,76 @@
+{
+  "study_a": {
+    "stationary": {
+      "friedman_stat": 65.84937238493728,
+      "friedman_p": 5.023315643554239e-15,
+      "n": 60,
+      "wilcoxon_raw": {
+        "tv-gVAR vs stationary-gVAR": 3.70969014845026e-09,
+        "tv-gVAR vs Ledoit-Wolf": 1.0009791136884498e-05,
+        "stationary-gVAR vs Ledoit-Wolf": 1.0391955706455348e-10
+      },
+      "wilcoxon_holm": {
+        "stationary-gVAR vs Ledoit-Wolf": 3.1175867119366044e-10,
+        "tv-gVAR vs stationary-gVAR": 7.41938029690052e-09,
+        "tv-gVAR vs Ledoit-Wolf": 1.0009791136884498e-05
+      }
+    },
+    "smooth": {
+      "friedman_stat": 44.93333333333328,
+      "friedman_p": 1.749244994755595e-10,
+      "n": 60,
+      "wilcoxon_raw": {
+        "tv-gVAR vs stationary-gVAR": 3.1156408411343715e-07,
+        "tv-gVAR vs Ledoit-Wolf": 1.8278611114425488e-10,
+        "stationary-gVAR vs Ledoit-Wolf": 0.04217017644535613
+      },
+      "wilcoxon_holm": {
+        "tv-gVAR vs Ledoit-Wolf": 5.483583334327647e-10,
+        "tv-gVAR vs stationary-gVAR": 6.231281682268743e-07,
+        "stationary-gVAR vs Ledoit-Wolf": 0.04217017644535613
+      }
+    },
+    "abrupt": {
+      "friedman_stat": 38.31799163179913,
+      "friedman_p": 4.779184957812527e-09,
+      "n": 60,
+      "wilcoxon_raw": {
+        "tv-gVAR vs stationary-gVAR": 7.103021349066685e-06,
+        "tv-gVAR vs Ledoit-Wolf": 5.97427083509266e-10,
+        "stationary-gVAR vs Ledoit-Wolf": 0.5065437672053439
+      },
+      "wilcoxon_holm": {
+        "tv-gVAR vs Ledoit-Wolf": 1.7922812505277978e-09,
+        "tv-gVAR vs stationary-gVAR": 1.420604269813337e-05,
+        "stationary-gVAR vs Ledoit-Wolf": 0.5065437672053439
+      }
+    },
+    "periodic": {
+      "friedman_stat": 10.133333333333326,
+      "friedman_p": 0.006303396482417307,
+      "n": 60,
+      "wilcoxon_raw": {
+        "tv-gVAR vs stationary-gVAR": 0.00014126163320959503,
+        "tv-gVAR vs Ledoit-Wolf": 8.731795030663172e-06,
+        "stationary-gVAR vs Ledoit-Wolf": 0.6587090742591128
+      },
+      "wilcoxon_holm": {
+        "tv-gVAR vs Ledoit-Wolf": 2.6195385091989515e-05,
+        "tv-gVAR vs stationary-gVAR": 0.00028252326641919006,
+        "stationary-gVAR vs Ledoit-Wolf": 0.6587090742591128
+      }
+    }
+  },
+  "study_b": {
+    "spearman_tv_vs_stationary_dynamic": {
+      "wilcoxon_p": 0.006387314042283315,
+      "n": 15,
+      "median_diff": 0.07142857142857129
+    },
+    "spearman_tv_vs_stationary_static": {
+      "wilcoxon_p": 0.009577354061745673,
+      "n": 15,
+      "median_diff": 0.07142857142857162
+    }
+  }
+}

@@ -1,0 +1,1297 @@
+backend,operation,predictor_id,predictor_full_path,repeat,latency_ms,result_size
+SQL,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,0,0.091917,10
+SQL,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,1,0.040041,10
+SQL,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,2,0.036417,10
+SQL,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,3,0.03475,10
+SQL,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,4,0.0335,10
+SQL,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,5,0.032666,10
+SQL,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,0,0.036333,1
+SQL,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,1,0.035209,1
+SQL,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,2,0.034417,1
+SQL,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,3,0.03425,1
+SQL,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,4,0.033834,1
+SQL,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,5,0.033834,1
+SQL,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,0,0.071916,10
+SQL,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,1,0.034125,10
+SQL,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,2,0.032375,10
+SQL,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,3,0.031458,10
+SQL,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,4,0.030708,10
+SQL,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,5,0.030084,10
+SQL,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,0,0.031583,1
+SQL,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,1,0.030666,1
+SQL,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,2,0.030375,1
+SQL,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,3,0.029958,1
+SQL,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,4,0.029708,1
+SQL,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,5,0.029667,1
+SQL,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,0,0.340208,10
+SQL,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,1,0.264042,10
+SQL,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,2,0.223709,10
+SQL,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,3,0.173042,10
+SQL,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,4,0.17275,10
+SQL,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,5,0.140084,10
+SQL,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,0,0.212916,1
+SQL,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,1,0.20625,1
+SQL,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,2,0.208917,1
+SQL,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,3,0.203542,1
+SQL,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,4,0.205333,1
+SQL,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,5,0.210625,1
+SQL,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,0,0.266917,10
+SQL,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,1,0.167416,10
+SQL,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,2,0.161792,10
+SQL,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,3,0.156792,10
+SQL,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,4,0.1545,10
+SQL,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,5,0.153417,10
+SQL,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,0,0.255166,1
+SQL,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,1,0.253875,1
+SQL,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,2,0.255458,1
+SQL,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,3,0.253541,1
+SQL,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,4,0.252083,1
+SQL,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,5,0.256167,1
+SQL,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,0,0.487333,10
+SQL,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,1,0.213834,10
+SQL,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,2,0.170917,10
+SQL,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,3,0.167334,10
+SQL,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,4,0.164334,10
+SQL,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,5,0.161917,10
+SQL,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,0,0.277083,1
+SQL,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,1,0.271583,1
+SQL,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,2,0.268917,1
+SQL,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,3,0.276459,1
+SQL,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,4,0.276792,1
+SQL,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,5,0.268291,1
+SQL,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,0,0.627583,10
+SQL,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,1,0.254375,10
+SQL,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,2,0.230084,10
+SQL,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,3,0.227459,10
+SQL,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,4,0.225417,10
+SQL,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,5,0.225917,10
+SQL,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,0,0.409917,1
+SQL,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,1,0.406958,1
+SQL,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,2,0.402375,1
+SQL,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,3,0.400125,1
+SQL,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,4,0.411291,1
+SQL,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,5,0.399084,1
+SQL,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,0,0.085333,10
+SQL,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,1,0.038708,10
+SQL,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,2,0.03625,10
+SQL,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,3,0.035125,10
+SQL,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,4,0.034084,10
+SQL,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,5,0.034166,10
+SQL,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,0,0.037959,1
+SQL,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,1,0.037458,1
+SQL,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,2,0.03725,1
+SQL,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,3,0.036333,1
+SQL,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,4,0.03625,1
+SQL,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,5,0.03625,1
+SQL,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,0,0.202167,10
+SQL,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,1,0.090375,10
+SQL,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,2,0.083042,10
+SQL,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,3,0.080666,10
+SQL,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,4,0.0785,10
+SQL,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,5,0.086209,10
+SQL,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,0,0.1065,1
+SQL,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,1,0.106208,1
+SQL,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,2,0.105417,1
+SQL,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,3,0.104958,1
+SQL,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,4,0.10475,1
+SQL,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,5,0.107875,1
+SQL,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,0,0.105292,10
+SQL,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,1,0.044375,10
+SQL,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,2,0.04225,10
+SQL,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,3,0.040917,10
+SQL,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,4,0.0395,10
+SQL,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,5,0.038917,10
+SQL,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,0,0.045791,1
+SQL,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,1,0.045583,1
+SQL,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,2,0.044917,1
+SQL,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,3,0.044958,1
+SQL,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,4,0.044833,1
+SQL,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,5,0.044958,1
+SQL,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,0,0.052292,10
+SQL,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,1,0.030542,10
+SQL,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,2,0.028792,10
+SQL,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,3,0.027625,10
+SQL,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,4,0.027042,10
+SQL,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,5,0.026583,10
+SQL,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,0,0.026625,1
+SQL,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,1,0.026583,1
+SQL,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,2,0.025625,1
+SQL,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,3,0.025375,1
+SQL,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,4,0.025083,1
+SQL,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,5,0.025167,1
+SQL,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,0,0.031167,10
+SQL,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,1,0.025333,10
+SQL,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,2,0.024666,10
+SQL,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,3,0.023667,10
+SQL,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,4,0.023291,10
+SQL,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,5,0.022542,10
+SQL,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,0,0.022417,1
+SQL,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,1,0.021958,1
+SQL,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,2,0.021583,1
+SQL,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,3,0.021917,1
+SQL,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,4,0.021333,1
+SQL,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,5,0.021292,1
+SQL,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,0,0.068791,10
+SQL,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,1,0.052916,10
+SQL,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,2,0.050833,10
+SQL,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,3,0.049,10
+SQL,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,4,0.048166,10
+SQL,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,5,0.047375,10
+SQL,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,0,0.05875,1
+SQL,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,1,0.057208,1
+SQL,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,2,0.056625,1
+SQL,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,3,0.056291,1
+SQL,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,4,0.056208,1
+SQL,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,5,0.05525,1
+SQL,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,0,0.188959,10
+SQL,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,1,0.128958,10
+SQL,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,2,0.125583,10
+SQL,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,3,0.123,10
+SQL,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,4,0.122041,10
+SQL,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,5,0.124209,10
+SQL,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,0,0.309417,1
+SQL,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,1,0.245,1
+SQL,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,2,0.239375,1
+SQL,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,3,0.221125,1
+SQL,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,4,0.194125,1
+SQL,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,5,0.191125,1
+SQL,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,0,0.51775,10
+SQL,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,1,0.2305,10
+SQL,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,2,0.206208,10
+SQL,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,3,0.200625,10
+SQL,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,4,0.19525,10
+SQL,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,5,0.197209,10
+SQL,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,0,0.348292,1
+SQL,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,1,0.352625,1
+SQL,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,2,0.34075,1
+SQL,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,3,0.3405,1
+SQL,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,4,0.337792,1
+SQL,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,5,0.339917,1
+SQL,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,0,0.05975,10
+SQL,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,1,0.020625,10
+SQL,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,2,0.018666,10
+SQL,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,3,0.017375,10
+SQL,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,4,0.016542,10
+SQL,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,5,0.01625,10
+SQL,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,0,0.01475,1
+SQL,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,1,0.013666,1
+SQL,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,2,0.013459,1
+SQL,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,3,0.013292,1
+SQL,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,4,0.013208,1
+SQL,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,5,0.013125,1
+SQL,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,0,0.16725,10
+SQL,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,1,0.04875,10
+SQL,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,2,0.046458,10
+SQL,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,3,0.045083,10
+SQL,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,4,0.044125,10
+SQL,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,5,0.043667,10
+SQL,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,0,0.053708,1
+SQL,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,1,0.060541,1
+SQL,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,2,0.052416,1
+SQL,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,3,0.055292,1
+SQL,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,4,0.052125,1
+SQL,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,5,0.05225,1
+SQL,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,0,0.098541,10
+SQL,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,1,0.030584,10
+SQL,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,2,0.029083,10
+SQL,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,3,0.02825,10
+SQL,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,4,0.027292,10
+SQL,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,5,0.027042,10
+SQL,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,0,0.026292,1
+SQL,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,1,0.025583,1
+SQL,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,2,0.02525,1
+SQL,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,3,0.025166,1
+SQL,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,4,0.025375,1
+SQL,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,5,0.025208,1
+SQL,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,0,0.648917,10
+SQL,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,1,0.435709,10
+SQL,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,2,0.359791,10
+SQL,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,3,0.30125,10
+SQL,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,4,0.290083,10
+SQL,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,5,0.287667,10
+SQL,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,0,0.571125,1
+SQL,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,1,0.5665,1
+SQL,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,2,0.56525,1
+SQL,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,3,0.56175,1
+SQL,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,4,0.564292,1
+SQL,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,5,0.567167,1
+SQL,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,0,0.339917,10
+SQL,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,1,0.1895,10
+SQL,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,2,0.188084,10
+SQL,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,3,0.186625,10
+SQL,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,4,0.179167,10
+SQL,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,5,0.183167,10
+SQL,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,0,0.318667,1
+SQL,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,1,0.311542,1
+SQL,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,2,0.311542,1
+SQL,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,3,0.320333,1
+SQL,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,4,0.31325,1
+SQL,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,5,0.318,1
+SQL,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,0,0.09825,10
+SQL,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,1,0.056,10
+SQL,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,2,0.053209,10
+SQL,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,3,0.051834,10
+SQL,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,4,0.050792,10
+SQL,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,5,0.050375,10
+SQL,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,0,0.06275,1
+SQL,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,1,0.062,1
+SQL,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,2,0.061625,1
+SQL,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,3,0.061417,1
+SQL,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,4,0.0615,1
+SQL,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,5,0.061833,1
+SQL,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,0,0.23675,10
+SQL,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,1,0.146875,10
+SQL,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,2,0.143375,10
+SQL,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,3,0.140959,10
+SQL,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,4,0.17325,10
+SQL,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,5,0.294,10
+SQL,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,0,0.259917,1
+SQL,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,1,0.245917,1
+SQL,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,2,0.211959,1
+SQL,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,3,0.209042,1
+SQL,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,4,0.229209,1
+SQL,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,5,0.216917,1
+SQL,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,0,0.264833,10
+SQL,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,1,0.149083,10
+SQL,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,2,0.138209,10
+SQL,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,3,0.135959,10
+SQL,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,4,0.13425,10
+SQL,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,5,0.133333,10
+SQL,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,0,0.215334,1
+SQL,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,1,0.214583,1
+SQL,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,2,0.213959,1
+SQL,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,3,0.224333,1
+SQL,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,4,0.212333,1
+SQL,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,5,0.216959,1
+SQL,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,0,0.050917,10
+SQL,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,1,0.030083,10
+SQL,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,2,0.028208,10
+SQL,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,3,0.027,10
+SQL,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,4,0.026583,10
+SQL,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,5,0.026375,10
+SQL,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,0,0.027917,1
+SQL,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,1,0.026875,1
+SQL,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,2,0.026417,1
+SQL,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,3,0.026166,1
+SQL,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,4,0.025916,1
+SQL,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,5,0.025917,1
+SQL,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,0,0.025042,10
+SQL,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,1,0.013583,10
+SQL,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,2,0.012542,10
+SQL,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,3,0.01225,10
+SQL,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,4,0.011667,10
+SQL,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,5,0.011458,10
+SQL,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,0,0.008917,1
+SQL,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,1,0.008125,1
+SQL,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,2,0.008,1
+SQL,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,3,0.008042,1
+SQL,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,4,0.007875,1
+SQL,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,5,0.007791,1
+SQL,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,0,0.544334,10
+SQL,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,1,0.311917,10
+SQL,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,2,0.242167,10
+SQL,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,3,0.232584,10
+SQL,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,4,0.231042,10
+SQL,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,5,0.242292,10
+SQL,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,0,0.407541,1
+SQL,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,1,0.412041,1
+SQL,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,2,0.414791,1
+SQL,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,3,0.399459,1
+SQL,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,4,0.398792,1
+SQL,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,5,0.398667,1
+SQL,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,0,0.02075,10
+SQL,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,1,0.01425,10
+SQL,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,2,0.0135,10
+SQL,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,3,0.013125,10
+SQL,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,4,0.013,10
+SQL,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,5,0.012833,10
+SQL,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,0,0.010583,1
+SQL,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,1,0.009791,1
+SQL,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,2,0.009583,1
+SQL,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,3,0.009375,1
+SQL,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,4,0.009292,1
+SQL,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,5,0.009333,1
+SQL,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,0,0.150292,10
+SQL,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,1,0.074083,10
+SQL,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,2,0.070917,10
+SQL,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,3,0.0695,10
+SQL,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,4,0.068083,10
+SQL,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,5,0.067167,10
+SQL,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,0,0.091709,1
+SQL,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,1,0.093458,1
+SQL,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,2,0.0895,1
+SQL,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,3,0.089583,1
+SQL,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,4,0.088958,1
+SQL,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,5,0.088708,1
+SQL,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,0,0.571875,10
+SQL,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,1,0.263417,10
+SQL,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,2,0.215584,10
+SQL,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,3,0.210292,10
+SQL,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,4,0.21475,10
+SQL,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,5,0.206834,10
+SQL,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,0,0.358917,1
+SQL,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,1,0.367625,1
+SQL,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,2,0.356791,1
+SQL,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,3,0.36175,1
+SQL,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,4,0.350417,1
+SQL,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,5,0.351625,1
+SQL,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,0,0.127792,10
+SQL,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,1,0.073042,10
+SQL,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,2,0.070834,10
+SQL,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,3,0.068875,10
+SQL,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,4,0.068125,10
+SQL,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,5,0.067416,10
+SQL,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,0,0.091834,1
+SQL,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,1,0.091375,1
+SQL,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,2,0.090625,1
+SQL,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,3,0.090791,1
+SQL,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,4,0.089917,1
+SQL,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,5,0.089541,1
+SQL,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,0,0.126917,10
+SQL,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,1,0.065625,10
+SQL,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,2,0.068,10
+SQL,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,3,0.061542,10
+SQL,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,4,0.066083,10
+SQL,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,5,0.062458,10
+SQL,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,0,0.077625,1
+SQL,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,1,0.076416,1
+SQL,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,2,0.076292,1
+SQL,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,3,0.075875,1
+SQL,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,4,0.075375,1
+SQL,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,5,0.075667,1
+SQL,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,0,0.2055,10
+SQL,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,1,0.119375,10
+SQL,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,2,0.122084,10
+SQL,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,3,0.113459,10
+SQL,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,4,0.112792,10
+SQL,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,5,0.112625,10
+SQL,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,0,0.192458,1
+SQL,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,1,0.286417,1
+SQL,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,2,0.223916,1
+SQL,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,3,0.201084,1
+SQL,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,4,0.193084,1
+SQL,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,5,0.166625,1
+SQL,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,0,0.104375,10
+SQL,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,1,0.039875,10
+SQL,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,2,0.036958,10
+SQL,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,3,0.036291,10
+SQL,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,4,0.036042,10
+SQL,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,5,0.035709,10
+SQL,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,0,0.040792,1
+SQL,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,1,0.039125,1
+SQL,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,2,0.042333,1
+SQL,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,3,0.045,1
+SQL,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,4,0.043292,1
+SQL,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,5,0.038416,1
+SQL,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,0,0.025708,10
+SQL,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,1,0.014583,10
+SQL,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,2,0.013416,10
+SQL,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,3,0.013166,10
+SQL,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,4,0.02075,10
+SQL,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,5,0.012083,10
+SQL,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,0,0.009583,1
+SQL,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,1,0.009083,1
+SQL,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,2,0.014,1
+SQL,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,3,0.00925,1
+SQL,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,4,0.008709,1
+SQL,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,5,0.008875,1
+SQL,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,0,0.258917,10
+SQL,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,1,0.142583,10
+SQL,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,2,0.135292,10
+SQL,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,3,0.132875,10
+SQL,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,4,0.131166,10
+SQL,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,5,0.133959,10
+SQL,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,0,0.208583,1
+SQL,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,1,0.207834,1
+SQL,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,2,0.206584,1
+SQL,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,3,0.20825,1
+SQL,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,4,0.206166,1
+SQL,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,5,0.206,1
+SQL,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,0,0.13575,10
+SQL,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,1,0.070458,10
+SQL,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,2,0.068083,10
+SQL,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,3,0.066875,10
+SQL,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,4,0.065708,10
+SQL,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,5,0.064667,10
+SQL,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,0,0.086208,1
+SQL,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,1,0.084875,1
+SQL,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,2,0.084333,1
+SQL,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,3,0.0895,1
+SQL,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,4,0.086625,1
+SQL,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,5,0.083,1
+SQL,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,0,0.118083,10
+SQL,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,1,0.060417,10
+SQL,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,2,0.058042,10
+SQL,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,3,0.056334,10
+SQL,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,4,0.055208,10
+SQL,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,5,0.062083,10
+SQL,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,0,0.068958,1
+SQL,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,1,0.067416,1
+SQL,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,2,0.067708,1
+SQL,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,3,0.066709,1
+SQL,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,4,0.066333,1
+SQL,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,5,0.066208,1
+Adjacency graph,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,0,0.003416,10
+Adjacency graph,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,1,0.000417,10
+Adjacency graph,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,2,0.000292,10
+Adjacency graph,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,3,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,0,0.000833,1
+Adjacency graph,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,1,0.000208,1
+Adjacency graph,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,2,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,3,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,4,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,0,0.001833,10
+Adjacency graph,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,1,0.00025,10
+Adjacency graph,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,2,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,3,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,4,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,5,0.000166,10
+Adjacency graph,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,1,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,2,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,4,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,5,0.000166,1
+Adjacency graph,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,0,0.001208,10
+Adjacency graph,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,1,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,2,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,3,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,0,0.000333,1
+Adjacency graph,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,1,0.00025,1
+Adjacency graph,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,4,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,0,0.002,10
+Adjacency graph,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,2,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,3,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,5,0.000208,10
+Adjacency graph,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,0,0.000541,1
+Adjacency graph,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,2,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,3,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,0,0.001083,10
+Adjacency graph,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,1,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,2,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,3,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,4,0.00025,10
+Adjacency graph,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,5,0.000208,10
+Adjacency graph,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,0,0.000209,1
+Adjacency graph,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,1,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,4,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,0,0.001,10
+Adjacency graph,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,1,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,3,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,4,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,0,0.000208,1
+Adjacency graph,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,1,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,2,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,3,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,4,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,0,0.001291,10
+Adjacency graph,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,3,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,0,0.000375,1
+Adjacency graph,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,3,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,4,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,0,0.0015,10
+Adjacency graph,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,2,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,3,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,4,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,5,0.000209,10
+Adjacency graph,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,0,0.000209,1
+Adjacency graph,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,1,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,2,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,3,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,5,0.000167,1
+Adjacency graph,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,0,0.001,10
+Adjacency graph,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,1,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,3,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,0,0.00025,1
+Adjacency graph,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,2,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,3,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,5,0.000166,1
+Adjacency graph,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,0,0.000417,10
+Adjacency graph,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,1,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,2,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,3,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,4,0.000125,10
+Adjacency graph,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,0,0.001208,1
+Adjacency graph,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,2,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,3,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,4,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,5,0.000167,1
+Adjacency graph,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,0,0.000917,10
+Adjacency graph,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,3,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,4,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,5,0.000208,10
+Adjacency graph,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,0,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,3,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,5,0.000166,1
+Adjacency graph,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,0,0.001042,10
+Adjacency graph,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,2,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,3,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,0,0.000291,1
+Adjacency graph,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,2,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,0,0.000959,10
+Adjacency graph,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,2,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,3,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,4,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,2,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,4,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,0,0.000959,10
+Adjacency graph,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,1,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,2,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,3,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,5,0.000166,10
+Adjacency graph,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,1,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,0,0.00125,10
+Adjacency graph,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,1,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,2,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,3,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,4,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,5,0.000666,10
+Adjacency graph,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,0,0.000209,1
+Adjacency graph,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,1,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,3,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,0,0.000958,10
+Adjacency graph,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,3,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,4,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,5,0.000166,10
+Adjacency graph,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,1,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,4,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,0,0.0005,10
+Adjacency graph,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,1,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,2,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,3,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,5,0.000208,10
+Adjacency graph,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,0,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,1,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,4,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,0,0.000667,10
+Adjacency graph,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,1,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,2,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,3,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,0,0.000208,1
+Adjacency graph,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,1,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,2,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,4,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,5,0.000167,1
+Adjacency graph,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,0,0.000917,10
+Adjacency graph,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,2,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,3,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,4,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,5,0.000208,10
+Adjacency graph,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,0,0.000208,1
+Adjacency graph,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,0,0.001208,10
+Adjacency graph,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,3,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,1,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,3,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,0,0.000833,10
+Adjacency graph,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,1,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,2,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,3,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,5,0.000208,10
+Adjacency graph,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,0,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,2,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,5,0.000167,1
+Adjacency graph,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,0,0.000583,10
+Adjacency graph,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,1,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,2,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,3,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,4,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,5,0.000209,10
+Adjacency graph,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,2,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,4,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,5,0.000166,1
+Adjacency graph,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,0,0.000417,10
+Adjacency graph,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,1,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,3,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,4,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,1,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,2,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,5,0.000167,1
+Adjacency graph,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,0,0.000583,10
+Adjacency graph,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,1,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,3,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,1,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,2,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,3,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,0,0.000458,10
+Adjacency graph,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,1,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,2,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,3,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,0,0.000208,1
+Adjacency graph,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,2,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,5,0.000167,1
+Adjacency graph,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,0,0.0005,10
+Adjacency graph,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,1,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,3,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,4,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,1,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,2,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,0,0.000375,10
+Adjacency graph,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,1,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,2,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,3,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,4,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,0,0.000209,1
+Adjacency graph,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,1,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,2,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,4,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,0,0.000458,10
+Adjacency graph,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,1,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,2,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,3,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,4,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,5,0.000209,10
+Adjacency graph,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,5,0.000166,1
+Adjacency graph,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,0,0.001208,10
+Adjacency graph,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,1,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,3,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,0,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,1,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,0,0.000959,10
+Adjacency graph,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,3,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,1,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,2,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,3,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,0,0.000875,10
+Adjacency graph,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,1,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,2,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,3,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,4,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,2,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,3,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,4,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,5,0.000167,1
+Adjacency graph,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,0,0.000833,10
+Adjacency graph,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,3,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,4,0.000292,10
+Adjacency graph,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,1,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,3,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,0,0.001959,10
+Adjacency graph,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,2,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,3,0.000209,10
+Adjacency graph,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,4,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,5,0.000209,10
+Adjacency graph,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,3,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,0,0.000583,10
+Adjacency graph,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,3,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,4,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,0,0.000208,1
+Adjacency graph,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,1,0.000209,1
+Adjacency graph,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,2,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,3,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,4,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,5,0.000167,1
+Adjacency graph,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,0,0.001667,10
+Adjacency graph,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,1,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,2,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,3,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,4,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,5,0.000167,10
+Adjacency graph,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,0,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,1,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,2,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,3,0.000166,1
+Adjacency graph,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,4,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,5,0.000125,1
+Adjacency graph,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,0,0.000417,10
+Adjacency graph,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,1,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,2,0.000208,10
+Adjacency graph,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,3,0.000167,10
+Adjacency graph,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,4,0.000166,10
+Adjacency graph,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,5,0.000209,10
+Adjacency graph,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,0,0.000209,1
+Adjacency graph,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,1,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,2,0.000125,1
+Adjacency graph,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,3,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,4,0.000167,1
+Adjacency graph,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,5,0.000125,1
+SPARQL,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,0,8.715,10
+SPARQL,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,1,7.542875,10
+SPARQL,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,2,8.181625,10
+SPARQL,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,3,8.227208,10
+SPARQL,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,4,7.022917,10
+SPARQL,top10_criteria_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,5,8.218125,10
+SPARQL,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,0,4.687625,3
+SPARQL,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,1,5.62075,3
+SPARQL,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,2,4.831292,3
+SPARQL,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,3,5.643709,3
+SPARQL,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,4,4.509542,3
+SPARQL,criterion_degree_for_predictor,123,[SOCIAL] > Family_Parenting_and_Household_Systems > Family_and_Household_Services,5,5.848666,3
+SPARQL,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,0,8.073542,10
+SPARQL,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,1,6.759083,10
+SPARQL,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,2,8.151084,10
+SPARQL,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,3,7.780375,10
+SPARQL,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,4,7.169041,10
+SPARQL,top10_criteria_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,5,7.818417,10
+SPARQL,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,0,5.879417,3
+SPARQL,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,1,4.54375,3
+SPARQL,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,2,5.402209,3
+SPARQL,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,3,4.687167,3
+SPARQL,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,4,5.599458,3
+SPARQL,criterion_degree_for_predictor,103,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Cognitive_Trauma_Processing,5,4.460291,3
+SPARQL,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,0,25.621917,10
+SPARQL,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,1,24.070834,10
+SPARQL,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,2,24.29825,10
+SPARQL,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,3,24.231958,10
+SPARQL,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,4,24.00525,10
+SPARQL,top10_criteria_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,5,24.131083,10
+SPARQL,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,0,11.16975,3
+SPARQL,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,1,11.309042,3
+SPARQL,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,2,10.791292,3
+SPARQL,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,3,12.155084,3
+SPARQL,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,4,10.611917,3
+SPARQL,criterion_degree_for_predictor,32,[BIO] > Nutrition_and_Metabolism > Microbiome_Interventions,5,11.95575,3
+SPARQL,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,0,28.024375,10
+SPARQL,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,1,26.594041,10
+SPARQL,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,2,27.101375,10
+SPARQL,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,3,26.773083,10
+SPARQL,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,4,26.917416,10
+SPARQL,top10_criteria_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,5,28.078958,10
+SPARQL,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,0,12.769375,3
+SPARQL,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,1,11.570417,3
+SPARQL,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,2,12.804916,3
+SPARQL,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,3,11.9215,3
+SPARQL,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,4,13.020959,3
+SPARQL,criterion_degree_for_predictor,25,[BIO] > Neuromodulation_and_Neurostimulation > Ultrasound_and_Mechanical_Neuromodulation,5,11.67175,3
+SPARQL,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,0,29.563334,10
+SPARQL,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,1,28.336958,10
+SPARQL,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,2,28.238833,10
+SPARQL,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,3,29.33925,10
+SPARQL,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,4,28.895583,10
+SPARQL,top10_criteria_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,5,28.600125,10
+SPARQL,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,0,12.397416,3
+SPARQL,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,1,13.312833,3
+SPARQL,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,2,12.369333,3
+SPARQL,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,3,13.450834,3
+SPARQL,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,4,12.055625,3
+SPARQL,criterion_degree_for_predictor,20,[BIO] > Neuromodulation_and_Neurostimulation > Sensory_and_Network_Modulation,5,13.559375,3
+SPARQL,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,0,39.676208,10
+SPARQL,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,1,38.015708,10
+SPARQL,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,2,38.468666,10
+SPARQL,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,3,38.958791,10
+SPARQL,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,4,38.268583,10
+SPARQL,top10_criteria_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,5,37.68075,10
+SPARQL,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,0,16.703542,4
+SPARQL,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,1,16.0035,4
+SPARQL,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,2,17.291333,4
+SPARQL,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,3,15.909833,4
+SPARQL,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,4,17.474125,4
+SPARQL,criterion_degree_for_predictor,13,[BIO] > Neuromodulation_and_Neurostimulation > Biofeedback_and_Neurofeedback,5,16.023125,4
+SPARQL,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,0,9.093125,10
+SPARQL,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,1,8.55425,10
+SPARQL,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,2,7.516084,10
+SPARQL,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,3,8.321834,10
+SPARQL,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,4,8.588875,10
+SPARQL,top10_criteria_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,5,7.454458,10
+SPARQL,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,0,5.561833,3
+SPARQL,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,1,4.949834,3
+SPARQL,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,2,5.829083,3
+SPARQL,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,3,4.604375,3
+SPARQL,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,4,5.949042,3
+SPARQL,criterion_degree_for_predictor,121,[SOCIAL] > Digital_Social_Environment > Safety_Privacy_and_Online_Conflict_Support,5,4.725,3
+SPARQL,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,0,15.160417,10
+SPARQL,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,1,14.490459,10
+SPARQL,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,2,14.711375,10
+SPARQL,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,3,14.422666,10
+SPARQL,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,4,13.512292,10
+SPARQL,top10_criteria_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,5,14.5205,10
+SPARQL,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,0,8.247166,3
+SPARQL,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,1,7.159958,3
+SPARQL,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,2,8.242834,3
+SPARQL,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,3,7.168709,3
+SPARQL,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,4,8.146125,3
+SPARQL,criterion_degree_for_predictor,118,[SOCIAL] > Digital_Social_Environment > Digital_Life_Assessment_and_Guardrails,5,7.172959,3
+SPARQL,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,0,9.544916,10
+SPARQL,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,1,9.217459,10
+SPARQL,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,2,8.133042,10
+SPARQL,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,3,9.288209,10
+SPARQL,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,4,9.252875,10
+SPARQL,top10_criteria_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,5,8.157292,10
+SPARQL,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,0,6.189667,3
+SPARQL,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,1,5.077417,3
+SPARQL,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,2,6.044167,3
+SPARQL,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,3,5.08425,3
+SPARQL,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,4,6.159083,3
+SPARQL,criterion_degree_for_predictor,67,[PSYCHO] > Cognitive_Behavioral_Therapies > Schema_Focused_CBT_Derivatives,5,4.922333,3
+SPARQL,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,0,7.852667,10
+SPARQL,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,1,7.484708,10
+SPARQL,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,2,6.336583,10
+SPARQL,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,3,7.796417,10
+SPARQL,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,4,7.254708,10
+SPARQL,top10_criteria_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,5,6.623583,10
+SPARQL,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,0,5.362417,2
+SPARQL,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,1,4.279875,2
+SPARQL,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,2,5.658417,2
+SPARQL,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,3,4.30575,2
+SPARQL,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,4,5.263917,2
+SPARQL,criterion_degree_for_predictor,105,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > Exposure_Based_Trauma_Processing,5,4.441,2
+SPARQL,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,0,7.367791,10
+SPARQL,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,1,6.893916,10
+SPARQL,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,2,6.207042,10
+SPARQL,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,3,7.032458,10
+SPARQL,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,4,7.214458,10
+SPARQL,top10_criteria_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,5,6.009125,10
+SPARQL,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,0,5.200667,2
+SPARQL,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,1,4.390167,2
+SPARQL,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,2,5.328083,2
+SPARQL,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,3,4.098209,2
+SPARQL,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,4,5.094916,2
+SPARQL,criterion_degree_for_predictor,104,[PSYCHO] > Trauma_Memory_Imagery_and_Narrative_Work > EMDR_Informed_Interventions,5,4.438708,2
+SPARQL,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,0,10.382833,10
+SPARQL,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,1,10.314083,10
+SPARQL,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,2,8.916833,10
+SPARQL,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,3,10.453791,10
+SPARQL,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,4,10.13875,10
+SPARQL,top10_criteria_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,5,8.898167,10
+SPARQL,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,0,6.419417,3
+SPARQL,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,1,5.405584,3
+SPARQL,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,2,6.529667,3
+SPARQL,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,3,5.569458,3
+SPARQL,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,4,6.362125,3
+SPARQL,criterion_degree_for_predictor,119,[SOCIAL] > Digital_Social_Environment > Digital_Wellbeing_and_Skills,5,5.2745,3
+SPARQL,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,0,22.535583,10
+SPARQL,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,1,21.938625,10
+SPARQL,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,2,22.648,10
+SPARQL,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,3,21.69175,10
+SPARQL,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,4,21.304125,10
+SPARQL,top10_criteria_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,5,21.167875,10
+SPARQL,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,0,10.694791,3
+SPARQL,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,1,9.627167,3
+SPARQL,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,2,10.940667,3
+SPARQL,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,3,9.95675,3
+SPARQL,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,4,10.601584,3
+SPARQL,criterion_degree_for_predictor,19,[BIO] > Neuromodulation_and_Neurostimulation > Peripheral_Neuromodulation_Family,5,9.743083,3
+SPARQL,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,0,36.0615,10
+SPARQL,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,1,35.062583,10
+SPARQL,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,2,33.742209,10
+SPARQL,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,3,33.343167,10
+SPARQL,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,4,33.175625,10
+SPARQL,top10_criteria_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,5,32.91875,10
+SPARQL,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,0,15.001541,3
+SPARQL,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,1,14.120958,3
+SPARQL,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,2,15.171916,3
+SPARQL,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,3,14.0975,3
+SPARQL,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,4,15.244167,3
+SPARQL,criterion_degree_for_predictor,22,[BIO] > Neuromodulation_and_Neurostimulation > Transcranial_Electrical_Stimulation_Montages,5,13.816875,3
+SPARQL,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,0,6.957125,10
+SPARQL,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,1,6.169292,10
+SPARQL,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,2,5.248458,10
+SPARQL,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,3,6.424667,10
+SPARQL,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,4,5.090209,10
+SPARQL,top10_criteria_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,5,6.464875,10
+SPARQL,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,0,4.790375,2
+SPARQL,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,1,3.742458,2
+SPARQL,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,2,4.763334,2
+SPARQL,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,3,4.133792,2
+SPARQL,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,4,4.794583,2
+SPARQL,criterion_degree_for_predictor,86,[PSYCHO] > Interpersonal_and_Attachment_Therapies > Attachment_Informed_Interventions,5,3.766916,2
+SPARQL,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,0,10.172209,10
+SPARQL,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,1,9.742125,10
+SPARQL,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,2,8.897416,10
+SPARQL,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,3,9.890167,10
+SPARQL,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,4,9.697875,10
+SPARQL,top10_criteria_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,5,8.786666,10
+SPARQL,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,0,6.351041,3
+SPARQL,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,1,5.164792,3
+SPARQL,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,2,6.519875,3
+SPARQL,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,3,5.204,3
+SPARQL,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,4,6.246292,3
+SPARQL,criterion_degree_for_predictor,98,[PSYCHO] > Third_Wave_and_Contextual_Therapies > DBT_Skills_Based_Therapy,5,5.39875,3
+SPARQL,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,0,7.549167,10
+SPARQL,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,1,7.405084,10
+SPARQL,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,2,6.226125,10
+SPARQL,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,3,7.270209,10
+SPARQL,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,4,7.473959,10
+SPARQL,top10_criteria_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,5,6.1935,10
+SPARQL,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,0,5.476917,2
+SPARQL,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,1,4.2655,2
+SPARQL,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,2,5.285042,2
+SPARQL,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,3,4.181417,2
+SPARQL,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,4,5.695959,2
+SPARQL,criterion_degree_for_predictor,143,[SOCIAL] > Work_Education_and_Role_Functioning > Work_and_Occupational_Solutions,5,4.247667,2
+SPARQL,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,0,50.43025,10
+SPARQL,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,1,49.175417,10
+SPARQL,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,2,48.209,10
+SPARQL,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,3,48.814792,10
+SPARQL,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,4,48.480083,10
+SPARQL,top10_criteria_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,5,48.666041,10
+SPARQL,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,0,20.252916,4
+SPARQL,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,1,20.392,4
+SPARQL,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,2,19.564708,4
+SPARQL,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,3,21.06425,4
+SPARQL,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,4,19.594541,4
+SPARQL,criterion_degree_for_predictor,51,[BIO] > Sleep_and_Circadian > Sleep_Supplements,5,20.826584,4
+SPARQL,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,0,32.398959,10
+SPARQL,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,1,30.795625,10
+SPARQL,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,2,30.927375,10
+SPARQL,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,3,30.436333,10
+SPARQL,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,4,30.789875,10
+SPARQL,top10_criteria_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,5,32.042208,10
+SPARQL,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,0,13.816917,3
+SPARQL,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,1,14.348875,3
+SPARQL,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,2,13.385833,3
+SPARQL,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,3,14.576834,3
+SPARQL,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,4,13.102833,3
+SPARQL,criterion_degree_for_predictor,44,[BIO] > Pharmacology_and_Biomedical_Treatments > Sleep_Related_Pharmacotherapy_Classes,5,14.420125,3
+SPARQL,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,0,10.377583,10
+SPARQL,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,1,10.734375,10
+SPARQL,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,2,11.167959,10
+SPARQL,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,3,10.810792,10
+SPARQL,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,4,9.7325,10
+SPARQL,top10_criteria_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,5,10.796,10
+SPARQL,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,0,6.612375,3
+SPARQL,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,1,5.870792,3
+SPARQL,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,2,6.649833,3
+SPARQL,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,3,5.731959,3
+SPARQL,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,4,6.844083,3
+SPARQL,criterion_degree_for_predictor,5,[BIO] > Medical_Physiology_and_Testing > Physiology_and_Somatic_Optimization_Tools,5,5.590875,3
+SPARQL,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,0,25.128792,10
+SPARQL,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,1,23.802917,10
+SPARQL,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,2,24.087,10
+SPARQL,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,3,23.640125,10
+SPARQL,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,4,23.915708,10
+SPARQL,top10_criteria_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,5,24.327375,10
+SPARQL,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,0,10.901667,3
+SPARQL,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,1,11.16125,3
+SPARQL,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,2,10.634791,3
+SPARQL,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,3,11.972875,3
+SPARQL,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,4,10.4285,3
+SPARQL,criterion_degree_for_predictor,31,[BIO] > Nutrition_and_Metabolism > Medical_Nutrition_Therapy_Tools,5,11.840708,3
+SPARQL,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,0,24.604083,10
+SPARQL,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,1,23.907208,10
+SPARQL,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,2,243.181417,10
+SPARQL,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,3,24.172375,10
+SPARQL,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,4,23.450167,10
+SPARQL,top10_criteria_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,5,23.556041,10
+SPARQL,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,0,10.569875,3
+SPARQL,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,1,11.2705,3
+SPARQL,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,2,11.660333,3
+SPARQL,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,3,10.415292,3
+SPARQL,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,4,11.746208,3
+SPARQL,criterion_degree_for_predictor,17,[BIO] > Neuromodulation_and_Neurostimulation > Implantable_Central_Neuromodulation,5,10.582208,3
+SPARQL,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,0,7.587667,10
+SPARQL,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,1,6.523291,10
+SPARQL,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,2,7.367333,10
+SPARQL,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,3,7.152209,10
+SPARQL,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,4,6.624333,10
+SPARQL,top10_criteria_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,5,7.313709,10
+SPARQL,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,0,5.324042,2
+SPARQL,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,1,4.299541,2
+SPARQL,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,2,5.241833,2
+SPARQL,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,3,4.251667,2
+SPARQL,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,4,5.747042,2
+SPARQL,criterion_degree_for_predictor,99,[PSYCHO] > Third_Wave_and_Contextual_Therapies > Functional_Analytic_Behavior_Therapy,5,4.245875,2
+SPARQL,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,0,5.6695,10
+SPARQL,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,1,4.834917,10
+SPARQL,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,2,5.639875,10
+SPARQL,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,3,5.651,10
+SPARQL,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,4,4.804083,10
+SPARQL,top10_criteria_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,5,5.752667,10
+SPARQL,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,0,3.511791,2
+SPARQL,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,1,4.414208,2
+SPARQL,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,2,3.766167,2
+SPARQL,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,3,4.552083,2
+SPARQL,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,4,3.577792,2
+SPARQL,criterion_degree_for_predictor,95,[PSYCHO] > Systemic_Couple_Family_Parenting > Parenting_And_Caregiver_Interventions,5,4.510208,2
+SPARQL,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,0,40.199,10
+SPARQL,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,1,38.716375,10
+SPARQL,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,2,38.357792,10
+SPARQL,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,3,38.249166,10
+SPARQL,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,4,38.846083,10
+SPARQL,top10_criteria_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,5,39.072291,10
+SPARQL,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,0,16.562917,4
+SPARQL,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,1,17.350083,4
+SPARQL,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,2,16.21375,4
+SPARQL,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,3,17.053542,4
+SPARQL,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,4,16.321833,4
+SPARQL,criterion_degree_for_predictor,37,[BIO] > Personalization_and_Monitoring > Wearables_and_Home_Monitoring,5,17.299458,4
+SPARQL,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,0,5.418542,10
+SPARQL,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,1,5.731417,10
+SPARQL,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,2,5.695125,10
+SPARQL,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,3,5.145291,10
+SPARQL,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,4,5.883542,10
+SPARQL,top10_criteria_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,5,4.672584,10
+SPARQL,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,0,4.997125,2
+SPARQL,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,1,3.645541,2
+SPARQL,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,2,4.541209,2
+SPARQL,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,3,3.607333,2
+SPARQL,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,4,5.044792,2
+SPARQL,criterion_degree_for_predictor,94,[PSYCHO] > Systemic_Couple_Family_Parenting > Family_Systems_Interventions,5,3.594875,2
+SPARQL,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,0,13.910583,10
+SPARQL,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,1,13.452792,10
+SPARQL,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,2,13.1765,10
+SPARQL,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,3,12.676125,10
+SPARQL,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,4,13.357083,10
+SPARQL,top10_criteria_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,5,13.605792,10
+SPARQL,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,0,6.711,3
+SPARQL,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,1,7.71625,3
+SPARQL,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,2,6.570041,3
+SPARQL,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,3,7.741583,3
+SPARQL,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,4,6.960625,3
+SPARQL,criterion_degree_for_predictor,62,[PSYCHO] > Cognitive_Behavioral_Therapies > Cognitive_Bias_and_Attention_Modification,5,7.52925,3
+SPARQL,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,0,36.295958,10
+SPARQL,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,1,34.669792,10
+SPARQL,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,2,35.602958,10
+SPARQL,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,3,35.725833,10
+SPARQL,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,4,35.783083,10
+SPARQL,top10_criteria_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,5,34.83175,10
+SPARQL,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,0,15.838791,3
+SPARQL,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,1,14.9095,3
+SPARQL,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,2,15.755125,3
+SPARQL,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,3,14.851542,3
+SPARQL,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,4,15.833333,3
+SPARQL,criterion_degree_for_predictor,7,[BIO] > Movement_and_Bodywork > Balance_and_Coordination_Modalities,5,14.7245,3
+SPARQL,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,0,13.96025,10
+SPARQL,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,1,13.497542,10
+SPARQL,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,2,12.425208,10
+SPARQL,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,3,13.198333,10
+SPARQL,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,4,13.598292,10
+SPARQL,top10_criteria_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,5,13.155666,10
+SPARQL,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,0,7.468833,3
+SPARQL,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,1,7.654334,3
+SPARQL,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,2,6.982459,3
+SPARQL,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,3,7.711833,3
+SPARQL,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,4,7.001125,3
+SPARQL,criterion_degree_for_predictor,0,[BIO] > Environment_and_Exposure > Air_Quality,5,7.797334,3
+SPARQL,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,0,11.514291,10
+SPARQL,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,1,12.374083,10
+SPARQL,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,2,12.005917,10
+SPARQL,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,3,12.385125,10
+SPARQL,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,4,11.186167,10
+SPARQL,top10_criteria_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,5,11.709916,10
+SPARQL,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,0,7.46725,3
+SPARQL,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,1,6.068041,3
+SPARQL,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,2,7.305875,3
+SPARQL,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,3,6.118,3
+SPARQL,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,4,7.02475,3
+SPARQL,criterion_degree_for_predictor,57,[PSYCHO] > Brief_and_Motivational_Approaches > Motivational_Interviewing_Approach,5,6.515625,3
+SPARQL,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,0,20.739417,10
+SPARQL,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,1,19.926708,10
+SPARQL,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,2,19.823125,10
+SPARQL,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,3,20.199292,10
+SPARQL,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,4,19.956375,10
+SPARQL,top10_criteria_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,5,20.0705,10
+SPARQL,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,0,9.752875,3
+SPARQL,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,1,10.105417,3
+SPARQL,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,2,9.328333,3
+SPARQL,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,3,10.260708,3
+SPARQL,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,4,9.430833,3
+SPARQL,criterion_degree_for_predictor,75,[PSYCHO] > Foundations_and_Common_Factors > Psychoeducation_Modules,5,10.471458,3
+SPARQL,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,0,7.817459,10
+SPARQL,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,1,8.940834,10
+SPARQL,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,2,8.736375,10
+SPARQL,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,3,7.681416,10
+SPARQL,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,4,8.482917,10
+SPARQL,top10_criteria_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,5,8.791708,10
+SPARQL,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,0,4.864,3
+SPARQL,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,1,5.710666,3
+SPARQL,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,2,4.967083,3
+SPARQL,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,3,5.904583,3
+SPARQL,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,4,4.746708,3
+SPARQL,criterion_degree_for_predictor,116,[SOCIAL] > Culture_Identity_and_Social_Inclusion > Identity_and_Belonging_Assessment_and_Planning,5,5.946667,3
+SPARQL,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,0,4.968834,10
+SPARQL,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,1,5.710125,10
+SPARQL,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,2,6.114375,10
+SPARQL,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,3,4.713375,10
+SPARQL,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,4,5.770125,10
+SPARQL,top10_criteria_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,5,4.78275,10
+SPARQL,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,0,4.648542,2
+SPARQL,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,1,3.58775,2
+SPARQL,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,2,4.524916,2
+SPARQL,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,3,4.904375,2
+SPARQL,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,4,3.705417,2
+SPARQL,criterion_degree_for_predictor,81,[PSYCHO] > Insight_Oriented_Therapies > Mentalization_Based_Interventions,5,4.589333,2
+SPARQL,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,0,23.961958,10
+SPARQL,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,1,23.267167,10
+SPARQL,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,2,21.920958,10
+SPARQL,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,3,23.394875,10
+SPARQL,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,4,22.770084,10
+SPARQL,top10_criteria_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,5,22.664166,10
+SPARQL,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,0,11.6945,3
+SPARQL,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,1,10.881208,3
+SPARQL,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,2,11.466125,3
+SPARQL,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,3,10.59075,3
+SPARQL,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,4,11.575541,3
+SPARQL,criterion_degree_for_predictor,18,[BIO] > Neuromodulation_and_Neurostimulation > Light_and_Photo_Neuromodulation,5,10.205791,3
+SPARQL,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,0,13.14925,10
+SPARQL,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,1,12.561583,10
+SPARQL,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,2,12.626875,10
+SPARQL,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,3,11.44275,10
+SPARQL,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,4,12.617667,10
+SPARQL,top10_criteria_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,5,12.598041,10
+SPARQL,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,0,6.455875,3
+SPARQL,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,1,7.429584,3
+SPARQL,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,2,6.343167,3
+SPARQL,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,3,7.457458,3
+SPARQL,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,4,6.492875,3
+SPARQL,criterion_degree_for_predictor,137,[SOCIAL] > Social_Support_and_Belonging > Support_Network_Development,5,7.328208,3
+SPARQL,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,0,11.824375,10
+SPARQL,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,1,10.352583,10
+SPARQL,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,2,11.065625,10
+SPARQL,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,3,11.386125,10
+SPARQL,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,4,11.224834,10
+SPARQL,top10_criteria_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,5,10.18475,10
+SPARQL,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,0,7.00225,3
+SPARQL,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,1,5.841542,3
+SPARQL,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,2,6.769792,3
+SPARQL,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,3,6.099958,3
+SPARQL,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,4,6.918959,3
+SPARQL,criterion_degree_for_predictor,76,[PSYCHO] > Foundations_and_Common_Factors > Therapeutic_Relationship_and_Context,5,5.983042,3

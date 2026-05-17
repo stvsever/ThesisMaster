@@ -1,0 +1,14 @@
+{
+  "edge_csv": "/Users/stijnvanseveren/PythonProjects/MASTERPROEF/src/backend/utils/official/overall_mapping_analyses/utils/clustering_analysis/results/predictor_to_criterion/data/edges_raw.csv",
+  "positive_edges": 61053,
+  "predictors": 144,
+  "criterion_clusters": 2528,
+  "query_cases": 72,
+  "repeats_per_case": 6,
+  "notes": [
+    "Load/build time is excluded.",
+    "SQL uses SQLite as a local proxy for PostgreSQL-style relational queries.",
+    "Adjacency graph is a local proxy for graph/Cypher-style neighborhood queries.",
+    "SPARQL uses RDFLib over a generated mapping graph."
+  ]
+}

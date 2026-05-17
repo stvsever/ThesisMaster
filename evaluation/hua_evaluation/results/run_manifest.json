@@ -1,0 +1,17 @@
+{
+  "study_a_n_runs": 720,
+  "study_b_n_runs": 60,
+  "study_a_n_per_method": 240,
+  "study_a_methods": [
+    "Ledoit-Wolf",
+    "stationary-gVAR",
+    "tv-gVAR"
+  ],
+  "study_a_regimes": [
+    "abrupt",
+    "periodic",
+    "smooth",
+    "stationary"
+  ],
+  "figure_path": "evaluation/hua_evaluation/results/figure_hua_evaluation.png"
+}
