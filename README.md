@@ -62,9 +62,9 @@ This separation keeps scientific validation transparent without mixing support t
 
 ## 🔁 End-to-End Stage Map
 
-PHOENIX is a modular, multi-agent system that starts from free-text complaints, builds an initial observation model, analyzes time-series dynamics, proposes targets/interventions, and packages iterative updates for the next cycle.
+PHOENIX is a modular, multi-agent system that starts from a free-text mental-health complaint, builds an initial observation model, analyses idiographic time-series dynamics through the Hierarchical Updating Algorithm (HUA), proposes biopsychosocially-balanced treatment targets, generates a HAPA-grounded digital intervention, and packages iterative updates for the next cycle. Every generative actor stage is paired with a critic agent that issues a bounded PASS / REVISE decision on a weighted composite score, which gives the full pipeline an auditable trail without sacrificing generative flexibility.
 
-![PHOENIX engine — Multi Agent System Architecture](src/backend/overview/create_flowchart.png)
+![PHOENIX engine — Sequential Flowchart of the Multi-Agent System Architecture (actor–critic per stage; readiness / time-series / impact / candidate-selector flow)](src/backend/overview/create_flowchart.png)
 
 ---
 
@@ -273,7 +273,9 @@ Runtime note:
 
 ## 🖥️ Run PHOENIX from Frontend
 
-Use the following command to start the Flask frontend:
+> ⚠️ **The Flask frontend (`src/frontend/`) is currently kept out of this public repository while it is under active development.** Once the UI layer reaches a stable, demonstration-ready state, it will be pushed alongside the backend. Until then, the section below documents the intended entry point and feature set, but the corresponding source files are not part of the tracked codebase. Reach out if you need early access for evaluation purposes.
+
+Use the following command (once the frontend is published) to start the Flask UI:
 
 ```bash
 python src/frontend/app.py
@@ -283,7 +285,7 @@ python evaluation/integrated_pipeline/run_pipeline.py --ui
 
 Open [http://127.0.0.1:5050](http://127.0.0.1:5050).
 
-Frontend provides:
+Planned frontend features:
 - Intake for complaint/person/environment context
 - Live component status and streaming logs
 - One-click full end-to-end run from free-text complaint (with iterative cycle controls)
