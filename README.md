@@ -21,21 +21,23 @@
 
 ## 📋 Table of Contents
 
-- [🏛️ Academic Context](#-academic-context)
-- [🧭 PHOENIX Scope](#-phoenix-scope)
-- [🔁 End-to-End Stage Map](#-end-to-end-stage-map)
-- [🐦‍🔥 PHOENIX Ontology](#-phoenix-ontology-with-llm-based-mappings)
-- [🏗️ Technical Architecture](#-technical-architecture)
-- [🚀 Quick Setup](#-quick-setup-of-phoenix-engine)
-- [🗂️ Repository Structure](#-repository-structure)
-- [💻 Run from CLI](#-run-phoenix-from-cli)
-- [🖥️ Run from Frontend](#-run-phoenix-from-frontend)
-- [📦 Outputs and Validation](#-outputs-and-validation-targets)
-- [📊 PHOENIX Engine Evaluation Framework](#-phoenix-engine-evaluation-framework)
-- [✅ Quality Assurance and CI/CD](#-quality-assurance-and-cicd)
-- [📜 License](#-license)
+- [🏛️ Academic Context](#academic-context)
+- [🧭 PHOENIX Scope](#phoenix-scope)
+- [🔁 End-to-End Stage Map](#end-to-end-stage-map)
+- [🐦‍🔥 PHOENIX Ontology](#phoenix-ontology)
+- [🏗️ Technical Architecture](#technical-architecture)
+- [🚀 Quick Setup](#quick-setup)
+- [🗂️ Repository Structure](#repository-structure)
+- [💻 Run from CLI](#run-from-cli)
+- [🖥️ Run from Frontend](#run-from-frontend)
+- [📦 Outputs and Validation](#outputs-and-validation)
+- [📊 PHOENIX Engine Evaluation Framework](#phoenix-engine-evaluation-framework)
+- [✅ Quality Assurance and CI/CD](#quality-assurance-and-cicd)
+- [📜 License](#license)
 
 ---
+
+<a id="academic-context"></a>
 
 ## 🏛️ Academic Context
 
@@ -49,6 +51,8 @@ This research-grade software is being created for a Ghent University **master's 
 
 ---
 
+<a id="phoenix-scope"></a>
+
 ## 🧭 PHOENIX Scope
 
 PHOENIX separates two concerns:
@@ -60,6 +64,8 @@ This separation keeps scientific validation transparent without mixing support t
 
 ---
 
+<a id="end-to-end-stage-map"></a>
+
 ## 🔁 End-to-End Stage Map
 
 PHOENIX is a modular, multi-agent system that starts from a free-text mental-health complaint, builds an initial observation model, analyses idiographic time-series dynamics through the Hierarchical Updating Algorithm (HUA), proposes biopsychosocially-balanced treatment targets, generates a HAPA-grounded digital intervention, and packages iterative updates for the next cycle. Every generative actor stage is paired with a critic agent that issues a bounded PASS / REVISE decision on a weighted composite score, which gives the full pipeline an auditable trail without sacrificing generative flexibility.
@@ -68,13 +74,17 @@ PHOENIX is a modular, multi-agent system that starts from a free-text mental-hea
 
 ---
 
-## 🐦‍🔥 PHOENIX Ontology with LLM-based Mappings
+<a id="phoenix-ontology"></a>
+
+## 🐦‍🔥 PHOENIX Ontology
 
 Five sub-ontologies constrain all reasoning and output structure across the PHOENIX pipeline: (1) **CRITERION** (i.e., mental health problem space: DSM-5TR, ICD-10, RDoC-701, non-clinical wellbeing), (2) **PREDICTOR** (i.e., intervention solution space: BIO / PSYCHO / SOCIAL branches), (3) **PERSON** (i.e., stable individual-level attributes across 18 domains), (4) **CONTEXT** (i.e., dynamic situational states: internal and external environment), and (5) **HAPA** (i.e., behaviour change scaffold: motivation phase, volition phase, barriers taxonomy, coping strategy library). See [`src/backend/SystemComponents/PHOENIX_ontology/`](src/backend/SystemComponents/PHOENIX_ontology/README.md) for the full structured breakdown.
 
 ![PHOENIX Aggregated Ontology](src/backend/SystemComponents/PHOENIX_ontology/aggretated/phoenix_ontology_root_v1.png)
 
 ---
+
+<a id="technical-architecture"></a>
 
 ## 🏗️ Technical Architecture
 
@@ -135,7 +145,9 @@ PHOENIX implements a breadth-first iterative algorithm across cycles:
 
 ---
 
-## 🚀 Quick Setup of PHOENIX engine
+<a id="quick-setup"></a>
+
+## 🚀 Quick Setup
 
 ### 1. Clone repository
 
@@ -197,6 +209,8 @@ This starts the Flask frontend on [http://127.0.0.1:5050](http://127.0.0.1:5050)
 
 ---
 
+<a id="repository-structure"></a>
+
 ## 🗂️ Repository Structure
 
 A client-side graph creator (GitNexus) was used to generate a comprehensive knowledge graph of the entire codebase; its component interactions are provided below:
@@ -228,7 +242,9 @@ MASTERPROEF/
 
 ---
 
-## 💻 Run PHOENIX from CLI
+<a id="run-from-cli"></a>
+
+## 💻 Run from CLI
 
 ### A. Standard integrated run
 
@@ -271,7 +287,9 @@ Runtime note:
 
 ---
 
-## 🖥️ Run PHOENIX from Frontend
+<a id="run-from-frontend"></a>
+
+## 🖥️ Run from Frontend
 
 > ⚠️ **The Flask frontend (`src/frontend/`) is currently kept out of this public repository while it is under active development.** Once the UI layer reaches a stable, demonstration-ready state, it will be pushed alongside the backend. Until then, the section below documents the intended entry point and feature set, but the corresponding source files are not part of the tracked codebase. Reach out if you need early access for evaluation purposes.
 
@@ -297,7 +315,9 @@ Planned frontend features:
 
 ---
 
-## 📦 Outputs and Validation Targets
+<a id="outputs-and-validation"></a>
+
+## 📦 Outputs and Validation
 
 Integrated outputs are saved under:
 
@@ -319,6 +339,8 @@ Key artifacts to inspect:
 
 ---
 
+<a id="phoenix-engine-evaluation-framework"></a>
+
 ## 📊 PHOENIX Engine Evaluation Framework
 
 The evaluation framework assesses PHOENIX output quality across five clinical tasks using a double-blind LLM-as-judge design. For each of 10 clinical cases, PHOENIX and HCP outputs are independently rated on a bipolar −10 to +10 absolute quality scale across 38 dimensions by a `google/gemini-3.1-flash-lite-preview` judge in three separate runs — without knowledge of source identity — producing 2,340 quality ratings. Effects are quantified via linear mixed-effects models (`quality_score ~ entity + (1|case) + (1|judge_run)`), standardized as Cohen's dz, and tested for equivalence against a ±1.5-point margin.
@@ -339,6 +361,8 @@ python evaluation/survey_analysis/pipeline.py --mode real --judge openrouter --n
 Results are saved under `evaluation/survey_analysis/results/` with publication-ready figures and statistical reports.
 
 ---
+
+<a id="quality-assurance-and-cicd"></a>
 
 ## ✅ Quality Assurance and CI/CD
 
@@ -362,7 +386,9 @@ Schema/contract validation entrypoint:
 
 ---
 
-## 📜️ License
+<a id="license"></a>
+
+## 📜 License
 
 This project is licensed under **GNU General Public License v3.0**. See [`LICENSE`](./LICENSE).
 
