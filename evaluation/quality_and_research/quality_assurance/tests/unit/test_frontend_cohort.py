@@ -2,11 +2,19 @@ from __future__ import annotations
 
 import sys
 import time
+from pathlib import Path
 
 import pytest
 
-pytestmark = pytest.mark.unit
+FRONTEND_PACKAGE_ROOT = Path(__file__).resolve().parents[5] / "src" / "frontend" / "phoenix_frontend"
 
+pytestmark = [
+    pytest.mark.unit,
+    pytest.mark.skipif(
+        not FRONTEND_PACKAGE_ROOT.exists(),
+        reason="src/frontend is intentionally absent from the public repository checkout",
+    ),
+]
 
 
 def test_build_cohort_cases_count_and_variants(repo_root):
