@@ -1,0 +1,43 @@
+{
+  "renderer": "Shared Canvas 2D scene engine",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 174,
+  "from": 0,
+  "to": 174,
+  "audio": "silent",
+  "cases": [
+    {
+      "id": "lana",
+      "file": "renders/mp4/lana_phoenix_full_workflow.mp4",
+      "frames": 4176,
+      "renderSeconds": 163
+    },
+    {
+      "id": "maarten",
+      "file": "renders/mp4/maarten_phoenix_full_workflow.mp4",
+      "frames": 4176,
+      "renderSeconds": 188
+    },
+    {
+      "id": "maya",
+      "file": "renders/mp4/maya_phoenix_full_workflow.mp4",
+      "frames": 4176,
+      "renderSeconds": 173
+    },
+    {
+      "id": "noor",
+      "file": "renders/mp4/noor_phoenix_full_workflow.mp4",
+      "frames": 4176,
+      "renderSeconds": 158
+    },
+    {
+      "id": "elias",
+      "file": "renders/mp4/elias_phoenix_full_workflow.mp4",
+      "frames": 4176,
+      "renderSeconds": 159
+    }
+  ],
+  "notice": "Authored fictional cases and simulated data. Ontology paths are repository-derived. This is an explanatory demonstration, not an engine run, diagnosis, or clinical efficacy study."
+}

@@ -1,11 +1,10 @@
-# Keep only the public Lana demonstration assets in this folder.
-# Local rendering scripts, the storyboard, the second case, and any scratch
-# frame output are development-only and stay out of git.
-
-scripts/
-storyboard/
+node_modules/
+.DS_Store
 renders/frames/
+renders/qa/
+*.log
 
-# Maarten case is kept local for thesis development
-renders/mp4/maarten_*
-renders/posters/maarten_*
+# Publish the poster frames even when the repository ignores generic PNG files.
+!renders/posters/*.png
+renders/mp4/*.partial.mp4
+renders/mp4/*_preview*.mp4

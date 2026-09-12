@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#0b101a" />
+    <meta
+      name="description"
+      content="Explore the complete PHOENIX workflow across five fictional cases, from free-text complaint to adaptive intervention and iterative memory."
+    />
+    <title>PHOENIX | Demonstration studio</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="app/styles.css" />
+  </head>
+  <body>
+    <div class="studio">
+      <aside class="controls" id="controls" aria-label="Demonstration controls">
+        <a class="brand" href="./" aria-label="PHOENIX studio home"
+          ><img src="assets/favicon.svg" width="36" height="36" alt="" /><span
+            >PHOENIX<small>DEMONSTRATION STUDIO</small></span
+          ></a
+        >
+        <div class="control-scroll">
+          <div class="section-label">01 / SELECT A STORY</div>
+          <label class="sr-only" for="case">Fictional case</label
+          ><select id="case"></select>
+          <p class="case-note" id="case-note"></p>
+          <div class="mode-switch">
+            <button id="film" class="selected">Watch the film</button
+            ><button id="explore">Explore the model</button>
+          </div>
+          <div class="section-label">02 / DIRECT THE SEQUENCE</div>
+          <label for="chapter"
+            >Chapter <span id="chapter-count">01 / 16</span></label
+          ><select id="chapter"></select>
+          <div class="control-pair">
+            <div>
+              <label for="speed">Playback</label
+              ><select id="speed">
+                <option value="0.5">0.5× slow</option>
+                <option value="0.75">0.75×</option>
+                <option value="1" selected>1× original</option>
+                <option value="1.5">1.5×</option>
+                <option value="2">2× fast</option>
+              </select>
+            </div>
+            <div>
+              <label for="cycle">Cycle</label
+              ><select id="cycle">
+                <option value="1">1 · initial</option>
+                <option value="2">2 · follow-up</option>
+                <option value="3">3 · continued</option>
+              </select>
+            </div>
+          </div>
+          <label for="zoom"
+            >Camera zoom <output id="zoom-value">100%</output></label
+          ><input
+            id="zoom"
+            type="range"
+            min="0.6"
+            max="2.4"
+            step="0.05"
+            value="1"
+          />
+          <div class="toggle-row">
+            <label for="autoCamera">Directed camera</label
+            ><input id="autoCamera" type="checkbox" checked role="switch" />
+          </div>
+          <p class="micro-note">
+            Camera controls apply to the hierarchy, ancestry and search
+            chapters.
+          </p>
+          <button class="quiet-button" id="reset-camera">
+            Reset view <span>↗</span>
+          </button>
+          <div class="section-label">03 / REVEAL THE HIERARCHY</div>
+          <div class="control-pair">
+            <div>
+              <label for="branch">Branch</label
+              ><select id="branch">
+                <option value="ALL">All three</option>
+                <option value="BIO">BIO</option>
+                <option value="PSYCHO">PSYCHO</option>
+                <option value="SOCIAL">SOCIAL</option>
+              </select>
+            </div>
+            <div>
+              <label for="density">Detail</label
+              ><select id="density">
+                <option value="320">Essential</option>
+                <option value="720" selected>Rich</option>
+                <option value="1440">Dense</option>
+                <option value="8000">Full catalogue</option>
+              </select>
+            </div>
+          </div>
+          <label for="depth"
+            >Visible depth <output id="depth-value">10 levels</output></label
+          ><input id="depth" type="range" min="2" max="10" value="10" />
+          <div class="toggle-row">
+            <label for="labels">Branch labels</label
+            ><input id="labels" type="checkbox" checked role="switch" />
+          </div>
+          <div class="toggle-row">
+            <label for="particles">Traversal particles</label
+            ><input id="particles" type="checkbox" checked role="switch" />
+          </div>
+          <div class="section-label">04 / CHANGE THE ASSUMPTIONS</div>
+          <label for="compare">Comparison policy</label
+          ><select id="compare">
+            <option value="psychodynamic">Psychodynamic branch focus</option>
+            <option value="cbt">CBT branch focus</option>
+            <option value="integrative">Integrative, score-first</option>
+          </select>
+          <label for="budget"
+            >Candidate budget <output id="budget-value">36 slots</output></label
+          ><input
+            id="budget"
+            type="range"
+            min="12"
+            max="60"
+            step="3"
+            value="36"
+          />
+          <label for="readiness"
+            >Illustrative readiness
+            <output id="readiness-value">78 / 100</output></label
+          ><input id="readiness" type="range" min="0" max="100" value="78" />
+          <p class="micro-note">
+            Change readiness to see the analysis tier and evidence weighting
+            respond. Runtime decisions use fuller diagnostics.
+          </p>
+          <div class="section-label">05 / PRESENT & EXPORT</div>
+          <div class="toggle-row">
+            <label for="captions">Narrative captions</label
+            ><input id="captions" type="checkbox" checked role="switch" />
+          </div>
+          <div class="toggle-row">
+            <label for="reducedMotion">Reduced motion</label
+            ><input id="reducedMotion" type="checkbox" role="switch" />
+          </div>
+          <div class="toggle-row">
+            <label for="loop">Loop playback</label
+            ><input id="loop" type="checkbox" role="switch" />
+          </div>
+          <div class="control-pair">
+            <button class="quiet-button" id="save-frame">
+              Save PNG <span>↓</span></button
+            ><button class="quiet-button" id="save-session">
+              Save session <span>↓</span>
+            </button>
+          </div>
+          <a
+            class="download-button"
+            id="download-mp4"
+            href="renders/mp4/lana_phoenix_full_workflow.mp4"
+            download
+            >Download case film <span>MP4 ↓</span></a
+          >
+          <button class="quiet-button" id="copy-link">
+            Copy this view <span>↗</span>
+          </button>
+          <button class="quiet-button" id="reset">
+            Reset all controls <span>↺</span>
+          </button>
+          <p class="micro-note">
+            Space: play / pause<br />← →: previous / next chapter<br />F:
+            presentation mode · Esc: exit
+          </p>
+        </div>
+        <div class="sidebar-footer">
+          <span class="status-dot"></span>Local · no account or API needed
+        </div>
+      </aside>
+      <main>
+        <header class="workspace-header">
+          <div>
+            <span class="eyebrow">ENGINE EXPLAINER / V2.0</span>
+            <h1>See the whole story.</h1>
+          </div>
+          <div class="header-actions">
+            <button
+              id="toggle-controls"
+              class="icon-button"
+              aria-controls="controls"
+              aria-expanded="true"
+            >
+              Controls</button
+            ><button id="fullscreen" class="icon-button">
+              Present <span>⤢</span>
+            </button>
+          </div>
+        </header>
+        <section
+          class="screen-area"
+          id="screen-area"
+          aria-label="Presentation stage"
+        >
+          <div class="canvas-wrap" id="canvas-wrap">
+            <canvas
+              id="stage"
+              width="1920"
+              height="1080"
+              tabindex="0"
+              role="img"
+              aria-label="Animated PHOENIX workflow"
+              aria-describedby="scene-description"
+            ></canvas>
+            <div id="loading">Preparing the PHOENIX studio…</div>
+            <div class="node-tooltip" id="tooltip" hidden></div>
+            <button class="exit-present" id="exit-present">
+              Exit presentation ×
+            </button>
+          </div>
+          <div class="transport">
+            <button id="play" class="play-button" aria-label="Play film">
+              <span id="play-icon">▶</span></button
+            ><button
+              id="previous"
+              class="skip-button"
+              aria-label="Previous chapter"
+            >
+              |‹
+            </button>
+            <div class="timeline-block">
+              <div class="timeline-labels">
+                <span id="scene-title">The person</span
+                ><span
+                  ><output id="time-value">00:00</output>
+                  <span class="dim">/ 02:54</span></span
+                >
+              </div>
+              <label class="sr-only" for="timeline">Film position</label
+              ><input
+                id="timeline"
+                type="range"
+                min="0"
+                max="174"
+                step="0.01"
+                value="0"
+              />
+              <div class="chapter-ticks" id="chapter-ticks"></div>
+            </div>
+            <button id="next" class="skip-button" aria-label="Next chapter">
+              ›|</button
+            ><button id="restart" class="skip-button" aria-label="Restart film">
+              ↺
+            </button>
+          </div>
+        </section>
+        <div class="understage">
+          <p>
+            <span class="key-dot bio"></span>BIO<span
+              class="key-dot psycho"
+            ></span
+            >PSYCHO<span class="key-dot social"></span>SOCIAL
+          </p>
+          <span id="sample-count">Real ontology paths · progressive detail</span
+          ><span class="gesture-hint"
+            >Drag to pan · scroll to zoom · select a node</span
+          >
+        </div>
+        <section class="insights">
+          <article class="scene-card">
+            <span class="eyebrow">IN THIS CHAPTER</span>
+            <h2 id="chapter-heading">A person is more than a symptom.</h2>
+            <p id="scene-description">
+              An end-to-end explanation of a complementary reasoning layer for
+              personalised mental health support.
+            </p>
+            <div class="stage-chips" id="stage-chips"></div>
+            <details class="case-transcript">
+              <summary>Read the case and proposed next step</summary>
+              <p id="case-transcript"></p>
+              <p id="plan-transcript"></p>
+            </details>
+          </article>
+          <article class="inspector">
+            <div class="inspector-heading">
+              <span class="eyebrow">PATH INSPECTOR</span
+              ><span class="small-tag" id="node-type">TRACEABLE BY DESIGN</span>
+            </div>
+            <label class="sr-only" for="inspect-candidate"
+              >Inspect a case candidate</label
+            ><select id="inspect-candidate"></select>
+            <h3 id="inspect-title">Select a candidate or graph node</h3>
+            <p id="inspect-path">The complete repository path appears here.</p>
+            <p class="inspector-note" id="inspect-note">
+              Ontology membership is a structural fact. Relevance scores and
+              links are illustrative.
+            </p>
+          </article>
+        </section>
+        <footer class="workspace-footer">
+          <p>
+            Five fictional cases. Simulated evidence. A structural comparison,
+            not a clinical efficacy claim.
+          </p>
+          <a href="README.md" target="_blank" rel="noopener"
+            >Documentation ↗</a
+          >
+        </footer>
+        <div class="toast" id="toast" role="status" hidden></div>
+      </main>
+    </div>
+    <script type="module" src="app/app.js"></script>
+  </body>
+</html>

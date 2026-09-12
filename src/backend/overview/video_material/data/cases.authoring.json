@@ -1,0 +1,654 @@
+[
+  {
+    "id": "lana",
+    "name": "Lana",
+    "age": 34,
+    "role": "ICU nurse",
+    "theme": "Trauma, sleep & access",
+    "color": "#b9a5ff",
+    "initials": "LA",
+    "headline": ["A person is more", "than a symptom."],
+    "complaint": "Since the ICU incident, the same scene returns in my dreams. At work I am always scanning for danger, and the alarms bring a wave of distress. I avoid the corridor where it happened. At home I feel emotionally numb and wake repeatedly through the night. My shifts keep changing, money is tight, and the support line has not called me back.",
+    "person": [
+      "34 years old · ICU nurse",
+      "Values care, privacy and autonomy",
+      "Prefers brief, low-burden support"
+    ],
+    "context": [
+      "Rotating night shifts",
+      "Financial pressure",
+      "Unanswered support referral"
+    ],
+    "criteria": [
+      {
+        "label": "Distressing dreams",
+        "span": "the same scene returns in my dreams",
+        "match": ["adult or adolescent ptsd / recurrent_distressing_dreams"]
+      },
+      {
+        "label": "Hypervigilance",
+        "span": "always scanning for danger",
+        "match": ["adult or adolescent ptsd / hypervigilance"]
+      },
+      {
+        "label": "Cue-linked distress",
+        "span": "the alarms bring a wave of distress",
+        "match": [
+          "adult or adolescent ptsd / psychological_distress_to_trauma_cues"
+        ]
+      },
+      {
+        "label": "Reminder avoidance",
+        "span": "avoid the corridor where it happened",
+        "match": ["adult or adolescent ptsd / avoidance_of_traumatic_reminders"]
+      },
+      {
+        "label": "Emotional numbing",
+        "span": "feel emotionally numb",
+        "match": ["adult or adolescent ptsd / emotional_numbing"]
+      },
+      {
+        "label": "Interrupted sleep",
+        "span": "wake repeatedly through the night",
+        "match": [
+          "sleep-maintenance insomnia / recurrent_intermittent_awakenings"
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "label": "Brief breath reset",
+        "match": ["Night_Awakenings_Support / Brief_Breath_Reset"],
+        "links": [0, 1, 2, 5],
+        "impact": 0.69
+      },
+      {
+        "label": "Sleep diary",
+        "match": ["Circadian_and_Sleep_Tracking / Sleep_Diary"],
+        "links": [0, 5],
+        "impact": 0.74
+      },
+      {
+        "label": "Window of tolerance",
+        "match": [
+          "Stabilization_and_Resourcing / Window_Of_Tolerance_Education"
+        ],
+        "links": [1, 2, 3, 4],
+        "impact": 0.81
+      },
+      {
+        "label": "Consent and pacing",
+        "match": ["Consent_Stop_Rules_And_Pacing_Agreement"],
+        "links": [2, 3],
+        "impact": 0.65
+      },
+      {
+        "label": "Trauma-informed referral",
+        "match": ["Trauma_Informed_Service_Option_Matching"],
+        "links": [0, 2, 3, 4],
+        "impact": 0.88
+      },
+      {
+        "label": "Workplace adjustments",
+        "match": ["Workplace_Accommodations_Request_Support"],
+        "links": [1, 2, 5],
+        "impact": 0.77
+      },
+      {
+        "label": "Transference exploration",
+        "match": ["Core_Techniques / Transference_Exploration"],
+        "links": [4],
+        "impact": 0.42
+      },
+      {
+        "label": "Graded task planning",
+        "match": ["Activation_Design / Graded_Task_Assignment"],
+        "links": [3, 4],
+        "impact": 0.57
+      }
+    ],
+    "signals": ["Sleep disruption", "Cue distress", "Recovery routine"],
+    "readiness": 78,
+    "observations": 126,
+    "missing": 8,
+    "method": "STATIC_gVAR",
+    "networkNote": "Sleep disruption and next-day distress co-vary in this simulated record.",
+    "gate": "Confirm access, consent and stabilisation before considering intensive trauma work.",
+    "revision": "Replace a fixed evening task with a cue that follows the end of each shift.",
+    "hapa": {
+      "phase": "Intention → action",
+      "barrier": "Rotating shifts disrupt a fixed routine.",
+      "when": "After I get home from a shift",
+      "action": "I will try a two-minute settling routine, then log how rested I feel.",
+      "coping": "If the shift runs late, I will use the short version after changing clothes.",
+      "support": "A care navigator helps arrange a trauma-informed appointment.",
+      "check": "Track sleep disruption, cue distress and whether the plan felt manageable."
+    },
+    "next": "Carry forward sleep and distress signals; revisit shift-compatible support.",
+    "question": "Which conditions make recovery possible?"
+  },
+  {
+    "id": "maarten",
+    "name": "Maarten",
+    "age": 47,
+    "role": "Warehouse coordinator",
+    "theme": "Pain, rumination & work",
+    "color": "#8dceff",
+    "initials": "MA",
+    "headline": ["The problem lives", "between the branches."],
+    "complaint": "My back pain makes me afraid to move, and I stop doing things I used to enjoy. The pain wakes me at night and leaves me exhausted in the day. It is becoming hard to do my job. When I lie down, I replay everything that went wrong and cannot shift my attention away. I worry about losing hours at work and paying for appointments.",
+    "person": [
+      "47 years old · warehouse coordinator",
+      "Wants to remain active at work",
+      "Prefers practical, gradual steps"
+    ],
+    "context": [
+      "Physically demanding work",
+      "Variable paid hours",
+      "Cost of care is a constraint"
+    ],
+    "criteria": [
+      {
+        "label": "Fear of movement",
+        "span": "afraid to move",
+        "match": ["chronic low back pain / kinesiophobia_back_pain"]
+      },
+      {
+        "label": "Activity avoidance",
+        "span": "stop doing things I used to enjoy",
+        "match": ["chronic low back pain / pain_related_activity_avoidance"]
+      },
+      {
+        "label": "Pain-related sleep loss",
+        "span": "The pain wakes me at night",
+        "match": ["chronic low back pain / sleep_disturbance_due_to_back_pain"]
+      },
+      {
+        "label": "Persistent fatigue",
+        "span": "exhausted in the day",
+        "match": ["chronic low back pain / fatigue_persistent_related_to_pain"]
+      },
+      {
+        "label": "Work impairment",
+        "span": "hard to do my job",
+        "match": [
+          "chronic low back pain / occupational_impairment_due_to_back_pain"
+        ]
+      },
+      {
+        "label": "Rumination disengagement",
+        "span": "cannot shift my attention away",
+        "match": [
+          "with cognitive rumination / difficulty_disengaging_from_ruminative_thoughts"
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "label": "Pacing service referral",
+        "match": ["Fatigue_And_Pacing_Clinical_Program_Referral"],
+        "links": [0, 1, 3, 4],
+        "impact": 0.85
+      },
+      {
+        "label": "Sleep diary",
+        "match": ["Circadian_and_Sleep_Tracking / Sleep_Diary"],
+        "links": [2, 3],
+        "impact": 0.74
+      },
+      {
+        "label": "Rumination cue interruption",
+        "match": ["Disengage_and_Shift / Rumination_Cue_Interruption"],
+        "links": [2, 5],
+        "impact": 0.79
+      },
+      {
+        "label": "Graded task planning",
+        "match": ["Activation_Design / Graded_Task_Assignment"],
+        "links": [0, 1, 4],
+        "impact": 0.76
+      },
+      {
+        "label": "Workplace adjustments",
+        "match": ["Workplace_Accommodations_Request_Support"],
+        "links": [0, 3, 4],
+        "impact": 0.89
+      },
+      {
+        "label": "Debt advice access",
+        "match": [
+          "Financial_Counseling_and_Protection / Debt_Management_Service"
+        ],
+        "links": [5],
+        "impact": 0.58
+      },
+      {
+        "label": "Transference exploration",
+        "match": ["Core_Techniques / Transference_Exploration"],
+        "links": [5],
+        "impact": 0.39
+      },
+      {
+        "label": "Brief breath reset",
+        "match": ["Night_Awakenings_Support / Brief_Breath_Reset"],
+        "links": [2, 5],
+        "impact": 0.55
+      }
+    ],
+    "signals": ["Pain interference", "Movement confidence", "Workload"],
+    "readiness": 84,
+    "observations": 168,
+    "missing": 5,
+    "method": "TIME_VARYING_gVAR",
+    "networkNote": "The simulated pain-work relationship changes across heavier and lighter work periods.",
+    "gate": "Check physical suitability with the treating professional before changing activity demands.",
+    "revision": "Reduce the task demand and add a work-context feasibility check.",
+    "hapa": {
+      "phase": "Action → maintenance",
+      "barrier": "Heavy workdays make an ambitious plan impractical.",
+      "when": "When I review tomorrow's shift",
+      "action": "I will choose one manageable activity step agreed with my care professional.",
+      "coping": "If demands are high, I will use the smaller agreed step and record the obstacle.",
+      "support": "Discuss an adjustment request with an occupational support contact.",
+      "check": "Track pain interference, movement confidence and work demands."
+    },
+    "next": "Refine the workload branch and retain the pain-sleep monitoring pair.",
+    "question": "What changes when the working day changes?"
+  },
+  {
+    "id": "maya",
+    "name": "Maya",
+    "age": 22,
+    "role": "University student",
+    "theme": "Overload, focus & uncertainty",
+    "color": "#efbb89",
+    "initials": "MY",
+    "headline": ["Start with her words.", "Keep the whole context."],
+    "complaint": "I keep worrying about what might happen if I fail. The same negative thoughts go round and round, and they interrupt my concentration. I struggle to stay engaged while studying and cannot filter out distractions. I wake again and again at night. I work evening shifts to cover rent, my deadlines overlap, and asking for support feels like another task.",
+    "person": [
+      "22 years old · university student",
+      "Combines studying and paid work",
+      "Values independence and competence"
+    ],
+    "context": [
+      "Overlapping deadlines",
+      "Evening paid shifts",
+      "Rent pressure and limited time"
+    ],
+    "criteria": [
+      {
+        "label": "Future-oriented worry",
+        "span": "worrying about what might happen if I fail",
+        "match": [
+          "with cognitive rumination / future_oriented_worry_rumination"
+        ]
+      },
+      {
+        "label": "Repetitive negative thinking",
+        "span": "negative thoughts go round and round",
+        "match": [
+          "with cognitive rumination / repetitive_negative_rumination_cycles"
+        ]
+      },
+      {
+        "label": "Concentration interference",
+        "span": "interrupt my concentration",
+        "match": [
+          "with cognitive rumination / rumination_impairs_concentration_or_task_performance"
+        ]
+      },
+      {
+        "label": "Sustained engagement",
+        "span": "struggle to stay engaged while studying",
+        "match": ["sustained attention / continuous engagement"]
+      },
+      {
+        "label": "Distraction filtering",
+        "span": "cannot filter out distractions",
+        "match": ["selective attention / filtering distractions"]
+      },
+      {
+        "label": "Interrupted sleep",
+        "span": "wake again and again at night",
+        "match": [
+          "sleep-maintenance insomnia / recurrent_intermittent_awakenings"
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "label": "Sleep diary",
+        "match": ["Circadian_and_Sleep_Tracking / Sleep_Diary"],
+        "links": [3, 5],
+        "impact": 0.66
+      },
+      {
+        "label": "Brief breath reset",
+        "match": ["Night_Awakenings_Support / Brief_Breath_Reset"],
+        "links": [0, 5],
+        "impact": 0.51
+      },
+      {
+        "label": "Worry postponement",
+        "match": ["Contain_and_Reorient / Worry_Postponement_Skill"],
+        "links": [0, 1, 2],
+        "impact": 0.8
+      },
+      {
+        "label": "Study skills support",
+        "match": [
+          "Cognitive_Remediation_and_Rehabilitation / Study_Skills_Training"
+        ],
+        "links": [2, 3, 4],
+        "impact": 0.77
+      },
+      {
+        "label": "Financial aid navigation",
+        "match": [
+          "Campus_Belonging_and_Support / Financial_Aid_Navigation_Support"
+        ],
+        "links": [0, 2],
+        "impact": 0.84
+      },
+      {
+        "label": "Supported first contact",
+        "match": ["Supported_First_Social_Contact_Planning"],
+        "links": [0, 3],
+        "impact": 0.63
+      },
+      {
+        "label": "Transference exploration",
+        "match": ["Core_Techniques / Transference_Exploration"],
+        "links": [0, 1],
+        "impact": 0.35
+      },
+      {
+        "label": "Graded task planning",
+        "match": ["Activation_Design / Graded_Task_Assignment"],
+        "links": [2, 3, 4],
+        "impact": 0.78
+      }
+    ],
+    "signals": ["Worry intensity", "Study engagement", "Sleep disruption"],
+    "readiness": 42,
+    "observations": 42,
+    "missing": 18,
+    "method": "CORRELATION",
+    "networkNote": "With this short simulated record, associations remain exploratory; no temporal model is claimed.",
+    "gate": "Use a lower-complexity analysis while more observations accumulate.",
+    "revision": "Keep the observation model small enough to fit the available record.",
+    "hapa": {
+      "phase": "Motivation → intention",
+      "barrier": "The plan feels too large to start during exam week.",
+      "when": "Before the first study block",
+      "action": "I will choose one small task and note what makes starting difficult.",
+      "coping": "If a shift changes my day, I will move the task to the next available block.",
+      "support": "Identify one campus contact for practical or financial support.",
+      "check": "Track worry, study engagement and the burden of check-ins."
+    },
+    "next": "Collect a longer record before considering a more complex network model.",
+    "question": "How much can the available data really support?"
+  },
+  {
+    "id": "noor",
+    "name": "Noor",
+    "age": 41,
+    "role": "Working family caregiver",
+    "theme": "Caregiving, worry & recovery",
+    "color": "#92ddc8",
+    "initials": "NO",
+    "headline": ["Support the person.", "Account for the system."],
+    "complaint": "Since taking on more care for my father, I feel close to burning out. I wake repeatedly during the night and feel tired all day. I keep imagining what could go wrong when I am away. The thoughts are hard to leave behind and make it difficult to concentrate at work. My siblings live far away, appointments keep shifting, and I rarely get uninterrupted time.",
+    "person": [
+      "41 years old · employed family caregiver",
+      "Values reliability and family connection",
+      "Needs flexible, accessible support"
+    ],
+    "context": [
+      "High unpaid care load",
+      "Distant family support",
+      "Unpredictable appointments"
+    ],
+    "criteria": [
+      {
+        "label": "Caregiver strain",
+        "span": "feel close to burning out",
+        "match": [
+          "middle_adulthood / emotional_development / resilience_optimization / prolonged_stress / caregiver_burnout_prevention"
+        ]
+      },
+      {
+        "label": "Interrupted sleep",
+        "span": "wake repeatedly during the night",
+        "match": [
+          "sleep-maintenance insomnia / recurrent_intermittent_awakenings"
+        ]
+      },
+      {
+        "label": "Daytime fatigue",
+        "span": "feel tired all day",
+        "match": ["with predominant somatic symptoms / fatigue"]
+      },
+      {
+        "label": "Anticipatory worry",
+        "span": "imagining what could go wrong when I am away",
+        "match": [
+          "with cognitive rumination / future_oriented_worry_rumination"
+        ]
+      },
+      {
+        "label": "Persistent rumination",
+        "span": "thoughts are hard to leave behind",
+        "match": [
+          "with cognitive rumination / difficulty_disengaging_from_ruminative_thoughts"
+        ]
+      },
+      {
+        "label": "Concentration interference",
+        "span": "difficult to concentrate at work",
+        "match": [
+          "with cognitive rumination / rumination_impairs_concentration_or_task_performance"
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "label": "Sleep diary",
+        "match": ["Circadian_and_Sleep_Tracking / Sleep_Diary"],
+        "links": [1, 2],
+        "impact": 0.7
+      },
+      {
+        "label": "Brief breath reset",
+        "match": ["Night_Awakenings_Support / Brief_Breath_Reset"],
+        "links": [1, 3],
+        "impact": 0.52
+      },
+      {
+        "label": "Worry postponement",
+        "match": ["Contain_and_Reorient / Worry_Postponement_Skill"],
+        "links": [3, 4, 5],
+        "impact": 0.76
+      },
+      {
+        "label": "If-then planning",
+        "match": [
+          "Goals_Values_and_Maintenance_Planning / Implementation_Intention_IfThen_Plans"
+        ],
+        "links": [0, 2, 5],
+        "impact": 0.71
+      },
+      {
+        "label": "Workplace adjustments",
+        "match": ["Workplace_Accommodations_Request_Support"],
+        "links": [0, 2, 5],
+        "impact": 0.82
+      },
+      {
+        "label": "Supported first contact",
+        "match": ["Supported_First_Social_Contact_Planning"],
+        "links": [0, 3, 4],
+        "impact": 0.86
+      },
+      {
+        "label": "Transference exploration",
+        "match": ["Core_Techniques / Transference_Exploration"],
+        "links": [3, 4],
+        "impact": 0.44
+      },
+      {
+        "label": "Graded task planning",
+        "match": ["Activation_Design / Graded_Task_Assignment"],
+        "links": [0, 2, 5],
+        "impact": 0.6
+      }
+    ],
+    "signals": ["Care demands", "Recovery time", "Worry intensity"],
+    "readiness": 61,
+    "observations": 84,
+    "missing": 12,
+    "method": "GGM",
+    "networkNote": "A reduced contemporaneous network illustrates shared variation; direction is not established.",
+    "gate": "Check practical support availability; avoid making self-management another unpaid demand.",
+    "revision": "Add a support contact and shorten the task to fit an unpredictable care day.",
+    "hapa": {
+      "phase": "Intention → action",
+      "barrier": "Care demands interrupt planned recovery time.",
+      "when": "After the daily care handover",
+      "action": "I will identify one short recovery window and one person who can help protect it.",
+      "coping": "If the handover is cancelled, I will ask for a smaller alternative window.",
+      "support": "Agree one practical request with family or an available support service.",
+      "check": "Track care demands, recovery opportunity and plan burden."
+    },
+    "next": "Reassess access to shared care and update the support-context links.",
+    "question": "What if the barrier is outside the individual?"
+  },
+  {
+    "id": "elias",
+    "name": "Elias",
+    "age": 68,
+    "role": "Retired teacher",
+    "theme": "Bereavement, connection & meaning",
+    "color": "#f2aabd",
+    "initials": "EL",
+    "headline": ["Make room for meaning.", "Find a workable next step."],
+    "complaint": "Since my partner died, I long for them every day and struggle to accept that they are gone. Life feels without meaning, and I have pulled away from friends because of the loss. I avoid places that remind me of us. I wake before dawn and cannot settle back into the day. I live alone, the bus service is limited, and I do not want an app that asks too much.",
+    "person": [
+      "68 years old · retired teacher",
+      "Values meaningful contact and choice",
+      "Prefers simple, low-frequency check-ins"
+    ],
+    "context": [
+      "Living alone after bereavement",
+      "Limited public transport",
+      "Low tolerance for digital burden"
+    ],
+    "criteria": [
+      {
+        "label": "Yearning after loss",
+        "span": "long for them every day",
+        "match": ["prolonged grief disorder / yearning_for_deceased"]
+      },
+      {
+        "label": "Difficulty accepting loss",
+        "span": "struggle to accept that they are gone",
+        "match": ["prolonged grief disorder / difficulty_accepting_death"]
+      },
+      {
+        "label": "Loss of meaning",
+        "span": "Life feels without meaning",
+        "match": ["prolonged grief disorder / meaninglessness_without_deceased"]
+      },
+      {
+        "label": "Social withdrawal",
+        "span": "pulled away from friends because of the loss",
+        "match": ["prolonged grief disorder / social_withdrawal_due_to_loss"]
+      },
+      {
+        "label": "Reminder avoidance",
+        "span": "avoid places that remind me of us",
+        "match": ["prolonged grief disorder / avoidance_of_reminders_of_loss"]
+      },
+      {
+        "label": "Early awakening",
+        "span": "wake before dawn",
+        "match": ["early-morning awakening insomnia / pre_dawn_awakening"]
+      }
+    ],
+    "candidates": [
+      {
+        "label": "Sleep diary",
+        "match": ["Circadian_and_Sleep_Tracking / Sleep_Diary"],
+        "links": [5],
+        "impact": 0.64
+      },
+      {
+        "label": "Brief breath reset",
+        "match": ["Night_Awakenings_Support / Brief_Breath_Reset"],
+        "links": [5],
+        "impact": 0.51
+      },
+      {
+        "label": "Grief and meaning work",
+        "match": ["Grief_Rituals_And_Meaning"],
+        "links": [0, 1, 2],
+        "impact": 0.83
+      },
+      {
+        "label": "Grief processing framework",
+        "match": ["Interpersonal_Therapy_Family / Grief_Processing_Framework"],
+        "links": [0, 1, 2, 5],
+        "impact": 0.78
+      },
+      {
+        "label": "Supported first contact",
+        "match": ["Supported_First_Social_Contact_Planning"],
+        "links": [2, 3, 4],
+        "impact": 0.88
+      },
+      {
+        "label": "Practical bereavement support",
+        "match": [
+          "Life_Stage_Transitions / Bereavement_Practical_Support_Service"
+        ],
+        "links": [1, 2, 3],
+        "impact": 0.81
+      },
+      {
+        "label": "Transference exploration",
+        "match": ["Core_Techniques / Transference_Exploration"],
+        "links": [0, 1, 2],
+        "impact": 0.55
+      },
+      {
+        "label": "Graded task planning",
+        "match": ["Activation_Design / Graded_Task_Assignment"],
+        "links": [3, 4],
+        "impact": 0.7
+      }
+    ],
+    "signals": [
+      "Loss-related distress",
+      "Meaningful contact",
+      "Sleep disruption"
+    ],
+    "readiness": 28,
+    "observations": 21,
+    "missing": 9,
+    "method": "DESCRIPTIVES",
+    "networkNote": "This sparse simulated record supports descriptive monitoring only, not a fitted network.",
+    "gate": "Respect grief context and preference; symptom labels do not establish a grief disorder.",
+    "revision": "Reduce check-in frequency and offer a non-digital route for the support contact.",
+    "hapa": {
+      "phase": "Motivation → intention",
+      "barrier": "Travel and digital burden make reconnection difficult.",
+      "when": "At a time I choose this week",
+      "action": "I will consider one meaningful contact, by phone or in person, at my own pace.",
+      "coping": "If travel is difficult, I can choose a short telephone conversation instead.",
+      "support": "Explore a practical bereavement support contact with consent.",
+      "check": "Use brief, optional check-ins on connection, distress and sleep."
+    },
+    "next": "Retain descriptive monitoring and review preferred forms of contact.",
+    "question": "Can the next step fit the life that remains?"
+  }
+]

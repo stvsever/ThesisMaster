@@ -1,0 +1,60 @@
+{
+  "verification": "ffprobe metadata and complete ffmpeg decode",
+  "films": [
+    {
+      "case": "lana",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "duration": 174,
+      "frames": 4176,
+      "megabytes": 10.57,
+      "fullDecode": "passed",
+      "storyboardFrames": 16
+    },
+    {
+      "case": "maarten",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "duration": 174,
+      "frames": 4176,
+      "megabytes": 10.76,
+      "fullDecode": "passed",
+      "storyboardFrames": 16
+    },
+    {
+      "case": "maya",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "duration": 174,
+      "frames": 4176,
+      "megabytes": 10.81,
+      "fullDecode": "passed",
+      "storyboardFrames": 16
+    },
+    {
+      "case": "noor",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "duration": 174,
+      "frames": 4176,
+      "megabytes": 10.6,
+      "fullDecode": "passed",
+      "storyboardFrames": 16
+    },
+    {
+      "case": "elias",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "duration": 174,
+      "frames": 4176,
+      "megabytes": 10.7,
+      "fullDecode": "passed",
+      "storyboardFrames": 16
+    }
+  ]
+}
