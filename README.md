@@ -1,8 +1,6 @@
 <div align="center">
 
-  <h1>Toward Next-Generation Mental Health Applications: An Adaptive Approach to Idiographic Modelling by Leveraging Ontology-based Agentic AI</h1>
-
-  <h2>🐦‍🔥 PHOENIX Engine</h2>
+  <h1>🐦‍🔥 PHOENIX Engine</h1>
 
   <p>The PHOENIX engine conceptualises mental health support as a closed-loop workflow that iteratively optimizes the digital intervention proposal based on multi-modal data from previous collection cycles.</p>
 
@@ -31,7 +29,6 @@
 - [💻 Run from CLI](#run-from-cli)
 - [🖥️ Run from Frontend](#run-from-frontend)
 - [📦 Outputs and Validation](#outputs-and-validation)
-- [📊 PHOENIX Engine Evaluation Framework](#phoenix-engine-evaluation-framework)
 - [✅ Quality Assurance and CI/CD](#quality-assurance-and-cicd)
 - [📜 License](#license)
 
@@ -231,7 +228,6 @@ MASTERPROEF/
 ├── evaluation/                     # Sequential scripts + integrated pipeline + QA/research
 │   ├── sequential/                    # Stage-wise run_step.py scripts (00..08)
 │   ├── integrated_pipeline/           # run_pipeline.py and run_engine_pipeline.py
-│   ├── survey_analysis/               # Double-blind LLM-as-judge evaluation (10 HCP cases, 5 parts, 38 dimensions)
 │   └── quality_and_research/          # pytest suites, schema contracts, research reporting
 ├── docker/                         # Dockerfile + docker-compose for reproducible deployment
 ├── .github/                        # CI/CD workflows
@@ -335,30 +331,7 @@ Key artifacts to inspect:
   - `07_hapa_digital_intervention/<profile_id>/step05_hapa_intervention.md`
   - `08_treatment_translation_communication/<profile_id>/treatment_translation_communication.md`
 - Time-varying network animation: `04_time_series_analysis/<profile_id>/tv_network_animation.gif`
-- Publication-ready PNGs: `09_impact_visualizations/<profile_id>/` (for human healthcare expert comparison)
-
----
-
-<a id="phoenix-engine-evaluation-framework"></a>
-
-## 📊 PHOENIX Engine Evaluation Framework
-
-The evaluation framework assesses PHOENIX output quality across five clinical tasks using a double-blind LLM-as-judge design. For each of 10 clinical cases, PHOENIX and HCP outputs are independently rated on a bipolar −10 to +10 absolute quality scale across 38 dimensions by a `google/gemini-3.1-flash-lite-preview` judge in three separate runs — without knowledge of source identity — producing 2,340 quality ratings. Effects are quantified via linear mixed-effects models (`quality_score ~ entity + (1|case) + (1|judge_run)`), standardized as Cohen's dz, and tested for equivalence against a ±1.5-point margin.
-
-![PHOENIX Evaluation Workflow Overview](evaluation/survey_analysis/llm_as_judge/overview/evaluation_overview.png)
-
-The `evaluation/survey_analysis/` directory implements a five-part double-blind evaluation of PHOENIX against 10 licensed HCPs (one per case). Both sources receive identical Qualtrics-derived inputs and complete the same five clinical tasks; outputs are rated anonymously by an LLM judge across 38 dimensions on a bipolar −10 to +10 scale.
-
-Per-part effects are estimated with `quality_score ~ entity_ec + (1|case_id) + (1|judge_run)` (PHOENIX = +0.5, HCP = −0.5), standardized as Cohen's dz, and tested for equivalence against a ±1.5-point margin (TOST). A cross-part holistic synthesis and supplementary ICC, calibration, and sensitivity diagnostics are run automatically.
-
-Run the full pipeline:
-
-```bash
-export OPENROUTER_API_KEY=...
-python evaluation/survey_analysis/pipeline.py --mode real --judge openrouter --n-runs 3
-```
-
-Results are saved under `evaluation/survey_analysis/results/` with publication-ready figures and statistical reports.
+- Publication-ready PNGs: `09_impact_visualizations/<profile_id>/`
 
 ---
 
