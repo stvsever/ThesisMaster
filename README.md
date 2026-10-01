@@ -119,7 +119,7 @@ cd docker
 docker compose up --build
 ```
 
-This starts the Flask frontend on [http://127.0.0.1:5050](http://127.0.0.1:5050). The setup bundles all dependencies, mounts pipeline outputs back to the host, and supports CLI runs through the `phoenix-cli` service. See [docker/README.md](./docker/README.md) for the full workflow.
+The setup bundles all dependencies, mounts pipeline outputs back to the host, and supports CLI runs through the `phoenix-cli` service. See [docker/README.md](./docker/README.md) for the full workflow.
 
 ---
 
@@ -127,13 +127,12 @@ This starts the Flask frontend on [http://127.0.0.1:5050](http://127.0.0.1:5050)
 
 ## 🗂️ Repository Structure
 
-The main codebase is organized around `src/` and `evaluation/`. Inside `src/`, the canonical runtime split is now `src/frontend/` for the Flask application and `src/backend/` for the engine, ontologies, shared runtime utilities, and architecture assets.
+The main codebase is organized around `src/` and `evaluation/`. Inside `src/`, `src/backend/` holds the engine, ontologies, shared runtime utilities, and architecture assets.
 
 ```text
 MASTERPROEF/
 ├── src/                            # Canonical application source tree
 │   ├── backend/                      # Engine runtime, SystemComponents, utils, orchestrator, overview assets
-│   ├── frontend/                     # Flask app, UI routes, runtime workspace integration
 │   └── README.md                     # Architecture overview for the `src/` tree
 ├── evaluation/                     # Sequential scripts + integrated pipeline + QA/research
 │   ├── sequential/                    # Stage-wise run_step.py scripts (00..08)
