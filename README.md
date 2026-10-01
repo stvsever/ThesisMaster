@@ -23,7 +23,6 @@
 - [🚀 Quick Setup](#quick-setup)
 - [🗂️ Repository Structure](#repository-structure)
 - [💻 Run from CLI](#run-from-cli)
-- [🖥️ Run from Frontend](#run-from-frontend)
 - [📦 Outputs and Validation](#outputs-and-validation)
 - [✅ Quality Assurance and CI/CD](#quality-assurance-and-cicd)
 - [📜 License](#license)
@@ -128,12 +127,6 @@ This starts the Flask frontend on [http://127.0.0.1:5050](http://127.0.0.1:5050)
 
 ## 🗂️ Repository Structure
 
-A client-side graph creator (GitNexus) was used to generate a comprehensive knowledge graph of the entire codebase; its component interactions are provided below:
-
-<div align="center">
-  <img src="src/backend/overview/gitnexus_overview.png" alt="PHOENIX GitNexus Codebase Graph" width="800" />
-</div>
-
 The main codebase is organized around `src/` and `evaluation/`. Inside `src/`, the canonical runtime split is now `src/frontend/` for the Flask application and `src/backend/` for the engine, ontologies, shared runtime utilities, and architecture assets.
 
 ```text
@@ -141,7 +134,6 @@ MASTERPROEF/
 ├── src/                            # Canonical application source tree
 │   ├── backend/                      # Engine runtime, SystemComponents, utils, orchestrator, overview assets
 │   ├── frontend/                     # Flask app, UI routes, runtime workspace integration
-│   ├── __init__.py                   # Package root for `src.frontend` and `src.backend`
 │   └── README.md                     # Architecture overview for the `src/` tree
 ├── evaluation/                     # Sequential scripts + integrated pipeline + QA/research
 │   ├── sequential/                    # Stage-wise run_step.py scripts (00..08)
@@ -187,45 +179,6 @@ python evaluation/integrated_pipeline/run_pipeline.py --mode synthetic_v1 \
   --cycles 2 \
   --profile-memory-window 3
 ```
-
-### D. Deterministic mode (no LLM)
-
-```bash
-python evaluation/integrated_pipeline/run_pipeline.py --mode synthetic_v1 --disable-llm
-```
-
-Runtime note:
-- If a cycle is `readiness_aligned` and only contemporaneous correlation analysis is feasible, PHOENIX now applies a correlation-baseline impact fallback so downstream Step-03/04/05 and communication stages still execute and persist outputs.
-- If Step-02 model generation fails (for example provider/network failure), PHOENIX now builds complaint-grounded fallback Step-02 artifacts directly from Step-01 operationalization output, instead of copying unrelated historical profile artifacts.
-- For iterative cycles started via `--start-from-pseudodata`, PHOENIX now resolves `initial_model_runs_root` from the active run lineage (same run id) so Step-03/04 stay anchored to the current cycle history.
-
----
-
-<a id="run-from-frontend"></a>
-
-## 🖥️ Run from Frontend
-
-> ⚠️ **The Flask frontend (`src/frontend/`) is currently kept out of this public repository while it is under active development.** Once the UI layer reaches a stable, demonstration-ready state, it will be pushed alongside the backend. Until then, the section below documents the intended entry point and feature set, but the corresponding source files are not part of the tracked codebase. Reach out if you need early access for evaluation purposes.
-
-Use the following command (once the frontend is published) to start the Flask UI:
-
-```bash
-python src/frontend/app.py
-# or
-python evaluation/integrated_pipeline/run_pipeline.py --ui
-```
-
-Open [http://127.0.0.1:5050](http://127.0.0.1:5050).
-
-Planned frontend features:
-- Intake for complaint/person/environment context
-- Live component status and streaming logs
-- One-click full end-to-end run from free-text complaint (with iterative cycle controls)
-- Step-level run controls and advanced configuration toggles
-- Wizard-style iterative execution: INTAKE → MODEL → DATA → ANALYSIS → INTERVENTION → MODEL (cycle N+1)
-- Interactive Chart.js dashboard: all visualizations are dynamic (no static PNGs in UI)
-- Canvas-based animated network visualization with per-frame scrubbing
-- Session persistence and cohort batch execution
 
 ---
 
