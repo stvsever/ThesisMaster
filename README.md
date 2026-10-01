@@ -4,8 +4,6 @@
 
   <p>The PHOENIX engine conceptualises mental health support as a closed-loop workflow that iteratively optimizes the digital intervention proposal based on multi-modal data from previous collection cycles.</p>
 
-  <p>(Personalized Hierarchical Optimization Engine for Navigating Insightful eXplorations)</p>
-
   <p>
     <a href="#"><img src="https://img.shields.io/badge/Type-Software_Tool-4f46e5.svg?style=flat-square" alt="Software Tool" /></a>
     <a href="#"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square" alt="License GPL v3" /></a>
@@ -19,11 +17,9 @@
 
 ## 📋 Table of Contents
 
-- [🏛️ Academic Context](#academic-context)
-- [🧭 PHOENIX Scope](#phoenix-scope)
+- [📄 Abstract](#abstract)
 - [🔁 End-to-End Stage Map](#end-to-end-stage-map)
 - [🐦‍🔥 PHOENIX Ontology](#phoenix-ontology)
-- [🏗️ Technical Architecture](#technical-architecture)
 - [🚀 Quick Setup](#quick-setup)
 - [🗂️ Repository Structure](#repository-structure)
 - [💻 Run from CLI](#run-from-cli)
@@ -34,30 +30,11 @@
 
 ---
 
-<a id="academic-context"></a>
+<a id="abstract"></a>
 
-## 🏛️ Academic Context
+## 📄 Abstract
 
-This research-grade software is being created for a Ghent University **master's thesis** that aims to enhance the clinical translation abilities of longitudinal **mental health applications**: toward an adaptive approach for **idiographic modelling** by using **ontology-based multi-agentic workflows**.
-
-| **Field** | **Value** |
-|---|---|
-| **Institution** | Ghent University |
-| **Author** | Stijn Van Severen |
-| **Supervisors** | Geert Crombez, Annick De Paepe |
-
----
-
-<a id="phoenix-scope"></a>
-
-## 🧭 PHOENIX Scope
-
-PHOENIX separates two concerns:
-
-- **Core engine flow**: clinical/analytic decision flow from intake to iterative model carry-over.
-- **Research support flow**: visualization, QA, and research reporting for validation and communication.
-
-This separation keeps scientific validation transparent without mixing support tasks into core decision logic.
+Longitudinal mental health applications collect rich person-specific data, yet translating those data into concrete, personalized intervention decisions remains difficult. PHOENIX addresses this gap with an adaptive approach to idiographic modelling that is built on ontology-based multi-agentic workflows. Starting from a free-text complaint, the engine operationalizes the problem into measurable criteria, constructs an initial observation model, analyses the resulting time-series dynamics, identifies biopsychosocially balanced treatment targets, and generates a digital intervention grounded in the Health Action Process Approach (HAPA). Five sub-ontologies (CRITERION, PREDICTOR, PERSON, CONTEXT, HAPA) constrain every reasoning step, and each generative actor is paired with a critic agent that keeps outputs bounded and auditable. Because the output of each cycle seeds the next, PHOENIX operates as a closed loop in which the weighting of idiographic and nomothetic evidence adapts as more person-specific data become available.
 
 ---
 
@@ -67,7 +44,7 @@ This separation keeps scientific validation transparent without mixing support t
 
 PHOENIX is a modular, multi-agent system that starts from a free-text mental-health complaint, builds an initial observation model, analyses idiographic time-series dynamics through the Hierarchical Updating Algorithm (HUA), proposes biopsychosocially-balanced treatment targets, generates a HAPA-grounded digital intervention, and packages iterative updates for the next cycle. Every generative actor stage is paired with a critic agent that issues a bounded PASS / REVISE decision on a weighted composite score, which gives the full pipeline an auditable trail without sacrificing generative flexibility.
 
-![PHOENIX engine — Sequential Flowchart of the Multi-Agent System Architecture (actor–critic per stage; readiness / time-series / impact / candidate-selector flow)](src/backend/overview/create_flowchart.png)
+![PHOENIX engine: Sequential Flowchart of the Multi-Agent System Architecture (actor-critic per stage; readiness / time-series / impact / candidate-selector flow)](src/backend/overview/create_flowchart.png)
 
 ---
 
@@ -77,68 +54,9 @@ PHOENIX is a modular, multi-agent system that starts from a free-text mental-hea
 
 Five sub-ontologies constrain all reasoning and output structure across the PHOENIX pipeline: (1) **CRITERION** (i.e., mental health problem space: DSM-5TR, ICD-10, RDoC-701, non-clinical wellbeing), (2) **PREDICTOR** (i.e., intervention solution space: BIO / PSYCHO / SOCIAL branches), (3) **PERSON** (i.e., stable individual-level attributes across 18 domains), (4) **CONTEXT** (i.e., dynamic situational states: internal and external environment), and (5) **HAPA** (i.e., behaviour change scaffold: motivation phase, volition phase, barriers taxonomy, coping strategy library). See [`src/backend/SystemComponents/PHOENIX_ontology/`](src/backend/SystemComponents/PHOENIX_ontology/README.md) for the full structured breakdown.
 
-![PHOENIX Aggregated Ontology](src/backend/SystemComponents/PHOENIX_ontology/aggretated/phoenix_ontology_root_v1.png)
-
----
-
-<a id="technical-architecture"></a>
-
-## 🏗️ Technical Architecture
-
-### Five PHOENIX Ontologies
-
-All stages are constrained by five stable ontologies that enforce structural guarantees across the full pipeline:
-
-| Ontology | Role | Source |
-|---|---|---|
-| **CRITERION** | Operationalized mental health variables (DSM-5-TR, RDoC) | `src/backend/SystemComponents/PHOENIX_ontology/separate/CRITERION/` |
-| **PREDICTOR** | Hierarchically structured treatment-solution entities used to model actionable intervention pathways and candidate refinement space | `src/backend/SystemComponents/PHOENIX_ontology/separate/PREDICTOR/` |
-| **PERSON** | Individual characteristics (demographics, comorbidity, history) | `src/backend/SystemComponents/PHOENIX_ontology/separate/PERSON/` |
-| **CONTEXT** | Situational and environmental factors | `src/backend/SystemComponents/PHOENIX_ontology/separate/CONTEXT/` |
-| **HAPA** | Health Action Process Approach (barriers, coping, phases) | `src/backend/SystemComponents/PHOENIX_ontology/separate/HAPA/` |
-
-### Runtime Multi-Agent Design
-
-In the real integrated pipeline, all decision-making stages use live LLM reasoning in normal operation, but they do so with different scaffolds. Step 01 combines always-on complaint decomposition, a local LLM critic loop, hybrid ontology retrieval, and optional final leaf adjudication, while later stages use explicit actor-critic loops with bounded iterations and heuristic fallback only for deterministic or degraded runs.
-
-| Integrated Step | Runtime Component | Live LLM Use | Critic Dimensions | Core Runtime Method |
-|---|---|---|---|---|
-| 01 | Complaint Operationalization Agent | Yes, always-on for free-text decomposition and local critic review; optional again for final leaf adjudication | schema_validity, coverage_grounding, atomicity_nonoverlap, granularity_fit, current_actionability | LLM decomposition + local LLM critic refinement + HTSSF retrieval (dense + BM25 + token overlap + fuzzy) |
-| 02 | Initial Observation Model Constructor | Yes, real-time HyDE generation and structured model construction | predictor_grounding, criterion_continuity, ontology_strictness, evidence_quality | HyDE-based predictor RAG + actor-critic refinement |
-| 03 | Treatment Target Identifier | Yes, real-time structured actor output when enabled | safety, domain_boundary, lineage_consistency | BFS candidate selector + idiographic-nomothetic fusion |
-| 04 | Updated Observation Model Constructor | Yes, real-time structured actor output when enabled | safety, domain_boundary, lineage_consistency | BFS-guided hierarchical model update with ontology-constrained refinement |
-| 05 | HAPA Intervention Mapper | Yes, real-time structured intervention generation when enabled | reasoning_quality, evidence_grounding, hapa_consistency, medical_safety | Barrier scoring: 0.60·predictor + 0.20·profile + 0.15·context + 0.05·complaint |
-
-Runtime interpretation:
-
-- **Step 01** is not just retrieval: it always begins with LLM-based complaint decomposition, with no non-LLM fallback for that decomposition phase, and then runs a local structured LLM critic loop to review complaint coverage, granularity, overlap, and present-state actionability before mapping to ontology leaves.
-- **Step 01** still uses hybrid retrieval for ontology grounding, and can optionally run an additional LLM adjudication pass to choose the final leaf or return `UNMAPPED`.
-- **Steps 02, 03, 04, and 05** use live LLM calls in normal operation, with component-specific actor-critic prompts, bounded iterations, and heuristic fallback paths for deterministic or degraded runs.
-- The intervention module is **Step 05** in the actual integrated pipeline, even if some earlier summaries compressed it into a four-stage abstraction.
-
-**Optional DAG orchestrator** (`src/backend/orchestrator.py`): for complex tasks, a flexible orchestrator creates DAG-based parallel/sequential execution plans — otherwise the pipeline runs sequentially (primary evaluation path).
-
-### Hierarchical Updating Algorithm (HUA)
-
-Quantitative backbone bridging EMA data to adaptive model weighting:
-
-1. **Readiness classifier** — stationarity (ADF/KPSS), collinearity, effective sample size → tier selection (tv-gVAR / gVAR / GGM / correlation / descriptives)
-2. **Network time-series analyst** — kernel-smoothed VAR(1), L1-penalized stationary gVAR, partial correlations (Ledoit-Wolf shrinkage), time-varying GIF animations
-3. **Momentary impact quantifier** — leave-one-predictor-out MSE delta + coefficient magnitude composite
-4. **BFS candidate selector** — `score = 0.45·mapping + 0.25·HyDE + 0.20·idiographic_anchor + 0.10·domain_bonus`
-
-**Adaptive idiographic-nomothetic weighting** per cycle:
-```
-idiographic_weight = clamp(0.30 + 0.50 × readiness_score / 100)
-nomothetic_weight  = 1.0 - idiographic_weight
-```
-
-### Iterative Cycle Design
-
-PHOENIX implements a breadth-first iterative algorithm across cycles:
-
-1. **Cycle N** produces: criterion leaf, initial model, pseudodata, HUA results, treatment targets, HAPA intervention
-2. **Cycle N+1** seeds from Cycle N via a history ledger: impact scores → `idiographic_anchor` in BFS; prior cycle scores modulate `domain_bonus`; `composite_score = 0.35·similarity + 0.25·impact[N] + 0.15·target_scores + 0.10·priority_scores + 0.15·quality_scores`
+<div align="center">
+  <img src="src/backend/SystemComponents/PHOENIX_ontology/aggretated/phoenix_ontology.png" alt="PHOENIX Aggregated Ontology: all five sub-ontologies" width="1000" />
+</div>
 
 ---
 
@@ -305,7 +223,7 @@ Planned frontend features:
 - One-click full end-to-end run from free-text complaint (with iterative cycle controls)
 - Step-level run controls and advanced configuration toggles
 - Wizard-style iterative execution: INTAKE → MODEL → DATA → ANALYSIS → INTERVENTION → MODEL (cycle N+1)
-- Interactive Chart.js dashboard — all visualizations are dynamic (no static PNGs in UI)
+- Interactive Chart.js dashboard: all visualizations are dynamic (no static PNGs in UI)
 - Canvas-based animated network visualization with per-frame scrubbing
 - Session persistence and cohort batch execution
 
